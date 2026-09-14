@@ -1,6 +1,16 @@
-
 # External reference models
 reference/dekay-vpin-cabinet/
 
 # Local CAD working/audit files
 .work/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# FreeCAD recovery/backup files
+*.FCStd1
+*.FCBak
+
+# Generated export products (recreate from source)
+exports/generated/
