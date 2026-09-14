@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "status": "engineering-preview-not-approved-for-purchase-or-cnc",
   "playfield": {
     "target_open_angle_deg": 70.0,
@@ -9,17 +9,44 @@
     "hinge_axis_inset_below_cabinet_top_mm": 38.0,
     "cradle_mass_estimate_kg": 3.5,
     "moving_cg_forward_of_hinge_mm": 466.0,
+    "oled_orientation": {
+      "native_left_edge_maps_to": "cabinet_front",
+      "native_right_edge_maps_to": "cabinet_rear",
+      "native_top_edge_maps_to": "cabinet_left",
+      "native_bottom_edge_maps_to": "cabinet_right",
+      "rationale": "keeps the native horizontal VESA center at Y=466 mm and makes the verified vertical VESA offsets explicit across cabinet X; orientation remains reversible if connector access later favors the opposite cross-cabinet mapping"
+    },
+    "lg_c5_mechanical_drawing": {
+      "status": "verified-from-LG-2025-detail-dimension-drawing",
+      "source_url": "https://www.lge.co.kr/kr/tv/tv_size_2025.pdf",
+      "model": "OLED42C5",
+      "vesa_horizontal_mm": 300.0,
+      "vesa_vertical_mm": 200.0,
+      "vesa_left_offset_mm": 316.0,
+      "vesa_right_offset_mm": 316.0,
+      "vesa_top_offset_mm": 134.0,
+      "vesa_bottom_offset_mm": 207.0,
+      "vesa_center_native_x_mm": 466.0,
+      "vesa_center_native_y_mm": 234.0,
+      "rear_feature_AA_mm": 882.0,
+      "rear_feature_BB_mm": 41.0,
+      "rear_feature_CC_mm": 499.0,
+      "rear_feature_DD_mm": 25.0,
+      "note": "LG drawing dimensions use rounded millimetres; top+VESA+bottom = 541 mm versus published 540 mm overall height. Use drawing hole coordinates for bracket design and verify on the physical TV before machining final VESA plate."
+    },
     "cradle": {
       "concept": "two longitudinal 20x40 aluminum T-slot rails plus an aluminum VESA plate and full-strength rear hinge crossmember",
       "longitudinal_rail_width_mm": 40.0,
       "longitudinal_rail_height_mm": 20.0,
       "longitudinal_rail_length_mm": 900.0,
       "rail_center_spacing_mm": 200.0,
+      "rail_centers_follow_verified_vesa_columns": true,
       "vesa_plate_width_mm": 360.0,
       "vesa_plate_length_mm": 360.0,
       "vesa_plate_thickness_mm": 4.0,
       "vesa_center_from_oled_front_mm": 466.0,
-      "vesa_center_position_confirmed": false,
+      "vesa_center_across_oled_mm": 234.0,
+      "vesa_center_position_confirmed": true,
       "hinge_shaft_diameter_preview_mm": 12.0
     },
     "gas_spring_candidate": {
