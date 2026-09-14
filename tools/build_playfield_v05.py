@@ -28,6 +28,14 @@ def load(path):
         return json.load(fh)
 
 
+def top_z(cab, y):
+    run = cab["side_length_mm"] - cab["rear_top_flat_mm"]
+    if y <= run:
+        rise = cab["rear_height_mm"] - cab["front_height_mm"]
+        return cab["front_height_mm"] + rise * (y / run)
+    return cab["rear_height_mm"]
+
+
 def add_shape(doc, group, name, label, shape, transparency=0):
     obj = doc.addObject("PartDesign::Feature", name)
     obj.Label = label
@@ -45,6 +53,11 @@ def cylinder_between(a, b, radius):
     if vec.Length <= 1e-6:
         raise RuntimeError("Cannot create zero-length cylinder")
     return Part.makeCylinder(radius, vec.Length, a, vec)
+
+
+def quantity_value(q):
+    """Return the numeric value of a FreeCAD Quantity/property in document units."""
+    return float(q.Value if hasattr(q, "Value") else q)
 
 
 def main():
@@ -85,12 +98,18 @@ def main():
     inner = outer - 2.0 * wood
     tv_long = oled["native_width_mm"]
     tv_cross = oled["native_height_mm"]
-    alpha = math.radians(float(v04.CabinetSlope))
-    alpha_deg = math.degrees(alpha)
-    hinge_y = float(v04.HingeY)
-    hinge_z = float(v04.HingeZ)
+    tv_depth = oled["max_depth_mm"]
+    alpha_deg = quantity_value(v04.CabinetSlope)
+    alpha = math.radians(alpha_deg)
+    hinge_y = quantity_value(v04.HingeY)
+    hinge_z = quantity_value(v04.HingeZ)
     open_deg = svc["relative_open_angle_deg"]
     y0 = p4["oled_front_setback_mm"]
+    z0 = (
+        top_z(cab, y0)
+        - p4["glass_clearance_normal_mm"]
+        - tv_depth * math.cos(alpha)
+    )
 
     # Conservative backbox packaging envelope. The dimensions are from the
     # reference model; placement remains explicitly provisional until audited.
@@ -102,7 +121,7 @@ def main():
         bk["height_mm"],
         App.Vector(bk_x, bk["front_y_mm"], bk["bottom_z_mm"]),
     )
-    keepout_obj = add_shape(
+    add_shape(
         doc,
         group,
         "BackboxKeepoutV05",
@@ -152,8 +171,8 @@ def main():
         25,
     )
 
-    # VESA adjustment zone: this is deliberately NOT a hole pattern. The exact
-    # VESA centre location on the LG chassis must be measured/confirmed first.
+    # VESA adjustment zone: deliberately NOT a hole pattern. The exact VESA
+    # centre location on the LG chassis must be measured/confirmed first.
     zone_w = refine["vesa_adjustment_zone_width_mm"]
     zone_l = refine["vesa_adjustment_zone_length_mm"]
     zone_t = refine["vesa_adjustment_zone_thickness_mm"]
@@ -166,14 +185,7 @@ def main():
         App.Vector(zone_x, zone_local_y, -zone_t),
     )
     zone.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), alpha_deg)
-    # Reuse the v0.4 closed OLED origin by reading the closed shape minimum X
-    # and documented longitudinal start. The small Z offset keeps the zone on
-    # the underside side of the OLED envelope.
-    closed_bb = closed_obj.Shape.BoundBox
-    # z0 follows the known closed shape before local rotation closely enough
-    # for a packaging zone; it is not a manufacturing coordinate.
-    z_anchor = closed_bb.ZMin - 2.0
-    zone.translate(App.Vector(0, y0, z_anchor))
+    zone.translate(App.Vector(0, y0, z0))
     add_shape(
         doc,
         group,
@@ -193,9 +205,11 @@ def main():
     x_prop = wood + 12.0
     fixed_pt = App.Vector(x_prop, fixed_y, fixed_z)
     moving_pt = App.Vector(x_prop, moving_y, moving_z)
+    prop_vec = moving_pt.sub(fixed_pt)
+    prop_length = prop_vec.Length
     prop_radius = 0.5 * sp["bar_envelope_diameter_mm"]
     prop_shape = cylinder_between(fixed_pt, moving_pt, prop_radius)
-    prop_obj = add_shape(
+    add_shape(
         doc,
         group,
         "SafetyPropOpenV05",
@@ -242,7 +256,7 @@ def main():
     group.addProperty("App::PropertyLength", "MinimumBackboxYMargin", "Engineering")
     group.MinimumBackboxYMargin = max(0.0, min_backbox_y_margin)
     group.addProperty("App::PropertyLength", "SafetyPropLength", "Engineering")
-    group.SafetyPropLength = prop_obj.Shape.BoundBox.DiagonalLength
+    group.SafetyPropLength = prop_length
     group.addProperty("App::PropertyString", "GasStrutCandidates", "Engineering")
     group.GasStrutCandidates = ", ".join(
         f"{int(v)} N" for v in p5["gas_strut_force_candidates_n"]
@@ -263,7 +277,7 @@ def main():
     print(f"Hinge Y/Z                    {hinge_y:.1f} / {hinge_z:.1f} mm")
     print(f"Backbox keepout front Y      {bk['front_y_mm']:.1f} mm")
     print(f"Minimum sweep Y margin       {min_backbox_y_margin:.1f} mm")
-    print(f"Safety prop endpoint length  {(moving_pt-fixed_pt).Length:.1f} mm")
+    print(f"Safety prop endpoint length  {prop_length:.1f} mm")
     if collisions:
         print("Sweep collision              YES (provisional keepout)")
         for deg, vol in collisions:
