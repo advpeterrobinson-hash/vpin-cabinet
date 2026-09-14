@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "status": "engineering-preview-not-approved-for-purchase-or-cnc",
+  "playfield": {
+    "target_open_angle_deg": 70.0,
+    "oled_front_setback_mm": 44.4,
+    "oled_face_inset_below_cabinet_top_mm": 8.0,
+    "hinge_rear_gap_mm": 8.0,
+    "hinge_axis_inset_below_cabinet_top_mm": 38.0,
+    "cradle_mass_estimate_kg": 3.5,
+    "moving_cg_forward_of_hinge_mm": 466.0,
+    "cradle": {
+      "concept": "two longitudinal 20x40 aluminum T-slot rails plus an aluminum VESA plate and full-strength rear hinge crossmember",
+      "longitudinal_rail_width_mm": 40.0,
+      "longitudinal_rail_height_mm": 20.0,
+      "longitudinal_rail_length_mm": 900.0,
+      "rail_center_spacing_mm": 200.0,
+      "vesa_plate_width_mm": 360.0,
+      "vesa_plate_length_mm": 360.0,
+      "vesa_plate_thickness_mm": 4.0,
+      "vesa_center_from_oled_front_mm": 466.0,
+      "vesa_center_position_confirmed": false,
+      "hinge_shaft_diameter_preview_mm": 12.0
+    },
+    "gas_spring_candidate": {
+      "status": "kinematic-candidate-not-approved-for-purchase",
+      "quantity": 2,
+      "reference_family": "SUSPA Liftline 16-1 dimensional class or equivalent",
+      "manufacturer_reference_url": "https://www.suspa.com/global/products/gas-struts/gas-struts-type-16-1",
+      "extended_length_mm": 316.0,
+      "stroke_mm": 135.0,
+      "nominal_extension_force_f1_n": 260.0,
+      "assumed_force_ratio_f2_over_f1": 1.25,
+      "moving_mount_forward_of_hinge_mm": 95.0,
+      "fixed_mount_forward_of_hinge_mm": 200.0,
+      "fixed_mount_below_hinge_mm": 180.0,
+      "minimum_end_travel_reserve_mm": 8.0,
+      "preferred_closed_assist_ratio_max": 0.9,
+      "preferred_open_assist_ratio_min": 1.1,
+      "rod_down_when_closed": true
+    },
+    "safety_prop": {
+      "required": true,
+      "concept": "independent manual hood-style prop rod or positive mechanical stay",
+      "final_hardware_selected": false
+    }
+  },
+  "validation": {
+    "angle_step_deg": 5.0,
+    "gravity_m_s2": 9.81,
+    "minimum_oled_side_skin_mm": 8.0,
+    "require_gas_spring_travel_reserve": true,
+    "require_closed_gravity_dominant": true,
+    "require_open_gas_assist_dominant": true
+  }
+}
