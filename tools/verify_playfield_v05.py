@@ -74,10 +74,9 @@ if collisions:
 if min_y_margin < 20.0:
     fail(f"minimum provisional backbox Y margin below 20 mm: {min_y_margin:.1f} mm")
 
-prop = doc.getObject("SafetyPropOpenV05").Shape
-prop_diag = prop.BoundBox.DiagonalLength
-if not (350.0 <= prop_diag <= 800.0):
-    fail(f"safety prop packaging diagonal unexpected: {prop_diag:.1f} mm")
+prop_len = float(group.SafetyPropLength.Value)
+if not (350.0 <= prop_len <= 800.0):
+    fail(f"safety prop packaging length unexpected: {prop_len:.1f} mm")
 
 if cfg["manufacturing_ready"] is not False:
     fail("v0.5 configuration must remain non-manufacturing-ready")
@@ -89,7 +88,7 @@ print("PASS  PlayfieldServiceV05 group exists")
 print(f"PASS  generated objects present/valid: {len(required)}")
 print(f"PASS  OLED sweep states clear provisional backbox keepout: {len(cfg['sweep']['angles_deg'])}")
 print(f"PASS  minimum provisional backbox Y margin: {min_y_margin:.1f} mm")
-print(f"PASS  positive safety-prop packaging envelope present: ~{prop_diag:.1f} mm")
+print(f"PASS  positive safety-prop packaging envelope present: {prop_len:.1f} mm")
 print("PASS  v0.5 remains explicitly non-manufacturing-ready")
 print("STATUS  v0.5 headless geometry verification passed")
 
