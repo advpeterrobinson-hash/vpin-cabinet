@@ -1,0 +1,33 @@
+name: Engineering validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - 'feat/**'
+      - 'research/**'
+
+jobs:
+  python-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate baseline design
+        run: python tools/validate.py
+
+      - name: Validate v0.4 playfield kinematics when present
+        shell: bash
+        run: |
+          if [[ -f config/playfield_v04.json && -f tools/playfield_kinematics.py ]]; then
+            python tools/playfield_kinematics.py
+          else
+            echo 'v0.4 playfield files not present; skipping'
+          fi
