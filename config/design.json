@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "project": {
+    "name": "vpin-cabinet",
+    "units": "mm",
+    "coordinate_system": {
+      "x": "cabinet left-to-right",
+      "y": "cabinet front-to-rear",
+      "z": "vertical"
+    }
+  },
+  "cabinet": {
+    "outer_width_mm": 558.8,
+    "side_length_mm": 1308.1,
+    "front_height_mm": 400.05,
+    "rear_height_mm": 596.9,
+    "rear_top_flat_mm": 180.975,
+    "main_wood_nominal_mm": 18.0
+  },
+  "oled": {
+    "model": "LG OLED42C5",
+    "native_width_mm": 932.0,
+    "native_height_mm": 540.0,
+    "max_depth_mm": 41.1,
+    "mass_kg": 9.8,
+    "vesa_x_mm": 300.0,
+    "vesa_y_mm": 200.0,
+    "clearance_each_side_mm": 1.0,
+    "minimum_remaining_side_skin_mm": 8.0
+  },
+  "backglass": {
+    "target_diagonal_in": 32.0,
+    "target_resolution": "1920x1080",
+    "exact_model": null
+  },
+  "pc": {
+    "frame_reference_width_mm": 440.0,
+    "frame_reference_depth_mm": 265.0,
+    "frame_reference_height_mm": 128.0,
+    "service_width_mm": 470.0,
+    "service_depth_mm": 400.0,
+    "service_height_mm": 230.0
+  },
+  "cnc": {
+    "provider": "Cutter CNC",
+    "provider_url": "https://www.cuttercnc.com/",
+    "bit_diameter_mm": 6.0,
+    "joint_clearance_mm": 0.2,
+    "pocket_clearance_mm": 0.2,
+    "manufacturing_values_confirmed": false
+  },
+  "playfield_service": {
+    "hinged": true,
+    "dual_gas_struts": true,
+    "independent_mechanical_safety": true,
+    "target_open_angle_deg": 70.0
+  },
+  "power_modes": [
+    "off",
+    "audio_only",
+    "full_pinball"
+  ]
+}
