@@ -18,6 +18,10 @@ echo '=== BASELINE VALIDATION ==='
 python3 tools/validate.py
 
 echo
+echo '=== REFERENCE BACKBOX ENVELOPE ==='
+freecadcmd tools/extract_backbox_reference_entry.py
+
+echo
 echo '=== v0.5 SWEEP / SAFETY SOLVER ==='
 python3 tools/solve_playfield_v05.py
 
