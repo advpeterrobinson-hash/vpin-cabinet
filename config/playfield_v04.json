@@ -1,0 +1,83 @@
+{
+  "schema_version": 2,
+  "status": "engineering-preview-not-approved-for-purchase-or-cnc",
+  "playfield": {
+    "target_open_angle_deg": 70.0,
+    "oled_front_setback_mm": 44.4,
+    "oled_face_inset_below_cabinet_top_mm": 8.0,
+    "hinge_rear_gap_mm": 8.0,
+    "hinge_axis_inset_below_cabinet_top_mm": 38.0,
+    "cradle_mass_estimate_kg": 3.5,
+    "moving_cg_forward_of_hinge_mm": 466.0,
+    "oled_orientation": {
+      "native_left_edge_maps_to": "cabinet_front",
+      "native_right_edge_maps_to": "cabinet_rear",
+      "native_top_edge_maps_to": "cabinet_left",
+      "native_bottom_edge_maps_to": "cabinet_right",
+      "rationale": "keeps the native horizontal VESA center at Y=466 mm and makes the verified vertical VESA offsets explicit across cabinet X; orientation remains reversible if connector access later favors the opposite cross-cabinet mapping"
+    },
+    "lg_c5_mechanical_drawing": {
+      "status": "verified-from-LG-2025-detail-dimension-drawing",
+      "source_url": "https://www.lge.co.kr/kr/tv/tv_size_2025.pdf",
+      "model": "OLED42C5",
+      "vesa_horizontal_mm": 300.0,
+      "vesa_vertical_mm": 200.0,
+      "vesa_left_offset_mm": 316.0,
+      "vesa_right_offset_mm": 316.0,
+      "vesa_top_offset_mm": 134.0,
+      "vesa_bottom_offset_mm": 207.0,
+      "vesa_center_native_x_mm": 466.0,
+      "vesa_center_native_y_mm": 234.0,
+      "rear_feature_AA_mm": 882.0,
+      "rear_feature_BB_mm": 41.0,
+      "rear_feature_CC_mm": 499.0,
+      "rear_feature_DD_mm": 25.0,
+      "note": "LG drawing dimensions use rounded millimetres; top+VESA+bottom = 541 mm versus published 540 mm overall height. Use drawing hole coordinates for bracket design and verify on the physical TV before machining final VESA plate."
+    },
+    "cradle": {
+      "concept": "two longitudinal 20x40 aluminum T-slot rails plus an aluminum VESA plate and full-strength rear hinge crossmember",
+      "longitudinal_rail_width_mm": 40.0,
+      "longitudinal_rail_height_mm": 20.0,
+      "longitudinal_rail_length_mm": 900.0,
+      "rail_center_spacing_mm": 200.0,
+      "rail_centers_follow_verified_vesa_columns": true,
+      "vesa_plate_width_mm": 360.0,
+      "vesa_plate_length_mm": 360.0,
+      "vesa_plate_thickness_mm": 4.0,
+      "vesa_center_from_oled_front_mm": 466.0,
+      "vesa_center_across_oled_mm": 234.0,
+      "vesa_center_position_confirmed": true,
+      "hinge_shaft_diameter_preview_mm": 12.0
+    },
+    "gas_spring_candidate": {
+      "status": "kinematic-candidate-not-approved-for-purchase",
+      "quantity": 2,
+      "reference_family": "SUSPA Liftline 16-1 dimensional class or equivalent",
+      "manufacturer_reference_url": "https://www.suspa.com/global/products/gas-struts/gas-struts-type-16-1",
+      "extended_length_mm": 316.0,
+      "stroke_mm": 135.0,
+      "nominal_extension_force_f1_n": 260.0,
+      "assumed_force_ratio_f2_over_f1": 1.25,
+      "moving_mount_forward_of_hinge_mm": 95.0,
+      "fixed_mount_forward_of_hinge_mm": 200.0,
+      "fixed_mount_below_hinge_mm": 180.0,
+      "minimum_end_travel_reserve_mm": 8.0,
+      "preferred_closed_assist_ratio_max": 0.9,
+      "preferred_open_assist_ratio_min": 1.1,
+      "rod_down_when_closed": true
+    },
+    "safety_prop": {
+      "required": true,
+      "concept": "independent manual hood-style prop rod or positive mechanical stay",
+      "final_hardware_selected": false
+    }
+  },
+  "validation": {
+    "angle_step_deg": 5.0,
+    "gravity_m_s2": 9.81,
+    "minimum_oled_side_skin_mm": 8.0,
+    "require_gas_spring_travel_reserve": true,
+    "require_closed_gravity_dominant": true,
+    "require_open_gas_assist_dominant": true
+  }
+}
