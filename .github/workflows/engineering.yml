@@ -1,0 +1,35 @@
+name: Engineering checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pure-python-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Show Python version
+        run: python3 --version
+
+      - name: Validate design baseline
+        run: python3 tools/validate.py
+
+      - name: Validate v0.5 analytical sweep when present
+        shell: bash
+        run: |
+          if [[ -f config/playfield_v05.json ]]; then
+            python3 tools/solve_playfield_v05.py
+          else
+            echo "v0.5 config not present on this ref; skipping v0.5 analytical solver"
+          fi
+
+  freecad-note:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain local CAD gate
+        run: |
+          echo "FreeCAD geometry generation/verification remains a local gate."
+          echo "Run tools/run_playfield_v05.sh on the Linux CAD workstation before merging v0.5."
