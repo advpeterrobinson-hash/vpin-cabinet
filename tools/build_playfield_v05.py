@@ -2,9 +2,12 @@
 """Build the v0.5 playfield sweep / safety engineering model.
 
 v0.5 deliberately remains a packaging model. It adds a multi-angle OLED sweep,
-a conservative backbox keepout, a positive mechanical safety-prop envelope,
-a hinge reinforcement envelope, and a VESA adjustment zone without pretending
-that bracket hole locations or purchased hardware are finalized.
+a backbox keepout, a positive mechanical safety-prop envelope, a hinge
+reinforcement envelope, and a VESA adjustment zone without pretending that
+bracket hole locations or purchased hardware are finalized.
+
+When a local audited reference backbox envelope exists under .work/audit,
+that envelope overrides the conservative fallback placement in config.
 """
 
 from __future__ import annotations
@@ -21,6 +24,7 @@ MASTER = os.path.join(ROOT, "cad/master/vpin-master.FCStd")
 DESIGN = os.path.join(ROOT, "config/design.json")
 V04 = os.path.join(ROOT, "config/playfield_v04.json")
 V05 = os.path.join(ROOT, "config/playfield_v05.json")
+BACKBOX_EXTRACTED = os.path.join(ROOT, ".work/audit/backbox-reference.json")
 
 
 def load(path):
@@ -34,6 +38,34 @@ def top_z(cab, y):
         rise = cab["rear_height_mm"] - cab["front_height_mm"]
         return cab["front_height_mm"] + rise * (y / run)
     return cab["rear_height_mm"]
+
+
+def backbox_envelope(p5, outer):
+    if os.path.exists(BACKBOX_EXTRACTED):
+        payload = load(BACKBOX_EXTRACTED)
+        b = payload["project_coordinate_bounds"]
+        return {
+            "x": float(b["xmin"]),
+            "y": float(b["ymin"]),
+            "z": float(b["zmin"]),
+            "width": float(b["width"]),
+            "depth": float(b["depth"]),
+            "height": float(b["height"]),
+            "status": "reference-derived-packaging-envelope",
+            "source": payload.get("source", "local reference extraction"),
+        }
+
+    bk = p5["backbox_keepout"]
+    return {
+        "x": 0.5 * (outer - bk["width_mm"]),
+        "y": float(bk["front_y_mm"]),
+        "z": float(bk["bottom_z_mm"]),
+        "width": float(bk["width_mm"]),
+        "depth": float(bk["depth_mm"]),
+        "height": float(bk["height_mm"]),
+        "status": str(bk["status"]),
+        "source": "config/playfield_v05.json provisional fallback",
+    }
 
 
 def add_shape(doc, group, name, label, shape, transparency=0):
@@ -66,7 +98,6 @@ def main():
     p5 = load(V05)
     cab = d["cabinet"]
     oled = d["oled"]
-    cradle = p4["cradle"]
     svc = p4["service"]
 
     if not os.path.exists(MASTER):
@@ -97,7 +128,6 @@ def main():
     wood = cab["main_wood_nominal_mm"]
     inner = outer - 2.0 * wood
     tv_long = oled["native_width_mm"]
-    tv_cross = oled["native_height_mm"]
     tv_depth = oled["max_depth_mm"]
     alpha_deg = quantity_value(v04.CabinetSlope)
     alpha = math.radians(alpha_deg)
@@ -111,21 +141,20 @@ def main():
         - tv_depth * math.cos(alpha)
     )
 
-    # Conservative backbox packaging envelope. The dimensions are from the
-    # reference model; placement remains explicitly provisional until audited.
-    bk = p5["backbox_keepout"]
-    bk_x = 0.5 * (outer - bk["width_mm"])
+    # Backbox packaging envelope. Prefer the automatically extracted reference
+    # placement when available; otherwise fall back to the documented v0.5 guess.
+    bk = backbox_envelope(p5, outer)
     keepout_shape = Part.makeBox(
-        bk["width_mm"],
-        bk["depth_mm"],
-        bk["height_mm"],
-        App.Vector(bk_x, bk["front_y_mm"], bk["bottom_z_mm"]),
+        bk["width"],
+        bk["depth"],
+        bk["height"],
+        App.Vector(bk["x"], bk["y"], bk["z"]),
     )
     add_shape(
         doc,
         group,
         "BackboxKeepoutV05",
-        "BACKBOX KEEPOUT - PROVISIONAL REFERENCE ENVELOPE",
+        "BACKBOX KEEPOUT - REFERENCE/PACKAGING ENVELOPE",
         keepout_shape,
         88,
     )
@@ -241,7 +270,7 @@ def main():
         (deg, vol) for deg, vol in sweep_collision_volumes if vol > collision_tol
     ]
     min_backbox_y_margin = min(
-        bk["front_y_mm"] - doc.getObject(name).Shape.BoundBox.YMax
+        bk["y"] - doc.getObject(name).Shape.BoundBox.YMax
         for name in sweep_names
     )
 
@@ -249,7 +278,7 @@ def main():
     group.Status = "PROVISIONAL - NOT FOR MANUFACTURING"
     group.addProperty("App::PropertyString", "SweepCollisionStatus", "Engineering")
     group.SweepCollisionStatus = (
-        "CLEAR against provisional backbox keepout"
+        "CLEAR against current backbox keepout"
         if not collisions
         else f"COLLISION at {', '.join(str(int(d)) for d, _ in collisions)} deg"
     )
@@ -267,6 +296,8 @@ def main():
     )
     group.addProperty("App::PropertyString", "BackboxPlacementStatus", "Engineering")
     group.BackboxPlacementStatus = bk["status"]
+    group.addProperty("App::PropertyString", "BackboxEnvelopeSource", "Engineering")
+    group.BackboxEnvelopeSource = bk["source"]
 
     doc.recompute()
     doc.save()
@@ -275,15 +306,16 @@ def main():
     print("=" * 72)
     print(f"Sweep states                 {len(sweep_names)}")
     print(f"Hinge Y/Z                    {hinge_y:.1f} / {hinge_z:.1f} mm")
-    print(f"Backbox keepout front Y      {bk['front_y_mm']:.1f} mm")
+    print(f"Backbox envelope source      {bk['source']}")
+    print(f"Backbox keepout front Y      {bk['y']:.1f} mm")
     print(f"Minimum sweep Y margin       {min_backbox_y_margin:.1f} mm")
     print(f"Safety prop endpoint length  {prop_length:.1f} mm")
     if collisions:
-        print("Sweep collision              YES (provisional keepout)")
+        print("Sweep collision              YES")
         for deg, vol in collisions:
             print(f"  {deg:.0f} deg -> {vol:.1f} mm^3")
     else:
-        print("Sweep collision              none against provisional keepout")
+        print("Sweep collision              none against current keepout")
     print("STATUS                       PROVISIONAL - visual validation required")
 
     App.closeDocument(doc.Name)
