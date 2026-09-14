@@ -1,0 +1,33 @@
+{
+  "status": "engineering-provisional",
+  "notes": [
+    "Not approved for manufacturing.",
+    "Gas-strut geometry is a first-pass packaging candidate and must be revalidated after cradle hardware and measured TV CG are known.",
+    "VESA hole offsets relative to the LG chassis are intentionally not assumed here."
+  ],
+  "oled_front_setback_mm": 44.4,
+  "glass_clearance_normal_mm": 12.0,
+  "cradle": {
+    "estimated_mass_kg": 3.0,
+    "side_rail_section_mm": 20.0,
+    "cross_rail_section_mm": 20.0,
+    "hinge_offset_behind_oled_rear_mm": 35.0,
+    "hinge_axis_diameter_mm": 12.0
+  },
+  "service": {
+    "relative_open_angle_deg": 70.0,
+    "mechanical_safety_required": true,
+    "safety_prop_reserved": true
+  },
+  "gas_strut_candidate": {
+    "count": 2,
+    "moving_mount_forward_from_hinge_mm": 400.0,
+    "fixed_mount_forward_from_hinge_mm": 50.0,
+    "fixed_mount_below_hinge_mm": 100.0,
+    "candidate_force_each_n": 300.0,
+    "target_closed_length_mm": 345.0,
+    "target_open_length_mm": 471.0,
+    "target_stroke_mm": 126.0,
+    "force_selection_status": "provisional"
+  }
+}
