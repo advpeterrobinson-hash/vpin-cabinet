@@ -2,7 +2,9 @@
 """Evaluate v0.5 playfield sweep, safety-prop packaging, and strut candidates.
 
 This is an engineering packaging solver. It intentionally does not approve
-hardware for purchase or manufacturing.
+hardware for purchase or manufacturing. When the local audited reference model
+is available, its extracted backbox envelope overrides the provisional fallback
+placement from config/playfield_v05.json.
 """
 
 from __future__ import annotations
@@ -15,6 +17,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 DESIGN = ROOT / "config" / "design.json"
 V04 = ROOT / "config" / "playfield_v04.json"
 V05 = ROOT / "config" / "playfield_v05.json"
+BACKBOX_EXTRACTED = ROOT / ".work" / "audit" / "backbox-reference.json"
 G = 9.80665
 
 
@@ -28,6 +31,34 @@ def top_z(cab: dict, y: float) -> float:
         rise = cab["rear_height_mm"] - cab["front_height_mm"]
         return cab["front_height_mm"] + rise * (y / run)
     return cab["rear_height_mm"]
+
+
+def backbox_envelope(p5: dict) -> dict:
+    if BACKBOX_EXTRACTED.exists():
+        payload = load(BACKBOX_EXTRACTED)
+        b = payload["project_coordinate_bounds"]
+        return {
+            "front_y_mm": float(b["ymin"]),
+            "back_y_mm": float(b["ymax"]),
+            "bottom_z_mm": float(b["zmin"]),
+            "top_z_mm": float(b["zmax"]),
+            "width_mm": float(b["width"]),
+            "depth_mm": float(b["depth"]),
+            "height_mm": float(b["height"]),
+            "source": payload.get("source", "local reference extraction"),
+        }
+
+    bk = p5["backbox_keepout"]
+    return {
+        "front_y_mm": float(bk["front_y_mm"]),
+        "back_y_mm": float(bk["front_y_mm"] + bk["depth_mm"]),
+        "bottom_z_mm": float(bk["bottom_z_mm"]),
+        "top_z_mm": float(bk["bottom_z_mm"] + bk["height_mm"]),
+        "width_mm": float(bk["width_mm"]),
+        "depth_mm": float(bk["depth_mm"]),
+        "height_mm": float(bk["height_mm"]),
+        "source": "config/playfield_v05.json provisional fallback",
+    }
 
 
 def main() -> int:
@@ -61,9 +92,10 @@ def main() -> int:
     hinge_offset = cradle["hinge_offset_behind_oled_rear_mm"]
     tv_len = oled["native_width_mm"]
     tv_depth = oled["max_depth_mm"]
-    backbox_front = p5["backbox_keepout"]["front_y_mm"]
-    backbox_z0 = p5["backbox_keepout"]["bottom_z_mm"]
-    backbox_z1 = backbox_z0 + p5["backbox_keepout"]["height_mm"]
+    bk = backbox_envelope(p5)
+    backbox_front = bk["front_y_mm"]
+    backbox_z0 = bk["bottom_z_mm"]
+    backbox_z1 = bk["top_z_mm"]
 
     sweep_rows = []
     collision = False
@@ -130,6 +162,7 @@ def main() -> int:
     print("=" * 74)
     print(f"Cabinet slope              {alpha_deg:9.3f} deg")
     print(f"Hinge Y / Z                {hinge_y:9.3f} / {hinge_z:9.3f} mm")
+    print(f"Backbox envelope source    {bk['source']}")
     print(f"Backbox keepout front Y    {backbox_front:9.3f} mm")
     print()
     print("Angle    Ymin      Ymax      Zmin      Zmax    Y-margin   collision")
@@ -153,15 +186,15 @@ def main() -> int:
         )
     print()
     print("STATUS: ENGINEERING PROVISIONAL")
-    print("Backbox placement, cradle CG, prop hardware, hinge brackets, and")
-    print("gas-strut ratings must be confirmed before purchasing or fabrication.")
+    print("Cradle CG, prop hardware, hinge brackets, and gas-strut ratings")
+    print("must be confirmed before purchasing or fabrication.")
 
     ok = True
     if collision:
-        print("FAIL: provisional OLED sweep enters provisional backbox keepout")
+        print("FAIL: OLED sweep enters current backbox keepout")
         ok = False
     if min_y_margin < 20.0:
-        print("FAIL: provisional backbox margin below 20 mm packaging target")
+        print("FAIL: backbox margin below 20 mm packaging target")
         ok = False
     if not (350.0 <= prop_len <= 800.0):
         print("FAIL: safety-prop candidate length outside initial packaging range")
