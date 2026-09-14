@@ -23,7 +23,11 @@ python3 tools/solve_playfield_struts.py
 
 echo
 echo '=== FREECAD v0.4 BUILD ==='
-freecadcmd tools/build_playfield_v04.py
+freecadcmd tools/build_playfield_v04_entry.py
+
+echo
+echo '=== FCSTD PERSISTENCE CHECK ==='
+python3 tools/check_fcstd_v04.py
 
 echo
 echo '=== FREECAD v0.4 HEADLESS VERIFY ==='
