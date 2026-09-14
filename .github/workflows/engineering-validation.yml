@@ -31,3 +31,12 @@ jobs:
           else
             echo 'v0.4 playfield files not present; skipping'
           fi
+
+      - name: Validate LG OLED42C5 mechanical datum when present
+        shell: bash
+        run: |
+          if [[ -f config/playfield_v04.json && -f tools/validate_lg_c5_mechanical.py ]]; then
+            python tools/validate_lg_c5_mechanical.py
+          else
+            echo 'LG C5 mechanical validator not present; skipping'
+          fi
