@@ -1,0 +1,125 @@
+{
+  "status": "engineering-selected-baseline",
+  "manufacturing_ready": false,
+  "depends_on": [
+    "config/playfield_v04.json",
+    "config/structure_buildpack_v14.json"
+  ],
+  "design_intent": {
+    "architecture": "CNC-plywood playfield cradle with local steel pivot plates and removable industrial flange-bearing interface",
+    "tv_is_not_structural": true,
+    "no_builder_welding_required": true,
+    "metalwork_outsourced": true,
+    "normal_service_removal_requires_no_long_cross-cabinet_shaft_withdrawal": true
+  },
+  "loads": {
+    "oled_mass_kg": 9.8,
+    "estimated_cradle_mass_kg": 3.0,
+    "moving_mass_engineering_kg": 12.8,
+    "pivot_radial_design_load_each_side_n": 1500.0,
+    "note": "1500 N/side is a conservative packaging/check load for plate/pin selection, not a certified final structural load case; final cradle CG, gas-strut reactions and physical proof test still required."
+  },
+  "cradle_wood_structure": {
+    "material": "18 mm good-quality compensado naval",
+    "rear_crossmember_lamination_count": 2,
+    "rear_crossmember_local_thickness_mm": 36.0,
+    "rule": "Primary cradle remains plywood; steel is concentrated at pivot/gas-strut/safety/latch interfaces."
+  },
+  "cradle_pivot_plate": {
+    "part_family": "PF-PIVOT-PLATE-001L/R",
+    "quantity": 2,
+    "material_preferred": "A36 or SAE 1020 carbon steel plate",
+    "thickness_mm": 6.0,
+    "acceptable_stock_thickness_mm": [6.0, 6.35],
+    "overall_length_y_mm": 140.0,
+    "overall_height_z_mm": 80.0,
+    "corner_radius_mm": 6.0,
+    "pivot_axis_from_rear_plate_edge_mm": 25.0,
+    "pivot_axis_from_bottom_plate_edge_mm": 40.0,
+    "plywood_mount_hole_diameter_mm": 9.0,
+    "plywood_mount_bolt": "M8 class 8.8 through-bolt with washers and prevailing-torque/nyloc nut",
+    "plywood_mount_hole_centers_y_mm": [70.0, 120.0],
+    "plywood_mount_hole_centers_z_mm": [20.0, 60.0],
+    "mount_hole_count_each_plate": 4,
+    "finish": "zinc plated, epoxy primer + paint, or powder coat after all cutting/welding",
+    "edge_finish": "deburr and break all edges; no cable-contact sharp edges",
+    "drawing_status": "engineering dimensions selected; axle journal feature remains dependent on purchased bearing measurement"
+  },
+  "cradle_pivot_backing_plate": {
+    "part_family": "PF-PIVOT-BACK-001L/R",
+    "quantity": 2,
+    "material": "A36 or SAE 1020 carbon steel",
+    "thickness_mm": 3.0,
+    "overall_length_y_mm": 90.0,
+    "overall_height_z_mm": 65.0,
+    "purpose": "spread the four M8 clamp loads across the inside face of the ~36 mm laminated plywood pivot zone",
+    "same_four_mount_bolts_as_outer_plate": true
+  },
+  "pivot_journal": {
+    "selected_nominal_diameter_mm": 15.0,
+    "material_preferred": "SAE 1045 or equivalent ground/turned steel bar",
+    "journal_projection_from_plate_mm_candidate": 65.0,
+    "journal_total_piece_length_mm_candidate": 78.0,
+    "attachment_to_plate": "journal passes through a fitted plate hole and is jig-welded on the non-bearing/rear face; bearing journal surface remains unwelded and finish-ground/checked after welding",
+    "final_projection_status": "TBD after actual bearing width + cabinet-side stack measurement",
+    "service_rule": "journal stays with cradle plate; flange bearing is loosened/unbolted and slid off the short journal during complete cradle removal"
+  },
+  "cabinet_side_bearing": {
+    "preferred_family": "UCFL202 15 mm two-bolt oval flange bearing",
+    "preferred_reason": "cast industrial flange housing, self-aligning insert bearing, common 15 mm Brazilian-market size, stronger/serviceable alternative to light zinc KFL housing",
+    "budget_fit_check_alternative": "KFL002 15 mm",
+    "quantity": 2,
+    "mounting": "outside cabinet side panel, through-bolted through reinforced plywood with an internal steel backing/spreader plate",
+    "exact_mount_hole_pattern_status": "DO NOT CNC until the selected physical bearing pair is purchased and measured",
+    "bearing_set_screws_are_not_axial_safety_retention": true
+  },
+  "cabinet_bearing_backing": {
+    "quantity": 2,
+    "material": "A36 or SAE 1020 carbon steel",
+    "thickness_mm": 3.0,
+    "provisional_envelope_mm": [120.0, 70.0],
+    "final_holes": "match purchased UCFL202 housing after measurement",
+    "purpose": "prevent bearing fasteners crushing/creeping into plywood and distribute sidewall pivot load"
+  },
+  "axial_retention": {
+    "primary": "bearing inner-ring set screws on 15 mm journal plus positive external/end retention selected after bearing measurement",
+    "secondary_positive_retention_required": true,
+    "acceptable_candidates": [
+      "machined retaining groove + external circlip",
+      "threaded journal end + washer/nyloc nut",
+      "cross-drilled journal end + washer + R-clip/cotter"
+    ],
+    "rule": "final design may not rely only on bearing grub/set screws to keep the cradle attached"
+  },
+  "service_removal": {
+    "requires_glass_removed": true,
+    "requires_mechanical_safety_stays_engaged": true,
+    "requires_cabinet_power_isolated": true,
+    "temporary_secondary_support_required_before_pivot_disassembly": true,
+    "sequence": [
+      "isolate cabinet power",
+      "remove lockdown bar and playfield glass",
+      "raise cradle and engage both positive mechanical safety stays",
+      "add temporary rated support strap/prop for complete cradle removal",
+      "disconnect TV power/video at service-loop connectors",
+      "loosen positive journal retention and bearing set screws",
+      "unbolt or slide each flange bearing off its short journal",
+      "lift cradle/TV module clear with two-person handling recommended"
+    ],
+    "maximum_expected_lateral_clearance_for_pivot_release_mm": 75.0
+  },
+  "gas_strut_and_safety": {
+    "gas_struts_assist_only": true,
+    "gas_strut_force_not_purchase_ready": true,
+    "candidate_force_each_n": [250.0, 275.0, 300.0],
+    "dual_positive_mechanical_safety_stays_required": true,
+    "closed_position_positive_latches_required": true,
+    "rule": "Neither gas struts nor friction are accepted as the maintenance safety device or closed-play restraint."
+  },
+  "manufacturing_notes": {
+    "plate_process": "laser/waterjet/plasma rough profile acceptable; critical holes drilled/reamed where required; deburr before finish",
+    "journal_process": "turn/face to bearing fit; jig perpendicular to plate during welding; verify runout/alignment after welding",
+    "builder_receives_completed_metal_subassembly": true,
+    "do_not_cut_final_cabinet_bearing_holes_before_hardware_measurement": true
+  }
+}
