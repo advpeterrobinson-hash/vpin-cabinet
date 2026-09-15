@@ -1,0 +1,41 @@
+bom_id,phase,system,part_id,item,qty,unit,procurement,source_region,status,geometry_required_before_cnc,notes
+BOM-W001,1,CAB,CAB-SHEET-18,18 mm compensado naval structural plywood,TBD,sheets,local,Brazil,PLAN,yes,Prefer good-quality virola; pinus naval acceptable after inspection; measure actual thickness before CNC
+BOM-W002,1,BB,BB-SHEET-15,15 mm plywood for keyed rear service door and selected removable panels,1,sheet-or-part,local,Brazil,PLAN,no,May be nested from offcut; final nesting decides purchase quantity
+BOM-W003,1,CAB,CAB-XMEM-SET,18 mm CNC-cut structural crossmembers,3,pcs,CNC,Brazil,PLAN,yes,Low crossmembers; exact locations pending internal zoning
+BOM-W004,1,CAB,CAB-LEG-DBLR,18 mm CNC-cut leg-corner doublers,4,pcs,CNC,Brazil,PLAN,yes,Laminate to cabinet sides/front/rear to create ~36 mm local thickness
+BOM-W005,1,CAB,CAB-REAR-SHELF-DBLR,18 mm rear-shelf reinforcement/doubler,1,pc,CNC,Brazil,PLAN,yes,Supports backbox floor/lock interface; avoid cable passports/bolt holes
+BOM-W006,1,PF,PF-HINGE-DBLR,18 mm playfield hinge/gas-strut reinforcement doublers,TBD,pcs,CNC,Brazil,PLAN,yes,Final count after v0.9/v0.10 mechanical CAD
+BOM-W007,1,PC,PC-SLIDE-DBLR,18 mm PC drawer subrails/doublers,2,pcs,CNC,Brazil,PLAN,yes,Tied into crossmembers; not only bottom skin
+BOM-W008,1,BB,BB-DOOR-001,Keyed rear service door plywood panel,1,pc,CNC,Brazil,PLAN,yes,Approx 520x460 service aperture baseline; final geometry in CAD
+BOM-H001,1,BB,BB-DOOR-HNG,Continuous/piano hinge for rear service door,1,pc,local,Brazil,PLAN,yes,Prefer stainless or plated steel; final length after door geometry
+BOM-H002,1,BB,BB-DOOR-LOCK,Keyed cam/panel lock,1,pc,local,Brazil,PLAN,yes,Common electrical-panel/cabinet style; geometry frozen after actual lock selected/measured
+BOM-H003,1,BB,BB-DOOR-GASKET,Closed-cell EPDM/foam gasket strip,TBD,m,local,Brazil,PLAN,no,Full service-door perimeter and backbox-floor/rear-shelf seam
+BOM-H004,1,BB,BB-MESH,Fine insect mesh/filter <=1.0 mm opening,TBD,m2,local,Brazil,PLAN,no,Removable filter cassette preferred
+BOM-H005,1,BB,BB-FANGUARD-120,Rigid 120 mm fan finger guards,2,pcs,local-or-import,Brazil,PLAN,yes,Can be local PC fan guards; fans themselves electronics phase unless needed for fit
+BOM-H006,1,CAB,CAB-INSERTS,Metric threaded inserts/captive nuts assortment,TBD,set,local,Brazil,PLAN,yes,Final sizes from hardware drawings; avoid unverified mixed hardware at CNC freeze
+BOM-H007,1,CAB,CAB-FASTENERS,Metric structural bolts/washers/nyloc nuts,TBD,set,local,Brazil,PLAN,no,Grade/material per final drawings
+BOM-BB001,2,BB,BB-HNG-01,01-9011-L WPC backbox hinge bracket left,1,pc,import,US/EU/eBay,SHOP,yes,Prefer actual part before final CNC hole freeze
+BOM-BB002,2,BB,BB-HNG-02,01-9011-R WPC backbox hinge bracket right,1,pc,import,US/EU/eBay,SHOP,yes,Also sold as 01-9011-LR pair
+BOM-BB003,2,BB,BB-HNG-03,02-4352 WPC pivot bushing / hex-socket T-nut 3/8-16,2,pcs,import,US/EU/eBay,SHOP,yes,Used with 4322-01139-12B
+BOM-BB004,2,BB,BB-HNG-04,4322-01139-12B WPC short-neck carriage pivot bolt 3/8-16 x 3/4 in,2,pcs,import,US/EU/eBay,SHOP,yes,Keep OEM geometry
+BOM-BB005,2,BB,BB-LCK-01,3/8-16 captive thread/T-nut or metal-backed insert for upright backbox,2,pcs,local-or-import,Brazil,PLAN,yes,Mounted in reinforced rear shelf
+BOM-BB006,2,BB,BB-LCK-02,3/8-16 hand-accessible locking bolt/knob/wing screw,2,pcs,local-or-import,Brazil,PLAN,yes,Final length after real floor+shelf+gasket stack measured
+BOM-L001,2,LEG,LEG-SET-01,Real pinball legs,4,pcs,import-or-local-fabrication,US/EU/Brazil,SHOP,yes,Exact length/bolt pattern to be selected before leg-hole CNC freeze
+BOM-L002,2,LEG,LEG-LVL-01,Pinball leg levelers,4,pcs,import-or-local,Brazil/US/EU,SHOP,yes,Thread must match leg/plate choice
+BOM-L003,2,LEG,LEG-BRKT-01,Steel internal leg brackets/backing plates,4,pcs,import-or-local-fabrication,Brazil/US/EU,SHOP,yes,Through-bolted into ~36 mm local plywood corner
+BOM-L004,2,LEG,LEG-WHEEL-01,Retractable/lift wheel assemblies,4,pcs,local-or-import,Brazil/US/EU,RESEARCH,yes,Play load must rest on levelers not wheels
+BOM-M001,2,MET,MET-LBAR-001,Custom 580 mm lockdown bar,1,pc,local-fabrication,Brazil,DESIGN,yes,Dimensioned DXF/PDF for laser/bend/fabrication
+BOM-M002,2,MET,MET-LBAR-RCV,Lockdown bar receiver/lever assembly,1,set,import-or-local-fabrication,US/EU/Brazil,RESEARCH,yes,Can be custom if standard receiver incompatible with 580 mm width
+BOM-M003,2,MET,MET-SIDERAIL-L,Custom/modified left siderail,1,pc,local-fabrication,Brazil,DESIGN,yes,Final width/height after glass interface
+BOM-M004,2,MET,MET-SIDERAIL-R,Custom/modified right siderail,1,pc,local-fabrication,Brazil,DESIGN,yes,Mirror of left where possible
+BOM-PF001,2,PF,PF-HINGE-01,Playfield cradle hinge/pivot hardware,1,set,local-or-import,Brazil/US/EU,DESIGN,yes,Independent structural cradle; final part not selected
+BOM-PF002,2,PF,PF-STRUT-01,Gas strut pair,2,pcs,local,Brazil,RESEARCH,yes,250/275/300 N candidates remain physical-test items; do not buy until geometry confirmed
+BOM-PF003,2,PF,PF-SAFETY-01,Positive mechanical safety prop/lock,1,set,local-fabrication,Brazil,DESIGN,yes,Mandatory independent of gas struts
+BOM-PC001,2,PC,PC-SLIDE-01,Heavy-duty full-extension locking drawer slides,1,pair,local-or-import,Brazil/US/EU,RESEARCH,yes,Target service envelope 470x400x230; proof test before electronics
+BOM-PC002,2,PC,PC-TRAY-001,CNC PC drawer platform,1,pc,CNC,Brazil,DESIGN,yes,Replaceable chassis adapter interface
+BOM-PC003,4,PC,PC-FRAME-01,Open ATX test-bench/mining chassis ~440x265x128,1,pc,import,China/Brazil,RESEARCH,no,Mechanical fit phase; electronics may remain absent
+BOM-D001,3,DISPLAY,PF-TV-01,LG OLED42C5 playfield display,1,pc,local,Brazil,SELECTED,no,Initial physical envelope 932x540x41.1 mm; re-check market before purchase
+BOM-D002,3,DISPLAY,BB-TV-01,31.5/32 inch backglass monitor,1,pc,local,Brazil,SELECT,no,Target <=740x450x100 mm service envelope; VESA preferred
+BOM-D003,3,DISPLAY,DMD-TV-01,DMD/FullDMD display,1,pc,local-or-import,Brazil/China,OPTIONAL,no,May be deferred to electronics phase unless needed for fascia/mechanical fit
+BOM-G001,3,GLASS,PF-GLASS-01,Playfield tempered glass cut to cabinet,1,pc,local,Brazil,DESIGN,yes,Final dimensions after siderail/lockdown interfaces
+BOM-G002,3,GLASS,BB-GLASS-01,Backbox protective glazing,1,pc,local,Brazil,DESIGN,yes,3-4 mm tempered glass preferred; polycarbonate acceptable if impact resistance prioritized
