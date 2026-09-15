@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate v0.12 backbox shelf alignment, reusable mounts and closed enclosure."""
+"""Validate v0.12 backbox shelf alignment, reusable mounts and secured enclosure."""
 from __future__ import annotations
 
 import json
@@ -26,8 +26,8 @@ def main() -> int:
     derived_shelf = [cab_w / 2.0 - off, cab_w / 2.0 + off]
     derived_floor = [bb_w / 2.0 - off, bb_w / 2.0 + off]
 
-    print("BACKBOX v0.12 SHELF / DISPLAY / ENCLOSURE VALIDATION")
-    print("=" * 80)
+    print("BACKBOX v0.12 SHELF / DISPLAY / SECURE-DOOR VALIDATION")
+    print("=" * 82)
     print(f"Cabinet width                       {cab_w:8.2f} mm")
     print(f"Backbox width                       {bb_w:8.2f} mm")
     print(f"Derived side overhang               {overhang:8.2f} mm")
@@ -131,19 +131,41 @@ def main() -> int:
     else:
         print("PASS closed backbox / open-rear design prohibited")
 
-    perimeter = enclosure["perimeter_frame"]
-    if float(perimeter["fixed_rear_shear_panel_min_mm"]) < 12.0:
-        print("FAIL fixed rear structural shear panel too thin")
+    frame = enclosure["structural_rear_frame"]
+    if float(frame["minimum_fixed_perimeter_frame_width_mm"]) < 75.0:
+        print("FAIL fixed rear perimeter frame too narrow")
+        ok = False
+    elif not (frame["dedicated_top_and_bottom_crossmembers_required"] and frame["monitor_rails_anchor_to_fixed_structure"]):
+        print("FAIL rear service aperture weakens required fixed structure")
         ok = False
     else:
-        print("PASS fixed structural rear shear panel retained")
+        print("PASS locked door is surrounded by fixed structural frame/crossmembers")
+
+    door = enclosure["rear_service_door"]
+    if not door["key_lock_required"]:
+        print("FAIL rear service door must require a key")
+        ok = False
+    elif float(door["door_panel_min_mm"]) < 12.0:
+        print("FAIL rear service door panel too thin")
+        ok = False
+    elif not door["gasket_required"]:
+        print("FAIL rear service door must be gasketed")
+        ok = False
+    else:
+        print("PASS gasketed keyed rear service door")
+
+    if not (door["fan_openings_not_in_door"] and door["fans_live_on_fixed_upper_rear_panel"]):
+        print("FAIL ventilation fans should remain on fixed structure for simpler service wiring")
+        ok = False
+    else:
+        print("PASS backbox fans remain on fixed upper rear panel")
 
     service = enclosure["service_access"]
-    if not service["normal_display_service_from_front"] or not service["hand_removable_rear_panels_prohibited"]:
-        print("FAIL display service / rear access policy does not protect closed structure")
+    if not (service["rear_keyed_service_access_required"] and service["front_access_still_available_for_complete_display_removal"]):
+        print("FAIL service-access strategy incomplete")
         ok = False
     else:
-        print("PASS display service is front-access with tool-only rear access")
+        print("PASS rear keyed servicing + front full-display removal")
 
     pest = enclosure["pest_and_dust_exclusion"]
     if float(pest["target_mesh_opening_max_mm"]) > 1.0:
@@ -151,11 +173,16 @@ def main() -> int:
         ok = False
     else:
         print("PASS fine insect mesh target <= 1.0 mm")
-    if not (pest["perimeter_floor_shelf_gasket_required"] and pest["primary_passage_requires_split_gland_or_compression_insert"] and pest["reserve_passage_sealed_when_unused"]):
-        print("FAIL pest/dust exclusion around shelf/passports incomplete")
+    if not (
+        pest["perimeter_floor_shelf_gasket_required"]
+        and pest["rear_service_door_gasket_required"]
+        and pest["primary_passage_requires_split_gland_or_compression_insert"]
+        and pest["reserve_passage_sealed_when_unused"]
+    ):
+        print("FAIL pest/dust exclusion around door/shelf/passports incomplete")
         ok = False
     else:
-        print("PASS shelf seam and cable passports are gasketed/sealed")
+        print("PASS door, shelf seam and cable passports are gasketed/sealed")
 
     electrical = enclosure["electrical_touch_safety"]
     if not electrical["no_exposed_mains_terminals_in_backbox"]:
@@ -168,13 +195,22 @@ def main() -> int:
         ok = False
     else:
         print("PASS ventilation remains on fused low-voltage AUX bus")
+    if not electrical["shock_hazard_review_required_at_each_design_stage"]:
+        print("FAIL shock-hazard review must remain mandatory")
+        ok = False
+    else:
+        print("PASS electrical shock-hazard review is mandatory at each stage")
 
     child = enclosure["child_resistance"]
-    if not (child["tool_required_for_internal_access"] and child["rear_fan_grilles_finger_safe"] and child["no_large_unprotected_service_openings"]):
+    if not (
+        child["key_or_tool_required_for_internal_access"]
+        and child["rear_fan_grilles_finger_safe"]
+        and child["no_large_unprotected_service_openings"]
+    ):
         print("FAIL child-resistant enclosure policy incomplete")
         ok = False
     else:
-        print("PASS tool-required, finger-guarded child-resistant enclosure")
+        print("PASS keyed/tool-required, finger-guarded child-resistant enclosure")
 
     sw, sh, sd = map(float, upper["service_envelope_mm"])
     for ex in policy["known_fit_examples"]:
@@ -190,7 +226,7 @@ def main() -> int:
         print("FAIL v0.12 must remain non-manufacturing-ready")
         ok = False
 
-    print("\nSTATUS", "PASS - alignment/mounting/enclosure engineering only" if ok else "FAIL")
+    print("\nSTATUS", "PASS - alignment/mounting/secure-door engineering only" if ok else "FAIL")
     return 0 if ok else 1
 
 
