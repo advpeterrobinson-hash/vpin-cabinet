@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """Validate the current documented virtual-pinball design baseline.
 
-This validator intentionally uses only the Python standard library so it can be
-run in CI without FreeCAD. FreeCAD-specific geometry validation remains in the
-stage-specific tools.
+Pure-Python checks intentionally avoid FreeCAD so they can run in CI.
 """
 
 from __future__ import annotations
@@ -38,9 +36,9 @@ def load_config(path: pathlib.Path) -> dict:
 
 def validate(data: dict) -> tuple[list[Check], dict]:
     cab = data["cabinet"]
-    oled = data["oled"]
     pc = data["pc"]
     cnc = data["cnc"]
+    display = data["playfield_display"]
 
     outer = float(cab["outer_width_mm"])
     reference_outer = float(cab["reference_outer_width_mm"])
@@ -48,27 +46,27 @@ def validate(data: dict) -> tuple[list[Check], dict]:
     inner = outer - 2.0 * wood
     width_deviation = outer - reference_outer
 
-    installed_oled_width = (
-        float(oled["native_height_mm"])
-        + 2.0 * float(oled["clearance_each_side_mm"])
-    )
-    pocket_each_side = max(0.0, (installed_oled_width - inner) / 2.0)
-    remaining_skin = wood - pocket_each_side
-    current_oled_inner_margin_each_side = (inner - installed_oled_width) / 2.0
-
     future = cab["future_playfield_service_envelope_mm"]
-    future_required_cavity = (
-        float(future["cross_width"])
-        + 2.0 * float(future["clearance_each_side"])
-    )
-    min_skin = float(oled["minimum_remaining_side_skin_mm"])
-    max_future_cavity = inner + 2.0 * (wood - min_skin)
-    future_cavity_margin = max_future_cavity - future_required_cavity
+    target_cross = float(future["target_display_cross_width"])
+    cross_clearance = float(future["cross_clearance_each_side"])
+    required_cross_cavity = target_cross + 2.0 * cross_clearance
+    min_skin = float(future["minimum_remaining_side_skin"])
+    max_cross_cavity = outer - 2.0 * min_skin
+    documented_clear_cross = float(future["clear_cavity_cross_width"])
+    pocket_each_side_at_target = max(0.0, (required_cross_cavity - inner) / 2.0)
+    remaining_skin_at_target = wood - pocket_each_side_at_target
+
+    target_length = float(future["target_display_length"])
+    clear_length = float(future["clear_bay_length"])
+    target_depth = float(future["depth"])
+
+    legacy = data["oled"]
+    legacy_installed_cross = float(legacy["native_height_mm"]) + 2.0 * float(legacy["clearance_each_side_mm"])
+    legacy_margin = (inner - legacy_installed_cross) / 2.0
 
     slope_run = float(cab["side_length_mm"]) - float(cab["rear_top_flat_mm"])
     slope_rise = float(cab["rear_height_mm"]) - float(cab["front_height_mm"])
     slope_angle_deg = math.degrees(math.atan2(slope_rise, slope_run))
-
     pc_width_margin = inner - float(pc["service_width_mm"])
     approved = data["design_policy"]["owner_approved_dimensional_deviation_mm"]
 
@@ -77,7 +75,7 @@ def validate(data: dict) -> tuple[list[Check], dict]:
             "cabinet outer width selected baseline",
             close(outer, 580.0),
             f"{outer:.3f} mm",
-            "580.000 mm v0.7 engineering baseline",
+            "580.000 mm engineering baseline",
         ),
         Check(
             "width deviation within approved range",
@@ -85,33 +83,48 @@ def validate(data: dict) -> tuple[list[Check], dict]:
             f"+{width_deviation:.3f} mm",
             f"{float(approved['typical_min']):.1f}..{float(approved['typical_max']):.1f} mm typical allowance",
         ),
+        Check("cabinet inside width positive", inner > 0, f"{inner:.3f} mm"),
+        Check("front lower than rear", slope_rise > 0, f"rise {slope_rise:.3f} mm"),
         Check(
-            "cabinet inside width positive",
-            inner > 0,
-            f"{inner:.3f} mm",
+            "playfield model selection remains open",
+            display["exact_model"] is None,
+            str(display["exact_model"]),
+            "permanent cabinet must not be locked to one TV model",
         ),
         Check(
-            "front lower than rear",
-            slope_rise > 0,
-            f"rise {slope_rise:.3f} mm",
+            "43-inch-class cross cavity supported",
+            max_cross_cavity + 1e-6 >= required_cross_cavity,
+            f"max {max_cross_cavity:.3f} / required {required_cross_cavity:.3f} mm",
+            f">= {required_cross_cavity:.1f} mm",
         ),
         Check(
-            "C5 installed envelope fits without side pockets",
-            current_oled_inner_margin_each_side >= 0,
-            f"margin {current_oled_inner_margin_each_side:.3f} mm/side",
-            ">= 0 mm",
+            "documented clear cross cavity matches structure",
+            close(documented_clear_cross, max_cross_cavity),
+            f"{documented_clear_cross:.3f} mm",
+            f"{max_cross_cavity:.3f} mm from 580 mm body and {min_skin:.1f} mm skins",
         ),
         Check(
-            "current OLED remaining side skin",
-            remaining_skin >= min_skin,
-            f"{remaining_skin:.3f} mm",
+            "side skin retained at target display width",
+            remaining_skin_at_target + 1e-6 >= min_skin,
+            f"{remaining_skin_at_target:.3f} mm",
             f">= {min_skin:.3f} mm",
         ),
         Check(
-            "future playfield replacement cavity",
-            future_cavity_margin >= -1e-6,
-            f"margin {future_cavity_margin:.3f} mm",
-            f"supports {future_required_cavity:.1f} mm cavity at >= {min_skin:.1f} mm skin",
+            "playfield longitudinal service bay",
+            clear_length >= target_length,
+            f"{clear_length:.1f} mm bay / {target_length:.1f} mm target display",
+        ),
+        Check(
+            "playfield depth service envelope positive",
+            target_depth >= 50.0,
+            f"{target_depth:.1f} mm",
+            ">= 50 mm design envelope",
+        ),
+        Check(
+            "legacy 42-inch LG reference still fits",
+            legacy_margin >= 0,
+            f"margin {legacy_margin:.3f} mm/side",
+            "legacy reference only; not purchase selection",
         ),
         Check(
             "PC service envelope fits cabinet width",
@@ -119,10 +132,15 @@ def validate(data: dict) -> tuple[list[Check], dict]:
             f"margin {pc_width_margin:.3f} mm",
         ),
         Check(
-            "OLED service safety specified",
+            "playfield service safety specified",
             bool(data["playfield_service"]["dual_gas_struts"])
             and bool(data["playfield_service"]["independent_mechanical_safety"]),
             "dual struts + independent mechanical safety",
+        ),
+        Check(
+            "gas strut force deferred to final display",
+            data["playfield_service"]["gas_strut_force_status"] == "recalculate-after-final-display-selection",
+            data["playfield_service"]["gas_strut_force_status"],
         ),
         Check(
             "CNC production values deliberately unconfirmed",
@@ -138,16 +156,16 @@ def validate(data: dict) -> tuple[list[Check], dict]:
         "cabinet_slope_run_mm": slope_run,
         "cabinet_slope_rise_mm": slope_rise,
         "cabinet_slope_angle_deg": slope_angle_deg,
-        "oled_installed_width_mm": installed_oled_width,
-        "oled_required_pocket_depth_each_side_mm": pocket_each_side,
-        "oled_inner_margin_each_side_mm": current_oled_inner_margin_each_side,
-        "oled_remaining_side_skin_mm": remaining_skin,
-        "future_playfield_required_cavity_mm": future_required_cavity,
-        "future_playfield_max_cavity_at_min_skin_mm": max_future_cavity,
-        "future_playfield_cavity_margin_mm": future_cavity_margin,
+        "playfield_target_cross_width_mm": target_cross,
+        "playfield_required_cross_cavity_mm": required_cross_cavity,
+        "playfield_max_cross_cavity_at_min_skin_mm": max_cross_cavity,
+        "playfield_side_pocket_each_side_at_target_mm": pocket_each_side_at_target,
+        "playfield_remaining_side_skin_at_target_mm": remaining_skin_at_target,
+        "playfield_target_length_mm": target_length,
+        "playfield_clear_bay_length_mm": clear_length,
+        "legacy_lg_reference_inner_margin_each_side_mm": legacy_margin,
         "pc_service_width_margin_mm": pc_width_margin,
     }
-
     return checks, derived
 
 
@@ -156,7 +174,6 @@ def print_human(checks: list[Check], derived: dict) -> None:
         status = "PASS" if check.passed else "FAIL"
         req = f" | {check.requirement}" if check.requirement else ""
         print(f"{status:4}  {check.name:46} {check.value}{req}")
-
     print("\nDerived values")
     for key, value in derived.items():
         unit = "deg" if key.endswith("_deg") else "mm"
@@ -165,37 +182,16 @@ def print_human(checks: list[Check], derived: dict) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--config",
-        type=pathlib.Path,
-        default=DEFAULT_CONFIG,
-        help="Path to design JSON",
-    )
-    parser.add_argument(
-        "--json",
-        action="store_true",
-        help="Emit machine-readable results",
-    )
+    parser.add_argument("--config", type=pathlib.Path, default=DEFAULT_CONFIG, help="Path to design JSON")
+    parser.add_argument("--json", action="store_true", help="Emit machine-readable results")
     args = parser.parse_args()
-
     data = load_config(args.config)
     checks, derived = validate(data)
     success = all(check.passed for check in checks)
-
     if args.json:
-        print(
-            json.dumps(
-                {
-                    "ok": success,
-                    "checks": [check.__dict__ for check in checks],
-                    "derived": derived,
-                },
-                indent=2,
-            )
-        )
+        print(json.dumps({"ok": success, "checks": [check.__dict__ for check in checks], "derived": derived}, indent=2))
     else:
         print_human(checks, derived)
-
     return 0 if success else 1
 
 
