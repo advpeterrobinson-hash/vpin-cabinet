@@ -1,0 +1,115 @@
+{
+  "status": "engineering-provisional",
+  "manufacturing_ready": false,
+  "design_loads": {
+    "gross_machine_mass_design_envelope_kg": 150.0,
+    "local_dynamic_factor_for_leg_corner_and_hinge_checks": 2.0,
+    "pc_drawer_design_payload_kg": 25.0,
+    "backbox_assembly_design_mass_kg": 30.0,
+    "human_standing_or_sitting_on_cabinet": "not a rated load case",
+    "note": "These are conservative engineering verification envelopes, not predictions of final finished weight. Physical proof testing remains required before release."
+  },
+  "brazil_material_policy": {
+    "primary_structural_sheet": "18 mm naval/marine-grade plywood (compensado naval), preferably virola of good lamination quality; pinus naval acceptable if sheet quality passes inspection",
+    "preferred_nominal_thickness_mm": 18.0,
+    "preferred_sheet_classes": [
+      "compensado virola naval 18 mm",
+      "compensado pinus naval 18 mm"
+    ],
+    "alternate_locally_available_structural_thicknesses_mm": [15.0, 20.0, 25.0],
+    "rear_service_door_preferred_mm": 15.0,
+    "mDF_structural_use_prohibited": true,
+    "mdf_allowed_for": [
+      "non-structural cosmetic bezel prototypes",
+      "templates or disposable fixtures"
+    ],
+    "sheet_acceptance_checks": [
+      "measure actual thickness at multiple points",
+      "reject delamination",
+      "reject severe internal voids visible at edges or test coupon",
+      "reject badly warped sheets",
+      "verify CNC pocket/joint fit with physical tolerance coupon"
+    ],
+    "solid_wood_required": false,
+    "solid_wood_policy": "No solid timber is required for primary strength. If a local builder prefers hardwood/pinus cleats they may be an approved alternative only where the drawings preserve the same load path and fastener bearing area. CNC-cut laminated plywood doublers are the baseline because they are repeatable and flat-pack friendly."
+  },
+  "main_cabinet_structure": {
+    "side_panels_mm": 18.0,
+    "front_panel_mm": 18.0,
+    "rear_panel_mm": 18.0,
+    "bottom_panel_mm": 18.0,
+    "bottom_captured_in_dados_required": true,
+    "nominal_bottom_dado_depth_mm": 6.0,
+    "bottom_dado_depth_status": "provisional-until-CNC-provider-and-coupon",
+    "lower_structural_crossmembers": {
+      "required": true,
+      "material": "18 mm plywood",
+      "minimum_height_mm": 60.0,
+      "provisional_count": 3,
+      "purpose": [
+        "limit cabinet racking and bottom-panel span",
+        "support PC drawer/electronics load paths",
+        "create repeatable CNC self-alignment",
+        "avoid relying on the bottom skin alone for heavy components"
+      ],
+      "ssf_rule": "keep crossmembers low and outside primary SSF exciter wall zones; do not unnecessarily bridge/stiffen the side walls at exciter locations"
+    },
+    "heavy_components_rule": "PC drawer, batteries/power supplies, large amplifiers and mechanical toys must mount to dedicated trays/crossmembers/rails; do not hang concentrated mass from the bottom panel skin alone."
+  },
+  "critical_reinforcement_zones": {
+    "leg_corners": {
+      "baseline": "two-layer 18 mm plywood CNC doubler/corner block plus steel leg bracket/backing hardware",
+      "effective_wood_thickness_mm": 36.0,
+      "through_bolts_required": true,
+      "wood_screws_alone_prohibited": true
+    },
+    "rear_backbox_shelf": {
+      "baseline": "18 mm shelf plus 18 mm underside doubler/crossmember at hinge/lock/passport zone",
+      "effective_local_thickness_mm": 36.0,
+      "lock_bolts_use_metal_backed_captive_threads": true
+    },
+    "playfield_hinge_and_gas_strut_anchors": {
+      "baseline": "18+18 mm plywood doubler or equivalent steel bracket tied into full-thickness structure",
+      "through_bolt_or_metal_backed_insert_required": true,
+      "reduced_oled_pocket_skin_may_carry_load": false
+    },
+    "pc_drawer_slide_mounts": {
+      "baseline": "dedicated plywood subrails/doublers tied to crossmembers",
+      "minimum_local_wood_thickness_mm": 18.0,
+      "preferred_local_thickness_mm": 36.0
+    },
+    "lockdown_bar_receiver": {
+      "baseline": "metal receiver tied into reinforced front structure; custom-width metalwork acceptable",
+      "local_plywood_doubler_required": true
+    }
+  },
+  "backbox_structure": {
+    "perimeter_panels_mm": 18.0,
+    "rear_service_door_preferred_mm": 15.0,
+    "fixed_rear_structural_frame_required": true,
+    "door_is_primary_shear_member": false,
+    "monitor_rail_loads_to_fixed_crossmembers": true,
+    "fans_on_fixed_upper_panel": true
+  },
+  "joinery_and_fasteners": {
+    "cnc_self_locating_joinery_required": true,
+    "preferred_joint_features": [
+      "dados",
+      "rabbets",
+      "tabs and slots",
+      "captured crossmembers",
+      "CNC-located through holes"
+    ],
+    "critical_load_fasteners": "through-bolts, machine screws into metal-backed captive nuts/inserts, or documented equivalent",
+    "wood_screws_into_plywood_edges_for_critical_loads": false,
+    "adhesive": "PVA/D3 or documented equivalent for permanent wood joints where assembly plan calls for glue; final adhesive spec to use products readily available in Brazil"
+  },
+  "electrical_safety_policy": {
+    "shock_hazard_review_required_at_every_stage": true,
+    "user_warning_required_when_design_or_service_step_involves_mains_voltage": true,
+    "no_exposed_live_mains_in_normal_or_keyed_service_areas": true,
+    "mains_enclosures_tool_access_only": true,
+    "protective_earth_bonding_required_where_applicable": true,
+    "rule": "The cabinet is a toy/appliance, not a trap. Any reachable hazardous voltage is a blocking design defect until corrected."
+  }
+}
