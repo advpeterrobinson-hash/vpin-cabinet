@@ -26,6 +26,10 @@ echo '=== BUILD PLAYFIELD PIVOT v0.15 ==='
 freecadcmd tools/build_playfield_pivot_v15_entry.py
 
 echo
+echo '=== VERIFY PLAYFIELD PIVOT v0.15 ==='
+freecadcmd tools/verify_playfield_pivot_v15.py
+
+echo
 echo '=== COMPLETE ==='
 echo "Log: $LOG"
 echo 'Expected FreeCAD group:'
