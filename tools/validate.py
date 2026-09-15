@@ -51,8 +51,9 @@ def validate(data: dict) -> tuple[list[Check], dict]:
     cross_clearance = float(future["cross_clearance_each_side"])
     required_cross_cavity = target_cross + 2.0 * cross_clearance
     min_skin = float(future["minimum_remaining_side_skin"])
-    max_cross_cavity = outer - 2.0 * min_skin
-    documented_clear_cross = float(future["clear_cavity_cross_width"])
+    full_thickness_clear = float(future["full_thickness_clear_cross_width"])
+    max_routed_cross = float(future["maximum_routed_cross_width_at_minimum_skin"])
+    calculated_max_routed_cross = outer - 2.0 * min_skin
     pocket_each_side_at_target = max(0.0, (required_cross_cavity - inner) / 2.0)
     remaining_skin_at_target = wood - pocket_each_side_at_target
 
@@ -73,9 +74,9 @@ def validate(data: dict) -> tuple[list[Check], dict]:
     checks = [
         Check(
             "cabinet outer width selected baseline",
-            close(outer, 580.0),
+            close(outer, 600.0),
             f"{outer:.3f} mm",
-            "580.000 mm engineering baseline",
+            "600.000 mm v0.17 engineering baseline",
         ),
         Check(
             "width deviation within approved range",
@@ -92,16 +93,29 @@ def validate(data: dict) -> tuple[list[Check], dict]:
             "permanent cabinet must not be locked to one TV model",
         ),
         Check(
-            "43-inch-class cross cavity supported",
-            max_cross_cavity + 1e-6 >= required_cross_cavity,
-            f"max {max_cross_cavity:.3f} / required {required_cross_cavity:.3f} mm",
-            f">= {required_cross_cavity:.1f} mm",
+            "full-thickness 43-inch-class cavity supported",
+            inner + 1e-6 >= required_cross_cavity,
+            f"inner {inner:.3f} / required {required_cross_cavity:.3f} mm",
+            "target envelope must fit without side pockets",
         ),
         Check(
-            "documented clear cross cavity matches structure",
-            close(documented_clear_cross, max_cross_cavity),
-            f"{documented_clear_cross:.3f} mm",
-            f"{max_cross_cavity:.3f} mm from 580 mm body and {min_skin:.1f} mm skins",
+            "documented full-thickness cavity matches body",
+            close(full_thickness_clear, inner),
+            f"{full_thickness_clear:.3f} mm",
+            f"{inner:.3f} mm from 600 mm body and two {wood:.1f} mm sides",
+        ),
+        Check(
+            "target envelope requires no side pocket",
+            close(pocket_each_side_at_target, 0.0)
+            and future["side_pocket_required_for_target_envelope"] is False,
+            f"{pocket_each_side_at_target:.3f} mm/side",
+            "0 mm",
+        ),
+        Check(
+            "maximum routed future cavity documented",
+            close(max_routed_cross, calculated_max_routed_cross),
+            f"{max_routed_cross:.3f} mm",
+            f"{calculated_max_routed_cross:.3f} mm at {min_skin:.1f} mm skins",
         ),
         Check(
             "side skin retained at target display width",
@@ -158,7 +172,8 @@ def validate(data: dict) -> tuple[list[Check], dict]:
         "cabinet_slope_angle_deg": slope_angle_deg,
         "playfield_target_cross_width_mm": target_cross,
         "playfield_required_cross_cavity_mm": required_cross_cavity,
-        "playfield_max_cross_cavity_at_min_skin_mm": max_cross_cavity,
+        "playfield_full_thickness_clear_cross_width_mm": full_thickness_clear,
+        "playfield_max_routed_cross_width_at_min_skin_mm": max_routed_cross,
         "playfield_side_pocket_each_side_at_target_mm": pocket_each_side_at_target,
         "playfield_remaining_side_skin_at_target_mm": remaining_skin_at_target,
         "playfield_target_length_mm": target_length,

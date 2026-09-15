@@ -1,7 +1,7 @@
 {
   "status": "engineering-selected-service-envelope",
   "manufacturing_ready": false,
-  "decision": "playfield display is no longer locked to LG OLED42C5",
+  "decision": "playfield display is model-agnostic and the cabinet is widened to 600 mm so the 560 mm target envelope fits between full-thickness sidewalls",
   "market_observation_date": "2026-09-15",
   "purchase_policy": {
     "exact_model_selected": false,
@@ -20,25 +20,26 @@
     ]
   },
   "permanent_cabinet_envelope": {
-    "cabinet_outer_width_mm": 580.0,
+    "cabinet_outer_width_mm": 600.0,
     "nominal_side_thickness_mm": 18.0,
-    "minimum_remaining_side_skin_mm": 8.0,
-    "full_thickness_inner_width_mm": 544.0,
-    "maximum_clear_cavity_at_minimum_skin_mm": 564.0,
+    "full_thickness_inner_width_mm": 564.0,
     "target_max_display_cross_width_mm": 560.0,
     "cross_clearance_each_side_mm": 2.0,
+    "side_pockets_required_for_target_envelope": false,
+    "minimum_remaining_side_skin_mm": 8.0,
+    "maximum_future_routed_cavity_at_minimum_skin_mm": 584.0,
     "target_max_display_length_mm": 970.0,
     "service_bay_length_mm": 980.0,
     "target_max_display_depth_mm": 55.0,
     "display_mass_design_limit_kg": 12.0,
-    "rule": "Permanent wood is sized for the service envelope. Exact VESA holes, spacers and bezel/filler geometry live on replaceable cradle adapters."
+    "rule": "The normal target envelope fits between full-thickness sidewalls. Routing into the sides is reserved only for a future exceptional replacement display and is not part of the baseline build."
   },
   "reference_candidates": [
     {
       "manufacturer": "Samsung",
       "model": "QN43QN90FAGXZD",
       "class": "43 inch Neo QLED Mini LED",
-      "role": "current Brazil-market fit reference; not selected for purchase",
+      "role": "Brazil-market fit reference; not selected for purchase",
       "dimensions_without_stand_mm": {
         "native_width": 960.8,
         "native_height": 558.9,
@@ -53,7 +54,7 @@
       "vesa_mm": "200x200",
       "native_panel_hz": 120,
       "maximum_input_hz": 165,
-      "fit_status": "fits-v16-envelope-with-side-pockets"
+      "fit_status": "fits-600mm-body-without-side-pockets"
     },
     {
       "manufacturer": "Samsung",
@@ -74,7 +75,7 @@
       "vesa_mm": "200x200",
       "native_panel_hz": 120,
       "maximum_input_hz": 144,
-      "fit_status": "fits-v16-envelope-with-side-pockets"
+      "fit_status": "fits-600mm-body-without-side-pockets"
     },
     {
       "manufacturer": "LG",
@@ -93,28 +94,7 @@
       },
       "mass_without_stand_kg": 9.8,
       "vesa_mm": "300x200",
-      "fit_status": "fits-without-side-pockets"
-    },
-    {
-      "manufacturer": "LG",
-      "model": "OLED42C6PSA",
-      "class": "42 inch OLED",
-      "role": "premium geometry/performance reference; purchase not assumed",
-      "dimensions_without_stand_mm": {
-        "native_width": 932.0,
-        "native_height": 540.0,
-        "depth": 41.1
-      },
-      "pinball_orientation_mm": {
-        "cross_width": 540.0,
-        "length": 932.0,
-        "depth": 41.1
-      },
-      "mass_without_stand_kg": 9.8,
-      "vesa_mm": "300x200",
-      "native_panel_hz": 120,
-      "maximum_input_hz": 165,
-      "fit_status": "fits-without-side-pockets"
+      "fit_status": "fits-600mm-body-without-side-pockets"
     }
   ],
   "cradle_policy": {

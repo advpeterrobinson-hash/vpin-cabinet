@@ -1,8 +1,8 @@
 {
-  "status": "engineering-provisional",
+  "status": "engineering-provisional-v17-width",
   "manufacturing_ready": false,
   "main_cabinet": {
-    "outer_width_mm": 580.0,
+    "outer_width_mm": 600.0,
     "side_length_mm": 1308.1,
     "rear_height_mm": 596.9,
     "rear_top_flat_mm": 180.975,

@@ -8,7 +8,7 @@ mkdir -p .work/logs
 LOG=".work/logs/structure-v14.log"
 exec > >(tee "$LOG") 2>&1
 
-echo '=== VPIN STRUCTURE v0.14 ==='
+echo '=== VPIN STRUCTURE v0.14 ON CURRENT PLATFORM ==='
 echo "Repo:   $ROOT"
 echo "Branch: $(git branch --show-current)"
 echo "Commit: $(git rev-parse --short HEAD)"
@@ -18,7 +18,7 @@ echo '=== CURRENT PURE-PYTHON VALIDATION ==='
 make validate
 
 echo
-echo '=== ENSURE 580 mm PLATFORM / PLAYFIELD BASELINE ==='
+echo '=== ENSURE CURRENT PLATFORM / PLAYFIELD BASELINE ==='
 bash tools/run_platform_v09.sh
 
 echo
