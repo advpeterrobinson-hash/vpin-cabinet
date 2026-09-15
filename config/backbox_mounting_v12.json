@@ -1,0 +1,130 @@
+{
+  "status": "engineering-provisional",
+  "manufacturing_ready": false,
+  "depends_on": [
+    "config/backbox_fold_v10.json",
+    "config/electrical_routing_v11.json"
+  ],
+  "structural_alignment": {
+    "main_cabinet_outer_width_mm": 580.0,
+    "backbox_outer_width_mm": 780.0,
+    "common_alignment_datums": [
+      "rear face/back edge",
+      "cabinet/backbox centerline"
+    ],
+    "backbox_centered_over_cabinet": true,
+    "backbox_side_overhang_each_side_mm": 100.0,
+    "rear_walls_flush_when_upright": true,
+    "main_rear_shelf_required": true,
+    "backbox_floor_bears_on_rear_shelf": true,
+    "hinges_are_not_sole_upright_support": true,
+    "rule": "All shelf/floor holes and passages are derived from the same rear-edge and centerline datums; never dimension mating features independently from opposite side edges."
+  },
+  "upright_locking_interface": {
+    "count": 2,
+    "thread": "3/8-16",
+    "lock_bolt_center_offset_from_common_centerline_mm": 180.0,
+    "main_shelf_hole_diameter_mm": 11.9,
+    "backbox_floor_access_hole_diameter_mm": 25.4,
+    "main_shelf_captive_thread": "3/8-16 T-nut from underside or equivalent metal-backed captive nut",
+    "backbox_fastener": "wing screw, hand knob bolt, or captive socket bolt accessible from inside backbox",
+    "bolt_centers_main_shelf_from_left_mm": [110.0, 470.0],
+    "bolt_centers_backbox_floor_from_left_mm": [210.0, 570.0],
+    "positive_clamping_required": true,
+    "note": "The backbox floor is clamped down onto the rear shelf. Hinge pivots provide folding motion; the shelf and locking bolts carry/stabilize the upright assembly."
+  },
+  "aligned_passages": {
+    "primary_fold_harness": {
+      "opening_mm": [90.0, 50.0],
+      "center_offset_from_common_centerline_mm": 0.0,
+      "must_exist_in_both_main_shelf_and_backbox_floor": true,
+      "same_rear_edge_datum": true
+    },
+    "secondary_reserve": {
+      "opening_mm": [60.0, 40.0],
+      "center_offset_from_common_centerline_mm": -110.0,
+      "must_exist_in_both_main_shelf_and_backbox_floor": true,
+      "same_rear_edge_datum": true,
+      "normally_blank_with_removable_cover": true
+    },
+    "minimum_edge_clearance_to_lock_bolt_center_mm": 35.0
+  },
+  "display_mount_system": {
+    "architecture": "rear-anchored adjustable aluminium T-slot/service subframe with independent upper backglass and lower DMD carriages",
+    "fixed_back_wall_retained_for_structure": true,
+    "front_removal_required": true,
+    "no_monitor_specific_holes_in_permanent_wood": true,
+    "rear_vertical_rails": {
+      "quantity": 2,
+      "preferred_profile": "20x40 mm T-slot aluminium extrusion or equivalent slotted structural rail",
+      "nominal_spacing_center_to_center_mm": 300.0,
+      "mounting": "CNC-located through bolts or threaded inserts into fixed rear structural panel/crossmembers",
+      "must_avoid_fan_openings": true
+    },
+    "upper_backglass_carriage": {
+      "preferred_display_class": "31.5/32 inch 16:9",
+      "supported_smaller_classes": ["27 inch 16:9", "28 inch 16:9"],
+      "service_envelope_mm": [740.0, 450.0, 100.0],
+      "vertical_adjustment_total_mm": 160.0,
+      "depth_adjustment_range_from_rear_inner_plane_mm": [100.0, 215.0],
+      "horizontal_centering_adjustment_total_mm": 50.0,
+      "universal_vesa_patterns_mm": ["75x75", "100x100", "200x100", "200x200"],
+      "replaceable_universal_vesa_plate_required": true,
+      "positive_depth_stops_required": true,
+      "fold_transport_locking_hardware_required": true,
+      "bezel_interface": "replaceable front bezel/filler frame independent from structural carrier"
+    },
+    "lower_dmd_carriage": {
+      "independent_from_backglass_carriage": true,
+      "service_envelope_mm": [450.0, 230.0, 80.0],
+      "supports": [
+        "15.6 inch 16:9 FullDMD class displays",
+        "smaller traditional-DMD aspect displays via replaceable bezel",
+        "75x75 or 100x100 VESA displays",
+        "non-VESA LCD panels using replaceable edge-clamp/tray adapter"
+      ],
+      "vertical_adjustment_total_mm": 100.0,
+      "depth_adjustment_total_mm": 80.0,
+      "replaceable_bezel_required": true,
+      "front_removal_required": true
+    },
+    "speaker_baffle": {
+      "separate_from_display_load_paths": true,
+      "removable": true,
+      "rule": "Changing the DMD or backglass display must not require rebuilding the speaker mounts."
+    },
+    "folding_safety": {
+      "friction_only_adjustment_prohibited": true,
+      "locking_fasteners_required": true,
+      "secondary_stop_or_capture_feature_required": true,
+      "monitor_and_dmd_must_remain_secured_at_90_deg_fold": true
+    }
+  },
+  "display_size_policy": {
+    "recommended_backglass_class": "31.5/32 inch 16:9",
+    "reason": [
+      "best visual use of the 780 mm future-proof backbox width",
+      "common low-cost size class with many 1080p/4K VESA options",
+      "larger image is more proportionate to the wide backbox",
+      "adjustable carrier and bezel still permit 27/28 inch fallback later"
+    ],
+    "known_fit_examples": [
+      {
+        "model": "LG 32SR50F",
+        "class": "31.5/32 inch",
+        "dimensions_without_stand_mm": [731.8, 440.5, 45.0],
+        "vesa": "100x100",
+        "fits_service_envelope": true
+      },
+      {
+        "model": "Samsung UR55 28",
+        "class": "28 inch",
+        "dimensions_without_stand_mm": [638.8, 374.0, 64.0],
+        "vesa": "75x75",
+        "fits_service_envelope": true
+      }
+    ],
+    "28_inch_role": "supported fallback/alternate, not primary target",
+    "27_inch_role": "common smaller fallback if future 28 inch supply becomes poor"
+  }
+}
