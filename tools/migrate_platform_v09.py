@@ -2,8 +2,8 @@
 """Migrate the FreeCAD master to the 580 mm cabinet platform baseline.
 
 This stage updates the live spreadsheet parameters only. Existing expression-
-driven shell/OLED-fit geometry should recompute from those parameters. Frozen
-packaging groups (playfield service, etc.) are rebuilt separately by the runner.
+driven shell/fit geometry should recompute from those parameters. Frozen
+packaging groups are rebuilt separately by the runners.
 """
 from __future__ import annotations
 
@@ -33,46 +33,42 @@ def main() -> None:
     if sheet is None:
         raise RuntimeError("MASTER PARAMETERS spreadsheet not found")
 
-    # Primary platform selection.
     sheet.set("B2", "580.00 mm")
-    sheet.set("C2", "Selected future-proof cabinet outer width (v0.7/v0.9)")
+    sheet.set("C2", "Selected future-proof cabinet outer width")
 
-    # Preserve historical/reference width explicitly for traceability.
     set_param(sheet, 40, "CabOuterWidthReference", "558.80 mm", "Williams WPC reference outer width")
 
-    # Future replacement envelope for the playfield bay.
-    set_param(sheet, 41, "FuturePlayfieldWidth", "560.00 mm", "Future 42-inch-class display cross-cabinet chassis envelope")
-    set_param(sheet, 42, "FuturePlayfieldLength", "950.00 mm", "Future display front-to-rear envelope")
-    set_param(sheet, 43, "FuturePlayfieldDepth", "55.00 mm", "Future display maximum thickness/bulge envelope")
-    set_param(sheet, 44, "FuturePlayfieldClearance", "2.00 mm", "Per-side installation clearance for future display envelope")
+    # v0.16 display-agnostic permanent envelope. This is intentionally sized
+    # around compact 42/43-inch 4K gaming displays sold in Brazil rather than
+    # around one LG chassis.
+    set_param(sheet, 41, "FuturePlayfieldWidth", "560.00 mm", "Target max physical display cross-cabinet chassis width")
+    set_param(sheet, 42, "FuturePlayfieldLength", "970.00 mm", "Target max physical display front-to-rear chassis length")
+    set_param(sheet, 43, "FuturePlayfieldDepth", "55.00 mm", "Target max display thickness/bulge envelope")
+    set_param(sheet, 44, "FuturePlayfieldClearance", "2.00 mm", "Per-side cross-cabinet installation clearance")
     set_param(sheet, 45, "BackboxTargetWidth", "780.00 mm", "Future-proof backbox outer-width target")
+    set_param(sheet, 47, "FuturePlayfieldBayLength", "980.00 mm", "Clear longitudinal service bay for target display length")
+    set_param(sheet, 48, "FuturePlayfieldMaxCavity", "564.00 mm", "Maximum clear cross-cavity at 8 mm minimum remaining side skin")
 
-    # Current C5 no longer needs a side pocket at 580 mm; keep the legacy
-    # formula but clamp the engineering readout to zero using a new parameter.
-    set_param(sheet, 46, "OLEDRequiredPocketDepth", "=max(0 mm;(B35-B4)/2)", "Actual required side pocket at selected cabinet width")
+    # Legacy LG C-series fit readout remains for regression/reference only.
+    set_param(sheet, 46, "OLEDRequiredPocketDepth", "=max(0 mm;(B35-B4)/2)", "Legacy LG reference required side pocket at selected cabinet width")
 
     doc.recompute()
-
-    # Rename shell label to reflect selected platform without destroying the
-    # original parametric objects or scripts.
     shell = doc.getObject("Shell")
     if shell:
-        shell.Label = "CABINET SHELL v0.9 - 580 mm CNC PLATFORM"
+        shell.Label = "CABINET SHELL - 580 mm / 42-43 in DISPLAY ENVELOPE"
 
     doc.recompute()
     doc.save()
 
-    print("CABINET PLATFORM v0.9 MIGRATION COMPLETE")
-    print("=" * 68)
-    print("Cabinet outer width      ", sheet.get("B2"))
-    print("Cabinet inner width      ", sheet.get("B4"))
-    print("Future display width     ", sheet.get("B41"))
-    print("Future display clearance ", sheet.get("B44"))
-    try:
-        print("C5 required side pocket  ", sheet.get("B46"))
-    except Exception:
-        pass
-    print("STATUS                    ENGINEERING - NOT FOR CNC PRODUCTION")
+    print("CABINET PLATFORM / DISPLAY ENVELOPE MIGRATION COMPLETE")
+    print("=" * 72)
+    print("Cabinet outer width       ", sheet.get("B2"))
+    print("Cabinet inner width       ", sheet.get("B4"))
+    print("Target display cross      ", sheet.get("B41"))
+    print("Target display length     ", sheet.get("B42"))
+    print("Clear bay length          ", sheet.get("B47"))
+    print("Max cross cavity          ", sheet.get("B48"))
+    print("STATUS                     ENGINEERING - NOT FOR CNC PRODUCTION")
 
     App.closeDocument(doc.Name)
 
