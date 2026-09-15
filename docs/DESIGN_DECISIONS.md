@@ -1,3 +1,6 @@
+# Design Decisions
+
+This log records decisions that materially constrain the cabinet design. New decisions should be appended rather than silently rewriting history.
 
 ## DEC-011 — Windows runtime, Linux/FreeCAD engineering
 
@@ -19,14 +22,7 @@ Cutter CNC (`cuttercnc.com`, Brazil) is the prospective CNC fabrication provider
 
 The cabinet and structural metalwork are expected to outlive multiple generations of TVs, PC hardware, controller boards, amplifiers, and power supplies. Exact Williams dimensions are therefore a design reference rather than a manufacturing mandate.
 
-The owner explicitly approves approximately **10–50 mm** dimensional deviations where they materially improve:
-
-- future replacement compatibility;
-- service access;
-- structural margin;
-- cable/connector access;
-- modular mounting;
-- availability of generic replacement hardware.
+The owner explicitly approves approximately **10–50 mm** dimensional deviations where they materially improve future replacement compatibility, service access, structural margin, cable/connector access, modular mounting, or availability of generic replacement hardware.
 
 Permanent structure should use service envelopes and replaceable interfaces. Component-specific geometry should move into replaceable carriers, bezels, filler panels, and adapters where practical.
 
@@ -62,23 +58,13 @@ The final project should be buildable in an apartment from outsourced CNC/fabric
 
 **Status:** accepted for v0.8 engineering
 
-Use three service/control zones:
-
-1. separated rear power fascia;
-2. rear low-voltage service-I/O fascia;
-3. hidden coin-door and under-front service/control panels.
+Use three service/control zones: separated rear power fascia, rear low-voltage service-I/O fascia, and hidden coin-door/under-front service/control panels.
 
 Permanent cabinet panels receive simple rectangular service-bay openings. Connector-specific geometry belongs on small replaceable fascias/carriers so USB, HDMI, network, and other standards can be changed years later without recutting the cabinet.
 
 The visual language is intentionally inspired by vintage hi-fi / laboratory equipment: dark wood or black-finished wood with shallow **white-filled CNC engraving** for connector names, borders, scales, and service legends.
 
-Initial rear service ports are:
-
-- RJ45 Ethernet (`NETWORK`);
-- HDMI diagnostic output (`SERVICE DISPLAY`);
-- USB-A (`USB SERVICE`);
-- USB-C;
-- one blank `RESERVE` position.
+Initial rear service ports are RJ45 Ethernet (`NETWORK`), HDMI diagnostic output (`SERVICE DISPLAY`), USB-A (`USB SERVICE`), USB-C, and one blank `RESERVE` position.
 
 The rear mains bay remains physically separated and internally enclosed; the decorative wooden fascia is not relied upon as the electrical safety enclosure.
 
@@ -116,10 +102,7 @@ Backbox ventilation uses a dedicated fused **AUX 12 V** cabinet bus and a standa
 
 The cabinet reserves separate routing classes for AC mains, high-current DOF/DC power, logic/data/LED wiring, low-level audio and moving display harnesses. AC mains remains physically separated from low-level wiring; inductive/high-current toy wiring is likewise routed away from audio/data where practical.
 
-The folding backbox receives two designed cable passages rather than one improvised hole:
-
-- primary passport: **90 × 50 mm** minimum clear opening, rounded/grommeted, with ~300 mm folding service loop;
-- reserve passport: **60 × 40 mm** minimum clear opening with removable blanking cover for future topper/toy/standard expansion.
+The folding backbox receives two designed cable passages rather than one improvised hole: a primary **90 × 50 mm** rounded/grommeted passport with ~300 mm folding service loop, plus a reserve **60 × 40 mm** passport with removable blanking cover.
 
 Harness supports are CNC-located. Fixed harnesses target support spacing <=250 mm; moving/hinge harnesses target <=100 mm near the moving zone. Adhesive-only tie bases are not accepted as the primary support method.
 
@@ -127,28 +110,26 @@ Before cabinet CNC geometry is frozen, the physical zoning/routing system must r
 
 This is a packaging/power-domain decision, not yet a final toy shopping list. Exact voltage, fuse, wire-gauge, connector and controller-board selections remain BOM-stage decisions based on final hardware ratings and measured current.
 
-## DEC-019 — Backbox floor and main rear shelf are one matched structural interface
+## DEC-019 — Closed, structurally braced and child-resistant backbox enclosure
 
 **Status:** accepted engineering baseline for v0.12
 
-The backbox sits on the horizontal rear shelf at the top of the main cabinet when upright. The side hinges provide the folding pivot; they are not the sole structural support in the operating position.
+The adjustable monitor/DMD mounting system does **not** imply an open backbox. The backbox remains a closed wooden enclosure with a continuous fixed rear structural shear panel.
 
-The backbox floor and main rear shelf are designed from a shared rear-edge/back-wall datum and a shared left-right centerline. The 580 mm cabinet shelf and 780 mm backbox floor therefore differ by 100 mm per side, and corresponding holes must never be independently dimensioned from their respective outer side edges.
+Baseline structure uses nominal 18 mm perimeter panels with a fixed rear plywood shear panel of at least 12 mm, captured into dados/rabbets as final CNC joinery dictates. The adjustable aluminium display subframe transfers monitor/DMD loads into dedicated top/bottom crossmembers and side/perimeter structure; the rear plywood panel is not the sole display support.
 
-Two 3/8-16 locking bolts clamp the backbox floor to captive threads in the main rear shelf. The current provisional centers are ±180 mm from the common centerline. Matching cable-passport openings in the shelf and floor use the same shared datums so there is no step or partial overlap at the fold harness.
+Normal monitor/DMD replacement is through the front. Large hand-removable rear panels are prohibited. Any future rear service hatch must require a tool and use captive/tamper-resistant fasteners or a keyed lock.
 
-The final CNC package must cut both members as a matched pair and validate their alignment numerically before release.
+All penetrations are guarded/sealed rather than left open:
 
-## DEC-020 — Adjustable reusable backglass and DMD carrier system
+- backglass behind removable tempered glass or impact-resistant clear polycarbonate;
+- DMD behind a closed window/bezel;
+- speaker openings behind rigid perforated/finger-safe grilles plus acoustic material;
+- ventilation openings behind rigid finger guards and removable fine insect mesh/filter;
+- floor/shelf interface sealed with replaceable closed-cell gasket;
+- active cable passport finished with a split compression/gland interface;
+- reserve passport gasketed and blanked when unused.
 
-**Status:** accepted engineering baseline for v0.12
+No exposed mains terminals are permitted in the backbox. Fans and most auxiliaries remain on SELV/DC rails. If the backglass display requires AC mains, it receives power through fully insulated jacketed wiring and a touch-safe enclosed connector/receptacle; any unavoidable mains splice is confined to a tool-access-only enclosed junction compartment.
 
-Use a fixed structural back wall for backbox stiffness, but do not permanently mount either display to it. Instead, install a rear-anchored slotted/T-slot service subframe with independent backglass and DMD carriages.
-
-The upper backglass carriage must provide substantial up/down, front/back and horizontal centering adjustment. The target is at least 160 mm total vertical travel and approximately 100–215 mm adjustable carrier depth from the rear inner plane. The removable VESA interface should support common 75x75, 100x100, 200x100 and 200x200 patterns; unusual future patterns require changing only the adapter plate.
-
-The lower DMD/FullDMD carriage is independent, with its own vertical/depth adjustment and replaceable bezel. It should accept a 15.6-inch FullDMD class display as well as smaller traditional-DMD-aspect screens through adapter trays/bezels. Speaker mounting remains a separate removable baffle so display replacement does not disturb the speaker load path.
-
-All display adjustment hardware must remain positively locked when the backbox folds 90 degrees. Friction-only clamps are not sufficient.
-
-The preferred backglass class is **31.5/32 inch 16:9** because it makes better visual use of the 780 mm backbox and is a mainstream low-cost size. The mount remains deliberately compatible with 27/28-inch replacements through carriage adjustment and a different bezel, so a future supply change does not require new cabinetry.
+The intent is not to claim a formal IP rating. The intent is a strong, closed cabinet that resists insect/dust entry, prevents casual child access, prevents fingers/tools from reaching hazardous energized parts, and remains fully serviceable through deliberate tool-controlled access.
