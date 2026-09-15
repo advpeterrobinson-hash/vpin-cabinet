@@ -1,7 +1,7 @@
 {
   "status": "engineering-provisional",
   "manufacturing_ready": false,
-  "body_outer_width_mm": 580.0,
+  "body_outer_width_mm": 600.0,
   "rear_panel_local_origin": "lower-left as viewed from rear",
   "design_language": {
     "theme": "vintage hi-fi / laboratory equipment",
@@ -37,7 +37,7 @@
   "rear_service_fascia": {
     "outer_width_mm": 255.0,
     "outer_height_mm": 120.0,
-    "rear_x_mm": 290.0,
+    "rear_x_mm": 310.0,
     "rear_z_mm": 40.0,
     "fascia_thickness_mm": 9.0,
     "cabinet_window_width_mm": 235.0,
