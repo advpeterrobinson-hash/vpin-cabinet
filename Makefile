@@ -4,7 +4,7 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack open-master build-shell-v02 audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack open-master build-shell-v02 build-structure-v14 audit-reference status
 
 help:
 	@printf '%s\n' \
@@ -23,6 +23,7 @@ help:
 	  '  make validate-structure-buildpack Validate structure-first BOM/manual/label/hinge package' \
 	  '  make open-master               Open current FreeCAD master' \
 	  '  make build-shell-v02           Re-run the validated WPC shell generator' \
+	  '  make build-structure-v14       Run full 580 mm platform + structure/WPC hinge packaging build' \
 	  '  make audit-reference           Run reference audit (if local reference copy exists)' \
 	  '  make status                    Show concise Git state'
 
@@ -69,6 +70,9 @@ open-master:
 
 build-shell-v02:
 	$(FREECADCMD) tools/build_shell_v02.py
+
+build-structure-v14:
+	bash tools/run_structure_v14.sh
 
 audit-reference:
 	@test -f .work/audit/reference-master.FCStd || \
