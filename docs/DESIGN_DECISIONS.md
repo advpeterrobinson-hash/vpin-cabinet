@@ -149,7 +149,7 @@ The owner explicitly approves approximately **10–50 mm** dimensional deviation
 
 Permanent structure should use service envelopes and replaceable interfaces. Component-specific geometry should move into replaceable carriers, bezels, filler panels, and adapters where practical.
 
-The main playfield cabinet width must be re-evaluated before CNC freeze because the current 558.8 mm body leaves little cross-width growth margin beyond the initial 540 mm OLED. A likely evaluation range is approximately 570–575 mm, but the final width remains pending a hardware-impact review covering glass, siderails, lockdown bar, cradle, and controls.
+The main playfield cabinet width was subsequently selected at **580 mm** under DEC-015 to provide a larger future 42-inch-class service envelope while retaining the Williams visual character.
 
 ## DEC-014 — Future-proof backbox width and modular monitor carrier
 
@@ -164,3 +164,39 @@ Target monitor service envelope:
 - depth: 100 mm
 
 The permanent shell uses a removable/slotted monitor carrier plus a removable cosmetic bezel/filler panel. The exact backglass model is therefore not required before the permanent backbox shell is CNC-cut; it is only required before its carrier and bezel are finalized.
+
+## DEC-015 — 580 mm CNC-flatpack main body
+
+**Status:** accepted engineering baseline
+
+Adopt **580.0 mm** as the main cabinet outer-width engineering baseline. The goal is not millimetre-perfect Williams replication; the goal is a long-lived, future-proof cabinet that can be replicated from CNC plans.
+
+The target future playfield service envelope is approximately 560 × 950 × 55 mm with 2 mm installation clearance per side. The initial LG OLED42C5 remains comfortably inside that envelope.
+
+A custom-width lockdown bar is explicitly acceptable and is not a blocker. Siderails, brackets, and other simple metal parts may likewise be supplied as dimensioned DXF/PDF fabrication drawings so a local shop can make them without requiring the builder to own metalworking equipment.
+
+The final project should be buildable in an apartment from outsourced CNC/fabricated parts using ordinary hand tools rather than table saws, routers, drill presses, or welding equipment.
+
+## DEC-016 — Replaceable service-I/O fascias with vintage white engraving
+
+**Status:** accepted for v0.8 engineering
+
+Use three service/control zones:
+
+1. separated rear power fascia;
+2. rear low-voltage service-I/O fascia;
+3. hidden coin-door and under-front service/control panels.
+
+Permanent cabinet panels receive simple rectangular service-bay openings. Connector-specific geometry belongs on small replaceable fascias/carriers so USB, HDMI, network, and other standards can be changed years later without recutting the cabinet.
+
+The visual language is intentionally inspired by vintage hi-fi / laboratory equipment: dark wood or black-finished wood with shallow **white-filled CNC engraving** for connector names, borders, scales, and service legends.
+
+Initial rear service ports are:
+
+- RJ45 Ethernet (`NETWORK`);
+- HDMI diagnostic output (`SERVICE DISPLAY`);
+- USB-A (`USB SERVICE`);
+- USB-C;
+- one blank `RESERVE` position.
+
+The rear mains bay remains physically separated and internally enclosed; the decorative wooden fascia is not relied upon as the electrical safety enclosure.
