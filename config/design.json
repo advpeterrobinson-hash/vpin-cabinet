@@ -31,7 +31,7 @@
   "cabinet": {
     "reference_outer_width_mm": 558.8,
     "outer_width_mm": 600.0,
-    "outer_width_status": "selected-engineering-baseline-v17",
+    "outer_width_status": "owner-approved-selected-baseline-v17",
     "side_length_mm": 1308.1,
     "front_height_mm": 400.05,
     "rear_height_mm": 596.9,
