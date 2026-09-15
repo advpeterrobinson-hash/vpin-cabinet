@@ -10,7 +10,7 @@ This manual covers the **structure-ready phase** only: woodworking, backbox, leg
 - Any later 127/220 V work must use enclosed terminals, protective earth where required, branch protection, strain relief and a documented isolation/service procedure.
 - If a future step requires exposure to mains wiring, the manual must show a shock-hazard warning before the step.
 - The backbox rear service door may expose low-voltage service hardware, but must not expose bare mains terminals.
-- Never service the raised OLED using gas struts alone: engage the independent mechanical safety prop.
+- Never service the raised playfield display using gas struts alone: engage both independent mechanical safety stays.
 - Never transport the machine with the backbox upright.
 
 ## 1. Part-identification rule
@@ -173,15 +173,25 @@ The backglass monitor should be replaceable through the front; routine cable/fan
 Install:
 
 - independent structural TV cradle;
-- rear hinge/pivot assembly;
+- v0.15 short-journal rear pivot assembly;
 - dual gas struts;
-- independent positive safety prop;
-- VESA adapter plate;
+- two independent positive safety stays;
+- replaceable VESA adapter plate;
 - cable service loop and strain relief.
 
-Before installing the OLED, proof-operate the empty cradle through its full range and verify all gas-strut and safety-prop clearances.
+The permanent cradle/cabinet is **not tied to one TV model**. The current v0.16 service envelope targets compact 42/43-inch 16:9 gaming displays up to approximately:
 
-After OLED installation, repeat sweep and safety checks with actual moving mass.
+- 560 mm physical cross-cabinet chassis width;
+- 970 mm physical front-to-rear chassis length;
+- 55 mm depth;
+- 12 kg display mass design limit;
+- 2 mm installation clearance per side across the cabinet.
+
+The 580 mm body can create up to a 564 mm clear cross-cavity while retaining 8 mm minimum side skin. Displays near the 560 mm cross-width limit therefore use shallow sidewall clearance pockets; narrower 42-inch-class displays may fit between the full-thickness walls.
+
+Before installing any display, proof-operate the empty cradle through its full range and verify pivot, latch, gas-strut and safety-stay clearances.
+
+Gas-strut force is **not a purchase specification until the exact display and finished cradle mass/CG are measured**.
 
 ## 11. Legs, levelers and retractable mobility
 
@@ -219,17 +229,30 @@ Before electronics:
 - confirm no contact with the bottom panel, cable routes or future toys;
 - verify the drawer can be removed/reinstalled with ordinary hand tools.
 
-## 14. Displays
+## 14. Playfield display selection and installation
 
-Only after all structural motion tests pass:
+The playfield display is selected **late in the structure phase from the Brazil market**, not years in advance by model number.
 
-- mount the LG OLED42C5 in the playfield cradle;
-- mount the selected 31.5/32-inch backglass monitor in the adjustable carriage;
-- adjust display face to bezel datum;
-- fit replaceable bezel/filler parts;
-- install protective glazing.
+Minimum purchasing target:
 
-Re-test playfield service opening and 90-degree backbox fold with the actual displays installed.
+- 4K UHD 3840×2160;
+- native 120 Hz or better;
+- HDMI 2.1 / 4K120 or better strongly preferred;
+- VRR and low-latency game mode preferred;
+- chassis within the v0.16 service envelope;
+- VESA mounting or a safe replaceable adapter solution.
+
+A Samsung QN90F 43-inch chassis is currently used only as a **fit reference** because its 558.9 × 960.8 × 26.9 mm pinball-oriented envelope and 9.4 kg mass fit the cabinet. It is not a mandated purchase. The older LG 42-inch C-series geometry remains another regression reference, not the selected display.
+
+After the exact display is bought:
+
+1. measure the actual chassis and VESA-hole locations;
+2. generate/fit the replaceable VESA adapter;
+3. position the display longitudinally inside the adjustable cradle envelope;
+4. recalculate gas-strut force and mounting points using measured moving mass/CG;
+5. mount the selected 31.5/32-inch backglass monitor in its independent adjustable carriage;
+6. fit replaceable bezel/filler parts and protective glazing;
+7. re-test the full playfield opening sweep and 90-degree backbox fold with actual displays installed.
 
 ## 15. Structure-ready inspection
 
@@ -242,10 +265,12 @@ Do not start the electronics shopping/installation phase until all items below p
 - backbox hinges and upright lock bolts operational;
 - keyed rear service door operational;
 - cable passports and raceway mounting holes present;
-- playfield cradle safe with independent prop;
+- playfield cradle safe with both independent safety stays;
 - backglass/DMD mounts adjustable and positively locked;
 - PC drawer proof-tested;
-- displays fit and remain safe during motion;
+- selected playfield display fits the v0.16 service envelope;
+- final display adapter and gas-strut specification validated against the actual display;
+- all displays remain safe during service/transport motion;
 - all part IDs/BOM lines accounted for;
 - no woodworking rework is expected for the electronics/toy phase.
 

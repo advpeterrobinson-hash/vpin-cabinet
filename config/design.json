@@ -1,5 +1,5 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "project": {
     "name": "vpin-cabinet",
     "units": "mm",
@@ -38,14 +38,30 @@
     "rear_top_flat_mm": 180.975,
     "main_wood_nominal_mm": 18.0,
     "future_playfield_service_envelope_mm": {
-      "cross_width": 560.0,
-      "length": 950.0,
+      "target_display_cross_width": 560.0,
+      "clear_cavity_cross_width": 564.0,
+      "target_display_length": 970.0,
+      "clear_bay_length": 980.0,
       "depth": 55.0,
-      "clearance_each_side": 2.0
+      "cross_clearance_each_side": 2.0,
+      "minimum_remaining_side_skin": 8.0,
+      "display_mass_design_limit_kg": 12.0
     }
+  },
+  "playfield_display": {
+    "exact_model": null,
+    "selection_status": "open-local-brazil-market-selection",
+    "preferred_class": "42-43 inch 16:9 4K gaming display",
+    "minimum_native_refresh_hz": 120,
+    "preferred_refresh_hz": 144,
+    "minimum_resolution": "3840x2160",
+    "vesa_adapter_replaceable": true,
+    "permanent_model_specific_wood_holes": false,
+    "fit_reference_config": "config/playfield_display_v16.json"
   },
   "oled": {
     "model": "LG OLED42C5",
+    "status": "legacy-geometry-reference-only-not-selected",
     "native_width_mm": 932.0,
     "native_height_mm": 540.0,
     "max_depth_mm": 41.1,
@@ -54,7 +70,7 @@
     "vesa_y_mm": 200.0,
     "clearance_each_side_mm": 1.0,
     "minimum_remaining_side_skin_mm": 8.0,
-    "future_replacement_envelope_status": "defined-v07"
+    "future_replacement_envelope_status": "superseded-by-playfield-display-v16"
   },
   "backglass": {
     "target_diagonal_in": 32.0,
@@ -90,7 +106,8 @@
     "hinged": true,
     "dual_gas_struts": true,
     "independent_mechanical_safety": true,
-    "target_open_angle_deg": 70.0
+    "target_open_angle_deg": 70.0,
+    "gas_strut_force_status": "recalculate-after-final-display-selection"
   },
   "service_io": {
     "rear_power_fascia_replaceable": true,

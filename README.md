@@ -5,10 +5,10 @@ Parametric CNC-ready virtual pinball cabinet inspired by Williams WPC proportion
 ## Primary design targets
 
 - Williams WPC-derived visual proportions rather than rigid historical dimensions
-- selected **580 mm main-cabinet width** for future 42-inch-class display tolerance
+- selected **580 mm main-cabinet width** for future compact 42/43-inch display tolerance
 - selected **780 mm backbox width** with reusable adjustable display carriers
 - 18 mm metric plywood primary structure (production value = measured sheet thickness)
-- LG OLED42C5 initial playfield in a replaceable structural cradle
+- **model-agnostic 42/43-inch 4K high-refresh playfield display** in a replaceable structural cradle
 - approximately 31.5/32-inch backglass preferred; 27/28-inch fallback supported through adjustable carriage/bezel
 - Williams/Bally WPC-style folding backbox hinges and separate upright locking bolts
 - keyed/gasketed rear backbox service door
@@ -33,7 +33,7 @@ Every CNC/fabricated part will receive a stable part ID linked to the BOM and bu
 
 Woodworking, displays, real pinball legs, folding backbox hardware, lockdown/siderails, playfield mechanics and the PC drawer must reach a **STRUCTURE READY** gate before the coordinated electronics/DOF purchase begins.
 
-This reduces electronic obsolescence during the long cabinet build and prevents expensive electronics from dictating permanent wood geometry unnecessarily.
+The exact playfield display is selected late in the structure phase from the models actually available in Brazil, rather than locking the permanent cabinet to one LG/Samsung model years in advance.
 
 See:
 
@@ -43,6 +43,7 @@ See:
 - `docs/STRUCTURE_BUILD_MANUAL.md` — living mechanical assembly manual
 - `docs/PART_LABELING.md` — part/revision/engraving convention
 - `docs/BACKBOX_HINGE_SHOPPING.md` — WPC hinge part numbers and procurement notes
+- `docs/PLAYFIELD_DISPLAY_V16.md` — Brazil-market playfield display envelope and selection policy
 
 ## Longevity philosophy
 
@@ -50,7 +51,9 @@ The wooden cabinet and structural metalwork should outlive several generations o
 
 Current examples:
 
-- 580 mm main body supports the initial 540 mm-wide C5 without side routing and preserves a routed future-display envelope;
+- 580 mm main body supports a **560 mm physical display cross-width target** using up to a 564 mm routed clearance cavity while retaining 8 mm minimum side skin;
+- longitudinal playfield target expanded to **970 mm chassis / 980 mm clear service bay** for compact 43-inch gaming TVs;
+- exact playfield VESA pattern lives on a replaceable adapter plate;
 - 780 mm backbox provides a 740 x 450 x 100 mm display service envelope;
 - backglass and DMD use independent adjustable rail carriages and replaceable VESA/tray adapters;
 - PC and electronics mounting use replaceable adapters/panels;
@@ -70,7 +73,7 @@ make validate
 make open-master
 ```
 
-`make validate` runs the current pure-Python dimensional, packaging, routing, structural-material and build-package checks. FreeCAD geometry/collision checks remain separate local gates for CAD-changing stages.
+`make validate` runs the current pure-Python dimensional, packaging, routing, structural-material, build-package, pivot and display-envelope checks. FreeCAD geometry/collision checks remain separate local gates for CAD-changing stages.
 
 See also:
 
@@ -86,16 +89,18 @@ See also:
 
 - main cabinet outer width: **580.00 mm**;
 - nominal inside width at 18 mm plywood: **544.00 mm**;
+- maximum routed cross-cavity at 8 mm remaining side skin: **564.00 mm**;
 - cabinet side length: **1308.10 mm**;
 - front outside height: **400.05 mm**;
 - rear outside height: **596.90 mm**;
 - backbox target outer width: **780.00 mm**;
-- LG OLED42C5 physical envelope: **932.0 x 540.0 x 41.1 mm**, 9.8 kg;
-- current C5 installed cross-width envelope: **542.0 mm**;
-- future playfield chassis target: **560 x 950 x 55 mm** plus installation clearance;
+- playfield display physical target: **<=560 x 970 x 55 mm**, <=12 kg;
+- playfield display purchasing target: **4K, native >=120 Hz**, VRR/HDMI 2.1 preferred;
 - backglass service envelope: **740 x 450 x 100 mm**.
 
-The OLED and gas-strut loads are carried by an independent structural cradle. Reduced-thickness side pockets, if ever required by a future wider display, are clearance only and are not permitted to carry structural lifting loads.
+Current fit references include LG 42-inch C-series geometry and the Samsung 43-inch QN90F/QN90D chassis class. These are **fit references, not purchase mandates**.
+
+The display and gas-strut loads are carried by an independent structural cradle. Reduced-thickness side pockets are clearance only and are not permitted to carry structural lifting loads.
 
 ## Safety baseline
 

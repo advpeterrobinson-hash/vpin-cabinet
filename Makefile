@@ -4,7 +4,7 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot open-master build-shell-v02 build-structure-v14 build-playfield-pivot-v15 audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display open-master build-shell-v02 build-structure-v14 build-playfield-pivot-v15 audit-reference status
 
 help:
 	@printf '%s\n' \
@@ -22,6 +22,7 @@ help:
 	  '  make validate-structure-materials Validate v0.13 structural material/reinforcement policy' \
 	  '  make validate-structure-buildpack Validate structure-first BOM/manual/label/hinge package' \
 	  '  make validate-playfield-pivot  Validate v0.15 steel-plate/short-journal playfield pivot' \
+	  '  make validate-playfield-display Validate v0.16 model-agnostic 42/43 inch display envelope' \
 	  '  make open-master               Open current FreeCAD master' \
 	  '  make build-shell-v02           Re-run the validated WPC shell generator' \
 	  '  make build-structure-v14       Run full 580 mm platform + structure/WPC hinge packaging build' \
@@ -38,7 +39,7 @@ doctor:
 	test -f config/design.json && echo 'Config:    OK' || (echo 'Config: MISSING'; exit 1); \
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
-validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -69,6 +70,9 @@ validate-structure-buildpack:
 
 validate-playfield-pivot:
 	$(PYTHON) tools/validate_playfield_pivot_v15.py
+
+validate-playfield-display:
+	$(PYTHON) tools/validate_playfield_display_v16.py
 
 open-master:
 	$(FREECAD) $(MASTER)

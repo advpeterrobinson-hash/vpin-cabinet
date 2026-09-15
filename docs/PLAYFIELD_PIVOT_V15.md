@@ -4,7 +4,7 @@ Status: engineering-selected baseline; not manufacturing-ready.
 
 ## Decision
 
-Keep the LG OLED playfield cradle primarily CNC plywood. Concentrated hinge loads are transferred through local steel plates rather than by letting a pivot pin work directly in plywood.
+Keep the playfield display cradle primarily CNC plywood. Concentrated hinge loads are transferred through local steel plates rather than by letting a pivot pin work directly in plywood.
 
 The selected baseline is:
 
@@ -17,7 +17,7 @@ The selected baseline is:
 - one external 15 mm flange bearing per cabinet side;
 - positive axial retention independent of bearing set screws.
 
-The TV chassis is never the structural hinge member.
+The display chassis is never the structural hinge member. The v0.16 cabinet/cradle envelope is intentionally model-agnostic for compact 42/43-inch 4K high-refresh displays available in Brazil.
 
 ## Pivot cheek plate to quote locally
 
@@ -111,10 +111,10 @@ Complete cradle removal is intended to work as follows:
 3. raise the playfield cradle;
 4. engage both independent mechanical safety stays;
 5. add a temporary rated support strap/prop for complete cradle removal;
-6. disconnect TV power/video service-loop connectors;
+6. disconnect display power/video service-loop connectors;
 7. release positive journal retention and bearing set screws;
 8. unbolt or slide each flange bearing off the short journal;
-9. remove the TV/cradle assembly as a module, preferably with two people.
+9. remove the display/cradle assembly as a module, preferably with two people.
 
 Normal maintenance does not require removing the cradle.
 
@@ -122,15 +122,26 @@ Normal maintenance does not require removing the cradle.
 
 The pivot is not used as the only play-position support.
 
-Closed position requires structural support pads plus positive latches/retainers so DOF vibration and nudging do not bounce the OLED cradle against the hinge.
+Closed position requires structural support pads plus positive latches/retainers so DOF vibration and nudging do not bounce the display cradle against the hinge.
 
 Gas struts are lift assistance only. They are not safety devices.
 
-The final machine requires two independent positive mechanical safety stays. A person working under the raised display must not be exposed to a falling OLED if one or both gas struts fail.
+The final machine requires two independent positive mechanical safety stays. A person working under the raised display must not be exposed to a falling playfield display if one or both gas struts fail.
 
 ## Shock warning
 
-The playfield TV uses mains voltage. Mechanical service around the raised OLED requires cabinet power isolation before manipulating the power lead, service loop, pivot, gas struts or safety stays. A pinched or abraded TV mains lead is a blocking shock/fire defect.
+The playfield display is expected to use mains voltage unless a future selected model uses an external low-voltage brick. Mechanical service around the raised display requires cabinet power isolation before manipulating its power lead, service loop, pivot, gas struts or safety stays. A pinched or abraded mains lead is a blocking shock/fire defect.
+
+## Display-model dependency
+
+The pivot plates, bearings and plywood load paths are sized independently from one LG model. Final gas-strut force and longitudinal display position remain deliberately open until the exact playfield display is purchased and its actual mass, chassis dimensions and center of gravity are measured.
+
+The permanent cabinet targets the v0.16 service envelope:
+
+- up to 560 mm physical chassis width across the cabinet;
+- up to 970 mm physical chassis length;
+- up to 55 mm depth;
+- up to 12 kg display mass design limit.
 
 ## What may be researched/bought now
 
@@ -142,4 +153,4 @@ Reasonable to research now:
 - 15 mm SAE1045/ground shaft stock;
 - M8 class 8.8 structural hardware.
 
-Do **not** buy final gas struts, safety stays or closed-position latches yet. Their geometry is still linked to the final cradle CG and FreeCAD motion sweep.
+Do **not** buy final gas struts, safety stays or closed-position latches yet. Their geometry is still linked to the selected display, finished cradle CG and FreeCAD motion sweep.
