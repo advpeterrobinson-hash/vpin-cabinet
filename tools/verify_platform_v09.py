@@ -45,8 +45,15 @@ if sheet is None:
 
 
 def cell_float(cell: str) -> float:
-    txt = sheet.get(cell).strip().split()[0]
-    return float(txt)
+    """Read Spreadsheet cells across FreeCAD versions.
+
+    FreeCAD 1.1 may return Base.Quantity for unit-bearing spreadsheet cells,
+    while older versions often returned strings such as ``600.00 mm``.
+    """
+    value = sheet.get(cell)
+    if hasattr(value, "Value"):
+        return float(value.Value)
+    return float(str(value).strip().split()[0])
 
 
 outer = cell_float("B2")
