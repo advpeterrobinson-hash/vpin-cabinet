@@ -4,24 +4,25 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing open-master build-shell-v02 audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting open-master build-shell-v02 audit-reference status
 
 help:
 	@printf '%s\n' \
 	  'vpin-cabinet engineering commands' \
 	  '' \
-	  '  make doctor                 Check required local tools/files' \
-	  '  make validate               Run current pure-Python design/packaging checks' \
-	  '  make validate-baseline      Validate current documented dimensional baseline' \
-	  '  make validate-backbox       Validate v0.6 future-proof backbox packaging' \
-	  '  make validate-main-body     Validate v0.7 future-playfield width envelope' \
-	  '  make validate-service-io    Validate v0.8 service-I/O packaging' \
-	  '  make validate-backbox-fold  Validate v0.10 folding-backbox transport design' \
+	  '  make doctor                    Check required local tools/files' \
+	  '  make validate                  Run current pure-Python design/packaging checks' \
+	  '  make validate-baseline         Validate current documented dimensional baseline' \
+	  '  make validate-backbox          Validate v0.6 future-proof backbox packaging' \
+	  '  make validate-main-body        Validate v0.7 future-playfield width envelope' \
+	  '  make validate-service-io       Validate v0.8 service-I/O packaging' \
+	  '  make validate-backbox-fold     Validate v0.10 folding-backbox transport design' \
 	  '  make validate-electrical-routing Validate v0.11 cooling/toy/cable infrastructure' \
-	  '  make open-master            Open current FreeCAD master' \
-	  '  make build-shell-v02        Re-run the validated WPC shell generator' \
-	  '  make audit-reference        Run reference audit (if local reference copy exists)' \
-	  '  make status                 Show concise Git state'
+	  '  make validate-backbox-mounting Validate v0.12 shelf alignment/display carriages' \
+	  '  make open-master               Open current FreeCAD master' \
+	  '  make build-shell-v02           Re-run the validated WPC shell generator' \
+	  '  make audit-reference           Run reference audit (if local reference copy exists)' \
+	  '  make status                    Show concise Git state'
 
 doctor:
 	@set -e; \
@@ -32,7 +33,7 @@ doctor:
 	test -f config/design.json && echo 'Config:    OK' || (echo 'Config: MISSING'; exit 1); \
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
-validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -51,6 +52,9 @@ validate-backbox-fold:
 
 validate-electrical-routing:
 	$(PYTHON) tools/validate_electrical_routing_v11.py
+
+validate-backbox-mounting:
+	$(PYTHON) tools/validate_backbox_mounting_v12.py
 
 open-master:
 	$(FREECAD) $(MASTER)

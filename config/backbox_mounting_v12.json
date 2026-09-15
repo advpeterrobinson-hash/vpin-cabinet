@@ -1,0 +1,212 @@
+{
+  "status": "engineering-provisional",
+  "manufacturing_ready": false,
+  "depends_on": [
+    "config/backbox_fold_v10.json",
+    "config/electrical_routing_v11.json"
+  ],
+  "structural_alignment": {
+    "main_cabinet_outer_width_mm": 580.0,
+    "backbox_outer_width_mm": 780.0,
+    "common_alignment_datums": [
+      "rear face/back edge",
+      "cabinet/backbox centerline"
+    ],
+    "backbox_centered_over_cabinet": true,
+    "backbox_side_overhang_each_side_mm": 100.0,
+    "rear_walls_flush_when_upright": true,
+    "main_rear_shelf_required": true,
+    "backbox_floor_bears_on_rear_shelf": true,
+    "hinges_are_not_sole_upright_support": true,
+    "rule": "All shelf/floor holes and passages are derived from the same rear-edge and centerline datums; never dimension mating features independently from opposite side edges."
+  },
+  "upright_locking_interface": {
+    "count": 2,
+    "thread": "3/8-16",
+    "lock_bolt_center_offset_from_common_centerline_mm": 180.0,
+    "main_shelf_hole_diameter_mm": 11.9,
+    "backbox_floor_access_hole_diameter_mm": 25.4,
+    "main_shelf_captive_thread": "3/8-16 T-nut from underside or equivalent metal-backed captive nut",
+    "backbox_fastener": "wing screw, hand knob bolt, or captive socket bolt accessible from inside backbox",
+    "bolt_centers_main_shelf_from_left_mm": [110.0, 470.0],
+    "bolt_centers_backbox_floor_from_left_mm": [210.0, 570.0],
+    "positive_clamping_required": true,
+    "note": "The backbox floor is clamped down onto the rear shelf. Hinge pivots provide folding motion; the shelf and locking bolts carry/stabilize the upright assembly."
+  },
+  "aligned_passages": {
+    "primary_fold_harness": {
+      "opening_mm": [90.0, 50.0],
+      "center_offset_from_common_centerline_mm": 0.0,
+      "must_exist_in_both_main_shelf_and_backbox_floor": true,
+      "same_rear_edge_datum": true,
+      "final_interface": "tool-removable split compression cable-entry/gland plate with elastomer inserts; not an open brush-only hole"
+    },
+    "secondary_reserve": {
+      "required": true,
+      "minimum_clear_opening_mm": [60.0, 40.0],
+      "center_offset_from_common_centerline_mm": -110.0,
+      "must_exist_in_both_main_shelf_and_backbox_floor": true,
+      "same_rear_edge_datum": true,
+      "normally_blank_with_removable_cover": true,
+      "blank_cover_gasketed": true
+    },
+    "minimum_edge_clearance_to_lock_bolt_center_mm": 35.0
+  },
+  "display_mount_system": {
+    "architecture": "closed-backbox internal adjustable aluminium T-slot/service subframe with independent upper backglass and lower DMD carriages",
+    "rear_service_door_does_not_replace_structural_frame": true,
+    "front_removal_preferred_for_complete_display_swap": true,
+    "rear_door_access_for_cables_mounts_fans_leds_and_toys": true,
+    "no_monitor_specific_holes_in_permanent_wood": true,
+    "structural_load_path": "display subframe ties into dedicated top/bottom crossmembers and side/perimeter structure; rear service door is not a primary monitor load path",
+    "rear_vertical_rails": {
+      "quantity": 2,
+      "preferred_profile": "20x40 mm T-slot aluminium extrusion or equivalent slotted structural rail",
+      "nominal_spacing_center_to_center_mm": 300.0,
+      "mounting": "bolted to dedicated structural crossmembers/cleats with CNC-located holes; fixed rear frame may stabilize but the service door is not the sole anchor",
+      "must_avoid_fan_openings": true
+    },
+    "upper_backglass_carriage": {
+      "preferred_display_class": "31.5/32 inch 16:9",
+      "supported_smaller_classes": ["27 inch 16:9", "28 inch 16:9"],
+      "service_envelope_mm": [740.0, 450.0, 100.0],
+      "vertical_adjustment_total_mm": 160.0,
+      "depth_adjustment_range_from_rear_inner_plane_mm": [100.0, 215.0],
+      "horizontal_centering_adjustment_total_mm": 50.0,
+      "universal_vesa_patterns_mm": ["75x75", "100x100", "200x100", "200x200"],
+      "replaceable_universal_vesa_plate_required": true,
+      "positive_depth_stops_required": true,
+      "fold_transport_locking_hardware_required": true,
+      "bezel_interface": "replaceable front bezel/filler frame independent from structural carrier"
+    },
+    "lower_dmd_carriage": {
+      "independent_from_backglass_carriage": true,
+      "service_envelope_mm": [450.0, 230.0, 80.0],
+      "supports": [
+        "15.6 inch 16:9 FullDMD class displays",
+        "smaller traditional-DMD aspect displays via replaceable bezel",
+        "75x75 or 100x100 VESA displays",
+        "non-VESA LCD panels using replaceable edge-clamp/tray adapter"
+      ],
+      "vertical_adjustment_total_mm": 100.0,
+      "depth_adjustment_total_mm": 80.0,
+      "replaceable_bezel_required": true,
+      "front_removal_required": true
+    },
+    "speaker_baffle": {
+      "separate_from_display_load_paths": true,
+      "removable": true,
+      "rule": "Changing the DMD or backglass display must not require rebuilding the speaker mounts."
+    },
+    "folding_safety": {
+      "friction_only_adjustment_prohibited": true,
+      "locking_fasteners_required": true,
+      "secondary_stop_or_capture_feature_required": true,
+      "monitor_and_dmd_must_remain_secured_at_90_deg_fold": true
+    }
+  },
+  "enclosure_security": {
+    "closed_backbox_required": true,
+    "open_rear_backbox_prohibited": true,
+    "rear_service_door_required": true,
+    "structural_rear_frame": {
+      "side_top_floor_material_nominal_mm": 18.0,
+      "minimum_fixed_perimeter_frame_width_mm": 90.0,
+      "dedicated_top_and_bottom_crossmembers_required": true,
+      "fixed_upper_fan_panel_required": true,
+      "rear_frame_role": "fixed perimeter/crossmember shear frame around the service aperture; service door is not relied upon as the sole shear diaphragm",
+      "monitor_rails_anchor_to_fixed_structure": true
+    },
+    "rear_service_door": {
+      "target_clear_opening_mm": [520.0, 460.0],
+      "door_panel_min_mm": 12.0,
+      "panel_material": "plywood, not MDF",
+      "hinge": "full-height stainless or zinc-plated piano/continuous hinge, or equivalent multi-hinge set",
+      "key_lock_required": true,
+      "preferred_lock": "keyed cam/quarter-turn panel lock with adjustable tongue; two-point compression latch if door size/warpage testing requires it",
+      "gasket_required": true,
+      "gasket_material": "replaceable closed-cell EPDM/foam strip",
+      "fan_openings_not_in_door": true,
+      "fans_live_on_fixed_upper_rear_panel": true,
+      "door_removal_not_required_for_normal_cable_service": true,
+      "access_targets": [
+        "backglass HDMI/power/data cables",
+        "DMD cables",
+        "monitor carriage adjustment hardware",
+        "LED controllers/strips and lighting harnesses",
+        "low-voltage toy wiring and modules",
+        "fan controller and fan wiring",
+        "replaceable fan/filter hardware"
+      ],
+      "rule": "The backbox remains closed during normal use. The rear door exists for keyed service access and must not create an unguarded opening when latched."
+    },
+    "service_access": {
+      "front_access_still_available_for_complete_display_removal": true,
+      "rear_keyed_service_access_required": true,
+      "hand_openable_unlocked_rear_panels_prohibited": true,
+      "children_should_not_access_internal_space_without_key_or_tool": true,
+      "warning_label_inside_door_required": true
+    },
+    "front_barriers": {
+      "backglass_display_protective_window_required": true,
+      "preferred_window": "3-4 mm tempered glass; clear polycarbonate acceptable where impact resistance is prioritized",
+      "dmd_window_or_closed_bezel_required": true,
+      "speaker_openings": "perforated metal/finger guard plus acoustic layer; add insect screen behind where airflow/acoustics permit"
+    },
+    "pest_and_dust_exclusion": {
+      "perimeter_floor_shelf_gasket_required": true,
+      "rear_service_door_gasket_required": true,
+      "vent_insect_mesh_required": true,
+      "target_mesh_opening_max_mm": 1.0,
+      "fan_filter_or_mesh_service_removable": true,
+      "reserve_passage_sealed_when_unused": true,
+      "primary_passage_requires_split_gland_or_compression_insert": true,
+      "brush_only_cable_entry_not_accepted_for_final_design": true,
+      "note": "Fine mesh and filters reduce airflow; intake/exhaust free area must be oversized and verified thermally."
+    },
+    "electrical_touch_safety": {
+      "no_exposed_mains_terminals_in_backbox": true,
+      "user_serviceable_backbox_electronics_prefer_SELV_DC": true,
+      "display_mains_connection": "fully insulated jacketed mains lead terminating in a touch-safe enclosed connector/receptacle; no open screw terminals",
+      "mains_splices_if_any": "inside a separate tool-access-only certified/enclosed junction compartment that remains closed even when the keyed service door is open",
+      "fan_supply": "fused 12 V SELV AUX bus",
+      "metal_bonding": "exposed conductive metal bonded to protective earth where required by final electrical architecture",
+      "vent_guarding": "no direct finger/probe path to energized parts; external fan openings require rigid finger guards plus insect mesh/filter",
+      "shock_hazard_review_required_at_each_design_stage": true
+    },
+    "child_resistance": {
+      "key_or_tool_required_for_internal_access": true,
+      "rear_fan_grilles_finger_safe": true,
+      "no_large_unprotected_service_openings": true,
+      "external_low_voltage_ports_only_in_service_fascia": true,
+      "warning_labels_inside_service_access": true
+    }
+  },
+  "display_size_policy": {
+    "recommended_backglass_class": "31.5/32 inch 16:9",
+    "reason": [
+      "best visual use of the 780 mm future-proof backbox width",
+      "common low-cost size class with many 1080p/4K VESA options",
+      "larger image is more proportionate to the wide backbox",
+      "adjustable carrier and bezel still permit 27/28 inch fallback later"
+    ],
+    "known_fit_examples": [
+      {
+        "model": "LG 32SR50F",
+        "class": "31.5/32 inch",
+        "dimensions_without_stand_mm": [731.8, 440.5, 45.0],
+        "vesa": "100x100",
+        "fits_service_envelope": true
+      },
+      {
+        "model": "Samsung UR55 28",
+        "class": "28 inch",
+        "dimensions_without_stand_mm": [638.8, 374.0, 64.0],
+        "vesa": "75x75",
+        "fits_service_envelope": true
+      }
+    ],
+    "28_inch_role": "supported fallback/alternate, not primary target",
+    "27_inch_role": "common smaller fallback if future 28 inch supply becomes poor"
+  }
+}
