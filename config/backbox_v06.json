@@ -1,0 +1,43 @@
+{
+  "status": "engineering-provisional",
+  "manufacturing_ready": false,
+  "reference_backbox": {
+    "outer_width_mm": 730.25,
+    "outer_depth_mm": 254.0,
+    "outer_height_mm": 723.9,
+    "nominal_side_material_mm": 18.0
+  },
+  "display_fit_policy": {
+    "target_diagonal_in": 31.5,
+    "target_resolution": "1920x1080",
+    "preferred_panel_type": "flat IPS/VA LCD",
+    "clearance_each_side_mm": 0.5,
+    "minimum_remaining_side_skin_mm": 8.0,
+    "preferred_max_chassis_width_mm": 713.0,
+    "exact_model_required_before_cnc": true
+  },
+  "known_examples_brazil": [
+    {
+      "model": "LG 32SR50F-W",
+      "width_without_stand_mm": 731.8,
+      "height_without_stand_mm": 440.5,
+      "depth_without_stand_mm": 45.0,
+      "vesa_mm": "100x100",
+      "status": "too-wide-for-authentic-backbox"
+    },
+    {
+      "model": "Mancer Valak UZ32",
+      "width_without_stand_mm": 715.0,
+      "height_without_stand_mm": 421.0,
+      "depth_without_stand_mm": 88.0,
+      "vesa_mm": "100x100",
+      "status": "slightly-too-wide-at-8mm-skin"
+    },
+    {
+      "model": "Duex DXMO315F100S",
+      "width_reported_mm": 713.0,
+      "dimensions_status": "retailer-reported-approximate",
+      "status": "promising-but-must-measure-or-confirm-datasheet"
+    }
+  ]
+}
