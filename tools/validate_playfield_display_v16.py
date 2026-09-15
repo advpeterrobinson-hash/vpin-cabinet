@@ -38,7 +38,7 @@ def main() -> int:
     else:
         print("PASS full-thickness inner width")
 
-    documented_max = float(env["maximum_routed_cross_width_at_minimum_skin_mm"])
+    documented_max = float(env["maximum_future_routed_cavity_at_minimum_skin_mm"])
     if abs(max_cavity - documented_max) > 0.01:
         print("FAIL documented maximum routed cavity mismatch")
         ok = False
