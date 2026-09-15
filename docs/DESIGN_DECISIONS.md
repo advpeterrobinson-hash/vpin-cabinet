@@ -126,3 +126,29 @@ Harness supports are CNC-located. Fixed harnesses target support spacing <=250 m
 Before cabinet CNC geometry is frozen, the physical zoning/routing system must reserve capacity for a full-DOF class build including flipper/slings/bumper impact outputs, shaker, gear motor, knocker, chimes/bells, blower, strobes, RGB flashers, beacon/siren-light effects, addressable LEDs, illuminated controls and a future powered topper.
 
 This is a packaging/power-domain decision, not yet a final toy shopping list. Exact voltage, fuse, wire-gauge, connector and controller-board selections remain BOM-stage decisions based on final hardware ratings and measured current.
+
+## DEC-019 — Backbox floor and main rear shelf are one matched structural interface
+
+**Status:** accepted engineering baseline for v0.12
+
+The backbox sits on the horizontal rear shelf at the top of the main cabinet when upright. The side hinges provide the folding pivot; they are not the sole structural support in the operating position.
+
+The backbox floor and main rear shelf are designed from a shared rear-edge/back-wall datum and a shared left-right centerline. The 580 mm cabinet shelf and 780 mm backbox floor therefore differ by 100 mm per side, and corresponding holes must never be independently dimensioned from their respective outer side edges.
+
+Two 3/8-16 locking bolts clamp the backbox floor to captive threads in the main rear shelf. The current provisional centers are ±180 mm from the common centerline. Matching cable-passport openings in the shelf and floor use the same shared datums so there is no step or partial overlap at the fold harness.
+
+The final CNC package must cut both members as a matched pair and validate their alignment numerically before release.
+
+## DEC-020 — Adjustable reusable backglass and DMD carrier system
+
+**Status:** accepted engineering baseline for v0.12
+
+Use a fixed structural back wall for backbox stiffness, but do not permanently mount either display to it. Instead, install a rear-anchored slotted/T-slot service subframe with independent backglass and DMD carriages.
+
+The upper backglass carriage must provide substantial up/down, front/back and horizontal centering adjustment. The target is at least 160 mm total vertical travel and approximately 100–215 mm adjustable carrier depth from the rear inner plane. The removable VESA interface should support common 75x75, 100x100, 200x100 and 200x200 patterns; unusual future patterns require changing only the adapter plate.
+
+The lower DMD/FullDMD carriage is independent, with its own vertical/depth adjustment and replaceable bezel. It should accept a 15.6-inch FullDMD class display as well as smaller traditional-DMD-aspect screens through adapter trays/bezels. Speaker mounting remains a separate removable baffle so display replacement does not disturb the speaker load path.
+
+All display adjustment hardware must remain positively locked when the backbox folds 90 degrees. Friction-only clamps are not sufficient.
+
+The preferred backglass class is **31.5/32 inch 16:9** because it makes better visual use of the 780 mm backbox and is a mainstream low-cost size. The mount remains deliberately compatible with 27/28-inch replacements through carriage adjustment and a different bezel, so a future supply change does not require new cabinetry.
