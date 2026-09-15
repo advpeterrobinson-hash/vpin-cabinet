@@ -1,10 +1,12 @@
-# Backbox v0.6 — 32-inch-class Display Packaging
+# Backbox v0.6 — Future-proof 32-inch-class Display Packaging
 
 Status: engineering provisional; not manufacturing-ready.
 
-## Why this stage exists
+## Design philosophy
 
-The cabinet body can remain authentic Williams WPC standard-body geometry while the backbox display needs its own fit check. A generic modern 32-inch monitor is often wider than the usable cavity of an authentic Williams-style backbox.
+The cabinet is expected to outlive several generations of electronics. The backbox therefore must not be dimensioned around one exact monitor chassis.
+
+Williams geometry is a visual/proportional reference, not an absolute constraint. The owner explicitly allows approximately 10–50 mm dimensional deviations where they materially improve serviceability, replacement-part availability, or long-term compatibility.
 
 Reference-model backbox envelope:
 
@@ -12,35 +14,61 @@ Reference-model backbox envelope:
 - 254.00 mm depth
 - 723.90 mm height
 
-With a minimum 8 mm remaining side skin and 0.5 mm assembly clearance on each side, the preferred maximum monitor chassis width is:
+Future-proof target backbox envelope:
 
-`730.25 - 2*8 - 2*0.5 = 713.25 mm`
+- **780.00 mm outer width**
+- 254.00 mm depth initially retained
+- 723.90 mm height initially retained
+- nominal 18 mm side material
+- resulting nominal internal width: **744.00 mm**
 
-For procurement, use **713 mm maximum chassis width** until a specific display is selected and measured.
+The +49.75 mm width change is intentionally near the upper end of the owner-approved tolerance because width is the limiting dimension for generic 31.5–32 inch displays. Height and depth already have substantial margin.
 
-## Implications
+## Electronics service envelope
 
-- LG 32SR50F-W is 731.8 mm wide without the stand and therefore does not fit inside the authentic backbox envelope.
-- Mancer Valak UZ32 is 715 mm wide and is slightly too wide if we insist on 8 mm remaining side skin.
-- A Duex 31.5-inch model has been retailer-listed around 713 mm wide and is dimensionally promising, but the published dimensions are approximate and must not be used for CNC without confirmation or direct measurement.
+The permanent backbox shell should accommodate a replaceable monitor chassis envelope of approximately:
 
-## Design policy
+- width: **740 mm**
+- height: **450 mm**
+- depth: **100 mm**
 
-The backglass remains a cost-controlled subsystem. We do not need gaming refresh rates or premium HDR. Desired characteristics are:
+At 780 mm outer width with 18 mm sides, a 740 mm chassis envelope retains 2 mm nominal assembly clearance on each side.
+
+This service envelope is more important than matching the original Williams backbox width exactly.
+
+## Replaceable assembly strategy
+
+The permanent wood shell must not contain monitor-specific VESA holes or a monitor-specific front opening where avoidable.
+
+Use:
+
+1. a removable/slotted VESA monitor carrier;
+2. a removable front bezel/filler panel matched to the installed monitor;
+3. replaceable spacers/filler strips where needed;
+4. cable service loops and connector access independent of the monitor model.
+
+As a result, the exact monitor model is **not required before the main backbox shell is CNC-cut**. The exact model is required only before the replaceable carrier/bezel is finalized.
+
+## Current examples
+
+- LG 32SR50F-W: 731.8 mm wide without stand — too wide for the authentic 730.25 mm shell, but comfortably within the new 740 mm service envelope.
+- Mancer Valak UZ32: approximately 715 mm wide — comfortably within the service envelope.
+- Duex 31.5-inch model: retailer-listed near 713 mm — also within the service envelope, but exact dimensions still require confirmation before making its carrier/bezel.
+
+## Procurement policy
+
+Backglass remains a cost-controlled subsystem. Desired characteristics:
 
 - approximately 31.5–32 inch diagonal;
 - 1920×1080 sufficient;
-- flat panel strongly preferred over curved;
-- VESA mounting strongly preferred;
-- chassis width <= 713 mm preferred;
-- depth preferably <= 50 mm where practical;
+- flat panel strongly preferred;
+- VESA preferred;
+- chassis width <= 740 mm preferred;
+- chassis height <= 450 mm preferred;
+- chassis depth <= 100 mm preferred;
 - HDMI input;
-- exact model selected before final backbox CAD/CNC.
+- exact carrier/bezel generated only after the actual display is selected or measured.
 
-If the best-value available monitor is only a few millimetres wider than this limit, a very small backbox-width deviation can be considered separately. We should not weaken the main cabinet or arbitrarily thin the backbox side structure merely to force-fit a display.
+## Future-proofing principle
 
-## Current recommendation
-
-Do not purchase the LG 32SR50F-W for this project despite its otherwise suitable 1080p specification; its 731.8 mm chassis is too wide for the authentic backbox.
-
-Continue shopping specifically by **chassis width**, not advertised diagonal size. A 31.5-inch flat 1080p monitor around 710–713 mm wide is the preferred target.
+Do not force permanent cabinetry to conform tightly to short-lived electronics. Where a modest dimensional change improves the probability of finding replacement hardware years later, prefer the dimensional allowance and preserve the Williams visual language rather than exact historical dimensions.
