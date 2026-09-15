@@ -30,17 +30,22 @@ The primary 90 x 50 mm folding harness passage is centered on the common cabinet
 
 This is essential: the fold harness must not rub on a partial overlap or step between two separately laid-out openings.
 
+The final primary passage must not remain an open brush-only hole. It should use a tool-removable split compression cable-entry/gland plate or equivalent elastomer insert around the actual bundle. The reserve passage remains closed by a gasketed removable blank until needed.
+
 ## Reusable backglass monitor mount
 
 The permanent backbox must not be tied to one TV chassis or one VESA center height.
 
-The proposed system uses a rear-anchored aluminium T-slot/service subframe:
+The proposed system uses an internal aluminium T-slot/service subframe inside a **fully closed wooden backbox**:
 
-- two fixed 20 x 40 mm vertical T-slot rails (or equivalent slotted structural rails) on the fixed rear structural panel/crossmembers;
+- two fixed 20 x 40 mm vertical T-slot rails (or equivalent slotted structural rails);
+- dedicated top/bottom crossmembers or structural cleats carrying the display loads into the perimeter frame;
 - independent upper backglass and lower DMD carriages;
 - adjustable brackets/depth arms with locking T-nuts;
 - removable universal VESA adapter plates;
 - replaceable front bezels/filler frames.
+
+The T-slot rails are **not** a substitute for the backbox structure and the backbox is not open-backed. A fixed rear plywood panel remains captured into the frame as a continuous shear diaphragm. The adjustable metal subframe carries monitor loads through dedicated crossmembers/cleats; the rear panel is not the sole monitor support.
 
 The backglass carriage must provide three adjustments:
 
@@ -54,9 +59,46 @@ Adjustment cannot depend on friction alone because the backbox rotates through a
 
 The whole monitor should be removable through the **front** of the backbox without removing the fixed rear wall. Keeping the rear wall fixed preserves stiffness while still making screen replacement straightforward.
 
+## Closed enclosure, pest exclusion and child safety
+
+The backbox is designed as a **closed enclosure**, not an open rack.
+
+Baseline structure:
+
+- nominal 18 mm plywood side/top/floor perimeter;
+- fixed rear structural plywood shear panel, minimum 12 mm;
+- rear panel captured in dados/rabbets and fastened as final CNC joinery requires;
+- display rail cage tied into dedicated crossmembers/perimeter structure rather than relying on the rear skin alone.
+
+Normal display replacement is through the front. There is no need for a large removable rear panel. If a small rear service hatch is eventually justified, it must require a tool to open and use captive machine screws/tamper-resistant Torx or a keyed lock; hand-removable rear panels are prohibited.
+
+The front also remains closed/protected:
+
+- backglass display behind a removable 3–4 mm tempered-glass window where practical (clear polycarbonate may be used when impact resistance is preferred);
+- DMD behind a closed window/bezel;
+- speaker openings use perforated metal/finger guards plus acoustic material, with insect screen behind where acoustics/airflow permit.
+
+For insects and dust:
+
+- use a replaceable closed-cell EPDM/foam gasket around the backbox-floor/rear-shelf mating perimeter;
+- use fine removable insect mesh/filter material behind ventilation openings, target mesh opening <=1.0 mm;
+- keep the reserve cable passport gasketed and blanked when unused;
+- use a split compression/gland interface around the active folding harness rather than leaving a permanent open slot;
+- oversize vent free area because fine mesh/filtering reduces airflow.
+
+This is not intended to claim an environmental/IP rating. The goal is practical exclusion of insects, fingers, dust and dropped objects without compromising cooling or serviceability.
+
+## Electrical touch-safety policy
+
+No exposed mains-voltage terminals are permitted inside normal backbox service space.
+
+The preferred architecture keeps backbox auxiliaries on SELV/DC buses (fans on fused 12 V AUX, logic/LEDs on their documented low-voltage rails). The backglass monitor may still require mains power, but its feed must be a fully insulated jacketed cable terminating in a touch-safe enclosed connector/receptacle. Any mains splice or terminal block, if ultimately unavoidable, belongs inside a tool-access-only enclosed junction compartment.
+
+Rear fan openings require rigid finger guards plus insect mesh/filter, with no direct finger/probe path to energized parts. Exposed conductive metal is bonded to protective earth where required by the final electrical design.
+
 ## Reusable DMD / FullDMD mount
 
-The DMD carrier is independent of the main backglass carrier, although both may share the rear rail subframe.
+The DMD carrier is independent of the main backglass carrier, although both may share the internal rail subframe.
 
 Target DMD service envelope: approximately 450 x 230 x 80 mm. This is intended to support:
 
@@ -79,10 +121,13 @@ The mount is intentionally **not** 32-inch-only. If replacement supply changes y
 
 ## Current recommendation
 
+- Keep the backbox fully closed and structurally diaphragm-braced at the rear.
 - Design and visually proportion the backbox around a 31.5/32-inch backglass.
 - Do not make any permanent wood cut depend on one exact monitor's VESA center.
 - Preserve the 740 x 450 x 100 mm service envelope.
 - Use the adjustable rail/carriage system so 27/28-inch displays remain valid future fallbacks.
 - Keep DMD mounting fully independent and similarly adjustable.
+- Keep all internal access tool-controlled, finger-guarded, and free of exposed mains terminals.
+- Treat ventilation, cable passports and speaker openings as filtered/guarded penetrations rather than open holes.
 
-The next FreeCAD stage must model the shelf/floor matched interface and the adjustable monitor/DMD carriage envelopes before final CNC geometry is frozen.
+The next FreeCAD stage must model the shelf/floor matched interface, fixed rear shear panel, adjustable monitor/DMD carriage envelopes, guarded ventilation openings, gasketed cable-passport interfaces and folding keepouts before final CNC geometry is frozen.
