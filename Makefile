@@ -4,7 +4,7 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting open-master build-shell-v02 audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials open-master build-shell-v02 audit-reference status
 
 help:
 	@printf '%s\n' \
@@ -18,7 +18,8 @@ help:
 	  '  make validate-service-io       Validate v0.8 service-I/O packaging' \
 	  '  make validate-backbox-fold     Validate v0.10 folding-backbox transport design' \
 	  '  make validate-electrical-routing Validate v0.11 cooling/toy/cable infrastructure' \
-	  '  make validate-backbox-mounting Validate v0.12 shelf alignment/display carriages' \
+	  '  make validate-backbox-mounting Validate v0.12 shelf/door/display-carriage design' \
+	  '  make validate-structure-materials Validate v0.13 structural material/reinforcement policy' \
 	  '  make open-master               Open current FreeCAD master' \
 	  '  make build-shell-v02           Re-run the validated WPC shell generator' \
 	  '  make audit-reference           Run reference audit (if local reference copy exists)' \
@@ -33,7 +34,7 @@ doctor:
 	test -f config/design.json && echo 'Config:    OK' || (echo 'Config: MISSING'; exit 1); \
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
-validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -55,6 +56,9 @@ validate-electrical-routing:
 
 validate-backbox-mounting:
 	$(PYTHON) tools/validate_backbox_mounting_v12.py
+
+validate-structure-materials:
+	$(PYTHON) tools/validate_structure_materials_v13.py
 
 open-master:
 	$(FREECAD) $(MASTER)
