@@ -1,19 +1,19 @@
 {
-  "status": "engineering-provisional",
+  "status": "engineering-provisional-v17-width",
   "manufacturing_ready": false,
   "depends_on": [
     "config/backbox_fold_v10.json",
     "config/electrical_routing_v11.json"
   ],
   "structural_alignment": {
-    "main_cabinet_outer_width_mm": 580.0,
+    "main_cabinet_outer_width_mm": 600.0,
     "backbox_outer_width_mm": 780.0,
     "common_alignment_datums": [
       "rear face/back edge",
       "cabinet/backbox centerline"
     ],
     "backbox_centered_over_cabinet": true,
-    "backbox_side_overhang_each_side_mm": 100.0,
+    "backbox_side_overhang_each_side_mm": 90.0,
     "rear_walls_flush_when_upright": true,
     "main_rear_shelf_required": true,
     "backbox_floor_bears_on_rear_shelf": true,
@@ -28,7 +28,7 @@
     "backbox_floor_access_hole_diameter_mm": 25.4,
     "main_shelf_captive_thread": "3/8-16 T-nut from underside or equivalent metal-backed captive nut",
     "backbox_fastener": "wing screw, hand knob bolt, or captive socket bolt accessible from inside backbox",
-    "bolt_centers_main_shelf_from_left_mm": [110.0, 470.0],
+    "bolt_centers_main_shelf_from_left_mm": [120.0, 480.0],
     "bolt_centers_backbox_floor_from_left_mm": [210.0, 570.0],
     "positive_clamping_required": true,
     "note": "The backbox floor is clamped down onto the rear shelf. Hinge pivots provide folding motion; the shelf and locking bolts carry/stabilize the upright assembly."
