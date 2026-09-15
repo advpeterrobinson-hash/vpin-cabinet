@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the model-agnostic playfield display service envelope (v0.16)."""
+"""Validate the model-agnostic playfield display service envelope (v0.16/v0.17 width)."""
 from __future__ import annotations
 
 import json
@@ -25,11 +25,11 @@ def main() -> int:
     required_cross = target_cross + 2.0 * clearance
 
     ok = True
-    print("PLAYFIELD DISPLAY v0.16 VALIDATION")
+    print("PLAYFIELD DISPLAY v0.16/v0.17 VALIDATION")
     print("=" * 76)
     print(f"Cabinet outer width             {outer:8.2f} mm")
     print(f"Full-thickness inner width      {inner:8.2f} mm")
-    print(f"Max cavity at min skin          {max_cavity:8.2f} mm")
+    print(f"Max routed cavity at min skin   {max_cavity:8.2f} mm")
     print(f"Required target cavity          {required_cross:8.2f} mm")
 
     if abs(inner - float(env["full_thickness_inner_width_mm"])) > 0.01:
@@ -38,17 +38,18 @@ def main() -> int:
     else:
         print("PASS full-thickness inner width")
 
-    if abs(max_cavity - float(env["maximum_clear_cavity_at_minimum_skin_mm"])) > 0.01:
-        print("FAIL documented maximum clear cavity mismatch")
+    documented_max = float(env["maximum_routed_cross_width_at_minimum_skin_mm"])
+    if abs(max_cavity - documented_max) > 0.01:
+        print("FAIL documented maximum routed cavity mismatch")
         ok = False
     else:
-        print("PASS maximum cavity derived from body/minimum skin")
+        print("PASS maximum routed cavity derived from body/minimum skin")
 
-    if required_cross > max_cavity + 1e-6:
-        print("FAIL target 42/43-inch display cross envelope does not fit")
+    if required_cross > inner + 1e-6:
+        print("FAIL target display requires side pockets in the selected baseline")
         ok = False
     else:
-        print(f"PASS target cross envelope margin {max_cavity - required_cross:.2f} mm")
+        print(f"PASS target envelope fits full-thickness bay with {inner - required_cross:.2f} mm total spare width")
 
     if int(buy["minimum_native_refresh_hz"]) < 120:
         print("FAIL purchase policy refresh target too low")
@@ -57,7 +58,7 @@ def main() -> int:
         print("PASS minimum native refresh >=120 Hz")
 
     if buy["exact_model_selected"] is not False:
-        print("FAIL v0.16 must remain model-agnostic until Phase 3 purchase")
+        print("FAIL display selection must remain model-agnostic until Phase 3 purchase")
         ok = False
     else:
         print("PASS exact display model intentionally open")
@@ -96,7 +97,7 @@ def main() -> int:
             )
 
     if cfg["manufacturing_ready"] is not False:
-        print("FAIL v0.16 must remain non-manufacturing-ready")
+        print("FAIL display envelope must remain non-manufacturing-ready")
         ok = False
 
     print("\nSTATUS", "PASS - display envelope engineering only" if ok else "FAIL")
