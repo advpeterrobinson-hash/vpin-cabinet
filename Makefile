@@ -4,22 +4,23 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io open-master build-shell-v02 audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold open-master build-shell-v02 audit-reference status
 
 help:
 	@printf '%s\n' \
 	  'vpin-cabinet engineering commands' \
 	  '' \
-	  '  make doctor              Check required local tools/files' \
-	  '  make validate            Run current pure-Python design/packaging checks' \
-	  '  make validate-baseline   Validate original documented dimensional baseline' \
-	  '  make validate-backbox    Validate v0.6 future-proof backbox packaging' \
-	  '  make validate-main-body  Validate v0.7 future-playfield width envelope' \
-	  '  make validate-service-io Validate v0.8 service-I/O packaging' \
-	  '  make open-master         Open current FreeCAD master' \
-	  '  make build-shell-v02     Re-run the validated WPC shell generator' \
-	  '  make audit-reference     Run reference audit (if local reference copy exists)' \
-	  '  make status              Show concise Git state'
+	  '  make doctor               Check required local tools/files' \
+	  '  make validate             Run current pure-Python design/packaging checks' \
+	  '  make validate-baseline    Validate current documented dimensional baseline' \
+	  '  make validate-backbox     Validate v0.6 future-proof backbox packaging' \
+	  '  make validate-main-body   Validate v0.7 future-playfield width envelope' \
+	  '  make validate-service-io  Validate v0.8 service-I/O packaging' \
+	  '  make validate-backbox-fold Validate v0.10 folding-backbox transport design' \
+	  '  make open-master          Open current FreeCAD master' \
+	  '  make build-shell-v02      Re-run the validated WPC shell generator' \
+	  '  make audit-reference      Run reference audit (if local reference copy exists)' \
+	  '  make status               Show concise Git state'
 
 doctor:
 	@set -e; \
@@ -30,7 +31,7 @@ doctor:
 	test -f config/design.json && echo 'Config:    OK' || (echo 'Config: MISSING'; exit 1); \
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
-validate: validate-baseline validate-backbox validate-main-body validate-service-io
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -43,6 +44,9 @@ validate-main-body:
 
 validate-service-io:
 	$(PYTHON) tools/validate_service_io_v08.py
+
+validate-backbox-fold:
+	$(PYTHON) tools/validate_backbox_fold_v10.py
 
 open-master:
 	$(FREECAD) $(MASTER)
