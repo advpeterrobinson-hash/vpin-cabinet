@@ -4,7 +4,7 @@ This log records decisions that materially constrain the cabinet design. New dec
 
 ## DEC-001 — Preserve Williams WPC standard-body exterior
 
-**Status:** accepted
+**Status:** superseded by DEC-013
 
 Preserve the Williams WPC standard-body external cabinet proportions as the baseline instead of widening the cabinet to make the OLED easier to fit.
 
@@ -16,7 +16,7 @@ Baseline values:
 - rear outside height: 596.90 mm
 - rear top flat: 180.975 mm
 
-**Reason:** authentic proportions and compatibility with real-style pinball hardware are higher priorities than maximizing interior width.
+**Reason at the time:** authentic proportions and compatibility with real-style pinball hardware were initially prioritized over maximizing interior width.
 
 ## DEC-002 — Metric plywood redesign
 
@@ -32,7 +32,7 @@ At 18.00 mm main side thickness and 558.80 mm fixed outer width, nominal cabinet
 
 **Status:** accepted
 
-Use LG OLED42C5 as the playfield display.
+Use LG OLED42C5 as the initial playfield display.
 
 Engineering envelope used at this stage:
 
@@ -46,11 +46,11 @@ When installed as a pinball playfield, the 540 mm dimension runs across the cabi
 
 ## DEC-004 — OLED side clearance pocket
 
-**Status:** accepted for engineering; not manufacturing-final
+**Status:** accepted for the current reference-width engineering baseline; subject to DEC-013 review before manufacturing
 
 Use 1.0 mm nominal clearance per OLED side, yielding a 542.0 mm installed cross-width envelope.
 
-At nominal 18 mm plywood:
+At nominal 18 mm plywood and the historical 558.8 mm body width:
 
 - cabinet inner width: 522.8 mm
 - required side pocket depth: 9.6 mm each side
@@ -60,7 +60,7 @@ The side pocket is clearance only. The reduced-thickness plywood is not permitte
 
 ## DEC-005 — Structural hinged OLED cradle
 
-**Status:** accepted; geometry pending
+**Status:** accepted; geometry pending refinement
 
 The OLED mounts to an independent cradle using its VESA interface. The cradle, not the OLED plastic chassis, carries hinge and lifting loads.
 
@@ -131,3 +131,36 @@ This decision may be revisited if the Linux pinball ecosystem reaches equivalent
 **Status:** accepted
 
 Cutter CNC (`cuttercnc.com`, Brazil) is the prospective CNC fabrication provider. Before manufacturing files are frozen, confirm their preferred file/layer conventions, available tooling, internal-radius requirements, two-sided registration process, material sourcing, and practical tolerances.
+
+## DEC-013 — Future-proof electronics envelopes over exact historical dimensions
+
+**Status:** accepted; supersedes DEC-001 where there is a conflict
+
+The cabinet and structural metalwork are expected to outlive multiple generations of TVs, PC hardware, controller boards, amplifiers, and power supplies. Exact Williams dimensions are therefore a design reference rather than a manufacturing mandate.
+
+The owner explicitly approves approximately **10–50 mm** dimensional deviations where they materially improve:
+
+- future replacement compatibility;
+- service access;
+- structural margin;
+- cable/connector access;
+- modular mounting;
+- availability of generic replacement hardware.
+
+Permanent structure should use service envelopes and replaceable interfaces. Component-specific geometry should move into replaceable carriers, bezels, filler panels, and adapters where practical.
+
+The main playfield cabinet width must be re-evaluated before CNC freeze because the current 558.8 mm body leaves little cross-width growth margin beyond the initial 540 mm OLED. A likely evaluation range is approximately 570–575 mm, but the final width remains pending a hardware-impact review covering glass, siderails, lockdown bar, cradle, and controls.
+
+## DEC-014 — Future-proof backbox width and modular monitor carrier
+
+**Status:** accepted for v0.6 engineering
+
+Increase the backbox target outer width from the 730.25 mm reference to **780.0 mm**. This +49.75 mm deviation intentionally uses the owner-approved tolerance to avoid locking the cabinet to unusually narrow 31.5–32 inch displays.
+
+Target monitor service envelope:
+
+- width: 740 mm
+- height: 450 mm
+- depth: 100 mm
+
+The permanent shell uses a removable/slotted monitor carrier plus a removable cosmetic bezel/filler panel. The exact backglass model is therefore not required before the permanent backbox shell is CNC-cut; it is only required before its carrier and bezel are finalized.

@@ -1,0 +1,56 @@
+{
+  "status": "engineering-provisional",
+  "manufacturing_ready": false,
+  "reference_backbox": {
+    "outer_width_mm": 730.25,
+    "outer_depth_mm": 254.0,
+    "outer_height_mm": 723.9,
+    "nominal_side_material_mm": 18.0
+  },
+  "future_proof_backbox": {
+    "target_outer_width_mm": 780.0,
+    "target_outer_depth_mm": 254.0,
+    "target_outer_height_mm": 723.9,
+    "reason": "Allow modern 31.5-32 inch display replacement without tying cabinet lifetime to one chassis width",
+    "reference_width_delta_mm": 49.75,
+    "removable_monitor_carrier_required": true,
+    "removable_front_bezel_required": true
+  },
+  "display_fit_policy": {
+    "target_diagonal_in": 31.5,
+    "target_resolution": "1920x1080",
+    "preferred_panel_type": "flat IPS/VA LCD",
+    "service_envelope_width_mm": 740.0,
+    "service_envelope_height_mm": 450.0,
+    "service_envelope_depth_mm": 100.0,
+    "minimum_clearance_each_side_mm": 2.0,
+    "preferred_max_chassis_width_mm": 740.0,
+    "exact_model_required_before_backbox_shell_cnc": false,
+    "exact_model_required_before_monitor_carrier_or_bezel_cnc": true,
+    "mounting_strategy": "replaceable VESA/slotted carrier plus replaceable bezel/filler panel"
+  },
+  "known_examples_brazil": [
+    {
+      "model": "LG 32SR50F-W",
+      "width_without_stand_mm": 731.8,
+      "height_without_stand_mm": 440.5,
+      "depth_without_stand_mm": 45.0,
+      "vesa_mm": "100x100",
+      "status": "fits-future-proof-service-envelope"
+    },
+    {
+      "model": "Mancer Valak UZ32",
+      "width_without_stand_mm": 715.0,
+      "height_without_stand_mm": 421.0,
+      "depth_without_stand_mm": 88.0,
+      "vesa_mm": "100x100",
+      "status": "fits-future-proof-service-envelope"
+    },
+    {
+      "model": "Duex DXMO315F100S",
+      "width_reported_mm": 713.0,
+      "dimensions_status": "retailer-reported-approximate",
+      "status": "fits-future-proof-service-envelope-but-dimensions-still-require-confirmation"
+    }
+  ]
+}
