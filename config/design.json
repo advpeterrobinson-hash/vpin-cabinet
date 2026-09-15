@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "project": {
     "name": "vpin-cabinet",
     "units": "mm",
@@ -9,8 +9,27 @@
       "z": "vertical"
     }
   },
+  "design_policy": {
+    "williams_geometry_role": "visual-and-proportional-reference",
+    "owner_approved_dimensional_deviation_mm": {
+      "typical_min": 10.0,
+      "typical_max": 50.0
+    },
+    "priority_order": [
+      "safety",
+      "long-term replacement compatibility",
+      "serviceability",
+      "structural integrity",
+      "visual fidelity to Williams proportions",
+      "exact historical dimensions"
+    ],
+    "electronics_service_envelopes_required": true,
+    "prefer_replaceable_adapters_over_permanent_component_specific_holes": true
+  },
   "cabinet": {
+    "reference_outer_width_mm": 558.8,
     "outer_width_mm": 558.8,
+    "outer_width_status": "under-future-proofing-review",
     "side_length_mm": 1308.1,
     "front_height_mm": 400.05,
     "rear_height_mm": 596.9,
@@ -26,12 +45,21 @@
     "vesa_x_mm": 300.0,
     "vesa_y_mm": 200.0,
     "clearance_each_side_mm": 1.0,
-    "minimum_remaining_side_skin_mm": 8.0
+    "minimum_remaining_side_skin_mm": 8.0,
+    "future_replacement_envelope_status": "pending-main-cabinet-width-review"
   },
   "backglass": {
     "target_diagonal_in": 32.0,
     "target_resolution": "1920x1080",
-    "exact_model": null
+    "exact_model": null,
+    "future_service_envelope_mm": {
+      "width": 740.0,
+      "height": 450.0,
+      "depth": 100.0
+    },
+    "target_backbox_outer_width_mm": 780.0,
+    "replaceable_carrier": true,
+    "replaceable_bezel": true
   },
   "pc": {
     "frame_reference_width_mm": 440.0,
@@ -39,7 +67,8 @@
     "frame_reference_height_mm": 128.0,
     "service_width_mm": 470.0,
     "service_depth_mm": 400.0,
-    "service_height_mm": 230.0
+    "service_height_mm": 230.0,
+    "replaceable_chassis_adapter": true
   },
   "cnc": {
     "provider": "Cutter CNC",
