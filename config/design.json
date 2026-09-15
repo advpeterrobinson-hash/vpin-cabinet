@@ -1,5 +1,5 @@
 {
-  "schema_version": 4,
+  "schema_version": 5,
   "project": {
     "name": "vpin-cabinet",
     "units": "mm",
@@ -30,8 +30,8 @@
   },
   "cabinet": {
     "reference_outer_width_mm": 558.8,
-    "outer_width_mm": 580.0,
-    "outer_width_status": "selected-engineering-baseline-v07",
+    "outer_width_mm": 600.0,
+    "outer_width_status": "selected-engineering-baseline-v17",
     "side_length_mm": 1308.1,
     "front_height_mm": 400.05,
     "rear_height_mm": 596.9,
@@ -39,13 +39,15 @@
     "main_wood_nominal_mm": 18.0,
     "future_playfield_service_envelope_mm": {
       "target_display_cross_width": 560.0,
-      "clear_cavity_cross_width": 564.0,
+      "full_thickness_clear_cross_width": 564.0,
+      "maximum_routed_cross_width_at_minimum_skin": 584.0,
       "target_display_length": 970.0,
       "clear_bay_length": 980.0,
       "depth": 55.0,
       "cross_clearance_each_side": 2.0,
       "minimum_remaining_side_skin": 8.0,
-      "display_mass_design_limit_kg": 12.0
+      "display_mass_design_limit_kg": 12.0,
+      "side_pocket_required_for_target_envelope": false
     }
   },
   "playfield_display": {
@@ -70,7 +72,7 @@
     "vesa_y_mm": 200.0,
     "clearance_each_side_mm": 1.0,
     "minimum_remaining_side_skin_mm": 8.0,
-    "future_replacement_envelope_status": "superseded-by-playfield-display-v16"
+    "future_replacement_envelope_status": "superseded-by-playfield-display-v16-and-600mm-body-v17"
   },
   "backglass": {
     "target_diagonal_in": 32.0,
