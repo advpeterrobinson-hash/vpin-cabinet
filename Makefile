@@ -33,8 +33,8 @@ help:
 doctor:
 	@set -e; \
 	printf 'Python:    '; $(PYTHON) --version; \
-	command -v $(FREECAD) >/dev/null || (echo 'FreeCAD:   MISSING (install FreeCAD first)'; exit 1); \
-	printf 'FreeCAD:   '; $(FREECAD) --version | tail -n 1; \
+	command -v $(FREECAD) >/dev/null || (echo 'FreeCAD GUI:MISSING (install/configure FreeCAD first)'; exit 1); \
+	printf 'FreeCAD GUI:'; command -v $(FREECAD); \
 	command -v $(FREECADCMD) >/dev/null || (echo 'FreeCADCmd:MISSING (expected freecadcmd from FreeCAD package)'; exit 1); \
 	printf 'FreeCADCmd:'; $(FREECADCMD) --version | tail -n 1; \
 	printf 'Git:       '; git --version; \
