@@ -200,3 +200,27 @@ Initial rear service ports are:
 - one blank `RESERVE` position.
 
 The rear mains bay remains physically separated and internally enclosed; the decorative wooden fascia is not relied upon as the electrical safety enclosure.
+
+## DEC-017 — Fold-down WPC-style backbox for transport
+
+**Status:** accepted engineering baseline for v0.10
+
+Use a Williams/Bally WPC-style external side-pivot hinge arrangement so the complete backbox folds **forward over the playfield** for transport, storage, and moving through apartments/elevators/vehicles.
+
+Preferred off-the-shelf hardware family:
+
+- `01-9011-L/R` left/right WPC backbox hinge brackets;
+- `02-4352` pivot bushings;
+- `4322-01139-12B` pivot bolts.
+
+The main-side pivot starts from the established WPC datum of approximately 508.0 mm above the cabinet bottom and 38.1 mm forward of the rear edge, using a 12.7 mm pivot hole.
+
+For the selected 780 mm backbox over the 580 mm main body, use the WPC custom-width hinge-floor formula. It yields a hinge mounting-row inset of approximately **69.84 mm from each backbox-floor side edge**.
+
+Two independent upright safety bolts clamp the backbox floor to the cabinet rear shelf/crossmember. The hinges are not relied upon as the sole upright restraint.
+
+The folded backbox must rest on dedicated padded structural transport supports, never on the backglass display, speaker grilles, playfield OLED, or playfield glass. The front backbox fascia should therefore keep displays/speakers recessed behind a defined fold datum; protruding decorative speaker covers are to be avoided or made deliberately removable.
+
+A protected cable service loop must permit folding without disconnecting normal HDMI/video, power, audio, USB, or lighting harnesses and without pinching cables at the hinge.
+
+All pivot, hinge, lock, cable-opening, and transport-rest locations are CNC-located in the final flat-pack files. Hand-aligning and drilling the hinge during apartment assembly is explicitly not the release workflow.

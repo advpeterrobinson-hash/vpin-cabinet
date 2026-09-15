@@ -1,0 +1,72 @@
+{
+  "status": "engineering-provisional",
+  "manufacturing_ready": false,
+  "depends_on_branch_stage": "feat/cad-platform-v09",
+  "mechanism": {
+    "type": "Williams/Bally WPC-style external side pivot hinges",
+    "primary_hinge_set": "01-9011-L/R",
+    "pivot_bushing": "02-4352",
+    "pivot_bolt": "4322-01139-12B",
+    "off_the_shelf_hardware_preferred": true,
+    "local_fabrication_alternative_planned": true
+  },
+  "cabinet": {
+    "outer_width_mm": 580.0,
+    "side_length_mm": 1308.1,
+    "rear_height_mm": 596.9,
+    "pivot_hole_diameter_mm": 12.7,
+    "pivot_from_rear_mm": 38.1,
+    "pivot_from_bottom_mm": 508.0
+  },
+  "backbox": {
+    "outer_width_mm": 780.0,
+    "reference_outer_height_mm": 723.9,
+    "reference_max_depth_mm": 254.0,
+    "minimum_width_overhang_for_wpc_hinges_mm": 88.9,
+    "actual_width_overhang_total_mm": 200.0,
+    "hinge_floor_bolt_inset_formula": "(backbox_width - cabinet_width - 60.325) / 2",
+    "hinge_floor_bolt_inset_each_side_mm": 69.8375,
+    "hinge_floor_hole_diameter_mm": 6.35,
+    "hinge_floor_hole_count_each_side": 3
+  },
+  "upright_locking": {
+    "required": true,
+    "count": 2,
+    "baseline_thread": "3/8-16",
+    "cabinet_rear_shelf_hole_diameter_mm": 11.9,
+    "cabinet_rear_shelf_captive_nut": "3/8-16 T-nut or equivalent metal-backed captive thread",
+    "backbox_floor_access_hole_diameter_mm": 25.4,
+    "fastener_style": "wing screw or hand-accessible socket/knob bolt",
+    "rule": "hinges provide folding function; upright operating loads are clamped through dedicated safety bolts into the rear shelf/crossmember"
+  },
+  "cable_harness": {
+    "central_opening_required": true,
+    "minimum_service_loop_mm": 250.0,
+    "minimum_dynamic_bend_radius_mm": 50.0,
+    "abrasion_grommet_required": true,
+    "strain_relief_both_ends": true,
+    "hinge_pinch_zone_keepout_mm": 40.0,
+    "rule": "video, power, audio, USB and lighting harnesses must fold with the backbox without unplugging and without loading connector shells"
+  },
+  "folded_transport": {
+    "fold_direction": "forward over playfield",
+    "target_rotation_deg": 90.0,
+    "dedicated_transport_rest_required": true,
+    "rest_load_path": "backbox structural frame to cabinet side/top structure; never onto monitor, speaker grille or playfield glass",
+    "minimum_clearance_to_playfield_glass_mm": 15.0,
+    "minimum_clearance_after_pad_compression_mm": 10.0,
+    "front_face_recess_from_transport_datum_mm": 8.0,
+    "speaker_grilles_must_be_flush_or_removable": true,
+    "positive_folded_retention_required": true,
+    "baseline_retention": "padded 25 mm cam-buckle transport strap using documented strap path",
+    "no_transport_with_backbox_upright": true
+  },
+  "cnc_flatpack": {
+    "pivot_holes_cnc_located": true,
+    "hinge_floor_holes_cnc_located": true,
+    "upright_lock_holes_cnc_located": true,
+    "cable_openings_cnc_cut": true,
+    "transport_rest_mounts_cnc_located": true,
+    "builder_freehand_alignment_required": false
+  }
+}
