@@ -1,0 +1,3 @@
+import build_playfield_mechanics_v18
+
+build_playfield_mechanics_v18.main()
