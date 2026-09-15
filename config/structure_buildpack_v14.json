@@ -1,0 +1,54 @@
+{
+  "status": "engineering-provisional",
+  "manufacturing_ready": false,
+  "structure_ready_gate_before_electronics": true,
+  "pre_electronics_required_systems": [
+    "wood cabinet and backbox",
+    "backbox fold hinges and upright locking",
+    "keyed rear service door",
+    "real legs and levelers",
+    "play-isolated retractable mobility",
+    "custom lockdown bar and siderails",
+    "playfield cradle / dual struts / independent safety prop",
+    "playfield OLED mechanical fit",
+    "backglass monitor adjustable-carriage fit",
+    "playfield and backbox glazing",
+    "PC drawer and removable chassis adapter",
+    "fan/vent/cable-passport/raceway geometry"
+  ],
+  "hinge_procurement": {
+    "preferred_family": "Williams/Bally WPC",
+    "required_parts": [
+      {"part_id": "BB-HNG-01", "part_number": "01-9011-L", "qty": 1},
+      {"part_id": "BB-HNG-02", "part_number": "01-9011-R", "qty": 1},
+      {"part_id": "BB-HNG-03", "part_number": "02-4352", "qty": 2},
+      {"part_id": "BB-HNG-04", "part_number": "4322-01139-12B", "qty": 2}
+    ],
+    "pair_alias": "01-9011-LR",
+    "physical_measurement_before_final_cnc_preferred": true,
+    "do_not_substitute_stern_hinge_without_geometry_review": true
+  },
+  "phase_policy": {
+    "1": "woodworking / cabinet shell",
+    "2": "mechanical pinball hardware",
+    "3": "displays and glazing",
+    "4": "PC mechanical integration",
+    "5": "electrical power/control - starts only after structure-ready gate",
+    "6": "DOF/feedback/lighting toys",
+    "7": "software and commissioning"
+  },
+  "documentation_required": [
+    "docs/BUILD_PHASES.md",
+    "docs/STRUCTURE_BUILD_MANUAL.md",
+    "docs/PART_LABELING.md",
+    "docs/BACKBOX_HINGE_SHOPPING.md",
+    "bom/STRUCTURE_BOM.csv",
+    "bom/STRUCTURE_PARTS.csv"
+  ],
+  "labeling": {
+    "manufacturing_id_engraving_required": true,
+    "revision_in_part_id_required": true,
+    "orientation_marking_where_useful": true,
+    "manufacturing_and_cosmetic_engraving_separate_layers": true
+  }
+}

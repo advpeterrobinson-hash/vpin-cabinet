@@ -88,3 +88,79 @@ Questions for consultation:
 13. Cost difference between simple 2D cutting and pocket/dado machining.
 14. Whether they can drill pilot holes and threaded-insert locations.
 15. Maximum acceptable file size and preferred FreeCAD export workflow.
+
+## WPC Backbox Hinge Hardware
+
+Selected part family for the folding backbox:
+
+- `01-9011-L` left hinge bracket
+- `01-9011-R` right hinge bracket
+- `01-9011-LR` common pair/set listing
+- `02-4352` pivot bushing / cabinet T-nut, 3/8-16
+- `4322-01139-12B` short-neck pivot carriage bolt, 3/8-16 x 3/4 in
+
+### Marco Specialties
+
+Current September 2026 reference prices observed during design research:
+
+- `01-9011-LR` pair: approximately US$49.99
+- `02-4352`: approximately US$2.99 each
+- `4322-01139-12B`: approximately US$1.29 each
+
+Use as a reliable part-number/specification reference even if another seller is cheaper.
+
+### VirtuaPin
+
+Current reference listings observed during design research:
+
+- Williams/Bally black backbox hinge pair: approximately US$29.95
+- `02-4352` pivot bushing: approximately US$3.79
+- `4322-01139-12B` pivot bolt: approximately US$0.99
+
+### Pinball Life
+
+- `02-4352` pivot bushing listed around US$2.95 during September 2026 research.
+
+### eBay
+
+Use the exact part numbers as search terms. A current September 2026 listing for a new Williams backbox hinge set was observed around US$59.99, but eBay availability and shipping change rapidly.
+
+Recommended search strings:
+
+- `Williams Bally WPC backbox hinge 01-9011-LR`
+- `01-9011-L pinball hinge`
+- `01-9011-R pinball hinge`
+- `02-4352 pivot bushing`
+- `4322-01139-12B hinge bolt`
+
+Do not treat a visually similar Stern hinge as equivalent without checking pivot geometry, thread and bracket hole locations.
+
+### Brazil / local fabrication fallback
+
+An exact Brazilian retail listing for the WPC hinge set was not confirmed in the current search. If import cost is unreasonable, the project will support a verified local-fabrication drawing for the left/right bracket pair after an actual WPC hinge set is measured.
+
+The pivot bushing/bolt interface should remain the WPC standard so locally fabricated brackets do not force a cabinet redesign.
+
+## Brazil-ready structural materials
+
+Primary wood strategy:
+
+- good-quality 18 mm `compensado naval`, preferably virola;
+- pinus naval acceptable when lamination/void/warp inspection passes;
+- 15 mm plywood acceptable for the keyed rear service door and selected removable panels;
+- avoid MDF for primary structural/load paths.
+
+The production files must be adjusted to **measured sheet thickness**, not the nominal catalog thickness.
+
+Common hardware intentionally selected for Brazilian availability where practical:
+
+- keyed cam/panel locks (`fechadura lingueta`, `fechadura para painel/armário`);
+- continuous/piano hinges;
+- EPDM/closed-cell foam gasket strip;
+- metric bolts, washers, Nyloc nuts and threaded inserts;
+- rubber-lined P-clamps and reusable screw-mounted cable clips;
+- fine insect mesh/filter material;
+- standard 120 mm PC fan guards;
+- drawer slides and gas struts once their final load/geometry is validated.
+
+Pinball-specific metal parts, specialist electronics and toys may be imported as required.

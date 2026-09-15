@@ -4,7 +4,7 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting open-master build-shell-v02 audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack open-master build-shell-v02 build-structure-v14 audit-reference status
 
 help:
 	@printf '%s\n' \
@@ -18,9 +18,12 @@ help:
 	  '  make validate-service-io       Validate v0.8 service-I/O packaging' \
 	  '  make validate-backbox-fold     Validate v0.10 folding-backbox transport design' \
 	  '  make validate-electrical-routing Validate v0.11 cooling/toy/cable infrastructure' \
-	  '  make validate-backbox-mounting Validate v0.12 shelf alignment/display carriages' \
+	  '  make validate-backbox-mounting Validate v0.12 shelf/door/display-carriage design' \
+	  '  make validate-structure-materials Validate v0.13 structural material/reinforcement policy' \
+	  '  make validate-structure-buildpack Validate structure-first BOM/manual/label/hinge package' \
 	  '  make open-master               Open current FreeCAD master' \
 	  '  make build-shell-v02           Re-run the validated WPC shell generator' \
+	  '  make build-structure-v14       Run full 580 mm platform + structure/WPC hinge packaging build' \
 	  '  make audit-reference           Run reference audit (if local reference copy exists)' \
 	  '  make status                    Show concise Git state'
 
@@ -33,7 +36,7 @@ doctor:
 	test -f config/design.json && echo 'Config:    OK' || (echo 'Config: MISSING'; exit 1); \
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
-validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -56,11 +59,20 @@ validate-electrical-routing:
 validate-backbox-mounting:
 	$(PYTHON) tools/validate_backbox_mounting_v12.py
 
+validate-structure-materials:
+	$(PYTHON) tools/validate_structure_materials_v13.py
+
+validate-structure-buildpack:
+	$(PYTHON) tools/validate_structure_buildpack_v14.py
+
 open-master:
 	$(FREECAD) $(MASTER)
 
 build-shell-v02:
 	$(FREECADCMD) tools/build_shell_v02.py
+
+build-structure-v14:
+	bash tools/run_structure_v14.sh
 
 audit-reference:
 	@test -f .work/audit/reference-master.FCStd || \

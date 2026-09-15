@@ -1,30 +1,48 @@
 # Virtual Pinball Cabinet
 
-Parametric CNC-ready virtual pinball cabinet based on Williams WPC visual proportions, with deliberate future-proofing for replaceable electronics.
+Parametric CNC-ready virtual pinball cabinet inspired by Williams WPC proportions, with deliberate future-proofing for replaceable electronics and apartment-friendly flat-pack assembly.
 
 ## Primary design targets
 
 - Williams WPC-derived visual proportions rather than rigid historical dimensions
-- owner-approved 10–50 mm dimensional deviations where they materially improve long-term serviceability or replacement compatibility
-- 18 mm metric plywood construction (final production value = measured sheet thickness)
+- selected **580 mm main-cabinet width** for future 42-inch-class display tolerance
+- selected **780 mm backbox width** with reusable adjustable display carriers
+- 18 mm metric plywood primary structure (production value = measured sheet thickness)
 - LG OLED42C5 initial playfield in a replaceable structural cradle
-- approximately 32-inch 1080p backglass in a future-proof modular backbox
-- hinged structural playfield cradle
-- dual gas struts
-- independent mechanical safety support
-- real pinball legs
-- retractable wheels for moving cabinet
-- full DOF / mechanical force feedback
-- SSF tactile audio
+- approximately 31.5/32-inch backglass preferred; 27/28-inch fallback supported through adjustable carriage/bezel
+- Williams/Bally WPC-style folding backbox hinges and separate upright locking bolts
+- keyed/gasketed rear backbox service door
+- hinged structural playfield cradle with dual gas struts and independent mechanical safety support
+- real pinball legs and levelers
+- retractable/play-isolated wheels for moving cabinet
+- full DOF / mechanical force feedback and SSF planned after structure completion
 - modular electronics and feedback mounting
 - slide-out ATX PC chassis on a replaceable drawer adapter
-- single mains power cord
-- independent Audio Only / Bluetooth mode
-- Full Pinball mode
-- external service USB ports
-- normally offline operation
+- single mains power cord with isolated protected distribution
+- independent Audio Only / Bluetooth and Full Pinball modes
 - CNC-first construction with minimal hand tools
 - FreeCAD parametric master model
+
+## Build philosophy
+
+The primary product is a **replicable CNC flat-pack plan**, not one bespoke cabinet. Precision work should be absorbed into CAD/CAM and local fabrication so a builder can order the parts from a CNC/metal shop and assemble the machine in an apartment without owning a table saw, router table, drill press, planer or welder.
+
+Every CNC/fabricated part will receive a stable part ID linked to the BOM and build manual. Manufacturing labels and cosmetic white-filled vintage engravings are kept on separate export layers.
+
+## Structure-first procurement
+
+Woodworking, displays, real pinball legs, folding backbox hardware, lockdown/siderails, playfield mechanics and the PC drawer must reach a **STRUCTURE READY** gate before the coordinated electronics/DOF purchase begins.
+
+This reduces electronic obsolescence during the long cabinet build and prevents expensive electronics from dictating permanent wood geometry unnecessarily.
+
+See:
+
+- `docs/BUILD_PHASES.md` — staged purchasing / phase gates
+- `bom/STRUCTURE_BOM.csv` — procurement tracker
+- `bom/STRUCTURE_PARTS.csv` — labeled CNC/fabricated part registry
+- `docs/STRUCTURE_BUILD_MANUAL.md` — living mechanical assembly manual
+- `docs/PART_LABELING.md` — part/revision/engraving convention
+- `docs/BACKBOX_HINGE_SHOPPING.md` — WPC hinge part numbers and procurement notes
 
 ## Longevity philosophy
 
@@ -32,10 +50,11 @@ The wooden cabinet and structural metalwork should outlive several generations o
 
 Current examples:
 
-- backbox target widened to 780 mm to provide a 740 x 450 x 100 mm replaceable display envelope;
-- exact backglass model affects only the removable carrier/bezel, not the permanent shell;
-- main cabinet width is under review for a modest future-proof increase before CNC freeze;
-- PC and electronics mounting use replaceable adapters/panels.
+- 580 mm main body supports the initial 540 mm-wide C5 without side routing and preserves a routed future-display envelope;
+- 780 mm backbox provides a 740 x 450 x 100 mm display service envelope;
+- backglass and DMD use independent adjustable rail carriages and replaceable VESA/tray adapters;
+- PC and electronics mounting use replaceable adapters/panels;
+- rear service I/O uses replaceable fascias/carriers rather than connector-specific permanent wood cutouts.
 
 See `docs/FUTURE_PROOFING.md`.
 
@@ -51,9 +70,9 @@ make validate
 make open-master
 ```
 
-`make validate` currently checks the documented dimensional baseline without requiring FreeCAD. FreeCAD geometry/collision checks will be added as the design matures.
+`make validate` runs the current pure-Python dimensional, packaging, routing, structural-material and build-package checks. FreeCAD geometry/collision checks remain separate local gates for CAD-changing stages.
 
-See:
+See also:
 
 - `AGENTS.md` — engineering rules for humans and coding agents
 - `config/design.json` — machine-readable design baseline
@@ -63,20 +82,27 @@ See:
 - `docs/reference-baseline.md` — dimensions extracted from the reference model
 - `docs/vendors.md` — parts/services/vendor notes
 
-## Current validated geometry
+## Current selected geometry
 
-- Williams WPC cabinet profile is live-parametric.
-- Reference outer width: 558.80 mm; final main-cabinet width is now under future-proofing review.
-- Current nominal 18 mm plywood gives 522.80 mm inside width at the reference body width.
-- LG OLED42C5 cross-cabinet physical width: 540.0 mm.
-- Current OLED cavity including clearance: 542.0 mm.
-- Current nominal side pocket depth: 9.60 mm.
-- Current nominal remaining side skin: 8.40 mm.
+- main cabinet outer width: **580.00 mm**;
+- nominal inside width at 18 mm plywood: **544.00 mm**;
+- cabinet side length: **1308.10 mm**;
+- front outside height: **400.05 mm**;
+- rear outside height: **596.90 mm**;
+- backbox target outer width: **780.00 mm**;
+- LG OLED42C5 physical envelope: **932.0 x 540.0 x 41.1 mm**, 9.8 kg;
+- current C5 installed cross-width envelope: **542.0 mm**;
+- future playfield chassis target: **560 x 950 x 55 mm** plus installation clearance;
+- backglass service envelope: **740 x 450 x 100 mm**.
 
-The OLED pocket is a clearance feature only; the OLED and gas-strut loads must be carried by an independent structural cradle. Before CNC freeze, the main-body width will be evaluated against a larger future 42-inch-class display service envelope and the consequences for glass, siderails, and lockdown-bar hardware.
+The OLED and gas-strut loads are carried by an independent structural cradle. Reduced-thickness side pockets, if ever required by a future wider display, are clearance only and are not permitted to carry structural lifting loads.
+
+## Safety baseline
+
+This is intended to be a household entertainment appliance, not an exposed electronics test rig. Reachable hazardous voltage is a blocking defect. Backbox/service openings are guarded, gasketed and lockable; no bare mains terminals are permitted in ordinary or keyed service areas. Any service procedure that can expose mains voltage must carry an explicit shock-hazard warning and isolation instructions.
 
 ## Status
 
 Engineering / parametric-CAD development.
 
-No CNC files are approved for manufacturing yet. CNC production remains blocked on final hardware geometry, material measurement, provider/tooling consultation, physical tolerance coupon, and final design validation.
+No CNC files are approved for manufacturing yet. CNC production remains blocked on final hardware geometry, measured sheet thickness, Cutter CNC/tooling consultation, physical tolerance coupon, local FreeCAD geometry validation and final proof testing.

@@ -1,0 +1,64 @@
+{
+  "status": "engineering-provisional",
+  "manufacturing_ready": false,
+  "main_cabinet": {
+    "outer_width_mm": 580.0,
+    "side_length_mm": 1308.1,
+    "rear_height_mm": 596.9,
+    "rear_top_flat_mm": 180.975,
+    "wood_mm": 18.0,
+    "rear_shelf": {
+      "depth_mm": 180.975,
+      "thickness_mm": 18.0,
+      "top_z_mm": 596.9,
+      "reinforcement_status": "local 18 mm doubler geometry pending passport/lock Y-axis freeze"
+    }
+  },
+  "backbox": {
+    "outer_width_mm": 780.0,
+    "outer_depth_mm": 254.0,
+    "outer_height_mm": 723.9,
+    "wood_mm": 18.0,
+    "rear_face_flush_with_cabinet_rear": true,
+    "floor_bottom_z_mm": 596.9,
+    "service_door": {
+      "opening_width_mm": 520.0,
+      "opening_height_mm": 460.0,
+      "door_thickness_mm": 15.0,
+      "lower_clearance_above_floor_mm": 53.1,
+      "keyed": true,
+      "gasketed": true
+    },
+    "display_rail_cage": {
+      "vertical_profile_mm": [20.0, 40.0],
+      "rail_spacing_center_to_center_mm": 300.0,
+      "rear_offset_from_inner_face_mm": 35.0,
+      "status": "packaging rails only; final extrusion brackets after local sourcing"
+    }
+  },
+  "wpc_hinges": {
+    "left_part": "01-9011-L",
+    "right_part": "01-9011-R",
+    "pair_alias": "01-9011-LR",
+    "pivot_bushing": "02-4352",
+    "pivot_bolt": "4322-01139-12B",
+    "pivot_hole_diameter_mm": 12.7,
+    "pivot_from_rear_mm": 38.1,
+    "pivot_from_bottom_mm": 508.0,
+    "bracket_keepout_y_mm": 110.0,
+    "bracket_keepout_z_mm": 170.0,
+    "bracket_keepout_thickness_mm": 5.0,
+    "exact_bracket_hole_pattern_status": "TBD after purchased/measured hinge; do not machine from keepout envelope"
+  },
+  "upright_locking": {
+    "x_offset_from_centerline_mm": 180.0,
+    "y_axis_status": "TBD after hinge/shelf physical layout verification",
+    "x_only_markers_allowed_in_cad": true
+  },
+  "fan_packaging": {
+    "fan_diameter_mm": 120.0,
+    "count": 2,
+    "rear_upper_zone_height_mm": 185.0,
+    "status": "opening envelopes only; exact fan model later electronics phase"
+  }
+}
