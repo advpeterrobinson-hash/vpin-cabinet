@@ -5,7 +5,7 @@
   "nominal_wood_mm": 18.0,
   "minimum_remaining_side_skin_mm": 8.0,
   "future_playfield_service_envelope": {
-    "cross_width_mm": 555.0,
+    "cross_width_mm": 560.0,
     "length_mm": 950.0,
     "depth_mm": 55.0,
     "clearance_each_side_mm": 2.0
@@ -17,7 +17,7 @@
     575.0,
     580.0
   ],
-  "preferred_candidate_outer_width_mm": 575.0,
+  "preferred_candidate_outer_width_mm": 580.0,
   "selection_status": "provisional-pending-hardware-impact-review",
   "hardware_impacts_to_review": [
     "lockdown bar",
