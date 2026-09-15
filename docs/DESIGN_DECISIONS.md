@@ -44,7 +44,7 @@ The permanent shell uses a removable/slotted monitor carrier plus a removable co
 
 ## DEC-015 — 580 mm CNC-flatpack main body
 
-**Status:** accepted engineering baseline
+**Status:** superseded by DEC-020
 
 Adopt **580.0 mm** as the main cabinet outer-width engineering baseline. The goal is not millimetre-perfect Williams replication; the goal is a long-lived, future-proof cabinet that can be replicated from CNC plans.
 
@@ -133,3 +133,19 @@ All penetrations are guarded/sealed rather than left open:
 No exposed mains terminals are permitted in the backbox. Fans and most auxiliaries remain on SELV/DC rails. If the backglass display requires AC mains, it receives power through fully insulated jacketed wiring and a touch-safe enclosed connector/receptacle; any unavoidable mains splice is confined to a tool-access-only enclosed junction compartment.
 
 The intent is not to claim a formal IP rating. The intent is a strong, closed cabinet that resists insect/dust entry, prevents casual child access, prevents fingers/tools from reaching hazardous energized parts, and remains fully serviceable through deliberate tool-controlled access.
+
+## DEC-020 — 600 mm main cabinet width for full-thickness 42/43-inch playfield bay
+
+**Status:** owner accepted on 2026-09-15; selected production-direction baseline
+
+Increase the main cabinet outer width from the previous 580 mm engineering baseline to **600.0 mm**.
+
+With nominal 18 mm plywood sides, the full-thickness clear internal width becomes **564.0 mm**. This exactly accommodates the current model-agnostic playfield target of **560 mm maximum physical display cross-width plus 2 mm installation clearance per side** without routing long clearance pockets into the cabinet sidewalls.
+
+Relative to the Williams WPC standard-body reference of 558.8 mm, the selected cabinet is 41.2 mm wider overall, or 20.6 mm per side. This deviation is accepted because it materially improves future display compatibility, structural simplicity, serviceability, and CNC repeatability while remaining visually close to a standard-body machine.
+
+The 780 mm backbox is retained. Its nominal overhang over the 600 mm body becomes **90 mm per side**.
+
+The playfield display remains selected late from the Brazil market. Permanent woodworking must not encode one TV model's VESA pattern. The cradle uses replaceable adapters, and gas-strut force/mount geometry remains a final-display-dependent calibration step.
+
+DEC-020 supersedes the 580 mm width selection in DEC-015. Width-dependent CAD, metalwork and CNC parts must now migrate to the 600 mm datum before manufacturing release.
