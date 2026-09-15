@@ -1,7 +1,7 @@
 {
-  "status": "engineering-provisional",
+  "status": "engineering-provisional-v17-width",
   "manufacturing_ready": false,
-  "depends_on_branch_stage": "feat/cad-platform-v09",
+  "depends_on_branch_stage": "feat/cabinet-width-600-v17",
   "mechanism": {
     "type": "Williams/Bally WPC-style external side pivot hinges",
     "primary_hinge_set": "01-9011-L/R",
@@ -11,7 +11,7 @@
     "local_fabrication_alternative_planned": true
   },
   "cabinet": {
-    "outer_width_mm": 580.0,
+    "outer_width_mm": 600.0,
     "side_length_mm": 1308.1,
     "rear_height_mm": 596.9,
     "pivot_hole_diameter_mm": 12.7,
@@ -23,9 +23,9 @@
     "reference_outer_height_mm": 723.9,
     "reference_max_depth_mm": 254.0,
     "minimum_width_overhang_for_wpc_hinges_mm": 88.9,
-    "actual_width_overhang_total_mm": 200.0,
+    "actual_width_overhang_total_mm": 180.0,
     "hinge_floor_bolt_inset_formula": "(backbox_width - cabinet_width - 60.325) / 2",
-    "hinge_floor_bolt_inset_each_side_mm": 69.8375,
+    "hinge_floor_bolt_inset_each_side_mm": 59.8375,
     "hinge_floor_hole_diameter_mm": 6.35,
     "hinge_floor_hole_count_each_side": 3
   },
