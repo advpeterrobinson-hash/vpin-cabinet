@@ -22,6 +22,10 @@ def main() -> None:
     with open(CFG, "r", encoding="utf-8") as fh:
         cfg = json.load(fh)
 
+    cab = cfg["cabinet"]
+    outer = float(cab["outer_width_mm"])
+    wood = float(cab["nominal_side_thickness_mm"])
+
     doc = App.openDocument(MASTER)
     group = doc.getObject("PlayfieldMechanicsV18")
     if group is None:
@@ -71,6 +75,7 @@ def main() -> None:
         ok = ok and valid
 
     display = doc.getObject("GenericPlayfieldDisplayClosedV18")
+    open_display = doc.getObject("GenericPlayfieldDisplayOpenGhostV18")
     if display:
         bb = display.Shape.BoundBox
         expected_w = float(cfg["display_envelope"]["cross_width_mm"])
@@ -79,6 +84,38 @@ def main() -> None:
             ok = False
         else:
             print(f"PASS generic display cross-width {bb.XLength:.1f} mm")
+        if bb.XMin < wood - 0.05 or bb.XMax > outer - wood + 0.05:
+            print(f"FAIL closed display violates full-thickness sidewall bay: X={bb.XMin:.2f}..{bb.XMax:.2f}")
+            ok = False
+        else:
+            print(f"PASS closed display stays between full-thickness sidewalls: X={bb.XMin:.1f}..{bb.XMax:.1f}")
+
+    # The 70-degree service display must clear the actual v0.14 backbox shell.
+    # A small numerical tolerance is allowed for coincident/tangent faces only.
+    backbox_names = ["BackboxFloorV14", "BackboxLeftSideV14", "BackboxRightSideV14", "BackboxTopV14"]
+    if open_display:
+        collisions = []
+        for name in backbox_names:
+            obj = doc.getObject(name)
+            if obj is None:
+                print(f"FAIL required backbox structure missing for collision check: {name}")
+                ok = False
+                continue
+            volume = open_display.Shape.common(obj.Shape).Volume
+            if volume > 1.0:
+                collisions.append((name, volume))
+        if collisions:
+            print("FAIL open display collides with backbox: " + ", ".join(f"{n}={v:.1f}mm3" for n, v in collisions))
+            ok = False
+        else:
+            print("PASS 70-degree display service ghost clears actual backbox shell")
+
+        floor = doc.getObject("BackboxFloorV14")
+        if floor:
+            front_y = floor.Shape.BoundBox.YMin
+            hinge_y = float(group.HingeY.Value)
+            margin = front_y - hinge_y
+            print(f"INFO hinge axis to backbox-front Y margin: {margin:.1f} mm")
 
     if not close(float(group.FullThicknessDisplayBay.Value), 564.0, 0.05):
         print(f"FAIL full-thickness display bay {group.FullThicknessDisplayBay.Value}")
