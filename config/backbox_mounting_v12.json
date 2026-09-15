@@ -38,27 +38,31 @@
       "opening_mm": [90.0, 50.0],
       "center_offset_from_common_centerline_mm": 0.0,
       "must_exist_in_both_main_shelf_and_backbox_floor": true,
-      "same_rear_edge_datum": true
+      "same_rear_edge_datum": true,
+      "final_interface": "tool-removable split compression cable-entry/gland plate with elastomer inserts; not an open brush-only hole"
     },
     "secondary_reserve": {
-      "opening_mm": [60.0, 40.0],
+      "required": true,
+      "minimum_clear_opening_mm": [60.0, 40.0],
       "center_offset_from_common_centerline_mm": -110.0,
       "must_exist_in_both_main_shelf_and_backbox_floor": true,
       "same_rear_edge_datum": true,
-      "normally_blank_with_removable_cover": true
+      "normally_blank_with_removable_cover": true,
+      "blank_cover_gasketed": true
     },
     "minimum_edge_clearance_to_lock_bolt_center_mm": 35.0
   },
   "display_mount_system": {
-    "architecture": "rear-anchored adjustable aluminium T-slot/service subframe with independent upper backglass and lower DMD carriages",
+    "architecture": "closed-backbox internal adjustable aluminium T-slot/service subframe with independent upper backglass and lower DMD carriages",
     "fixed_back_wall_retained_for_structure": true,
     "front_removal_required": true,
     "no_monitor_specific_holes_in_permanent_wood": true,
+    "structural_load_path": "display subframe ties into dedicated top/bottom crossmembers and side/perimeter structure; the rear plywood skin is a shear diaphragm and is not the sole monitor load path",
     "rear_vertical_rails": {
       "quantity": 2,
       "preferred_profile": "20x40 mm T-slot aluminium extrusion or equivalent slotted structural rail",
       "nominal_spacing_center_to_center_mm": 300.0,
-      "mounting": "CNC-located through bolts or threaded inserts into fixed rear structural panel/crossmembers",
+      "mounting": "bolted to dedicated structural crossmembers/cleats with CNC-located holes; rear panel may stabilize but is not the sole anchor",
       "must_avoid_fan_openings": true
     },
     "upper_backglass_carriage": {
@@ -98,6 +102,57 @@
       "locking_fasteners_required": true,
       "secondary_stop_or_capture_feature_required": true,
       "monitor_and_dmd_must_remain_secured_at_90_deg_fold": true
+    }
+  },
+  "enclosure_security": {
+    "closed_backbox_required": true,
+    "open_rear_backbox_prohibited": true,
+    "perimeter_frame": {
+      "side_top_floor_material_nominal_mm": 18.0,
+      "fixed_rear_shear_panel_min_mm": 12.0,
+      "rear_panel_joint": "captured dado/rabbet plus screws/glue as final CNC joinery dictates",
+      "rear_panel_role": "continuous structural shear diaphragm; not a removable monitor tray"
+    },
+    "service_access": {
+      "normal_display_service_from_front": true,
+      "rear_opening_not_required_for_monitor_replacement": true,
+      "any_optional_rear_service_hatch_requires_tool": true,
+      "hand_removable_rear_panels_prohibited": true,
+      "preferred_fastener": "captive machine screws or tamper-resistant Torx into threaded inserts/captive nuts",
+      "optional_key_lock_allowed": true
+    },
+    "front_barriers": {
+      "backglass_display_protective_window_required": true,
+      "preferred_window": "3-4 mm tempered glass; clear polycarbonate acceptable where impact resistance is prioritized",
+      "dmd_window_or_closed_bezel_required": true,
+      "speaker_openings": "perforated metal/finger guard plus acoustic layer; add insect screen behind where airflow/acoustics permit"
+    },
+    "pest_and_dust_exclusion": {
+      "perimeter_floor_shelf_gasket_required": true,
+      "gasket_material": "replaceable closed-cell EPDM/foam strip",
+      "vent_insect_mesh_required": true,
+      "target_mesh_opening_max_mm": 1.0,
+      "fan_filter_or_mesh_service_removable": true,
+      "reserve_passage_sealed_when_unused": true,
+      "primary_passage_requires_split_gland_or_compression_insert": true,
+      "brush_only_cable_entry_not_accepted_for_final_design": true,
+      "note": "Fine mesh and filters reduce airflow; intake/exhaust free area must be oversized and verified thermally."
+    },
+    "electrical_touch_safety": {
+      "no_exposed_mains_terminals_in_backbox": true,
+      "user_accessible_backbox_electronics_prefer_SELV_DC": true,
+      "display_mains_connection": "fully insulated jacketed mains lead terminating in a touch-safe enclosed connector/receptacle; no open screw terminals",
+      "mains_splices_if_any": "inside tool-access-only certified/enclosed junction compartment",
+      "fan_supply": "fused 12 V SELV AUX bus",
+      "metal_bonding": "exposed conductive metal bonded to protective earth where required by final electrical architecture",
+      "vent_guarding": "no direct finger/probe path to energized parts; external fan openings require rigid finger guards plus insect mesh/filter"
+    },
+    "child_resistance": {
+      "tool_required_for_internal_access": true,
+      "rear_fan_grilles_finger_safe": true,
+      "no_large_unprotected_service_openings": true,
+      "external_low_voltage_ports_only_in_service_fascia": true,
+      "warning_labels_inside_service_access": true
     }
   },
   "display_size_policy": {
