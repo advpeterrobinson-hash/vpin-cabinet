@@ -1,5 +1,5 @@
 {
-  "status": "engineering-provisional",
+  "status": "engineering-selected-baseline",
   "manufacturing_ready": false,
   "reference_body_width_mm": 558.8,
   "nominal_wood_mm": 18.0,
@@ -18,11 +18,17 @@
     580.0
   ],
   "preferred_candidate_outer_width_mm": 580.0,
-  "selection_status": "provisional-pending-hardware-impact-review",
-  "hardware_impacts_to_review": [
-    "lockdown bar",
-    "playfield glass",
-    "siderails",
+  "selection_status": "accepted-engineering-baseline-pending-master-cad-update",
+  "hardware_policy": {
+    "lockdown_bar": "custom-sized; not a width blocker",
+    "playfield_glass": "cut to final cabinet size",
+    "siderails": "custom/fabricated to final cabinet size if needed",
+    "legs_and_brackets": "retain real pinball-style legs; adapt mounting geometry parametrically",
+    "coin_door_and_controls": "preserve familiar pinball ergonomics; locate parametrically"
+  },
+  "remaining_impacts_to_validate_before_cnc": [
+    "glass edge/support details",
+    "siderail fastening",
     "front button ergonomics",
     "leg bracket geometry",
     "hinge and cradle crossmembers",
