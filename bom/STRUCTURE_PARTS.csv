@@ -27,8 +27,18 @@ BB-DOOR-001-R1,BB,Keyed rear service door,1,compensado naval,15,BB-DOOR-001-R1 I
 BB-BEZEL-001-R1,BB,Replaceable backglass bezel/filler frame,1,plywood-or-panel,TBD,BB-BEZEL-001-R1,ADAPTER,Display-specific but replaceable; 32-class primary
 BB-DMD-BEZEL-001-R1,BB,Replaceable DMD/FullDMD bezel,1,plywood-or-panel,TBD,BB-DMD-BEZEL-001-R1,ADAPTER,Independent from speaker baffle
 BB-SPK-BAFFLE-001-R1,BB,Removable speaker baffle,1,compensado-or-panel,TBD,BB-SPK-BAFFLE-001-R1,DESIGN,Mechanically independent from display mounts
-PF-CRADLE-001L-R1,PF,Playfield cradle left structural rail,1,metal-or-plywood-composite,TBD,PF-CRADLE-001L-R1,DESIGN,Final material/section after cradle structural phase
-PF-CRADLE-001R-R1,PF,Playfield cradle right structural rail,1,metal-or-plywood-composite,TBD,PF-CRADLE-001R-R1,DESIGN,Final material/section after cradle structural phase
+PF-CRADLE-001L-R1,PF,Playfield cradle left structural rail,1,compensado naval,18,PF-CRADLE-001L-R1 INSIDE FRONT ->,DESIGN_BASELINE,CNC plywood cradle; local metal only at concentrated load interfaces
+PF-CRADLE-001R-R1,PF,Playfield cradle right structural rail,1,compensado naval,18,PF-CRADLE-001R-R1 INSIDE FRONT ->,DESIGN_BASELINE,Mirror counterpart
+PF-XMEM-REAR-001A-R1,PF,Rear playfield cradle crossmember lamination A,1,compensado naval,18,PF-XMEM-REAR-001A-R1 REAR ->,DESIGN_BASELINE,Laminated with B piece to make ~36 mm local pivot structure
+PF-XMEM-REAR-001B-R1,PF,Rear playfield cradle crossmember lamination B,1,compensado naval,18,PF-XMEM-REAR-001B-R1 REAR ->,DESIGN_BASELINE,Laminated with A piece
+PF-PIVOT-PLATE-001L-R1,PF,Left playfield cradle pivot cheek plate,1,A36-or-SAE1020-steel,6,PF-PIVOT-PLATE-001L-R1,DESIGN_BASELINE,140x80 mm; R6 corners; 4x M8 mount holes; short 15 mm journal interface
+PF-PIVOT-PLATE-001R-R1,PF,Right playfield cradle pivot cheek plate,1,A36-or-SAE1020-steel,6,PF-PIVOT-PLATE-001R-R1,DESIGN_BASELINE,Mirror counterpart
+PF-PIVOT-BACK-001L-R1,PF,Left cradle pivot backing/spreader plate,1,A36-or-SAE1020-steel,3,PF-PIVOT-BACK-001L-R1,DESIGN_BASELINE,90x65 mm; shares four M8 clamp bolts
+PF-PIVOT-BACK-001R-R1,PF,Right cradle pivot backing/spreader plate,1,A36-or-SAE1020-steel,3,PF-PIVOT-BACK-001R-R1,DESIGN_BASELINE,Mirror counterpart
+PF-PIVOT-JOURNAL-001L-R1,PF,Left short pivot journal/stub axle,1,SAE1045-steel,15,PF-PIVOT-JOURNAL-001L-R1,DESIGN,Candidate 65 mm projection; final length after actual bearing/side-stack measurement
+PF-PIVOT-JOURNAL-001R-R1,PF,Right short pivot journal/stub axle,1,SAE1045-steel,15,PF-PIVOT-JOURNAL-001R-R1,DESIGN,Mirror counterpart
+PF-PIVOT-BRG-BACK-001L-R1,PF,Left cabinet-side flange-bearing backing plate,1,A36-or-SAE1020-steel,3,PF-PIVOT-BRG-BACK-001L-R1,DESIGN,Provisional 120x70 envelope; hole pattern only after actual UCFL202 measurement
+PF-PIVOT-BRG-BACK-001R-R1,PF,Right cabinet-side flange-bearing backing plate,1,A36-or-SAE1020-steel,3,PF-PIVOT-BRG-BACK-001R-R1,DESIGN,Mirror counterpart
 PF-VESA-PLATE-001-R1,PF,Replaceable playfield VESA adapter plate,1,metal,TBD,PF-VESA-PLATE-001-R1,ADAPTER,C5 initial adapter; future TV requires only adapter/filler change
 PC-TRAY-001-R1,PC,PC drawer platform,1,compensado naval,18,PC-TRAY-001-R1 FRONT ->,DESIGN,Mounts open chassis adapter; proof test 25 kg
 PC-ADAPTER-001-R1,PC,Replaceable open-ATX chassis adapter,1,plywood-or-metal,TBD,PC-ADAPTER-001-R1,ADAPTER,Initial ~440x265x128 chassis interface
