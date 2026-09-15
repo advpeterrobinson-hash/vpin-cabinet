@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate v0.12 backbox shelf alignment and reusable display-mount policy."""
+"""Validate v0.12 backbox shelf alignment, reusable mounts and closed enclosure."""
 from __future__ import annotations
 
 import json
@@ -15,6 +15,7 @@ def main() -> int:
     lock = cfg["upright_locking_interface"]
     passages = cfg["aligned_passages"]
     mount = cfg["display_mount_system"]
+    enclosure = cfg["enclosure_security"]
     policy = cfg["display_size_policy"]
 
     cab_w = float(align["main_cabinet_outer_width_mm"])
@@ -25,8 +26,8 @@ def main() -> int:
     derived_shelf = [cab_w / 2.0 - off, cab_w / 2.0 + off]
     derived_floor = [bb_w / 2.0 - off, bb_w / 2.0 + off]
 
-    print("BACKBOX v0.12 SHELF / DISPLAY MOUNT VALIDATION")
-    print("=" * 76)
+    print("BACKBOX v0.12 SHELF / DISPLAY / ENCLOSURE VALIDATION")
+    print("=" * 80)
     print(f"Cabinet width                       {cab_w:8.2f} mm")
     print(f"Backbox width                       {bb_w:8.2f} mm")
     print(f"Derived side overhang               {overhang:8.2f} mm")
@@ -73,7 +74,7 @@ def main() -> int:
 
     primary_half = float(passages["primary_fold_harness"]["opening_mm"][0]) / 2.0
     reserve_center = float(passages["secondary_reserve"]["center_offset_from_common_centerline_mm"])
-    reserve_half = float(passages["secondary_reserve"]["opening_mm"][0]) / 2.0
+    reserve_half = float(passages["secondary_reserve"]["minimum_clear_opening_mm"][0]) / 2.0
     min_clear = float(passages["minimum_edge_clearance_to_lock_bolt_center_mm"])
 
     passage_edges = [
@@ -118,8 +119,64 @@ def main() -> int:
     else:
         print("PASS display mounts designed for 90-degree folded transport")
 
-    service = upper["service_envelope_mm"]
-    sw, sh, sd = map(float, service)
+    if "crossmembers" not in mount["structural_load_path"].lower():
+        print("FAIL adjustable monitor frame must transfer load into dedicated structural crossmembers")
+        ok = False
+    else:
+        print("PASS adjustable monitor frame uses independent structural load path")
+
+    if not enclosure["closed_backbox_required"] or not enclosure["open_rear_backbox_prohibited"]:
+        print("FAIL backbox must remain a closed enclosure")
+        ok = False
+    else:
+        print("PASS closed backbox / open-rear design prohibited")
+
+    perimeter = enclosure["perimeter_frame"]
+    if float(perimeter["fixed_rear_shear_panel_min_mm"]) < 12.0:
+        print("FAIL fixed rear structural shear panel too thin")
+        ok = False
+    else:
+        print("PASS fixed structural rear shear panel retained")
+
+    service = enclosure["service_access"]
+    if not service["normal_display_service_from_front"] or not service["hand_removable_rear_panels_prohibited"]:
+        print("FAIL display service / rear access policy does not protect closed structure")
+        ok = False
+    else:
+        print("PASS display service is front-access with tool-only rear access")
+
+    pest = enclosure["pest_and_dust_exclusion"]
+    if float(pest["target_mesh_opening_max_mm"]) > 1.0:
+        print("FAIL insect mesh target too open")
+        ok = False
+    else:
+        print("PASS fine insect mesh target <= 1.0 mm")
+    if not (pest["perimeter_floor_shelf_gasket_required"] and pest["primary_passage_requires_split_gland_or_compression_insert"] and pest["reserve_passage_sealed_when_unused"]):
+        print("FAIL pest/dust exclusion around shelf/passports incomplete")
+        ok = False
+    else:
+        print("PASS shelf seam and cable passports are gasketed/sealed")
+
+    electrical = enclosure["electrical_touch_safety"]
+    if not electrical["no_exposed_mains_terminals_in_backbox"]:
+        print("FAIL exposed mains terminals prohibited in backbox")
+        ok = False
+    else:
+        print("PASS no exposed mains terminals in backbox")
+    if "12 V" not in electrical["fan_supply"]:
+        print("FAIL ventilation fan supply is not the intended low-voltage fused bus")
+        ok = False
+    else:
+        print("PASS ventilation remains on fused low-voltage AUX bus")
+
+    child = enclosure["child_resistance"]
+    if not (child["tool_required_for_internal_access"] and child["rear_fan_grilles_finger_safe"] and child["no_large_unprotected_service_openings"]):
+        print("FAIL child-resistant enclosure policy incomplete")
+        ok = False
+    else:
+        print("PASS tool-required, finger-guarded child-resistant enclosure")
+
+    sw, sh, sd = map(float, upper["service_envelope_mm"])
     for ex in policy["known_fit_examples"]:
         w, h, d = map(float, ex["dimensions_without_stand_mm"])
         fits = w <= sw and h <= sh and d <= sd
@@ -133,7 +190,7 @@ def main() -> int:
         print("FAIL v0.12 must remain non-manufacturing-ready")
         ok = False
 
-    print("\nSTATUS", "PASS - alignment/mounting engineering only" if ok else "FAIL")
+    print("\nSTATUS", "PASS - alignment/mounting/enclosure engineering only" if ok else "FAIL")
     return 0 if ok else 1
 
 
