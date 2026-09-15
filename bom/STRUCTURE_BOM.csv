@@ -29,7 +29,7 @@ BOM-M002,2,MET,MET-LBAR-RCV,Lockdown bar receiver/lever assembly,1,set,import-or
 BOM-M003,2,MET,MET-SIDERAIL-L,Custom/modified left siderail,1,pc,local-fabrication,Brazil,DESIGN,yes,Final width/height after glass interface
 BOM-M004,2,MET,MET-SIDERAIL-R,Custom/modified right siderail,1,pc,local-fabrication,Brazil,DESIGN,yes,Mirror of left where possible
 BOM-PF001,2,PF,PF-HINGE-01,Playfield cradle pivot system,1,set,local-fabrication,Brazil,SELECTED_BASELINE,yes,v0.15 uses local steel pivot plates + short journals + external flange bearings; final bearing hole pattern after physical sample
-BOM-PF002,2,PF,PF-STRUT-01,Gas strut pair,2,pcs,local,Brazil,RESEARCH,yes,250/275/300 N candidates remain physical-test items; do not buy until geometry confirmed
+BOM-PF002,2,PF,PF-STRUT-01,Gas strut pair,2,pcs,local,Brazil,RESEARCH,yes,Force must be recalculated after exact display and finished cradle mass/CG are measured; do not buy yet
 BOM-PF003,2,PF,PF-SAFETY-01,Positive mechanical safety stays,2,pcs,local-or-local-fabrication,Brazil,DESIGN,yes,Two independent positive supports required; gas struts are not safety devices
 BOM-PF004,2,PF,PF-PIVOT-PLATE-001,6 mm A36/SAE1020 cradle pivot plates 140x80 mm,2,pcs,local-fabrication,Brazil,DESIGN_BASELINE,yes,6.35 mm stock acceptable with CAD stack adjustment; laser/waterjet + drilling/reaming + finish
 BOM-PF005,2,PF,PF-PIVOT-BACK-001,3 mm steel backing/spreader plates for cradle pivot plates 90x65 mm,2,pcs,local-fabrication,Brazil,DESIGN_BASELINE,yes,Sandwiches ~36 mm plywood pivot zone with four M8 through-bolts per side
@@ -41,7 +41,7 @@ BOM-PF010,2,PF,PF-PIVOT-RET-001,Positive axial journal-retention hardware,2,sets
 BOM-PC001,2,PC,PC-SLIDE-01,Heavy-duty full-extension locking drawer slides,1,pair,local-or-import,Brazil/US/EU,RESEARCH,yes,Target service envelope 470x400x230; proof test before electronics
 BOM-PC002,2,PC,PC-TRAY-001,CNC PC drawer platform,1,pc,CNC,Brazil,DESIGN,yes,Replaceable chassis adapter interface
 BOM-PC003,4,PC,PC-FRAME-01,Open ATX test-bench/mining chassis ~440x265x128,1,pc,import,China/Brazil,RESEARCH,no,Mechanical fit phase; electronics may remain absent
-BOM-D001,3,DISPLAY,PF-TV-01,LG OLED42C5 playfield display,1,pc,local,Brazil,SELECTED,no,Initial physical envelope 932x540x41.1 mm; re-check market before purchase
+BOM-D001,3,DISPLAY,PF-TV-01,42-43 inch 4K high-refresh playfield display,1,pc,local,Brazil,SELECT_LATER,no,Exact model intentionally open; require >=4K 120Hz; target chassis <=560 cross x 970 length x 55 depth and <=12 kg; Samsung QN90F 43 is a current fit reference, not a purchase lock
 BOM-D002,3,DISPLAY,BB-TV-01,31.5/32 inch backglass monitor,1,pc,local,Brazil,SELECT,no,Target <=740x450x100 mm service envelope; VESA preferred
 BOM-D003,3,DISPLAY,DMD-TV-01,DMD/FullDMD display,1,pc,local-or-import,Brazil/China,OPTIONAL,no,May be deferred to electronics phase unless needed for fascia/mechanical fit
 BOM-G001,3,GLASS,PF-GLASS-01,Playfield tempered glass cut to cabinet,1,pc,local,Brazil,DESIGN,yes,Final dimensions after siderail/lockdown interfaces
