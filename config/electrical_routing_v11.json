@@ -1,0 +1,227 @@
+{
+  "status": "engineering-provisional",
+  "manufacturing_ready": false,
+  "depends_on_branch_stage": "feat/folding-backbox-v10",
+  "design_goals": [
+    "account for all planned DOF/mechanical toys before freezing cabinet CNC geometry",
+    "provide dedicated power and signal routing corridors rather than ad-hoc wiring",
+    "preserve safe backbox folding without cable pinch or connector strain",
+    "make harness installation repeatable for CNC-flatpack builders",
+    "keep cooling independent of the PC operating system"
+  ],
+  "power_domains": {
+    "ac_mains": {
+      "nominal_input": "127/220 VAC country-specific",
+      "routing_class": "A",
+      "rules": [
+        "isolated from ELV/data harnesses",
+        "inside enclosed mains compartment where terminals are exposed",
+        "protective earth bonded to all exposed conductive chassis/metalwork as required",
+        "cross lower-voltage harnesses at approximately 90 degrees only when unavoidable"
+      ]
+    },
+    "aux_12v": {
+      "nominal_voltage_v": 12.0,
+      "routing_class": "B",
+      "intended_loads": [
+        "cabinet ventilation fans",
+        "backbox ventilation fans",
+        "shaker motor where selected for 12 V",
+        "gear motor where selected for 12 V",
+        "wind/blower effect where selected for 12 V",
+        "beacon/siren/strobe modules when their selected hardware is 12 V",
+        "service/indicator lighting as appropriate"
+      ],
+      "source_policy": "dedicated fused auxiliary DC supply/bus preferred over motherboard fan headers or PC PSU peripheral leads for permanent cabinet loads",
+      "fan_branch_always_available_in_full_pinball": true
+    },
+    "aux_24v": {
+      "nominal_voltage_v": 24.0,
+      "routing_class": "B",
+      "intended_loads": [
+        "contactors/solenoids if 24 V hardware is selected",
+        "knocker if selected for 24 V",
+        "chimes/bells if selected hardware requires 24 V"
+      ],
+      "optional_until_BOM_freeze": true
+    },
+    "logic_5v": {
+      "nominal_voltage_v": 5.0,
+      "routing_class": "C",
+      "intended_loads": [
+        "addressable LEDs",
+        "logic/controller boards",
+        "button illumination where appropriate"
+      ],
+      "high_current_led_injection_requires_separate_fused_distribution": true
+    }
+  },
+  "backbox_ventilation": {
+    "architecture": "low intake / high rear exhaust",
+    "preferred_fans": "2 x 120 mm 12 V 4-pin PWM low-noise PC fans",
+    "fan_count": 2,
+    "fan_nominal_voltage_v": 12.0,
+    "power_source": "dedicated fused AUX 12 V cabinet bus",
+    "not_powered_from": [
+      "motherboard fan header",
+      "USB",
+      "display USB port"
+    ],
+    "control": {
+      "baseline": "standalone thermostat/PWM fan controller",
+      "full_pinball_behavior": "enabled whenever FULL PINBALL power domain is active; thermostat controls speed",
+      "audio_only_behavior": "normally off unless backbox audio electronics dissipating significant heat are later located there",
+      "failsafe": "loss of temperature-control signal should default to fan-on/full-safe behavior where supported"
+    },
+    "airflow": {
+      "exhaust_location": "high on backbox rear wall",
+      "intake_location": "lower backbox rear/bottom region plus cabinet-to-backbox passage",
+      "filtered_intake_preferred": true,
+      "keepout_from_monitor_mm": 20.0,
+      "keepout_from_hinges_and_fold_harness_mm": 40.0,
+      "fan_grille_required": true,
+      "service_removable": true
+    },
+    "cnc": {
+      "fan_openings_cnc_cut": true,
+      "fan_mount_holes_cnc_drilled": true,
+      "intake_vent_pattern_cnc_cut": true,
+      "fan_controller_mount_pattern_on_replaceable_service_panel": true
+    }
+  },
+  "cable_routing_classes": {
+    "A": "AC mains only",
+    "B": "high-current ELV / inductive DOF power and returns",
+    "C": "logic/data/USB/Ethernet/LED data/control",
+    "D": "analog/low-level audio and amplifier signal wiring",
+    "E": "display video cables and display AC/DC power service loops"
+  },
+  "routing_policy": {
+    "dedicated_corridors_required": true,
+    "minimum_parallel_separation_A_to_C_or_D_mm": 75.0,
+    "minimum_parallel_separation_B_to_D_mm": 50.0,
+    "cross_classes_at_90_deg_when_practical": true,
+    "no_loose_wiring_in_hinge_sweeps": true,
+    "no_harness_supported_by_connector_shells": true,
+    "all_harnesses_label_both_ends": true,
+    "service_loops_required_at_moving_assemblies": true,
+    "spare_capacity_target_percent": 30,
+    "replaceable_harnesses_preferred": true
+  },
+  "main_cabinet_cable_routes": {
+    "left_wall_low_voltage_raceway": {
+      "class": "C/D",
+      "nominal_internal_envelope_mm": [35, 25],
+      "runs": "front service controls to rear electronics bay",
+      "supports": "CNC-located P-clips or removable slotted cable-raceway brackets at <=250 mm spacing"
+    },
+    "right_wall_power_raceway": {
+      "class": "B",
+      "nominal_internal_envelope_mm": [45, 30],
+      "runs": "DC distribution to flipper/slings/bumper toys and rear/toy bay",
+      "supports": "CNC-located P-clips or removable raceway brackets at <=250 mm spacing"
+    },
+    "central_display_service_route": {
+      "class": "E",
+      "nominal_passage_mm": [60, 35],
+      "runs": "playfield display HDMI/DP and power service loop",
+      "rule": "kept clear of gas struts, safety prop and hinge motion"
+    },
+    "mains_route": {
+      "class": "A",
+      "runs": "rear mains enclosure to protected internal distribution only",
+      "rule": "separate enclosed/routed path away from signal/audio"
+    }
+  },
+  "backbox_passports": {
+    "primary_fold_harness_passage": {
+      "shape": "rounded rectangle",
+      "minimum_clear_opening_mm": [90, 50],
+      "location": "backbox floor / cabinet rear shelf near centerline, positioned outside hinge pinch zones",
+      "edge_radius_mm": 8.0,
+      "full_edge_grommet_required": true,
+      "removable_split_gland_or_brush_insert_preferred": true,
+      "minimum_free_area_after_installed_harness_percent": 35,
+      "service_loop_mm": 300.0,
+      "minimum_dynamic_bend_radius_mm": 50.0,
+      "support_before_passage_mm": 100.0,
+      "support_after_passage_mm": 100.0
+    },
+    "secondary_reserved_passage": {
+      "required": true,
+      "minimum_clear_opening_mm": [60, 40],
+      "purpose": "future topper/toy/high-current harness or replacement-standard expansion",
+      "normally_blank_with_removable_cover": true
+    }
+  },
+  "toy_zones": {
+    "front_left_right": [
+      "flipper contactors/solenoids",
+      "slingshot contactors"
+    ],
+    "mid_cabinet": [
+      "bumper contactors/solenoids",
+      "shaker motor",
+      "gear motor"
+    ],
+    "rear_main_cabinet": [
+      "knocker if cabinet-mounted",
+      "chimes/bells if cabinet-mounted",
+      "siren/mechanical effect if cabinet-mounted",
+      "wind/blower source where ducted forward"
+    ],
+    "backbox": [
+      "flashers/strobes",
+      "beacon/siren light effects",
+      "addressable LED matrix/strips",
+      "optional knocker/bell/chime module",
+      "backglass display",
+      "speakers",
+      "ventilation fans"
+    ],
+    "topper_reserved": [
+      "future beacon/strobe/siren/topper lighting",
+      "future animated topper motor"
+    ]
+  },
+  "toy_harness_policy": {
+    "all_inductive_toys": "fused branch plus appropriate flyback/suppression at or near load/driver according to final controller design",
+    "high_current_toys": "dedicated branch conductors sized to measured load and protected at source",
+    "do_not_daisy_chain_high_current_toys_through_small_connectors": true,
+    "quick_disconnects": "locking polarized connectors with documented current rating; family selected at BOM stage",
+    "spare_outputs_and_spare_conductors_required": true,
+    "service_disconnect_between_main_cabinet_and_backbox": "one or more keyed multipin connectors accessible with backbox upright, while normal folding remains possible without unplugging"
+  },
+  "supports_and_strain_relief": {
+    "support_spacing_fixed_harness_max_mm": 250.0,
+    "support_spacing_near_moving_harness_max_mm": 100.0,
+    "preferred_supports": [
+      "rubber-lined P-clamps",
+      "screw-mounted reusable cable clips",
+      "removable slotted raceways",
+      "braided sleeve for moving bundles",
+      "edge grommets on every wood/metal passage"
+    ],
+    "avoid": [
+      "adhesive-only cable tie bases for primary support",
+      "sharp plywood edges contacting wire insulation",
+      "unsupported heavy connectors",
+      "zip ties directly on hinge pivots or gas-strut hardware"
+    ],
+    "cnc_located_mounting_holes_required": true
+  },
+  "planned_toy_inventory_for_space_and_routes": [
+    "10 impact/contactors for flippers/slings/bumpers class",
+    "shaker motor",
+    "gear motor",
+    "knocker",
+    "3-5 chime/bell channels reserved",
+    "fan/blower wind effect",
+    "strobe pair",
+    "5 RGB flasher positions reserved",
+    "rotating beacon / siren-light style effect",
+    "addressable side/backbox/undercab LEDs",
+    "RGB illuminated cabinet buttons",
+    "future topper power/data reserve"
+  ]
+}
