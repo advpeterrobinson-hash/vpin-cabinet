@@ -1,0 +1,128 @@
+{
+  "status": "engineering-provisional",
+  "manufacturing_ready": false,
+  "body_outer_width_mm": 580.0,
+  "rear_panel_local_origin": "lower-left as viewed from rear",
+  "design_language": {
+    "theme": "vintage hi-fi / laboratory equipment",
+    "fascia_material": "CNC-cut plywood or hardwood-faced plywood",
+    "finish": "dark satin black or very dark brown",
+    "legend_method": "shallow CNC engraving with white paint fill",
+    "text_case": "uppercase",
+    "text_as_curves_in_release_files": true,
+    "nominal_engraving_depth_mm": 0.6,
+    "nominal_min_stroke_mm": 0.6,
+    "preferred_v_bit_deg": 60,
+    "fallback_process": "1 mm end-mill engraving or laser engraving when the CNC shop cannot V-engrave"
+  },
+  "rear_power_fascia": {
+    "outer_width_mm": 170.0,
+    "outer_height_mm": 120.0,
+    "rear_x_mm": 35.0,
+    "rear_z_mm": 40.0,
+    "fascia_thickness_mm": 9.0,
+    "cabinet_window_width_mm": 150.0,
+    "cabinet_window_height_mm": 100.0,
+    "internal_mains_enclosure_required": true,
+    "functions": [
+      "country-specific grounded mains inlet or captive-cord module",
+      "double-pole master disconnect / breaker as specified in electrical design"
+    ],
+    "engraved_legends": [
+      "AC MAINS",
+      "MASTER DISCONNECT"
+    ],
+    "note": "Decorative wood fascia is not the electrical safety enclosure. Mains terminals remain inside a separate enclosed compartment."
+  },
+  "rear_service_fascia": {
+    "outer_width_mm": 255.0,
+    "outer_height_mm": 120.0,
+    "rear_x_mm": 290.0,
+    "rear_z_mm": 40.0,
+    "fascia_thickness_mm": 9.0,
+    "cabinet_window_width_mm": 235.0,
+    "cabinet_window_height_mm": 100.0,
+    "connector_carrier_material": "3 mm aluminum, acrylic, or equivalent replaceable thin carrier",
+    "connector_carrier_thickness_mm": 3.0,
+    "ports": [
+      {
+        "id": "network",
+        "label": "NETWORK",
+        "function": "RJ45 Ethernet service/network connection",
+        "external": true
+      },
+      {
+        "id": "service_display",
+        "label": "SERVICE DISPLAY",
+        "function": "HDMI diagnostic video output from PC/GPU",
+        "external": true
+      },
+      {
+        "id": "usb_a_service",
+        "label": "USB SERVICE",
+        "function": "USB-A service port",
+        "external": true
+      },
+      {
+        "id": "usb_c_service",
+        "label": "USB-C",
+        "function": "USB-C service/data port",
+        "external": true
+      },
+      {
+        "id": "reserve",
+        "label": "RESERVE",
+        "function": "blank standardized position for future interface",
+        "external": true
+      }
+    ],
+    "standardization_goal": "Use a replaceable thin connector carrier and standardized panel-mount footprints where practical so future ports do not require cabinet recutting."
+  },
+  "rear_zone_rules": {
+    "minimum_clear_distance_between_power_and_signal_fascias_mm": 75.0,
+    "mains_and_signal_internal_routing_separated": true,
+    "service_fascia_replaceable_without_removing_rear_panel": true,
+    "fasteners": "four corner machine screws into threaded inserts or captive nuts; final size TBD"
+  },
+  "coin_door_service_panel": {
+    "target_width_mm": 210.0,
+    "target_height_mm": 90.0,
+    "location": "inside coin door, accessible from front without raising playfield",
+    "ports_controls": [
+      "USB-A x2",
+      "USB-C x1",
+      "3.5 mm AUX IN",
+      "DOF / mechanical-feedback SERVICE DISABLE",
+      "PC POWER momentary",
+      "PC RESET momentary"
+    ],
+    "engraved_header": "CABINET SERVICE",
+    "visible_during_normal_play": false
+  },
+  "underfront_control_panel": {
+    "target_width_mm": 220.0,
+    "target_height_mm": 55.0,
+    "location": "underside of front edge / lockdown-bar area, hidden from standing player view",
+    "controls": [
+      "hardware MASTER VOLUME rotary control",
+      "three-position OFF / AUDIO / PINBALL mode selector",
+      "BLUETOOTH PAIR momentary control",
+      "optional USB-C CHARGE position"
+    ],
+    "engraving": "white-filled legends and simple radial volume tick marks",
+    "visible_during_normal_play": false
+  },
+  "internal_display_connections": {
+    "playfield": [
+      "video cable service loop",
+      "mains/power service loop",
+      "optional USB/control lead"
+    ],
+    "backbox": [
+      "video cable",
+      "power",
+      "audio/USB/lighting harness as required"
+    ],
+    "rule": "Display cables must remain accessible when the relevant service assembly is opened; do not bury connectors behind permanent structure."
+  }
+}
