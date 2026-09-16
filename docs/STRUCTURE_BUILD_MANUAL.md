@@ -16,7 +16,7 @@ This manual covers the **structure-ready phase** only: woodworking, backbox, leg
 
 ## 1. Part-identification rule
 
-Before assembly, lay out every CNC part with its engraved ID facing upward and reconcile it against `bom/STRUCTURE_BOM.csv` and `docs/PART_LABELING.md`.
+Before assembly, lay out every CNC/fabricated part with its engraved ID facing upward and reconcile it against `bom/STRUCTURE_BOM.csv`, `bom/STRUCTURE_PARTS.csv` and `docs/PART_LABELING.md`.
 
 Do not assemble any unlabeled or ambiguous CNC part until its identity is resolved.
 
@@ -25,13 +25,14 @@ Do not assemble any unlabeled or ambiguous CNC part until its identity is resolv
 1. Measure plywood thickness at several points on each sheet with calipers.
 2. Record the measured values in the as-built log.
 3. Reject badly warped sheets, delaminated edges and sheets with large visible internal voids in critical structural areas.
-4. Have the CNC shop cut the project tolerance coupon before the production sheets.
-5. Test the actual dado/tab/insert fits.
-6. Update production clearances if required before cutting the cabinet.
+4. Have the CNC shop cut `CNC-COUPON-001-R1` before the production sheets.
+5. Test actual dado/tab/insert/engraving/tool-radius fits.
+6. Confirm the provider's cutter compensation and internal-radius/dogbone conventions.
+7. Update production clearances before cutting the cabinet.
 
 Nominal 18 mm is a design label; **measured sheet thickness controls the final toolpaths**.
 
-## 3. Main cabinet dry fit
+## 3. Main cabinet dry fit — v0.20
 
 Primary parts:
 
@@ -45,41 +46,67 @@ Primary parts:
 - `CAB-XMEM-012-R1`
 - `CAB-REAR-SHELF-001-R1`
 
+Current nominal captured-joinery packaging uses a **6 mm capture depth**. At nominal 18 mm stock this leaves 12 mm of material behind the side-wall pockets. The nominal production-blank packaging is:
+
+- front/rear captured width: **576 mm**;
+- bottom captured blank: **576 x 1284.1 mm**;
+- bottom panel bottom elevation: **18 mm**;
+- low crossmembers: nominal **576 mm captured width x 80 mm high**, at Y 260 / 650 / 1040 mm.
+
+These are engineering values, not final toolpaths. Actual groove width/tab values follow the measured plywood and tolerance coupon.
+
 Procedure:
 
-1. Dry-fit the bottom into both side dados.
+1. Dry-fit the bottom into the four-edge capture geometry.
 2. Add front and rear panels without glue.
 3. Install the three low crossmembers.
 4. Install the reinforced rear shelf.
-5. Check that all self-locating joints seat fully without hammering hard.
-6. Measure both cabinet diagonals; they should match within the final manual tolerance.
-7. Confirm **600 mm external width**, nominal **564 mm full-thickness inner width**, and the current side-profile dimensions.
-8. Confirm that the PC drawer, playfield cradle, service-I/O, gas-strut, safety-stay and toy keepout envelopes are unobstructed.
-9. Disassemble for finishing/joint preparation if the selected finish requires it.
+5. Check that all self-locating joints seat fully without hard hammering.
+6. Measure both cabinet diagonals; they should match within the final release tolerance.
+7. Confirm **600 mm external width**, nominal **564 mm full-thickness inner width**, and the current WPC-inspired side profile.
+8. Confirm the PC drawer, playfield cradle, service-I/O, gas-strut, safety-stay and toy keepout envelopes are unobstructed.
+9. Confirm low crossmembers remain below the SSF exciter-height zones.
+10. Disassemble for finishing/joint preparation if the selected finish requires it.
 
 No permanent glue-up occurs until the dry-fit inspection passes.
 
-## 4. Leg-corner reinforcement
+## 4. Leg-corner reinforcement — v0.20
 
-Parts:
+Each corner uses two local plywood reinforcement parts plus the selected steel leg bracket/backing:
 
-- `CAB-LEG-DBLR-001FL-R1`
-- `CAB-LEG-DBLR-002FR-R1`
-- `CAB-LEG-DBLR-003RL-R1`
-- `CAB-LEG-DBLR-004RR-R1`
-- four steel internal leg brackets/backing plates
+Front-left:
+- `CAB-LEG-SIDE-DBLR-FL-R1`
+- `CAB-LEG-END-DBLR-FL-R1`
+
+Front-right:
+- `CAB-LEG-SIDE-DBLR-FR-R1`
+- `CAB-LEG-END-DBLR-FR-R1`
+
+Rear-left:
+- `CAB-LEG-SIDE-DBLR-RL-R1`
+- `CAB-LEG-END-DBLR-RL-R1`
+
+Rear-right:
+- `CAB-LEG-SIDE-DBLR-RR-R1`
+- `CAB-LEG-END-DBLR-RR-R1`
+
+Nominal v0.20 packaging:
+
+- sidewall doubler: about **220 x 240 x 18 mm**;
+- front/rear end-panel doubler: about **160 x 240 x 18 mm**;
+- local structural wood target: approximately **36 mm** before the steel bracket/backing.
 
 Each leg load is transferred through:
 
-`leg -> external bolts -> steel internal bracket/backing -> ~36 mm local plywood corner -> cabinet shell/crossmembers`
+`leg -> through-bolts -> steel internal bracket/backing -> doubled plywood corner -> cabinet shell/crossmembers`
 
 The primary leg bolts are through-bolts; they are not wood screws into a single 18 mm panel.
 
-Verify all four leg-hole patterns against the **actual selected leg/bracket hardware** before CNC production.
+The exact leg bracket/bolt pattern remains **blocked from CNC** until the actual legs and bracket set are selected and measured. Retractable-wheel keepout volume is reserved at each corner; playing load must remain on the levelers.
 
 ## 5. Main cabinet glue-up
 
-After dry fit and leg-pattern validation:
+After dry fit and the production joinery values are validated:
 
 1. Protect threaded inserts and machined surfaces from glue.
 2. Apply appropriate wood glue to structural joints according to the chosen plywood/finish system.
@@ -111,7 +138,7 @@ Check:
 - common centerline marked;
 - rear edge datum marked;
 - primary and reserve cable passports align with the main rear shelf;
-- lock-bolt axes align from the shared centerline, not from mismatched side edges;
+- lock-bolt axes align from the shared centerline;
 - 120 mm fan openings and filters remain clear of monitor rails;
 - service-door aperture retains fixed structure around all four sides.
 
@@ -172,9 +199,9 @@ Use removable VESA/tray adapter plates. No permanent wood panel should contain m
 
 The backglass monitor should be replaceable through the front; routine cable/fan/LED/toy service should be possible through the keyed rear door.
 
-## 10. Main playfield mechanics — v0.18 baseline
+## 10. Main playfield mechanics — v0.18/v0.19 baseline
 
-The active mechanical package is `PlayfieldMechanicsV18`. Historical LG-specific service groups remain only for traceability.
+The active moving package is `PlayfieldMechanicsV18`; cabinet-side fixed support/anchor load paths are packaged by `PlayfieldFixedAnchorsV19`. Historical LG-specific groups remain only for traceability.
 
 Install/prepare:
 
@@ -185,10 +212,11 @@ Install/prepare:
 - replaceable model-specific VESA carrier;
 - two 140 x 80 x 6 mm steel pivot cheek plates;
 - two 15 mm short pivot journals;
-- two UCFL202 15 mm flange bearings with 3 mm cabinet-side steel backing plates;
+- two UCFL202 15 mm flange bearings with cabinet-side steel backing plates;
 - dual gas struts as lift assistance only;
 - **two independent positive mechanical safety stays**;
-- two structural closed-position landing pads;
+- fixed sidewall anchor doublers/steel captive plates for stays/struts;
+- two structural closed-position landing supports with cabinet-side load paths;
 - two positive closed-position latch/strike assemblies;
 - moving power/video/control harness service loop with strain relief.
 
@@ -202,18 +230,9 @@ The permanent cradle/cabinet is **not tied to one TV model**. The service envelo
 
 The 600 mm body provides **564 mm between full-thickness nominal 18 mm sidewalls**, so the normal 560 mm target plus 2 mm clearance each side fits with **no sidewall pockets/notches**.
 
-The preliminary moving-mass packaging value is 16.5 kg: 12 kg display envelope + 4.5 kg cradle allowance. This is not a final structural certification or gas-spring specification.
-
 ### 10.1 Pivot hardware gate
 
-Do not machine the cabinet-side UCFL202 bolt holes from catalogue dimensions. Purchase the actual bearing pair first, then measure:
-
-- mounting-hole centers;
-- mounting-hole diameter;
-- housing width/height;
-- insert-bearing width;
-- actual bore fit;
-- set-screw locations.
+Do not machine cabinet-side UCFL202 bolt holes from catalogue dimensions. Purchase the actual bearing pair first and measure the physical housing/bore/hole pattern.
 
 Set screws alone are not accepted as axial retention. Use a positive journal-end retention feature in the final design.
 
@@ -221,19 +240,11 @@ Set screws alone are not accepted as axial retention. Use a positive journal-end
 
 Do **not** buy final gas struts yet. The current 250–400 N/strut range exists only to reserve geometry and sourcing options.
 
-Final force and both attachment points require:
-
-1. exact display;
-2. finished cradle/VESA adapter mass;
-3. measured moving center of gravity;
-4. final hinge axis;
-5. physical opening-force testing.
+Final force and both attachment points require the exact display, finished cradle mass, measured moving center of gravity, final hinge axis and physical opening-force testing.
 
 ### 10.3 Safety stays
 
 Both stays must positively engage before a person works beneath the raised playfield. Friction-only lid stays are prohibited as the maintenance safety device.
-
-A service proof test must demonstrate that the raised assembly remains supported with both gas springs assumed failed.
 
 ### 10.4 Closed-position support
 
@@ -241,49 +252,73 @@ The playfield does not hang on the hinge/gas struts during normal play. It lands
 
 ### 10.5 Moving harness
 
-Reserve at least:
-
-- 300 mm service-loop length;
-- 50 mm minimum dynamic bend radius;
-- fixed and moving strain-relief/support within 100 mm of the moving zone.
-
-The harness must remain clear of journals, bearing housings, gas struts and safety-stay sweep zones.
+Reserve at least 300 mm service-loop length, R50 dynamic bend radius and support/strain relief within 100 mm of both moving/fixed sides.
 
 ## 11. Legs, levelers and retractable mobility
 
-1. Install internal leg brackets/backing plates.
-2. Bolt on all four real pinball legs.
+1. Install the actual measured steel leg brackets/backing plates.
+2. Through-bolt all four real pinball legs through the reinforced corner system.
 3. Install levelers.
 4. Install the retractable/lift wheel assemblies.
 5. Confirm playing load transfers to the levelers, not the casters.
 6. Verify cabinet stability during simulated nudge loads before displays/electronics are added.
 
-## 12. Lockdown bar, siderails and glass
+## 12. Lockdown bar, siderails and glass — v0.20
 
-The 600 mm cabinet uses custom or width-adapted metalwork where standard pinball parts do not fit.
+The 600 mm cabinet intentionally permits custom/local-fabricated metalwork.
 
-Install sequence:
+Current engineering packaging:
 
-1. siderail/glass channels;
-2. lockdown receiver;
-3. custom 600 mm-system lockdown bar;
-4. test glass strip/mockup if used;
-5. final tempered playfield glass only after fit is verified.
+- custom lockdown bar outer width: **600 mm**;
+- siderail top-flange envelope: about **1120 mm along the slope x 32 mm**, nominal 2 mm sheet envelope;
+- playfield glass target: **575 x 1100 x 5 mm tempered glass**, where 1100 mm is the physical cut length along the cabinet slope;
+- nominal side cover around the glass target: **12.5 mm per side**.
 
-The release drawings will provide separate local-fabrication DXF/PDF files for custom metalwork.
+The glass is **not purchase-ready**. Install/mock up in this order:
 
-## 13. PC drawer
+1. temporary/mock siderail or metal-shop sample profile;
+2. lockdown receiver/lever concept;
+3. custom lockdown bar sample or fabrication prototype;
+4. inexpensive test strip/template for glass width/length if useful;
+5. verify front/rear edge capture and removal path;
+6. only then order the final tempered glass.
 
-Install reinforced slide subrails tied to structural crossmembers.
+Final metal DXF/PDF drawings and glass dimensions are frozen from the proof-fitted assembly, not from catalogue assumptions.
 
-Install heavy-duty full-extension locking slides and `PC-TRAY-001-R1`.
+## 13. PC drawer — v0.20 internal service architecture
 
-Before electronics:
+The PC drawer does **not** require a large opening cut through a cabinet wall.
 
-- proof test with at least the documented 25 kg verification payload;
-- confirm lock-open and lock-closed behavior;
-- confirm no contact with the bottom panel, cable routes or future toys;
-- verify the drawer can be removed/reinstalled with ordinary hand tools.
+Parts:
+
+- `PC-SUBRAIL-001L-R1`
+- `PC-SUBRAIL-001R-R1`
+- `PC-TRAY-001-R1`
+- selected 500 mm-class heavy-duty full-extension locking slide pair
+
+Current packaging:
+
+- tray: **470 x 400 x 18 mm**;
+- stowed Y: approximately **690 mm**;
+- forward service Y: approximately **220 mm**;
+- internal service travel: **470 mm**;
+- tray Z: approximately **165 mm**;
+- service height envelope: **230 mm**;
+- provisional slide thickness allowance: **12 mm each side**;
+- preferred slide pair rating: **>=45 kg**;
+- physical proof-test payload: **25 kg**.
+
+Service procedure concept:
+
+1. isolate cabinet power;
+2. remove lockdown/glass as required and raise the playfield;
+3. engage both positive playfield safety stays;
+4. unlock the PC drawer;
+5. slide the tray forward inside the cabinet;
+6. service the PC from above;
+7. for complete removal, release the slide disconnects and lift the tray/chassis upward through the open top.
+
+The PC support subrails attach to low structure/crossmembers and remain inward of the SSF sidewall skins. Exact slide mounting holes remain blocked until the actual slide pair is measured.
 
 ## 14. Playfield display selection and installation
 
@@ -313,20 +348,21 @@ After the exact display is bought:
 
 ## 15. Structure-ready inspection
 
-Do not start the electronics shopping/installation phase until all items below pass:
+Do not start the coordinated electronics/DOF purchase until all items below pass:
 
 - cabinet square and structurally complete;
+- CNC coupon/joinery values recorded;
 - 600 mm body / 780 mm backbox alignment verified;
 - leg corners and backbox shelf reinforced;
-- legs/levelers/mobility operational;
-- lockdown bar, siderails and glass fit;
+- actual legs/levelers/mobility operational;
+- lockdown bar, siderails and final tempered glass fit;
 - backbox hinges and upright lock bolts operational;
 - keyed rear service door operational;
 - cable passports and raceway mounting holes present;
 - playfield cradle safe with both independent positive safety stays;
 - closed-position pads/latches positively restrain the cradle;
 - backglass/DMD mounts adjustable and positively locked;
-- PC drawer proof-tested;
+- PC drawer slides measured/installed and tray proof-tested at 25 kg;
 - selected playfield display fits the service envelope;
 - final display adapter and gas-strut specification validated against the actual display;
 - all displays remain safe during service/transport motion;
