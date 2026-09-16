@@ -25,6 +25,14 @@ The display itself is never a structural member. The load path is:
 
 The Samsung 43-inch QN90F/QN90D chassis class and LG 42-inch C-series remain fit references only.
 
+## Closed-position visual gate refinement
+
+The first FreeCAD closed-position review exposed an important packaging issue that a scalar setback check did not show clearly: with the generic 55 mm-thick display envelope placed only 10 mm behind the cabinet front datum, the sloped envelope projected too far forward toward/through the 18 mm front panel.
+
+The engineering packaging datum is therefore revised to **45 mm nominal front setback**. Because the display thickness projects forward by `depth × sin(cabinet slope)`, the actual minimum Y clearance is checked against the physical front panel, not just against the nominal setback. The current pure-Python and FreeCAD verifiers require at least **15 mm clear space behind the front panel** for the worst-case generic envelope.
+
+This is still not the final lockdown-bar/apron dimension. Final front hardware, receiver and glass geometry may require additional space before CNC release.
+
 ## CNC plywood cradle
 
 The primary cradle is plywood rather than a welded metal frame.
@@ -78,9 +86,9 @@ Gas springs are never the maintenance safety device.
 
 The machine requires **two independent captive steel safety stays**, one left and one right.
 
-The v0.18 model shows the open-position stay envelopes. Final stay hardware must positively engage; friction-only lid stays are not accepted.
+The first open-position visual review showed the initial packaging stays were too close to vertical to provide an intuitively strong triangular brace. The fixed stay anchor is therefore moved farther forward in the cabinet, adjacent to the middle structural region, while keeping the moving mount on the cradle. The revised packaging target keeps the open stay approximately **60–80 degrees from the cabinet Y direction**; current geometry is about 69 degrees.
 
-A person must be able to work under the raised playfield with both gas springs failed without the cradle falling.
+This is still an envelope, not a stay fabrication drawing. Final hardware must positively engage; friction-only lid stays are not accepted. A person must be able to work under the raised playfield with both gas springs failed without the cradle falling.
 
 ## Closed-position support
 
@@ -136,7 +144,8 @@ Do not issue production CNC/metal files for the playfield mechanics until all of
 - gas-strut force and mounting geometry solved;
 - safety-stay hardware selected and proof-tested;
 - closed-position latch/support hardware selected and proof-tested;
-- full FreeCAD collision sweep passed;
+- lockdown-bar/receiver/front-clearance geometry finalized;
+- full FreeCAD collision sweep passed for both display and complete moving cradle;
 - physical load/proof tests completed.
 
 ## Visual review target
@@ -145,4 +154,4 @@ After running `make build-playfield-mechanics-v18`, inspect the FreeCAD group:
 
 `PLAYFIELD MECHANICS v0.18 - GENERIC 43in / PLYWOOD CRADLE / DUAL SAFETY`
 
-The old LG-specific playfield-service groups should be hidden by the builder so the integrated v0.18 model is visually unambiguous.
+Review closed and service/open states separately. The old LG-specific playfield-service groups should be hidden by the builder so the integrated v0.18 model is visually unambiguous.
