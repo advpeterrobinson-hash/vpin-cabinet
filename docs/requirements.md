@@ -75,17 +75,21 @@ Requirements:
 ## PC
 
 - Open ATX test-bench/mining-style metal chassis
-- Approximate reference chassis size: 440 x 265 x 128 mm
-- Mounted to a **removable internal lift-out sled**, not a front-travel drawer
-- Current sled target: approximately 480 x 320 mm
-- Normal service occurs from above with the playfield raised
-- The complete PC sled releases from compact locator/retainer points and lifts vertically out of the cabinet
-- No front cabinet service opening is required
-- No long full-extension drawer slides are required
-- Quick-disconnect service harness required
-- GPU secondary support
+- Owner reference chassis size: approximately **440 x 265 x 128 mm**
+- The PC case bolts **directly to one flat sliding shelf**
+- No drawer box
+- No second removable sled between case and shelf
+- No front cabinet service opening
+- Current shelf target: nominal **538.6 x 300 x 18 mm**, with final width derived from the measured physical slide thickness
+- Two simple **300 mm-class full-extension side-mount ball-bearing slides** mount directly between cabinet sidewalls and shelf edges
+- Normal service occurs from above with the playfield raised and positively secured
+- Shelf travels approximately **300 mm toward the cabinet center**, remaining completely inside the cabinet
+- One simple positive stowed retainer prevents movement/rattle during nudge and DOF operation
+- Actual slide holes and open-case mounting holes remain blocked until the physical parts are measured
+- Routine service harnesses require enough slack for full slide travel
+- Complete shelf/case removal may use the slide disconnect feature and lift through the raised playfield opening
 - PC mechanically isolated from force-feedback structure
-- Sled proof-test target: 25 kg
+- Shelf proof-test target: 20 kg; slide-pair rating target >=30 kg
 
 ## Playfield glass / siderails / lockdown
 
@@ -187,6 +191,6 @@ Before cabinet production:
 - confirm Cutter CNC tooling/layer/radius conventions
 - measure actual hardware that controls hole patterns
 - complete dry-fit and collision checks
-- proof-test classic leg/bracket corners and the lift-out PC sled
+- proof-test classic leg/bracket corners and the simple PC sliding shelf
 
 No current engineering branch is approved for production CNC yet.
