@@ -17,7 +17,7 @@ Parametric CNC-ready virtual pinball cabinet inspired by Williams WPC proportion
 - **two independent positive mechanical safety stays** plus two positive closed-position latches/supports
 - classic pinball legs and levelers with compact steel-backed corner hardware
 - **external removable PinSkates-style mobility**; no integrated/retractable cabinet wheels
-- **simple internal PC sliding shelf**: one flat shelf + two side-mount slides; open PC case bolts directly to the shelf
+- **dedicated main-cabinet rear PC backdoor** with a small rearward pull-out shelf; open PC case bolts directly to the shelf
 - custom/local-fabricated 600 mm lockdown bar, siderails and metric tempered playfield glass permitted
 - full DOF / mechanical force feedback and SSF planned after structure completion
 - modular electronics and feedback mounting with a deliberately open central service volume
@@ -28,19 +28,13 @@ Parametric CNC-ready virtual pinball cabinet inspired by Williams WPC proportion
 
 ## Structure-first procurement
 
-Woodworking, displays, classic pinball legs, folding backbox hardware, lockdown/siderails, playfield mechanics and the PC slide must reach a **STRUCTURE READY** gate before the coordinated electronics/DOF purchase begins.
+Woodworking, displays, classic pinball legs, folding backbox hardware, lockdown/siderails, playfield mechanics and the rear PC service system must reach a **STRUCTURE READY** gate before the coordinated electronics/DOF purchase begins.
 
 The exact playfield display is selected late in the structure phase from the models actually available in Brazil, rather than locking the permanent cabinet to one LG/Samsung model.
 
 See:
 
 - `docs/BUILD_PHASES.md`
-- `bom/STRUCTURE_BOM.csv`
-- `bom/STRUCTURE_PARTS.csv`
-- `bom/SERVICE_V21_BOM.csv`
-- `bom/SERVICE_V21_PARTS.csv`
-- `bom/PC_SLIDE_V22_BOM.csv`
-- `bom/PC_SLIDE_V22_PARTS.csv`
 - `docs/STRUCTURE_BUILD_MANUAL.md`
 - `docs/PART_LABELING.md`
 - `docs/BACKBOX_HINGE_SHOPPING.md`
@@ -49,111 +43,59 @@ See:
 - `docs/PLAYFIELD_MECHANICS_V18.md`
 - `docs/CABINET_STRUCTURE_V20.md`
 - `docs/CABINET_SERVICE_V21.md`
-- `docs/PC_SLIDE_V22.md`
-
-## Longevity philosophy
-
-The wooden cabinet and structural metalwork should outlive several generations of televisions, PC hardware, control boards, amplifiers and power supplies. Permanent structure is therefore designed around service envelopes and modular interfaces rather than the exact dimensions of the first electronics installed.
-
-Current examples:
-
-- **600 mm body + nominal 18 mm sides = 564 mm full-thickness internal width**;
-- planned **560 mm physical display width + 2 mm clearance each side = 564 mm**, so the normal 42/43-inch envelope fits without routing the side panels thinner;
-- longitudinal playfield target is **970 mm chassis / 980 mm clear service bay**;
-- exact playfield VESA pattern lives on a replaceable adapter plate;
-- playfield pivot/wear points use replaceable local steel interfaces;
-- 780 mm backbox provides a 740 x 450 x 100 mm display service envelope;
-- backglass and DMD use independent adjustable rail carriages and replaceable VESA/tray adapters;
-- leg, lockdown, slide and bearing hole patterns remain blocked until the real hardware is measured;
-- the PC uses a simple internal sliding shelf rather than a front cabinet opening, drawer box or second removable sled;
-- moving the complete cabinet uses removable external skates rather than built-in casters.
+- `docs/PC_SLIDE_V22.md` — historical/superseded PC-service direction
+- `docs/CABINET_REAR_PC_SERVICE_V23.md` — active PC-service direction
+- `bom/REAR_PC_SERVICE_V23_BOM.csv`
+- `bom/REAR_PC_SERVICE_V23_PARTS.csv`
 
 ## Current selected geometry
 
 - Williams WPC standard-body reference outer width: **558.80 mm**;
 - selected main cabinet outer width: **600.00 mm**;
-- increase over WPC reference: **41.20 mm total / 20.60 mm each side**;
 - nominal inside width at 18 mm plywood: **564.00 mm**;
-- normal playfield target fits with **zero side pocket**;
-- maximum future routed cross-cavity at 8 mm remaining side skin: **584.00 mm**;
 - cabinet side length: **1308.10 mm**;
 - front outside height: **400.05 mm**;
 - rear outside height: **596.90 mm**;
 - backbox target outer width: **780.00 mm**, giving **90 mm overhang per side**;
 - playfield display physical target: **<=560 x 970 x 55 mm**, <=12 kg;
-- preliminary moving-mass packaging value: **16.5 kg**;
 - playfield display purchasing target: **4K, native >=120 Hz**, VRR/HDMI 2.1 preferred;
 - backglass service envelope: **740 x 450 x 100 mm**.
 
-Current fit references include LG 42-inch C-series geometry and the Samsung 43-inch QN90F/QN90D chassis class. These remain fit references, not purchase mandates.
+## PC service v0.23 — active direction
 
-## Playfield mechanics v0.18 + fixed anchors v0.19
+Routine PC maintenance is from the **rear of the pinball machine**, not through the playfield.
 
-The active playfield mechanical architecture includes:
+Current engineering package:
 
-- generic 560 x 970 x 55 mm display envelope;
-- CNC plywood cradle with three under-display crossmembers;
-- 36 mm rear pivot reinforcement and laminated rear beam;
-- replaceable VESA carrier;
-- 140 x 80 x 6 mm steel pivot cheek plates;
-- 15 mm short journals and UCFL202 bearing family;
-- two gas struts with force/mounts explicitly deferred;
-- two positive safety stays;
-- two closed structural supports and two positive latches;
-- fixed sidewall plywood/steel anchor zones for stays, struts, supports and latch receivers;
-- moving display harness service loop.
+- dedicated main-cabinet rear service opening: approximately **520 x 280 mm**;
+- gasketed rear service door: approximately **544 x 304 x 15 mm**;
+- compact reinforced aperture frame;
+- one small **460 x 285 x 18 mm** plywood PC shelf;
+- open-case fit reference **440 x 265 x 128 mm**;
+- open PC case bolts directly to that shelf;
+- two simple **300 mm-class telescopic/full-extension slides**;
+- shelf stows immediately behind the rear door and travels **300 mm rearward**, behind the machine, for service;
+- no drawer box, no second sled, no front PC opening;
+- routine RAM/SSD/GPU/cable service does **not** require raising the playfield;
+- >=450 mm protected rearward cable service loop;
+- exact slide/case/hinge/latch holes remain blocked until physical parts are measured.
 
-## Cabinet structure v0.20
-
-v0.20 remains the joinery/glass/SSF packaging base:
-
-- nominal 6 mm captured joinery packaging for front/rear/bottom/crossmembers;
-- nominal captured bottom blank **576 x 1284.1 mm** at 18 mm stock;
-- three low 80 mm-high structural crossmembers;
-- explicit sidewall SSF keepouts;
-- custom **575 x 1100 x 5 mm** tempered playfield-glass target;
-- custom/local-fabricated siderail and 600 mm lockdown-bar envelopes;
-- mandatory measured-stock CNC tolerance coupon.
-
-Its bulky plywood leg doublers, retractable-wheel keepouts and long forward PC drawer are superseded.
-
-## Cabinet service / mobility v0.21
-
-v0.21 retains the owner-approved mobility and leg direction:
-
-- **classic legs:** compact steel internal corner-bracket envelopes rather than oversized plywood corner blocks; exact holes remain gated by actual hardware measurement and proof testing;
-- **mobility:** removable external PinSkates-style assemblies; no integrated/retractable casters or cabinet wheel cutouts.
-
-The v0.21 lift-out PC sled is superseded by v0.22.
-
-## PC service v0.22
-
-The owner-directed PC architecture is intentionally simple:
-
-- one nominal **538.6 x 300 x 18 mm** flat shelf;
-- two simple **300 mm-class full-extension side-mount slides** directly between cabinet walls and shelf edges;
-- the approximately **440 x 265 x 128 mm open PC case bolts directly to the shelf**;
-- no drawer box;
-- no second removable sled;
-- no front cabinet exit;
-- approximately **300 mm internal service travel** from the rear half toward the cabinet center;
-- one simple positive stowed retainer;
-- final shelf width and all holes follow the measured physical slide/case hardware.
-
-Run locally with:
+Build locally with:
 
 ```bash
-make build-cabinet-pc-slide-v22
+make build-cabinet-rear-pc-v23
 freecad cad/master/vpin-master.FCStd
 ```
 
 Expected review group:
 
-`PC SERVICE v0.22 - SIMPLE SLIDING SHELF / OPEN CASE BOLTED DIRECT`
+`REAR PC SERVICE v0.23 - BACKDOOR / REARWARD PULL-OUT PC`
 
 ## Safety baseline
 
-The display and gas-strut loads are carried by an independent structural cradle. Gas struts are lift assistance only; both positive mechanical safety stays must be engaged before working under the raised playfield. Cabinet mains power must be isolated before manipulating the display harness, pivot, gas struts, stays, PC sliding shelf or removing the complete cradle. Reachable hazardous voltage is a blocking defect.
+The rear PC service door may expose PC low-voltage hardware, but **must never expose bare mains terminals**. Mains distribution remains in a separate touch-safe enclosure. Isolate cabinet power before RAM/GPU/SSD/harness service.
+
+The display and gas-strut loads are carried by an independent structural cradle. Gas struts are lift assistance only; both positive mechanical safety stays must be engaged before working under the raised playfield.
 
 ## Status
 
