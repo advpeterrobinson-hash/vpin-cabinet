@@ -1,0 +1,65 @@
+{
+  "status": "owner-directed-engineering-packaging",
+  "manufacturing_ready": false,
+  "depends_on": [
+    "config/cabinet_structure_v20.json",
+    "config/playfield_mechanics_v18.json"
+  ],
+  "mobility": {
+    "playing_support": "classic pinball legs + levelers",
+    "moving_method": "external removable PinSkates-style side skates",
+    "integrated_casters": false,
+    "retractable_wheels": false,
+    "cabinet_internal_wheel_keepouts_required": false,
+    "rule": "mobility hardware is temporary and external; remove skates before play so all playing load remains on the four classic pinball legs/levelers"
+  },
+  "leg_corners": {
+    "architecture": "classic compact steel internal corner brackets with through-bolted leg hardware",
+    "large_plywood_doublers": false,
+    "nominal_cabinet_wall_mm": 18.0,
+    "steel_bracket_material": "A36/SAE1020 or equivalent formed steel",
+    "steel_bracket_nominal_thickness_mm": 3.0,
+    "bracket_height_mm": 150.0,
+    "bracket_flange_each_wall_mm": 95.0,
+    "local_spreader_plate_thickness_mm": 3.0,
+    "local_spreader_plate_envelope_mm": [70.0, 120.0],
+    "exact_leg_hole_pattern": "BLOCKED until actual classic leg/bracket set is selected and measured",
+    "proof_test_required": true,
+    "fallback": "add compact local plywood backing only if physical bracket/bolt proof test shows unacceptable bearing/crush or joint movement",
+    "rule": "do not consume large cabinet interior volumes with 18+18 mm corner blocks unless testing proves they are necessary"
+  },
+  "pc_service": {
+    "architecture": "internal lift-out service sled accessed from above with playfield raised; no forward/front drawer travel",
+    "tray_width_x_mm": 480.0,
+    "tray_depth_y_mm": 320.0,
+    "tray_thickness_z_mm": 18.0,
+    "tray_x_mm": 60.0,
+    "tray_y_mm": 700.0,
+    "tray_z_mm": 90.0,
+    "lift_service_height_mm": 250.0,
+    "open_chassis_reference_mm": [440.0, 265.0, 128.0],
+    "retention": "four captive M6 or quarter-turn retainers on replaceable locator blocks; exact hardware TBD",
+    "hand_access_required": true,
+    "two_person_lift_not_required": true,
+    "proof_test_payload_kg": 25.0,
+    "quick_disconnect_harness_required": true,
+    "front_exit_required": false,
+    "drawer_slides_required": false,
+    "rule": "normal PC service occurs from the open playfield; the sled lifts vertically and can be fully removed without opening/cutting the cabinet front"
+  },
+  "internal_packaging": {
+    "reference_photo_takeaways": [
+      "keep the cabinet center visually and physically open rather than filling it with bulky fixed furniture",
+      "mount service electronics on removable boards/rails and localized wall brackets",
+      "reserve clear service aisles and cable routing instead of permanent broad shelves",
+      "keep PC, power and controller hardware removable from above",
+      "preserve SSF sidewall zones and future DOF mounting space"
+    ],
+    "electronics_deck_status": "DEFERRED to post-structure electronics phase; only mounting envelopes/rails may be reserved now"
+  },
+  "supersedes": {
+    "v20_leg_corner_doublers": true,
+    "v20_retractable_wheel_keepouts": true,
+    "v20_forward_pc_drawer": true
+  }
+}
