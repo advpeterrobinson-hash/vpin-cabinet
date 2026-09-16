@@ -4,7 +4,7 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build open-master build-current build-cabinet-rear-cpu-shelf-v24 generate-cnc-coupon audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build open-master build-current build-cabinet-rear-cpu-shelf-v24 repair-rear-cpu generate-cnc-coupon audit-reference status
 
 help:
 	@printf '%s\n' \
@@ -12,7 +12,8 @@ help:
 	  '' \
 	  '  make doctor              Check local tools/files' \
 	  '  make validate            Validate the CURRENT design only' \
-	  '  make build-current       Build and clean the current FreeCAD master' \
+	  '  make build-current       Build and present the current FreeCAD master' \
+	  '  make repair-rear-cpu     Rebuild ONLY the rear CPU subsystem, then verify it in the saved FCStd' \
 	  '  make open-master         Open the current FreeCAD master' \
 	  '  make generate-cnc-coupon Generate the nominal CNC fit coupon' \
 	  '  make status              Show concise Git state' \
@@ -82,6 +83,12 @@ build-current:
 # Low-level current CPU-shelf build retained for debugging only.
 build-cabinet-rear-cpu-shelf-v24:
 	bash tools/run_cabinet_rear_cpu_shelf_v24.sh
+
+# Focused recovery path: do not rebuild the cabinet stack. Re-add only the rear CPU
+# geometry to the existing master, then prove those objects were serialized.
+repair-rear-cpu:
+	$(FREECADCMD) tools/build_cabinet_rear_cpu_shelf_v24_entry.py
+	$(PYTHON) tools/verify_rear_cpu_saved_v25.py
 
 open-master:
 	$(FREECAD) $(MASTER)
