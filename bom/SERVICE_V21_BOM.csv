@@ -1,0 +1,8 @@
+bom_id,phase,system,part_id,item,qty,unit,procurement,source_region,status,geometry_required_before_cnc,notes
+BOM-V21-L01,2,LEG,LEG-SET-CLASSIC,Classic pinball legs,4,pcs,import-or-local,Brazil/US/EU,SELECT,yes,Retain classic pinball geometry; exact bolt pattern measured before CNC
+BOM-V21-L02,2,LEG,LEG-BRKT-COMPACT,Compact internal formed-steel leg corner brackets,4,pcs,import-or-local-fabrication,Brazil/US/EU,SELECT,yes,~3 mm steel packaging; replaces bulky v0.20 plywood corner doublers; exact holes from physical hardware
+BOM-V21-L03,2,LEG,LEG-SPREADER-SET,Compact 3 mm steel leg bolt spreader/backing plates,4,pcs,local-fabrication,Brazil,DESIGN,yes,Final size/hole pattern follows actual classic leg bracket set
+BOM-V21-M01,2,MOBILITY,PINSKATES-PAIR,External removable PinSkates-style mobility pair,1,pair,local-or-import,Brazil/US/EU,SELECT,no,Temporary external leg-mounted mobility only; removed for play; no cabinet casters or wheel cutouts
+BOM-V21-PC01,2,PC,PC-SLED-001,Lift-out PC service sled 480x320 class,1,pc,CNC,Brazil,DESIGN,yes,Accessed from above with playfield raised; no forward/front drawer travel
+BOM-V21-PC02,2,PC,PC-SLED-LOCATOR-SET,Compact PC sled locator/captive retainer set,4,sets,local,Brazil,RESEARCH,yes,M6 captive or quarter-turn family; exact hardware selected before CNC hole freeze
+BOM-V21-PC03,4,PC,PC-SLED-HARNESS,Quick-disconnect PC service harness/interface,1,set,local-or-import,Brazil/China,SELECT_LATER,no,Mechanical connector panel/envelope may be reserved before electronics; final electrical selection in electronics phase
