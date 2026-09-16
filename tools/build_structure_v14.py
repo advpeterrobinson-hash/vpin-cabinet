@@ -39,8 +39,9 @@ def add_shape(doc, group, name, label, shape, transparency=0, part_id=None):
     return obj
 
 
-def main() -> None:
-    if not os.path.exists(MASTER):
+def main(doc=None) -> None:
+    owns_document = doc is None
+    if owns_document and not os.path.exists(MASTER):
         raise RuntimeError(f"Missing master file: {MASTER}")
 
     cfg = load(CFG)
@@ -69,7 +70,8 @@ def main() -> None:
     bb_y = cab_len - bb_d
     bb_z = float(bb["floor_bottom_z_mm"])
 
-    doc = App.openDocument(MASTER)
+    if owns_document:
+        doc = App.openDocument(MASTER)
 
     old = doc.getObject("StructureV14")
     if old:
@@ -236,7 +238,8 @@ def main() -> None:
     group.Status = "ENGINEERING PACKAGING - NOT FOR CNC PRODUCTION"
 
     doc.recompute()
-    doc.save()
+    if owns_document:
+        doc.save()
 
     print("STRUCTURE v0.14 PACKAGING GENERATED")
     print("=" * 72)
@@ -248,7 +251,8 @@ def main() -> None:
     print("Exact hinge hole pattern TBD after physical hardware measurement")
     print("STATUS                   ENGINEERING PACKAGING - NOT FOR CNC PRODUCTION")
 
-    App.closeDocument(doc.Name)
+    if owns_document:
+        App.closeDocument(doc.Name)
 
 
 if __name__ == "__main__":

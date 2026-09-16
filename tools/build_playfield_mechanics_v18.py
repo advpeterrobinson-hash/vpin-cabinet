@@ -55,8 +55,9 @@ def cylinder_between(a: App.Vector, b: App.Vector, radius: float):
     return Part.makeCylinder(radius, vec.Length, a, vec)
 
 
-def main() -> None:
-    if not os.path.exists(MASTER):
+def main(doc=None) -> None:
+    owns_document = doc is None
+    if owns_document and not os.path.exists(MASTER):
         raise RuntimeError(f"Missing master file: {MASTER}")
 
     cfg = load(CFG)
@@ -118,7 +119,8 @@ def main() -> None:
     hinge_z = hinge_pt.z
     open_deg = float(hinge["relative_service_open_angle_deg"])
 
-    doc = App.openDocument(MASTER)
+    if owns_document:
+        doc = App.openDocument(MASTER)
     old = doc.getObject("PlayfieldMechanicsV18")
     if old:
         for child in list(old.Group):
@@ -383,7 +385,8 @@ def main() -> None:
     group.Status = "ENGINEERING PACKAGING - NOT FOR MANUFACTURING"
 
     doc.recompute()
-    doc.save()
+    if owns_document:
+        doc.save()
 
     print("PLAYFIELD MECHANICS v0.18 GENERATED")
     print("=" * 76)
@@ -398,7 +401,8 @@ def main() -> None:
     print("Bearing holes             BLOCKED UNTIL PHYSICAL UCFL202 IS MEASURED")
     print("STATUS                     ENGINEERING PACKAGING - NOT FOR MANUFACTURING")
 
-    App.closeDocument(doc.Name)
+    if owns_document:
+        App.closeDocument(doc.Name)
 
 
 if __name__ == "__main__":

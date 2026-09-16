@@ -19,7 +19,11 @@ def load(path: str) -> dict:
 
 
 def set_visibility(obj, visible: bool) -> None:
-    """Best-effort visibility change that is safe under headless FreeCADCmd."""
+    """Best-effort visibility change that is safe under headless FreeCADCmd.
+
+    In FreeCADCmd some document objects have no ViewObject at all. Geometry creation
+    and serialization must not depend on GUI-only view providers being present.
+    """
     if obj is None:
         return
     try:
@@ -51,7 +55,8 @@ def add_shape(doc, group, name, label, shape, transparency=0, part_id=None):
     return obj
 
 
-def main() -> None:
+def main(doc=None) -> None:
+    owns_document = doc is None
     cfg = load(CFG)
     v20 = load(V20)
     door = cfg["rear_service_door"]
@@ -59,10 +64,12 @@ def main() -> None:
     case = cfg["open_pc_case_reference"]
     cab = v20["cabinet"]
 
+    outer = float(cab["outer_width_mm"])
     length = float(cab["side_length_mm"])
     wood = float(cab["nominal_wood_mm"])
 
-    doc = App.openDocument(MASTER)
+    if owns_document:
+        doc = App.openDocument(MASTER)
     old = doc.getObject("CabinetRearCPUShelfV24")
     if old:
         for child in list(old.Group):
@@ -73,6 +80,8 @@ def main() -> None:
         doc.removeObject(old.Name)
         doc.recompute()
 
+    # v0.24 supersedes the wider v0.23 shelf/door visuals, but keeps all prior
+    # cabinet, classic-leg and PinSkates decisions.
     v23 = doc.getObject("CabinetRearPCServiceV23")
     set_visibility(v23, False)
 
@@ -80,23 +89,26 @@ def main() -> None:
     group.Label = "REAR CPU SERVICE - BACKDOOR / PULL-OUT SHELF (ACTIVE)"
 
     rear = doc.getObject("CapturedRearPanelV20")
-    if rear is None:
+    if rear is None and owns_document:
         raise RuntimeError("CapturedRearPanelV20 missing; build v0.20 base first")
     set_visibility(rear, False)
 
-    # Lower central service opening.  The low rear power/service fascias are kept
-    # below this opening in the compact rear utility strip.
+    # Narrower rear aperture preserves much more rear-panel structure than v0.23.
     ax = float(door["aperture_x_mm"])
     az = float(door["aperture_bottom_z_mm"])
     aw = float(door["raw_aperture_width_x_mm"])
     ah = float(door["raw_aperture_height_z_mm"])
     cut = Part.makeBox(aw, wood + 4.0, ah, App.Vector(ax, length - wood - 2.0, az))
-    rear_cut = rear.Shape.cut(cut)
+    if rear is not None:
+        rear_base = rear.Shape
+    else:
+        j = v20["cnc_joinery"]
+        rear_base = Part.makeBox(float(j["front_rear_blank_width_mm"]), wood, float(cab["rear_height_mm"]), App.Vector(wood-float(j["nominal_dado_depth_mm"]), length-wood, 0))
+    rear_cut = rear_base.cut(cut)
     add_shape(doc, group, "RearPanelWithCPUHatchV24", "CAB-REAR-001-R3 - NARROW REAR CPU HATCH", rear_cut, 5, "CAB-REAR-001-R3")
     add_shape(doc, group, "RearCPUHatchOpeningGhostV24", "REAR CPU CLEAR OPENING 340x240", cut, 88)
 
-    # Overlapping service door. Positive rotation about the left rear hinge moves
-    # the free edge toward +Y, i.e. OUTSIDE / behind the cabinet rather than inward.
+    # Simple overlapping rear service door, left hinged as viewed from behind.
     dw = float(door["door_panel_width_x_mm"])
     dh = float(door["door_panel_height_z_mm"])
     dt = float(door["door_panel_thickness_y_mm"])
@@ -105,9 +117,11 @@ def main() -> None:
     closed = Part.makeBox(dw, dt, dh, App.Vector(dx, length, dz))
     add_shape(doc, group, "RearCPUServiceDoorClosedV24", "CAB-PC-REAR-DOOR-002-R1 - CLOSED", closed, 20, "CAB-PC-REAR-DOOR-002-R1")
     opened = closed.copy()
-    opened.rotate(App.Vector(dx, length, dz), App.Vector(0, 0, 1), float(door["outward_open_angle_deg"]))
-    add_shape(doc, group, "RearCPUServiceDoorOpenGhostV24", "REAR CPU DOOR - OUTWARD OPEN GHOST", opened, 82)
+    opened.rotate(App.Vector(dx + dw, length + float(door["hinge_axis_y_offset_mm"]), dz), App.Vector(0, 0, 1), -float(door["outward_open_angle_deg"]))
+    add_shape(doc, group, "RearCPUServiceDoorOpenGhostV24", "REAR CPU DOOR - OPEN GHOST", opened, 82)
 
+    # Case-sized shelf: case rotated so its narrow 265 mm dimension is cross-cabinet
+    # and its 440 mm dimension runs fore-aft, matching a conventional rear CPU shelf.
     sw = float(pc["shelf_width_x_mm"])
     sd = float(pc["shelf_depth_y_mm"])
     st = float(pc["shelf_thickness_z_mm"])
@@ -121,6 +135,8 @@ def main() -> None:
     shelf_service.translate(App.Vector(0, service_y - sy, 0))
     add_shape(doc, group, "RearCPUShelfServiceGhostV24", "PC SHELF - 450 mm REARWARD FULL-SERVICE GHOST", shelf_service, 80)
 
+    # Two narrow fixed support rails carry the fixed slide members. They are local
+    # internal rails, not full-width shelves or bulky cabinet furniture.
     rw = float(pc["fixed_support_rail_width_x_mm"])
     rl = float(pc["fixed_support_rail_length_y_mm"])
     rh = float(pc["fixed_support_rail_height_z_mm"])
@@ -155,35 +171,29 @@ def main() -> None:
 
     add_shape(doc, group, "RearCPUStowedRetainerV24", "ONE SIMPLE POSITIVE STOWED RETAINER - HARDWARE TBD", Part.makeBox(18.0, 18.0, 32.0, App.Vector(sx + 10.0, sy + sd - 8.0, sz - 7.0)), 60)
 
-    # Intentionally NO dedicated rear-CPU harness ghost. Full extraction assumes
-    # power is isolated and ordinary PC cables are unplugged/dressed as required.
     group.addProperty("App::PropertyString", "ReferenceArchitecture", "Engineering")
     group.ReferenceArchitecture = "REAR CPU SLIDE-OUT SHELF: ONE BOARD + TWO FULL-EXTENSION SLIDES"
     group.addProperty("App::PropertyString", "ServiceDirection", "Engineering")
     group.ServiceDirection = "REARWARD THROUGH MAIN-CABINET BACKDOOR; PLAYFIELD STAYS CLOSED"
-    group.addProperty("App::PropertyString", "DoorOperation", "Engineering")
-    group.DoorOperation = "OUTWARD / POSITIVE Y / 105 DEG NOMINAL"
-    group.addProperty("App::PropertyString", "CablingPolicy", "Engineering")
-    group.CablingPolicy = pc["cabling_policy"]
     group.addProperty("App::PropertyString", "CaseOrientation", "Engineering")
     group.CaseOrientation = "OWNER 440x265 CASE ROTATED: 265 X / 440 Y"
     group.addProperty("App::PropertyString", "Status", "Engineering")
     group.Status = "ENGINEERING PACKAGING - NOT FOR MANUFACTURING"
 
     doc.recompute()
-    doc.save()
+    if owns_document:
+        doc.save()
 
     print("REAR CPU SHELF v0.24 GENERATED")
     print("=" * 80)
-    print(f"Rear hatch                 {aw:.0f} x {ah:.0f} mm at Z {az:.0f}")
-    print(f"Door operation             OUTWARD {door['outward_open_angle_deg']:.0f} deg")
-    print(f"Case-sized shelf           {sw:.0f} x {sd:.0f} x {st:.0f} mm at Z {sz:.0f}")
+    print(f"Rear hatch                 {aw:.0f} x {ah:.0f} mm")
+    print(f"Case-sized shelf           {sw:.0f} x {sd:.0f} x {st:.0f} mm")
     print(f"Open case installed        {cw:.0f} x {cd:.0f} x {ch:.0f} mm")
     print(f"Rearward travel            {service_y-sy:.0f} mm")
-    print("Rear CPU harness           NONE - ordinary cables unplug/dress for extraction")
-    print("Routine service            OPEN REAR DOOR OUTWARD + PULL PC OUT; PLAYFIELD CLOSED")
+    print("Routine service            OPEN REAR DOOR + PULL PC OUT; PLAYFIELD CLOSED")
     print("STATUS                     ENGINEERING PACKAGING - NOT FOR MANUFACTURING")
-    App.closeDocument(doc.Name)
+    if owns_document:
+        App.closeDocument(doc.Name)
 
 
 if __name__ == "__main__":

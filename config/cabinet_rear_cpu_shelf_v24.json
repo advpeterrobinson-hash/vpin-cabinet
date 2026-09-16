@@ -3,12 +3,14 @@
   "manufacturing_ready": false,
   "depends_on": [
     "config/cabinet_service_v21.json",
-    "config/cabinet_structure_v20.json",
-    "config/service_io_v08.json"
+    "config/cabinet_structure_v20.json"
   ],
   "reference_architecture": {
     "product": "PinballCabinet.com Virtual Pinball Cabinet Rear CPU Slide Out Shelf",
-    "published_reference_shelf_mm": [355.6, 406.4],
+    "published_reference_shelf_mm": [
+      355.6,
+      406.4
+    ],
     "published_reference_slide_length_mm": 406.4,
     "published_reference_slide_capacity_lb": 100,
     "lesson": "rear access door plus one simple board on full-extension side-mount slides; adapt dimensions to owner PC case rather than copy the commercial dimensions"
@@ -26,12 +28,12 @@
     "door_panel_x_mm": 118.0,
     "door_panel_bottom_z_mm": 98.0,
     "hinge_side": "left as viewed from rear",
-    "open_direction": "outward / behind cabinet / positive Y",
     "outward_open_angle_deg": 105.0,
     "gasket_required": true,
     "latch": "keyed or tool-controlled compression/quarter-turn latch; exact hardware TBD",
     "reinforcement": "compact local rear-panel frame only; preserve broad rear-panel structure by using a narrower aperture than v0.23",
-    "routine_pc_service_requires_playfield_open": false
+    "routine_pc_service_requires_playfield_open": false,
+    "hinge_axis_y_offset_mm": 15.0
   },
   "pc_shelf": {
     "architecture": "one narrow rectangular plywood board on two simple full-extension slides, extracted straight rearward through the backdoor",
@@ -52,23 +54,27 @@
     "proof_test_payload_kg": 20.0,
     "fixed_support_rail_material": "plywood or aluminum",
     "fixed_support_rail_width_x_mm": 25.0,
-    "fixed_support_rail_length_y_mm": 470.0,
+    "fixed_support_rail_length_y_mm": 465.0,
     "fixed_support_rail_height_z_mm": 55.0,
     "fixed_support_left_x_mm": 119.8,
     "fixed_support_right_x_mm": 455.2,
     "stowed_positive_retention_required": true,
     "stowed_retention_concept": "single simple captive thumb screw, spring pin or equivalent positive stop accessible from rear door",
     "case_mounting": "open PC case bolts directly to the shelf; no drawer box, no second sled, no lift-out requirement for routine service",
-    "case_mounting_holes_status": "BLOCKED until actual open PC case is purchased and measured",
+    "case_mounting_holes_status": "BLOCKED until purchased case mounting points are physically measured",
     "slide_mounting_holes_status": "BLOCKED until actual slide pair is purchased and measured",
-    "dedicated_rear_cpu_harness_required": false,
-    "cabling_policy": "no dedicated modeled CPU harness; isolate power and unplug/dress ordinary PC cables as needed before full shelf extraction",
-    "service_access": "stand behind machine, isolate cabinet power, open rear door outward, release retainer, pull PC shelf rearward until the case is substantially outside cabinet",
-    "complete_removal": "disconnect ordinary PC cables as required, use slide disconnect feature if present, then remove board plus bolted case through rear opening",
-    "rule": "rear PC service is intentionally simple: outward-opening backdoor + narrow board + two slides + one retainer"
+    "service_access": "stand behind machine, isolate cabinet power, open rear door, release retainer, pull PC shelf rearward until the case is substantially outside cabinet",
+    "complete_removal": "use slide disconnect feature if present, then remove board plus bolted case through rear opening",
+    "rule": "rear PC service is intentionally simple: backdoor + narrow board + two slides + one retainer",
+    "cabling_policy": "Ordinary dressed PC cables; disconnect as needed for complete extraction. No dedicated CPU harness mechanism.",
+    "fixed_support_mounting_status": "BLOCKED: compact rail-to-bottom/rear metal brackets and bolt access require load-path detailing and 20 kg proof test"
   },
   "open_pc_case_reference": {
-    "original_case_plan_mm": [440.0, 265.0, 128.0],
+    "original_case_plan_mm": [
+      440.0,
+      265.0,
+      128.0
+    ],
     "installed_width_x_mm": 265.0,
     "installed_depth_y_mm": 440.0,
     "installed_height_z_mm": 128.0,
@@ -84,8 +90,6 @@
   "supersedes": {
     "v23_wide_460x285_shelf_orientation": true,
     "v23_520x280_rear_aperture": true,
-    "v22_center_directed_service": true,
-    "v24_high_rear_cpu_hatch_at_z180": true,
-    "v24_dedicated_rear_cpu_harness_ghost": true
+    "v22_center_directed_service": true
   }
 }

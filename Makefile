@@ -2,7 +2,7 @@ SHELL := /bin/bash
 PYTHON ?= python3
 FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
-MASTER := cad/master/vpin-master.FCStd
+MASTER := cad/active/vpin-active.FCStd
 
 .PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build open-master build-current build-cabinet-rear-cpu-shelf-v24 repair-rear-cpu revise-rear-layout generate-cnc-coupon audit-reference status
 
@@ -13,8 +13,7 @@ help:
 	  '  make doctor              Check local tools/files' \
 	  '  make validate            Validate the CURRENT design only' \
 	  '  make build-current       Build and present the current FreeCAD master' \
-	  '  make repair-rear-cpu     Rebuild ONLY the rear CPU subsystem, then verify rear CPU + full saved master' \
-	  '  make revise-rear-layout  Rebuild compact rear I/O + lowered/outward rear CPU package only' \
+	  '  make repair-rear-cpu     Rebuild fresh active source and verify saved geometry' \
 	  '  make open-master         Open the current FreeCAD master' \
 	  '  make generate-cnc-coupon Generate the nominal CNC fit coupon' \
 	  '  make status              Show concise Git state' \
@@ -85,26 +84,12 @@ build-current:
 build-cabinet-rear-cpu-shelf-v24:
 	bash tools/run_cabinet_rear_cpu_shelf_v24.sh
 
-# Focused recovery path: do not rebuild the cabinet stack. Re-add only the rear CPU
-# geometry to the existing master, then prove it and the complete active file were serialized.
-repair-rear-cpu:
-	$(FREECADCMD) tools/build_cabinet_rear_cpu_shelf_v24_entry.py
-	$(PYTHON) tools/verify_rear_cpu_saved_v25.py
-	$(PYTHON) tools/verify_active_master_v25_file.py
-
-# Focused visual revision path requested by owner: compact the two rear fascias into
-# a lower utility strip, lower the CPU hatch/shelf 70 mm, open the door outward,
-# and omit the dedicated rear-CPU harness ghost. Does not rebuild unrelated systems.
-revise-rear-layout:
-	$(PYTHON) tools/validate_service_io_v08.py
-	$(PYTHON) tools/validate_cabinet_rear_cpu_shelf_v24.py
-	$(FREECADCMD) tools/build_service_io_v09_entry.py
-	$(FREECADCMD) tools/build_cabinet_rear_cpu_shelf_v24_entry.py
-	$(PYTHON) tools/verify_rear_cpu_saved_v25.py
-	$(PYTHON) tools/verify_active_master_v25_file.py
+# Compatibility aliases: the fresh generator supersedes incremental rear-layout
+# edits and verifies the complete saved active geometry.
+repair-rear-cpu revise-rear-layout: build-current
 
 open-master:
-	$(FREECAD) $(MASTER)
+	$(FREECAD) tools/active_review.FCMacro
 
 generate-cnc-coupon:
 	$(PYTHON) tools/generate_cnc_coupon_v20.py

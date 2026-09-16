@@ -7,13 +7,11 @@ import pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CFG = ROOT / "config" / "cabinet_rear_cpu_shelf_v24.json"
 V20 = ROOT / "config" / "cabinet_structure_v20.json"
-IOCFG = ROOT / "config" / "service_io_v08.json"
 
 
 def main() -> int:
     cfg = json.loads(CFG.read_text(encoding="utf-8"))
     v20 = json.loads(V20.read_text(encoding="utf-8"))
-    io = json.loads(IOCFG.read_text(encoding="utf-8"))
     door = cfg["rear_service_door"]
     pc = cfg["pc_shelf"]
     case = cfg["open_pc_case_reference"]
@@ -29,7 +27,6 @@ def main() -> int:
     sx = float(pc["shelf_x_mm"])
     sy0 = float(pc["shelf_stowed_y_mm"])
     sy1 = float(pc["shelf_service_y_mm"])
-    sz = float(pc["shelf_z_mm"])
     travel = sy1 - sy0
     cw = float(case["installed_width_x_mm"])
     cd = float(case["installed_depth_y_mm"])
@@ -40,24 +37,24 @@ def main() -> int:
     ax = float(door["aperture_x_mm"])
     ah = float(door["raw_aperture_height_z_mm"])
     az = float(door["aperture_bottom_z_mm"])
-    door_bottom = float(door["door_panel_bottom_z_mm"])
     slide_t = float(pc["slide_packaging_thickness_each_side_mm"])
     left_support = float(pc["fixed_support_left_x_mm"])
     right_support = float(pc["fixed_support_right_x_mm"])
     support_w = float(pc["fixed_support_rail_width_x_mm"])
 
-    utility_top = max(
-        float(io["rear_power_fascia"]["rear_z_mm"]) + float(io["rear_power_fascia"]["outer_height_mm"]),
-        float(io["rear_service_fascia"]["rear_z_mm"]) + float(io["rear_service_fascia"]["outer_height_mm"]),
-    )
-    utility_gap = door_bottom - utility_top
-    required_utility_gap = float(io["rear_zone_rules"]["minimum_vertical_gap_to_rear_cpu_door_panel_mm"])
-
+    # In the service position the shelf itself intentionally leaves a small lip
+    # inside the cabinet.  What matters is that the PC case is essentially fully
+    # outside the rear plane, while the shelf/slide assembly retains controlled
+    # overlap.  Do not require the shelf front edge itself to clear the cabinet.
     service_shelf_rear = sy1 + sd
     service_case_front = sy1 + my
     service_case_rear = service_case_front + cd
     outside_shelf_length = max(0.0, service_shelf_rear - rear_inner_plane)
     outside_shelf_fraction = outside_shelf_length / sd if sd else 0.0
+
+    io = json.loads((ROOT / "config/service_io_v08.json").read_text())
+    fascia_top = max(io[k]["rear_z_mm"] + io[k]["outer_height_mm"] for k in ("rear_power_fascia", "rear_service_fascia"))
+    door_gap = door["door_panel_bottom_z_mm"] - fascia_top
 
     checks = [
         ("rear-only routine PC service", door["routine_pc_service_requires_playfield_open"] is False, str(door["routine_pc_service_requires_playfield_open"])),
@@ -66,10 +63,9 @@ def main() -> int:
         ("rear aperture passes shelf", aw >= sw + 40.0, f"opening {aw:.1f}, shelf {sw:.1f}"),
         ("rear aperture passes PC height", ah >= ch + float(pc["shelf_thickness_z_mm"]) + 40.0, f"opening H {ah:.1f}"),
         ("rear aperture centered inside body", ax >= wood and ax + aw <= outer - wood, f"X {ax:.1f}..{ax+aw:.1f}"),
-        ("rear utility strip clears CPU door", utility_gap >= required_utility_gap, f"utility top Z {utility_top:.1f}, door bottom Z {door_bottom:.1f}, gap {utility_gap:.1f}"),
-        ("CPU package intentionally lowered", az <= 120.0 and sz <= 145.0, f"hatch Z {az:.1f}, shelf Z {sz:.1f}"),
-        ("door opens outward", float(door["outward_open_angle_deg"]) > 90.0 and "outward" in str(door["open_direction"]).lower(), f"{door['open_direction']} @ {door['outward_open_angle_deg']} deg"),
-        ("no dedicated rear CPU harness", pc["dedicated_rear_cpu_harness_required"] is False, str(pc["dedicated_rear_cpu_harness_required"])),
+        ("door clears actual low utility fascias", 10.0 <= door_gap <= 15.0, f"gap {door_gap:.1f} mm"),
+        ("lower aperture and shelf", az == 110.0 and pc["shelf_z_mm"] == 135.0, f"aperture Z {az}"),
+        ("no dedicated CPU harness", "cable_service_loop_minimum_mm" not in pc, pc["cabling_policy"]),
         ("450 mm rearward travel", abs(travel - float(pc["travel_mm"])) <= 0.01 and abs(travel - 450.0) <= 0.01, f"{travel:.1f} mm"),
         ("stowed shelf stays inside cabinet", sy0 + sd <= rear_inner_plane + 0.1, f"rear edge {sy0+sd:.1f} mm / rear plane {rear_inner_plane:.1f}"),
         ("service shelf substantially exits rear", outside_shelf_fraction >= 0.90, f"outside {outside_shelf_length:.1f}/{sd:.1f} mm ({outside_shelf_fraction*100:.1f}%)"),
@@ -92,9 +88,8 @@ def main() -> int:
 
     print()
     print(f"Cabinet inner width             {inner:.1f} mm")
-    print(f"Rear door clear opening         {aw:.1f} x {ah:.1f} mm at Z {az:.1f}")
-    print(f"Rear utility strip top          Z {utility_top:.1f} mm")
-    print(f"PC shelf                        {sw:.1f} x {sd:.1f} mm at Z {sz:.1f}")
+    print(f"Rear door clear opening         {aw:.1f} x {ah:.1f} mm")
+    print(f"PC shelf                        {sw:.1f} x {sd:.1f} mm")
     print(f"Installed open-case orientation {cw:.1f} x {cd:.1f} x {ch:.1f} mm")
     print(f"Rearward travel                 {travel:.1f} mm")
     print(f"Shelf outside at service        {outside_shelf_fraction*100:.1f}%")

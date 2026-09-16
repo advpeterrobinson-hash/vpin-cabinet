@@ -1,0 +1,38 @@
+# Open this macro in FreeCAD. Six presets avoid manual object-by-object toggling.
+import os
+import FreeCAD as App
+import FreeCADGui as Gui
+from PySide import QtWidgets
+root=os.path.expanduser('~/Projetos/vpin-cabinet')
+doc=App.openDocument(root+'/cad/active/vpin-active.FCStd')
+def show(mode):
+    for o in doc.Objects:
+        v=getattr(o,'ViewObject',None)
+        if v is None:continue
+        if o.TypeId=='App::Part':v.Visibility=True;continue
+        if o.TypeId!='PartDesign::Feature':v.Visibility=False;continue
+        n=o.Name
+        visible=not any(t in n for t in ['Ghost','Keepout','Axis','Envelope','Open','Window'])
+        if n.startswith('SafetyStay'):visible=False
+        if n=='GenericPlayfieldDisplayClosedV18':visible=True
+        if mode in ['Door open / PC stowed','PC extended']:
+            if n=='RearCPUServiceDoorClosedV24':visible=False
+            if n=='RearCPUServiceDoorOpenGhostV24':visible=True
+        if mode=='PC extended':
+            if n in ['RearCPUShelfStowedV24','RearCPUOpenCaseStowedV24']:visible=False
+            if n in ['RearCPUShelfServiceGhostV24','RearCPUOpenCaseServiceGhostV24','RearCPUServiceSlideLeftGhostV24','RearCPUServiceSlideRightGhostV24']:visible=True
+        elif n=='RearCPUOpenCaseStowedV24':visible=True
+        if mode=='Interior' and n in ['CabinetRightSide','CapturedBottomV20','RearPanelWithCPUHatchV24','RearCPUServiceDoorClosedV24','GenericPlayfieldDisplayClosedV18','PlayfieldGlassTargetV20']:visible=False
+        v.Visibility=visible
+        v.Transparency=65 if 'Display' in n or 'Case' in n else 0
+    view=Gui.activeDocument().activeView()
+    if mode=='Rear elevation':view.viewRear()
+    else:view.viewAxonometric()
+    view.fitAll()
+panel=QtWidgets.QDockWidget('Active cabinet review',Gui.getMainWindow())
+box=QtWidgets.QWidget();layout=QtWidgets.QVBoxLayout(box)
+for name in ['Exterior / closed','Rear elevation','Door open / PC stowed','PC extended','Interior']:
+    button=QtWidgets.QPushButton(name);button.clicked.connect(lambda checked=False,m=name:show(m));layout.addWidget(button)
+layout.addWidget(QtWidgets.QLabel('Engineering only. Utility windows / hardware / load tests BLOCKED.'))
+panel.setWidget(box);Gui.getMainWindow().addDockWidget(__import__('PySide').QtCore.Qt.RightDockWidgetArea,panel)
+panel.show();show('Exterior / closed')

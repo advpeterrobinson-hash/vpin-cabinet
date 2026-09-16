@@ -41,7 +41,8 @@ def add_shape(doc, group, name, label, shape, transparency=0, part_id=None):
     return obj
 
 
-def main() -> None:
+def main(doc=None) -> None:
+    owns_document = doc is None
     mech = load(MECH_CFG)
     anchors = load(ANCHOR_CFG)
     cab = mech["cabinet"]
@@ -51,10 +52,11 @@ def main() -> None:
     stays = mech["safety_stays"]
     closed = mech["closed_support"]
 
-    if not os.path.exists(MASTER):
+    if owns_document and not os.path.exists(MASTER):
         raise RuntimeError(f"Missing master file: {MASTER}")
 
-    doc = App.openDocument(MASTER)
+    if owns_document:
+        doc = App.openDocument(MASTER)
     mech_group = doc.getObject("PlayfieldMechanicsV18")
     if mech_group is None:
         raise RuntimeError("PlayfieldMechanicsV18 must be generated before v0.19 anchors")
@@ -196,7 +198,8 @@ def main() -> None:
     group.Status = "ENGINEERING PACKAGING - NOT FOR MANUFACTURING"
 
     doc.recompute()
-    doc.save()
+    if owns_document:
+        doc.save()
 
     print("PLAYFIELD FIXED ANCHORS v0.19 GENERATED")
     print("=" * 76)
@@ -207,7 +210,8 @@ def main() -> None:
     print("Hardware holes           TBD - PHYSICAL HARDWARE SELECTION REQUIRED")
     print("STATUS                   ENGINEERING PACKAGING - NOT FOR MANUFACTURING")
 
-    App.closeDocument(doc.Name)
+    if owns_document:
+        App.closeDocument(doc.Name)
 
 
 if __name__ == "__main__":

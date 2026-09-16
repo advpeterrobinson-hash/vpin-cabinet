@@ -32,7 +32,8 @@
       "AC MAINS",
       "MASTER DISCONNECT"
     ],
-    "note": "Compact lower utility fascia. Decorative wood is not the electrical safety enclosure; mains terminals remain inside a separate enclosed compartment."
+    "note": "Decorative wood fascia is not the electrical safety enclosure. Mains terminals remain inside a separate enclosed compartment.",
+    "window_status": "BLOCKED_CANDIDATE: intersects bottom capture and rear bracket zone; no cut authorized until layout resolution"
   },
   "rear_service_fascia": {
     "outer_width_mm": 255.0,
@@ -76,15 +77,15 @@
         "external": true
       }
     ],
-    "standardization_goal": "Keep the rear utility strip low and compact; use a replaceable thin connector carrier and standardized panel-mount footprints so future ports do not require cabinet recutting."
+    "standardization_goal": "Use a replaceable thin connector carrier and standardized panel-mount footprints where practical so future ports do not require cabinet recutting.",
+    "window_status": "BLOCKED_CANDIDATE: intersects bottom capture and rear bracket zone; no cut authorized until layout resolution"
   },
   "rear_zone_rules": {
     "minimum_clear_distance_between_power_and_signal_fascias_mm": 75.0,
     "mains_and_signal_internal_routing_separated": true,
     "service_fascia_replaceable_without_removing_rear_panel": true,
-    "rear_utility_strip_top_z_mm": 85.0,
-    "minimum_vertical_gap_to_rear_cpu_door_panel_mm": 10.0,
-    "fasteners": "four corner machine screws into threaded inserts or captive nuts; final size TBD"
+    "fasteners": "four corner machine screws into threaded inserts or captive nuts; final size TBD",
+    "low_window_layout_status": "OWNER_LAYOUT_CHOICE_PENDING; fascia targets only; no utility cut in rear panel"
   },
   "coin_door_service_panel": {
     "target_width_mm": 210.0,
