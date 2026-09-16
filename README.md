@@ -17,7 +17,7 @@ Parametric CNC-ready virtual pinball cabinet inspired by Williams WPC proportion
 - **two independent positive mechanical safety stays** plus two positive closed-position latches/supports
 - classic pinball legs and levelers with compact steel-backed corner hardware
 - **external removable PinSkates-style mobility**; no integrated/retractable cabinet wheels
-- **internal lift-out PC service sled** accessed from above; no front-travel drawer
+- **simple internal PC sliding shelf**: one flat shelf + two side-mount slides; open PC case bolts directly to the shelf
 - custom/local-fabricated 600 mm lockdown bar, siderails and metric tempered playfield glass permitted
 - full DOF / mechanical force feedback and SSF planned after structure completion
 - modular electronics and feedback mounting with a deliberately open central service volume
@@ -28,7 +28,7 @@ Parametric CNC-ready virtual pinball cabinet inspired by Williams WPC proportion
 
 ## Structure-first procurement
 
-Woodworking, displays, classic pinball legs, folding backbox hardware, lockdown/siderails, playfield mechanics and the PC service sled must reach a **STRUCTURE READY** gate before the coordinated electronics/DOF purchase begins.
+Woodworking, displays, classic pinball legs, folding backbox hardware, lockdown/siderails, playfield mechanics and the PC slide must reach a **STRUCTURE READY** gate before the coordinated electronics/DOF purchase begins.
 
 The exact playfield display is selected late in the structure phase from the models actually available in Brazil, rather than locking the permanent cabinet to one LG/Samsung model.
 
@@ -39,6 +39,8 @@ See:
 - `bom/STRUCTURE_PARTS.csv`
 - `bom/SERVICE_V21_BOM.csv`
 - `bom/SERVICE_V21_PARTS.csv`
+- `bom/PC_SLIDE_V22_BOM.csv`
+- `bom/PC_SLIDE_V22_PARTS.csv`
 - `docs/STRUCTURE_BUILD_MANUAL.md`
 - `docs/PART_LABELING.md`
 - `docs/BACKBOX_HINGE_SHOPPING.md`
@@ -47,6 +49,7 @@ See:
 - `docs/PLAYFIELD_MECHANICS_V18.md`
 - `docs/CABINET_STRUCTURE_V20.md`
 - `docs/CABINET_SERVICE_V21.md`
+- `docs/PC_SLIDE_V22.md`
 
 ## Longevity philosophy
 
@@ -61,8 +64,8 @@ Current examples:
 - playfield pivot/wear points use replaceable local steel interfaces;
 - 780 mm backbox provides a 740 x 450 x 100 mm display service envelope;
 - backglass and DMD use independent adjustable rail carriages and replaceable VESA/tray adapters;
-- leg, lockdown and bearing hole patterns remain blocked until the real hardware is measured;
-- the PC is removed vertically through the open playfield rather than requiring a permanent front opening or long drawer slides;
+- leg, lockdown, slide and bearing hole patterns remain blocked until the real hardware is measured;
+- the PC uses a simple internal sliding shelf rather than a front cabinet opening, drawer box or second removable sled;
 - moving the complete cabinet uses removable external skates rather than built-in casters.
 
 ## Current selected geometry
@@ -112,30 +115,45 @@ v0.20 remains the joinery/glass/SSF packaging base:
 - custom/local-fabricated siderail and 600 mm lockdown-bar envelopes;
 - mandatory measured-stock CNC tolerance coupon.
 
-Its bulky plywood leg doublers, retractable-wheel keepouts and forward-travel PC drawer are **superseded by v0.21**.
+Its bulky plywood leg doublers, retractable-wheel keepouts and long forward PC drawer are superseded.
 
 ## Cabinet service / mobility v0.21
 
-The owner-provided reference cabinets favor compact load hardware and a large open service volume. v0.21 therefore changes three major areas:
+v0.21 retains the owner-approved mobility and leg direction:
 
-- **classic legs:** approximately 3 mm steel compact internal corner-bracket envelopes replace the oversized 18+18 mm plywood corner blocks; exact holes remain gated by actual leg/bracket measurement and proof testing;
-- **mobility:** a removable pair of external PinSkates-style assemblies moves the machine; there are no integrated/retractable casters or cabinet wheel cutouts;
-- **PC service:** a **480 x 320 mm lift-out sled** sits between the mid/rear low crossmembers and removes vertically after the playfield is raised; there is no front-travel drawer mechanism.
+- **classic legs:** compact steel internal corner-bracket envelopes rather than oversized plywood corner blocks; exact holes remain gated by actual hardware measurement and proof testing;
+- **mobility:** removable external PinSkates-style assemblies; no integrated/retractable casters or cabinet wheel cutouts.
+
+The v0.21 lift-out PC sled is superseded by v0.22.
+
+## PC service v0.22
+
+The owner-directed PC architecture is intentionally simple:
+
+- one nominal **538.6 x 300 x 18 mm** flat shelf;
+- two simple **300 mm-class full-extension side-mount slides** directly between cabinet walls and shelf edges;
+- the approximately **440 x 265 x 128 mm open PC case bolts directly to the shelf**;
+- no drawer box;
+- no second removable sled;
+- no front cabinet exit;
+- approximately **300 mm internal service travel** from the rear half toward the cabinet center;
+- one simple positive stowed retainer;
+- final shelf width and all holes follow the measured physical slide/case hardware.
 
 Run locally with:
 
 ```bash
-make build-cabinet-service-v21
+make build-cabinet-pc-slide-v22
 freecad cad/master/vpin-master.FCStd
 ```
 
 Expected review group:
 
-`CABINET SERVICE v0.21 - CLASSIC LEGS / PINSKATES / LIFT-OUT PC`
+`PC SERVICE v0.22 - SIMPLE SLIDING SHELF / OPEN CASE BOLTED DIRECT`
 
 ## Safety baseline
 
-The display and gas-strut loads are carried by an independent structural cradle. Gas struts are lift assistance only; both positive mechanical safety stays must be engaged before working under the raised playfield. Cabinet mains power must be isolated before manipulating the display harness, pivot, gas struts, stays, PC service sled or removing the complete cradle. Reachable hazardous voltage is a blocking defect.
+The display and gas-strut loads are carried by an independent structural cradle. Gas struts are lift assistance only; both positive mechanical safety stays must be engaged before working under the raised playfield. Cabinet mains power must be isolated before manipulating the display harness, pivot, gas struts, stays, PC sliding shelf or removing the complete cradle. Reachable hazardous voltage is a blocking defect.
 
 ## Status
 
