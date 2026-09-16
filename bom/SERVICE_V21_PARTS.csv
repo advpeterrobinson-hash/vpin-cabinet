@@ -1,0 +1,10 @@
+part_id,system,description,qty,material,nominal_thickness_mm,label_text,status,notes
+LEG-BRKT-FL-R1,LEG,Front-left compact classic pinball internal corner bracket,1,A36-or-SAE1020-steel,3,LEG-BRKT-FL-R1 FRONT LEFT,DESIGN,Formed L bracket envelope about 95x95x150; exact holes after actual hardware measurement
+LEG-BRKT-FR-R1,LEG,Front-right compact classic pinball internal corner bracket,1,A36-or-SAE1020-steel,3,LEG-BRKT-FR-R1 FRONT RIGHT,DESIGN,Mirror counterpart
+LEG-BRKT-RL-R1,LEG,Rear-left compact classic pinball internal corner bracket,1,A36-or-SAE1020-steel,3,LEG-BRKT-RL-R1 REAR LEFT,DESIGN,Exact holes after actual hardware measurement
+LEG-BRKT-RR-R1,LEG,Rear-right compact classic pinball internal corner bracket,1,A36-or-SAE1020-steel,3,LEG-BRKT-RR-R1 REAR RIGHT,DESIGN,Mirror counterpart
+PC-SLED-001-R1,PC,Lift-out PC service tray,1,compensado-naval,18,PC-SLED-001-R1 FRONT ->,DESIGN,480x320 class tray; accessed from above; no front drawer travel
+PC-SLED-LOC-001-R1,PC,PC sled locator/retainer pedestal 1,1,plywood-or-metal,TBD,PC-SLED-LOC-001-R1,DESIGN,Compact locator; exact captive hardware TBD
+PC-SLED-LOC-002-R1,PC,PC sled locator/retainer pedestal 2,1,plywood-or-metal,TBD,PC-SLED-LOC-002-R1,DESIGN,Compact locator; exact captive hardware TBD
+PC-SLED-LOC-003-R1,PC,PC sled locator/retainer pedestal 3,1,plywood-or-metal,TBD,PC-SLED-LOC-003-R1,DESIGN,Compact locator; exact captive hardware TBD
+PC-SLED-LOC-004-R1,PC,PC sled locator/retainer pedestal 4,1,plywood-or-metal,TBD,PC-SLED-LOC-004-R1,DESIGN,Compact locator; exact captive hardware TBD
