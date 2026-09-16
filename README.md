@@ -2,109 +2,103 @@
 
 Parametric CNC-ready virtual pinball cabinet inspired by Williams WPC proportions, with deliberate future-proofing for replaceable electronics and apartment-friendly flat-pack assembly.
 
-## Primary design targets
+## Current product goal
 
-- Williams WPC-derived visual proportions rather than rigid historical dimensions
-- selected **600 mm main-cabinet width** for a full-thickness 42/43-inch display bay without baseline side pockets
-- selected **780 mm backbox width** with reusable adjustable display carriers
-- 18 mm metric plywood primary structure (production value = measured sheet thickness)
-- **model-agnostic 42/43-inch 4K high-refresh playfield display** in a replaceable structural cradle
-- approximately 31.5/32-inch backglass preferred; 27/28-inch fallback supported through adjustable carriage/bezel
-- Williams/Bally WPC-style folding backbox hinges and separate upright locking bolts
-- keyed/gasketed rear backbox service door
+The final download should behave like a **precision flat-pack kit**, not like a woodworking plan that still needs layout work.
+
+The CNC/fabrication vendors should deliver parts with the geometry-critical work already done: profiles, captured joints, service apertures, cable/vent openings, part IDs, and — once the physical hardware is frozen — the exact hinge, slide, bracket, insert and through-hole locations.
+
+The home builder should mainly:
+
+1. identify the labeled parts;
+2. dry-fit;
+3. glue specified joints;
+4. bolt/screw hardware into CNC-located holes;
+5. sand/paint/finish/apply graphics;
+6. install electronics and harnesses;
+7. run the documented proof/safety checks.
+
+Freehand structural layout is not the normal release workflow.
+
+See `docs/SIMPLIFICATION_V25.md` and `bom/HARDWARE_FREEZE_V25.csv`.
+
+## Active design
+
+- **600 mm** main cabinet, WPC-inspired proportions
+- **780 mm** folding backbox
+- nominal 18 mm structural plywood; final CNC values follow measured stock
+- model-agnostic 42/43-inch 4K high-refresh playfield display envelope
 - predominantly CNC-plywood playfield cradle with local steel pivot interfaces
 - dual gas struts for lift assistance only
-- **two independent positive mechanical safety stays** plus two positive closed-position latches/supports
-- classic pinball legs and levelers with compact steel-backed corner hardware
-- **external removable PinSkates-style mobility**; no integrated/retractable cabinet wheels
-- **dedicated main-cabinet rear PC backdoor** with one narrow case-sized shelf on two full-extension slides
-- custom/local-fabricated 600 mm lockdown bar, siderails and metric tempered playfield glass permitted
-- full DOF / mechanical force feedback and SSF planned after structure completion
-- modular electronics and feedback mounting with a deliberately open central service volume
-- single mains power cord with isolated protected distribution
-- independent Audio Only / Bluetooth and Full Pinball modes
-- CNC-first construction with minimal hand tools
-- FreeCAD parametric master model
+- two independent positive mechanical safety stays
+- classic pinball legs + levelers with compact measured steel brackets
+- external removable PinSkates-style mobility; no built-in casters
+- dedicated **rear CPU service hatch**
+- one **285 x 460 x 18 mm** case-sized CPU shelf on two full-extension slides
+- open PC case bolts directly to that shelf
+- routine RAM/SSD/GPU/cable service from the rear with the playfield closed
+- custom/local-fabricated 600 mm lockdown bar and siderails
+- local tempered playfield glass after proof-fit
+- adjustable backglass/DMD carrier
+- reserved SSF / DOF / future electronics zones
+- separate touch-safe mains enclosure and segregated routing
 
-## Structure-first procurement
+## Rear CPU service
 
-Woodworking, displays, classic pinball legs, folding backbox hardware, lockdown/siderails, playfield mechanics and the rear PC service system must reach a **STRUCTURE READY** gate before the coordinated electronics/DOF purchase begins.
+The active PC-service architecture is intentionally simple:
 
-The exact playfield display is selected late in the structure phase from the models actually available in Brazil, rather than locking the permanent cabinet to one LG/Samsung model.
+`stand behind machine -> open rear hatch -> release one retainer -> pull CPU shelf rearward -> service PC -> push shelf in -> lock retainer -> close hatch`
 
-See:
+The reference open case is approximately **440 x 265 x 128 mm**, rotated so 265 mm is across the cabinet and 440 mm is fore-aft. The shelf is approximately **285 x 460 mm** and travels about **450 mm rearward**. Final slide spacing and all mounting holes follow the measured physical slide pair and PC case.
 
-- `docs/BUILD_PHASES.md`
-- `docs/STRUCTURE_BUILD_MANUAL.md`
-- `docs/PART_LABELING.md`
-- `docs/BACKBOX_HINGE_SHOPPING.md`
-- `docs/PLAYFIELD_DISPLAY_V16.md`
-- `docs/PLAYFIELD_PIVOT_V15.md`
-- `docs/PLAYFIELD_MECHANICS_V18.md`
-- `docs/CABINET_STRUCTURE_V20.md`
-- `docs/CABINET_SERVICE_V21.md`
-- `docs/PC_SLIDE_V22.md` — historical/superseded center-service direction
-- `docs/CABINET_REAR_PC_SERVICE_V23.md` — historical wider rear-shelf study
-- `docs/REAR_CPU_SHELF_V24.md` — **active rear CPU-service direction**
+## CNC / hardware freeze
 
-## Current selected geometry
+All geometry-controlling purchased parts are tracked in `bom/HARDWARE_FREEZE_V25.csv` as one of:
 
-- Williams WPC standard-body reference outer width: **558.80 mm**;
-- selected main cabinet outer width: **600.00 mm**;
-- nominal inside width at 18 mm plywood: **564.00 mm**;
-- cabinet side length: **1308.10 mm**;
-- front outside height: **400.05 mm**;
-- rear outside height: **596.90 mm**;
-- backbox target outer width: **780.00 mm**, giving **90 mm overhang per side**;
-- playfield display physical target: **<=560 x 970 x 55 mm**, <=12 kg;
-- playfield display purchasing target: **4K, native >=120 Hz**, VRR/HDMI 2.1 preferred;
-- backglass service envelope: **740 x 450 x 100 mm**.
+- `MEASURE_BEFORE_CNC`
+- `DIMENSIONED_LOCAL_FAB`
+- `ADAPTER_ONLY`
+- `NO_CNC_DEPENDENCY`
 
-## Rear CPU service v0.24 — active direction
+A production release is blocked until every `MEASURE_BEFORE_CNC` item that controls permanent wood/metal geometry is frozen and the prototype dry-fit/proof tests pass.
 
-Routine PC maintenance is from the **rear of the pinball machine**, with the playfield closed.
-
-The architecture deliberately follows the ordinary rear-CPU-shelf pattern used in commercial virtual-pinball cabinets: a rear hatch, one simple rectangular board and a pair of full-extension drawer slides. Project dimensions are adapted to the owner's approximately **440 x 265 x 128 mm** open PC case rather than copied from a commercial kit.
-
-The open case is rotated in plan so:
-
-- **265 mm** is across the cabinet;
-- **440 mm** is fore-aft / along the slide direction.
-
-Current engineering package:
-
-- rear clear service opening: approximately **340 x 240 mm**;
-- overlapping gasketed rear door: approximately **364 x 264 x 15 mm**;
-- one **285 x 460 x 18 mm** plywood shelf;
-- open case bolts directly to the shelf — no drawer box and no second sled;
-- two simple **450 mm-class 3-section full-extension side-mount slides**;
-- two narrow local support rails carry the fixed slide members without filling the cabinet center;
-- shelf stows at approximately Y **830..1290 mm** and travels **450 mm rearward** to approximately Y **1280..1740 mm**;
-- essentially the complete PC case moves behind/outside the machine for RAM/SSD/GPU/cable service;
-- one simple positive stowed retainer;
-- >=600 mm protected rearward cable service loop;
-- routine service does **not** require raising the playfield;
-- exact slide/case/hinge/latch holes remain blocked until physical parts are measured.
-
-Build locally with:
+## Active local workflow
 
 ```bash
-make build-cabinet-rear-cpu-shelf-v24
+make doctor
+make validate
+make build-current
 freecad cad/master/vpin-master.FCStd
 ```
 
-Expected review group:
+`make build-current` rebuilds the current mechanical package and then prunes superseded comparison geometry from the generated FreeCAD master.
 
-`REAR CPU SHELF v0.24 - NARROW CASE-SIZED BOARD / FULL REAR EXTENSION`
+Historical experiments remain available through Git history but are not part of the normal workflow.
+
+## Structure-first procurement
+
+Woodworking, classic legs, backbox hardware, playfield mechanics, rear CPU service hardware, lockdown/siderails, glazing and display fit must reach the **STRUCTURE READY** gate before the coordinated electronics/DOF purchase begins.
+
+The exact playfield display is selected late from the Brazil market rather than hard-coded into permanent woodworking.
+
+Primary planning documents:
+
+- `docs/BUILD_PHASES.md`
+- `docs/STRUCTURE_BUILD_MANUAL.md`
+- `docs/SIMPLIFICATION_V25.md`
+- `bom/HARDWARE_FREEZE_V25.csv`
+- `docs/PLAYFIELD_MECHANICS_V18.md`
+- `docs/REAR_CPU_SHELF_V24.md`
+- `docs/BACKBOX_HINGE_SHOPPING.md`
 
 ## Safety baseline
 
-The rear PC service door may expose PC low-voltage hardware, but **must never expose bare mains terminals**. Mains distribution remains in a separate touch-safe enclosure. Isolate cabinet power before RAM/GPU/SSD/harness service.
+The rear PC hatch may expose PC low-voltage hardware, but must never expose bare mains terminals. Mains distribution remains in a separate touch-safe enclosure. Isolate cabinet power before RAM/GPU/SSD/harness service.
 
-The display and gas-strut loads are carried by an independent structural cradle. Gas struts are lift assistance only; both positive mechanical safety stays must be engaged before working under the raised playfield.
+The playfield display is carried by its independent cradle. Gas struts are lift assistance only; both positive safety stays must be engaged before working beneath the raised playfield.
 
 ## Status
 
 Engineering / parametric-CAD development.
 
-No CNC files are approved for manufacturing yet. CNC production remains blocked on final hardware geometry, measured sheet thickness, Cutter CNC/tooling consultation, physical tolerance coupon, local FreeCAD geometry validation, dry fit and final proof testing.
+No CNC files are approved for manufacturing yet. CNC release remains blocked on measured stock, the physical tolerance coupon, Cutter CNC conventions, hardware freeze, local FreeCAD geometry validation, dry fit and proof testing.
