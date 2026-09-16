@@ -1,15 +1,11 @@
 #!/usr/bin/env python3
 """Verify the saved v0.25 FCStd without reopening it through FreeCAD.
 
-This intentionally avoids a second FreeCAD parse on Homer. The cleanup routine
-already validates active objects in-memory before save. Here we confirm that the
-saved FCStd is a readable archive and contains the active product identity.
-
-Important: presentation labels are not treated as structural identity. FreeCAD can
-serialize a generated group's internal Name correctly even if a later Label rename
-does not persist exactly as expected. For the rear CPU subsystem, the stable object
-Name is therefore the authoritative saved-file check; the builder now also writes
-the active display label directly for future rebuilds.
+The saved-file check intentionally validates serialized product content rather than
+FreeCAD's internal object Name.  FreeCAD may suffix/rewrite generated object names
+across rebuild/save cycles even while preserving the actual group, labels,
+properties and geometry.  Internal names are therefore not a manufacturing or
+product invariant.
 """
 from __future__ import annotations
 
@@ -28,11 +24,21 @@ REQUIRED_TEXT = (
     "CNC PRELOCATES STRUCTURAL HOLES",
 )
 
-# The rear CPU service group's stable internal FreeCAD object identity.  Accepting
-# this is stronger than relying on one cosmetic tree label spelling.
-REAR_CPU_OBJECT_NAME = "CabinetRearCPUShelfV24"
-REAR_CPU_ACTIVE_LABEL = "REAR CPU SERVICE - BACKDOOR / PULL-OUT SHELF (ACTIVE)"
-REAR_CPU_LEGACY_LABEL = "REAR CPU SHELF v0.24 - NARROW CASE-SIZED BOARD / FULL REAR EXTENSION"
+REAR_CPU_LABELS = (
+    "REAR CPU SERVICE - BACKDOOR / PULL-OUT SHELF (ACTIVE)",
+    "REAR CPU SHELF v0.24 - NARROW CASE-SIZED BOARD / FULL REAR EXTENSION",
+)
+
+# These are independent serialized markers from the actual rear-CPU package.  They
+# prove that the rear door, shelf, case envelope and rearward-service semantics are
+# in the saved document; this is stronger and more useful than one mutable FreeCAD
+# internal object name.
+REAR_CPU_CONTENT_MARKERS = (
+    "CAB-PC-REAR-DOOR-002-R1 - CLOSED",
+    "PC-REAR-SHELF-002-R1 - CASE-SIZED BOARD / STOWED",
+    "OPEN PC CASE 265x440x128 - ROTATED / BOLTED DIRECT TO BOARD",
+    "REARWARD THROUGH MAIN-CABINET BACKDOOR; PLAYFIELD STAYS CLOSED",
+)
 
 
 def main() -> int:
@@ -64,19 +70,21 @@ def main() -> int:
         print(f"{'PASS' if passed else 'FAIL'} saved marker: {text}")
         ok = ok and passed
 
-    rear_identity = REAR_CPU_OBJECT_NAME in xml
-    rear_label = REAR_CPU_ACTIVE_LABEL in xml or REAR_CPU_LEGACY_LABEL in xml
+    rear_label = next((label for label in REAR_CPU_LABELS if label in xml), None)
     print(
-        f"{'PASS' if rear_identity else 'FAIL'} saved rear CPU object identity: "
-        f"{REAR_CPU_OBJECT_NAME}"
+        f"{'PASS' if rear_label else 'FAIL'} rear CPU package label: "
+        f"{rear_label or 'not found'}"
     )
-    ok = ok and rear_identity
-    # Label persistence is informational only. Future rebuilds write the active
-    # label directly from the v0.24 builder, so this should converge automatically.
-    print(
-        f"{'PASS' if rear_label else 'INFO'} saved rear CPU presentation label present"
-    )
+    ok = ok and rear_label is not None
 
+    rear_content_ok = True
+    for marker in REAR_CPU_CONTENT_MARKERS:
+        passed = marker in xml
+        print(f"{'PASS' if passed else 'FAIL'} rear CPU content: {marker}")
+        rear_content_ok = rear_content_ok and passed
+    ok = ok and rear_content_ok
+
+    print("INFO FreeCAD internal object names are intentionally non-blocking")
     print("STATUS", "PASS - saved active master" if ok else "FAIL")
     return 0 if ok else 1
 
