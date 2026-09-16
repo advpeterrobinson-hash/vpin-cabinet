@@ -15,8 +15,8 @@ HF-013,PC,Rear CPU full-extension slide pair,MEASURE_BEFORE_CNC,fixed rail/shelf
 HF-014,PC,Open PC case,MEASURE_BEFORE_CNC,case-to-shelf bolt holes,ENVELOPE_MEASURED_HOLES_OPEN,Purchased case envelope 265 X x 440 Y x 128 Z; physical mounting points still required before CNC shelf drilling
 HF-015,PC,Rear CPU hatch hinge,MEASURE_BEFORE_CNC,rear hatch hinge holes,OPEN,Continuous/piano hinge or equivalent
 HF-016,PC,Rear CPU hatch latch,MEASURE_BEFORE_CNC,hatch latch/catch holes,OPEN,Keyed or tool-controlled compression/quarter-turn type
-HF-017,IO,Rear mains inlet/disconnect module,MEASURE_BEFORE_CNC,small fixed mains carrier / independent enclosure interface,OPEN,A/B placement pending; measure inlet or captive-cord assembly and disconnect; no mounting to CPU door
-HF-018,IO,Optional Ethernet RJ45 carrier or blank,ADAPTER_ONLY,replaceable carrier only,DESIGN,No permanent rear HDMI/USB/reserve; 40x40 generic candidate carrier; connector pattern measured before carrier fabrication
+HF-017,IO,Rear mains inlet/disconnect module,MEASURE_BEFORE_CNC,small fixed mains carrier / independent enclosure interface,OPEN,A rear-face placement selected; measure inlet or captive-cord assembly and disconnect; no mounting to CPU door
+HF-018,IO,Optional Ethernet RJ45 carrier or blank,ADAPTER_ONLY,replaceable carrier only,DESIGN,No permanent rear HDMI/USB/reserve; 40x40 replaceable carrier with generic 24x24 wood aperture; blank or measured RJ45 keystone/coupler; connector pattern measured before carrier fabrication
 HF-019,FRONT,Coin door,MEASURE_BEFORE_CNC,front panel opening/bolt pattern,OPEN,Select real pinball-style coin door before front CNC freeze
 HF-020,FRONT,Flipper/start/launch buttons,MEASURE_BEFORE_CNC,button bore/pilot locations,OPEN,Final button families measured before release
 HF-021,GLASS,Playfield siderail profile,DIMENSIONED_LOCAL_FAB,glass capture and side fastener geometry,DESIGN,Prototype local metal profile before final glass order
@@ -25,4 +25,5 @@ HF-023,GLASS,Playfield tempered glass,DIMENSIONED_LOCAL_FAB,final cut size only,
 HF-024,DISPLAY,Playfield 42/43 inch display,ADAPTER_ONLY,VESA adapter and gas-strut calibration only,SELECT_LATER,Permanent wood remains within service envelope
 HF-025,DISPLAY,Backglass monitor,ADAPTER_ONLY,adjustable carriage adapter/bezel only,SELECT_LATER,Permanent backbox rail cage stays generic
 HF-026,PC,Four identical CPU rail angle clamps + backing + retainer,MEASURE_BEFORE_CNC,rail anchors and retainer holes,OPEN,18 mm bottom-seated rails; positive through-bolt uplift restraint; actual patterns/bolt stack before CNC; 20 kg extended proof test
-HF-027,IO,Touch-safe mains enclosure,MEASURE_BEFORE_CNC,fixed mounts / insulated entry / enclosure dimensions in selected A or B zone,OPEN,Measure enclosed mains assembly and strain relief; protective earth/bonding and no reachable terminals verified at commissioning
+HF-027,IO,Touch-safe mains enclosure,MEASURE_BEFORE_CNC,fixed mounts / insulated entry / enclosure dimensions in selected A rear-face zone,OPEN,Measure enclosed mains assembly and strain relief; protective earth/bonding and no reachable terminals verified at commissioning
+HF-028,PC,Rear bracket to CPU rail planning reserve,MEASURE_BEFORE_CNC,rail/support profile and slide stack,BLOCKED,Measure installed bracket inner X including bolt stack and flange plus Y/Z extent; actual slide thickness/side clearance and stock; modeled 13.8 mm versus 15 mm target cannot improve both sides by translation

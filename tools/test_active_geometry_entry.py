@@ -46,7 +46,15 @@ def restored_usb(doc):
 def floating_rail(doc):
     o=doc.getObject('RearCPUSupportRailLeftV24');s=o.Shape.copy();s.translate(App.Vector(0,0,1));o.Shape=s
 
-cases=[('inward-door',wrong_door,'open door entirely exterior'),
+def large_panel_cut(doc):
+    import Part
+    o=doc.getObject('RearPanelWithCPUHatchV24');o.Shape=o.Shape.cut(Part.makeBox(524,22,176.9,App.Vector(38,1288.1,382)))
+
+def underside_returns(doc):
+    o=doc.addObject('PartDesign::Feature','UtilityBMainsCarrierV26');o.Shape=doc.getObject('UtilityAMainsCarrierV26').Shape.copy()
+
+cases=[('large-utility-panel',large_panel_cut,'active rear panel has only approved localized apertures'),
+       ('underside-return',underside_returns,'selected rear face only; underside alternative absent'),('inward-door',wrong_door,'open door entirely exterior'),
        ('high-shelf',wrong_height,'shelf 285 x 460 x 18 at Z135'),
        ('harness',harness,'historical systems absent'),
        ('raised-door',high_door,'closed door 364 x 264 at Z98'),
@@ -54,7 +62,7 @@ cases=[('inward-door',wrong_door,'open door entirely exterior'),
        ('leg-zone-cut',leg_collision,'A utility openings clear bottom joint and rear leg reserves'),
        ('mains-signal-spacing',separation,'A mains/signal carriers and internal access separated'),
        ('wood-register',register_mismatch,'wood register exactly reconciles with CAD'),
-       ('rear-usb',restored_usb,'only four intended utility candidate cut solids'),
+       ('rear-usb',restored_usb,'only two localized utility cut solids'),
        ('floating-rail',floating_rail,'Left support rail valid and bottom seated')]
 with tempfile.TemporaryDirectory(prefix='vpin-negative-') as td:
     for name,mutate,target in cases:

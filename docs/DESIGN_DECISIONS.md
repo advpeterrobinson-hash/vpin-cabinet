@@ -164,6 +164,6 @@ Build a fresh active document from selected config/builder sections; do not dele
 
 Owner-directed: remove permanent rear SERVICE HDMI / USB-A / USB-C / RESERVE. The extended PC exposes troubleshooting ports. PC POWER / RESET / DOF SERVICE remain at the coin door. Keep mains/master disconnect plus optional Ethernet only. Remove decorative wood fascias. Protect bottom capture and rear leg load paths. Preserve CPU aperture Z110..350, shelf Z135 and outward door.
 
-Two small rear-face carriers (A) and underside carriers (B) pass modeled clearance checks. No placement is selected or cut until the owner reviews the comparison. This supersedes DEC-021's old low utility-window study.
+Owner selected two small rear-face carriers (A). Underside B is rejected and archived. Only 70×50 and 24×24 mm generic rear apertures are modeled; component patterns remain blocked. This supersedes DEC-021's low utility-window study and the earlier unselected comparison. Keep CPU heights unchanged and preserve unused upper rear space.
 
 Combine each overlapping landing/latch doubler pair into one union retaining both load zones; active wood count becomes 36. Use 18 mm bottom-seated CPU support rails with local bolted angle clamps and underside backing. Measurement, fastener sizing and physical proof testing remain release gates.

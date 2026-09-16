@@ -29,7 +29,7 @@ def register(doc):
     def add(names,decision,reason,thickness,orientation,operations):
         for name in names.split():rules[name]=(decision,reason,thickness,orientation,operations)
     add('CabinetLeftSide CabinetRightSide','KEEP','Primary shell and leg/pivot load path',18,'YZ; inside face; front arrow','side profile; captured dados; measured leg/bearing/button holes')
-    add('CapturedFrontPanelV20 RearPanelWithCPUHatchV24','KEEP','Captured end panels preserve shell stiffness',18,'XZ; inside face; up arrow','captured edges; measured coin door or CPU aperture; utility windows BLOCKED')
+    add('CapturedFrontPanelV20 RearPanelWithCPUHatchV24','KEEP','Captured end panels preserve shell stiffness',18,'XZ; inside face; up arrow','captured edges; measured coin door or CPU aperture; rear only: generic utility apertures 70x50 and 24x24; component patterns/CNC release BLOCKED')
     add('CapturedBottomV20','KEEP','Bottom shear panel and local equipment supports',18,'XY; inside up; front arrow','four-edge capture; measured support mounts; vents TBD')
     add('LowCrossmember1V20 LowCrossmember2V20 LowCrossmember3V20','KEEP','Low shell ties; retain until stiffness/load tests support deletion',18,'XZ; front arrow','side capture; support connections TBD')
     add('RearShelfV14','KEEP','Backbox load support and upright lock interface',18,'XY; top; rear arrow','matched floor/lock/passport patterns BLOCKED')

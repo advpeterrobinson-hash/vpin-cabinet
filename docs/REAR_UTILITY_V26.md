@@ -1,62 +1,19 @@
-# Rear utility simplification — v26 owner review
+# Selected rear utility — Option A
 
-Status: both candidate layouts pass modeled collision checks. **Placement is not selected.** The active rear and bottom panels have no utility cuts. This is the owner-requested visual gate, not a CNC approval gate.
+Owner selected two localized rear-face interfaces. Option B underside is rejected and removed from active CAD/config/gallery; the [historical comparison](history/REAR_UTILITY_V26_COMPARISON.md) retains the study. This selects architecture, not manufacturing release.
 
-## Functions that remain
+| Interface | Carrier X / Z, mm | Generic wood opening | Internal reserve |
+|---|---|---|---|
+| Mains/master disconnect | X50..140 / Z395..465; 90×70×3 | 70×50 at X60 / Z405 | Separate 110×120×90 enclosure at X45 / Y1170.1 / Z385 |
+| Optional Ethernet or blank | X510..550 / Z405..445; 40×40×3 | 24×24 at X518 / Z413 | 50×60×60 access envelope |
 
-One fixed AC mains/master disconnect interface, and optional wired Ethernet. SERVICE HDMI, USB-A, USB-C and RESERVE disappear from the permanent rear panel. Troubleshooting ports are reached on the extended PC. PC POWER, RESET and DOF SERVICE controls remain at the coin door and are not duplicated at the rear.
+The active rear panel now contains only these two generic utility apertures plus the unchanged CPU hatch. Utility material removed: **4,076 mm² / 73,368 mm³** at nominal 18 mm. Bottom utility removal: **zero**. No full-band panel or decorative fascia is created; the rest of the 524×176.9 mm available upper band remains available for future electronics/DOF/service. Exterior mains–signal gap is 370 mm; internal envelope gap is 350 mm. These are packaging margins, not a certified electrical design.
 
-The current Ethernet study uses a small replaceable RJ45 carrier, blanked if no wired connection is wanted. Alternatives:
+Ethernet is optional: use a blank carrier or a replaceable measured RJ45 keystone/coupler faceplate. Cabinet wood is not a component-specific RJ45 pattern. SERVICE HDMI, USB-A, USB-C and reserve cutouts are absent; access these on the extended PC. Power/reset/DOF service controls stay at the coin door.
 
-| Interface | Benefit | Cost / unresolved input |
-|---|---|---|
-| Small panel-mount RJ45 on 40 × 40 carrier | Cable disconnects externally; coupler replaceable; no decorative wood | Generic 24 × 24 cabinet opening reserved; actual coupler, latch access and carrier holes unmeasured |
-| Strain-relieved network cable entry | Potentially one smaller round cut; no coupler | Cable becomes tethered; passing the terminated plug or using a split gland requires measured hardware; replacement/disconnection less convenient |
-| Direct panel-mount RJ45 without carrier | One less fabricated carrier | Permanent wood becomes connector-specific; replacement may require cabinet modification |
+CPU opening remains X130..470 / Z110..350, shelf Z135, door Z98..362 with 105° outward swing. Saved-solid checks protect the bottom joint and leg load regions and prove door/plug/PC travel clearance.
 
-Recommend the small optional replaceable carrier. The candidate rectangular opening is a **design reservation**, not a purchased connector footprint. A measured gland could reduce cut area further, but does not justify relocating or weakening structural wood.
-
-## Actual available rectangles
-
-X is cabinet left-to-right, Y front-to-rear and Z vertical. Rear-view left is high X.
-
-The maximal empty mounting rectangles are enumerated from saved solid bounds, with 20 mm bottom-joint/edge reserve, 15 mm around the rear leg bracket bounding envelopes, 20 mm around the closed CPU door and 10 mm beside the CPU support rails. These margins are explicit engineering reservations, not electrical clearance standards. The full 3D enclosures, plugs and moving PC are checked separately.
-
-| Plane | Clear rectangle | Size |
-|---|---|---|
-| Rear, above door | X38..562 / Z382..558.9 | **524 × 176.9 mm** |
-| Rear, beside door | X38..98 or X502..562 / Z183..558.9 | 60 × 375.9 mm each |
-| Rear, below door | X128..472 / Z56..78 | Only **344 × 22 mm**; reject the old 55 mm windows |
-| Underside, between support rails | X154.8..445.2 / Y1078..1270.1 | **290.4 × 192.1 mm** |
-
-The CPU aperture remains X130..470 / Z110..350, door bottom Z98 and shelf bottom Z135. No utility solution moves the CPU upward.
-
-## Comparison
-
-| Criterion | A — two rear-face carriers above CPU door | B — compact underside interfaces near rear |
-|---|---|---|
-| Mains carrier | 90 × 70 × 3 mm, X50..140 / Z395..465 | 90 × 70 × 3 mm, X170..260 / Y1160..1230 |
-| Network carrier | 40 × 40 × 3 mm, X510..550 / Z405..445 | 40 × 40 × 3 mm, X380..420 / Y1180..1220 |
-| Cabinet apertures, if selected | 70 × 50 plus 24 × 24 mm through rear panel | Same areas through bottom panel |
-| Structural wood removed, candidate | 4,076 mm² / 73,368 mm³ at 18 mm | Same amount, from bottom rather than rear |
-| Current active wood removed | **0 utility material** | **0 utility material** |
-| Parts / contour cuts | 2 metal carriers / 2 generic contours | 2 metal carriers / 2 generic contours |
-| Mains–signal carrier separation | 370 mm | 120 mm |
-| Enclosure–signal internal access separation | 350 mm | 105 mm |
-| Independent mains enclosure reserve | 110 X × 120 Y × 90 Z mm above PC | 110 X × 120 Y × 80 Z mm below PC; 19 mm below shelf |
-| Access | Visible and reachable from rear without opening a door | Requires reaching under rear; plug/floor clearance must be measured |
-| Exterior | Two small visible interfaces above door | Rear face stays clear |
-| Replacement | Small removable carriers; generic wood apertures | Same principle, less convenient underside access |
-
-Both remove approximately **80.8% less wood area** than the obsolete 150 × 55 and 235 × 55 windows (21,175 mm²). Counts exclude hardware-specific mounting holes because inventing them would misrepresent CNC readiness. Final enclosure flange/gasket size and fasteners can change the envelope.
-
-**Engineering preference: A**, for visible cable access, easier inspection and larger spatial separation. B is also geometrically viable and gives the cleaner rear face. Since the remaining tradeoff is user-facing, stop at these comparison models for owner selection, as requested. Candidate groups are review-only and must not be exported as active production panels.
-
-## Mains safety boundaries
-
-The removable interface is not the safety enclosure. All hazardous terminals and any mains splice belong inside an independent touch-safe, tool-access enclosure fixed to the permanent cabinet. Neither interface nor enclosure attaches to the CPU door or moving shelf. Maintain a dedicated protective-earth path and bond exposed conductive mains parts as required by the eventual electrical design. Verify earth continuity and entry strain relief during commissioning; no conductor termination carries cable pull.
-
-No component/rating, fuse, conductor size, terminal spacing, connector hole or wiring schematic is released here. Measure the actual inlet/disconnect or captive-cord assembly, enclosure and glands. Model plug insertion/removal, insulated cable exit and access before freezing the carrier. For B also prove floor clearance and cable routing on the actual classic legs; the study reserves space to Z−74 relative to cabinet bottom datum.
+The mains carrier is only an interface. Hazardous terminals remain in a separate touch-safe tool-access enclosure fixed to permanent structure, never the CPU door. Preserve dedicated PE continuity and bond exposed conductive mains parts; provide rated entry strain relief so terminals carry no cable pull. Measure the inlet/disconnect, enclosure, insulated exits, glands, fasteners and plug envelope before final patterns or CNC release. No component ratings or wiring schematic are released here.
 
 ## CPU support load path
 
@@ -80,25 +37,22 @@ Do not finalize slide or clamp hole patterns before physical hardware measuremen
 
 Implemented reductions:
 
-- Remove both decorative rear wood fascias: −2 wooden parts. Two small functional metal carriers are only candidate adapters.
+- Remove both decorative rear wood fascias: −2 wooden parts. Two small functional metal carriers are selected replaceable adapters.
 - Combine landing and latch reinforcement into one CNC union on each side: −2 wooden parts. Saved-solid checks prove each union contains both original load regions, with no added thickness.
 - Keep two CPU rails, now standard 18 mm plywood with defined bottom/metal load transfer.
 
 Retain the three low crossmembers for shell shear/torsion and bottom restraint. Retain the cradle rails/ties, rear pivot laminations, local safety/gas anchors and backbox load path. The four backbox rear frame members remain COMBINE candidates: a single CNC frame needs nesting and shear/joint verification before changing it. They were not removed merely to reduce the count. Do not substitute unverified small metal brackets at positive-stay anchors.
 
-## Visual gate and remaining measurements
+## Rail planning reserve — BLOCKED on measured hardware
 
-Review `10-utility-comparison.png`, then `11-utility-A.png` and `12-utility-B.png`. Confirm **rear face A versus underside B**, and whether to include the optional Ethernet carrier or leave it blank. Final placement will be committed only after that review.
+No geometry shift is justified: modeled bracket inner edges X113 and X487 leave 374 mm. The centered stack is 285 shelf + 2×12.7 slides + 2×18 rails = 346.4 mm, leaving (374−346.4)/2 = **13.8 mm per side**. A 2–3 mm translation improves one side and worsens the other; moving clamps alone does not move the rail edge. Achieving 15 mm on both sides needs 2.4 mm less total stack width or more measured bracket clearance. Moving both rails inward breaks slide-face contact and the fixed shelf width; no such change is made.
 
-Still measure: actual slides and mounting pattern; case bolt points; four angle clamps/backing/bolt stack; rear door hinge/latch; real leg/bracket envelopes; actual production plywood; mains interface/enclosure/glands; RJ45 or cable gland; floor/plug clearance if B is chosen. All manufacturing gates remain closed.
+Measure each installed rear bracket's innermost X envelope including bolt heads/nuts/washers, flange projection, mounted Y/Z extent and leg bolt protrusion. Also measure actual slide thickness and specified side clearance, plywood thickness, and clamp/backing/bolt stack. Resolve the 1.2 mm per-side planning shortfall with those measurements before rail/support CNC freeze. Do not trim leg load paths or assume nominal hardware bounds are final.
 
+## Review and verification
 
-## Validation evidence
+Inspect gallery `10-rear-utility-selected.png`, `02-rear-elevation.png`, `03-door-closed.png`, `04-door-open.png`, `06-pc-extended.png`, `09-rear-load-path.png`, and `11-utility-A.png`. The request is visual confirmation of the small interfaces above the unchanged low door, not manufacturing approval.
 
-- `make validate`: current Python validators pass.
-- `make build-current`: FreeCADCmd generation, saved-document recompute/solid checks and gallery generation pass.
-- Saved geometry: **61 checks pass**, including unchanged CPU datums, both utility cut/plug/enclosure candidates, protected joint/leg regions, outward door sweep, exact rectangular PC travel sweeps, rail/angle/backing contacts, retained combined reinforcement and the 36-row CAD/wood register match.
-- Ten negative controls reject inward door, raised shelf, raised door, restored CPU harness, bottom-joint cut, leg-zone cut, insufficient mains/signal separation, incorrect part ID, restored rear USB cut and floating rail.
-- `git diff --check` passes. Owner-modified historical master remains byte-identical to the takeover backup. No reference models changed; no push or merge.
+Validation checks actual saved panel subtraction, connected solid integrity, protected regions, mains/signal separation, CPU motion, rail contacts and the 36-row register. Negative controls include an oversized utility panel cut and reintroduced underside hardware. Physical hardware holes, strength/proof tests and measured-stock/coupon release remain blocked.
 
-The earlier 10–15 mm door-to-low-fascia check is obsolete because those fascias no longer exist. It is replaced by actual geometric clearances for **both** alternative carriers, enclosures and plug-access volumes against the unchanged door and structure; it is not bypassed to make the old colliding windows pass.
+Validation for this selection pass: `make build-current` passed Python validation, fresh FreeCADCmd generation and 53 saved-solid checks. All 12 negative controls passed, including full-band removal and underside return. `bom/ACTIVE_PARTS.csv` exactly matches the generated register; `git diff --check` passed. The reduced check count removes tests of rejected B geometry, not checks on selected A or the CPU/load paths. Owner's historical master remains untouched.

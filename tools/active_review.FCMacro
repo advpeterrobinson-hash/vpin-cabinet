@@ -23,9 +23,8 @@ def show(mode):
             if n in ['RearCPUShelfServiceGhostV24','RearCPUOpenCaseServiceGhostV24','RearCPUServiceSlideLeftGhostV24','RearCPUServiceSlideRightGhostV24']:visible=True
         elif n=='RearCPUOpenCaseStowedV24':visible=True
         if mode=='Interior' and n in ['CabinetRightSide','CapturedBottomV20','RearPanelWithCPUHatchV24','RearCPUServiceDoorClosedV24','GenericPlayfieldDisplayClosedV18','PlayfieldGlassTargetV20']:visible=False
-        if mode in ['Utility A — review only','Utility B — review only']:
-            option='A' if mode.startswith('Utility A') else 'B'
-            if n.startswith('Utility'+option) and getattr(o,'EngineeringRole','') in ['REMOVABLE_ADAPTER','ELECTRONICS_ZONE']:visible=True
+        if n in ['UtilityAMainsCarrierV26','UtilityAEthernetCarrierV26']:visible=True
+        if mode=='Selected rear utility' and n.startswith('UtilityA') and getattr(o,'EngineeringRole','')=='ELECTRONICS_ZONE':visible=True
         if mode=='Rear load paths' and n.startswith(('RearLegKeepout','BottomJointKeepout')):visible=True
         if mode=='Interior':
             visible=visible and getattr(o,'EngineeringRole','') in ['STRUCTURAL_WOOD','LOCAL_METAL']
@@ -37,7 +36,7 @@ def show(mode):
     view.fitAll()
 panel=QtWidgets.QDockWidget('Active cabinet review',Gui.getMainWindow())
 box=QtWidgets.QWidget();layout=QtWidgets.QVBoxLayout(box)
-for name in ['Exterior / closed','Rear elevation','Door open / PC stowed','PC extended','Interior','Rear load paths','Utility A — review only','Utility B — review only']:
+for name in ['Exterior / closed','Rear elevation','Door open / PC stowed','PC extended','Interior','Rear load paths','Selected rear utility']:
     button=QtWidgets.QPushButton(name);button.clicked.connect(lambda checked=False,m=name:show(m));layout.addWidget(button)
 layout.addWidget(QtWidgets.QLabel('Engineering only. Utility windows / hardware / load tests BLOCKED.'))
 panel.setWidget(box);Gui.getMainWindow().addDockWidget(__import__('PySide').QtCore.Qt.RightDockWidgetArea,panel)

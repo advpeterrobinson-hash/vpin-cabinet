@@ -6,4 +6,4 @@ Older `STRUCTURE_BOM.csv`, `WOOD_PARTS.csv`, and versioned service BOMs contain 
 
 Every active machining record is BLOCKED. Local envelopes are not finished cut sizes, and 36 mm laminated assemblies still need per-lamination release IDs. The CPU supports are now 18 mm plywood rails seated on the bottom, with measured local metal clamp/backing hardware still required. The register has 36 active wooden solids (40 before v26).
 
-Utility A/B are unselected review candidates, not active machining or purchasing records. See `docs/REAR_UTILITY_V26.md`.
+Utility A rear face is owner-selected; two generic apertures are active engineering geometry. Underside B is rejected. Hardware-specific machining and purchasing remain blocked. See `docs/REAR_UTILITY_V26.md`.

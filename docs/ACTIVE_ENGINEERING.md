@@ -8,7 +8,7 @@ Engineering packaging only. No manufacturing release or structural certification
 
 `make build-current` must not read the historical `cad/master/vpin-master.FCStd`. That working file is preserved, including owner modifications. The fresh runner creates current systems only; it never deletes or reparents the old document graph. Current builders accept a caller-owned document. Historical standalone entry points remain available for investigation, not procurement or release.
 
-The active input set is cabinet structure v20 (shell/joinery/glass only), structure v14 (backbox), playfield mechanics v18, fixed anchors v19, cabinet service v21 (legs only), rear CPU v24, and rear utility v26 (unselected A/B review candidates). Older PC/leg fields in shared versioned configs are legacy inputs used only by standalone historical builders.
+The active input set is cabinet structure v20 (shell/joinery/glass only), structure v14 (backbox), playfield mechanics v18, fixed anchors v19, cabinet service v21 (legs only), rear CPU v24, and rear utility v26 (selected A rear-face interfaces). Older PC/leg fields in shared versioned configs are legacy inputs used only by standalone historical builders.
 
 The engineering shapes are regenerated from configs, with the cabinet datums also recorded in a spreadsheet. They are not an editable manufacturing feature tree: changing a spreadsheet cell alone does not regenerate boolean solids. Change configs and rebuild. A production document must resolve measured stock, machining features and hardware before export.
 
@@ -25,7 +25,7 @@ The engineering shapes are regenerated from configs, with the cabinet datums als
 | Extension | 450 mm; shelf Y1280..1740; case Y1290..1730 |
 | CPU aperture | X130..470; Z110..350; 340 × 240 mm |
 | CPU door | X118..482; Z98..362; 15 mm thick; 105° outward |
-| Utility | Mains/master disconnect + optional Ethernet; A rear face / B underside pending owner choice |
+| Utility | Mains/master disconnect + optional Ethernet; selected A rear face; underside B rejected |
 
 The PC case is 95.89% beyond the **exterior** rear plane at full extension; 18.1 mm remains inside. The shelf retains 28.1 mm overlap. Full extraction uses the slide disconnect and disconnected cables. No dedicated PC cable-loop mechanism is specified.
 
@@ -60,6 +60,6 @@ The generated inventory is an engineering audit of shapes and placements. Axis-a
 
 Open `exports/generated/review/index.html` for the A/B comparison, service and load-path views and the active solid inventory. In FreeCAD run `tools/active_review.FCMacro` for exterior, rear elevation, door-open/stowed, extended and interior presets. The original master is untouched. Actual purchased external leg shapes are not available, so bracket-envelope clearance is proven but external leg/hinge clearance still needs measurement.
 
-Review [the v26 utility comparison](REAR_UTILITY_V26.md): rear face A versus underside B. Both avoid protected joints and rear leg keepouts. The obsolete low fascias/windows and permanent troubleshooting ports are removed. No utility cut is made in active structural wood until owner placement review and actual hardware measurement. CPU height, aperture and outward swing are preserved.
+Owner selected [v26 rear-face A](REAR_UTILITY_V26.md). Two localized generic apertures avoid protected joints and rear leg keepouts; no underside utility remains. Component-specific patterns and CNC release remain measurement-blocked. CPU height, aperture and outward swing are preserved.
 
 The active wooden register is now 36 objects (formerly 40), after removal of two decorative fascias and combination of two overlapping doubler pairs. Two bottom-seated 18 mm rails, four identical angle clamps and underside backing plates provide the modeled slide load path; fastener capacity and proof tests remain open.

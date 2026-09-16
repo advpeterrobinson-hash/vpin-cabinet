@@ -1,6 +1,6 @@
 {
-  "status": "CANDIDATES_FOR_OWNER_REVIEW",
-  "selected_architecture": null,
+  "status": "OWNER_SELECTED_REAR_FACE_HARDWARE_BLOCKED",
+  "selected_architecture": "A",
   "manufacturing_ready": false,
   "permanent_functions": [
     "AC_MAINS_MASTER_DISCONNECT",
@@ -21,7 +21,7 @@
   "leg_keepout_margin_mm": 15.0,
   "interface_policy": {
     "mains": "One fixed replaceable metal interface with separate touch-safe enclosure; inlet/disconnect or captive cord choice after measurement",
-    "ethernet": "Optional small RJ45 carrier; blank same carrier when normally offline. Direct PC network access remains possible. No permanent troubleshooting ports",
+    "ethernet": "Optional replaceable 40 x 40 mm low-voltage carrier over generic 24 x 24 mm wood aperture; measured RJ45 keystone/coupler faceplate or blank plate",
     "mount_to_cpu_door": false,
     "protective_earth": "Continuous dedicated protective-earth path; bond exposed conductive mains assembly; verify continuity before commissioning",
     "strain_relief": "Rated gland/clamp at entry; no terminal or connector bears cable pull",
@@ -96,78 +96,6 @@
         50.0,
         80.0,
         60.0
-      ]
-    }
-  },
-  "B": {
-    "plane": "underside",
-    "title": "Two compact underside interfaces near rear; protected mains enclosure inside",
-    "mains": {
-      "carrier": [
-        170.0,
-        1160.0,
-        15.0,
-        90.0,
-        70.0,
-        3.0
-      ],
-      "opening": [
-        180.0,
-        1170.0,
-        16.0,
-        70.0,
-        50.0,
-        22.0
-      ],
-      "enclosure": [
-        160.0,
-        1140.0,
-        36.0,
-        110.0,
-        120.0,
-        80.0
-      ],
-      "plug_access": [
-        160.0,
-        1140.0,
-        -74.0,
-        110.0,
-        120.0,
-        89.0
-      ]
-    },
-    "ethernet": {
-      "carrier": [
-        380.0,
-        1180.0,
-        15.0,
-        40.0,
-        40.0,
-        3.0
-      ],
-      "opening": [
-        388.0,
-        1188.0,
-        16.0,
-        24.0,
-        24.0,
-        22.0
-      ],
-      "internal_access": [
-        375.0,
-        1170.0,
-        36.0,
-        50.0,
-        60.0,
-        50.0
-      ],
-      "plug_access": [
-        375.0,
-        1170.0,
-        -65.0,
-        50.0,
-        60.0,
-        80.0
       ]
     }
   },

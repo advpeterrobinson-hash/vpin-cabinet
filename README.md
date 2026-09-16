@@ -107,4 +107,4 @@ No CNC files are approved for manufacturing yet. CNC release remains blocked on 
 
 Review outputs: `exports/generated/review/index.html`; FreeCAD presets: `tools/active_review.FCMacro`. Build tools: Python, FreeCADCmd, uv (matplotlib preview environment). See [audit evidence and unresolved engineering](docs/TAKEOVER_AUDIT_2026-09-16.md).
 
-Current review gate: [rear utility A/B comparison](docs/REAR_UTILITY_V26.md). Only mains/master disconnect and optional Ethernet remain; CPU door stays low. Both utility placements remain unselected and uncut pending owner visual review.
+Owner selected [two localized rear-face interfaces](docs/REAR_UTILITY_V26.md): mains/master disconnect and optional Ethernet or blank. CPU door stays low. Generic apertures are modeled; hardware measurements and CNC release remain blocked.

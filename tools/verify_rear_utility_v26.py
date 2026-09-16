@@ -39,29 +39,33 @@ def verify(doc,check):
     def member(option,function,kind):return shape('Utility'+option+function+kind+'V26')
     panel=shape('RearPanelWithCPUHatchV24');bottom=shape('CapturedBottomV20')
     check('no active decorative rear fascia or troubleshooting carrier',not any(doc.getObject(n) for n in ['RearPowerFasciaV09','RearServiceFasciaV09','RearServiceConnectorCarrierV09','RearPowerWindowGhostV09','RearServiceWindowGhostV09','RearMainsEnclosureGhostV09']))
-    expected_cuts={f'Utility{o}{f}OpeningV26' for o in ('A','B') for f in ('Mains','Ethernet')}
-    actual_cuts={o.Name for o in doc.Objects if getattr(o,'EngineeringRole','')=='CANDIDATE_CUT'}
-    check('only four intended utility candidate cut solids',actual_cuts==expected_cuts,sorted(actual_cuts))
+    expected_cuts={f'Utility{o}{f}OpeningV26' for o in ('A',) for f in ('Mains','Ethernet')}
+    actual_cuts={o.Name for o in doc.Objects if getattr(o,'EngineeringRole','')in ('UTILITY_CUT','CANDIDATE_CUT')}
+    check('only two localized utility cut solids',actual_cuts==expected_cuts,sorted(actual_cuts))
     check('only mains and optional Ethernet functions',c['permanent_functions']==['AC_MAINS_MASTER_DISCONNECT','OPTIONAL_ETHERNET'])
-    check('utility placement remains unselected',c['selected_architecture'] is None)
-    # Actual active panels must contain no utility machining while placement review is pending.
-    expected_rear=(576*596.9-340*240)*18
-    check('active rear panel has CPU hatch only / zero utility removal',abs(panel.Volume-expected_rear)<1e-4,panel.Volume)
+    check('selected rear face only; underside alternative absent',c['selected_architecture']=='A' and 'B' not in c and not any(o.Name.startswith(('UtilityB','UtilityCandidate')) for o in doc.Objects))
+    # Independently reconstruct approved rear wood; symmetric difference detects extra/missing cuts.
+    original=Part.makeBox(576,18,596.9,App.Vector(12,1290.1,0)).cut(Part.makeBox(340,22,240,App.Vector(130,1288.1,110)))
+    intended=original
+    for spec in ([60,1288.1,405,70,22,50],[518,1288.1,413,24,22,24]):
+        x,y,z,dx,dy,dz=spec
+        intended=intended.cut(Part.makeBox(dx,dy,dz,App.Vector(x,y,z)))
+    check('active rear panel has only approved localized apertures',panel.cut(intended).Volume+intended.cut(panel).Volume<1e-4)
     check('active bottom has zero utility removal',abs(bottom.Volume-576*1284.1*18)<1e-4,bottom.Volume)
     option_reports={}
     wood_names=[o.Name for o in doc.Objects if getattr(o,'EngineeringRole','')=='STRUCTURAL_WOOD']
     mechanical=[o.Name for o in doc.Objects if o.Name.startswith(('CPURailAngle','CPURailBacking','RearCPUFixedSlide','ClassicLegBracket','LegSpreader'))]
     fixed=[n for n in wood_names+mechanical if n not in ['RearCPUServiceDoorClosedV24']]
-    for option in ('A','B'):
+    for option in ('A',):
         cuts=[member(option,f,'Opening') for f in ('Mains','Ethernet')]
-        target=panel if option=='A' else bottom
-        preview=shape('Utility'+option+'PanelPreviewV26')
+        target=original
+        preview=panel
         bad=[(f,n) for f,s in zip(('Mains','Ethernet'),cuts) for n in protected if not clear(s,shape(n))]
         check(option+' utility openings clear bottom joint and rear leg reserves',not bad,bad)
         volumes=[target.common(s).Volume for s in cuts]
-        check(option+' candidate cuts actually cross intended panel',all(abs(v-e)<1e-4 for v,e in zip(volumes,[63000,10368])),volumes)
-        check(option+' cut preview subtracts only reserved apertures',abs(target.Volume-preview.Volume-sum(volumes))<1e-4)
-        check(option+' preview preserves valid connected panel',preview.isValid() and len(preview.Solids)==1)
+        check(option+' reserved cuts cross original rear panel',all(abs(v-e)<1e-4 for v,e in zip(volumes,[63000,10368])),volumes)
+        check(option+' active panel subtracts only reserved apertures',abs(target.Volume-preview.Volume-sum(volumes))<1e-4)
+        check(option+' active panel preserves valid connected panel',preview.isValid() and len(preview.Solids)==1)
         sep=member(option,'Mains','Carrier').distToShape(member(option,'Ethernet','Carrier'))[0]
         innersep=member(option,'Mains','Enclosure').distToShape(member(option,'Ethernet','InternalAccess'))[0]
         check(option+' mains/signal carriers and internal access separated',min(sep,innersep)>=c['minimum_mains_signal_gap_mm'],dict(exterior_mm=sep,internal_mm=innersep))
@@ -85,7 +89,7 @@ def verify(doc,check):
             for f,k in [('Mains','Enclosure'),('Ethernet','InternalAccess'),('Mains','Carrier'),('Ethernet','Carrier'),('Mains','PlugAccess'),('Ethernet','PlugAccess')]:
                 if not clear(swept,member(option,f,k)):bad.append((n,f+k))
         check(option+' PC swept service volume clear',not bad,bad)
-        option_reports[option]=dict(candidate_removal_mm3=sum(volumes),candidate_area_mm2=sum(volumes)/18,exterior_separation_mm=sep,internal_separation_mm=innersep,active_removal_mm3=0)
+        option_reports[option]=dict(candidate_removal_mm3=sum(volumes),candidate_area_mm2=sum(volumes)/18,exterior_separation_mm=sep,internal_separation_mm=innersep,active_removal_mm3=original.Volume-panel.Volume)
     # A structural connection claim must include actual contact, not a floating rail label.
     rail_leg_distances={}
     for side in ('Left','Right'):

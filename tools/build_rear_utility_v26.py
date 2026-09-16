@@ -1,6 +1,4 @@
-"""Two unselected utility studies, grounded in actual active solid geometry.
-All candidate cut volumes are review-only. Neither permanent panel is modified.
-"""
+"""Selected small rear-face interfaces; component drill patterns remain blocked."""
 import json
 from pathlib import Path
 import FreeCAD as App
@@ -15,7 +13,7 @@ def add(doc,group,name,shape,role,label):
     o=doc.addObject('PartDesign::Feature',name);o.Shape=shape;o.Label=label
     group.addObject(o)
     o.addProperty('App::PropertyString','EngineeringRole');o.EngineeringRole=role
-    o.addProperty('App::PropertyString','ReleaseStatus');o.ReleaseStatus='REVIEW ONLY / PLACEMENT NOT SELECTED / HOLES BLOCKED'
+    o.addProperty('App::PropertyString','ReleaseStatus');o.ReleaseStatus='OWNER SELECTED A / COMPONENT PATTERNS AND CNC RELEASE BLOCKED'
     return o
 
 def main(doc):
@@ -31,15 +29,16 @@ def main(doc):
     margin=c['joint_margin_mm'];inner=box([18+margin,18+margin,bottom.ZMin-1,564-2*margin,1272.1-2*margin,bottom.ZLength+2])
     protect=box([0,0,bottom.ZMin-1,600,1308.1,bottom.ZLength+2]).cut(inner)
     add(doc,protection,'BottomJointKeepoutV26',protect,'PROTECTED_LOAD_PATH','BOTTOM CAPTURE / edge material + 20 mm no-cut margin')
-    for option in ['A','B']:
-        group=doc.addObject('App::Part','UtilityCandidate'+option+'V26');group.Label='REVIEW OPTION '+option+' / NOT SELECTED'
+    for option in ['A']:
+        group=doc.addObject('App::Part','ActiveRearUtility'+option+'V26');group.Label='SELECTED REAR FACE / two localized replaceable interfaces'
         for function in ['mains','ethernet']:
             for kind,spec in c[option][function].items():
-                role={'carrier':'REMOVABLE_ADAPTER','opening':'CANDIDATE_CUT','enclosure':'ELECTRONICS_ZONE','internal_access':'ELECTRONICS_ZONE','plug_access':'ACCESS_ZONE'}[kind]
+                role={'carrier':'REMOVABLE_ADAPTER','opening':'UTILITY_CUT','enclosure':'ELECTRONICS_ZONE','internal_access':'ELECTRONICS_ZONE','plug_access':'ACCESS_ZONE'}[kind]
                 name='Utility'+option+function.title()+''.join(s.title() for s in kind.split('_'))+'V26'
                 add(doc,group,name,box(spec),role,option+' '+function.upper()+' '+kind+' / dimensions provisional')
         target='RearPanelWithCPUHatchV24' if option=='A' else 'CapturedBottomV20'
         original=doc.getObject(target).Shape
         cut=original
         for function in ['Mains','Ethernet']:cut=cut.cut(doc.getObject('Utility'+option+function+'OpeningV26').Shape)
-        add(doc,group,'Utility'+option+'PanelPreviewV26',cut,'REVIEW_PANEL','OPTION '+option+' PANEL WITH CANDIDATE CUTS / NOT ACTIVE WOOD')
+        doc.getObject(target).Shape=cut
+        doc.getObject(target).Label='Rear panel / CPU hatch + two localized utility apertures / CNC RELEASE BLOCKED'
