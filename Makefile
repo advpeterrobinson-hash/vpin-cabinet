@@ -4,7 +4,7 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-structure open-master build-shell-v02 build-structure-v14 build-playfield-pivot-v15 build-playfield-mechanics-v18 build-playfield-fixed-anchors-v19 build-cabinet-structure-v20 audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-structure open-master build-shell-v02 build-structure-v14 build-playfield-pivot-v15 build-playfield-mechanics-v18 build-playfield-fixed-anchors-v19 build-cabinet-structure-v20 generate-cnc-coupon audit-reference status
 
 help:
 	@printf '%s\n' \
@@ -33,6 +33,7 @@ help:
 	  '  make build-playfield-mechanics-v18 Build current structure then integrated playfield mechanics' \
 	  '  make build-playfield-fixed-anchors-v19 Build v0.18 mechanics then fixed sidewall support/anchor zones' \
 	  '  make build-cabinet-structure-v20 Build current mechanics then cabinet joinery/legs/PC/glass package' \
+	  '  make generate-cnc-coupon       Generate nominal CNC coupon under .work; pass measured values directly to script for production test' \
 	  '  make audit-reference           Run reference audit (if local reference copy exists)' \
 	  '  make status                    Show concise Git state'
 
@@ -111,6 +112,9 @@ build-playfield-fixed-anchors-v19:
 
 build-cabinet-structure-v20:
 	bash tools/run_cabinet_structure_v20.sh
+
+generate-cnc-coupon:
+	$(PYTHON) tools/generate_cnc_coupon_v20.py
 
 audit-reference:
 	@test -f .work/audit/reference-master.FCStd || \
