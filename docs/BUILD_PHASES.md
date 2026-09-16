@@ -14,6 +14,7 @@ Before ordering production CNC wood, confirm:
 - backbox hinge/pivot hardware geometry;
 - actual classic pinball leg and compact steel leg-bracket geometry;
 - playfield UCFL202 bearing geometry;
+- actual 300 mm-class PC slide thickness/travel/hole pattern;
 - lockdown/siderail fabrication concept;
 - playfield/backglass display service envelopes;
 - rear service-door/lock geometry;
@@ -45,7 +46,7 @@ Deliverables at phase end:
 - main cabinet assembled and square;
 - nominal 600 mm body geometry verified;
 - captured bottom/front/rear/crossmember joinery proven;
-- **no bulky permanent plywood leg-corner blocks installed by default**;
+- no bulky permanent plywood leg-corner blocks installed by default;
 - backbox shell assembled and lockable;
 - rear shelf/backbox floor matched interface complete;
 - CNC-located cable passports/fan/service openings present;
@@ -66,19 +67,19 @@ Buy/install:
 - playfield pivot hardware including actual UCFL202 pair;
 - positive playfield safety-stay hardware;
 - closed-position support/latch hardware;
-- compact PC-sled locator/retainer hardware.
+- actual simple **300 mm-class PC slide pair** and one simple positive stowed shelf retainer.
 
 Do **not** buy final gas struts yet unless the final display/cradle mass and CG are already known.
 
 Deliverables at phase end:
 
 - cabinet stands safely on classic legs and levelers;
-- leg/bracket corner proof test passes without requiring oversized wooden corner furniture;
+- leg/bracket corner proof test passes without oversized wooden corner furniture;
 - PinSkates can be attached/removed without modifying the cabinet and are removed for play;
 - backbox folds and locks upright correctly;
 - playfield cradle opens and positively supports service position;
 - closed playfield position positively lands/latches;
-- lift-out PC sled locates securely, releases from above and supports the 25 kg proof-test payload;
+- flat PC shelf slides 300 mm internally, remains inside the cabinet, positively retains in the stowed position and passes the 20 kg proof test;
 - lockdown/siderail/glass mockup interfaces are proven.
 
 ## Phase 3 — Displays and glazing
@@ -110,11 +111,11 @@ Deliverables at phase end:
 Buy/install:
 
 - selected open ATX chassis/test-bench frame;
-- replaceable lift-out sled adapter;
-- quick-disconnect PC service harness/connectors;
+- shelf-to-case mounting bolts/spacers as required by the actual case;
+- PC service-loop harness/connectors;
 - GPU restraint if needed for mechanical fit.
 
-The PC itself may remain electrically incomplete. This phase proves that the selected chassis fits the **top-access lift-out service sled** and can be removed vertically with the playfield raised. No front service opening or long drawer-slide mechanism is required.
+The PC itself may remain electrically incomplete. The open case bolts **directly to the flat sliding shelf**. There is no second sled. This phase proves the actual case mounting pattern, full 300 mm internal travel, connector/cable clearances and removal workflow through the raised playfield opening.
 
 ## PHASE GATE — STRUCTURE READY
 
@@ -131,7 +132,7 @@ Structure-ready requires:
 7. playfield cradle/pivot/safety stays/closed latches proven;
 8. final display adapter and gas-strut specification validated with actual display;
 9. backglass/DMD carriage envelopes proven;
-10. lift-out PC sled, retainers and chassis adapter proven;
+10. simple sliding PC shelf, stowed retainer and direct-mounted open case proven;
 11. fan/vent/cable-passport/raceway geometry present;
 12. SSF and toy zones remain available;
 13. central cabinet service volume remains accessible rather than filled with fixed furniture;
