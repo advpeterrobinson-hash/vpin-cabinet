@@ -1,0 +1,129 @@
+{
+  "status": "engineering-selected-packaging",
+  "manufacturing_ready": false,
+  "depends_on": [
+    "config/design.json",
+    "config/playfield_mechanics_v18.json"
+  ],
+  "cabinet": {
+    "outer_width_mm": 600.0,
+    "side_length_mm": 1308.1,
+    "front_height_mm": 400.05,
+    "rear_height_mm": 596.9,
+    "rear_top_flat_mm": 180.975,
+    "nominal_wood_mm": 18.0,
+    "full_thickness_inner_width_mm": 564.0,
+    "inner_length_between_end_panels_mm": 1272.1
+  },
+  "cnc_joinery": {
+    "philosophy": "captured flat-pack joinery with CNC-located dados/rabbets and no builder freehand structural alignment",
+    "nominal_dado_depth_mm": 6.0,
+    "nominal_joint_clearance_mm": 0.2,
+    "bottom_panel_bottom_z_mm": 18.0,
+    "bottom_panel_thickness_mm": 18.0,
+    "bottom_blank_width_mm": 576.0,
+    "bottom_blank_length_mm": 1284.1,
+    "front_rear_blank_width_mm": 576.0,
+    "crossmember_blank_width_mm": 576.0,
+    "crossmember_thickness_y_mm": 18.0,
+    "crossmember_height_z_mm": 80.0,
+    "crossmember_y_mm": [260.0, 650.0, 1040.0],
+    "crossmember_bottom_z_mm": 36.0,
+    "internal_corner_tool_radius_mm": 3.0,
+    "square_tab_relief_policy": "use tool-radius-compatible shoulders or explicit dogbones only where required; no cosmetic-edge dogbones",
+    "production_rule": "all groove widths and mating-tab values are regenerated from measured plywood thickness and the Cutter CNC tolerance coupon before release"
+  },
+  "leg_reinforcement": {
+    "corner_count": 4,
+    "side_doubler_thickness_mm": 18.0,
+    "side_doubler_length_y_mm": 220.0,
+    "side_doubler_height_z_mm": 240.0,
+    "end_doubler_thickness_mm": 18.0,
+    "end_doubler_width_x_mm": 160.0,
+    "end_doubler_height_z_mm": 240.0,
+    "doubler_bottom_z_mm": 18.0,
+    "local_wood_target_mm": 36.0,
+    "steel_leg_bracket_required": true,
+    "through_bolts_required": true,
+    "exact_leg_holes_status": "BLOCKED until actual leg/bracket hardware is selected and measured",
+    "wheel_keepout_each_corner_mm": [110.0, 110.0, 90.0],
+    "rule": "leg and retractable-wheel loads are backed by local plywood reinforcement and metal hardware; playing load remains on levelers"
+  },
+  "pc_drawer": {
+    "architecture": "internal fore-aft service drawer; service with playfield raised; tray remains inside cabinet during slide travel and lifts out after slide release",
+    "tray_width_x_mm": 470.0,
+    "tray_depth_y_mm": 400.0,
+    "tray_thickness_z_mm": 18.0,
+    "tray_x_mm": 65.0,
+    "tray_stowed_y_mm": 690.0,
+    "tray_service_y_mm": 220.0,
+    "tray_z_mm": 165.0,
+    "service_envelope_height_mm": 230.0,
+    "slide_travel_mm": 470.0,
+    "preferred_slide_class_mm": 500.0,
+    "minimum_slide_pair_rating_kg": 45.0,
+    "proof_test_payload_kg": 25.0,
+    "locking_open_and_closed_required": true,
+    "disconnect_or_removal_feature_required": true,
+    "fixed_subrail_thickness_x_mm": 18.0,
+    "fixed_subrail_length_y_mm": 530.0,
+    "fixed_subrail_height_z_mm": 110.0,
+    "left_subrail_x_mm": 47.0,
+    "right_subrail_x_mm": 535.0,
+    "subrail_y_mm": 610.0,
+    "subrail_z_mm": 70.0,
+    "fixed_load_path": "drawer subrails tie into low crossmembers/bottom structure and are not screwed only into SSF-active sidewall skins",
+    "exact_slide_holes_status": "BLOCKED until the selected physical slide pair is measured"
+  },
+  "ssf_keepouts": {
+    "sidewall_exciter_zones_each_side": [
+      {"name": "front", "y_mm": [280.0, 480.0], "z_mm": [180.0, 340.0]},
+      {"name": "rear", "y_mm": [850.0, 1050.0], "z_mm": [260.0, 450.0]}
+    ],
+    "rule": "do not rigidly bridge left/right sidewalls across these zones with broad shelves; drawer subrails use independent crossmember/bottom load paths"
+  },
+  "playfield_glass": {
+    "role": "metric custom-cut local tempered-glass packaging target; final size follows siderail/lockdown prototype",
+    "width_mm": 575.0,
+    "length_mm": 1100.0,
+    "thickness_mm": 5.0,
+    "front_y_mm": 20.0,
+    "rear_y_mm": 1120.0,
+    "side_cover_each_side_mm": 12.5,
+    "tempered_required": true,
+    "edge_finish": "arrissed/polished safe edges",
+    "purchase_status": "DO NOT ORDER until siderail and lockdown interfaces are proof-fitted"
+  },
+  "siderails": {
+    "quantity": 2,
+    "local_fabrication_allowed": true,
+    "packaging_length_y_mm": 1120.0,
+    "top_flange_width_x_mm": 32.0,
+    "nominal_sheet_thickness_mm": 2.0,
+    "glass_edge_capture_target_mm": 12.5,
+    "exact_profile_status": "TBD after metal-shop consultation and glass mockup",
+    "rule": "siderails retain/protect glass edges but are not relied upon as the sole cabinet structural tie"
+  },
+  "lockdown": {
+    "custom_width_required": true,
+    "outer_width_mm": 600.0,
+    "packaging_depth_y_mm": 90.0,
+    "packaging_height_z_mm": 35.0,
+    "receiver_keepout_width_x_mm": 500.0,
+    "receiver_keepout_depth_y_mm": 35.0,
+    "receiver_keepout_height_z_mm": 65.0,
+    "positive_latch_required": true,
+    "local_fabrication_allowed": true,
+    "exact_receiver_holes_status": "BLOCKED until final lockdown/receiver concept is fabricated or selected",
+    "rule": "lockdown assembly positively retains the glass front and remains removable with ordinary service tools"
+  },
+  "manufacturing_gates": {
+    "measured_plywood_thickness_required": true,
+    "cnc_tolerance_coupon_required": true,
+    "actual_leg_hardware_required_before_holes": true,
+    "actual_pc_slides_required_before_holes": true,
+    "lockdown_siderail_glass_mockup_required": true,
+    "physical_dry_fit_required": true,
+    "cnc_release_allowed": false
+  }
+}
