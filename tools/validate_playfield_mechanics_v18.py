@@ -33,11 +33,60 @@ def main() -> int:
     moving_mass = float(disp["mass_limit_kg"]) + float(cradle["estimated_cradle_mass_kg"])
     screening_each_side = moving_mass * 9.81 * float(loads["dynamic_factor_screening"]) / 2.0
 
+    slope_run = float(cab["side_length_mm"]) - float(cab["rear_top_flat_mm"])
+    slope_rise = float(cab["rear_height_mm"]) - float(cab["front_height_mm"])
+    alpha = math.atan2(slope_rise, slope_run)
+    slope = math.degrees(alpha)
+
+    # Conservative front-panel clearance for the sloped 55 mm display envelope.
+    # The top/front corner moves forward by depth*sin(slope), so checking only the
+    # nominal setback would miss an overlap with the 18 mm front panel.
+    front_setback = float(disp["front_setback_mm"])
+    display_depth = float(disp["depth_mm"])
+    front_panel_clearance = front_setback - display_depth * math.sin(alpha) - wood
+    minimum_front_clearance = float(disp["minimum_clearance_behind_front_panel_mm"])
+
+    # Reproduce the Y/Z kinematics used by the FreeCAD builder so the packaging
+    # safety stay cannot regress into a near-vertical prop. This is still not a
+    # final stay drawing; it only enforces useful triangular bracing at 70 deg.
+    def top_z(y: float) -> float:
+        if y <= slope_run:
+            return float(cab["front_height_mm"]) + slope_rise * (y / slope_run)
+        return float(cab["rear_height_mm"])
+
+    base_z = top_z(front_setback) - float(disp["glass_clearance_normal_mm"]) - display_depth * math.cos(alpha)
+
+    def transform_yz(y: float, z: float) -> tuple[float, float]:
+        yy = y * math.cos(alpha) - z * math.sin(alpha) + front_setback
+        zz = y * math.sin(alpha) + z * math.cos(alpha) + base_z
+        return yy, zz
+
+    hinge_local_y = float(hinge["local_y_from_display_front_mm"])
+    hinge_local_z = float(hinge["local_z_from_display_base_mm"])
+    hinge_y, hinge_z = transform_yz(hinge_local_y, hinge_local_z)
+    stay_fixed_y = hinge_y - float(stays["fixed_mount_forward_from_hinge_mm"])
+    stay_fixed_z = hinge_z - float(stays["fixed_mount_below_hinge_mm"])
+    moving_closed_y, moving_closed_z = transform_yz(
+        hinge_local_y - float(stays["moving_mount_forward_from_hinge_mm"]),
+        float(stays["moving_mount_local_z_mm"]),
+    )
+    theta = math.radians(-float(hinge["relative_service_open_angle_deg"]))
+    dy = moving_closed_y - hinge_y
+    dz = moving_closed_z - hinge_z
+    moving_open_y = hinge_y + dy * math.cos(theta) - dz * math.sin(theta)
+    moving_open_z = hinge_z + dy * math.sin(theta) + dz * math.cos(theta)
+    stay_dy = moving_open_y - stay_fixed_y
+    stay_dz = moving_open_z - stay_fixed_z
+    stay_angle = math.degrees(math.atan2(abs(stay_dz), abs(stay_dy)))
+    stay_length = math.hypot(stay_dy, stay_dz)
+    stay_angle_min, stay_angle_max = [float(v) for v in stays["target_open_stay_angle_from_cabinet_y_deg"]]
+
     checks: list[tuple[str, bool, str]] = []
     checks.append(("600 mm cabinet baseline", abs(outer - 600.0) <= 0.01, f"{outer:.1f} mm"))
     checks.append(("config follows active design width", abs(outer - float(design["cabinet"]["outer_width_mm"])) <= 0.01, f"design={design['cabinet']['outer_width_mm']} mm"))
     checks.append(("full-thickness inner width", abs(inner - float(cab["full_thickness_inner_width_mm"])) <= 0.01, f"{inner:.1f} mm"))
     checks.append(("display envelope needs no side pockets", required_cross <= inner + 1e-6, f"required {required_cross:.1f} / inner {inner:.1f} mm"))
+    checks.append(("display clears front panel in closed position", front_panel_clearance >= minimum_front_clearance, f"{front_panel_clearance:.1f} mm >= {minimum_front_clearance:.1f} mm"))
     checks.append(("display model remains open", design["playfield_display"]["exact_model"] is None, str(design["playfield_display"]["exact_model"])))
     checks.append(("primary cradle remains plywood", "plywood" in cradle["primary_material"].lower(), cradle["primary_material"]))
     checks.append(("two structural side rails", int(cradle["side_rail_count"]) == 2, str(cradle["side_rail_count"])))
@@ -53,6 +102,7 @@ def main() -> int:
     checks.append(("dual gas struts", int(gs["count"]) == 2, str(gs["count"])))
     checks.append(("gas struts assist only", bool(gs["assist_only"]) and gs["purchase_ready"] is False, "assist only / not purchase-ready"))
     checks.append(("dual independent safety stays", int(stays["count"]) == 2 and bool(stays["independent_of_gas_struts"]) and bool(stays["positive_lock_required"]), f"count={stays['count']}"))
+    checks.append(("open safety-stay triangulation", stay_angle_min <= stay_angle <= stay_angle_max, f"{stay_angle:.1f} deg; target {stay_angle_min:.0f}..{stay_angle_max:.0f}"))
     checks.append(("two closed structural pads", int(closed["structural_pad_count"]) == 2, str(closed["structural_pad_count"])))
     checks.append(("two positive closed latches", int(closed["positive_latch_count"]) == 2, str(closed["positive_latch_count"])))
     checks.append(("moving harness loop >=300 mm", float(harness["service_loop_minimum_length_mm"]) >= 300.0, f"{harness['service_loop_minimum_length_mm']} mm"))
@@ -68,11 +118,11 @@ def main() -> int:
         print(f"{'PASS' if passed else 'FAIL':4}  {name:<49} {detail}")
         ok = ok and passed
 
-    slope_run = float(cab["side_length_mm"]) - float(cab["rear_top_flat_mm"])
-    slope_rise = float(cab["rear_height_mm"]) - float(cab["front_height_mm"])
-    slope = math.degrees(math.atan2(slope_rise, slope_run))
     print()
     print(f"Cabinet slope                       {slope:.3f} deg")
+    print(f"Display/front-panel clearance       {front_panel_clearance:.1f} mm")
+    print(f"Open safety-stay angle              {stay_angle:.1f} deg")
+    print(f"Open safety-stay length             {stay_length:.1f} mm")
     print(f"Moving mass design                  {moving_mass:.1f} kg")
     print(f"Simple dynamic gravity split        {screening_each_side:.0f} N/side")
     print(f"Pivot packaging design load         {float(loads['pivot_radial_design_load_each_side_n']):.0f} N/side")
