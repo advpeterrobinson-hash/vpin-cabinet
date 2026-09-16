@@ -1,0 +1,3 @@
+import build_playfield_fixed_anchors_v19
+
+build_playfield_fixed_anchors_v19.main()

@@ -111,13 +111,13 @@
   "closed_support": {
     "structural_pad_count": 2,
     "positive_latch_count": 2,
-    "pad_size_mm": [50.0, 50.0, 10.0],
-    "pad_center_x_mm": [75.0, 525.0],
+    "pad_size_mm": [36.0, 50.0, 10.0],
+    "pad_center_x_mm": [49.0, 551.0],
     "pad_front_y_mm": 95.0,
     "latch_keepout_size_mm": [40.0, 70.0, 55.0],
-    "latch_x_mm": [28.0, 532.0],
+    "latch_x_mm": [18.0, 542.0],
     "latch_front_y_mm": 125.0,
-    "rule": "closed play position rests on structural pads and is positively restrained; pivot and gas springs do not carry bounce/nudge loads alone"
+    "rule": "closed play position rests directly under the two cradle side rails on fixed sidewall-supported seats and is positively restrained; pivot and gas springs do not carry bounce/nudge loads alone"
   },
   "moving_harness": {
     "service_loop_minimum_length_mm": 300.0,
