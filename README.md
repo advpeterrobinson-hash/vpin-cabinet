@@ -1,6 +1,6 @@
 # Virtual Pinball Cabinet
 
-Parametric CNC-ready virtual pinball cabinet inspired by Williams WPC proportions, with deliberate future-proofing for replaceable electronics and apartment-friendly flat-pack assembly.
+Parametric CNC flat-pack engineering for a virtual pinball cabinet inspired by Williams WPC proportions, with deliberate future-proofing for replaceable electronics and apartment-friendly flat-pack assembly.
 
 ## Current product goal
 
@@ -20,7 +20,7 @@ The home builder should mainly:
 
 Freehand structural layout is not the normal release workflow.
 
-See `docs/SIMPLIFICATION_V25.md` and `bom/HARDWARE_FREEZE_V25.csv`.
+See [active BOM guidance](bom/README.md), `docs/SIMPLIFICATION_V25.md` and `bom/HARDWARE_FREEZE_V25.csv`.
 
 ## Active design
 
@@ -68,10 +68,12 @@ A production release is blocked until every `MEASURE_BEFORE_CNC` item that contr
 make doctor
 make validate
 make build-current
-freecad cad/master/vpin-master.FCStd
+make open-master
 ```
 
-`make build-current` rebuilds the current mechanical package and then prunes superseded comparison geometry from the generated FreeCAD master.
+`make build-current` generates a fresh active document from configs/builders, then reopens it for solid and service-clearance checks. It never reads or edits the historical working master.
+
+Start with [the active engineering baseline](docs/ACTIVE_ENGINEERING.md), [part decisions](bom/ACTIVE_PARTS.csv), and [hardware gates](bom/HARDWARE_FREEZE_V25.csv).
 
 Historical experiments remain available through Git history but are not part of the normal workflow.
 
@@ -102,3 +104,5 @@ The playfield display is carried by its independent cradle. Gas struts are lift 
 Engineering / parametric-CAD development.
 
 No CNC files are approved for manufacturing yet. CNC release remains blocked on measured stock, the physical tolerance coupon, Cutter CNC conventions, hardware freeze, local FreeCAD geometry validation, dry fit and proof testing.
+
+Review outputs: `exports/generated/review/index.html`; FreeCAD presets: `tools/active_review.FCMacro`. Build tools: Python, FreeCADCmd, uv (matplotlib preview environment). See [audit evidence and unresolved engineering](docs/TAKEOVER_AUDIT_2026-09-16.md).

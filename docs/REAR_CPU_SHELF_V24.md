@@ -10,17 +10,16 @@ Workflow:
 
 1. stand behind the machine;
 2. isolate cabinet power;
-3. open the dedicated rear PC service door **outward**;
+3. open the dedicated rear PC service door;
 4. release one simple stowed retainer;
-5. unplug/dress ordinary PC cables as required for the desired extraction distance;
-6. pull the PC shelf straight rearward on full-extension slides;
-7. service RAM / SSD / GPU / cabling with the open case substantially outside the cabinet;
-8. push shelf back in and positively retain it;
-9. close/lock rear service door.
+5. pull the PC shelf straight rearward on full-extension slides;
+6. service RAM / SSD / GPU / cabling with the open case substantially outside the cabinet;
+7. push shelf back in and positively retain it;
+8. close/lock rear service door.
 
 ## Commercial architecture reference
 
-The PinballCabinet.com rear CPU shelf is used only as a design-pattern reference. Its published package is a 14 x 16 inch shelf with two 16 inch 3-section full-extension side-mount ball-bearing slides rated 100 lb, plus simple base/side boards.
+The PinballCabinet.com rear CPU shelf supplies the architecture lesson: a rear door, one board and two slides. No proprietary geometry is copied.
 
 The project does **not** copy those dimensions because the owner's open-case reference is approximately 440 x 265 x 128 mm.
 
@@ -32,17 +31,16 @@ Rotate the owner's open case 90 degrees in plan:
 - 440 mm fore-aft Y;
 - 128 mm high Z.
 
+This lets the shelf be narrow across the cabinet and long in the pull direction, matching the conventional rear CPU-shelf architecture.
+
 Nominal engineering shelf:
 
 - 285 mm wide;
 - 460 mm deep;
 - 18 mm plywood;
-- 10 mm nominal case margin on every plan edge;
-- shelf plane at Z 135 mm.
+- 10 mm nominal case margin on every plan edge.
 
-## Rear hatch — lowered layout
-
-The original Z 180 mm hatch was visually and spatially too high. The active package moves the entire door/shelf system **70 mm downward**, preserving the same useful internal clearance while freeing the upper rear-cabinet volume for other equipment.
+## Rear hatch
 
 Nominal clear aperture:
 
@@ -51,17 +49,16 @@ Nominal clear aperture:
 - centered at X 130..470 mm;
 - Z 110..350 mm.
 
+This is intentionally much narrower than the v0.23 520 mm aperture, preserving more rear-panel structure.
+
 Door target:
 
 - 364 x 264 x 15 mm panel;
-- bottom Z 98 mm;
-- 12 mm overlap each edge;
+- 12 mm overlap each edge; door bottom Z98; shelf bottom Z135;
 - left-side hinge as viewed from rear;
-- **opens outward / behind cabinet** approximately 105 degrees;
+- outward opening;
 - gasket;
 - keyed/tool-controlled compression or quarter-turn latch.
-
-The rear power/service fascias are correspondingly compressed into a low utility strip ending at approximately Z 85 mm, leaving a nominal 13 mm physical gap below the door panel.
 
 ## Slide system
 
@@ -72,17 +69,6 @@ The shelf stows at Y 830..1290 mm and travels 450 mm rearward to Y 1280..1740 mm
 The fixed slide members mount to two narrow local support rails. These rails are not broad shelves and do not fill the cabinet center.
 
 Exact slide thickness, hole pattern and extension are blocked until the physical pair is purchased and measured.
-
-## Cabling simplification
-
-There is **no dedicated rear-CPU harness or modeled 600 mm cable-loop assembly** in the active design.
-
-The simpler service rule is:
-
-- cabinet power isolated before PC service;
-- ordinary PC cables dressed with reasonable slack;
-- unplug cables as needed before full shelf extraction;
-- no permanent harness structure consuming cabinet volume.
 
 ## Electrical safety
 
@@ -98,5 +84,7 @@ Do not release rear-panel CNC geometry until:
 - actual rear-door hinge/latch hardware is known;
 - actual slide pair is measured;
 - actual open case is measured;
-- compact rear utility-strip hardware is measured;
+- ordinary cable dressing/disconnection is physically proven;
 - rear-panel/hatch stiffness is proof-tested.
+
+See ACTIVE_ENGINEERING.md for the source pipeline, exact exterior-plane accessibility and unresolved utility/load-path gates.

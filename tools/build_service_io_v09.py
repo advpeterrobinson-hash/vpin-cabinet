@@ -13,7 +13,7 @@ import os
 import FreeCAD as App
 import Part
 
-ROOT = os.path.expanduser("~/Projetos/vpin-cabinet")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MASTER = os.path.join(ROOT, "cad/master/vpin-master.FCStd")
 DESIGN = os.path.join(ROOT, "config/design.json")
 IOCFG = os.path.join(ROOT, "config/service_io_v08.json")

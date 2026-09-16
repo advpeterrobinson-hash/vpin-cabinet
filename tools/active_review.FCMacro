@@ -3,7 +3,7 @@ import os
 import FreeCAD as App
 import FreeCADGui as Gui
 from PySide import QtWidgets
-root=os.path.expanduser('~/Projetos/vpin-cabinet')
+root=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 doc=App.openDocument(root+'/cad/active/vpin-active.FCStd')
 def show(mode):
     for o in doc.Objects:

@@ -74,24 +74,16 @@ Requirements:
 
 ## PC
 
-- Open ATX test-bench/mining-style metal chassis
-- Owner reference chassis size: approximately **440 x 265 x 128 mm**
-- Routine PC maintenance is performed from the **rear of the pinball cabinet** through a dedicated main-cabinet rear service door
-- The playfield **must not need to be opened** just to replace RAM, SSDs, service cables, inspect the GPU, or perform ordinary PC work
-- Rear service aperture engineering target: approximately **520 x 280 mm**, above the low rear I/O zones and above the compact rear leg-bracket envelope
-- Open PC case bolts **directly to one small flat plywood shelf**, nominally **460 x 285 x 18 mm**
-- No drawer box and no second removable sled
-- Two simple **300 mm-class full-extension slides/telescopic rails** move the shelf **rearward**, through the rear service door and behind the machine
-- Stowed shelf target: Y approximately 1005..1290 mm
-- Rear service shelf target: Y approximately 1305..1590 mm
-- One simple positive stowed retainer prevents movement/rattle during nudge and DOF operation
-- Because the shelf is case-sized rather than full-cabinet-width, compact replaceable spacer rails are permitted between cabinet walls and the slide pair
-- Actual slide holes, spacer stack and open-case mounting holes remain blocked until physical hardware is measured
-- PC harnesses reserve at least **450 mm** protected rearward service-loop length
-- Complete shelf/case removal is from the rear using the slide disconnect/release hardware if supplied
-- PC mechanically isolated from force-feedback structure
-- Shelf proof-test target: 20 kg; slide-pair rating target >=30 kg
-- Rear PC service door/frame must not expose bare mains terminals; cabinet power is isolated before PC hardware service
+- Rear-only routine service with playfield closed; isolate mains first.
+- Purchased open case: 265 X × 440 Y × 128 Z mm; mounting points unmeasured.
+- One replaceable 285 × 460 × 18 mm board at Z135; case bolted directly to it.
+- Two 450 mm-class full-extension side-mount slides; ≥30 kg pair rating; 20 kg proof payload.
+- Shelf stowed Y830..1290; extended Y1280..1740; no second sled or drawer box.
+- Rear clear aperture X130..470 / Z110..350; overlapping door Z98..362 opens outward 105°.
+- Compact support rails; their cabinet attachments require load-path detailing and proof testing.
+- One positive stowed retainer. Actual slides, case holes, door hinge/latch and retainer determine CNC patterns.
+- Ordinary PC cables dressed/disconnected as needed; no dedicated CPU harness ghost/mechanism.
+- Separate touch-safe mains enclosure; no bare terminals behind the rear service door.
 
 ## Playfield glass / siderails / lockdown
 

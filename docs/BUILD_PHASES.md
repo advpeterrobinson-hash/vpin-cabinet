@@ -14,7 +14,7 @@ Before ordering production CNC wood, confirm:
 - backbox hinge/pivot hardware geometry;
 - actual classic pinball leg and compact steel leg-bracket geometry;
 - playfield UCFL202 bearing geometry;
-- actual 300 mm-class rear PC slide thickness/travel/hole pattern;
+- actual 450 mm-class rear PC slide thickness/travel/hole pattern;
 - rear PC service-door hinge/latch/frame geometry;
 - lockdown/siderail fabrication concept;
 - playfield/backglass display service envelopes;
@@ -71,7 +71,7 @@ Buy/install:
 - playfield pivot hardware including actual UCFL202 pair;
 - positive playfield safety-stay hardware;
 - closed-position support/latch hardware;
-- actual simple **300 mm-class rear PC slide pair** and one simple positive stowed shelf retainer;
+- actual simple **450 mm-class rear PC slide pair** and one simple positive stowed shelf retainer;
 - rear PC door hinge/latch/gasket hardware.
 
 Do **not** buy final gas struts yet unless the final display/cradle mass and CG are already known.
@@ -85,7 +85,7 @@ Deliverables at phase end:
 - playfield cradle opens and positively supports service position;
 - closed playfield position positively lands/latches;
 - rear PC service door opens from behind the machine without interference;
-- small flat PC shelf slides **300 mm rearward through the backdoor**, positively retains when stowed and passes the 20 kg proof test;
+- small flat PC shelf slides **450 mm rearward through the backdoor**, positively retains when stowed and passes the 20 kg proof test;
 - lockdown/siderail/glass mockup interfaces are proven.
 
 ## Phase 3 — Displays and glazing
@@ -118,10 +118,10 @@ Buy/install:
 
 - selected open ATX chassis/test-bench frame;
 - shelf-to-case mounting bolts/spacers as required by the actual case;
-- rearward PC service-loop harness/connectors;
+- ordinary dressed PC cables/connectors;
 - GPU restraint if needed for mechanical fit.
 
-The PC itself may remain electrically incomplete. The open case bolts **directly to the small rear pull-out shelf**. There is no second sled. This phase proves the actual case mounting pattern, full 300 mm **rearward** travel, connector/cable clearances and complete removal from behind the machine.
+The PC itself may remain electrically incomplete. The open case bolts **directly to the small rear pull-out shelf**. There is no second sled. This phase proves the actual case mounting pattern, full 450 mm **rearward** travel, connector/cable clearances and complete removal from behind the machine.
 
 Routine PC service must be possible without opening the playfield.
 
@@ -141,7 +141,7 @@ Structure-ready requires:
 8. playfield cradle/pivot/safety stays/closed latches proven;
 9. final display adapter and gas-strut specification validated with actual display;
 10. backglass/DMD carriage envelopes proven;
-11. rear PC shelf, stowed retainer, direct-mounted open case and 450 mm service-loop harness proven;
+11. rear PC shelf, stowed retainer, direct-mounted open case and ordinary cable disconnection/dressing proven;
 12. fan/vent/cable-passport/raceway geometry present;
 13. SSF and toy zones remain available;
 14. central cabinet service volume remains accessible rather than filled with fixed furniture;
