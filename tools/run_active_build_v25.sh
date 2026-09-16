@@ -20,12 +20,12 @@ echo '=== BUILD CURRENT MECHANICAL PACKAGE ==='
 bash tools/run_cabinet_rear_cpu_shelf_v24.sh
 
 echo
-echo '=== PRUNE SUPERSEDED GENERATED GEOMETRY ==='
+echo '=== PRESENT CLEAN ACTIVE MASTER ==='
 freecadcmd tools/cleanup_active_master_v25_entry.py
 
 echo
-echo '=== VERIFY CLEAN ACTIVE MASTER ==='
-freecadcmd tools/verify_active_master_v25_entry.py
+echo '=== VERIFY SAVED ACTIVE MASTER ==='
+python3 tools/verify_active_master_v25_file.py
 
 echo
 echo '=== COMPLETE ==='
