@@ -13,7 +13,7 @@ help:
 	  '  make doctor              Check local tools/files' \
 	  '  make validate            Validate the CURRENT design only' \
 	  '  make build-current       Build and present the current FreeCAD master' \
-	  '  make repair-rear-cpu     Rebuild ONLY the rear CPU subsystem, then verify it in the saved FCStd' \
+	  '  make repair-rear-cpu     Rebuild ONLY the rear CPU subsystem, then verify rear CPU + full saved master' \
 	  '  make open-master         Open the current FreeCAD master' \
 	  '  make generate-cnc-coupon Generate the nominal CNC fit coupon' \
 	  '  make status              Show concise Git state' \
@@ -85,10 +85,11 @@ build-cabinet-rear-cpu-shelf-v24:
 	bash tools/run_cabinet_rear_cpu_shelf_v24.sh
 
 # Focused recovery path: do not rebuild the cabinet stack. Re-add only the rear CPU
-# geometry to the existing master, then prove those objects were serialized.
+# geometry to the existing master, then prove it and the complete active file were serialized.
 repair-rear-cpu:
 	$(FREECADCMD) tools/build_cabinet_rear_cpu_shelf_v24_entry.py
 	$(PYTHON) tools/verify_rear_cpu_saved_v25.py
+	$(PYTHON) tools/verify_active_master_v25_file.py
 
 open-master:
 	$(FREECAD) $(MASTER)
