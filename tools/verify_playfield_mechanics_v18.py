@@ -76,6 +76,7 @@ def main() -> None:
 
     display = doc.getObject("GenericPlayfieldDisplayClosedV18")
     open_display = doc.getObject("GenericPlayfieldDisplayOpenGhostV18")
+    open_cradle = doc.getObject("CradleOpenGhostV18")
     if display:
         bb = display.Shape.BoundBox
         expected_w = float(cfg["display_envelope"]["cross_width_mm"])
@@ -90,10 +91,27 @@ def main() -> None:
         else:
             print(f"PASS closed display stays between full-thickness sidewalls: X={bb.XMin:.1f}..{bb.XMax:.1f}")
 
-    # The 70-degree service display must clear the actual v0.14 backbox shell.
-    # A small numerical tolerance is allowed for coincident/tangent faces only.
+        front = doc.getObject("CabinetFront")
+        if front is None:
+            print("FAIL CabinetFront missing for front-clearance check")
+            ok = False
+        else:
+            overlap = display.Shape.common(front.Shape).Volume
+            clearance = bb.YMin - front.Shape.BoundBox.YMax
+            minimum = float(cfg["display_envelope"]["minimum_clearance_behind_front_panel_mm"])
+            if overlap > 1.0:
+                print(f"FAIL closed display intersects front panel: {overlap:.1f} mm3")
+                ok = False
+            elif clearance + 0.1 < minimum:
+                print(f"FAIL closed display/front-panel clearance {clearance:.1f} mm < {minimum:.1f} mm")
+                ok = False
+            else:
+                print(f"PASS closed display clears front panel by {clearance:.1f} mm")
+
+    # The 70-degree service display and full moving cradle must clear the actual
+    # v0.14 backbox structural solids. A tiny numerical/tangent volume is ignored.
     backbox_names = ["BackboxFloorV14", "BackboxLeftSideV14", "BackboxRightSideV14", "BackboxTopV14"]
-    if open_display:
+    if open_display and open_cradle:
         collisions = []
         for name in backbox_names:
             obj = doc.getObject(name)
@@ -101,14 +119,15 @@ def main() -> None:
                 print(f"FAIL required backbox structure missing for collision check: {name}")
                 ok = False
                 continue
-            volume = open_display.Shape.common(obj.Shape).Volume
-            if volume > 1.0:
-                collisions.append((name, volume))
+            for moving in (open_display, open_cradle):
+                volume = moving.Shape.common(obj.Shape).Volume
+                if volume > 1.0:
+                    collisions.append((moving.Name, name, volume))
         if collisions:
-            print("FAIL open display collides with backbox: " + ", ".join(f"{n}={v:.1f}mm3" for n, v in collisions))
+            print("FAIL service geometry collides with backbox: " + ", ".join(f"{m}/{n}={v:.1f}mm3" for m, n, v in collisions))
             ok = False
         else:
-            print("PASS 70-degree display service ghost clears actual backbox shell")
+            print("PASS 70-degree display + cradle service ghosts clear actual backbox shell")
 
         floor = doc.getObject("BackboxFloorV14")
         if floor:
