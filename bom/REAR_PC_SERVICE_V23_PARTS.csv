@@ -1,0 +1,8 @@
+part_id,system,description,qty,material,nominal_thickness_mm,label_text,status,notes
+CAB-PC-REAR-DOOR-001-R1,CAB,Main-cabinet rear PC service door,1,compensado naval,15,CAB-PC-REAR-DOOR-001-R1 INSIDE UP ->,DESIGN,Approx 544x304; final hinge/latch dimensions pending
+CAB-PC-REAR-FRAME-001-R1,CAB,Compact rear PC aperture reinforcement frame,1,A36-or-SAE1020-steel,2,CAB-PC-REAR-FRAME-001-R1,DESIGN,25x25x2 angle envelope; final cut/bend/weld details TBD
+PC-SHELF-REAR-001-R1,PC,Small rear pull-out shelf for open PC case,1,compensado naval,18,PC-SHELF-REAR-001-R1 REAR ->,DESIGN_BASELINE,460x285 nominal; case bolts directly to shelf
+PC-SLIDE-SPACER-001L-R1,PC,Left compact spacer rail between cabinet wall and slide,1,plywood-or-aluminum,TBD,PC-SLIDE-SPACER-001L-R1 REAR ->,ADAPTER,Nominal 39.3 mm stack; regenerate from actual slide thickness
+PC-SLIDE-SPACER-001R-R1,PC,Right compact spacer rail between cabinet wall and slide,1,plywood-or-aluminum,TBD,PC-SLIDE-SPACER-001R-R1 REAR ->,ADAPTER,Mirror counterpart
+PC-SHELF-RET-001-R1,PC,Rear PC shelf positive stowed retainer,1,steel,TBD,PC-SHELF-RET-001-R1,SELECT_LATER,Thumb screw/spring pin/equivalent; accessible from rear door
+PC-REAR-HARNESS-GUIDE-001-R1,PC,Rearward PC harness guide/strain-relief set,1,polymer-or-metal,TBD,PC-REAR-HARNESS-GUIDE-001-R1,DESIGN,>=450 mm service loop; routine rear service without playfield opening

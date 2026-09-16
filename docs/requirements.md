@@ -76,20 +76,22 @@ Requirements:
 
 - Open ATX test-bench/mining-style metal chassis
 - Owner reference chassis size: approximately **440 x 265 x 128 mm**
-- The PC case bolts **directly to one flat sliding shelf**
-- No drawer box
-- No second removable sled between case and shelf
-- No front cabinet service opening
-- Current shelf target: nominal **538.6 x 300 x 18 mm**, with final width derived from the measured physical slide thickness
-- Two simple **300 mm-class full-extension side-mount ball-bearing slides** mount directly between cabinet sidewalls and shelf edges
-- Normal service occurs from above with the playfield raised and positively secured
-- Shelf travels approximately **300 mm toward the cabinet center**, remaining completely inside the cabinet
+- Routine PC maintenance is performed from the **rear of the pinball cabinet** through a dedicated main-cabinet rear service door
+- The playfield **must not need to be opened** just to replace RAM, SSDs, service cables, inspect the GPU, or perform ordinary PC work
+- Rear service aperture engineering target: approximately **520 x 280 mm**, above the low rear I/O zones and above the compact rear leg-bracket envelope
+- Open PC case bolts **directly to one small flat plywood shelf**, nominally **460 x 285 x 18 mm**
+- No drawer box and no second removable sled
+- Two simple **300 mm-class full-extension slides/telescopic rails** move the shelf **rearward**, through the rear service door and behind the machine
+- Stowed shelf target: Y approximately 1005..1290 mm
+- Rear service shelf target: Y approximately 1305..1590 mm
 - One simple positive stowed retainer prevents movement/rattle during nudge and DOF operation
-- Actual slide holes and open-case mounting holes remain blocked until the physical parts are measured
-- Routine service harnesses require enough slack for full slide travel
-- Complete shelf/case removal may use the slide disconnect feature and lift through the raised playfield opening
+- Because the shelf is case-sized rather than full-cabinet-width, compact replaceable spacer rails are permitted between cabinet walls and the slide pair
+- Actual slide holes, spacer stack and open-case mounting holes remain blocked until physical hardware is measured
+- PC harnesses reserve at least **450 mm** protected rearward service-loop length
+- Complete shelf/case removal is from the rear using the slide disconnect/release hardware if supplied
 - PC mechanically isolated from force-feedback structure
 - Shelf proof-test target: 20 kg; slide-pair rating target >=30 kg
+- Rear PC service door/frame must not expose bare mains terminals; cabinet power is isolated before PC hardware service
 
 ## Playfield glass / siderails / lockdown
 
@@ -137,7 +139,7 @@ Reserve future removable mounting panels/rails for:
 - Audio hardware
 - DC distribution
 
-Separate high-current and signal wiring routes. Preserve clear service aisles and top access after the playfield is raised.
+Separate high-current and signal wiring routes. Preserve clear service aisles and deliberate service access. PC routine service is from the rear backdoor; opening the playfield remains reserved for playfield/DOF/internal-cabinet work rather than ordinary PC maintenance.
 
 ## Power
 
@@ -166,11 +168,15 @@ Front/underside:
 - USB-C
 - Hardware master volume
 
-Rear:
+Rear low zones:
 - Ethernet
 - USB service
 - optional HDMI service
 - main disconnect
+
+Rear mid service zone:
+- dedicated PC backdoor opening above the low I/O fascias
+- rearward pull-out PC shelf immediately behind that door
 
 ## Manufacturing
 
@@ -191,6 +197,7 @@ Before cabinet production:
 - confirm Cutter CNC tooling/layer/radius conventions
 - measure actual hardware that controls hole patterns
 - complete dry-fit and collision checks
-- proof-test classic leg/bracket corners and the simple PC sliding shelf
+- proof-test classic leg/bracket corners and the rear pull-out PC shelf
+- proof-fit rear PC door/frame/hinge/latch before final rear-panel CNC release
 
 No current engineering branch is approved for production CNC yet.

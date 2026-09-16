@@ -1,0 +1,13 @@
+bom_id,phase,system,part_id,item,qty,unit,procurement,source_region,status,geometry_required_before_cnc,notes
+BOM-PCV23-001,1,CAB,CAB-PC-REAR-DOOR-001-R1,15 mm plywood rear PC service door,1,pc,CNC,Brazil,DESIGN,yes,Approx 544x304x15 mm; final follows hinge/latch/frame dry fit
+BOM-PCV23-002,2,CAB,CAB-PC-REAR-FRAME-001-R1,Rear PC service aperture reinforcement frame,1,set,local-fabrication,Brazil,DESIGN,yes,25x25x2 mm steel-angle envelope or equivalent; final section after fabrication consultation
+BOM-PCV23-003,2,CAB,CAB-PC-REAR-HINGE-001,Continuous/piano hinge for rear PC door,1,pc,local,Brazil,SELECT,yes,Left side as viewed from rear; final length after door measurement
+BOM-PCV23-004,2,CAB,CAB-PC-REAR-LATCH-001,Keyed/tool-controlled rear PC door latch,1,pc,local,Brazil,SELECT,yes,Quarter-turn/compression style preferred; keep child/service access deliberate
+BOM-PCV23-005,2,CAB,CAB-PC-REAR-GASKET-001,Rear PC door closed-cell gasket,TBD,m,local,Brazil,PLAN,no,Full perimeter
+BOM-PCV23-006,2,PC,PC-SHELF-REAR-001-R1,Rear pull-out PC shelf 460x285x18 nominal,1,pc,CNC,Brazil,DESIGN,yes,Open PC case bolts directly to this shelf
+BOM-PCV23-007,2,PC,PC-SLIDE-REAR-001,300 mm-class full-extension slide pair,1,pair,local-or-import,Brazil/China,SHOP_BEFORE_CNC,yes,Actual thickness/hole pattern controls shelf spacer stack
+BOM-PCV23-008,2,PC,PC-SLIDE-SPACER-001L-R1,Left compact slide spacer rail,1,pc,CNC-or-local,Brazil,DESIGN,yes,Nominal 39.3 mm packaging only; final follows measured slide thickness
+BOM-PCV23-009,2,PC,PC-SLIDE-SPACER-001R-R1,Right compact slide spacer rail,1,pc,CNC-or-local,Brazil,DESIGN,yes,Mirror of left
+BOM-PCV23-010,2,PC,PC-SHELF-RET-001,Positive stowed shelf retainer,1,pc,local,Brazil,SELECT,yes,Captive thumb screw/spring pin/equivalent
+BOM-PCV23-011,4,PC,PC-OPEN-CASE-001,Open ATX case ~440x265x128 mm,1,pc,local-or-import,Brazil/China,SELECT,no,Final mounting holes measured after purchase; bolts directly to rear shelf
+BOM-PCV23-012,4,PC,PC-REAR-HARNESS-001,Rearward PC service harness/strain-relief set,1,set,local,Brazil,DESIGN,yes,>=450 mm protected service-loop target for full 300 mm travel

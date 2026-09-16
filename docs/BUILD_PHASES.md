@@ -14,10 +14,11 @@ Before ordering production CNC wood, confirm:
 - backbox hinge/pivot hardware geometry;
 - actual classic pinball leg and compact steel leg-bracket geometry;
 - playfield UCFL202 bearing geometry;
-- actual 300 mm-class PC slide thickness/travel/hole pattern;
+- actual 300 mm-class rear PC slide thickness/travel/hole pattern;
+- rear PC service-door hinge/latch/frame geometry;
 - lockdown/siderail fabrication concept;
 - playfield/backglass display service envelopes;
-- rear service-door/lock geometry;
+- rear low service-I/O geometry;
 - cable-passport, fan and vent openings.
 
 No coordinated electronics purchase is required for this phase. Buy only physical components whose actual geometry must be measured before CNC freeze.
@@ -30,6 +31,7 @@ Buy first:
 - optional 15 mm plywood for service doors/removable panels where specified;
 - glue and non-electronic structural fasteners;
 - backbox keyed service-door lock, continuous hinge and gasket;
+- main-cabinet rear PC service-door hinge/latch/frame materials once the exact local hardware is selected;
 - insect mesh/filter media and finger guards if their openings are included in the CNC batch;
 - any geometry-critical imported/measured hardware required for the first CNC batch.
 
@@ -38,8 +40,9 @@ Required process:
 1. measure the production plywood;
 2. cut/test the CNC tolerance coupon;
 3. regenerate groove/tab dimensions from measured stock;
-4. cut the cabinet/backbox parts;
-5. complete a full dry fit before glue-up.
+4. finalize the rear-panel PC-door aperture against actual leg brackets and rear I/O hardware;
+5. cut the cabinet/backbox parts;
+6. complete a full dry fit before glue-up.
 
 Deliverables at phase end:
 
@@ -47,6 +50,7 @@ Deliverables at phase end:
 - nominal 600 mm body geometry verified;
 - captured bottom/front/rear/crossmember joinery proven;
 - no bulky permanent plywood leg-corner blocks installed by default;
+- main-cabinet rear PC service-door opening/frame/door dry-fit proven;
 - backbox shell assembled and lockable;
 - rear shelf/backbox floor matched interface complete;
 - CNC-located cable passports/fan/service openings present;
@@ -67,7 +71,8 @@ Buy/install:
 - playfield pivot hardware including actual UCFL202 pair;
 - positive playfield safety-stay hardware;
 - closed-position support/latch hardware;
-- actual simple **300 mm-class PC slide pair** and one simple positive stowed shelf retainer.
+- actual simple **300 mm-class rear PC slide pair** and one simple positive stowed shelf retainer;
+- rear PC door hinge/latch/gasket hardware.
 
 Do **not** buy final gas struts yet unless the final display/cradle mass and CG are already known.
 
@@ -79,7 +84,8 @@ Deliverables at phase end:
 - backbox folds and locks upright correctly;
 - playfield cradle opens and positively supports service position;
 - closed playfield position positively lands/latches;
-- flat PC shelf slides 300 mm internally, remains inside the cabinet, positively retains in the stowed position and passes the 20 kg proof test;
+- rear PC service door opens from behind the machine without interference;
+- small flat PC shelf slides **300 mm rearward through the backdoor**, positively retains when stowed and passes the 20 kg proof test;
 - lockdown/siderail/glass mockup interfaces are proven.
 
 ## Phase 3 — Displays and glazing
@@ -112,10 +118,12 @@ Buy/install:
 
 - selected open ATX chassis/test-bench frame;
 - shelf-to-case mounting bolts/spacers as required by the actual case;
-- PC service-loop harness/connectors;
+- rearward PC service-loop harness/connectors;
 - GPU restraint if needed for mechanical fit.
 
-The PC itself may remain electrically incomplete. The open case bolts **directly to the flat sliding shelf**. There is no second sled. This phase proves the actual case mounting pattern, full 300 mm internal travel, connector/cable clearances and removal workflow through the raised playfield opening.
+The PC itself may remain electrically incomplete. The open case bolts **directly to the small rear pull-out shelf**. There is no second sled. This phase proves the actual case mounting pattern, full 300 mm **rearward** travel, connector/cable clearances and complete removal from behind the machine.
+
+Routine PC service must be possible without opening the playfield.
 
 ## PHASE GATE — STRUCTURE READY
 
@@ -128,17 +136,18 @@ Structure-ready requires:
 3. classic legs/levelers and removable PinSkates mobility workflow proven;
 4. lockdown, siderails and final glass fit;
 5. backbox hinge/fold/lock system proven;
-6. keyed rear service door operational;
-7. playfield cradle/pivot/safety stays/closed latches proven;
-8. final display adapter and gas-strut specification validated with actual display;
-9. backglass/DMD carriage envelopes proven;
-10. simple sliding PC shelf, stowed retainer and direct-mounted open case proven;
-11. fan/vent/cable-passport/raceway geometry present;
-12. SSF and toy zones remain available;
-13. central cabinet service volume remains accessible rather than filled with fixed furniture;
-14. no dangerous exposed mains provisions are present;
-15. BOM and part labels reconcile with the assembled structure;
-16. no foreseeable woodworking rework is required for electronics installation.
+6. keyed backbox rear service door operational;
+7. main-cabinet rear PC backdoor operational;
+8. playfield cradle/pivot/safety stays/closed latches proven;
+9. final display adapter and gas-strut specification validated with actual display;
+10. backglass/DMD carriage envelopes proven;
+11. rear PC shelf, stowed retainer, direct-mounted open case and 450 mm service-loop harness proven;
+12. fan/vent/cable-passport/raceway geometry present;
+13. SSF and toy zones remain available;
+14. central cabinet service volume remains accessible rather than filled with fixed furniture;
+15. no dangerous exposed mains provisions are present behind either rear service door;
+16. BOM and part labels reconcile with the assembled structure;
+17. no foreseeable woodworking rework is required for electronics installation.
 
 Only after this gate should the full electronics/toy purchase be made in one coordinated batch.
 
@@ -154,7 +163,7 @@ Purchase as a coordinated electronics batch:
 - amplifiers;
 - wiring, fuse blocks, connectors and harness materials.
 
-Use localized removable electronics boards/rails and preserve clear top-service access. Do not permanently fill the cabinet with broad shelves if smaller modular mounts will do.
+Use localized removable electronics boards/rails and preserve clear service access. The rear PC door may expose PC hardware only; bare mains distribution remains in a separate touch-safe enclosure.
 
 ## Phase 6 — DOF / feedback / lighting toys
 
