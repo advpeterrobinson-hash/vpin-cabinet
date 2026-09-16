@@ -10,7 +10,8 @@ This manual covers the **structure-ready phase** only: woodworking, backbox, leg
 - Any later 127/220 V work must use enclosed terminals, protective earth where required, branch protection, strain relief and a documented isolation/service procedure.
 - If a future step requires exposure to mains wiring, the manual must show a shock-hazard warning before the step.
 - The backbox rear service door may expose low-voltage service hardware, but must not expose bare mains terminals.
-- Never service the raised playfield display using gas struts alone: engage both independent mechanical safety stays.
+- Never service the raised playfield display using gas struts alone: engage both independent positive mechanical safety stays.
+- Isolate cabinet mains power before manipulating the playfield display harness, pivot, gas struts, safety stays or removing the moving module.
 - Never transport the machine with the backbox upright.
 
 ## 1. Part-identification rule
@@ -32,7 +33,7 @@ Nominal 18 mm is a design label; **measured sheet thickness controls the final t
 
 ## 3. Main cabinet dry fit
 
-Primary parts (provisional IDs):
+Primary parts:
 
 - `CAB-SIDE-001L-R1`
 - `CAB-SIDE-001R-R1`
@@ -52,8 +53,8 @@ Procedure:
 4. Install the reinforced rear shelf.
 5. Check that all self-locating joints seat fully without hammering hard.
 6. Measure both cabinet diagonals; they should match within the final manual tolerance.
-7. Confirm 580 mm external width and the current side-profile dimensions.
-8. Confirm that the PC drawer, playfield cradle, service-I/O, gas-strut and toy keepout envelopes are unobstructed.
+7. Confirm **600 mm external width**, nominal **564 mm full-thickness inner width**, and the current side-profile dimensions.
+8. Confirm that the PC drawer, playfield cradle, service-I/O, gas-strut, safety-stay and toy keepout envelopes are unobstructed.
 9. Disassemble for finishing/joint preparation if the selected finish requires it.
 
 No permanent glue-up occurs until the dry-fit inspection passes.
@@ -106,6 +107,7 @@ Primary parts:
 Check:
 
 - 780 mm external width;
+- 90 mm nominal side overhang over the centered 600 mm body;
 - common centerline marked;
 - rear edge datum marked;
 - primary and reserve cable passports align with the main rear shelf;
@@ -138,6 +140,8 @@ Hardware IDs:
 
 Important: the backbox rests on the **rear shelf** when upright. The side hinges provide the pivot; the dedicated lock bolts clamp/stabilize the backbox in operating position.
 
+For the 780 mm backbox centered over the 600 mm body, the current WPC custom-width hinge-floor inset calculation is approximately **59.84 mm each side**. Exact bracket mounting holes remain blocked until actual hinge hardware is measured.
+
 Procedure after final CAD validation:
 
 1. Fit the left/right hinge brackets to the CNC-located backbox-floor/side pattern.
@@ -168,18 +172,27 @@ Use removable VESA/tray adapter plates. No permanent wood panel should contain m
 
 The backglass monitor should be replaceable through the front; routine cable/fan/LED/toy service should be possible through the keyed rear door.
 
-## 10. Main playfield cradle
+## 10. Main playfield mechanics — v0.18 baseline
 
-Install:
+The active mechanical package is `PlayfieldMechanicsV18`. Historical LG-specific service groups remain only for traceability.
 
-- independent structural TV cradle;
-- v0.15 short-journal rear pivot assembly;
-- dual gas struts;
-- two independent positive safety stays;
-- replaceable VESA adapter plate;
-- cable service loop and strain relief.
+Install/prepare:
 
-The permanent cradle/cabinet is **not tied to one TV model**. The current v0.16 service envelope targets compact 42/43-inch 16:9 gaming displays up to approximately:
+- two 18 mm CNC plywood longitudinal cradle rails below the display;
+- three 18 mm under-display cradle crossmembers;
+- 36 mm local left/right rear pivot doublers;
+- laminated rear pivot beam;
+- replaceable model-specific VESA carrier;
+- two 140 x 80 x 6 mm steel pivot cheek plates;
+- two 15 mm short pivot journals;
+- two UCFL202 15 mm flange bearings with 3 mm cabinet-side steel backing plates;
+- dual gas struts as lift assistance only;
+- **two independent positive mechanical safety stays**;
+- two structural closed-position landing pads;
+- two positive closed-position latch/strike assemblies;
+- moving power/video/control harness service loop with strain relief.
+
+The permanent cradle/cabinet is **not tied to one TV model**. The service envelope targets compact 42/43-inch 16:9 gaming displays up to approximately:
 
 - 560 mm physical cross-cabinet chassis width;
 - 970 mm physical front-to-rear chassis length;
@@ -187,11 +200,54 @@ The permanent cradle/cabinet is **not tied to one TV model**. The current v0.16 
 - 12 kg display mass design limit;
 - 2 mm installation clearance per side across the cabinet.
 
-The 580 mm body can create up to a 564 mm clear cross-cavity while retaining 8 mm minimum side skin. Displays near the 560 mm cross-width limit therefore use shallow sidewall clearance pockets; narrower 42-inch-class displays may fit between the full-thickness walls.
+The 600 mm body provides **564 mm between full-thickness nominal 18 mm sidewalls**, so the normal 560 mm target plus 2 mm clearance each side fits with **no sidewall pockets/notches**.
 
-Before installing any display, proof-operate the empty cradle through its full range and verify pivot, latch, gas-strut and safety-stay clearances.
+The preliminary moving-mass packaging value is 16.5 kg: 12 kg display envelope + 4.5 kg cradle allowance. This is not a final structural certification or gas-spring specification.
 
-Gas-strut force is **not a purchase specification until the exact display and finished cradle mass/CG are measured**.
+### 10.1 Pivot hardware gate
+
+Do not machine the cabinet-side UCFL202 bolt holes from catalogue dimensions. Purchase the actual bearing pair first, then measure:
+
+- mounting-hole centers;
+- mounting-hole diameter;
+- housing width/height;
+- insert-bearing width;
+- actual bore fit;
+- set-screw locations.
+
+Set screws alone are not accepted as axial retention. Use a positive journal-end retention feature in the final design.
+
+### 10.2 Gas-strut gate
+
+Do **not** buy final gas struts yet. The current 250–400 N/strut range exists only to reserve geometry and sourcing options.
+
+Final force and both attachment points require:
+
+1. exact display;
+2. finished cradle/VESA adapter mass;
+3. measured moving center of gravity;
+4. final hinge axis;
+5. physical opening-force testing.
+
+### 10.3 Safety stays
+
+Both stays must positively engage before a person works beneath the raised playfield. Friction-only lid stays are prohibited as the maintenance safety device.
+
+A service proof test must demonstrate that the raised assembly remains supported with both gas springs assumed failed.
+
+### 10.4 Closed-position support
+
+The playfield does not hang on the hinge/gas struts during normal play. It lands on two structural supports and is held down by two positive latches so nudge/DOF loads do not hammer the pivot or bounce the display.
+
+### 10.5 Moving harness
+
+Reserve at least:
+
+- 300 mm service-loop length;
+- 50 mm minimum dynamic bend radius;
+- fixed and moving strain-relief/support within 100 mm of the moving zone.
+
+The harness must remain clear of journals, bearing housings, gas struts and safety-stay sweep zones.
 
 ## 11. Legs, levelers and retractable mobility
 
@@ -204,13 +260,13 @@ Gas-strut force is **not a purchase specification until the exact display and fi
 
 ## 12. Lockdown bar, siderails and glass
 
-The 580 mm cabinet may use custom metalwork.
+The 600 mm cabinet uses custom or width-adapted metalwork where standard pinball parts do not fit.
 
 Install sequence:
 
 1. siderail/glass channels;
 2. lockdown receiver;
-3. custom lockdown bar;
+3. custom 600 mm-system lockdown bar;
 4. test glass strip/mockup if used;
 5. final tempered playfield glass only after fit is verified.
 
@@ -239,36 +295,39 @@ Minimum purchasing target:
 - native 120 Hz or better;
 - HDMI 2.1 / 4K120 or better strongly preferred;
 - VRR and low-latency game mode preferred;
-- chassis within the v0.16 service envelope;
+- chassis within the service envelope;
 - VESA mounting or a safe replaceable adapter solution.
 
-A Samsung QN90F 43-inch chassis is currently used only as a **fit reference** because its 558.9 × 960.8 × 26.9 mm pinball-oriented envelope and 9.4 kg mass fit the cabinet. It is not a mandated purchase. The older LG 42-inch C-series geometry remains another regression reference, not the selected display.
+The Samsung QN90F/QN90D 43-inch chassis class and LG 42-inch C-series geometry are fit references, not mandated purchases.
 
 After the exact display is bought:
 
 1. measure the actual chassis and VESA-hole locations;
 2. generate/fit the replaceable VESA adapter;
-3. position the display longitudinally inside the adjustable cradle envelope;
-4. recalculate gas-strut force and mounting points using measured moving mass/CG;
-5. mount the selected 31.5/32-inch backglass monitor in its independent adjustable carriage;
-6. fit replaceable bezel/filler parts and protective glazing;
-7. re-test the full playfield opening sweep and 90-degree backbox fold with actual displays installed.
+3. position the display longitudinally inside the cradle envelope;
+4. re-solve the exact hinge/CG relationship if required;
+5. recalculate gas-strut force and mounting points using measured moving mass/CG;
+6. mount the selected 31.5/32-inch backglass monitor in its independent adjustable carriage;
+7. fit replaceable bezel/filler parts and protective glazing;
+8. re-test the full playfield opening sweep and 90-degree backbox fold with actual displays installed.
 
 ## 15. Structure-ready inspection
 
 Do not start the electronics shopping/installation phase until all items below pass:
 
 - cabinet square and structurally complete;
+- 600 mm body / 780 mm backbox alignment verified;
 - leg corners and backbox shelf reinforced;
 - legs/levelers/mobility operational;
 - lockdown bar, siderails and glass fit;
 - backbox hinges and upright lock bolts operational;
 - keyed rear service door operational;
 - cable passports and raceway mounting holes present;
-- playfield cradle safe with both independent safety stays;
+- playfield cradle safe with both independent positive safety stays;
+- closed-position pads/latches positively restrain the cradle;
 - backglass/DMD mounts adjustable and positively locked;
 - PC drawer proof-tested;
-- selected playfield display fits the v0.16 service envelope;
+- selected playfield display fits the service envelope;
 - final display adapter and gas-strut specification validated against the actual display;
 - all displays remain safe during service/transport motion;
 - all part IDs/BOM lines accounted for;

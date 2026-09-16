@@ -4,7 +4,7 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display open-master build-shell-v02 build-structure-v14 build-playfield-pivot-v15 audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display validate-playfield-mechanics open-master build-shell-v02 build-structure-v14 build-playfield-pivot-v15 build-playfield-mechanics-v18 audit-reference status
 
 help:
 	@printf '%s\n' \
@@ -23,10 +23,12 @@ help:
 	  '  make validate-structure-buildpack Validate structure-first BOM/manual/label/hinge package' \
 	  '  make validate-playfield-pivot  Validate steel-plate/short-journal playfield pivot' \
 	  '  make validate-playfield-display Validate model-agnostic 42/43 inch display envelope' \
+	  '  make validate-playfield-mechanics Validate integrated v0.18 cradle/safety/latch/harness package' \
 	  '  make open-master               Open current FreeCAD master' \
 	  '  make build-shell-v02           Re-run the validated WPC shell generator' \
 	  '  make build-structure-v14       Run current 600 mm platform + structure/WPC hinge packaging build' \
 	  '  make build-playfield-pivot-v15 Build structure then playfield pivot packaging' \
+	  '  make build-playfield-mechanics-v18 Build current structure then integrated playfield mechanics' \
 	  '  make audit-reference           Run reference audit (if local reference copy exists)' \
 	  '  make status                    Show concise Git state'
 
@@ -41,7 +43,7 @@ doctor:
 	test -f config/design.json && echo 'Config:    OK' || (echo 'Config: MISSING'; exit 1); \
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
-validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display validate-playfield-mechanics
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -76,6 +78,9 @@ validate-playfield-pivot:
 validate-playfield-display:
 	$(PYTHON) tools/validate_playfield_display_v16.py
 
+validate-playfield-mechanics:
+	$(PYTHON) tools/validate_playfield_mechanics_v18.py
+
 open-master:
 	$(FREECAD) $(MASTER)
 
@@ -87,6 +92,9 @@ build-structure-v14:
 
 build-playfield-pivot-v15:
 	bash tools/run_playfield_pivot_v15.sh
+
+build-playfield-mechanics-v18:
+	bash tools/run_playfield_mechanics_v18.sh
 
 audit-reference:
 	@test -f .work/audit/reference-master.FCStd || \

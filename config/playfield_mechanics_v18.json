@@ -1,0 +1,147 @@
+{
+  "status": "engineering-selected-packaging",
+  "manufacturing_ready": false,
+  "depends_on": [
+    "config/design.json",
+    "config/playfield_display_v16.json",
+    "config/playfield_pivot_v15.json"
+  ],
+  "cabinet": {
+    "outer_width_mm": 600.0,
+    "nominal_side_thickness_mm": 18.0,
+    "full_thickness_inner_width_mm": 564.0,
+    "side_length_mm": 1308.1,
+    "front_height_mm": 400.05,
+    "rear_height_mm": 596.9,
+    "rear_top_flat_mm": 180.975
+  },
+  "display_envelope": {
+    "role": "worst-case model-agnostic 42/43 inch packaging envelope; not a selected TV",
+    "cross_width_mm": 560.0,
+    "length_mm": 970.0,
+    "depth_mm": 55.0,
+    "mass_limit_kg": 12.0,
+    "cross_clearance_each_side_mm": 2.0,
+    "front_setback_mm": 45.0,
+    "minimum_clearance_behind_front_panel_mm": 15.0,
+    "glass_clearance_normal_mm": 12.0,
+    "replaceable_vesa_adapter": true,
+    "baseline_vesa_patterns": ["200x200", "300x200"],
+    "visual_review_note": "v0.18 first closed-position review showed the 10 mm setback placed the sloped 55 mm envelope too close to/through the 18 mm front panel; 45 mm is the revised packaging datum"
+  },
+  "cradle": {
+    "primary_material": "18 mm good-quality structural plywood",
+    "estimated_cradle_mass_kg": 4.5,
+    "side_rail_count": 2,
+    "side_rail_thickness_x_mm": 18.0,
+    "side_rail_height_z_mm": 70.0,
+    "side_rail_front_local_y_mm": 35.0,
+    "side_rail_rear_local_y_mm": 985.0,
+    "left_side_rail_x_mm": 40.0,
+    "right_side_rail_x_mm": 542.0,
+    "crossmember_count": 3,
+    "crossmember_width_x_mm": 520.0,
+    "crossmember_depth_y_mm": 60.0,
+    "crossmember_thickness_z_mm": 18.0,
+    "crossmember_local_y_mm": [90.0, 480.0, 875.0],
+    "pivot_doubler_local_thickness_x_mm": 36.0,
+    "pivot_doubler_length_y_mm": 160.0,
+    "pivot_doubler_height_z_mm": 80.0,
+    "left_pivot_doubler_x_mm": 40.0,
+    "right_pivot_doubler_x_mm": 524.0,
+    "rear_crossmember_lamination_mm": 36.0,
+    "tv_chassis_is_structural": false
+  },
+  "hinge_axis": {
+    "derivation": "35 mm behind worst-case display rear in local playfield coordinates, lowered below display base to keep pivot metal/wood under the chassis",
+    "local_y_from_display_front_mm": 1005.0,
+    "local_z_from_display_base_mm": -40.0,
+    "relative_service_open_angle_deg": 70.0,
+    "axis_status": "engineering packaging datum; final longitudinal position may move after exact display/CG selection"
+  },
+  "pivot_interface": {
+    "plate_material": "A36 or SAE 1020",
+    "plate_thickness_mm": 6.0,
+    "plate_length_y_mm": 140.0,
+    "plate_height_z_mm": 80.0,
+    "plate_corner_radius_mm": 6.0,
+    "pivot_axis_from_rear_plate_edge_mm": 25.0,
+    "pivot_axis_from_bottom_plate_edge_mm": 40.0,
+    "mount_bolt": "M8 class 8.8 through-bolt",
+    "mount_hole_diameter_mm": 9.0,
+    "mount_hole_centers_from_rear_y_mm": [70.0, 120.0],
+    "mount_hole_centers_from_bottom_z_mm": [20.0, 60.0],
+    "journal_diameter_mm": 15.0,
+    "journal_projection_candidate_mm": 65.0,
+    "bearing_family": "UCFL202 15 mm two-bolt oval flange bearing",
+    "bearing_mount_holes_status": "BLOCKED until purchased pair is measured",
+    "positive_axial_retention_required": true
+  },
+  "vesa_adapter": {
+    "material": "replaceable metal plate or equivalent rigid carrier",
+    "packaging_width_x_mm": 400.0,
+    "packaging_length_y_mm": 260.0,
+    "packaging_thickness_z_mm": 4.0,
+    "center_local_y_mm": 485.0,
+    "status": "envelope only; exact holes follow selected display"
+  },
+  "gas_struts": {
+    "count": 2,
+    "assist_only": true,
+    "purchase_ready": false,
+    "candidate_force_each_n": [250.0, 300.0, 350.0, 400.0],
+    "fixed_mount_forward_from_hinge_mm": 80.0,
+    "fixed_mount_below_hinge_mm": 140.0,
+    "moving_mount_forward_from_hinge_mm": 390.0,
+    "moving_mount_local_z_mm": -55.0,
+    "rule": "force and both mount locations must be re-solved after exact display, complete cradle mass and measured CG are known"
+  },
+  "safety_stays": {
+    "count": 2,
+    "independent_of_gas_struts": true,
+    "positive_lock_required": true,
+    "fixed_mount_forward_from_hinge_mm": 500.0,
+    "fixed_mount_below_hinge_mm": 135.0,
+    "moving_mount_forward_from_hinge_mm": 520.0,
+    "moving_mount_local_z_mm": -65.0,
+    "packaging_bar_diameter_mm": 12.0,
+    "target_open_stay_angle_from_cabinet_y_deg": [60.0, 80.0],
+    "status": "dual captive steel stay packaging; fixed anchor moved forward after visual review to create a more useful triangular brace; exact slot/pin geometry later"
+  },
+  "closed_support": {
+    "structural_pad_count": 2,
+    "positive_latch_count": 2,
+    "pad_size_mm": [50.0, 50.0, 10.0],
+    "pad_center_x_mm": [75.0, 525.0],
+    "pad_front_y_mm": 95.0,
+    "latch_keepout_size_mm": [40.0, 70.0, 55.0],
+    "latch_x_mm": [28.0, 532.0],
+    "latch_front_y_mm": 125.0,
+    "rule": "closed play position rests on structural pads and is positively restrained; pivot and gas springs do not carry bounce/nudge loads alone"
+  },
+  "moving_harness": {
+    "service_loop_minimum_length_mm": 300.0,
+    "minimum_dynamic_bend_radius_mm": 50.0,
+    "fixed_support_within_mm": 100.0,
+    "moving_support_within_mm": 100.0,
+    "keepout_box_mm": [30.0, 150.0, 125.0],
+    "preferred_side": "right rear",
+    "strain_relief_both_ends": true,
+    "rule": "display power/video/control cables move near the pivot without loading connector shells or touching journals, bearings, stays or struts"
+  },
+  "service_removal": {
+    "cabinet_power_isolated": true,
+    "glass_removed": true,
+    "both_safety_stays_engaged": true,
+    "temporary_secondary_support_required": true,
+    "two_person_handling_recommended": true,
+    "short_journals_no_full_width_shaft": true
+  },
+  "load_policy": {
+    "moving_mass_design_kg": 16.5,
+    "source": "12.0 kg display envelope + 4.5 kg preliminary cradle allowance",
+    "pivot_radial_design_load_each_side_n": 1500.0,
+    "dynamic_factor_screening": 2.0,
+    "note": "packaging/screening values only; gas-strut reactions and final proof loads require completed prototype geometry"
+  }
+}
