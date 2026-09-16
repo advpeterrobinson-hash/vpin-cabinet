@@ -20,6 +20,10 @@ echo '=== BUILD CURRENT MECHANICAL PACKAGE ==='
 bash tools/run_cabinet_rear_cpu_shelf_v24.sh
 
 echo
+echo '=== VERIFY REAR CPU WAS ACTUALLY SAVED ==='
+python3 tools/verify_rear_cpu_saved_v25.py
+
+echo
 echo '=== PRESENT CLEAN ACTIVE MASTER ==='
 freecadcmd tools/cleanup_active_master_v25_entry.py
 
