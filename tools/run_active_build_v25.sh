@@ -21,11 +21,11 @@ bash tools/run_cabinet_rear_cpu_shelf_v24.sh
 
 echo
 echo '=== PRUNE SUPERSEDED GENERATED GEOMETRY ==='
-freecadcmd tools/cleanup_active_master_v25.py
+freecadcmd tools/cleanup_active_master_v25_entry.py
 
 echo
 echo '=== VERIFY CLEAN ACTIVE MASTER ==='
-freecadcmd tools/verify_active_master_v25.py
+freecadcmd tools/verify_active_master_v25_entry.py
 
 echo
 echo '=== COMPLETE ==='
