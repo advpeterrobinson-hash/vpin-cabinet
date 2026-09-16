@@ -4,7 +4,7 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-structure validate-cabinet-service validate-cabinet-pc-slide validate-cabinet-rear-pc open-master build-shell-v02 build-structure-v14 build-playfield-pivot-v15 build-playfield-mechanics-v18 build-playfield-fixed-anchors-v19 build-cabinet-structure-v20 build-cabinet-service-v21 build-cabinet-pc-slide-v22 build-cabinet-rear-pc-v23 generate-cnc-coupon audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-structure validate-cabinet-service validate-cabinet-pc-slide validate-cabinet-rear-pc validate-cabinet-rear-cpu-shelf open-master build-shell-v02 build-structure-v14 build-playfield-pivot-v15 build-playfield-mechanics-v18 build-playfield-fixed-anchors-v19 build-cabinet-structure-v20 build-cabinet-service-v21 build-cabinet-pc-slide-v22 build-cabinet-rear-pc-v23 build-cabinet-rear-cpu-shelf-v24 generate-cnc-coupon audit-reference status
 
 help:
 	@printf '%s\n' \
@@ -29,6 +29,7 @@ help:
 	  '  make validate-cabinet-service  Validate v0.21 classic legs/PinSkates service package' \
 	  '  make validate-cabinet-pc-slide Validate historical v0.22 internal PC slide package' \
 	  '  make validate-cabinet-rear-pc Validate v0.23 rear-door / rearward PC service package' \
+	  '  make validate-cabinet-rear-cpu-shelf Validate v0.24 narrow rear CPU shelf package' \
 	  '  make open-master               Open current FreeCAD master' \
 	  '  make build-shell-v02           Re-run the validated WPC shell generator' \
 	  '  make build-structure-v14       Run current 600 mm platform + structure/WPC hinge packaging build' \
@@ -38,7 +39,8 @@ help:
 	  '  make build-cabinet-structure-v20 Build current mechanics then cabinet joinery/legs/PC/glass package' \
 	  '  make build-cabinet-service-v21 Build v0.20 base then classic-leg/PinSkates overlay' \
 	  '  make build-cabinet-pc-slide-v22 Build historical v0.22 center-service shelf' \
-	  '  make build-cabinet-rear-pc-v23 Build current rear backdoor / pull-out PC service package' \
+	  '  make build-cabinet-rear-pc-v23 Build v0.23 rear backdoor / wide pull-out PC package' \
+	  '  make build-cabinet-rear-cpu-shelf-v24 Build narrow case-sized rear CPU shelf / full rear extension' \
 	  '  make generate-cnc-coupon       Generate nominal CNC coupon under .work; pass measured values directly to script for production test' \
 	  '  make audit-reference           Run reference audit (if local reference copy exists)' \
 	  '  make status                    Show concise Git state'
@@ -54,7 +56,7 @@ doctor:
 	test -f config/design.json && echo 'Config:    OK' || (echo 'Config: MISSING'; exit 1); \
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
-validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-structure validate-cabinet-service validate-cabinet-pc-slide validate-cabinet-rear-pc
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-structure validate-cabinet-service validate-cabinet-pc-slide validate-cabinet-rear-pc validate-cabinet-rear-cpu-shelf
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -107,6 +109,9 @@ validate-cabinet-pc-slide:
 validate-cabinet-rear-pc:
 	$(PYTHON) tools/validate_cabinet_rear_pc_service_v23.py
 
+validate-cabinet-rear-cpu-shelf:
+	$(PYTHON) tools/validate_cabinet_rear_cpu_shelf_v24.py
+
 open-master:
 	$(FREECAD) $(MASTER)
 
@@ -136,6 +141,9 @@ build-cabinet-pc-slide-v22:
 
 build-cabinet-rear-pc-v23:
 	bash tools/run_cabinet_rear_pc_service_v23.sh
+
+build-cabinet-rear-cpu-shelf-v24:
+	bash tools/run_cabinet_rear_cpu_shelf_v24.sh
 
 generate-cnc-coupon:
 	$(PYTHON) tools/generate_cnc_coupon_v20.py
