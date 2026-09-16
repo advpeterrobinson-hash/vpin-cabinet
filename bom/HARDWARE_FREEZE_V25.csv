@@ -1,0 +1,26 @@
+item_id,system,item,freeze_class,geometry_controls,status,notes
+HF-001,CAB,Production 18 mm plywood sheets,MEASURE_BEFORE_CNC,all captured joint widths and sheet-derived offsets,OPEN,Measure multiple points on every production batch; nominal 18 mm is not a toolpath value
+HF-002,CAB,CNC cutter/tooling and tolerance coupon,MEASURE_BEFORE_CNC,dogbones/internal radii/pocket clearances/engraving,OPEN,Cutter CNC conventions + physical coupon must be accepted before release
+HF-003,LEG,Classic pinball leg set,MEASURE_BEFORE_CNC,external leg bolt pattern and corner stack,OPEN,Measure the actual legs to be used
+HF-004,LEG,Compact internal leg brackets/backing,MEASURE_BEFORE_CNC,leg through-hole pattern and local backing geometry,OPEN,No freehand leg-hole layout in release build
+HF-005,MOBILITY,External removable PinSkates-style pair,NO_CNC_DEPENDENCY,none on permanent cabinet,SELECT_LATER,Must attach to legs externally and be removed for play
+HF-006,BB,WPC 01-9011-L/R hinge pair + 02-4352 + pivot bolts,MEASURE_BEFORE_CNC,backbox floor/side hinge holes and pivot interfaces,OPEN,Physical set preferred before CNC hole freeze
+HF-007,BB,Upright backbox lock bolts/captive threads,MEASURE_BEFORE_CNC,rear shelf/backbox-floor locking holes,OPEN,Freeze after shelf/floor/gasket stack measured
+HF-008,PF,UCFL202 15 mm flange bearing pair,MEASURE_BEFORE_CNC,cabinet-side bearing bolt holes and stack,OPEN,Measure actual housings; catalogue pattern is not release authority
+HF-009,PF,15 mm pivot journals / cheek plates,DIMENSIONED_LOCAL_FAB,pivot interface,DESIGN,Project publishes local-fabrication drawing after stack freeze
+HF-010,PF,Positive safety-stay hardware,MEASURE_BEFORE_CNC,stay anchor/pin/slot holes,OPEN,Must positively support service position independent of gas struts
+HF-011,PF,Gas struts,NO_CNC_DEPENDENCY,final ball-stud holes deferred until actual display mass/CG,SELECT_LATER,Do not buy/freeze before actual display/cradle CG test
+HF-012,PF,Closed-position pads/latches,MEASURE_BEFORE_CNC,landing/latch holes,OPEN,Select compact hardware after cradle prototype
+HF-013,PC,Rear CPU full-extension slide pair,MEASURE_BEFORE_CNC,fixed rail/shelf mounting holes and exact shelf/support spacing,OPEN,Target 450 mm class; actual pair controls dimensions
+HF-014,PC,Open PC case,MEASURE_BEFORE_CNC,case-to-shelf bolt holes,OPEN,Reference 440 x 265 x 128 mm; buy/measure actual case before shelf drilling
+HF-015,PC,Rear CPU hatch hinge,MEASURE_BEFORE_CNC,rear hatch hinge holes,OPEN,Continuous/piano hinge or equivalent
+HF-016,PC,Rear CPU hatch latch,MEASURE_BEFORE_CNC,hatch latch/catch holes,OPEN,Keyed or tool-controlled compression/quarter-turn type
+HF-017,IO,Rear mains inlet/disconnect module,MEASURE_BEFORE_CNC,rear power carrier/fascia opening,OPEN,Mains terminals remain in separate touch-safe enclosure
+HF-018,IO,Rear low-voltage connector carrier,ADAPTER_ONLY,replaceable carrier only,DESIGN,Permanent wood uses generic rectangular service bay
+HF-019,FRONT,Coin door,MEASURE_BEFORE_CNC,front panel opening/bolt pattern,OPEN,Select real pinball-style coin door before front CNC freeze
+HF-020,FRONT,Flipper/start/launch buttons,MEASURE_BEFORE_CNC,button bore/pilot locations,OPEN,Final button families measured before release
+HF-021,GLASS,Playfield siderail profile,DIMENSIONED_LOCAL_FAB,glass capture and side fastener geometry,DESIGN,Prototype local metal profile before final glass order
+HF-022,GLASS,600 mm lockdown bar + receiver,DIMENSIONED_LOCAL_FAB,front receiver and glass-retention holes,DESIGN,Prototype/freeze before final glass order
+HF-023,GLASS,Playfield tempered glass,DIMENSIONED_LOCAL_FAB,final cut size only,WAITING,Order only after siderail/lockdown mockup passes
+HF-024,DISPLAY,Playfield 42/43 inch display,ADAPTER_ONLY,VESA adapter and gas-strut calibration only,SELECT_LATER,Permanent wood remains within service envelope
+HF-025,DISPLAY,Backglass monitor,ADAPTER_ONLY,adjustable carriage adapter/bezel only,SELECT_LATER,Permanent backbox rail cage stays generic

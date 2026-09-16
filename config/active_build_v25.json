@@ -1,0 +1,75 @@
+{
+  "status": "owner-directed-active-baseline",
+  "manufacturing_ready": false,
+  "design_goal": "CNC/fabrication vendors deliver a precision kit; home builder primarily dry-fits, glues, bolts, finishes and installs electronics without freehand structural layout",
+  "active_systems": [
+    "600 mm main cabinet",
+    "780 mm folding backbox",
+    "captured measured-stock CNC joinery",
+    "classic pinball legs + compact measured steel brackets",
+    "external removable PinSkates-style mobility",
+    "model-agnostic hinged playfield cradle",
+    "dual positive playfield safety stays",
+    "narrow rear CPU service hatch",
+    "case-sized rear CPU shelf on full-extension slides",
+    "open PC case bolted directly to CPU shelf",
+    "custom 600 mm lockdown/siderail/glass system",
+    "adjustable backglass/DMD carrier",
+    "reserved SSF/DOF zones",
+    "separate touch-safe mains zone"
+  ],
+  "superseded_active_concepts": [
+    "580 mm body",
+    "LG OLED42C5 permanent geometry",
+    "bulky plywood leg-corner furniture",
+    "integrated or retractable cabinet wheels",
+    "front-moving PC drawer",
+    "lift-out PC sled",
+    "center-directed PC service shelf",
+    "wide v0.23 rear PC hatch/shelf study"
+  ],
+  "assembly_policy": {
+    "builder_freehand_structural_layout_allowed": false,
+    "builder_expected_operations": [
+      "identify labeled parts",
+      "dry-fit self-locating joints",
+      "glue specified joints",
+      "install bolts/screws/inserts into CNC-located holes",
+      "sand/finish/paint/apply graphics",
+      "install measured mechanical hardware",
+      "install electronics/harnesses",
+      "perform proof and safety checks"
+    ],
+    "release_cnc_must_include": [
+      "final part profiles",
+      "dados/rabbets/tabs",
+      "geometry-critical through holes",
+      "pilot holes where hardware requires them",
+      "threaded-insert/T-nut/captive-nut locations",
+      "hinge patterns",
+      "slide patterns",
+      "service apertures",
+      "cable passports",
+      "vent/fan openings",
+      "part IDs/orientation/alignment marks"
+    ]
+  },
+  "simplification_rules": {
+    "prefer_fewer_unique_parts": true,
+    "prefer_local_standard_hardware": true,
+    "preserve_open_service_volume": true,
+    "avoid_broad_fixed_shelves_without_need": true,
+    "avoid_duplicate_historical_groups_in_active_master": true,
+    "git_history_is_archive": true
+  },
+  "cnc_release_gate": {
+    "measured_plywood_required": true,
+    "physical_tolerance_coupon_required": true,
+    "cnc_provider_conventions_required": true,
+    "all_measure_before_cnc_hardware_frozen": true,
+    "prototype_dry_fit_required": true,
+    "proof_tests_required": true,
+    "unresolved_hand_layout_operations_allowed": false,
+    "cnc_ready": false
+  }
+}

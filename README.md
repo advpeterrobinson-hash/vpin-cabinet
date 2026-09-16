@@ -17,7 +17,7 @@ Parametric CNC-ready virtual pinball cabinet inspired by Williams WPC proportion
 - **two independent positive mechanical safety stays** plus two positive closed-position latches/supports
 - classic pinball legs and levelers with compact steel-backed corner hardware
 - **external removable PinSkates-style mobility**; no integrated/retractable cabinet wheels
-- **dedicated main-cabinet rear PC backdoor** with a small rearward pull-out shelf; open PC case bolts directly to the shelf
+- **dedicated main-cabinet rear PC backdoor** with one narrow case-sized shelf on two full-extension slides
 - custom/local-fabricated 600 mm lockdown bar, siderails and metric tempered playfield glass permitted
 - full DOF / mechanical force feedback and SSF planned after structure completion
 - modular electronics and feedback mounting with a deliberately open central service volume
@@ -43,10 +43,9 @@ See:
 - `docs/PLAYFIELD_MECHANICS_V18.md`
 - `docs/CABINET_STRUCTURE_V20.md`
 - `docs/CABINET_SERVICE_V21.md`
-- `docs/PC_SLIDE_V22.md` — historical/superseded PC-service direction
-- `docs/CABINET_REAR_PC_SERVICE_V23.md` — active PC-service direction
-- `bom/REAR_PC_SERVICE_V23_BOM.csv`
-- `bom/REAR_PC_SERVICE_V23_PARTS.csv`
+- `docs/PC_SLIDE_V22.md` — historical/superseded center-service direction
+- `docs/CABINET_REAR_PC_SERVICE_V23.md` — historical wider rear-shelf study
+- `docs/REAR_CPU_SHELF_V24.md` — **active rear CPU-service direction**
 
 ## Current selected geometry
 
@@ -61,35 +60,42 @@ See:
 - playfield display purchasing target: **4K, native >=120 Hz**, VRR/HDMI 2.1 preferred;
 - backglass service envelope: **740 x 450 x 100 mm**.
 
-## PC service v0.23 — active direction
+## Rear CPU service v0.24 — active direction
 
-Routine PC maintenance is from the **rear of the pinball machine**, not through the playfield.
+Routine PC maintenance is from the **rear of the pinball machine**, with the playfield closed.
+
+The architecture deliberately follows the ordinary rear-CPU-shelf pattern used in commercial virtual-pinball cabinets: a rear hatch, one simple rectangular board and a pair of full-extension drawer slides. Project dimensions are adapted to the owner's approximately **440 x 265 x 128 mm** open PC case rather than copied from a commercial kit.
+
+The open case is rotated in plan so:
+
+- **265 mm** is across the cabinet;
+- **440 mm** is fore-aft / along the slide direction.
 
 Current engineering package:
 
-- dedicated main-cabinet rear service opening: approximately **520 x 280 mm**;
-- gasketed rear service door: approximately **544 x 304 x 15 mm**;
-- compact reinforced aperture frame;
-- one small **460 x 285 x 18 mm** plywood PC shelf;
-- open-case fit reference **440 x 265 x 128 mm**;
-- open PC case bolts directly to that shelf;
-- two simple **300 mm-class telescopic/full-extension slides**;
-- shelf stows immediately behind the rear door and travels **300 mm rearward**, behind the machine, for service;
-- no drawer box, no second sled, no front PC opening;
-- routine RAM/SSD/GPU/cable service does **not** require raising the playfield;
-- >=450 mm protected rearward cable service loop;
+- rear clear service opening: approximately **340 x 240 mm**;
+- overlapping gasketed rear door: approximately **364 x 264 x 15 mm**;
+- one **285 x 460 x 18 mm** plywood shelf;
+- open case bolts directly to the shelf — no drawer box and no second sled;
+- two simple **450 mm-class 3-section full-extension side-mount slides**;
+- two narrow local support rails carry the fixed slide members without filling the cabinet center;
+- shelf stows at approximately Y **830..1290 mm** and travels **450 mm rearward** to approximately Y **1280..1740 mm**;
+- essentially the complete PC case moves behind/outside the machine for RAM/SSD/GPU/cable service;
+- one simple positive stowed retainer;
+- >=600 mm protected rearward cable service loop;
+- routine service does **not** require raising the playfield;
 - exact slide/case/hinge/latch holes remain blocked until physical parts are measured.
 
 Build locally with:
 
 ```bash
-make build-cabinet-rear-pc-v23
+make build-cabinet-rear-cpu-shelf-v24
 freecad cad/master/vpin-master.FCStd
 ```
 
 Expected review group:
 
-`REAR PC SERVICE v0.23 - BACKDOOR / REARWARD PULL-OUT PC`
+`REAR CPU SHELF v0.24 - NARROW CASE-SIZED BOARD / FULL REAR EXTENSION`
 
 ## Safety baseline
 
