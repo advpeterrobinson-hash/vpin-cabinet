@@ -63,7 +63,9 @@ def main() -> None:
         v23.ViewObject.Visibility = False
 
     group = doc.addObject("App::Part", "CabinetRearCPUShelfV24")
-    group.Label = "REAR CPU SHELF v0.24 - NARROW CASE-SIZED BOARD / FULL REAR EXTENSION"
+    # Use the active-product label directly in the builder.  Do not rely on a later
+    # presentation/cleanup pass to rename this geometry before saved-file checks.
+    group.Label = "REAR CPU SERVICE - BACKDOOR / PULL-OUT SHELF (ACTIVE)"
 
     rear = doc.getObject("CapturedRearPanelV20")
     if rear is None:
