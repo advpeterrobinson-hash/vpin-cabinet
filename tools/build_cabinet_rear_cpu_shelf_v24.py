@@ -18,6 +18,26 @@ def load(path: str) -> dict:
         return json.load(fh)
 
 
+def set_visibility(obj, visible: bool) -> None:
+    """Best-effort visibility change that is safe under headless FreeCADCmd.
+
+    In FreeCADCmd some document objects have no ViewObject at all. Geometry creation
+    and serialization must not depend on GUI-only view providers being present.
+    """
+    if obj is None:
+        return
+    try:
+        view = getattr(obj, "ViewObject", None)
+    except Exception:
+        view = None
+    if view is None:
+        return
+    try:
+        view.Visibility = bool(visible)
+    except Exception:
+        pass
+
+
 def add_shape(doc, group, name, label, shape, transparency=0, part_id=None):
     obj = doc.addObject("PartDesign::Feature", name)
     obj.Label = label
@@ -27,7 +47,9 @@ def add_shape(doc, group, name, label, shape, transparency=0, part_id=None):
         obj.addProperty("App::PropertyString", "PartID", "Build Package")
         obj.PartID = part_id
     try:
-        obj.ViewObject.Transparency = transparency
+        view = getattr(obj, "ViewObject", None)
+        if view is not None:
+            view.Transparency = transparency
     except Exception:
         pass
     return obj
@@ -59,18 +81,15 @@ def main() -> None:
     # v0.24 supersedes the wider v0.23 shelf/door visuals, but keeps all prior
     # cabinet, classic-leg and PinSkates decisions.
     v23 = doc.getObject("CabinetRearPCServiceV23")
-    if v23:
-        v23.ViewObject.Visibility = False
+    set_visibility(v23, False)
 
     group = doc.addObject("App::Part", "CabinetRearCPUShelfV24")
-    # Use the active-product label directly in the builder.  Do not rely on a later
-    # presentation/cleanup pass to rename this geometry before saved-file checks.
     group.Label = "REAR CPU SERVICE - BACKDOOR / PULL-OUT SHELF (ACTIVE)"
 
     rear = doc.getObject("CapturedRearPanelV20")
     if rear is None:
         raise RuntimeError("CapturedRearPanelV20 missing; build v0.20 base first")
-    rear.ViewObject.Visibility = False
+    set_visibility(rear, False)
 
     # Narrower rear aperture preserves much more rear-panel structure than v0.23.
     ax = float(door["aperture_x_mm"])
