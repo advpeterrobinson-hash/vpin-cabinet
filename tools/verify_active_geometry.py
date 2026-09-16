@@ -45,7 +45,7 @@ def verify(path=None):
     expected=door.copy();pivot=App.Vector(db.XMax,rear+cfg['rear_service_door']['hinge_axis_y_offset_mm'],db.ZMin)
     expected.rotate(pivot,App.Vector(0,0,1),-105)
     check('saved open door matches 105 degree outward transform',expected.cut(opened).Volume<1e-5 and opened.cut(expected).Volume<1e-5)
-    fixed_names=['RearPanelWithCPUHatchV24','RearCPUSupportRailLeftV24','RearCPUSupportRailRightV24','RearCPUFixedSlideLeftV24','RearCPUFixedSlideRightV24','ClassicLegBracketRLV21','ClassicLegBracketRRV21','RearPowerFasciaV09','RearServiceFasciaV09']
+    fixed_names=['RearPanelWithCPUHatchV24','RearCPUSupportRailLeftV24','RearCPUSupportRailRightV24','RearCPUFixedSlideLeftV24','RearCPUFixedSlideRightV24','ClassicLegBracketRLV21','ClassicLegBracketRRV21']
     fixed=[shape(n) for n in fixed_names]
     bad=[]
     for angle in range(0,106):
@@ -59,19 +59,19 @@ def verify(path=None):
     for name in ['RearCPUShelfStowedV24','RearCPUOpenCaseStowedV24','RearCPUFixedSlideLeftV24','RearCPUFixedSlideRightV24']:
         b=shape(name).BoundBox
         swept=Part.makeBox(b.XLength,b.YLength+450,b.ZLength,App.Vector(b.XMin,b.YMin,b.ZMin))
-        for other in ['RearPanelWithCPUHatchV24','ClassicLegBracketRLV21','ClassicLegBracketRRV21','RearCPUSupportRailLeftV24','RearCPUSupportRailRightV24','RearMainsEnclosureGhostV09']:
+        for other in ['RearPanelWithCPUHatchV24','ClassicLegBracketRLV21','ClassicLegBracketRRV21','RearCPUSupportRailLeftV24','RearCPUSupportRailRightV24']:
             if not clear(swept,shape(other)):bad.append((name,other))
     check('exact linear service sweep clears fixed rear structure',not bad,bad)
     check('support rails clear rear panel',all(clear(shape(n),panel) for n in ['RearCPUSupportRailLeftV24','RearCPUSupportRailRightV24']))
-    io_top=max(shape(n).BoundBox.ZMax for n in ['RearPowerFasciaV09','RearServiceFasciaV09'])
-    check('door-to-utility fascia gap 10..15 mm',10<=db.ZMin-io_top<=15,db.ZMin-io_top)
     check('two independent positive safety stays retained',all(doc.getObject('SafetyStayOpen'+s+'V18') for s in ['Left','Right']))
+    from verify_rear_utility_v26 import verify as verify_utility
+    verify_utility(doc,check)
     inventory=[]
     for o in doc.Objects:
         if o.TypeId == 'PartDesign::Feature' and not o.Shape.isNull():
             b=o.Shape.BoundBox
             vertices,triangles=o.Shape.tessellate(2.0)
-            inventory.append(dict(mesh_vertices=[[v.x,v.y,v.z] for v in vertices],mesh_triangles=triangles,name=o.Name,label=o.Label,part_id=getattr(o,'PartID',''),bounds=[b.XMin,b.XMax,b.YMin,b.YMax,b.ZMin,b.ZMax],volume=o.Shape.Volume))
+            inventory.append(dict(mesh_vertices=[[v.x,v.y,v.z] for v in vertices],mesh_triangles=triangles,role=getattr(o,'EngineeringRole','LOCAL_METAL' if o.Name.startswith(('CPURailAngle','CPURailBacking')) else ''),name=o.Name,label=o.Label,part_id=getattr(o,'PartID',''),bounds=[b.XMin,b.XMax,b.YMin,b.YMax,b.ZMin,b.ZMax],volume=o.Shape.Volume))
     out=ROOT/'exports/generated';out.mkdir(parents=True,exist_ok=True)
     (out/'active-geometry-report.json').write_text(json.dumps(dict(checks=results,inventory=inventory),indent=2)+'\n')
     App.closeDocument(doc.Name)

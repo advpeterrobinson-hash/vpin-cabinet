@@ -52,11 +52,11 @@
     "slide_packaging_height_mm": 45.0,
     "minimum_slide_pair_rating_kg": 30.0,
     "proof_test_payload_kg": 20.0,
-    "fixed_support_rail_material": "plywood or aluminum",
-    "fixed_support_rail_width_x_mm": 25.0,
+    "fixed_support_rail_material": "18 mm measured marine plywood",
+    "fixed_support_rail_width_x_mm": 18.0,
     "fixed_support_rail_length_y_mm": 465.0,
-    "fixed_support_rail_height_z_mm": 55.0,
-    "fixed_support_left_x_mm": 119.8,
+    "fixed_support_rail_height_z_mm": 135.5,
+    "fixed_support_left_x_mm": 126.8,
     "fixed_support_right_x_mm": 455.2,
     "stowed_positive_retention_required": true,
     "stowed_retention_concept": "single simple captive thumb screw, spring pin or equivalent positive stop accessible from rear door",
@@ -67,7 +67,25 @@
     "complete_removal": "use slide disconnect feature if present, then remove board plus bolted case through rear opening",
     "rule": "rear PC service is intentionally simple: backdoor + narrow board + two slides + one retainer",
     "cabling_policy": "Ordinary dressed PC cables; disconnect as needed for complete extraction. No dedicated CPU harness mechanism.",
-    "fixed_support_mounting_status": "BLOCKED: compact rail-to-bottom/rear metal brackets and bolt access require load-path detailing and 20 kg proof test"
+    "fixed_support_mounting_status": "BLOCKED holes: rail seats on bottom; two angle clamps and underside backing plates per rail; actual slides/brackets/bolts plus proof test required",
+    "fixed_support_rail_bottom_z_mm": 36.0,
+    "support_detail": {
+      "foot_center_y_mm": [
+        875.0,
+        1150.0
+      ],
+      "angle_thickness_mm": 3.0,
+      "angle_height_mm": 60.0,
+      "angle_foot_width_mm": 30.0,
+      "angle_length_y_mm": 50.0,
+      "backing_width_mm": 40.0,
+      "backing_length_y_mm": 60.0,
+      "backing_thickness_mm": 3.0,
+      "crossmember_notch_clearance_mm": 0.2,
+      "nominal_plywood_density_kg_m3": 650.0,
+      "load_path": "case -> board -> slides -> 18 mm rails -> bottom bearing + angle clamp through-bolts -> underside backing -> bottom captured edges/low crossmember -> shell -> leg brackets",
+      "holes": "BLOCKED: physical slide and clamp hardware; no transfer drilling by builder"
+    }
   },
   "open_pc_case_reference": {
     "original_case_plan_mm": [

@@ -52,10 +52,6 @@ def main() -> int:
     outside_shelf_length = max(0.0, service_shelf_rear - rear_inner_plane)
     outside_shelf_fraction = outside_shelf_length / sd if sd else 0.0
 
-    io = json.loads((ROOT / "config/service_io_v08.json").read_text())
-    fascia_top = max(io[k]["rear_z_mm"] + io[k]["outer_height_mm"] for k in ("rear_power_fascia", "rear_service_fascia"))
-    door_gap = door["door_panel_bottom_z_mm"] - fascia_top
-
     checks = [
         ("rear-only routine PC service", door["routine_pc_service_requires_playfield_open"] is False, str(door["routine_pc_service_requires_playfield_open"])),
         ("narrow shelf orientation", sw < sd and abs(cw - 265.0) <= 0.01 and abs(cd - 440.0) <= 0.01, f"shelf {sw:.1f}x{sd:.1f}, case {cw:.1f}x{cd:.1f}"),
@@ -63,7 +59,7 @@ def main() -> int:
         ("rear aperture passes shelf", aw >= sw + 40.0, f"opening {aw:.1f}, shelf {sw:.1f}"),
         ("rear aperture passes PC height", ah >= ch + float(pc["shelf_thickness_z_mm"]) + 40.0, f"opening H {ah:.1f}"),
         ("rear aperture centered inside body", ax >= wood and ax + aw <= outer - wood, f"X {ax:.1f}..{ax+aw:.1f}"),
-        ("door clears actual low utility fascias", 10.0 <= door_gap <= 15.0, f"gap {door_gap:.1f} mm"),
+        ("door baseline remains at Z98", door["door_panel_bottom_z_mm"] == 98.0, "utility must fit around door"),
         ("lower aperture and shelf", az == 110.0 and pc["shelf_z_mm"] == 135.0, f"aperture Z {az}"),
         ("no dedicated CPU harness", "cable_service_loop_minimum_mm" not in pc, pc["cabling_policy"]),
         ("450 mm rearward travel", abs(travel - float(pc["travel_mm"])) <= 0.01 and abs(travel - 450.0) <= 0.01, f"{travel:.1f} mm"),

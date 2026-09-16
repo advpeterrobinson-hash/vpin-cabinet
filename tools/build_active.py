@@ -14,7 +14,7 @@ def main():
     import build_playfield_mechanics_v18 as playfield
     import build_playfield_fixed_anchors_v19 as anchors
     import build_cabinet_service_v21 as legs
-    import build_service_io_v09 as io
+    import build_rear_utility_v26 as utility
     import build_cabinet_rear_cpu_shelf_v24 as cpu
     doc = App.newDocument('VPinActive')
     c = json.loads((ROOT/'config/cabinet_structure_v20.json').read_text())['cabinet']
@@ -31,8 +31,8 @@ def main():
         o=doc.addObject('PartDesign::Feature','Cabinet'+side+'Side')
         o.Shape=Part.Face(Part.makePolygon(vertices)).extrude(App.Vector(t,0,0));shell.addObject(o)
         o.addProperty('App::PropertyString','PartID');o.PartID='CAB-SIDE-001'+('L' if side=='Left' else 'R')+'-R1'
-    for module in (cabinet,backbox,playfield,anchors,legs,io,cpu):
-        if module in (cabinet, legs):
+    for module in (cabinet,backbox,playfield,anchors,legs,cpu,utility):
+        if module in (cabinet, legs, anchors):
             module.main(doc, active_only=True)
         else:
             module.main(doc)
@@ -42,6 +42,19 @@ def main():
     marker.Label='ACTIVE ENGINEERING - SOURCE GENERATED / NOT FOR CNC'
     from active_parts import register
     register(doc)
+    for o in doc.Objects:
+        if o.TypeId != 'PartDesign::Feature' or 'EngineeringRole' in o.PropertiesList:
+            continue
+        o.addProperty('App::PropertyString','EngineeringRole')
+        n=o.Name
+        if n.startswith(('GenericPlayfield','RearCPUOpenCase')) or ('Keepout' in n and not n.startswith(('UCFL','ClosedLatch','LockdownReceiver'))):
+            o.EngineeringRole='ELECTRONICS_ZONE'
+        elif n.startswith(('VesaAdapter','PlayfieldGlass','BackboxServiceDoor')):
+            o.EngineeringRole='REMOVABLE_ADAPTER'
+        elif n.startswith(('RearCPUServiceDoorOpen','RearCPUShelfService','CradleOpen','LeftJoinery','RightJoinery','RearCPUHatch')):
+            o.EngineeringRole='REVIEW_STATE'
+        else:
+            o.EngineeringRole='LOCAL_METAL'
     doc.recompute()
     for o in doc.Objects:
         if hasattr(o,'Shape') and not o.Shape.isNull() and not o.Shape.isValid():

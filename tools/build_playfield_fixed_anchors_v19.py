@@ -41,7 +41,7 @@ def add_shape(doc, group, name, label, shape, transparency=0, part_id=None):
     return obj
 
 
-def main(doc=None) -> None:
+def main(doc=None, active_only=False) -> None:
     owns_document = doc is None
     mech = load(MECH_CFG)
     anchors = load(ANCHOR_CFG)
@@ -181,10 +181,15 @@ def main(doc=None) -> None:
     latch_pt = transform_point(0.0, latch_local_y + 35.0, -105.0)
     latch_dbl_y = 100.0
     latch_dbl_z = 100.0
-    add_shape(doc, group, "LatchReceiverDoublerLeftV19", "PF-LATCH-RECEIVER-DBLR-L - 18 mm PLYWOOD",
-              Part.makeBox(18.0, latch_dbl_y, latch_dbl_z, App.Vector(wood, latch_pt.y-latch_dbl_y/2.0, latch_pt.z-latch_dbl_z/2.0)), 35)
-    add_shape(doc, group, "LatchReceiverDoublerRightV19", "PF-LATCH-RECEIVER-DBLR-R - 18 mm PLYWOOD",
-              Part.makeBox(18.0, latch_dbl_y, latch_dbl_z, App.Vector(outer-wood-18.0, latch_pt.y-latch_dbl_y/2.0, latch_pt.z-latch_dbl_z/2.0)), 35)
+    for side, x in (("Left",wood),("Right",outer-wood-18.0)):
+        latch_shape = Part.makeBox(18.0,latch_dbl_y,latch_dbl_z,App.Vector(x,latch_pt.y-latch_dbl_y/2,latch_pt.z-latch_dbl_z/2))
+        if active_only:
+            support = doc.getObject("ClosedSupportDoubler"+side+"V19")
+            support.Shape = support.Shape.fuse(latch_shape).removeSplitter()
+            support.Label = "COMBINED LANDING / LATCH DOUBLER "+side.upper()+" / 18 mm"
+            support.PartID = "PF-LANDING-LATCH-"+side.upper()+"-R2"
+        else:
+            add_shape(doc,group,"LatchReceiverDoubler"+side+"V19","HISTORICAL SEPARATE LATCH DOUBLER",latch_shape,35)
 
     group.addProperty("App::PropertyString", "ClosedSupportLoadPath", "Engineering")
     group.ClosedSupportLoadPath = "CRADLE RAIL -> RESILIENT PAD -> 3 mm STEEL SEAT -> 18 mm SIDEWALL DOUBLER -> CABINET SIDE"

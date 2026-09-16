@@ -143,9 +143,34 @@ def main(doc=None) -> None:
     rlx = float(pc["fixed_support_left_x_mm"])
     rrx = float(pc["fixed_support_right_x_mm"])
     rail_y = sy - 5.0
-    rail_z = sz - (rh - st) / 2.0
-    add_shape(doc, group, "RearCPUSupportRailLeftV24", "PC REAR SLIDE SUPPORT LEFT - SIMPLE LOCAL RAIL", Part.makeBox(rw, rl, rh, App.Vector(rlx, rail_y, rail_z)), 25)
-    add_shape(doc, group, "RearCPUSupportRailRightV24", "PC REAR SLIDE SUPPORT RIGHT - SIMPLE LOCAL RAIL", Part.makeBox(rw, rl, rh, App.Vector(rrx, rail_y, rail_z)), 25)
+    rail_z = float(pc["fixed_support_rail_bottom_z_mm"])
+    detail = pc["support_detail"]
+    bottom_z = float(v20["cnc_joinery"]["bottom_panel_bottom_z_mm"])
+    for side, x in (("Left", rlx), ("Right", rrx)):
+        rail = Part.makeBox(rw, rl, rh, App.Vector(x, rail_y, rail_z))
+        # Clearance saddle over the existing rear crossmember; it is not weakened.
+        j = v20["cnc_joinery"]
+        clearance = float(detail["crossmember_notch_clearance_mm"])
+        for y in j["crossmember_y_mm"]:
+            notch = Part.makeBox(rw+2, float(j["crossmember_thickness_y_mm"])+2*clearance,
+                                 float(j["crossmember_height_z_mm"])+clearance,
+                                 App.Vector(x-1,float(y)-clearance,rail_z))
+            rail = rail.cut(notch)
+        add_shape(doc, group, "RearCPUSupportRail"+side+"V24", "PC SUPPORT "+side.upper()+" / BOTTOM-SEATED 18 mm PLY / HOLES TBD", rail, 10,
+                  "PC-SUPPORT-"+side.upper()+"-R2")
+        t = float(detail["angle_thickness_mm"])
+        fw = float(detail["angle_foot_width_mm"])
+        fl = float(detail["angle_length_y_mm"])
+        fh = float(detail["angle_height_mm"])
+        bx = x-fw if side == "Left" else x+rw
+        wx = x-t if side == "Left" else x+rw
+        for idx, cy in enumerate(detail["foot_center_y_mm"],1):
+            foot = Part.makeBox(fw,fl,t,App.Vector(bx,cy-fl/2,rail_z))
+            web = Part.makeBox(t,fl,fh,App.Vector(wx,cy-fl/2,rail_z))
+            add_shape(doc,group,f"CPURailAngle{side}{idx}V26", "RAIL ANGLE CLAMP / THROUGH-BOLT PATTERNS TBD",foot.fuse(web),0)
+            bw = float(detail["backing_width_mm"]);bl = float(detail["backing_length_y_mm"]);bt = float(detail["backing_thickness_mm"])
+            add_shape(doc,group,f"CPURailBacking{side}{idx}V26","UNDERSIDE BOLT BACKING / HOLES TBD",
+                      Part.makeBox(bw,bl,bt,App.Vector(bx+(fw-bw)/2,cy-bl/2,bottom_z-bt)),0)
 
     slide_t = float(pc["slide_packaging_thickness_each_side_mm"])
     slide_h = float(pc["slide_packaging_height_mm"])
