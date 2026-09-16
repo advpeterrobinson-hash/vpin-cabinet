@@ -15,11 +15,12 @@ Parametric CNC-ready virtual pinball cabinet inspired by Williams WPC proportion
 - predominantly CNC-plywood playfield cradle with local steel pivot interfaces
 - dual gas struts for lift assistance only
 - **two independent positive mechanical safety stays** plus two positive closed-position latches/supports
-- real pinball legs and levelers
+- real pinball legs and levelers with doubled plywood/steel-backed corner load paths
 - retractable/play-isolated wheels for moving cabinet
+- internal fore-aft PC service drawer on locking full-extension slides
+- custom/local-fabricated 600 mm lockdown bar, siderails and metric tempered playfield glass permitted
 - full DOF / mechanical force feedback and SSF planned after structure completion
 - modular electronics and feedback mounting
-- slide-out ATX PC chassis on a replaceable drawer adapter
 - single mains power cord with isolated protected distribution
 - independent Audio Only / Bluetooth and Full Pinball modes
 - CNC-first construction with minimal hand tools
@@ -42,6 +43,7 @@ See:
 - `docs/PLAYFIELD_DISPLAY_V16.md`
 - `docs/PLAYFIELD_PIVOT_V15.md`
 - `docs/PLAYFIELD_MECHANICS_V18.md`
+- `docs/CABINET_STRUCTURE_V20.md`
 
 ## Longevity philosophy
 
@@ -50,14 +52,14 @@ The wooden cabinet and structural metalwork should outlive several generations o
 Current examples:
 
 - **600 mm body + nominal 18 mm sides = 564 mm full-thickness internal width**;
-- the planned **560 mm physical display width + 2 mm clearance each side = 564 mm**, so the normal 42/43-inch envelope fits without routing the side panels thinner;
-- an exceptional future display could still use controlled pockets, up to a documented maximum routed cavity, but this is no longer part of the baseline build;
+- planned **560 mm physical display width + 2 mm clearance each side = 564 mm**, so the normal 42/43-inch envelope fits without routing the side panels thinner;
 - longitudinal playfield target is **970 mm chassis / 980 mm clear service bay**;
 - exact playfield VESA pattern lives on a replaceable adapter plate;
-- the playfield cradle uses replaceable local steel wear/load interfaces instead of making the TV or permanent sidewalls model-specific;
+- playfield pivot/wear points use replaceable local steel interfaces;
 - 780 mm backbox provides a 740 x 450 x 100 mm display service envelope;
 - backglass and DMD use independent adjustable rail carriages and replaceable VESA/tray adapters;
-- PC and electronics mounting use replaceable adapters/panels.
+- leg, PC-slide, lockdown and bearing hole patterns remain blocked until the real hardware is measured;
+- PC service uses an internal moving tray rather than a large permanent cabinet opening.
 
 ## Current selected geometry
 
@@ -70,46 +72,63 @@ Current examples:
 - cabinet side length: **1308.10 mm**;
 - front outside height: **400.05 mm**;
 - rear outside height: **596.90 mm**;
-- backbox target outer width: **780.00 mm**, giving **90 mm overhang per side** over the 600 mm body;
+- backbox target outer width: **780.00 mm**, giving **90 mm overhang per side**;
 - playfield display physical target: **<=560 x 970 x 55 mm**, <=12 kg;
-- preliminary integrated moving-mass packaging value: **16.5 kg** (12.0 kg display + 4.5 kg cradle allowance);
+- preliminary moving-mass packaging value: **16.5 kg**;
 - playfield display purchasing target: **4K, native >=120 Hz**, VRR/HDMI 2.1 preferred;
 - backglass service envelope: **740 x 450 x 100 mm**.
 
 Current fit references include LG 42-inch C-series geometry and the Samsung 43-inch QN90F/QN90D chassis class. These remain fit references, not purchase mandates.
 
-## Playfield mechanics v0.18
+## Playfield mechanics v0.18 + fixed anchors v0.19
 
-The active FreeCAD mechanical review package is now intended to show the complete system rather than the old LG-specific slab:
+The active playfield mechanical architecture includes:
 
 - generic 560 x 970 x 55 mm display envelope;
-- two CNC plywood side rails and three under-display crossmembers;
-- 36 mm local rear pivot doublers and laminated rear beam;
-- replaceable VESA carrier envelope;
+- CNC plywood cradle with three under-display crossmembers;
+- 36 mm rear pivot reinforcement and laminated rear beam;
+- replaceable VESA carrier;
 - 140 x 80 x 6 mm steel pivot cheek plates;
-- 15 mm short journals and UCFL202 bearing keepouts;
-- two gas-strut packaging lines with force/mounts explicitly deferred;
+- 15 mm short journals and UCFL202 bearing family;
+- two gas struts with force/mounts explicitly deferred;
 - two positive safety stays;
-- two closed structural landing pads and two positive latch keepouts;
-- 300 mm / R50 moving display harness-loop keepout.
+- two closed structural supports and two positive latches;
+- fixed sidewall plywood/steel anchor zones for stays, struts, supports and latch receivers;
+- moving display harness service loop.
+
+## Cabinet structure v0.20
+
+v0.20 advances the permanent cabinet toward a real flat-pack/manufacturing package:
+
+- nominal 6 mm captured joinery packaging for front/rear/bottom/crossmembers;
+- nominal captured bottom blank **576 x 1284.1 mm** at 18 mm stock;
+- three low 80 mm-high structural crossmembers;
+- eight leg-corner reinforcement panels (side + end doubler at each corner);
+- 500 mm-class internal PC slide packaging with **470 mm internal service travel**;
+- 470 x 400 mm PC tray, proof-test target 25 kg;
+- explicit sidewall SSF keepouts;
+- custom **575 x 1100 x 5 mm** tempered playfield-glass target;
+- custom/local-fabricated siderail and 600 mm lockdown-bar envelopes.
+
+The glass, leg holes, slide holes and lockdown receiver remain blocked until the physical interfaces are measured/proof-fitted.
 
 Run locally with:
 
 ```bash
-make build-playfield-mechanics-v18
+make build-cabinet-structure-v20
 freecad cad/master/vpin-master.FCStd
 ```
 
-The expected group is:
+Expected review group:
 
-`PLAYFIELD MECHANICS v0.18 - GENERIC 43in / PLYWOOD CRADLE / DUAL SAFETY`
+`CABINET STRUCTURE v0.20 - JOINERY / LEGS / PC DRAWER / GLASS`
 
 ## Safety baseline
 
-The display and gas-strut loads are carried by an independent structural cradle. Gas struts are lift assistance only; both positive mechanical safety stays must be engaged before working under the raised playfield. Cabinet mains power must be isolated before manipulating the display harness, pivot, gas struts, stays or removing the complete cradle. Reachable hazardous voltage is a blocking defect.
+The display and gas-strut loads are carried by an independent structural cradle. Gas struts are lift assistance only; both positive mechanical safety stays must be engaged before working under the raised playfield. Cabinet mains power must be isolated before manipulating the display harness, pivot, gas struts, stays, PC service tray or removing the complete cradle. Reachable hazardous voltage is a blocking defect.
 
 ## Status
 
 Engineering / parametric-CAD development.
 
-No CNC files are approved for manufacturing yet. CNC production remains blocked on final hardware geometry, measured sheet thickness, Cutter CNC/tooling consultation, physical tolerance coupon, local FreeCAD geometry validation and final proof testing.
+No CNC files are approved for manufacturing yet. CNC production remains blocked on final hardware geometry, measured sheet thickness, Cutter CNC/tooling consultation, physical tolerance coupon, local FreeCAD geometry validation, dry fit and final proof testing.

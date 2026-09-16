@@ -4,16 +4,17 @@
   "structure_ready_gate_before_electronics": true,
   "pre_electronics_required_systems": [
     "wood cabinet and backbox",
+    "CNC tolerance coupon and measured-stock joinery values",
     "backbox fold hinges and upright locking",
     "keyed rear service door",
-    "real legs and levelers",
+    "real legs and levelers with measured bracket geometry",
     "play-isolated retractable mobility",
     "custom lockdown bar and siderails",
-    "playfield cradle / dual struts / independent safety prop",
-    "playfield OLED mechanical fit",
+    "playfield cradle / dual struts / dual independent positive safety stays",
+    "model-agnostic playfield display mechanical fit",
     "backglass monitor adjustable-carriage fit",
     "playfield and backbox glazing",
-    "PC drawer and removable chassis adapter",
+    "PC internal service drawer and removable chassis adapter",
     "fan/vent/cable-passport/raceway geometry"
   ],
   "hinge_procurement": {
@@ -42,6 +43,9 @@
     "docs/STRUCTURE_BUILD_MANUAL.md",
     "docs/PART_LABELING.md",
     "docs/BACKBOX_HINGE_SHOPPING.md",
+    "docs/PLAYFIELD_MECHANICS_V18.md",
+    "docs/CABINET_STRUCTURE_V20.md",
+    "docs/CNC_TOLERANCE_COUPON.md",
     "bom/STRUCTURE_BOM.csv",
     "bom/STRUCTURE_PARTS.csv"
   ],
