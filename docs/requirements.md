@@ -61,25 +61,31 @@ Requirements:
 
 ## Legs and mobility
 
-- Real pinball-style legs
-- Real levelers
-- Local plywood reinforcement creates approximately 36 mm wood thickness at leg corners
-- Steel leg brackets/backing required
+- **Classic pinball-style legs** are retained
+- Real pinball levelers are retained
+- Use compact internal steel leg brackets/backing rather than large permanent plywood corner blocks
 - Primary leg fasteners are through-bolts
-- Exact leg holes are CNC-blocked until actual hardware is selected/measured
-- Wheels must retract or otherwise leave levelers firmly on floor during play
-- Cabinet must remain rigid for nudging
+- Exact leg/bracket hole pattern remains CNC-blocked until actual hardware is selected and measured
+- Large 18+18 mm plywood leg-corner doublers are **not** part of the default design; add only compact local backing if physical proof testing shows it is needed
+- Cabinet mobility uses **external removable PinSkates-style side skates** attached to the classic legs only when moving the machine
+- No integrated/retractable casters or wheel keepouts are built into the cabinet
+- PinSkates are removed for play; all playing load remains on the four leg levelers
+- Cabinet must remain rigid for nudging and force feedback
 
 ## PC
 
 - Open ATX test-bench/mining-style metal chassis
 - Approximate reference chassis size: 440 x 265 x 128 mm
-- Mounted to removable internal drawer/platform
-- Full-extension locking slides
-- Drawer service occurs with playfield raised; tray moves fore-aft inside cabinet and can lift out after slide release
+- Mounted to a **removable internal lift-out sled**, not a front-travel drawer
+- Current sled target: approximately 480 x 320 mm
+- Normal service occurs from above with the playfield raised
+- The complete PC sled releases from compact locator/retainer points and lifts vertically out of the cabinet
+- No front cabinet service opening is required
+- No long full-extension drawer slides are required
+- Quick-disconnect service harness required
 - GPU secondary support
 - PC mechanically isolated from force-feedback structure
-- Drawer proof-test target: 25 kg
+- Sled proof-test target: 25 kg
 
 ## Playfield glass / siderails / lockdown
 
@@ -115,9 +121,11 @@ Reserve isolated cabinet-wall areas for:
 
 Do not bridge these areas unnecessarily with rigid shelves or PC support structures at exciter height.
 
-## Electronics
+## Electronics packaging
 
-Modular removable mounting panels for:
+The reference-cabinet review favors a large open central service volume with localized removable boards/rails rather than filling the cabinet with fixed furniture.
+
+Reserve future removable mounting panels/rails for:
 - Main controller
 - DOF output boards
 - LED controllers
@@ -125,7 +133,7 @@ Modular removable mounting panels for:
 - Audio hardware
 - DC distribution
 
-Separate high-current and signal wiring routes.
+Separate high-current and signal wiring routes. Preserve clear service aisles and top access after the playfield is raised.
 
 ## Power
 
@@ -179,5 +187,6 @@ Before cabinet production:
 - confirm Cutter CNC tooling/layer/radius conventions
 - measure actual hardware that controls hole patterns
 - complete dry-fit and collision checks
+- proof-test classic leg/bracket corners and the lift-out PC sled
 
 No current engineering branch is approved for production CNC yet.
