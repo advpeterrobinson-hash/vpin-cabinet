@@ -158,3 +158,12 @@ DEC-020 supersedes the 580 mm width selection in DEC-015. Width-dependent CAD, m
 Owner-directed 2026-09-16: preserve 600 mm body, classic legs/external skates and dual playfield stays. Use one 285 × 460 mm PC shelf at Z135, 340 × 240 hatch at Z110, 364 × 264 door at Z98 opening 105° outward. No dedicated CPU harness, intermediate PC sled, integrated wheels or large leg corner furniture.
 
 Build a fresh active document from selected config/builder sections; do not delete/reparent historical master geometry. Save the active output separately and preserve the owner's working FCStd. No historical FCStd is a dependency of the fresh build. The low utility fascia window design remains a structural/hardware gate; never cut through the bottom capture or rear leg brackets merely to match a presentation target.
+
+
+## DEC-022 — Minimal fixed utility functions; preserve low rear CPU geometry
+
+Owner-directed: remove permanent rear SERVICE HDMI / USB-A / USB-C / RESERVE. The extended PC exposes troubleshooting ports. PC POWER / RESET / DOF SERVICE remain at the coin door. Keep mains/master disconnect plus optional Ethernet only. Remove decorative wood fascias. Protect bottom capture and rear leg load paths. Preserve CPU aperture Z110..350, shelf Z135 and outward door.
+
+Two small rear-face carriers (A) and underside carriers (B) pass modeled clearance checks. No placement is selected or cut until the owner reviews the comparison. This supersedes DEC-021's old low utility-window study.
+
+Combine each overlapping landing/latch doubler pair into one union retaining both load zones; active wood count becomes 36. Use 18 mm bottom-seated CPU support rails with local bolted angle clamps and underside backing. Measurement, fastener sizing and physical proof testing remain release gates.

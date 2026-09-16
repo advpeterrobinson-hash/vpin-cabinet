@@ -80,7 +80,7 @@ Requirements:
 - Two 450 mm-class full-extension side-mount slides; ≥30 kg pair rating; 20 kg proof payload.
 - Shelf stowed Y830..1290; extended Y1280..1740; no second sled or drawer box.
 - Rear clear aperture X130..470 / Z110..350; overlapping door Z98..362 opens outward 105°.
-- Compact support rails; their cabinet attachments require load-path detailing and proof testing.
+- Two bottom-seated 18 mm support rails, four identical local metal angle clamps and underside backing plates; measured bolt patterns/capacity and proof testing required.
 - One positive stowed retainer. Actual slides, case holes, door hinge/latch and retainer determine CNC patterns.
 - Ordinary PC cables dressed/disconnected as needed; no dedicated CPU harness ghost/mechanism.
 - Separate touch-safe mains enclosure; no bare terminals behind the rear service door.
@@ -160,15 +160,13 @@ Front/underside:
 - USB-C
 - Hardware master volume
 
-Rear low zones:
-- Ethernet
-- USB service
-- optional HDMI service
-- main disconnect
-
-Rear mid service zone:
-- dedicated PC backdoor opening above the low I/O fascias
-- rearward pull-out PC shelf immediately behind that door
+Rear/underside permanent functions:
+- AC mains/master disconnect on a fixed small interface with independent touch-safe enclosure.
+- Optional wired Ethernet on a small replaceable carrier; blank if unused.
+- No permanent SERVICE HDMI, rear USB-A/USB-C or RESERVE cutouts. Access the extended PC directly.
+- PC POWER, RESET and DOF SERVICE remain at the coin door; no rear duplicates.
+- Rear-face A versus underside B awaits owner comparison review (REAR_UTILITY_V26.md).
+- CPU door must remain at Z98 and aperture Z110..350. Bottom-joint and leg load paths take precedence over utility placement.
 
 ## Manufacturing
 

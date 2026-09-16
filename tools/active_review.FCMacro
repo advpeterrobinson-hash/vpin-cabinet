@@ -27,6 +27,8 @@ def show(mode):
             option='A' if mode.startswith('Utility A') else 'B'
             if n.startswith('Utility'+option) and getattr(o,'EngineeringRole','') in ['REMOVABLE_ADAPTER','ELECTRONICS_ZONE']:visible=True
         if mode=='Rear load paths' and n.startswith(('RearLegKeepout','BottomJointKeepout')):visible=True
+        if mode=='Interior':
+            visible=visible and getattr(o,'EngineeringRole','') in ['STRUCTURAL_WOOD','LOCAL_METAL']
         v.Visibility=visible
         v.Transparency=65 if 'Display' in n or 'Case' in n else 0
     view=Gui.activeDocument().activeView()

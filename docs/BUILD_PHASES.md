@@ -18,7 +18,7 @@ Before ordering production CNC wood, confirm:
 - rear PC service-door hinge/latch/frame geometry;
 - lockdown/siderail fabrication concept;
 - playfield/backglass display service envelopes;
-- rear low service-I/O geometry;
+- selected rear-face or underside mains/Ethernet geometry;
 - cable-passport, fan and vent openings.
 
 No coordinated electronics purchase is required for this phase. Buy only physical components whose actual geometry must be measured before CNC freeze.

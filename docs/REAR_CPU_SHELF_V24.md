@@ -88,3 +88,5 @@ Do not release rear-panel CNC geometry until:
 - rear-panel/hatch stiffness is proof-tested.
 
 See ACTIVE_ENGINEERING.md for the source pipeline, exact exterior-plane accessibility and unresolved utility/load-path gates.
+
+The v26 supports are 18 mm bottom-seated rails with clearance saddles over the rear low crossmember, two small bolted angle clamps per rail and underside backing. Slide contact faces and Z135 shelf datum remain unchanged. See REAR_UTILITY_V26.md for load reactions, proof-test limits and utility comparison.

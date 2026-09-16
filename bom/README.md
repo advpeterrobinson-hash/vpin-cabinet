@@ -4,4 +4,6 @@ Use `ACTIVE_PARTS.csv` for current wooden-part dispositions and nominal local en
 
 Older `STRUCTURE_BOM.csv`, `WOOD_PARTS.csv`, and versioned service BOMs contain superseded purchasing/part concepts. They are historical engineering records, not an active shopping list. In particular do not order built-in wheels, a front PC drawer, a lift-out sled or a second PC carrier from those files.
 
-Every active machining record is BLOCKED. Local envelopes are not finished cut sizes, and 36 mm laminated assemblies still need per-lamination release IDs. The 25 mm CPU rail section is a packaging target, not a specified plywood stock thickness.
+Every active machining record is BLOCKED. Local envelopes are not finished cut sizes, and 36 mm laminated assemblies still need per-lamination release IDs. The CPU supports are now 18 mm plywood rails seated on the bottom, with measured local metal clamp/backing hardware still required. The register has 36 active wooden solids (40 before v26).
+
+Utility A/B are unselected review candidates, not active machining or purchasing records. See `docs/REAR_UTILITY_V26.md`.

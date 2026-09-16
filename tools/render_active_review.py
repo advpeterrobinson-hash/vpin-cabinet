@@ -57,7 +57,7 @@ scene('03-door-closed','Rear CPU door CLOSED at Z98..362',rear,18,65)
 scene('04-door-open','Rear-view LEFT hinge / door OPEN OUTWARD 105°',opened,28,65)
 scene('05-pc-stowed','PC STOWED / narrow bottom-seated slide supports',opened,35,115)
 scene('06-pc-extended','PC EXTENDED 450 mm / playfield stays closed',extended,30,65)
-structural=[n for n in parts if role(n)=='STRUCTURAL_WOOD' and n not in ['CabinetRightSide','CapturedBottomV20']]
+structural=[n for n in parts if role(n)=='STRUCTURAL_WOOD' and 'Ghost' not in n and n not in ['CabinetRightSide','CapturedBottomV20']]
 structural += [n for n in parts if n.startswith(('ClassicLegBracket','CPURailAngle','CPURailBacking','ClosedSupportSeat','SafetyStayNutPlate','GasStrutNutPlate','PivotPlate','BearingBacking'))]
 scene('07-interior','ACTIVE structural parts only / right side and bottom hidden',structural,30,-55)
 scene('09-rear-load-path','PC → board → slides → seated rails → clamp/backing → bottom → shell',opened+['CapturedBottomV20','LowCrossmember3V20','RearLegKeepoutRLV26','RearLegKeepoutRRV26','BottomJointKeepoutV26'],28,65,True)
