@@ -4,7 +4,7 @@ FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
 MASTER := cad/master/vpin-master.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build open-master build-current build-cabinet-rear-cpu-shelf-v24 repair-rear-cpu generate-cnc-coupon audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build open-master build-current build-cabinet-rear-cpu-shelf-v24 repair-rear-cpu revise-rear-layout generate-cnc-coupon audit-reference status
 
 help:
 	@printf '%s\n' \
@@ -14,6 +14,7 @@ help:
 	  '  make validate            Validate the CURRENT design only' \
 	  '  make build-current       Build and present the current FreeCAD master' \
 	  '  make repair-rear-cpu     Rebuild ONLY the rear CPU subsystem, then verify rear CPU + full saved master' \
+	  '  make revise-rear-layout  Rebuild compact rear I/O + lowered/outward rear CPU package only' \
 	  '  make open-master         Open the current FreeCAD master' \
 	  '  make generate-cnc-coupon Generate the nominal CNC fit coupon' \
 	  '  make status              Show concise Git state' \
@@ -87,6 +88,17 @@ build-cabinet-rear-cpu-shelf-v24:
 # Focused recovery path: do not rebuild the cabinet stack. Re-add only the rear CPU
 # geometry to the existing master, then prove it and the complete active file were serialized.
 repair-rear-cpu:
+	$(FREECADCMD) tools/build_cabinet_rear_cpu_shelf_v24_entry.py
+	$(PYTHON) tools/verify_rear_cpu_saved_v25.py
+	$(PYTHON) tools/verify_active_master_v25_file.py
+
+# Focused visual revision path requested by owner: compact the two rear fascias into
+# a lower utility strip, lower the CPU hatch/shelf 70 mm, open the door outward,
+# and omit the dedicated rear-CPU harness ghost. Does not rebuild unrelated systems.
+revise-rear-layout:
+	$(PYTHON) tools/validate_service_io_v08.py
+	$(PYTHON) tools/validate_cabinet_rear_cpu_shelf_v24.py
+	$(FREECADCMD) tools/build_service_io_v09_entry.py
 	$(FREECADCMD) tools/build_cabinet_rear_cpu_shelf_v24_entry.py
 	$(PYTHON) tools/verify_rear_cpu_saved_v25.py
 	$(PYTHON) tools/verify_active_master_v25_file.py
