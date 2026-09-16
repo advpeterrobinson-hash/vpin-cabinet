@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """Prune superseded review geometry from the generated FreeCAD master.
 
-This does not rewrite Git history.  It removes historical comparison groups/objects
+This does not rewrite Git history. It removes historical comparison groups/objects
 from the generated working master so the owner/builder sees only active geometry.
+
+FreeCAD object proxies become invalid immediately after ``removeObject``.  Never
+continue inspecting a stale ``doc.Objects`` snapshot after recursive deletion;
+collect stable internal names first, then delete by name.
 """
 from __future__ import annotations
 
@@ -38,14 +42,44 @@ DROP_OBJECT_NAMES = {
 }
 
 
-def remove_object_recursive(doc, obj) -> None:
-    # Remove children first for App::Part / groups.
-    children = list(getattr(obj, "Group", []) or [])
+def safe_name(obj) -> str | None:
+    """Return an object's internal name without propagating stale-proxy errors."""
+    try:
+        return str(obj.Name)
+    except Exception:
+        return None
+
+
+def safe_label(obj) -> str:
+    """Return an object's visible label without propagating stale-proxy errors."""
+    try:
+        return str(obj.Label)
+    except Exception:
+        return ""
+
+
+def remove_object_recursive(doc, name: str) -> None:
+    """Remove a live object and its grouped children using stable object names."""
+    obj = doc.getObject(name)
+    if obj is None:
+        return
+
+    child_names: list[str] = []
+    try:
+        children = list(getattr(obj, "Group", []) or [])
+    except Exception:
+        children = []
+
     for child in children:
-        if doc.getObject(child.Name):
-            remove_object_recursive(doc, child)
-    if doc.getObject(obj.Name):
-        doc.removeObject(obj.Name)
+        child_name = safe_name(child)
+        if child_name:
+            child_names.append(child_name)
+
+    for child_name in child_names:
+        remove_object_recursive(doc, child_name)
+
+    if doc.getObject(name) is not None:
+        doc.removeObject(name)
 
 
 def main() -> None:
@@ -53,22 +87,33 @@ def main() -> None:
         raise RuntimeError(f"Missing master: {MASTER}")
     doc = App.openDocument(MASTER)
 
-    removed_groups = []
-    removed_objects = []
+    removed_groups: list[str] = []
+    removed_objects: list[str] = []
 
-    # Drop obsolete whole groups by visible label, avoiding reliance on old internal names.
+    # IMPORTANT: collect stable names BEFORE deleting anything. FreeCAD's Python
+    # proxies are invalid as soon as their underlying object is deleted, so a
+    # snapshot of doc.Objects cannot safely be inspected during recursive removal.
+    group_targets: list[tuple[str, str]] = []
     for obj in list(doc.Objects):
-        label = str(getattr(obj, "Label", ""))
+        name = safe_name(obj)
+        if not name:
+            continue
+        label = safe_label(obj)
         if any(label.startswith(prefix) for prefix in DROP_LABEL_PREFIXES):
-            removed_groups.append(label)
-            remove_object_recursive(doc, obj)
+            group_targets.append((name, label))
 
-    # Drop superseded children from retained cabinet groups.
-    for name in DROP_OBJECT_NAMES:
-        obj = doc.getObject(name)
-        if obj:
+    for name, label in group_targets:
+        if doc.getObject(name) is None:
+            continue
+        removed_groups.append(label)
+        remove_object_recursive(doc, name)
+
+    # Drop superseded children from retained cabinet groups. Names that were
+    # already removed as children of a deleted group are harmlessly skipped.
+    for name in sorted(DROP_OBJECT_NAMES):
+        if doc.getObject(name) is not None:
             removed_objects.append(name)
-            remove_object_recursive(doc, obj)
+            remove_object_recursive(doc, name)
 
     # Rename retained groups so the tree communicates current purpose instead of historical experiments.
     renames = {
@@ -78,13 +123,13 @@ def main() -> None:
     }
     for name, label in renames.items():
         obj = doc.getObject(name)
-        if obj:
+        if obj is not None:
             obj.Label = label
 
     # Add one compact current-state marker to the tree.
     marker = doc.getObject("ActiveBuildV25")
-    if marker:
-        doc.removeObject(marker.Name)
+    if marker is not None:
+        doc.removeObject("ActiveBuildV25")
     marker = doc.addObject("App::FeaturePython", "ActiveBuildV25")
     marker.Label = "ACTIVE BUILD v0.25 - SIMPLE CNC KIT"
     marker.addProperty("App::PropertyString", "AssemblyGoal", "Current")
