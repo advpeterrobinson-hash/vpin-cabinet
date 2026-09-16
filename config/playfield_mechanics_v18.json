@@ -22,10 +22,12 @@
     "depth_mm": 55.0,
     "mass_limit_kg": 12.0,
     "cross_clearance_each_side_mm": 2.0,
-    "front_setback_mm": 10.0,
+    "front_setback_mm": 45.0,
+    "minimum_clearance_behind_front_panel_mm": 15.0,
     "glass_clearance_normal_mm": 12.0,
     "replaceable_vesa_adapter": true,
-    "baseline_vesa_patterns": ["200x200", "300x200"]
+    "baseline_vesa_patterns": ["200x200", "300x200"],
+    "visual_review_note": "v0.18 first closed-position review showed the 10 mm setback placed the sloped 55 mm envelope too close to/through the 18 mm front panel; 45 mm is the revised packaging datum"
   },
   "cradle": {
     "primary_material": "18 mm good-quality structural plywood",
@@ -98,12 +100,13 @@
     "count": 2,
     "independent_of_gas_struts": true,
     "positive_lock_required": true,
-    "fixed_mount_forward_from_hinge_mm": 330.0,
+    "fixed_mount_forward_from_hinge_mm": 500.0,
     "fixed_mount_below_hinge_mm": 135.0,
     "moving_mount_forward_from_hinge_mm": 520.0,
     "moving_mount_local_z_mm": -65.0,
     "packaging_bar_diameter_mm": 12.0,
-    "status": "dual captive steel stay packaging; exact slot/pin geometry later"
+    "target_open_stay_angle_from_cabinet_y_deg": [60.0, 80.0],
+    "status": "dual captive steel stay packaging; fixed anchor moved forward after visual review to create a more useful triangular brace; exact slot/pin geometry later"
   },
   "closed_support": {
     "structural_pad_count": 2,
