@@ -3,7 +3,8 @@
   "manufacturing_ready": false,
   "depends_on": [
     "config/cabinet_service_v21.json",
-    "config/cabinet_structure_v20.json"
+    "config/cabinet_structure_v20.json",
+    "config/service_io_v08.json"
   ],
   "reference_architecture": {
     "product": "PinballCabinet.com Virtual Pinball Cabinet Rear CPU Slide Out Shelf",
@@ -17,14 +18,15 @@
     "raw_aperture_width_x_mm": 340.0,
     "raw_aperture_height_z_mm": 240.0,
     "aperture_x_mm": 130.0,
-    "aperture_bottom_z_mm": 180.0,
+    "aperture_bottom_z_mm": 110.0,
     "door_overlap_each_edge_mm": 12.0,
     "door_panel_width_x_mm": 364.0,
     "door_panel_height_z_mm": 264.0,
     "door_panel_thickness_y_mm": 15.0,
     "door_panel_x_mm": 118.0,
-    "door_panel_bottom_z_mm": 168.0,
+    "door_panel_bottom_z_mm": 98.0,
     "hinge_side": "left as viewed from rear",
+    "open_direction": "outward / behind cabinet / positive Y",
     "outward_open_angle_deg": 105.0,
     "gasket_required": true,
     "latch": "keyed or tool-controlled compression/quarter-turn latch; exact hardware TBD",
@@ -40,7 +42,7 @@
     "shelf_x_mm": 157.5,
     "shelf_stowed_y_mm": 830.0,
     "shelf_service_y_mm": 1280.0,
-    "shelf_z_mm": 205.0,
+    "shelf_z_mm": 135.0,
     "travel_direction": "rearward / increasing cabinet Y",
     "travel_mm": 450.0,
     "slide_pair": "simple 450 mm-class 3-section full-extension side-mount ball-bearing slides",
@@ -59,10 +61,11 @@
     "case_mounting": "open PC case bolts directly to the shelf; no drawer box, no second sled, no lift-out requirement for routine service",
     "case_mounting_holes_status": "BLOCKED until actual open PC case is purchased and measured",
     "slide_mounting_holes_status": "BLOCKED until actual slide pair is purchased and measured",
-    "cable_service_loop_minimum_mm": 600.0,
-    "service_access": "stand behind machine, isolate cabinet power, open rear door, release retainer, pull PC shelf rearward until the case is substantially outside cabinet",
-    "complete_removal": "use slide disconnect feature if present, then remove board plus bolted case through rear opening",
-    "rule": "rear PC service is intentionally simple: backdoor + narrow board + two slides + one retainer"
+    "dedicated_rear_cpu_harness_required": false,
+    "cabling_policy": "no dedicated modeled CPU harness; isolate power and unplug/dress ordinary PC cables as needed before full shelf extraction",
+    "service_access": "stand behind machine, isolate cabinet power, open rear door outward, release retainer, pull PC shelf rearward until the case is substantially outside cabinet",
+    "complete_removal": "disconnect ordinary PC cables as required, use slide disconnect feature if present, then remove board plus bolted case through rear opening",
+    "rule": "rear PC service is intentionally simple: outward-opening backdoor + narrow board + two slides + one retainer"
   },
   "open_pc_case_reference": {
     "original_case_plan_mm": [440.0, 265.0, 128.0],
@@ -81,6 +84,8 @@
   "supersedes": {
     "v23_wide_460x285_shelf_orientation": true,
     "v23_520x280_rear_aperture": true,
-    "v22_center_directed_service": true
+    "v22_center_directed_service": true,
+    "v24_high_rear_cpu_hatch_at_z180": true,
+    "v24_dedicated_rear_cpu_harness_ghost": true
   }
 }
