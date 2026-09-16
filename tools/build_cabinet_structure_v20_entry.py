@@ -1,0 +1,3 @@
+import build_cabinet_structure_v20
+
+build_cabinet_structure_v20.main()
