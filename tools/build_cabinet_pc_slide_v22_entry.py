@@ -1,0 +1,3 @@
+import build_cabinet_pc_slide_v22
+
+build_cabinet_pc_slide_v22.main()
