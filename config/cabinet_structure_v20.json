@@ -86,10 +86,10 @@
   "playfield_glass": {
     "role": "metric custom-cut local tempered-glass packaging target; final size follows siderail/lockdown prototype",
     "width_mm": 575.0,
-    "length_mm": 1100.0,
+    "length_along_slope_mm": 1100.0,
     "thickness_mm": 5.0,
-    "front_y_mm": 20.0,
-    "rear_y_mm": 1120.0,
+    "front_y_projected_mm": 20.0,
+    "rear_y_projected_mm": 1103.598,
     "side_cover_each_side_mm": 12.5,
     "tempered_required": true,
     "edge_finish": "arrissed/polished safe edges",
@@ -98,7 +98,7 @@
   "siderails": {
     "quantity": 2,
     "local_fabrication_allowed": true,
-    "packaging_length_y_mm": 1120.0,
+    "packaging_length_along_slope_mm": 1120.0,
     "top_flange_width_x_mm": 32.0,
     "nominal_sheet_thickness_mm": 2.0,
     "glass_edge_capture_target_mm": 12.5,
