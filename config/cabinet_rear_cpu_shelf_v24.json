@@ -2,7 +2,7 @@
   "status": "owner-directed-engineering-packaging",
   "manufacturing_ready": false,
   "depends_on": [
-    "config/cabinet_rear_pc_service_v23.json",
+    "config/cabinet_service_v21.json",
     "config/cabinet_structure_v20.json"
   ],
   "reference_architecture": {
