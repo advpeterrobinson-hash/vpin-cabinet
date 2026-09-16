@@ -28,7 +28,7 @@ freecadcmd tools/build_cabinet_rear_cpu_shelf_v24_entry.py
 
 echo
 echo '=== VERIFY REAR CPU SHELF ==='
-freecadcmd tools/verify_cabinet_rear_cpu_shelf_v24.py
+freecadcmd tools/verify_cabinet_rear_cpu_shelf_v24_entry.py
 
 echo
 echo '=== COMPLETE ==='
