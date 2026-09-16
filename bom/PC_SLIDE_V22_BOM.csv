@@ -1,0 +1,5 @@
+bom_id,phase,system,part_id,item,qty,unit,procurement,source_region,status,geometry_required_before_cnc,notes
+BOM-PCV22001,2,PC,PC-SHELF-001,18 mm CNC-cut flat PC sliding shelf,1,pc,CNC,Brazil,DESIGN,yes,Nominal 538.6x300 mm; final width derived from actual slide thickness
+BOM-PCV22002,2,PC,PC-SLIDE-300,300 mm-class full-extension side-mount ball-bearing slide pair,1,pair,local-or-import,Brazil/China,SHOP_BEFORE_CNC,yes,Simple pair; actual thickness/travel/hole pattern must be measured before shelf/hole freeze
+BOM-PCV22003,2,PC,PC-SHELF-RET-001,Positive stowed shelf retainer,1,pc,local,Brazil,SELECT,yes,Simple captive M6 thumb screw/spring pin/equivalent; prevents creep/rattle during nudge/DOF
+BOM-PCV22004,4,PC,PC-OPENCASE-001,Open ATX PC case approximately 440x265x128 mm,1,pc,local-or-import,Brazil/China,SELECT_LATER,yes,Bolts directly to PC-SHELF-001; actual mount pattern measured before drilling

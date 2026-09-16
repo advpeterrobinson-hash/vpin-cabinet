@@ -1,0 +1,3 @@
+part_id,system,description,qty,material,nominal_thickness_mm,label_text,status,notes
+PC-SHELF-001-R1,PC,Simple flat sliding PC shelf,1,compensado naval,18,PC-SHELF-001-R1 FRONT ->,DESIGN,Nominal 538.6x300; final width regenerated from actual slide thickness
+PC-SHELF-RET-001-R1,PC,Positive stowed PC shelf retainer,1,steel-or-commercial,TBD,PC-SHELF-RET-001-R1,SELECT,Simple retainer only; exact hardware TBD

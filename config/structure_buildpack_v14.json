@@ -14,7 +14,7 @@
     "model-agnostic playfield display mechanical fit",
     "backglass monitor adjustable-carriage fit",
     "playfield and backbox glazing",
-    "PC internal lift-out service sled and removable chassis adapter",
+    "simple internal PC sliding shelf with open case bolted directly to shelf",
     "fan/vent/cable-passport/raceway geometry"
   ],
   "hinge_procurement": {
@@ -47,10 +47,13 @@
     "docs/CABINET_STRUCTURE_V20.md",
     "docs/CNC_TOLERANCE_COUPON.md",
     "docs/CABINET_SERVICE_V21.md",
+    "docs/PC_SLIDE_V22.md",
     "bom/STRUCTURE_BOM.csv",
     "bom/STRUCTURE_PARTS.csv",
     "bom/SERVICE_V21_BOM.csv",
-    "bom/SERVICE_V21_PARTS.csv"
+    "bom/SERVICE_V21_PARTS.csv",
+    "bom/PC_SLIDE_V22_BOM.csv",
+    "bom/PC_SLIDE_V22_PARTS.csv"
   ],
   "labeling": {
     "manufacturing_id_engraving_required": true,

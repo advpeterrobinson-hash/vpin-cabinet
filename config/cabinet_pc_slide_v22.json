@@ -1,0 +1,54 @@
+{
+  "status": "owner-directed-engineering-packaging",
+  "manufacturing_ready": false,
+  "depends_on": [
+    "config/cabinet_service_v21.json",
+    "config/cabinet_structure_v20.json"
+  ],
+  "pc_slide": {
+    "architecture": "single flat internal sliding shelf; open PC case bolts directly to shelf; no drawer box and no lift-out sled architecture",
+    "shelf_material": "18 mm structural plywood baseline",
+    "shelf_width_x_mm": 538.6,
+    "shelf_width_rule": "nominal = full-thickness cabinet inner width minus two slide thicknesses; regenerate after actual slide pair is measured",
+    "shelf_depth_y_mm": 300.0,
+    "shelf_thickness_z_mm": 18.0,
+    "shelf_x_mm": 30.7,
+    "shelf_stowed_y_mm": 720.0,
+    "shelf_service_y_mm": 420.0,
+    "shelf_z_mm": 110.0,
+    "travel_mm": 300.0,
+    "slide_pair": "simple 300 mm-class full-extension ball-bearing side-mount slides mounted directly between cabinet sidewalls and shelf edges",
+    "slide_packaging_thickness_each_side_mm": 12.7,
+    "slide_packaging_height_mm": 45.0,
+    "minimum_slide_pair_rating_kg": 30.0,
+    "proof_test_payload_kg": 20.0,
+    "stowed_positive_retention_required": true,
+    "stowed_retention_concept": "one simple captive M6 thumb screw, spring pin or equivalent positive stop; exact hardware TBD",
+    "front_cabinet_exit_required": false,
+    "service_access": "raise and positively secure playfield; release stowed retainer; slide PC shelf 300 mm toward cabinet center; service from above",
+    "complete_removal": "use slide disconnect feature if supplied; lift shelf + bolted open PC case out through raised playfield opening",
+    "case_mounting": "open PC case bolts directly to sliding shelf; no second removable sled between case and shelf",
+    "case_mounting_holes_status": "BLOCKED until actual open PC case is purchased and measured",
+    "slide_mounting_holes_status": "BLOCKED until actual slide pair is purchased and measured",
+    "cable_policy": "PC power/video/USB/network harnesses use service loops long enough for full 300 mm slide travel without unplugging for routine service",
+    "rule": "keep the mechanism intentionally simple: one flat shelf + two direct side-mount slides + one positive stowed retainer"
+  },
+  "open_pc_case_reference": {
+    "width_mm": 440.0,
+    "depth_mm": 265.0,
+    "height_mm": 128.0,
+    "source": "owner-supplied open ATX case reference image",
+    "fit_only": true,
+    "required_edge_margin_x_mm": 20.0,
+    "required_edge_margin_y_mm": 15.0
+  },
+  "supersedes": {
+    "v21_lift_out_pc_sled": true,
+    "v20_long_forward_pc_drawer": true
+  },
+  "reference_architecture_notes": [
+    "Tukkari premium cabinets use flexible internal shelving/partitions for the PC and feedback devices rather than a sealed desktop-PC compartment",
+    "owner-supplied references show open PC hardware mounted on a simple serviceable carrier with the cabinet center kept accessible",
+    "Freelance Soundlabs explicitly moved the finished PC hardware into an open case to improve airflow and motherboard access"
+  ]
+}
