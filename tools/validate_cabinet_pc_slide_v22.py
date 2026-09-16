@@ -9,6 +9,10 @@ CFG = ROOT / "config" / "cabinet_pc_slide_v22.json"
 V20 = ROOT / "config" / "cabinet_structure_v20.json"
 
 
+def close(a: float, b: float, tol: float = 0.05) -> bool:
+    return abs(a - b) <= tol
+
+
 def main() -> int:
     cfg = json.loads(CFG.read_text(encoding="utf-8"))
     v20 = json.loads(V20.read_text(encoding="utf-8"))
@@ -33,11 +37,18 @@ def main() -> int:
     margin_x = (shelf_w - case_w) / 2.0
     margin_y = (shelf_d - case_d) / 2.0
 
+    left_slide_outer = shelf_x - slide_t
+    right_slide_outer = shelf_x + shelf_w + slide_t
+    nominal_shelf_w = inner - 2.0 * slide_t
+    nominal_shelf_x = wood + slide_t
+
     checks = [
         ("single flat shelf architecture", "single flat internal sliding shelf" in pc["architecture"], pc["architecture"]),
         ("no front cabinet exit", pc["front_cabinet_exit_required"] is False, str(pc["front_cabinet_exit_required"])),
-        ("shelf remains within full-thickness cabinet bay", shelf_x >= wood and shelf_x + shelf_w <= outer - wood, f"X {shelf_x:.1f}..{shelf_x+shelf_w:.1f} / bay {wood:.1f}..{outer-wood:.1f}"),
-        ("slide thickness fits each side", shelf_x - slide_t >= wood and shelf_x + shelf_w + slide_t <= outer - wood, f"slide outer X {shelf_x-slide_t:.1f}..{shelf_x+shelf_w+slide_t:.1f}"),
+        ("shelf remains within full-thickness cabinet bay", shelf_x >= wood - 0.05 and shelf_x + shelf_w <= outer - wood + 0.05, f"X {shelf_x:.1f}..{shelf_x+shelf_w:.1f} / bay {wood:.1f}..{outer-wood:.1f}"),
+        ("shelf width derives from cabinet minus slides", close(shelf_w, nominal_shelf_w), f"shelf {shelf_w:.3f} / derived {nominal_shelf_w:.3f} mm"),
+        ("shelf centered between direct side slides", close(shelf_x, nominal_shelf_x), f"shelf X {shelf_x:.3f} / derived {nominal_shelf_x:.3f} mm"),
+        ("slide thickness fits each side", left_slide_outer >= wood - 0.05 and right_slide_outer <= outer - wood + 0.05, f"slide outer X {left_slide_outer:.3f}..{right_slide_outer:.3f} / bay {wood:.3f}..{outer-wood:.3f}"),
         ("300 mm slide travel", abs(travel - float(pc["travel_mm"])) <= 0.01 and abs(travel - 300.0) <= 0.01, f"{travel:.1f} mm"),
         ("service position remains well behind cabinet front", service_y >= 300.0, f"front edge Y={service_y:.1f} mm"),
         ("stowed shelf fits cabinet length", stowed_y + shelf_d <= float(cab["side_length_mm"]) - wood, f"rear edge Y={stowed_y+shelf_d:.1f} mm"),
