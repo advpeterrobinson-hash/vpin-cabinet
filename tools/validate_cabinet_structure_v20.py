@@ -53,8 +53,20 @@ def main() -> int:
     service_top_margin = min(top_z(service_y0), top_z(service_y1)) - tray_top
     stowed_top_margin = min(top_z(stowed_y0), top_z(stowed_y1)) - tray_top
 
+    sub_t = float(pc["fixed_subrail_thickness_x_mm"])
+    left_sub_x0 = float(pc["left_subrail_x_mm"])
+    left_sub_x1 = left_sub_x0 + sub_t
+    right_sub_x0 = float(pc["right_subrail_x_mm"])
+    right_sub_x1 = right_sub_x0 + sub_t
+    left_slide_gap = tray_x0 - left_sub_x1
+    right_slide_gap = right_sub_x0 - tray_x1
+    slide_pkg = float(pc["slide_packaging_thickness_each_side_mm"])
+
     glass_side_cover = (outer - float(glass["width_mm"])) / 2.0
-    glass_rear_margin_to_flat = slope_run - float(glass["rear_y_mm"])
+    glass_front_y = float(glass["front_y_projected_mm"])
+    glass_rear_derived = glass_front_y + float(glass["length_along_slope_mm"]) * math.cos(slope)
+    glass_rear_doc = float(glass["rear_y_projected_mm"])
+    glass_rear_margin_to_flat = slope_run - glass_rear_derived
 
     checks: list[tuple[str, bool, str]] = []
     checks.append(("600 mm body baseline", abs(outer - 600.0) <= 0.01, f"{outer:.1f} mm"))
@@ -76,13 +88,17 @@ def main() -> int:
     checks.append(("PC slide travel matches positions", abs((stowed_y0 - service_y0) - float(pc["slide_travel_mm"])) <= 0.01, f"{stowed_y0-service_y0:.1f} mm"))
     checks.append(("PC service envelope clears cabinet top", service_top_margin >= 25.0, f"minimum {service_top_margin:.1f} mm"))
     checks.append(("PC stowed envelope clears cabinet top", stowed_top_margin >= 25.0, f"minimum {stowed_top_margin:.1f} mm"))
+    checks.append(("PC slide packaging gaps symmetric", abs(left_slide_gap-right_slide_gap) <= 0.01, f"L/R {left_slide_gap:.1f}/{right_slide_gap:.1f} mm"))
+    checks.append(("PC slide packaging thickness reserved", left_slide_gap + 1e-6 >= slide_pkg and right_slide_gap + 1e-6 >= slide_pkg, f"gap {left_slide_gap:.1f} mm / target {slide_pkg:.1f} mm"))
+    checks.append(("PC subrails remain off sidewall skins", left_sub_x0 > wood and right_sub_x1 < outer - wood, f"X {left_sub_x0:.1f}..{right_sub_x1:.1f} mm"))
     checks.append(("PC slides have load margin", float(pc["minimum_slide_pair_rating_kg"]) >= 1.5 * float(pc["proof_test_payload_kg"]), f"rating {pc['minimum_slide_pair_rating_kg']} / proof {pc['proof_test_payload_kg']} kg"))
     checks.append(("PC slide holes blocked until sample", "BLOCKED" in pc["exact_slide_holes_status"], pc["exact_slide_holes_status"]))
     checks.append(("glass centered with symmetric side cover", abs(glass_side_cover - float(glass["side_cover_each_side_mm"])) <= 0.01, f"{glass_side_cover:.1f} mm/side"))
+    checks.append(("glass projected rear datum documented", abs(glass_rear_derived-glass_rear_doc) <= 0.02, f"derived/doc {glass_rear_derived:.3f}/{glass_rear_doc:.3f} mm"))
     checks.append(("glass remains on sloped top section", glass_rear_margin_to_flat >= 5.0, f"rear margin {glass_rear_margin_to_flat:.1f} mm"))
     checks.append(("tempered glass required", bool(glass["tempered_required"]), str(glass["tempered_required"])))
     checks.append(("siderail pair and glass capture", int(rails["quantity"]) == 2 and float(rails["glass_edge_capture_target_mm"]) >= 10.0, f"capture {rails['glass_edge_capture_target_mm']} mm"))
-    checks.append(("custom lockdown matches cabinet width", bool(lockdown["custom_width_required"]) and abs(float(lockdown["outer_width_mm"]) - outer) <= 0.01, f"{lockdown['outer_width_mm']} mm"))
+    checks.append(("custom lockdown matches cabinet width", bool(lockdown["custom_width_required"]) and abs(float(lockdown["outer_width_mm"])-outer) <= 0.01, f"{lockdown['outer_width_mm']} mm"))
     checks.append(("lockdown receiver holes blocked", "BLOCKED" in lockdown["exact_receiver_holes_status"], lockdown["exact_receiver_holes_status"]))
     checks.append(("CNC gates remain active", bool(gates["measured_plywood_thickness_required"]) and bool(gates["cnc_tolerance_coupon_required"]) and gates["cnc_release_allowed"] is False, "measured stock + coupon + release false"))
     checks.append(("package remains non-manufacturing", cfg["manufacturing_ready"] is False, str(cfg["manufacturing_ready"])))
@@ -99,8 +115,9 @@ def main() -> int:
     print(f"Captured bottom blank                {bottom_blank_w:.1f} x {bottom_blank_l:.1f} mm nominal")
     print(f"PC service/stowed Y                  {service_y0:.1f} / {stowed_y0:.1f} mm")
     print(f"PC service top clearance             {service_top_margin:.1f} mm")
-    print(f"Glass target                         {float(glass['width_mm']):.1f} x {float(glass['length_mm']):.1f} x {float(glass['thickness_mm']):.1f} mm")
-    print(f"Glass side cover                     {glass_side_cover:.1f} mm/side")
+    print(f"PC slide side gap                    {left_slide_gap:.1f} mm each side")
+    print(f"Glass target                         {float(glass['width_mm']):.1f} x {float(glass['length_along_slope_mm']):.1f} x {float(glass['thickness_mm']):.1f} mm")
+    print(f"Glass projected Y                    {glass_front_y:.1f} .. {glass_rear_derived:.1f} mm")
     print("STATUS", "PASS - cabinet structure packaging" if ok else "FAIL")
     return 0 if ok else 1
 
