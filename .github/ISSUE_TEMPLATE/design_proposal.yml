@@ -1,0 +1,45 @@
+name: Design proposal
+description: Propose a mechanical, electrical, CNC, service, or architecture change
+title: "[DESIGN] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing an improvement. Please focus on the engineering problem, constraints, and evidence.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem or limitation does the current design have?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the proposed solution and affected subsystem/part IDs.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Measurements / evidence
+      description: Include dimensions, datums, calculations, test results, photos, references, or hardware measurements where relevant.
+  - type: textarea
+    id: manufacturing
+    attributes:
+      label: Manufacturing and assembly impact
+      description: Does this change part count, CNC operations, hand-tool requirements, hardware freeze items, or serviceability?
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety impact
+      description: Note effects on structural loads, mains, moving assemblies, thermal behavior, or service access.
+  - type: checkboxes
+    id: licensing
+    attributes:
+      label: Contribution terms
+      options:
+        - label: I can contribute this material under CERN-OHL-S-2.0 and will preserve the official Source Location notice.
+          required: true
