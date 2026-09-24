@@ -15,7 +15,13 @@ Commercial use is allowed. If you convey modified Covered Source or Products bas
 
 In short: **you may build and sell products based on the design, but conveyed improvements may not be turned into a closed proprietary fork.**
 
-See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), [open-source policy](docs/OPEN_SOURCE_POLICY.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
+See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), the [open-source policy](docs/OPEN_SOURCE_POLICY.md), the [licensing FAQ](docs/LICENSING_FAQ.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
+
+The licence is intentionally **commercial-friendly but strongly reciprocal**: selling cabinets, kits, fabrication, installation, or support is allowed; when modified Covered Source or Products based on it are conveyed, the applicable Complete Source must stay available under the same reciprocal licence. "Free" here means the design/source remains freely available under the licence — it does **not** require physical products or services to be sold for zero price.
+
+The official upstream project link is part of the project Notice and should remain with redistributed designs/products:
+
+**https://github.com/advpeterrobinson-hash/vpin-cabinet**
 
 ## Active development branch
 
@@ -104,4 +110,14 @@ No CNC files are approved for manufacturing yet. CNC production remains blocked 
 
 ## Contributing
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md), the [Code of Conduct](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md) before submitting major design changes.
+Contributions are welcome from builders, CNC operators, mechanical designers, electricians, software developers, testers, and documentation writers.
+
+- Start with [CONTRIBUTING.md](CONTRIBUTING.md).
+- Read [GOVERNANCE.md](GOVERNANCE.md) for how engineering decisions are accepted.
+- Use the GitHub issue templates for bugs, design proposals, manufacturing feedback, and hardware measurements.
+- Use [SUPPORT.md](SUPPORT.md) for help and project-support boundaries.
+- Report security or serious safety concerns through [SECURITY.md](SECURITY.md).
+- Follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+- For reuse, forks, and commercial derivatives, read the [licensing FAQ](docs/LICENSING_FAQ.md).
+
+Useful improvements are encouraged to come back upstream as pull requests, but the legal reciprocal obligations are governed by [LICENSE](LICENSE), not by whether a fork submits a PR.
