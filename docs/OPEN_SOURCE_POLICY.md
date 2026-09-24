@@ -22,6 +22,14 @@ When you convey modified Covered Source or a Product based on it, CERN-OHL-S-2.0
 
 Under the strongly reciprocal variant, incorporating Covered Source into a larger design can make that larger work modified Covered Source, subject to the licence's definitions and exceptions for Available Components.
 
+## What "free" means here
+
+The project's requirement is **source freedom and reciprocity**, not zero-price commerce.
+
+A fabricator or company may charge for physical cabinets, kits, parts, labor, integration, support, or other services. When the licence's Conveyance conditions are triggered, the applicable Complete Source and modifications must be made available under CERN-OHL-S-2.0 as required by the licence.
+
+Private experimentation that is not Conveyed does not create a project-specific publication requirement beyond the actual CERN-OHL-S-2.0 terms.
+
 ## Required project attribution
 
 The project's `NOTICE.md` specifies the original official Source Location and the manner in which it must be displayed for Products based on the project.
