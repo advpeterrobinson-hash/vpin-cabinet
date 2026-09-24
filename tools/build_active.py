@@ -14,6 +14,7 @@ def main():
     import build_playfield_mechanics_v18 as playfield
     import build_playfield_fixed_anchors_v19 as anchors
     import build_cabinet_service_v21 as legs
+    import build_owner_services_v27 as owner
     import build_rear_utility_v26 as utility
     import build_cabinet_rear_cpu_shelf_v24 as cpu
     doc = App.newDocument('VPinActive')
@@ -31,7 +32,7 @@ def main():
         o=doc.addObject('PartDesign::Feature','Cabinet'+side+'Side')
         o.Shape=Part.Face(Part.makePolygon(vertices)).extrude(App.Vector(t,0,0));shell.addObject(o)
         o.addProperty('App::PropertyString','PartID');o.PartID='CAB-SIDE-001'+('L' if side=='Left' else 'R')+'-R1'
-    for module in (cabinet,backbox,playfield,anchors,legs,cpu,utility):
+    for module in (cabinet,backbox,playfield,anchors,legs,cpu,utility,owner):
         if module in (cabinet, legs, anchors):
             module.main(doc, active_only=True)
         else:

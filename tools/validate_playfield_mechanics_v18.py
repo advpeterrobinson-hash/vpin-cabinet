@@ -20,7 +20,6 @@ def main() -> int:
     cradle = cfg["cradle"]
     hinge = cfg["hinge_axis"]
     pivot = cfg["pivot_interface"]
-    gs = cfg["gas_struts"]
     stays = cfg["safety_stays"]
     closed = cfg["closed_support"]
     harness = cfg["moving_harness"]
@@ -99,9 +98,7 @@ def main() -> int:
     checks.append(("preferred UCFL202 bearing family", "UCFL202" in pivot["bearing_family"], pivot["bearing_family"]))
     checks.append(("bearing holes blocked pending sample", "BLOCKED" in pivot["bearing_mount_holes_status"], pivot["bearing_mount_holes_status"]))
     checks.append(("positive axial retention", bool(pivot["positive_axial_retention_required"]), str(pivot["positive_axial_retention_required"])))
-    checks.append(("dual gas struts", int(gs["count"]) == 2, str(gs["count"])))
-    checks.append(("gas struts assist only", bool(gs["assist_only"]) and gs["purchase_ready"] is False, "assist only / not purchase-ready"))
-    checks.append(("dual independent safety stays", int(stays["count"]) == 2 and bool(stays["independent_of_gas_struts"]) and bool(stays["positive_lock_required"]), f"count={stays['count']}"))
+    checks.append(("dual independent safety stays", int(stays["count"]) == 2 and bool(stays["independent_supports"]) and not stays["friction_support_allowed"] and bool(stays["positive_lock_required"]), f"count={stays['count']}"))
     checks.append(("open safety-stay triangulation", stay_angle_min <= stay_angle <= stay_angle_max, f"{stay_angle:.1f} deg; target {stay_angle_min:.0f}..{stay_angle_max:.0f}"))
     checks.append(("two closed structural pads", int(closed["structural_pad_count"]) == 2, str(closed["structural_pad_count"])))
     checks.append(("two positive closed latches", int(closed["positive_latch_count"]) == 2, str(closed["positive_latch_count"])))

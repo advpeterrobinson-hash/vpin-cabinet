@@ -106,6 +106,6 @@
     "additional_patterns_allowed_by_replacing_adapter": true,
     "display_specific_permanent_wood_holes_prohibited": true,
     "longitudinal_position_adjustable_before_final_hinge_freeze": true,
-    "gas_strut_force_must_be_recalculated_after_exact_display_and_cradle_mass_are_measured": true
+    "manual_lift_effort_must_be_checked_with_completed_assembly": true
   }
 }

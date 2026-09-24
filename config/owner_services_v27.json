@@ -1,0 +1,371 @@
+{
+  "status": "owner-directed-packaging-and-standardized-interfaces",
+  "manufacturing_ready": false,
+  "source": "Owner review after a0ac747; engineering dimensions below are explicit project packaging decisions, not measured hardware patterns",
+  "props": {
+    "count": 2,
+    "rod_diameter_mm": 8,
+    "rod_plane_x_mm": [
+      28,
+      572
+    ],
+    "lower_pivot_captive": true,
+    "upper_receiver_lock": "transverse captive pin with positive keeper",
+    "friction_support": false,
+    "stow": "rearward from fixed pivot; positive closed clip",
+    "each_rod_supports_full_moving_load": true,
+    "mount_patterns": "BLOCKED_MEASURE_HARDWARE",
+    "hardware_id": "HF-010",
+    "manual_lift": {
+      "display_cg_local_yz_mm": [
+        485,
+        27.5
+      ],
+      "cradle_cg_local_yz_mm": [
+        520,
+        -40
+      ],
+      "grip_local_yz_mm": [
+        35,
+        -5
+      ],
+      "final_measured_force_n": null
+    },
+    "geometry_decision": "Forward fixed pivot Y80 Z330; straight rod stows rearward in outer rail corridor, avoiding raised cradle deployment collision. Rod diameter is a proof-test candidate, not a rated capacity."
+  },
+  "electronics": {
+    "tray_x_mm": [
+      50,
+      425
+    ],
+    "tray_y_mm": 285,
+    "tray_z_mm": 125,
+    "tray_size_mm": [
+      125,
+      355,
+      6
+    ],
+    "payload_envelope_height_mm": 110,
+    "payload_design_kg_each": 3,
+    "crossmember_mount_x_mm": [
+      65,
+      160,
+      440,
+      535
+    ],
+    "crossmember_mount_z_mm": 85,
+    "mount_clearance_diameter_mm": 6.5,
+    "mount_fastener": "M6 through-bolt with captive nut on project-fabricated angle; no purchased bracket pattern",
+    "bridge": false,
+    "electronics_patterns": "ADAPTER_ONLY",
+    "central_access_box_mm": [
+      190,
+      300,
+      116,
+      220,
+      510,
+      160
+    ]
+  },
+  "bottom_intake": {
+    "bank_center_x_mm": [
+      250,
+      350
+    ],
+    "row_center_y_mm": [
+      330,
+      360,
+      390,
+      420,
+      450,
+      480,
+      510,
+      540,
+      570
+    ],
+    "slot_length_mm": 80,
+    "slot_width_mm": 12,
+    "minimum_web_mm": 18,
+    "minimum_perimeter_ligament_mm": 36,
+    "filter_outer_xy_mm": [
+      190,
+      305,
+      220,
+      290
+    ],
+    "filter_mount_xy_mm": [
+      [
+        200,
+        315
+      ],
+      [
+        400,
+        315
+      ],
+      [
+        200,
+        585
+      ],
+      [
+        400,
+        585
+      ]
+    ],
+    "mount_clearance_diameter_mm": 4.5,
+    "filter_thickness_mm": 8,
+    "adapter_rule": "Removable underside cassette; mesh/filter/fan details on replaceable adapter; wood remains generic"
+  },
+  "passages": {
+    "centers_xy_mm": [
+      [
+        220,
+        1188
+      ],
+      [
+        380,
+        1188
+      ]
+    ],
+    "size_xy_mm": [
+      100,
+      40
+    ],
+    "corner_radius_mm": 20,
+    "purpose": "matched shelf/floor airflow and segregated low-voltage cable passages; edge guards and removable mesh; protect hinge/lock zones"
+  },
+  "exhaust": {
+    "centers_xz_mm": [
+      [
+        155,
+        1225.8
+      ],
+      [
+        445,
+        1225.8
+      ]
+    ],
+    "opening_size_mm": [
+      100,
+      80
+    ],
+    "corner_radius_mm": 10,
+    "adapter_size_mm": [
+      130,
+      110,
+      3
+    ],
+    "adapter_only": true
+  },
+  "controls": {
+    "side_positions_yz_mm": [
+      [
+        255,
+        270
+      ],
+      [
+        310,
+        270
+      ]
+    ],
+    "side_optional": [
+      false,
+      true
+    ],
+    "button_nut_radius_mm": 18,
+    "side_internal_depth_mm": 60,
+    "button_cable_depth_mm": 20,
+    "front_buttons": [
+      {
+        "name": "Start",
+        "x": 125,
+        "z": 250
+      },
+      {
+        "name": "ExitBack",
+        "x": 125,
+        "z": 200
+      },
+      {
+        "name": "Launch",
+        "x": 470,
+        "z": 230
+      }
+    ],
+    "front_internal_depth_mm": 65,
+    "coin_door_box_mm": [
+      175,
+      -8,
+      90,
+      250,
+      113,
+      210
+    ],
+    "plunger_body_box_mm": [
+      500,
+      18,
+      195,
+      40,
+      202,
+      40
+    ],
+    "plunger_cable_box_mm": [
+      500,
+      220,
+      185,
+      40,
+      35,
+      60
+    ],
+    "plunger_center_xz_mm": [
+      520,
+      215
+    ],
+    "plunger_handle_projection_mm": 80,
+    "final_holes": "BLOCKED_MEASURE_HARDWARE",
+    "button_hardware_id": "HF-020",
+    "plunger_hardware_id": "HF-030"
+  },
+  "ssf": {
+    "depth_mm": 25,
+    "solid_panel_required": true,
+    "holes": "ADAPTER_ONLY",
+    "bottom_subwoofer_opening": false
+  },
+  "backbox": {
+    "door_outward_deg": 105,
+    "door_spacer_mm": 4,
+    "gasket_compressed_mm": 2,
+    "stop_flange_mm": 2,
+    "door_hardware": "HF-029",
+    "door_primary_shear": false,
+    "display_box_mm": [
+      -70,
+      1080,
+      780,
+      740,
+      100,
+      450
+    ],
+    "dmd_box_mm": [
+      205,
+      1065,
+      650,
+      190,
+      55,
+      90
+    ],
+    "speaker_boxes_mm": [
+      [
+        80,
+        1065,
+        650,
+        120,
+        75,
+        120
+      ],
+      [
+        400,
+        1065,
+        650,
+        120,
+        75,
+        120
+      ]
+    ],
+    "service_route": "rear for connectors/central mounts; remove front bezel for full-size monitor replacement; fixed upper exhaust serviced outside rear",
+    "lighting_box_mm": [
+      -50,
+      1070,
+      1260,
+      700,
+      15,
+      20
+    ]
+  },
+  "airflow_review_routes_mm": [
+    [
+      [
+        220,
+        450,
+        0
+      ],
+      [
+        220,
+        450,
+        180
+      ],
+      [
+        220,
+        740,
+        240
+      ],
+      [
+        220,
+        1160,
+        360
+      ],
+      [
+        220,
+        1188,
+        590
+      ],
+      [
+        220,
+        1188,
+        720
+      ],
+      [
+        155,
+        1220,
+        1225.8
+      ],
+      [
+        155,
+        1340,
+        1225.8
+      ]
+    ],
+    [
+      [
+        380,
+        450,
+        0
+      ],
+      [
+        380,
+        450,
+        180
+      ],
+      [
+        380,
+        740,
+        240
+      ],
+      [
+        380,
+        1160,
+        360
+      ],
+      [
+        380,
+        1188,
+        590
+      ],
+      [
+        380,
+        1188,
+        720
+      ],
+      [
+        445,
+        1220,
+        1225.8
+      ],
+      [
+        445,
+        1340,
+        1225.8
+      ]
+    ]
+  ]
+}

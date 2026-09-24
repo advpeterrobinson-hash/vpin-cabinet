@@ -48,4 +48,4 @@ def verify(path=None, omitted_joint=False):
      rail=detail.getObject('RearCPUSupportRail'+side+'V24').Shape.BoundBox
      assert rail.ZMax-116>=55.5-1e-6,'rail web over saddle'
     A.closeDocument(detail.Name);A.closeDocument(base.Name)
-    print('\nCNC_DETAIL_SAVED_PASS: 36 solids; all contacts accounted; zero wood overlaps; CPU/gap preserved; side skin >= 2t/3')
+    print('\nCNC_DETAIL_SAVED_PASS: 32 wood solids; all contacts accounted; zero wood overlaps; CPU/gap preserved; side skin >= 2t/3')

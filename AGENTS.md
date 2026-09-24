@@ -22,8 +22,8 @@ The primary product is not merely one cabinet. The primary product is a **replic
 - The lockdown bar may be custom-sized and therefore is **not** a blocker to the 600 mm body width.
 - Nominal main material is 18 mm metric plywood; production geometry must ultimately use measured sheet thickness.
 - Playfield is model-agnostic: compact 42/43-inch class within 560 x 970 x 55 mm and 12 kg, mounted in an independent cradle with replaceable display adapters.
-- The OLED must hinge upward for service and use dual gas struts plus two independent positive mechanical safety stays.
-- A reduced-thickness OLED side pocket is clearance only; OLED mass and gas-strut loads must be carried by full-strength structure/cradle hardware.
+- The playfield is manually raised and supported by two simple captive prop rods with positive receiver pins/keepers. Either prop must support the full moving load independently; no friction stays.
+- A reduced-thickness OLED side pocket is clearance only; Display mass and prop/pivot loads must be carried by full-strength structure/cradle hardware.
 - Backglass is approximately 32-inch 1080p; premium image quality is not a priority there. Backbox width may depart from authentic Williams dimensions to create a durable 32-inch-class service envelope.
 - PC uses a removable/open ATX chassis on a full-extension service drawer. The purchased open case bolts directly to one replaceable shelf board on rearward full-extension slides; no second sled or intermediate adapter.
 - Real pinball legs are required; mobility uses external removable PinSkates-style devices only; no integrated wheels or wheel cutouts.
@@ -90,7 +90,7 @@ The primary product is not merely one cabinet. The primary product is a **replic
 - Never treat mains-voltage wiring as ordinary low-voltage electronics.
 - Do not publish or approve exposed mains terminals inside service areas.
 - Mechanical feedback must have an independent service-disable/kill path.
-- OLED service position must remain safe if a gas strut fails; a positive mechanical safety device is mandatory.
+- Raised playfield service requires both positive captive props engaged; one-prop retention/load proof is mandatory.
 - GPU and other heavy internal components require positive mechanical restraint because the cabinet will be nudged and vibrated.
 
 ## Validation policy
@@ -107,7 +107,7 @@ Before calling a design stage complete, validate at minimum:
 - generated parts are valid solids when they are intended to be solids;
 - the part can be fabricated/assembled without requiring an undocumented specialist operation.
 
-Later stages must add hinge sweep, gas-strut, drawer-travel, backbox, toy, speaker, shelf, cable-clearance, fastener-access, and flat-pack assembly checks.
+Later stages must add hinge sweep, prop-rod/stow, drawer-travel, backbox, toy, speaker, shelf, cable-clearance, fastener-access, and flat-pack assembly checks.
 
 ## Git workflow
 

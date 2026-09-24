@@ -51,7 +51,12 @@ def verify(doc,check):
         x,y,z,dx,dy,dz=spec
         intended=intended.cut(Part.makeBox(dx,dy,dz,App.Vector(x,y,z)))
     check('active rear panel has only approved localized apertures',panel.cut(intended).Volume+intended.cut(panel).Volume<1e-4)
-    check('active bottom has zero utility removal',abs(bottom.Volume-576*1284.1*18)<1e-4,bottom.Volume)
+    from owner_features_v27 import features
+    from build_owner_services_v27 import cut_shape
+    intended_bottom=Part.makeBox(576,1284.1,18,App.Vector(12,12,18))
+    for f in features():
+        if f['part']=='CapturedBottomV20':intended_bottom=intended_bottom.cut(cut_shape(f))
+    check('active bottom has only defined intake/filter cuts; zero utility removal',bottom.cut(intended_bottom).Volume+intended_bottom.cut(bottom).Volume<1e-4,bottom.Volume)
     option_reports={}
     wood_names=[o.Name for o in doc.Objects if getattr(o,'EngineeringRole','')=='STRUCTURAL_WOOD']
     mechanical=[o.Name for o in doc.Objects if o.Name.startswith(('CPURailAngle','CPURailBacking','RearCPUFixedSlide','ClassicLegBracket','LegSpreader'))]
@@ -121,7 +126,7 @@ def verify(doc,check):
     with (ROOT/'exports/generated/active-parts.csv').open() as f:rows=list(csv.DictReader(f))
     actual={o.Name:getattr(o,'PartID','') for o in doc.Objects if getattr(o,'EngineeringRole','')=='STRUCTURAL_WOOD'}
     listed={r['object_name']:r['part_id'] for r in rows}
-    check('wood register exactly reconciles with CAD',actual==listed and len(rows)==36 and len(set(listed.values()))==36,{'before':40,'after':len(rows)})
+    check('wood register exactly reconciles with CAD',actual==listed and len(rows)==32 and len(set(listed.values()))==32,{'before':40,'after':len(rows)})
     # Clear rectangles derived from saved door, shelf, leg and support bounds.
     def projection(name,axes,margin=0):
         b=shape(name).BoundBox

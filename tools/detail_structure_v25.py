@@ -77,6 +77,10 @@ def main():
  # Rear tie overlaps pivot block: tie is top member, block receives shallow local lap.
  for side in ('Left','Right'):
   remove('CradlePivotDoubler'+side+'V18',wood['CradleCrossmember3V18'].Shape,'POCKET','CradleCrossmember3V18')
+ # Preserve new generic cuts when shelf capture extends its nominal blank.
+ from owner_features_v27 import features
+ from build_owner_services_v27 import cut_shape
+ for f in features():wood[f['part']].Shape=wood[f['part']].Shape.cut(cut_shape(f)).removeSplitter()
  # Verify ALL wood pairs, not merely the pairs explicitly edited.
  clashes=[]
  for i,(n,o) in enumerate(wood.items()):

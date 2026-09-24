@@ -48,7 +48,6 @@ def main(doc=None, active_only=False) -> None:
     cab = mech["cabinet"]
     disp = mech["display_envelope"]
     cradle = mech["cradle"]
-    gs = mech["gas_struts"]
     stays = mech["safety_stays"]
     closed = mech["closed_support"]
 
@@ -144,34 +143,13 @@ def main(doc=None, active_only=False) -> None:
     spz = float(sa["steel_nut_plate_height_z_mm"])
     spx = float(sa["steel_nut_plate_thickness_x_mm"])
     add_shape(doc, group, "SafetyStayDoublerLeftV19", "PF-SAFETY-STAY-ANCHOR-DBLR-L - 18 mm PLYWOOD",
-              Part.makeBox(sdx, sdy, sdz, App.Vector(wood, stay_y-sdy/2.0, stay_z-sdz/2.0)), 25, "PF-SAFETY-STAY-ANCHOR-DBLR-L-R1")
+              Part.makeBox(sdx, sdy, sdz, App.Vector(wood, stay_y-sdy/2.0, stay_z-float(sa["wood_center_below_pin_mm"])-sdz/2.0)), 25, "PF-SAFETY-STAY-ANCHOR-DBLR-L-R1")
     add_shape(doc, group, "SafetyStayDoublerRightV19", "PF-SAFETY-STAY-ANCHOR-DBLR-R - 18 mm PLYWOOD",
-              Part.makeBox(sdx, sdy, sdz, App.Vector(outer-wood-sdx, stay_y-sdy/2.0, stay_z-sdz/2.0)), 25, "PF-SAFETY-STAY-ANCHOR-DBLR-R-R1")
+              Part.makeBox(sdx, sdy, sdz, App.Vector(outer-wood-sdx, stay_y-sdy/2.0, stay_z-float(sa["wood_center_below_pin_mm"])-sdz/2.0)), 25, "PF-SAFETY-STAY-ANCHOR-DBLR-R-R1")
     add_shape(doc, group, "SafetyStayNutPlateLeftV19", "PF-SAFETY-STAY-NUTPLATE-L - 6 mm STEEL / HOLES TBD",
-              Part.makeBox(spx, spy, spz, App.Vector(wood+sdx, stay_y-spy/2.0, stay_z-spz/2.0)), 20)
+              Part.makeBox(spx, spy, spz, App.Vector(wood+sdx, stay_y-spy/2.0, stay_z-float(sa["wood_center_below_pin_mm"])-spz/2.0)), 20)
     add_shape(doc, group, "SafetyStayNutPlateRightV19", "PF-SAFETY-STAY-NUTPLATE-R - 6 mm STEEL / HOLES TBD",
-              Part.makeBox(spx, spy, spz, App.Vector(outer-wood-sdx-spx, stay_y-spy/2.0, stay_z-spz/2.0)), 20)
-
-    # ------------------------------------------------------------------
-    # Gas-strut fixed anchor zones. Same principle; exact ball stud remains open.
-    # ------------------------------------------------------------------
-    ga = anchors["gas_strut_fixed_anchor"]
-    gas_y = hinge_y - float(gs["fixed_mount_forward_from_hinge_mm"])
-    gas_z = hinge_z - float(gs["fixed_mount_below_hinge_mm"])
-    gdy = float(ga["plywood_doubler_length_y_mm"])
-    gdz = float(ga["plywood_doubler_height_z_mm"])
-    gdx = float(ga["plywood_doubler_thickness_x_mm"])
-    gpy = float(ga["steel_nut_plate_length_y_mm"])
-    gpz = float(ga["steel_nut_plate_height_z_mm"])
-    gpx = float(ga["steel_nut_plate_thickness_x_mm"])
-    add_shape(doc, group, "GasStrutDoublerLeftV19", "PF-GAS-ANCHOR-DBLR-L - 18 mm PLYWOOD",
-              Part.makeBox(gdx, gdy, gdz, App.Vector(wood, gas_y-gdy/2.0, gas_z-gdz/2.0)), 30, "PF-GAS-ANCHOR-DBLR-L-R1")
-    add_shape(doc, group, "GasStrutDoublerRightV19", "PF-GAS-ANCHOR-DBLR-R - 18 mm PLYWOOD",
-              Part.makeBox(gdx, gdy, gdz, App.Vector(outer-wood-gdx, gas_y-gdy/2.0, gas_z-gdz/2.0)), 30, "PF-GAS-ANCHOR-DBLR-R-R1")
-    add_shape(doc, group, "GasStrutNutPlateLeftV19", "PF-GAS-NUTPLATE-L - 6 mm STEEL / HOLES TBD",
-              Part.makeBox(gpx, gpy, gpz, App.Vector(wood+gdx, gas_y-gpy/2.0, gas_z-gpz/2.0)), 35)
-    add_shape(doc, group, "GasStrutNutPlateRightV19", "PF-GAS-NUTPLATE-R - 6 mm STEEL / HOLES TBD",
-              Part.makeBox(gpx, gpy, gpz, App.Vector(outer-wood-gdx-gpx, gas_y-gpy/2.0, gas_z-gpz/2.0)), 35)
+              Part.makeBox(spx, spy, spz, App.Vector(outer-wood-sdx-spx, stay_y-spy/2.0, stay_z-float(sa["wood_center_below_pin_mm"])-spz/2.0)), 20)
 
     # ------------------------------------------------------------------
     # Positive latch receiver reinforcement zones near the front supports.
@@ -191,12 +169,19 @@ def main(doc=None, active_only=False) -> None:
         else:
             add_shape(doc,group,"LatchReceiverDoubler"+side+"V19","HISTORICAL SEPARATE LATCH DOUBLER",latch_shape,35)
 
+    if active_only:
+        for side in ("Left", "Right"):
+            support=doc.getObject("ClosedSupportDoubler"+side+"V19")
+            prop=doc.getObject("SafetyStayDoubler"+side+"V19")
+            support.Shape=support.Shape.fuse(prop.Shape).removeSplitter()
+            support.PartID="PF-LANDING-PROP-"+side.upper()+"-R3"
+            support.Label="COMBINED LANDING / LATCH / PROP ANCHOR "+side.upper()
+            doc.removeObject(prop.Name)
+
     group.addProperty("App::PropertyString", "ClosedSupportLoadPath", "Engineering")
     group.ClosedSupportLoadPath = "CRADLE RAIL -> RESILIENT PAD -> 3 mm STEEL SEAT -> 18 mm SIDEWALL DOUBLER -> CABINET SIDE"
     group.addProperty("App::PropertyString", "StayAnchorStatus", "Engineering")
     group.StayAnchorStatus = "DOUBLED PLYWOOD + 6 mm CAPTIVE STEEL; FINAL PIN/SLOT HOLES TBD"
-    group.addProperty("App::PropertyString", "GasAnchorStatus", "Engineering")
-    group.GasAnchorStatus = "DOUBLED PLYWOOD + 6 mm CAPTIVE STEEL; BALL-STUD GEOMETRY TBD AFTER MASS/CG"
     group.addProperty("App::PropertyString", "LatchStatus", "Engineering")
     group.LatchStatus = "FIXED RECEIVER REINFORCEMENT RESERVED; FINAL LATCH HARDWARE TBD"
     group.addProperty("App::PropertyString", "Status", "Engineering")
@@ -210,7 +195,6 @@ def main(doc=None, active_only=False) -> None:
     print("=" * 76)
     print("Closed supports          sidewall doubler + 3 mm steel seat each side")
     print("Safety-stay anchors      18 mm doubler + 6 mm captive steel each side")
-    print("Gas-strut anchors        18 mm doubler + 6 mm captive steel each side")
     print("Latch receivers          reinforced cabinet-fixed zones each side")
     print("Hardware holes           TBD - PHYSICAL HARDWARE SELECTION REQUIRED")
     print("STATUS                   ENGINEERING PACKAGING - NOT FOR MANUFACTURING")

@@ -8,7 +8,7 @@ def validate(features=None,joints=None,parts=None):
  features=features if features is not None else read('CNC_FEATURES_V25.csv')
  joints=joints if joints is not None else read('STRUCTURAL_JOINTS_V25.csv')
  ids={p['part_id'] for p in parts};names={p['object_name'] for p in parts}
- assert len(parts)==len(ids)==36,'active part reconciliation'
+ assert len(parts)==len(ids)==32,'active part reconciliation'
  assert {f['part_id'] for f in features}==ids,'feature part reconciliation'
  assert len({f['feature_id'] for f in features})==len(features),'duplicate feature ID'
  hw={r['item_id'] for r in read('MEASURE_BEFORE_CNC_V25.csv')}
@@ -16,6 +16,7 @@ def validate(features=None,joints=None,parts=None):
   assert f['status'] in ('DEFINED_PARAMETRIC','BLOCKED_MEASURE_HARDWARE','BLOCKED_DESIGN'),'unknown status'
   assert f['feature_type'] in ('PROFILE','DADO','RABBET','POCKET','THROUGH_HOLE','PILOT_HOLE','INSERT_HOLE','ENGRAVING','ALIGNMENT_MARK','CABLE_PASS','VENT'),'unknown operation'
   if f['hardware_dependency']:
+   assert 'HF-011' not in f['hardware_dependency'],'gas release dependency'
    assert set(f['hardware_dependency'].split(';'))<=hw,'unmapped hardware'
    assert f['status']=='BLOCKED_MEASURE_HARDWARE','hardware release without evidence'
    assert all(f[k]=='' for k in ('x','y','diameter_or_width','depth')),'guessed hardware coordinates'
@@ -50,6 +51,7 @@ def negative_controls():
  x=copy.deepcopy(f);next(r for r in x if r['hardware_dependency'])['status']='DEFINED_PARAMETRIC';cases.append(('false release',x,j))
  x=[r for r in f if r['part_id']!=f[0]['part_id']];cases.append(('missing part',x,j))
  x=copy.deepcopy(j);x[0]['part_a']='UNKNOWN';cases.append(('unknown joint member',f,x))
+ x=copy.deepcopy(f);next(r for r in x if r['hardware_dependency'])['hardware_dependency']='HF-011';cases.append(('gas CNC dependency',x,j))
  x=copy.deepcopy(f);x.pop(next(i for i,r in enumerate(x) if r['hardware_dependency']));cases.append(('missing hardware group',x,j))
  for label,x,y in cases:
   try:validate(x,y)

@@ -16,7 +16,11 @@
       "compensado virola naval 18 mm",
       "compensado pinus naval 18 mm"
     ],
-    "alternate_locally_available_structural_thicknesses_mm": [15.0, 20.0, 25.0],
+    "alternate_locally_available_structural_thicknesses_mm": [
+      15.0,
+      20.0,
+      25.0
+    ],
     "rear_service_door_preferred_mm": 15.0,
     "mDF_structural_use_prohibited": true,
     "mdf_allowed_for": [
@@ -68,11 +72,6 @@
       "effective_local_thickness_mm": 36.0,
       "lock_bolts_use_metal_backed_captive_threads": true
     },
-    "playfield_hinge_and_gas_strut_anchors": {
-      "baseline": "18+18 mm plywood doubler or equivalent steel bracket tied into full-thickness structure",
-      "through_bolt_or_metal_backed_insert_required": true,
-      "reduced_oled_pocket_skin_may_carry_load": false
-    },
     "pc_drawer_slide_mounts": {
       "baseline": "dedicated plywood subrails/doublers tied to crossmembers",
       "minimum_local_wood_thickness_mm": 18.0,
@@ -81,6 +80,11 @@
     "lockdown_bar_receiver": {
       "baseline": "metal receiver tied into reinforced front structure; custom-width metalwork acceptable",
       "local_plywood_doubler_required": true
+    },
+    "playfield_hinge_and_prop_anchors": {
+      "baseline": "18+18 mm plywood doubler or equivalent steel bracket tied into full-thickness structure",
+      "through_bolt_or_metal_backed_insert_required": true,
+      "reduced_oled_pocket_skin_may_carry_load": false
     }
   },
   "backbox_structure": {

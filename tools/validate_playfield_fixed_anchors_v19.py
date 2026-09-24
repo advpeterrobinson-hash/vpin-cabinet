@@ -14,7 +14,6 @@ def main() -> int:
     m = json.loads(MECH.read_text(encoding="utf-8"))
     fs = a["closed_front_support"]
     sa = a["safety_stay_fixed_anchor"]
-    ga = a["gas_strut_fixed_anchor"]
     cs = m["closed_support"]
     cr = m["cradle"]
 
@@ -28,10 +27,7 @@ def main() -> int:
     checks.append(("front steel seat >=3 mm", float(fs["steel_seat_thickness_z_mm"]) >= 3.0, str(fs["steel_seat_thickness_z_mm"])))
     checks.append(("safety stay anchor doubler >=18 mm", float(sa["plywood_doubler_thickness_x_mm"]) >= 18.0, str(sa["plywood_doubler_thickness_x_mm"])))
     checks.append(("safety stay captive steel >=6 mm", float(sa["steel_nut_plate_thickness_x_mm"]) >= 6.0, str(sa["steel_nut_plate_thickness_x_mm"])))
-    checks.append(("gas anchor doubler >=18 mm", float(ga["plywood_doubler_thickness_x_mm"]) >= 18.0, str(ga["plywood_doubler_thickness_x_mm"])))
-    checks.append(("gas anchor captive steel >=6 mm", float(ga["steel_nut_plate_thickness_x_mm"]) >= 6.0, str(ga["steel_nut_plate_thickness_x_mm"])))
     checks.append(("stay hole pattern remains open", "TBD" in sa["final_thread_and_hole_pattern_status"], sa["final_thread_and_hole_pattern_status"]))
-    checks.append(("gas bracket pattern remains open", "TBD" in ga["final_thread_and_hole_pattern_status"], ga["final_thread_and_hole_pattern_status"]))
     checks.append(("package remains non-manufacturing-ready", a["manufacturing_ready"] is False, str(a["manufacturing_ready"])))
 
     print("PLAYFIELD FIXED ANCHORS v0.19 VALIDATION")

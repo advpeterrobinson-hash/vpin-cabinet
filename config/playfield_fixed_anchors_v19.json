@@ -5,7 +5,7 @@
     "config/playfield_mechanics_v18.json"
   ],
   "design_intent": {
-    "goal": "eliminate visually floating service/support hardware by giving closed supports, safety stays and gas struts explicit fixed cabinet load paths",
+    "goal": "fixed landing and captive prop-rod load paths through full-strength backed cabinet structure",
     "external_visible_fasteners_frozen": false,
     "builder_welding_required": false,
     "exact_hardware_hole_patterns_frozen": false
@@ -24,7 +24,7 @@
     "steel_seat_local_y_front_mm": 75.0,
     "steel_seat_local_z_bottom_mm": -78.0,
     "resilient_pad_target_top_local_z_mm": -65.0,
-    "rule": "closed cradle side rails land on fixed sidewall-supported seats; no floating pad and no play load carried only by pivot or gas springs"
+    "rule": "Cradle rails land on fixed backed seats; no load through display chassis."
   },
   "safety_stay_fixed_anchor": {
     "plywood_doubler_thickness_x_mm": 18.0,
@@ -33,25 +33,19 @@
     "steel_nut_plate_material": "A36 or SAE1020",
     "steel_nut_plate_thickness_x_mm": 6.0,
     "steel_nut_plate_length_y_mm": 80.0,
-    "steel_nut_plate_height_z_mm": 70.0,
+    "steel_nut_plate_height_z_mm": 60,
     "final_thread_and_hole_pattern_status": "TBD after positive-stay hardware selection",
-    "rule": "stay fixed pin/bracket loads into a locally doubled sidewall and captive steel plate; not a screw into single 18 mm plywood"
-  },
-  "gas_strut_fixed_anchor": {
-    "plywood_doubler_thickness_x_mm": 18.0,
-    "plywood_doubler_length_y_mm": 120.0,
-    "plywood_doubler_height_z_mm": 90.0,
-    "steel_nut_plate_material": "A36 or SAE1020",
-    "steel_nut_plate_thickness_x_mm": 6.0,
-    "steel_nut_plate_length_y_mm": 75.0,
-    "steel_nut_plate_height_z_mm": 60.0,
-    "final_thread_and_hole_pattern_status": "TBD with final gas-spring ball-stud bracket after mass/CG solve",
-    "rule": "gas-strut bracket loads into doubled plywood plus captive steel plate; gas struts remain assist-only"
+    "rule": "Front prop anchor and closed landing reinforcement are one shaped union per side; steel riser reaches the captive pivot above solid wood.",
+    "wood_center_below_pin_mm": 90
   },
   "closed_latch_receiver": {
     "count": 2,
     "receiver_zone_material": "steel bracket/strike on reinforced sidewall support zone",
-    "receiver_zone_size_mm": [40.0, 70.0, 55.0],
+    "receiver_zone_size_mm": [
+      40.0,
+      70.0,
+      55.0
+    ],
     "hardware_status": "TBD after local latch selection",
     "rule": "positive latch receiver is fixed to cabinet structure and captures the cradle in play position without using TV chassis as a stop"
   },

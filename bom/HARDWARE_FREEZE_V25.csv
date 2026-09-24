@@ -8,8 +8,7 @@ HF-006,BB,WPC 01-9011-L/R hinge pair + 02-4352 + pivot bolts,MEASURE_BEFORE_CNC,
 HF-007,BB,Upright backbox lock bolts/captive threads,MEASURE_BEFORE_CNC,rear shelf/backbox-floor locking holes,OPEN,Freeze after shelf/floor/gasket stack measured
 HF-008,PF,UCFL202 15 mm flange bearing pair,MEASURE_BEFORE_CNC,cabinet-side bearing bolt holes and stack,OPEN,Measure actual housings; catalogue pattern is not release authority
 HF-009,PF,15 mm pivot journals / cheek plates,DIMENSIONED_LOCAL_FAB,pivot interface,DESIGN,Project publishes local-fabrication drawing after stack freeze
-HF-010,PF,Positive safety-stay hardware,MEASURE_BEFORE_CNC,stay anchor/pin/slot holes,OPEN,Must positively support service position independent of gas struts
-HF-011,PF,Gas struts,MEASURE_BEFORE_CNC,fixed/moving bracket holes unless a proven replaceable adapter decouples them,SELECT_LATER,Select after actual moving mass/CG; freeze physical brackets before dependent CNC release
+HF-010,PF,Two captive steel prop rods with clevises/pins/keepers/stow clips,MEASURE_BEFORE_CNC,fixed prop anchors; moving receivers; stow clip mounting patterns,OPEN,Simple straight rods; captive lower pivot and positive upper transverse pin/keeper; each independently carries full moving load; no friction stay
 HF-012,PF,Closed-position pads/latches,MEASURE_BEFORE_CNC,landing/latch holes,OPEN,Select compact hardware after cradle prototype
 HF-013,PC,Rear CPU full-extension slide pair,MEASURE_BEFORE_CNC,fixed rail/shelf mounting holes and exact shelf/support spacing,OPEN,Target 450 mm class; actual pair controls dimensions
 HF-014,PC,Open PC case,MEASURE_BEFORE_CNC,case-to-shelf bolt holes,ENVELOPE_MEASURED_HOLES_OPEN,Purchased case envelope 265 X x 440 Y x 128 Z; physical mounting points still required before CNC shelf drilling
@@ -22,9 +21,13 @@ HF-020,FRONT,Flipper/start/launch buttons,MEASURE_BEFORE_CNC,button bore/pilot l
 HF-021,GLASS,Playfield siderail profile,DIMENSIONED_LOCAL_FAB,glass capture and side fastener geometry,DESIGN,Prototype local metal profile before final glass order
 HF-022,GLASS,600 mm lockdown bar + receiver,DIMENSIONED_LOCAL_FAB,front receiver and glass-retention holes,DESIGN,Prototype/freeze before final glass order
 HF-023,GLASS,Playfield tempered glass,DIMENSIONED_LOCAL_FAB,final cut size only,WAITING,Order only after siderail/lockdown mockup passes
-HF-024,DISPLAY,Playfield 42/43 inch display,ADAPTER_ONLY,VESA adapter and gas-strut calibration only,SELECT_LATER,Permanent wood remains within service envelope
+HF-024,DISPLAY,Playfield 42/43 inch display,ADAPTER_ONLY,VESA adapter and final manual lift-force check only,SELECT_LATER,Permanent wood remains within service envelope
 HF-025,DISPLAY,Backglass monitor,ADAPTER_ONLY,adjustable carriage adapter/bezel only,SELECT_LATER,Permanent backbox rail cage stays generic
 HF-026,PC,Four identical CPU rail angle clamps + backing + retainer,MEASURE_BEFORE_CNC,rail anchors and retainer holes,OPEN,18 mm bottom-seated rails; positive through-bolt uplift restraint; actual patterns/bolt stack before CNC; 20 kg extended proof test
 HF-027,IO,Touch-safe mains enclosure,MEASURE_BEFORE_CNC,fixed mounts / insulated entry / enclosure dimensions in selected A rear-face zone,OPEN,Measure enclosed mains assembly and strain relief; protective earth/bonding and no reachable terminals verified at commissioning
 HF-028,PC,Rear bracket to CPU rail planning reserve,MEASURE_BEFORE_CNC,rail/support profile and slide stack,BLOCKED,Measure installed bracket inner X including bolt stack and flange plus Y/Z extent; actual slide thickness/side clearance and stock; modeled 13.8 mm versus 15 mm target cannot improve both sides by translation
 HF-029,BB,Backbox service door hinge/lock/gasket,MEASURE_BEFORE_CNC,rear frame and door hardware interfaces,OPEN,Separate from CPU closure; same physical family permitted after fit check
+HF-030,FRONT,Mechanical/electronic plunger assembly,MEASURE_BEFORE_CNC,front mounting bore/pattern and internal nut/body/cable envelope,OPEN,Single new BUY NOW sample; ergonomic envelope is not a final bore
+HF-031,SSF,Four exciters and local attachment adapters,ADAPTER_ONLY,replaceable attachment plates only; cabinet panel stays solid,BUY_LATER,No large through-hole and no electronics-specific permanent wood pattern
+HF-032,AIR,Dust-filter media and optional intake/exhaust fans,ADAPTER_ONLY,replaceable filter/fan plates only,BUY_LATER,Generic rounded slots and project-designed attachment grids decouple purchased fans
+HF-033,AUDIO,Backbox conventional speaker modules,ADAPTER_ONLY,replaceable baffles and rail-cage brackets only,BUY_LATER,No structural bottom subwoofer opening

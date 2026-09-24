@@ -66,6 +66,8 @@ def verify(path=None):
     check('two independent positive safety stays retained',all(doc.getObject('SafetyStayOpen'+s+'V18') for s in ['Left','Right']))
     from verify_rear_utility_v26 import verify as verify_utility
     verify_utility(doc,check)
+    from verify_owner_services_v27 import verify as verify_owner
+    verify_owner(doc,check)
     inventory=[]
     for o in doc.Objects:
         if o.TypeId == 'PartDesign::Feature' and not o.Shape.isNull():

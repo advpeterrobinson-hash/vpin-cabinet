@@ -14,5 +14,7 @@ freecadcmd tools/test_active_geometry_entry.py > .work/logs/active-negative.log 
 rg -q '^ACTIVE_NEGATIVE_TESTS_PASS' .work/logs/active-negative.log
 freecadcmd tools/test_cnc_detail_v25_entry.py > .work/logs/cnc-detail-negative.log 2>&1
 rg -q '^CNC_DETAIL_NEGATIVE_TESTS_PASS' .work/logs/cnc-detail-negative.log
+freecadcmd tools/test_owner_services_v27_entry.py > .work/logs/owner-negative.log 2>&1
+rg -q '^OWNER_GEOMETRY_NEGATIVE_TESTS_PASS' .work/logs/owner-negative.log
 uv run --with matplotlib python tools/render_cnc_detail_v25.py
 printf '%s\n' 'CNC_DETAIL_REVIEW_PASS — measurements, tooling, assembly and proof remain blocked'

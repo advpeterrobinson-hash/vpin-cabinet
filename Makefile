@@ -34,7 +34,7 @@ doctor:
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
 # Default validation intentionally excludes superseded PC-service/leg/wheel experiments.
-validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build validate-cnc-detail
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build validate-cnc-detail validate-owner-services
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -110,3 +110,7 @@ cnc-detail:
 
 validate-cnc-detail:
 	$(PYTHON) tools/validate_cnc_detail_v25.py
+
+.PHONY: validate-owner-services
+validate-owner-services:
+	$(PYTHON) tools/validate_owner_services_v27.py

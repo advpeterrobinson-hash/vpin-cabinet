@@ -6,19 +6,18 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def dependencies(n):
  out=[]
- if n.startswith('Cabinet'):out += [3,4,6,8,20,21]
- if n=='CapturedFrontPanelV20':out += [3,4,19,20,22]
+ if n.startswith('Cabinet'):out += [3,4,6,8,10,20,21]
+ if n=='CapturedFrontPanelV20':out += [3,4,19,20,22,30]
  if n=='RearPanelWithCPUHatchV24':out += [3,4,15,16,17,27]
  if n=='CapturedBottomV20':out += [26]
  if n=='RearShelfV14':out += [7]
  if n=='BackboxFloorV14':out += [6,7]
  if n.startswith('Backbox') and ('Side' in n):out += [6]
  if n.startswith('BackboxRearFrame') or n=='BackboxServiceDoorV14':out += [29]
- if n.startswith('CradleSideRail'):out += [10,11,12]
+ if n.startswith('CradleSideRail'):out += [10,12]
  if n.startswith('CradlePivot') or n=='CradleRearBeamV18':out += [9]
- if n.startswith('ClosedSupportDoubler'):out += [12]
+ if n.startswith('ClosedSupportDoubler'):out += [10,12]
  if n.startswith('SafetyStayDoubler'):out += [10]
- if n.startswith('GasStrutDoubler'):out += [11]
  if n=='RearCPUServiceDoorClosedV24':out += [15,16]
  if n.startswith('RearCPUSupportRail'):out += [13,26,28]
  if n=='RearCPUShelfStowedV24':out += [13,14,26]
@@ -35,7 +34,7 @@ def classify(a,b,ops):
  if any(n.startswith('RearCPUSupport') for n in pair):
   return 'BOTTOM_BEARING_CLAMP','none','NO','HF-026','BLOCKED_MEASURE_HARDWARE','Bottom compression; four angle/backing assemblies resist uplift; rail cannot rely on end-grain screws'
  if any('Doubler' in n for n in pair) and any(n.startswith('Cabinet') for n in pair):
-  return 'FACE_LAMINATION','0','YES','HF-'+('010' if 'Safety' in b else '011' if 'Gas' in b else '012'),'BLOCKED_MEASURE_HARDWARE','Clamp full face; CNC alignment outline; through-bolts/backing carry concentrated loads'
+  return 'FACE_LAMINATION','0','YES','HF-010;HF-012','BLOCKED_MEASURE_HARDWARE','Clamp full face; CNC alignment outline; through-bolts/backing carry concentrated loads'
  if op:
   return 'CAPTURE_OR_LAP','t/3; exact removed solid in detail model','YES','none','DESIGN_LOCATABLE','Dry fit; glue full bearing surfaces; clamp square. Supplemental screw locations must avoid load hardware zones; pilot diameter from selected screw/coupon'
  if a.startswith('BackboxRearFrame') and b.startswith('BackboxRearFrame'):
@@ -63,14 +62,17 @@ def main():
   add(n,'POCKET','DEFINED_PARAMETRIC',x='crossmember_y - rail_y - clearance/2',y='0',size='t+clearance',depth='crossmember_height',through='true',recipe='build_rear_utility_v26 rail saddle',notes='Keep rail outline and bottom bearing; saddle spans crossmember at Y1040. Slide/clamp holes blocked; 13.8 mm gap retained.')
  for feature,x,z,w,h in [('CPU',130,110,340,240),('MAINS',60,405,70,50),('ETHERNET',518,413,24,24)]:
   add('RearPanelWithCPUHatchV24','CABLE_PASS' if feature!='CPU' else 'PROFILE','DEFINED_PARAMETRIC',x=str(x-12),y=str(z),size=f'{w} x {h}',depth='t',through='true',face='rear XZ, origin global X12 Z0',recipe=feature,notes='Existing generic aperture; hardware patterns separately blocked; local X follows measured capture offset at release')
- # Ensure ventilation and cable routes cannot silently disappear from release scope.
- for n in ('CapturedBottomV20','BackboxRearFrameTopV14','RearShelfV14','BackboxFloorV14'):
-  add(n,'VENT' if 'Shelf' not in n and 'Floor' not in n else 'CABLE_PASS','BLOCKED_DESIGN',notes='Airflow/cable cross-section and guarded replaceable carrier interface must be designed before release; no electronics purchase required')
+ # Generic interfaces are project-designed; electronics-specific patterns stay on adapters.
+ from owner_features_v27 import features as owner_features
+ for f in owner_features():
+  p=f['origin'];size=f['size'];normal=f['axis']
+  add(f['part'],f['type'],'DEFINED_PARAMETRIC',x=str(p[0]),y=str(p[1] if normal=='Z' else p[2]),size=str(f['diameter'] or (size[0],size[1] if normal=='Z' else size[2])),depth='t',through='true',face='XY' if normal=='Z' else 'XZ',recipe='owner_features_v27:'+f['key'],notes='Project-designed generic interface; global coordinate datums; geometry-critical electronics patterns on removable adapters only')
  for i,c in enumerate(g['contacts']):
   a,b=c['a'],c['b'];kind,depth,glue,hardware,fasteners,note=classify(a,b,g['operations'])
   joints.append(dict(joint_id='J-%03d'%(i+1),part_a=by[a]['part_id'],part_b=by[b]['part_id'],object_a=a,object_b=b,joint_type=kind,stock_dependency='t=measured main sheet; t_door=measured door sheet',depth=depth,glue=glue,fastener_requirement=fasteners,cnc_prelocation='YES design datum' if fasteners=='DESIGN_LOCATABLE' else 'BLOCKED measured pattern' if hardware!='none' else 'not applicable',hardware_dependency=hardware,baseline_overlap_mm3='%.3f'%c['overlap_mm3'],notes=note))
  for n in ('CradlePivotDoublerLeftV18','CradlePivotDoublerRightV18','CradleRearBeamV18'):
   joints.append(dict(joint_id='J-%03d'%(len(joints)+1),part_a=by[n]['part_id'],part_b=by[n]['part_id'],object_a=n,object_b=n,joint_type='INTERNAL_LAMINATION',stock_dependency='2*t from two measured plies',depth='0',glue='YES',fastener_requirement='HF-009 through-bolts after measured plate stack',cnc_prelocation='BLOCKED measured pattern',hardware_dependency='HF-009',baseline_overlap_mm3='0',notes='Two plies within one assembly record; full-face glue and clamps; separate ply IDs required at nesting; no 36 mm monolithic stock assumption'))
  write(ROOT/'bom/CNC_FEATURES_V25.csv',features);write(ROOT/'bom/STRUCTURAL_JOINTS_V25.csv',joints)
+ write(ROOT/'bom/BLOCKED_CNC_FEATURES_V25.csv',[f for f in features if f['status'].startswith('BLOCKED')])
  print('CNC_REGISTER_GENERATED',len(features),'feature groups;',sum(f['status']=='DEFINED_PARAMETRIC' for f in features),'defined;',sum(f['status']=='BLOCKED_MEASURE_HARDWARE' for f in features),'hardware-blocked;',len(joints),'contacts classified')
 if __name__=='__main__':main()
