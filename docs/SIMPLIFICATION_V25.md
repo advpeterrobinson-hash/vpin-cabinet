@@ -1,5 +1,7 @@
 # v0.25 simplification / active-build cleanup
 
+> Current owner baseline: [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md). Older assist/stay descriptions below are historical; no assist hardware blocks current CNC. Use the active hardware/feature registers for procurement.
+
 Status: owner-directed engineering cleanup. This document defines the active build philosophy before further CNC detail is added.
 
 ## Product goal

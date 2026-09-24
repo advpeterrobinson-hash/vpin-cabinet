@@ -36,10 +36,10 @@ Requirements:
 - Rigid independent plywood-dominant cradle
 - Replaceable VESA/carrier interface
 - Rear pivot/hinge
-- Dual gas struts for lift assistance only
-- Two independent positive mechanical safety stays
+- Manual lift; final measured operating-force check required
+- Two simple captive prop rods with positive pins/keepers; either supports the full service load
 - Two positive closed-position restraints/supports
-- Service position approximately 70 degrees
+- Service position 65 degrees in the active engineering candidate
 - Cable service loop
 - Display chassis must not be structural
 

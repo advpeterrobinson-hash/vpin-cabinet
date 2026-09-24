@@ -1,5 +1,7 @@
 # CNC Flat-Pack Build Philosophy
 
+> Current owner baseline: [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md). Older assist/stay descriptions below are historical; no assist hardware blocks current CNC. Use the active hardware/feature registers for procurement.
+
 ## Primary project objective
 
 The project is not only a one-off virtual pinball cabinet. It is intended to become a reproducible **CNC-first flat-pack cabinet system**.

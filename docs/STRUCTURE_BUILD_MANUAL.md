@@ -1,5 +1,7 @@
 # Structure build manual
 
+> Current owner baseline: [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md). Older assist/stay descriptions below are historical; no assist hardware blocks current CNC. Use the active hardware/feature registers for procurement.
+
 Status: living assembly manual. Dimensions/hole locations marked provisional must be generated from final CAD before manufacturing release.
 
 This manual covers the **structure-ready phase** only: woodworking, backbox, legs, playfield/display mechanics, glazing, and PC drawer. Electrical power, control boards and DOF toys begin only after the structure-ready gate is passed.

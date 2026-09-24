@@ -1,4 +1,6 @@
-# Structure detailing audit — v25
+# Structure detailing audit — v25 checkpoint
+
+**Superseded in part by [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md): active assist hardware is removed; wood/carrier counts and ventilation now follow v27. The retained text below records the earlier detailing checkpoint.**
 
 Checkpoint inspected and fetched: `628807c72d3f8aef459a3ec4eb392c5abdc3a25e`, branch `feat/active-build-cleanup-v25`. Existing owner modifications to historical `cad/master/vpin-master.FCStd` and deletion of its backup were preserved. Active source was regenerated before detailing; baseline saved-solid checks pass.
 

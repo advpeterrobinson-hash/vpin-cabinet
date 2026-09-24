@@ -1,5 +1,7 @@
 # Playfield display v0.16 — Brazil-market, model-agnostic service envelope
 
+> Current owner baseline: [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md). Older assist/stay descriptions below are historical; no assist hardware blocks current CNC. Use the active hardware/feature registers for procurement.
+
 Status: engineering baseline; exact display model intentionally not selected.
 
 ## Why this changed

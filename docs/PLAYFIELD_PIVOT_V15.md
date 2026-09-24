@@ -1,5 +1,7 @@
 # Playfield pivot v0.15 — steel cheek plates on a CNC plywood cradle
 
+> Current owner baseline: [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md). Older assist/stay descriptions below are historical; no assist hardware blocks current CNC. Use the active hardware/feature registers for procurement.
+
 Status: engineering-selected baseline; not manufacturing-ready.
 
 ## Decision

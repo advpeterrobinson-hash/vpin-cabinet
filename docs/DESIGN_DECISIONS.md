@@ -167,3 +167,7 @@ Owner-directed: remove permanent rear SERVICE HDMI / USB-A / USB-C / RESERVE. Th
 Owner selected two small rear-face carriers (A). Underside B is rejected and archived. Only 70×50 and 24×24 mm generic rear apertures are modeled; component patterns remain blocked. This supersedes DEC-021's low utility-window study and the earlier unselected comparison. Keep CPU heights unchanged and preserve unused upper rear space.
 
 Combine each overlapping landing/latch doubler pair into one union retaining both load zones; active wood count becomes 36. Use 18 mm bottom-seated CPU support rails with local bolted angle clamps and underside backing. Measurement, fastener sizing and physical proof testing remain release gates.
+
+## DEC-OWNER-V27 — manual props and modular service layout
+
+Owner directs manual playfield lift with two simple captive positive props, no baseline gas assistance, two removable narrow electronics carriers, generic filtered bottom intake, solid SSF wall zones, visible button/plunger envelopes and retained outward-opening backbox access door. See [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md). Main width and CPU architecture remain unchanged.

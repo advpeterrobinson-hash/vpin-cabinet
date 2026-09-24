@@ -14,18 +14,19 @@ Buy matched assemblies rather than unverified loose substitutes. Shared purchase
 4. **HF-015/016/029:** CPU and backbox service-door hinge/lock/latch/gasket sets. Reuse a common family if both interfaces fit; measure both installations.
 5. **HF-006/007:** WPC-style hinge pair with matching pivot bolts/bushings and two upright locking bolts/captive receivers.
 6. **HF-008:** matched UCFL202 pair with actual 15 mm bores.
-7. **HF-010/012:** two positive safety stays, two closed-position latches and landing pads. Each stay must be assessed to support the complete moving load independently; a gas spring is not a stay.
+7. **HF-010/012:** two simple captive prop rods, two closed-position latches and landing pads. Each stay must be assessed to support the complete moving load independently; pins/keepers must retain them without friction.
 8. **HF-019:** coin door whose physical cutout and flange determine front-panel machining.
 9. **HF-020:** one mechanical sample of each final flipper/start/launch button family. No controller/electronics purchase needed.
-10. **HF-017/027:** one selected enclosed mains-entry/disconnect assembly (including enclosure and strain relief) as a mechanical fit sample. The current carrier alone does not decouple enclosure mounts from permanent wood.
+10. **HF-030:** selected mechanical/electronic plunger sample. The visible envelope is not a bore pattern.
+11. **HF-017/027:** one selected enclosed mains-entry/disconnect assembly (including enclosure and strain relief) as a mechanical fit sample. The current carrier alone does not decouple enclosure mounts from permanent wood.
 
 HF-028 is the combined rail/leg measurement task using items 2 and 3, **not another purchase**. Already-owned open case HF-014 needs measurement, not replacement.
 
 ## BUY LATER — no purchase needed for the current detailing pass
 
-External skates; displays; PC components; controllers; amplifiers; feedback devices; final glass; final gas springs. Electronics carriers and ventilation strategy still require engineering before shell release, but do not justify buying all electronics now.
+External skates; displays; PC components; controllers; amplifiers; feedback devices; final glass. Generic carriers and ventilation openings are defined in the owner review; adapter patterns and commissioning follow without buying all electronics now.
 
-HF-011 remains a **later CNC dependency**, even though its purchase is deferred: actual complete moving mass/CG and the strut solve control both mounting patterns. No final wood release is permitted with these holes unresolved unless an explicitly engineered replaceable interface has first removed that dependency. HF-002 is an immediate CNC-shop consultation/coupon task, not a hardware purchase.
+HF-011 is retired: no assist hardware or CG-dependent mounting pattern blocks baseline CNC. Final completed-assembly manual lift effort remains a physical check. HF-002 is the immediate CNC-shop consultation/coupon task, not a hardware purchase. **HF-030 plunger is the only new BUY NOW addition**; measure its front cutout/flange/pattern, shaft and nut stack, stroke, internal body/sensor depth and cable sweep from the front seating face and shaft axis.
 
 ## LOCAL FAB — drawing/prototype needed
 
@@ -35,7 +36,7 @@ HF-011 remains a **later CNC dependency**, even though its purchase is deferred:
 
 ## ADAPTER ONLY
 
-HF-014 already-owned case: direct holes in the one replaceable CPU shelf. HF-018 optional RJ45 or blank: replaceable 40 × 40 carrier over the existing 24 × 24 opening. HF-024 playfield and HF-025 backglass: replaceable display adapters. Display mass/CG still affects HF-011; adapter-only VESA geometry does not eliminate that later gate.
+HF-014 already-owned case: direct holes in the one replaceable CPU shelf. HF-018 optional RJ45 or blank: replaceable 40 × 40 carrier over the existing 24 × 24 opening. HF-024 playfield and HF-025 backglass: replaceable display adapters. HF-031 exciters, HF-032 filter/fan details and HF-033 speaker modules are adapter-only / BUY LATER. Display mass and manual effort are physically checked after assembly; no baseline assist dependency remains.
 
 ## Owner measurement procedure
 
@@ -43,7 +44,7 @@ HF-014 already-owned case: direct holes in the one replaceable CPU shelf. HF-018
 2. Measure both members of each pair, all four leg/bracket stacks, and every different door installation. Record slots as length, width, end radius and orientation; record center coordinates from the same datums rather than chained spacing.
 3. General recording targets: hole centers and stacks ±0.10 mm, outlines ±0.5 mm; sheet thickness ±0.05 mm; bearing/journal fit dimensions ±0.02 mm using suitable gauges. These are measurement uncertainty targets, **not automatically allowable CNC or shaft fits**. Report instrument resolution and repeatability; leave inaccessible dimensions unknown.
 4. Capture orthogonal front/back/side views with a ruler in plane, hole/slot details, actual assembled bolt stacks, labels and maker specifications. Include both fully closed and fully extended slide members, both hinge positions and stay lock engagement.
-5. Return the completed CSV plus photos under item IDs. Measurements enter a future `measured_patterns` object only after cross-checking; no such coordinate payload is currently populated. Existing source target fields are listed separately in the CSV.
+5. Return the completed CSV plus photos under item IDs. HF-010 now covers simple rod end eyes, lower clevis, upper receiver pins/keepers and stow clips; do not buy friction lid stays or folding linkages. Measurements enter a future `measured_patterns` object only after cross-checking; no such coordinate payload is currently populated. Existing source target fields are listed separately in the CSV.
 6. Regenerate the entire assembly from coordinated measured stock, apply the CNC shop's accepted clearance/tool relief, then check edge distances, accessibility, sweeps and the physical coupon. The home builder must not transfer-drill unresolved structural patterns.
 
 ## CPU rail fixture and 20 kg proof case
@@ -74,10 +75,10 @@ Project screening rule for wood hole centers: ≥7 bolt diameters from a loaded 
 
 Backbox: retain 780 mm outer width and the 740 × 450 × 100 replacement-display envelope. The joint preview preserves shell outside bounds and removes overlapping perimeter blanks via rebates. Rear shelf is captured t/3 in the sides and rear. Floor/shelf contact supports gravity; measured hinges and independent upright locks provide pivot/retention. WPC keepouts are 110 Y × 170 Z × 5 X per side in the current baseline; actual leaves/bushings may exceed them and must be checked. Pivot ghost diameter and lock X markers are references, not holes. Measure all leaf patterns, pivot offsets, bushing/bolt stack and upright lock X/Y/engagement in an assembled mockup.
 
-Playfield: retain 560 × 970 × 55 display envelope, independent cradle, short 15 mm journals, dual stays and closed landing/latch interfaces. UCFL housing reserves are 35 X × 120 Y × 75 Z; existing backing reserves are 3 × 120 × 70. Cheek plate reserve 6 × 140 × 80 and nominal 36 mm pivot wood are not permission to use candidate holes. Measure bearing axis offset and journal engagement/retention; record stay anchor offsets, locked/stowed lengths and release sweep; record pads under compression and latch grip. Gas mount coordinates remain blocked pending mass/CG. No load is assigned to reduced side skin.
+Playfield: retain 560 × 970 × 55 display envelope, independent cradle, short 15 mm journals, dual stays and closed landing/latch interfaces. UCFL housing reserves are 35 X × 120 Y × 75 Z; existing backing reserves are 3 × 120 × 70. Cheek plate reserve 6 × 140 × 80 and nominal 36 mm pivot wood are not permission to use candidate holes. Measure bearing axis offset and journal engagement/retention; record stay anchor offsets, locked/stowed lengths and release sweep; record pads under compression and latch grip. Props are straight captive rods with upper pins/keepers; see OWNER_REVIEW_V27.md. No assist mount pattern is in the baseline. No load is assigned to reduced side skin.
 
 ## Finite release queue beyond measurement
 
-The four design-blocked feature groups are: bottom ventilation; upper-backbox guarded ventilation; rear-shelf cable passport; backbox-floor matching cable passport. Determine cable bundle cross-section and segregated routing, guarded airflow and removable carrier interfaces without buying full electronics. Add profiles and validate their remaining ligaments before release.
+The four former ventilation/passport design blockers now have generic rounded geometry and replaceable adapters in v27. The latest dimensions, carrier load paths, prop deployment correction and remaining physical checks are recorded in [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md).
 
 The detail model is a zero-clearance joint preview. Remaining process work is coordinated measured-stock regeneration, tool relief and mating corner strategy, supplemental fastener/CNC pilot design, laminated-ply breakout, two-face setups and nesting, dimensioned shop PDFs/DXF, coupon, dry fit, proof tests and owner manufacturing approval. It is deliberately **not** a finished CNC package.

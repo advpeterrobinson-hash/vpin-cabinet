@@ -55,8 +55,8 @@ See [active BOM guidance](bom/README.md), `docs/SIMPLIFICATION_V25.md` and `bom/
 - nominal 18 mm structural plywood; final CNC values follow measured stock
 - model-agnostic 42/43-inch 4K high-refresh playfield display envelope
 - predominantly CNC-plywood playfield cradle with local steel pivot interfaces
-- dual gas struts for lift assistance only
-- two independent positive mechanical safety stays
+- manual playfield lift with two simple captive, positively pinned prop rods
+- two narrow removable electronics carriers and filtered bottom intake
 - classic pinball legs + levelers with compact measured steel brackets
 - external removable PinSkates-style mobility; no built-in casters
 - dedicated **rear CPU service hatch**
@@ -123,7 +123,7 @@ Primary planning documents:
 
 The rear PC hatch may expose PC low-voltage hardware, but must never expose bare mains terminals. Mains distribution remains in a separate touch-safe enclosure. Isolate cabinet power before RAM/GPU/SSD/harness service.
 
-The playfield display is carried by its independent cradle. Gas struts are lift assistance only; both positive safety stays must be engaged before working beneath the raised playfield.
+The playfield display is carried by its independent cradle. Both captive prop rods must be positively pinned before working beneath the manually raised playfield.
 
 ## Status
 

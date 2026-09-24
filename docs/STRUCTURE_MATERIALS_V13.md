@@ -1,5 +1,7 @@
 # Structure and materials v0.13 — Brazil-ready CNC-flatpack strength strategy
 
+> Current owner baseline: [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md). Older assist/stay descriptions below are historical; no assist hardware blocks current CNC. Use the active hardware/feature registers for procurement.
+
 Status: engineering provisional; not manufacturing-ready.
 
 ## Answer to the solid-wood question
