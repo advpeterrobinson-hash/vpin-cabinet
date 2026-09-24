@@ -1,0 +1,43 @@
+name: Engineering bug
+description: Report a CAD, validation, manufacturing, documentation, or reproducibility defect
+title: "[BUG] "
+labels: []
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Commands, branch/commit, FreeCAD version, physical setup, or steps needed to reproduce it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Logs, screenshots, dimensions, photos, failing checks, or affected part IDs.
+  - type: dropdown
+    id: safety
+    attributes:
+      label: Safety relevance
+      options:
+        - None known
+        - Mechanical / structural
+        - Mains / electrical
+        - Thermal / fire
+        - Service / pinch / crush
+        - Security vulnerability (please use private reporting instead)
+    validations:
+      required: true
