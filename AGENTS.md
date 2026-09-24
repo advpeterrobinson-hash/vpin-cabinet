@@ -132,3 +132,15 @@ Later stages must add hinge sweep, gas-strut, drawer-travel, backbox, toy, speak
 - Custom-size lockdown bar is an accepted fabrication strategy.
 
 These values are engineering baseline values, not final manufacturing approval.
+
+
+## Open-source / licensing rules
+
+- Original project material is released under CERN-OHL-S-2.0 unless a file explicitly states otherwise.
+- Preserve `NOTICE.md`, including the official Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet
+- Do not add licence terms that conflict with or weaken the strong reciprocal obligations.
+- Commercial use is permitted; conveyed modified Covered Source and Products remain subject to the reciprocal source obligations in `LICENSE`.
+- Do not import proprietary or ambiguously licensed CAD, drawings, artwork, manuals, code, ROMs, game assets, or vendor documentation into the repository.
+- Third-party references must retain their own licence/copyright status and should be documented in `THIRD_PARTY_NOTICES.md` when relevant.
+- Contributions submitted upstream are expected to be provided under CERN-OHL-S-2.0; see `CONTRIBUTING.md`.
+- Do not remove applicable copyright, acknowledgement, modification, licence, or Source Location notices from generated release material.
