@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/main/CONTRIBUTING.md
+    about: Read the engineering and licensing rules before proposing major changes.
+  - name: Support guide
+    url: https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/main/SUPPORT.md
+    about: How to ask for help and where to report safety or security issues.
+  - name: Licensing FAQ
+    url: https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/main/docs/LICENSING_FAQ.md
+    about: Commercial use, forks, attribution, and reciprocal source obligations.

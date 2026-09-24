@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a reproducible defect in scripts, validation, generated CAD, or documentation
+title: "[BUG] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a defect. Please use measured facts and reproducible output where possible.
+  - type: input
+    id: commit
+    attributes:
+      label: Commit / branch / release
+      description: Which project revision are you using?
+      placeholder: e.g. main @ abc1234
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Commands, inputs, files, or sequence needed to reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence / output
+      description: Paste relevant validation output, dimensions, screenshots, or logs. Remove secrets and personal data.
+  - type: input
+    id: subsystem
+    attributes:
+      label: Subsystem / part IDs
+      description: Cabinet, backbox, playfield, CPU service, CNC, electrical, docs, etc.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked that this is not already reported in an open issue.
+          required: true
+        - label: I am reporting against a current documented branch/release, or I clearly identified that this concerns historical material.
+          required: true

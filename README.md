@@ -1,21 +1,31 @@
 # Virtual Pinball Cabinet
 
-Parametric CNC flat-pack engineering for a virtual pinball cabinet inspired by Williams WPC proportions, with deliberate future-proofing for replaceable electronics and apartment-friendly flat-pack assembly.
+Parametric CNC-ready virtual pinball cabinet based on Williams WPC visual proportions, with deliberate future-proofing for replaceable electronics.
 
 
 ## Open-source hardware
 
-This is an **open-source hardware** project licensed under the **CERN Open Hardware Licence Version 2 — Strongly Reciprocal (CERN-OHL-S-2.0)**.
+This project is released under the **CERN Open Hardware Licence Version 2 — Strongly Reciprocal (CERN-OHL-S-2.0)**.
 
 Official project / Source Location:
 
 **https://github.com/advpeterrobinson-hash/vpin-cabinet**
 
-Commercial use is welcome. You may build, sell, support, and improve products based on the project, subject to the licence. If you convey modified Covered Source or Products based on it, the reciprocal source obligations apply: the applicable Complete Source and modifications must remain available under CERN-OHL-S-2.0, and the project Notices / Source Location must be preserved.
+Commercial use is allowed. If you convey modified Covered Source or Products based on it, the applicable Complete Source and modifications must remain available under CERN-OHL-S-2.0, and the project Notices / Source Location must be preserved.
 
-In short: **you may make money with the design, but you may not turn conveyed improvements into a closed proprietary fork.**
+In short: **you may build and sell products based on the design, but conveyed improvements may not be turned into a closed proprietary fork.**
 
-See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), [open-source policy](docs/OPEN_SOURCE_POLICY.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
+See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), the [open-source policy](docs/OPEN_SOURCE_POLICY.md), the [licensing FAQ](docs/LICENSING_FAQ.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
+
+The licence is intentionally **commercial-friendly but strongly reciprocal**: selling cabinets, kits, fabrication, installation, or support is allowed; when modified Covered Source or Products based on it are conveyed, the applicable Complete Source must stay available under the same reciprocal licence. "Free" here means the design/source remains freely available under the licence — it does **not** require physical products or services to be sold for zero price.
+
+The official upstream project link is part of the project Notice and should remain with redistributed designs/products:
+
+**https://github.com/advpeterrobinson-hash/vpin-cabinet**
+
+## Active development branch
+
+The detailed current engineering work is presently maintained on `feat/active-build-cleanup-v25` pending the next integration into `main`. Contributors working on current CAD/manufacturing geometry should check that branch and its validation status rather than assuming every older dimension in `main` is current.
 
 
 ## Current product goal
@@ -127,6 +137,14 @@ Owner selected [two localized rear-face interfaces](docs/REAR_UTILITY_V26.md): m
 
 ## Contributing
 
-Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md), and the [Code of Conduct](CODE_OF_CONDUCT.md). Engineering bugs and design proposals have dedicated GitHub issue templates.
+Contributions are welcome from builders, CNC operators, mechanical designers, electricians, software developers, testers, and documentation writers.
 
-Safety or security-sensitive reports should follow [SECURITY.md](SECURITY.md).
+- Start with [CONTRIBUTING.md](CONTRIBUTING.md).
+- Read [GOVERNANCE.md](GOVERNANCE.md) for how engineering decisions are accepted.
+- Use the GitHub issue templates for bugs, design proposals, manufacturing feedback, and hardware measurements.
+- Use [SUPPORT.md](SUPPORT.md) for help and project-support boundaries.
+- Report security or serious safety concerns through [SECURITY.md](SECURITY.md).
+- Follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+- For reuse, forks, and commercial derivatives, read the [licensing FAQ](docs/LICENSING_FAQ.md).
+
+Useful improvements are encouraged to come back upstream as pull requests, but the legal reciprocal obligations are governed by [LICENSE](LICENSE), not by whether a fork submits a PR.
