@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use or build on this project, please cite the official project source."
+title: "Virtual Pinball Cabinet"
+authors:
+  - name: "Peter Jr."
+repository-code: "https://github.com/advpeterrobinson-hash/vpin-cabinet"
+url: "https://github.com/advpeterrobinson-hash/vpin-cabinet"
+license: "CERN-OHL-S-2.0"
+type: software
