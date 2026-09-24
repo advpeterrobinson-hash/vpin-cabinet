@@ -2,6 +2,22 @@
 
 Parametric CNC flat-pack engineering for a virtual pinball cabinet inspired by Williams WPC proportions, with deliberate future-proofing for replaceable electronics and apartment-friendly flat-pack assembly.
 
+
+## Open-source hardware
+
+This is an **open-source hardware** project licensed under the **CERN Open Hardware Licence Version 2 — Strongly Reciprocal (CERN-OHL-S-2.0)**.
+
+Official project / Source Location:
+
+**https://github.com/advpeterrobinson-hash/vpin-cabinet**
+
+Commercial use is welcome. You may build, sell, support, and improve products based on the project, subject to the licence. If you convey modified Covered Source or Products based on it, the reciprocal source obligations apply: the applicable Complete Source and modifications must remain available under CERN-OHL-S-2.0, and the project Notices / Source Location must be preserved.
+
+In short: **you may make money with the design, but you may not turn conveyed improvements into a closed proprietary fork.**
+
+See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), [open-source policy](docs/OPEN_SOURCE_POLICY.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
+
+
 ## Current product goal
 
 The final download should behave like a **precision flat-pack kit**, not like a woodworking plan that still needs layout work.
@@ -108,3 +124,9 @@ No CNC files are approved for manufacturing yet. CNC release remains blocked on 
 Review outputs: `exports/generated/review/index.html`; FreeCAD presets: `tools/active_review.FCMacro`. Build tools: Python, FreeCADCmd, uv (matplotlib preview environment). See [audit evidence and unresolved engineering](docs/TAKEOVER_AUDIT_2026-09-16.md).
 
 Owner selected [two localized rear-face interfaces](docs/REAR_UTILITY_V26.md): mains/master disconnect and optional Ethernet or blank. CPU door stays low. Generic apertures are modeled; hardware measurements and CNC release remain blocked.
+
+## Contributing
+
+Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md), and the [Code of Conduct](CODE_OF_CONDUCT.md). Engineering bugs and design proposals have dedicated GitHub issue templates.
+
+Safety or security-sensitive reports should follow [SECURITY.md](SECURITY.md).
