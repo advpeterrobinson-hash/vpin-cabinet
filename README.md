@@ -2,6 +2,26 @@
 
 Parametric CNC-ready virtual pinball cabinet based on Williams WPC visual proportions, with deliberate future-proofing for replaceable electronics.
 
+
+## Open-source hardware
+
+This project is released under the **CERN Open Hardware Licence Version 2 — Strongly Reciprocal (CERN-OHL-S-2.0)**.
+
+Official project / Source Location:
+
+**https://github.com/advpeterrobinson-hash/vpin-cabinet**
+
+Commercial use is allowed. If you convey modified Covered Source or Products based on it, the applicable Complete Source and modifications must remain available under CERN-OHL-S-2.0, and the project Notices / Source Location must be preserved.
+
+In short: **you may build and sell products based on the design, but conveyed improvements may not be turned into a closed proprietary fork.**
+
+See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), [open-source policy](docs/OPEN_SOURCE_POLICY.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Active development branch
+
+The detailed current engineering work is presently maintained on `feat/active-build-cleanup-v25` pending the next integration into `main`. Contributors working on current CAD/manufacturing geometry should check that branch and its validation status rather than assuming every older dimension in `main` is current.
+
+
 ## Primary design targets
 
 - Williams WPC-derived visual proportions rather than rigid historical dimensions
@@ -80,3 +100,8 @@ The OLED pocket is a clearance feature only; the OLED and gas-strut loads must b
 Engineering / parametric-CAD development.
 
 No CNC files are approved for manufacturing yet. CNC production remains blocked on final hardware geometry, material measurement, provider/tooling consultation, physical tolerance coupon, and final design validation.
+
+
+## Contributing
+
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md), the [Code of Conduct](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md) before submitting major design changes.
