@@ -34,7 +34,7 @@ doctor:
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
 # Default validation intentionally excludes superseded PC-service/leg/wheel experiments.
-validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build validate-cnc-detail validate-owner-services validate-physical-evidence
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build validate-cnc-detail validate-owner-services validate-physical-evidence validate-owner-execution
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -118,3 +118,10 @@ validate-owner-services:
 .PHONY: validate-physical-evidence
 validate-physical-evidence:
 	$(PYTHON) tools/validate_physical_validation_v27.py
+
+.PHONY: owner-checklist validate-owner-execution
+owner-checklist:
+	$(PYTHON) tools/generate_owner_execution_v27.py
+
+validate-owner-execution:
+	$(PYTHON) tools/validate_owner_execution_v27.py
