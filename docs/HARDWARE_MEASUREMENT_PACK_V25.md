@@ -82,3 +82,7 @@ Playfield: retain 560 × 970 × 55 display envelope, independent cradle, short 1
 The four former ventilation/passport design blockers now have generic rounded geometry and replaceable adapters in v27. The latest dimensions, carrier load paths, prop deployment correction and remaining physical checks are recorded in [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md).
 
 The detail model is a zero-clearance joint preview. Remaining process work is coordinated measured-stock regeneration, tool relief and mating corner strategy, supplemental fastener/CNC pilot design, laminated-ply breakout, two-face setups and nesting, dimensioned shop PDFs/DXF, coupon, dry fit, proof tests and owner manufacturing approval. It is deliberately **not** a finished CNC package.
+
+## Next physical-validation cycle
+
+Follow [PHYSICAL_VALIDATION_PLAN_V27.md](PHYSICAL_VALIDATION_PLAN_V27.md), record results in [PHYSICAL_RESULTS_WORKSHEET_V27.md](PHYSICAL_RESULTS_WORKSHEET_V27.md) / its linked JSON ledger, and apply [CNC_FREEZE_GATE_V27.md](CNC_FREEZE_GATE_V27.md). The c1bb566 baseline retains all 59 hardware blockers until authoritative physical evidence and the corresponding proof tests exist.

@@ -105,3 +105,7 @@ Remaining gates: measured plywood and tooling/coupon; actual leg/bearing/hinge/p
 - [15-cpu-extended.png](../exports/generated/review/15-cpu-extended.png) — CPU extended / carriers do not obstruct rear service
 - [16-structural-exploded.png](../exports/generated/review/16-structural-exploded.png) — Exploded structural wood / separate removable carriers
 - [17-five-face-feature-map.png](../exports/generated/review/17-five-face-feature-map.png) — all five panel faces.
+
+## Next physical-validation cycle
+
+Follow [PHYSICAL_VALIDATION_PLAN_V27.md](PHYSICAL_VALIDATION_PLAN_V27.md), record results in [PHYSICAL_RESULTS_WORKSHEET_V27.md](PHYSICAL_RESULTS_WORKSHEET_V27.md) / its linked JSON ledger, and apply [CNC_FREEZE_GATE_V27.md](CNC_FREEZE_GATE_V27.md). The c1bb566 baseline retains all 59 hardware blockers until authoritative physical evidence and the corresponding proof tests exist.
