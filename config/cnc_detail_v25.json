@@ -1,0 +1,8 @@
+{
+  "manufacturing_ready": false,
+  "stock": {"measured_main_mm": null, "measured_door_mm": null, "preview_main_mm": 18.0, "preview_door_mm": 15.0},
+  "fit": {"measured_clearance_mm": null, "confirmed_tool_diameter_mm": null, "capture_depth_fraction": 0.3333333333333333, "minimum_remaining_skin_fraction": 0.6666666666666666},
+  "policy": "Preview zero-clearance joints only. Production must regenerate every source stock field, validate envelopes, and apply accepted coupon clearance/tool relief. No hardware hole coordinates inferred.",
+  "leg_envelope": {"flange_each_wall_max_mm": 95, "height_max_mm": 150, "preview_steel_mm": 3, "spreader_face_mm": [70,120], "planning_rail_reserve_mm": 15, "measured_installed_bounds_mm": null},
+  "edge_distance": {"loaded_end_diameters": 7, "other_edge_diameters": 4, "status": "conservative project screening rule; capacity and actual fastener/plywood engineering still required"}
+}

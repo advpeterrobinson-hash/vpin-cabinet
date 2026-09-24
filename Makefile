@@ -13,6 +13,7 @@ help:
 	  '  make doctor              Check local tools/files' \
 	  '  make validate            Validate the CURRENT design only' \
 	  '  make build-current       Build and present the current FreeCAD master' \
+	  '  make cnc-detail          Build joint preview, measurement ledgers and review' \
 	  '  make repair-rear-cpu     Rebuild fresh active source and verify saved geometry' \
 	  '  make open-master         Open the current FreeCAD master' \
 	  '  make generate-cnc-coupon Generate the nominal CNC fit coupon' \
@@ -33,7 +34,7 @@ doctor:
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
 # Default validation intentionally excludes superseded PC-service/leg/wheel experiments.
-validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build validate-cnc-detail
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -102,3 +103,10 @@ audit-reference:
 
 status:
 	@git status --short --branch
+
+.PHONY: cnc-detail validate-cnc-detail
+cnc-detail:
+	bash tools/run_cnc_detail_v25.sh
+
+validate-cnc-detail:
+	$(PYTHON) tools/validate_cnc_detail_v25.py

@@ -182,3 +182,7 @@ Purchase/install selected contactors/impact devices, shaker, gear motor, knocker
 ## Procurement rule
 
 Every BOM line has a phase. Do not buy later-phase electronics merely because they are available unless they are required as a physical fit sample. The permanent structure should be validated first so short-lived electronics are purchased as late as practical.
+
+## v25 detailing and measurement checkpoint — 2026-09-24
+
+Use [HARDWARE_MEASUREMENT_PACK_V25.md](HARDWARE_MEASUREMENT_PACK_V25.md) for the consolidated immediate procurement list and exact datum-based measurements. [CNC_STRUCTURE_DETAIL_V25.md](CNC_STRUCTURE_DETAIL_V25.md) records the joinery review and retained 36-part structure. Run `make cnc-detail` to regenerate the separate joint preview, ledgers and eight-view gallery. Hardware-pattern coordinates remain blank; four ventilation/passport design blockers remain explicit. This checkpoint does not advance the structure-ready or manufacturing gates.
