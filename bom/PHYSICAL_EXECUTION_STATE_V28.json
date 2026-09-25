@@ -1,0 +1,6 @@
+{
+  "status": "PAUSED_BY_OWNER",
+  "scope": "ALL physical measurement sessions including v27 Session 0/1 and proof tests",
+  "reason": "Architecture convergence; no execution until owner accepts architecture and revised workflow",
+  "manufacturing_ready": false
+}

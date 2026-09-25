@@ -1,5 +1,7 @@
 # Virtual Pinball Cabinet
 
+> **Owner hold — physical sessions PAUSED.** Do not execute the v27 measurement checklist or proof tests. Architecture convergence is in progress; see [v28 simplification audit](docs/DESIGN_SIMPLIFICATION_AUDIT_V28.md) and [execution status](bom/PHYSICAL_EXECUTION_STATE_V28.json). Manufacturing remains blocked.
+
 Parametric CNC-ready virtual pinball cabinet based on Williams WPC visual proportions, with deliberate future-proofing for replaceable electronics.
 
 
