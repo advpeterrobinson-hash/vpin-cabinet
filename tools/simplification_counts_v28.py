@@ -15,8 +15,8 @@ def main():
  'holder':{'before':['assemble rail/tie frame','laminate pivot doublers','laminate rear beam','fit VESA plate','fit cheek plates','fit journals','fit bearings/backing','align pivot','fit fixed clevises','fit prop receivers','fit rods/pins/keepers','fit stow clips','fit closed pads/latches'], 'proposed':['bolt bridge to two beams','fit plain bushes','fit cross-axis/supports','fit landing pads/latches','fit two captive restraints','fit/verify positive opening stops','adjust and secure display interface']},
  'boards':{'before':['fit four custom angle stations','fit left carrier','fit right carrier','secure cable loops'],'proposed':['fit six matching brackets','fit board A','fit board B','fit board C','secure disconnectable cable loops']},
  'rear_door':{'before':['fit hinge','hang door','fit latch/catch','check sweep'],'proposed':['fit hinge','hang door','fit latch/catch','check sweep']}}
- moving_before=['playfield assembly','left prop','right prop','left upper locking pin','right upper locking pin','left stow keeper','right stow keeper','left drawer carriage','right drawer carriage','rear door','backbox door']
- moving_after=['playfield assembly','left flexible restraint','right flexible restraint','rear door','backbox door']
+ moving_before=['folding backbox assembly','playfield assembly','left prop','right prop','left upper locking pin','right upper locking pin','left stow keeper','right stow keeper','left drawer carriage','right drawer carriage','rear door','backbox door']
+ moving_after=['folding backbox assembly','playfield assembly','left flexible restraint','right flexible restraint','rear door','backbox door']
  data=dict(status='PROPOSED_NOT_ACCEPTED',custom_metal_before=custom,custom_metal_proposed=remaining,
  custom_scope='Conservative make-to-project planning classification, including cut/drilled rods and VESA metal adapter; stock backglass channels and bought hardware excluded. Future commodity substitutions require fit proof; no purchasing authority.',
  commodity_bracket_assemblies_before=commodity_before,commodity_bracket_assemblies_proposed=commodity_after,

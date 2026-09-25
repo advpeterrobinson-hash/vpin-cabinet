@@ -29,7 +29,7 @@ Counts refer to the proposed architecture, **not changes to the active registers
 | Doors/base/electronics boards, excluding holder | 5 | 6 | Two doors + one PC board + two → three electronics boards |
 | Custom metal planning pieces | 31 | **4 target** | Explicit conservative make-to-project classification; four remaining: two siderails, lockdown bar and receiver. Commodity leg backing and speaker-angle substitutions require fit proof; fallback would be up to 10 custom pieces |
 | Commodity bracket/support assemblies | 10 | 18 | Includes four leg brackets and two backbox hinges; deletes four rail angles, adds six shelf brackets, two holder angles, two shaft supports and two speaker angles |
-| Moving/service component assemblies | 11 | 5 | Listed assembly scope: holder, props/pins/stow keepers or straps, slide carriages, two doors. Not a count of every joint inside purchased hardware |
+| Moving/service component assemblies | 12 | 6 | Listed assembly scope: folding backbox, holder, props/pins/stow keepers or straps, slide carriages, two doors. Not a count of every joint inside purchased hardware |
 | Known fastener families / target | ≥5 | 4 target + supplier exceptions | Wood screw, M4, M6, 3/8-16 retained; dedicated M8 cheek-plate sets disappear. Leg threads and purchased hardware internals unresolved; exact total is **unknown** |
 | CNC feature groups | 232 | 201 proposed | 80 old groups superseded, 49 declarations added; new coordinates remain null. These are an architecture inventory, not toolpaths |
 | Hardware-controlled CNC groups | 59 | 58 proposed | Includes replacement pivot/strap/bracket dependencies. **Active remains 59**; none cleared by assumed measurements |
