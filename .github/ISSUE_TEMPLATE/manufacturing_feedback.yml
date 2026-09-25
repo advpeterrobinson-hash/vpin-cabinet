@@ -1,0 +1,43 @@
+name: Manufacturing feedback
+description: Report CNC, material, assembly, tolerance, fit, or proof-test experience
+title: "[BUILD] "
+labels: []
+body:
+  - type: input
+    id: revision
+    attributes:
+      label: Project revision
+      description: Commit or tagged release used for fabrication.
+    validations:
+      required: true
+  - type: textarea
+    id: process
+    attributes:
+      label: Fabrication process
+      description: Material, measured thickness, machine/process, cutter, and relevant vendor settings.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Result
+      description: What fit well, what did not, and what changed during assembly?
+    validations:
+      required: true
+  - type: textarea
+    id: measurements
+    attributes:
+      label: Measured outcomes
+      description: Include actual gaps, interference, deflection, loads, coupon fit, or other useful measurements.
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed project change
+      description: If applicable, identify the part IDs/features you think should change.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety
+      options:
+        - label: I clearly identified any observed structural, electrical, thermal, pinch/crush, or other safety concern.
+          required: true

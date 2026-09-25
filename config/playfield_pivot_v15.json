@@ -17,20 +17,23 @@
     "estimated_cradle_mass_kg": 3.0,
     "moving_mass_engineering_kg": 12.8,
     "pivot_radial_design_load_each_side_n": 1500.0,
-    "note": "1500 N/side is a conservative packaging/check load for plate/pin selection, not a certified final structural load case; final cradle CG, gas-strut reactions and physical proof test still required."
+    "note": "Screening only; final manual lift effort and physical proof test required."
   },
   "cradle_wood_structure": {
     "material": "18 mm good-quality compensado naval",
     "rear_crossmember_lamination_count": 2,
     "rear_crossmember_local_thickness_mm": 36.0,
-    "rule": "Primary cradle remains plywood; steel is concentrated at pivot/gas-strut/safety/latch interfaces."
+    "rule": "Primary cradle remains plywood; metal concentrated at pivot/prop/latch interfaces."
   },
   "cradle_pivot_plate": {
     "part_family": "PF-PIVOT-PLATE-001L/R",
     "quantity": 2,
     "material_preferred": "A36 or SAE 1020 carbon steel plate",
     "thickness_mm": 6.0,
-    "acceptable_stock_thickness_mm": [6.0, 6.35],
+    "acceptable_stock_thickness_mm": [
+      6.0,
+      6.35
+    ],
     "overall_length_y_mm": 140.0,
     "overall_height_z_mm": 80.0,
     "corner_radius_mm": 6.0,
@@ -38,8 +41,14 @@
     "pivot_axis_from_bottom_plate_edge_mm": 40.0,
     "plywood_mount_hole_diameter_mm": 9.0,
     "plywood_mount_bolt": "M8 class 8.8 through-bolt with washers and prevailing-torque/nyloc nut",
-    "plywood_mount_hole_centers_y_mm": [70.0, 120.0],
-    "plywood_mount_hole_centers_z_mm": [20.0, 60.0],
+    "plywood_mount_hole_centers_y_mm": [
+      70.0,
+      120.0
+    ],
+    "plywood_mount_hole_centers_z_mm": [
+      20.0,
+      60.0
+    ],
     "mount_hole_count_each_plate": 4,
     "finish": "zinc plated, epoxy primer + paint, or powder coat after all cutting/welding",
     "edge_finish": "deburr and break all edges; no cable-contact sharp edges",
@@ -77,7 +86,10 @@
     "quantity": 2,
     "material": "A36 or SAE 1020 carbon steel",
     "thickness_mm": 3.0,
-    "provisional_envelope_mm": [120.0, 70.0],
+    "provisional_envelope_mm": [
+      120.0,
+      70.0
+    ],
     "final_holes": "match purchased UCFL202 housing after measurement",
     "purpose": "prevent bearing fasteners crushing/creeping into plywood and distribute sidewall pivot load"
   },
@@ -108,18 +120,16 @@
     ],
     "maximum_expected_lateral_clearance_for_pivot_release_mm": 75.0
   },
-  "gas_strut_and_safety": {
-    "gas_struts_assist_only": true,
-    "gas_strut_force_not_purchase_ready": true,
-    "candidate_force_each_n": [250.0, 275.0, 300.0],
-    "dual_positive_mechanical_safety_stays_required": true,
-    "closed_position_positive_latches_required": true,
-    "rule": "Neither gas struts nor friction are accepted as the maintenance safety device or closed-play restraint."
-  },
   "manufacturing_notes": {
     "plate_process": "laser/waterjet/plasma rough profile acceptable; critical holes drilled/reamed where required; deburr before finish",
     "journal_process": "turn/face to bearing fit; jig perpendicular to plate during welding; verify runout/alignment after welding",
     "builder_receives_completed_metal_subassembly": true,
     "do_not_cut_final_cabinet_bearing_holes_before_hardware_measurement": true
+  },
+  "manual_lift_and_safety": {
+    "dual_positive_mechanical_safety_stays_required": true,
+    "closed_position_positive_latches_required": true,
+    "rule": "Two independent captive pinned props. Neither friction nor an optional future assist accessory is a safety device.",
+    "manual_lift": true
   }
 }

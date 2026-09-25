@@ -1,0 +1,27 @@
+# Current source-only review presets; source/licence notices stay in repository.
+import os,sys
+import FreeCAD as App
+import FreeCADGui as Gui
+from PySide import QtWidgets,QtCore
+root=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0,root+'/tools')
+from owner_review_scenes_v27 import scenes
+doc=App.openDocument(root+'/cad/active/vpin-active.FCStd')
+presets=scenes([o.Name for o in doc.Objects])
+def show(names):
+    names=set(names)
+    for o in doc.Objects:
+        v=getattr(o,'ViewObject',None)
+        if v is None:continue
+        if o.TypeId=='App::Part':v.Visibility=True;continue
+        v.Visibility=o.Name in names
+        if o.TypeId=='PartDesign::Feature':v.Transparency=65 if o.Name.startswith(('Cabinet','GenericPlayfield','BackglassDisplay')) else 0
+    Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+panel=QtWidgets.QDockWidget('Owner review — current engineering',Gui.getMainWindow())
+box=QtWidgets.QWidget();layout=QtWidgets.QVBoxLayout(box)
+for key,title,names,*_ in presets:
+    if not names:continue
+    button=QtWidgets.QPushButton(key+' / '+title);button.clicked.connect(lambda checked=False,n=names:show(n));layout.addWidget(button)
+layout.addWidget(QtWidgets.QLabel('Not manufacturing-ready. Planar penetration maps are in the HTML gallery.'))
+panel.setWidget(box);Gui.getMainWindow().addDockWidget(QtCore.Qt.RightDockWidgetArea,panel)
+panel.show();show(presets[0][2])

@@ -1,5 +1,7 @@
 # Design Decisions
 
+Current authority: [active baseline](ACTIVE_ENGINEERING.md). Earlier decisions below are historical where superseded by DEC-020/021.
+
 This log records decisions that materially constrain the cabinet design. New decisions should be appended rather than silently rewriting history.
 
 ## DEC-011 — Windows runtime, Linux/FreeCAD engineering
@@ -149,3 +151,23 @@ The 780 mm backbox is retained. Its nominal overhang over the 600 mm body become
 The playfield display remains selected late from the Brazil market. Permanent woodworking must not encode one TV model's VESA pattern. The cradle uses replaceable adapters, and gas-strut force/mount geometry remains a final-display-dependent calibration step.
 
 DEC-020 supersedes the 580 mm width selection in DEC-015. Width-dependent CAD, metalwork and CNC parts must now migrate to the 600 mm datum before manufacturing release.
+
+
+## DEC-021 — Fresh active source build and lower rear CPU service
+
+Owner-directed 2026-09-16: preserve 600 mm body, classic legs/external skates and dual playfield stays. Use one 285 × 460 mm PC shelf at Z135, 340 × 240 hatch at Z110, 364 × 264 door at Z98 opening 105° outward. No dedicated CPU harness, intermediate PC sled, integrated wheels or large leg corner furniture.
+
+Build a fresh active document from selected config/builder sections; do not delete/reparent historical master geometry. Save the active output separately and preserve the owner's working FCStd. No historical FCStd is a dependency of the fresh build. The low utility fascia window design remains a structural/hardware gate; never cut through the bottom capture or rear leg brackets merely to match a presentation target.
+
+
+## DEC-022 — Minimal fixed utility functions; preserve low rear CPU geometry
+
+Owner-directed: remove permanent rear SERVICE HDMI / USB-A / USB-C / RESERVE. The extended PC exposes troubleshooting ports. PC POWER / RESET / DOF SERVICE remain at the coin door. Keep mains/master disconnect plus optional Ethernet only. Remove decorative wood fascias. Protect bottom capture and rear leg load paths. Preserve CPU aperture Z110..350, shelf Z135 and outward door.
+
+Owner selected two small rear-face carriers (A). Underside B is rejected and archived. Only 70×50 and 24×24 mm generic rear apertures are modeled; component patterns remain blocked. This supersedes DEC-021's low utility-window study and the earlier unselected comparison. Keep CPU heights unchanged and preserve unused upper rear space.
+
+Combine each overlapping landing/latch doubler pair into one union retaining both load zones; active wood count becomes 36. Use 18 mm bottom-seated CPU support rails with local bolted angle clamps and underside backing. Measurement, fastener sizing and physical proof testing remain release gates.
+
+## DEC-OWNER-V27 — manual props and modular service layout
+
+Owner directs manual playfield lift with two simple captive positive props, no baseline gas assistance, two removable narrow electronics carriers, generic filtered bottom intake, solid SSF wall zones, visible button/plunger envelopes and retained outward-opening backbox access door. See [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md). Main width and CPU architecture remain unchanged.

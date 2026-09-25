@@ -18,15 +18,15 @@ The primary product is not merely one cabinet. The primary product is a **replic
 - Williams WPC geometry is the visual/proportional baseline, **not an absolute dimensional constraint**. The owner explicitly approves roughly 10–50 mm dimensional deviations where they materially improve serviceability, structural margin, replacement-part availability, future electronics compatibility, or CNC/assembly simplicity.
 - Permanent cabinetry must be designed around service/replacement envelopes, not just the exact dimensions of the first-generation electronics.
 - Prefer replaceable adapters, slotted carriers, filler strips, bezels, and mounting plates over monitor/board-specific holes in permanent wood panels.
-- Main-body engineering baseline width is 580 mm unless a later validation shows a substantial disadvantage. This is intentionally wider than the 558.8 mm Williams reference to provide a future 42-inch-class playfield service envelope.
-- The lockdown bar may be custom-sized and therefore is **not** a blocker to the 580 mm body width.
+- Main-body engineering baseline width is 600 mm (DEC-020), giving 564 mm clear width with full-strength 18 mm sides.
+- The lockdown bar may be custom-sized and therefore is **not** a blocker to the 600 mm body width.
 - Nominal main material is 18 mm metric plywood; production geometry must ultimately use measured sheet thickness.
-- Playfield display is initially LG OLED42C5, 42-inch, mounted in a separate structural cradle. The cradle and cabinet bay must preserve the larger documented future-replacement envelope.
-- The OLED must hinge upward for service and use dual gas struts plus an independent mechanical safety restraint.
-- A reduced-thickness OLED side pocket is clearance only; OLED mass and gas-strut loads must be carried by full-strength structure/cradle hardware.
+- Playfield is model-agnostic: compact 42/43-inch class within 560 x 970 x 55 mm and 12 kg, mounted in an independent cradle with replaceable display adapters.
+- The playfield is manually raised and supported by two simple captive prop rods with positive receiver pins/keepers. Either prop must support the full moving load independently; no friction stays.
+- A reduced-thickness OLED side pocket is clearance only; Display mass and prop/pivot loads must be carried by full-strength structure/cradle hardware.
 - Backglass is approximately 32-inch 1080p; premium image quality is not a priority there. Backbox width may depart from authentic Williams dimensions to create a durable 32-inch-class service envelope.
-- PC uses a removable/open ATX chassis on a full-extension service drawer. The drawer must use a replaceable chassis adapter so a future PC frame does not require cabinet surgery.
-- Real pinball legs are required; mobility must use retractable or otherwise play-isolated wheels so the cabinet rests rigidly on levelers during play.
+- PC uses a removable/open ATX chassis on a full-extension service drawer. The purchased open case bolts directly to one replaceable shelf board on rearward full-extension slides; no second sled or intermediate adapter.
+- Real pinball legs are required; mobility uses external removable PinSkates-style devices only; no integrated wheels or wheel cutouts.
 - Force feedback, SSF, electronics shelves, power distribution, and service wiring must be designed intentionally, not fitted after cabinet completion.
 - Mechanical feedback devices should be rigidly coupled to the cabinet in spatially appropriate locations.
 - Electronics shelves should avoid unnecessarily bracing SSF-active cabinet walls.
@@ -90,7 +90,7 @@ The primary product is not merely one cabinet. The primary product is a **replic
 - Never treat mains-voltage wiring as ordinary low-voltage electronics.
 - Do not publish or approve exposed mains terminals inside service areas.
 - Mechanical feedback must have an independent service-disable/kill path.
-- OLED service position must remain safe if a gas strut fails; a positive mechanical safety device is mandatory.
+- Raised playfield service requires both positive captive props engaged; one-prop retention/load proof is mandatory.
 - GPU and other heavy internal components require positive mechanical restraint because the cabinet will be nudged and vibrated.
 
 ## Validation policy
@@ -107,7 +107,7 @@ Before calling a design stage complete, validate at minimum:
 - generated parts are valid solids when they are intended to be solids;
 - the part can be fabricated/assembled without requiring an undocumented specialist operation.
 
-Later stages must add hinge sweep, gas-strut, drawer-travel, backbox, toy, speaker, shelf, cable-clearance, fastener-access, and flat-pack assembly checks.
+Later stages must add hinge sweep, prop-rod/stow, drawer-travel, backbox, toy, speaker, shelf, cable-clearance, fastener-access, and flat-pack assembly checks.
 
 ## Git workflow
 
@@ -120,15 +120,27 @@ Later stages must add hinge sweep, gas-strut, drawer-travel, backbox, toy, speak
 ## Current validated / selected baseline
 
 - Williams WPC reference outer cabinet width: 558.80 mm.
-- Selected engineering main-body width: 580.00 mm, pending master CAD migration and final manufacturing validation.
+- Selected engineering main-body width: 600.00 mm; manufacturing validation remains blocked.
 - Cabinet side length reference: 1308.10 mm.
 - Cabinet front outside height reference: 400.05 mm.
 - Cabinet rear outside height reference: 596.90 mm.
 - Rear top flat reference: 180.975 mm.
 - Main plywood nominal: 18.00 mm.
-- LG OLED42C5 physical envelope: 932.0 x 540.0 x 41.1 mm, mass 9.8 kg.
-- Future playfield service envelope under v0.7: 560 x 950 x 55 mm plus 2 mm installation clearance per side.
+- Playfield display envelope: 560 x 970 x 55 mm, maximum 12 kg; exact display selected later.
+- Current playfield service envelope: 560 x 970 x 55 mm plus 2 mm installation clearance per side.
 - Backbox future-proof target under v0.6: 780 mm outer width with a 740 x 450 x 100 mm replaceable display service envelope.
 - Custom-size lockdown bar is an accepted fabrication strategy.
 
 These values are engineering baseline values, not final manufacturing approval.
+
+
+## Open-source / licensing rules
+
+- Original project material is released under CERN-OHL-S-2.0 unless a file explicitly states otherwise.
+- Preserve `NOTICE.md`, including the official Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet
+- Do not add licence terms that conflict with or weaken the strong reciprocal obligations.
+- Commercial use is permitted; conveyed modified Covered Source and Products remain subject to the reciprocal source obligations in `LICENSE`.
+- Do not import proprietary or ambiguously licensed CAD, drawings, artwork, manuals, code, ROMs, game assets, or vendor documentation into the repository.
+- Third-party references must retain their own licence/copyright status and should be documented in `THIRD_PARTY_NOTICES.md` when relevant.
+- Contributions submitted upstream are expected to be provided under CERN-OHL-S-2.0; see `CONTRIBUTING.md`.
+- Do not remove applicable copyright, acknowledgement, modification, licence, or Source Location notices from generated release material.

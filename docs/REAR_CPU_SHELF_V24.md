@@ -19,7 +19,7 @@ Workflow:
 
 ## Commercial architecture reference
 
-The PinballCabinet.com rear CPU shelf is used only as a design-pattern reference. Its published package is a 14 x 16 inch shelf with two 16 inch 3-section full-extension side-mount ball-bearing slides rated 100 lb, plus simple base/side boards.
+The PinballCabinet.com rear CPU shelf supplies the architecture lesson: a rear door, one board and two slides. No proprietary geometry is copied.
 
 The project does **not** copy those dimensions because the owner's open-case reference is approximately 440 x 265 x 128 mm.
 
@@ -47,14 +47,14 @@ Nominal clear aperture:
 - 340 mm wide;
 - 240 mm high;
 - centered at X 130..470 mm;
-- Z 180..420 mm.
+- Z 110..350 mm.
 
 This is intentionally much narrower than the v0.23 520 mm aperture, preserving more rear-panel structure.
 
 Door target:
 
 - 364 x 264 x 15 mm panel;
-- 12 mm overlap each edge;
+- 12 mm overlap each edge; door bottom Z98; shelf bottom Z135;
 - left-side hinge as viewed from rear;
 - outward opening;
 - gasket;
@@ -84,5 +84,9 @@ Do not release rear-panel CNC geometry until:
 - actual rear-door hinge/latch hardware is known;
 - actual slide pair is measured;
 - actual open case is measured;
-- rear service cable loop is physically proven;
+- ordinary cable dressing/disconnection is physically proven;
 - rear-panel/hatch stiffness is proof-tested.
+
+See ACTIVE_ENGINEERING.md for the source pipeline, exact exterior-plane accessibility and unresolved utility/load-path gates.
+
+The v26 supports are 18 mm bottom-seated rails with clearance saddles over the rear low crossmember, two small bolted angle clamps per rail and underside backing. Slide contact faces and Z135 shelf datum remain unchanged. See REAR_UTILITY_V26.md for load reactions, proof-test limits and utility comparison.

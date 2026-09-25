@@ -18,7 +18,7 @@ def main() -> int:
     journal = cfg["pivot_journal"]
     bearing = cfg["cabinet_side_bearing"]
     service = cfg["service_removal"]
-    safety = cfg["gas_strut_and_safety"]
+    safety = cfg["manual_lift_and_safety"]
 
     ok = True
     t = float(plate["thickness_mm"])
@@ -95,11 +95,11 @@ def main() -> int:
     else:
         print("PASS cradle-removal safety prerequisites")
 
-    if not (safety["dual_positive_mechanical_safety_stays_required"] and safety["closed_position_positive_latches_required"] and safety["gas_struts_assist_only"]):
+    if not (safety["dual_positive_mechanical_safety_stays_required"] and safety["closed_position_positive_latches_required"] and safety["manual_lift"]):
         print("FAIL service/closed-position safety policy incomplete")
         ok = False
     else:
-        print("PASS dual safety stays + positive closed latches; gas struts assist only")
+        print("PASS dual safety stays + positive closed latches; manual lift with captive props")
 
     # The screening stresses should stay far below ordinary structural carbon
     # steel yield; use 80 MPa as a deliberately conservative warning gate rather

@@ -1,0 +1,284 @@
+{
+  "status": "PROPOSED_NOT_ACCEPTED",
+  "parts": [
+    {
+      "part_id": "CAB-SIDE-001L-R1",
+      "object_name": "CabinetLeftSide",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "CAB-SIDE-001R-R1",
+      "object_name": "CabinetRightSide",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "CAB-FRONT-001-R1",
+      "object_name": "CapturedFrontPanelV20",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "CAB-REAR-001-R3",
+      "object_name": "RearPanelWithCPUHatchV24",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "SIMPLIFY",
+      "reason": "Ordinary rear door / floor base, no slides"
+    },
+    {
+      "part_id": "CAB-BOTTOM-001-R1",
+      "object_name": "CapturedBottomV20",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "CAB-XMEM-010-R1",
+      "object_name": "LowCrossmember1V20",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "CAB-XMEM-011-R1",
+      "object_name": "LowCrossmember2V20",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "CAB-XMEM-012-R1",
+      "object_name": "LowCrossmember3V20",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "DELETE",
+      "reason": "REQUIRES PROOF: CM3 removal enables floor PC base; qualify shell/bottom"
+    },
+    {
+      "part_id": "CAB-REAR-SHELF-001-R1",
+      "object_name": "RearShelfV14",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "BB-FLOOR-001-R1",
+      "object_name": "BackboxFloorV14",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "BB-TOP-001-R1",
+      "object_name": "BackboxTopV14",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "BB-SIDE-001L-R1",
+      "object_name": "BackboxLeftSideV14",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "BB-SIDE-001R-R1",
+      "object_name": "BackboxRightSideV14",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "BB-REAR-FRAME-L-R1",
+      "object_name": "BackboxRearFrameLeftV14",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "BB-REAR-FRAME-R-R1",
+      "object_name": "BackboxRearFrameRightV14",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "BB-REAR-FRAME-B-R1",
+      "object_name": "BackboxRearFrameBottomV14",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "BB-REAR-FRAME-T-R1",
+      "object_name": "BackboxRearFrameTopV14",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "BB-DOOR-001-R1",
+      "object_name": "BackboxServiceDoorV14",
+      "classification": "REMOVABLE_CLOSURE",
+      "decision": "KEEP",
+      "reason": "Retains independent shell, leg, backbox or service function"
+    },
+    {
+      "part_id": "WOOD-CRADLESIDERAILLEFT-R1",
+      "object_name": "CradleSideRailLeftV18",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "MERGE",
+      "reason": "Three-piece wood holder + two pivot cheeks + two landing blocks replace cradle/prop wood"
+    },
+    {
+      "part_id": "WOOD-CRADLESIDERAILRIGHT-R1",
+      "object_name": "CradleSideRailRightV18",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "MERGE",
+      "reason": "Three-piece wood holder + two pivot cheeks + two landing blocks replace cradle/prop wood"
+    },
+    {
+      "part_id": "WOOD-CRADLECROSSMEMBER1-R1",
+      "object_name": "CradleCrossmember1V18",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "MERGE",
+      "reason": "Three-piece wood holder + two pivot cheeks + two landing blocks replace cradle/prop wood"
+    },
+    {
+      "part_id": "WOOD-CRADLECROSSMEMBER2-R1",
+      "object_name": "CradleCrossmember2V18",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "MERGE",
+      "reason": "Three-piece wood holder + two pivot cheeks + two landing blocks replace cradle/prop wood"
+    },
+    {
+      "part_id": "WOOD-CRADLECROSSMEMBER3-R1",
+      "object_name": "CradleCrossmember3V18",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "MERGE",
+      "reason": "Three-piece wood holder + two pivot cheeks + two landing blocks replace cradle/prop wood"
+    },
+    {
+      "part_id": "WOOD-CRADLEPIVOTDOUBLERLEFT-R1",
+      "object_name": "CradlePivotDoublerLeftV18",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "MERGE",
+      "reason": "Three-piece wood holder + two pivot cheeks + two landing blocks replace cradle/prop wood"
+    },
+    {
+      "part_id": "WOOD-CRADLEPIVOTDOUBLERRIGHT-R1",
+      "object_name": "CradlePivotDoublerRightV18",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "MERGE",
+      "reason": "Three-piece wood holder + two pivot cheeks + two landing blocks replace cradle/prop wood"
+    },
+    {
+      "part_id": "WOOD-CRADLEREARBEAM-R1",
+      "object_name": "CradleRearBeamV18",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "MERGE",
+      "reason": "Three-piece wood holder + two pivot cheeks + two landing blocks replace cradle/prop wood"
+    },
+    {
+      "part_id": "PF-LANDING-PROP-LEFT-R3",
+      "object_name": "ClosedSupportDoublerLeftV19",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "MERGE",
+      "reason": "Three-piece wood holder + two pivot cheeks + two landing blocks replace cradle/prop wood"
+    },
+    {
+      "part_id": "PF-LANDING-PROP-RIGHT-R3",
+      "object_name": "ClosedSupportDoublerRightV19",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "MERGE",
+      "reason": "Three-piece wood holder + two pivot cheeks + two landing blocks replace cradle/prop wood"
+    },
+    {
+      "part_id": "CAB-PC-REAR-DOOR-002-R1",
+      "object_name": "RearCPUServiceDoorClosedV24",
+      "classification": "REMOVABLE_CLOSURE",
+      "decision": "SIMPLIFY",
+      "reason": "Ordinary rear door / floor base, no slides"
+    },
+    {
+      "part_id": "PC-REAR-SHELF-002-R1",
+      "object_name": "RearCPUShelfStowedV24",
+      "classification": "REMOVABLE_CARRIER",
+      "decision": "SIMPLIFY",
+      "reason": "Ordinary rear door / floor base, no slides"
+    },
+    {
+      "part_id": "PC-SUPPORT-LEFT-R2",
+      "object_name": "RearCPUSupportRailLeftV24",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "DELETE",
+      "reason": "Drawer load path deleted"
+    },
+    {
+      "part_id": "PC-SUPPORT-RIGHT-R2",
+      "object_name": "RearCPUSupportRailRightV24",
+      "classification": "PERMANENT_STRUCTURE",
+      "decision": "DELETE",
+      "reason": "Drawer load path deleted"
+    }
+  ],
+  "new_structural_parts": [
+    [
+      "V28-PF-L",
+      "PERMANENT_STRUCTURE"
+    ],
+    [
+      "V28-PF-R",
+      "PERMANENT_STRUCTURE"
+    ],
+    [
+      "V28-PF-BRIDGE",
+      "PERMANENT_STRUCTURE"
+    ],
+    [
+      "V28-PIVOT-L",
+      "PERMANENT_STRUCTURE"
+    ],
+    [
+      "V28-PIVOT-R",
+      "PERMANENT_STRUCTURE"
+    ],
+    [
+      "V28-LANDING-L",
+      "PERMANENT_STRUCTURE"
+    ],
+    [
+      "V28-LANDING-R",
+      "PERMANENT_STRUCTURE"
+    ]
+  ],
+  "counts": {
+    "measurements_before": 186,
+    "measurements_dispositions": {
+      "KEEP": 142,
+      "REPLACED": 25,
+      "OBSOLETE": 19,
+      "NEW": 27
+    },
+    "measurements_proposed": 169,
+    "trials_before": 18,
+    "trials_dispositions": {
+      "KEEP": 12,
+      "REPLACED": 6,
+      "NEW": 6
+    },
+    "trials_proposed": 18,
+    "features_before": 232,
+    "features_proposed": 201,
+    "features_removed": 80,
+    "features_added": 49,
+    "hardware_blockers_before": 59,
+    "hardware_blockers_proposed": 58,
+    "structural_register_before": 29,
+    "structural_register_proposed": 23
+  }
+}

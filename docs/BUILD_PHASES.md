@@ -14,11 +14,11 @@ Before ordering production CNC wood, confirm:
 - backbox hinge/pivot hardware geometry;
 - actual classic pinball leg and compact steel leg-bracket geometry;
 - playfield UCFL202 bearing geometry;
-- actual 300 mm-class rear PC slide thickness/travel/hole pattern;
+- actual 450 mm-class rear PC slide thickness/travel/hole pattern;
 - rear PC service-door hinge/latch/frame geometry;
 - lockdown/siderail fabrication concept;
 - playfield/backglass display service envelopes;
-- rear low service-I/O geometry;
+- selected rear-face or underside mains/Ethernet geometry;
 - cable-passport, fan and vent openings.
 
 No coordinated electronics purchase is required for this phase. Buy only physical components whose actual geometry must be measured before CNC freeze.
@@ -71,10 +71,10 @@ Buy/install:
 - playfield pivot hardware including actual UCFL202 pair;
 - positive playfield safety-stay hardware;
 - closed-position support/latch hardware;
-- actual simple **300 mm-class rear PC slide pair** and one simple positive stowed shelf retainer;
+- actual simple **450 mm-class rear PC slide pair** and one simple positive stowed shelf retainer;
 - rear PC door hinge/latch/gasket hardware.
 
-Do **not** buy final gas struts yet unless the final display/cradle mass and CG are already known.
+No baseline assist hardware is purchased. Use two simple captive prop rods; HF-030 plunger is a new measurement sample.
 
 Deliverables at phase end:
 
@@ -85,7 +85,7 @@ Deliverables at phase end:
 - playfield cradle opens and positively supports service position;
 - closed playfield position positively lands/latches;
 - rear PC service door opens from behind the machine without interference;
-- small flat PC shelf slides **300 mm rearward through the backdoor**, positively retains when stowed and passes the 20 kg proof test;
+- small flat PC shelf slides **450 mm rearward through the backdoor**, positively retains when stowed and passes the 20 kg proof test;
 - lockdown/siderail/glass mockup interfaces are proven.
 
 ## Phase 3 — Displays and glazing
@@ -105,8 +105,8 @@ Deliverables at phase end:
 
 - principal displays mechanically mounted;
 - exact playfield VESA adapter frozen;
-- final moving mass/CG measured;
-- final gas-strut force/mount geometry solved and installed;
+- final moving mass and manual lift effort measured;
+- both simple props proof-tested independently; manual lift/controlled lowering verified;
 - backglass carriage adjusted to bezel plane;
 - displays removable without destructive cabinet work;
 - playfield opening sweep and folded-backbox sweep physically verified;
@@ -118,10 +118,10 @@ Buy/install:
 
 - selected open ATX chassis/test-bench frame;
 - shelf-to-case mounting bolts/spacers as required by the actual case;
-- rearward PC service-loop harness/connectors;
+- ordinary dressed PC cables/connectors;
 - GPU restraint if needed for mechanical fit.
 
-The PC itself may remain electrically incomplete. The open case bolts **directly to the small rear pull-out shelf**. There is no second sled. This phase proves the actual case mounting pattern, full 300 mm **rearward** travel, connector/cable clearances and complete removal from behind the machine.
+The PC itself may remain electrically incomplete. The open case bolts **directly to the small rear pull-out shelf**. There is no second sled. This phase proves the actual case mounting pattern, full 450 mm **rearward** travel, connector/cable clearances and complete removal from behind the machine.
 
 Routine PC service must be possible without opening the playfield.
 
@@ -139,9 +139,9 @@ Structure-ready requires:
 6. keyed backbox rear service door operational;
 7. main-cabinet rear PC backdoor operational;
 8. playfield cradle/pivot/safety stays/closed latches proven;
-9. final display adapter and gas-strut specification validated with actual display;
+9. final display adapter, manual lift effort and prop retention validated with actual display;
 10. backglass/DMD carriage envelopes proven;
-11. rear PC shelf, stowed retainer, direct-mounted open case and 450 mm service-loop harness proven;
+11. rear PC shelf, stowed retainer, direct-mounted open case and ordinary cable disconnection/dressing proven;
 12. fan/vent/cable-passport/raceway geometry present;
 13. SSF and toy zones remain available;
 14. central cabinet service volume remains accessible rather than filled with fixed furniture;
@@ -182,3 +182,11 @@ Purchase/install selected contactors/impact devices, shaker, gear motor, knocker
 ## Procurement rule
 
 Every BOM line has a phase. Do not buy later-phase electronics merely because they are available unless they are required as a physical fit sample. The permanent structure should be validated first so short-lived electronics are purchased as late as practical.
+
+## v25 detailing and measurement checkpoint — 2026-09-24
+
+Use [HARDWARE_MEASUREMENT_PACK_V25.md](HARDWARE_MEASUREMENT_PACK_V25.md) for the consolidated immediate procurement list and exact datum-based measurements. [CNC_STRUCTURE_DETAIL_V25.md](CNC_STRUCTURE_DETAIL_V25.md) records the joinery review and current 32-record wood structure. Run `make cnc-detail` to regenerate the separate joint preview, ledgers and eight-view gallery. Hardware-pattern coordinates remain blank; generic ventilation/passport geometry now replaces four former design blockers. This checkpoint does not advance the structure-ready or manufacturing gates.
+
+## Owner simplification v27
+
+[OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md) supersedes earlier assist/standalone-stay guidance. Bottom filter/exhaust fans, exciters and speaker details are adapter-only; do not buy electronics to freeze their permanent wood patterns. Carriers mount on low ties 1 and 2; tie 3 remains part of CPU support.

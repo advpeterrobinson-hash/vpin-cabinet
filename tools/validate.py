@@ -147,14 +147,14 @@ def validate(data: dict) -> tuple[list[Check], dict]:
         ),
         Check(
             "playfield service safety specified",
-            bool(data["playfield_service"]["dual_gas_struts"])
+            data["playfield_service"]["captive_prop_rod_count"] == 2
             and bool(data["playfield_service"]["independent_mechanical_safety"]),
-            "dual struts + independent mechanical safety",
+            "dual captive props + independent mechanical safety",
         ),
         Check(
-            "gas strut force deferred to final display",
-            data["playfield_service"]["gas_strut_force_status"] == "recalculate-after-final-display-selection",
-            data["playfield_service"]["gas_strut_force_status"],
+            "manual lift force checked on final assembly",
+            data["playfield_service"]["manual_lift_force_status"] == "check-completed-assembly",
+            data["playfield_service"]["manual_lift_force_status"],
         ),
         Check(
             "CNC production values deliberately unconfirmed",

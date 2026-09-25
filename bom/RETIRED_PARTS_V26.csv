@@ -1,0 +1,7 @@
+part_id,former_function,decision,successor,rationale
+WOOD-REARPOWERFASCIA-R1,decorative mains fascia,REMOVE,utility candidate metal carrier,remove decorative wood
+WOOD-REARSERVICEFASCIA-R1,large service port fascia,REMOVE,optional Ethernet candidate carrier,troubleshooting ports accessed on extended PC
+PF-CLOSED-SUPPORT-DBLR-L-R1,landing reinforcement,COMBINE,PF-LANDING-LATCH-LEFT-R2,one union retains both load zones
+WOOD-LATCHRECEIVERDOUBLERLEFT-R1,latch reinforcement,COMBINE,PF-LANDING-LATCH-LEFT-R2,one union retains both load zones
+PF-CLOSED-SUPPORT-DBLR-R-R1,landing reinforcement,COMBINE,PF-LANDING-LATCH-RIGHT-R2,one union retains both load zones
+WOOD-LATCHRECEIVERDOUBLERRIGHT-R1,latch reinforcement,COMBINE,PF-LANDING-LATCH-RIGHT-R2,one union retains both load zones

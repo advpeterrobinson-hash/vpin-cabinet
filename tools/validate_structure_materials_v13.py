@@ -80,12 +80,12 @@ def main() -> int:
     else:
         print("PASS rear shelf locally doubled and metal-backed")
 
-    hinge = reinf["playfield_hinge_and_gas_strut_anchors"]
+    hinge = reinf["playfield_hinge_and_prop_anchors"]
     if hinge["reduced_oled_pocket_skin_may_carry_load"] or not hinge["through_bolt_or_metal_backed_insert_required"]:
         print("FAIL playfield service loads not properly transferred")
         ok = False
     else:
-        print("PASS playfield hinge/strut loads use full-strength backed anchors")
+        print("PASS playfield hinge/prop loads use full-strength backed anchors")
 
     if not backbox["fixed_rear_structural_frame_required"] or backbox["door_is_primary_shear_member"]:
         print("FAIL keyed backbox door must not replace fixed structure")

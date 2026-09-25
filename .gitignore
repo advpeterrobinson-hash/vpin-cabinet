@@ -14,3 +14,6 @@ __pycache__/
 
 # Generated export products (recreate from source)
 exports/generated/
+
+# Fresh active CAD is rebuilt from source, never a historical input
+cad/active/*.FCStd

@@ -1,0 +1,110 @@
+{
+  "status": "OWNER_SELECTED_REAR_FACE_HARDWARE_BLOCKED",
+  "selected_architecture": "A",
+  "manufacturing_ready": false,
+  "permanent_functions": [
+    "AC_MAINS_MASTER_DISCONNECT",
+    "OPTIONAL_ETHERNET"
+  ],
+  "removed_rear_functions": [
+    "SERVICE_HDMI",
+    "USB_A_SERVICE",
+    "USB_C_SERVICE",
+    "RESERVE",
+    "PC_POWER",
+    "PC_RESET",
+    "DOF_SERVICE"
+  ],
+  "dimensional_authority": "Explicit provisional packaging reservations; not manufacturer dimensions or connector drill patterns",
+  "minimum_mains_signal_gap_mm": 75.0,
+  "joint_margin_mm": 20.0,
+  "leg_keepout_margin_mm": 15.0,
+  "interface_policy": {
+    "mains": "One fixed replaceable metal interface with separate touch-safe enclosure; inlet/disconnect or captive cord choice after measurement",
+    "ethernet": "Optional replaceable 40 x 40 mm low-voltage carrier over generic 24 x 24 mm wood aperture; measured RJ45 keystone/coupler faceplate or blank plate",
+    "mount_to_cpu_door": false,
+    "protective_earth": "Continuous dedicated protective-earth path; bond exposed conductive mains assembly; verify continuity before commissioning",
+    "strain_relief": "Rated gland/clamp at entry; no terminal or connector bears cable pull",
+    "terminals": "Only inside independent tool-access touch-safe enclosure; CPU hatch is not enclosure"
+  },
+  "A": {
+    "plane": "rear",
+    "title": "Two small fixed rear carriers ABOVE CPU door",
+    "mains": {
+      "carrier": [
+        50.0,
+        1308.1,
+        395.0,
+        90.0,
+        3.0,
+        70.0
+      ],
+      "opening": [
+        60.0,
+        1288.1,
+        405.0,
+        70.0,
+        22.0,
+        50.0
+      ],
+      "enclosure": [
+        45.0,
+        1170.1,
+        385.0,
+        110.0,
+        120.0,
+        90.0
+      ],
+      "plug_access": [
+        40.0,
+        1311.1,
+        385.0,
+        110.0,
+        90.0,
+        90.0
+      ]
+    },
+    "ethernet": {
+      "carrier": [
+        510.0,
+        1308.1,
+        405.0,
+        40.0,
+        3.0,
+        40.0
+      ],
+      "opening": [
+        518.0,
+        1288.1,
+        413.0,
+        24.0,
+        22.0,
+        24.0
+      ],
+      "internal_access": [
+        505.0,
+        1230.1,
+        395.0,
+        50.0,
+        60.0,
+        60.0
+      ],
+      "plug_access": [
+        505.0,
+        1311.1,
+        395.0,
+        50.0,
+        80.0,
+        60.0
+      ]
+    }
+  },
+  "release_blocks": [
+    "owner selects visible rear versus underside access",
+    "physical inlet/disconnect and touch-safe enclosure dimensions/rating",
+    "physical RJ45 carrier or gland; no unmeasured connector holes",
+    "physical legs and floor/plug clearance for underside option",
+    "fastener edge distances and measured stock/tolerance coupon",
+    "electrical design and earth/strain-relief tests"
+  ]
+}

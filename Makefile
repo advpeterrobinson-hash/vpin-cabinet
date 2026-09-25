@@ -2,61 +2,39 @@ SHELL := /bin/bash
 PYTHON ?= python3
 FREECAD ?= freecad
 FREECADCMD ?= freecadcmd
-MASTER := cad/master/vpin-master.FCStd
+MASTER := cad/active/vpin-active.FCStd
 
-.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-structure validate-cabinet-service validate-cabinet-pc-slide validate-cabinet-rear-pc validate-cabinet-rear-cpu-shelf open-master build-shell-v02 build-structure-v14 build-playfield-pivot-v15 build-playfield-mechanics-v18 build-playfield-fixed-anchors-v19 build-cabinet-structure-v20 build-cabinet-service-v21 build-cabinet-pc-slide-v22 build-cabinet-rear-pc-v23 build-cabinet-rear-cpu-shelf-v24 generate-cnc-coupon audit-reference status
+.PHONY: help doctor validate validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build open-master build-current build-cabinet-rear-cpu-shelf-v24 repair-rear-cpu revise-rear-layout generate-cnc-coupon audit-reference status
 
 help:
 	@printf '%s\n' \
-	  'vpin-cabinet engineering commands' \
+	  'vpin-cabinet active engineering workflow' \
 	  '' \
-	  '  make doctor                    Check required local tools/files' \
-	  '  make validate                  Run current pure-Python design/packaging checks' \
-	  '  make validate-baseline         Validate current documented dimensional baseline' \
-	  '  make validate-backbox          Validate future-proof backbox packaging' \
-	  '  make validate-main-body        Validate main-body/playfield width envelope' \
-	  '  make validate-service-io       Validate service-I/O packaging' \
-	  '  make validate-backbox-fold     Validate folding-backbox transport design' \
-	  '  make validate-electrical-routing Validate cooling/toy/cable infrastructure' \
-	  '  make validate-backbox-mounting Validate shelf/door/display-carriage design' \
-	  '  make validate-structure-materials Validate structural material/reinforcement policy' \
-	  '  make validate-structure-buildpack Validate structure-first BOM/manual/label/hinge package' \
-	  '  make validate-playfield-pivot  Validate steel-plate/short-journal playfield pivot' \
-	  '  make validate-playfield-display Validate model-agnostic 42/43 inch display envelope' \
-	  '  make validate-playfield-mechanics Validate integrated v0.18 cradle/safety/latch/harness package' \
-	  '  make validate-playfield-fixed-anchors Validate v0.19 fixed support/anchor load paths' \
-	  '  make validate-cabinet-structure Validate v0.20 joinery/legs/PC/glass packaging' \
-	  '  make validate-cabinet-service  Validate v0.21 classic legs/PinSkates service package' \
-	  '  make validate-cabinet-pc-slide Validate historical v0.22 internal PC slide package' \
-	  '  make validate-cabinet-rear-pc Validate v0.23 rear-door / rearward PC service package' \
-	  '  make validate-cabinet-rear-cpu-shelf Validate v0.24 narrow rear CPU shelf package' \
-	  '  make open-master               Open current FreeCAD master' \
-	  '  make build-shell-v02           Re-run the validated WPC shell generator' \
-	  '  make build-structure-v14       Run current 600 mm platform + structure/WPC hinge packaging build' \
-	  '  make build-playfield-pivot-v15 Build structure then playfield pivot packaging' \
-	  '  make build-playfield-mechanics-v18 Build current structure then integrated playfield mechanics' \
-	  '  make build-playfield-fixed-anchors-v19 Build v0.18 mechanics then fixed sidewall support/anchor zones' \
-	  '  make build-cabinet-structure-v20 Build current mechanics then cabinet joinery/legs/PC/glass package' \
-	  '  make build-cabinet-service-v21 Build v0.20 base then classic-leg/PinSkates overlay' \
-	  '  make build-cabinet-pc-slide-v22 Build historical v0.22 center-service shelf' \
-	  '  make build-cabinet-rear-pc-v23 Build v0.23 rear backdoor / wide pull-out PC package' \
-	  '  make build-cabinet-rear-cpu-shelf-v24 Build narrow case-sized rear CPU shelf / full rear extension' \
-	  '  make generate-cnc-coupon       Generate nominal CNC coupon under .work; pass measured values directly to script for production test' \
-	  '  make audit-reference           Run reference audit (if local reference copy exists)' \
-	  '  make status                    Show concise Git state'
+	  '  make doctor              Check local tools/files' \
+	  '  make validate            Validate the CURRENT design only' \
+	  '  make build-current       Build and present the current FreeCAD master' \
+	  '  make cnc-detail          Build joint preview, measurement ledgers and review' \
+	  '  make repair-rear-cpu     Rebuild fresh active source and verify saved geometry' \
+	  '  make open-master         Open the current FreeCAD master' \
+	  '  make generate-cnc-coupon Generate the nominal CNC fit coupon' \
+	  '  make status              Show concise Git state' \
+	  '' \
+	  'Historical design experiments remain in Git history; they are not part of the default workflow.'
 
 doctor:
 	@set -e; \
 	printf 'Python:    '; $(PYTHON) --version; \
-	command -v $(FREECAD) >/dev/null || (echo 'FreeCAD GUI:MISSING (install/configure FreeCAD first)'; exit 1); \
+	command -v $(FREECAD) >/dev/null || (echo 'FreeCAD GUI:MISSING'; exit 1); \
 	printf 'FreeCAD GUI:'; command -v $(FREECAD); \
-	command -v $(FREECADCMD) >/dev/null || (echo 'FreeCADCmd:MISSING (expected freecadcmd from FreeCAD package)'; exit 1); \
+	command -v $(FREECADCMD) >/dev/null || (echo 'FreeCADCmd:MISSING'; exit 1); \
 	printf 'FreeCADCmd:'; $(FREECADCMD) --version | tail -n 1; \
 	printf 'Git:       '; git --version; \
 	test -f config/design.json && echo 'Config:    OK' || (echo 'Config: MISSING'; exit 1); \
+	test -f config/active_build_v25.json && echo 'Active:    OK' || (echo 'Active config: MISSING'; exit 1); \
 	test -f $(MASTER) && echo 'Master:    OK' || (echo 'Master: MISSING'; exit 1)
 
-validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-structure-buildpack validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-structure validate-cabinet-service validate-cabinet-pc-slide validate-cabinet-rear-pc validate-cabinet-rear-cpu-shelf
+# Default validation intentionally excludes superseded PC-service/leg/wheel experiments.
+validate: validate-baseline validate-backbox validate-main-body validate-service-io validate-backbox-fold validate-electrical-routing validate-backbox-mounting validate-structure-materials validate-playfield-pivot validate-playfield-display validate-playfield-mechanics validate-playfield-fixed-anchors validate-cabinet-rear-cpu-shelf validate-active-build validate-cnc-detail validate-owner-services validate-physical-evidence validate-owner-execution
 
 validate-baseline:
 	$(PYTHON) tools/validate.py
@@ -82,9 +60,6 @@ validate-backbox-mounting:
 validate-structure-materials:
 	$(PYTHON) tools/validate_structure_materials_v13.py
 
-validate-structure-buildpack:
-	$(PYTHON) tools/validate_structure_buildpack_v14.py
-
 validate-playfield-pivot:
 	$(PYTHON) tools/validate_playfield_pivot_v15.py
 
@@ -97,53 +72,25 @@ validate-playfield-mechanics:
 validate-playfield-fixed-anchors:
 	$(PYTHON) tools/validate_playfield_fixed_anchors_v19.py
 
-validate-cabinet-structure:
-	$(PYTHON) tools/validate_cabinet_structure_v20.py
-
-validate-cabinet-service:
-	$(PYTHON) tools/validate_cabinet_service_v21.py
-
-validate-cabinet-pc-slide:
-	$(PYTHON) tools/validate_cabinet_pc_slide_v22.py
-
-validate-cabinet-rear-pc:
-	$(PYTHON) tools/validate_cabinet_rear_pc_service_v23.py
-
 validate-cabinet-rear-cpu-shelf:
 	$(PYTHON) tools/validate_cabinet_rear_cpu_shelf_v24.py
 
-open-master:
-	$(FREECAD) $(MASTER)
+validate-active-build:
+	$(PYTHON) tools/validate_active_build_v25.py
 
-build-shell-v02:
-	$(FREECADCMD) tools/build_shell_v02.py
+build-current:
+	bash tools/run_active_build_v25.sh
 
-build-structure-v14:
-	bash tools/run_structure_v14.sh
-
-build-playfield-pivot-v15:
-	bash tools/run_playfield_pivot_v15.sh
-
-build-playfield-mechanics-v18:
-	bash tools/run_playfield_mechanics_v18.sh
-
-build-playfield-fixed-anchors-v19:
-	bash tools/run_playfield_fixed_anchors_v19.sh
-
-build-cabinet-structure-v20:
-	bash tools/run_cabinet_structure_v20.sh
-
-build-cabinet-service-v21:
-	bash tools/run_cabinet_service_v21.sh
-
-build-cabinet-pc-slide-v22:
-	bash tools/run_cabinet_pc_slide_v22.sh
-
-build-cabinet-rear-pc-v23:
-	bash tools/run_cabinet_rear_pc_service_v23.sh
-
+# Low-level current CPU-shelf build retained for debugging only.
 build-cabinet-rear-cpu-shelf-v24:
 	bash tools/run_cabinet_rear_cpu_shelf_v24.sh
+
+# Compatibility aliases: the fresh generator supersedes incremental rear-layout
+# edits and verifies the complete saved active geometry.
+repair-rear-cpu revise-rear-layout: build-current
+
+open-master:
+	$(FREECAD) tools/active_review.FCMacro
 
 generate-cnc-coupon:
 	$(PYTHON) tools/generate_cnc_coupon_v20.py
@@ -156,3 +103,25 @@ audit-reference:
 
 status:
 	@git status --short --branch
+
+.PHONY: cnc-detail validate-cnc-detail
+cnc-detail:
+	bash tools/run_cnc_detail_v25.sh
+
+validate-cnc-detail:
+	$(PYTHON) tools/validate_cnc_detail_v25.py
+
+.PHONY: validate-owner-services
+validate-owner-services:
+	$(PYTHON) tools/validate_owner_services_v27.py
+
+.PHONY: validate-physical-evidence
+validate-physical-evidence:
+	$(PYTHON) tools/validate_physical_validation_v27.py
+
+.PHONY: owner-checklist validate-owner-execution
+owner-checklist:
+	$(PYTHON) tools/generate_owner_execution_v27.py
+
+validate-owner-execution:
+	$(PYTHON) tools/validate_owner_execution_v27.py

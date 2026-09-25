@@ -13,7 +13,7 @@ import os
 import FreeCAD as App
 import Part
 
-ROOT = os.path.expanduser("~/Projetos/vpin-cabinet")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MASTER = os.path.join(ROOT, "cad/master/vpin-master.FCStd")
 DESIGN = os.path.join(ROOT, "config/design.json")
 IOCFG = os.path.join(ROOT, "config/service_io_v08.json")
@@ -51,8 +51,9 @@ def centered_window(panel: dict, cab_len: float, wood: float):
     )
 
 
-def main() -> None:
-    if not os.path.exists(MASTER):
+def main(doc=None) -> None:
+    owns_document = doc is None
+    if owns_document and not os.path.exists(MASTER):
         raise RuntimeError(f"Missing master file: {MASTER}")
 
     d = load(DESIGN)
@@ -70,7 +71,8 @@ def main() -> None:
             f"service-I/O config width {cfg['body_outer_width_mm']} does not match design {outer}"
         )
 
-    doc = App.openDocument(MASTER)
+    if owns_document:
+        doc = App.openDocument(MASTER)
 
     old = doc.getObject("ServiceIOV09")
     if old:
@@ -103,7 +105,7 @@ def main() -> None:
             doc,
             group,
             f"Rear{stem}WindowGhostV09",
-            f"{stem.upper()} CABINET WINDOW - THROUGH CUT GHOST",
+            f"{stem.upper()} WINDOW CANDIDATE - BLOCKED BOTTOM/LEG COLLISION",
             window,
             82,
         )
@@ -169,7 +171,8 @@ def main() -> None:
     group.Status = "PACKAGING ONLY - NOT FOR MANUFACTURING"
 
     doc.recompute()
-    doc.save()
+    if owns_document:
+        doc.save()
 
     print("SERVICE I/O v0.9 PACKAGING GENERATED")
     print("=" * 68)
@@ -180,7 +183,8 @@ def main() -> None:
     print("Mains enclosure depth     140.0 mm (provisional)")
     print("STATUS                    PACKAGING ONLY - NOT FOR MANUFACTURING")
 
-    App.closeDocument(doc.Name)
+    if owns_document:
+        App.closeDocument(doc.Name)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,56 @@
+name: Hardware measurement
+description: Submit measured geometry for an item that controls CNC or adapter design
+title: "[MEASURE] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Measurements can unlock CNC features. Please measure the physical part rather than copying an unverified catalog drawing.
+  - type: input
+    id: item
+    attributes:
+      label: Hardware item
+      description: Manufacturer, model, part number, or clear description.
+    validations:
+      required: true
+  - type: input
+    id: freeze_id
+    attributes:
+      label: Hardware-freeze ID
+      description: If known, provide the HF-xxx entry from bom/HARDWARE_FREEZE_V25.csv.
+  - type: textarea
+    id: datum
+    attributes:
+      label: Datum and orientation
+      description: Define exactly where X/Y/Z or other measurements start, and the viewing orientation.
+    validations:
+      required: true
+  - type: textarea
+    id: measurements
+    attributes:
+      label: Measurements
+      description: Include units, hole centers, thicknesses, offsets, envelope dimensions, and repeated measurements where useful.
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Measuring tool / resolution
+      placeholder: e.g. 0.01 mm digital caliper
+    validations:
+      required: true
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photos / sketches
+      description: Attach clear views showing the part, datum, and measured features. Avoid personal information in backgrounds.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: These values were measured from a physical part, not guessed from an image or unverified drawing.
+          required: true
+        - label: I can contribute these measurements under the project licence.
+          required: true

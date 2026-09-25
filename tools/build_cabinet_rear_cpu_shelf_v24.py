@@ -7,7 +7,7 @@ import os
 import FreeCAD as App
 import Part
 
-ROOT = os.path.expanduser("~/Projetos/vpin-cabinet")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MASTER = os.path.join(ROOT, "cad/master/vpin-master.FCStd")
 CFG = os.path.join(ROOT, "config/cabinet_rear_cpu_shelf_v24.json")
 V20 = os.path.join(ROOT, "config/cabinet_structure_v20.json")
@@ -16,6 +16,26 @@ V20 = os.path.join(ROOT, "config/cabinet_structure_v20.json")
 def load(path: str) -> dict:
     with open(path, "r", encoding="utf-8") as fh:
         return json.load(fh)
+
+
+def set_visibility(obj, visible: bool) -> None:
+    """Best-effort visibility change that is safe under headless FreeCADCmd.
+
+    In FreeCADCmd some document objects have no ViewObject at all. Geometry creation
+    and serialization must not depend on GUI-only view providers being present.
+    """
+    if obj is None:
+        return
+    try:
+        view = getattr(obj, "ViewObject", None)
+    except Exception:
+        view = None
+    if view is None:
+        return
+    try:
+        view.Visibility = bool(visible)
+    except Exception:
+        pass
 
 
 def add_shape(doc, group, name, label, shape, transparency=0, part_id=None):
@@ -27,13 +47,16 @@ def add_shape(doc, group, name, label, shape, transparency=0, part_id=None):
         obj.addProperty("App::PropertyString", "PartID", "Build Package")
         obj.PartID = part_id
     try:
-        obj.ViewObject.Transparency = transparency
+        view = getattr(obj, "ViewObject", None)
+        if view is not None:
+            view.Transparency = transparency
     except Exception:
         pass
     return obj
 
 
-def main() -> None:
+def main(doc=None) -> None:
+    owns_document = doc is None
     cfg = load(CFG)
     v20 = load(V20)
     door = cfg["rear_service_door"]
@@ -45,7 +68,8 @@ def main() -> None:
     length = float(cab["side_length_mm"])
     wood = float(cab["nominal_wood_mm"])
 
-    doc = App.openDocument(MASTER)
+    if owns_document:
+        doc = App.openDocument(MASTER)
     old = doc.getObject("CabinetRearCPUShelfV24")
     if old:
         for child in list(old.Group):
@@ -59,16 +83,15 @@ def main() -> None:
     # v0.24 supersedes the wider v0.23 shelf/door visuals, but keeps all prior
     # cabinet, classic-leg and PinSkates decisions.
     v23 = doc.getObject("CabinetRearPCServiceV23")
-    if v23:
-        v23.ViewObject.Visibility = False
+    set_visibility(v23, False)
 
     group = doc.addObject("App::Part", "CabinetRearCPUShelfV24")
-    group.Label = "REAR CPU SHELF v0.24 - NARROW CASE-SIZED BOARD / FULL REAR EXTENSION"
+    group.Label = "REAR CPU SERVICE - BACKDOOR / PULL-OUT SHELF (ACTIVE)"
 
     rear = doc.getObject("CapturedRearPanelV20")
-    if rear is None:
+    if rear is None and owns_document:
         raise RuntimeError("CapturedRearPanelV20 missing; build v0.20 base first")
-    rear.ViewObject.Visibility = False
+    set_visibility(rear, False)
 
     # Narrower rear aperture preserves much more rear-panel structure than v0.23.
     ax = float(door["aperture_x_mm"])
@@ -76,7 +99,12 @@ def main() -> None:
     aw = float(door["raw_aperture_width_x_mm"])
     ah = float(door["raw_aperture_height_z_mm"])
     cut = Part.makeBox(aw, wood + 4.0, ah, App.Vector(ax, length - wood - 2.0, az))
-    rear_cut = rear.Shape.cut(cut)
+    if rear is not None:
+        rear_base = rear.Shape
+    else:
+        j = v20["cnc_joinery"]
+        rear_base = Part.makeBox(float(j["front_rear_blank_width_mm"]), wood, float(cab["rear_height_mm"]), App.Vector(wood-float(j["nominal_dado_depth_mm"]), length-wood, 0))
+    rear_cut = rear_base.cut(cut)
     add_shape(doc, group, "RearPanelWithCPUHatchV24", "CAB-REAR-001-R3 - NARROW REAR CPU HATCH", rear_cut, 5, "CAB-REAR-001-R3")
     add_shape(doc, group, "RearCPUHatchOpeningGhostV24", "REAR CPU CLEAR OPENING 340x240", cut, 88)
 
@@ -89,7 +117,7 @@ def main() -> None:
     closed = Part.makeBox(dw, dt, dh, App.Vector(dx, length, dz))
     add_shape(doc, group, "RearCPUServiceDoorClosedV24", "CAB-PC-REAR-DOOR-002-R1 - CLOSED", closed, 20, "CAB-PC-REAR-DOOR-002-R1")
     opened = closed.copy()
-    opened.rotate(App.Vector(dx, length, dz), App.Vector(0, 0, 1), -float(door["outward_open_angle_deg"]))
+    opened.rotate(App.Vector(dx + dw, length + float(door["hinge_axis_y_offset_mm"]), dz), App.Vector(0, 0, 1), -float(door["outward_open_angle_deg"]))
     add_shape(doc, group, "RearCPUServiceDoorOpenGhostV24", "REAR CPU DOOR - OPEN GHOST", opened, 82)
 
     # Case-sized shelf: case rotated so its narrow 265 mm dimension is cross-cabinet
@@ -115,9 +143,34 @@ def main() -> None:
     rlx = float(pc["fixed_support_left_x_mm"])
     rrx = float(pc["fixed_support_right_x_mm"])
     rail_y = sy - 5.0
-    rail_z = sz - (rh - st) / 2.0
-    add_shape(doc, group, "RearCPUSupportRailLeftV24", "PC REAR SLIDE SUPPORT LEFT - SIMPLE LOCAL RAIL", Part.makeBox(rw, rl, rh, App.Vector(rlx, rail_y, rail_z)), 25)
-    add_shape(doc, group, "RearCPUSupportRailRightV24", "PC REAR SLIDE SUPPORT RIGHT - SIMPLE LOCAL RAIL", Part.makeBox(rw, rl, rh, App.Vector(rrx, rail_y, rail_z)), 25)
+    rail_z = float(pc["fixed_support_rail_bottom_z_mm"])
+    detail = pc["support_detail"]
+    bottom_z = float(v20["cnc_joinery"]["bottom_panel_bottom_z_mm"])
+    for side, x in (("Left", rlx), ("Right", rrx)):
+        rail = Part.makeBox(rw, rl, rh, App.Vector(x, rail_y, rail_z))
+        # Clearance saddle over the existing rear crossmember; it is not weakened.
+        j = v20["cnc_joinery"]
+        clearance = float(detail["crossmember_notch_clearance_mm"])
+        for y in j["crossmember_y_mm"]:
+            notch = Part.makeBox(rw+2, float(j["crossmember_thickness_y_mm"])+2*clearance,
+                                 float(j["crossmember_height_z_mm"])+clearance,
+                                 App.Vector(x-1,float(y)-clearance,rail_z))
+            rail = rail.cut(notch)
+        add_shape(doc, group, "RearCPUSupportRail"+side+"V24", "PC SUPPORT "+side.upper()+" / BOTTOM-SEATED 18 mm PLY / HOLES TBD", rail, 10,
+                  "PC-SUPPORT-"+side.upper()+"-R2")
+        t = float(detail["angle_thickness_mm"])
+        fw = float(detail["angle_foot_width_mm"])
+        fl = float(detail["angle_length_y_mm"])
+        fh = float(detail["angle_height_mm"])
+        bx = x-fw if side == "Left" else x+rw
+        wx = x-t if side == "Left" else x+rw
+        for idx, cy in enumerate(detail["foot_center_y_mm"],1):
+            foot = Part.makeBox(fw,fl,t,App.Vector(bx,cy-fl/2,rail_z))
+            web = Part.makeBox(t,fl,fh,App.Vector(wx,cy-fl/2,rail_z))
+            add_shape(doc,group,f"CPURailAngle{side}{idx}V26", "RAIL ANGLE CLAMP / THROUGH-BOLT PATTERNS TBD",foot.fuse(web),0)
+            bw = float(detail["backing_width_mm"]);bl = float(detail["backing_length_y_mm"]);bt = float(detail["backing_thickness_mm"])
+            add_shape(doc,group,f"CPURailBacking{side}{idx}V26","UNDERSIDE BOLT BACKING / HOLES TBD",
+                      Part.makeBox(bw,bl,bt,App.Vector(bx+(fw-bw)/2,cy-bl/2,bottom_z-bt)),0)
 
     slide_t = float(pc["slide_packaging_thickness_each_side_mm"])
     slide_h = float(pc["slide_packaging_height_mm"])
@@ -142,7 +195,6 @@ def main() -> None:
     add_shape(doc, group, "RearCPUOpenCaseServiceGhostV24", "OPEN PC CASE - PULLED REARWARD OUT OF PINBALL", chassis_service, 88)
 
     add_shape(doc, group, "RearCPUStowedRetainerV24", "ONE SIMPLE POSITIVE STOWED RETAINER - HARDWARE TBD", Part.makeBox(18.0, 18.0, 32.0, App.Vector(sx + 10.0, sy + sd - 8.0, sz - 7.0)), 60)
-    add_shape(doc, group, "RearCPUHarnessLoopGhostV24", "REAR CPU HARNESS SERVICE LOOP >=600 mm", Part.makeBox(35.0, 480.0, 90.0, App.Vector(sx + sw + 20.0, sy - 15.0, sz + 25.0)), 90)
 
     group.addProperty("App::PropertyString", "ReferenceArchitecture", "Engineering")
     group.ReferenceArchitecture = "REAR CPU SLIDE-OUT SHELF: ONE BOARD + TWO FULL-EXTENSION SLIDES"
@@ -154,7 +206,8 @@ def main() -> None:
     group.Status = "ENGINEERING PACKAGING - NOT FOR MANUFACTURING"
 
     doc.recompute()
-    doc.save()
+    if owns_document:
+        doc.save()
 
     print("REAR CPU SHELF v0.24 GENERATED")
     print("=" * 80)
@@ -164,7 +217,8 @@ def main() -> None:
     print(f"Rearward travel            {service_y-sy:.0f} mm")
     print("Routine service            OPEN REAR DOOR + PULL PC OUT; PLAYFIELD CLOSED")
     print("STATUS                     ENGINEERING PACKAGING - NOT FOR MANUFACTURING")
-    App.closeDocument(doc.Name)
+    if owns_document:
+        App.closeDocument(doc.Name)
 
 
 if __name__ == "__main__":

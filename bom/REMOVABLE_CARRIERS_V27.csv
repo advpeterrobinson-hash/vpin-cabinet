@@ -1,0 +1,12 @@
+part_id,object_name,construction_class,material,attachment,electronics_holes,manufacturing_ready
+ELEC-CARRIER-LEFT-R1,ElectronicsCarrierLeftV27,REMOVABLE_CARRIER,replaceable plate; plywood/aluminum as documented,standardized bolts; no glue,ADAPTER_ONLY,false
+ELEC-CARRIER-RIGHT-R1,ElectronicsCarrierRightV27,REMOVABLE_CARRIER,replaceable plate; plywood/aluminum as documented,standardized bolts; no glue,ADAPTER_ONLY,false
+AIR-FILTER-CARRIER-R1,BottomFilterCarrierV27,REMOVABLE_CARRIER,replaceable plate; plywood/aluminum as documented,standardized bolts; no glue,ADAPTER_ONLY,false
+BB-SPEAKER-LEFT-R1,BackboxSpeakerLeftCarrierV27,REMOVABLE_CARRIER,replaceable plate; plywood/aluminum as documented,standardized bolts; no glue,ADAPTER_ONLY,false
+BB-SPEAKER-RIGHT-R1,BackboxSpeakerRightCarrierV27,REMOVABLE_CARRIER,replaceable plate; plywood/aluminum as documented,standardized bolts; no glue,ADAPTER_ONLY,false
+BB-EXHAUST-CARRIER-1-R1,BackboxExhaustCarrier1V27,REMOVABLE_CARRIER,replaceable plate; plywood/aluminum as documented,standardized bolts; no glue,ADAPTER_ONLY,false
+BB-EXHAUST-CARRIER-2-R1,BackboxExhaustCarrier2V27,REMOVABLE_CARRIER,replaceable plate; plywood/aluminum as documented,standardized bolts; no glue,ADAPTER_ONLY,false
+PC-REAR-SHELF-002-R1,RearCPUShelfStowedV24,REMOVABLE_CARRIER,existing replaceable board/metal adapter,measured bolts; no glue,ADAPTER_ONLY,false
+IO-MAINS-CARRIER-R1,UtilityAMainsCarrierV26,REMOVABLE_CARRIER,existing replaceable board/metal adapter,measured bolts; no glue,ADAPTER_ONLY,false
+IO-ETHERNET-CARRIER-R1,UtilityAEthernetCarrierV26,REMOVABLE_CARRIER,existing replaceable board/metal adapter,measured bolts; no glue,ADAPTER_ONLY,false
+PF-VESA-CARRIER-R1,VesaAdapterEnvelopeV18,REMOVABLE_CARRIER,existing replaceable board/metal adapter,measured bolts; no glue,ADAPTER_ONLY,false

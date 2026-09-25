@@ -16,8 +16,11 @@ echo '=== PURE-PYTHON VALIDATION ==='
 make validate
 
 echo
-echo '=== BUILD v0.23 REAR-SERVICE BASE ==='
-bash tools/run_cabinet_rear_pc_service_v23.sh
+echo '=== BUILD CURRENT CABINET/SERVICE BASE ==='
+# v0.24 no longer depends on the superseded v0.22/v0.23 PC concepts.
+# Build through v0.21 to obtain current CNC joinery + classic legs/PinSkates,
+# then add the active rear CPU shelf directly.
+bash tools/run_cabinet_service_v21.sh
 
 echo
 echo '=== BUILD NARROW REAR CPU SHELF v0.24 ==='
@@ -25,7 +28,7 @@ freecadcmd tools/build_cabinet_rear_cpu_shelf_v24_entry.py
 
 echo
 echo '=== VERIFY REAR CPU SHELF ==='
-freecadcmd tools/verify_cabinet_rear_cpu_shelf_v24.py
+freecadcmd tools/verify_cabinet_rear_cpu_shelf_v24_entry.py
 
 echo
 echo '=== COMPLETE ==='

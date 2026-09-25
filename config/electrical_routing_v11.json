@@ -125,7 +125,7 @@
       "class": "E",
       "nominal_passage_mm": [60, 35],
       "runs": "playfield display HDMI/DP and power service loop",
-      "rule": "kept clear of gas struts, safety prop and hinge motion"
+      "rule": "kept clear of both captive prop rods and hinge motion"
     },
     "mains_route": {
       "class": "A",
@@ -206,7 +206,7 @@
       "adhesive-only cable tie bases for primary support",
       "sharp plywood edges contacting wire insulation",
       "unsupported heavy connectors",
-      "zip ties directly on hinge pivots or gas-strut hardware"
+      "zip ties directly on hinge pivots or captive prop hardware"
     ],
     "cnc_located_mounting_holes_required": true
   },

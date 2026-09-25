@@ -106,10 +106,11 @@
   },
   "playfield_service": {
     "hinged": true,
-    "dual_gas_struts": true,
     "independent_mechanical_safety": true,
     "target_open_angle_deg": 70.0,
-    "gas_strut_force_status": "recalculate-after-final-display-selection"
+    "manual_lift": true,
+    "captive_prop_rod_count": 2,
+    "manual_lift_force_status": "check-completed-assembly"
   },
   "service_io": {
     "rear_power_fascia_replaceable": true,

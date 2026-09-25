@@ -9,14 +9,17 @@
     "classic pinball legs + compact measured steel brackets",
     "external removable PinSkates-style mobility",
     "model-agnostic hinged playfield cradle",
-    "dual positive playfield safety stays",
+    "dual captive positively pinned playfield props",
     "narrow rear CPU service hatch",
     "case-sized rear CPU shelf on full-extension slides",
     "open PC case bolted directly to CPU shelf",
     "custom 600 mm lockdown/siderail/glass system",
     "adjustable backglass/DMD carrier",
     "reserved SSF/DOF zones",
-    "separate touch-safe mains zone"
+    "separate touch-safe mains zone",
+    "two narrow removable low-voltage electronics carriers",
+    "filtered generic bottom intake and fixed upper backbox exhaust",
+    "visible human-control and plunger packaging"
   ],
   "superseded_active_concepts": [
     "580 mm body",

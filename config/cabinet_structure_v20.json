@@ -27,7 +27,11 @@
     "crossmember_blank_width_mm": 576.0,
     "crossmember_thickness_y_mm": 18.0,
     "crossmember_height_z_mm": 80.0,
-    "crossmember_y_mm": [260.0, 650.0, 1040.0],
+    "crossmember_y_mm": [
+      260.0,
+      650.0,
+      1040.0
+    ],
     "crossmember_bottom_z_mm": 36.0,
     "internal_corner_tool_radius_mm": 3.0,
     "square_tab_relief_policy": "use tool-radius-compatible shoulders or explicit dogbones only where required; no cosmetic-edge dogbones",
@@ -46,7 +50,11 @@
     "steel_leg_bracket_required": true,
     "through_bolts_required": true,
     "exact_leg_holes_status": "BLOCKED until actual leg/bracket hardware is selected and measured",
-    "wheel_keepout_each_corner_mm": [110.0, 110.0, 90.0],
+    "wheel_keepout_each_corner_mm": [
+      110.0,
+      110.0,
+      90.0
+    ],
     "rule": "leg and retractable-wheel loads are backed by local plywood reinforcement and metal hardware; playing load remains on levelers"
   },
   "pc_drawer": {
@@ -78,8 +86,28 @@
   },
   "ssf_keepouts": {
     "sidewall_exciter_zones_each_side": [
-      {"name": "front", "y_mm": [280.0, 480.0], "z_mm": [180.0, 340.0]},
-      {"name": "rear", "y_mm": [850.0, 1050.0], "z_mm": [260.0, 450.0]}
+      {
+        "name": "front",
+        "y_mm": [
+          350,
+          450
+        ],
+        "z_mm": [
+          200,
+          300
+        ]
+      },
+      {
+        "name": "rear",
+        "y_mm": [
+          850,
+          1000
+        ],
+        "z_mm": [
+          200,
+          280
+        ]
+      }
     ],
     "rule": "do not rigidly bridge left/right sidewalls across these zones with broad shelves; drawer subrails use independent crossmember/bottom load paths"
   },

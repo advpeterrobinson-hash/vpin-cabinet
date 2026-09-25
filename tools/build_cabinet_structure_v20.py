@@ -14,7 +14,7 @@ import os
 import FreeCAD as App
 import Part
 
-ROOT = os.path.expanduser("~/Projetos/vpin-cabinet")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MASTER = os.path.join(ROOT, "cad/master/vpin-master.FCStd")
 CFG = os.path.join(ROOT, "config/cabinet_structure_v20.json")
 
@@ -39,8 +39,9 @@ def add_shape(doc, group, name, label, shape, transparency=0, part_id=None):
     return obj
 
 
-def main() -> None:
-    if not os.path.exists(MASTER):
+def main(doc=None, active_only=False) -> None:
+    owns_document = doc is None
+    if owns_document and not os.path.exists(MASTER):
         raise RuntimeError(f"Missing master file: {MASTER}")
     cfg = load(CFG)
     cab = cfg["cabinet"]
@@ -76,7 +77,8 @@ def main() -> None:
         out.translate(App.Vector(0, front_y, top_z(front_y) + vertical_offset))
         return out
 
-    doc = App.openDocument(MASTER)
+    if owns_document:
+        doc = App.openDocument(MASTER)
     old = doc.getObject("CabinetStructureV20")
     if old:
         for child in list(old.Group):
@@ -88,7 +90,7 @@ def main() -> None:
         doc.recompute()
 
     group = doc.addObject("App::Part", "CabinetStructureV20")
-    group.Label = "CABINET STRUCTURE v0.20 - JOINERY / LEGS / PC DRAWER / GLASS"
+    group.Label = "CABINET / JOINERY / GLASS / SSF" if active_only else "HISTORICAL STRUCTURE V20"
 
     # Focus this review on fixed cabinet structure; prior mechanics remain in the
     # document and can be re-enabled independently.
@@ -121,7 +123,8 @@ def main() -> None:
         App.Vector(blank_x, wood - dado, float(j["bottom_panel_bottom_z_mm"])),
     )
     add_shape(doc, group, "CapturedFrontPanelV20", "CAB-FRONT-001-R1 - 6 mm SIDE CAPTURE", front, 10, "CAB-FRONT-001-R1")
-    add_shape(doc, group, "CapturedRearPanelV20", "CAB-REAR-001-R1 - 6 mm SIDE CAPTURE", rear, 10, "CAB-REAR-001-R1")
+    if not active_only:
+        add_shape(doc, group, "CapturedRearPanelV20", "CAB-REAR-001-R1 - 6 mm SIDE CAPTURE", rear, 10, "CAB-REAR-001-R1")
     add_shape(doc, group, "CapturedBottomV20", "CAB-BOTTOM-001-R1 - FOUR-EDGE CAPTURE", bottom, 10, "CAB-BOTTOM-001-R1")
 
     # Low crossmembers are captured 6 mm into both side panels and sit on the
@@ -164,87 +167,88 @@ def main() -> None:
     add_shape(doc, group, "LeftJoineryPocketGhostV20", "LEFT SIDE NOMINAL 6 mm DADO/RABBET VOLUMES - STOCK TBD", left_union, 88)
     add_shape(doc, group, "RightJoineryPocketGhostV20", "RIGHT SIDE NOMINAL 6 mm DADO/RABBET VOLUMES - STOCK TBD", right_union, 88)
 
-    # Leg-corner reinforcement: each corner gets an inside sidewall doubler and
-    # an end-panel doubler. Exact steel bracket/bolt holes remain blocked.
-    sd_t = float(leg["side_doubler_thickness_mm"])
-    sd_l = float(leg["side_doubler_length_y_mm"])
-    sd_h = float(leg["side_doubler_height_z_mm"])
-    ed_t = float(leg["end_doubler_thickness_mm"])
-    ed_w = float(leg["end_doubler_width_x_mm"])
-    ed_h = float(leg["end_doubler_height_z_mm"])
-    dz = float(leg["doubler_bottom_z_mm"])
-    rear_side_y = length - wood - sd_l
-    rear_end_y = length - wood - ed_t
-    leg_parts = [
-        ("LegSideDoublerFLV20", "CAB-LEG-SIDE-DBLR-FL-R1", Part.makeBox(sd_t, sd_l, sd_h, App.Vector(wood, wood, dz))),
-        ("LegSideDoublerFRV20", "CAB-LEG-SIDE-DBLR-FR-R1", Part.makeBox(sd_t, sd_l, sd_h, App.Vector(outer-wood-sd_t, wood, dz))),
-        ("LegSideDoublerRLV20", "CAB-LEG-SIDE-DBLR-RL-R1", Part.makeBox(sd_t, sd_l, sd_h, App.Vector(wood, rear_side_y, dz))),
-        ("LegSideDoublerRRV20", "CAB-LEG-SIDE-DBLR-RR-R1", Part.makeBox(sd_t, sd_l, sd_h, App.Vector(outer-wood-sd_t, rear_side_y, dz))),
-        ("LegEndDoublerFLV20", "CAB-LEG-END-DBLR-FL-R1", Part.makeBox(ed_w, ed_t, ed_h, App.Vector(wood, wood, dz))),
-        ("LegEndDoublerFRV20", "CAB-LEG-END-DBLR-FR-R1", Part.makeBox(ed_w, ed_t, ed_h, App.Vector(outer-wood-ed_w, wood, dz))),
-        ("LegEndDoublerRLV20", "CAB-LEG-END-DBLR-RL-R1", Part.makeBox(ed_w, ed_t, ed_h, App.Vector(wood, rear_end_y, dz))),
-        ("LegEndDoublerRRV20", "CAB-LEG-END-DBLR-RR-R1", Part.makeBox(ed_w, ed_t, ed_h, App.Vector(outer-wood-ed_w, rear_end_y, dz))),
-    ]
-    for name, part_id, shape in leg_parts:
-        add_shape(doc, group, name, f"{part_id} - 18 mm LEG REINFORCEMENT", shape, 25, part_id)
+    if not active_only:
+        # Leg-corner reinforcement: each corner gets an inside sidewall doubler and
+        # an end-panel doubler. Exact steel bracket/bolt holes remain blocked.
+        sd_t = float(leg["side_doubler_thickness_mm"])
+        sd_l = float(leg["side_doubler_length_y_mm"])
+        sd_h = float(leg["side_doubler_height_z_mm"])
+        ed_t = float(leg["end_doubler_thickness_mm"])
+        ed_w = float(leg["end_doubler_width_x_mm"])
+        ed_h = float(leg["end_doubler_height_z_mm"])
+        dz = float(leg["doubler_bottom_z_mm"])
+        rear_side_y = length - wood - sd_l
+        rear_end_y = length - wood - ed_t
+        leg_parts = [
+            ("LegSideDoublerFLV20", "CAB-LEG-SIDE-DBLR-FL-R1", Part.makeBox(sd_t, sd_l, sd_h, App.Vector(wood, wood, dz))),
+            ("LegSideDoublerFRV20", "CAB-LEG-SIDE-DBLR-FR-R1", Part.makeBox(sd_t, sd_l, sd_h, App.Vector(outer-wood-sd_t, wood, dz))),
+            ("LegSideDoublerRLV20", "CAB-LEG-SIDE-DBLR-RL-R1", Part.makeBox(sd_t, sd_l, sd_h, App.Vector(wood, rear_side_y, dz))),
+            ("LegSideDoublerRRV20", "CAB-LEG-SIDE-DBLR-RR-R1", Part.makeBox(sd_t, sd_l, sd_h, App.Vector(outer-wood-sd_t, rear_side_y, dz))),
+            ("LegEndDoublerFLV20", "CAB-LEG-END-DBLR-FL-R1", Part.makeBox(ed_w, ed_t, ed_h, App.Vector(wood, wood, dz))),
+            ("LegEndDoublerFRV20", "CAB-LEG-END-DBLR-FR-R1", Part.makeBox(ed_w, ed_t, ed_h, App.Vector(outer-wood-ed_w, wood, dz))),
+            ("LegEndDoublerRLV20", "CAB-LEG-END-DBLR-RL-R1", Part.makeBox(ed_w, ed_t, ed_h, App.Vector(wood, rear_end_y, dz))),
+            ("LegEndDoublerRRV20", "CAB-LEG-END-DBLR-RR-R1", Part.makeBox(ed_w, ed_t, ed_h, App.Vector(outer-wood-ed_w, rear_end_y, dz))),
+        ]
+        for name, part_id, shape in leg_parts:
+            add_shape(doc, group, name, f"{part_id} - 18 mm LEG REINFORCEMENT", shape, 25, part_id)
 
-    # Conservative steel-bracket and retractable-wheel keepouts only.
-    bracket_w = 120.0
-    bracket_l = 120.0
-    bracket_h = 200.0
-    wheel_x, wheel_y, wheel_z = [float(v) for v in leg["wheel_keepout_each_corner_mm"]]
-    corners = [
-        ("FL", wood, wood),
-        ("FR", outer-wood-bracket_w, wood),
-        ("RL", wood, length-wood-bracket_l),
-        ("RR", outer-wood-bracket_w, length-wood-bracket_l),
-    ]
-    for suffix, bx, by in corners:
-        add_shape(doc, group, f"LegBracketKeepout{suffix}V20", f"LEG BRACKET {suffix} - MEASURE BEFORE CNC",
-                  Part.makeBox(bracket_w, bracket_l, bracket_h, App.Vector(bx, by, dz)), 86)
-        wx = wood if suffix.endswith("L") else outer-wood-wheel_x
-        wy = wood if suffix.startswith("F") else length-wood-wheel_y
-        add_shape(doc, group, f"WheelKeepout{suffix}V20", f"RETRACTABLE WHEEL {suffix} KEEP-OUT",
-                  Part.makeBox(wheel_x, wheel_y, wheel_z, App.Vector(wx, wy, 0.0)), 90)
+        # Conservative steel-bracket and retractable-wheel keepouts only.
+        bracket_w = 120.0
+        bracket_l = 120.0
+        bracket_h = 200.0
+        wheel_x, wheel_y, wheel_z = [float(v) for v in leg["wheel_keepout_each_corner_mm"]]
+        corners = [
+            ("FL", wood, wood),
+            ("FR", outer-wood-bracket_w, wood),
+            ("RL", wood, length-wood-bracket_l),
+            ("RR", outer-wood-bracket_w, length-wood-bracket_l),
+        ]
+        for suffix, bx, by in corners:
+            add_shape(doc, group, f"LegBracketKeepout{suffix}V20", f"LEG BRACKET {suffix} - MEASURE BEFORE CNC",
+                      Part.makeBox(bracket_w, bracket_l, bracket_h, App.Vector(bx, by, dz)), 86)
+            wx = wood if suffix.endswith("L") else outer-wood-wheel_x
+            wy = wood if suffix.startswith("F") else length-wood-wheel_y
+            add_shape(doc, group, f"WheelKeepout{suffix}V20", f"RETRACTABLE WHEEL {suffix} KEEP-OUT",
+                      Part.makeBox(wheel_x, wheel_y, wheel_z, App.Vector(wx, wy, 0.0)), 90)
 
-    # PC drawer: independent subrails sit inward of the sidewalls and tie into the
-    # bottom/crossmember system. 500 mm-class slides occupy the gaps to the tray.
-    sub_t = float(pc["fixed_subrail_thickness_x_mm"])
-    sub_l = float(pc["fixed_subrail_length_y_mm"])
-    sub_h = float(pc["fixed_subrail_height_z_mm"])
-    sub_y = float(pc["subrail_y_mm"])
-    sub_z = float(pc["subrail_z_mm"])
-    left_sub_x = float(pc["left_subrail_x_mm"])
-    right_sub_x = float(pc["right_subrail_x_mm"])
-    add_shape(doc, group, "PCSubrailLeftV20", "PC-SUBRAIL-001L-R1 - 18 mm PLYWOOD", Part.makeBox(sub_t, sub_l, sub_h, App.Vector(left_sub_x, sub_y, sub_z)), 18, "PC-SUBRAIL-001L-R1")
-    add_shape(doc, group, "PCSubrailRightV20", "PC-SUBRAIL-001R-R1 - 18 mm PLYWOOD", Part.makeBox(sub_t, sub_l, sub_h, App.Vector(right_sub_x, sub_y, sub_z)), 18, "PC-SUBRAIL-001R-R1")
+        # PC drawer: independent subrails sit inward of the sidewalls and tie into the
+        # bottom/crossmember system. 500 mm-class slides occupy the gaps to the tray.
+        sub_t = float(pc["fixed_subrail_thickness_x_mm"])
+        sub_l = float(pc["fixed_subrail_length_y_mm"])
+        sub_h = float(pc["fixed_subrail_height_z_mm"])
+        sub_y = float(pc["subrail_y_mm"])
+        sub_z = float(pc["subrail_z_mm"])
+        left_sub_x = float(pc["left_subrail_x_mm"])
+        right_sub_x = float(pc["right_subrail_x_mm"])
+        add_shape(doc, group, "PCSubrailLeftV20", "PC-SUBRAIL-001L-R1 - 18 mm PLYWOOD", Part.makeBox(sub_t, sub_l, sub_h, App.Vector(left_sub_x, sub_y, sub_z)), 18, "PC-SUBRAIL-001L-R1")
+        add_shape(doc, group, "PCSubrailRightV20", "PC-SUBRAIL-001R-R1 - 18 mm PLYWOOD", Part.makeBox(sub_t, sub_l, sub_h, App.Vector(right_sub_x, sub_y, sub_z)), 18, "PC-SUBRAIL-001R-R1")
 
-    tray_w = float(pc["tray_width_x_mm"])
-    tray_d = float(pc["tray_depth_y_mm"])
-    tray_t = float(pc["tray_thickness_z_mm"])
-    tray_x = float(pc["tray_x_mm"])
-    tray_z = float(pc["tray_z_mm"])
-    tray_stowed_y = float(pc["tray_stowed_y_mm"])
-    tray_service_y = float(pc["tray_service_y_mm"])
-    tray_stowed = Part.makeBox(tray_w, tray_d, tray_t, App.Vector(tray_x, tray_stowed_y, tray_z))
-    tray_service = Part.makeBox(tray_w, tray_d, tray_t, App.Vector(tray_x, tray_service_y, tray_z))
-    add_shape(doc, group, "PCTrayStowedV20", "PC-TRAY-001-R1 - STOWED", tray_stowed, 20, "PC-TRAY-001-R1")
-    add_shape(doc, group, "PCTrayServiceGhostV20", "PC TRAY - FORWARD SERVICE POSITION GHOST", tray_service, 82)
+        tray_w = float(pc["tray_width_x_mm"])
+        tray_d = float(pc["tray_depth_y_mm"])
+        tray_t = float(pc["tray_thickness_z_mm"])
+        tray_x = float(pc["tray_x_mm"])
+        tray_z = float(pc["tray_z_mm"])
+        tray_stowed_y = float(pc["tray_stowed_y_mm"])
+        tray_service_y = float(pc["tray_service_y_mm"])
+        tray_stowed = Part.makeBox(tray_w, tray_d, tray_t, App.Vector(tray_x, tray_stowed_y, tray_z))
+        tray_service = Part.makeBox(tray_w, tray_d, tray_t, App.Vector(tray_x, tray_service_y, tray_z))
+        add_shape(doc, group, "PCTrayStowedV20", "PC-TRAY-001-R1 - STOWED", tray_stowed, 20, "PC-TRAY-001-R1")
+        add_shape(doc, group, "PCTrayServiceGhostV20", "PC TRAY - FORWARD SERVICE POSITION GHOST", tray_service, 82)
 
-    # 12 mm slide packaging gaps and 470x400x230 PC service envelope.
-    slide_gap = float(pc["slide_packaging_thickness_each_side_mm"])
-    slide_h = 45.0
-    left_slide_x = tray_x - slide_gap
-    right_slide_x = tray_x + tray_w
-    slide_y = float(pc["subrail_y_mm"])
-    slide_l = float(pc["preferred_slide_class_mm"])
-    slide_z = tray_z - 15.0
-    add_shape(doc, group, "PCSlideLeftKeepoutV20", "500 mm CLASS LOCKING SLIDE LEFT - HOLES TBD",
-              Part.makeBox(slide_gap, slide_l, slide_h, App.Vector(left_slide_x, slide_y, slide_z)), 84)
-    add_shape(doc, group, "PCSlideRightKeepoutV20", "500 mm CLASS LOCKING SLIDE RIGHT - HOLES TBD",
-              Part.makeBox(slide_gap, slide_l, slide_h, App.Vector(right_slide_x, slide_y, slide_z)), 84)
-    add_shape(doc, group, "PCServiceEnvelopeV20", "PC SERVICE ENVELOPE 470x400x230 - STOWED",
-              Part.makeBox(tray_w, tray_d, float(pc["service_envelope_height_mm"]), App.Vector(tray_x, tray_stowed_y, tray_z)), 88)
+        # 12 mm slide packaging gaps and 470x400x230 PC service envelope.
+        slide_gap = float(pc["slide_packaging_thickness_each_side_mm"])
+        slide_h = 45.0
+        left_slide_x = tray_x - slide_gap
+        right_slide_x = tray_x + tray_w
+        slide_y = float(pc["subrail_y_mm"])
+        slide_l = float(pc["preferred_slide_class_mm"])
+        slide_z = tray_z - 15.0
+        add_shape(doc, group, "PCSlideLeftKeepoutV20", "500 mm CLASS LOCKING SLIDE LEFT - HOLES TBD",
+                  Part.makeBox(slide_gap, slide_l, slide_h, App.Vector(left_slide_x, slide_y, slide_z)), 84)
+        add_shape(doc, group, "PCSlideRightKeepoutV20", "500 mm CLASS LOCKING SLIDE RIGHT - HOLES TBD",
+                  Part.makeBox(slide_gap, slide_l, slide_h, App.Vector(right_slide_x, slide_y, slide_z)), 84)
+        add_shape(doc, group, "PCServiceEnvelopeV20", "PC SERVICE ENVELOPE 470x400x230 - STOWED",
+                  Part.makeBox(tray_w, tray_d, float(pc["service_envelope_height_mm"]), App.Vector(tray_x, tray_stowed_y, tray_z)), 88)
 
     # SSF exciter zones are sidewall-only keepouts; the drawer structure remains
     # inward and is not allowed to become a broad rigid bridge at those heights.
@@ -298,10 +302,11 @@ def main() -> None:
     group.MeasuredStockRule = "FINAL GROOVE/TAB WIDTHS FOLLOW MEASURED PLYWOOD + TOLERANCE COUPON"
     group.addProperty("App::PropertyString", "LegHoleStatus", "Engineering")
     group.LegHoleStatus = leg["exact_leg_holes_status"]
-    group.addProperty("App::PropertyString", "PCSlideHoleStatus", "Engineering")
-    group.PCSlideHoleStatus = pc["exact_slide_holes_status"]
-    group.addProperty("App::PropertyLength", "PCSlideTravel", "Engineering")
-    group.PCSlideTravel = float(pc["slide_travel_mm"])
+    if not active_only:
+        group.addProperty("App::PropertyString", "PCSlideHoleStatus", "Engineering")
+        group.PCSlideHoleStatus = pc["exact_slide_holes_status"]
+        group.addProperty("App::PropertyLength", "PCSlideTravel", "Engineering")
+        group.PCSlideTravel = float(pc["slide_travel_mm"])
     group.addProperty("App::PropertyString", "GlassOrderStatus", "Engineering")
     group.GlassOrderStatus = glass["purchase_status"]
     group.addProperty("App::PropertyString", "LockdownHoleStatus", "Engineering")
@@ -310,19 +315,22 @@ def main() -> None:
     group.Status = "ENGINEERING PACKAGING - NOT FOR CNC/METAL PRODUCTION"
 
     doc.recompute()
-    doc.save()
+    if owns_document:
+        doc.save()
 
     print("CABINET STRUCTURE v0.20 GENERATED")
     print("=" * 78)
     print(f"Body / inside width       {outer:.1f} / {inner:.1f} mm")
     print(f"Nominal dado depth        {dado:.1f} mm")
     print(f"Bottom blank nominal      {float(j['bottom_blank_width_mm']):.1f} x {float(j['bottom_blank_length_mm']):.1f} mm")
-    print(f"PC drawer travel          {float(pc['slide_travel_mm']):.1f} mm internal fore-aft")
+    if not active_only:
+        print(f"PC drawer travel          {float(pc['slide_travel_mm']):.1f} mm internal fore-aft")
     print(f"Glass target              {glass_w:.1f} x {glass_l:.1f} x {glass_t:.1f} mm")
     print("Leg/slide/receiver holes  BLOCKED PENDING PHYSICAL HARDWARE")
     print("STATUS                    ENGINEERING PACKAGING - NOT FOR PRODUCTION")
 
-    App.closeDocument(doc.Name)
+    if owns_document:
+        App.closeDocument(doc.Name)
 
 
 if __name__ == "__main__":
