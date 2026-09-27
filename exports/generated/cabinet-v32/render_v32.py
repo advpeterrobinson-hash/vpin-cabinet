@@ -29,7 +29,7 @@ fig,ax=plt.subplots(figsize=(8,11),facecolor='#f6f4ef');ax.set_facecolor('#f6f4e
 ax.add_patch(Rectangle((0,0),600,1308.1,facecolor='#e3d4b9',edgecolor='#67533a'))
 for i,y in enumerate((120,600,1080),1):
  ax.add_patch(Rectangle((20,y),560,150,facecolor='#268b83'))
- ax.text(300,y+75,f'S{i} · 560 × 150',ha='center',va='center',color='white',fontsize=13)
+ ax.text(300,y+(120 if i==1 else 75),f'S{i} · 560 × 150',ha='center',va='center',color='white',fontsize=13)
 ax.add_patch(Rectangle((157.5,830),285,460,fill=False,edgecolor='#414d60',lw=2,ls='--'))
 ax.add_patch(Rectangle((200,155),100,60,facecolor='#bc5471'));ax.text(310,185,'StarTech',color='white',fontsize=10)
 ax.add_patch(Circle((300,440),69.85,facecolor='#f6f4ef',edgecolor='#67533a'))

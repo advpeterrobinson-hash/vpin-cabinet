@@ -9,6 +9,8 @@
   "fans": 2,
   "bilingual_labels": true,
   "manufacturing_ready": false,
+  "metadata_verified_in_saved_fcstd": true,
+  "geometry_changes_from_baseline": [],
   "tests_not_performed": [
     "load analysis",
     "physical assembly",
