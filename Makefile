@@ -8,7 +8,9 @@ MASTER := cad/active/vpin-active.FCStd
 
 help:
 	@printf '%s\n' \
-	  'vpin-cabinet active engineering workflow' \
+	  'vpin-cabinet pre-V32 validated engineering workflow (transition)' \
+	  '  NOTE: these make targets validate/build the retained v25-v27 pipeline.' \
+	  '  Current owner-facing V32 review: docs/RENDERS.md and exports/generated/cabinet-v32/README.md' \
 	  '' \
 	  '  make doctor              Check local tools/files' \
 	  '  make validate            Validate the CURRENT design only' \
