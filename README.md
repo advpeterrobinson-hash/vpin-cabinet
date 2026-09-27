@@ -1,10 +1,24 @@
 # Virtual Pinball Cabinet
 
+**English** · [Português (Brasil)](README.pt-BR.md)
+
 > **Current design review: V32 — physical sessions remain PAUSED and CNC/manufacturing is NOT released.** The architecture direction is consolidated for owner review, but final fixings, measured hardware interfaces, structural/load validation, thermal validation, stock/tooling allowances and proof tests remain open.
 
 Parametric CNC-ready virtual pinball cabinet based on Williams WPC visual proportions, with deliberate future-proofing for replaceable electronics.
 
-**Atalhos / Quick links:** [🖼️ Renderizações / Renders](docs/RENDERS.md) · [🏷️ Códigos de peças / Part codes](docs/PART_CODES.md) · [🧩 Proposta de encaixe CNC / CNC joinery proposal](docs/CABINET_JOINERY_PROPOSAL.md) · [📦 Pacote V32](exports/generated/cabinet-v32/README.md)
+## New here?
+
+You should be able to decide quickly whether you want to contribute, review, build later, or simply follow the project.
+
+1. **[View the current renders](docs/RENDERS.md)** — fastest visual overview.
+2. **[Read the documentation index](docs/README.md)** — current vs historical material.
+3. **[Open the V32 technical review](exports/generated/cabinet-v32/README.md)** — geometry, dimensions, files and unresolved gates.
+4. **[Learn the permanent part codes](docs/PART_CODES.md)** — stable identities such as T1/T2/T3 and S1/S2/S3.
+5. **[Read how to contribute](CONTRIBUTING.md)** — design proposals, measurements, tests, fabrication feedback and documentation are all useful.
+
+Watching the repository without contributing is also welcome; the render page and current-review package are intended to make progress easy to follow.
+
+**Quick links:** [Renders](docs/RENDERS.md) · [Documentation](docs/README.md) · [Part codes](docs/PART_CODES.md) · [Current joinery proposal](docs/CABINET_JOINERY_PROPOSAL.md) · [V32 package](exports/generated/cabinet-v32/README.md) · [Repository cleanup plan](docs/REPOSITORY_CLEANUP.md)
 
 ## Current V32 review
 
