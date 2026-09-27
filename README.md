@@ -1,7 +1,16 @@
 # Virtual Pinball Cabinet
 
-Parametric CNC-ready virtual pinball cabinet based on Williams WPC visual proportions, with deliberate future-proofing for replaceable electronics.
+## [OPEN THE CURRENT GALLERY →](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/docs/RENDERS.md)
 
+**[ABRIR A GALERIA EM PORTUGUÊS →](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/docs/pt-BR/RENDERS.md)** · [Português (Brasil)](README.pt-BR.md)
+
+Follow the current cabinet directly through the gallery. **V32 is the current visual/architectural review; CNC/manufacturing remains BLOCKED and physical sessions are paused.**
+
+[![Current V32 interior: S1/S2/S3 and low PCBase](https://raw.githubusercontent.com/advpeterrobinson-hash/vpin-cabinet/refs/heads/feat/cabinet-review-v32/exports/generated/cabinet-v32/01-interior.png)](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/docs/RENDERS.md)
+
+[Interior](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/01-interior.png) · [Crossmembers](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/02-travessas.png) · [Plan](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/03-planta.png) · [Rear](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/04-traseira.png) · [Guide detail](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/05-encaixe.png) · [Front](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/06-frente.png)
+
+Parametric virtual pinball cabinet inspired by Williams WPC proportions, designed toward a reproducible CNC flat-pack product with replaceable electronics.
 
 ## Open-source hardware
 
@@ -23,34 +32,18 @@ The official upstream project link is part of the project Notice and should rema
 
 **https://github.com/advpeterrobinson-hash/vpin-cabinet**
 
-## Active development branch
+## Current architecture
 
-The detailed current engineering work is presently maintained on `feat/active-build-cleanup-v25` pending the next integration into `main`. Contributors working on current CAD/manufacturing geometry should check that branch and its validation status rather than assuming every older dimension in `main` is current.
+The current review is maintained on [`feat/cabinet-review-v32`](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/README.md). [Open its technical package](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/README.md) for CAD, STEP, dimensions and unresolved gates. Older material on this branch remains engineering history; it must not override V32.
 
-
-## Primary design targets
-
-- Williams WPC-derived visual proportions rather than rigid historical dimensions
-- owner-approved 10–50 mm dimensional deviations where they materially improve long-term serviceability or replacement compatibility
-- 18 mm metric plywood construction (final production value = measured sheet thickness)
-- LG OLED42C5 initial playfield in a replaceable structural cradle
-- approximately 32-inch 1080p backglass in a future-proof modular backbox
-- hinged structural playfield cradle
-- dual gas struts
-- independent mechanical safety support
-- real pinball legs
-- retractable wheels for moving cabinet
-- full DOF / mechanical force feedback
-- SSF tactile audio
-- modular electronics and feedback mounting
-- slide-out ATX PC chassis on a replaceable drawer adapter
-- single mains power cord
-- independent Audio Only / Bluetooth mode
-- Full Pinball mode
-- external service USB ports
-- normally offline operation
-- CNC-first construction with minimal hand tools
-- FreeCAD parametric master model
+- 600 mm cabinet; nominal 18 mm plywood, ultimately sized from measured stock.
+- Model-agnostic 42/43-inch playfield envelope: 560 × 970 × 55 mm, maximum 12 kg.
+- S1/S2/S3 removable shelves, T1/T2/T3 crossmembers and replaceable guides.
+- Low open PC case on PCBase; no PC drawer in V32.
+- Two rear reference 120 mm exhaust fans.
+- Real pinball legs and external removable PinSkates-style mobility; no integrated wheels.
+- **Manual playfield lift with two captive prop rods and positive pins/keepers; no gas struts.** Both props must be engaged during raised service, and each must independently pass full-load retention proof. Final pivot/prop geometry and service sweeps remain to be engineered and validated for V32.
+- Modular DOF/SSF and lighting; single grounded mains input with touch-safe internal distribution.
 
 ## Longevity philosophy
 
@@ -60,46 +53,18 @@ Current examples:
 
 - backbox target widened to 780 mm to provide a 740 x 450 x 100 mm replaceable display envelope;
 - exact backglass model affects only the removable carrier/bezel, not the permanent shell;
-- main cabinet width is under review for a modest future-proof increase before CNC freeze;
+- main cabinet width is 600 mm with 564 mm nominal clear interior;
 - PC and electronics mounting use replaceable adapters/panels.
 
 See `docs/FUTURE_PROOFING.md`.
 
-## Engineering workflow
+## Review and validation
 
-The long-term source of truth is the documented design baseline plus the Python/FreeCAD generation and validation scripts. The binary `.FCStd` master is an engineering artifact, not the only record of design intent.
+V32 has 45 valid solids and no detected positive-volume intersections above 0.01 mm³ in its packaging review. These results do **not** certify strength, movement, hardware fit or manufacturing readiness.
 
-Useful local commands:
+The documented scripts and parameters remain the source of truth. On the V32 branch, `make review-v32` regenerates CAD and the gallery, checks saved solids and bilingual metadata, and rejects unexpected geometry changes against committed evidence.
 
-```bash
-make doctor
-make validate
-make open-master
-```
-
-`make validate` currently checks the documented dimensional baseline without requiring FreeCAD. FreeCAD geometry/collision checks will be added as the design matures.
-
-See:
-
-- `AGENTS.md` — engineering rules for humans and coding agents
-- `config/design.json` — machine-readable design baseline
-- `docs/DESIGN_DECISIONS.md` — decision log
-- `docs/FUTURE_PROOFING.md` — long-term replacement/service envelope policy
-- `docs/requirements.md` — system requirements
-- `docs/reference-baseline.md` — dimensions extracted from the reference model
-- `docs/vendors.md` — parts/services/vendor notes
-
-## Current validated geometry
-
-- Williams WPC cabinet profile is live-parametric.
-- Reference outer width: 558.80 mm; final main-cabinet width is now under future-proofing review.
-- Current nominal 18 mm plywood gives 522.80 mm inside width at the reference body width.
-- LG OLED42C5 cross-cabinet physical width: 540.0 mm.
-- Current OLED cavity including clearance: 542.0 mm.
-- Current nominal side pocket depth: 9.60 mm.
-- Current nominal remaining side skin: 8.40 mm.
-
-The OLED pocket is a clearance feature only; the OLED and gas-strut loads must be carried by an independent structural cradle. Before CNC freeze, the main-body width will be evaluated against a larger future 42-inch-class display service envelope and the consequences for glass, siderails, and lockdown-bar hardware.
+The older Make/build v25–v27 pipeline remains **PRE-V32**, with live dependencies retained until a validated replacement exists. It is not evidence that V32 is ready for manufacture. [Current local audit](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/docs/V32_LOCAL_AUDIT.md).
 
 ## Status
 
