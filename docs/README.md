@@ -26,11 +26,16 @@ Manufacturing/CNC release remains blocked. A render or valid CAD solid is not by
 - [Part codes](PART_CODES.md)
 - [Lower-cabinet joinery proposal](CABINET_JOINERY_PROPOSAL.md)
 - [Language policy](LANGUAGE_POLICY.md)
-- [Active engineering baseline](ACTIVE_ENGINEERING.md)
 - [Build phases](BUILD_PHASES.md)
 - [Structure build manual](STRUCTURE_BUILD_MANUAL.md)
 - [Requirements](requirements.md)
 - [Vendors / hardware notes](vendors.md)
+
+## Transition pipeline
+
+The root `Makefile` and [pre-V32 validated engineering pipeline](ACTIVE_ENGINEERING.md) still support v25–v27 validation/build evidence. They remain temporarily live dependencies during cleanup, but they are not current V32 architecture authority.
+
+The [pre-V32 BOM entry point](../bom/README.md) is retained for the same reason.
 
 ## Historical engineering
 
