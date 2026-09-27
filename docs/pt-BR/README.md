@@ -10,7 +10,7 @@ Você deve conseguir entender o projeto antes de ler o histórico de engenharia.
 2. **[Leia o pacote de revisão V32](../../exports/generated/cabinet-v32/README.md)** — geometria atual, dimensões, arquivos e bloqueios ainda abertos.
 3. **[Entenda os códigos permanentes de peças](PART_CODES.md)** — T1/T2/T3, S1/S2/S3 e outras identidades estáveis do projeto.
 4. **[Leia a proposta atual de encaixes](CABINET_JOINERY_PROPOSAL.md)** — juntas CNC autoindexadas propostas para o gabinete inferior; ainda não fazem parte da geometria V32.
-5. **[Como contribuir](../../CONTRIBUTING.md)** — como propor design, medição, teste, correção documental ou resultado de fabricação.
+5. **[Como contribuir](../../CONTRIBUTING.pt-BR.md)** — como propor design, medição, teste, correção documental ou resultado de fabricação.
 
 Se você ainda não quiser contribuir, acompanhar o repositório e as páginas de renderizações/revisão atual é uma forma válida de observar o desenvolvimento.
 
