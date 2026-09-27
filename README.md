@@ -4,9 +4,11 @@
 
 Parametric CNC-ready virtual pinball cabinet based on Williams WPC visual proportions, with deliberate future-proofing for replaceable electronics.
 
+**Atalhos / Quick links:** [🖼️ Renderizações / Renders](docs/RENDERS.md) · [🏷️ Códigos de peças / Part codes](docs/PART_CODES.md) · [🧩 Proposta de encaixe CNC / CNC joinery proposal](docs/CABINET_JOINERY_PROPOSAL.md) · [📦 Pacote V32](exports/generated/cabinet-v32/README.md)
+
 ## Current V32 review
 
-The current published review is on **`feat/cabinet-review-v32`** at commit **`804b549`**. It consolidates V29–V31 into a conventional 600 mm cabinet layout with three narrow transverse shelves, three removable upright crossmembers, replaceable guides, a low open-case PC base and dual 120 mm rear exhaust fans.
+The current published review is maintained on **`feat/cabinet-review-v32`**. It consolidates V29–V31 into a conventional 600 mm cabinet layout with three narrow transverse shelves, three removable upright crossmembers, replaceable guides, a low open-case PC base and dual 120 mm rear exhaust fans.
 
 **Validation snapshot:** 45 valid solids; no positive-volume intersection above 0.01 mm³. This validates CAD packaging/interference only — it is not structural certification or manufacturing approval.
 
