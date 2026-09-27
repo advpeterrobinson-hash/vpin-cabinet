@@ -1,77 +1,79 @@
-# Renderizações / Renders
+# Renders
 
-> **Página de acesso rápido às renderizações atuais do projeto.**  
-> Current owner-facing design review: **V32** on `feat/cabinet-review-v32`.  
-> **Não liberado para CNC / Not released for machining.**
+[English](RENDERS.md) · [Português (Brasil)](pt-BR/RENDERS.md)
 
-Esta página existe para que o estado visual do projeto seja encontrado sem navegar pela árvore de arquivos. As imagens abaixo representam a revisão atual publicada; o pacote técnico completo permanece em [`exports/generated/cabinet-v32/`](../exports/generated/cabinet-v32/README.md).
+> **Fast visual entry point to the current project state.**  
+> Current owner-facing review: **V32** on `feat/cabinet-review-v32`.  
+> **Not released for CNC or manufacturing.**
 
-## V32 — gabinete central / main cabinet
+This page lets a new contributor understand the current cabinet direction without browsing the repository tree first. The complete technical package remains in [`exports/generated/cabinet-v32/`](../exports/generated/cabinet-v32/README.md).
+
+## V32 — main cabinet
 
 ### R01 — Interior
 
-[![Interior V32](../exports/generated/cabinet-v32/01-interior.png)](../exports/generated/cabinet-v32/01-interior.png)
+[![V32 interior](../exports/generated/cabinet-v32/01-interior.png)](../exports/generated/cabinet-v32/01-interior.png)
 
-Mostra as prateleiras transversais, PC baixo e estrutura interna. Algumas paredes são ocultadas apenas para leitura visual.
+Shows the transverse shelves, low PC position and internal structure. Some panels are hidden only to improve visual readability.
 
-### R02 — Travessas / Crossmembers
+### R02 — Crossmembers
 
-[![Travessas V32](../exports/generated/cabinet-v32/02-travessas.png)](../exports/generated/cabinet-v32/02-travessas.png)
+[![V32 crossmembers](../exports/generated/cabinet-v32/02-travessas.png)](../exports/generated/cabinet-v32/02-travessas.png)
 
-Mostra T1, T2 e T3, suas guias substituíveis e o sistema de apoio do monitor.
+Shows T1, T2 and T3, their replaceable guides and the monitor-support arrangement.
 
-### R03 — Planta / Plan
+### R03 — Plan
 
-[![Planta V32](../exports/generated/cabinet-v32/03-planta.png)](../exports/generated/cabinet-v32/03-planta.png)
+[![V32 plan](../exports/generated/cabinet-v32/03-planta.png)](../exports/generated/cabinet-v32/03-planta.png)
 
-Mostra S1, S2 e S3 e os corredores de acesso à fiação.
+Shows S1, S2 and S3 and the wiring-access corridors.
 
-### R04 — Traseira / Rear
+### R04 — Rear
 
-[![Traseira V32](../exports/generated/cabinet-v32/04-traseira.png)](../exports/generated/cabinet-v32/04-traseira.png)
+[![V32 rear](../exports/generated/cabinet-v32/04-traseira.png)](../exports/generated/cabinet-v32/04-traseira.png)
 
-Porta de serviço traseira e dois ventiladores de referência de 120 mm.
+Rear service door and two reference 120 mm exhaust fans.
 
-### R05 — Guia substituível / Replaceable guide
+### R05 — Replaceable guide
 
-[![Guia V32](../exports/generated/cabinet-v32/05-encaixe.png)](../exports/generated/cabinet-v32/05-encaixe.png)
+[![V32 guide detail](../exports/generated/cabinet-v32/05-encaixe.png)](../exports/generated/cabinet-v32/05-encaixe.png)
 
-Detalhe do encaixe removível das travessas. A ranhura está na guia substituível, não na lateral estrutural.
+Detail of the removable crossmember interface. The groove is in the replaceable guide, not in the structural cabinet side.
 
-### R06 — Frente / Front
+### R06 — Front
 
-[![Frente V32](../exports/generated/cabinet-v32/06-frente.png)](../exports/generated/cabinet-v32/06-frente.png)
+[![V32 front](../exports/generated/cabinet-v32/06-frente.png)](../exports/generated/cabinet-v32/06-frente.png)
 
-Coin door, comandos frontais e reserva ainda provisória do plunger.
+Coin-door reference, front controls and the still-provisional plunger reserve.
 
-## Estado desta revisão
+## Current review status
 
-- V32 consolida V29–V31.
-- 45 sólidos válidos no modelo.
-- Nenhuma interseção de volume positivo acima de 0,01 mm³ na validação atual.
-- Isso valida embalagem/interferência CAD, **não** resistência estrutural.
-- Sessões físicas permanecem pausadas.
-- CNC/manufatura permanecem bloqueados.
+- V32 consolidates V29–V31.
+- 45 valid solids in the current model.
+- No positive-volume intersection above 0.01 mm³ in the current validation.
+- This validates CAD packaging/interference only; it does **not** validate structural strength.
+- Physical sessions remain paused.
+- CNC/manufacturing release remains blocked.
 
-## Identificação das peças
+## Part identity
 
-Os códigos permanentes e nomes provisórios são controlados em [`docs/PART_CODES.md`](PART_CODES.md).
+Permanent part codes and provisional names are controlled in [`PART_CODES.md`](PART_CODES.md).
 
-Regra visual:
+Visual rule:
 
-- `T1`, `S2`, `S1SupR` = identidade permanente já atribuída.
-- `**nome provisório**` = conceito ainda sem código permanente.
-- Um código nunca é reutilizado para outra função.
-- Mudanças posteriores preservam o código e acrescentam revisão quando necessário.
+- `T1`, `S2`, `S1SupR` = permanent identity already assigned.
+- `**provisional name**` = concept that does not yet have a permanent code.
+- A permanent code is never reused for another function.
+- Later geometry changes preserve the code and add a revision when necessary.
 
-## Arquivos técnicos
+## Technical files
 
-- [Pacote V32](../exports/generated/cabinet-v32/README.md)
-- [Lista de peças](../exports/generated/cabinet-v32/PECAS-PARTS.md)
+- [V32 technical package](../exports/generated/cabinet-v32/README.md)
+- [Parts list](../exports/generated/cabinet-v32/PECAS-PARTS.md)
 - [FreeCAD](../exports/generated/cabinet-v32/vpin-central-v32.FCStd)
 - [STEP](../exports/generated/cabinet-v32/vpin-central-v32.step)
-- [Validação](../exports/generated/cabinet-v32/validation.json)
+- [Validation](../exports/generated/cabinet-v32/validation.json)
 
-## Próxima atualização visual
+## Next visual update
 
-A próxima revisão deve incorporar, quando aprovada, a proposta de encaixe capturado CNC do gabinete inferior documentada em [`docs/CABINET_JOINERY_PROPOSAL.md`](CABINET_JOINERY_PROPOSAL.md). Até lá, nenhuma renderização deve sugerir que esses rasgos já fazem parte da geometria liberada.
+The next design iteration may incorporate the captured CNC joinery proposal documented in [`CABINET_JOINERY_PROPOSAL.md`](CABINET_JOINERY_PROPOSAL.md). Until accepted and validated, no render should imply that those grooves are part of released V32 geometry.
