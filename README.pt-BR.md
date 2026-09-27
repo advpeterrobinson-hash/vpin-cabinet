@@ -33,6 +33,20 @@ A revisão atual está no branch `feat/cabinet-review-v32`.
 
 Esses resultados validam empacotamento/interferência CAD, **não** resistência estrutural nem liberação para fabricação.
 
+## Onde uma contribuição é útil agora
+
+É possível ajudar sem assumir o projeto inteiro:
+
+- **CNC / encaixes:** revisar os encaixes capturados propostos, raios de fresa, coupons de tolerância e sequência de montagem.
+- **Projeto mecânico:** fixação/retenção das guias e apoios T1–T3, prateleiras, porta traseira, suporte/serviço do monitor e interfaces Williams.
+- **Medições / prototipagem:** padrões reais de ferragens, espessura da chapa, coupons, montagem a seco e observações de rigidez/carga.
+- **Térmica / empacotamento:** PC, grelhas, fios, envelopes PSU/CSD e análise de fluxo/folgas.
+- **FreeCAD / Python:** integrar V32/V33 em um pipeline limpo e validado que substitua o pipeline pré-V32 mantido em transição.
+- **Documentação:** revisão técnica em inglês, espelhos PT-BR, diagramas, montagem e verificação de links/consistência.
+
+Se nenhuma área combinar com seu tempo ou experiência, acompanhar a [página de renderizações](docs/pt-BR/RENDERS.md) já permite observar o andamento.
+
+
 ## Imagens
 
 | Interior | Travessas | Planta |
