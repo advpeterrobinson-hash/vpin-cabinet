@@ -1,5 +1,7 @@
 # Virtual Pinball Cabinet
 
+**[OPEN THE CURRENT GALLERY →](docs/RENDERS.md)** · [Galeria em português](docs/pt-BR/RENDERS.md)
+
 **English** · [Português (Brasil)](README.pt-BR.md)
 
 > **Current design review: V32 — physical sessions remain PAUSED and CNC/manufacturing is NOT released.** The architecture direction is consolidated for owner review, but final fixings, measured hardware interfaces, structural/load validation, thermal validation, stock/tooling allowances and proof tests remain open.

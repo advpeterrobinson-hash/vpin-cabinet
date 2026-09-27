@@ -1,5 +1,7 @@
 # Virtual Pinball Cabinet
 
+**[ABRIR A GALERIA ATUAL →](docs/pt-BR/RENDERS.md)** · [English gallery](docs/RENDERS.md)
+
 [English](README.md) · **Português (Brasil)**
 
 > **Revisão atual: V32 — sessões físicas PAUSADAS e CNC/fabricação NÃO liberados.**
