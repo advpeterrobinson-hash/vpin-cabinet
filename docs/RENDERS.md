@@ -8,6 +8,14 @@
 
 This page lets a new contributor understand the current cabinet direction without browsing the repository tree first. The complete technical package remains in [`exports/generated/cabinet-v32/`](../exports/generated/cabinet-v32/README.md).
 
+## Latest development — separate joinery proposal
+
+Three new views compare captured joints, an exploded shell and exact changes. **This is a separate proposal; the accepted V32 views below are unchanged.**
+
+**[Open the three-view study](JOINERY_STUDY_V32.md)**
+
+[![Separate proposal: exploded shell](../exports/generated/joinery-study-v32/02-exploded-shell.png)](JOINERY_STUDY_V32.md)
+
 ## V32 — main cabinet
 
 ### R01 — Interior

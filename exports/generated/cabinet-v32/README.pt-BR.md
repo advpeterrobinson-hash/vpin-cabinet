@@ -92,7 +92,7 @@ A proposta de encaixe CNC autoindexado do gabinete inferior está documentada se
 
 ## Arquivos
 
-- [FreeCAD](vpin-central-v32.FCStd) — arquivo de revisão publicado; o binário atual antecede a regeneração dos metadados somente em inglês.
+- [FreeCAD](vpin-central-v32.FCStd) — arquivo de revisão publicado; o binário salvo tem códigos de peças, labels em inglês e metadados NameEN/NamePTBR verificados.
 - [STEP](vpin-central-v32.step).
 - [Lista de peças](PECAS-PARTS.pt-BR.md).
 - [Fonte do CAD](build_v32.py).

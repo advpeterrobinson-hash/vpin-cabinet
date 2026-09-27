@@ -10,6 +10,7 @@ help:
 	@printf '%s\n' \
 	  'vpin-cabinet: current V32 review; retained pre-V32 transition tools' \
 	  '  make review-v32          Build, compare saved solids/metadata, render current V32' \
+	  '  make review-joinery      Review isolated captured-shell proposal; V32 unchanged' \
 	  '  NOTE: remaining targets below belong to the retained v25-v27 pipeline.' \
 	  '  Current owner-facing V32 review: docs/RENDERS.md and exports/generated/cabinet-v32/README.md' \
 	  '' \
@@ -133,3 +134,8 @@ validate-owner-execution:
 .PHONY: review-v32
 review-v32:
 	bash tools/run_v32_review.sh
+
+# Separate geometry proposal; never promotes itself to the accepted V32 architecture.
+.PHONY: review-joinery
+review-joinery:
+	bash tools/run_joinery_study.sh

@@ -1,0 +1,386 @@
+{
+  "status": "PROPOSAL_NOT_ADOPTED",
+  "manufacturing_ready": false,
+  "object_count": 45,
+  "checks": [
+    {
+      "check": "same 45 objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all valid single solids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "only five approved study interfaces changed",
+      "passed": true,
+      "detail": [
+        {
+          "id": "SIDE_L",
+          "part_code": "SideL",
+          "removed_mm3": 247331.89918309823,
+          "added_mm3": 0.0,
+          "before_bounds": [
+            0.0,
+            18.0,
+            0.0,
+            1308.1,
+            0.0,
+            596.9
+          ],
+          "after_bounds": [
+            0.0,
+            18.0,
+            0.0,
+            1308.1,
+            0.0,
+            596.9
+          ]
+        },
+        {
+          "id": "SIDE_R",
+          "part_code": "SideR",
+          "removed_mm3": 247331.89918309974,
+          "added_mm3": 0.0,
+          "before_bounds": [
+            582.0,
+            600.0,
+            0.0,
+            1308.1,
+            0.0,
+            596.9
+          ],
+          "after_bounds": [
+            582.0,
+            600.0,
+            0.0,
+            1308.1,
+            0.0,
+            596.9
+          ]
+        },
+        {
+          "id": "FRONT",
+          "part_code": "Front",
+          "removed_mm3": 0.0,
+          "added_mm3": 86410.8,
+          "before_bounds": [
+            18.0,
+            582.0,
+            0.0,
+            18.0,
+            0.0,
+            400.05
+          ],
+          "after_bounds": [
+            12.0,
+            588.0,
+            0.0,
+            18.0,
+            0.0,
+            400.05
+          ]
+        },
+        {
+          "id": "REAR",
+          "part_code": "Rear",
+          "removed_mm3": 0.0,
+          "added_mm3": 128930.39999999983,
+          "before_bounds": [
+            18.0,
+            582.0,
+            1290.1,
+            1308.1,
+            0.0,
+            596.9
+          ],
+          "after_bounds": [
+            12.0,
+            588.0,
+            1290.1,
+            1308.1,
+            0.0,
+            596.9
+          ]
+        },
+        {
+          "id": "FLOOR",
+          "part_code": "Floor",
+          "removed_mm3": 0.0,
+          "added_mm3": 274773.6000000005,
+          "before_bounds": [
+            18.0,
+            582.0,
+            18.0,
+            1290.1,
+            18.0,
+            36.0
+          ],
+          "after_bounds": [
+            12.0,
+            588.0,
+            18.0,
+            1290.1,
+            18.0,
+            36.0
+          ]
+        }
+      ]
+    },
+    {
+      "check": "identity and bilingual names retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "candidate revisions explicit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "remaining forty objects unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "side outer dimensions unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "left and right sides are mirror symmetric",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no positive-volume intersections above 0.01 mm3",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "SIDE_L retains full outer skin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_L actual Floor capture void exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_L actual Front capture void exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_L actual Rear capture void exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_R retains full outer skin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_R actual Floor capture void exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_R actual Front capture void exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_R actual Rear capture void exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minimum nominal residual is 12 mm",
+      "passed": true,
+      "detail": {
+        "SIDE_L": 12.000000000000004,
+        "SIDE_R": 11.999999999999886
+      }
+    },
+    {
+      "check": "FLOOR mating width 576 mm and original holes retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FRONT mating width 576 mm and original holes retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "REAR mating width 576 mm and original holes retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_L FLOOR has 6 mm edge engagement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_L FRONT has 6 mm edge engagement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_L REAR has 6 mm edge engagement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_R FLOOR has 6 mm edge engagement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_R FRONT has 6 mm edge engagement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SIDE_R REAR has 6 mm edge engagement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manufacturing and hardware gates remain blocked",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "changes": [
+    {
+      "id": "SIDE_L",
+      "part_code": "SideL",
+      "removed_mm3": 247331.89918309823,
+      "added_mm3": 0.0,
+      "before_bounds": [
+        0.0,
+        18.0,
+        0.0,
+        1308.1,
+        0.0,
+        596.9
+      ],
+      "after_bounds": [
+        0.0,
+        18.0,
+        0.0,
+        1308.1,
+        0.0,
+        596.9
+      ]
+    },
+    {
+      "id": "SIDE_R",
+      "part_code": "SideR",
+      "removed_mm3": 247331.89918309974,
+      "added_mm3": 0.0,
+      "before_bounds": [
+        582.0,
+        600.0,
+        0.0,
+        1308.1,
+        0.0,
+        596.9
+      ],
+      "after_bounds": [
+        582.0,
+        600.0,
+        0.0,
+        1308.1,
+        0.0,
+        596.9
+      ]
+    },
+    {
+      "id": "FRONT",
+      "part_code": "Front",
+      "removed_mm3": 0.0,
+      "added_mm3": 86410.8,
+      "before_bounds": [
+        18.0,
+        582.0,
+        0.0,
+        18.0,
+        0.0,
+        400.05
+      ],
+      "after_bounds": [
+        12.0,
+        588.0,
+        0.0,
+        18.0,
+        0.0,
+        400.05
+      ]
+    },
+    {
+      "id": "REAR",
+      "part_code": "Rear",
+      "removed_mm3": 0.0,
+      "added_mm3": 128930.39999999983,
+      "before_bounds": [
+        18.0,
+        582.0,
+        1290.1,
+        1308.1,
+        0.0,
+        596.9
+      ],
+      "after_bounds": [
+        12.0,
+        588.0,
+        1290.1,
+        1308.1,
+        0.0,
+        596.9
+      ]
+    },
+    {
+      "id": "FLOOR",
+      "part_code": "Floor",
+      "removed_mm3": 0.0,
+      "added_mm3": 274773.6000000005,
+      "before_bounds": [
+        18.0,
+        582.0,
+        18.0,
+        1290.1,
+        18.0,
+        36.0
+      ],
+      "after_bounds": [
+        12.0,
+        588.0,
+        18.0,
+        1290.1,
+        18.0,
+        36.0
+      ]
+    }
+  ],
+  "collisions": [],
+  "residual_skin_mm": {
+    "SIDE_L": 12.000000000000004,
+    "SIDE_R": 11.999999999999886
+  },
+  "unresolved": [
+    "Measured leg/bracket and backbox hinge load zones: NOT VERIFIED",
+    "Actual stock thickness and coupon fit",
+    "Cutter-radius/entry/end relief at rabbet-groove junctions",
+    "Fastener pattern, glue and structural proof",
+    "Physical dry-fit sequence"
+  ],
+  "baseline": "Committed V32; copied into .work/joinery-study/v32-baseline.FCStd"
+}

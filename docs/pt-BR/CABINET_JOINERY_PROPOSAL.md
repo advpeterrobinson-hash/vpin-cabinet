@@ -134,3 +134,5 @@ Na próxima iteração CAD:
 - comparar a geometria proposta contra a V32 quanto a colisões, seção residual e zonas de ferragens.
 
 Até esses itens passarem, este documento permanece uma proposta e a V32 publicada continua sendo a referência visual atual.
+
+Um [experimento CAD separado com sólidos salvos](JOINERY_STUDY_V32.md) agora ilustra esta proposta. Ele não incorpora os encaixes à V32.

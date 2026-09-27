@@ -92,7 +92,7 @@ The proposed self-indexing lower-cabinet CNC joinery is documented separately an
 
 ## Files
 
-- [FreeCAD](vpin-central-v32.FCStd) — published review file; current binary predates the English-only metadata regeneration.
+- [FreeCAD](vpin-central-v32.FCStd) — published review file; saved binary has verified part codes, English labels and NameEN/NamePTBR metadata.
 - [STEP](vpin-central-v32.step) — physical parts and generic hardware envelopes; display, PC body, audio body and reserved zones omitted.
 - [Parts list](PECAS-PARTS.md).
 - [CAD source](build_v32.py) — run with FreeCAD; writes outputs to this directory.

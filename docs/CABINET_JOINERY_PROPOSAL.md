@@ -134,3 +134,5 @@ For the next CAD iteration:
 - compare the proposed geometry against V32 for collisions, residual section and hardware keepouts.
 
 Until those checks pass, this document remains a proposal and published V32 remains the current visual reference.
+
+A separate [saved-solid CAD experiment](JOINERY_STUDY_V32.md) now illustrates this proposal. It does not adopt the joints into V32.

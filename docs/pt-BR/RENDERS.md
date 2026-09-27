@@ -8,6 +8,14 @@
 
 Esta página permite que um novo colaborador entenda rapidamente a direção atual do gabinete sem primeiro navegar por toda a árvore do repositório. O pacote técnico completo permanece em [`exports/generated/cabinet-v32/`](../../exports/generated/cabinet-v32/README.md).
 
+## Último desenvolvimento — proposta separada de encaixes
+
+Três novas vistas mostram cortes dos encaixes, caixa explodida e alterações exatas. **É uma proposta separada; as vistas V32 aceitas abaixo permanecem iguais.**
+
+**[Abrir estudo com três vistas](JOINERY_STUDY_V32.md)**
+
+[![Proposta separada: caixa explodida](../../exports/generated/joinery-study-v32/02-exploded-shell.png)](JOINERY_STUDY_V32.md)
+
 ## V32 — gabinete central
 
 ### R01 — Interior

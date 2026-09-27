@@ -1,0 +1,12 @@
+{
+  "status": "PROPOSAL_NOT_ADOPTED",
+  "manufacturing_ready": false,
+  "nominal_stock_mm": 18.0,
+  "capture_depth_mm": 6.0,
+  "total_fit_clearance_mm": 0.2,
+  "minimum_residual_skin_mm": 12.0,
+  "changed_parts": ["SIDE_L", "SIDE_R", "FRONT", "REAR", "FLOOR"],
+  "preserve_floor_cleats": true,
+  "hardware_keepout_status": "BLOCKED_UNMEASURED",
+  "cutter_radius_status": "BLOCKED_COUPON_AND_TOOL_REQUIRED"
+}
