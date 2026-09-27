@@ -1,8 +1,28 @@
 # Virtual Pinball Cabinet
 
-> **Owner hold — physical sessions PAUSED.** Do not execute the v27 measurement checklist or proof tests. Architecture convergence is in progress; see [v28 simplification audit](docs/DESIGN_SIMPLIFICATION_AUDIT_V28.md) and [execution status](bom/PHYSICAL_EXECUTION_STATE_V28.json). Manufacturing remains blocked.
+> **Current design review: V32 — physical sessions remain PAUSED and CNC/manufacturing is NOT released.** The architecture direction is consolidated for owner review, but final fixings, measured hardware interfaces, structural/load validation, thermal validation, stock/tooling allowances and proof tests remain open.
 
 Parametric CNC-ready virtual pinball cabinet based on Williams WPC visual proportions, with deliberate future-proofing for replaceable electronics.
+
+## Current V32 review
+
+The current published review is on **`feat/cabinet-review-v32`** at commit **`804b549`**. It consolidates V29–V31 into a conventional 600 mm cabinet layout with three narrow transverse shelves, three removable upright crossmembers, replaceable guides, a low open-case PC base and dual 120 mm rear exhaust fans.
+
+**Validation snapshot:** 45 valid solids; no positive-volume intersection above 0.01 mm³. This validates CAD packaging/interference only — it is not structural certification or manufacturing approval.
+
+Full bilingual review, dimensions, remaining blockers and downloadable CAD/STEP files: **[V32 review package](exports/generated/cabinet-v32/README.md)**.
+
+### V32 visual review
+
+| Interior | Crossmembers | Plan |
+|---|---|---|
+| [![V32 interior](exports/generated/cabinet-v32/01-interior.png)](exports/generated/cabinet-v32/01-interior.png) | [![V32 crossmembers](exports/generated/cabinet-v32/02-travessas.png)](exports/generated/cabinet-v32/02-travessas.png) | [![V32 plan](exports/generated/cabinet-v32/03-planta.png)](exports/generated/cabinet-v32/03-planta.png) |
+
+| Rear | Replaceable guide | Front |
+|---|---|---|
+| [![V32 rear](exports/generated/cabinet-v32/04-traseira.png)](exports/generated/cabinet-v32/04-traseira.png) | [![V32 guide detail](exports/generated/cabinet-v32/05-encaixe.png)](exports/generated/cabinet-v32/05-encaixe.png) | [![V32 front](exports/generated/cabinet-v32/06-frente.png)](exports/generated/cabinet-v32/06-frente.png) |
+
+The previous V27/V28 validation material remains preserved as engineering history and evidence. It must not be read as a manufacturing release for V32.
 
 
 ## Open-source hardware
@@ -27,7 +47,7 @@ The official upstream project link is part of the project Notice and should rema
 
 ## Active development branch
 
-The detailed current engineering work is presently maintained on `feat/active-build-cleanup-v25` pending the next integration into `main`. Contributors working on current CAD/manufacturing geometry should check that branch and its validation status rather than assuming every older dimension in `main` is current.
+The latest owner-facing design review is maintained on **`feat/cabinet-review-v32`**. The default `main` branch remains intentionally unchanged while V32 is reviewed. Contributors should use the V32 package above for the current cabinet concept and treat older V25–V28 material as historical engineering context unless explicitly referenced by the V32 review.
 
 
 ## Current product goal
@@ -129,13 +149,13 @@ The playfield display is carried by its independent cradle. Both captive prop ro
 
 ## Status
 
-Engineering / parametric-CAD development.
+**V32 design review published; manufacturing remains blocked.**
 
-No CNC files are approved for manufacturing yet. CNC release remains blocked on measured stock, the physical tolerance coupon, Cutter CNC conventions, hardware freeze, local FreeCAD geometry validation, dry fit and proof testing.
+The V32 package contains the current owner-facing CAD, STEP export, six review images, bilingual parts list, source scripts and validation output. The architecture direction is defined, but machining is not released.
 
-Review outputs: `exports/generated/review/index.html`; FreeCAD presets: `tools/active_review.FCMacro`. Build tools: Python, FreeCADCmd, uv (matplotlib preview environment). See [audit evidence and unresolved engineering](docs/TAKEOVER_AUDIT_2026-09-16.md).
+Open items include complete fastening/retention details, monitor service hardware and loaded support validation, Williams leg and backbox hardware patterns, final plunger/electrical/RJ45/fan/subwoofer openings, PSU/CSD/cable/thermal envelopes, final joinery/glass/lockdown interfaces, measured stock thickness, cutter radii, machining allowances and sheet layout.
 
-Owner selected [two localized rear-face interfaces](docs/REAR_UTILITY_V26.md): mains/master disconnect and optional Ethernet or blank. CPU door stays low. Generic apertures are modeled; hardware measurements and CNC release remain blocked.
+Current review package: [`exports/generated/cabinet-v32/README.md`](exports/generated/cabinet-v32/README.md). Historical V27/V28 validation and simplification evidence remains available under `docs/` and `bom/` for traceability.
 
 ## Contributing
 
