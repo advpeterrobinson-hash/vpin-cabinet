@@ -1,0 +1,15 @@
+{
+  "title": "The New Pinscape Build Guide",
+  "author": "Michael J. Roberts",
+  "edition": "2.1.0",
+  "edition_date": "2023-10-31",
+  "review_date": "2026-09-27",
+  "source_url": "https://head.pinscape-build-guide.pages.dev/",
+  "source_type": "owner-supplied MHTML snapshot",
+  "bytes": 5149445,
+  "sha256": "5dc7fbed28a5a5d32c4d804d83075d52fd69ed1fd5b2d89e284b65bcc93e3d64",
+  "book_license": "CC-BY-SA-4.0 (declared in supplied book)",
+  "assets_imported": false,
+  "scope": "Selected engineering chapters compared with V32; not a full technical verification of the book",
+  "manufacturing_status": "BLOCKED"
+}

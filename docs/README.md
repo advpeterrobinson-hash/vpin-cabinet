@@ -34,6 +34,8 @@ Manufacturing/CNC release remains blocked. A render or valid CAD solid is not by
 - [Vendors / hardware notes](vendors.md)
 - [PinSim external reference assessment](PINSIM_REFERENCE_REVIEW.md)
 
+- [Pinscape guide: applications to V32](PINSCAPE_ACCELERATION_REVIEW.md)
+
 ## Transition pipeline
 
 The root `Makefile` and [pre-V32 validated engineering pipeline](ACTIVE_ENGINEERING.md) still support v25–v27 validation/build evidence. They remain temporarily live dependencies during cleanup, but they are not current V32 architecture authority.
