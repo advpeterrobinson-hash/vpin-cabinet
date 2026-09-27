@@ -8,16 +8,17 @@ MASTER := cad/active/vpin-active.FCStd
 
 help:
 	@printf '%s\n' \
-	  'vpin-cabinet pre-V32 validated engineering workflow (transition)' \
-	  '  NOTE: these make targets validate/build the retained v25-v27 pipeline.' \
+	  'vpin-cabinet: current V32 review; retained pre-V32 transition tools' \
+	  '  make review-v32          Build, compare saved solids/metadata, render current V32' \
+	  '  NOTE: remaining targets below belong to the retained v25-v27 pipeline.' \
 	  '  Current owner-facing V32 review: docs/RENDERS.md and exports/generated/cabinet-v32/README.md' \
 	  '' \
 	  '  make doctor              Check local tools/files' \
-	  '  make validate            Validate the CURRENT design only' \
-	  '  make build-current       Build and present the current FreeCAD master' \
+	  '  make validate            Validate retained PRE-V32 baseline' \
+	  '  make build-current       Build retained PRE-V32 FreeCAD master' \
 	  '  make cnc-detail          Build joint preview, measurement ledgers and review' \
 	  '  make repair-rear-cpu     Rebuild fresh active source and verify saved geometry' \
-	  '  make open-master         Open the current FreeCAD master' \
+	  '  make open-master         Open retained PRE-V32 FreeCAD master' \
 	  '  make generate-cnc-coupon Generate the nominal CNC fit coupon' \
 	  '  make status              Show concise Git state' \
 	  '' \
@@ -127,3 +128,8 @@ owner-checklist:
 
 validate-owner-execution:
 	$(PYTHON) tools/validate_owner_execution_v27.py
+
+# Current owner-facing architecture review; packaging checks only, not CNC release.
+.PHONY: review-v32
+review-v32:
+	bash tools/run_v32_review.sh

@@ -140,20 +140,15 @@ All geometry-controlling purchased parts are tracked in `bom/HARDWARE_FREEZE_V25
 
 A production release is blocked until every `MEASURE_BEFORE_CNC` item that controls permanent wood/metal geometry is frozen and the prototype dry-fit/proof tests pass.
 
-## Active local workflow
+## Current local review workflow
 
 ```bash
-make doctor
-make validate
-make build-current
-make open-master
+make review-v32
 ```
 
-`make build-current` generates a fresh active document from configs/builders, then reopens it for solid and service-clearance checks. It never reads or edits the historical working master.
+This regenerates V32, reopens the FCStd to check 45 valid solids, intersections and bilingual metadata, compares every solid with the committed geometry, then regenerates six English previews. An unexpected geometry change stops the route for review. See [local validation and cleanup](docs/V32_LOCAL_AUDIT.md).
 
-Start with [the active engineering baseline](docs/ACTIVE_ENGINEERING.md), [part decisions](bom/ACTIVE_PARTS.csv), and [hardware gates](bom/HARDWARE_FREEZE_V25.csv).
-
-Historical experiments remain available through Git history but are not part of the normal workflow.
+`make doctor`, `make validate`, `make build-current` and `make open-master` remain **PRE-V32 transition tools**. They do not validate the V32 architecture and are preserved until replacement coverage is validated. Their current known failures are documented in the audit. The old [engineering baseline](docs/ACTIVE_ENGINEERING.md), [part register](bom/ACTIVE_PARTS.csv) and [hardware gates](bom/HARDWARE_FREEZE_V25.csv) retain engineering evidence.
 
 ## Structure-first procurement
 

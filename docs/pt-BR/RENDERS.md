@@ -77,3 +77,7 @@ Regra visual:
 ## Próxima atualização visual
 
 A próxima iteração poderá incorporar a proposta de encaixe capturado CNC documentada em [`CABINET_JOINERY_PROPOSAL.md`](CABINET_JOINERY_PROPOSAL.md). Até que ela seja aceita e validada, nenhuma renderização deve sugerir que esses rasgos fazem parte da geometria V32 liberada.
+
+## Reproduzir a revisão atual
+
+Execute `make review-v32`. A geometria é comparada com a evidência V32 do commit antes de aceitar os renders. Consulte a [validação local](V32_LOCAL_AUDIT.md). Fabricação continua bloqueada.

@@ -77,3 +77,7 @@ Visual rule:
 ## Next visual update
 
 The next design iteration may incorporate the captured CNC joinery proposal documented in [`CABINET_JOINERY_PROPOSAL.md`](CABINET_JOINERY_PROPOSAL.md). Until accepted and validated, no render should imply that those grooves are part of released V32 geometry.
+
+## Reproduce the current review
+
+Run `make review-v32`. Geometry is compared with committed V32 evidence before renders are accepted. See [local validation](V32_LOCAL_AUDIT.md). Manufacturing remains blocked.

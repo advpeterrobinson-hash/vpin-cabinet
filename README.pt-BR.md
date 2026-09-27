@@ -66,3 +66,9 @@ Veja [docs/pt-BR/LANGUAGE_POLICY.md](docs/pt-BR/LANGUAGE_POLICY.md).
 ## Licença
 
 Projeto open hardware sob **CERN-OHL-S-2.0**. O texto da licença e os avisos oficiais permanecem canônicos no repositório.
+
+## Revisão local atual
+
+Execute `make review-v32` para regenerar V32, verificar os 45 sólidos salvos e metadados bilíngues, comparar a geometria com o commit e gerar seis imagens em inglês. Uma mudança geométrica inesperada interrompe a rota para revisão. Consulte a [auditoria local](docs/pt-BR/V32_LOCAL_AUDIT.md).
+
+`make doctor`, `make validate`, `make build-current` e `make open-master` continuam sendo ferramentas **PRE-V32**. Suas falhas conhecidas estão documentadas; não comprovam validação de V32.
