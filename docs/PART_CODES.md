@@ -1,98 +1,97 @@
-# Sistema de códigos permanentes de peças / Permanent part-code system
+# Permanent part-code system
 
-## Objetivo
+[English](PART_CODES.md) · [Português (Brasil)](pt-BR/PART_CODES.md)
 
-O projeto passa a usar uma identidade curta e estável por peça para reduzir ambiguidade entre CAD, renderizações, BOM, montagem e discussão.
+## Purpose
 
-Um código representa **a função daquela peça**, não apenas um nome temporário de arquivo.
+The project uses a short, stable identity for each accepted part to reduce ambiguity across CAD, renders, BOMs, assembly instructions and design discussions.
 
-### Regra principal
+A code represents **the function of the part**, not merely a temporary filename.
 
-1. Enquanto uma peça/conceito ainda estiver em avaliação, o nome aparece em Markdown entre dois asteriscos, por exemplo: `**suporte provisório do fan**`.
-2. Quando a proposta daquela peça for aceita como parte da arquitetura, ela recebe um código permanente.
-3. O código **não é reutilizado** para outra função mesmo se a peça for retirada posteriormente.
-4. Alterações de geometria que preservem a mesma função mantêm o código e avançam a revisão: `T1-R2`, `T1-R3`.
-5. Uma mudança que crie outra função recebe novo código.
-6. Códigos devem aparecer em CAD, BOM, desenhos, documentação e, quando legível, nas renderizações futuras.
+## Core rules
 
-## Convenção
+1. While a part or concept is still under evaluation, documentation shows its name in bold, for example **provisional fan bracket**.
+2. Once that part proposal is accepted into the architecture, it receives a permanent code.
+3. A permanent code is **never reused** for another function, even if the original part is later retired.
+4. Geometry changes that preserve the function keep the same code and advance the revision, for example `T1-R2`, `T1-R3`.
+5. A different function receives a different code.
+6. Codes should appear in CAD, BOMs, drawings, documentation and, where legible, future renders.
 
-A convenção favorece leitura humana, conforme direção do proprietário:
+## Convention
 
-- `T#` — travessa estrutural / crossmember.
-- `S#` — prateleira / shelf.
-- `S#SupL`, `S#SupR` — suporte esquerdo/direito da prateleira.
-- `T#GuideL`, `T#GuideR` — guia substituível esquerda/direita da travessa.
-- `T#SupL`, `T#SupR` — apoio/cantoneira esquerda/direita da travessa.
-- `MonRailL`, `MonRailR`, `MonBridge` — peças do suporte principal do monitor.
-- `SideL`, `SideR`, `Front`, `Rear`, `Floor` — painéis principais do gabinete.
-- `RearDoor` — porta traseira de serviço.
-- `PCBase` — base inferior do PC.
-- `BBBase` — base/apoio do backbox.
+- `T#` — structural crossmember.
+- `S#` — shelf.
+- `S#SupL`, `S#SupR` — left/right shelf support.
+- `T#GuideL`, `T#GuideR` — left/right replaceable crossmember guide.
+- `T#SupL`, `T#SupR` — left/right crossmember support/bracket once finalized.
+- `MonRailL`, `MonRailR`, `MonBridge` — primary monitor-support parts.
+- `SideL`, `SideR`, `Front`, `Rear`, `Floor` — main cabinet panels.
+- `RearDoor` — rear service door.
+- `PCBase` — lower PC base.
+- `BBBase` — backbox base/support.
 
-`L` e `R` são definidos olhando o gabinete pela frente, salvo documentação específica em contrário.
+`L` and `R` are defined while looking at the cabinet from the front unless a document explicitly states otherwise.
 
-## Registro V32
+## V32 registry
 
-| Código permanente | ID legado V32 | Função | Estado |
+| Permanent code | V32 legacy ID | Function | Status |
 |---|---|---|---|
-| SideL | SIDE_L | lateral esquerda | arquitetura aceita; detalhes de furação ainda bloqueados |
-| SideR | SIDE_R | lateral direita | arquitetura aceita; detalhes de furação ainda bloqueados |
-| Front | FRONT | painel frontal | arquitetura aceita; alguns recortes ainda pendentes |
-| Rear | REAR | painel traseiro | arquitetura aceita; interfaces específicas pendentes |
-| RearDoor | REAR_DOOR | porta traseira de serviço | arquitetura aceita; ferragens pendentes |
-| Floor | FLOOR | piso | arquitetura aceita; recortes finais pendentes |
-| S1 | SHELF_1 | prateleira transversal dianteira | aceita na arquitetura V32 |
-| S1SupL | SHELF_SUPPORT_1L | apoio esquerdo de S1 | aceita na arquitetura V32; fixação pendente |
-| S1SupR | SHELF_SUPPORT_1R | apoio direito de S1 | aceita na arquitetura V32; fixação pendente |
-| S2 | SHELF_2 | prateleira transversal central | aceita na arquitetura V32 |
-| S2SupL | SHELF_SUPPORT_2L | apoio esquerdo de S2 | aceita na arquitetura V32; fixação pendente |
-| S2SupR | SHELF_SUPPORT_2R | apoio direito de S2 | aceita na arquitetura V32; fixação pendente |
-| S3 | SHELF_3 | prateleira transversal traseira | aceita na arquitetura V32 |
-| S3SupL | SHELF_SUPPORT_3L | apoio esquerdo de S3 | aceita na arquitetura V32; fixação pendente |
-| S3SupR | SHELF_SUPPORT_3R | apoio direito de S3 | aceita na arquitetura V32; fixação pendente |
-| T1 | CROSS_1 | travessa vertical dianteira | aceita na arquitetura V32 |
-| T1GuideL | CROSS_GUIDE_1L | guia substituível esquerda de T1 | aceita como conceito; ferragens pendentes |
-| T1GuideR | CROSS_GUIDE_1R | guia substituível direita de T1 | aceita como conceito; ferragens pendentes |
-| T2 | CROSS_2 | travessa vertical central | aceita na arquitetura V32 |
-| T2GuideL | CROSS_GUIDE_2L | guia substituível esquerda de T2 | aceita como conceito; ferragens pendentes |
-| T2GuideR | CROSS_GUIDE_2R | guia substituível direita de T2 | aceita como conceito; ferragens pendentes |
-| T3 | CROSS_3 | travessa vertical traseira | aceita na arquitetura V32 |
-| T3GuideL | CROSS_GUIDE_3L | guia substituível esquerda de T3 | aceita como conceito; ferragens pendentes |
-| T3GuideR | CROSS_GUIDE_3R | guia substituível direita de T3 | aceita como conceito; ferragens pendentes |
-| MonRailL | MONITOR_RAIL_L | régua esquerda do monitor | arquitetura aceita; fixação final pendente |
-| MonRailR | MONITOR_RAIL_R | régua direita do monitor | arquitetura aceita; fixação final pendente |
-| MonBridge | MONITOR_BRIDGE | ponte/placa VESA substituível | função aceita; furos do display pendentes |
-| PCBase | PC_BASE | base inferior do PC | arquitetura aceita |
-| BBBase | BACKBOX_BASE | apoio/base do backbox | função aceita; ferragens Williams pendentes |
+| SideL | SIDE_L | left cabinet side | architecture accepted; final hole details still blocked |
+| SideR | SIDE_R | right cabinet side | architecture accepted; final hole details still blocked |
+| Front | FRONT | front panel | architecture accepted; some cutouts still pending |
+| Rear | REAR | rear panel | architecture accepted; component interfaces pending |
+| RearDoor | REAR_DOOR | rear service door | architecture accepted; hardware pending |
+| Floor | FLOOR | bottom panel | architecture accepted; final cutouts pending |
+| S1 | SHELF_1 | front transverse shelf | accepted in V32 architecture |
+| S1SupL | SHELF_SUPPORT_1L | S1 left support | accepted; fastening pending |
+| S1SupR | SHELF_SUPPORT_1R | S1 right support | accepted; fastening pending |
+| S2 | SHELF_2 | center transverse shelf | accepted in V32 architecture |
+| S2SupL | SHELF_SUPPORT_2L | S2 left support | accepted; fastening pending |
+| S2SupR | SHELF_SUPPORT_2R | S2 right support | accepted; fastening pending |
+| S3 | SHELF_3 | rear transverse shelf | accepted in V32 architecture |
+| S3SupL | SHELF_SUPPORT_3L | S3 left support | accepted; fastening pending |
+| S3SupR | SHELF_SUPPORT_3R | S3 right support | accepted; fastening pending |
+| T1 | CROSS_1 | front upright crossmember | accepted in V32 architecture |
+| T1GuideL | CROSS_GUIDE_1L | T1 left replaceable guide | concept accepted; hardware pending |
+| T1GuideR | CROSS_GUIDE_1R | T1 right replaceable guide | concept accepted; hardware pending |
+| T2 | CROSS_2 | center upright crossmember | accepted in V32 architecture |
+| T2GuideL | CROSS_GUIDE_2L | T2 left replaceable guide | concept accepted; hardware pending |
+| T2GuideR | CROSS_GUIDE_2R | T2 right replaceable guide | concept accepted; hardware pending |
+| T3 | CROSS_3 | rear upright crossmember | accepted in V32 architecture |
+| T3GuideL | CROSS_GUIDE_3L | T3 left replaceable guide | concept accepted; hardware pending |
+| T3GuideR | CROSS_GUIDE_3R | T3 right replaceable guide | concept accepted; hardware pending |
+| MonRailL | MONITOR_RAIL_L | left monitor rail | architecture accepted; final fastening pending |
+| MonRailR | MONITOR_RAIL_R | right monitor rail | architecture accepted; final fastening pending |
+| MonBridge | MONITOR_BRIDGE | replaceable VESA bridge | function accepted; display holes pending |
+| PCBase | PC_BASE | lower PC base | architecture accepted |
+| BBBase | BACKBOX_BASE | backbox base/support | function accepted; Williams hardware pending |
 
-## Nomes ainda provisórios
+## Provisional names
 
-Os itens abaixo permanecem sem código permanente deliberadamente:
+The following intentionally remain without a permanent code:
 
-- **cantoneira/apoio metálico ajustável de T1 esquerda/direita**
-- **cantoneira/apoio metálico ajustável de T2 esquerda/direita**
-- **cantoneira/apoio metálico ajustável de T3 esquerda/direita**
-- **ventilador traseiro esquerdo**
-- **ventilador traseiro direito**
-- **suporte removível da StarTech ICUSBAUDIO7D**
-- **plunger Arnoz e respectivo suporte**
-- **entrada de rede/RJ45 definitiva**
-- **entrada elétrica/master disconnect definitiva**
-- **subwoofer definitivo**
-- **grelhas dos ventiladores**
-- **chicote removível da porta traseira**
+- **T1 adjustable left/right metal support**
+- **T2 adjustable left/right metal support**
+- **T3 adjustable left/right metal support**
+- **left rear fan**
+- **right rear fan**
+- **removable StarTech ICUSBAUDIO7D mount**
+- **Arnoz plunger and its mount**
+- **final RJ45/network interface**
+- **final mains/master-disconnect interface**
+- **final subwoofer**
+- **fan guards**
+- **detachable rear-door harness**
 
-Os IDs legados `CROSS_BRACKET_*`, `FAN_*` e envelopes reservados continuam existindo no V32 para rastreabilidade, mas não devem ser interpretados como código permanente.
+Legacy IDs such as `CROSS_BRACKET_*`, `FAN_*` and reserved envelopes remain in V32 for traceability but are not permanent part codes.
 
-## Migração CAD
+## CAD migration
 
-O V32 publicado preserva IDs internos legados para não quebrar o arquivo FreeCAD/STEP já gerado. Na próxima regeneração do CAD:
+The published V32 keeps legacy internal IDs so the existing FreeCAD/STEP files remain traceable. The generator now carries permanent identity metadata for future regeneration:
 
-- adicionar propriedade `PartCode` aos objetos;
-- mostrar o código permanente no Label bilíngue;
-- preservar o ID legado como `LegacyId`;
-- não renomear silenciosamente um código já atribuído;
-- gerar automaticamente esta relação no BOM/manifesto.
+- `PartCode` stores the permanent code when assigned;
+- `LegacyId` preserves the former internal ID;
+- `PartStatus` identifies permanent vs provisional identity;
+- future BOM/manifest generation should derive identity from the same source map.
 
-Isso permite migrar sem invalidar referências históricas.
+This prevents silent renaming and preserves historical references.
