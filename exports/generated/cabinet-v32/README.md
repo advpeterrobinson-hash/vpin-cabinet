@@ -6,6 +6,14 @@ Esta revisão consolida a direção do proprietário: gabinete convencional, tr�
 
 This revision consolidates the owner's direction: a conventional cabinet, three narrow transverse shelves, a low PC base and replaceable parts. FreeCAD labels, the parts list and images use Portuguese and English. Dimensions are in millimetres.
 
+**Acesso rápido / Quick access:** [galeria dedicada / dedicated render gallery](../../../docs/RENDERS.md) · [códigos permanentes / permanent part codes](../../../docs/PART_CODES.md) · [proposta de encaixe CNC / CNC joinery proposal](../../../docs/CABINET_JOINERY_PROPOSAL.md).
+
+## Identidade das peças / Part identity
+
+A V32 passa a usar códigos humanos permanentes para componentes aceitos, por exemplo `T1`, `T2`, `T3`, `S1`, `S2`, `S3`, `S1SupL` e `S1SupR`. Itens ainda não consolidados aparecem em documentação como `**nome provisório**` e não recebem código permanente até a proposta ser aceita. O registro mestre está em [PART_CODES.md](../../../docs/PART_CODES.md).
+
+Os IDs internos antigos do FreeCAD são preservados nesta publicação para não quebrar rastreabilidade. A próxima regeneração do CAD deve adicionar `PartCode` e manter o ID anterior como `LegacyId`.
+
 ## Galeria / Gallery
 
 ### 1. Interior / Interior
@@ -77,6 +85,8 @@ Ainda faltam / Still required:
 6. Encaixes, canais de vidro, lockdown bar, espessura real da madeira, fresa, raios, folgas e plano de chapas / joints, glass channels, lockdown bar, measured stock, cutter, radii, allowances and sheet layout.
 
 A direção de arquitetura está definida pelo proprietário. A liberação de usinagem não está. Sessões físicas permanecem pausadas. / The owner has set the architecture direction. Machining is not released. Physical sessions remain paused.
+
+A proposta para tornar o gabinete inferior autoalinhável com rasgos/rebaixos CNC rasos está documentada separadamente e **ainda não faz parte da geometria V32**: [CABINET_JOINERY_PROPOSAL.md](../../../docs/CABINET_JOINERY_PROPOSAL.md).
 
 ## Arquivos / Files
 
