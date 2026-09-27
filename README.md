@@ -40,6 +40,20 @@ Full bilingual review, dimensions, remaining blockers and downloadable CAD/STEP 
 
 The previous V27/V28 validation material remains preserved as engineering history and evidence. It must not be read as a manufacturing release for V32.
 
+## Where help is useful now
+
+A contributor can add value without taking ownership of the whole cabinet. Current useful areas include:
+
+- **CNC / joinery:** review the proposed captured lower-cabinet joints, cutter-radius strategy, tolerance coupons and assembly sequence.
+- **Mechanical design:** fastening/retention for T1–T3 guides/supports, shelves and the rear service door; monitor service/support mechanics; Williams leg/backbox interfaces.
+- **Measurements / prototyping:** measured hardware patterns, actual plywood thickness, fit coupons, dry-fit evidence and load/rigidity observations.
+- **Thermal / packaging:** PC, fan guards, wiring, PSU/CSD envelopes and airflow/clearance review.
+- **FreeCAD / Python tooling:** integrate the V32/V33 review generator into a clean validated build path that can replace the retained pre-V32 pipeline.
+- **Documentation:** English-first technical editing, PT-BR mirrors, diagrams, assembly explanations and link/consistency checks.
+
+If none of these match your skills or available time, following the [render page](docs/RENDERS.md) is enough to keep up with progress.
+
+
 
 ## Open-source hardware
 
