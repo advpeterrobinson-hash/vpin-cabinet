@@ -1,8 +1,17 @@
 # Contributing to Virtual Pinball Cabinet
 
+**English** · [Português (Brasil)](CONTRIBUTING.pt-BR.md)
+
 Thanks for helping improve the project. Contributions are welcome from builders, mechanical designers, CNC operators, electricians, software developers, testers, and documentation contributors.
 
 ## Before you start
+
+Spend a few minutes on the current contributor path before opening files from older revisions:
+
+1. [current renders](docs/RENDERS.md);
+2. [documentation index](docs/README.md);
+3. [V32 review package](exports/generated/cabinet-v32/README.md);
+4. [permanent part-code registry](docs/PART_CODES.md).
 
 For substantial mechanical or architectural changes, open a **Design proposal** issue first. Small fixes, documentation corrections, tests, and clearly isolated bugs can go directly to a pull request.
 
@@ -22,6 +31,22 @@ Contributions should preserve the project's core goals:
 - reproducible source-driven CAD rather than manual edits to a binary master.
 
 Do not invent hardware hole patterns from catalog drawings when the project marks that hardware as **MEASURE_BEFORE_CNC**.
+
+## Documentation language
+
+English is the canonical project language for contributor-facing documentation, source identifiers and engineering source-of-truth fields. Portuguese translations are maintained for selected current documents.
+
+A useful engineering contribution **does not need a Portuguese translation to be accepted**. Do not delay a technical fix because the PT-BR mirror has not yet been updated.
+
+Stable part codes such as `T1`, `S1`, `S1SupL` and `SideL` are language-neutral and must not be translated or repurposed.
+
+See [documentation language policy](docs/LANGUAGE_POLICY.md).
+
+## Current vs historical material
+
+Versioned v04–v28 documents, configs and helper scripts remain in the repository for design history and evidence. They are not automatically current authority.
+
+If a proposed change depends on an older file, explain why that file is still relevant. The repository is undergoing a controlled cleanup; see [repository cleanup plan](docs/REPOSITORY_CLEANUP.md).
 
 ## Pull request workflow
 
