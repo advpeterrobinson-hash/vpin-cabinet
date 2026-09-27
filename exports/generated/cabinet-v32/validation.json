@@ -1,0 +1,20 @@
+{
+  "version": "V32",
+  "solid_count": 45,
+  "valid_solids": true,
+  "positive_volume_intersections": [],
+  "intersection_threshold_mm3": 0.01,
+  "shelves": 3,
+  "crossmembers": 3,
+  "fans": 2,
+  "bilingual_labels": true,
+  "manufacturing_ready": false,
+  "tests_not_performed": [
+    "load analysis",
+    "physical assembly",
+    "monitor and backbox opening sweep",
+    "thermal testing",
+    "CSD mounting fit",
+    "machining validation"
+  ]
+}
