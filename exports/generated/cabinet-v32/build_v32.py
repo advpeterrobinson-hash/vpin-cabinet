@@ -11,20 +11,36 @@ PART_CODES={
 'CROSS_3':'T3','CROSS_GUIDE_3L':'T3GuideL','CROSS_GUIDE_3R':'T3GuideR',
 'MONITOR_RAIL_L':'MonRailL','MONITOR_RAIL_R':'MonRailR','MONITOR_BRIDGE':'MonBridge',
 'PC_BASE':'PCBase','BACKBOX_BASE':'BBBase'}
-NAMES={
-'SIDE_L':'Lateral esquerda / Left side','SIDE_R':'Lateral direita / Right side',
-'FRONT':'Painel frontal / Front panel','REAR':'Painel traseiro / Rear panel',
-'REAR_DOOR':'Porta de acesso / Access door','FLOOR':'Piso / Bottom panel',
-'PC_BASE':'Base do PC / PC base','PC_ENVELOPE':'Espaço do PC / PC envelope',
-'BACKBOX_BASE':'Base do backbox / Backbox support',
-'PLAYFIELD_ENVELOPE':'Espaço do monitor / Display envelope',
-'MONITOR_BRIDGE':'Ponte VESA / VESA bridge','AUDIO_STARTECH':'Placa de som / Sound card',
-'PLUNGER_RESERVED':'Reserva do plunger / Plunger reserve','MAINS_RESERVED':'Reserva da tomada / Mains inlet reserve','RJ45_RESERVED':'Reserva de rede / Network reserve'}
-def bilingual(n):
- if n in NAMES:return NAMES[n]
- for prefix,pt,en in [('SHELF_SUPPORT_','Apoio da prateleira','Shelf cleat'),('SHELF_','Prateleira transversal','Transverse shelf'),('CROSS_GUIDE_','Guia ranhurada','Grooved guide'),('CROSS_BRACKET_','Cantoneira de apoio','Support angle'),('CROSS_','Travessa vertical','Upright crossmember'),('MONITOR_RAIL_','Régua do monitor','Monitor rail'),('FLOOR_CLEAT_','Apoio do piso','Floor cleat'),('FAN_','Ventoinha traseira','Rear exhaust fan')]:
-  if n.startswith(prefix):return pt+' '+n[len(prefix):]+' / '+en+' '+n[len(prefix):]
+NAMES_EN={
+'SIDE_L':'Left side','SIDE_R':'Right side','FRONT':'Front panel','REAR':'Rear panel',
+'REAR_DOOR':'Rear service door','FLOOR':'Bottom panel','PC_BASE':'PC base','PC_ENVELOPE':'PC envelope',
+'BACKBOX_BASE':'Backbox support','PLAYFIELD_ENVELOPE':'Display envelope','MONITOR_BRIDGE':'VESA bridge',
+'AUDIO_STARTECH':'Sound card','PLUNGER_RESERVED':'Plunger reserve','MAINS_RESERVED':'Mains inlet reserve',
+'RJ45_RESERVED':'Network reserve'}
+NAMES_PTBR={
+'SIDE_L':'Lateral esquerda','SIDE_R':'Lateral direita','FRONT':'Painel frontal','REAR':'Painel traseiro',
+'REAR_DOOR':'Porta traseira de serviço','FLOOR':'Piso','PC_BASE':'Base do PC','PC_ENVELOPE':'Envelope do PC',
+'BACKBOX_BASE':'Base/apoio do backbox','PLAYFIELD_ENVELOPE':'Envelope do display','MONITOR_BRIDGE':'Ponte VESA',
+'AUDIO_STARTECH':'Placa de som','PLUNGER_RESERVED':'Reserva do plunger','MAINS_RESERVED':'Reserva da entrada elétrica',
+'RJ45_RESERVED':'Reserva de rede'}
+PREFIX_NAMES=[
+ ('SHELF_SUPPORT_','Shelf support','Apoio da prateleira'),
+ ('SHELF_','Transverse shelf','Prateleira transversal'),
+ ('CROSS_GUIDE_','Grooved guide','Guia ranhurada'),
+ ('CROSS_BRACKET_','Support angle','Cantoneira de apoio'),
+ ('CROSS_','Upright crossmember','Travessa vertical'),
+ ('MONITOR_RAIL_','Monitor rail','Régua do monitor'),
+ ('FLOOR_CLEAT_','Floor support','Apoio do piso'),
+ ('FAN_','Rear exhaust fan','Ventoinha traseira')]
+def localized_name(n,lang='en'):
+ table=NAMES_EN if lang=='en' else NAMES_PTBR
+ if n in table:return table[n]
+ for prefix,en,pt in PREFIX_NAMES:
+  if n.startswith(prefix):return (en if lang=='en' else pt)+' '+n[len(prefix):]
  return n
+def name_en(n):return localized_name(n,'en')
+def name_ptbr(n):return localized_name(n,'pt')
+
 
 W=600.;L=1308.1;H=400.05;HR=596.9;R=1127.125;t=18.
 def box(x,y,z,dx,dy,dz):return Part.makeBox(dx,dy,dz,A.Vector(x,y,z))
@@ -32,16 +48,19 @@ def cyl(x,y,z,r,length,axis=(0,0,1)):return Part.makeCylinder(r,length,A.Vector(
 def add(n,s,kind,note=''):
  assert s.isValid() and len(s.Solids)==1,n
  code=PART_CODES.get(n,'')
+ en=name_en(n);pt=name_ptbr(n)
  o=d.addObject('PartDesign::Feature',n);o.Shape=s
- o.Label=((code+' - ') if code else '**PROVISIONAL** - ')+bilingual(n)
+ o.Label=((code+' - ') if code else '**PROVISIONAL** - ')+en
  o.addProperty('App::PropertyString','PartCode');o.PartCode=code
  o.addProperty('App::PropertyString','LegacyId');o.LegacyId=n
  o.addProperty('App::PropertyString','PartStatus');o.PartStatus='PERMANENT_CODE' if code else 'PROVISIONAL'
+ o.addProperty('App::PropertyString','NameEN');o.NameEN=en
+ o.addProperty('App::PropertyString','NamePTBR');o.NamePTBR=pt
  o.addProperty('App::PropertyString','Purpose');o.Purpose=note
  o.addProperty('App::PropertyString','Category');o.Category=kind
  shapes[n]=s
  verts,faces=s.tessellate(1.5)
- records.append(dict(id=n,part_code=code,part_status=('PERMANENT_CODE' if code else 'PROVISIONAL'),label=bilingual(n),kind=kind,note=note,vertices=[[v.x,v.y,v.z] for v in verts],faces=faces,volume=s.Volume,bounds=[s.BoundBox.XMin,s.BoundBox.XMax,s.BoundBox.YMin,s.BoundBox.YMax,s.BoundBox.ZMin,s.BoundBox.ZMax]))
+ records.append(dict(id=n,part_code=code,part_status=('PERMANENT_CODE' if code else 'PROVISIONAL'),name_en=en,name_pt_br=pt,kind=kind,note=note,vertices=[[v.x,v.y,v.z] for v in verts],faces=faces,volume=s.Volume,bounds=[s.BoundBox.XMin,s.BoundBox.XMax,s.BoundBox.YMin,s.BoundBox.YMax,s.BoundBox.ZMin,s.BoundBox.ZMax]))
  return o
 alpha=math.atan2(HR-H,R);bz=H+45*math.tan(alpha)-12-55*math.cos(alpha)
 def tf(s):
