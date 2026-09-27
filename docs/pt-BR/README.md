@@ -24,6 +24,7 @@ A liberação para CNC/fabricação permanece bloqueada. Uma renderização ou s
 
 - [Renderizações](RENDERS.md)
 - [Códigos de peças](PART_CODES.md)
+- [Intenção de iluminação endereçável](LIGHTING_INTENT_V32.md)
 - [Proposta de encaixe do gabinete inferior](CABINET_JOINERY_PROPOSAL.md)
 - [Política de idiomas](LANGUAGE_POLICY.md)
 

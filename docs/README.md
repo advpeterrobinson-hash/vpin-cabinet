@@ -24,6 +24,7 @@ Manufacturing/CNC release remains blocked. A render or valid CAD solid is not by
 
 - [Renders](RENDERS.md)
 - [Part codes](PART_CODES.md)
+- [Addressable lighting intent](LIGHTING_INTENT_V32.md)
 - [Lower-cabinet joinery proposal](CABINET_JOINERY_PROPOSAL.md)
 - [Language policy](LANGUAGE_POLICY.md)
 - [Build phases](BUILD_PHASES.md)
