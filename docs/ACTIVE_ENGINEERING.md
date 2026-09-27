@@ -1,4 +1,7 @@
-# Active engineering baseline — owner review v27
+# Legacy validated engineering pipeline — owner review v27 (pre-V32)
+
+> **Transition notice:** this document describes the validated v25–v27 build pipeline retained for engineering evidence and dependency continuity. It is **not the current owner-facing V32 architecture**. Start with [Renders](RENDERS.md), [Part codes](PART_CODES.md), and the [V32 review package](../exports/generated/cabinet-v32/README.md). Do not reintroduce a pre-V32 subsystem into V32 without an explicit design proposal and validation.
+
 
 Engineering packaging only. No manufacturing release or structural certification.
 
