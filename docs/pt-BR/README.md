@@ -28,6 +28,7 @@ A liberação para CNC/fabricação permanece bloqueada. Uma renderização ou s
 - [Proposta de encaixe do gabinete inferior](CABINET_JOINERY_PROPOSAL.md)
 - [Estudo CAD dos encaixes da caixa](JOINERY_STUDY_V32.md)
 - [Política de idiomas](LANGUAGE_POLICY.md)
+- [Avaliação da referência externa PinSim](PINSIM_REFERENCE_REVIEW.md)
 
 Os demais documentos técnicos podem estar apenas em inglês até que sejam classificados como atuais durante a limpeza do repositório.
 

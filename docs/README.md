@@ -32,6 +32,7 @@ Manufacturing/CNC release remains blocked. A render or valid CAD solid is not by
 - [Structure build manual](STRUCTURE_BUILD_MANUAL.md)
 - [Requirements](requirements.md)
 - [Vendors / hardware notes](vendors.md)
+- [PinSim external reference assessment](PINSIM_REFERENCE_REVIEW.md)
 
 ## Transition pipeline
 

@@ -1,0 +1,329 @@
+{
+  "review_date": "2026-09-27",
+  "classification": "REFERENCE",
+  "firmware": {
+    "url": "https://github.com/Jerware/PinSim",
+    "commit": "d0f35c2ff881b99ffcf9fc341bdacf742de84128",
+    "license": "GPL-3.0"
+  },
+  "cad": {
+    "url": "https://www.thingiverse.com/thing:5903318",
+    "author": "twistedream13",
+    "archive": "PinSim-Cabinet-5903318.zip",
+    "sha256": "9428eea700fe4abfbbd524b93a39e5999423312dbd698e571918c07e9bba13a0",
+    "license_statement": "This thing was created by Thingiverse user twistedream13, and is licensed under Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "license_version": null,
+    "publication_status": "BLOCKED_LICENSE_CONFIRMATION",
+    "imported_assets": [],
+    "local_archive": ".work/reference-archives/PinSim-Cabinet-5903318.zip",
+    "entries": [
+      {
+        "path": "files/Plunger_test.stl",
+        "bytes": 11284,
+        "sha256": "4aeb26141804398f3b685910b2d3f73a2e8bfc33f37e9dc126a340d6eac6fc18"
+      },
+      {
+        "path": "files/Arcade_Button_Test.stl",
+        "bytes": 40884,
+        "sha256": "c8b9eed79a942c448bafcba7518e0b796606887d618469c96b54d8bf541fecdd"
+      },
+      {
+        "path": "files/Paddle_Button_Test.stl",
+        "bytes": 38684,
+        "sha256": "d8d11c6cb634b56247a50352853dd5fe208ee519b867e26a3408b9974a3dc92f"
+      },
+      {
+        "path": "files/Leg_Bracket_Test.stl",
+        "bytes": 56284,
+        "sha256": "be7f6916ecbd993e39191aa3c255d7f880b9185d170b92ca09dd106346cfa35d"
+      },
+      {
+        "path": "files/StartButtonTest.stl",
+        "bytes": 38684,
+        "sha256": "5c5bcf3720785d6acadf1d6e9f091c4f2344836842ad0e6aa0805c6985829893"
+      },
+      {
+        "path": "files/Hinge_Test.stl",
+        "bytes": 304784,
+        "sha256": "88ff21098eead6c723f18022b19a283af34bbed4b8622c0abaf0ddd9e5b064a0"
+      },
+      {
+        "path": "files/Pin_Sim_Box_v27.f3d",
+        "bytes": 4312403,
+        "sha256": "d92c552c86206f9f065a246dda2121cc1cdaade3e580e44f3bd8501dfe9a8900"
+      },
+      {
+        "path": "images/077fe55d-fdd6-4303-a6af-594be5d4837f.png",
+        "bytes": 209530,
+        "sha256": "612526d2b2eac53ef2e22fd1941a461cba115ca8e48d271d71026cbe1afaffb2"
+      },
+      {
+        "path": "images/bfe27b12-78ad-4e64-ae06-4b44b850b0fc.png",
+        "bytes": 184087,
+        "sha256": "46631ed907a1bdd215e6466005ea42bfbe2a691dee2c5ac56624138ad06e58d7"
+      },
+      {
+        "path": "images/b206f143-45a6-4372-b964-710461885795.png",
+        "bytes": 192726,
+        "sha256": "3d60c35309bb3226fe7952c684d0368935b704304f9bd94826a14d6c94a01d8a"
+      },
+      {
+        "path": "images/60384d32-c815-48f5-b2ca-77ad39c5ffb8.png",
+        "bytes": 206567,
+        "sha256": "1977f576f66f4c1ecfa698f5dfbcc3bdcd724a4691e216aa3561b7084cd467a8"
+      },
+      {
+        "path": "images/700b00df-92d8-41d8-bbe5-1d59e18038d2.png",
+        "bytes": 303902,
+        "sha256": "df0567fd41b3c6cf4a70ba082c9732e528a233fcd1a6f74910a5b72565298108"
+      },
+      {
+        "path": "images/929dec1a-d5af-4e19-9ba5-0a6a969cc78a.png",
+        "bytes": 296792,
+        "sha256": "28ff688bd6cc451b7c06bfa3b948ba2726fef8b20055d9057009b3a6887174b6"
+      },
+      {
+        "path": "images/05d1f28a-c056-4e43-b60c-350242bb6fd3.png",
+        "bytes": 254566,
+        "sha256": "5373f4fbfc05c1c8387be11ff0e96e994799061a60c333721968aa605e2e717c"
+      },
+      {
+        "path": "README.txt",
+        "bytes": 1557,
+        "sha256": "b3d77d59e739eb11667a11c3bd0e08c39556d594e9e57df723f734154b4eee82"
+      },
+      {
+        "path": "LICENSE.txt",
+        "bytes": 141,
+        "sha256": "0fdafd92fca4eaf622d0cf50de0eeec5b57178dab5d782300783989e1f541e3e"
+      }
+    ],
+    "meshes": [
+      {
+        "file": "Plunger_test.stl",
+        "sha256": "4aeb26141804398f3b685910b2d3f73a2e8bfc33f37e9dc126a340d6eac6fc18",
+        "triangles": 224,
+        "bounds": [
+          [
+            454.0249938964844,
+            -1.587499976158142,
+            289.71875
+          ],
+          [
+            512.7625122070312,
+            0.0,
+            352.42498779296875
+          ]
+        ],
+        "extents": [
+          58.737518,
+          1.5875,
+          62.706238
+        ],
+        "edges_not_two": 0,
+        "units": "STL unitless; not confirmed"
+      },
+      {
+        "file": "Arcade_Button_Test.stl",
+        "sha256": "c8b9eed79a942c448bafcba7518e0b796606887d618469c96b54d8bf541fecdd",
+        "triangles": 816,
+        "bounds": [
+          [
+            470.4573669433594,
+            113.749267578125,
+            434.9335632324219
+          ],
+          [
+            504.24981689453125,
+            146.92144775390625,
+            444.67047119140625
+          ]
+        ],
+        "extents": [
+          33.79245,
+          33.17218,
+          9.736908
+        ],
+        "edges_not_two": 0,
+        "units": "STL unitless; not confirmed"
+      },
+      {
+        "file": "Paddle_Button_Test.stl",
+        "sha256": "d8d11c6cb634b56247a50352853dd5fe208ee519b867e26a3408b9974a3dc92f",
+        "triangles": 772,
+        "bounds": [
+          [
+            -1.587499976158142,
+            78.76356506347656,
+            355.60247802734375
+          ],
+          [
+            0.0,
+            123.20362091064453,
+            400.0475158691406
+          ]
+        ],
+        "extents": [
+          1.5875,
+          44.440056,
+          44.445038
+        ],
+        "edges_not_two": 0,
+        "units": "STL unitless; not confirmed"
+      },
+      {
+        "file": "Leg_Bracket_Test.stl",
+        "sha256": "be7f6916ecbd993e39191aa3c255d7f880b9185d170b92ca09dd106346cfa35d",
+        "triangles": 1124,
+        "bounds": [
+          [
+            -36.65412902832031,
+            -69.8499984741211,
+            0.0
+          ],
+          [
+            36.65412902832031,
+            69.8499984741211,
+            18.397045135498047
+          ]
+        ],
+        "extents": [
+          73.308258,
+          139.699997,
+          18.397045
+        ],
+        "edges_not_two": 0,
+        "units": "STL unitless; not confirmed"
+      },
+      {
+        "file": "StartButtonTest.stl",
+        "sha256": "5c5bcf3720785d6acadf1d6e9f091c4f2344836842ad0e6aa0805c6985829893",
+        "triangles": 772,
+        "bounds": [
+          [
+            28.575000762939453,
+            -1.587499976158142,
+            304.8017883300781
+          ],
+          [
+            60.317893981933594,
+            0.0,
+            336.5482177734375
+          ]
+        ],
+        "extents": [
+          31.742893,
+          1.5875,
+          31.746429
+        ],
+        "edges_not_two": 0,
+        "units": "STL unitless; not confirmed"
+      },
+      {
+        "file": "Hinge_Test.stl",
+        "sha256": "88ff21098eead6c723f18022b19a283af34bbed4b8622c0abaf0ddd9e5b064a0",
+        "triangles": 6094,
+        "bounds": [
+          [
+            444.83941650390625,
+            203.1999969482422,
+            418.5137023925781
+          ],
+          [
+            521.0394287109375,
+            215.89691162109375,
+            456.61370849609375
+          ]
+        ],
+        "extents": [
+          76.200012,
+          12.696915,
+          38.100006
+        ],
+        "edges_not_two": 0,
+        "units": "STL unitless; not confirmed"
+      }
+    ],
+    "freecad_checks": [
+      {
+        "file": "Plunger_test.stl",
+        "mesh_solid": true,
+        "shells": 1,
+        "components": [
+          {
+            "valid": true,
+            "closed": true,
+            "volume": 3889.334661112702
+          }
+        ]
+      },
+      {
+        "file": "Arcade_Button_Test.stl",
+        "mesh_solid": true,
+        "shells": 1,
+        "components": [
+          {
+            "valid": true,
+            "closed": true,
+            "volume": 290.0010433492093
+          }
+        ]
+      },
+      {
+        "file": "Paddle_Button_Test.stl",
+        "mesh_solid": true,
+        "shells": 1,
+        "components": [
+          {
+            "valid": true,
+            "closed": true,
+            "volume": 1378.36220964743
+          }
+        ]
+      },
+      {
+        "file": "Leg_Bracket_Test.stl",
+        "mesh_solid": true,
+        "shells": 1,
+        "components": [
+          {
+            "valid": true,
+            "closed": true,
+            "volume": 28708.1192460634
+          }
+        ]
+      },
+      {
+        "file": "StartButtonTest.stl",
+        "mesh_solid": true,
+        "shells": 1,
+        "components": [
+          {
+            "valid": true,
+            "closed": true,
+            "volume": 482.53816261006057
+          }
+        ]
+      },
+      {
+        "file": "Hinge_Test.stl",
+        "mesh_solid": true,
+        "shells": 2,
+        "components": [
+          {
+            "valid": true,
+            "closed": true,
+            "volume": 10176.391376843578
+          },
+          {
+            "valid": true,
+            "closed": true,
+            "volume": 11147.319031680254
+          }
+        ]
+      }
+    ]
+  },
+  "manufacturing_status": "BLOCKED",
+  "geometry_changed": false
+}

@@ -16,3 +16,9 @@ In particular:
 Contributors must not copy proprietary CAD, copyrighted manuals, artwork, ROMs, game assets, trademarks, or other protected material into the project unless redistribution is clearly permitted and the source/licence is documented.
 
 Project releases should prefer original geometry, measurements, interoperability facts, and links to lawful upstream sources rather than redistributing third-party files unnecessarily.
+
+## PinSim reference assessment (2026-09-27)
+
+- [Jerware/PinSim](https://github.com/Jerware/PinSim), commit `d0f35c2ff881b99ffcf9fc341bdacf742de84128`: GPL-3.0 firmware, linked only.
+- [PinSim Cabinet by twistedream13](https://www.thingiverse.com/thing:5903318): owner-supplied ZIP declares Creative Commons Attribution–NonCommercial–ShareAlike without specifying a version. The separate CAD license is not the firmware GPL license.
+- No third-party assets from either source are redistributed here. Only original assessment text and factual inventory/hashes are tracked in the [reference register](reference/pinsim/README.md). CAD publication is blocked pending license clarification; production adoption also requires physical hardware measurements and engineering validation.
