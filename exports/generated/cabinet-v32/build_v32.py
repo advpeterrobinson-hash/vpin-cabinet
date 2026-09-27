@@ -1,6 +1,16 @@
 import FreeCAD as A, Part, math, json, os
 OUT=os.path.dirname(os.path.abspath(__file__))
 d=A.newDocument('VPinV32'); records=[]; shapes={}
+PART_CODES={
+'SIDE_L':'SideL','SIDE_R':'SideR','FRONT':'Front','REAR':'Rear','REAR_DOOR':'RearDoor','FLOOR':'Floor',
+'SHELF_1':'S1','SHELF_SUPPORT_1L':'S1SupL','SHELF_SUPPORT_1R':'S1SupR',
+'SHELF_2':'S2','SHELF_SUPPORT_2L':'S2SupL','SHELF_SUPPORT_2R':'S2SupR',
+'SHELF_3':'S3','SHELF_SUPPORT_3L':'S3SupL','SHELF_SUPPORT_3R':'S3SupR',
+'CROSS_1':'T1','CROSS_GUIDE_1L':'T1GuideL','CROSS_GUIDE_1R':'T1GuideR',
+'CROSS_2':'T2','CROSS_GUIDE_2L':'T2GuideL','CROSS_GUIDE_2R':'T2GuideR',
+'CROSS_3':'T3','CROSS_GUIDE_3L':'T3GuideL','CROSS_GUIDE_3R':'T3GuideR',
+'MONITOR_RAIL_L':'MonRailL','MONITOR_RAIL_R':'MonRailR','MONITOR_BRIDGE':'MonBridge',
+'PC_BASE':'PCBase','BACKBOX_BASE':'BBBase'}
 NAMES={
 'SIDE_L':'Lateral esquerda / Left side','SIDE_R':'Lateral direita / Right side',
 'FRONT':'Painel frontal / Front panel','REAR':'Painel traseiro / Rear panel',
@@ -21,10 +31,17 @@ def box(x,y,z,dx,dy,dz):return Part.makeBox(dx,dy,dz,A.Vector(x,y,z))
 def cyl(x,y,z,r,length,axis=(0,0,1)):return Part.makeCylinder(r,length,A.Vector(x,y,z),A.Vector(*axis))
 def add(n,s,kind,note=''):
  assert s.isValid() and len(s.Solids)==1,n
- o=d.addObject('PartDesign::Feature',n);o.Shape=s;o.Label=bilingual(n);o.addProperty('App::PropertyString','Purpose');o.Purpose=note;o.addProperty('App::PropertyString','Category');o.Category=kind
+ code=PART_CODES.get(n,'')
+ o=d.addObject('PartDesign::Feature',n);o.Shape=s
+ o.Label=((code+' - ') if code else '**PROVISIONAL** - ')+bilingual(n)
+ o.addProperty('App::PropertyString','PartCode');o.PartCode=code
+ o.addProperty('App::PropertyString','LegacyId');o.LegacyId=n
+ o.addProperty('App::PropertyString','PartStatus');o.PartStatus='PERMANENT_CODE' if code else 'PROVISIONAL'
+ o.addProperty('App::PropertyString','Purpose');o.Purpose=note
+ o.addProperty('App::PropertyString','Category');o.Category=kind
  shapes[n]=s
  verts,faces=s.tessellate(1.5)
- records.append(dict(id=n,label=bilingual(n),kind=kind,note=note,vertices=[[v.x,v.y,v.z] for v in verts],faces=faces,volume=s.Volume,bounds=[s.BoundBox.XMin,s.BoundBox.XMax,s.BoundBox.YMin,s.BoundBox.YMax,s.BoundBox.ZMin,s.BoundBox.ZMax]))
+ records.append(dict(id=n,part_code=code,part_status=('PERMANENT_CODE' if code else 'PROVISIONAL'),label=bilingual(n),kind=kind,note=note,vertices=[[v.x,v.y,v.z] for v in verts],faces=faces,volume=s.Volume,bounds=[s.BoundBox.XMin,s.BoundBox.XMax,s.BoundBox.YMin,s.BoundBox.YMax,s.BoundBox.ZMin,s.BoundBox.ZMax]))
  return o
 alpha=math.atan2(HR-H,R);bz=H+45*math.tan(alpha)-12-55*math.cos(alpha)
 def tf(s):
