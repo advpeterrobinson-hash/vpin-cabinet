@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "project": {
     "name": "vpin-cabinet",
     "units": "mm",
@@ -20,21 +20,29 @@
       "long-term replacement compatibility",
       "serviceability",
       "structural integrity",
+      "cnc-flatpack reproducibility",
       "visual fidelity to Williams proportions",
       "exact historical dimensions"
     ],
     "electronics_service_envelopes_required": true,
-    "prefer_replaceable_adapters_over_permanent_component_specific_holes": true
+    "prefer_replaceable_adapters_over_permanent_component_specific_holes": true,
+    "apartment_buildable_without_major_shop_tools": true
   },
   "cabinet": {
     "reference_outer_width_mm": 558.8,
-    "outer_width_mm": 558.8,
-    "outer_width_status": "under-future-proofing-review",
+    "outer_width_mm": 580.0,
+    "outer_width_status": "selected-engineering-baseline-v07",
     "side_length_mm": 1308.1,
     "front_height_mm": 400.05,
     "rear_height_mm": 596.9,
     "rear_top_flat_mm": 180.975,
-    "main_wood_nominal_mm": 18.0
+    "main_wood_nominal_mm": 18.0,
+    "future_playfield_service_envelope_mm": {
+      "cross_width": 560.0,
+      "length": 950.0,
+      "depth": 55.0,
+      "clearance_each_side": 2.0
+    }
   },
   "oled": {
     "model": "LG OLED42C5",
@@ -46,7 +54,7 @@
     "vesa_y_mm": 200.0,
     "clearance_each_side_mm": 1.0,
     "minimum_remaining_side_skin_mm": 8.0,
-    "future_replacement_envelope_status": "pending-main-cabinet-width-review"
+    "future_replacement_envelope_status": "defined-v07"
   },
   "backglass": {
     "target_diagonal_in": 32.0,
@@ -83,6 +91,11 @@
     "dual_gas_struts": true,
     "independent_mechanical_safety": true,
     "target_open_angle_deg": 70.0
+  },
+  "service_io": {
+    "rear_power_fascia_replaceable": true,
+    "rear_signal_fascia_replaceable": true,
+    "vintage_white_filled_engraving": true
   },
   "power_modes": [
     "off",
