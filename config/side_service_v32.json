@@ -1,0 +1,36 @@
+{
+  "status": "PROVISIONAL_TOOL_SCREEN_ONLY",
+  "units": "mm",
+  "tool_probes": [
+    {
+      "name": "compact",
+      "radius_mm": 8,
+      "inward_length_mm": 100
+    },
+    {
+      "name": "larger",
+      "radius_mm": 15,
+      "inward_length_mm": 150
+    }
+  ],
+  "collision_threshold_mm3": 0.01,
+  "states": {
+    "assembled": [],
+    "monitor_assembly_removed": [
+      "PLAYFIELD_ENVELOPE",
+      "MONITOR_RAIL_L",
+      "MONITOR_RAIL_R",
+      "MONITOR_BRIDGE"
+    ],
+    "monitor_and_crossmembers_removed": [
+      "PLAYFIELD_ENVELOPE",
+      "MONITOR_RAIL_L",
+      "MONITOR_RAIL_R",
+      "MONITOR_BRIDGE",
+      "CROSS_1",
+      "CROSS_2",
+      "CROSS_3"
+    ]
+  },
+  "limitations": "Cylinders begin at the inward guide face and represent straight axial tool space only. Dimensions are study choices, not selected tools. No hand, insertion sweep, screw head, fastener withdrawal, cable, or load proof. Removed-state access does not prove safe monitor removal."
+}

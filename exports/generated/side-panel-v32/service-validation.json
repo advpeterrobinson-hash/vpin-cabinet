@@ -1,0 +1,2696 @@
+{
+  "status": "TOOL_SCREEN_ONLY",
+  "manufacturing_ready": false,
+  "source_sha256": "ff973219bdc8bee6707bd29f6a44da74c895cbcbea9e0b1790d8e7723b9aa038",
+  "config": {
+    "status": "PROVISIONAL_TOOL_SCREEN_ONLY",
+    "units": "mm",
+    "tool_probes": [
+      {
+        "name": "compact",
+        "radius_mm": 8,
+        "inward_length_mm": 100
+      },
+      {
+        "name": "larger",
+        "radius_mm": 15,
+        "inward_length_mm": 150
+      }
+    ],
+    "collision_threshold_mm3": 0.01,
+    "states": {
+      "assembled": [],
+      "monitor_assembly_removed": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE"
+      ],
+      "monitor_and_crossmembers_removed": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE",
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3"
+      ]
+    },
+    "limitations": "Cylinders begin at the inward guide face and represent straight axial tool space only. Dimensions are study choices, not selected tools. No hand, insertion sweep, screw head, fastener withdrawal, cable, or load proof. Removed-state access does not prove safe monitor removal."
+  },
+  "checks": [
+    {
+      "check": "expected 45 saved solids",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L anchor -22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L anchor -22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L anchor 22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L anchor 22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R anchor -22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R anchor -22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R anchor 22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R anchor 22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L anchor -22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L anchor -22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L anchor 22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L anchor 22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R anchor -22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R anchor -22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R anchor 22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R anchor 22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L anchor -22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L anchor -22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L anchor 22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L anchor 22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R anchor -22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R anchor -22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R anchor 22/65 saved bore",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R anchor 22/120 saved bore",
+      "pass": true
+    },
+    {
+      "check": "negative control detects injected obstruction",
+      "pass": true
+    },
+    {
+      "check": "translated control clears probe",
+      "pass": true
+    },
+    {
+      "check": "complete tool/state matrix",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged",
+      "pass": true
+    }
+  ],
+  "summary": [
+    {
+      "tool": "compact",
+      "state": "assembled",
+      "tested": 24,
+      "obstructed": 6,
+      "obstacle_objects": [
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R"
+      ]
+    },
+    {
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "tested": 24,
+      "obstructed": 0,
+      "obstacle_objects": []
+    },
+    {
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "tested": 24,
+      "obstructed": 0,
+      "obstacle_objects": []
+    },
+    {
+      "tool": "larger",
+      "state": "assembled",
+      "tested": 24,
+      "obstructed": 24,
+      "obstacle_objects": [
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R"
+      ]
+    },
+    {
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "tested": 24,
+      "obstructed": 24,
+      "obstacle_objects": [
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3"
+      ]
+    },
+    {
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "tested": 24,
+      "obstructed": 0,
+      "obstacle_objects": []
+    }
+  ],
+  "results": [
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "MONITOR_RAIL_L",
+          "intersection_mm3": 2470.3567652556035
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 2510.8944088384524
+        },
+        {
+          "object": "MONITOR_RAIL_L",
+          "intersection_mm3": 9577.429710150302
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 2510.8944088384524
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 2998.3285027190514
+        },
+        {
+          "object": "MONITOR_RAIL_L",
+          "intersection_mm3": 3229.6036671278857
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 2998.3285027190514
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "MONITOR_RAIL_R",
+          "intersection_mm3": 2470.356765255524
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 2510.8944088384505
+        },
+        {
+          "object": "MONITOR_RAIL_R",
+          "intersection_mm3": 9577.42971015022
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 2510.8944088384505
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        358.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        303.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 2998.328502719056
+        },
+        {
+          "object": "MONITOR_RAIL_R",
+          "intersection_mm3": 3229.603667127862
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_1",
+          "intersection_mm3": 2998.328502719056
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_1R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        402.0,
+        358.691375367901
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 3035.6614275357665
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 3035.6614275357665
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "MONITOR_RAIL_L",
+          "intersection_mm3": 2470.356765255716
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 2510.8944088384364
+        },
+        {
+          "object": "MONITOR_RAIL_L",
+          "intersection_mm3": 9577.429710150418
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 2510.8944088384364
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 3035.6614275357724
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 3035.6614275357724
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 2998.3285027190145
+        },
+        {
+          "object": "MONITOR_RAIL_L",
+          "intersection_mm3": 3229.6036671279244
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 2998.3285027190145
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 3035.6614275357665
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 3035.6614275357665
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "MONITOR_RAIL_R",
+          "intersection_mm3": 2470.356765255532
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 2510.8944088384146
+        },
+        {
+          "object": "MONITOR_RAIL_R",
+          "intersection_mm3": 9577.429710150227
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 2510.8944088384146
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        678.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 3035.6614275357724
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 3035.6614275357724
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        359.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 2998.328502719045
+        },
+        {
+          "object": "MONITOR_RAIL_R",
+          "intersection_mm3": 3229.603667127879
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_2",
+          "intersection_mm3": 2998.328502719045
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_2R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        722.0,
+        414.578699311563
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "MONITOR_RAIL_L",
+          "intersection_mm3": 2470.3567652551906
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 2510.894408838461
+        },
+        {
+          "object": "MONITOR_RAIL_L",
+          "intersection_mm3": 9577.429710149827
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 2510.894408838461
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 3035.661427535772
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 3035.661427535772
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 2998.328502719092
+        },
+        {
+          "object": "MONITOR_RAIL_L",
+          "intersection_mm3": 3229.6036671277034
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 2998.328502719092
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3L",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        36.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": 1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 3035.661427535766
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "MONITOR_RAIL_R",
+          "intersection_mm3": 2470.356765255505
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 2510.8944088384337
+        },
+        {
+          "object": "MONITOR_RAIL_R",
+          "intersection_mm3": 9577.429710150165
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 2510.8944088384337
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": -22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        958.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 3035.661427535772
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 3035.661427535772
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 65,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        408.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "assembled",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_assembly_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "compact",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "assembled",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 2998.3285027190595
+        },
+        {
+          "object": "MONITOR_RAIL_R",
+          "intersection_mm3": 3229.6036671278475
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_assembly_removed",
+      "status": "OBSTRUCTED",
+      "conflicts": [
+        {
+          "object": "CROSS_3",
+          "intersection_mm3": 2998.3285027190595
+        }
+      ]
+    },
+    {
+      "guide": "CROSS_GUIDE_3R",
+      "column_offset_mm": 22,
+      "level_above_guide_bottom_mm": 120,
+      "axis_origin_mm": [
+        564.0,
+        1002.0,
+        463.4801077622672
+      ],
+      "direction_x": -1,
+      "tool": "larger",
+      "state": "monitor_and_crossmembers_removed",
+      "status": "CLEAR_FOR_PROBE_ONLY",
+      "conflicts": []
+    }
+  ]
+}

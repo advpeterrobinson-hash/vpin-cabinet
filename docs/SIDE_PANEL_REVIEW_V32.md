@@ -29,3 +29,5 @@ FreeCADCmd can return zero after Python exceptions; require the pass sentinel an
 ## Hardware and service continuation
 
 The [side interface plan](SIDE_INTERFACE_PLAN_V32.md) records shared datums, seven paired occupied support footprints, button-stack alternatives and proposed load/service paths for legs, glass, display props and feedback. The audit now additionally checks seven support mirror pairs and fourteen inner-face datums. These are packaging facts; hardware access and structural performance remain unverified.
+
+The separate [guide-anchor service screen](SIDE_SERVICE_REVIEW_V32.md) now evaluates 24 anchors with two provisional tools in three removal states. It exposes rail/crossmember access obstructions; its passing audit sentinel does not certify every service route as clear.

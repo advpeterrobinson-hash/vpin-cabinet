@@ -26,7 +26,7 @@ The audit now extracts these bounding footprints from both saved sides' neighbor
 
 These are occupied bounding rectangles, including grooves and holes; they are neither measured contact areas nor released screw zones. Shell joints, brackets farther inward, shelves, rails and missing hardware also constrain access. Empty space between rectangles is not automatically usable.
 
-The rear button at Y310 has a candidate radial boundary at Y328; T1Guide begins at Y350, leaving **22 mm in Y between these candidate bounds**. This is not room proven for a socket, hand, connector or SSF mount. Check actual service-tool and cable envelopes before using this region. Each T guide also needs upward extraction clearance after the monitor assembly and retention hardware are removed; putting a prop receiver or cable clamp above a guide can defeat removability even without a closed-state collision.
+The rear button at Y310 has a candidate radial boundary at Y328; T1Guide begins at Y350, leaving **22 mm in Y between these candidate bounds**. This is not room proven for a socket, hand, connector or SSF mount. Check actual service-tool and cable envelopes before using this region. Each T crossmember also needs upward extraction clearance through its guides after the monitor assembly and retention hardware are removed; putting a prop receiver or cable clamp above a guide can defeat removability even without a closed-state collision.
 
 ## Button mounting decision to develop
 
@@ -61,3 +61,7 @@ First obtain side-button stacks and leg/inner-plate dimensions; check them with 
 Reproduce footprint evidence with the command in [the side audit](SIDE_PANEL_REVIEW_V32.md). The extension checks seven mirrored support pairs and fourteen inner-face datums, in addition to the original 25 checks. It does not save or recut the source FCStd.
 
 Original material: CERN-OHL-S-2.0. Preserve LICENSE and NOTICE.md. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.
+
+## Tool-access finding
+
+The subsequent [guide-anchor service screen](SIDE_SERVICE_REVIEW_V32.md) found six compact-tool obstructions at the upper forward anchors with the monitor rails installed. Removing the monitor assembly clears the compact candidate; the larger candidate also requires crossmember removal. Preserve an independent, accessible release sequence for those components before finalizing guide anchors.
