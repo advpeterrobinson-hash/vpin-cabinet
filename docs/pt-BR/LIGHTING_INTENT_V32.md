@@ -1,31 +1,28 @@
-# Iluminação endereçável — kit selecionado
+# Iluminação endereçável — dimensões da matriz e orientação do proprietário
 
 [English](../LIGHTING_INTENT_V32.md) · [Português (Brasil)](LIGHTING_INTENT_V32.md)
 
-**OWNER_SELECTED 2026-09-29; integração PROVISIONAL; CNC BLOCKED.** O proprietário selecionou o [Addressable LED Plug and Play Kit da Cleveland Software Design](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit). Mantida a intenção anterior de seis painéis. Em 2026-09-29 o proprietário confirmou dois anéis dos speakers e iluminação opcional sob o gabinete; o SKU final do pedido permanece sem registro. Não há declaração de compra ou recebimento.
+**Esclarecimento do proprietário, 2026-09-29:** usar os painéis de matriz da Cleveland Software Design com a placa Arnoz MX-DONNY (Donny). A página da Cleveland é referência dos painéis/dimensões; controladora, fonte e configuração incluídas no kit não são selecionadas por esta decisão. Isso corrige a interpretação anterior de adoção do sistema completo plug-and-play.
 
-A controladora incluída substitui a previsão de Arnoz MX-DONNY para este kit. Isso não altera outros dispositivos Arnoz. Notas anteriores de Pinscape/MX-DONNY permanecem como histórico, não como alocação atual de portas.
+O projeto permanece aberto. Instalação, fiação, fonte, configuração da controladora e disposição final serão decididas pelo proprietário. A tarefa atual de engenharia é preservar a referência dimensional da matriz sem congelar suporte, furos permanentes ou posição na V32.
 
-## Dados publicados e limites dimensionais
+## Dimensões da matriz
 
-Fonte consultada em 2026-09-29. O fornecedor lista controladora Wemos S2 com 10 saídas, painéis, duas fitas laterais, cabos/extensões, espaçadores/parafusos, cabo USB e fonte de 5 V / 15 A. Seis painéis fornecem 1.536 pixels; as fitas somam 288. Anéis opcionais possuem 45 pixels cada, 5 V e dimensões anunciadas de 120/102/9 mm (confirmar o significado de cada dimensão).
+Fonte: [anúncio da matriz/kit Cleveland](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit), consultado em 2026-09-29. São dimensões nominais publicadas, não medidas das peças reais.
 
-Cada painel é anunciado com 3.125 polegadas de lado: 79.375 mm. O comprimento dos seis painéis é aproximado separadamente como 18.5 polegadas: 469.9 mm. Seis larguras nominais somam 476.25 mm, diferença de 6.35 mm. Nenhum valor define envelope de usinagem; espessura, furação, espaçamento e folga de conectores seguem desconhecidos.
+| Item | Dimensão / quantidade | Significado |
+|---|---|---|
+| Um painel | 3.125 × 3.125 polegadas = 79.375 × 79.375 mm | Dimensão quadrada publicada; espessura não especificada |
+| Seis painéis | 6 × 16 × 16 = 1.536 pixels | Quantidade anterior de planejamento mantida |
+| Seis painéis em uma fileira | 476.25 × 79.375 mm | Cálculo pelas larguras individuais, sem espaçamento ou folga de conectores; não é disposição selecionada |
+| Comprimento aproximado de seis painéis anunciado | 18.5 polegadas = 469.9 mm | Difere da soma das larguras em 6.35 mm; não usar como dimensão final de corte |
 
-A saída nominal da fonte corresponde aritmeticamente a 75 W, não ao consumo medido dos LEDs nem à comprovação de brilho irrestrito. Correntes permanecem desconhecidas até documentar limites de operação. Preservar a entrada externa única aterrada; o cabo fornecido não autoriza segunda entrada externa ou terminais de rede expostos.
+Usar o tamanho nominal individual para comparações preliminares. Dimensão montada final, espessura e folgas de instalação permanecem abertas. Este registro não altera envelope de montagem ou geometria do gabinete.
 
-## Configuração e decisões restantes
+## Demais escolhas de iluminação mantidas
 
-Usar o [gerador de arquivo do fabricante](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator/) para a configuração real e porta COM detectada. Os presets incluem fitas laterais. Salvar a configuração e verificar ordem dos pixels, orientação, brilho e zonas no comissionamento; não reutilizar o cálculo de três saídas da MX-DONNY. Nenhuma porta ou cabinet.xml está congelado agora.
+- Dois anéis LED dos alto-falantes incluídos na intenção do proprietário.
+- Iluminação sob o gabinete opcional, separada das fitas laterais e dos LEDs opcionais nas folgas da tela.
+- As duas fitas laterais do kit permanecem referência da discussão anterior; instalação e alocação não ficam congeladas pela escolha dos painéis.
 
-Os seis painéis mantêm a intenção anterior de 16×16. Disposição física e posição exata acima do playfield seguem abertas. Fitas incluídas não comprovam cobertura sob o gabinete nem nas folgas opcionais da tela. Os dois anéis selecionados acrescentam 90 pixels, totalizando 1.914 com matriz e fitas laterais do kit. A iluminação opcional sob o gabinete constitui a zona separada UNDERCABINET_LED, com produto, comprimento, pixels, alimentação e portas ainda indefinidos; sua carga não está incluída nesse subtotal. LEDs opcionais nas folgas da tela também permanecem separados.
-
-## Integração mecânica e elétrica a desenvolver
-
-- **Suporte da matriz** e **acabamento da iluminação** permanecem nomes provisórios, sem códigos definitivos. Usar adaptadores removíveis com fixadores e conectores acessíveis; evitar móveis estruturais adicionais ou furos permanentes específicos de componentes.
-- Verificar abertura de serviço do playfield, movimento do backbox, ângulo de visão, reflexos no vidro e acesso aos conectores antes de introduzir geometria CAD. A matriz não deve obstruir manutenção nem usar a TV como suporte.
-- Manter a iluminação dos speakers removível com o conjunto; reservar iluminação do gabinete sem fixar posições ainda. LEDs opcionais nas folgas devem preservar substituição e ventilação do display.
-- Selecionar painéis/fitas antes de calcular tensão, corrente máxima, capacidade da fonte, proteção de ramais, bitolas e pontos de injeção de alimentação. Capacidade de controle não equivale à capacidade da fonte. Preservar regras existentes de isolamento de rede e roteamento de áudio/dados.
-- Prever brilho independente por zona e opção de desligar efeitos; aparência final exige revisão visual do proprietário.
-
-Próximos dados: SKU de seis painéis/pedido, produto sob o gabinete caso adotado, medidas montadas, fixações/conectores, comprimentos das fitas e limites documentados de operação. Sessões físicas seguem pausadas; nenhuma geometria CAD foi alterada.
+Não se adota mapa de portas da controladora CSD, configuração de COM, preset cabinet.xml ou fonte incluída no kit. Compatibilidade e instalação cabem à implementação posterior do proprietário; este registro não declara compatibilidade testada. Sessões físicas seguem pausadas e liberação CNC bloqueada.

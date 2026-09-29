@@ -22,13 +22,17 @@
     "dimension_evidence": "VENDOR_NOMINAL_NOT_MEASURED",
     "published_six_panel_length_mm": 469.9,
     "derived_six_panel_width_sum_mm": 476.25,
-    "dimension_discrepancy_mm": 6.35
+    "dimension_discrepancy_mm": 6.35,
+    "design_status": "OPEN_TO_OWNER_DECISION",
+    "installation_responsibility": "OWNER",
+    "design_scope": "Published nominal matrix dimensions only; no selected layout, carrier, mounting holes or installation design",
+    "selected_layout_envelope_mm": null
   },
   "pc_interface_status": "BLOCKED_OWNER_DECISION",
   "zones": [
     {
       "zone_id": "MATRIX",
-      "status": "KIT_SELECTED_INTEGRATION_PENDING",
+      "status": "PANELS_AND_DONNY_SELECTED_LAYOUT_OPEN",
       "optional": false,
       "device_rows": [],
       "supply_rail": null,
@@ -37,7 +41,9 @@
       "total_input_power_W": null,
       "data_port": null,
       "service_connector": null,
-      "ratings_source": "https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit"
+      "ratings_source": "https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit",
+      "controller": "Arnoz MX-DONNY",
+      "installation_responsibility": "OWNER"
     },
     {
       "zone_id": "SPEAKER_LED",
@@ -66,7 +72,7 @@
       "data_port": null,
       "service_connector": null,
       "ratings_source": null,
-      "scope": "Included kit side strips; excludes optional undercabinet lighting",
+      "scope": "Kit side strips are a vendor reference; installation and allocation open; excludes optional undercabinet lighting",
       "total_pixels": 288
     },
     {
@@ -207,7 +213,7 @@
   "total_policy": "Do not total incomplete rails or double-count upstream supply input and downstream loads",
   "license": "CERN-OHL-S-2.0",
   "lighting_kit": {
-    "status": "OWNER_SELECTED",
+    "status": "MATRIX_PANEL_REFERENCE_NOT_COMPLETE_SYSTEM_SELECTION",
     "selection_date": "2026-09-29",
     "vendor": "Cleveland Software Design",
     "product": "Addressable LED Plug and Play Kit",
@@ -217,15 +223,18 @@
     "panel_variant_status": "SIX_PANEL_PRIOR_INTENT_ORDER_VARIANT_UNCONFIRMED",
     "speaker_ring_quantity": 2,
     "controller": {
-      "description": "Wemos S2",
-      "outputs": 10,
-      "supersedes": "Arnoz MX-DONNY plan for this kit only"
+      "description": "Arnoz MX-DONNY (Donny)",
+      "status": "OWNER_SELECTED",
+      "installation_responsibility": "OWNER",
+      "compatibility_status": "NOT_VERIFIED",
+      "port_allocation": null
     },
     "included_supply": {
       "output_voltage_V": 5,
       "rated_output_current_A": 15,
       "derived_output_capacity_W": 75,
-      "measured_load_W": null
+      "measured_load_W": null,
+      "selection_status": "VENDOR_BUNDLE_REFERENCE_ONLY_NOT_SELECTED"
     },
     "side_strip_count": 2,
     "side_strip_total_pixels": 288,
@@ -241,6 +250,7 @@
     },
     "configuration_source": "https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator/",
     "speaker_ring_selection_status": "OWNER_SELECTED",
-    "selected_pixel_total_excluding_undercabinet_and_gap": 1914
+    "configuration_source_status": "VENDOR_REFERENCE_ONLY_NOT_ADOPTED",
+    "reference_pixel_total_with_side_strips_and_rings": 1914
   }
 }

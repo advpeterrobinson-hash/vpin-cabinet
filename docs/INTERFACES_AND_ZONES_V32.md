@@ -4,7 +4,7 @@
 
 Status: **PROVISIONAL — CNC BLOCKED — physical sessions PAUSED**. Resumed 2026-09-28 from `0398d16857e66e415805b7154b0df7e37e7964a6` after the power outage. This is the next planning package from the [Pinscape review](PINSCAPE_ACCELERATION_REVIEW.md), using the [lighting intent](LIGHTING_INTENT_V32.md), [part registry](PART_CODES.md) and [V32 package](../exports/generated/cabinet-v32/README.md). No geometry, purchased hardware, measurements or electrical ratings are approved here.
 
-Update 2026-09-29: the owner selected the CSD LED kit. [Selected kit and nominal dimensions](LIGHTING_INTENT_V32.md) supersede the unknown product and earlier MX-DONNY assumption below. IF-05 remains unmeasured; order variant, connectors, fit and operating limits remain open.
+Owner clarification 2026-09-29: Cleveland matrix panels with Arnoz MX-DONNY control. [Matrix dimensions and open design](LIGHTING_INTENT_V32.md) supersede the earlier full-kit assumption. Installation is owner-defined; this pass records nominal dimensions only and does not require an installation design now.
 
 ## Interface register
 
@@ -16,7 +16,7 @@ These `IF-*` identifiers track requirements; they are not permanent part codes. 
 | IF-02 Plunger | Arnoz plunger intent; final interface pending | Exact revision, stroke, body/connector envelope and mounting pattern | Replaceable mounting proposal; full stroke and front-panel/access check |
 | IF-03 Glass and lockdown | Custom-width lockdown allowed; nominal plywood 18 mm | Glass thickness/edges, channel profile, lockdown receiver, retention and removal path | Section drawing with measured stock and hardware; test coupon before final panel cuts |
 | IF-04 Rear fans and guards | Two fan envelopes in V32; 120 mm nominal frame reference | Selected fan/guard/filter, cutout, hole pitch, cable exit and service access | Replaceable interface drawing plus removal check; thermal proof remains separate |
-| IF-05 Matrix | Six provisional 16×16 panels; 1,536 pixels | Model/revision, width/height/depth, pitch, mounting, connector access, arrangement, chipset, voltage and rated current | Panel record and mapping first; removable carrier proposal and motion review afterwards |
+| IF-05 Matrix | Six Cleveland panels, nominal 79.375 × 79.375 mm each; Donny controller | Final assembled size, thickness and clearances remain open | Dimensional reference only; layout and installation are owner decisions |
 | IF-06 Speaker/cabinet/gap LEDs | Two speaker rings selected; kit side strips; undercabinet and gap lighting optional | Selected strips/rings, lengths/pixels, dimensions, ratings and connector envelopes | Separate zone records; speaker lighting removes with speaker; preserve display clearance |
 | IF-07 Backbox and playfield service | BBBase and monitor-support identities; two captive props required | Hinge/fixing and cable envelopes; prop receivers, keepers, stowage and full-load retention | Separate motion/access study and one-prop load-proof plan; no completed physical test implied |
 | IF-08 Service modules | S1/S2/S3, T1/T2/T3 and PCBase appear in V32 | Fastener/tool envelopes, disconnect points, restraint and removal paths | Access sequence with dependencies and measured connectors; resolve PC architecture discrepancy below first |
@@ -59,7 +59,7 @@ Matrix arithmetic currently establishes only `6 × 16 × 16 = 1536` pixels. No p
 
 ## Next input and completion evidence
 
-1. Use the selected CSD kit listing; confirm its order variant, physical dimensions and desired arrangement/location. Record source and revision; do not import vendor files into the repository without license clearance.
+1. Retain the Cleveland panel dimensions for size comparisons. Layout and installation are left to the owner; no installation specification is requested in this pass.
 2. Fill IF-05 and each lighting zone from that evidence, keeping unconfirmed values open. Clarify the PC requirement before its service study.
 3. Add remaining device rows, then review mode dependencies, mapping, power totals, service connectors and motion envelopes.
 4. Propose visible carrier/interface geometry only after the inputs support it. Physical sessions remain paused; fit, electrical, thermal, motion and load tests are future evidence.

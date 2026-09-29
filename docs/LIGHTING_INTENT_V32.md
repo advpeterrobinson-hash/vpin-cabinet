@@ -1,31 +1,28 @@
-# Addressable lighting — selected kit
+# Addressable lighting — matrix dimensions and owner direction
 
 [English](LIGHTING_INTENT_V32.md) · [Português (Brasil)](pt-BR/LIGHTING_INTENT_V32.md)
 
-**OWNER_SELECTED 2026-09-29; integration PROVISIONAL; CNC BLOCKED.** The owner selected the [Cleveland Software Design Addressable LED Plug and Play Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit). Retain the previous six-panel intent. On 2026-09-29 the owner confirmed two speaker rings and optional undercabinet lighting; the final order SKU remains unrecorded. No purchase or receipt is asserted.
+**Owner clarification, 2026-09-29:** use Cleveland Software Design matrix panels with the Arnoz MX-DONNY (Donny) board. The Cleveland product page is the panel/dimensional reference; its bundled controller, PSU and configuration workflow are not selected by this decision. This corrects the earlier interpretation that the complete plug-and-play control system would be used.
 
-The included controller supersedes the previous Arnoz MX-DONNY plan for this kit. This does not change other Arnoz devices. Earlier Pinscape/MX-DONNY notes are historical context, not the selected controller allocation.
+The design remains open. Installation, wiring, power supply, controller configuration and final arrangement will be decided by the owner. The current engineering task is to retain the matrix size reference without freezing a carrier, permanent holes or placement in V32.
 
-## Published kit facts and dimensional limits
+## Matrix dimensions
 
-Source checked 2026-09-29. Vendor lists a Wemos S2 controller with 10 outputs, matrix panels, two side strips, connection leads/extensions, spacers/screws, USB cable and a 5 V / 15 A supply. Six panels provide 1,536 pixels; the side strips add 288. Optional speaker rings have 45 pixels each, 5 V, and listed dimensions 120/102/9 mm (dimension roles require confirmation).
+Source: [Cleveland matrix/kit listing](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit), checked 2026-09-29. These are published nominal dimensions, not measured hardware.
 
-Each panel is stated as 3.125 inches square: 79.375 mm. The six-panel length is separately approximated as 18.5 inches: 469.9 mm. Six nominal widths total 476.25 mm, a 6.35 mm discrepancy. Neither figure defines a machining envelope; thickness, mounting pitch, spacing and connector clearance remain unknown.
+| Item | Dimension / count | Meaning |
+|---|---|---|
+| One panel | 3.125 × 3.125 inches = 79.375 × 79.375 mm | Published square panel size; thickness not specified |
+| Six panels | 6 × 16 × 16 = 1,536 pixels | Existing planning quantity retained |
+| Six panels in one row | 476.25 × 79.375 mm | Arithmetic from individual widths, without spacing or connector allowance; not a selected layout |
+| Vendor's approximate six-panel length | 18.5 inches = 469.9 mm | Differs from six nominal widths by 6.35 mm; do not use as a final cut dimension |
 
-Supply nameplate output gives 75 W by arithmetic, not measured LED consumption or proof of unrestricted brightness capability. Keep load currents unknown until kit operating limits are documented. Preserve the cabinet's single external grounded feed; the supplied cord does not authorize a second external feed or exposed mains.
+Use the individual nominal panel size for preliminary size comparisons. Final assembled size, thickness and installation clearances remain open. No mounting envelope or cabinet geometry is changed by this record.
 
-## Configuration and remaining decisions
+## Other lighting choices retained
 
-Use the vendor's [cabinet file generator](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator/) for the actual kit configuration and detected COM port. Its presets include side strips. Save the resulting configuration and verify pixel order, orientation, brightness and each zone during commissioning; do not reuse the former MX-DONNY three-output calculation. No port numbers or cabinet.xml are frozen now.
+- Two speaker LED rings are included in the owner's intent.
+- Undercabinet lighting is optional, separate from side strips and optional display-gap lighting.
+- The kit's two side strips remain a reference for the earlier lighting discussion; their installation and allocation are not frozen by selecting the matrix panels.
 
-Six panels retain the prior 16×16 intent. Their physical arrangement and precise placement above the playfield remain open. Included side strips do not establish undercabinet or optional display-gap lighting coverage. The two selected speaker rings add 90 pixels, for 1,914 including the matrix and kit side strips. Optional undercabinet lighting is a separate UNDERCABINET_LED zone, with product, length, pixel count, power and controller allocation still open; its load is not included in this subtotal. Optional display-gap lighting also remains separate.
-
-## Mechanical and electrical integration to develop
-
-- **Matrix carrier** and **lighting trim** remain provisional names without permanent part codes. Use removable adapters with accessible fasteners and connectors; avoid new structural furniture or component-specific permanent wood holes.
-- Verify playfield service motion, backbox motion, viewing angle, glass reflections and connector access before introducing CAD geometry. Matrix installation must not obstruct service or rely on the TV for support.
-- Keep speaker illumination removable with the speaker assembly; reserve cabinet lighting without deciding its precise locations yet. Optional gap lighting must preserve display replacement and ventilation clearance.
-- Select panels/strips before calculating voltage, worst-case current, supply capacity, branch protection, conductor sizes and power-injection locations. LED control capacity is not power-supply capacity. Preserve existing mains isolation and audio/data routing rules.
-- Provide independently configurable brightness by zone and an effects-off setting; final appearance is an owner visual-review decision.
-
-Next inputs: exact six-panel/order SKU, undercabinet product if adopted, assembled dimensions, mounting/connector envelopes, strip lengths and documented operating limits. Physical sessions remain paused; no CAD geometry was changed.
+No CSD controller port map, COM-port setup, cabinet.xml preset or bundled PSU is adopted. Compatibility and installation details are for the owner's later implementation; this record makes no tested compatibility claim. Physical sessions remain paused and CNC release remains blocked.

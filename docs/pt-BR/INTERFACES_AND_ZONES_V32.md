@@ -4,7 +4,7 @@
 
 Status: **PROVISIONAL — CNC BLOCKED — sessões físicas PAUSED**. Retomada em 28/09/2026 a partir de `0398d16857e66e415805b7154b0df7e37e7964a6`, após o blecaute. Este é o próximo pacote da [revisão Pinscape](PINSCAPE_ACCELERATION_REVIEW.md), baseado na [intenção de iluminação](LIGHTING_INTENT_V32.md), no [registro de peças](PART_CODES.md) e no [pacote V32](../../exports/generated/cabinet-v32/README.md). Não aprova geometria, compra, medição ou características elétricas.
 
-Atualização 2026-09-29: o proprietário selecionou o kit LED CSD. [Kit e dimensões nominais](LIGHTING_INTENT_V32.md) substituem o produto desconhecido e a hipótese anterior de MX-DONNY abaixo. IF-05 continua sem medição; variante, conectores, encaixe e limites de operação seguem abertos.
+Esclarecimento do proprietário em 2026-09-29: painéis Cleveland com controle Arnoz MX-DONNY. [Dimensões e projeto aberto](LIGHTING_INTENT_V32.md) substituem a hipótese de kit completo. Instalação definida pelo proprietário; esta etapa registra dimensões nominais e não exige projeto de instalação agora.
 
 ## Registro de interfaces
 
@@ -16,7 +16,7 @@ Os identificadores `IF-*` organizam requisitos, não são códigos permanentes d
 | IF-02 Plunger | Intenção Arnoz; interface final pendente | Revisão, curso, corpo/conectores e furação | Proposta de suporte substituível; verificar curso completo e acesso |
 | IF-03 Vidro e lockdown | Lockdown personalizado permitido; madeira nominal de 18 mm | Vidro/bordas, canaletas, receptor, retenção e remoção | Seção com material/ferragens medidos; cupom antes dos cortes finais |
 | IF-04 Fans e grades | Dois envelopes V32; referência nominal de moldura de 120 mm | Modelo, grade/filtro, recorte, furos, cabo e acesso | Desenho de interface e remoção; comprovação térmica separada |
-| IF-05 Matriz | Seis painéis provisórios de 16×16; 1.536 pixels | Modelo/revisão, dimensões, pitch, fixação, conectores, disposição, chipset, tensão e corrente | Registro e mapeamento; depois proposta de suporte removível e revisão de movimento |
+| IF-05 Matriz | Seis painéis Cleveland, nominais 79.375 × 79.375 mm cada; controladora Donny | Dimensão montada final, espessura e folgas abertas | Somente referência dimensional; disposição e instalação decididas pelo proprietário |
 | IF-06 LEDs de speakers/gabinete/gap | Dois anéis selecionados; fitas laterais do kit; iluminação sob gabinete e gap opcionais | Modelos, comprimentos/pixels, dimensões, características e conectores | Registros separados; LED do speaker acompanha sua remoção; preservar folga da tela |
 | IF-07 Manutenção de backbox/playfield | BBBase e suportes de monitor; duas escoras cativas exigidas | Dobradiças/fixações/cabos; receptores, travas, recolhimento e retenção sob carga total | Estudo separado de movimento/acesso e plano de prova com uma escora; nenhum ensaio físico declarado |
 | IF-08 Módulos de manutenção | S1/S2/S3, T1/T2/T3 e PCBase na V32 | Ferramentas/fixações, desconexão, retenção e trajetórias | Sequência de acesso e dependências; resolver primeiro divergência do PC abaixo |
@@ -59,7 +59,7 @@ A aritmética da matriz estabelece somente `6 × 16 × 16 = 1536` pixels. Dispos
 
 ## Próxima entrada e evidência de conclusão
 
-1. Usar o anúncio do kit CSD selecionado; confirmar variante, dimensões e disposição/local desejados. Registrar fonte/revisão; não importar arquivos de fornecedor sem verificar licença.
+1. Preservar dimensões dos painéis Cleveland para comparação de tamanhos. Disposição e instalação ficam com o proprietário; esta etapa não solicita especificação de instalação.
 2. Preencher IF-05 e zonas de iluminação com essa evidência; manter dúvidas abertas. Esclarecer requisito do PC antes do estudo de manutenção.
 3. Adicionar dispositivos restantes e revisar dependências dos modos, mapeamento, totais, conectores e movimentos.
 4. Propor geometria visível somente com dados suficientes. Sessões físicas seguem pausadas; encaixe, elétrica, temperatura, movimento e carga dependem de evidência futura.
