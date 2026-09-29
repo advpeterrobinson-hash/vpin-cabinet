@@ -1,5 +1,13 @@
 # Virtual Pinball Cabinet
 
+## Current review entry point
+
+Review the `feat/cabinet-review-v32` branch. The owner-approved shelf layout is frozen at Y120/565/865 with 295/150 mm clear gaps and four top-release screws per shelf. Start with the [before/after plan](exports/generated/side-panel-v32/09-shelf-spacing.png), [current shelf explanation](docs/SIMPLE_SHELVES_V32.md), and [current shelf CAD](exports/generated/side-panel-v32/simple-shelves-proposal.FCStd). The older cabinet overview below is the preserved baseline, not the revised shelf scene.
+
+The [freeze record](config/shelf_layout_freeze_v32.json) and [93-check report](exports/generated/side-panel-v32/simple-shelves-validation.json) accompany the [assumed-axis display opening screen](exports/generated/side-panel-v32/shelf-service-pose-screen.json). Review support anchorage, actual hinge/props/harness, load/vibration behavior and manufacturing tolerances; none is certified by the packaging checks. The PC architecture discrepancy remains open in the [panel closure sequence](docs/PANEL_CLOSURE_V32.md).
+
+The [plain-text source index](library/references/links.txt) gives external-reference context. Third-party originals, backups/caches and protected legacy working CAD are not part of this published review. Render-input geometry JSON for the baseline cabinet and separate joinery proposal is included; the joinery proposal remains unadopted.
+
 **[OPEN THE CURRENT GALLERY →](docs/RENDERS.md)** · [Galeria em português](docs/pt-BR/RENDERS.md)
 
 **English** · [Português (Brasil)](README.pt-BR.md)

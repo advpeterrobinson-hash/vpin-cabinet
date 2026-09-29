@@ -1,5 +1,13 @@
 # Virtual Pinball Cabinet
 
+## Por onde começar a revisão atual
+
+Use a branch `feat/cabinet-review-v32`. O layout aprovado das prateleiras está congelado em Y120/565/865, com vãos295/150 mm e quatro parafusos por cima em cada prateleira. Comece pela [comparação em planta](exports/generated/side-panel-v32/09-shelf-spacing.png), pela [explicação atual](docs/pt-BR/SIMPLE_SHELVES_V32.md) e pelo [CAD atual das prateleiras](exports/generated/side-panel-v32/simple-shelves-proposal.FCStd). As vistas antigas do gabinete abaixo representam a base preservada, não a nova posição das prateleiras.
+
+O [registro de congelamento](config/shelf_layout_freeze_v32.json), as [93 verificações](exports/generated/side-panel-v32/simple-shelves-validation.json) e o [estudo de abertura em eixo proposto](exports/generated/side-panel-v32/shelf-service-pose-screen.json) estão disponíveis. Pontos úteis para análise: ancoragem dos apoios, dobradiças/escoras/cabos reais, cargas/vibração e tolerâncias de fabricação. A arquitetura de serviço do PC continua pendente na [sequência de fechamento](docs/PANEL_CLOSURE_V32.md). Os testes geométricos não liberam fabricação.
+
+O [índice de links em texto simples](library/references/links.txt) explica as referências externas. Originais de terceiros, backups/caches e o CAD de trabalho antigo protegido ficam fora desta revisão publicada. Os JSON de entrada dos renderizadores do gabinete-base e da proposta separada de encaixes também estão incluídos; a proposta de encaixes ainda não foi adotada.
+
 **[ABRIR A GALERIA ATUAL →](docs/pt-BR/RENDERS.md)** · [English gallery](docs/RENDERS.md)
 
 [English](README.md) · **Português (Brasil)**
