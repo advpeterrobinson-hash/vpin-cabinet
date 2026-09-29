@@ -1,0 +1,131 @@
+{
+  "status": "FRONT_LAYOUT_PROPOSAL",
+  "manufacturing_ready": false,
+  "checks": [
+    {
+      "check": "same 45 object identities",
+      "pass": true
+    },
+    {
+      "check": "all shapes valid single solids and recomputed",
+      "pass": true
+    },
+    {
+      "check": "only front and plunger reservation change",
+      "pass": true
+    },
+    {
+      "check": "front dimensions retained",
+      "pass": true
+    },
+    {
+      "check": "coin aperture retained",
+      "pass": true
+    },
+    {
+      "check": "button bore Start",
+      "pass": true
+    },
+    {
+      "check": "wood around Start",
+      "pass": true
+    },
+    {
+      "check": "button bore Extra Ball",
+      "pass": true
+    },
+    {
+      "check": "wood around Extra Ball",
+      "pass": true
+    },
+    {
+      "check": "button bore Exit / Back",
+      "pass": true
+    },
+    {
+      "check": "wood around Exit / Back",
+      "pass": true
+    },
+    {
+      "check": "button bore Launch Ball",
+      "pass": true
+    },
+    {
+      "check": "wood around Launch Ball",
+      "pass": true
+    },
+    {
+      "check": "coin fastener (136.4875, 225)",
+      "pass": true
+    },
+    {
+      "check": "coin fastener (463.5125, 225)",
+      "pass": true
+    },
+    {
+      "check": "coin fastener (300, 84.903125)",
+      "pass": true
+    },
+    {
+      "check": "coin fastener (300, 365.096875)",
+      "pass": true
+    },
+    {
+      "check": "plunger reserve new center",
+      "pass": true
+    },
+    {
+      "check": "plunger panel deliberately uncut",
+      "pass": true
+    },
+    {
+      "check": "saved proposal has no positive-volume solid overlaps",
+      "pass": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "case": "filled launch",
+      "rejected_by": [
+        "button bore Launch Ball"
+      ]
+    },
+    {
+      "case": "oversize button",
+      "rejected_by": [
+        "wood around Start"
+      ]
+    },
+    {
+      "case": "shelf drift",
+      "rejected_by": [
+        "only front and plunger reservation change"
+      ]
+    },
+    {
+      "case": "plunger drift",
+      "rejected_by": [
+        "plunger reserve new center"
+      ]
+    }
+  ],
+  "assumed_envelope_conflicts": [
+    {
+      "envelope": "Coin door screening",
+      "object": "SHELF_1",
+      "intersection_mm3": 160124.39999999997
+    },
+    {
+      "envelope": "Coin door screening",
+      "object": "PLAYFIELD_ENVELOPE",
+      "intersection_mm3": 1052811.8613620824
+    },
+    {
+      "envelope": "Coin door screening",
+      "object": "AUDIO_STARTECH",
+      "intersection_mm3": 7500.0
+    }
+  ],
+  "front_depth_to_S1_mm": 102.0,
+  "source_geometry_unchanged": true
+}

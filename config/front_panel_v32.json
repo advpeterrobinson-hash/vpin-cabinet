@@ -1,0 +1,105 @@
+{
+  "status": "FRONT_LAYOUT_PROPOSAL",
+  "manufacturing_ready": false,
+  "coordinate_system": "X left-to-right viewed from front; Y front-to-rear; Z up; all mm",
+  "body_width": 600,
+  "front": {
+    "x": 18,
+    "width": 564,
+    "height": 400.05,
+    "thickness": 18
+  },
+  "coin_opening": [
+    144.425,
+    92.840625,
+    311.15,
+    264.31875
+  ],
+  "coin_fasteners_xz": [
+    [
+      136.4875,
+      225
+    ],
+    [
+      463.5125,
+      225
+    ],
+    [
+      300,
+      84.903125
+    ],
+    [
+      300,
+      365.096875
+    ]
+  ],
+  "coin_fastener_radius": 3.571875,
+  "buttons": [
+    {
+      "name": "Start",
+      "x": 90,
+      "z": 310,
+      "face_diameter": 35
+    },
+    {
+      "name": "Extra Ball",
+      "x": 90,
+      "z": 260,
+      "face_diameter": 35
+    },
+    {
+      "name": "Exit / Back",
+      "x": 90,
+      "z": 210,
+      "face_diameter": 35
+    },
+    {
+      "name": "Launch Ball",
+      "x": 520,
+      "z": 210,
+      "face_diameter": 50
+    }
+  ],
+  "button_bore_diameter": 25.4,
+  "button_bore_status": "NOMINAL_VISUAL_STUDY_ONLY_NOT_SELECTED_HARDWARE",
+  "button_internal_radius": 18,
+  "button_internal_depth_with_cable": 65,
+  "plunger_center_xz": [
+    520,
+    280
+  ],
+  "plunger_face_width_height": [
+    60,
+    60
+  ],
+  "plunger_internal_box": [
+    500,
+    18,
+    260,
+    40,
+    202,
+    40
+  ],
+  "plunger_holes": "NOT_CUT_PENDING_ACTUAL_DRAWING",
+  "lockdown_receiver_reserve_z": [
+    380,
+    400.05
+  ],
+  "coin_screening_flange_margin": 20,
+  "coin_screening_depth": 140,
+  "screening_status": "ASSUMED_ENVELOPES_NOT_MEASURED; conflicts are review findings, not actual hardware collisions",
+  "functions_status": "PROPOSED_PENDING_OWNER_REPLY",
+  "service_controls": "Coin/credit via coin door; PC power/reset, calibration, volume and independent feedback disable inside service access; not additional exterior holes",
+  "photo_sources": [
+    "414893.jpg",
+    "414888.jpg"
+  ],
+  "photo_policy": "Visual arrangement only; no traced dimensions, artwork or third-party files imported",
+  "source_geometry": "exports/generated/cabinet-v32/vpin-central-v32.FCStd",
+  "rejected_plunger_center_z": 300,
+  "rejection_reason": "Provisional 40 x 202 x 40 internal envelope intersects MONITOR_RAIL_R at Z300",
+  "photo_sha256": {
+    "414893.jpg": "1438e9d5a64768505172ead973f68638fc4f376068edac1e67aa10b7cadf6f53",
+    "414888.jpg": "af9ae22291eb6adc104b87f2a395e7e84d40f9fb6508a344c64980ef7a34d875"
+  }
+}
