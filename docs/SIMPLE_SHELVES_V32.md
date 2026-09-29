@@ -1,5 +1,7 @@
 # V32 — simple top-release shelves
 
+**OWNER APPROVED — FUNCTIONAL LAYOUT FROZEN, 2026-09-29.** S1/S2/S3 start at Y120/565/865; clear gaps295/150 mm; four top screws and independent removal direction retained. Freeze record: `config/shelf_layout_freeze_v32.json`, baseline commit `1277f31`. Do not silently reopen placement. Hardware, support anchorage, real hinge/props/cables and manufacturing qualification remain open; this is not CNC approval.
+
 [Português (Brasil)](pt-BR/SIMPLE_SHELVES_V32.md)
 
 **Current owner-directed shelf fixing direction. Supersedes the removable support/nut-cover studies for normal service. CNC BLOCKED.**

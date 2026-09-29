@@ -1,0 +1,73 @@
+{
+  "status": "OWNER_APPROVED_LAYOUT_FROZEN",
+  "approved_on": "2026-09-29",
+  "owner_instruction": "Aprovado. Congele pra podermos seguir.",
+  "baseline_commit": "1277f31",
+  "scope": "Shelf functional layout and top-release direction; not manufacturing or structural approval",
+  "layout": {
+    "shelves": [
+      {
+        "number": 1,
+        "y_mm": 120,
+        "bolt_offsets_y_mm": [
+          25,
+          100
+        ],
+        "stage_y_mm": 410
+      },
+      {
+        "number": 2,
+        "y_mm": 565,
+        "bolt_offsets_y_mm": [
+          25,
+          100
+        ],
+        "stage_y_mm": 430
+      },
+      {
+        "number": 3,
+        "y_mm": 865,
+        "bolt_offsets_y_mm": [
+          15,
+          75
+        ],
+        "stage_y_mm": 760
+      }
+    ],
+    "bolt_x_mm": [
+      48,
+      552
+    ],
+    "support_width_mm": 42,
+    "minimum_shelf_gap_y_mm": 150
+  },
+  "shelf_size_mm": [
+    560,
+    150,
+    12
+  ],
+  "shelf_underside_z_mm": [
+    160,
+    180,
+    240
+  ],
+  "clear_gaps_y_mm": [
+    295,
+    150
+  ],
+  "service": "Four top screws per shelf, two per side, fixed supports; independent removal in tested scene",
+  "change_control": "Do not reposition shelves or alter the approved service direction silently. Present a concrete conflict and proposed revision for owner approval. Qualify unresolved hardware around this layout first.",
+  "not_frozen": [
+    "Actual support-to-wall anchorage",
+    "Fastener/insert selection and pilot/pocket dimensions",
+    "Hinge, captive props, harness and upper backbox integration",
+    "Load/vibration proof, material and CNC tolerances",
+    "PC architecture"
+  ],
+  "reference_artifacts": {
+    "config/simple_shelves_v32.json": "ff60e382ba810ca4ed5f2bace4115d5e968667d769b2edd0fe62811f38750bd4",
+    "exports/generated/side-panel-v32/simple-shelves-proposal.FCStd": "0ab0857d9bc5231a2a8d1c2eb03e3b5cb9f94dd5be175b5834619e298c01a668",
+    "exports/generated/side-panel-v32/simple-shelves-validation.json": "c237921dc7afe4ad20d8cc86f638f7a899fac597e3e7bfc1d0732db206fedd06",
+    "exports/generated/side-panel-v32/shelf-service-pose-screen.json": "77f392ac11d8c63bbfea1ecb189deb0570b6c2e51548a075ab9fa45936063fe0"
+  }
+}

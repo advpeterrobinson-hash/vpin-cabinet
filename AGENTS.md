@@ -8,6 +8,8 @@ The primary product is not merely one cabinet. The primary product is a **replic
 
 ## Source of truth
 
+- **Owner-frozen shelf layout (2026-09-29):** preserve `config/shelf_layout_freeze_v32.json` (Y120/565/865; gaps295/150; four top screws and independent service direction). Do not silently reopen placement. Hardware/load/CNC qualification remains pending.
+
 - Archive new external sources through `library/README.md`: contextual plain-text links and assessments are tracked; third-party originals live in ignored `library/references/local/`. Record failed downloads and do not claim unavailable videos/PDFs were reviewed.
 
 - The current owner-facing architecture review is **V32** on `feat/cabinet-review-v32`; start with `docs/RENDERS.md`, `docs/PART_CODES.md` and `exports/generated/cabinet-v32/README.md`.

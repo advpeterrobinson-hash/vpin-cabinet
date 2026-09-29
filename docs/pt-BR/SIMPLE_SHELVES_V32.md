@@ -1,5 +1,7 @@
 # V32 — quatro parafusos por cima
 
+**APROVADO — LAYOUT FUNCIONAL CONGELADO em 2026-09-29.** S1/S2/S3 em Y120/565/865; vãos295/150 mm; quatro parafusos por cima e direção de retirada independente preservados. Registro: `config/shelf_layout_freeze_v32.json`, commit de referência `1277f31`. Mudanças de posição exigem revisão explícita com o proprietário. Ferragens, ancoragem dos apoios, dobradiças/escoras/cabos e qualificação de fabricação permanecem pendentes. Não é liberação para CNC.
+
 [English / evidência técnica](../SIMPLE_SHELVES_V32.md)
 
 **Esta é a direção atual solicitada pelo proprietário. Substitui a complexidade das tampas de porcas e dos apoios removíveis.**

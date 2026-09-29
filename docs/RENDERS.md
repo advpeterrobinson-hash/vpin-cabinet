@@ -1,5 +1,7 @@
 # Renders
 
+**Shelf layout frozen by owner on 2026-09-29:** current spacing and top-release arrangement approved; see `config/shelf_layout_freeze_v32.json`. Hardware/structural/manufacturing qualification remains open.
+
 [English](RENDERS.md) · [Português (Brasil)](pt-BR/RENDERS.md)
 
 > **Fast visual entry point to the current project state.**  

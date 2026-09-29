@@ -199,3 +199,7 @@ Engineering proposal following owner instruction to finish the simple shelf solu
 ## DEC-V32-SHELF-SPACING — independent removal with a wider rear gap
 
 Owner found S2/S3 too close. Revised proposal moves S2 from Y600 to565 and S3 from820 to865, increasing the rear clear gap from70 to150 mm while retaining independent removal. Front gap is295 mm. Screw rows and S1 staging move to preserve tested access around fixed crossmembers. This supersedes the previous Y820 candidate; hinge/prop, loads and manufacturing qualification remain open. See current SIMPLE_SHELVES_V32 evidence.
+
+## DEC-OWNER-V32-SHELF-FREEZE — approved functional layout
+
+Owner explicitly approved and requested freezing on 2026-09-29: “Aprovado. Congele pra podermos seguir.” Freeze the layout in commit `1277f31`: S1 Y120, S2 Y565, S3 Y865; gaps295/150 mm; sizes560 ×150 ×12; underside heights160/180/240; four top screws with fixed supports and independent service direction. `config/shelf_layout_freeze_v32.json` records axes, staging positions and evidence hashes. Subsequent interface work must preserve this baseline; an unavoidable conflict needs an explicit owner-approved revision, not silent repositioning. Actual support anchorage, fasteners/insert pilots, hinge/props/harness, load proof and CNC tolerances are not frozen or approved for manufacturing. No geometry changed for this decision.
