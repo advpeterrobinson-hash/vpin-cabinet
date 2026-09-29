@@ -1,0 +1,23 @@
+{
+  "status": "VISUAL_PROPOSAL",
+  "glass_playfield_angle_deg": 9.90666925365063,
+  "led_angle_deg": 24.906669253650627,
+  "led_additional_tilt_deg": 15,
+  "panel_array_nominal_mm": [
+    476.25,
+    79.375
+  ],
+  "assumptions": [
+    "single row of six panels",
+    "15 degree extra tilt",
+    "visual lockdown shape only",
+    "glass outline is not measured hardware"
+  ],
+  "checks": {
+    "parallel_planes": true,
+    "array_within_body_width": true,
+    "array_before_rear_flat": true,
+    "led_face_below_glass_plane": true
+  },
+  "manufacturing_ready": false
+}

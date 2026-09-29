@@ -26,7 +26,13 @@
     "design_status": "OPEN_TO_OWNER_DECISION",
     "installation_responsibility": "OWNER",
     "design_scope": "Published nominal matrix dimensions only; no selected layout, carrier, mounting holes or installation design",
-    "selected_layout_envelope_mm": null
+    "selected_layout_envelope_mm": null,
+    "owner_layout_direction": {
+      "playfield": "parallel to glass",
+      "matrix": "upper area above playfield at a slight angle",
+      "lockdown_bar": "custom at front/player end",
+      "exact_angle_and_installation": "OPEN_TO_OWNER_DECISION"
+    }
   },
   "pc_interface_status": "BLOCKED_OWNER_DECISION",
   "zones": [

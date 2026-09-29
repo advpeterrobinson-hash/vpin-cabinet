@@ -26,3 +26,7 @@ Usar o tamanho nominal individual para comparações preliminares. Dimensão mon
 - As duas fitas laterais do kit permanecem referência da discussão anterior; instalação e alocação não ficam congeladas pela escolha dos painéis.
 
 Não se adota mapa de portas da controladora CSD, configuração de COM, preset cabinet.xml ou fonte incluída no kit. Compatibilidade e instalação cabem à implementação posterior do proprietário; este registro não declara compatibilidade testada. Sessões físicas seguem pausadas e liberação CNC bloqueada.
+
+## Render da disposição solicitada
+
+O proprietário solicita playfield paralelo ao vidro, LEDs preenchendo a área superior acima dele com leve inclinação e lockdown personalizado na frente/lado do jogador. [Ver render separado](../../exports/generated/lighting-study-v32/01-layout.png). Uma fileira de seis painéis e inclinação adicional de 15° são hipóteses visuais, não decisões finais de instalação. Reproduzir com `uv run --with numpy --with matplotlib python tools/render_lighting_study_v32.py` após gerar `geometry.json` da V32. CAD existente permanece inalterado.

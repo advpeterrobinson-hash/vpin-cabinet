@@ -26,3 +26,7 @@ Use the individual nominal panel size for preliminary size comparisons. Final as
 - The kit's two side strips remain a reference for the earlier lighting discussion; their installation and allocation are not frozen by selecting the matrix panels.
 
 No CSD controller port map, COM-port setup, cabinet.xml preset or bundled PSU is adopted. Compatibility and installation details are for the owner's later implementation; this record makes no tested compatibility claim. Physical sessions remain paused and CNC release remains blocked.
+
+## Owner layout render
+
+The owner requests the playfield parallel to the glass, LEDs filling the upper area above it at a slight angle, and a custom lockdown bar at the front/player end. [View the isolated render](../exports/generated/lighting-study-v32/01-layout.png). A single six-panel row and an extra 15° LED tilt are visualization assumptions, not final installation decisions. Reproduce with `uv run --with numpy --with matplotlib python tools/render_lighting_study_v32.py` after generating V32 `geometry.json`. Existing CAD remains unchanged.
