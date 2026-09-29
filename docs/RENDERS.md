@@ -8,7 +8,15 @@
 
 This page lets a new contributor understand the current cabinet direction without browsing the repository tree first. The complete technical package remains in [`exports/generated/cabinet-v32/`](../exports/generated/cabinet-v32/README.md).
 
-## Latest development — separate joinery proposal
+## Latest development — outward coin-door study
+
+Basic illuminated door, optional working mechanisms and removable compact tray. These are separate candidate configurations; original V32 geometry is unchanged. Actual hardware fit remains **UNVERIFIED**.
+
+[![Coin-door configurations](../exports/generated/front-panel-v32/02-coin-door-configurations.png)](FRONT_PANEL_REVIEW_V32.md)
+
+[Open the front-panel review and motion checks](FRONT_PANEL_REVIEW_V32.md).
+
+## Separate joinery proposal
 
 Three new views compare captured joints, an exploded shell and exact changes. **This is a separate proposal; the accepted V32 views below are unchanged.**
 

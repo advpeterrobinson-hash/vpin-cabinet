@@ -109,23 +109,7 @@
       ]
     }
   ],
-  "assumed_envelope_conflicts": [
-    {
-      "envelope": "Coin door screening",
-      "object": "SHELF_1",
-      "intersection_mm3": 160124.39999999997
-    },
-    {
-      "envelope": "Coin door screening",
-      "object": "PLAYFIELD_ENVELOPE",
-      "intersection_mm3": 1052811.8613620824
-    },
-    {
-      "envelope": "Coin door screening",
-      "object": "AUDIO_STARTECH",
-      "intersection_mm3": 7500.0
-    }
-  ],
+  "assumed_envelope_conflicts": [],
   "front_depth_to_S1_mm": 102.0,
   "source_geometry_unchanged": true
 }

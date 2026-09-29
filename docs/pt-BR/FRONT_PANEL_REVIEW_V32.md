@@ -1,49 +1,62 @@
-# Painel frontal: controles e revisão para fechamento
+# Painel frontal: porta iluminada e moedas funcionais opcionais
 
 [English](../FRONT_PANEL_REVIEW_V32.md) · [Português (Brasil)](FRONT_PANEL_REVIEW_V32.md)
 
-**FRONT_LAYOUT_PROPOSAL — CNC não liberado.** Primeira etapa da sequência frente → laterais → traseira → piso. V32 original e proposta de iluminação no fórum permanecem intactas. [Imagem](../../exports/generated/front-panel-v32/01-front-review.png) · [CAD separado](../../exports/generated/front-panel-v32/front-layout-proposal.FCStd) · [Verificação](../../exports/generated/front-panel-v32/validation.json).
+**Estudo implementado; encaixe da ferragem real UNVERIFIED; CNC BLOCKED.** Direção aprovada: porta iluminada abrindo para fora, botões de devolução gerando créditos e dois mecanismos funcionais opcionais com coletor compacto removível. Não se exige caixa de moedas arcade completa. É a primeira etapa de frente → laterais → traseira → piso; não libera usinagem permanente.
 
-As fotos `414893.jpg` e `414888.jpg` mostram três controles iluminados à esquerda, porta central, plunger à direita e Launch Ball abaixo. São referências de disposição, não de medidas ou furação. Os textos dos três botões não são todos legíveis; Start / Extra Ball / Exit-Back são funções propostas. Não copiamos arte temática nem importamos as fotos para o pacote.
+![Porta básica e configuração opcional](../../exports/generated/front-panel-v32/02-coin-door-configurations.png)
 
-## Proposta
+![Abertura para fora e profundidade interna separadas](../../exports/generated/front-panel-v32/03-coin-door-clearances.png)
 
-X cresce da esquerda para a direita olhando a frente; Z parte do fundo do gabinete; Y cresce para trás. Dimensões em mm. Mantidos corpo de 600, altura frontal 400.05 e painel existente de 564 × 400.05 × 18, X18..582. A proposta separada de encaixes capturados ainda não foi adotada.
+## Modelo espacial corrigido
 
-| Função | X | Z |
-|---|---:|---:|
-| Start | 90 | 310 |
-| Extra Ball / configurável | 90 | 260 |
-| Exit / Back | 90 | 210 |
-| Plunger | 520 | 280 |
-| Launch Ball | 520 | 210 |
+A extrusão anterior de 140 mm para dentro, cobrindo a porta inteira, foi **retirada**. Não representava movimento nem ferragem medida. Suas interseções com S1/display/StarTech deixam de ser evidência de colisão real. Esses componentes e toda a V32 original permanecem inalterados.
 
-Passo esquerdo de 50; plunger/Launch de 70. Faces 35/50 e placa de plunger 60 × 60 são hipóteses visuais. Furos nominais de 25.4 são estudo, não especificação da ferragem selecionada. Plunger continua sem furação. Não adicionamos placa, janela adaptadora ou código definitivo para imitar a foto.
+Agora moldura, folha, botões iluminados, corpos internos de luz/interruptor, fechadura, mecanismos/suportes opcionais, bandeja e dois suportes locais são separados. Verificamos ocupação fechada, movimento para fora da folha **com seus componentes** e retirada da bandeja/acesso através da abertura.
 
-Em relação à V32, dois botões esquerdos Z280/230 passam a três em Z310/260/210; acrescenta-se Launch à direita. Reserva do plunger passa de Z250 para Z280. Rebaixos anteriores dos botões foram omitidos porque a montagem real não está definida. Abertura e quatro furos de referência da porta foram preservados.
+A configuração básica não possui mecanismos, abas, bandeja ou suportes da bandeja. O upgrade acrescenta componentes removíveis na porta e bandeja sustentada pela frente, mantendo o mesmo recorte permanente. É proposta de arquitetura de expansão, não garantia para qualquer mecanismo. Fixações/retenção não estão qualificadas; não são liberados novos furos.
 
-Crédito pela porta, confirmando seus interruptores; power/reset, calibração, volume e desabilitação independente do feedback ficam no acesso interno. Funções/legendas podem mudar sem redesenhar madeira; manter Exit separado de Start e considerar comando prolongado no software. Não criar banco externo de manutenção.
+## Dimensões candidatas explícitas
 
-## Dependências encontradas
+Valores abaixo são decisões do estudo, **não medidas de fabricante ou ferragens reais**. X cresce da esquerda para a direita olhando a frente; Y para trás; Z para cima desde o fundo. Unidades mm.
 
-- Porta: referência X144.425..455.575, Z92.840625..357.159375, abertura 311.15 × 264.31875. Modelo, flange, dobradiça, fechadura, fixações e profundidade não confirmados. O envelope menor da v27 não valida esta abertura.
-- S1 começa em Y120; face interna frontal em Y18: **102 mm disponíveis até a prateleira**, antes de cabos e mãos. Um volume conservador de acesso com profundidade 140 e margem de flange 20 intercepta S1, display e StarTech. **Não prova colisão da porta real**: extrudar toda a flange pela profundidade superestima a ocupação. Obter desenho/medidas antes de decidir ajuste de S1/áudio removível ou interface da porta.
-- Corpo provisório de plunger 40 × 202 × 40 em Z300 colidia com MonRailR. Z280 limpa os vizinhos testados. Curso, sensor, cabo, porca e mão ainda exigem geometria real.
-- Reserva proposta do receptor do lockdown: Z380..400.05. Com flange ilustrativa de 20, sobra somente 2.84 mm até essa faixa. Isso não comprova espaço para o receptor ou ferramentas.
-- Brackets das pernas, reforços, arruelas, parafusos e ferramentas não são definidos pelas chapas decorativas da foto. Continuam pendência compartilhada entre frente e laterais.
+| Elemento | Definição candidata |
+|---|---|
+| Abertura existente | X144.425..455.575, Z92.840625..357.159375; 311.15 × 264.31875; fixações de referência mantidas |
+| Moldura | Margem externa 20; espessura frontal 3; não é um bloco profundo |
+| Folha | X146, Y−4, Z94; 308 × 3 × 261 |
+| Dobradiça/movimento | Esquerda vista de frente; eixo vertical X146/Y−4; abertura externa de 110°, amostras a cada 1° |
+| Luz/interruptores | Dois volumes 30 × 29 × 22; separados dos mecanismos |
+| Fechadura | Volume 18 × 36 × 22; lingueta e operação da chave ainda não verificadas |
+| Reservas de mecanismos | Duas caixas 45 × 95 × 135 em X310/370, Y8, Z170; ligadas à porta por abas removíveis conceituais |
+| Bandeja | Externa 115 × 80 × 25; paredes candidatas 2; X305/Y25/Z115; removível; sem caixa arcade completa |
+| Suportes da bandeja | Duas pequenas cantoneiras conceituais com apoio em Z115 e fixação na região frontal inferior; furos/retenção positiva pendentes |
+| Retirada | 180 para o jogador, amostras a cada 5 com porta aberta |
+| Sonda de acesso | 80 × 180 × 65 em X210/Y−100/Z210; comprova somente esse corredor candidato, não acesso humano irrestrito |
 
-## Verificação
+Reservas terminam em Y103; S1 começa em Y120: **17 mm até seu plano frontal neste candidato**. Não comprova espaço para cabos ou mãos. Dois corredores candidatos de queda terminam dentro da bandeja; saídas reais de aceitação/devolução e trajetórias dependem das ferragens. O guia Pinscape fornecido embasa mecanismos opcionais, crédito pelo botão de devolução e coletor compacto; não fornece as dimensões deste estudo.
 
-`freecadcmd tools/front_panel_v32_entry.py` salva/reabre um CAD separado. **20 verificações aprovadas:** 45 sólidos válidos, identidades originais, alteração apenas de Front/reserva do plunger, dimensões, abertura/fixações da porta, quatro furos e madeira ao redor, posição do plunger e ausência de seu recorte. Quatro controles negativos rejeitam Launch preenchido, Start alargado, S1 deslocada e reserva deslocada. Permanecem três sobreposições do volume conservador de acesso à porta. Proxies de botões e plunger rebaixado não interceptam os vizinhos testados.
+Nenhum desenho atual comprova o encaixe da porta/mecanismos selecionados. O PDF SUZOHAPP `40-0696-30 B` localizado não pôde ser obtido por timeout; nenhuma dimensão foi adotada e nenhum arquivo do fornecedor foi importado. O MHTML Pinscape fornecido foi lido e seu hash registrado na configuração. Desenhos proprietários e arte das fotos não foram copiados.
 
-Render: `uv run --with numpy --with matplotlib python tools/render_front_panel_v32.py`. Parâmetros: `config/front_panel_v32.json`. Não comprova resistência, movimento, ferramentas, elétrica ou fabricação; sessões físicas seguem pausadas.
+## Controles preservados
 
-## Evidência pendente
+Proposta: Start X90/Z310; Extra Ball X90/Z260; Exit/Back X90/Z210; plunger X520/Z280; Launch Ball X520/Z210. Funções/legendas esquerdas continuam propostas. Furos nominais 25.4 e faces visuais não especificam ferragem final. Plunger segue sem recorte. Z300 foi rejeitado com corpo provisório; Z280 limpa os vizinhos testados. Crédito nos botões da porta; power/reset, calibração, volume e desabilitação independente do feedback no acesso interno.
 
-Considerados fonte dimensional V32, gates HF-019/020/022/030, envelopes v27, avaliação Pinscape e proveniência PinSim. PDFs antigos das ferragens não foram encontrados nos arquivos acessíveis; não declaramos revisão nova deles. Reanexar desenhos da porta, botões, plunger, lockdown/pernas ou indicar caminhos acessíveis.
+Lockdown personalizado no topo frontal. Receptor real, brackets de pernas, dobradiça/fechadura, curso/cabos do plunger, porcas/ferramentas e fixações medidas permanecem interfaces compartilhadas pendentes. Corpo 600 e Front nominal 564 × 400.05 × 18 preservados. Encaixes capturados seguem proposta separada.
 
-Para fechar: confirmar funções visíveis; obter envelopes reais de montagem/manutenção; resolver porta/S1/display, cantos das pernas e receptor; validar uma furação paramétrica original com material/ferramenta/cupom medidos. Depois propagar interfaces para laterais. [Sequência de fechamento](PANEL_CLOSURE_V32.md).
+## Evidência e reprodução
 
-Contexto externo: [Pinscape, reforços de canto](https://mjrnet.org/pinscape/BuildGuideV2/BuildGuide.php?sid=cornerBraceCutting) alerta para interferências de reforços altos com controles; sua receita de marcenaria não é adotada. [POTAR Arnoz](https://shop.arnoz.com/en/plunger/44-potar.html) descreve sensor, não o conjunto mecânico completo ou gabarito selecionado.
+Executar `bash tools/run_front_panel_v32.sh`. Gera/reabre CAD, exige sentinelas de sucesso (FreeCAD pode retornar zero após exceções) e renderiza. Fonte: [V32](../../exports/generated/cabinet-v32/README.md); parâmetros em `config/front_panel_v32.json`.
+
+- [Frente-base](../../exports/generated/front-panel-v32/front-layout-proposal.FCStd): 20 verificações e quatro controles negativos originais.
+- [Básica fechada](../../exports/generated/front-panel-v32/coin-basic-closed.FCStd), [upgrade fechado](../../exports/generated/front-panel-v32/coin-upgrade-closed.FCStd), [upgrade aberto](../../exports/generated/front-panel-v32/coin-upgrade-open.FCStd): sólidos válidos, conjunto/geometria exatos, preservação dos 45 objetos originais e colisões de componentes verificados após reabertura.
+- [Evidência da porta](../../exports/generated/front-panel-v32/coin-door-validation.json): movimento externo amostrado nas duas versões, retirada da bandeja, acesso e queda candidatos. Mais quatro controles negativos rejeitam abertura interna, mecanismo interferente, retirada bloqueada e folha salva aberta para dentro.
+- Renders usam malhas dos **sólidos salvos**, sem modelo de ferragem desenhado à parte. [Vista frontal](../../exports/generated/front-panel-v32/01-front-review.png).
+
+Checks candidatos reportam PASS/FAIL. Encaixe real, cabos, pernas/receptor reais, resistência/retenção, trajetórias reais de moedas, acesso humano e movimento entre amostras permanecem **UNVERIFIED**. Aprovação do candidato não substitui evidência ausente. Sessões físicas pausadas.
+
+## Continuidade
+
+Frente e arquitetura de upgrade implementadas para revisão; usinagem permanente aberta. Propagar limites para [laterais → traseira → piso](PANEL_CLOSURE_V32.md). Não mover S1, recortar estrutura nem reservar caixa arcade com base no prisma retirado. Ferragem maior exige conflito específico e proposta localizada em interface substituível antes de mudar estrutura permanente.
 
 Material original: CERN-OHL-S-2.0. Preservar LICENSE e NOTICE.md. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.

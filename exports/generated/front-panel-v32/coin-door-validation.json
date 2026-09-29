@@ -1,0 +1,305 @@
+{
+  "status": "PROPOSAL_TESTED_ON_ASSUMED_COMPONENT_ENVELOPES",
+  "manufacturing_ready": false,
+  "hardware_fit": "UNVERIFIED",
+  "configurations": [
+    {
+      "configuration": "coin-basic-closed",
+      "checks": [
+        {
+          "check": "45 source study objects preserved",
+          "status": "PASS"
+        },
+        {
+          "check": "exact component set",
+          "status": "PASS"
+        },
+        {
+          "check": "all solids valid and recomputed",
+          "status": "PASS"
+        },
+        {
+          "check": "CoinFrame serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "DoorLeaf serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "ReturnButton1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "ReturnButton2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "LightSwitch1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "LightSwitch2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "DoorLock serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "saved components clear fixed model and exterior controls",
+          "status": "PASS"
+        },
+        {
+          "check": "component bodies do not overlap each other",
+          "status": "PASS"
+        }
+      ],
+      "actual_hardware_fit": "UNVERIFIED"
+    },
+    {
+      "configuration": "coin-upgrade-closed",
+      "checks": [
+        {
+          "check": "45 source study objects preserved",
+          "status": "PASS"
+        },
+        {
+          "check": "exact component set",
+          "status": "PASS"
+        },
+        {
+          "check": "all solids valid and recomputed",
+          "status": "PASS"
+        },
+        {
+          "check": "CoinFrame serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "DoorLeaf serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "ReturnButton1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "ReturnButton2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "LightSwitch1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "LightSwitch2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "DoorLock serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "Mechanism1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "Mechanism2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "MechanismMount1_1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "MechanismMount1_2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "MechanismMount2_1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "MechanismMount2_2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "CoinTray serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "TraySupport1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "TraySupport2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "saved components clear fixed model and exterior controls",
+          "status": "PASS"
+        },
+        {
+          "check": "component bodies do not overlap each other",
+          "status": "PASS"
+        }
+      ],
+      "actual_hardware_fit": "UNVERIFIED"
+    },
+    {
+      "configuration": "coin-upgrade-open",
+      "checks": [
+        {
+          "check": "45 source study objects preserved",
+          "status": "PASS"
+        },
+        {
+          "check": "exact component set",
+          "status": "PASS"
+        },
+        {
+          "check": "all solids valid and recomputed",
+          "status": "PASS"
+        },
+        {
+          "check": "CoinFrame serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "DoorLeaf serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "ReturnButton1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "ReturnButton2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "LightSwitch1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "LightSwitch2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "DoorLock serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "Mechanism1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "Mechanism2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "MechanismMount1_1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "MechanismMount1_2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "MechanismMount2_1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "MechanismMount2_2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "CoinTray serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "TraySupport1 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "TraySupport2 serialized shape matches definition",
+          "status": "PASS"
+        },
+        {
+          "check": "saved components clear fixed model and exterior controls",
+          "status": "PASS"
+        },
+        {
+          "check": "component bodies do not overlap each other",
+          "status": "PASS"
+        }
+      ],
+      "actual_hardware_fit": "UNVERIFIED"
+    }
+  ],
+  "opening": {
+    "direction": "OUTWARD",
+    "angle_deg": 110,
+    "sampling_deg": 1,
+    "findings": {
+      "basic": [],
+      "upgrade": [],
+      "tray_withdrawal": []
+    }
+  },
+  "service_access": {
+    "candidate_probe_box": [
+      210,
+      -100,
+      210,
+      80,
+      180,
+      65
+    ],
+    "obstacles": [],
+    "human_access": "UNVERIFIED"
+  },
+  "coin_drop": [
+    {
+      "inside_tray": true,
+      "obstacles": [],
+      "actual_coin_outlets": "UNVERIFIED"
+    },
+    {
+      "inside_tray": true,
+      "obstacles": [],
+      "actual_coin_outlets": "UNVERIFIED"
+    }
+  ],
+  "negative_controls": [
+    {
+      "case": "inward swing rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "interfering mechanism envelope rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "blocked tray extraction rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "saved inward leaf rejected",
+      "status": "PASS"
+    }
+  ],
+  "unverified_interfaces": [
+    "selected door/frame/hinge/lock dimensions",
+    "coin mechanism SKU, mounts and actual accepted/rejected coin paths",
+    "harness routing and flex",
+    "leg/bracket/bolt/tool sweep",
+    "receiver actual geometry",
+    "tray support/retainer fasteners and strength",
+    "human hand/tool access beyond candidate probe",
+    "continuous sweep between sampled positions",
+    "mechanism mounting tabs and tray retainer are conceptual; no fastener layout released"
+  ],
+  "retired_findings": "Old full-depth prism overlaps are not actual-fit evidence; S1, display and StarTech unchanged"
+}

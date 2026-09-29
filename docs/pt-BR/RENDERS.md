@@ -8,7 +8,15 @@
 
 Esta página permite que um novo colaborador entenda rapidamente a direção atual do gabinete sem primeiro navegar por toda a árvore do repositório. O pacote técnico completo permanece em [`exports/generated/cabinet-v32/`](../../exports/generated/cabinet-v32/README.md).
 
-## Último desenvolvimento — proposta separada de encaixes
+## Último desenvolvimento — porta de moedas abrindo para fora
+
+Porta iluminada básica, mecanismos funcionais opcionais e bandeja compacta removível. São configurações candidatas separadas; V32 original inalterada. Encaixe das ferragens reais permanece **UNVERIFIED**.
+
+[![Configurações da porta](../../exports/generated/front-panel-v32/02-coin-door-configurations.png)](FRONT_PANEL_REVIEW_V32.md)
+
+[Abrir revisão frontal e verificações de movimento](FRONT_PANEL_REVIEW_V32.md).
+
+## Proposta separada de encaixes
 
 Três novas vistas mostram cortes dos encaixes, caixa explodida e alterações exatas. **É uma proposta separada; as vistas V32 aceitas abaixo permanecem iguais.**
 

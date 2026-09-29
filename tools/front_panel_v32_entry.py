@@ -1,6 +1,7 @@
 """Saved-solid front layout proposal; source V32 is read-only. CERN-OHL-S-2.0."""
-import json, math
+import json, math, sys
 from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parent))
 import FreeCAD as A
 import Part
 R=Path(__file__).resolve().parents[1];C=json.loads((R/'config/front_panel_v32.json').read_text());O=R/'exports/generated/front-panel-v32';O.mkdir(parents=True,exist_ok=True)
@@ -47,7 +48,7 @@ checks.append({'check':'saved proposal has no positive-volume solid overlaps','p
 # Screen assumed hardware volumes against saved V32 neighbors. Findings remain open.
 envs={b['name']:Part.makeCylinder(C['button_internal_radius'],C['button_internal_depth_with_cable'],A.Vector(b['x'],18,b['z']),A.Vector(0,1,0)) for b in C['buttons']}
 envs['Plunger']=box(C['plunger_internal_box'])
-x,z,w,h=C['coin_opening'];m=C['coin_screening_flange_margin'];envs['Coin door screening']=box([x-m,18,z-m,w+2*m,C['coin_screening_depth'],h+2*m])
+# Door motion and component-specific access now checked by coin_door_v32.run.
 findings=[]
 for label,s in envs.items():
  for o in d.Objects:
@@ -65,5 +66,7 @@ for label,name,mutate in [
 assert all(c['pass'] for c in validate(d))
 report=dict(status=C['status'],manufacturing_ready=False,checks=checks,negative_controls=neg,assumed_envelope_conflicts=findings,front_depth_to_S1_mm=d.getObject('SHELF_1').Shape.BoundBox.YMin-18,source_geometry_unchanged=True)
 (O/'validation.json').write_text(json.dumps(report,indent=2)+'\n')
+from coin_door_v32 import run as run_coin_door
+run_coin_door(d,C)
 A.closeDocument(d.Name);A.closeDocument(bas.Name)
 print('FRONT_STUDY_PASS',len(checks),'checks;',len(neg),'negative controls; OPEN_SCREENING_CONFLICTS',findings)

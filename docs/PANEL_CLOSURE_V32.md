@@ -21,6 +21,6 @@ The captured-shell joinery proposal remains separate. It changes front/floor/rea
 
 ## Current handoff
 
-The [front proposal](FRONT_PANEL_REVIEW_V32.md) has saved geometry and negative-control evidence. Its appearance and conservative access findings are ready for review; hardware/PDF evidence and shared interfaces remain open. The side/rear/floor rows above are an audited dependency queue, not completed new geometry. Forum review of the playfield/LED proposal can continue independently, but the glass/lockdown and front service interfaces must eventually use the same accepted datums.
+The [front proposal](FRONT_PANEL_REVIEW_V32.md) now separates the outward leaf and attached hardware, default illuminated door, optional two mechanisms and removable compact tray. Saved geometry, sampled motion and negative controls pass for the explicit candidate envelopes. The old 140 mm full-door prism is retired; its overlaps do not justify moving S1/display/audio. Actual hardware and shared interfaces remain UNVERIFIED. The side/rear/floor rows above are an audited dependency queue, not completed new geometry. Forum review of the playfield/LED proposal can continue independently, but the glass/lockdown and front service interfaces must eventually use the same accepted datums.
 
 Release requires measured stock, selected tool diameter, clearances and relief, nesting/orientation, physical tolerance coupon, assembly/access evidence and owner manufacturing approval. Physical sessions remain paused. **CNC BLOCKED.**

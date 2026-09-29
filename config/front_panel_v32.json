@@ -85,9 +85,6 @@
     380,
     400.05
   ],
-  "coin_screening_flange_margin": 20,
-  "coin_screening_depth": 140,
-  "screening_status": "ASSUMED_ENVELOPES_NOT_MEASURED; conflicts are review findings, not actual hardware collisions",
   "functions_status": "PROPOSED_PENDING_OWNER_REPLY",
   "service_controls": "Coin/credit via coin door; PC power/reset, calibration, volume and independent feedback disable inside service access; not additional exterior holes",
   "photo_sources": [
@@ -101,5 +98,273 @@
   "photo_sha256": {
     "414893.jpg": "1438e9d5a64768505172ead973f68638fc4f376068edac1e67aa10b7cadf6f53",
     "414888.jpg": "af9ae22291eb6adc104b87f2a395e7e84d40f9fb6508a344c64980ef7a34d875"
+  },
+  "coin_door": {
+    "default_configuration": "BASIC_ILLUMINATED",
+    "upgrade_configuration": "TWO_MECHANISMS_COMPACT_TRAY",
+    "credit_input": "switches behind illuminated coin-return buttons",
+    "hinge_side": "LEFT_VIEWED_FROM_FRONT",
+    "opening_direction": "OUTWARD",
+    "hinge_axis_mm": [
+      146,
+      -4,
+      94
+    ],
+    "target_open_angle_deg": 110,
+    "sweep_step_deg": 1,
+    "hardware_status": "UNVERIFIED",
+    "selected_sku": null,
+    "verified_hardware_dimensions_mm": null,
+    "evidence": "Owner direction + supplied Pinscape guide; all component boxes below are explicit candidate space reservations, NOT manufacturer dimensions",
+    "frame_margin_mm": 20,
+    "frame_depth_mm": 3,
+    "components": [
+      {
+        "name": "DoorLeaf",
+        "box": [
+          146,
+          -4,
+          94,
+          308,
+          3,
+          261
+        ],
+        "kind": "leaf",
+        "moves_with_door": true,
+        "configuration": "BOTH"
+      },
+      {
+        "name": "ReturnButton1",
+        "box": [
+          315,
+          -14,
+          310,
+          30,
+          10,
+          22
+        ],
+        "kind": "return",
+        "moves_with_door": true,
+        "configuration": "BOTH"
+      },
+      {
+        "name": "ReturnButton2",
+        "box": [
+          375,
+          -14,
+          310,
+          30,
+          10,
+          22
+        ],
+        "kind": "return",
+        "moves_with_door": true,
+        "configuration": "BOTH"
+      },
+      {
+        "name": "LightSwitch1",
+        "box": [
+          315,
+          -1,
+          310,
+          30,
+          29,
+          22
+        ],
+        "kind": "light",
+        "moves_with_door": true,
+        "configuration": "BOTH"
+      },
+      {
+        "name": "LightSwitch2",
+        "box": [
+          375,
+          -1,
+          310,
+          30,
+          29,
+          22
+        ],
+        "kind": "light",
+        "moves_with_door": true,
+        "configuration": "BOTH"
+      },
+      {
+        "name": "DoorLock",
+        "box": [
+          424,
+          -1,
+          185,
+          18,
+          36,
+          22
+        ],
+        "kind": "lock",
+        "moves_with_door": true,
+        "configuration": "BOTH"
+      },
+      {
+        "name": "Mechanism1",
+        "box": [
+          310,
+          8,
+          170,
+          45,
+          95,
+          135
+        ],
+        "kind": "mechanism",
+        "moves_with_door": true,
+        "configuration": "UPGRADE"
+      },
+      {
+        "name": "Mechanism2",
+        "box": [
+          370,
+          8,
+          170,
+          45,
+          95,
+          135
+        ],
+        "kind": "mechanism",
+        "moves_with_door": true,
+        "configuration": "UPGRADE"
+      },
+      {
+        "name": "MechanismMount1_1",
+        "box": [
+          310,
+          -1,
+          185,
+          10,
+          9,
+          20
+        ],
+        "kind": "mount",
+        "moves_with_door": true,
+        "configuration": "UPGRADE"
+      },
+      {
+        "name": "MechanismMount1_2",
+        "box": [
+          310,
+          -1,
+          275,
+          10,
+          9,
+          20
+        ],
+        "kind": "mount",
+        "moves_with_door": true,
+        "configuration": "UPGRADE"
+      },
+      {
+        "name": "MechanismMount2_1",
+        "box": [
+          370,
+          -1,
+          185,
+          10,
+          9,
+          20
+        ],
+        "kind": "mount",
+        "moves_with_door": true,
+        "configuration": "UPGRADE"
+      },
+      {
+        "name": "MechanismMount2_2",
+        "box": [
+          370,
+          -1,
+          275,
+          10,
+          9,
+          20
+        ],
+        "kind": "mount",
+        "moves_with_door": true,
+        "configuration": "UPGRADE"
+      }
+    ],
+    "tray": {
+      "outer_box": [
+        305,
+        25,
+        115,
+        115,
+        80,
+        25
+      ],
+      "wall_mm": 2,
+      "withdrawal_y_mm": -180,
+      "step_mm": 5,
+      "mount": "removable front-supported tray on two local support brackets; fasteners/retention unqualified"
+    },
+    "tray_supports": {
+      "x_positions": [
+        305,
+        410
+      ],
+      "width_mm": 10,
+      "front_y": 18,
+      "rear_y": 105,
+      "anchor_z": 70,
+      "seat_z": 115,
+      "thickness_mm": 3,
+      "status": "PROPOSED_LOCAL_REPLACEABLE_BRACKETS_NO_HOLES_RELEASED"
+    },
+    "coin_drop_reservations": [
+      [
+        315,
+        35,
+        140,
+        25,
+        50,
+        30
+      ],
+      [
+        375,
+        35,
+        140,
+        25,
+        50,
+        30
+      ]
+    ],
+    "service_probe_box": [
+      210,
+      -100,
+      210,
+      80,
+      180,
+      65
+    ],
+    "unverified_interfaces": [
+      "selected door/frame/hinge/lock dimensions",
+      "coin mechanism SKU, mounts and actual accepted/rejected coin paths",
+      "harness routing and flex",
+      "leg/bracket/bolt/tool sweep",
+      "receiver actual geometry",
+      "tray support/retainer fasteners and strength",
+      "human hand/tool access beyond candidate probe",
+      "continuous sweep between sampled positions",
+      "mechanism mounting tabs and tray retainer are conceptual; no fastener layout released"
+    ],
+    "upgrade_rule": "same permanent front cutout; removable door-mounted hardware and front-supported tray; no shell recutting",
+    "retired_model": "140 mm inward full-door prism was not a door swing; prior overlaps are withdrawn as actual-fit evidence",
+    "sources": [
+      {
+        "title": "The New Pinscape Build Guide, owner-supplied MHTML",
+        "sha256": "5dc7fbed28a5a5d32c4d804d83075d52fd69ed1fd5b2d89e284b65bcc93e3d64",
+        "use": "coin-return credit switches, optional mechanisms and compact collector; no dimensional template copied"
+      },
+      {
+        "url": "https://na.suzohapp.com/pdf/40-0696-30%20B.pdf",
+        "status": "NOT_RETRIEVED_TIMEOUT",
+        "use": "none; no dimensions adopted; no asset imported"
+      }
+    ]
   }
 }

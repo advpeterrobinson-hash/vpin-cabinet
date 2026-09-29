@@ -17,6 +17,6 @@ Preservar datums na estrutura. Priorizar adaptadores de display, suportes/grades
 
 Encaixes capturados continuam proposta separada e mudam larguras de encaixe de frente/piso/traseira; decidir antes dos contornos finais. Preservar IDs e registrar revisões e superfícies/furos afetados.
 
-A [proposta frontal](FRONT_PANEL_REVIEW_V32.md) possui evidência de geometria salva e controles negativos. Visual e achados de acesso estão prontos para revisão; ferragens/PDFs e interfaces seguem abertos. Laterais/traseira/piso são fila de dependências auditada, não novas geometrias concluídas. Fórum da iluminação pode continuar em paralelo; vidro/lockdown e acesso frontal deverão compartilhar os mesmos datums aceitos.
+A [proposta frontal](FRONT_PANEL_REVIEW_V32.md) separa folha externa e componentes, porta iluminada básica, dois mecanismos opcionais e bandeja compacta removível. Geometria salva, movimento amostrado e controles negativos passam para os envelopes candidatos explícitos. O prisma antigo de 140 mm foi retirado; não justifica mover S1/display/áudio. Ferragens reais e interfaces seguem UNVERIFIED. Laterais/traseira/piso são fila de dependências auditada, não novas geometrias concluídas. Fórum da iluminação pode continuar em paralelo; vidro/lockdown e acesso frontal deverão compartilhar os mesmos datums aceitos.
 
 Liberação exige material medido, ferramenta, folgas/alívios, nesting/orientação, cupom físico, prova de montagem/acesso e aprovação do proprietário para fabricação. Sessões físicas pausadas. **CNC BLOCKED.**
