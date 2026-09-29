@@ -98,4 +98,3 @@ reference/pinsim/manifest.json:10 — reference/pinsim/manifest.json
 
 https://www.tukkari.eu/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit
 docs/DESIGN_SIMPLIFICATION_AUDIT_V28.md:15 — Benchmark, without copying
-

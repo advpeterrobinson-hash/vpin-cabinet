@@ -43,4 +43,3 @@ Referência de sistema excêntrico com recursos contra afrouxamento, descrição
 2026-09-29 | Fixação: fundamentos de madeira
 https://research.fs.usda.gov/fpl/wood-handbook
 Wood Handbook, US Forest Products Laboratory. Referência geral; não é ensaio da nossa junta ou base para atribuir capacidade ao compensado/insertos sem dados.
-
