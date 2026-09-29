@@ -8,7 +8,15 @@
 
 This page lets a new contributor understand the current cabinet direction without browsing the repository tree first. The complete technical package remains in [`exports/generated/cabinet-v32/`](../exports/generated/cabinet-v32/README.md).
 
-## Latest development — removable shelf retention
+## Latest development — replaceable support anchorage
+
+The accepted shelf-retention direction now has a separate side-anchorage study: inward-facing fasteners, blind insert reservations and checked support-replacement paths. Permanent side machining remains unapproved.
+
+[![Support anchorage](../exports/generated/side-panel-v32/06-shelf-anchorage.png)](SHELF_ANCHORAGE_REVIEW_V32.md)
+
+[Open the anchorage study and saved FreeCAD proposal](SHELF_ANCHORAGE_REVIEW_V32.md).
+
+## Removable shelf retention
 
 Separate proposal: top-release bolts and captured nuts in replaceable supports, with equipment access wells and preserved removal routes. Original V32 unchanged; hardware and structural performance unverified.
 

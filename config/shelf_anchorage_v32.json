@@ -1,0 +1,22 @@
+{
+  "status": "SIDE_ANCHORAGE_PROPOSAL_NOT_MACHINING_RELEASE",
+  "anchor_y_offsets_mm": [55, 125],
+  "support_bore_diameter_mm": 5.5,
+  "side_blind_bore_diameter_mm": 8.5,
+  "side_blind_depth_mm": 10.5,
+  "insert_diameter_mm": 8,
+  "insert_length_mm": 10,
+  "shaft_diameter_mm": 5,
+  "shaft_length_mm": 50,
+  "head_diameter_mm": 9,
+  "head_length_mm": 4,
+  "washer_diameter_mm": 12,
+  "washer_thickness_mm": 1,
+  "driver_radius_mm": 8,
+  "driver_length_mm": 100,
+  "withdrawal_mm": 55,
+  "support_inward_release_mm": 70,
+  "collision_threshold_mm3": 0.01,
+  "hardware_status": "Candidate cylindrical envelopes only. Threaded insert, actual fastener, pilot hole, installation method, engagement and plywood load performance remain unselected. Proposed blind side bores are not machining approval.",
+  "scope": "Two inward-facing removable anchors per shelf support. Local side anchorage; no cross-wall brace. Owner-approved shelf-retention direction retained; permanent-side cuts exist only in a separate generated proposal."
+}

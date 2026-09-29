@@ -200,12 +200,15 @@ doc.Comment='CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinso
 for name,shape in scene.items():
     obj=doc.addObject('PartDesign::Feature',name);obj.Shape=shape
     obj.addProperty('App::PropertyString','PartCode');obj.PartCode=getattr(base_doc.getObject(name),'PartCode','') if base_doc.getObject(name) else ''
+    if name.startswith('CandidateNutCover'):
+        suffix=name.removeprefix('CandidateNutCover');obj.PartCode='S'+suffix[0]+'NutCover'+suffix[1]
     obj.addProperty('App::PropertyString','StudyStatus');obj.StudyStatus='PROPOSAL_NOT_RELEASED'
     obj.Label=(obj.PartCode or 'PROVISIONAL '+name)+' / retention study'
 doc.recompute();path=OUT/'shelf-retention-proposal.FCStd';doc.saveAs(str(path));A.closeDocument(doc.Name)
 doc=A.openDocument(str(path));doc.recompute()
 actual={o.Name:o.Shape for o in doc.Objects if hasattr(o,'Shape')}
 check('saved exact identity set',set(actual)==set(scene))
+check('accepted nut-cover part codes preserved',all(doc.getObject(f'CandidateNutCover{i}{side}').PartCode==f'S{i}NutCover{side}' for i in (1,2,3) for side in ('L','R')))
 check('saved valid single solids',all(s.isValid() and len(s.Solids)==1 for s in actual.values()))
 check('saved shapes match proposal',all(actual[n].cut(s).Volume+s.cut(actual[n]).Volume<1e-4 for n,s in scene.items()))
 check('source and prior evidence unchanged',all(digest(ROOT/n)==h for n,h in input_hashes.items()))

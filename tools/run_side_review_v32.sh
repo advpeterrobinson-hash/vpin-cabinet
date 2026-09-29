@@ -23,4 +23,10 @@ if ! rg -q 'SHELF_RETENTION_PASS ' .work/side-panel-v32/retention.log; then
     exit 1
 fi
 rg 'SHELF_RETENTION_PASS ' .work/side-panel-v32/retention.log
+freecadcmd tools/shelf_anchorage_v32_entry.py > .work/side-panel-v32/anchorage.log 2>&1
+if ! rg -q 'SHELF_ANCHORAGE_PASS ' .work/side-panel-v32/anchorage.log; then
+    cat .work/side-panel-v32/anchorage.log
+    exit 1
+fi
+rg 'SHELF_ANCHORAGE_PASS ' .work/side-panel-v32/anchorage.log
 printf '%s\n' 'SIDE_REVIEW_COMPLETE - candidate packaging only; manufacturing BLOCKED'

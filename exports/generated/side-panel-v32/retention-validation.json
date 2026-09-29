@@ -43,10 +43,10 @@
   },
   "source_hashes": {
     "exports/generated/cabinet-v32/vpin-central-v32.FCStd": "ff973219bdc8bee6707bd29f6a44da74c895cbcbea9e0b1790d8e7723b9aa038",
-    "exports/generated/side-panel-v32/service-stage-SHELF_1.FCStd": "00aa0ebbe536ecea6a2bf735fb16f51e4b3a7e899848aaae4b9290f5823f54fe",
-    "exports/generated/side-panel-v32/motion-validation.json": "facb29c9743daab5de262ba31e8797c7349993c4b767ffe645bd3cb2a1d22b43",
+    "exports/generated/side-panel-v32/service-stage-SHELF_1.FCStd": "192aae7133cfe039f08bedf28421dcfc2ec3a812b9b283c7de25b4496fcec87f",
+    "exports/generated/side-panel-v32/motion-validation.json": "7daac4bc22ae260be6e0637d3e28120356abcd27df310b46bcfba6509f8118b0",
     "config/shelf_retention_v32.json": "9f4be81b7ff86ed77d012c9b5912956d3633c290c7ef79817046edf7413110da",
-    "tools/shelf_retention_v32_entry.py": "fa5b75b63e9f2aa1f066ab111109ae3d653563ac486e1ad118dabb729781a943"
+    "tools/shelf_retention_v32_entry.py": "6d94a57499aa162bd13d6351e8604f9132a7edc98a428ae13e9eed5b78f3dc5f"
   },
   "checks": [
     {
@@ -455,6 +455,10 @@
     },
     {
       "check": "saved exact identity set",
+      "pass": true
+    },
+    {
+      "check": "accepted nut-cover part codes preserved",
       "pass": true
     },
     {
@@ -1053,7 +1057,7 @@
   ],
   "saved_proposal": {
     "path": "exports/generated/side-panel-v32/shelf-retention-proposal.FCStd",
-    "sha256": "791b13865dc8ce249228e265a391826a7482b66a0d7ebb6f4eefc901d9fa7542",
+    "sha256": "23e948642760183a213e7f300bb7a1e8e110fcbf19a5876483af91e77aae75c4",
     "solids": 114
   },
   "changed_original_objects": [

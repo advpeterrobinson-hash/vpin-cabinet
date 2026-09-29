@@ -2,7 +2,7 @@
 
 [English / relatório técnico completo](../SHELF_RETENTION_REVIEW_V32.md)
 
-**Proposta separada, com 105 verificações aprovadas. V32 original inalterado; CNC BLOQUEADO.**
+**Proposta separada, com 106 verificações aprovadas. V32 original inalterado; CNC BLOQUEADO.**
 
 ![Fixação das prateleiras](../../exports/generated/side-panel-v32/05-shelf-retention.png)
 
@@ -10,7 +10,7 @@ Cada prateleira recebe quatro parafusos acessíveis por cima, com porcas quadrad
 
 S1/S2/S3 mantêm dimensões e posição. Na proposta, recebem apenas quatro furos nominais Ø5,5 mm, com eixos X48/552 e deslocamentos Y25/100 a partir da borda dianteira de cada prateleira. Nenhum painel permanente é recortado. Os afastamentos mínimos da borda do furo são 22,25 mm na prateleira e 9,25 mm na lateral do apoio; não são valores de resistência certificados.
 
-As porcas ficam em bolsões inferiores, fechados por seis **tampas provisórias**. Os bolsões impedem geometricamente a rotação de 45° da porca; as tampas interceptam sua queda depois de retirar o parafuso. A resistência e o comportamento sob vibração ainda precisam de comprovação.
+As porcas ficam em bolsões inferiores, fechados por seis tampas com identidade funcional S1NutCoverL/R a S3NutCoverL/R. Os bolsões impedem geometricamente a rotação de 45° da porca; as tampas interceptam sua queda depois de retirar o parafuso. A resistência e o comportamento sob vibração ainda precisam de comprovação.
 
 O envelope de equipamentos de 60 mm passa a reservar quatro corredores verticais Ø20 mm por prateleira para ferramenta e parafusos. **Esses Ø20 não são furos na madeira:** são regiões que equipamentos e fios devem deixar livres.
 
@@ -37,3 +37,7 @@ uv run --with matplotlib python tools/render_shelf_retention_v32.py
 O próximo detalhamento deve resolver a ancoragem dos apoios, retenção independente do monitor/travessas e escoras cativas. A proposta não fecha cargas, ferragens nem fabricação; sessões físicas permanecem pausadas.
 
 Material original: CERN-OHL-S-2.0. Preservar LICENSE e NOTICE.md. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.
+
+A direção funcional foi aprovada pelo proprietário em 2026-09-29 e registrada em [DEC-OWNER-V32-SHELVES](../DESIGN_DECISIONS.md#dec-owner-v32-shelves--removable-shelf-retention). Dimensões, ferragens e fabricação continuam provisórias.
+
+O [estudo de ancoragem lateral](SHELF_ANCHORAGE_REVIEW_V32.md) acrescenta apoios removíveis com furos cegos candidatos, preservando os acessos às prateleiras. Essa nova usinagem lateral permanece sem aprovação.

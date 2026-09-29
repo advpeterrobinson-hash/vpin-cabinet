@@ -1,0 +1,1444 @@
+{
+  "status": "SIDE_ANCHORAGE_PROPOSAL_NOT_MACHINING_RELEASE",
+  "manufacturing_ready": false,
+  "config": {
+    "status": "SIDE_ANCHORAGE_PROPOSAL_NOT_MACHINING_RELEASE",
+    "anchor_y_offsets_mm": [
+      55,
+      125
+    ],
+    "support_bore_diameter_mm": 5.5,
+    "side_blind_bore_diameter_mm": 8.5,
+    "side_blind_depth_mm": 10.5,
+    "insert_diameter_mm": 8,
+    "insert_length_mm": 10,
+    "shaft_diameter_mm": 5,
+    "shaft_length_mm": 50,
+    "head_diameter_mm": 9,
+    "head_length_mm": 4,
+    "washer_diameter_mm": 12,
+    "washer_thickness_mm": 1,
+    "driver_radius_mm": 8,
+    "driver_length_mm": 100,
+    "withdrawal_mm": 55,
+    "support_inward_release_mm": 70,
+    "collision_threshold_mm3": 0.01,
+    "hardware_status": "Candidate cylindrical envelopes only. Threaded insert, actual fastener, pilot hole, installation method, engagement and plywood load performance remain unselected. Proposed blind side bores are not machining approval.",
+    "scope": "Two inward-facing removable anchors per shelf support. Local side anchorage; no cross-wall brace. Owner-approved shelf-retention direction retained; permanent-side cuts exist only in a separate generated proposal."
+  },
+  "source_hashes": {
+    "config/shelf_anchorage_v32.json": "ce98e964f6f95cfedd54d17da180f607e175295f6e9ead3ac8d622c294f7d802",
+    "exports/generated/side-panel-v32/retention-validation.json": "38aa2527b479d67f7842ae6f4886583a87b85cecbb1ca2fbf817bbadc379a58f",
+    "exports/generated/side-panel-v32/motion-validation.json": "7daac4bc22ae260be6e0637d3e28120356abcd27df310b46bcfba6509f8118b0",
+    "exports/generated/side-panel-v32/shelf-retention-proposal.FCStd": "23e948642760183a213e7f300bb7a1e8e110fcbf19a5876483af91e77aae75c4",
+    "tools/shelf_anchorage_v32_entry.py": "500b6d4d3310661526a93b99ea1be6a32a6a866e8680410c5fe7fdae51d0074b"
+  },
+  "checks": [
+    {
+      "check": "12 support anchors",
+      "pass": true
+    },
+    {
+      "check": "all candidate solids valid",
+      "pass": true
+    },
+    {
+      "check": "only six supports and two side shapes changed",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L mirrored geometry",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1L mirrored geometry",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2L mirrored geometry",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3L mirrored geometry",
+      "pass": true
+    },
+    {
+      "check": "anchor hardware clears installed scene",
+      "pass": true
+    },
+    {
+      "check": "anchor hardware mutually clear",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1L1 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1L2 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1R1 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1R2 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2L1 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2L2 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2R1 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2R2 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3L1 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3L2 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3R1 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3R2 retained 7.5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1 loaded removal retained",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2 loaded removal retained",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3 loaded removal retained",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt1L1 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt1L1 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt1L2 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt1L2 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt1R1 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt1R1 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt1R2 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt1R2 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt2L1 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt2L1 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt2L2 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt2L2 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt2R1 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt2R1 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt2R2 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt2R2 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt3L1 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt3L1 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt3L2 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt3L2 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt3R1 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt3R1 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt3R2 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateShelfBolt3R2 prior withdrawal preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 1 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 2 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 3 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 4 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 5 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 6 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 7 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 8 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 9 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 10 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 11 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 12 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 13 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 14 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 15 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 16 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 17 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 18 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 19 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 20 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 21 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 22 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 23 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "cover 24 prior driver access preserved",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1L1 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1L1 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1L1 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1L2 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1L2 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1L2 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1R1 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1R1 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1R1 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1R2 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1R2 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1R2 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1L replacement route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1L retained anchor blocks inward movement",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1L1 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1L2 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1R replacement route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1R retained anchor blocks inward movement",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1R1 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor1R2 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2L1 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2L1 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2L1 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2L2 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2L2 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2L2 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2R1 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2R1 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2R1 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2R2 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2R2 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2R2 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2L replacement route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2L retained anchor blocks inward movement",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2L1 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2L2 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2R replacement route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2R retained anchor blocks inward movement",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2R1 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor2R2 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3L1 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3L1 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3L1 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3L2 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3L2 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3L2 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3R1 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3R1 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3R1 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3R2 inward driver access",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3R2 inward complete withdrawal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3R2 tip clears support",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3L replacement route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3L retained anchor blocks inward movement",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3L1 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3L2 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3R replacement route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3R retained anchor blocks inward movement",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3R1 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "CandidateSupportAnchor3R2 insert access after support removal",
+      "pass": true
+    },
+    {
+      "check": "negative control rejects through-drilled side",
+      "pass": true
+    },
+    {
+      "check": "inputs unchanged",
+      "pass": true
+    },
+    {
+      "check": "saved identity set",
+      "pass": true
+    },
+    {
+      "check": "saved permanent part codes preserved",
+      "pass": true
+    },
+    {
+      "check": "saved valid solids",
+      "pass": true
+    },
+    {
+      "check": "saved exact shapes",
+      "pass": true
+    }
+  ],
+  "axes": [
+    {
+      "name": "CandidateSupportAnchor1L1",
+      "support": "SHELF_SUPPORT_1L",
+      "wall": "SIDE_L",
+      "side": "L",
+      "direction": 1,
+      "xyz_mm": [
+        18.0,
+        175.0,
+        151.0
+      ],
+      "support_inner_face_mm": 60.0,
+      "head_start_x_mm": 61.0,
+      "tip_x_mm": 11.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor1L2",
+      "support": "SHELF_SUPPORT_1L",
+      "wall": "SIDE_L",
+      "side": "L",
+      "direction": 1,
+      "xyz_mm": [
+        18.0,
+        245.0,
+        151.0
+      ],
+      "support_inner_face_mm": 60.0,
+      "head_start_x_mm": 61.0,
+      "tip_x_mm": 11.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor1R1",
+      "support": "SHELF_SUPPORT_1R",
+      "wall": "SIDE_R",
+      "side": "R",
+      "direction": -1,
+      "xyz_mm": [
+        582.0,
+        175.0,
+        151.0
+      ],
+      "support_inner_face_mm": 540.0,
+      "head_start_x_mm": 539.0,
+      "tip_x_mm": 589.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor1R2",
+      "support": "SHELF_SUPPORT_1R",
+      "wall": "SIDE_R",
+      "side": "R",
+      "direction": -1,
+      "xyz_mm": [
+        582.0,
+        245.0,
+        151.0
+      ],
+      "support_inner_face_mm": 540.0,
+      "head_start_x_mm": 539.0,
+      "tip_x_mm": 589.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor2L1",
+      "support": "SHELF_SUPPORT_2L",
+      "wall": "SIDE_L",
+      "side": "L",
+      "direction": 1,
+      "xyz_mm": [
+        18.0,
+        655.0,
+        171.0
+      ],
+      "support_inner_face_mm": 60.0,
+      "head_start_x_mm": 61.0,
+      "tip_x_mm": 11.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor2L2",
+      "support": "SHELF_SUPPORT_2L",
+      "wall": "SIDE_L",
+      "side": "L",
+      "direction": 1,
+      "xyz_mm": [
+        18.0,
+        725.0,
+        171.0
+      ],
+      "support_inner_face_mm": 60.0,
+      "head_start_x_mm": 61.0,
+      "tip_x_mm": 11.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor2R1",
+      "support": "SHELF_SUPPORT_2R",
+      "wall": "SIDE_R",
+      "side": "R",
+      "direction": -1,
+      "xyz_mm": [
+        582.0,
+        655.0,
+        171.0
+      ],
+      "support_inner_face_mm": 540.0,
+      "head_start_x_mm": 539.0,
+      "tip_x_mm": 589.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor2R2",
+      "support": "SHELF_SUPPORT_2R",
+      "wall": "SIDE_R",
+      "side": "R",
+      "direction": -1,
+      "xyz_mm": [
+        582.0,
+        725.0,
+        171.0
+      ],
+      "support_inner_face_mm": 540.0,
+      "head_start_x_mm": 539.0,
+      "tip_x_mm": 589.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor3L1",
+      "support": "SHELF_SUPPORT_3L",
+      "wall": "SIDE_L",
+      "side": "L",
+      "direction": 1,
+      "xyz_mm": [
+        18.0,
+        1135.0,
+        231.0
+      ],
+      "support_inner_face_mm": 60.0,
+      "head_start_x_mm": 61.0,
+      "tip_x_mm": 11.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor3L2",
+      "support": "SHELF_SUPPORT_3L",
+      "wall": "SIDE_L",
+      "side": "L",
+      "direction": 1,
+      "xyz_mm": [
+        18.0,
+        1205.0,
+        231.0
+      ],
+      "support_inner_face_mm": 60.0,
+      "head_start_x_mm": 61.0,
+      "tip_x_mm": 11.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor3R1",
+      "support": "SHELF_SUPPORT_3R",
+      "wall": "SIDE_R",
+      "side": "R",
+      "direction": -1,
+      "xyz_mm": [
+        582.0,
+        1135.0,
+        231.0
+      ],
+      "support_inner_face_mm": 540.0,
+      "head_start_x_mm": 539.0,
+      "tip_x_mm": 589.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    },
+    {
+      "name": "CandidateSupportAnchor3R2",
+      "support": "SHELF_SUPPORT_3R",
+      "wall": "SIDE_R",
+      "side": "R",
+      "direction": -1,
+      "xyz_mm": [
+        582.0,
+        1205.0,
+        231.0
+      ],
+      "support_inner_face_mm": 540.0,
+      "head_start_x_mm": 539.0,
+      "tip_x_mm": 589.0,
+      "nominal_shaft_insert_overlap_mm": 7.0,
+      "remaining_outer_skin_mm": 7.5
+    }
+  ],
+  "retention_access": [
+    {
+      "bolt": "CandidateShelfBolt1L1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt1L2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt1R1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt1R2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt2L1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt2L2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt2R1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt2R2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt3L1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt3L2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt3R1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "CandidateShelfBolt3R2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    }
+  ],
+  "cover_access": [
+    {
+      "axis": {
+        "cover": "CandidateNutCover1L",
+        "xyz_mm": [
+          26,
+          132.0,
+          137.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover1L",
+        "xyz_mm": [
+          26,
+          258.0,
+          137.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover1L",
+        "xyz_mm": [
+          52,
+          132.0,
+          137.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover1L",
+        "xyz_mm": [
+          52,
+          258.0,
+          137.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover1R",
+        "xyz_mm": [
+          548,
+          132.0,
+          137.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover1R",
+        "xyz_mm": [
+          548,
+          258.0,
+          137.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover1R",
+        "xyz_mm": [
+          574,
+          132.0,
+          137.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover1R",
+        "xyz_mm": [
+          574,
+          258.0,
+          137.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover2L",
+        "xyz_mm": [
+          26,
+          612.0,
+          157.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover2L",
+        "xyz_mm": [
+          26,
+          738.0,
+          157.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover2L",
+        "xyz_mm": [
+          52,
+          612.0,
+          157.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover2L",
+        "xyz_mm": [
+          52,
+          738.0,
+          157.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover2R",
+        "xyz_mm": [
+          548,
+          612.0,
+          157.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover2R",
+        "xyz_mm": [
+          548,
+          738.0,
+          157.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover2R",
+        "xyz_mm": [
+          574,
+          612.0,
+          157.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover2R",
+        "xyz_mm": [
+          574,
+          738.0,
+          157.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover3L",
+        "xyz_mm": [
+          26,
+          1092.0,
+          217.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover3L",
+        "xyz_mm": [
+          26,
+          1218.0,
+          217.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover3L",
+        "xyz_mm": [
+          52,
+          1092.0,
+          217.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover3L",
+        "xyz_mm": [
+          52,
+          1218.0,
+          217.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover3R",
+        "xyz_mm": [
+          548,
+          1092.0,
+          217.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover3R",
+        "xyz_mm": [
+          548,
+          1218.0,
+          217.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover3R",
+        "xyz_mm": [
+          574,
+          1092.0,
+          217.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "axis": {
+        "cover": "CandidateNutCover3R",
+        "xyz_mm": [
+          574,
+          1218.0,
+          217.0
+        ]
+      },
+      "conflicts": []
+    }
+  ],
+  "insert_access": [
+    {
+      "anchor": "CandidateSupportAnchor1L1",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor1L2",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor1R1",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor1R2",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor2L1",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor2L2",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor2R1",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor2R2",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor3L1",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor3L2",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor3R1",
+      "conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor3R2",
+      "conflicts": []
+    }
+  ],
+  "installed_conflicts": [],
+  "hardware_conflicts": [],
+  "access": [
+    {
+      "anchor": "CandidateSupportAnchor1L1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor1L2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor1R1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor1R2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor2L1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor2L2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor2R1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor2R2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor3L1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor3L2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor3R1",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "anchor": "CandidateSupportAnchor3R2",
+      "driver_conflicts": [],
+      "withdrawal_conflicts": []
+    }
+  ],
+  "shelf_routes": [
+    {
+      "shelf": "SHELF_1",
+      "conflicts": []
+    },
+    {
+      "shelf": "SHELF_2",
+      "conflicts": []
+    },
+    {
+      "shelf": "SHELF_3",
+      "conflicts": []
+    }
+  ],
+  "support_routes": [
+    {
+      "support": "SHELF_SUPPORT_1L",
+      "moving": [
+        "SHELF_SUPPORT_1L",
+        "CandidateNutCover1L",
+        "CandidateShelfBolt1L1Nut",
+        "CandidateShelfBolt1L2Nut"
+      ],
+      "translations_mm": [
+        [
+          70.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          310.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          467.9
+        ]
+      ],
+      "conflicts": [],
+      "retained_washer_stop_mm3": 89.33904108645973
+    },
+    {
+      "support": "SHELF_SUPPORT_1R",
+      "moving": [
+        "SHELF_SUPPORT_1R",
+        "CandidateNutCover1R",
+        "CandidateShelfBolt1R1Nut",
+        "CandidateShelfBolt1R2Nut"
+      ],
+      "translations_mm": [
+        [
+          -70.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          310.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          467.9
+        ]
+      ],
+      "conflicts": [],
+      "retained_washer_stop_mm3": 89.33904108645973
+    },
+    {
+      "support": "SHELF_SUPPORT_2L",
+      "moving": [
+        "SHELF_SUPPORT_2L",
+        "CandidateNutCover2L",
+        "CandidateShelfBolt2L1Nut",
+        "CandidateShelfBolt2L2Nut"
+      ],
+      "translations_mm": [
+        [
+          70.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -170.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          447.9
+        ]
+      ],
+      "conflicts": [],
+      "retained_washer_stop_mm3": 89.33904108645983
+    },
+    {
+      "support": "SHELF_SUPPORT_2R",
+      "moving": [
+        "SHELF_SUPPORT_2R",
+        "CandidateNutCover2R",
+        "CandidateShelfBolt2R1Nut",
+        "CandidateShelfBolt2R2Nut"
+      ],
+      "translations_mm": [
+        [
+          -70.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -170.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          447.9
+        ]
+      ],
+      "conflicts": [],
+      "retained_washer_stop_mm3": 89.33904108645983
+    },
+    {
+      "support": "SHELF_SUPPORT_3L",
+      "moving": [
+        "SHELF_SUPPORT_3L",
+        "CandidateNutCover3L",
+        "CandidateShelfBolt3L1Nut",
+        "CandidateShelfBolt3L2Nut"
+      ],
+      "translations_mm": [
+        [
+          70.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -320.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          387.9
+        ]
+      ],
+      "conflicts": [],
+      "retained_washer_stop_mm3": 89.33904108645974
+    },
+    {
+      "support": "SHELF_SUPPORT_3R",
+      "moving": [
+        "SHELF_SUPPORT_3R",
+        "CandidateNutCover3R",
+        "CandidateShelfBolt3R1Nut",
+        "CandidateShelfBolt3R2Nut"
+      ],
+      "translations_mm": [
+        [
+          -70.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -320.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          387.9
+        ]
+      ],
+      "conflicts": [],
+      "retained_washer_stop_mm3": 89.33904108645974
+    }
+  ],
+  "changed_original_objects": [
+    "SHELF_SUPPORT_1L",
+    "SHELF_SUPPORT_1R",
+    "SHELF_SUPPORT_2L",
+    "SHELF_SUPPORT_2R",
+    "SHELF_SUPPORT_3L",
+    "SHELF_SUPPORT_3R",
+    "SIDE_L",
+    "SIDE_R"
+  ],
+  "saved_proposal": {
+    "path": "exports/generated/side-panel-v32/shelf-anchorage-proposal.FCStd",
+    "sha256": "a815a62addd52df288a9bb50b140b70a2a4213e7ded677b9510052945402babb",
+    "solids": 150
+  },
+  "limitations": [
+    "No selected insert or verified side pilot; no thread/installation/load certification",
+    "Side bores only in separate proposal; actual stock/cutter/relief and pullout/vibration tests required",
+    "Support replacement requires unloaded removed shelf and monitor/crossmember teardown prerequisites",
+    "Axial probes do not prove hand access or whole-tool insertion",
+    "Continuous conservative swept boxes for shelf/support assemblies; exact coaxial sweeps for bolts/washers"
+  ]
+}

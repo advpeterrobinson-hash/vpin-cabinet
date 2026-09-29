@@ -66,6 +66,19 @@ A code represents **the function of the part**, not merely a temporary filename.
 | PCBase | PC_BASE | lower PC base | architecture accepted |
 | BBBase | BACKBOX_BASE | backbox base/support | function accepted; Williams hardware pending |
 
+## Owner-approved V32 shelf-retention identities
+
+Owner accepted the removable shelf-retention direction on 2026-09-29. The covers therefore receive permanent functional identities; dimensions and manufacturing remain provisional. Original V32 geometry is not overwritten. Generated study documents retain legacy object names for traceability.
+
+| Permanent code | Study legacy ID | Function | Status |
+|---|---|---|---|
+| S1NutCoverL | CandidateNutCover1L | S1 left captured-nut cover | function accepted; fastening/material pending |
+| S1NutCoverR | CandidateNutCover1R | S1 right captured-nut cover | function accepted; fastening/material pending |
+| S2NutCoverL | CandidateNutCover2L | S2 left captured-nut cover | function accepted; fastening/material pending |
+| S2NutCoverR | CandidateNutCover2R | S2 right captured-nut cover | function accepted; fastening/material pending |
+| S3NutCoverL | CandidateNutCover3L | S3 left captured-nut cover | function accepted; fastening/material pending |
+| S3NutCoverR | CandidateNutCover3R | S3 right captured-nut cover | function accepted; fastening/material pending |
+
 ## Provisional names
 
 The following intentionally remain without a permanent code:

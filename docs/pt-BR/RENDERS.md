@@ -8,7 +8,15 @@
 
 Esta página permite que um novo colaborador entenda rapidamente a direção atual do gabinete sem primeiro navegar por toda a árvore do repositório. O pacote técnico completo permanece em [`exports/generated/cabinet-v32/`](../../exports/generated/cabinet-v32/README.md).
 
-## Último desenvolvimento — fixação removível das prateleiras
+## Último desenvolvimento — ancoragem substituível dos apoios
+
+A fixação aprovada das prateleiras agora tem um estudo separado de ancoragem: parafusos pelo interior, reservas para insertos cegos e rotas verificadas de substituição dos apoios. Usinagem permanente das laterais ainda não aprovada.
+
+[![Ancoragem dos apoios](../../exports/generated/side-panel-v32/06-shelf-anchorage.png)](SHELF_ANCHORAGE_REVIEW_V32.md)
+
+[Abrir estudo e proposta FreeCAD](SHELF_ANCHORAGE_REVIEW_V32.md).
+
+## Fixação removível das prateleiras
 
 Proposta separada: parafusos acessíveis por cima e porcas capturadas nos apoios substituíveis, com espaço para ferramenta e rotas de retirada preservadas. V32 original inalterado; ferragens e resistência pendentes.
 

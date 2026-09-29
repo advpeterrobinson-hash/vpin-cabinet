@@ -171,3 +171,11 @@ Combine each overlapping landing/latch doubler pair into one union retaining bot
 ## DEC-OWNER-V27 — manual props and modular service layout
 
 Owner directs manual playfield lift with two simple captive positive props, no baseline gas assistance, two removable narrow electronics carriers, generic filtered bottom intake, solid SSF wall zones, visible button/plunger envelopes and retained outward-opening backbox access door. See [OWNER_REVIEW_V27.md](OWNER_REVIEW_V27.md). Main width and CPU architecture remain unchanged.
+
+## DEC-OWNER-V32-SHELVES — removable shelf retention
+
+**Status:** owner accepted the functional direction on 2026-09-29 (“Perfeita solução. Prosseguir”).
+
+Use four top-accessible shelf screws with captured square nuts in replaceable local side supports, leaving nut covers in place for normal shelf removal. Preserve the tested horizontal-first extraction paths and reserve tool wells in the equipment layout. The accepted study uses 42 mm support width; hardware envelopes remain candidates rather than purchase specifications. Covers receive S1NutCoverL/R through S3NutCoverL/R identities.
+
+This accepts the [shelf-retention direction](SHELF_RETENTION_REVIEW_V32.md), not manufacturing release, structural capacity or the subsequent blind-insert side-anchorage proposal. Do not overwrite the original V32 artifact until the remaining interfaces are qualified. Side anchorage, monitor/crossmember retention, captive props, material/tool tolerances and physical proof remain open. The unresolved PC architecture decision is not changed by this approval.
