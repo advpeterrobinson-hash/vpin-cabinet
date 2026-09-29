@@ -19,6 +19,8 @@ Project releases should prefer original geometry, measurements, interoperability
 
 ## Owner-supplied cabinet dimension PDF (2026-09-29)
 
+Related hardware references: the [Arcade Express leaf kit](https://www.arcadexpress.com/en/pinball/538-12705-pinball-button-kit-with-end-of-stroke-switch-leaf-holder-bracket-nut.html) and [SUZOHAPP arcade-button flyer](https://na.suzohapp.com/pdf/pushbutton_flyer.pdf) are linked in the [side-button assessment](docs/SIDE_BUTTON_OPTIONS_V32.md). Their images, drawings and bracket designs are not redistributed or relicensed; only factual specifications and original assessment are recorded.
+
 [Pinball cabinet dimensions](https://sdssautomotive.wordpress.com/wp-content/uploads/2022/04/pinball-cabinet-dimensions.pdf), hosted by SDSS Automotive on WordPress, is an external dimensional reference. Authorship and redistribution permission are unconfirmed. The PDF and drawings are not redistributed or relicensed. Factual dimensions, source hash and original comparison are in the [V32 reference assessment](docs/CABINET_DIMENSIONS_REFERENCE_V32.md).
 
 ## PinSim reference assessment (2026-09-27)

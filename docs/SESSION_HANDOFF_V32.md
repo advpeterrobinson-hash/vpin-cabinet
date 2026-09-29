@@ -103,6 +103,8 @@ Next: qualify actual inserts/fasteners and anchor coupon before any permanent si
 
 ## Resume here — owner simplified the shelf fixing
 
+Latest button direction, 2026-09-29: owner prefers traditional leaf pinball side buttons and supplied Arcade Express product 538/variant 12705. Retain a conventional arcade alternative for other builders. See `docs/SIDE_BUTTON_OPTIONS_V32.md`: seller dimensions are ambiguous, current Ø15.875 bore is unverified, and the cited SUZOHAPP arcade family needs Ø28.575. Plan separate pre-CNC configurations; no universal hole, adapter or new cut is adopted. Actual bracket/leaf/service envelopes still need qualification.
+
 Reference update, 2026-09-29: owner supplied and endorsed a cabinet dimension PDF for clarification. See `docs/CABINET_DIMENSIONS_REFERENCE_V32.md` for URL, hash, pages, conversions and discrepancies (especially side-button through-bores and coin-opening height). PDF/drawings are not redistributed; no geometry changed. Use it in future dimension reviews without replacing the selected 600 mm body or actual hardware evidence.
 
 Owner rejected fixing complexity and clarified the exact routine: open playfield, look down, undo two screws on each side, remove the shelf with mounted equipment. This supersedes the nut-cover/removable-support direction. Start with `docs/SIMPLE_SHELVES_V32.md` / Portuguese companion; `tools/run_simple_shelves_v32.sh` is the current shelf entry point. The old five-stage runner and nut-cover/side-anchorage files remain historical evidence, not the next design to extend. AGENTS.md and render entry pages now point to the simple direction. Retired S#NutCoverL/R codes must not be reused.

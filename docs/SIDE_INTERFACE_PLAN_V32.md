@@ -32,6 +32,8 @@ The rear button at Y310 has a candidate radial boundary at Y328; T1Guide begins 
 
 ## Button mounting decision to develop
 
+**Owner preference:** traditional pinball leaf buttons, using the [Arcade Express kit reference and arcade alternative plan](SIDE_BUTTON_OPTIONS_V32.md). Develop separate pre-CNC configurations for leaf and conventional arcade hardware; shared hole sizes are not established. No automatic enlargement or universal adapter is adopted.
+
 The existing Ø15.875 bore and Ø28.575 counterbores are references. Keep them provisional until barrel diameter, usable thread, flange seating, nut/washer diameter, switch removal and terminal orientation are known.
 
 | Candidate stack at nominal 18 mm stock | Remaining wood under clamp | Status |

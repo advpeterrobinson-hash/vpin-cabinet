@@ -185,3 +185,9 @@ This accepts the [shelf-retention direction](SHELF_RETENTION_REVIEW_V32.md), not
 **Status:** current explicit owner direction, superseding the removable-support/nut-cover complexity of DEC-OWNER-V32-SHELVES.
 
 Owner clarified: two screws per side, coming from above; open the playfield, look down, undo the shelf and remove it with mounted equipment. Use fixed local supports and retained threaded receivers; no underside nut-cover service or support-anchor removal for shelf maintenance. Crossmembers should stay in place. The separate [simplified study](SIMPLE_SHELVES_V32.md) checks top tool columns and loaded shelf translation with crossmembers retained; it adjusts the rear S2 screw and advances S3 by80 mm as a proposal to clear fixed obstructions. Actual raised-display/prop/cable integration is still unverified. This instruction is not CNC approval.
+
+## DEC-OWNER-V32-SIDE-BUTTONS — leaf preference with arcade alternative
+
+**Status:** owner preference recorded 2026-09-29; mounting dimensions unqualified.
+
+Use traditional pinball leaf buttons as the main side-control direction, with the supplied Arcade Express kit as reference. Preserve a conventional arcade option for other builders. See [hardware evidence and implementation direction](SIDE_BUTTON_OPTIONS_V32.md). Separate pre-CNC hole/stack configurations are the proposed simple implementation; universal interchangeability is not established. Existing side bores/recesses remain provisional and no production cuts change in this decision.

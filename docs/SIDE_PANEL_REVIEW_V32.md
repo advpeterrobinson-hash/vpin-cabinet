@@ -4,6 +4,8 @@
 
 Read-only audit of the saved V32 solids; **hardware fit UNVERIFIED; CNC BLOCKED**. Front-panel choices remain in the separate front study. No permanent panel was recut in this audit.
 
+Owner now prefers [traditional leaf pinball buttons](SIDE_BUTTON_OPTIONS_V32.md); retain a separately specified arcade option for other builders. The linked kit is a hardware reference, not yet a verified mounting stack.
+
 The owner-supplied [dimension reference](CABINET_DIMENSIONS_REFERENCE_V32.md) adds a side-button discrepancy: its printed Ø1.12 inch bore is approximately Ø28.448 mm, unlike the saved Ø15.875 through-hole. Review hardware and datums before changing cuts.
 
 | Interface | Saved geometry / result | Required before release |
