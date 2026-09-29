@@ -103,6 +103,8 @@ Next: qualify actual inserts/fasteners and anchor coupon before any permanent si
 
 ## Resume here — owner simplified the shelf fixing
 
+Reference update, 2026-09-29: owner supplied and endorsed a cabinet dimension PDF for clarification. See `docs/CABINET_DIMENSIONS_REFERENCE_V32.md` for URL, hash, pages, conversions and discrepancies (especially side-button through-bores and coin-opening height). PDF/drawings are not redistributed; no geometry changed. Use it in future dimension reviews without replacing the selected 600 mm body or actual hardware evidence.
+
 Owner rejected fixing complexity and clarified the exact routine: open playfield, look down, undo two screws on each side, remove the shelf with mounted equipment. This supersedes the nut-cover/removable-support direction. Start with `docs/SIMPLE_SHELVES_V32.md` / Portuguese companion; `tools/run_simple_shelves_v32.sh` is the current shelf entry point. The old five-stage runner and nut-cover/side-anchorage files remain historical evidence, not the next design to extend. AGENTS.md and render entry pages now point to the simple direction. Retired S#NutCoverL/R codes must not be reused.
 
 New separate simple CAD: four top screws per shelf into retained top-threaded receiver envelopes in fixed local supports. No covers, captive square-nut pockets, removable wall-anchor mechanism or new side-panel holes. Candidate shafts Ø5 ×25, top insert Ø8 ×10, clearances provisional. Fixed support attachment and actual hardware/load performance remain open. Original V32 source remains unchanged.

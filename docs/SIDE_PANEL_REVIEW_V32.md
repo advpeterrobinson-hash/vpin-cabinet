@@ -4,6 +4,8 @@
 
 Read-only audit of the saved V32 solids; **hardware fit UNVERIFIED; CNC BLOCKED**. Front-panel choices remain in the separate front study. No permanent panel was recut in this audit.
 
+The owner-supplied [dimension reference](CABINET_DIMENSIONS_REFERENCE_V32.md) adds a side-button discrepancy: its printed Ø1.12 inch bore is approximately Ø28.448 mm, unlike the saved Ø15.875 through-hole. Review hardware and datums before changing cuts.
+
 | Interface | Saved geometry / result | Required before release |
 |---|---|---|
 | Side pair | Mirrored across X300; 18 mm thick, 1308.1 mm long; front/rear heights 400.05/596.9 mm from source | Measured stock and accepted captured-shell joinery |

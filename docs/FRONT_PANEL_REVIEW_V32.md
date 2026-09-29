@@ -44,6 +44,8 @@ No current manufacturer drawing establishes the selected door or mechanism fit. 
 
 ## Front controls preserved
 
+The owner-supplied [dimension reference](CABINET_DIMENSIONS_REFERENCE_V32.md) corroborates the nominal Ø25.4 front-button bore but differs in front-panel width and coin-opening height. Its recess and plunger details remain references pending actual hardware; registering the PDF changes no cuts.
+
 The photo-inspired proposal remains Start X90/Z310, Extra Ball X90/Z260, Exit/Back X90/Z210; plunger X520/Z280; Launch Ball X520/Z210. Left-button function/legends remain proposed. Nominal 25.4 mm button bores and visual face sizes are not final hardware specifications. The plunger opening is not cut. Z300 was rejected using the provisional plunger body; Z280 clears the tested neighbors. Coin/credit uses the door return buttons; PC power/reset, calibration, volume and independent feedback-disable access remain inside the service area.
 
 The custom lockdown remains at the front top. Its actual receiver, leg brackets, hinge/lock selection, complete plunger stroke/cabling, button nuts/tools and measured door fasteners remain shared interface gates. The 600 mm body and 564 × 400.05 × 18 nominal Front are unchanged. The captured-shell joinery proposal is still separate.

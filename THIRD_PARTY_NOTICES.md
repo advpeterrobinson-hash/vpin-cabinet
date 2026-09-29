@@ -17,6 +17,10 @@ Contributors must not copy proprietary CAD, copyrighted manuals, artwork, ROMs, 
 
 Project releases should prefer original geometry, measurements, interoperability facts, and links to lawful upstream sources rather than redistributing third-party files unnecessarily.
 
+## Owner-supplied cabinet dimension PDF (2026-09-29)
+
+[Pinball cabinet dimensions](https://sdssautomotive.wordpress.com/wp-content/uploads/2022/04/pinball-cabinet-dimensions.pdf), hosted by SDSS Automotive on WordPress, is an external dimensional reference. Authorship and redistribution permission are unconfirmed. The PDF and drawings are not redistributed or relicensed. Factual dimensions, source hash and original comparison are in the [V32 reference assessment](docs/CABINET_DIMENSIONS_REFERENCE_V32.md).
+
 ## PinSim reference assessment (2026-09-27)
 
 - [Jerware/PinSim](https://github.com/Jerware/PinSim), commit `d0f35c2ff881b99ffcf9fc341bdacf742de84128`: GPL-3.0 firmware, linked only.
