@@ -40,3 +40,7 @@ Require the sentinel; FreeCADCmd can exit zero after Python exceptions. The [rep
 Parameters and explicitly removed objects are in `config/side_service_v32.json`. Source FCStd SHA256 remains `ff973219bdc8bee6707bd29f6a44da74c895cbcbea9e0b1790d8e7723b9aa038`. The earlier 46-check side audit remains separate evidence.
 
 Original material: CERN-OHL-S-2.0. Preserve LICENSE and NOTICE.md. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.
+
+## Continuous movement follow-up
+
+The [continuous removal study](SIDE_MOTION_REVIEW_V32.md) now checks monitor teardown, crossmember extraction and staged shelf removal. It establishes modeled translation paths for the previously assumed removed states, while actual release hardware and safe handling remain unverified.

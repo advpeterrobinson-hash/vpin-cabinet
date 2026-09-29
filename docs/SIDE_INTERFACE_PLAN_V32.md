@@ -65,3 +65,7 @@ Original material: CERN-OHL-S-2.0. Preserve LICENSE and NOTICE.md. Source Locati
 ## Tool-access finding
 
 The subsequent [guide-anchor service screen](SIDE_SERVICE_REVIEW_V32.md) found six compact-tool obstructions at the upper forward anchors with the monitor rails installed. Removing the monitor assembly clears the compact candidate; the larger candidate also requires crossmember removal. Preserve an independent, accessible release sequence for those components before finalizing guide anchors.
+
+## Removal route development
+
+The [continuous motion study](SIDE_MOTION_REVIEW_V32.md) now establishes candidate shelf staging bays and checks removal with 60 mm equipment envelopes. Preserve these routes when detailing shelf retention, cable connections and future side mounts; they do not require changing permanent panels.

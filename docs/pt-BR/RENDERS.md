@@ -8,7 +8,15 @@
 
 Esta página permite que um novo colaborador entenda rapidamente a direção atual do gabinete sem primeiro navegar por toda a árvore do repositório. O pacote técnico completo permanece em [`exports/generated/cabinet-v32/`](../../exports/generated/cabinet-v32/README.md).
 
-## Último desenvolvimento — porta de moedas abrindo para fora
+## Último desenvolvimento — retirada das prateleiras
+
+Verificações contínuas de movimento definem rotas candidatas para as três prateleiras, incluindo envelopes de equipamentos de 60 mm. Guias e painéis permanentes ficam no lugar. Ferragens e cargas seguem pendentes.
+
+[![Rotas de manutenção](../../exports/generated/side-panel-v32/04-shelf-service-routes.png)](SIDE_MOTION_REVIEW_V32.md)
+
+[Abrir estudo e posições de manutenção salvas em FreeCAD](SIDE_MOTION_REVIEW_V32.md).
+
+## Porta de moedas abrindo para fora
 
 Porta iluminada básica, mecanismos funcionais opcionais e bandeja compacta removível. São configurações candidatas separadas; V32 original inalterada. Encaixe das ferragens reais permanece **UNVERIFIED**.
 

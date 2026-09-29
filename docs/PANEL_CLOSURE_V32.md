@@ -28,3 +28,5 @@ Release requires measured stock, selected tool diameter, clearances and relief, 
 Current continuation: [side-panel audit](SIDE_PANEL_REVIEW_V32.md) and [session handoff](SESSION_HANDOFF_V32.md).
 
 Side interface development now has a [datum, occupied-support and load/service plan](SIDE_INTERFACE_PLAN_V32.md). Its button-stack alternatives and mounting paths remain proposals; no side machining is frozen.
+
+The [continuous side-service study](SIDE_MOTION_REVIEW_V32.md) adds 16 tested translation routes and separate saved service poses. Ten candidate routes clear and six direct-lift comparisons remain obstructed. Shelf retention and wiring must preserve the staged routes; hardware, loads and PC architecture still gate closure.

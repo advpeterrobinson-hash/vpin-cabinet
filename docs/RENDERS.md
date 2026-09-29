@@ -8,7 +8,15 @@
 
 This page lets a new contributor understand the current cabinet direction without browsing the repository tree first. The complete technical package remains in [`exports/generated/cabinet-v32/`](../exports/generated/cabinet-v32/README.md).
 
-## Latest development — outward coin-door study
+## Latest development — shelf service routes
+
+Continuous straight-motion checks establish candidate removal paths for all three shelves, including 60 mm equipment envelopes. Guides and permanent panels stay in place. Hardware and loads remain unverified.
+
+[![Shelf service routes](../exports/generated/side-panel-v32/04-shelf-service-routes.png)](SIDE_MOTION_REVIEW_V32.md)
+
+[Open the motion study and saved FreeCAD service poses](SIDE_MOTION_REVIEW_V32.md).
+
+## Outward coin-door study
 
 Basic illuminated door, optional working mechanisms and removable compact tray. These are separate candidate configurations; original V32 geometry is unchanged. Actual hardware fit remains **UNVERIFIED**.
 

@@ -1,0 +1,68 @@
+{
+  "status": "TRANSLATION_SERVICE_STUDY_ONLY",
+  "units": "mm",
+  "collision_threshold_mm3": 0.01,
+  "top_exit_margin_mm": 10,
+  "monitor_assembly": [
+    "PLAYFIELD_ENVELOPE",
+    "MONITOR_RAIL_L",
+    "MONITOR_RAIL_R",
+    "MONITOR_BRIDGE"
+  ],
+  "crossmembers": [
+    "CROSS_1",
+    "CROSS_2",
+    "CROSS_3"
+  ],
+  "side_button_probe": {
+    "radius_mm": 18,
+    "depth_mm": 80,
+    "y_mm": [
+      255,
+      310
+    ],
+    "z_mm": 270
+  },
+  "shelf_routes": [
+    {
+      "object": "SHELF_1",
+      "stage_y_mm": 430,
+      "removed_payload": [
+        "AUDIO_STARTECH"
+      ]
+    },
+    {
+      "object": "SHELF_2",
+      "stage_y_mm": 430,
+      "removed_payload": []
+    },
+    {
+      "object": "SHELF_3",
+      "stage_y_mm": 760,
+      "removed_payload": []
+    }
+  ],
+  "scope": "Continuous straight translation of existing planar solids only. Shelves screened one at a time with other shelves retained. Front study uses upgrade door closed plus configured button/plunger reservations; side buttons are candidate envelopes. Glass, lockdown, LEDs, cables, actual fasteners, props, hinges, legs and unmodeled payloads excluded. Monitor vertical extraction is a major teardown packaging study, not the routine hinged service mode or a safe lifting procedure.",
+  "candidate_shelf_payload_height_mm": 60,
+  "candidate_payload_scope": "Full 560 x 150 shelf footprint, from shelf top upward 60 mm. Explicit packaging allowance including equipment, mounts and restrained wiring; not selected equipment or a load rating. Disconnect external harness before moving. Existing S1 audio moves with S1 in the loaded route.",
+  "required_clear_routes": [
+    "monitor_vertical_teardown",
+    "CROSS_1_after_monitor_lift",
+    "CROSS_2_after_monitor_lift",
+    "CROSS_3_after_monitor_lift",
+    "SHELF_1_staged_without_named_payload",
+    "SHELF_2_staged_without_named_payload",
+    "SHELF_3_staged_without_named_payload",
+    "SHELF_1_staged_with_payload",
+    "SHELF_2_staged_with_payload",
+    "SHELF_3_staged_with_payload"
+  ],
+  "required_obstructed_controls": [
+    "CROSS_1_assembled_lift",
+    "CROSS_2_assembled_lift",
+    "CROSS_3_assembled_lift",
+    "SHELF_1_direct_with_modeled_payload",
+    "SHELF_2_direct_with_modeled_payload",
+    "SHELF_3_direct_with_modeled_payload"
+  ]
+}

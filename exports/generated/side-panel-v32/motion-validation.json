@@ -1,0 +1,1707 @@
+{
+  "status": "CONTINUOUS_TRANSLATION_PACKAGING_ONLY",
+  "manufacturing_ready": false,
+  "source_hashes": {
+    "exports/generated/cabinet-v32/vpin-central-v32.FCStd": "ff973219bdc8bee6707bd29f6a44da74c895cbcbea9e0b1790d8e7723b9aa038",
+    "exports/generated/front-panel-v32/coin-upgrade-closed.FCStd": "e02f9567f940c87bea8a0f4503494f7ac4b9be8cf2f1ee8027af717e953fdf03",
+    "config/side_motion_v32.json": "585cff7c3b10e135a49fcbe4a59b8bdee41f4f0a901380614cd7ed62ac4b5f1b",
+    "config/front_panel_v32.json": "de4d570c44741739c04da0fe496287412f49364572c6856cacaaf194b5824298",
+    "tools/side_motion_v32_entry.py": "a66be3bc6bcebd0e7b82656a3604366ec5eb4c37d376c74fa61e24ff244bbdaf"
+  },
+  "saved_poses": [
+    {
+      "route": "SHELF_1_staged_with_payload",
+      "path": "exports/generated/side-panel-v32/service-stage-SHELF_1.FCStd",
+      "sha256": "487bab5dbcd4f02d2a1622391f33118c49d3d6618041db29d3e161b1d37cd578",
+      "at_leg": 1,
+      "objects": 65
+    },
+    {
+      "route": "SHELF_2_staged_with_payload",
+      "path": "exports/generated/side-panel-v32/service-stage-SHELF_2.FCStd",
+      "sha256": "1eb967d0ecbd4a15be7aec2bedfba77349f70ec00c391e32c12b68ccbbce4be8",
+      "at_leg": 1,
+      "objects": 65
+    },
+    {
+      "route": "SHELF_3_staged_with_payload",
+      "path": "exports/generated/side-panel-v32/service-stage-SHELF_3.FCStd",
+      "sha256": "6254074f759417e8910a036c7411f850d1a27bb30d858edf13a11f4e191bb8ba",
+      "at_leg": 1,
+      "objects": 65
+    }
+  ],
+  "scene_bounds_mm": {
+    "SIDE_L": [
+      0.0,
+      18.0,
+      0.0,
+      1308.1,
+      0.0,
+      596.9
+    ],
+    "SIDE_R": [
+      582.0,
+      600.0,
+      0.0,
+      1308.1,
+      0.0,
+      596.9
+    ],
+    "FRONT": [
+      18.0,
+      582.0,
+      0.0,
+      18.0,
+      0.0,
+      400.05
+    ],
+    "REAR": [
+      18.0,
+      582.0,
+      1290.1,
+      1308.1,
+      0.0,
+      596.9
+    ],
+    "FAN_230": [
+      170.0,
+      290.0,
+      1265.1,
+      1290.1,
+      220.0,
+      340.0
+    ],
+    "FAN_370": [
+      310.0,
+      430.0,
+      1265.1,
+      1290.1,
+      220.0,
+      340.0
+    ],
+    "REAR_DOOR": [
+      132.0,
+      468.0,
+      1290.1,
+      1308.1,
+      74.0,
+      363.0
+    ],
+    "FLOOR": [
+      18.0,
+      582.0,
+      18.0,
+      1290.1,
+      18.0,
+      36.0
+    ],
+    "FLOOR_CLEAT_18": [
+      18.0,
+      48.0,
+      120.0,
+      1272.1,
+      0.0,
+      18.0
+    ],
+    "FLOOR_CLEAT_552": [
+      552.0,
+      582.0,
+      120.0,
+      1272.1,
+      0.0,
+      18.0
+    ],
+    "SHELF_1": [
+      20.0,
+      580.0,
+      120.0,
+      270.0,
+      160.0,
+      172.0
+    ],
+    "SHELF_SUPPORT_1L": [
+      18.0,
+      36.0,
+      120.0,
+      270.0,
+      142.0,
+      160.0
+    ],
+    "SHELF_SUPPORT_1R": [
+      564.0,
+      582.0,
+      120.0,
+      270.0,
+      142.0,
+      160.0
+    ],
+    "SHELF_2": [
+      20.0,
+      580.0,
+      600.0,
+      750.0,
+      180.0,
+      192.0
+    ],
+    "SHELF_SUPPORT_2L": [
+      18.0,
+      36.0,
+      600.0,
+      750.0,
+      162.0,
+      180.0
+    ],
+    "SHELF_SUPPORT_2R": [
+      564.0,
+      582.0,
+      600.0,
+      750.0,
+      162.0,
+      180.0
+    ],
+    "SHELF_3": [
+      20.0,
+      580.0,
+      1080.0,
+      1230.0,
+      240.0,
+      252.0
+    ],
+    "SHELF_SUPPORT_3L": [
+      18.0,
+      36.0,
+      1080.0,
+      1230.0,
+      222.0,
+      240.0
+    ],
+    "SHELF_SUPPORT_3R": [
+      564.0,
+      582.0,
+      1080.0,
+      1230.0,
+      222.0,
+      240.0
+    ],
+    "CROSS_1": [
+      30.2,
+      569.8000000000001,
+      371.0,
+      389.0,
+      283.691375367901,
+      365.2632063538165
+    ],
+    "CROSS_GUIDE_1L": [
+      18.0,
+      36.0,
+      350.0,
+      410.0,
+      238.691375367901,
+      383.691375367901
+    ],
+    "CROSS_BRACKET_1L": [
+      36.0,
+      76.0,
+      355.0,
+      405.0,
+      243.691375367901,
+      283.691375367901
+    ],
+    "CROSS_GUIDE_1R": [
+      564.0,
+      582.0,
+      350.0,
+      410.0,
+      238.691375367901,
+      383.691375367901
+    ],
+    "CROSS_BRACKET_1R": [
+      524.0,
+      564.0,
+      355.0,
+      405.0,
+      243.691375367901,
+      283.691375367901
+    ],
+    "CROSS_2": [
+      30.2,
+      569.8000000000001,
+      691.0,
+      709.0,
+      339.578699311563,
+      421.1505302974785
+    ],
+    "CROSS_GUIDE_2L": [
+      18.0,
+      36.0,
+      670.0,
+      730.0,
+      294.578699311563,
+      439.578699311563
+    ],
+    "CROSS_BRACKET_2L": [
+      36.0,
+      76.0,
+      675.0,
+      725.0,
+      299.578699311563,
+      339.578699311563
+    ],
+    "CROSS_GUIDE_2R": [
+      564.0,
+      582.0,
+      670.0,
+      730.0,
+      294.578699311563,
+      439.578699311563
+    ],
+    "CROSS_BRACKET_2R": [
+      524.0,
+      564.0,
+      675.0,
+      725.0,
+      299.578699311563,
+      339.578699311563
+    ],
+    "CROSS_3": [
+      30.2,
+      569.8000000000001,
+      971.0,
+      989.0,
+      388.4801077622672,
+      470.0519387481827
+    ],
+    "CROSS_GUIDE_3L": [
+      18.0,
+      36.0,
+      950.0,
+      1010.0,
+      343.4801077622672,
+      488.4801077622672
+    ],
+    "CROSS_BRACKET_3L": [
+      36.0,
+      76.0,
+      955.0,
+      1005.0,
+      348.4801077622672,
+      388.4801077622672
+    ],
+    "CROSS_GUIDE_3R": [
+      564.0,
+      582.0,
+      950.0,
+      1010.0,
+      343.4801077622672,
+      488.4801077622672
+    ],
+    "CROSS_BRACKET_3R": [
+      524.0,
+      564.0,
+      955.0,
+      1005.0,
+      348.4801077622672,
+      388.4801077622672
+    ],
+    "MONITOR_RAIL_L": [
+      54.99999999999999,
+      85.0,
+      107.20214620437814,
+      1036.28288244479,
+      316.58865398149806,
+      496.0414017972161
+    ],
+    "MONITOR_RAIL_R": [
+      514.9999999999999,
+      544.9999999999999,
+      107.20214620437814,
+      1036.28288244479,
+      316.58865398149806,
+      496.0414017972161
+    ],
+    "MONITOR_BRIDGE": [
+      54.99999999999999,
+      545.0,
+      399.63215046928644,
+      649.0012649768992,
+      385.93339138546884,
+      446.67594047602194
+    ],
+    "PLAYFIELD_ENVELOPE": [
+      19.999999999999996,
+      580.0,
+      35.537592855240476,
+      1000.5366276533554,
+      341.7292430523254,
+      562.7916082098818
+    ],
+    "AUDIO_STARTECH": [
+      200.0,
+      300.0,
+      155.0,
+      215.0,
+      175.0,
+      200.0
+    ],
+    "PC_BASE": [
+      157.5,
+      442.5,
+      830.0,
+      1290.0,
+      36.0,
+      54.0
+    ],
+    "PC_ENVELOPE": [
+      167.5,
+      432.5,
+      840.0,
+      1280.0,
+      54.0,
+      182.0
+    ],
+    "BACKBOX_BASE": [
+      18.0,
+      582.0,
+      1127.125,
+      1290.1,
+      578.9,
+      596.9
+    ],
+    "PLUNGER_RESERVED": [
+      500.0,
+      540.0,
+      18.0,
+      220.0,
+      260.0,
+      300.0
+    ],
+    "MAINS_RESERVED": [
+      50.0,
+      140.0,
+      1278.1,
+      1290.1,
+      395.0,
+      465.0
+    ],
+    "RJ45_RESERVED": [
+      510.0,
+      550.0,
+      1278.1,
+      1290.1,
+      405.0,
+      445.0
+    ],
+    "CoinStudy_CoinFrame": [
+      124.42500000000001,
+      475.575,
+      -3.0,
+      0.0,
+      72.840625,
+      377.159375
+    ],
+    "CoinStudy_DoorLeaf": [
+      146.0,
+      454.0,
+      -4.0,
+      -1.0,
+      94.0,
+      355.0
+    ],
+    "CoinStudy_ReturnButton1": [
+      315.0,
+      345.0,
+      -14.0,
+      -4.0,
+      310.0,
+      332.0
+    ],
+    "CoinStudy_ReturnButton2": [
+      375.0,
+      405.0,
+      -14.0,
+      -4.0,
+      310.0,
+      332.0
+    ],
+    "CoinStudy_LightSwitch1": [
+      315.0,
+      345.0,
+      -1.0,
+      28.0,
+      310.0,
+      332.0
+    ],
+    "CoinStudy_LightSwitch2": [
+      375.0,
+      405.0,
+      -1.0,
+      28.0,
+      310.0,
+      332.0
+    ],
+    "CoinStudy_DoorLock": [
+      424.0,
+      442.0,
+      -1.0,
+      35.0,
+      185.0,
+      207.0
+    ],
+    "CoinStudy_Mechanism1": [
+      310.0,
+      355.0,
+      8.0,
+      103.0,
+      170.0,
+      305.0
+    ],
+    "CoinStudy_Mechanism2": [
+      370.0,
+      415.0,
+      8.0,
+      103.0,
+      170.0,
+      305.0
+    ],
+    "CoinStudy_MechanismMount1_1": [
+      310.0,
+      320.0,
+      -1.0,
+      8.0,
+      185.0,
+      205.0
+    ],
+    "CoinStudy_MechanismMount1_2": [
+      310.0,
+      320.0,
+      -1.0,
+      8.0,
+      275.0,
+      295.0
+    ],
+    "CoinStudy_MechanismMount2_1": [
+      370.0,
+      380.0,
+      -1.0,
+      8.0,
+      185.0,
+      205.0
+    ],
+    "CoinStudy_MechanismMount2_2": [
+      370.0,
+      380.0,
+      -1.0,
+      8.0,
+      275.0,
+      295.0
+    ],
+    "CoinStudy_CoinTray": [
+      305.0,
+      420.0,
+      25.0,
+      105.0,
+      115.0,
+      140.0
+    ],
+    "CoinStudy_TraySupport1": [
+      305.0,
+      315.0,
+      18.0,
+      105.0,
+      70.0,
+      115.0
+    ],
+    "CoinStudy_TraySupport2": [
+      410.0,
+      420.0,
+      18.0,
+      105.0,
+      70.0,
+      115.0
+    ],
+    "CandidateFrontButton1": [
+      72.0,
+      108.0,
+      18.0,
+      83.0,
+      292.0,
+      328.0
+    ],
+    "CandidateFrontButton2": [
+      72.0,
+      108.0,
+      18.0,
+      83.0,
+      242.0,
+      278.0
+    ],
+    "CandidateFrontButton3": [
+      72.0,
+      108.0,
+      18.0,
+      83.0,
+      192.0,
+      228.0
+    ],
+    "CandidateFrontButton4": [
+      502.0,
+      538.0,
+      18.0,
+      83.0,
+      192.0,
+      228.0
+    ],
+    "CandidateSideButtonL_255": [
+      18.0,
+      98.0,
+      237.0,
+      273.0,
+      252.0,
+      288.0
+    ],
+    "CandidateSideButtonL_310": [
+      18.0,
+      98.0,
+      292.0,
+      328.0,
+      252.0,
+      288.0
+    ],
+    "CandidateSideButtonR_255": [
+      502.0,
+      582.0,
+      237.0,
+      273.0,
+      252.0,
+      288.0
+    ],
+    "CandidateSideButtonR_310": [
+      502.0,
+      582.0,
+      292.0,
+      328.0,
+      252.0,
+      288.0
+    ],
+    "SHELF_1_CandidatePayload": [
+      20.0,
+      580.0,
+      120.0,
+      270.0,
+      172.0,
+      232.0
+    ],
+    "SHELF_2_CandidatePayload": [
+      20.0,
+      580.0,
+      600.0,
+      750.0,
+      192.0,
+      252.0
+    ],
+    "SHELF_3_CandidatePayload": [
+      20.0,
+      580.0,
+      1080.0,
+      1230.0,
+      252.0,
+      312.0
+    ]
+  },
+  "config": {
+    "status": "TRANSLATION_SERVICE_STUDY_ONLY",
+    "units": "mm",
+    "collision_threshold_mm3": 0.01,
+    "top_exit_margin_mm": 10,
+    "monitor_assembly": [
+      "PLAYFIELD_ENVELOPE",
+      "MONITOR_RAIL_L",
+      "MONITOR_RAIL_R",
+      "MONITOR_BRIDGE"
+    ],
+    "crossmembers": [
+      "CROSS_1",
+      "CROSS_2",
+      "CROSS_3"
+    ],
+    "side_button_probe": {
+      "radius_mm": 18,
+      "depth_mm": 80,
+      "y_mm": [
+        255,
+        310
+      ],
+      "z_mm": 270
+    },
+    "shelf_routes": [
+      {
+        "object": "SHELF_1",
+        "stage_y_mm": 430,
+        "removed_payload": [
+          "AUDIO_STARTECH"
+        ]
+      },
+      {
+        "object": "SHELF_2",
+        "stage_y_mm": 430,
+        "removed_payload": []
+      },
+      {
+        "object": "SHELF_3",
+        "stage_y_mm": 760,
+        "removed_payload": []
+      }
+    ],
+    "scope": "Continuous straight translation of existing planar solids only. Shelves screened one at a time with other shelves retained. Front study uses upgrade door closed plus configured button/plunger reservations; side buttons are candidate envelopes. Glass, lockdown, LEDs, cables, actual fasteners, props, hinges, legs and unmodeled payloads excluded. Monitor vertical extraction is a major teardown packaging study, not the routine hinged service mode or a safe lifting procedure.",
+    "candidate_shelf_payload_height_mm": 60,
+    "candidate_payload_scope": "Full 560 x 150 shelf footprint, from shelf top upward 60 mm. Explicit packaging allowance including equipment, mounts and restrained wiring; not selected equipment or a load rating. Disconnect external harness before moving. Existing S1 audio moves with S1 in the loaded route.",
+    "required_clear_routes": [
+      "monitor_vertical_teardown",
+      "CROSS_1_after_monitor_lift",
+      "CROSS_2_after_monitor_lift",
+      "CROSS_3_after_monitor_lift",
+      "SHELF_1_staged_without_named_payload",
+      "SHELF_2_staged_without_named_payload",
+      "SHELF_3_staged_without_named_payload",
+      "SHELF_1_staged_with_payload",
+      "SHELF_2_staged_with_payload",
+      "SHELF_3_staged_with_payload"
+    ],
+    "required_obstructed_controls": [
+      "CROSS_1_assembled_lift",
+      "CROSS_2_assembled_lift",
+      "CROSS_3_assembled_lift",
+      "SHELF_1_direct_with_modeled_payload",
+      "SHELF_2_direct_with_modeled_payload",
+      "SHELF_3_direct_with_modeled_payload"
+    ]
+  },
+  "checks": [
+    {
+      "check": "45 original saved solids",
+      "pass": true
+    },
+    {
+      "check": "source documents recompute without invalid states",
+      "pass": true
+    },
+    {
+      "check": "all loaded solids valid",
+      "pass": true
+    },
+    {
+      "check": "front study retains all base identities",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "REAR unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "FAN_230 unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "FAN_370 unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "REAR_DOOR unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "FLOOR unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "FLOOR_CLEAT_18 unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "FLOOR_CLEAT_552 unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1 unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2 unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3 unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_1 unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_1L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_1R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_2 unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_2L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_2R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_3 unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_3L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_3R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "MONITOR_RAIL_L unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "MONITOR_RAIL_R unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "MONITOR_BRIDGE unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "PLAYFIELD_ENVELOPE unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "AUDIO_STARTECH unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "PC_BASE unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "PC_ENVELOPE unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "BACKBOX_BASE unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "MAINS_RESERVED unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "RJ45_RESERVED unchanged in front study",
+      "pass": true
+    },
+    {
+      "check": "analytic cube sweep volume",
+      "pass": true
+    },
+    {
+      "check": "negative control has clear endpoints",
+      "pass": true
+    },
+    {
+      "check": "continuous sweep catches intermediate blocker",
+      "pass": true
+    },
+    {
+      "check": "translated blocker clears sweep",
+      "pass": true
+    },
+    {
+      "check": "reject unsupported curved moving geometry",
+      "pass": true
+    },
+    {
+      "check": "monitor_vertical_teardown final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "CROSS_1_assembled_lift final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "CROSS_1_after_monitor_lift final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "CROSS_2_assembled_lift final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "CROSS_2_after_monitor_lift final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "CROSS_3_assembled_lift final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "CROSS_3_after_monitor_lift final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1_direct_with_modeled_payload final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1_staged_without_named_payload final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2_direct_with_modeled_payload final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2_staged_without_named_payload final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3_direct_with_modeled_payload final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3_staged_without_named_payload final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "AUDIO_STARTECH enclosed by candidate payload",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1 saved pose identity set",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1 saved permanent identities",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1 saved pose valid single solids",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1 saved pose exact shapes",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1_staged_with_payload final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2 saved pose identity set",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2 saved permanent identities",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2 saved pose valid single solids",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2 saved pose exact shapes",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2_staged_with_payload final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3 saved pose identity set",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3 saved permanent identities",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3 saved pose valid single solids",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3 saved pose exact shapes",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3_staged_with_payload final position above retained scene",
+      "pass": true
+    },
+    {
+      "check": "all source/config bytes unchanged",
+      "pass": true
+    },
+    {
+      "check": "expected 16 routes",
+      "pass": true
+    },
+    {
+      "check": "monitor_vertical_teardown required clear route",
+      "pass": true
+    },
+    {
+      "check": "CROSS_1_after_monitor_lift required clear route",
+      "pass": true
+    },
+    {
+      "check": "CROSS_2_after_monitor_lift required clear route",
+      "pass": true
+    },
+    {
+      "check": "CROSS_3_after_monitor_lift required clear route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1_staged_without_named_payload required clear route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2_staged_without_named_payload required clear route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3_staged_without_named_payload required clear route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1_staged_with_payload required clear route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2_staged_with_payload required clear route",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3_staged_with_payload required clear route",
+      "pass": true
+    },
+    {
+      "check": "CROSS_1_assembled_lift expected obstruction retained",
+      "pass": true
+    },
+    {
+      "check": "CROSS_2_assembled_lift expected obstruction retained",
+      "pass": true
+    },
+    {
+      "check": "CROSS_3_assembled_lift expected obstruction retained",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1_direct_with_modeled_payload expected obstruction retained",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2_direct_with_modeled_payload expected obstruction retained",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3_direct_with_modeled_payload expected obstruction retained",
+      "pass": true
+    }
+  ],
+  "routes": [
+    {
+      "name": "monitor_vertical_teardown",
+      "moving": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE"
+      ],
+      "removed_before_route": [],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            290.3113460185019
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "PLAYFIELD_ENVELOPE": 186760094.47132564,
+            "MONITOR_RAIL_L": 8599280.37293444,
+            "MONITOR_RAIL_R": 8599280.37293444,
+            "MONITOR_BRIDGE": 37678394.811192006
+          }
+        }
+      ],
+      "status": "CLEAR_FOR_MODELED_TRANSLATION_ONLY"
+    },
+    {
+      "name": "CROSS_1_assembled_lift",
+      "moving": [
+        "CROSS_1"
+      ],
+      "removed_before_route": [],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            323.208624632099
+          ],
+          "conflicts": [
+            {
+              "moving": "CROSS_1",
+              "obstacle": "MONITOR_RAIL_L",
+              "swept_intersection_mm3": 9867.125683245426
+            },
+            {
+              "moving": "CROSS_1",
+              "obstacle": "MONITOR_RAIL_R",
+              "swept_intersection_mm3": 9867.125683245426
+            },
+            {
+              "moving": "CROSS_1",
+              "obstacle": "PLAYFIELD_ENVELOPE",
+              "swept_intersection_mm3": 542289.9185691751
+            }
+          ],
+          "sweep_volumes_mm3": {
+            "CROSS_1": 3916284.729326671
+          }
+        }
+      ],
+      "status": "OBSTRUCTED"
+    },
+    {
+      "name": "CROSS_1_after_monitor_lift",
+      "moving": [
+        "CROSS_1"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            323.208624632099
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "CROSS_1": 3916284.729326671
+          }
+        }
+      ],
+      "status": "CLEAR_FOR_MODELED_TRANSLATION_ONLY"
+    },
+    {
+      "name": "CROSS_2_assembled_lift",
+      "moving": [
+        "CROSS_2"
+      ],
+      "removed_before_route": [],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            267.32130068843696
+          ],
+          "conflicts": [
+            {
+              "moving": "CROSS_2",
+              "obstacle": "MONITOR_RAIL_L",
+              "swept_intersection_mm3": 9867.125683245202
+            },
+            {
+              "moving": "CROSS_2",
+              "obstacle": "MONITOR_RAIL_R",
+              "swept_intersection_mm3": 9867.125683245202
+            },
+            {
+              "moving": "CROSS_2",
+              "obstacle": "PLAYFIELD_ENVELOPE",
+              "swept_intersection_mm3": 542289.9185691698
+            }
+          ],
+          "sweep_volumes_mm3": {
+            "CROSS_2": 3373462.329326636
+          }
+        }
+      ],
+      "status": "OBSTRUCTED"
+    },
+    {
+      "name": "CROSS_2_after_monitor_lift",
+      "moving": [
+        "CROSS_2"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            267.32130068843696
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "CROSS_2": 3373462.329326636
+          }
+        }
+      ],
+      "status": "CLEAR_FOR_MODELED_TRANSLATION_ONLY"
+    },
+    {
+      "name": "CROSS_3_assembled_lift",
+      "moving": [
+        "CROSS_3"
+      ],
+      "removed_before_route": [],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            218.41989223773277
+          ],
+          "conflicts": [
+            {
+              "moving": "CROSS_3",
+              "obstacle": "MONITOR_RAIL_L",
+              "swept_intersection_mm3": 9867.125683245531
+            },
+            {
+              "moving": "CROSS_3",
+              "obstacle": "MONITOR_RAIL_R",
+              "swept_intersection_mm3": 9867.125683245531
+            },
+            {
+              "moving": "CROSS_3",
+              "obstacle": "PLAYFIELD_ENVELOPE",
+              "swept_intersection_mm3": 542289.9185691779
+            }
+          ],
+          "sweep_volumes_mm3": {
+            "CROSS_3": 2898492.729326675
+          }
+        }
+      ],
+      "status": "OBSTRUCTED"
+    },
+    {
+      "name": "CROSS_3_after_monitor_lift",
+      "moving": [
+        "CROSS_3"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            218.41989223773277
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "CROSS_3": 2898492.729326675
+          }
+        }
+      ],
+      "status": "CLEAR_FOR_MODELED_TRANSLATION_ONLY"
+    },
+    {
+      "name": "SHELF_1_direct_with_modeled_payload",
+      "moving": [
+        "SHELF_1"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE",
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            446.9
+          ],
+          "conflicts": [
+            {
+              "moving": "SHELF_1",
+              "obstacle": "AUDIO_STARTECH",
+              "swept_intersection_mm3": 150000.0
+            },
+            {
+              "moving": "SHELF_1",
+              "obstacle": "PLUNGER_RESERVED",
+              "swept_intersection_mm3": 160000.0
+            },
+            {
+              "moving": "SHELF_1",
+              "obstacle": "CandidateSideButtonL_255",
+              "swept_intersection_mm3": 76234.2375014196
+            },
+            {
+              "moving": "SHELF_1",
+              "obstacle": "CandidateSideButtonR_255",
+              "swept_intersection_mm3": 76234.2375014196
+            }
+          ],
+          "sweep_volumes_mm3": {
+            "SHELF_1": 38547600.0
+          }
+        }
+      ],
+      "status": "OBSTRUCTED"
+    },
+    {
+      "name": "SHELF_1_staged_without_named_payload",
+      "moving": [
+        "SHELF_1"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE",
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3",
+        "AUDIO_STARTECH"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            310.0,
+            0.0
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_1": 3091200.0
+          }
+        },
+        {
+          "leg": 2,
+          "translation_mm": [
+            0.0,
+            0.0,
+            446.9
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_1": 38547600.00000001
+          }
+        }
+      ],
+      "status": "CLEAR_FOR_MODELED_TRANSLATION_ONLY"
+    },
+    {
+      "name": "SHELF_2_direct_with_modeled_payload",
+      "moving": [
+        "SHELF_2"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE",
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            426.9
+          ],
+          "conflicts": [
+            {
+              "moving": "SHELF_2",
+              "obstacle": "CROSS_GUIDE_2L",
+              "swept_intersection_mm3": 121598.67288915635
+            },
+            {
+              "moving": "SHELF_2",
+              "obstacle": "CROSS_BRACKET_2L",
+              "swept_intersection_mm3": 11407.450233343367
+            },
+            {
+              "moving": "SHELF_2",
+              "obstacle": "CROSS_GUIDE_2R",
+              "swept_intersection_mm3": 121598.67288915637
+            },
+            {
+              "moving": "SHELF_2",
+              "obstacle": "CROSS_BRACKET_2R",
+              "swept_intersection_mm3": 11407.450233343363
+            }
+          ],
+          "sweep_volumes_mm3": {
+            "SHELF_2": 36867599.999999985
+          }
+        }
+      ],
+      "status": "OBSTRUCTED"
+    },
+    {
+      "name": "SHELF_2_staged_without_named_payload",
+      "moving": [
+        "SHELF_2"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE",
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            -170.0,
+            0.0
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_2": 2150400.0
+          }
+        },
+        {
+          "leg": 2,
+          "translation_mm": [
+            0.0,
+            0.0,
+            426.9
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_2": 36867600.0
+          }
+        }
+      ],
+      "status": "CLEAR_FOR_MODELED_TRANSLATION_ONLY"
+    },
+    {
+      "name": "SHELF_3_direct_with_modeled_payload",
+      "moving": [
+        "SHELF_3"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE",
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            366.9
+          ],
+          "conflicts": [
+            {
+              "moving": "SHELF_3",
+              "obstacle": "BACKBOX_BASE",
+              "swept_intersection_mm3": 1036979.9999999992
+            }
+          ],
+          "sweep_volumes_mm3": {
+            "SHELF_3": 31827599.999999978
+          }
+        }
+      ],
+      "status": "OBSTRUCTED"
+    },
+    {
+      "name": "SHELF_3_staged_without_named_payload",
+      "moving": [
+        "SHELF_3"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE",
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            -320.0,
+            0.0
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_3": 3158400.0
+          }
+        },
+        {
+          "leg": 2,
+          "translation_mm": [
+            0.0,
+            0.0,
+            366.9
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_3": 31827600.0
+          }
+        }
+      ],
+      "status": "CLEAR_FOR_MODELED_TRANSLATION_ONLY"
+    },
+    {
+      "name": "SHELF_1_staged_with_payload",
+      "moving": [
+        "SHELF_1",
+        "SHELF_1_CandidatePayload",
+        "AUDIO_STARTECH"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE",
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            310.0,
+            0.0
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_1": 3091200.0,
+            "SHELF_1_CandidatePayload": 15456000.0,
+            "AUDIO_STARTECH": 924999.9999999998
+          }
+        },
+        {
+          "leg": 2,
+          "translation_mm": [
+            0.0,
+            0.0,
+            446.9
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_1": 38547600.00000001,
+            "SHELF_1_CandidatePayload": 42579600.0,
+            "AUDIO_STARTECH": 2831400.0
+          }
+        }
+      ],
+      "status": "CLEAR_FOR_MODELED_TRANSLATION_ONLY"
+    },
+    {
+      "name": "SHELF_2_staged_with_payload",
+      "moving": [
+        "SHELF_2",
+        "SHELF_2_CandidatePayload"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE",
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            -170.0,
+            0.0
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_2": 2150400.0,
+            "SHELF_2_CandidatePayload": 10752000.0
+          }
+        },
+        {
+          "leg": 2,
+          "translation_mm": [
+            0.0,
+            0.0,
+            426.9
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_2": 36867600.0,
+            "SHELF_2_CandidatePayload": 40899600.0
+          }
+        }
+      ],
+      "status": "CLEAR_FOR_MODELED_TRANSLATION_ONLY"
+    },
+    {
+      "name": "SHELF_3_staged_with_payload",
+      "moving": [
+        "SHELF_3",
+        "SHELF_3_CandidatePayload"
+      ],
+      "removed_before_route": [
+        "PLAYFIELD_ENVELOPE",
+        "MONITOR_RAIL_L",
+        "MONITOR_RAIL_R",
+        "MONITOR_BRIDGE",
+        "CROSS_1",
+        "CROSS_2",
+        "CROSS_3"
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "translation_mm": [
+            0.0,
+            -320.0,
+            0.0
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_3": 3158400.0,
+            "SHELF_3_CandidatePayload": 15792000.0
+          }
+        },
+        {
+          "leg": 2,
+          "translation_mm": [
+            0.0,
+            0.0,
+            366.9
+          ],
+          "conflicts": [],
+          "sweep_volumes_mm3": {
+            "SHELF_3": 31827600.0,
+            "SHELF_3_CandidatePayload": 35859600.0
+          }
+        }
+      ],
+      "status": "CLEAR_FOR_MODELED_TRANSLATION_ONLY"
+    }
+  ],
+  "method": "Union of starting/ending polyhedron and all nonzero-volume boundary-face extrusions; full continuous straight translation. No rotation or force validation."
+}
