@@ -191,3 +191,7 @@ Owner clarified: two screws per side, coming from above; open the playfield, loo
 **Status:** owner preference recorded 2026-09-29; mounting dimensions unqualified.
 
 Use traditional pinball leaf buttons as the main side-control direction, with the supplied Arcade Express kit as reference. Preserve a conventional arcade option for other builders. See [hardware evidence and implementation direction](SIDE_BUTTON_OPTIONS_V32.md). Separate pre-CNC hole/stack configurations are the proposed simple implementation; universal interchangeability is not established. Existing side bores/recesses remain provisional and no production cuts change in this decision.
+
+## DEC-V32-SHELF-RAISED-SCREEN — functional access layout
+
+Engineering proposal following owner instruction to finish the simple shelf solution: move S3 to Y820 with screws Y845/920, retaining all sizes/heights and crossmembers. This supersedes its previous Y1000 candidate. The assumed rear-axis screen clears the display, tools and loaded extraction routes at 100 degrees relative opening. See [current evidence](SIMPLE_SHELVES_V32.md). This resolves a modeled interference, not actual hinge/prop selection or structural/manufacturing approval. Four top screws, fixed bearing supports and shop-made holes remain the direction; support-to-wall hardware and insert pilots still require qualification.

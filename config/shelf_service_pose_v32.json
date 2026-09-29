@@ -1,0 +1,10 @@
+{
+  "status": "KINEMATIC_SCREEN_ONLY_NOT_SELECTED_HINGE",
+  "pivot_basis": "midpoint of rear upper edge of saved left monitor rail, projected to X300",
+  "opening_degrees": [60, 70, 80, 90, 100],
+  "sweep_step_degrees": 2,
+  "overhead_clearance_mm": 100,
+  "collision_threshold_mm3": 0.01,
+  "exclusions": ["Actual hinge hardware", "Captive props and receivers", "Harness", "Glass removed", "Backbox above existing BACKBOX_BASE", "Human handling"],
+  "manufacturing_ready": false
+}

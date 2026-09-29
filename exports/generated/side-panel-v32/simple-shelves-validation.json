@@ -2,7 +2,7 @@
   "status": "OWNER_DIRECTED_SIMPLE_TOP_RELEASE",
   "manufacturing_ready": false,
   "source_hashes": {
-    "config/simple_shelves_v32.json": "f8a47502fdd26f83ec5e006d024836d418560f5faef69537af92ad7cc88b9746",
+    "config/simple_shelves_v32.json": "72e7e8af9b877518b9eb2f9bea9304020666cfe7b895d9513f7a35c389b15e5b",
     "config/front_panel_v32.json": "de4d570c44741739c04da0fe496287412f49364572c6856cacaaf194b5824298",
     "exports/generated/cabinet-v32/vpin-central-v32.FCStd": "ff973219bdc8bee6707bd29f6a44da74c895cbcbea9e0b1790d8e7723b9aa038",
     "exports/generated/front-panel-v32/coin-upgrade-closed.FCStd": "e02f9567f940c87bea8a0f4503494f7ac4b9be8cf2f1ee8027af717e953fdf03",
@@ -31,7 +31,7 @@
       },
       {
         "number": 3,
-        "y_mm": 1000,
+        "y_mm": 820,
         "bolt_offsets_y_mm": [
           25,
           100
@@ -554,7 +554,7 @@
       "insert": "SimpleShelfBolt3L1Insert",
       "xyz_mm": [
         48,
-        1025,
+        845,
         252.0
       ],
       "head_top_z_mm": 257.0
@@ -567,7 +567,7 @@
       "insert": "SimpleShelfBolt3L2Insert",
       "xyz_mm": [
         48,
-        1100,
+        920,
         252.0
       ],
       "head_top_z_mm": 257.0
@@ -580,7 +580,7 @@
       "insert": "SimpleShelfBolt3R1Insert",
       "xyz_mm": [
         552,
-        1025,
+        845,
         252.0
       ],
       "head_top_z_mm": 257.0
@@ -593,7 +593,7 @@
       "insert": "SimpleShelfBolt3R2Insert",
       "xyz_mm": [
         552,
-        1100,
+        920,
         252.0
       ],
       "head_top_z_mm": 257.0
@@ -742,7 +742,7 @@
       "translations_mm": [
         [
           0.0,
-          -240.0,
+          -60.0,
           0.0
         ],
         [
@@ -789,7 +789,7 @@
   "installed_conflicts": [],
   "saved_proposal": {
     "path": "exports/generated/side-panel-v32/simple-shelves-proposal.FCStd",
-    "sha256": "43e23721b60e1774723b60d0a46a686c2d55dbca2cb07a811aae3a805b194974",
+    "sha256": "1ce592e402058a536b43a0e30c45d9ba0c8d857e409375fe499e9ab7a8f2292c",
     "solids": 108
   },
   "unverified": [

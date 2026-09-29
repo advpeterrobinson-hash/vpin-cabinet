@@ -10,7 +10,9 @@ This page lets a new contributor understand the current cabinet direction withou
 
 ## Current shelf direction — four screws from above
 
-Two screws per side, fixed supports, mounted equipment retained on removal. Crossmembers remain in the stationary-scene checks; actual raised-playfield integration is still open.
+Two screws per side, fixed supports, mounted equipment retained on removal. Crossmembers remain in the stationary-scene checks; a new assumed-axis raised-display screen clears at 100 degrees relative opening; actual hinge/props remain open.
+
+[![Raised-display access screen](../exports/generated/side-panel-v32/08-shelf-raised-display.png)](SIMPLE_SHELVES_V32.md)
 
 [![Simple top-release shelf](../exports/generated/side-panel-v32/07-simple-shelves.png)](SIMPLE_SHELVES_V32.md)
 

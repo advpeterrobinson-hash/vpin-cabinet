@@ -10,14 +10,18 @@ O uso pretendido é: abrir e apoiar positivamente o playfield, desconectar o chi
 
 O novo modelo separado elimina as tampas inferiores e o mecanismo de remoção dos apoios. As três travessas permanecem instaladas nos testes. Os equipamentos precisam deixar livre o espaço de acesso aos quatro parafusos.
 
-Para que o caminho da ferramenta realmente venha de cima, corrigi a posição do parafuso traseiro da S2 e avancei a S3 em **80 mm**. Antes, havia interferências com T2 e com a base do backbox. S1 e S2 mantêm suas posições; tamanhos e alturas das três prateleiras permanecem iguais. A retirada exige deslizar até um vão livre antes de levantar; não exige retirar travessas no cenário fixo testado.
+A S3 passa a começar em **Y820**, avançando 180 mm em relação à proposta anterior e 260 mm em relação ao V32 original. Seus parafusos ficam em Y845/920. S1 e S2 permanecem na mesma posição; tamanhos, alturas e travessas são preservados. A S3 desliza 60 mm para a frente antes de subir; S1 e S2 mantêm suas rotas anteriores.
 
-Foram aprovadas **90 verificações**, incluindo o corredor completo da ferramenta até acima do gabinete, retirada dos parafusos e três trajetórias com envelopes de equipamentos de 60 mm. O arquivo FreeCAD foi reaberto e conferido. O V32 original permanece intacto.
+As **90 verificações da estrutura fixa passaram**. O novo estudo inclui o conjunto do display levantado em um eixo proposto: a 100° de abertura em relação à posição fechada, próximo da vertical, os 12 acessos superiores e as três rotas carregadas passam. As 51 posições de abertura amostradas a cada 2° não colidem com a cena modelada. Acessos ainda ficam obstruídos entre 60° e 90°; não basta dizer apenas “playfield aberto”.
 
-**Ainda falta integrar o playfield realmente levantado, as escoras e os cabos.** Neste teste, seu conjunto foi excluído explicitamente para verificar os obstáculos fixos. Isso não comprova a abertura real nem a segurança do sistema de elevação. Ferragens, ancoragem dos apoios, cargas e fabricação também continuam pendentes.
+![Acesso com display levantado](../../exports/generated/side-panel-v32/08-shelf-raised-display.png)
+
+**O eixo é uma hipótese geométrica, não uma dobradiça selecionada.** Escoras, ferragens, cabos, backbox superior e manuseio ainda não foram integrados. Não há prova contínua entre amostras nem aprovação de resistência. O V32 original permanece intacto.
+
+A [tabela de 12 furos](../../exports/generated/side-panel-v32/shelf-hole-schedule-review.csv) registra posições e envelopes atuais. Os centros ficam a 28 mm das bordas laterais de cada prateleira. As medidas dos alojamentos de insertos ainda dependem da ferragem: a tabela é para revisão, não para mandar cortar. A furação de fixação dos apoios à parede permanece pendente.
 
 [Proposta FreeCAD](../../exports/generated/side-panel-v32/simple-shelves-proposal.FCStd) · [Relatório](../../exports/generated/side-panel-v32/simple-shelves-validation.json)
 
-Reproduzir com `bash tools/run_simple_shelves_v32.sh`. Os estudos mais complexos permanecem como histórico; não são a solução atual. As identidades das antigas tampas ficam aposentadas, sem reutilização.
+Reproduzir com `bash tools/run_simple_shelves_v32.sh` e `bash tools/run_shelf_service_pose_v32.sh`. Os estudos mais complexos permanecem como histórico; não são a solução atual. As identidades das antigas tampas ficam aposentadas, sem reutilização.
 
 CNC bloqueado. Material original: CERN-OHL-S-2.0. Preservar LICENSE e NOTICE.md. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.
