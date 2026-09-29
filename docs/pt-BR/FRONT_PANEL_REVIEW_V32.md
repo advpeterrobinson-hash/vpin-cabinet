@@ -60,3 +60,7 @@ Checks candidatos reportam PASS/FAIL. Encaixe real, cabos, pernas/receptor reais
 Frente e arquitetura de upgrade implementadas para revisão; usinagem permanente aberta. Propagar limites para [laterais → traseira → piso](PANEL_CLOSURE_V32.md). Não mover S1, recortar estrutura nem reservar caixa arcade com base no prisma retirado. Ferragem maior exige conflito específico e proposta localizada em interface substituível antes de mudar estrutura permanente.
 
 Material original: CERN-OHL-S-2.0. Preservar LICENSE e NOTICE.md. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.
+
+## Fichas opcionais como recompensa
+
+O proprietário poderá encomendar moedas personalizadas para os sobrinhos e futuros filhos. A opção de mecanismos funcionais permanece disponível, além da porta iluminada básica. Diâmetro, espessura, material e mecanismo ainda não foram escolhidos. Testar uma amostra no mecanismo e verificar os trajetos de aceitação e rejeição antes da encomenda do lote ou liberação das fixações. Nenhuma dimensão do gabinete muda nesta etapa.

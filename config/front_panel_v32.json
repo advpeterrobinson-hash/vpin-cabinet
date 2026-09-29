@@ -365,6 +365,15 @@
         "status": "NOT_RETRIEVED_TIMEOUT",
         "use": "none; no dimensions adopted; no asset imported"
       }
-    ]
+    ],
+    "reward_tokens": {
+      "status": "OPTIONAL_OWNER_INTENT",
+      "purpose": "Custom reward coins for nephews and future children to play",
+      "diameter_mm": null,
+      "thickness_mm": null,
+      "material": null,
+      "compatible_mechanism": null,
+      "release_gate": "Select and test the token/acceptor pair before ordering custom coins or releasing mechanism mounts; actual accepted/rejected coin outlets remain unverified."
+    }
   }
 }

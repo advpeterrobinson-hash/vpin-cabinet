@@ -1,0 +1,128 @@
+{
+  "status": "SAVED_SIDE_AUDIT_ONLY",
+  "manufacturing_ready": false,
+  "source_sha256": "ff973219bdc8bee6707bd29f6a44da74c895cbcbea9e0b1790d8e7723b9aa038",
+  "checks": [
+    {
+      "check": "saved sides mirror across X300",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L valid single solid",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L nominal stock and profile bounds",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L Y255 through bore",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L Y255 outer recess",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L Y255 inner recess",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L Y255 5.3mm annular web retained",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L Y310 through bore",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L Y310 outer recess",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L Y310 inner recess",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L Y310 5.3mm annular web retained",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L reference pivot bore",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R valid single solid",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R nominal stock and profile bounds",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R Y255 through bore",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R Y255 outer recess",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R Y255 inner recess",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R Y255 5.3mm annular web retained",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R Y310 through bore",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R Y310 outer recess",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R Y310 inner recess",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R Y310 5.3mm annular web retained",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R reference pivot bore",
+      "pass": true
+    },
+    {
+      "check": "negative control rejects 1mm side drift",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged",
+      "pass": true
+    }
+  ],
+  "candidate_button_envelope": {
+    "radius_mm": 18,
+    "body_mm": 60,
+    "cable_mm": 20,
+    "hardware_verified": false
+  },
+  "candidate_envelope_conflicts": [],
+  "remaining_mounting_web_mm": 5.3,
+  "pivot_reference_edge_ligaments_mm": {
+    "rear": 31.75,
+    "top": 82.55
+  },
+  "unverified": [
+    "selected buttons and mounting stack",
+    "leg brackets and access",
+    "SSF and feedback mounts",
+    "glass channel and lockdown datum",
+    "captive props and display load path",
+    "backbox pivot hardware",
+    "accepted shell joinery"
+  ]
+}

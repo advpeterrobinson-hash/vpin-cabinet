@@ -63,3 +63,5 @@ See [repository cleanup plan](REPOSITORY_CLEANUP.md).
 English is canonical. Selected current documents are mirrored under [`docs/pt-BR/`](pt-BR/README.md). See [language policy](LANGUAGE_POLICY.md).
 
 - [Front panel review and panel closure sequence](FRONT_PANEL_REVIEW_V32.md)
+
+Current continuation: [side-panel audit](SIDE_PANEL_REVIEW_V32.md) and [session handoff](SESSION_HANDOFF_V32.md).

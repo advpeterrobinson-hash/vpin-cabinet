@@ -64,3 +64,7 @@ Candidate checks report PASS or FAIL. Actual hardware fit, harness flex, real le
 The front layout and optional-upgrade architecture are implemented for review; permanent machining remains open. Carry these shared boundaries into [sides → rear → bottom](PANEL_CLOSURE_V32.md). Do not move S1, recut the shell, or reserve a full cashbox based on the retired prism. If selected hardware exceeds a candidate reservation, report the specific conflict and propose a localized removable-interface revision before changing permanent structure.
 
 Original material: CERN-OHL-S-2.0. Preserve LICENSE and NOTICE.md. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.
+
+## Optional family reward tokens
+
+The owner may order custom reward coins for nephews and future children. Keep the optional working-mechanism upgrade available alongside the default illuminated door. Token diameter, thickness, material and acceptor model remain unselected. Validate a sample token with the selected mechanism and both accepted/rejected paths before ordering the custom batch or releasing its mounting details. This intent changes no cabinet dimensions.

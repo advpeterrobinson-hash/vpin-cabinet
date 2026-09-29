@@ -46,3 +46,5 @@ A próxima fase é uma limpeza controlada do repositório, preservando históric
 O inglês é canônico. Documentos atuais selecionados são espelhados em `docs/pt-BR/`. Veja a [política de idiomas](LANGUAGE_POLICY.md).
 
 - [Revisão frontal e sequência de fechamento dos painéis](FRONT_PANEL_REVIEW_V32.md)
+
+Continuação: [revisão das laterais](SIDE_PANEL_REVIEW_V32.md) e [handoff da sessão](../SESSION_HANDOFF_V32.md).
