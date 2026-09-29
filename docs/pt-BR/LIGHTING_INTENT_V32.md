@@ -1,18 +1,24 @@
-# Iluminação endereçável — intenção do proprietário
+# Iluminação endereçável — kit selecionado
 
 [English](../LIGHTING_INTENT_V32.md) · [Português (Brasil)](LIGHTING_INTENT_V32.md)
 
-Estado: **planejamento PROVISIONAL; geometria V32 sem alterações; CNC BLOCKED**.
+**OWNER_SELECTED 2026-09-29; integração PROVISIONAL; CNC BLOCKED.** O proprietário selecionou o [Addressable LED Plug and Play Kit da Cleveland Software Design](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit). Mantida a intenção anterior de seis painéis; variante do pedido e opção de anéis dos speakers ainda não confirmadas. Não há declaração de compra ou recebimento.
 
-O proprietário pretende instalar uma matriz de LEDs acima do playfield usando Arnoz MX-DONNY, provisoriamente com seis painéis de 16×16 LEDs (1.536 pixels). Também pretende iluminação nos speakers e no gabinete. LEDs na folga restante ao redor do display do playfield são opcionais, dependendo do espaço real e da revisão visual.
+A controladora incluída substitui a previsão de Arnoz MX-DONNY para este kit. Isso não altera outros dispositivos Arnoz. Notas anteriores de Pinscape/MX-DONNY permanecem como histórico, não como alocação atual de portas.
 
-“16×16” é resolução em pixels, não milímetros. Seis painéis podem formar 96×16 pixels em uma fileira ou 48×32 em um arranjo de três por dois; nenhum arranjo ou envelope físico está selecionado. A posição exata pretendida por “acima do playfield”, dimensões dos painéis, passo dos pixels, espaço para conectores e orientação permanecem abertos. Não alterar o gabinete nem reduzir o envelope de troca do display para acomodar uma dimensão presumida.
+## Dados publicados e limites dimensionais
 
-## Referência da controladora e limites de planejamento
+Fonte consultada em 2026-09-29. O fornecedor lista controladora Wemos S2 com 10 saídas, painéis, duas fitas laterais, cabos/extensões, espaçadores/parafusos, cabo USB e fonte de 5 V / 15 A. Seis painéis fornecem 1.536 pixels; as fitas somam 288. Anéis opcionais possuem 45 pixels cada, 5 V e dimensões anunciadas de 120/102/9 mm (confirmar o significado de cada dimensão).
 
-A [página oficial da MX-DONNY](https://shop.arnoz.com/en/dude-s-cab/151-mx-donny.html) descreve uma expansão usada com Dude's Cab, com oito saídas e até 4.096 LEDs endereçáveis. O [manual da Dude's Cab](https://dude.arnoz.com/dude_Cab_English_guide.pdf) informa 512 LEDs por saída para animações fluidas. Fontes consultadas em 2026-09-27; somente links e um resumo factual foram registrados, sem importar arquivos do fabricante.
+Cada painel é anunciado com 3.125 polegadas de lado: 79.375 mm. O comprimento dos seis painéis é aproximado separadamente como 18.5 polegadas: 469.9 mm. Seis larguras nominais somam 476.25 mm, diferença de 6.35 mm. Nenhum valor define envelope de usinagem; espessura, furação, espaçamento e folga de conectores seguem desconhecidos.
 
-Apenas cálculo preliminar: dois painéis de 256 pixels equivalem a 512 pixels; seis painéis poderiam usar três saídas de dados se chipset, encadeamento e mapeamento da matriz escolhidos permitirem esse arranjo. Restariam cinco saídas para outras zonas, conforme suas quantidades de pixels. Isso não confirma distribuição de cabos, orçamento elétrico ou compra. Confirmar a revisão da controladora/placa principal e a compatibilidade dos LEDs antes de congelar a configuração.
+A saída nominal da fonte corresponde aritmeticamente a 75 W, não ao consumo medido dos LEDs nem à comprovação de brilho irrestrito. Correntes permanecem desconhecidas até documentar limites de operação. Preservar a entrada externa única aterrada; o cabo fornecido não autoriza segunda entrada externa ou terminais de rede expostos.
+
+## Configuração e decisões restantes
+
+Usar o [gerador de arquivo do fabricante](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator/) para a configuração real e porta COM detectada. Os presets incluem fitas laterais. Salvar a configuração e verificar ordem dos pixels, orientação, brilho e zonas no comissionamento; não reutilizar o cálculo de três saídas da MX-DONNY. Nenhuma porta ou cabinet.xml está congelado agora.
+
+Os seis painéis mantêm a intenção anterior de 16×16. Disposição física e posição exata acima do playfield seguem abertas. Fitas incluídas não comprovam cobertura sob o gabinete nem nas folgas opcionais da tela. Anéis são opção pendente; dois acrescentariam 90 pixels, totalizando 1.914 com matriz e fitas (1.824 sem anéis).
 
 ## Integração mecânica e elétrica a desenvolver
 
@@ -22,4 +28,4 @@ Apenas cálculo preliminar: dois painéis de 256 pixels equivalem a 512 pixels; 
 - Selecionar painéis/fitas antes de calcular tensão, corrente máxima, capacidade da fonte, proteção de ramais, bitolas e pontos de injeção de alimentação. Capacidade de controle não equivale à capacidade da fonte. Preservar regras existentes de isolamento de rede e roteamento de áudio/dados.
 - Prever brilho independente por zona e opção de desligar efeitos; aparência final exige revisão visual do proprietário.
 
-Próximos dados de engenharia: modelo e dimensões dos painéis/fitas, chipset/tensão/corrente, arranjo físico pretendido, dimensões da iluminação dos speakers e comprimentos das fitas do gabinete. Sessões físicas continuam pausadas; este registro não pressupõe medições ou aprovações.
+Próximos dados: variante de seis painéis/pedido, opção dos anéis, medidas montadas, fixações/conectores, comprimentos das fitas e limites documentados de operação. Sessões físicas seguem pausadas; nenhuma geometria CAD foi alterada.

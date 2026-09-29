@@ -11,16 +11,24 @@
       16
     ],
     "total_pixels": 1536,
-    "model": null,
-    "physical_panel_dimensions_mm": null,
+    "model": "CSD kit matrix panel; exact revision pending",
+    "physical_panel_dimensions_mm": [
+      79.375,
+      79.375,
+      null
+    ],
     "arrangement": null,
-    "chipset": null
+    "chipset": null,
+    "dimension_evidence": "VENDOR_NOMINAL_NOT_MEASURED",
+    "published_six_panel_length_mm": 469.9,
+    "derived_six_panel_width_sum_mm": 476.25,
+    "dimension_discrepancy_mm": 6.35
   },
   "pc_interface_status": "BLOCKED_OWNER_DECISION",
   "zones": [
     {
       "zone_id": "MATRIX",
-      "status": "PROVISIONAL",
+      "status": "KIT_SELECTED_INTEGRATION_PENDING",
       "optional": false,
       "device_rows": [],
       "supply_rail": null,
@@ -29,7 +37,7 @@
       "total_input_power_W": null,
       "data_port": null,
       "service_connector": null,
-      "ratings_source": null
+      "ratings_source": "https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit"
     },
     {
       "zone_id": "SPEAKER_LED",
@@ -179,5 +187,40 @@
   ],
   "unknown_value_policy": "null means unknown; an empty device list is incomplete, not zero load",
   "total_policy": "Do not total incomplete rails or double-count upstream supply input and downstream loads",
-  "license": "CERN-OHL-S-2.0"
+  "license": "CERN-OHL-S-2.0",
+  "lighting_kit": {
+    "status": "OWNER_SELECTED",
+    "selection_date": "2026-09-29",
+    "vendor": "Cleveland Software Design",
+    "product": "Addressable LED Plug and Play Kit",
+    "source_url": "https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit",
+    "source_checked": "2026-09-29",
+    "purchase_status": "NOT_RECORDED",
+    "panel_variant_status": "SIX_PANEL_PRIOR_INTENT_ORDER_VARIANT_UNCONFIRMED",
+    "speaker_ring_quantity": null,
+    "controller": {
+      "description": "Wemos S2",
+      "outputs": 10,
+      "supersedes": "Arnoz MX-DONNY plan for this kit only"
+    },
+    "included_supply": {
+      "output_voltage_V": 5,
+      "rated_output_current_A": 15,
+      "derived_output_capacity_W": 75,
+      "measured_load_W": null
+    },
+    "side_strip_count": 2,
+    "side_strip_total_pixels": 288,
+    "optional_ring": {
+      "voltage_V": 5,
+      "pixels_each": 45,
+      "listed_dimensions_mm": [
+        120,
+        102,
+        9
+      ],
+      "dimension_roles": "UNCONFIRMED"
+    },
+    "configuration_source": "https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator/"
+  }
 }

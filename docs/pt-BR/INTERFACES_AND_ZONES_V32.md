@@ -4,6 +4,8 @@
 
 Status: **PROVISIONAL — CNC BLOCKED — sessões físicas PAUSED**. Retomada em 28/09/2026 a partir de `0398d16857e66e415805b7154b0df7e37e7964a6`, após o blecaute. Este é o próximo pacote da [revisão Pinscape](PINSCAPE_ACCELERATION_REVIEW.md), baseado na [intenção de iluminação](LIGHTING_INTENT_V32.md), no [registro de peças](PART_CODES.md) e no [pacote V32](../../exports/generated/cabinet-v32/README.md). Não aprova geometria, compra, medição ou características elétricas.
 
+Atualização 2026-09-29: o proprietário selecionou o kit LED CSD. [Kit e dimensões nominais](LIGHTING_INTENT_V32.md) substituem o produto desconhecido e a hipótese anterior de MX-DONNY abaixo. IF-05 continua sem medição; variante, conectores, encaixe e limites de operação seguem abertos.
+
 ## Registro de interfaces
 
 Os identificadores `IF-*` organizam requisitos, não são códigos permanentes de peças. Todas as interfaces continuam `BLOCKED_UNMEASURED`. Modelo CAD ou dimensão nominal não comprova encaixe da ferragem.
@@ -56,7 +58,7 @@ A aritmética da matriz estabelece somente `6 × 16 × 16 = 1536` pixels. Dispos
 
 ## Próxima entrada e evidência de conclusão
 
-1. Obter anúncio/datasheet ou etiqueta do painel exato, dimensões e disposição/local desejados. Registrar fonte/revisão; não importar arquivos de fornecedor sem verificar licença.
+1. Usar o anúncio do kit CSD selecionado; confirmar variante, dimensões e disposição/local desejados. Registrar fonte/revisão; não importar arquivos de fornecedor sem verificar licença.
 2. Preencher IF-05 e zonas de iluminação com essa evidência; manter dúvidas abertas. Esclarecer requisito do PC antes do estudo de manutenção.
 3. Adicionar dispositivos restantes e revisar dependências dos modos, mapeamento, totais, conectores e movimentos.
 4. Propor geometria visível somente com dados suficientes. Sessões físicas seguem pausadas; encaixe, elétrica, temperatura, movimento e carga dependem de evidência futura.

@@ -4,6 +4,8 @@
 
 Status: **PROVISIONAL — CNC BLOCKED — physical sessions PAUSED**. Resumed 2026-09-28 from `0398d16857e66e415805b7154b0df7e37e7964a6` after the power outage. This is the next planning package from the [Pinscape review](PINSCAPE_ACCELERATION_REVIEW.md), using the [lighting intent](LIGHTING_INTENT_V32.md), [part registry](PART_CODES.md) and [V32 package](../exports/generated/cabinet-v32/README.md). No geometry, purchased hardware, measurements or electrical ratings are approved here.
 
+Update 2026-09-29: the owner selected the CSD LED kit. [Selected kit and nominal dimensions](LIGHTING_INTENT_V32.md) supersede the unknown product and earlier MX-DONNY assumption below. IF-05 remains unmeasured; order variant, connectors, fit and operating limits remain open.
+
 ## Interface register
 
 These `IF-*` identifiers track requirements; they are not permanent part codes. All interfaces remain `BLOCKED_UNMEASURED`. An existing model or a nominal dimension is not a hardware fit certificate.
@@ -56,7 +58,7 @@ Matrix arithmetic currently establishes only `6 × 16 × 16 = 1536` pixels. No p
 
 ## Next input and completion evidence
 
-1. Obtain the exact LED panel listing/datasheet or label, physical dimensions and desired arrangement/location. Record source and revision; do not import vendor files into the repository without license clearance.
+1. Use the selected CSD kit listing; confirm its order variant, physical dimensions and desired arrangement/location. Record source and revision; do not import vendor files into the repository without license clearance.
 2. Fill IF-05 and each lighting zone from that evidence, keeping unconfirmed values open. Clarify the PC requirement before its service study.
 3. Add remaining device rows, then review mode dependencies, mapping, power totals, service connectors and motion envelopes.
 4. Propose visible carrier/interface geometry only after the inputs support it. Physical sessions remain paused; fit, electrical, thermal, motion and load tests are future evidence.
