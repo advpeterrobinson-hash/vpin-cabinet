@@ -8,7 +8,15 @@
 
 Esta página permite que um novo colaborador entenda rapidamente a direção atual do gabinete sem primeiro navegar por toda a árvore do repositório. O pacote técnico completo permanece em [`exports/generated/cabinet-v32/`](../../exports/generated/cabinet-v32/README.md).
 
-## Último desenvolvimento — ancoragem substituível dos apoios
+## Direção atual — quatro parafusos por cima
+
+Dois parafusos de cada lado, apoios fixos e equipamentos mantidos na prateleira ao retirá-la. As travessas ficam nos testes; ainda falta integrar a posição real do playfield aberto.
+
+[![Fixação simples](../../exports/generated/side-panel-v32/07-simple-shelves.png)](SIMPLE_SHELVES_V32.md)
+
+[Abrir estudo simplificado atual](SIMPLE_SHELVES_V32.md).
+
+## Estudo histórico de ancoragem — substituído
 
 A fixação aprovada das prateleiras agora tem um estudo separado de ancoragem: parafusos pelo interior, reservas para insertos cegos e rotas verificadas de substituição dos apoios. Usinagem permanente das laterais ainda não aprovada.
 

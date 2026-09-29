@@ -1,5 +1,7 @@
 # V32 removable shelf-retention proposal
 
+> Historical complexity study, superseded for current shelf service by [simple top release](SIMPLE_SHELVES_V32.md). Preserve evidence; do not resume this mechanism by default.
+
 [Português (Brasil)](pt-BR/SHELF_RETENTION_REVIEW_V32.md)
 
 **Separate modeled proposal; original V32 unchanged. 106 checks pass. CNC BLOCKED.** This adds a candidate way to clamp each shelf positively, release it from above and preserve the [horizontal-first removal routes](SIDE_MOTION_REVIEW_V32.md).

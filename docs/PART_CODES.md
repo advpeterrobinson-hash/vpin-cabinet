@@ -72,12 +72,12 @@ Owner accepted the removable shelf-retention direction on 2026-09-29. The covers
 
 | Permanent code | Study legacy ID | Function | Status |
 |---|---|---|---|
-| S1NutCoverL | CandidateNutCover1L | S1 left captured-nut cover | function accepted; fastening/material pending |
-| S1NutCoverR | CandidateNutCover1R | S1 right captured-nut cover | function accepted; fastening/material pending |
-| S2NutCoverL | CandidateNutCover2L | S2 left captured-nut cover | function accepted; fastening/material pending |
-| S2NutCoverR | CandidateNutCover2R | S2 right captured-nut cover | function accepted; fastening/material pending |
-| S3NutCoverL | CandidateNutCover3L | S3 left captured-nut cover | function accepted; fastening/material pending |
-| S3NutCoverR | CandidateNutCover3R | S3 right captured-nut cover | function accepted; fastening/material pending |
+| S1NutCoverL | CandidateNutCover1L | S1 left captured-nut cover | retired from current simplified direction; historical only |
+| S1NutCoverR | CandidateNutCover1R | S1 right captured-nut cover | retired from current simplified direction; historical only |
+| S2NutCoverL | CandidateNutCover2L | S2 left captured-nut cover | retired from current simplified direction; historical only |
+| S2NutCoverR | CandidateNutCover2R | S2 right captured-nut cover | retired from current simplified direction; historical only |
+| S3NutCoverL | CandidateNutCover3L | S3 left captured-nut cover | retired from current simplified direction; historical only |
+| S3NutCoverR | CandidateNutCover3R | S3 right captured-nut cover | retired from current simplified direction; historical only |
 
 ## Provisional names
 
@@ -108,3 +108,5 @@ The published V32 keeps legacy internal IDs so the existing FreeCAD/STEP files r
 - future BOM/manifest generation should derive identity from the same source map.
 
 This prevents silent renaming and preserves historical references.
+
+The owner subsequently simplified shelf service to four top screws into fixed supports. S1NutCoverL/R through S3NutCoverL/R are retired from that direction, retained only for historical traceability and never reused. See [current shelf direction](SIMPLE_SHELVES_V32.md).

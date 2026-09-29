@@ -8,7 +8,15 @@
 
 This page lets a new contributor understand the current cabinet direction without browsing the repository tree first. The complete technical package remains in [`exports/generated/cabinet-v32/`](../exports/generated/cabinet-v32/README.md).
 
-## Latest development — replaceable support anchorage
+## Current shelf direction — four screws from above
+
+Two screws per side, fixed supports, mounted equipment retained on removal. Crossmembers remain in the stationary-scene checks; actual raised-playfield integration is still open.
+
+[![Simple top-release shelf](../exports/generated/side-panel-v32/07-simple-shelves.png)](SIMPLE_SHELVES_V32.md)
+
+[Open the current simplified study](SIMPLE_SHELVES_V32.md).
+
+## Historical support anchorage study — superseded
 
 The accepted shelf-retention direction now has a separate side-anchorage study: inward-facing fasteners, blind insert reservations and checked support-replacement paths. Permanent side machining remains unapproved.
 

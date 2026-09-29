@@ -1,5 +1,7 @@
 # V32: ancoragem substituível dos apoios das prateleiras
 
+> Estudo histórico, substituído pela [fixação simples por cima](SIMPLE_SHELVES_V32.md). Não retomar esse mecanismo como direção atual.
+
 [English / relatório técnico completo](../SHELF_ANCHORAGE_REVIEW_V32.md)
 
 **Proposta separada; 138 verificações aprovadas; CNC BLOQUEADO.** A aprovação da fixação removível das prateleiras foi registrada em DEC-OWNER-V32-SHELVES. Este estudo avança na ancoragem dos apoios; não transforma a aprovação anterior em autorização para usinar as laterais.

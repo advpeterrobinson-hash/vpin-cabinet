@@ -179,3 +179,9 @@ Owner directs manual playfield lift with two simple captive positive props, no b
 Use four top-accessible shelf screws with captured square nuts in replaceable local side supports, leaving nut covers in place for normal shelf removal. Preserve the tested horizontal-first extraction paths and reserve tool wells in the equipment layout. The accepted study uses 42 mm support width; hardware envelopes remain candidates rather than purchase specifications. Covers receive S1NutCoverL/R through S3NutCoverL/R identities.
 
 This accepts the [shelf-retention direction](SHELF_RETENTION_REVIEW_V32.md), not manufacturing release, structural capacity or the subsequent blind-insert side-anchorage proposal. Do not overwrite the original V32 artifact until the remaining interfaces are qualified. Side anchorage, monitor/crossmember retention, captive props, material/tool tolerances and physical proof remain open. The unresolved PC architecture decision is not changed by this approval.
+
+## DEC-OWNER-V32-SIMPLE-SHELVES — four screws visible from above
+
+**Status:** current explicit owner direction, superseding the removable-support/nut-cover complexity of DEC-OWNER-V32-SHELVES.
+
+Owner clarified: two screws per side, coming from above; open the playfield, look down, undo the shelf and remove it with mounted equipment. Use fixed local supports and retained threaded receivers; no underside nut-cover service or support-anchor removal for shelf maintenance. Crossmembers should stay in place. The separate [simplified study](SIMPLE_SHELVES_V32.md) checks top tool columns and loaded shelf translation with crossmembers retained; it adjusts the rear S2 screw and advances S3 by80 mm as a proposal to clear fixed obstructions. Actual raised-display/prop/cable integration is still unverified. This instruction is not CNC approval.

@@ -1,0 +1,71 @@
+{
+  "status": "OWNER_DIRECTED_SIMPLE_TOP_RELEASE",
+  "shelves": [
+    {
+      "number": 1,
+      "y_mm": 120,
+      "bolt_offsets_y_mm": [
+        25,
+        100
+      ],
+      "stage_y_mm": 430
+    },
+    {
+      "number": 2,
+      "y_mm": 600,
+      "bolt_offsets_y_mm": [
+        25,
+        135
+      ],
+      "stage_y_mm": 430
+    },
+    {
+      "number": 3,
+      "y_mm": 1000,
+      "bolt_offsets_y_mm": [
+        25,
+        100
+      ],
+      "stage_y_mm": 760
+    }
+  ],
+  "support_width_mm": 42,
+  "bolt_x_mm": [
+    48,
+    552
+  ],
+  "bore_diameter_mm": 5.5,
+  "shaft_diameter_mm": 5,
+  "shaft_length_mm": 25,
+  "head_diameter_mm": 9,
+  "head_height_mm": 4,
+  "washer_diameter_mm": 12,
+  "washer_thickness_mm": 1,
+  "insert_diameter_mm": 8,
+  "insert_length_mm": 10,
+  "insert_bore_diameter_mm": 8.5,
+  "insert_pocket_depth_mm": 10.5,
+  "shaft_tip_pocket_depth_mm": 12.5,
+  "equipment_height_mm": 60,
+  "access_well_radius_mm": 10,
+  "tool_radius_mm": 8,
+  "withdrawal_mm": 30,
+  "exit_margin_mm": 10,
+  "collision_threshold_mm3": 0.01,
+  "side_buttons": {
+    "radius_mm": 18,
+    "depth_mm": 80,
+    "y_mm": [
+      255,
+      310
+    ],
+    "z_mm": 270
+  },
+  "playfield_assembly": [
+    "PLAYFIELD_ENVELOPE",
+    "MONITOR_RAIL_L",
+    "MONITOR_RAIL_R",
+    "MONITOR_BRIDGE"
+  ],
+  "scope": "Four top screws per shelf, two per side, into permanently installed local supports. No nut covers or removable wall-anchor mechanism. All crossmembers remain during tool and extraction checks. The playfield assembly is excluded ONLY to test stationary-cabinet access; its real raised position, hinge and captive props remain unverified. Hardware is a candidate envelope, not selected or load-rated."
+}

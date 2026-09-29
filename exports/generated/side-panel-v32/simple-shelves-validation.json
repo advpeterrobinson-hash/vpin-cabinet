@@ -1,0 +1,801 @@
+{
+  "status": "OWNER_DIRECTED_SIMPLE_TOP_RELEASE",
+  "manufacturing_ready": false,
+  "source_hashes": {
+    "config/simple_shelves_v32.json": "f8a47502fdd26f83ec5e006d024836d418560f5faef69537af92ad7cc88b9746",
+    "config/front_panel_v32.json": "de4d570c44741739c04da0fe496287412f49364572c6856cacaaf194b5824298",
+    "exports/generated/cabinet-v32/vpin-central-v32.FCStd": "ff973219bdc8bee6707bd29f6a44da74c895cbcbea9e0b1790d8e7723b9aa038",
+    "exports/generated/front-panel-v32/coin-upgrade-closed.FCStd": "e02f9567f940c87bea8a0f4503494f7ac4b9be8cf2f1ee8027af717e953fdf03",
+    "tools/simple_shelves_v32_entry.py": "32b5e1e8c5001727d848868809f3a76db24eba88765eef01a6682cef7e6c0715"
+  },
+  "config": {
+    "status": "OWNER_DIRECTED_SIMPLE_TOP_RELEASE",
+    "shelves": [
+      {
+        "number": 1,
+        "y_mm": 120,
+        "bolt_offsets_y_mm": [
+          25,
+          100
+        ],
+        "stage_y_mm": 430
+      },
+      {
+        "number": 2,
+        "y_mm": 600,
+        "bolt_offsets_y_mm": [
+          25,
+          135
+        ],
+        "stage_y_mm": 430
+      },
+      {
+        "number": 3,
+        "y_mm": 1000,
+        "bolt_offsets_y_mm": [
+          25,
+          100
+        ],
+        "stage_y_mm": 760
+      }
+    ],
+    "support_width_mm": 42,
+    "bolt_x_mm": [
+      48,
+      552
+    ],
+    "bore_diameter_mm": 5.5,
+    "shaft_diameter_mm": 5,
+    "shaft_length_mm": 25,
+    "head_diameter_mm": 9,
+    "head_height_mm": 4,
+    "washer_diameter_mm": 12,
+    "washer_thickness_mm": 1,
+    "insert_diameter_mm": 8,
+    "insert_length_mm": 10,
+    "insert_bore_diameter_mm": 8.5,
+    "insert_pocket_depth_mm": 10.5,
+    "shaft_tip_pocket_depth_mm": 12.5,
+    "equipment_height_mm": 60,
+    "access_well_radius_mm": 10,
+    "tool_radius_mm": 8,
+    "withdrawal_mm": 30,
+    "exit_margin_mm": 10,
+    "collision_threshold_mm3": 0.01,
+    "side_buttons": {
+      "radius_mm": 18,
+      "depth_mm": 80,
+      "y_mm": [
+        255,
+        310
+      ],
+      "z_mm": 270
+    },
+    "playfield_assembly": [
+      "PLAYFIELD_ENVELOPE",
+      "MONITOR_RAIL_L",
+      "MONITOR_RAIL_R",
+      "MONITOR_BRIDGE"
+    ],
+    "scope": "Four top screws per shelf, two per side, into permanently installed local supports. No nut covers or removable wall-anchor mechanism. All crossmembers remain during tool and extraction checks. The playfield assembly is excluded ONLY to test stationary-cabinet access; its real raised position, hinge and captive props remain unverified. Hardware is a candidate envelope, not selected or load-rated."
+  },
+  "checks": [
+    {
+      "check": "SIDE_L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "REAR front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "FAN_230 front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "FAN_370 front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "REAR_DOOR front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "FLOOR front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "FLOOR_CLEAT_18 front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "FLOOR_CLEAT_552 front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1 front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2 front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3 front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_1 front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_1L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_1R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_2 front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_2L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_2R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_3 front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_3L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_3R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "MONITOR_RAIL_L front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "MONITOR_RAIL_R front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "MONITOR_BRIDGE front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "PLAYFIELD_ENVELOPE front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "AUDIO_STARTECH front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "PC_BASE front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "PC_ENVELOPE front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "BACKBOX_BASE front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "MAINS_RESERVED front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "RJ45_RESERVED front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "exactly four top screws per shelf",
+      "pass": true
+    },
+    {
+      "check": "no nut covers or side-anchor hardware",
+      "pass": true
+    },
+    {
+      "check": "all candidate shapes valid",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L unchanged from front study",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R unchanged from front study",
+      "pass": true
+    },
+    {
+      "check": "FRONT unchanged from front study",
+      "pass": true
+    },
+    {
+      "check": "REAR unchanged from front study",
+      "pass": true
+    },
+    {
+      "check": "FLOOR unchanged from front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_1 unchanged from front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_2 unchanged from front study",
+      "pass": true
+    },
+    {
+      "check": "CROSS_3 unchanged from front study",
+      "pass": true
+    },
+    {
+      "check": "changed physical parts have no installed overlaps",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1L1 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1L1 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1L2 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1L2 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1R1 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1R1 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1R2 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1R2 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2L1 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2L1 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2L2 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2L2 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2R1 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2R1 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2R2 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2R2 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3L1 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3L1 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3L2 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3L2 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3R1 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3R1 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3R2 continuous top column clear",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3R2 upward withdrawal clear",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1 loaded extraction with all crossmembers retained",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2 loaded extraction with all crossmembers retained",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3 loaded extraction with all crossmembers retained",
+      "pass": true
+    },
+    {
+      "check": "reject old S2 rear screw",
+      "pass": true
+    },
+    {
+      "check": "reject old S3 rear screw",
+      "pass": true
+    },
+    {
+      "check": "reject S2 rear at Y725",
+      "pass": true
+    },
+    {
+      "check": "reject equipment filling screw access",
+      "pass": true
+    },
+    {
+      "check": "source and inputs unchanged",
+      "pass": true
+    },
+    {
+      "check": "saved exact identity set",
+      "pass": true
+    },
+    {
+      "check": "saved valid solids",
+      "pass": true
+    },
+    {
+      "check": "saved exact shapes",
+      "pass": true
+    }
+  ],
+  "axes": [
+    {
+      "shelf": "SHELF_1",
+      "support": "SHELF_SUPPORT_1L",
+      "bolt": "SimpleShelfBolt1L1",
+      "washer": "SimpleShelfBolt1L1Washer",
+      "insert": "SimpleShelfBolt1L1Insert",
+      "xyz_mm": [
+        48,
+        145,
+        172.0
+      ],
+      "head_top_z_mm": 177.0
+    },
+    {
+      "shelf": "SHELF_1",
+      "support": "SHELF_SUPPORT_1L",
+      "bolt": "SimpleShelfBolt1L2",
+      "washer": "SimpleShelfBolt1L2Washer",
+      "insert": "SimpleShelfBolt1L2Insert",
+      "xyz_mm": [
+        48,
+        220,
+        172.0
+      ],
+      "head_top_z_mm": 177.0
+    },
+    {
+      "shelf": "SHELF_1",
+      "support": "SHELF_SUPPORT_1R",
+      "bolt": "SimpleShelfBolt1R1",
+      "washer": "SimpleShelfBolt1R1Washer",
+      "insert": "SimpleShelfBolt1R1Insert",
+      "xyz_mm": [
+        552,
+        145,
+        172.0
+      ],
+      "head_top_z_mm": 177.0
+    },
+    {
+      "shelf": "SHELF_1",
+      "support": "SHELF_SUPPORT_1R",
+      "bolt": "SimpleShelfBolt1R2",
+      "washer": "SimpleShelfBolt1R2Washer",
+      "insert": "SimpleShelfBolt1R2Insert",
+      "xyz_mm": [
+        552,
+        220,
+        172.0
+      ],
+      "head_top_z_mm": 177.0
+    },
+    {
+      "shelf": "SHELF_2",
+      "support": "SHELF_SUPPORT_2L",
+      "bolt": "SimpleShelfBolt2L1",
+      "washer": "SimpleShelfBolt2L1Washer",
+      "insert": "SimpleShelfBolt2L1Insert",
+      "xyz_mm": [
+        48,
+        625,
+        192.0
+      ],
+      "head_top_z_mm": 197.0
+    },
+    {
+      "shelf": "SHELF_2",
+      "support": "SHELF_SUPPORT_2L",
+      "bolt": "SimpleShelfBolt2L2",
+      "washer": "SimpleShelfBolt2L2Washer",
+      "insert": "SimpleShelfBolt2L2Insert",
+      "xyz_mm": [
+        48,
+        735,
+        192.0
+      ],
+      "head_top_z_mm": 197.0
+    },
+    {
+      "shelf": "SHELF_2",
+      "support": "SHELF_SUPPORT_2R",
+      "bolt": "SimpleShelfBolt2R1",
+      "washer": "SimpleShelfBolt2R1Washer",
+      "insert": "SimpleShelfBolt2R1Insert",
+      "xyz_mm": [
+        552,
+        625,
+        192.0
+      ],
+      "head_top_z_mm": 197.0
+    },
+    {
+      "shelf": "SHELF_2",
+      "support": "SHELF_SUPPORT_2R",
+      "bolt": "SimpleShelfBolt2R2",
+      "washer": "SimpleShelfBolt2R2Washer",
+      "insert": "SimpleShelfBolt2R2Insert",
+      "xyz_mm": [
+        552,
+        735,
+        192.0
+      ],
+      "head_top_z_mm": 197.0
+    },
+    {
+      "shelf": "SHELF_3",
+      "support": "SHELF_SUPPORT_3L",
+      "bolt": "SimpleShelfBolt3L1",
+      "washer": "SimpleShelfBolt3L1Washer",
+      "insert": "SimpleShelfBolt3L1Insert",
+      "xyz_mm": [
+        48,
+        1025,
+        252.0
+      ],
+      "head_top_z_mm": 257.0
+    },
+    {
+      "shelf": "SHELF_3",
+      "support": "SHELF_SUPPORT_3L",
+      "bolt": "SimpleShelfBolt3L2",
+      "washer": "SimpleShelfBolt3L2Washer",
+      "insert": "SimpleShelfBolt3L2Insert",
+      "xyz_mm": [
+        48,
+        1100,
+        252.0
+      ],
+      "head_top_z_mm": 257.0
+    },
+    {
+      "shelf": "SHELF_3",
+      "support": "SHELF_SUPPORT_3R",
+      "bolt": "SimpleShelfBolt3R1",
+      "washer": "SimpleShelfBolt3R1Washer",
+      "insert": "SimpleShelfBolt3R1Insert",
+      "xyz_mm": [
+        552,
+        1025,
+        252.0
+      ],
+      "head_top_z_mm": 257.0
+    },
+    {
+      "shelf": "SHELF_3",
+      "support": "SHELF_SUPPORT_3R",
+      "bolt": "SimpleShelfBolt3R2",
+      "washer": "SimpleShelfBolt3R2Washer",
+      "insert": "SimpleShelfBolt3R2Insert",
+      "xyz_mm": [
+        552,
+        1100,
+        252.0
+      ],
+      "head_top_z_mm": 257.0
+    }
+  ],
+  "access": [
+    {
+      "bolt": "SimpleShelfBolt1L1",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt1L2",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt1R1",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt1R2",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt2L1",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt2L2",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt2R1",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt2R2",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt3L1",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt3L2",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt3R1",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    },
+    {
+      "bolt": "SimpleShelfBolt3R2",
+      "top_column_conflicts": [],
+      "withdrawal_conflicts": []
+    }
+  ],
+  "routes": [
+    {
+      "shelf": "SHELF_1",
+      "moving": [
+        "SHELF_1",
+        "SHELF_1_CandidatePayload",
+        "AUDIO_STARTECH"
+      ],
+      "removed_only": [
+        "SimpleShelfBolt1L1",
+        "SimpleShelfBolt1L1Washer",
+        "SimpleShelfBolt1L2",
+        "SimpleShelfBolt1L2Washer",
+        "SimpleShelfBolt1R1",
+        "SimpleShelfBolt1R1Washer",
+        "SimpleShelfBolt1R2",
+        "SimpleShelfBolt1R2Washer"
+      ],
+      "translations_mm": [
+        [
+          0.0,
+          310.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          446.9
+        ]
+      ],
+      "conflicts": []
+    },
+    {
+      "shelf": "SHELF_2",
+      "moving": [
+        "SHELF_2",
+        "SHELF_2_CandidatePayload"
+      ],
+      "removed_only": [
+        "SimpleShelfBolt2L1",
+        "SimpleShelfBolt2L1Washer",
+        "SimpleShelfBolt2L2",
+        "SimpleShelfBolt2L2Washer",
+        "SimpleShelfBolt2R1",
+        "SimpleShelfBolt2R1Washer",
+        "SimpleShelfBolt2R2",
+        "SimpleShelfBolt2R2Washer"
+      ],
+      "translations_mm": [
+        [
+          0.0,
+          -170.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          426.9
+        ]
+      ],
+      "conflicts": []
+    },
+    {
+      "shelf": "SHELF_3",
+      "moving": [
+        "SHELF_3",
+        "SHELF_3_CandidatePayload"
+      ],
+      "removed_only": [
+        "SimpleShelfBolt3L1",
+        "SimpleShelfBolt3L1Washer",
+        "SimpleShelfBolt3L2",
+        "SimpleShelfBolt3L2Washer",
+        "SimpleShelfBolt3R1",
+        "SimpleShelfBolt3R1Washer",
+        "SimpleShelfBolt3R2",
+        "SimpleShelfBolt3R2Washer"
+      ],
+      "translations_mm": [
+        [
+          0.0,
+          -240.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          366.9
+        ]
+      ],
+      "conflicts": []
+    }
+  ],
+  "negative_controls": [
+    {
+      "case": "old S2 rear screw",
+      "conflicts": [
+        {
+          "moving": "tool",
+          "obstacle": "CROSS_2",
+          "mm3": 16084.954387995145
+        }
+      ]
+    },
+    {
+      "case": "old S3 rear screw",
+      "conflicts": [
+        {
+          "moving": "tool",
+          "obstacle": "BACKBOX_BASE",
+          "mm3": 3619.1147369354503
+        }
+      ]
+    },
+    {
+      "case": "S2 rear at Y725",
+      "conflicts": [
+        {
+          "moving": "tool",
+          "obstacle": "CROSS_BRACKET_2L",
+          "mm3": 301.5928947446207
+        }
+      ]
+    }
+  ],
+  "installed_conflicts": [],
+  "saved_proposal": {
+    "path": "exports/generated/side-panel-v32/simple-shelves-proposal.FCStd",
+    "sha256": "43e23721b60e1774723b60d0a46a686c2d55dbca2cb07a811aae3a805b194974",
+    "solids": 108
+  },
+  "unverified": [
+    "Actual raised playfield, hinge, captive props and harness occupancy",
+    "Fixed cleat attachment to side wall and load capacity",
+    "Selected screws and top inserts; stock/pilot/thread tolerances and physical proof",
+    "Whole hand/tool insertion and handling of populated shelves"
+  ]
+}

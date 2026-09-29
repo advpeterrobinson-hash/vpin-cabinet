@@ -1,5 +1,7 @@
 # V32 replaceable shelf-support anchorage
 
+> Historical complexity study, superseded for current shelf service by [simple top release](SIMPLE_SHELVES_V32.md). Preserve evidence; do not resume this mechanism by default.
+
 [Português (Brasil)](pt-BR/SHELF_ANCHORAGE_REVIEW_V32.md)
 
 **Separate anchorage proposal; 138 checks pass; CNC BLOCKED.** The owner accepted the preceding [removable shelf-retention direction](SHELF_RETENTION_REVIEW_V32.md), recorded in [DEC-OWNER-V32-SHELVES](DESIGN_DECISIONS.md#dec-owner-v32-shelves--removable-shelf-retention). This new study develops its support-to-side interface; it does not extend that acceptance to permanent side machining.

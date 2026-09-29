@@ -1,5 +1,7 @@
 # V32: proposta de fixação removível das prateleiras
 
+> Estudo histórico, substituído pela [fixação simples por cima](SIMPLE_SHELVES_V32.md). Não retomar esse mecanismo como direção atual.
+
 [English / relatório técnico completo](../SHELF_RETENTION_REVIEW_V32.md)
 
 **Proposta separada, com 106 verificações aprovadas. V32 original inalterado; CNC BLOQUEADO.**

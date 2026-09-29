@@ -1,5 +1,7 @@
 # V32 panel closure sequence
 
+> Current shelf direction: [four screws accessible from above](SIMPLE_SHELVES_V32.md), fixed supports and retained crossmembers. Earlier removable-support/nut-cover entries below are historical.
+
 [English](PANEL_CLOSURE_V32.md) · [Português (Brasil)](pt-BR/PANEL_CLOSURE_V32.md)
 
 Owner order: **Front → SideL/SideR → Rear/RearDoor → Floor**. The objective is to close shared interfaces once and keep component-specific changes on replaceable parts. A visually accepted layout and a measured CNC-ready interface are separate decisions. No panel is declared finally frozen in this pass.

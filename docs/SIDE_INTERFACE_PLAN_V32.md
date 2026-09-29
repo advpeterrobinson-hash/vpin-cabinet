@@ -1,5 +1,7 @@
 # V32 side hardware, load and service interfaces
 
+> Current shelf direction: [four screws accessible from above](SIMPLE_SHELVES_V32.md), fixed supports and retained crossmembers. Earlier removable-support/nut-cover entries below are historical.
+
 **Proposal for interface development; no new machining adopted. CNC BLOCKED.**
 
 This continues the [saved-side audit](SIDE_PANEL_REVIEW_V32.md). Coordinates are mm: X left-to-right as seen from the front, Y front-to-rear, Z upward from cabinet bottom. Source is the saved V32 FCStd; the audit records its hash. Hardware dimensions and load ratings remain unselected.
