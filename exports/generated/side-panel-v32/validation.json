@@ -100,6 +100,90 @@
       "pass": true
     },
     {
+      "check": "SHELF_SUPPORT_1L / SHELF_SUPPORT_1R mirrored support geometry",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1L reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1R reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2L / SHELF_SUPPORT_2R mirrored support geometry",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2L reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2R reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3L / SHELF_SUPPORT_3R mirrored support geometry",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3L reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3R reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L / CROSS_GUIDE_1R mirrored support geometry",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L / CROSS_GUIDE_2R mirrored support geometry",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L / CROSS_GUIDE_3R mirrored support geometry",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "FLOOR_CLEAT_18 / FLOOR_CLEAT_552 mirrored support geometry",
+      "pass": true
+    },
+    {
+      "check": "FLOOR_CLEAT_18 reaches inner side datum",
+      "pass": true
+    },
+    {
+      "check": "FLOOR_CLEAT_552 reaches inner side datum",
+      "pass": true
+    },
+    {
       "check": "source bytes unchanged",
       "pass": true
     }
@@ -112,6 +196,205 @@
   },
   "candidate_envelope_conflicts": [],
   "remaining_mounting_web_mm": 5.3,
+  "side_support_bounding_footprints": [
+    {
+      "object": "SHELF_SUPPORT_1L",
+      "side": "left",
+      "inner_face_x_mm": 18.0,
+      "y_mm": [
+        120.0,
+        270.0
+      ],
+      "z_mm": [
+        142.0,
+        160.0
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "SHELF_SUPPORT_1R",
+      "side": "right",
+      "inner_face_x_mm": 582.0,
+      "y_mm": [
+        120.0,
+        270.0
+      ],
+      "z_mm": [
+        142.0,
+        160.0
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "SHELF_SUPPORT_2L",
+      "side": "left",
+      "inner_face_x_mm": 18.0,
+      "y_mm": [
+        600.0,
+        750.0
+      ],
+      "z_mm": [
+        162.0,
+        180.0
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "SHELF_SUPPORT_2R",
+      "side": "right",
+      "inner_face_x_mm": 582.0,
+      "y_mm": [
+        600.0,
+        750.0
+      ],
+      "z_mm": [
+        162.0,
+        180.0
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "SHELF_SUPPORT_3L",
+      "side": "left",
+      "inner_face_x_mm": 18.0,
+      "y_mm": [
+        1080.0,
+        1230.0
+      ],
+      "z_mm": [
+        222.0,
+        240.0
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "SHELF_SUPPORT_3R",
+      "side": "right",
+      "inner_face_x_mm": 582.0,
+      "y_mm": [
+        1080.0,
+        1230.0
+      ],
+      "z_mm": [
+        222.0,
+        240.0
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "CROSS_GUIDE_1L",
+      "side": "left",
+      "inner_face_x_mm": 18.0,
+      "y_mm": [
+        350.0,
+        410.0
+      ],
+      "z_mm": [
+        238.691375367901,
+        383.691375367901
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "CROSS_GUIDE_1R",
+      "side": "right",
+      "inner_face_x_mm": 582.0,
+      "y_mm": [
+        350.0,
+        410.0
+      ],
+      "z_mm": [
+        238.691375367901,
+        383.691375367901
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "CROSS_GUIDE_2L",
+      "side": "left",
+      "inner_face_x_mm": 18.0,
+      "y_mm": [
+        670.0,
+        730.0
+      ],
+      "z_mm": [
+        294.578699311563,
+        439.578699311563
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "CROSS_GUIDE_2R",
+      "side": "right",
+      "inner_face_x_mm": 582.0,
+      "y_mm": [
+        670.0,
+        730.0
+      ],
+      "z_mm": [
+        294.578699311563,
+        439.578699311563
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "CROSS_GUIDE_3L",
+      "side": "left",
+      "inner_face_x_mm": 18.0,
+      "y_mm": [
+        950.0,
+        1010.0
+      ],
+      "z_mm": [
+        343.4801077622672,
+        488.4801077622672
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "CROSS_GUIDE_3R",
+      "side": "right",
+      "inner_face_x_mm": 582.0,
+      "y_mm": [
+        950.0,
+        1010.0
+      ],
+      "z_mm": [
+        343.4801077622672,
+        488.4801077622672
+      ],
+      "inward_extent_mm": 18.0
+    },
+    {
+      "object": "FLOOR_CLEAT_18",
+      "side": "left",
+      "inner_face_x_mm": 18.0,
+      "y_mm": [
+        120.0,
+        1272.1
+      ],
+      "z_mm": [
+        0.0,
+        18.0
+      ],
+      "inward_extent_mm": 30.0
+    },
+    {
+      "object": "FLOOR_CLEAT_552",
+      "side": "right",
+      "inner_face_x_mm": 582.0,
+      "y_mm": [
+        120.0,
+        1272.1
+      ],
+      "z_mm": [
+        0.0,
+        18.0
+      ],
+      "inward_extent_mm": 30.0
+    }
+  ],
+  "footprint_scope": "Existing shelf supports, crossmember guides and floor cleats only. Rectangles are occupied bounds, not fastener approval or structural contact area. Shell joints and missing hardware excluded.",
   "pivot_reference_edge_ligaments_mm": {
     "rear": 31.75,
     "top": 82.55

@@ -26,3 +26,5 @@ The [front proposal](FRONT_PANEL_REVIEW_V32.md) now separates the outward leaf a
 Release requires measured stock, selected tool diameter, clearances and relief, nesting/orientation, physical tolerance coupon, assembly/access evidence and owner manufacturing approval. Physical sessions remain paused. **CNC BLOCKED.**
 
 Current continuation: [side-panel audit](SIDE_PANEL_REVIEW_V32.md) and [session handoff](SESSION_HANDOFF_V32.md).
+
+Side interface development now has a [datum, occupied-support and load/service plan](SIDE_INTERFACE_PLAN_V32.md). Its button-stack alternatives and mounting paths remain proposals; no side machining is frozen.

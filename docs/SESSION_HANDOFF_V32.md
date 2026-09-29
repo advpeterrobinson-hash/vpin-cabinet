@@ -48,3 +48,11 @@ The important new side finding is the 5.3 mm annular button mounting web: 18 min
 The two owner images show three left buttons, central coin door and right plunger/launch. They inform layout, not dimensions. Paths/hashes are recorded in `config/front_panel_v32.json`; do not import copyrighted artwork into the repository.
 
 Attached Pinscape MHT is under `/tmp/codex-remote-attachments/01a0aadc-6bed-7c53-a20c-435ba360f604/20c89704-177e-4406-972f-3ba59a7f260c/1-The-New-Pinscape-Build-Guide_-A-comprehensive-how-to-guide-to-building-a-virtual-pinball-machine.mht`. Parse with Python email MIME parser, then HTML extraction; do not copy the book into source. Other previously mentioned hardware PDFs were not available. A SUZOHAPP drawing download timed out; no dimensions were adopted from it. Do not claim those PDFs were reviewed or search unrelated personal directories for replacements.
+
+## Continuation — side interface planning
+
+Read `docs/SIDE_INTERFACE_PLAN_V32.md` next. Added saved support-footprint extraction to the read-only side audit: seven mirrored shelf-support/guide/floor-cleat pairs and fourteen inner-face checks. Rerun produced `SIDE_REVIEW_PASS 46 checks; 0 candidate envelope conflicts`; saved source hash remains unchanged. The 25-check count above describes the earlier audit.
+
+Documented shell datums, existing occupied side regions, unmodeled button-stack alternatives (5.3 / 13.2375 / 18 mm remaining wood at nominal stock) and proposed leg/glass/display-prop/feedback load and service paths. No hardware dimensions invented, no new machining or prop coordinates adopted, no structural approval. The 22 mm Y separation from the rear button's candidate radius to T1Guide is only a bounding separation, not tool clearance.
+
+Asked owner for selected side buttons and leg/inner-plate models and the PC architecture decision; no answer had arrived when this continuation was recorded. These remain pending. Next dependent step is actual hardware stack and tool/motion-envelope modeling. Original checkout, reference assets and separate worktrees were not modified. No remote push or merge performed.
