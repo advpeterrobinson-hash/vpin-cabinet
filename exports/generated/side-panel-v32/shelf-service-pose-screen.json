@@ -2,8 +2,8 @@
   "status": "KINEMATIC_SCREEN_ONLY_NOT_SELECTED_HINGE",
   "manufacturing_ready": false,
   "source_hashes": {
-    "exports/generated/side-panel-v32/simple-shelves-proposal.FCStd": "1ce592e402058a536b43a0e30c45d9ba0c8d857e409375fe499e9ab7a8f2292c",
-    "exports/generated/side-panel-v32/simple-shelves-validation.json": "e81efcfd5b3f82d38922124ccb2c6a5524d7e36b1738f220efbcfff2387437ee",
+    "exports/generated/side-panel-v32/simple-shelves-proposal.FCStd": "0ab0857d9bc5231a2a8d1c2eb03e3b5cb9f94dd5be175b5834619e298c01a668",
+    "exports/generated/side-panel-v32/simple-shelves-validation.json": "c237921dc7afe4ad20d8cc86f638f7a899fac597e3e7bfc1d0732db206fedd06",
     "config/shelf_service_pose_v32.json": "eb6aa6cc57f8b9af689d616ec7b48ace8a953019c33a68855928712bba6698e8",
     "tools/shelf_service_pose_v32_entry.py": "2ac8592ebb1312c7b37723a5844bd504f67449913da93036d7002011c36c925d"
   },
@@ -248,102 +248,92 @@
         {
           "moving": "SimpleShelfBolt2L1",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 17237.311252213956
+          "mm3": 17237.311252164272
         },
         {
           "moving": "SimpleShelfBolt2L1",
           "obstacle": "MONITOR_RAIL_L",
-          "mm3": 146.80232557983106
-        },
-        {
-          "moving": "SimpleShelfBolt2L1",
-          "obstacle": "MONITOR_BRIDGE",
-          "mm3": 26.03434766144898
+          "mm3": 146.80232557977476
         },
         {
           "moving": "SimpleShelfBolt2L2",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 17237.31125222371
+          "mm3": 17237.311252183208
         },
         {
           "moving": "SimpleShelfBolt2L2",
           "obstacle": "MONITOR_RAIL_L",
-          "mm3": 146.80232557986304
-        },
-        {
-          "moving": "SimpleShelfBolt2L2",
-          "obstacle": "MONITOR_BRIDGE",
-          "mm3": 146.8023255795639
-        },
-        {
-          "moving": "SimpleShelfBolt2R1",
-          "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 17237.311252214
-        },
-        {
-          "moving": "SimpleShelfBolt2R1",
-          "obstacle": "MONITOR_RAIL_R",
-          "mm3": 146.80232557945652
-        },
-        {
-          "moving": "SimpleShelfBolt2R1",
-          "obstacle": "MONITOR_BRIDGE",
-          "mm3": 26.03434781214524
-        },
-        {
-          "moving": "SimpleShelfBolt2R2",
-          "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 17237.311252223746
-        },
-        {
-          "moving": "SimpleShelfBolt2R2",
-          "obstacle": "MONITOR_RAIL_R",
-          "mm3": 146.80232558007603
-        },
-        {
-          "moving": "SimpleShelfBolt2R2",
-          "obstacle": "MONITOR_BRIDGE",
-          "mm3": 146.80232557800238
-        },
-        {
-          "moving": "SimpleShelfBolt3L1",
-          "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 17237.311252203704
-        },
-        {
-          "moving": "SimpleShelfBolt3L1",
-          "obstacle": "MONITOR_RAIL_L",
-          "mm3": 146.802325579811
-        },
-        {
-          "moving": "SimpleShelfBolt3L2",
-          "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 17237.311252219835
-        },
-        {
-          "moving": "SimpleShelfBolt3L2",
-          "obstacle": "MONITOR_RAIL_L",
-          "mm3": 146.80232557984402
-        },
-        {
-          "moving": "SimpleShelfBolt3R1",
-          "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 17237.311252203748
-        },
-        {
-          "moving": "SimpleShelfBolt3R1",
-          "obstacle": "MONITOR_RAIL_R",
-          "mm3": 146.80232557968714
-        },
-        {
-          "moving": "SimpleShelfBolt3R2",
-          "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 17237.311252219875
-        },
-        {
-          "moving": "SimpleShelfBolt3R2",
-          "obstacle": "MONITOR_RAIL_R",
           "mm3": 146.80232557986145
+        },
+        {
+          "moving": "SimpleShelfBolt2L2",
+          "obstacle": "MONITOR_BRIDGE",
+          "mm3": 146.80232558006446
+        },
+        {
+          "moving": "SimpleShelfBolt2R1",
+          "obstacle": "PLAYFIELD_ENVELOPE",
+          "mm3": 17237.311252164312
+        },
+        {
+          "moving": "SimpleShelfBolt2R1",
+          "obstacle": "MONITOR_RAIL_R",
+          "mm3": 146.8023255796466
+        },
+        {
+          "moving": "SimpleShelfBolt2R2",
+          "obstacle": "PLAYFIELD_ENVELOPE",
+          "mm3": 17237.311252183248
+        },
+        {
+          "moving": "SimpleShelfBolt2R2",
+          "obstacle": "MONITOR_RAIL_R",
+          "mm3": 146.802325579755
+        },
+        {
+          "moving": "SimpleShelfBolt2R2",
+          "obstacle": "MONITOR_BRIDGE",
+          "mm3": 146.80232557614292
+        },
+        {
+          "moving": "SimpleShelfBolt3L1",
+          "obstacle": "PLAYFIELD_ENVELOPE",
+          "mm3": 17237.311252212538
+        },
+        {
+          "moving": "SimpleShelfBolt3L1",
+          "obstacle": "MONITOR_RAIL_L",
+          "mm3": 146.8023255797976
+        },
+        {
+          "moving": "SimpleShelfBolt3L2",
+          "obstacle": "PLAYFIELD_ENVELOPE",
+          "mm3": 17237.31125216499
+        },
+        {
+          "moving": "SimpleShelfBolt3L2",
+          "obstacle": "MONITOR_RAIL_L",
+          "mm3": 146.8023255797815
+        },
+        {
+          "moving": "SimpleShelfBolt3R1",
+          "obstacle": "PLAYFIELD_ENVELOPE",
+          "mm3": 17237.311252212578
+        },
+        {
+          "moving": "SimpleShelfBolt3R1",
+          "obstacle": "MONITOR_RAIL_R",
+          "mm3": 146.80232557970527
+        },
+        {
+          "moving": "SimpleShelfBolt3R2",
+          "obstacle": "PLAYFIELD_ENVELOPE",
+          "mm3": 17237.311252165033
+        },
+        {
+          "moving": "SimpleShelfBolt3R2",
+          "obstacle": "MONITOR_RAIL_R",
+          "mm3": 146.80232557971286
         }
       ],
       "routes": [
@@ -532,102 +522,82 @@
         {
           "moving": "SimpleShelfBolt2L1",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 22179.41841243269
+          "mm3": 18515.08188709311
         },
         {
           "moving": "SimpleShelfBolt2L1",
           "obstacle": "MONITOR_RAIL_L",
-          "mm3": 188.89200034190196
+          "mm3": 188.89200034210614
         },
         {
           "moving": "SimpleShelfBolt2L2",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 22179.418412361167
+          "mm3": 22179.418412402203
         },
         {
           "moving": "SimpleShelfBolt2L2",
           "obstacle": "MONITOR_RAIL_L",
-          "mm3": 188.89200034207212
-        },
-        {
-          "moving": "SimpleShelfBolt2L2",
-          "obstacle": "MONITOR_BRIDGE",
-          "mm3": 188.8920003418965
+          "mm3": 188.89200034220335
         },
         {
           "moving": "SimpleShelfBolt2R1",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 22179.41841243274
+          "mm3": 18515.08188709149
         },
         {
           "moving": "SimpleShelfBolt2R1",
           "obstacle": "MONITOR_RAIL_R",
-          "mm3": 188.8920003420654
+          "mm3": 188.89200034214292
         },
         {
           "moving": "SimpleShelfBolt2R2",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 22179.418412361218
+          "mm3": 22179.418412402254
         },
         {
           "moving": "SimpleShelfBolt2R2",
           "obstacle": "MONITOR_RAIL_R",
-          "mm3": 188.8920003422224
-        },
-        {
-          "moving": "SimpleShelfBolt2R2",
-          "obstacle": "MONITOR_BRIDGE",
-          "mm3": 188.89200034215114
+          "mm3": 188.89200034232985
         },
         {
           "moving": "SimpleShelfBolt3L1",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 22179.418412388077
+          "mm3": 22179.41841237439
         },
         {
           "moving": "SimpleShelfBolt3L1",
           "obstacle": "MONITOR_RAIL_L",
-          "mm3": 188.89200034208392
-        },
-        {
-          "moving": "SimpleShelfBolt3L1",
-          "obstacle": "MONITOR_BRIDGE",
-          "mm3": 113.06599119319654
+          "mm3": 188.89200034214366
         },
         {
           "moving": "SimpleShelfBolt3L2",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 22179.418412379135
+          "mm3": 22179.418412383802
         },
         {
           "moving": "SimpleShelfBolt3L2",
           "obstacle": "MONITOR_RAIL_L",
-          "mm3": 188.892000342095
+          "mm3": 188.89200034217555
         },
         {
           "moving": "SimpleShelfBolt3R1",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 22179.41841238813
+          "mm3": 22179.418412374434
         },
         {
           "moving": "SimpleShelfBolt3R1",
           "obstacle": "MONITOR_RAIL_R",
-          "mm3": 188.8920003421261
-        },
-        {
-          "moving": "SimpleShelfBolt3R1",
-          "obstacle": "MONITOR_BRIDGE",
-          "mm3": 113.06599104635904
+          "mm3": 188.89200034205436
         },
         {
           "moving": "SimpleShelfBolt3R2",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 22179.41841237919
+          "mm3": 22179.418412383853
         },
         {
           "moving": "SimpleShelfBolt3R2",
           "obstacle": "MONITOR_RAIL_R",
-          "mm3": 188.89200034221182
+          "mm3": 188.89200034210668
         }
       ],
       "routes": [
@@ -799,84 +769,54 @@
       "opening_deg": 80,
       "tool_column_conflicts": [
         {
-          "moving": "SimpleShelfBolt2L2",
-          "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 15938.552197598392
-        },
-        {
-          "moving": "SimpleShelfBolt2L2",
-          "obstacle": "MONITOR_RAIL_L",
-          "mm3": 276.6004388363821
-        },
-        {
-          "moving": "SimpleShelfBolt2R2",
-          "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 15938.552197596953
-        },
-        {
-          "moving": "SimpleShelfBolt2R2",
-          "obstacle": "MONITOR_RAIL_R",
-          "mm3": 276.6004388353999
-        },
-        {
           "moving": "SimpleShelfBolt3L1",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 32478.013123298948
+          "mm3": 32478.01312326932
         },
         {
           "moving": "SimpleShelfBolt3L1",
           "obstacle": "MONITOR_RAIL_L",
-          "mm3": 276.6004388361815
+          "mm3": 276.60043883614696
         },
         {
           "moving": "SimpleShelfBolt3L1",
           "obstacle": "MONITOR_BRIDGE",
-          "mm3": 276.60043883618516
+          "mm3": 276.60043883553647
         },
         {
           "moving": "SimpleShelfBolt3L2",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 32478.013123291992
+          "mm3": 32478.01312327932
         },
         {
           "moving": "SimpleShelfBolt3L2",
           "obstacle": "MONITOR_RAIL_L",
-          "mm3": 276.60043883602225
-        },
-        {
-          "moving": "SimpleShelfBolt3L2",
-          "obstacle": "MONITOR_BRIDGE",
-          "mm3": 0.4421736223397094
+          "mm3": 276.6004388361289
         },
         {
           "moving": "SimpleShelfBolt3R1",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 32478.013123299028
+          "mm3": 32478.013123269397
         },
         {
           "moving": "SimpleShelfBolt3R1",
           "obstacle": "MONITOR_RAIL_R",
-          "mm3": 276.60043883571217
+          "mm3": 276.60043883601975
         },
         {
           "moving": "SimpleShelfBolt3R1",
           "obstacle": "MONITOR_BRIDGE",
-          "mm3": 276.60043883591317
+          "mm3": 276.60043883605476
         },
         {
           "moving": "SimpleShelfBolt3R2",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 32478.01312329207
+          "mm3": 32478.013123279394
         },
         {
           "moving": "SimpleShelfBolt3R2",
           "obstacle": "MONITOR_RAIL_R",
-          "mm3": 276.60043883586434
-        },
-        {
-          "moving": "SimpleShelfBolt3R2",
-          "obstacle": "MONITOR_BRIDGE",
-          "mm3": 0.44217362122139614
+          "mm3": 276.6004388359279
         }
       ],
       "routes": [
@@ -1037,34 +977,54 @@
       "opening_deg": 90,
       "tool_column_conflicts": [
         {
+          "moving": "SimpleShelfBolt3L1",
+          "obstacle": "PLAYFIELD_ENVELOPE",
+          "mm3": 2741.7347523453677
+        },
+        {
+          "moving": "SimpleShelfBolt3L1",
+          "obstacle": "MONITOR_RAIL_L",
+          "mm3": 547.4153947450293
+        },
+        {
           "moving": "SimpleShelfBolt3L2",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 48790.18317344007
+          "mm3": 64262.55664877732
         },
         {
           "moving": "SimpleShelfBolt3L2",
           "obstacle": "MONITOR_RAIL_L",
-          "mm3": 547.4153947452046
+          "mm3": 547.4153947451325
         },
         {
           "moving": "SimpleShelfBolt3L2",
           "obstacle": "MONITOR_BRIDGE",
-          "mm3": 0.2556068097130106
+          "mm3": 510.37751668278133
+        },
+        {
+          "moving": "SimpleShelfBolt3R1",
+          "obstacle": "PLAYFIELD_ENVELOPE",
+          "mm3": 2741.7347523451763
+        },
+        {
+          "moving": "SimpleShelfBolt3R1",
+          "obstacle": "MONITOR_RAIL_R",
+          "mm3": 547.4153947445129
         },
         {
           "moving": "SimpleShelfBolt3R2",
           "obstacle": "PLAYFIELD_ENVELOPE",
-          "mm3": 48790.183173440586
+          "mm3": 64262.556648770085
         },
         {
           "moving": "SimpleShelfBolt3R2",
           "obstacle": "MONITOR_RAIL_R",
-          "mm3": 547.4153947448483
+          "mm3": 547.4153947447094
         },
         {
           "moving": "SimpleShelfBolt3R2",
           "obstacle": "MONITOR_BRIDGE",
-          "mm3": 0.25560680841112793
+          "mm3": 510.37751675474965
         }
       ],
       "routes": [
@@ -1423,92 +1383,92 @@
     {
       "moving": "SimpleShelfBolt2L1",
       "obstacle": "PLAYFIELD_ENVELOPE",
-      "mm3": 11225.790457415542
+      "mm3": 11225.790457403442
     },
     {
       "moving": "SimpleShelfBolt2L1",
       "obstacle": "MONITOR_RAIL_L",
-      "mm3": 95.60494218081541
+      "mm3": 95.60494218079961
     },
     {
       "moving": "SimpleShelfBolt2L1",
       "obstacle": "MONITOR_BRIDGE",
-      "mm3": 95.60494218076175
+      "mm3": 95.60494218083207
     },
     {
       "moving": "SimpleShelfBolt2L2",
       "obstacle": "PLAYFIELD_ENVELOPE",
-      "mm3": 11225.790457413932
+      "mm3": 11225.790457388735
     },
     {
       "moving": "SimpleShelfBolt2L2",
       "obstacle": "MONITOR_RAIL_L",
-      "mm3": 95.60494218084462
+      "mm3": 95.6049421808006
     },
     {
       "moving": "SimpleShelfBolt2R1",
       "obstacle": "PLAYFIELD_ENVELOPE",
-      "mm3": 11225.790457415567
+      "mm3": 11225.79045740347
     },
     {
       "moving": "SimpleShelfBolt2R1",
       "obstacle": "MONITOR_RAIL_R",
-      "mm3": 95.60494218082154
+      "mm3": 95.60494218081767
     },
     {
       "moving": "SimpleShelfBolt2R1",
       "obstacle": "MONITOR_BRIDGE",
-      "mm3": 95.60494218124998
+      "mm3": 95.60494218040898
     },
     {
       "moving": "SimpleShelfBolt2R2",
       "obstacle": "PLAYFIELD_ENVELOPE",
-      "mm3": 11225.790457413957
+      "mm3": 11225.79045738876
     },
     {
       "moving": "SimpleShelfBolt2R2",
       "obstacle": "MONITOR_RAIL_R",
-      "mm3": 95.60494218075726
+      "mm3": 95.60494218088945
     },
     {
       "moving": "SimpleShelfBolt3L1",
       "obstacle": "PLAYFIELD_ENVELOPE",
-      "mm3": 11225.790457406298
+      "mm3": 11225.790457397652
     },
     {
       "moving": "SimpleShelfBolt3L1",
       "obstacle": "MONITOR_RAIL_L",
-      "mm3": 95.60494218091566
+      "mm3": 95.60494218085998
     },
     {
       "moving": "SimpleShelfBolt3L2",
       "obstacle": "PLAYFIELD_ENVELOPE",
-      "mm3": 11225.790457409956
+      "mm3": 11225.790457396837
     },
     {
       "moving": "SimpleShelfBolt3L2",
       "obstacle": "MONITOR_RAIL_L",
-      "mm3": 95.60494218085299
+      "mm3": 95.60494218083564
     },
     {
       "moving": "SimpleShelfBolt3R1",
       "obstacle": "PLAYFIELD_ENVELOPE",
-      "mm3": 11225.790457406327
+      "mm3": 11225.79045739768
     },
     {
       "moving": "SimpleShelfBolt3R1",
       "obstacle": "MONITOR_RAIL_R",
-      "mm3": 95.6049421807426
+      "mm3": 95.60494218067777
     },
     {
       "moving": "SimpleShelfBolt3R2",
       "obstacle": "PLAYFIELD_ENVELOPE",
-      "mm3": 11225.790457409983
+      "mm3": 11225.790457396864
     },
     {
       "moving": "SimpleShelfBolt3R2",
       "obstacle": "MONITOR_RAIL_R",
-      "mm3": 95.60494218073059
+      "mm3": 95.60494218078767
     }
   ],
   "negative_control_previous_s3_conflicts": [

@@ -10,6 +10,8 @@ This page lets a new contributor understand the current cabinet direction withou
 
 ## Current shelf direction — four screws from above
 
+[![Revised shelf spacing](../exports/generated/side-panel-v32/09-shelf-spacing.png)](SIMPLE_SHELVES_V32.md)
+
 Two screws per side, fixed supports, mounted equipment retained on removal. Crossmembers remain in the stationary-scene checks; a new assumed-axis raised-display screen clears at 100 degrees relative opening; actual hinge/props remain open.
 
 [![Raised-display access screen](../exports/generated/side-panel-v32/08-shelf-raised-display.png)](SIMPLE_SHELVES_V32.md)

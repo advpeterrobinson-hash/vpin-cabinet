@@ -195,3 +195,7 @@ Use traditional pinball leaf buttons as the main side-control direction, with th
 ## DEC-V32-SHELF-RAISED-SCREEN — functional access layout
 
 Engineering proposal following owner instruction to finish the simple shelf solution: move S3 to Y820 with screws Y845/920, retaining all sizes/heights and crossmembers. This supersedes its previous Y1000 candidate. The assumed rear-axis screen clears the display, tools and loaded extraction routes at 100 degrees relative opening. See [current evidence](SIMPLE_SHELVES_V32.md). This resolves a modeled interference, not actual hinge/prop selection or structural/manufacturing approval. Four top screws, fixed bearing supports and shop-made holes remain the direction; support-to-wall hardware and insert pilots still require qualification.
+
+## DEC-V32-SHELF-SPACING — independent removal with a wider rear gap
+
+Owner found S2/S3 too close. Revised proposal moves S2 from Y600 to565 and S3 from820 to865, increasing the rear clear gap from70 to150 mm while retaining independent removal. Front gap is295 mm. Screw rows and S1 staging move to preserve tested access around fixed crossmembers. This supersedes the previous Y820 candidate; hinge/prop, loads and manufacturing qualification remain open. See current SIMPLE_SHELVES_V32 evidence.

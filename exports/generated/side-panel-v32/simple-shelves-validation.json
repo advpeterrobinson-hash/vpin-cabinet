@@ -2,11 +2,11 @@
   "status": "OWNER_DIRECTED_SIMPLE_TOP_RELEASE",
   "manufacturing_ready": false,
   "source_hashes": {
-    "config/simple_shelves_v32.json": "72e7e8af9b877518b9eb2f9bea9304020666cfe7b895d9513f7a35c389b15e5b",
+    "config/simple_shelves_v32.json": "ff60e382ba810ca4ed5f2bace4115d5e968667d769b2edd0fe62811f38750bd4",
     "config/front_panel_v32.json": "de4d570c44741739c04da0fe496287412f49364572c6856cacaaf194b5824298",
     "exports/generated/cabinet-v32/vpin-central-v32.FCStd": "ff973219bdc8bee6707bd29f6a44da74c895cbcbea9e0b1790d8e7723b9aa038",
     "exports/generated/front-panel-v32/coin-upgrade-closed.FCStd": "e02f9567f940c87bea8a0f4503494f7ac4b9be8cf2f1ee8027af717e953fdf03",
-    "tools/simple_shelves_v32_entry.py": "32b5e1e8c5001727d848868809f3a76db24eba88765eef01a6682cef7e6c0715"
+    "tools/simple_shelves_v32_entry.py": "5953a812858b1e7750cdadf197d17566ac18200d6bc63d129026aa4f8b07435a"
   },
   "config": {
     "status": "OWNER_DIRECTED_SIMPLE_TOP_RELEASE",
@@ -18,23 +18,23 @@
           25,
           100
         ],
-        "stage_y_mm": 430
+        "stage_y_mm": 410
       },
       {
         "number": 2,
-        "y_mm": 600,
+        "y_mm": 565,
         "bolt_offsets_y_mm": [
           25,
-          135
+          100
         ],
         "stage_y_mm": 430
       },
       {
         "number": 3,
-        "y_mm": 820,
+        "y_mm": 865,
         "bolt_offsets_y_mm": [
-          25,
-          100
+          15,
+          75
         ],
         "stage_y_mm": 760
       }
@@ -77,7 +77,8 @@
       "MONITOR_RAIL_R",
       "MONITOR_BRIDGE"
     ],
-    "scope": "Four top screws per shelf, two per side, into permanently installed local supports. No nut covers or removable wall-anchor mechanism. All crossmembers remain during tool and extraction checks. The playfield assembly is excluded ONLY to test stationary-cabinet access; its real raised position, hinge and captive props remain unverified. Hardware is a candidate envelope, not selected or load-rated."
+    "scope": "Four top screws per shelf, two per side, into permanently installed local supports. No nut covers or removable wall-anchor mechanism. All crossmembers remain during tool and extraction checks. The playfield assembly is excluded ONLY to test stationary-cabinet access; its real raised position, hinge and captive props remain unverified. Hardware is a candidate envelope, not selected or load-rated.",
+    "minimum_shelf_gap_y_mm": 150
   },
   "checks": [
     {
@@ -250,6 +251,18 @@
     },
     {
       "check": "RJ45_RESERVED front-study shape unchanged",
+      "pass": true
+    },
+    {
+      "check": "S1-S2 minimum longitudinal gap",
+      "pass": true
+    },
+    {
+      "check": "S2-S3 minimum longitudinal gap",
+      "pass": true
+    },
+    {
+      "check": "reject previous 70 mm rear gap",
       "pass": true
     },
     {
@@ -441,6 +454,10 @@
       "pass": true
     }
   ],
+  "shelf_gaps_y_mm": [
+    295.0,
+    150.0
+  ],
   "axes": [
     {
       "shelf": "SHELF_1",
@@ -502,7 +519,7 @@
       "insert": "SimpleShelfBolt2L1Insert",
       "xyz_mm": [
         48,
-        625,
+        590,
         192.0
       ],
       "head_top_z_mm": 197.0
@@ -515,7 +532,7 @@
       "insert": "SimpleShelfBolt2L2Insert",
       "xyz_mm": [
         48,
-        735,
+        665,
         192.0
       ],
       "head_top_z_mm": 197.0
@@ -528,7 +545,7 @@
       "insert": "SimpleShelfBolt2R1Insert",
       "xyz_mm": [
         552,
-        625,
+        590,
         192.0
       ],
       "head_top_z_mm": 197.0
@@ -541,7 +558,7 @@
       "insert": "SimpleShelfBolt2R2Insert",
       "xyz_mm": [
         552,
-        735,
+        665,
         192.0
       ],
       "head_top_z_mm": 197.0
@@ -554,7 +571,7 @@
       "insert": "SimpleShelfBolt3L1Insert",
       "xyz_mm": [
         48,
-        845,
+        880,
         252.0
       ],
       "head_top_z_mm": 257.0
@@ -567,7 +584,7 @@
       "insert": "SimpleShelfBolt3L2Insert",
       "xyz_mm": [
         48,
-        920,
+        940,
         252.0
       ],
       "head_top_z_mm": 257.0
@@ -580,7 +597,7 @@
       "insert": "SimpleShelfBolt3R1Insert",
       "xyz_mm": [
         552,
-        845,
+        880,
         252.0
       ],
       "head_top_z_mm": 257.0
@@ -593,7 +610,7 @@
       "insert": "SimpleShelfBolt3R2Insert",
       "xyz_mm": [
         552,
-        920,
+        940,
         252.0
       ],
       "head_top_z_mm": 257.0
@@ -682,7 +699,7 @@
       "translations_mm": [
         [
           0.0,
-          310.0,
+          290.0,
           0.0
         ],
         [
@@ -712,7 +729,7 @@
       "translations_mm": [
         [
           0.0,
-          -170.0,
+          -135.0,
           0.0
         ],
         [
@@ -742,7 +759,7 @@
       "translations_mm": [
         [
           0.0,
-          -60.0,
+          -105.0,
           0.0
         ],
         [
@@ -789,7 +806,7 @@
   "installed_conflicts": [],
   "saved_proposal": {
     "path": "exports/generated/side-panel-v32/simple-shelves-proposal.FCStd",
-    "sha256": "1ce592e402058a536b43a0e30c45d9ba0c8d857e409375fe499e9ab7a8f2292c",
+    "sha256": "0ab0857d9bc5231a2a8d1c2eb03e3b5cb9f94dd5be175b5834619e298c01a668",
     "solids": 108
   },
   "unverified": [

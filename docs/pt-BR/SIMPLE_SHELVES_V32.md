@@ -10,9 +10,13 @@ O uso pretendido é: abrir e apoiar positivamente o playfield, desconectar o chi
 
 O novo modelo separado elimina as tampas inferiores e o mecanismo de remoção dos apoios. As três travessas permanecem instaladas nos testes. Os equipamentos precisam deixar livre o espaço de acesso aos quatro parafusos.
 
-A S3 passa a começar em **Y820**, avançando 180 mm em relação à proposta anterior e 260 mm em relação ao V32 original. Seus parafusos ficam em Y845/920. S1 e S2 permanecem na mesma posição; tamanhos, alturas e travessas são preservados. A S3 desliza 60 mm para a frente antes de subir; S1 e S2 mantêm suas rotas anteriores.
+A revisão de espaçamento avança **S2 em 35 mm** e recua **S3 em 45 mm** em relação à proposta anterior. Os vãos livres entre as bordas ficam em **295 mm (S1–S2) e 150 mm (S2–S3)**; antes eram 330 mm e 70 mm. S1 permanece em Y120; S2 começa em Y565 e S3 em Y865. Tamanhos, alturas e travessas são preservados.
 
-As **90 verificações da estrutura fixa passaram**. O novo estudo inclui o conjunto do display levantado em um eixo proposto: a 100° de abertura em relação à posição fechada, próximo da vertical, os 12 acessos superiores e as três rotas carregadas passam. As 51 posições de abertura amostradas a cada 2° não colidem com a cena modelada. Acessos ainda ficam obstruídos entre 60° e 90°; não basta dizer apenas “playfield aberto”.
+![Comparação dos vãos](../../exports/generated/side-panel-v32/09-shelf-spacing.png)
+
+As três prateleiras continuam com retirada independente. S1 desliza 290 mm para trás até Y410; S2, 135 mm para a frente até Y430; S3, 105 mm para a frente até Y760. Depois sobem nos respectivos vãos. Durante a subida da S1, restam 5 mm nominais até a S2 instalada: folga geométrica, não prova de espaço para a mão. Os parafusos da S2 ficam em Y590/665 e os da S3 em Y880/940.
+
+As **93 verificações da estrutura fixa passaram**. O novo estudo inclui o conjunto do display levantado em um eixo proposto: a 100° de abertura em relação à posição fechada, próximo da vertical, os 12 acessos superiores e as três rotas carregadas passam. As 51 posições de abertura amostradas a cada 2° não colidem com a cena modelada. Acessos ainda ficam obstruídos entre 60° e 90°; não basta dizer apenas “playfield aberto”.
 
 ![Acesso com display levantado](../../exports/generated/side-panel-v32/08-shelf-raised-display.png)
 

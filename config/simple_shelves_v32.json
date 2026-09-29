@@ -8,23 +8,23 @@
         25,
         100
       ],
-      "stage_y_mm": 430
+      "stage_y_mm": 410
     },
     {
       "number": 2,
-      "y_mm": 600,
+      "y_mm": 565,
       "bolt_offsets_y_mm": [
         25,
-        135
+        100
       ],
       "stage_y_mm": 430
     },
     {
       "number": 3,
-      "y_mm": 820,
+      "y_mm": 865,
       "bolt_offsets_y_mm": [
-        25,
-        100
+        15,
+        75
       ],
       "stage_y_mm": 760
     }
@@ -67,5 +67,6 @@
     "MONITOR_RAIL_R",
     "MONITOR_BRIDGE"
   ],
-  "scope": "Four top screws per shelf, two per side, into permanently installed local supports. No nut covers or removable wall-anchor mechanism. All crossmembers remain during tool and extraction checks. The playfield assembly is excluded ONLY to test stationary-cabinet access; its real raised position, hinge and captive props remain unverified. Hardware is a candidate envelope, not selected or load-rated."
+  "scope": "Four top screws per shelf, two per side, into permanently installed local supports. No nut covers or removable wall-anchor mechanism. All crossmembers remain during tool and extraction checks. The playfield assembly is excluded ONLY to test stationary-cabinet access; its real raised position, hinge and captive props remain unverified. Hardware is a candidate envelope, not selected or load-rated.",
+  "minimum_shelf_gap_y_mm": 150
 }

@@ -54,6 +54,12 @@ for spec in c['shelves']:
    axes.append({'shelf':name,'support':sn,'bolt':prefix,'washer':prefix+'Washer','insert':prefix+'Insert','xyz_mm':[x,y,b.ZMax],'head_top_z_mm':hz+c['head_height_mm']})
   scene[sn]=support
 scene.update(hardware)
+shelf_gaps=[]
+for i in (1,2):
+ gap=scene[f'SHELF_{i+1}'].BoundBox.YMin-scene[f'SHELF_{i}'].BoundBox.YMax
+ shelf_gaps.append(gap)
+ check(f'S{i}-S{i+1} minimum longitudinal gap',gap>=c['minimum_shelf_gap_y_mm'])
+check('reject previous 70 mm rear gap',70<c['minimum_shelf_gap_y_mm'])
 check('exactly four top screws per shelf',all(sum(a['shelf']==f'SHELF_{i}' for a in axes)==4 for i in (1,2,3)))
 check('no nut covers or side-anchor hardware',not any('NutCover' in n or 'SupportAnchor' in n for n in scene))
 check('all candidate shapes valid',all(s.isValid() and len(s.Solids)==1 for s in scene.values()))
@@ -112,7 +118,7 @@ for o in proposal.Objects:
   vertices,faces=o.Shape.tessellate(.5)
   mesh.append({'name':o.Name,'vertices':[[v.x,v.y,v.z] for v in vertices],'faces':faces})
 (O/'simple-shelves-mesh.json').write_text(json.dumps(mesh)+'\n')
-report={'status':c['status'],'manufacturing_ready':False,'source_hashes':hashes,'config':c,'checks':checks,'axes':axes,'access':access,'routes':routes,'negative_controls':controls,'installed_conflicts':installed,'saved_proposal':{'path':str(path.relative_to(R)),'sha256':sha(path),'solids':len(scene)},'unverified':['Actual raised playfield, hinge, captive props and harness occupancy','Fixed cleat attachment to side wall and load capacity','Selected screws and top inserts; stock/pilot/thread tolerances and physical proof','Whole hand/tool insertion and handling of populated shelves']}
+report={'status':c['status'],'manufacturing_ready':False,'source_hashes':hashes,'config':c,'checks':checks,'shelf_gaps_y_mm':shelf_gaps,'axes':axes,'access':access,'routes':routes,'negative_controls':controls,'installed_conflicts':installed,'saved_proposal':{'path':str(path.relative_to(R)),'sha256':sha(path),'solids':len(scene)},'unverified':['Actual raised playfield, hinge, captive props and harness occupancy','Fixed cleat attachment to side wall and load capacity','Selected screws and top inserts; stock/pilot/thread tolerances and physical proof','Whole hand/tool insertion and handling of populated shelves']}
 (O/'simple-shelves-validation.json').write_text(json.dumps(report,indent=2)+'\n')
 assert all(x['pass'] for x in checks),[x for x in checks if not x['pass']]
 print('SIMPLE_SHELVES_PASS',len(checks),'checks; crossmembers retained; actual raised display unverified')

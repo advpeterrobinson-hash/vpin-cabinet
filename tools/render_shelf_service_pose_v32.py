@@ -49,7 +49,7 @@ for ax, angle in zip(axes, (80, 100)):
     ax.set_xlabel('Y — frente → traseira (mm)'); ax.grid(alpha=.15)
 axes[0].set_ylabel('Z (mm)')
 fig.suptitle('Prateleiras simples — acesso com o display levantado',fontsize=16)
-fig.text(.06,.055,'S3 avança para Y820. Eixo proposto: não é uma dobradiça selecionada. Perfil cinza: referência da lateral.',fontsize=10)
+fig.text(.06,.055,'Vãos entre prateleiras: 295 / 150 mm. Eixo proposto; perfil cinza: referência da lateral.',fontsize=10)
 fig.text(.06,.032,'Escoras, ferragens, cabos e backbox superior não representados. Sem aprovação estrutural ou para CNC.',fontsize=10)
 fig.text(.06,.011,'CERN-OHL-S-2.0 · github.com/advpeterrobinson-hash/vpin-cabinet',fontsize=8)
 fig.tight_layout(rect=(0,.15,1,.95))

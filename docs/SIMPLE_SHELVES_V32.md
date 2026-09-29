@@ -14,11 +14,13 @@ The new separate CAD implements four top screws per shelf with simple top-insert
 
 | Shelf | Leading Y | Screw rows (global Y) | Removal path with crossmembers retained |
 |---|---:|---:|---|
-| S1 | 120, unchanged | 145 /220 | Rearward 310 mm to Y430, then lift |
-| S2 | 600, unchanged | 625 /735 | Forward 170 mm to Y430, then lift |
-| S3 | **820, 260 mm forward of original** | 845 /920 | Forward 60 mm to Y760, then lift |
+| S1 | 120, unchanged | 145 /220 | Rearward 290 mm to Y410, then lift |
+| S2 | 565 | 590 /665 | Forward 135 mm to Y430, then lift |
+| S3 | 865 | 880 /940 | Forward 105 mm to Y760, then lift |
 
-Each row has left/right axes X48/552. S2's old rear axis Y700 was under T2; Y725 also encountered its support angle. S3's old rear axis Y1180 was under BBBase. Those rejected cases remain executable controls. The prior S3 Y1000 position cleared BBBase but the new raised-display screen obstructed its tool columns. S3 now starts at Y820 with screw rows Y845/920, preserving T3. This is 180 mm forward of the previous proposal and 260 mm forward of original V32. Shelf sizes remain 560 ×150 ×12 mm and the heights remain unchanged.
+Each row has left/right axes X48/552. The owner's spacing correction moves S2 forward 35 mm and S3 rearward 45 mm relative to the previous proposal. Clear longitudinal gaps are now **295 mm and 150 mm**, previously 330 mm and 70 mm. S1 stays at Y120; all shelf sizes/heights and crossmembers are retained. S2 and S3 screw rows are adjusted to avoid T2/T3 overhead obstacles. S1 now stages at Y410, leaving a nominal 5 mm longitudinal gap to installed S2 during its rise; this is geometric clearance, not validated hand clearance. Each shelf still removes independently. Prior rejected tool positions remain negative controls.
+
+![Before and after shelf spacing](../exports/generated/side-panel-v32/09-shelf-spacing.png)
 
 The test now reserves an entire vertical Ø16 tool column from each screw head to Z606.9, rather than testing only a short driver beneath a hidden obstruction. Three loaded removal paths also pass with **all three crossmembers, guides and supports retained**. Other shelves stay installed. The candidate equipment envelope is 60 mm above each shelf, with four Ø20 equipment/wiring exclusions for tool access. These exclusions are not large holes in the shelf. S1's modeled audio body moves with it.
 
@@ -26,7 +28,7 @@ The test now reserves an entire vertical Ø16 tool column from each screw head t
 
 Owner supplied a simple shelf reference and requested CNC-predrilled holes. The [joint assessment](SHELF_JOINT_REFERENCE_V32.md) retains bearing supports and four top screws; cam furniture connectors are a reference alternative, not an adopted replacement. Shop-located shelf, receiver and wall-support holes remain required in the final package; exact wall anchorage/pilot sizes await qualified hardware and material. No lifetime/load rating follows from the reference image.
 
-**90 checks pass** against the stationary scene. The additional rear-axis screen now includes all four raised playfield assembly shapes. At 100 degrees of opening relative to the closed pose, all 12 top tool columns and three loaded shelf paths clear the modeled display; 51 opening samples at 2-degree intervals clear the modeled stationary scene, including payload envelopes. At 60–90 degrees some top columns remain obstructed. This is an assumed axis at X300/Y1033.186/Z496.041, derived from the saved rail rear upper edge, not a selected hinge. Actual hinge/props/receivers, cables, glass removal, upper backbox and human handling remain outside this screen. Motion between angular samples and structural safety are unverified. No safe service angle or manufacturing release is established.
+**93 checks pass** against the stationary scene. The additional rear-axis screen now includes all four raised playfield assembly shapes. At 100 degrees of opening relative to the closed pose, all 12 top tool columns and three loaded shelf paths clear the modeled display; 51 opening samples at 2-degree intervals clear the modeled stationary scene, including payload envelopes. At 60–90 degrees some top columns remain obstructed. This is an assumed axis at X300/Y1033.186/Z496.041, derived from the saved rail rear upper edge, not a selected hinge. Actual hinge/props/receivers, cables, glass removal, upper backbox and human handling remain outside this screen. Motion between angular samples and structural safety are unverified. No safe service angle or manufacturing release is established.
 
 Nominal candidate fastening: Ø5 ×25 shaft, Ø9 ×4 head, Ø12 ×1 washer, top receiver Ø8 ×10, Ø8.5 pocket10.5 deep and a Ø5.5 tip relief12.5 deep in the nominal18 support. There are no underside nut pockets or covers. Hardware, threads, receiver retention, fixed-cleat attachment, loads and stock/tool tolerances are unqualified; these are not purchase or machining specifications. Support installation should be a fixed cabinet-assembly operation, not another service mechanism.
 
