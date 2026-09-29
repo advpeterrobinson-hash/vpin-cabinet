@@ -33,6 +33,7 @@ A liberação para CNC/fabricação permanece bloqueada. Uma renderização ou s
 Os demais documentos técnicos podem estar apenas em inglês até que sejam classificados como atuais durante a limpeza do repositório.
 
 - [Guia Pinscape: aplicações à V32](PINSCAPE_ACCELERATION_REVIEW.md)
+- [Planejamento de interfaces e zonas](INTERFACES_AND_ZONES_V32.md)
 
 ## Histórico de engenharia
 

@@ -35,6 +35,7 @@ Manufacturing/CNC release remains blocked. A render or valid CAD solid is not by
 - [PinSim external reference assessment](PINSIM_REFERENCE_REVIEW.md)
 
 - [Pinscape guide: applications to V32](PINSCAPE_ACCELERATION_REVIEW.md)
+- [Interface and zone planning](INTERFACES_AND_ZONES_V32.md)
 
 ## Transition pipeline
 
