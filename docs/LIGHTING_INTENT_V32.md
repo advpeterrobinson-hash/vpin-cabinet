@@ -2,7 +2,7 @@
 
 [English](LIGHTING_INTENT_V32.md) · [Português (Brasil)](pt-BR/LIGHTING_INTENT_V32.md)
 
-**OWNER_SELECTED 2026-09-29; integration PROVISIONAL; CNC BLOCKED.** The owner selected the [Cleveland Software Design Addressable LED Plug and Play Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit). Retain the previous six-panel intent; the exact order variant and speaker-ring option remain unconfirmed. No purchase or receipt is asserted.
+**OWNER_SELECTED 2026-09-29; integration PROVISIONAL; CNC BLOCKED.** The owner selected the [Cleveland Software Design Addressable LED Plug and Play Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit). Retain the previous six-panel intent. On 2026-09-29 the owner confirmed two speaker rings and optional undercabinet lighting; the final order SKU remains unrecorded. No purchase or receipt is asserted.
 
 The included controller supersedes the previous Arnoz MX-DONNY plan for this kit. This does not change other Arnoz devices. Earlier Pinscape/MX-DONNY notes are historical context, not the selected controller allocation.
 
@@ -18,7 +18,7 @@ Supply nameplate output gives 75 W by arithmetic, not measured LED consumption o
 
 Use the vendor's [cabinet file generator](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator/) for the actual kit configuration and detected COM port. Its presets include side strips. Save the resulting configuration and verify pixel order, orientation, brightness and each zone during commissioning; do not reuse the former MX-DONNY three-output calculation. No port numbers or cabinet.xml are frozen now.
 
-Six panels retain the prior 16×16 intent. Their physical arrangement and precise placement above the playfield remain open. Included side strips do not establish undercabinet or optional display-gap lighting coverage. Speaker rings remain a pending order option; two rings would add 90 pixels, for 1,914 including the matrix and side strips (1,824 without rings).
+Six panels retain the prior 16×16 intent. Their physical arrangement and precise placement above the playfield remain open. Included side strips do not establish undercabinet or optional display-gap lighting coverage. The two selected speaker rings add 90 pixels, for 1,914 including the matrix and kit side strips. Optional undercabinet lighting is a separate UNDERCABINET_LED zone, with product, length, pixel count, power and controller allocation still open; its load is not included in this subtotal. Optional display-gap lighting also remains separate.
 
 ## Mechanical and electrical integration to develop
 
@@ -28,4 +28,4 @@ Six panels retain the prior 16×16 intent. Their physical arrangement and precis
 - Select panels/strips before calculating voltage, worst-case current, supply capacity, branch protection, conductor sizes and power-injection locations. LED control capacity is not power-supply capacity. Preserve existing mains isolation and audio/data routing rules.
 - Provide independently configurable brightness by zone and an effects-off setting; final appearance is an owner visual-review decision.
 
-Next inputs: exact six-panel/order option, speaker-ring choice, assembled dimensions, mounting/connector envelopes, strip lengths and documented operating limits. Physical sessions remain paused; no CAD geometry was changed.
+Next inputs: exact six-panel/order SKU, undercabinet product if adopted, assembled dimensions, mounting/connector envelopes, strip lengths and documented operating limits. Physical sessions remain paused; no CAD geometry was changed.

@@ -41,6 +41,21 @@
     },
     {
       "zone_id": "SPEAKER_LED",
+      "status": "OWNER_SELECTED_INTEGRATION_PENDING",
+      "optional": false,
+      "device_rows": [],
+      "supply_rail": null,
+      "rated_voltage_V": 5,
+      "total_current_A": null,
+      "total_input_power_W": null,
+      "data_port": null,
+      "service_connector": null,
+      "ratings_source": "https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit",
+      "quantity": 2,
+      "total_pixels": 90
+    },
+    {
+      "zone_id": "CABINET_LED",
       "status": "PROVISIONAL",
       "optional": false,
       "device_rows": [],
@@ -50,13 +65,16 @@
       "total_input_power_W": null,
       "data_port": null,
       "service_connector": null,
-      "ratings_source": null
+      "ratings_source": null,
+      "scope": "Included kit side strips; excludes optional undercabinet lighting",
+      "total_pixels": 288
     },
     {
-      "zone_id": "CABINET_LED",
-      "status": "PROVISIONAL",
-      "optional": false,
+      "zone_id": "UNDERCABINET_LED",
+      "status": "OWNER_OPTIONAL",
+      "optional": true,
       "device_rows": [],
+      "scope": "Optional undercabinet lighting; product, length, pixels and kit compatibility unselected",
       "supply_rail": null,
       "rated_voltage_V": null,
       "total_current_A": null,
@@ -197,7 +215,7 @@
     "source_checked": "2026-09-29",
     "purchase_status": "NOT_RECORDED",
     "panel_variant_status": "SIX_PANEL_PRIOR_INTENT_ORDER_VARIANT_UNCONFIRMED",
-    "speaker_ring_quantity": null,
+    "speaker_ring_quantity": 2,
     "controller": {
       "description": "Wemos S2",
       "outputs": 10,
@@ -221,6 +239,8 @@
       ],
       "dimension_roles": "UNCONFIRMED"
     },
-    "configuration_source": "https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator/"
+    "configuration_source": "https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator/",
+    "speaker_ring_selection_status": "OWNER_SELECTED",
+    "selected_pixel_total_excluding_undercabinet_and_gap": 1914
   }
 }

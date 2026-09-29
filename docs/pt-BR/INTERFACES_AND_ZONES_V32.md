@@ -17,7 +17,7 @@ Os identificadores `IF-*` organizam requisitos, não são códigos permanentes d
 | IF-03 Vidro e lockdown | Lockdown personalizado permitido; madeira nominal de 18 mm | Vidro/bordas, canaletas, receptor, retenção e remoção | Seção com material/ferragens medidos; cupom antes dos cortes finais |
 | IF-04 Fans e grades | Dois envelopes V32; referência nominal de moldura de 120 mm | Modelo, grade/filtro, recorte, furos, cabo e acesso | Desenho de interface e remoção; comprovação térmica separada |
 | IF-05 Matriz | Seis painéis provisórios de 16×16; 1.536 pixels | Modelo/revisão, dimensões, pitch, fixação, conectores, disposição, chipset, tensão e corrente | Registro e mapeamento; depois proposta de suporte removível e revisão de movimento |
-| IF-06 LEDs de speakers/gabinete/gap | Speakers e gabinete previstos; gap opcional | Modelos, comprimentos/pixels, dimensões, características e conectores | Registros separados; LED do speaker acompanha sua remoção; preservar folga da tela |
+| IF-06 LEDs de speakers/gabinete/gap | Dois anéis selecionados; fitas laterais do kit; iluminação sob gabinete e gap opcionais | Modelos, comprimentos/pixels, dimensões, características e conectores | Registros separados; LED do speaker acompanha sua remoção; preservar folga da tela |
 | IF-07 Manutenção de backbox/playfield | BBBase e suportes de monitor; duas escoras cativas exigidas | Dobradiças/fixações/cabos; receptores, travas, recolhimento e retenção sob carga total | Estudo separado de movimento/acesso e plano de prova com uma escora; nenhum ensaio físico declarado |
 | IF-08 Módulos de manutenção | S1/S2/S3, T1/T2/T3 e PCBase na V32 | Ferramentas/fixações, desconexão, retenção e trajetórias | Sequência de acesso e dependências; resolver primeiro divergência do PC abaixo |
 | IF-09 Alimentação, rede e feedback | Um cabo aterrado; distribuição fechada; desabilitação independente do feedback | Dispositivos, invólucro, alívio de tração, acesso, proteção e cargas | Mapa funcional e revisão elétrica qualificada antes de fiação ou recortes |
@@ -34,6 +34,7 @@ O [registro estruturado](../../config/interface_zones_v32.json) mantém caracter
 |---|---|---|
 | MATRIX | Alimentação dos painéis versus dados; ordem/orientação e revisão do controlador | Suporte removível; desconexão acessível e chaveada; movimento de playfield/backbox |
 | SPEAKER_LED / CABINET_LED / GAP_LED | Mapas e brilho separados; gap opcional | Speaker / acabamento removível; preservar substituição da tela |
+| UNDERCABINET_LED | Opção autorizada; produto, pixels, alimentação e portas indefinidos; fora do subtotal do kit | Iluminação removível sob gabinete; acesso e cabos pendentes |
 | AUDIO | Música/Bluetooth, amplificadores e canais StarTech | Dispositivos substituíveis; registrar conectores |
 | SSF | Quatro zonas espaciais; canal → amplificador → exciter pendente | Fixação local e terminais; evitar travamento amplo das paredes ativas |
 | FEEDBACK | Dispositivo → driver → proteção → desabilitação independente; regimes pendentes | Fixação positiva e estado de manutenção independentemente desabilitado |

@@ -2,7 +2,7 @@
 
 [English](../LIGHTING_INTENT_V32.md) · [Português (Brasil)](LIGHTING_INTENT_V32.md)
 
-**OWNER_SELECTED 2026-09-29; integração PROVISIONAL; CNC BLOCKED.** O proprietário selecionou o [Addressable LED Plug and Play Kit da Cleveland Software Design](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit). Mantida a intenção anterior de seis painéis; variante do pedido e opção de anéis dos speakers ainda não confirmadas. Não há declaração de compra ou recebimento.
+**OWNER_SELECTED 2026-09-29; integração PROVISIONAL; CNC BLOCKED.** O proprietário selecionou o [Addressable LED Plug and Play Kit da Cleveland Software Design](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit). Mantida a intenção anterior de seis painéis. Em 2026-09-29 o proprietário confirmou dois anéis dos speakers e iluminação opcional sob o gabinete; o SKU final do pedido permanece sem registro. Não há declaração de compra ou recebimento.
 
 A controladora incluída substitui a previsão de Arnoz MX-DONNY para este kit. Isso não altera outros dispositivos Arnoz. Notas anteriores de Pinscape/MX-DONNY permanecem como histórico, não como alocação atual de portas.
 
@@ -18,7 +18,7 @@ A saída nominal da fonte corresponde aritmeticamente a 75 W, não ao consumo me
 
 Usar o [gerador de arquivo do fabricante](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator/) para a configuração real e porta COM detectada. Os presets incluem fitas laterais. Salvar a configuração e verificar ordem dos pixels, orientação, brilho e zonas no comissionamento; não reutilizar o cálculo de três saídas da MX-DONNY. Nenhuma porta ou cabinet.xml está congelado agora.
 
-Os seis painéis mantêm a intenção anterior de 16×16. Disposição física e posição exata acima do playfield seguem abertas. Fitas incluídas não comprovam cobertura sob o gabinete nem nas folgas opcionais da tela. Anéis são opção pendente; dois acrescentariam 90 pixels, totalizando 1.914 com matriz e fitas (1.824 sem anéis).
+Os seis painéis mantêm a intenção anterior de 16×16. Disposição física e posição exata acima do playfield seguem abertas. Fitas incluídas não comprovam cobertura sob o gabinete nem nas folgas opcionais da tela. Os dois anéis selecionados acrescentam 90 pixels, totalizando 1.914 com matriz e fitas laterais do kit. A iluminação opcional sob o gabinete constitui a zona separada UNDERCABINET_LED, com produto, comprimento, pixels, alimentação e portas ainda indefinidos; sua carga não está incluída nesse subtotal. LEDs opcionais nas folgas da tela também permanecem separados.
 
 ## Integração mecânica e elétrica a desenvolver
 
@@ -28,4 +28,4 @@ Os seis painéis mantêm a intenção anterior de 16×16. Disposição física e
 - Selecionar painéis/fitas antes de calcular tensão, corrente máxima, capacidade da fonte, proteção de ramais, bitolas e pontos de injeção de alimentação. Capacidade de controle não equivale à capacidade da fonte. Preservar regras existentes de isolamento de rede e roteamento de áudio/dados.
 - Prever brilho independente por zona e opção de desligar efeitos; aparência final exige revisão visual do proprietário.
 
-Próximos dados: variante de seis painéis/pedido, opção dos anéis, medidas montadas, fixações/conectores, comprimentos das fitas e limites documentados de operação. Sessões físicas seguem pausadas; nenhuma geometria CAD foi alterada.
+Próximos dados: SKU de seis painéis/pedido, produto sob o gabinete caso adotado, medidas montadas, fixações/conectores, comprimentos das fitas e limites documentados de operação. Sessões físicas seguem pausadas; nenhuma geometria CAD foi alterada.
