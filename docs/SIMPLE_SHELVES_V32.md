@@ -24,6 +24,8 @@ The test now reserves an entire vertical Ø16 tool column from each screw head t
 
 ## What is and is not demonstrated
 
+Owner supplied a simple shelf reference and requested CNC-predrilled holes. The [joint assessment](SHELF_JOINT_REFERENCE_V32.md) retains bearing supports and four top screws; cam furniture connectors are a reference alternative, not an adopted replacement. Shop-located shelf, receiver and wall-support holes remain required in the final package; exact wall anchorage/pilot sizes await qualified hardware and material. No lifetime/load rating follows from the reference image.
+
 **90 checks pass** against the stationary scene. The raised playfield is not yet modeled: its four assembly shapes are explicitly excluded to test the space the open display must leave available. This is therefore **not proof that the actual raised display, hinges, captive props and cables clear these paths**. That is the next integration gate; do not describe this as an already validated routine opening mechanism.
 
 Nominal candidate fastening: Ø5 ×25 shaft, Ø9 ×4 head, Ø12 ×1 washer, top receiver Ø8 ×10, Ø8.5 pocket10.5 deep and a Ø5.5 tip relief12.5 deep in the nominal18 support. There are no underside nut pockets or covers. Hardware, threads, receiver retention, fixed-cleat attachment, loads and stock/tool tolerances are unqualified; these are not purchase or machining specifications. Support installation should be a fixed cabinet-assembly operation, not another service mechanism.

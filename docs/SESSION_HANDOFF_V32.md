@@ -2,6 +2,8 @@
 
 ## Resume here
 
+Latest library/joint update: `library/references/links.txt` is the contextual plain-text source entry point; `local-files.json` records five locally archived originals. Third-party originals are ignored, not publicly redistributed. Two SUZOHAPP PDF downloads timed out; YouTube retrieval failed. `docs/SHELF_JOINT_REFERENCE_V32.md` evaluates supplied screenshots, retains simple bearing supports/four top screws and requires CNC-located holes. Generic cam connectors are not adopted or vibration-rated. VirtuaPin kit/manual is a reference, not a controller-selection change. This update publishes reference documentation on the review branch only, with no merge or manufacturing approval.
+
 Worktree: `/home/peter/Projetos/vpin-cabinet/.work/worktrees/cabinet-v32`
 Branch: `feat/cabinet-review-v32`. Read `AGENTS.md`, `docs/RENDERS.md`, `docs/FRONT_PANEL_REVIEW_V32.md`, `docs/SIDE_PANEL_REVIEW_V32.md` and `docs/PANEL_CLOSURE_V32.md` first.
 

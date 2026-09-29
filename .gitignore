@@ -1,6 +1,9 @@
 # External reference models
 reference/dekay-vpin-cabinet/
 
+# Owner's local reference library: third-party originals, not redistributable source
+library/references/local/
+
 # Local CAD working/audit files
 .work/
 

@@ -1,0 +1,46 @@
+BIBLIOTECA DE REFERÊNCIAS — VPIN V32
+Atualização: 2026-09-29
+Links e avaliações públicas; originais de terceiros em local/ não são publicados.
+Imagens fornecidas: local/415615-shelf-reference.jpg (prateleira) e local/415643-cam-connector-reference.jpg (conector excêntrico).
+Inventário de arquivos e hashes: local-files.json. Links históricos adicionais: repository-links.txt.
+
+2026-09-29 | Prateleiras: vídeo indicado pelo proprietário
+https://www.youtube.com/watch?v=SKRI45ZprjM
+Ideia de montagem simples; página/vídeo indisponível na consulta. Avaliação baseada na imagem 415615 e explicação do proprietário; vídeo completo não assistido.
+
+2026-09-29 | Frente/plunger: produto de referência
+https://virtuapin.net/index.php?main_page=product_info&products_id=105
+VirtuaPin Digital Plunger Kit v3. Página consultada; referência, não compra ou substituição automática do controlador.
+
+2026-09-29 | Frente/plunger: instalação
+https://virtuapin.net/docs/Manuals/Plunger%20Kit%20Guide%20v3.12.pdf
+Salvo local/virtuapin-plunger-kit-guide-v3.12.pdf. 7 páginas; texto extraído e páginas 1–2 inspecionadas visualmente. Não é desenho completo de furação.
+
+2026-09-29 | Gabinete: dimensões e furos
+https://sdssautomotive.wordpress.com/wp-content/uploads/2022/04/pinball-cabinet-dimensions.pdf
+Salvo local/pinball-cabinet-dimensions.pdf. 21 páginas inspecionadas. Comparação: docs/CABINET_DIMENSIONS_REFERENCE_V32.md; largura V32 continua 600 mm.
+
+2026-09-29 | Laterais: preferência leaf do proprietário
+https://www.arcadexpress.com/en/pinball/538-12705-pinball-button-kit-with-end-of-stroke-switch-leaf-holder-bracket-nut.html
+Produto 538, variante fornecida 12705. Kit com botão/leaf/suporte. Texto dimensional ambíguo; montagem não validada. docs/SIDE_BUTTON_OPTIONS_V32.md.
+
+2026-09-29 | Laterais: alternativa arcade
+https://na.suzohapp.com/pdf/pushbutton_flyer.pdf
+Texto consultado via busca: famílias convencionais usam furo 1-1/8 polegada. Download direto tentado para biblioteca; conferir download-status.txt. Não confundir com furo leaf.
+
+Etapa anterior da frente | Porta de moedas
+https://na.suzohapp.com/pdf/40-0696-30%20B.pdf
+Download anterior falhou; nova tentativa para arquivo local, conferir download-status.txt. Nenhuma dimensão adotada desse desenho.
+
+2026-09-27 | Arquitetura, serviços e moedas
+https://head.pinscape-build-guide.pages.dev/
+MHTML fornecido preservado em local/pinscape-build-guide.mht. Leitura/identidade anterior em reference/pinscape/source.json; não presumir que site atual seja idêntico.
+
+2026-09-29 | Fixação de prateleiras: comparação de ferragem
+https://shop.hettich.com/de_EN/Further-products/Connecting-technology/Connecting-fittings-for-cabinet-bodies/Rastex-eccentric-connecting-fitting/Rastex-25-without-rim%2C-bright/p/13116
+Referência de sistema excêntrico com recursos contra afrouxamento, descrição recuperada pela busca. Não identifica nem certifica o conector genérico da imagem 415643.
+
+2026-09-29 | Fixação: fundamentos de madeira
+https://research.fs.usda.gov/fpl/wood-handbook
+Wood Handbook, US Forest Products Laboratory. Referência geral; não é ensaio da nossa junta ou base para atribuir capacidade ao compensado/insertos sem dados.
+

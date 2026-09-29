@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-29",
+  "files": [
+    {
+      "file": "local/415615-shelf-reference.jpg",
+      "bytes": 72517,
+      "sha256": "25c8325d3a7308aa9cc061d330330bd798d183c9ee5e4996c7067f789bcf6a00",
+      "distribution": "local only; third-party rights retained"
+    },
+    {
+      "file": "local/415643-cam-connector-reference.jpg",
+      "bytes": 62480,
+      "sha256": "72f4f15fb1532ecf32b57cbd26a9fa4a9514d2bbaf1bf57c6b52ac6ef7395d6a",
+      "distribution": "local only; third-party rights retained"
+    },
+    {
+      "file": "local/pinball-cabinet-dimensions.pdf",
+      "bytes": 1323313,
+      "sha256": "c5b905f876af090e441079e9fc42e1b1083dd3f715090484431b1cd897d560d6",
+      "distribution": "local only; third-party rights retained"
+    },
+    {
+      "file": "local/pinscape-build-guide.mht",
+      "bytes": 5149445,
+      "sha256": "5dc7fbed28a5a5d32c4d804d83075d52fd69ed1fd5b2d89e284b65bcc93e3d64",
+      "distribution": "local only; third-party rights retained"
+    },
+    {
+      "file": "local/virtuapin-plunger-kit-guide-v3.12.pdf",
+      "bytes": 2200729,
+      "sha256": "2dbc63efeafa2baeed372079fc7807e6959b0e2480e06d2eafc91d7b4a8ea054",
+      "distribution": "local only; third-party rights retained"
+    }
+  ]
+}

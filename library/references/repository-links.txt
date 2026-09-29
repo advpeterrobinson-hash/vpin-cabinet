@@ -1,0 +1,101 @@
+LINKS JÁ REGISTRADOS NO REPOSITÓRIO
+Inventário em 2026-09-29; etapa/contexto dado pelo arquivo e título original.
+Inclui referências históricas: presença não significa revisão, aprovação ou disponibilidade.
+
+https://github.com/Jerware/PinSim
+THIRD_PARTY_NOTICES.md:28 — PinSim reference assessment (2026-09-27)
+docs/PINSIM_REFERENCE_REVIEW.md:9 — Two sources, different scopes
+docs/pt-BR/PINSIM_REFERENCE_REVIEW.md:9 — Duas fontes, escopos diferentes
+reference/pinsim/README.md:8 — PinSim external reference register
+reference/pinsim/manifest.json:5 — reference/pinsim/manifest.json
+
+https://github.com/advpeterrobinson-hash/vpin-cabinet
+.github/pull_request_template.md:40 — Licensing / source
+AGENTS.md:154 — Open-source / licensing rules
+CONTRIBUTING.md:86 — Attribution and official project link
+NOTICE.md:9 — Official project
+NOTICE.md:21 — Required Source Location notice
+SUPPORT.md:7 — Support
+docs/CABINET_DIMENSIONS_REFERENCE_V32.md:27 — Owner-supplied cabinet dimensions reference
+docs/FRONT_PANEL_REVIEW_V32.md:68 — Handoff to subsequent panels
+docs/HARDWARE_ARRIVAL_INSPECTION_V27.md:5 — Hardware arrival inspection — v27
+docs/INTERFACES_AND_ZONES_V32.md:69 — Next input and completion evidence
+docs/JOINERY_STUDY_V32.md:65 — Reproduce / download
+docs/OPEN_SOURCE_POLICY.md:11 — Licence
+docs/OPEN_SOURCE_POLICY.md:39 — Required project attribution
+docs/OWNER_EVIDENCE_PLAN_V27.md:5 — Owner evidence and photo plan — v27
+docs/OWNER_MEASUREMENT_SHEETS_V27.md:5 — Owner measurement sheets — v27
+docs/OWNER_PHYSICAL_CHECKLIST_V27.md:5 — Owner physical checklist — v27
+docs/SHELF_ANCHORAGE_REVIEW_V32.md:69 — Evidence and limits
+docs/SHELF_RETENTION_REVIEW_V32.md:76 — Files and validation
+docs/SIDE_BUTTON_OPTIONS_V32.md:33 — Simple implementation direction
+docs/SIDE_INTERFACE_PLAN_V32.md:67 — Next geometry gate
+docs/SIDE_MOTION_REVIEW_V32.md:64 — Reproduce
+docs/SIDE_SERVICE_REVIEW_V32.md:42 — Reproduction and evidence
+docs/SIMPLE_SHELVES_V32.md:39 — What is and is not demonstrated
+docs/pt-BR/FRONT_PANEL_REVIEW_V32.md:62 — Continuidade
+docs/pt-BR/INTERFACES_AND_ZONES_V32.md:69 — Próxima entrada e evidência de conclusão
+docs/pt-BR/JOINERY_STUDY_V32.md:65 — Reproduzir / baixar
+docs/pt-BR/SHELF_ANCHORAGE_REVIEW_V32.md:36 — V32: ancoragem substituível dos apoios das prateleiras
+docs/pt-BR/SHELF_RETENTION_REVIEW_V32.md:41 — V32: proposta de fixação removível das prateleiras
+docs/pt-BR/SIDE_MOTION_REVIEW_V32.md:48 — V32: retirada das travessas e prateleiras
+docs/pt-BR/SIMPLE_SHELVES_V32.md:23 — V32 — quatro parafusos por cima
+
+https://github.com/advpeterrobinson-hash/vpin-cabinet**
+README.md:66 — Open-source hardware
+README.md:78 — Open-source hardware
+docs/LICENSING_FAQ.md:11 — What licence does the project use?
+docs/LICENSING_FAQ.md:51 — Do I have to link the official project?
+
+https://head.pinscape-build-guide.pages.dev/
+THIRD_PARTY_NOTICES.md:34 — Pinscape Build Guide review (2026-09-27)
+docs/PINSCAPE_ACCELERATION_REVIEW.md:9 — Source and scope
+docs/pt-BR/PINSCAPE_ACCELERATION_REVIEW.md:9 — Fonte e escopo
+reference/pinscape/source.json:7 — reference/pinscape/source.json
+
+https://na.suzohapp.com/pdf/40-0696-30%20B.pdf
+config/front_panel_v32.json:364 — config/front_panel_v32.json
+
+https://na.suzohapp.com/pdf/pushbutton_flyer.pdf
+THIRD_PARTY_NOTICES.md:22 — Owner-supplied cabinet dimension PDF (2026-09-29)
+docs/SIDE_BUTTON_OPTIONS_V32.md:21 — Why the holes are not automatically interchangeable
+
+https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator/
+config/interface_zones_v32.json:257 — config/interface_zones_v32.json
+
+https://sdssautomotive.wordpress.com/wp-content/uploads/2022/04/pinball-cabinet-dimensions.pdf
+THIRD_PARTY_NOTICES.md:24 — Owner-supplied cabinet dimension PDF (2026-09-29)
+docs/CABINET_DIMENSIONS_REFERENCE_V32.md:5 — Owner-supplied cabinet dimensions reference
+
+https://shop.arnoz.com/en/dude-s-cab/151-mx-donny.html
+docs/PINSCAPE_ACCELERATION_REVIEW.md:32 — Immediate finding: the six LED panels
+docs/pt-BR/PINSCAPE_ACCELERATION_REVIEW.md:32 — Achado imediato: os seis painéis LED
+
+https://www.amphenol-socapex.com/faq/faq_product/218/faq_product_range/213
+docs/OWNER_DESIGN_CHANGE_REVIEW_V28.md:56 — RJ45: simplify without losing replaceability
+
+https://www.arcadexpress.com/en/pinball/538-12705-pinball-button-kit-with-end-of-stroke-switch-leaf-holder-bracket-nut.html
+THIRD_PARTY_NOTICES.md:22 — Owner-supplied cabinet dimension PDF (2026-09-29)
+docs/SIDE_BUTTON_OPTIONS_V32.md:7 — Selected reference
+
+https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit
+config/interface_zones_v32.json:50 — config/interface_zones_v32.json
+config/interface_zones_v32.json:65 — config/interface_zones_v32.json
+config/interface_zones_v32.json:226 — config/interface_zones_v32.json
+docs/LIGHTING_INTENT_V32.md:11 — Matrix dimensions
+docs/pt-BR/LIGHTING_INTENT_V32.md:11 — Dimensões da matriz
+
+https://www.cuttercnc.com/
+config/design.json:101 — config/design.json
+docs/vendors.md:7 — Cutter CNC
+
+https://www.thingiverse.com/thing:5903318
+THIRD_PARTY_NOTICES.md:29 — PinSim reference assessment (2026-09-27)
+docs/PINSIM_REFERENCE_REVIEW.md:11 — Two sources, different scopes
+docs/pt-BR/PINSIM_REFERENCE_REVIEW.md:11 — Duas fontes, escopos diferentes
+reference/pinsim/README.md:9 — PinSim external reference register
+reference/pinsim/manifest.json:10 — reference/pinsim/manifest.json
+
+https://www.tukkari.eu/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit
+docs/DESIGN_SIMPLIFICATION_AUDIT_V28.md:15 — Benchmark, without copying
+

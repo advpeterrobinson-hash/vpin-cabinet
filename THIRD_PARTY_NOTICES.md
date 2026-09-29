@@ -19,6 +19,8 @@ Project releases should prefer original geometry, measurements, interoperability
 
 ## Owner-supplied cabinet dimension PDF (2026-09-29)
 
+The owner's [local library policy](library/README.md) now retains reading copies in an ignored directory. "Not redistributed" below means not included in Git or release packages; local reference copies may exist. [Contextual links](library/references/links.txt) include VirtuaPin product/manual, the owner-supplied YouTube shelf reference, and furniture-fastening sources. Screenshots, manuals and third-party designs retain their original rights. The repository publishes original assessments and factual source metadata only.
+
 Related hardware references: the [Arcade Express leaf kit](https://www.arcadexpress.com/en/pinball/538-12705-pinball-button-kit-with-end-of-stroke-switch-leaf-holder-bracket-nut.html) and [SUZOHAPP arcade-button flyer](https://na.suzohapp.com/pdf/pushbutton_flyer.pdf) are linked in the [side-button assessment](docs/SIDE_BUTTON_OPTIONS_V32.md). Their images, drawings and bracket designs are not redistributed or relicensed; only factual specifications and original assessment are recorded.
 
 [Pinball cabinet dimensions](https://sdssautomotive.wordpress.com/wp-content/uploads/2022/04/pinball-cabinet-dimensions.pdf), hosted by SDSS Automotive on WordPress, is an external dimensional reference. Authorship and redistribution permission are unconfirmed. The PDF and drawings are not redistributed or relicensed. Factual dimensions, source hash and original comparison are in the [V32 reference assessment](docs/CABINET_DIMENSIONS_REFERENCE_V32.md).

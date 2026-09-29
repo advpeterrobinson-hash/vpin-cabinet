@@ -1,0 +1,20 @@
+2026-09-29 — resultados de arquivamento
+
+SALVOS: pinball-cabinet-dimensions.pdf; virtuapin-plunger-kit-guide-v3.12.pdf;
+pinscape-build-guide.mht; 415615-shelf-reference.jpg; 415643-cam-connector-reference.jpg.
+Arquivos em local/; tamanhos e SHA256 em local-files.json.
+
+PENDENTE: https://na.suzohapp.com/pdf/pushbutton_flyer.pdf
+Download direto terminou com curl 28 após 40 segundos, zero bytes; arquivo não salvo.
+Texto da fonte recuperado na pesquisa anterior; isso não equivale a arquivar o PDF.
+
+PENDENTE: https://na.suzohapp.com/pdf/40-0696-30%20B.pdf
+Nova tentativa terminou com curl 28 após 40 segundos, zero bytes; arquivo não salvo.
+Dimensões do desenho não adotadas.
+
+VÍDEO: https://www.youtube.com/watch?v=SKRI45ZprjM
+Página não recuperada pelo navegador de pesquisa (URL curta e completa).
+Não assistido integralmente nem baixado. Imagem fornecida e intenção do proprietário registradas.
+
+Outros PDFs citados em conversas anteriores mas não disponibilizados não foram inventariados
+como arquivos presentes. Não foram procurados em diretórios pessoais não relacionados.
