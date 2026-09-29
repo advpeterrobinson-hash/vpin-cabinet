@@ -17,4 +17,10 @@ for stage in panel service motion; do
     fi
     rg "${sentinel} " ".work/side-panel-v32/${stage}.log"
 done
+freecadcmd tools/shelf_retention_v32_entry.py > .work/side-panel-v32/retention.log 2>&1
+if ! rg -q 'SHELF_RETENTION_PASS ' .work/side-panel-v32/retention.log; then
+    cat .work/side-panel-v32/retention.log
+    exit 1
+fi
+rg 'SHELF_RETENTION_PASS ' .work/side-panel-v32/retention.log
 printf '%s\n' 'SIDE_REVIEW_COMPLETE - candidate packaging only; manufacturing BLOCKED'

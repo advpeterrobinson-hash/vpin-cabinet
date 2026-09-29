@@ -8,7 +8,15 @@
 
 This page lets a new contributor understand the current cabinet direction without browsing the repository tree first. The complete technical package remains in [`exports/generated/cabinet-v32/`](../exports/generated/cabinet-v32/README.md).
 
-## Latest development — shelf service routes
+## Latest development — removable shelf retention
+
+Separate proposal: top-release bolts and captured nuts in replaceable supports, with equipment access wells and preserved removal routes. Original V32 unchanged; hardware and structural performance unverified.
+
+[![Shelf retention proposal](../exports/generated/side-panel-v32/05-shelf-retention.png)](SHELF_RETENTION_REVIEW_V32.md)
+
+[Open the proposal and saved FreeCAD model](SHELF_RETENTION_REVIEW_V32.md).
+
+## Shelf service routes
 
 Continuous straight-motion checks establish candidate removal paths for all three shelves, including 60 mm equipment envelopes. Guides and permanent panels stay in place. Hardware and loads remain unverified.
 

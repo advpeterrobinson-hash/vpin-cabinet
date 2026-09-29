@@ -69,3 +69,5 @@ The subsequent [guide-anchor service screen](SIDE_SERVICE_REVIEW_V32.md) found s
 ## Removal route development
 
 The [continuous motion study](SIDE_MOTION_REVIEW_V32.md) now establishes candidate shelf staging bays and checks removal with 60 mm equipment envelopes. Preserve these routes when detailing shelf retention, cable connections and future side mounts; they do not require changing permanent panels.
+
+The separate [shelf-retention proposal](SHELF_RETENTION_REVIEW_V32.md) now models top-release clamps and captured nuts in widened replaceable supports. Original support footprints above remain source facts; the wider footprints belong only to that proposal.

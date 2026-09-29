@@ -1,0 +1,40 @@
+{
+  "status": "REMOVABLE_SUPPORT_RETENTION_PROPOSAL",
+  "units": "mm",
+  "support_width_mm": 42,
+  "bolt_axis_inward_from_side_mm": 30,
+  "bolt_y_offsets_mm": [
+    25,
+    100
+  ],
+  "clearance_bore_diameter_mm": 5.5,
+  "shaft_diameter_mm": 5,
+  "shaft_length_mm": 35,
+  "head_diameter_mm": 9,
+  "head_height_mm": 4,
+  "washer_diameter_mm": 12,
+  "washer_thickness_mm": 1,
+  "square_nut_width_mm": 10,
+  "square_nut_height_mm": 5,
+  "nut_pocket_width_mm": 10.4,
+  "nut_pocket_depth_mm": 5.2,
+  "nut_bottom_clearance_mm": 0.1,
+  "cover_thickness_mm": 3,
+  "cover_bolt_passage_diameter_mm": 6,
+  "cover_fixing_bore_diameter_mm": 3,
+  "cover_fixing_insets_mm": [
+    8,
+    12
+  ],
+  "cover_fixing_blind_depth_mm": 9,
+  "equipment_access_well_radius_mm": 10,
+  "driver_radius_mm": 8,
+  "driver_length_mm": 100,
+  "bolt_withdrawal_mm": 40,
+  "collision_threshold_mm3": 0.01,
+  "hardware_status": "All dimensions are explicit candidate envelopes; no SKU, thread engagement, load rating or manufacturing tolerance selected. Cover fixing holes are proposed locations only; their actual screws are not modeled.",
+  "scope": "Replaceable shelf boards/supports only; original source unchanged. Wider supports remain local to each wall. Positive nut capture is geometric only. Stock, nut pocket corner/tool relief, fastener strength and vibration retention still require validation.",
+  "cover_driver_radius_mm": 5,
+  "cover_driver_length_mm": 80,
+  "cover_head_allowance_mm": 2
+}

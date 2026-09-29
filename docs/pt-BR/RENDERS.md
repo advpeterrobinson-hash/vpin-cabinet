@@ -8,7 +8,15 @@
 
 Esta página permite que um novo colaborador entenda rapidamente a direção atual do gabinete sem primeiro navegar por toda a árvore do repositório. O pacote técnico completo permanece em [`exports/generated/cabinet-v32/`](../../exports/generated/cabinet-v32/README.md).
 
-## Último desenvolvimento — retirada das prateleiras
+## Último desenvolvimento — fixação removível das prateleiras
+
+Proposta separada: parafusos acessíveis por cima e porcas capturadas nos apoios substituíveis, com espaço para ferramenta e rotas de retirada preservadas. V32 original inalterado; ferragens e resistência pendentes.
+
+[![Proposta de fixação](../../exports/generated/side-panel-v32/05-shelf-retention.png)](SHELF_RETENTION_REVIEW_V32.md)
+
+[Abrir proposta e modelo FreeCAD](SHELF_RETENTION_REVIEW_V32.md).
+
+## Retirada das prateleiras
 
 Verificações contínuas de movimento definem rotas candidatas para as três prateleiras, incluindo envelopes de equipamentos de 60 mm. Guias e painéis permanentes ficam no lugar. Ferragens e cargas seguem pendentes.
 

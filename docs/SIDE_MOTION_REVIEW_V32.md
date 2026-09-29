@@ -62,3 +62,7 @@ The runner requires explicit FreeCAD success sentinels for all three audits. Exp
 The original V32 remains byte-identical, SHA256 `ff973219bdc8bee6707bd29f6a44da74c895cbcbea9e0b1790d8e7723b9aa038`. Physical sessions remain paused. Hardware dimensions, loads, captive props, stock/tool tolerances, coupon and owner manufacturing release remain required.
 
 Original material: CERN-OHL-S-2.0. Preserve LICENSE and NOTICE.md. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.
+
+## Retention follow-up
+
+A separate [shelf-retention proposal](SHELF_RETENTION_REVIEW_V32.md) now adds top-release bolts, captured nuts and wider replaceable supports while preserving all three loaded shelf routes. Its equipment-access wells reduce the usable payload envelope locally. The unified runner also executes its additional 105 checks.

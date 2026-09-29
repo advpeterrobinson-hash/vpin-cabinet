@@ -46,3 +46,5 @@ Resultado: 46 verificações das laterais, 29 de acesso às guias e 99 de movime
 Sessões físicas continuam pausadas. Fixações, ferramentas reais, cargas, tolerâncias, cupom físico e liberação para fabricação permanecem pendentes.
 
 Material original: CERN-OHL-S-2.0. Preservar LICENSE e NOTICE.md. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.
+
+A [proposta de fixação das prateleiras](SHELF_RETENTION_REVIEW_V32.md) acrescenta parafusos acessíveis por cima, porcas capturadas e apoios substituíveis mais largos. As rotas continuam livres, mas os equipamentos precisam respeitar os corredores de ferramenta. O comando único também executa as 105 verificações adicionais.
