@@ -14,16 +14,21 @@ Os três cortes atravessam os18 mm nominais da madeira. A menor ponte entre o re
 
 Nenhuma placa extra ou rebaixo foi acrescentado. Se o encaixe do cabo interno exigir alívio local, ele será definido com o componente; não presumir compatibilidade de toda tomada de painel com madeira18 mm.
 
-## Energia: nova foto não define o recorte
+## Energia: desenho416187 incorporado
 
-Imagem416183 apresenta um módulo retangular sem as duas orelhas de parafuso visíveis na imagem416182 anterior. O formato sugere retenção por encaixe, mas a foto não prova o mecanismo. As chamadas50,30 e24 não incluem um desenho de recorte, tolerâncias, passo de parafusos ou espessura de painel permitida. Não se deve interpretar50×30 como janela de corte nem24 como profundidade útil.
+A nova referência enviada com o link ArcadeXpress resolve o recorte: **28×48 mm, cantosR3 e dois furosØ4,5 com40 mm entre centros**. Essas medidas vêm do quadro explícito PANEL CUT-OUT, não de estimativa sobre a foto. Montagem vertical, tomada acima e interruptor abaixo, diretamente na madeira. O modelo retangular sem orelhas416183 deixa de ser a base desta interface.
 
-A posição de planejamentoX95/Z430 permanece. A madeira fica intacta ali; `footprint:null` continua deliberado. Para cumprir a preferência por dois parafusos, o modelo com orelhas anterior ainda é uma alternativa, mas não foi selecionado silenciosamente no lugar do novo anúncio. É necessário desenho da traseira/recorte ou identificação exata da peça para fechar essa interface. O invólucro interno protetor permanece independente da forma de fixação do inlet.
+CentroX95/Z430. Recorte deX81 a109 eZ406 a454; parafusosX75/115, ambosZ430. Cortes atravessam os18 mm nominais do painel. Ponte lateral mínima entre recorte e furos:3,75 mm, sem atribuição de capacidade estrutural. PassagensØ4,5 preveem fixação candidataM4 passante; comprimento, arruelas/porcas e aperto dependem da flange real. Não foram modelados fixadores ou corpo do inlet como ferragens qualificadas.
 
-Link curto recebido: https://meli.la/13BjJHD. Acesso web falhou; HTTP403 sem destino resolvido e navegador indisponível. Não afirmar ter revisado o anúncio ou homologação elétrica. A leitura aqui se baseia nas imagens fornecidas.
+O desenho mostra20,3 mm na vista lateral até o corpo, excluindo as pontas dos terminais. Isso não informa sozinho quanto sobra atrás da madeira, pois faltam espessura da flange e posição útil de cada terminal. A chamada frontal28,2 difere dos28 do corpo/recorte em outras vistas: mantido o recorte explicitamente indicado, com conferência física e cupom antes do corte final. Não foi adicionado rebaixo nem ampliada a janela sem evidência.
+
+Foi verificada uma **reserva de projeto** para conexões isoladas de40×50×48 mm, X75/Y1240,1/Z406, inteiramente para dentro da face interna do painel. Ela não colide com os sólidos modelados e passa pela abertura do invólucro interno. Essa reserva não representa terminais, botas isolantes ou curvatura real dos fios; falta conferir o conjunto real, acesso a porcas, invólucro e especificação elétrica. Não há liberação de cabeamento ou terminais expostos.
+
+https://www.arcadexpress.com/en/electronics-power-supplies/455-iec320-switch-power-socket-on-off.html
+Página indisponível na ferramenta web; evidência dimensional é a imagem416187 fornecida, arquivada localmente com hash. Não foi presumida homologação elétrica ou compatibilidade universal com estoque18 mm.
 
 ## Verificação
 
-`bash tools/run_fixed_rear_services_v32.sh`:33 verificações;195 sólidos por posição. Novas verificações conferem três furos passantes, par diagonal19×24 e conversão de vista, ponte positiva e volume removido somente pelos três cortes. Mantidos fans fixos, abertura amostrada da porta, rota excepcional do PC e prateleiras aprovadas. CNC continua pendente de ferragens, stock/ferramenta/tolerâncias e demais requisitos do projeto.
+`bash tools/run_fixed_rear_services_v32.sh`:37 verificações;195 sólidos por posição. Verificações conferem cortes passantes dos dois conectores, par diagonal19×24 e conversão de vista do RJ45, recorte28×48R3 e passo40 da energia, área removida, cantos preservados e reserva interna de conexões. Mantidos fans fixos, abertura amostrada da porta, rota excepcional do PC e prateleiras aprovadas. CNC continua pendente de ferragens, stock/ferramenta/tolerâncias e demais requisitos do projeto.
 
 Original CERN-OHL-S-2.0. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet

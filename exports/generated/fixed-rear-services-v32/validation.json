@@ -24,7 +24,7 @@
       100
     ],
     "window_corner_radius_mm_candidate": 3,
-    "connector_cutouts": "Direct flange mounting, no extra plates. RJ45 draft24mm opening and two3.2mm wood holes from supplied drawing; mains uncut pending real cutout/retention details.",
+    "connector_cutouts": "Direct mounting, no extra plates. RJ45 draft24mm opening plus2x3.2; mains explicit drawing28x48R3 plus2x4.5at40pitch.",
     "lockdown_outer_axes_xz_mm": [
       [
         68.225,
@@ -73,16 +73,40 @@
           95,
           430
         ],
-        "type": "New owner image416183: rectangular IEC-style inlet/fuse/rocker, no visible screw ears; retention type not confirmed",
-        "footprint": null,
-        "source": "library/references/local/416183-mains-dimensions.jpg",
-        "link": "https://meli.la/13BjJHD",
-        "image_callouts_mm": [
+        "type": "Flanged IEC-style fused switched inlet per owner drawing416187; direct two-screw fixing",
+        "source": "library/references/local/416187-mains-panel-cutout.jpg",
+        "link": "https://www.arcadexpress.com/en/electronics-power-supplies/455-iec320-switch-power-socket-on-off.html",
+        "footprint": {
+          "status": "NOMINAL_VENDOR_PANEL_CUTOUT_FROM_OWNER_IMAGE_CNC_HOLD",
+          "window_xzwh_mm": [
+            81,
+            406,
+            28,
+            48
+          ],
+          "corner_radius_mm": 3,
+          "wood_fixing_hole_diameter_mm": 4.5,
+          "hole_centers_xz_mm": [
+            [
+              75,
+              430
+            ],
+            [
+              115,
+              430
+            ]
+          ]
+        },
+        "drawing_note": "Use explicit PANEL CUT-OUT28x48 R3, two4.5holes40pitch.20.3 side callout excludes terminal ends and does not specify useful length after flange. Front28.2 vs side/cutout28 discrepancy retained; verify physical fit/tolerance coupon, do not silently enlarge. Older416183 is superseded for this interface.",
+        "terminal_service_reservation_xyzwhd_mm": [
+          75,
+          1240.1,
+          406,
+          40,
           50,
-          30,
-          24
+          48
         ],
-        "note": "Different housing from416182. Image gives no explicit panel-cutout, screw pitch or admissible panel thickness. Do not cut50x30 or assume24 is insertion depth. Snap-in appearance is inference only."
+        "terminal_reservation_basis": "Explicit design reservation50mm inside rear panel for insulated connections, not vendor terminal/boot geometry or wiring qualification."
       },
       "ethernet": {
         "center_xz_mm": [
@@ -121,7 +145,7 @@
         }
       },
       "stock_thickness_mm": 18,
-      "machining_status": "RJ45_DRAFT_GEOMETRY; MAINS_FOOTPRINT_AND_BOTH_HARDWARE_STACKS_HOLD",
+      "machining_status": "BOTH_CONNECTOR_CUTS_MODELED; HARDWARE_STACKS_AND_CNC_QUALIFICATION_HOLD",
       "required_dimensions": [
         "body cutout profile and corner radii",
         "flange outline and hole pitch/diameter",
@@ -133,10 +157,10 @@
     }
   },
   "source_hashes": {
-    "config/fixed_rear_services_v32.json": "90ed9722dee37a371c5ca3adfad73a9c741b03d480bf2209c1138d48c4d4f7c7",
+    "config/fixed_rear_services_v32.json": "ac296a76a0e98609a0a7e5525224836761ec48325886217328da770bddea2a1b",
     "exports/generated/rear-door-v32/validation.json": "8dc411b8572ca4ec468643e1889518c1a0e771d91b929644dc0604223c9f42f5",
     "exports/generated/rear-door-v32/rear-door-closed.FCStd": "26cd6d772a6f9928c0ee85f6d1f7aa9fe299d8fc72da5fad224f11664b6c27f5",
-    "tools/fixed_rear_services_v32_entry.py": "1a4e8f8f9b082a268e04082d14c414aaf474fad658a2f50b7bd5fc8a557a2974",
+    "tools/fixed_rear_services_v32_entry.py": "d9f45864da22f27cdf7dcf22a20e1450644a23422fbe0f206ce2cb19e70e83c0",
     "config/lockdown_interface_v32.json": "d3319a0c60a4535733aaa0bc14d054fc786ee8efe99a7731a2cc907e6d02c5d2"
   },
   "checks": [
@@ -177,7 +201,19 @@
       "pass": true
     },
     {
-      "check": "mains remains solid pending actual cutout",
+      "check": "mains window and two fixing holes pass through18mm stock",
+      "pass": true
+    },
+    {
+      "check": "mains panel drawing28x48R3 and40mm screw pitch",
+      "pass": true
+    },
+    {
+      "check": "mains removed area matches rounded rectangle and two bores",
+      "pass": true
+    },
+    {
+      "check": "mains rounded corners retain wood",
       "pass": true
     },
     {
@@ -193,7 +229,7 @@
       "pass": true
     },
     {
-      "check": "only three direct RJ45 bores removed from rear",
+      "check": "only specified RJ45 and mains cuts removed from rear",
       "pass": true
     },
     {
@@ -202,6 +238,10 @@
     },
     {
       "check": "both intake centers open",
+      "pass": true
+    },
+    {
+      "check": "mains candidate50mm internal connection zone clears installed solids",
       "pass": true
     },
     {
@@ -273,6 +313,7 @@
       "pass": true
     }
   ],
+  "mains_terminal_reservation_conflicts": [],
   "rj45_min_web_mm_not_strength_rating": 1.7052278650139665,
   "installed_conflicts": [],
   "door_sweep_conflicts": [],
@@ -353,23 +394,23 @@
   "saved_proposals": {
     "closed": {
       "path": "exports/generated/fixed-rear-services-v32/closed.FCStd",
-      "sha256": "b3b0056a2030bcd59bed7832056ab7dd880820b65638f38661c3b91bc2ad2dca",
+      "sha256": "821d8fe6de0bec58d4c471681b30c465c93c8024a665190dddc6e195df8ecace",
       "solids": 195
     },
     "open90": {
       "path": "exports/generated/fixed-rear-services-v32/open90.FCStd",
-      "sha256": "1e7825d0f01841100d5d29ae7533f5cd199b85afce26e00a97fdb299a83d47a1",
+      "sha256": "c7ececa032989557b495c2aeef108ac160515854773521ca279cbd81b18188a1",
       "solids": 195
     },
     "open110": {
       "path": "exports/generated/fixed-rear-services-v32/open110.FCStd",
-      "sha256": "2ada548187c36c51d216614323bfe46a49e2cd13b37c6a9cd07c564402cf640f",
+      "sha256": "b99ab054257c22ed2183265eadbfe05dcb61e4e1a0d809cdbbd4bb5d7c5d5e36",
       "solids": 195
     }
   },
   "unverified": [
     "Fan thermal/noise/guard qualification and fixed wiring",
-    "Mains actual cutout/retention; RJ45 draft fit and fasteners, flange coverage, rear plug/latch access through18mm plywood; enclosure mounting/ratings",
+    "Mains real body/flange/terminal fit and fasteners through18mm stock; RJ45 draft fit and fasteners, flange coverage, rear plug/latch access; enclosure mounting/ratings",
     "Electrical protection PE and strain relief; no wiring design",
     "Receiver envelope, tongues, bar profile and real fastener stack",
     "Real door hinge/lock hardware, free resting angle/felt; optional limiters",

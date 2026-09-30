@@ -4,7 +4,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from matplotlib.patches import Rectangle,Circle
+from matplotlib.patches import Rectangle,Circle,FancyBboxPatch
 R=Path(__file__).resolve().parents[1];O=R/'exports/generated/fixed-rear-services-v32';c=json.loads((R/'config/fixed_rear_services_v32.json').read_text());fig,(a,b)=plt.subplots(1,2,figsize=(14,8));fig.patch.set_facecolor('#f5f6f8')
 a.set_title('TRASEIRA • fans fixos, porta lisa',loc='left',weight='bold')
 a.add_patch(Rectangle((0,0),600,596.9,facecolor='#c8aa7b',edgecolor='#6e583d'))
@@ -20,10 +20,11 @@ for key,label in [('mains','Energia'),('ethernet','Rede')]:
   a.add_patch(Circle((x,z),12,facecolor='#536e7c'))
   for hx,hz in c['direct_panel_io']['ethernet']['footprint']['hole_centers_xz_mm']:a.add_patch(Circle((hx,hz),1.6,color='#27343c'))
  else:
-  a.plot([x-8,x+8],[z,z],color='#27343c');a.plot([x,x],[z-8,z+8],color='#27343c')
- a.text(x,z+26,label,ha='center',fontsize=10,color='#1d2d39')
+  a.add_patch(FancyBboxPatch((x-14,z-24),28,48,boxstyle='round,pad=0,rounding_size=3',facecolor='#536e7c',edgecolor='none'))
+  for hx,hz in c['direct_panel_io']['mains']['footprint']['hole_centers_xz_mm']:a.add_patch(Circle((hx,hz),2.25,color='#27343c'))
+ a.text(x,z+36,label,ha='center',fontsize=10,color='#1d2d39')
 a.text(300,100,'Chave + puxador\nLimitadores opcionais',ha='center',fontsize=10)
-a.text(300,-38,'Rede: recorte e dois furos provisórios. Energia: centro apenas.\nMontagem direta na madeira; sem placas extras.',ha='center',fontsize=10)
+a.text(300,-38,'Rede: Ø24 + 2×Ø3,2. Energia: 28×48 R3 + 2×Ø4,5.\nMontagem direta na madeira; sem placas extras.',ha='center',fontsize=10)
 a.set(xlim=(-25,625),ylim=(-85,645),aspect='equal');a.axis('off')
 b.set_title('PISO • entrada de ar por baixo',loc='left',weight='bold')
 b.add_patch(Rectangle((18,18),564,1272.1,facecolor='#d5bb92',edgecolor='#6e583d'))

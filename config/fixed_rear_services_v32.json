@@ -22,7 +22,7 @@
     100
   ],
   "window_corner_radius_mm_candidate": 3,
-  "connector_cutouts": "Direct flange mounting, no extra plates. RJ45 draft24mm opening and two3.2mm wood holes from supplied drawing; mains uncut pending real cutout/retention details.",
+  "connector_cutouts": "Direct mounting, no extra plates. RJ45 draft24mm opening plus2x3.2; mains explicit drawing28x48R3 plus2x4.5at40pitch.",
   "lockdown_outer_axes_xz_mm": [
     [
       68.225,
@@ -71,16 +71,40 @@
         95,
         430
       ],
-      "type": "New owner image416183: rectangular IEC-style inlet/fuse/rocker, no visible screw ears; retention type not confirmed",
-      "footprint": null,
-      "source": "library/references/local/416183-mains-dimensions.jpg",
-      "link": "https://meli.la/13BjJHD",
-      "image_callouts_mm": [
+      "type": "Flanged IEC-style fused switched inlet per owner drawing416187; direct two-screw fixing",
+      "source": "library/references/local/416187-mains-panel-cutout.jpg",
+      "link": "https://www.arcadexpress.com/en/electronics-power-supplies/455-iec320-switch-power-socket-on-off.html",
+      "footprint": {
+        "status": "NOMINAL_VENDOR_PANEL_CUTOUT_FROM_OWNER_IMAGE_CNC_HOLD",
+        "window_xzwh_mm": [
+          81,
+          406,
+          28,
+          48
+        ],
+        "corner_radius_mm": 3,
+        "wood_fixing_hole_diameter_mm": 4.5,
+        "hole_centers_xz_mm": [
+          [
+            75,
+            430
+          ],
+          [
+            115,
+            430
+          ]
+        ]
+      },
+      "drawing_note": "Use explicit PANEL CUT-OUT28x48 R3, two4.5holes40pitch.20.3 side callout excludes terminal ends and does not specify useful length after flange. Front28.2 vs side/cutout28 discrepancy retained; verify physical fit/tolerance coupon, do not silently enlarge. Older416183 is superseded for this interface.",
+      "terminal_service_reservation_xyzwhd_mm": [
+        75,
+        1240.1,
+        406,
+        40,
         50,
-        30,
-        24
+        48
       ],
-      "note": "Different housing from416182. Image gives no explicit panel-cutout, screw pitch or admissible panel thickness. Do not cut50x30 or assume24 is insertion depth. Snap-in appearance is inference only."
+      "terminal_reservation_basis": "Explicit design reservation50mm inside rear panel for insulated connections, not vendor terminal/boot geometry or wiring qualification."
     },
     "ethernet": {
       "center_xz_mm": [
@@ -119,7 +143,7 @@
       }
     },
     "stock_thickness_mm": 18,
-    "machining_status": "RJ45_DRAFT_GEOMETRY; MAINS_FOOTPRINT_AND_BOTH_HARDWARE_STACKS_HOLD",
+    "machining_status": "BOTH_CONNECTOR_CUTS_MODELED; HARDWARE_STACKS_AND_CNC_QUALIFICATION_HOLD",
     "required_dimensions": [
       "body cutout profile and corner radii",
       "flange outline and hole pitch/diameter",

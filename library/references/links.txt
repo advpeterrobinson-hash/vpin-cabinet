@@ -78,3 +78,7 @@ RJ45 Cat6 dupla fêmea para painel indicado pelo proprietário. Acesso direto in
 2026-09-30 — Cotas recebidas por imagens do anúncio de conectores
 https://meli.la/13BjJHD
 Link enviado após solicitação do módulo de energia. Ferramenta web indisponível; tentativa HTTP devolveu403 sem resolver anúncio; navegador não disponível. Não foi possível confirmar produto de destino. Imagens416185(RJ45) e416183(energia) recebidas em seguida e arquivadas localmente com hashes. RJ45:Ø23,6,2×Ø3,1,passos19/24; novo inlet:50/30/24 sem recorte de painel. Ver docs/DIRECT_CONNECTOR_DIMENSIONS_V32.md.
+
+2026-09-30 — Energia: desenho de recorte explícito enviado pelo proprietário
+https://www.arcadexpress.com/en/electronics-power-supplies/455-iec320-switch-power-socket-on-off.html?srsltid=AU7gw4W3oqLvt6UH-zWebdpyzavUQuyvnVOxXfLa0z9IlU8M0wV7yfVL
+Fonte associada à imagem416187, arquivada localmente. A página não abriu na ferramenta web (cache miss); cotas lidas diretamente da imagem enviada: PANEL CUT-OUT28x48R3,2xØ4,5 a40mm. Adotado nominal no CAD sem placa intermediária. Não afirmar compatibilidade elétrica/stock18mm certificada. Substitui a reserva sem recorte do inlet retangular416183.

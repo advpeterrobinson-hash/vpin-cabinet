@@ -76,6 +76,14 @@
       "source": "Owner attachment2026-09-30",
       "review": "New housing unlike previous two-ear inlet;50/30/24 callouts, no panel cutout or fixation specification.",
       "distribution": "local only; third-party rights retained"
+    },
+    {
+      "file": "local/416187-mains-panel-cutout.jpg",
+      "bytes": 63949,
+      "sha256": "dce81b933a18044d052baa52b9e9bfba0c0a2c7d520a3edc1e075f20a0fee9d1",
+      "source": "Owner supplied416187.jpg,2026-09-30 with ArcadeXpress link",
+      "review": "Explicit panel cutout28x48R3;2x4.5holes40pitch.20.3 excludes terminal tips; no approved thickness/terminal stack. Front28.2vs28 discrepancy retained.",
+      "distribution": "local only; third-party rights retained"
     }
   ]
 }
