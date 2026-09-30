@@ -63,3 +63,5 @@ The lighting matrix remains a separate [owner intent](LIGHTING_INTENT_V32.md): e
 - [Source](../tools/joinery_study.py).
 
 This package is engineering evidence, not CNC release. Original material: CERN-OHL-S-2.0. Preserve [LICENSE](../LICENSE), [NOTICE.md](../NOTICE.md) and the official Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.
+
+Current [corner-relief inventory](CORNER_RELIEF_V32.md) distinguishes the tested replaceable guides from this captured-shell proposal. This proposal still has no final cutter relief.

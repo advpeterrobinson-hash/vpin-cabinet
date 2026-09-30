@@ -1,0 +1,292 @@
+{
+  "manufacturing_ready": false,
+  "source_hashes": {
+    "config/corner_relief_v32.json": "14a5f745012eb77034a4ab6d1d8b11627811533d1dcd96072faa9c0a845abc58",
+    "exports/generated/fixed-rear-services-v32/validation.json": "2f142e1771acd31f05d0febdc1195aa8d75c92b23e5941d4ee25bece4ebfbdba",
+    "exports/generated/fixed-rear-services-v32/closed.FCStd": "821d8fe6de0bec58d4c471681b30c465c93c8024a665190dddc6e195df8ecace",
+    "tools/corner_relief_v32_entry.py": "536c17013d45c819d19c806d69a64cca096b6ea2f2e2e8614f1c16f703e85554"
+  },
+  "config": {
+    "status": "TOOL_RADIUS_SCREEN_NOT_CAM_RELEASE",
+    "confirmed_cutter_diameter_mm": null,
+    "trial_cutter_diameter_mm": 6,
+    "strategy": "Relieve only square mating corners that otherwise interfere; prefer open ends or natural radii when clearance exists. No automatic dogbones on visible openings.",
+    "interfaces": [
+      {
+        "parts": "CROSS_GUIDE_1L/1R/2L/2R/3L/3R",
+        "strategy": "Trial R3 at two stopped groove corners; verify mating crossmembers clear without dogbones",
+        "status": "GEOMETRY_SCREEN"
+      },
+      {
+        "parts": "SIDE_L/SIDE_R captured floor grooves and end rabbets",
+        "strategy": "Resolve relief and cut order at stopped/intersecting corners after captured-shell adoption and tool confirmation",
+        "status": "PROPOSAL_NOT_ADOPTED_RELIEF_PENDING"
+      },
+      {
+        "parts": "REAR mains inlet",
+        "strategy": "Keep supplier28x48R3; no dogbones",
+        "status": "NOMINAL_CUTOUT_MODELED"
+      },
+      {
+        "parts": "REAR RJ45/fans and circular button/bolt bores",
+        "strategy": "Circular profiles; no corner relief",
+        "status": "NO_DOGBONE_REQUIRED"
+      },
+      {
+        "parts": "FLOOR intake/filter frame corners",
+        "strategy": "Prefer natural tool radius if no square mating insert; actual filter dimensions pending",
+        "status": "RADIUS_NOT_YET_MODELED"
+      },
+      {
+        "parts": "FRONT coin door and REAR access opening",
+        "strategy": "Check hardware/route corner envelopes before selecting radius; no blind dogbones",
+        "status": "HARDWARE_CORNER_FIT_PENDING"
+      },
+      {
+        "parts": "Other pockets/slots/supports",
+        "strategy": "Audit exact mating shape, tool approach, depth and edge/fastener margins before CAM",
+        "status": "FINAL_PANEL_OPERATION_INVENTORY_PENDING"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check": "CROSS_GUIDE_1L valid single solid",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L unchanged outer bounds",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L cutter remainder clears square crossmember",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L added material matches two cutter corners",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L no installed conflicts",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L reject square board forced to stopped groove bottom",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R valid single solid",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R unchanged outer bounds",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R cutter remainder clears square crossmember",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R added material matches two cutter corners",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R no installed conflicts",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R reject square board forced to stopped groove bottom",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L valid single solid",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L unchanged outer bounds",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L cutter remainder clears square crossmember",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L added material matches two cutter corners",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L no installed conflicts",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L reject square board forced to stopped groove bottom",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R valid single solid",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R unchanged outer bounds",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R cutter remainder clears square crossmember",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R added material matches two cutter corners",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R no installed conflicts",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R reject square board forced to stopped groove bottom",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L valid single solid",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L unchanged outer bounds",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L cutter remainder clears square crossmember",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L added material matches two cutter corners",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L no installed conflicts",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L reject square board forced to stopped groove bottom",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R valid single solid",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R unchanged outer bounds",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R cutter remainder clears square crossmember",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R added material matches two cutter corners",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R no installed conflicts",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R reject square board forced to stopped groove bottom",
+      "pass": true
+    },
+    {
+      "check": "guide pair1 symmetric",
+      "pass": true
+    },
+    {
+      "check": "guide pair2 symmetric",
+      "pass": true
+    },
+    {
+      "check": "guide pair3 symmetric",
+      "pass": true
+    },
+    {
+      "check": "only six replaceable guides changed",
+      "pass": true
+    },
+    {
+      "check": "reopened valid solids and exact shapes",
+      "pass": true
+    },
+    {
+      "check": "all source files unchanged",
+      "pass": true
+    }
+  ],
+  "guide_results": [
+    {
+      "part": "CROSS_GUIDE_1L",
+      "groove_floor_z_mm": 258.691375367901,
+      "crossmember_bottom_z_mm": 283.691375367901,
+      "gap_below_crossmember_mm": 25.0,
+      "radius_mm": 3.0,
+      "remaining_clearance_above_corner_mm": 22.0,
+      "conflicts": []
+    },
+    {
+      "part": "CROSS_GUIDE_1R",
+      "groove_floor_z_mm": 258.691375367901,
+      "crossmember_bottom_z_mm": 283.691375367901,
+      "gap_below_crossmember_mm": 25.0,
+      "radius_mm": 3.0,
+      "remaining_clearance_above_corner_mm": 22.0,
+      "conflicts": []
+    },
+    {
+      "part": "CROSS_GUIDE_2L",
+      "groove_floor_z_mm": 314.578699311563,
+      "crossmember_bottom_z_mm": 339.578699311563,
+      "gap_below_crossmember_mm": 25.0,
+      "radius_mm": 3.0,
+      "remaining_clearance_above_corner_mm": 22.0,
+      "conflicts": []
+    },
+    {
+      "part": "CROSS_GUIDE_2R",
+      "groove_floor_z_mm": 314.578699311563,
+      "crossmember_bottom_z_mm": 339.578699311563,
+      "gap_below_crossmember_mm": 25.0,
+      "radius_mm": 3.0,
+      "remaining_clearance_above_corner_mm": 22.0,
+      "conflicts": []
+    },
+    {
+      "part": "CROSS_GUIDE_3L",
+      "groove_floor_z_mm": 363.4801077622672,
+      "crossmember_bottom_z_mm": 388.4801077622672,
+      "gap_below_crossmember_mm": 25.0,
+      "radius_mm": 3.0,
+      "remaining_clearance_above_corner_mm": 22.0,
+      "conflicts": []
+    },
+    {
+      "part": "CROSS_GUIDE_3R",
+      "groove_floor_z_mm": 363.4801077622672,
+      "crossmember_bottom_z_mm": 388.4801077622672,
+      "gap_below_crossmember_mm": 25.0,
+      "radius_mm": 3.0,
+      "remaining_clearance_above_corner_mm": 22.0,
+      "conflicts": []
+    }
+  ],
+  "changed_parts": [
+    "CROSS_GUIDE_1L",
+    "CROSS_GUIDE_1R",
+    "CROSS_GUIDE_2L",
+    "CROSS_GUIDE_2R",
+    "CROSS_GUIDE_3L",
+    "CROSS_GUIDE_3R"
+  ],
+  "saved_cad_sha256": "2ab2ec49a621fdf472fbe1d9db072495bdc5c5d602b190dd8b01f2de25dbd090",
+  "limitations": [
+    "Trial6mm cutter only; actual tool not confirmed.",
+    "Collision screening not structural proof; no dogbone added to accepted cabinet.",
+    "Captured-shell proposal relief and other panel corner/CAM inventory still pending."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "TOOL_RADIUS_SCREEN_NOT_CAM_RELEASE",
+  "confirmed_cutter_diameter_mm": null,
+  "trial_cutter_diameter_mm": 6,
+  "strategy": "Relieve only square mating corners that otherwise interfere; prefer open ends or natural radii when clearance exists. No automatic dogbones on visible openings.",
+  "interfaces": [
+    {"parts":"CROSS_GUIDE_1L/1R/2L/2R/3L/3R","strategy":"Trial R3 at two stopped groove corners; verify mating crossmembers clear without dogbones","status":"GEOMETRY_SCREEN"},
+    {"parts":"SIDE_L/SIDE_R captured floor grooves and end rabbets","strategy":"Resolve relief and cut order at stopped/intersecting corners after captured-shell adoption and tool confirmation","status":"PROPOSAL_NOT_ADOPTED_RELIEF_PENDING"},
+    {"parts":"REAR mains inlet","strategy":"Keep supplier28x48R3; no dogbones","status":"NOMINAL_CUTOUT_MODELED"},
+    {"parts":"REAR RJ45/fans and circular button/bolt bores","strategy":"Circular profiles; no corner relief","status":"NO_DOGBONE_REQUIRED"},
+    {"parts":"FLOOR intake/filter frame corners","strategy":"Prefer natural tool radius if no square mating insert; actual filter dimensions pending","status":"RADIUS_NOT_YET_MODELED"},
+    {"parts":"FRONT coin door and REAR access opening","strategy":"Check hardware/route corner envelopes before selecting radius; no blind dogbones","status":"HARDWARE_CORNER_FIT_PENDING"},
+    {"parts":"Other pockets/slots/supports","strategy":"Audit exact mating shape, tool approach, depth and edge/fastener margins before CAM","status":"FINAL_PANEL_OPERATION_INVENTORY_PENDING"}
+  ]
+}
