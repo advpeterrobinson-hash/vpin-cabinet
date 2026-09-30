@@ -1,5 +1,7 @@
 # Session handoff — 2026-09-29
 
+**LATEST DEVELOPMENT, 2026-09-30:** `docs/REAR_HARDWARE_V32.md`, separate rear-hardware CAD/config/builder/runner/renderer. Four outer M5 candidate screws, fixed metal nutplates (two wood anchors each), handle, four slotted fan guards and fan through-fasteners. 31 checks/204 solids. Cover removal150 mm verified after four screws/washer sets removed and fan harness disconnected; actual cable/hand/load/protection/thermal qualification remains open. No PC drawer; frozen shelves/sides/PC unchanged. All source CAD bytes preserved. No manufacturing release.
+
 **LATEST OWNER DECISION, 2026-09-29:** low fixed PCBase confirmed; no drawer/removable-tray mechanism. Supersedes all earlier BLOCKED_OWNER_DECISION / pending-PC entries below, which are historical. Preserve Z36 and existing opening. Routine service in place, rear or above as needed; major replacement only after disconnect/unbolt. See `docs/SIDE_REAR_CLOSURE_V32.md`.
 
 ## Resume here

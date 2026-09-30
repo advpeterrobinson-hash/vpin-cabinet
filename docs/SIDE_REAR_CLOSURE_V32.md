@@ -1,5 +1,7 @@
 # V32 — laterais, traseira e lockdown
 
+Continuação em 2026-09-30: [fixação da tampa traseira, puxador e grades](REAR_HARDWARE_V32.md). Estudo separado; PC baixo e prateleiras preservados.
+
 O proprietário aprovou o desenho e determinou que a conferência das ferragens importadas pode ficar para depois. Ela deixa de bloquear o avanço funcional; continua sendo uma condição dos furos que dependem dessas peças. As prateleiras e suas alturas permanecem congeladas. Este estudo não declara os painéis liberados para fabricação.
 
 ![Interfaces de vidro e tampa traseira](../exports/generated/panel-closure-v32/01-side-rear-interfaces.png)

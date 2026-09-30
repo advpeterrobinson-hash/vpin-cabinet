@@ -1,5 +1,7 @@
 # Renders
 
+Continuação em 2026-09-30: [fixação da tampa traseira, puxador e grades](REAR_HARDWARE_V32.md). Estudo separado; PC baixo e prateleiras preservados.
+
 Current continuation: [side/rear closure and standard lockdown interface](SIDE_REAR_CLOSURE_V32.md). Imported leg hardware confirmation is deferred by owner; owner confirmed the low fixed PC base, without a drawer or removable-tray mechanism.
 
 [New: fixed shelf heights and leg-corner planning](SUPPORT_LEG_CNC_V32.md). [View drawing](../exports/generated/support-leg-v32/01-heights-and-leg-corner.png).
