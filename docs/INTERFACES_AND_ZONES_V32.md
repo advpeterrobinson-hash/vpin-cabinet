@@ -19,12 +19,12 @@ These `IF-*` identifiers track requirements; they are not permanent part codes. 
 | IF-05 Matrix | Six Cleveland panels, nominal 79.375 × 79.375 mm each; Donny controller | Final assembled size, thickness and clearances remain open | Dimensional reference only; layout and installation are owner decisions |
 | IF-06 Speaker/cabinet/gap LEDs | Two speaker rings selected; kit side strips; undercabinet and gap lighting optional | Selected strips/rings, lengths/pixels, dimensions, ratings and connector envelopes | Separate zone records; speaker lighting removes with speaker; preserve display clearance |
 | IF-07 Backbox and playfield service | BBBase and monitor-support identities; two captive props required | Hinge/fixing and cable envelopes; prop receivers, keepers, stowage and full-load retention | Separate motion/access study and one-prop load-proof plan; no completed physical test implied |
-| IF-08 Service modules | S1/S2/S3, T1/T2/T3 and PCBase appear in V32 | Fastener/tool envelopes, disconnect points, restraint and removal paths | Access sequence with dependencies and measured connectors; resolve PC architecture discrepancy below first |
+| IF-08 Service modules | S1/S2/S3, T1/T2/T3 and PCBase appear in V32 | Fastener/tool envelopes, disconnect points, restraint and removal paths | Access sequence with dependencies and measured connectors; preserve owner-selected low fixed PC base |
 | IF-09 Power, network and feedback | One grounded cord; enclosed distribution; independent feedback disable | Selected devices, enclosure, strain relief, service access, protection and load records | Functional zone map and qualified electrical review before wiring or cutouts |
 
-### PC architecture discrepancy
+### PC architecture — owner decision resolved, 2026-09-29
 
-The supplied session instructions require a rear full-extension PC drawer, while the saved V32 package records a low PCBase without a drawer. This worksheet does not choose between them. Mark the PC service interface **BLOCKED_OWNER_DECISION** before designing its removal path or changing geometry. Existing V32 files are preserved as evidence; do not silently propagate their no-drawer choice as the new instruction.
+Owner explicitly chose the low fixed PCBase and rejected removable tray/drawer complexity. This supersedes the earlier session-supplied drawer requirement. Preserve the installed V32 base height Z36 and existing rear aperture; no slides or second sled. PC remains positively restrained during use and routine service. Exceptional removal may require unbolting/disconnection. See [current rear study](SIDE_REAR_CLOSURE_V32.md) for access evidence and remaining limitations.
 
 ## Power, data and service zones
 
@@ -38,7 +38,7 @@ The [machine-readable worksheet](../config/interface_zones_v32.json) keeps unkno
 | AUDIO | Music/Bluetooth path and amplifiers; selected StarTech channel mapping | Individually replaceable audio devices; document each connector |
 | SSF | Four spatial zones; channel → amplifier → exciter assignment pending | Local mounts and terminals; avoid broad shelf bracing of active walls |
 | FEEDBACK | Device → driver → protection → independent disable; duty ratings pending | Positive mechanical mounting and independently disabled service state |
-| PC / DISPLAYS | Device input ratings and data connectors; internal signal routing pending | PC architecture decision; display adapter and connector access |
+| PC / DISPLAYS | Device input ratings and data connectors; internal signal routing pending | Fixed PC restraint/service access; display adapter and connector access |
 | COOLING / CONTROL | Fan/control supply and operating-mode dependencies pending | Guards/filter access; deliberate offline setup and service access |
 
 Functional mode targets, **not a switch-wiring design**:
@@ -60,7 +60,7 @@ Matrix arithmetic currently establishes only `6 × 16 × 16 = 1536` pixels. No p
 ## Next input and completion evidence
 
 1. Retain the Cleveland panel dimensions for size comparisons. Layout and installation are left to the owner; no installation specification is requested in this pass.
-2. Fill IF-05 and each lighting zone from that evidence, keeping unconfirmed values open. Clarify the PC requirement before its service study.
+2. Fill IF-05 and each lighting zone from that evidence, keeping unconfirmed values open. Preserve the owner-selected low PC base in service studies.
 3. Add remaining device rows, then review mode dependencies, mapping, power totals, service connectors and motion envelopes.
 4. Propose visible carrier/interface geometry only after the inputs support it. Physical sessions remain paused; fit, electrical, thermal, motion and load tests are future evidence.
 

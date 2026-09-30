@@ -1,6 +1,6 @@
 # Renders
 
-Current continuation: [side/rear closure and standard lockdown interface](SIDE_REAR_CLOSURE_V32.md). Imported leg hardware confirmation is deferred by owner; PC architecture reply remains pending.
+Current continuation: [side/rear closure and standard lockdown interface](SIDE_REAR_CLOSURE_V32.md). Imported leg hardware confirmation is deferred by owner; owner confirmed the low fixed PC base, without a drawer or removable-tray mechanism.
 
 [New: fixed shelf heights and leg-corner planning](SUPPORT_LEG_CNC_V32.md). [View drawing](../exports/generated/support-leg-v32/01-heights-and-leg-corner.png).
 

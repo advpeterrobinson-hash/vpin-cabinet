@@ -60,7 +60,7 @@ Do not choose prop coordinates from empty CAD space alone: near-aligned prop geo
 
 ## Next geometry gate
 
-First obtain side-button stacks and leg/inner-plate dimensions; check them with the front receiver and plunger service paths. Then model separate removable mount, tool-access, wire and motion envelopes on both sides. Report conflicts with the occupied supports above before proposing local changes. Keep missing hardware explicitly unverified. Rear closure still requires the owner's PC architecture decision; this document adopts neither the low-base nor drawer alternative.
+First obtain side-button stacks and leg/inner-plate dimensions; check them with the front receiver and plunger service paths. Then model separate removable mount, tool-access, wire and motion envelopes on both sides. Report conflicts with the occupied supports above before proposing local changes. Keep missing hardware explicitly unverified. Owner confirmed the low fixed PCBase on 2026-09-29 and rejected the drawer/removable-tray mechanism. Preserve that architecture; actual restraint and service access remain to be detailed.
 
 Reproduce footprint evidence with the command in [the side audit](SIDE_PANEL_REVIEW_V32.md). The extension checks seven mirrored support pairs and fourteen inner-face datums, in addition to the original 25 checks. It does not save or recut the source FCStd.
 

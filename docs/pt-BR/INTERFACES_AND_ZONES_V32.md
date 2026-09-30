@@ -19,12 +19,12 @@ Os identificadores `IF-*` organizam requisitos, não são códigos permanentes d
 | IF-05 Matriz | Seis painéis Cleveland, nominais 79.375 × 79.375 mm cada; controladora Donny | Dimensão montada final, espessura e folgas abertas | Somente referência dimensional; disposição e instalação decididas pelo proprietário |
 | IF-06 LEDs de speakers/gabinete/gap | Dois anéis selecionados; fitas laterais do kit; iluminação sob gabinete e gap opcionais | Modelos, comprimentos/pixels, dimensões, características e conectores | Registros separados; LED do speaker acompanha sua remoção; preservar folga da tela |
 | IF-07 Manutenção de backbox/playfield | BBBase e suportes de monitor; duas escoras cativas exigidas | Dobradiças/fixações/cabos; receptores, travas, recolhimento e retenção sob carga total | Estudo separado de movimento/acesso e plano de prova com uma escora; nenhum ensaio físico declarado |
-| IF-08 Módulos de manutenção | S1/S2/S3, T1/T2/T3 e PCBase na V32 | Ferramentas/fixações, desconexão, retenção e trajetórias | Sequência de acesso e dependências; resolver primeiro divergência do PC abaixo |
+| IF-08 Módulos de manutenção | S1/S2/S3, T1/T2/T3 e PCBase na V32 | Ferramentas/fixações, desconexão, retenção e trajetórias | Sequência de acesso e dependências; preservar base baixa fixa escolhida pelo proprietário |
 | IF-09 Alimentação, rede e feedback | Um cabo aterrado; distribuição fechada; desabilitação independente do feedback | Dispositivos, invólucro, alívio de tração, acesso, proteção e cargas | Mapa funcional e revisão elétrica qualificada antes de fiação ou recortes |
 
-### Divergência na arquitetura do PC
+### Arquitetura do PC — decisão resolvida em 2026-09-29
 
-As instruções fornecidas nesta sessão exigem gaveta traseira de extensão total para o PC; o pacote V32 salvo registra PCBase baixo sem gaveta. Este documento não escolhe entre eles. A interface de manutenção do PC fica **BLOCKED_OWNER_DECISION** antes de projetar remoção ou alterar geometria. Os arquivos V32 permanecem como evidência; sua decisão sem gaveta não substitui silenciosamente a instrução recebida.
+O proprietário escolheu explicitamente a base baixa fixa e rejeitou a complexidade de gaveta/tray removível. Essa decisão substitui a exigência anterior de corrediças. Preservar PCBase emZ36 e abertura traseira atual; PC fixado durante uso e manutenção habitual. Retirada completa é desmontagem excepcional. Ver [estudo atual](../SIDE_REAR_CLOSURE_V32.md) para evidências e pendências de fixação/acesso.
 
 ## Zonas de alimentação, dados e manutenção
 
@@ -38,7 +38,7 @@ O [registro estruturado](../../config/interface_zones_v32.json) mantém caracter
 | AUDIO | Música/Bluetooth, amplificadores e canais StarTech | Dispositivos substituíveis; registrar conectores |
 | SSF | Quatro zonas espaciais; canal → amplificador → exciter pendente | Fixação local e terminais; evitar travamento amplo das paredes ativas |
 | FEEDBACK | Dispositivo → driver → proteção → desabilitação independente; regimes pendentes | Fixação positiva e estado de manutenção independentemente desabilitado |
-| PC / DISPLAYS | Características de entrada e conectores de dados | Decisão sobre PC; adaptadores e acesso aos conectores das telas |
+| PC / DISPLAYS | Características de entrada e conectores de dados | Retenção/acesso real do PC fixo; adaptadores e acesso aos conectores das telas |
 | COOLING / CONTROL | Alimentação e dependências entre modos pendentes | Acesso a grades/filtros; configuração offline e acesso deliberado de serviço |
 
 Objetivos funcionais, **não um esquema de ligação**:
@@ -60,7 +60,7 @@ A aritmética da matriz estabelece somente `6 × 16 × 16 = 1536` pixels. Dispos
 ## Próxima entrada e evidência de conclusão
 
 1. Preservar dimensões dos painéis Cleveland para comparação de tamanhos. Disposição e instalação ficam com o proprietário; esta etapa não solicita especificação de instalação.
-2. Preencher IF-05 e zonas de iluminação com essa evidência; manter dúvidas abertas. Esclarecer requisito do PC antes do estudo de manutenção.
+2. Preencher IF-05 e zonas de iluminação com essa evidência; manter dúvidas abertas. Preservar a base baixa aprovada nos estudos de manutenção.
 3. Adicionar dispositivos restantes e revisar dependências dos modos, mapeamento, totais, conectores e movimentos.
 4. Propor geometria visível somente com dados suficientes. Sessões físicas seguem pausadas; encaixe, elétrica, temperatura, movimento e carga dependem de evidência futura.
 

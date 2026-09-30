@@ -58,7 +58,7 @@
     "permanent_hardware_drilling": "HOLD_ONLY_DEPENDENT_FEATURES"
   },
   "rear": {
-    "pc_architecture": "AWAIT_OWNER_REPLY",
+    "pc_architecture": "OWNER_APPROVED_LOW_FIXED_BASE_NO_DRAWER",
     "opening_xzwh_mm": [
       130,
       72,
@@ -109,6 +109,24 @@
     "fan_pitch_mm": 105,
     "fan_opening_diameter_mm": 116,
     "cover_withdrawal_mm": 150,
-    "note": "Current opening carried only as study context pending PC reply; replaceable exterior cover with four rear-access screws, detached low-voltage fan connector; no hinge needed."
+    "note": "Existing rear aperture retained for owner-approved low PC base. Exterior cover with four rear-access screws and detachable low-voltage fan connector; no hinge or PC drawer.",
+    "pc_decision": {
+      "date": "2026-09-29",
+      "owner_instruction": "Base baixa. Melhor pra uso. Muito trabalhoso o tray removível.",
+      "base_xyz_mm": [
+        157.5,
+        830,
+        36
+      ],
+      "base_size_mm": [
+        285,
+        460,
+        18
+      ],
+      "routine_service": "PC remains positively fixed on low base; access via rear cover and from above when needed",
+      "major_replacement": "Unbolt/disconnect only when necessary; lift38/rear500 is a packaging screen, not a routine tray mechanism",
+      "slides": false,
+      "removable_tray_mechanism": false
+    }
   }
 }

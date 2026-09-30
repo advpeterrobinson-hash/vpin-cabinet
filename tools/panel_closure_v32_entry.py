@@ -55,7 +55,7 @@ for a in range(0,101,2):
  for s in moving.values():s.rotate(A.Vector(*pose['pivot_xyz_mm']),A.Vector(1,0,0),-a)
  display+=hits(moving,{k:t for k,t in new.items() if 'Channel' in k})
 check('sampled display opening clears channels with glass removed',not display)
-# Rear cover study preserves the existing opening and does not select PC architecture.
+# Rear cover preserves the existing opening for the owner-approved low fixed PC base.
 rear=c['rear'];L=b['length_mm'];x,z,w,h=rear['cover_xzwh_mm'];th=rear['cover_thickness_mm']
 def bore(x,y,z,r,depth):return Part.makeCylinder(r,depth,A.Vector(x,y,z),A.Vector(0,1,0))
 cover=box(x,L,z,w,th,h)
@@ -84,7 +84,7 @@ def swept_y(shape,travel):
  return Part.makeCompound(volumes)
 rear_route=hits({n:swept_y(t,rear['cover_withdrawal_mm']) for n,t in rear_group.items()},rear_obs)
 check('rear cover continuous 150mm outward removal',not rear_route)
-# Both PC route screens are evidence, not selection or slide/harness qualification.
+# PC route screens cover exceptional replacement only, not a routine removable tray.
 def swept_box(shape,v):
  bb=shape.BoundBox
  return box(bb.XMin+min(v.x,0),bb.YMin+min(v.y,0),bb.ZMin+min(v.z,0),bb.XLength+abs(v.x),bb.YLength+abs(v.y),bb.ZLength+abs(v.z))
@@ -113,7 +113,7 @@ for n,s in actual.items():
  if n in new or n in ['SIDE_L','SIDE_R','FRONT','REAR','REAR_DOOR','PLAYFIELD_ENVELOPE','SHELF_1','SHELF_2','SHELF_3']:
   vs,fs=s.tessellate(1);mesh.append({'name':n,'vertices':[[v.x,v.y,v.z] for v in vs],'faces':fs})
 (O/'mesh.json').write_text(json.dumps(mesh)+'\n')
-report={'manufacturing_ready':False,'source_hashes':inputs,'config':c,'checks':checks,'installed_conflicts':installed,'glass_withdrawal_conflicts':glass_route,'shelf_conflicts':routes,'display_channel_conflicts':display,'rear_installed_conflicts':rear_hits,'rear_removal_conflicts':rear_route,'pc_lift38_then_rear500_conflicts':pc_routes,'pc_straight_exit_rejected':rejected,'glass_angle_deg':math.degrees(angle),'glass_withdrawal_mm':travel,'saved_proposal':{'path':str(p.relative_to(R)),'sha256':sha(p),'solids':len(actual)},'unverified':['Actual lockdown and receiver envelope, tongues, latch and mounting holes','Channel section fabrication, retention and glass edge finish; no glass order','Hinge and two captive props including load proof, harness and upper backbox','PC architecture reply required; route screen includes neither slide bodies/anchors nor PC fastening/cabling', 'Rear cover threaded receivers, handles, fan guards/fastener bodies and tether not yet modeled','All original hardware and manufacturing qualifications remain open']}
+report={'manufacturing_ready':False,'source_hashes':inputs,'config':c,'checks':checks,'installed_conflicts':installed,'glass_withdrawal_conflicts':glass_route,'shelf_conflicts':routes,'display_channel_conflicts':display,'rear_installed_conflicts':rear_hits,'rear_removal_conflicts':rear_route,'pc_lift38_then_rear500_conflicts':pc_routes,'pc_straight_exit_rejected':rejected,'glass_angle_deg':math.degrees(angle),'glass_withdrawal_mm':travel,'saved_proposal':{'path':str(p.relative_to(R)),'sha256':sha(p),'solids':len(actual)},'unverified':['Actual lockdown and receiver envelope, tongues, latch and mounting holes','Channel section fabrication, retention and glass edge finish; no glass order','Hinge and two captive props including load proof, harness and upper backbox','Low PC base selected; actual case/base fastening, positive restraint, cable and tool access remain unqualified', 'Rear cover threaded receivers, handles, fan guards/fastener bodies and tether not yet modeled','All original hardware and manufacturing qualifications remain open']}
 (O/'validation.json').write_text(json.dumps(report,indent=2)+'\n')
 assert all(x['pass'] for x in checks),[x for x in checks if not x['pass']]
 print('PANEL_CLOSURE_PASS',len(checks),'checks;',len(actual),'solids; NOT CNC RELEASE')

@@ -1,5 +1,7 @@
 # Session handoff — 2026-09-29
 
+**LATEST OWNER DECISION, 2026-09-29:** low fixed PCBase confirmed; no drawer/removable-tray mechanism. Supersedes all earlier BLOCKED_OWNER_DECISION / pending-PC entries below, which are historical. Preserve Z36 and existing opening. Routine service in place, rear or above as needed; major replacement only after disconnect/unbolt. See `docs/SIDE_REAR_CLOSURE_V32.md`.
+
 ## Resume here
 
 LATEST: `docs/SUPPORT_LEG_CNC_V32.md` and `tools/run_support_leg_v32.sh`. Shelf heights explicitly fixed at owner request: underside160/180/240; tops172/192/252 (Z0 cabinet bottom). Frozen Y layout unchanged. Separate CAD adds12 candidate fixed-support wood screws/12 washers and four laminated corner blocks/four metal plate reservations; 68 checks,140 solids,68 planning operations. Pilot/insert/leg bores are NOT CNC released. Leg block catheti54, height126 (seven18mm laminations); front bottom54 and boltZ96/154; rear bottom36 and boltZ64/122;58mm pitch is a study choice. Taller front-right block hits Launch candidate and is rejected. Actual legs/nuts/brackets, play height, loads and45-degree shop drilling process remain unqualified. Keep original V32 and frozen shelf study unchanged.

@@ -74,16 +74,14 @@ Requirements:
 
 ## PC
 
-- Rear-only routine service with playfield closed; isolate mains first.
-- Purchased open case: 265 X × 440 Y × 128 Z mm; mounting points unmeasured.
-- One replaceable 285 × 460 × 18 mm board at Z135; case bolted directly to it.
-- Two 450 mm-class full-extension side-mount slides; ≥30 kg pair rating; 20 kg proof payload.
-- Shelf stowed Y830..1290; extended Y1280..1740; no second sled or drawer box.
-- Rear clear aperture X130..470 / Z110..350; overlapping door Z98..362 opens outward 105°.
-- Two bottom-seated 18 mm support rails, four identical local metal angle clamps and underside backing plates; measured bolt patterns/capacity and proof testing required.
-- One positive stowed retainer. Actual slides, case holes, door hinge/latch and retainer determine CNC patterns.
-- Ordinary PC cables dressed/disconnected as needed; no dedicated CPU harness ghost/mechanism.
-- Separate touch-safe mains enclosure; no bare terminals behind the rear service door.
+- **Owner decision, 2026-09-29: low fixed base, no drawer or removable-tray mechanism.** This supersedes the earlier full-extension drawer requirement.
+- Open-case packaging reference: 265 X × 440 Y × 128 Z mm; actual mounting points remain unmeasured.
+- PCBase: one replaceable 285 × 460 × 18 mm board at X157.5/Y830/Z36, directly above the floor. No second sled, slides or raised drawer supports.
+- Case bolts directly to PCBase; base and heavy PC components require positive mechanical restraint for nudging/vibration. Actual fixing patterns remain to be detailed.
+- PC remains installed for use and routine service. Rear removable cover provides access; raise the playfield for work that requires access from above. Rear-only service with the playfield closed is no longer a universal requirement.
+- Existing rear aperture X130..470/Z72..365 retained; current cover study and limitations are in SIDE_REAR_CLOSURE_V32.md.
+- Exceptional PC replacement may require disconnecting cables and unbolting the base/case. The modeled lift38 mm then rear500 mm route is packaging evidence only, not an approved handling procedure or routine tray.
+- Separate touch-safe mains enclosure; no bare terminals behind the rear service cover.
 
 ## Playfield glass / siderails / lockdown
 
@@ -131,7 +129,7 @@ Reserve future removable mounting panels/rails for:
 - Audio hardware
 - DC distribution
 
-Separate high-current and signal wiring routes. Preserve clear service aisles and deliberate service access. PC routine service is from the rear backdoor; opening the playfield remains reserved for playfield/DOF/internal-cabinet work rather than ordinary PC maintenance.
+Separate high-current and signal wiring routes. Preserve clear service aisles and deliberate service access. The PC stays on its low base; use rear access or open the playfield as required by the service task.
 
 ## Power
 
@@ -163,10 +161,10 @@ Front/underside:
 Rear/underside permanent functions:
 - AC mains/master disconnect on a fixed small interface with independent touch-safe enclosure.
 - Optional wired Ethernet on a small replaceable carrier; blank if unused.
-- No permanent SERVICE HDMI, rear USB-A/USB-C or RESERVE cutouts. Access the extended PC directly.
+- No permanent SERVICE HDMI, rear USB-A/USB-C or RESERVE cutouts. Access the installed PC through the service openings.
 - PC POWER, RESET and DOF SERVICE remain at the coin door; no rear duplicates.
 - Rear-face A versus underside B awaits owner comparison review (REAR_UTILITY_V26.md).
-- CPU door must remain at Z98 and aperture Z110..350. Bottom-joint and leg load paths take precedence over utility placement.
+- Current rear aperture is X130..470/Z72..365; overlapping removable cover is detailed in SIDE_REAR_CLOSURE_V32.md. Bottom-joint and leg load paths take precedence over utility placement.
 
 ## Manufacturing
 
@@ -187,7 +185,7 @@ Before cabinet production:
 - confirm Cutter CNC tooling/layer/radius conventions
 - measure actual hardware that controls hole patterns
 - complete dry-fit and collision checks
-- proof-test classic leg/bracket corners and the rear pull-out PC shelf
-- proof-fit rear PC door/frame/hinge/latch before final rear-panel CNC release
+- proof-test classic leg/bracket corners and positive restraint of the fixed PC/base
+- proof-fit rear PC cover/frame/retained threaded receivers before final rear-panel CNC release
 
 No current engineering branch is approved for production CNC yet.

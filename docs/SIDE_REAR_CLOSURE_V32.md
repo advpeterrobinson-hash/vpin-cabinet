@@ -44,9 +44,11 @@ Os receptores roscados retidos no painel fixo não foram escolhidos; por isso n�
 
 Duas ventoinhas de referência120 ×120 ×25, centrosX230/370/Z280, vão com a tampa. RecortesØ116 e entre-eixos105 seguem a referência V32, não uma alegação de compatibilidade universal. Grades de proteção nos dois lados e conector de baixa tensão desconectável são requisitos ainda não modelados. Sem colocar alimentação de rede elétrica ou terminais expostos na tampa removível. As reservas fixas de entrada protegida de alimentação e Ethernet permanecem; não acrescentar HDMI/USB permanente.
 
-A nova tampa mantém a abertura atual para permitir avançar sua solução independente da decisão do PC. **Ainda não é fechamento definitivo da arquitetura traseira.** O AGENTS.md enviado pede gaveta; o V32 atual usa base baixa. Pergunta enviada ao proprietário, ainda sem resposta registrada nesta etapa; nenhuma opção foi silenciosamente adotada.
+**Decisão do proprietário, 2026-09-29: base baixa, sem gaveta e sem mecanismo de tray removível.** A escolha resolve a divergência com o AGENTS.md enviado anteriormente. Mantém-se PCBase285 ×460 ×18 emX157,5/Y830/Z36, diretamente sobre o piso, sem elevar o PC ou adicionar corrediças. O gabinete aberto do PC deve ficar aparafusado à base, com retenção positiva dos componentes pesados; os padrões reais de fixação ainda precisam ser detalhados.
 
-O teste demonstra a diferença: o PC atual na baseZ36 não sai horizontalmente, pois bate na parte inferior de Rear. Depois de levantar38 mm, base emZ74 e topo do envelope do PC emZ220, o conjunto passa pela abertura em uma translação traseira de500 mm, conservando S3. Isso é uma rota geométrica de retirada manual, sem comprovação de pega, cabos ou liberação dos parafusos da base. Corrediças, retenção e suporte de uma eventual gaveta não estão incluídos. Não elevar a base nem recolocar corrediças sem resolver a decisão.
+Na manutenção habitual o PC permanece instalado. A tampa traseira dá acesso; trabalhos que precisem de acesso superior podem exigir abrir o playfield. Substituir a placa de apoio ou retirar o conjunto completo é desmontagem excepcional, não uma rotina de tray.
+
+O teste anterior continua útil para eventual substituição: a baseZ36 não sai horizontalmente porque bate na borda inferior de Rear. Após levantar38 mm, base emZ74 e topo do envelope do PC emZ220, o conjunto modelado passa pela abertura em uma translação traseira de500 mm, conservando S3. Isso não muda a altura instalada nem comprova pega, cabos ou liberação dos parafusos. A escolha da base baixa encerra a decisão de arquitetura do PC; não transforma esse teste numa instrução de manuseio validada.
 
 ## Evidência e reprodução
 
@@ -56,6 +58,6 @@ O teste demonstra a diferença: o PC atual na baseZ36 não sai horizontalmente, 
 
 A peça RearDoor e as posições das ventoinhas mudam somente neste CAD separado. O V32 original, o CAD de apoios/pernas e as prateleiras congeladas não foram sobrescritos. Renderizar: `uv run --with matplotlib python tools/render_panel_closure_v32.py`.
 
-**Faltam para encerrar esta etapa:** resposta sobre PC, conjunto real da lockdown/receptor, retenção das canaletas/tampa, grades/chicote, dobradiças/escoras e interfaces SSF/backbox. As ferragens importadas podem ser conferidas depois, como solicitado; a fabricação espera somente as evidências aplicáveis a cada corte, além de material medido, ferramenta, folgas, cupom e aprovação de fabricação.
+**Faltam para encerrar esta etapa:** fixações/acesso real do PC, conjunto real da lockdown/receptor, retenção das canaletas/tampa, grades/chicote, dobradiças/escoras e interfaces SSF/backbox. As ferragens importadas podem ser conferidas depois, como solicitado; a fabricação espera somente as evidências aplicáveis a cada corte, além de material medido, ferramenta, folgas, cupom e aprovação de fabricação.
 
 Original: CERN-OHL-S-2.0. Preservar LICENSE e NOTICE.md. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet.

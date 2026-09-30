@@ -1,6 +1,6 @@
 # V32 panel closure sequence
 
-Current continuation: [side/rear closure and standard lockdown interface](SIDE_REAR_CLOSURE_V32.md). Imported leg hardware confirmation is deferred by owner; PC architecture reply remains pending.
+Current continuation: [side/rear closure and standard lockdown interface](SIDE_REAR_CLOSURE_V32.md). Imported leg hardware confirmation is deferred by owner; owner confirmed the low fixed PC base, without a drawer or removable-tray mechanism.
 
 Current continuation: [shelf heights, support anchorage and leg-corner CNC planning](SUPPORT_LEG_CNC_V32.md). Shelf height/layout fixed; candidate leg datums and hardware holes remain unqualified. Distinguish 57mm supplied jig from the separate58mm reference.
 
@@ -16,7 +16,7 @@ Owner order: **Front → SideL/SideR → Rear/RearDoor → Floor**. The objectiv
 |---|---|---|---|
 | 1 Front | 600 mm body, front height 400.05; 564 × 400.05 × 18 panel; central reference door | Photo-inspired control positions; actual door/flange/sweep; button mounting stacks; plunger complete motion/body; custom lockdown receiver; front leg corner; S1/audio/display access | Side leg datum, top glass/lockdown datum, front floor capture and service routing |
 | 2 Sides | Length 1308.1; heights 400.05/596.9; rear flat 180.975; 18 mm nominal; existing paired button centers Y255/310 Z270 | Actual flipper/secondary-button bodies and SSF zones; leg bracket and fastener access; display/prop/hinge loads; glass channels; accepted joinery; backbox pivot | Preserve display parallel to glass and full replacement envelope; no geometry inferred from photo corner plates |
-| 3 Rear + door | 600 mm body; rear height 596.9; reference access 340 × 293 at X130 Z72; two fan centers X230/370 Z280 | Selected fans/guards and removable harness; door fasteners/retention/access; backbox hinge sweep; compact mains and Ethernet; PC service architecture discrepancy | Rear/floor ventilation, cable path, rear leg and backbox load zones; no permanent HDMI/USB fascia |
+| 3 Rear + door | 600 mm body; rear height 596.9; reference access 340 × 293 at X130 Z72; two fan centers X230/370 Z280 | Selected fans/guards and removable harness; door fasteners/retention/access; backbox hinge sweep; compact mains and Ethernet; fixed-PC restraint and actual service access | Rear/floor ventilation, cable path, rear leg and backbox load zones; no permanent HDMI/USB fascia |
 | 4 Floor | Existing 18 mm panel at Z18; subwoofer reference opening 139.7 mm at X300 Y440; intake 100 × 160 at X400 Y630; four 28 mm auxiliary holes at Y90 | Justify each aperture against actual equipment, mounts, enclosure, air path, SSF and load paths; decide function or removal of unassigned auxiliary holes; optional undercabinet LED mounts; leg/skate clearances | Final capture/joint topology, sheet nesting, tool relief, screw access and assembly sequence |
 
 The existing V32 side pivot reference Y1270/Z508 and rear fan reference 116 mm cutouts / 105 mm mounting pitch are **not universal hardware standards or released holes**. Retain them as documented references until selected hardware confirms them.
@@ -37,7 +37,7 @@ Current continuation: [side-panel audit](SIDE_PANEL_REVIEW_V32.md) and [session 
 
 Side interface development now has a [datum, occupied-support and load/service plan](SIDE_INTERFACE_PLAN_V32.md). Its button-stack alternatives and mounting paths remain proposals; no side machining is frozen.
 
-The [continuous side-service study](SIDE_MOTION_REVIEW_V32.md) adds 16 tested translation routes and separate saved service poses. Ten candidate routes clear and six direct-lift comparisons remain obstructed. Shelf retention and wiring must preserve the staged routes; hardware, loads and PC architecture still gate closure.
+The [continuous side-service study](SIDE_MOTION_REVIEW_V32.md) adds 16 tested translation routes and separate saved service poses. Ten candidate routes clear and six direct-lift comparisons remain obstructed. Shelf retention and wiring must preserve the staged routes; hardware, loads and actual service access still gate closure.
 
 Shelf clamping now has a [separate validated packaging proposal](SHELF_RETENTION_REVIEW_V32.md), retaining the loaded removal paths. Side-wall anchorage, selected hardware, loads and machining release remain open.
 

@@ -33,7 +33,7 @@ The primary product is not merely one cabinet. The primary product is a **replic
 - The playfield is manually raised and supported by two simple captive prop rods with positive receiver pins/keepers. Either prop must support the full moving load independently; no friction stays.
 - A reduced-thickness OLED side pocket is clearance only; Display mass and prop/pivot loads must be carried by full-strength structure/cradle hardware.
 - Backglass is approximately 32-inch 1080p; premium image quality is not a priority there. Backbox width may depart from authentic Williams dimensions to create a durable 32-inch-class service envelope.
-- **V32 PC architecture:** the open ATX case sits low on `PCBase`, a 285 × 460 × 18 mm replaceable base over the cabinet floor; V32 has **no PC drawer**. Older rear-slide/front-drawer concepts are historical/pre-V32 unless explicitly revived by a new design proposal.
+- **Owner-confirmed V32 PC architecture (2026-09-29):** the open ATX case sits low on `PCBase`, a 285 × 460 × 18 mm replaceable base over the cabinet floor; V32 has **no PC drawer**. Owner explicitly rejected the removable tray/drawer complexity. PC stays positively fixed during use and routine service; detach only for major replacement. This latest decision supersedes the session-supplied full-extension drawer instruction. Older rear-slide/front-drawer concepts are historical.
 - Real pinball legs are required; mobility uses external removable PinSkates-style devices only; no integrated wheels or wheel cutouts.
 - Force feedback, SSF, electronics shelves, power distribution, and service wiring must be designed intentionally, not fitted after cabinet completion.
 - Mechanical feedback devices should be rigidly coupled to the cabinet in spatially appropriate locations.
@@ -115,7 +115,7 @@ Before calling a design stage complete, validate at minimum:
 - generated parts are valid solids when they are intended to be solids;
 - the part can be fabricated/assembled without requiring an undocumented specialist operation.
 
-Later stages must add hinge sweep, prop-rod/stow, drawer-travel, backbox, toy, speaker, shelf, cable-clearance, fastener-access, and flat-pack assembly checks.
+Later stages must add hinge sweep, prop-rod/stow, fixed-PC service access, backbox, toy, speaker, shelf, cable-clearance, fastener-access, and flat-pack assembly checks.
 
 ## Git workflow
 

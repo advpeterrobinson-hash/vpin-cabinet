@@ -34,7 +34,7 @@
       "exact_angle_and_installation": "OPEN_TO_OWNER_DECISION"
     }
   },
-  "pc_interface_status": "BLOCKED_OWNER_DECISION",
+  "pc_interface_status": "OWNER_APPROVED_LOW_FIXED_BASE_NO_DRAWER",
   "zones": [
     {
       "zone_id": "MATRIX",

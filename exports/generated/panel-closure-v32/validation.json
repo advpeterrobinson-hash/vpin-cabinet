@@ -1,10 +1,10 @@
 {
   "manufacturing_ready": false,
   "source_hashes": {
-    "config/panel_closure_v32.json": "4db1074f445be06caa8e17fd9eebd7bab4ac6d63777410c93594b8a4cff24e34",
+    "config/panel_closure_v32.json": "c1ec96f161eb1aea2403105772af1fc8a8038dad4507b3a343a5319b64f2d29d",
     "exports/generated/support-leg-v32/validation.json": "a79cab6f66ee4d5edc4bb95e1f599aea0bbab61a8ba56efad72375f0da9d4b4c",
     "exports/generated/support-leg-v32/support-leg-planning.FCStd": "31309fa089de993511e5e76dd52c0b064ee5d2b4042d93762b46ca44c0ad44f3",
-    "tools/panel_closure_v32_entry.py": "83b75b98dd5b0187dc4634fcd4fe31b35806c4e92180b0dd98490b1e04f235bf",
+    "tools/panel_closure_v32_entry.py": "ed84e4ed045d8b99130794f329b880988e23cef1d9e3af0fc2a7604c17cc8bef",
     "config/shelf_layout_freeze_v32.json": "47f03ece56a121a1e98ebe648a774e108f103d9d210d773d53761a795cd6e10a",
     "exports/generated/side-panel-v32/simple-shelves-validation.json": "c237921dc7afe4ad20d8cc86f638f7a899fac597e3e7bfc1d0732db206fedd06",
     "exports/generated/side-panel-v32/shelf-service-pose-screen.json": "77f392ac11d8c63bbfea1ecb189deb0570b6c2e51548a075ab9fa45936063fe0"
@@ -69,7 +69,7 @@
       "permanent_hardware_drilling": "HOLD_ONLY_DEPENDENT_FEATURES"
     },
     "rear": {
-      "pc_architecture": "AWAIT_OWNER_REPLY",
+      "pc_architecture": "OWNER_APPROVED_LOW_FIXED_BASE_NO_DRAWER",
       "opening_xzwh_mm": [
         130,
         72,
@@ -120,7 +120,25 @@
       "fan_pitch_mm": 105,
       "fan_opening_diameter_mm": 116,
       "cover_withdrawal_mm": 150,
-      "note": "Current opening carried only as study context pending PC reply; replaceable exterior cover with four rear-access screws, detached low-voltage fan connector; no hinge needed."
+      "note": "Existing rear aperture retained for owner-approved low PC base. Exterior cover with four rear-access screws and detachable low-voltage fan connector; no hinge or PC drawer.",
+      "pc_decision": {
+        "date": "2026-09-29",
+        "owner_instruction": "Base baixa. Melhor pra uso. Muito trabalhoso o tray remov\u00edvel.",
+        "base_xyz_mm": [
+          157.5,
+          830,
+          36
+        ],
+        "base_size_mm": [
+          285,
+          460,
+          18
+        ],
+        "routine_service": "PC remains positively fixed on low base; access via rear cover and from above when needed",
+        "major_replacement": "Unbolt/disconnect only when necessary; lift38/rear500 is a packaging screen, not a routine tray mechanism",
+        "slides": false,
+        "removable_tray_mechanism": false
+      }
     }
   },
   "checks": [
@@ -212,14 +230,14 @@
   "glass_withdrawal_mm": 1150,
   "saved_proposal": {
     "path": "exports/generated/panel-closure-v32/panel-closure-study.FCStd",
-    "sha256": "2241d632280f68957da10713a2aeac5081366c8d6392c94c225fd2a683a02087",
+    "sha256": "8660c93cedeff56d12aa18666d8db92b4d56e1ea5fcb4caf766f74d68263bd01",
     "solids": 143
   },
   "unverified": [
     "Actual lockdown and receiver envelope, tongues, latch and mounting holes",
     "Channel section fabrication, retention and glass edge finish; no glass order",
     "Hinge and two captive props including load proof, harness and upper backbox",
-    "PC architecture reply required; route screen includes neither slide bodies/anchors nor PC fastening/cabling",
+    "Low PC base selected; actual case/base fastening, positive restraint, cable and tool access remain unqualified",
     "Rear cover threaded receivers, handles, fan guards/fastener bodies and tether not yet modeled",
     "All original hardware and manufacturing qualifications remain open"
   ]
