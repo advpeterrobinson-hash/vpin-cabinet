@@ -82,3 +82,23 @@ Link enviado após solicitação do módulo de energia. Ferramenta web indispon�
 2026-09-30 — Energia: desenho de recorte explícito enviado pelo proprietário
 https://www.arcadexpress.com/en/electronics-power-supplies/455-iec320-switch-power-socket-on-off.html?srsltid=AU7gw4W3oqLvt6UH-zWebdpyzavUQuyvnVOxXfLa0z9IlU8M0wV7yfVL
 Fonte associada à imagem416187, arquivada localmente. A página não abriu na ferramenta web (cache miss); cotas lidas diretamente da imagem enviada: PANEL CUT-OUT28x48R3,2xØ4,5 a40mm. Adotado nominal no CAD sem placa intermediária. Não afirmar compatibilidade elétrica/stock18mm certificada. Substitui a reserva sem recorte do inlet retangular416183.
+
+2026-09-30 — Referência escolhida pelo proprietário: Cleveland SSF4.1 + subwoofer
+https://pinball-docs.clevelandsoftwaredesign.com/docs/category/ssf/
+https://pinball-docs.clevelandsoftwaredesign.com/docs/ssf/installing/
+https://pinball-docs.clevelandsoftwaredesign.com/docs/ssf/configuring-computer/
+https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit
+Páginas oficiais consultadas. Kit4.1:4 exciters EX32EP2-4 com IMS,1 bass shaker BST-1; subwoofer opcional DCS165-4 separado. Amplificador, fonte e USB7.1 incluídos. Vídeo vinculado não foi assistido. Reservas de amp/fonte no projeto não são medidas do fornecedor.
+https://www.daytonaudio.com/product/1268/dcs165-4-6-1-2-classic-subwoofer-4-ohm
+https://www.daytonaudio.com/images/resources/295-198--dcs165-4-spec-sheet.pdf
+PDF indexado pela ferramenta web:143/167/158;8 furos5,3x6,8; profundidade89,3. Página comercial dá profundidade3,25pol, divergência registrada; usamos reserva90mm. Download direto devolveuHTML de bloqueio, não PDF. Não há cópia PDF local válida.
+https://www.daytonaudio.com/product/1245/bst-1-high-power-pro-tactile-bass-shaker-50-watts
+https://www.daytonaudio.com/images/resources/295-244--dayton-audio-bst-1-mechanical-drawing.pdf
+Texto técnico indexado consultado; reservaØ170x65 maior que cotas161 e61±1. Não inferimos padrão de fixação do dispositivo; placa local recebe a peça depois. Download diretoHTML de bloqueio, não PDF.
+https://daytonaudio.com/images/resources/295-231-dayton-audio-ex32ep2-4-spec-sheet.pdf
+Ficha indexada consultada:Ø59±0,1;28,5±0,5. Reserva de montagemIMS adotada6mm adicional. Pilotos do mountIMS não deduzidos da roscaM3 do transdutor. DownloadHTML de bloqueio, não PDF.
+https://www.parts-express.com/pedocs/specs/295-198--dcs165-4-spec-sheet.pdf
+https://www.parts-express.com/pedocs/tech-diagrams/295-244--dayton-audio-bst-1-mechanical-drawing.pdf
+https://www.parts-express.com/pedocs/specs/New%20folder/295-231-dayton-audio-ex32ep2-4-spec-sheet.pdf
+https://cdnimages.opentip.com/Docs/PEX/295-231-dayton-audio-ex32ep2-4-spec-sheet.pdf
+Links alternativos dos mesmos documentos, arquivados para recuperação. Tentativas PartsExpress(DCS) e OpenTip(EX) devolveram403. PDFs indisponíveis localmente; ferramenta web extraiu os documentos oficiais acima. Nenhum CAD/foto do fornecedor foi importado ao projeto público.

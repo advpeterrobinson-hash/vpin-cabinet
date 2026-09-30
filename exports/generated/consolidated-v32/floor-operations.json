@@ -1,0 +1,188 @@
+[
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      372.98648306839164,
+      470.23199115684207
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_on_reference_PCD"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      330.23199115684207,
+      512.9864830683916
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_on_reference_PCD"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      269.76800884315793,
+      512.9864830683916
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_on_reference_PCD"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      227.01351693160836,
+      470.2319911568421
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_on_reference_PCD"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      227.01351693160834,
+      409.76800884315793
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_on_reference_PCD"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      269.76800884315793,
+      367.01351693160836
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_on_reference_PCD"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      330.2319911568421,
+      367.01351693160836
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_on_reference_PCD"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      372.98648306839164,
+      409.76800884315793
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_on_reference_PCD"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_cut",
+    "center_xy_mm": [
+      300,
+      440
+    ],
+    "diameter_mm": 143.5,
+    "status": "143drawing_plus0.5design_clearance"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      220,
+      180
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_carrier_anchor"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      380,
+      180
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_carrier_anchor"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      220,
+      340
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_carrier_anchor"
+  },
+  {
+    "part": "Floor",
+    "operation": "through_drill",
+    "center_xy_mm": [
+      380,
+      340
+    ],
+    "diameter_mm": 5.5,
+    "status": "candidate_M5_carrier_anchor"
+  },
+  {
+    "part": "Floor+PCBase",
+    "operation": "through_drill_and_PCBase_top_countersink",
+    "center_xy_mm": [
+      180,
+      850
+    ],
+    "diameter_mm": 5.5,
+    "countersink_mm": [
+      10.5,
+      2.5
+    ],
+    "status": "candidate_M5_remove_chassis_for_access"
+  },
+  {
+    "part": "Floor+PCBase",
+    "operation": "through_drill_and_PCBase_top_countersink",
+    "center_xy_mm": [
+      420,
+      850
+    ],
+    "diameter_mm": 5.5,
+    "countersink_mm": [
+      10.5,
+      2.5
+    ],
+    "status": "candidate_M5_remove_chassis_for_access"
+  },
+  {
+    "part": "Floor+PCBase",
+    "operation": "through_drill_and_PCBase_top_countersink",
+    "center_xy_mm": [
+      180,
+      1270
+    ],
+    "diameter_mm": 5.5,
+    "countersink_mm": [
+      10.5,
+      2.5
+    ],
+    "status": "candidate_M5_remove_chassis_for_access"
+  },
+  {
+    "part": "Floor+PCBase",
+    "operation": "through_drill_and_PCBase_top_countersink",
+    "center_xy_mm": [
+      420,
+      1270
+    ],
+    "diameter_mm": 5.5,
+    "countersink_mm": [
+      10.5,
+      2.5
+    ],
+    "status": "candidate_M5_remove_chassis_for_access"
+  }
+]

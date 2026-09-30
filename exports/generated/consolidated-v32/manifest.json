@@ -1,0 +1,94 @@
+{
+  "LICENSE": {
+    "sha256": "d6475a84171f0cf7ff52667dea714df268fc65cea42f0bf328b0b70d4cd0ebab",
+    "bytes": 13419
+  },
+  "NOTICE.md": {
+    "sha256": "5cbb14ae5fd1b50250019488ee8b0a172ad5b55a71d7e15da2d3456f9d8ffc8d",
+    "bytes": 1583
+  },
+  "docs/CONSOLIDATED_DRAWING_V32.md": {
+    "sha256": "506c0c9a9874b2efcc5cb19648fed3892d1cb5e3dadd9f6ffeaa95c2dd3f71a6",
+    "bytes": 5868
+  },
+  "library/references/links.txt": {
+    "sha256": "b5a8148f2cb1328a3e64356ac995c8c8146520a808f9fd9ceefe2a441c74d07e",
+    "bytes": 10174
+  },
+  "config/consolidated_audio_v32.json": {
+    "sha256": "bcaadb2875c51796b49950dc3c6ff17fda2aa8069adeafa6feae13916f047615",
+    "bytes": 2937
+  },
+  "config/floor_detail_v32.json": {
+    "sha256": "9f0e7fdcb11b0a7652b91e9f19030c5d9fad55a3438c70b922354311578747d6",
+    "bytes": 1168
+  },
+  "tools/consolidated_audio_v32_entry.py": {
+    "sha256": "0dea59a0b1a852d30c86a12003348122ab9004adf87ec68ec0de5b9bd2a96711",
+    "bytes": 12099
+  },
+  "tools/render_consolidated_v32.py": {
+    "sha256": "10f61b3abc7f06301bf21bcdd1865bb91de455b853f6c7f2e5689d25829c5435",
+    "bytes": 21211
+  },
+  "tools/run_consolidated_v32.sh": {
+    "sha256": "f20b5b2e1d64ae436d65eb99d985570fd45e5ef4494a275d3719dce3a5b6068f",
+    "bytes": 491
+  },
+  "tools/package_consolidated_v32.py": {
+    "sha256": "048318269938ef4e3ea5c06f79f60e8d834becd293bdf96a1420b8609e673d80",
+    "bytes": 1809
+  },
+  "output/pdf/v32-desenho-consolidado.pdf": {
+    "sha256": "9d33bbf2bc34a3402c4dbc028aea067d7d9e989ec53fb670d77414602a96c55f",
+    "bytes": 372624
+  },
+  "exports/generated/floor-detail-v32/floor-detail.FCStd": {
+    "sha256": "5d0dc5912f80c934bfbc2d88b3a89ef481682ba998f45a2a07a5d12d7b2ef00a",
+    "bytes": 435072
+  },
+  "exports/generated/floor-detail-v32/validation.json": {
+    "sha256": "81bba3aff8b995c46d1aaed04e4d589841e0813f9af94890b4692d40ba9f2e57",
+    "bytes": 7146
+  },
+  "exports/generated/consolidated-v32/README.txt": {
+    "sha256": "b8b66e53909120c76c3768ef6295b74a2c32d98cf7f60b06a6d1ad9960095d47",
+    "bytes": 1357
+  },
+  "exports/generated/consolidated-v32/cabinet-v32-consolidated.FCStd": {
+    "sha256": "ac720541d9499c881f4128c30ab06bedd092766b492d4e053e3a2e6d5f051655",
+    "bytes": 446138
+  },
+  "exports/generated/consolidated-v32/cabinet-v32-consolidated.step": {
+    "sha256": "9ea8b8f505c65f6682fcd8cb87f81c5006bc5dbdbd9dd5f128e2cc5c23728949",
+    "bytes": 2201292
+  },
+  "exports/generated/consolidated-v32/floor-draft-mm.dxf": {
+    "sha256": "71501a6030bb9e4ca53e0d34fc9c6d92041710f2da388540ab76b0253c66b8f1",
+    "bytes": 2773
+  },
+  "exports/generated/consolidated-v32/floor-operations.json": {
+    "sha256": "78ed5d9eb4ed72a51e47c20db370ccf98181e73c4ce482f240bd4552777690cb",
+    "bytes": 3750
+  },
+  "exports/generated/consolidated-v32/validation.json": {
+    "sha256": "23ed51777d461b8d15a1fcd5c11c2d6c6b64b677cdf12a26c0cd0ca0007917a9",
+    "bytes": 13163
+  },
+  "exports/generated/consolidated-v32/mesh.json": {
+    "sha256": "8d5ea1400511553dc0cc25a4a1e03dfe52d0d77596dedd9d4d866978f46c368f",
+    "bytes": 12634589
+  },
+  "exports/generated/consolidated-v32/01-consolidated-interior.png": {
+    "sha256": "69221c80d0e2f7c91d085d6c1d16bf895cdfc1c01950fe885127bdd8a7ecb2fc",
+    "bytes": 304444
+  },
+  "exports/generated/consolidated-v32/LICENSE": {
+    "sha256": "d6475a84171f0cf7ff52667dea714df268fc65cea42f0bf328b0b70d4cd0ebab",
+    "bytes": 13419
+  },
+  "exports/generated/consolidated-v32/NOTICE.md": {
+    "sha256": "5cbb14ae5fd1b50250019488ee8b0a172ad5b55a71d7e15da2d3456f9d8ffc8d",
+    "bytes": 1583
+  }
+}

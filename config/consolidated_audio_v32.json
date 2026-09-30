@@ -1,0 +1,14 @@
+{
+ "status":"CONSOLIDATED_DESIGN_REVIEW_NOT_MANUFACTURING_RELEASE",
+ "source_report":"exports/generated/floor-detail-v32/validation.json",
+ "system":"Cleveland High Power SSF4.1 plus optional Dayton DCS165-4 subwoofer",
+ "kit":{"exciters":4,"bass_shakers":1,"usb_sound_card_channels":"7.1","subwoofer_separate":true},
+ "subwoofer":{"model":"DCS165-4","center_xy_mm":[300,440],"reference_drawing_cutout_mm":143,"design_cutout_mm":143.5,"outer_diameter_mm":167,"bolt_circle_mm":158,"hole_count":8,"wood_hole_diameter_mm_candidate":5.5,"first_hole_angle_deg_design":22.5,"depth_allowance_mm":90,"service_diameter_mm":180,"service_height_mm":110,"note":"Drawing callouts143/167/158 and8 slotted5.3x6.8 holes; wood clearance5.5 and angular orientation22.5 are design choices. PDF depth89.3 used for90mm allowance; web product depth3.25in differs. Actual revision to confirm."},
+ "bass_shaker":{"model":"BST-1","center_xy_mm":[300,260],"service_diameter_mm":170,"service_height_mm":65,"mounting_pattern_status":"No floor holes inferred from diagonal alone; use replaceable local carrier after selected drawing/revision confirmation","mounting_plate_xywh_mm":[210,170,180,180],"mounting_plate_thickness_mm":12,"floor_anchor_holes_xy_mm":[[220,180],[380,180],[220,340],[380,340]],"anchor_diameter_mm":5.5},
+ "exciters":{"model":"EX32EP2-4 with IMS","reference_diameter_mm":59.1,"reference_depth_mm":29,"mount_allowance_mm":6,"positions_yz_mm":[[320,195],[1100,300]],"service_diameter_mm":80,"service_inward_depth_mm":45,"mounting_holes_status":"IMS hardware-specific pilot geometry pending; no guessed side holes"},
+ "amplifier":{"envelope_xyzwhd_mm":[180,580,202,240,120,60],"mount":"S2 using kit bracket; exact bracket holes confined to replaceable shelf","controls_service_xyzwhd_mm":[180,530,202,240,50,60],"note":"Engineering envelope; no vendor amplifier dimensions found"},
+ "power_supply":{"envelope_xyzwhd_mm":[190,885,262,220,110,50],"mount":"S3, protected supply with retained housing; actual dimensions/fasteners pending"},
+ "sound_card":{"envelope_xyzwhd_mm":[80,600,202,80,60,25],"mount":"S2; replaces old AUDIO_STARTECH reservation"},
+ "pc_base":{"anchor_holes_xy_mm":[[180,850],[420,850],[180,1270],[420,1270]],"through_diameter_mm":5.5,"countersink_diameter_mm":10.5,"countersink_depth_mm":2.5,"note":"Candidate M5 countersunk anchors, four pass through floor and PCBase. Heads flush; chassis removed before top tool access. Chassis-specific holes remain on replaceable PCBase; no second tray."},
+ "sources":["https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit","https://pinball-docs.clevelandsoftwaredesign.com/docs/ssf/installing/","https://www.daytonaudio.com/images/resources/295-198--dcs165-4-spec-sheet.pdf","https://www.daytonaudio.com/images/resources/295-244--dayton-audio-bst-1-mechanical-drawing.pdf","https://daytonaudio.com/images/resources/295-231-dayton-audio-ex32ep2-4-spec-sheet.pdf"]
+}

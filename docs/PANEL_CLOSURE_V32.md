@@ -1,3 +1,5 @@
+> Entrega consolidada: [desenhoV32 com SSF Cleveland4.1 + subwoofer](CONSOLIDATED_DRAWING_V32.md). PDF/CAD/STEP eDXF nominal do piso;39 verificações,202 sólidos. Revisão de montagem, sem liberação CNC.
+
 > Etapa atual: [traseira definida funcionalmente](REAR_CLOSURE_STATUS_V32.md), com qualificação de ferragens pendente. Avanço para [chapa inferior e fixação dos filtros](FLOOR_DETAIL_V32.md): estudo separado, preserva todo o conjunto traseiro.
 
 > Revisão de usinagem: [dogbones e cantos internos](CORNER_RELIEF_V32.md). R3 ensaiado nas seis guias sem necessidade de dogbone na posição atual; alívios da caixa capturada e inventário CAM seguem pendentes.

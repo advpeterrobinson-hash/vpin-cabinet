@@ -8,6 +8,8 @@ The primary product is not merely one cabinet. The primary product is a **replic
 
 ## Source of truth
 
+- Latest consolidated drawing: `docs/CONSOLIDATED_DRAWING_V32.md`, `tools/run_consolidated_v32.sh`. Reference Cleveland4.1 =4 EX32EP2-4 exciters +BST-1, plus separateDCS165-4 subwoofer. Source floor study retained; consolidated model adds audio reserves and floor/PCBase anchors.39checks/202solids; not manufacturing release. Do not equate reference envelopes with measured hardware or the8-sheet PDF with completed lockdown/prop/electrical fabrication drawings.
+
 - Current stage: rear functional layout closed (not manufacturing release), see `docs/REAR_CLOSURE_STATUS_V32.md`. Separate floor study `docs/FLOOR_DETAIL_V32.md` / `tools/run_floor_detail_v32.sh`: R3 intakes, wider removable filter-holder frames and8 candidate through-holes. Rear/shelves/lowPC untouched; subwoofer hardware and floor load qualification remain pending.
 
 - Corner relief audit: `docs/CORNER_RELIEF_V32.md`, `tools/run_corner_relief_v32.sh`. Separate R3 guide trial, not adopted production geometry. Six guide slots have25mm bottom clearance; captured-shell corner relief remains pending. Never claim all dogbones/CAM are complete; actual cutter is unconfirmed.

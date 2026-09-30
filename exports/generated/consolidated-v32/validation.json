@@ -1,0 +1,548 @@
+{
+  "manufacturing_ready": false,
+  "source_hashes": {
+    "config/consolidated_audio_v32.json": "bcaadb2875c51796b49950dc3c6ff17fda2aa8069adeafa6feae13916f047615",
+    "exports/generated/floor-detail-v32/validation.json": "81bba3aff8b995c46d1aaed04e4d589841e0813f9af94890b4692d40ba9f2e57",
+    "exports/generated/floor-detail-v32/floor-detail.FCStd": "5d0dc5912f80c934bfbc2d88b3a89ef481682ba998f45a2a07a5d12d7b2ef00a",
+    "tools/consolidated_audio_v32_entry.py": "0dea59a0b1a852d30c86a12003348122ab9004adf87ec68ec0de5b9bd2a96711"
+  },
+  "config": {
+    "status": "CONSOLIDATED_DESIGN_REVIEW_NOT_MANUFACTURING_RELEASE",
+    "source_report": "exports/generated/floor-detail-v32/validation.json",
+    "system": "Cleveland High Power SSF4.1 plus optional Dayton DCS165-4 subwoofer",
+    "kit": {
+      "exciters": 4,
+      "bass_shakers": 1,
+      "usb_sound_card_channels": "7.1",
+      "subwoofer_separate": true
+    },
+    "subwoofer": {
+      "model": "DCS165-4",
+      "center_xy_mm": [
+        300,
+        440
+      ],
+      "reference_drawing_cutout_mm": 143,
+      "design_cutout_mm": 143.5,
+      "outer_diameter_mm": 167,
+      "bolt_circle_mm": 158,
+      "hole_count": 8,
+      "wood_hole_diameter_mm_candidate": 5.5,
+      "first_hole_angle_deg_design": 22.5,
+      "depth_allowance_mm": 90,
+      "service_diameter_mm": 180,
+      "service_height_mm": 110,
+      "note": "Drawing callouts143/167/158 and8 slotted5.3x6.8 holes; wood clearance5.5 and angular orientation22.5 are design choices. PDF depth89.3 used for90mm allowance; web product depth3.25in differs. Actual revision to confirm."
+    },
+    "bass_shaker": {
+      "model": "BST-1",
+      "center_xy_mm": [
+        300,
+        260
+      ],
+      "service_diameter_mm": 170,
+      "service_height_mm": 65,
+      "mounting_pattern_status": "No floor holes inferred from diagonal alone; use replaceable local carrier after selected drawing/revision confirmation",
+      "mounting_plate_xywh_mm": [
+        210,
+        170,
+        180,
+        180
+      ],
+      "mounting_plate_thickness_mm": 12,
+      "floor_anchor_holes_xy_mm": [
+        [
+          220,
+          180
+        ],
+        [
+          380,
+          180
+        ],
+        [
+          220,
+          340
+        ],
+        [
+          380,
+          340
+        ]
+      ],
+      "anchor_diameter_mm": 5.5
+    },
+    "exciters": {
+      "model": "EX32EP2-4 with IMS",
+      "reference_diameter_mm": 59.1,
+      "reference_depth_mm": 29,
+      "mount_allowance_mm": 6,
+      "positions_yz_mm": [
+        [
+          320,
+          195
+        ],
+        [
+          1100,
+          300
+        ]
+      ],
+      "service_diameter_mm": 80,
+      "service_inward_depth_mm": 45,
+      "mounting_holes_status": "IMS hardware-specific pilot geometry pending; no guessed side holes"
+    },
+    "amplifier": {
+      "envelope_xyzwhd_mm": [
+        180,
+        580,
+        202,
+        240,
+        120,
+        60
+      ],
+      "mount": "S2 using kit bracket; exact bracket holes confined to replaceable shelf",
+      "controls_service_xyzwhd_mm": [
+        180,
+        530,
+        202,
+        240,
+        50,
+        60
+      ],
+      "note": "Engineering envelope; no vendor amplifier dimensions found"
+    },
+    "power_supply": {
+      "envelope_xyzwhd_mm": [
+        190,
+        885,
+        262,
+        220,
+        110,
+        50
+      ],
+      "mount": "S3, protected supply with retained housing; actual dimensions/fasteners pending"
+    },
+    "sound_card": {
+      "envelope_xyzwhd_mm": [
+        80,
+        600,
+        202,
+        80,
+        60,
+        25
+      ],
+      "mount": "S2; replaces old AUDIO_STARTECH reservation"
+    },
+    "pc_base": {
+      "anchor_holes_xy_mm": [
+        [
+          180,
+          850
+        ],
+        [
+          420,
+          850
+        ],
+        [
+          180,
+          1270
+        ],
+        [
+          420,
+          1270
+        ]
+      ],
+      "through_diameter_mm": 5.5,
+      "countersink_diameter_mm": 10.5,
+      "countersink_depth_mm": 2.5,
+      "note": "Candidate M5 countersunk anchors, four pass through floor and PCBase. Heads flush; chassis removed before top tool access. Chassis-specific holes remain on replaceable PCBase; no second tray."
+    },
+    "sources": [
+      "https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit",
+      "https://pinball-docs.clevelandsoftwaredesign.com/docs/ssf/installing/",
+      "https://www.daytonaudio.com/images/resources/295-198--dcs165-4-spec-sheet.pdf",
+      "https://www.daytonaudio.com/images/resources/295-244--dayton-audio-bst-1-mechanical-drawing.pdf",
+      "https://daytonaudio.com/images/resources/295-231-dayton-audio-ex32ep2-4-spec-sheet.pdf"
+    ]
+  },
+  "checks": [
+    {
+      "check": "new audio shapes clear installed scene",
+      "pass": true
+    },
+    {
+      "check": "audio service reservations clear other parts",
+      "pass": true
+    },
+    {
+      "check": "four exciters and separate bass shaker and subwoofer",
+      "pass": true
+    },
+    {
+      "check": "subwoofer cutout grew beyond obsolete139.7",
+      "pass": true
+    },
+    {
+      "check": "subwoofer hole1 through floor",
+      "pass": true
+    },
+    {
+      "check": "subwoofer hole2 through floor",
+      "pass": true
+    },
+    {
+      "check": "subwoofer hole3 through floor",
+      "pass": true
+    },
+    {
+      "check": "subwoofer hole4 through floor",
+      "pass": true
+    },
+    {
+      "check": "subwoofer hole5 through floor",
+      "pass": true
+    },
+    {
+      "check": "subwoofer hole6 through floor",
+      "pass": true
+    },
+    {
+      "check": "subwoofer hole7 through floor",
+      "pass": true
+    },
+    {
+      "check": "subwoofer hole8 through floor",
+      "pass": true
+    },
+    {
+      "check": "shaker carrier anchor1 through both boards",
+      "pass": true
+    },
+    {
+      "check": "shaker carrier anchor2 through both boards",
+      "pass": true
+    },
+    {
+      "check": "shaker carrier anchor3 through both boards",
+      "pass": true
+    },
+    {
+      "check": "shaker carrier anchor4 through both boards",
+      "pass": true
+    },
+    {
+      "check": "PCBase anchor1 through both boards",
+      "pass": true
+    },
+    {
+      "check": "PCBase anchor2 through both boards",
+      "pass": true
+    },
+    {
+      "check": "PCBase anchor3 through both boards",
+      "pass": true
+    },
+    {
+      "check": "PCBase anchor4 through both boards",
+      "pass": true
+    },
+    {
+      "check": "frozen shelf positions and geometry retained",
+      "pass": true
+    },
+    {
+      "check": "rear sides and door unchanged",
+      "pass": true
+    },
+    {
+      "check": "PC envelope unchanged and base outline stays low",
+      "pass": true
+    },
+    {
+      "check": "S1 lift adds no conflict with fixed audio",
+      "pass": true
+    },
+    {
+      "check": "S2 lift adds no conflict with fixed audio",
+      "pass": true
+    },
+    {
+      "check": "S3 lift adds no conflict with fixed audio",
+      "pass": true
+    },
+    {
+      "check": "shaker lifts with S1 removed",
+      "pass": true
+    },
+    {
+      "check": "reject shaker lift while S1 is installed",
+      "pass": true
+    },
+    {
+      "check": "subwoofer vertical service clear",
+      "pass": true
+    },
+    {
+      "check": "SSF_Exciter1L inward service30mm",
+      "pass": true
+    },
+    {
+      "check": "SSF_Exciter1R inward service30mm",
+      "pass": true
+    },
+    {
+      "check": "SSF_Exciter2L inward service30mm",
+      "pass": true
+    },
+    {
+      "check": "SSF_Exciter2R inward service30mm",
+      "pass": true
+    },
+    {
+      "check": "exciter pair1 symmetric",
+      "pass": true
+    },
+    {
+      "check": "exciter pair2 symmetric",
+      "pass": true
+    },
+    {
+      "check": "all solids valid",
+      "pass": true
+    },
+    {
+      "check": "saved scene reopens with exact valid shapes",
+      "pass": true
+    },
+    {
+      "check": "floor DXF exact planar edge inventory",
+      "pass": true
+    },
+    {
+      "check": "all sources preserved",
+      "pass": true
+    }
+  ],
+  "new_parts": [
+    "SSF_Subwoofer_DCS165_Reference",
+    "SSF_BST_Carrier",
+    "SSF_BST1_Reference",
+    "SSF_Exciter1L",
+    "SSF_Exciter1R",
+    "SSF_Exciter2L",
+    "SSF_Exciter2R",
+    "SSF_AmplifierReserve",
+    "SSF_PSUReserve",
+    "SSF_USBReserve"
+  ],
+  "removed_reservations": [
+    "AUDIO_STARTECH",
+    "SHELF_2_CandidatePayload",
+    "SHELF_3_CandidatePayload"
+  ],
+  "installed_conflicts": [],
+  "service_conflicts": {
+    "SSF_SubwooferService": [],
+    "SSF_BSTService": [],
+    "SSF_Exciter1LService": [],
+    "SSF_Exciter1RService": [],
+    "SSF_Exciter2LService": [],
+    "SSF_Exciter2RService": [],
+    "SSF_AmpControlsService": []
+  },
+  "shaker_lift_conflicts": [],
+  "subwoofer_lift_conflicts": [],
+  "solids": 202,
+  "saved_cad_sha256": "ac720541d9499c881f4128c30ab06bedd092766b492d4e053e3a2e6d5f051655",
+  "floor_operations": [
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        372.98648306839164,
+        470.23199115684207
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_on_reference_PCD"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        330.23199115684207,
+        512.9864830683916
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_on_reference_PCD"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        269.76800884315793,
+        512.9864830683916
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_on_reference_PCD"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        227.01351693160836,
+        470.2319911568421
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_on_reference_PCD"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        227.01351693160834,
+        409.76800884315793
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_on_reference_PCD"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        269.76800884315793,
+        367.01351693160836
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_on_reference_PCD"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        330.2319911568421,
+        367.01351693160836
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_on_reference_PCD"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        372.98648306839164,
+        409.76800884315793
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_on_reference_PCD"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_cut",
+      "center_xy_mm": [
+        300,
+        440
+      ],
+      "diameter_mm": 143.5,
+      "status": "143drawing_plus0.5design_clearance"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        220,
+        180
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_carrier_anchor"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        380,
+        180
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_carrier_anchor"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        220,
+        340
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_carrier_anchor"
+    },
+    {
+      "part": "Floor",
+      "operation": "through_drill",
+      "center_xy_mm": [
+        380,
+        340
+      ],
+      "diameter_mm": 5.5,
+      "status": "candidate_M5_carrier_anchor"
+    },
+    {
+      "part": "Floor+PCBase",
+      "operation": "through_drill_and_PCBase_top_countersink",
+      "center_xy_mm": [
+        180,
+        850
+      ],
+      "diameter_mm": 5.5,
+      "countersink_mm": [
+        10.5,
+        2.5
+      ],
+      "status": "candidate_M5_remove_chassis_for_access"
+    },
+    {
+      "part": "Floor+PCBase",
+      "operation": "through_drill_and_PCBase_top_countersink",
+      "center_xy_mm": [
+        420,
+        850
+      ],
+      "diameter_mm": 5.5,
+      "countersink_mm": [
+        10.5,
+        2.5
+      ],
+      "status": "candidate_M5_remove_chassis_for_access"
+    },
+    {
+      "part": "Floor+PCBase",
+      "operation": "through_drill_and_PCBase_top_countersink",
+      "center_xy_mm": [
+        180,
+        1270
+      ],
+      "diameter_mm": 5.5,
+      "countersink_mm": [
+        10.5,
+        2.5
+      ],
+      "status": "candidate_M5_remove_chassis_for_access"
+    },
+    {
+      "part": "Floor+PCBase",
+      "operation": "through_drill_and_PCBase_top_countersink",
+      "center_xy_mm": [
+        420,
+        1270
+      ],
+      "diameter_mm": 5.5,
+      "countersink_mm": [
+        10.5,
+        2.5
+      ],
+      "status": "candidate_M5_remove_chassis_for_access"
+    }
+  ],
+  "floor_dxf_entities": {
+    "LINE": 12,
+    "CIRCLE": 25,
+    "ARC": 8
+  }
+}
