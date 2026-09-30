@@ -14,20 +14,17 @@ O painel fixo tem18 mm, contra12 da porta. Por isso o estudo troca os parafusos 
 
 A porta continua com abertura amostrada0..110°. A rota excepcional do PC passa a110°. **A90° ainda há interferência com o corpo/lingueta da fechadura**, embora o obstáculo dos fans tenha desaparecido. Não afirmar que a retirada completa do PC passa a90°. Limitadores seguem opcionais; feltro no contato real do miolo continua a solução do proprietário. Repouso livre além do ângulo testado não foi avaliado.
 
-## Energia e Ethernet: recortes feitos na madeira do estudo
+## Energia e Ethernet: flange diretamente na madeira
 
-As aberturas ficam na parte fixa, separadas da porta. Dimensões em mm; X visto de frente do gabinete, Z acima da base externa. A imagem traseira é um esquema com esse mesmo datum, não um gabarito de usinagem invertido.
+**Correção aprovada pelo proprietário em 2026-09-30: sem placas intermediárias.** Usar conectores de painel com a própria flange aparafusada à madeira. Referências: acoplador RJ45 Cat6 fêmea/fêmea indicado no Mercado Livre e foto416182 do inlet tipo IEC com fusível, interruptor e duas orelhas de fixação. Link contextual em `library/references/links.txt`; foto preservada na biblioteca local, sem redistribuição.
 
-| Interface | Abertura na madeira, X / Z / largura / altura | Placa substituível, X / Z / largura / altura |
-|---|---|---|
-| Energia | 60 /405 /70 /50 | 45 /390 /100 /80 |
-| Ethernet | 515 /415 /30 /30 | 500 /400 /60 /60 |
+Centros de planejamento mantidos: energia X95/Z430 e Ethernet X530/Z430, no painel fixo. São posições de referência, não confirmação do encaixe das peças. O desenho representa esses pontos com cruzes; não representa conectores em escala.
 
-Cantos das aberturas de serviço com raio candidato3 mm. Placas candidatas2 mm, quatro passagensØ4,5 cada, também abertas no painel. Energia: X52,5/137,5 eZ397,5/462,5. Ethernet: X507,5/552,5 eZ407,5/452,5. Esses pontos são decisões de interface, não furação universal de IEC/RJ45. Retenção das placas e ferragens ainda precisam ser detalhadas.
+Foram removidas do CAD as duas placas, as antigas janelas grandes70×50 e30×30 e seus oito furos de fixação. **A madeira está intencionalmente intacta nesses pontos enquanto faltam as cotas dos conectores.** Não usar os recortes antigos para montar diretamente os módulos: eles foram dimensionados para placas que deixaram de existir.
 
-**As placas estão em branco no CAD.** O recorte do inlet de energia e o encaixe do RJ45/keystone são feitos nas placas depois de confirmar os módulos. As aberturas na madeira e sua localização já entram no estudo; trocar um conector altera a placa pequena, não o painel inteiro. Não há banco permanente HDMI/USB.
+O anúncio exato não pôde ser acessado e a imagem da energia não fornece escala ou código. Não foi adotada furação de produto parecido. `config/fixed_rear_services_v32.json` registra `footprint: null` para cada módulo. Antes de ativar as operações CNC, confirmar contorno do corpo/raios, flange, distância e diâmetro dos parafusos, profundidade, saída dos cabos/terminais e espessura de painel admitida. A montagem nominal é em compensado18 mm; um eventual rebaixo interno só será definido se a peça exigir, com espessura remanescente e acesso verificados. O recorte e os furos de fixação deverão vir prontos da CNC, sem medição manual pelo montador.
 
-Para energia há um invólucro mecânico candidato separado,100 ×100 ×100, emX45/Y1190,1/Z385, paredes2 mm e entrada alinhada à janela. Ele ocupa um espaço livre sem tocar fans, PC ou backbox. É uma reserva modelada de invólucro fechado, **não um equipamento elétrico certificado**. A fixação/lidagem de serviço, material, proteção, aterramento, alívio de tração, saídas isoladas, corrente/tensão e conexão à distribuição ainda exigem especificação adequada. Não foi desenhado ou liberado cabeamento de rede elétrica. Nenhum terminal deve ficar exposto à área de manutenção.
+O invólucro interno candidato100×100×100 continua reservado emX45/Y1190,1/Z385 para proteger as conexões de energia. É uma proteção interna separada, **não uma placa de montagem externa**. Sua abertura de acesso não define o recorte da madeira. Fixação, material, saídas isoladas e especificação elétrica seguem pendentes; nenhum terminal deve ficar exposto à área de manutenção. A posição do módulo de energia deve preservar o acesso frontal ao fusível/interruptor.
 
 ## Piso e entrada de ar
 
@@ -49,9 +46,9 @@ A definição para fornecer/cotar a barra está em [LOCKDOWN_BUILD_BRIEF_V32.txt
 
 [CAD fechado](../exports/generated/fixed-rear-services-v32/closed.FCStd) · [Porta90°](../exports/generated/fixed-rear-services-v32/open90.FCStd) · [Porta110°](../exports/generated/fixed-rear-services-v32/open110.FCStd) · [Relatório](../exports/generated/fixed-rear-services-v32/validation.json).
 
-`bash tools/run_fixed_rear_services_v32.sh` exige `FIXED_REAR_SERVICES_PASS`: **27 verificações,197 sólidos por posição**, incluindo envelopes. Validade e identidade após reabrir; fans/piso simétricos; montagem e ferramentas; folgas do backbox e porta; abertura amostrada; rota do PC; retirada dos furos auxiliares; preservação de laterais/prateleiras/PC e dos arquivos de entrada. Casos rejeitados: fans20 mm mais altos e saída do PC a90° bloqueada pela fechadura.
+`bash tools/run_fixed_rear_services_v32.sh` exige `FIXED_REAR_SERVICES_PASS`: **29 verificações,195 sólidos por posição**, incluindo envelopes. Validade e identidade após reabrir; fans/piso simétricos; montagem e ferramentas; folgas do backbox e porta; abertura amostrada; rota do PC; retirada dos furos auxiliares; preservação de laterais/prateleiras/PC e dos arquivos de entrada. Casos rejeitados: fans20 mm mais altos e saída do PC a90° bloqueada pela fechadura.
 
-Mudam neste estudo Rear, RearDoor, Floor, os dois furos externos de Front e a posição/fixações dos fans. Os arquivos anteriores permanecem intactos. Render: `uv run --with matplotlib python tools/render_fixed_rear_services_v32.py`.
+Mudam neste estudo Rear (somente fans; recortes de energia/rede pendentes), RearDoor, Floor, os dois furos externos de Front e a posição/fixações dos fans. Os arquivos anteriores permanecem intactos. Render: `uv run --with matplotlib python tools/render_fixed_rear_services_v32.py`.
 
 O gabinete ainda não está integralmente finalizado para fabricar: receptor/barra reais, retenção das canaletas, dobradiça/escoras do playfield, fixações do PC/SSF/backbox, componentes elétricos, cargas e requisitos de CNC permanecem abertos. As medidas dependentes das peças importadas continuam podendo ser conferidas depois, como autorizado; não bloqueiam este avanço de disposição.
 

@@ -1,7 +1,7 @@
 {
   "manufacturing_ready": false,
   "config": {
-    "status": "FIXED_REAR_FANS_AND_REPLACEABLE_IO_CARRIERS_STUDY",
+    "status": "FIXED_REAR_FANS_AND_DIRECT_PANEL_IO_STUDY",
     "manufacturing_ready": false,
     "source_report": "exports/generated/rear-door-v32/validation.json",
     "fan_centers_xz_mm": [
@@ -15,36 +15,6 @@
       ]
     ],
     "fan_bolt_length_mm_candidate": 55,
-    "mains_window_xzwh_mm": [
-      60,
-      405,
-      70,
-      50
-    ],
-    "mains_carrier_xzwh_mm": [
-      45,
-      390,
-      100,
-      80
-    ],
-    "mains_fasteners_xz_mm": [
-      [
-        52.5,
-        397.5
-      ],
-      [
-        137.5,
-        397.5
-      ],
-      [
-        52.5,
-        462.5
-      ],
-      [
-        137.5,
-        462.5
-      ]
-    ],
     "mains_enclosure_xyzwhd_mm": [
       45,
       1190.1,
@@ -53,40 +23,8 @@
       100,
       100
     ],
-    "ethernet_window_xzwh_mm": [
-      515,
-      415,
-      30,
-      30
-    ],
-    "ethernet_carrier_xzwh_mm": [
-      500,
-      400,
-      60,
-      60
-    ],
-    "ethernet_fasteners_xz_mm": [
-      [
-        507.5,
-        407.5
-      ],
-      [
-        552.5,
-        407.5
-      ],
-      [
-        507.5,
-        452.5
-      ],
-      [
-        552.5,
-        452.5
-      ]
-    ],
-    "carrier_thickness_mm": 2,
-    "carrier_fastener_clearance_mm": 4.5,
     "window_corner_radius_mm_candidate": 3,
-    "connector_cutouts": "Specific mains inlet and RJ45 holes belong on replaceable carriers; carriers blank until components selected. Wood service windows are modeled, not component footprints.",
+    "connector_cutouts": "Owner selected direct flange mounting in plywood, no extra carrier plates. Old oversized windows and carrier holes removed. Component cuts/pilots pending dimensioned SKU; solid wood is intentional, not finished CNC.",
     "lockdown_outer_axes_xz_mm": [
       [
         68.225,
@@ -122,13 +60,49 @@
         139.7
       ],
       "status": "PROPOSAL: mirrored intake added, four unassigned auxiliary holes omitted; net filter area and structural qualification pending"
+    },
+    "mains_enclosure_access_xzwh_mm": [
+      60,
+      405,
+      70,
+      50
+    ],
+    "direct_panel_io": {
+      "mains": {
+        "center_xz_mm": [
+          95,
+          430
+        ],
+        "type": "IEC C14 style inlet with fuse holder, rocker switch and own two-hole flange, as owner image",
+        "footprint": null,
+        "source": "library/references/local/416182-mains-flange-reference.jpg"
+      },
+      "ethernet": {
+        "center_xz_mm": [
+          530,
+          430
+        ],
+        "type": "RJ45 Cat6 female-female panel coupler with own mounting flange",
+        "footprint": null,
+        "source": "https://www.mercadolivre.com.br/01-conector-rj45-cat6-dupla-femea-emenda-painel-rack-d/up/MLBU1763346612"
+      },
+      "stock_thickness_mm": 18,
+      "machining_status": "HOLD_SPECIFIC_CONNECTOR_FOOTPRINTS",
+      "required_dimensions": [
+        "body cutout profile and corner radii",
+        "flange outline and hole pitch/diameter",
+        "body insertion depth and rear cable/terminal clearance",
+        "allowed mounting thickness; local inside relief only if required and verified",
+        "fastener type, pilot/clearance diameter and depth"
+      ],
+      "fixing": "Connector flange directly against wood; two CNC-located fasteners where confirmed by selected model. No intermediate plate."
     }
   },
   "source_hashes": {
-    "config/fixed_rear_services_v32.json": "cfc38dc8c90a086d0834f5934d99f24ab442f4a6d87ab8915ffee5afe928f48f",
+    "config/fixed_rear_services_v32.json": "8d6ea09c772c71e5cd4b526fba217abd98986dd4c43240a7b3084421f45ade21",
     "exports/generated/rear-door-v32/validation.json": "8dc411b8572ca4ec468643e1889518c1a0e771d91b929644dc0604223c9f42f5",
     "exports/generated/rear-door-v32/rear-door-closed.FCStd": "26cd6d772a6f9928c0ee85f6d1f7aa9fe299d8fc72da5fad224f11664b6c27f5",
-    "tools/fixed_rear_services_v32_entry.py": "2c18685a9a40a9ea5fe747a6b1c1716208699ef3e338dd90e8cf1c181670be15",
+    "tools/fixed_rear_services_v32_entry.py": "6992c3e9a8d4858eb23c9ba40324d29a83157342a466b0355eb7426c11e2d986",
     "config/lockdown_interface_v32.json": "d3319a0c60a4535733aaa0bc14d054fc786ee8efe99a7731a2cc907e6d02c5d2"
   },
   "checks": [
@@ -169,6 +143,10 @@
       "pass": true
     },
     {
+      "check": "direct IO awaits measured footprints with no substitute openings",
+      "pass": true
+    },
+    {
       "check": "four unassigned front floor bores omitted",
       "pass": true
     },
@@ -177,7 +155,7 @@
       "pass": true
     },
     {
-      "check": "fixed fans and utility carriers no installed collisions",
+      "check": "fixed fans and internal enclosure no installed collisions",
       "pass": true
     },
     {
@@ -197,7 +175,11 @@
       "pass": true
     },
     {
-      "check": "mains and Ethernet carriers separated from closed door",
+      "check": "no intermediate IO plates or oversized wood cuts",
+      "pass": true
+    },
+    {
+      "check": "internal enclosure separated from closed door",
       "pass": true
     },
     {
@@ -320,23 +302,23 @@
   "saved_proposals": {
     "closed": {
       "path": "exports/generated/fixed-rear-services-v32/closed.FCStd",
-      "sha256": "8d87aa75201d804e712699677e7c430823d4490002bae97ceb8899ebea1272bc",
-      "solids": 197
+      "sha256": "e455487229bbe314f28ee474b3de727c19bda8cbff53f7b78eb0546420f6d3f2",
+      "solids": 195
     },
     "open90": {
       "path": "exports/generated/fixed-rear-services-v32/open90.FCStd",
-      "sha256": "4770d8e845c543269818a96fd87dd12be8e9bc254ae59665df2cbffc3b24bb9c",
-      "solids": 197
+      "sha256": "3a774ef200bd52e348aef7a3de102c7e4e924e898e560e2eb314d4aa76c3b7da",
+      "solids": 195
     },
     "open110": {
       "path": "exports/generated/fixed-rear-services-v32/open110.FCStd",
-      "sha256": "6455be9017d1d530095b3cc108908b16866287a011880d8b595e31d19e33d077",
-      "solids": 197
+      "sha256": "3db6a5f91bd60acaefd3bc4650ca28dfb8ffc94e0414d5f699e2b2b04cda0c98",
+      "solids": 195
     }
   },
   "unverified": [
     "Fan thermal/noise/guard qualification and fixed wiring",
-    "Actual inlet/RJ45 carrier footprints, carrier retention and enclosure mounting/ratings",
+    "Direct inlet/RJ45 cutouts and flange screw pattern; suitability for18mm plywood, local relief if required; enclosure mounting/ratings",
     "Electrical protection PE and strain relief; no wiring design",
     "Receiver envelope, tongues, bar profile and real fastener stack",
     "Real door hinge/lock hardware, free resting angle/felt; optional limiters",

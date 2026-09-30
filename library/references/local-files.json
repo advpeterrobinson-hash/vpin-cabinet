@@ -52,6 +52,14 @@
       "source": "https://head.pinscape-build-guide.pages.dev/images/front-panel-lockbar-and-door-bolts.png",
       "distribution": "local only; third-party rights retained",
       "review": "Visually inspected 2026-09-30. Original MHT references these external images; retrieved separately."
+    },
+    {
+      "file": "local/416182-mains-flange-reference.jpg",
+      "bytes": 76959,
+      "sha256": "280d2494774ae953136c2c84d585062b0707f0d7912049fcf1c3c41aa57c74bf",
+      "source": "Owner attachment 416182.jpg, 2026-09-30",
+      "review": "Visual reference: fused IEC-style inlet with rocker switch and two-hole flange. No scale or model code; no dimensions inferred.",
+      "distribution": "local only; third-party rights retained"
     }
   ]
 }

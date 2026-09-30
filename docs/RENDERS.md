@@ -1,3 +1,5 @@
+> Atualização 2026-09-30: energia/Ethernet com flange diretamente na madeira, sem placas extras. Janelas antigas retiradas; recortes/furos específicos aguardam cotas dos módulos. Ver [interface atual](FIXED_REAR_SERVICES_V32.md).
+
 # Renders
 
 **Atualização:** [fans fixos acima da porta, energia/Ethernet, piso e furação candidata da lockdown](FIXED_REAR_SERVICES_V32.md). Fans não acompanham mais a porta nesta proposta.

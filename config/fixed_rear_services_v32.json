@@ -1,5 +1,5 @@
 {
-  "status": "FIXED_REAR_FANS_AND_REPLACEABLE_IO_CARRIERS_STUDY",
+  "status": "FIXED_REAR_FANS_AND_DIRECT_PANEL_IO_STUDY",
   "manufacturing_ready": false,
   "source_report": "exports/generated/rear-door-v32/validation.json",
   "fan_centers_xz_mm": [
@@ -13,36 +13,6 @@
     ]
   ],
   "fan_bolt_length_mm_candidate": 55,
-  "mains_window_xzwh_mm": [
-    60,
-    405,
-    70,
-    50
-  ],
-  "mains_carrier_xzwh_mm": [
-    45,
-    390,
-    100,
-    80
-  ],
-  "mains_fasteners_xz_mm": [
-    [
-      52.5,
-      397.5
-    ],
-    [
-      137.5,
-      397.5
-    ],
-    [
-      52.5,
-      462.5
-    ],
-    [
-      137.5,
-      462.5
-    ]
-  ],
   "mains_enclosure_xyzwhd_mm": [
     45,
     1190.1,
@@ -51,40 +21,8 @@
     100,
     100
   ],
-  "ethernet_window_xzwh_mm": [
-    515,
-    415,
-    30,
-    30
-  ],
-  "ethernet_carrier_xzwh_mm": [
-    500,
-    400,
-    60,
-    60
-  ],
-  "ethernet_fasteners_xz_mm": [
-    [
-      507.5,
-      407.5
-    ],
-    [
-      552.5,
-      407.5
-    ],
-    [
-      507.5,
-      452.5
-    ],
-    [
-      552.5,
-      452.5
-    ]
-  ],
-  "carrier_thickness_mm": 2,
-  "carrier_fastener_clearance_mm": 4.5,
   "window_corner_radius_mm_candidate": 3,
-  "connector_cutouts": "Specific mains inlet and RJ45 holes belong on replaceable carriers; carriers blank until components selected. Wood service windows are modeled, not component footprints.",
+  "connector_cutouts": "Owner selected direct flange mounting in plywood, no extra carrier plates. Old oversized windows and carrier holes removed. Component cuts/pilots pending dimensioned SKU; solid wood is intentional, not finished CNC.",
   "lockdown_outer_axes_xz_mm": [
     [
       68.225,
@@ -120,5 +58,41 @@
       139.7
     ],
     "status": "PROPOSAL: mirrored intake added, four unassigned auxiliary holes omitted; net filter area and structural qualification pending"
+  },
+  "mains_enclosure_access_xzwh_mm": [
+    60,
+    405,
+    70,
+    50
+  ],
+  "direct_panel_io": {
+    "mains": {
+      "center_xz_mm": [
+        95,
+        430
+      ],
+      "type": "IEC C14 style inlet with fuse holder, rocker switch and own two-hole flange, as owner image",
+      "footprint": null,
+      "source": "library/references/local/416182-mains-flange-reference.jpg"
+    },
+    "ethernet": {
+      "center_xz_mm": [
+        530,
+        430
+      ],
+      "type": "RJ45 Cat6 female-female panel coupler with own mounting flange",
+      "footprint": null,
+      "source": "https://www.mercadolivre.com.br/01-conector-rj45-cat6-dupla-femea-emenda-painel-rack-d/up/MLBU1763346612"
+    },
+    "stock_thickness_mm": 18,
+    "machining_status": "HOLD_SPECIFIC_CONNECTOR_FOOTPRINTS",
+    "required_dimensions": [
+      "body cutout profile and corner radii",
+      "flange outline and hole pitch/diameter",
+      "body insertion depth and rear cable/terminal clearance",
+      "allowed mounting thickness; local inside relief only if required and verified",
+      "fastener type, pilot/clearance diameter and depth"
+    ],
+    "fixing": "Connector flange directly against wood; two CNC-located fasteners where confirmed by selected model. No intermediate plate."
   }
 }

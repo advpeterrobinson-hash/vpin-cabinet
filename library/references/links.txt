@@ -70,3 +70,7 @@ https://head.pinscape-build-guide.pages.dev/images/lockbar-receiver-bolts.png
 Figura citada no MHT enviado: receptor compartilha o parafuso central superior da porta de moedas. Download e inspeção visual; cópia local privada.
 https://head.pinscape-build-guide.pages.dev/images/front-panel-lockbar-and-door-bolts.png
 Figura cotada vista POR DENTRO da frente: centros assimétricos a7 e9-1/8 polegadas do centro; linha a1-3/8 polegadas abaixo da borda superior interna; Ø9/32. Atenção à inversão X e diferença para Ø5/16 no texto do guia. Referência de planejamento, sem recorte adotado.
+
+2026-09-30 — Energia/Ethernet: proprietário escolhe flange direta na madeira, sem placa extra
+https://www.mercadolivre.com.br/01-conector-rj45-cat6-dupla-femea-emenda-painel-rack-d/up/MLBU1763346612?pdp_filters=item_id%3AMLB4679269912#origin=share&sid=share&wid=MLB4679269912
+RJ45 Cat6 dupla fêmea para painel indicado pelo proprietário. Acesso direto indisponível na ferramenta web; desenho dimensional não obtido. Não presumir recorte/passo de outro modelo. Foto do inlet de energia 416182.jpg arquivada localmente com hash; sem link/código/dimensões. Fixação direta aprovada; cotas do corpo, flange e compatibilidade com painel18mm ainda necessárias para furos CNC.

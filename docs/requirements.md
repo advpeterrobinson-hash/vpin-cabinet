@@ -191,3 +191,5 @@ Before cabinet production:
 - proof-fit rear PC door/hinges/key lock before final rear-panel CNC release
 
 No current engineering branch is approved for production CNC yet.
+
+- Correção do proprietário (2026-09-30): energia e Ethernet com flange própria diretamente no painel traseiro, sem placas intermediárias. Recortes e furos localizados pela CNC segundo o módulo confirmado; não reaproveitar as janelas grandes do estudo anterior. Confirmar compatibilidade com compensado18 mm, incluindo eventual rebaixo interno.

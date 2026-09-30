@@ -14,12 +14,12 @@ for x,z in c['fan_centers_xz_mm']:
  for dz in range(-48,49,6):a.plot([x-48,x+48],[z+dz]*2,color='#e1e8eb',lw=1.5)
 a.add_patch(Circle((450,350),11.5,color='#d29a2a'));a.plot([450,450],[346,354],color='#30291c');a.add_patch(Rectangle((262,184),76,12,facecolor='#536e7c'))
 for x in (180,372):a.add_patch(Rectangle((x,24),48,60,facecolor='#536e7c'))
-for key,color,label in [('mains','#9c604b','Energia'),('ethernet','#5b8294','Rede')]:
- x,z,w,h=c[key+'_carrier_xzwh_mm'];a.add_patch(Rectangle((x,z),w,h,facecolor=color,edgecolor='#27343c'))
- x,z,w,h=c[key+'_window_xzwh_mm'];a.add_patch(Rectangle((x,z),w,h,fill=False,edgecolor='white',ls='--',lw=1.3))
- a.text(x+w/2,z+h+28,label,ha='center',fontsize=10,color='#1d2d39')
+for key,label in [('mains','Energia'),('ethernet','Rede')]:
+ x,z=c['direct_panel_io'][key]['center_xz_mm']
+ a.plot([x-8,x+8],[z,z],color='#27343c');a.plot([x,x],[z-8,z+8],color='#27343c')
+ a.text(x,z+26,label,ha='center',fontsize=10,color='#1d2d39')
 a.text(300,100,'Chave + puxador\nLimitadores opcionais',ha='center',fontsize=10)
-a.text(300,-38,'Tracejado: abertura na madeira sob a placa.\nRecortes dos conectores ficam nas placas substituíveis.',ha='center',fontsize=10)
+a.text(300,-38,'Cruzes: centros de planejamento, sem corte definido.\nConectores com flange direto na madeira; sem placas extras.',ha='center',fontsize=10)
 a.set(xlim=(-25,625),ylim=(-85,645),aspect='equal');a.axis('off')
 b.set_title('PISO • entrada de ar por baixo',loc='left',weight='bold')
 b.add_patch(Rectangle((18,18),564,1272.1,facecolor='#d5bb92',edgecolor='#6e583d'))
