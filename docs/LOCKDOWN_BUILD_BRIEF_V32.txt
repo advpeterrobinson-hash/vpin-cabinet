@@ -1,0 +1,33 @@
+V32 — LOCKDOWN: DEFINIÇÃO PARA COTAÇÃO/DETALHAMENTO
+Data: 2026-09-30. NÃO É ORDEM DE FABRICAÇÃO.
+
+Corpo: largura externa nominal da madeira 600 mm, sem siderails.
+Barra: largura personalizada, compatível com receptor Williams/WPC escolhido.
+Referência comercial encontrada para receptor: A-16773-1 (mola de retorno).
+Texto Pinscape registra A-16673-1 / A-9174-4: confirmar SKU e compatibilidade.
+
+Para a barra Custom Lockdown Bar da VirtuaPin:
+https://virtuapin.net/index.php?main_page=product_info&products_id=34
+Informar largura externa do gabinete SEM siderails: nominal600 mm /23,62205 pol.
+O fornecedor informa acrescentar1/4 pol. para encaixe.
+Não informar606,35 mm como largura da madeira; conferir largura construída antes do pedido.
+Nenhuma compra ou solicitação externa foi enviada.
+
+Montagem pretendida:
+- receptor por dentro da frente, eixo central compartilhado com a porta de moedas;
+- soltar a trava pela porta de moedas, remover barra para cima, deslizar vidro pela frente;
+- vidro candidato575 x1100 x5, paralelo ao playfield, com canaletas superficiais substituíveis;
+- preservar laterais18 mm e prateleiras congeladas;
+- dois eixos externosX68,225 /477,8; centroX300; todosZ365,096875;
+- furos externosØ7,14375 entram somente como rascunho no CAD fixed-rear-services-v32;
+- não alterar altura de display/prateleiras para uma reserva de receptor sem cotas.
+
+Para concluir desenho de fabricação:
+Obter perfil/coroa, abas laterais, raios, sobreposição das siderails/vidro, linguetas,
+receptor completo, alavanca em ambos os fins de curso e espessuras reais da montagem.
+Qualificar parafusos/porcas, acesso, retenção da barra e proteção da borda do vidro.
+As três coordenadas de fixação não definem sozinhas o receptor ou a barra.
+Metal sob medida deve chegar pronto ao montador, sem solda/dobra doméstica.
+
+Original CERN-OHL-S-2.0. Preservar LICENSE e NOTICE.md.
+Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet

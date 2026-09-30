@@ -1,5 +1,7 @@
 # V32 — porta traseira com chave, abertura para baixo
 
+**Atualização:** [fans fixos acima da porta, energia/Ethernet, piso e furação candidata da lockdown](FIXED_REAR_SERVICES_V32.md). Fans não acompanham mais a porta nesta proposta.
+
 A instrução do proprietário substitui a tampa removível por **uma porta com dobradiças e fechadura de chave**. A rotina passa a ser destravar, baixar, fazer a manutenção, subir e trancar. Não é necessário remover quatro parafusos nem desconectar as ventoinhas a cada abertura. O chicote deverá acompanhar o movimento.
 
 ![Porta fechada e aberta](../exports/generated/rear-door-v32/01-keyed-rear-door.png)

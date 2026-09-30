@@ -1,0 +1,124 @@
+{
+  "status": "FIXED_REAR_FANS_AND_REPLACEABLE_IO_CARRIERS_STUDY",
+  "manufacturing_ready": false,
+  "source_report": "exports/generated/rear-door-v32/validation.json",
+  "fan_centers_xz_mm": [
+    [
+      230,
+      500
+    ],
+    [
+      370,
+      500
+    ]
+  ],
+  "fan_bolt_length_mm_candidate": 55,
+  "mains_window_xzwh_mm": [
+    60,
+    405,
+    70,
+    50
+  ],
+  "mains_carrier_xzwh_mm": [
+    45,
+    390,
+    100,
+    80
+  ],
+  "mains_fasteners_xz_mm": [
+    [
+      52.5,
+      397.5
+    ],
+    [
+      137.5,
+      397.5
+    ],
+    [
+      52.5,
+      462.5
+    ],
+    [
+      137.5,
+      462.5
+    ]
+  ],
+  "mains_enclosure_xyzwhd_mm": [
+    45,
+    1190.1,
+    385,
+    100,
+    100,
+    100
+  ],
+  "ethernet_window_xzwh_mm": [
+    515,
+    415,
+    30,
+    30
+  ],
+  "ethernet_carrier_xzwh_mm": [
+    500,
+    400,
+    60,
+    60
+  ],
+  "ethernet_fasteners_xz_mm": [
+    [
+      507.5,
+      407.5
+    ],
+    [
+      552.5,
+      407.5
+    ],
+    [
+      507.5,
+      452.5
+    ],
+    [
+      552.5,
+      452.5
+    ]
+  ],
+  "carrier_thickness_mm": 2,
+  "carrier_fastener_clearance_mm": 4.5,
+  "window_corner_radius_mm_candidate": 3,
+  "connector_cutouts": "Specific mains inlet and RJ45 holes belong on replaceable carriers; carriers blank until components selected. Wood service windows are modeled, not component footprints.",
+  "lockdown_outer_axes_xz_mm": [
+    [
+      68.225,
+      365.096875
+    ],
+    [
+      477.8,
+      365.096875
+    ]
+  ],
+  "lockdown_hole_diameter_mm_draft": 7.14375,
+  "lockdown_basis": "Draft chooses image9/32 to match existing center bore; prose5/16 alternative retained in interface reference. Actual receiver/fasteners must confirm before CNC.",
+  "note": "All added hardware/utility dimensions are explicit packaging choices. Actual electrical components, enclosure rating, protection, PE, strain relief and wiring need qualified specification; no mains wiring released.",
+  "floor": {
+    "retire_unassigned_front_holes": true,
+    "intake_xywh_mm": [
+      [
+        100,
+        630,
+        100,
+        160
+      ],
+      [
+        400,
+        630,
+        100,
+        160
+      ]
+    ],
+    "subwoofer_opening_xy_diameter_mm": [
+      300,
+      440,
+      139.7
+    ],
+    "status": "PROPOSAL: mirrored intake added, four unassigned auxiliary holes omitted; net filter area and structural qualification pending"
+  }
+}

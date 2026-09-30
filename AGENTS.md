@@ -8,6 +8,9 @@ The primary product is not merely one cabinet. The primary product is a **replic
 
 ## Source of truth
 
+- **Latest integration study:** `docs/FIXED_REAR_SERVICES_V32.md`, `tools/run_fixed_rear_services_v32.sh`. Two120mm fans fixed above rear door atZ500, no moving door fan harness. Wood windows for power/Ethernet with blank replaceable carriers. Two floor intakes, four unassigned floor holes omitted. Draft outer lockdown bores added; real receiver/bar fit remains open. Preserve all frozen shelf and low-PC datums.
+
+
 - **Current rear closure (owner correction, 2026-09-30):** keyed hinged door, downward opening study110 degrees; start with `docs/REAR_DOOR_V32.md` / `tools/run_rear_door_v32.sh`. The four-screw removable cover and its nutplates are superseded. Owner approved door and made limiters optional (2026-09-30); do not spend time detailing them. Owner will add chair-protector felt at actual lock-body/lower-cabinet contact. 110 degrees is a screened pose, not a required mechanical stop; actual resting/contact angle remains unverified. Optional unkeyed slide bolt is owner-installed without drawing/instructions. Preserve low fixed PC base.
 
 

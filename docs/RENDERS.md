@@ -1,5 +1,7 @@
 # Renders
 
+**Atualização:** [fans fixos acima da porta, energia/Ethernet, piso e furação candidata da lockdown](FIXED_REAR_SERVICES_V32.md). Fans não acompanham mais a porta nesta proposta.
+
 Avanço: [eixos de fixação da lockdown e furo compartilhado](LOCKDOWN_INTERFACE_V32.md). Porta traseira aprovada; limitadores opcionais e feltro previstos pelo proprietário.
 
 **Atual:** [porta traseira com chave, abrindo para baixo](REAR_DOOR_V32.md), substituindo a tampa de quatro parafusos.

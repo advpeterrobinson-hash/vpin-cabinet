@@ -150,7 +150,7 @@ Audio-only mode:
 
 Reachable hazardous voltage is a blocking defect. Ordinary/keyed service areas must not expose bare mains terminals.
 
-Rear door: unlock with key, open downward, service and close. Opening limiters are optional per owner; a flexing low-voltage fan harness is required; no routine screw removal or fan disconnection. Optional owner-installed unkeyed slide bolt needs no project drawing.
+Rear door: unlock with key, open downward, service and close. Opening limiters are optional per owner; fans and their low-voltage harness are fixed above the door; no routine screw removal or fan disconnection. Optional owner-installed unkeyed slide bolt needs no project drawing.
 
 ## Service I/O
 

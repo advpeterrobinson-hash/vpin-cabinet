@@ -1,5 +1,7 @@
 # V32 — interface da lockdown com a frente
 
+**Atualização:** [fans fixos acima da porta, energia/Ethernet, piso e furação candidata da lockdown](FIXED_REAR_SERVICES_V32.md). Fans não acompanham mais a porta nesta proposta.
+
 Continuação após aprovação da porta traseira. Mantida a direção: barra personalizada para corpo600 mm com receptor WPC compatível, vidro removido pela frente e liberação da barra pela porta de moedas. Este avanço registra os eixos de fixação; não acrescenta um receptor genérico sem dimensões nem faz novos cortes.
 
 ## Referência recuperada

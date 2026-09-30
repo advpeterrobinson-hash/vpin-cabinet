@@ -1,0 +1,345 @@
+{
+  "manufacturing_ready": false,
+  "config": {
+    "status": "FIXED_REAR_FANS_AND_REPLACEABLE_IO_CARRIERS_STUDY",
+    "manufacturing_ready": false,
+    "source_report": "exports/generated/rear-door-v32/validation.json",
+    "fan_centers_xz_mm": [
+      [
+        230,
+        500
+      ],
+      [
+        370,
+        500
+      ]
+    ],
+    "fan_bolt_length_mm_candidate": 55,
+    "mains_window_xzwh_mm": [
+      60,
+      405,
+      70,
+      50
+    ],
+    "mains_carrier_xzwh_mm": [
+      45,
+      390,
+      100,
+      80
+    ],
+    "mains_fasteners_xz_mm": [
+      [
+        52.5,
+        397.5
+      ],
+      [
+        137.5,
+        397.5
+      ],
+      [
+        52.5,
+        462.5
+      ],
+      [
+        137.5,
+        462.5
+      ]
+    ],
+    "mains_enclosure_xyzwhd_mm": [
+      45,
+      1190.1,
+      385,
+      100,
+      100,
+      100
+    ],
+    "ethernet_window_xzwh_mm": [
+      515,
+      415,
+      30,
+      30
+    ],
+    "ethernet_carrier_xzwh_mm": [
+      500,
+      400,
+      60,
+      60
+    ],
+    "ethernet_fasteners_xz_mm": [
+      [
+        507.5,
+        407.5
+      ],
+      [
+        552.5,
+        407.5
+      ],
+      [
+        507.5,
+        452.5
+      ],
+      [
+        552.5,
+        452.5
+      ]
+    ],
+    "carrier_thickness_mm": 2,
+    "carrier_fastener_clearance_mm": 4.5,
+    "window_corner_radius_mm_candidate": 3,
+    "connector_cutouts": "Specific mains inlet and RJ45 holes belong on replaceable carriers; carriers blank until components selected. Wood service windows are modeled, not component footprints.",
+    "lockdown_outer_axes_xz_mm": [
+      [
+        68.225,
+        365.096875
+      ],
+      [
+        477.8,
+        365.096875
+      ]
+    ],
+    "lockdown_hole_diameter_mm_draft": 7.14375,
+    "lockdown_basis": "Draft chooses image9/32 to match existing center bore; prose5/16 alternative retained in interface reference. Actual receiver/fasteners must confirm before CNC.",
+    "note": "All added hardware/utility dimensions are explicit packaging choices. Actual electrical components, enclosure rating, protection, PE, strain relief and wiring need qualified specification; no mains wiring released.",
+    "floor": {
+      "retire_unassigned_front_holes": true,
+      "intake_xywh_mm": [
+        [
+          100,
+          630,
+          100,
+          160
+        ],
+        [
+          400,
+          630,
+          100,
+          160
+        ]
+      ],
+      "subwoofer_opening_xy_diameter_mm": [
+        300,
+        440,
+        139.7
+      ],
+      "status": "PROPOSAL: mirrored intake added, four unassigned auxiliary holes omitted; net filter area and structural qualification pending"
+    }
+  },
+  "source_hashes": {
+    "config/fixed_rear_services_v32.json": "cfc38dc8c90a086d0834f5934d99f24ab442f4a6d87ab8915ffee5afe928f48f",
+    "exports/generated/rear-door-v32/validation.json": "8dc411b8572ca4ec468643e1889518c1a0e771d91b929644dc0604223c9f42f5",
+    "exports/generated/rear-door-v32/rear-door-closed.FCStd": "26cd6d772a6f9928c0ee85f6d1f7aa9fe299d8fc72da5fad224f11664b6c27f5",
+    "tools/fixed_rear_services_v32_entry.py": "2c18685a9a40a9ea5fe747a6b1c1716208699ef3e338dd90e8cf1c181670be15",
+    "config/lockdown_interface_v32.json": "d3319a0c60a4535733aaa0bc14d054fc786ee8efe99a7731a2cc907e6d02c5d2"
+  },
+  "checks": [
+    {
+      "check": "CandidateFanBolt230_1 full candidate nut engagement",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_2 full candidate nut engagement",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_3 full candidate nut engagement",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_4 full candidate nut engagement",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_1 full candidate nut engagement",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_2 full candidate nut engagement",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_3 full candidate nut engagement",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_4 full candidate nut engagement",
+      "pass": true
+    },
+    {
+      "check": "fan top below backbox base with18.9mm nominal gap",
+      "pass": true
+    },
+    {
+      "check": "four unassigned front floor bores omitted",
+      "pass": true
+    },
+    {
+      "check": "both intake centers open",
+      "pass": true
+    },
+    {
+      "check": "fixed fans and utility carriers no installed collisions",
+      "pass": true
+    },
+    {
+      "check": "door sampled opening clears fixed rear services",
+      "pass": true
+    },
+    {
+      "check": "90 degree PC route still rejected by lock geometry",
+      "pass": true
+    },
+    {
+      "check": "PC route clear at110",
+      "pass": true
+    },
+    {
+      "check": "fan frames leave57mm above closed door",
+      "pass": true
+    },
+    {
+      "check": "mains and Ethernet carriers separated from closed door",
+      "pass": true
+    },
+    {
+      "check": "frozen sides shelves and PC unchanged",
+      "pass": true
+    },
+    {
+      "check": "FAN_230 mirror symmetry",
+      "pass": true
+    },
+    {
+      "check": "FLOOR mirror symmetry",
+      "pass": true
+    },
+    {
+      "check": "candidate fan tool access from both sides",
+      "pass": true
+    },
+    {
+      "check": "valid single solids",
+      "pass": true
+    },
+    {
+      "check": "reject fans20mm higher hitting backbox base",
+      "pass": true
+    },
+    {
+      "check": "closed reopened shapes and identities",
+      "pass": true
+    },
+    {
+      "check": "open90 reopened shapes and identities",
+      "pass": true
+    },
+    {
+      "check": "open110 reopened shapes and identities",
+      "pass": true
+    },
+    {
+      "check": "source files unchanged",
+      "pass": true
+    }
+  ],
+  "installed_conflicts": [],
+  "door_sweep_conflicts": [],
+  "fan_tool_conflicts": [],
+  "pc_route_conflicts": {
+    "90": [
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateKeyLockBody",
+        "mm3": 163.03888608929964
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateKeyLockCam",
+        "mm3": 659.9999999999994
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateKeyLockCam",
+        "mm3": 209.99999999999932
+      }
+    ],
+    "110": []
+  },
+  "fixed_fan_objects": [
+    "FAN_230",
+    "FAN_370",
+    "CandidateFanGuard230Inner",
+    "CandidateFanGuard230Outer",
+    "CandidateFanBolt230_1",
+    "CandidateFanBolt230_1OuterWasher",
+    "CandidateFanBolt230_1InnerWasher",
+    "CandidateFanBolt230_1Nut",
+    "CandidateFanBolt230_2",
+    "CandidateFanBolt230_2OuterWasher",
+    "CandidateFanBolt230_2InnerWasher",
+    "CandidateFanBolt230_2Nut",
+    "CandidateFanBolt230_3",
+    "CandidateFanBolt230_3OuterWasher",
+    "CandidateFanBolt230_3InnerWasher",
+    "CandidateFanBolt230_3Nut",
+    "CandidateFanBolt230_4",
+    "CandidateFanBolt230_4OuterWasher",
+    "CandidateFanBolt230_4InnerWasher",
+    "CandidateFanBolt230_4Nut",
+    "CandidateFanGuard370Inner",
+    "CandidateFanGuard370Outer",
+    "CandidateFanBolt370_1",
+    "CandidateFanBolt370_1OuterWasher",
+    "CandidateFanBolt370_1InnerWasher",
+    "CandidateFanBolt370_1Nut",
+    "CandidateFanBolt370_2",
+    "CandidateFanBolt370_2OuterWasher",
+    "CandidateFanBolt370_2InnerWasher",
+    "CandidateFanBolt370_2Nut",
+    "CandidateFanBolt370_3",
+    "CandidateFanBolt370_3OuterWasher",
+    "CandidateFanBolt370_3InnerWasher",
+    "CandidateFanBolt370_3Nut",
+    "CandidateFanBolt370_4",
+    "CandidateFanBolt370_4OuterWasher",
+    "CandidateFanBolt370_4InnerWasher",
+    "CandidateFanBolt370_4Nut"
+  ],
+  "door_moving_objects": [
+    "REAR_DOOR",
+    "CandidateHandleBolt1",
+    "CandidateHandleBolt1Washer",
+    "CandidateHandleBolt2",
+    "CandidateHandleBolt2Washer",
+    "CandidateRearHandle",
+    "CandidateHingeMoving1",
+    "CandidateHingeMoving2",
+    "CandidateKeyLockBody",
+    "CandidateKeyLockShaft",
+    "CandidateKeyLockCam"
+  ],
+  "saved_proposals": {
+    "closed": {
+      "path": "exports/generated/fixed-rear-services-v32/closed.FCStd",
+      "sha256": "8d87aa75201d804e712699677e7c430823d4490002bae97ceb8899ebea1272bc",
+      "solids": 197
+    },
+    "open90": {
+      "path": "exports/generated/fixed-rear-services-v32/open90.FCStd",
+      "sha256": "4770d8e845c543269818a96fd87dd12be8e9bc254ae59665df2cbffc3b24bb9c",
+      "solids": 197
+    },
+    "open110": {
+      "path": "exports/generated/fixed-rear-services-v32/open110.FCStd",
+      "sha256": "6455be9017d1d530095b3cc108908b16866287a011880d8b595e31d19e33d077",
+      "solids": 197
+    }
+  },
+  "unverified": [
+    "Fan thermal/noise/guard qualification and fixed wiring",
+    "Actual inlet/RJ45 carrier footprints, carrier retention and enclosure mounting/ratings",
+    "Electrical protection PE and strain relief; no wiring design",
+    "Receiver envelope, tongues, bar profile and real fastener stack",
+    "Real door hinge/lock hardware, free resting angle/felt; optional limiters",
+    "All remaining side/playfield/SSF/floor manufacturing gates"
+  ]
+}
