@@ -1,0 +1,82 @@
+{
+  "status": "OWNER_CORRECTION_DESIGN_PROVISIONAL",
+  "manufacturing_ready": false,
+  "source_cad": "exports/generated/consolidated-v32/cabinet-v32-consolidated.FCStd",
+  "source_report": "exports/generated/consolidated-v32/validation.json",
+  "ergonomics": {
+    "front_plane_y_mm": 0,
+    "primary_y_mm": 89,
+    "secondary_y_mm": 127,
+    "below_local_top_mm": 65,
+    "maximum_primary_y_mm": 110,
+    "maximum_secondary_y_mm": 150,
+    "owner_decision": "Current correction gate: Y89/Y127, local side top minus60\u201365; exact hardware must adapt to these centers"
+  },
+  "button_hardware": {
+    "concept": "TRUE_PINBALL_LEAF_REFERENCE_NOT_SELECTED_MACHINING",
+    "reference_bore_mm": 15.875,
+    "candidate_nut_pocket_diameter_mm": 25,
+    "candidate_nut_pocket_depth_mm": 3,
+    "candidate_barrel_diameter_mm": 15,
+    "candidate_barrel_inward_end_x_mm": 30,
+    "candidate_head_diameter_mm": 28,
+    "candidate_nut_diameter_mm": 24,
+    "note": "Original simplified leaf reference, not vendor geometry or hardware approval. Nut is recessed3mm leaving15mm stock; exact thread/nut/bracket/wiring stack must be measured. No ergonomic validation depends on bore diameter."
+  },
+  "playfield": {
+    "moving_ids": [
+      "PLAYFIELD_ENVELOPE",
+      "MONITOR_RAIL_L",
+      "MONITOR_RAIL_R",
+      "MONITOR_BRIDGE",
+      "PF_DisplaySpacer1",
+      "PF_DisplaySpacer2"
+    ],
+    "service_opening_deg": 100,
+    "pivot_y_adjustment_from_previous_screen_mm": -5,
+    "pivot_below_local_top_mm": 18,
+    "rail_plywood_thickness_x_mm": 18,
+    "display_raise_normal_mm": 12,
+    "glass_removed_for_service": true,
+    "pivot_bolt_mm": 10,
+    "candidate_wood_bore_mm": 8.5,
+    "cradle_prop_mount_local_y_mm": 750,
+    "cradle_prop_mount_local_z_mm": -26,
+    "receiver_yz_mm": [
+      985,
+      500
+    ],
+    "prop_thickness_mm": 18,
+    "prop_width_mm": 18,
+    "prop_x_left_mm": 78,
+    "positive_retention": "Captive moving M8 upper pivot; closed lower hole captured by a commodity positive8mm locking pin through prop,54mm laminated scrap spacer and full18mm sidewall. No friction stop.",
+    "stow": "Swing each arm FORWARD alongside holder rails, above existing crossmember tops and outboard of simplified VESA bridge. Positive pin engages an integral plywood stow ear on the moving holder. Withdraw stow pin only after holder is manually raised/supported.",
+    "deployment": "Remove glass/release lockdown and WITHDRAW the two stored receiver pins before lifting. Lift manually with both props positively stowed on holder. Withdraw stow pins; swing props toward player then down to receivers; insert and positively lock BOTH receiver pins. Manual support until both engaged.",
+    "proof": "NO STRUCTURAL OR SINGLE-PROP LOAD PROOF. Physical sessions remain paused. Each prop and asymmetric cradle load path must ultimately withstand full moving load independently.",
+    "rail_x_left_mm": 97,
+    "rear_pivot": "One commodity M10 threaded cross-axis, two plain polymer bushes in plywood rails, ordinary washers/locking nuts. No custom journals or bearing housings.",
+    "prop_end_diameter_mm": 24,
+    "stow_angle_basis": "Actual holder slope, derived from CAD side profile"
+  },
+  "current_architecture": {
+    "supersedes_for_current_v32": [
+      "config/playfield_mechanics_v18.json",
+      "config/playfield_fixed_anchors_v19.json"
+    ],
+    "ucfl202": false,
+    "custom_15mm_journals": false,
+    "steel_prop_rods": false,
+    "legacy_clevis_keeper_assemblies": false,
+    "custom_metal_cheek_plates": false,
+    "gas_struts": false,
+    "custom_metal_required": 0,
+    "reason": "Use the accepted V28 simplification direction with the owner's current explicit two-plywood-prop correction. Historical configs and documentation are preserved, not imported into current V32."
+  },
+  "backbox_check": {
+    "basis": "Conservative full rectangular upright envelope from existing v06 dimensions and v12 rear-flush/centerline datums; actual complete V32 backbox is not modeled",
+    "dimension_config": "config/backbox_v06.json",
+    "alignment_config": "config/backbox_mounting_v12.json"
+  },
+  "collision_threshold_mm3": 0.01,
+  "sweep_step_degrees": 2
+}

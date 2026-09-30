@@ -8,6 +8,9 @@
 <header><h1>VPin · atlas do corpo principal</h1><span>CAD consolidado V32 · revisão de projeto · CNC pendente</span></header>
 <div class="layout"><aside>
 <h2>Explorar</h2><div class="row"><button id="exterior">Conjunto</button><button id="interior">Interior</button></div>
+<label>Estado do playfield <select id="service-state"><option>PLAY</option><option>SERVICE</option><option>SERVICE LEFT PROP ONLY</option><option>SERVICE RIGHT PROP ONLY</option></select></label>
+<small id="state-note" aria-live="polite">PLAY · duas escoras recolhidas e presas.</small>
+<label>Vistas de revisão <select id="review-view"><option value="player-left">Jogador · frente esquerda</option><option value="player-right">Jogador · frente direita</option><option value="play-oblique">Topo / oblíqua · PLAY</option><option value="service">SERVICE · duas escoras</option><option value="side-detail">Detalhe · pivô e receptor</option><option value="closed-detail">Detalhe · escoras recolhidas</option></select></label>
 <div class="row"><button data-view="front">Frente</button><button data-view="rear">Traseira</button><button data-view="top">Topo</button></div>
 <div class="row"><button id="reset">Restaurar</button><button id="capture">Salvar imagem</button></div>
 <h2>Camadas</h2><div id="layers"></div>
@@ -18,12 +21,12 @@
 <h2>Peça selecionada</h2><div id="selection" aria-live="polite">Clique em uma peça ou escolha na lista.</div>
 <div class="row"><button id="hide" disabled>Ocultar</button><button id="isolate" disabled>Isolar</button><button id="focus" disabled>Focar</button></div>
 <input id="search" type="search" placeholder="Buscar ID da peça" aria-label="Buscar peça"><div id="parts"></div>
-<h2>Escopo atual</h2><small>Geometria real exportada do CAD, com volumes simplificados e reservas. Backbox completo, pernas, escoras, cabeamento e lockdown final não estão neste conjunto. Cores servem para identificação. Não certifica montagem, cargas ou fabricação.</small>
+<h2>Escopo atual</h2><small>Botões leaf em Y89/Y127 e playfield articulado com duas escoras de compensado. Retirar vidro, liberar lockdown e retirar os dois pinos dos receptores antes de levantar; engatar e travar AMBOS os pinos para serviço. Estados de uma escora são apenas revisão do caminho de carga. Não há prova estrutural. Backbox é uma reserva conservadora; cabeamento, pernas e lockdown final não estão modelados. CNC BLOQUEADO.</small>
 <details><summary>Origem e licenças</summary><pre id="provenance"></pre><pre>__NOTICE__</pre><pre>__MIT__</pre><pre>__LICENSE__</pre></details>
 </aside><main id="stage" aria-label="Visualizador 3D interativo"><div id="error" role="alert" hidden></div><div id="hint">Arraste: girar · botão direito: deslocar · roda: zoom · toque: girar / pinça: zoom</div></main></div>
 <script>__THREE__</script><script>__ORBIT__</script>
 <script>
-const DATA=__MESH__, PROVENANCE=__PROVENANCE__;
+const DATA=__MESH__, STATES=__STATES__, REVIEW=__REVIEW__, PROVENANCE=__PROVENANCE__;
 document.getElementById('provenance').textContent=JSON.stringify(PROVENANCE,null,2);
 try {
 const stage=document.getElementById('stage'), renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
@@ -33,9 +36,13 @@ const camera=new THREE.PerspectiveCamera(40,1,1,20000);camera.up.set(0,0,1);
 const controls=new THREE.OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.minDistance=30;controls.maxDistance=7000;
 scene.add(new THREE.HemisphereLight(0xffffff,0x667080,1));const light=new THREE.DirectionalLight(0xffffff,.85);light.position.set(-700,-1000,1800);scene.add(light);
 const fill=new THREE.DirectionalLight(0xffffff,.4);fill.position.set(1000,1000,600);scene.add(fill);
-const groups={'Carcaça':[],'Prateleiras e suportes':[],'Playfield e vidro':[],'PC':[],'SSF e áudio':[],'Controles e porta frontal':[],'Traseira e ventilação':[],'Ferragens':[],'Reservas de instalação':[]};
-const colors={'Carcaça':0xc9ad81,'Prateleiras e suportes':0xddc79f,'Playfield e vidro':0x465c73,'PC':0x548c70,'SSF e áudio':0xd98a48,'Controles e porta frontal':0x697d8a,'Traseira e ventilação':0x718797,'Ferragens':0x83939d,'Reservas de instalação':0x8f9bc8};
+const groups={'Carcaça':[],'Prateleiras e suportes':[],'Playfield e vidro':[],'Pivô e escoras':[],'PC':[],'SSF e áudio':[],'Controles e porta frontal':[],'Traseira e ventilação':[],'Ferragens':[],'Reservas de instalação':[]};
+const colors={'Carcaça':0xc9ad81,'Prateleiras e suportes':0xddc79f,'Playfield e vidro':0x465c73,'Pivô e escoras':0xc69c58,'PC':0x548c70,'SSF e áudio':0xd98a48,'Controles e porta frontal':0x697d8a,'Traseira e ventilação':0x718797,'Ferragens':0x83939d,'Reservas de instalação':0x8f9bc8};
 function category(n){
+ if(n==='PF_BackboxCheckEnvelope')return 'Reservas de instalação';
+ if(n.startsWith('PF_DisplaySpacer'))return 'Playfield e vidro';
+ if(n.startsWith('PF_'))return 'Pivô e escoras';
+ if(n.startsWith('Leaf'))return 'Controles e porta frontal';
  if(/Reserve|RESERVED|CandidatePayload/.test(n))return 'Reservas de instalação';
  if(n.startsWith('SSF_'))return 'SSF e áudio';
  if(n.startsWith('PC_'))return 'PC';
@@ -46,24 +53,30 @@ function category(n){
  if(/SHELF|CROSS|BST_Carrier/.test(n))return 'Prateleiras e suportes';
  return 'Carcaça';
 }
+function geometry(part){const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.Float32BufferAttribute(part.vertices.flat(),3));geo.setIndex(part.faces.flat());geo.computeVertexNormals();geo.computeBoundingBox();return geo;}
 const meshes=DATA.map(part=>{
- const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.Float32BufferAttribute(part.vertices.flat(),3));geo.setIndex(part.faces.flat());geo.computeVertexNormals();geo.computeBoundingBox();
+ const geo=geometry(part);
  const group=category(part.name),reserve=group==='Reservas de instalação',glass=part.name==='CandidateGlass';
  const mat=new THREE.MeshStandardMaterial({color:colors[group],roughness:.7,metalness:group==='Ferragens'?.4:0,side:THREE.DoubleSide,flatShading:true,transparent:reserve||glass,opacity:glass?.22:reserve?.3:1,depthWrite:!(reserve||glass)});
- const obj=new THREE.Mesh(geo,mat);obj.name=part.name;obj.userData={group,baseOpacity:mat.opacity,hidden:false,reserve:reserve||/ENVELOPE/.test(part.name)};scene.add(obj);groups[group].push(obj);return obj;
+ if(part.name.startsWith('LeafButton'))mat.color.set(part.name.includes('primary')?0x176eaa:0xb75022);
+ if(/PF_.*(Bolt|Pin|Washer|Locknut)/.test(part.name))mat.color.set(0x467f99);
+ const obj=new THREE.Mesh(geo,mat);obj.name=part.name;obj.userData={group,baseOpacity:mat.opacity,hidden:false,stateAbsent:false,reserve:reserve||/ENVELOPE/.test(part.name),playGeometry:geo};scene.add(obj);groups[group].push(obj);return obj;
 });
 const bounds=new THREE.Box3();meshes.forEach(m=>bounds.union(new THREE.Box3().setFromObject(m)));const center=bounds.getCenter(new THREE.Vector3()),size=bounds.getSize(new THREE.Vector3());
 let selected=null,helper=null,isolated=null;const layerInputs={};
-function refresh(){meshes.forEach(m=>m.visible=layerInputs[m.userData.group].checked&&!m.userData.hidden&&(!isolated||m===isolated));if(helper)helper.visible=selected.visible;}
+function refresh(){meshes.forEach(m=>m.visible=layerInputs[m.userData.group].checked&&!m.userData.hidden&&!m.userData.stateAbsent&&(!isolated||m===isolated));if(helper){helper.update();helper.visible=selected.visible;}}
 for(const [label,items] of Object.entries(groups)){const row=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.checked=label!=='Reservas de instalação';input.addEventListener('change',refresh);row.append(input,document.createTextNode(' '+label+' ('+items.length+')'));document.getElementById('layers').append(row);layerInputs[label]=input;}
 function select(m){if(selected)selected.material.emissive.set(0);if(helper){scene.remove(helper);helper.geometry.dispose();helper.material.dispose();}selected=m;m.material.emissive.set(0x41300b);helper=new THREE.BoxHelper(m,0x326da4);scene.add(helper);const b=new THREE.Box3().setFromObject(m),s=b.getSize(new THREE.Vector3());document.getElementById('selection').textContent=m.name+' · '+m.userData.group+' · '+[s.x,s.y,s.z].map(v=>v.toFixed(1)).join(' × ')+' mm'+(m.userData.reserve?' · envelope / reserva':'');['hide','isolate','focus'].forEach(id=>document.getElementById(id).disabled=false);refresh();}
 function list(){const q=document.getElementById('search').value.toLowerCase(),root=document.getElementById('parts');root.replaceChildren();meshes.filter(m=>m.name.toLowerCase().includes(q)).forEach(m=>{const b=document.createElement('button');b.textContent=m.name;b.onclick=()=>{m.userData.hidden=false;layerInputs[m.userData.group].checked=true;isolated=null;select(m);};root.append(b);});}
 document.getElementById('search').oninput=list;list();
 function view(kind){controls.target.copy(center);const distance=size.length()*1.55;const direction={front:[0,-1,.12],rear:[0,1,.12],top:[0,-.001,1],iso:[-1,-1,.85]}[kind];camera.position.copy(center).add(new THREE.Vector3(...direction).normalize().multiplyScalar(distance));controls.update();}
-function restore(){isolated=null;meshes.forEach(m=>m.userData.hidden=false);Object.entries(layerInputs).forEach(([k,i])=>i.checked=k!=='Reservas de instalação');document.getElementById('opacity').value=1;opacity();document.getElementById('axis').value='none';clip();refresh();view('iso');}
+let currentState='PLAY';
+function applyState(state){currentState=state;document.getElementById('service-state').value=state;const overrides=STATES[state];meshes.forEach(m=>{m.userData.stateAbsent=Object.hasOwn(overrides,m.name)&&overrides[m.name]===null;const part=overrides[m.name];if(m.geometry!==m.userData.playGeometry)m.geometry.dispose();m.geometry=part?geometry(part):m.userData.playGeometry;});bounds.makeEmpty();meshes.filter(m=>!m.userData.stateAbsent).forEach(m=>bounds.union(new THREE.Box3().setFromObject(m)));bounds.getCenter(center);bounds.getSize(size);clip();document.getElementById('state-note').textContent=state==='PLAY'?'PLAY · escoras travadas no berço; retirar os pinos dos receptores antes de levantar.':state==='SERVICE'?'SERVICE · levantar manualmente; AMBAS as escoras e pinos engatados. DESIGN-PROVISIONAL.':'REVISÃO DE CARGA APENAS · uma escora não é procedimento de serviço nem prova estrutural.';refresh();annotate();}
+function restore(){isolated=null;meshes.forEach(m=>m.userData.hidden=false);Object.entries(layerInputs).forEach(([k,i])=>i.checked=k!=='Reservas de instalação');document.getElementById('opacity').value=1;opacity();document.getElementById('axis').value='none';clip();applyState('PLAY');refresh();view('iso');}
 document.getElementById('reset').onclick=restore;document.getElementById('exterior').onclick=restore;
 document.getElementById('interior').onclick=()=>{restore();['SIDE_L','FRONT','PLAYFIELD_ENVELOPE','CandidateGlass','SHELF_1','SHELF_2','SHELF_3'].forEach(n=>{const m=meshes.find(m=>m.name===n);if(m)m.userData.hidden=true;});refresh();};
 document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>view(b.dataset.view));
+document.getElementById('service-state').onchange=e=>{applyState(e.target.value);if(currentState!=='PLAY'){meshes.find(m=>m.name==='SIDE_L').userData.hidden=true;meshes.find(m=>m.name==='FRONT').userData.hidden=true;refresh();serviceCamera();}};
 document.getElementById('hide').onclick=()=>{selected.userData.hidden=true;isolated=null;refresh();};document.getElementById('isolate').onclick=()=>{isolated=selected;layerInputs[selected.userData.group].checked=true;selected.userData.hidden=false;refresh();};
 document.getElementById('focus').onclick=()=>{const b=new THREE.Box3().setFromObject(selected),c=b.getCenter(new THREE.Vector3()),s=b.getSize(new THREE.Vector3());const d=camera.position.clone().sub(controls.target).normalize();controls.target.copy(c);camera.position.copy(c).add(d.multiplyScalar(Math.max(s.length()*1.8,80)));controls.update();};
 function opacity(){const value=+document.getElementById('opacity').value;groups['Carcaça'].forEach(m=>{m.material.opacity=value;m.material.transparent=value<1;m.material.depthWrite=value===1;m.material.needsUpdate=true;});}
@@ -73,8 +86,25 @@ document.getElementById('axis').onchange=clip;document.getElementById('cut').oni
 const ray=new THREE.Raycaster(),pointer=new THREE.Vector2();let down;
 renderer.domElement.addEventListener('pointerdown',e=>down=[e.clientX,e.clientY]);renderer.domElement.addEventListener('pointerup',e=>{if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>5)return;const rect=renderer.domElement.getBoundingClientRect();pointer.set((e.clientX-rect.left)/rect.width*2-1,-(e.clientY-rect.top)/rect.height*2+1);ray.setFromCamera(pointer,camera);const hit=ray.intersectObjects(meshes.filter(m=>m.visible)).find(h=>h.object.material.clippingPlanes.every(p=>p.distanceToPoint(h.point)>=0));if(hit)select(hit.object);});
 document.getElementById('capture').onclick=()=>{renderer.render(scene,camera);const a=document.createElement('a');a.href=renderer.domElement.toDataURL('image/png');a.download='vpin-v32-revisao.png';a.click();};
-function resize(){camera.aspect=stage.clientWidth/stage.clientHeight;camera.updateProjectionMatrix();renderer.setSize(stage.clientWidth,stage.clientHeight);}new ResizeObserver(resize).observe(stage);resize();restore();
-function frame(){requestAnimationFrame(frame);controls.update();renderer.render(scene,camera);}frame();
-window.viewer={scene,camera,meshes,groups,renderer,controls,bounds,select,refresh};
+function resize(){camera.aspect=stage.clientWidth/stage.clientHeight;camera.updateProjectionMatrix();renderer.setSize(stage.clientWidth,stage.clientHeight);}new ResizeObserver(resize).observe(stage);resize();
+const annotations=new THREE.Group();scene.add(annotations);const labels=[];
+function clearAnnotations(){for(const child of [...annotations.children]){annotations.remove(child);child.geometry?.dispose();child.material?.dispose();}labels.splice(0).forEach(l=>l.el.remove());}
+function label(text,xyz,offset=[0,0]){const el=document.createElement('span');el.textContent=text;el.style.cssText='position:absolute;pointer-events:none;background:#ffffffed;color:#20313c;padding:3px 6px;border-radius:3px;font:12px system-ui;white-space:nowrap;';stage.append(el);labels.push({el,point:new THREE.Vector3(...xyz),offset});}
+function dimension(a,b,text,offset=[0,0]){const geo=new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(...a),new THREE.Vector3(...b)]);annotations.add(new THREE.Line(geo,new THREE.LineBasicMaterial({color:0x176eaa,depthTest:false})));for(const point of [a,b]){const dot=new THREE.Mesh(new THREE.SphereGeometry(2.5,8,6),new THREE.MeshBasicMaterial({color:0x176eaa,depthTest:false}));dot.position.set(...point);annotations.add(dot);}label(text,a.map((v,i)=>(v+b[i])/2),offset);}
+function annotate(){clearAnnotations();const preset=document.getElementById('review-view').value,side=preset==='player-right'?'R':'L',x=side==='L'?-25:625;
+ if(currentState==='PLAY'&&!preset.includes('detail')){const p=REVIEW.buttons.primary,s=REVIEW.buttons.secondary;dimension([x,0,p.z_mm-26],[x,p.y_mm,p.z_mm-26],'Frente → flipper: '+p.y_mm+' mm',[-100,20]);dimension([x,0,s.z_mm-58],[x,s.y_mm,s.z_mm-58],'Frente → magna: '+s.y_mm+' mm',[-70,48]);dimension([x,p.y_mm,p.z_mm],[x,p.y_mm,p.top_z_mm],'Topo local → centro: '+p.below_top_mm+' mm',[-140,-22]);label('Y = 0 · frente',[300,0,400],[0,-30]);}
+ else {const u=currentState==='PLAY'?REVIEW.prop_upper_closed_yz_mm:REVIEW.prop_upper_service_yz_mm;const r=currentState==='PLAY'?REVIEW.stow_yz_mm:REVIEW.receiver_yz_mm;dimension([30,...u],[30,...r],'Escora: '+REVIEW.prop_length_centers_mm.toFixed(1)+' mm entre centros',[-160,0]);label('Eixo traseiro M10 · buchas simples',[55,REVIEW.pivot_xyz_mm[1],REVIEW.pivot_xyz_mm[2]],[-150,25]);label(currentState==='PLAY'?'Pino positivo · recolhido':'Receptor + pino positivo',[30,...r],[15,24]);label('Pivô da escora · parafuso M8',[30,...u],[-150,-50]);if(currentState!=='PLAY')label('Abertura: '+REVIEW.opening_deg+'°',[300,REVIEW.pivot_xyz_mm[1],REVIEW.pivot_xyz_mm[2]+250],[160,-95]);}
+}
+function serviceCamera(){controls.target.set(300,680,760);camera.position.set(-1600,-1700,1900);controls.update();}
+function reviewView(preset){document.getElementById('review-view').value=preset;restore();
+ if(['service','side-detail'].includes(preset)){applyState('SERVICE');meshes.find(m=>m.name==='SIDE_L').userData.hidden=true;meshes.find(m=>m.name==='FRONT').userData.hidden=true;serviceCamera();if(preset==='side-detail'){controls.target.set(65,1010,805);camera.position.set(-1750,400,1100);}}
+ else if(preset==='closed-detail'){['SIDE_L','FRONT','CandidateGlass','PLAYFIELD_ENVELOPE'].forEach(n=>meshes.find(m=>m.name===n).userData.hidden=true);controls.target.set(80,750,430);camera.position.set(-1450,350,900);}
+ else if(preset==='play-oblique'){controls.target.set(300,450,350);camera.position.set(-1100,-900,1750);}
+ else {controls.target.set(300,310,310);camera.position.set(preset==='player-right'?1500:-900,-1300,1050);}
+ controls.update();refresh();annotate();}
+document.getElementById('review-view').onchange=e=>reviewView(e.target.value);
+function frame(){requestAnimationFrame(frame);controls.update();renderer.render(scene,camera);labels.forEach(l=>{const point=l.point.clone().project(camera);l.el.hidden=point.z>1||point.z< -1;const w=l.el.offsetWidth,h=l.el.offsetHeight;l.el.style.left=Math.max(4,Math.min(stage.clientWidth-w-4,(point.x+1)/2*stage.clientWidth+l.offset[0]))+'px';l.el.style.top=Math.max(4,Math.min(stage.clientHeight-h-4,(1-point.y)/2*stage.clientHeight+l.offset[1]))+'px';});}frame();
+reviewView(new URLSearchParams(location.search).get('review')||'player-left');
+window.viewer={scene,camera,meshes,groups,renderer,controls,bounds,select,refresh,applyState,reviewView,currentState:()=>currentState};
 }catch(e){const error=document.getElementById('error');error.hidden=false;error.textContent='Não foi possível iniciar o 3D. Abra em Chrome, Edge ou Firefox com WebGL habilitado. '+e.message;console.error(e);}
 </script></body></html>

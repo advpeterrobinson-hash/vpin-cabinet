@@ -8,6 +8,8 @@ The primary product is not merely one cabinet. The primary product is a **replic
 
 ## Source of truth
 
+- **Active owner correction gate:** stop unrelated development. Current corrected CAD/viewer comes from `config/service_correction_v32.json` and `tools/run_service_correction_v32.sh`; review `docs/OWNER_CORRECTION_REVIEW_V32.md`. Ergonomic centers Y89/Y127, local side top minus65mm. Actual rear pivot and two captive CNC plywood props replace the teardown-only service study and legacy v18/v19 bearing/journal/steel-rod architecture. All manufacturing and structural proof remain BLOCKED.
+
 - Latest consolidated drawing: `docs/CONSOLIDATED_DRAWING_V32.md`, `tools/run_consolidated_v32.sh`. Reference Cleveland4.1 =4 EX32EP2-4 exciters +BST-1, plus separateDCS165-4 subwoofer. Source floor study retained; consolidated model adds audio reserves and floor/PCBase anchors.39checks/202solids; not manufacturing release. Do not equate reference envelopes with measured hardware or the8-sheet PDF with completed lockdown/prop/electrical fabrication drawings.
 
 - Current stage: rear functional layout closed (not manufacturing release), see `docs/REAR_CLOSURE_STATUS_V32.md`. Separate floor study `docs/FLOOR_DETAIL_V32.md` / `tools/run_floor_detail_v32.sh`: R3 intakes, wider removable filter-holder frames and8 candidate through-holes. Rear/shelves/lowPC untouched; subwoofer hardware and floor load qualification remain pending.
@@ -44,7 +46,7 @@ The primary product is not merely one cabinet. The primary product is a **replic
 - The lockdown bar may be custom-sized and therefore is **not** a blocker to the 600 mm body width.
 - Nominal main material is 18 mm metric plywood; production geometry must ultimately use measured sheet thickness.
 - Playfield is model-agnostic: compact 42/43-inch class within 560 x 970 x 55 mm and 12 kg, mounted in an independent cradle with replaceable display adapters.
-- The playfield is manually raised and supported by two simple captive prop rods with positive receiver pins/keepers. Either prop must support the full moving load independently; no friction stays.
+- The playfield is manually raised and supported by two identical captive CNC plywood props with positive receiver pins. Either prop must support the full moving load independently; no friction stays.
 - A reduced-thickness OLED side pocket is clearance only; Display mass and prop/pivot loads must be carried by full-strength structure/cradle hardware.
 - Backglass is approximately 32-inch 1080p; premium image quality is not a priority there. Backbox width may depart from authentic Williams dimensions to create a durable 32-inch-class service envelope.
 - **Owner-confirmed V32 PC architecture (2026-09-29):** the open ATX case sits low on `PCBase`, a 285 × 460 × 18 mm replaceable base over the cabinet floor; V32 has **no PC drawer**. Owner explicitly rejected the removable tray/drawer complexity. PC stays positively fixed during use and routine service; detach only for major replacement. This latest decision supersedes the session-supplied full-extension drawer instruction. Older rear-slide/front-drawer concepts are historical.

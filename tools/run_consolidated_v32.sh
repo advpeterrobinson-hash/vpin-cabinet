@@ -10,4 +10,4 @@ if ! rg -q 'CONSOLIDATED_AUDIO_PASS ' .work/consolidated-v32/build.log; then
 fi
 rg 'CONSOLIDATED_AUDIO_PASS ' .work/consolidated-v32/build.log
 uv run --with reportlab --with matplotlib python tools/render_consolidated_v32.py
-python3 tools/build_review_viewer.py
+bash tools/run_service_correction_v32.sh
