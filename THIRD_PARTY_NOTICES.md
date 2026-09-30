@@ -1,5 +1,15 @@
 # Third-Party Notices
 
+## Offline 3D review viewer
+
+`tools/viewer/vendor/three.min.js` and `OrbitControls.js` are unmodified Three.js
+0.128.0 distribution files, downloaded from the npm package via jsDelivr.
+Copyright © 2010–2021 Three.js authors; MIT license retained in
+`tools/viewer/vendor/LICENSE.three` and embedded in the generated viewer.
+Upstream: https://github.com/mrdoob/three.js/tree/r128
+These files retain their MIT license; original viewer code and cabinet geometry
+remain CERN-OHL-S-2.0. No external requests are made by the generated viewer.
+
 The CERN-OHL-S-2.0 licence applies to original project material unless a file or directory states otherwise.
 
 It does **not** relicense third-party material merely because that material is referenced by this repository.

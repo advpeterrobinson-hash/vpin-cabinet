@@ -1,0 +1,80 @@
+<!doctype html>
+<!-- Original viewer CERN-OHL-S-2.0; embedded Three.js / OrbitControls MIT. -->
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VPin — revisão 3D do CAD</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:14px system-ui,sans-serif;background:#e8edf0;color:#20313c}button,input,select{font:inherit}button,select,input[type=search]{padding:8px;border:1px solid #c4cfd6;border-radius:6px;background:#fff;color:#20313c}button{cursor:pointer}button:hover{background:#edf4fa}header{padding:14px 20px;background:#20313c;color:#fff;display:flex;gap:16px;justify-content:space-between;align-items:center}h1{font-size:18px;margin:0}header span{color:#d1dbe2;font-size:12px}.layout{display:grid;grid-template-columns:290px 1fr;height:calc(100vh - 65px)}aside{background:#f9fbfc;padding:16px;overflow:auto;border-right:1px solid #ccd5db}h2{font-size:14px;margin:20px 0 10px}h2:first-child{margin-top:0}.row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}.row button{flex:1}label{display:block;margin:7px 0}input[type=range],input[type=search],select{width:100%}#stage{position:relative;min-width:0;overflow:hidden}canvas{display:block;touch-action:none}#hint{position:absolute;bottom:12px;left:16px;right:16px;pointer-events:none;font-size:12px;color:#465c6b}#selection{padding:12px 0;min-height:84px;overflow-wrap:anywhere}#parts{max-height:210px;overflow:auto;margin-top:8px}#parts button{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid #e1e7eb;border-radius:0;font-size:12px;padding:6px}small{color:#526773}details pre{white-space:pre-wrap;font-size:11px}#error{position:absolute;top:20px;left:20px;background:#fff;padding:16px;color:#9b2e2e;max-width:80%}[hidden]{display:none!important}@media(max-width:700px){header{padding:10px}header span{display:none}.layout{height:auto;display:flex;flex-direction:column-reverse}#stage{height:65vh}aside{overflow:visible;border:0}#parts{max-height:140px}}
+</style></head><body>
+<header><h1>VPin · atlas do corpo principal</h1><span>CAD consolidado V32 · revisão de projeto · CNC pendente</span></header>
+<div class="layout"><aside>
+<h2>Explorar</h2><div class="row"><button id="exterior">Conjunto</button><button id="interior">Interior</button></div>
+<div class="row"><button data-view="front">Frente</button><button data-view="rear">Traseira</button><button data-view="top">Topo</button></div>
+<div class="row"><button id="reset">Restaurar</button><button id="capture">Salvar imagem</button></div>
+<h2>Camadas</h2><div id="layers"></div>
+<label>Transparência da carcaça <input id="opacity" type="range" min="0.08" max="1" step="0.02" value="1"></label>
+<label>Corte de inspeção <select id="axis"><option value="none">Sem corte</option><option value="x">Lateral (X)</option><option value="y">Frente / traseira (Y)</option><option value="z">Altura (Z)</option></select></label>
+<input id="cut" type="range" min="0" max="100" value="50" aria-label="Posição do corte" disabled>
+<small>O corte não fecha as faces e não modifica o CAD.</small>
+<h2>Peça selecionada</h2><div id="selection" aria-live="polite">Clique em uma peça ou escolha na lista.</div>
+<div class="row"><button id="hide" disabled>Ocultar</button><button id="isolate" disabled>Isolar</button><button id="focus" disabled>Focar</button></div>
+<input id="search" type="search" placeholder="Buscar ID da peça" aria-label="Buscar peça"><div id="parts"></div>
+<h2>Escopo atual</h2><small>Geometria real exportada do CAD, com volumes simplificados e reservas. Backbox completo, pernas, escoras, cabeamento e lockdown final não estão neste conjunto. Cores servem para identificação. Não certifica montagem, cargas ou fabricação.</small>
+<details><summary>Origem e licenças</summary><pre id="provenance"></pre><pre>__NOTICE__</pre><pre>__MIT__</pre><pre>__LICENSE__</pre></details>
+</aside><main id="stage" aria-label="Visualizador 3D interativo"><div id="error" role="alert" hidden></div><div id="hint">Arraste: girar · botão direito: deslocar · roda: zoom · toque: girar / pinça: zoom</div></main></div>
+<script>__THREE__</script><script>__ORBIT__</script>
+<script>
+const DATA=__MESH__, PROVENANCE=__PROVENANCE__;
+document.getElementById('provenance').textContent=JSON.stringify(PROVENANCE,null,2);
+try {
+const stage=document.getElementById('stage'), renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.localClippingEnabled=true;renderer.outputEncoding=THREE.sRGBEncoding;stage.prepend(renderer.domElement);
+const scene=new THREE.Scene();scene.background=new THREE.Color('#e8edf0');
+const camera=new THREE.PerspectiveCamera(40,1,1,20000);camera.up.set(0,0,1);
+const controls=new THREE.OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.minDistance=30;controls.maxDistance=7000;
+scene.add(new THREE.HemisphereLight(0xffffff,0x667080,1));const light=new THREE.DirectionalLight(0xffffff,.85);light.position.set(-700,-1000,1800);scene.add(light);
+const fill=new THREE.DirectionalLight(0xffffff,.4);fill.position.set(1000,1000,600);scene.add(fill);
+const groups={'Carcaça':[],'Prateleiras e suportes':[],'Playfield e vidro':[],'PC':[],'SSF e áudio':[],'Controles e porta frontal':[],'Traseira e ventilação':[],'Ferragens':[],'Reservas de instalação':[]};
+const colors={'Carcaça':0xc9ad81,'Prateleiras e suportes':0xddc79f,'Playfield e vidro':0x465c73,'PC':0x548c70,'SSF e áudio':0xd98a48,'Controles e porta frontal':0x697d8a,'Traseira e ventilação':0x718797,'Ferragens':0x83939d,'Reservas de instalação':0x8f9bc8};
+function category(n){
+ if(/Reserve|RESERVED|CandidatePayload/.test(n))return 'Reservas de instalação';
+ if(n.startsWith('SSF_'))return 'SSF e áudio';
+ if(n.startsWith('PC_'))return 'PC';
+ if(/PLAYFIELD|MONITOR|Glass/.test(n))return 'Playfield e vidro';
+ if(/CoinStudy|Button|PLUNGER/.test(n))return 'Controles e porta frontal';
+ if(/Bolt|Screw|Washer|Insert|Nut|LegPlate/.test(n))return 'Ferragens';
+ if(/Fan|FAN_|REAR_DOOR|RearHandle|KeyLock|LockKeeper|Hinge|Mains|Filter/.test(n))return 'Traseira e ventilação';
+ if(/SHELF|CROSS|BST_Carrier/.test(n))return 'Prateleiras e suportes';
+ return 'Carcaça';
+}
+const meshes=DATA.map(part=>{
+ const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.Float32BufferAttribute(part.vertices.flat(),3));geo.setIndex(part.faces.flat());geo.computeVertexNormals();geo.computeBoundingBox();
+ const group=category(part.name),reserve=group==='Reservas de instalação',glass=part.name==='CandidateGlass';
+ const mat=new THREE.MeshStandardMaterial({color:colors[group],roughness:.7,metalness:group==='Ferragens'?.4:0,side:THREE.DoubleSide,flatShading:true,transparent:reserve||glass,opacity:glass?.22:reserve?.3:1,depthWrite:!(reserve||glass)});
+ const obj=new THREE.Mesh(geo,mat);obj.name=part.name;obj.userData={group,baseOpacity:mat.opacity,hidden:false,reserve:reserve||/ENVELOPE/.test(part.name)};scene.add(obj);groups[group].push(obj);return obj;
+});
+const bounds=new THREE.Box3();meshes.forEach(m=>bounds.union(new THREE.Box3().setFromObject(m)));const center=bounds.getCenter(new THREE.Vector3()),size=bounds.getSize(new THREE.Vector3());
+let selected=null,helper=null,isolated=null;const layerInputs={};
+function refresh(){meshes.forEach(m=>m.visible=layerInputs[m.userData.group].checked&&!m.userData.hidden&&(!isolated||m===isolated));if(helper)helper.visible=selected.visible;}
+for(const [label,items] of Object.entries(groups)){const row=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.checked=label!=='Reservas de instalação';input.addEventListener('change',refresh);row.append(input,document.createTextNode(' '+label+' ('+items.length+')'));document.getElementById('layers').append(row);layerInputs[label]=input;}
+function select(m){if(selected)selected.material.emissive.set(0);if(helper){scene.remove(helper);helper.geometry.dispose();helper.material.dispose();}selected=m;m.material.emissive.set(0x41300b);helper=new THREE.BoxHelper(m,0x326da4);scene.add(helper);const b=new THREE.Box3().setFromObject(m),s=b.getSize(new THREE.Vector3());document.getElementById('selection').textContent=m.name+' · '+m.userData.group+' · '+[s.x,s.y,s.z].map(v=>v.toFixed(1)).join(' × ')+' mm'+(m.userData.reserve?' · envelope / reserva':'');['hide','isolate','focus'].forEach(id=>document.getElementById(id).disabled=false);refresh();}
+function list(){const q=document.getElementById('search').value.toLowerCase(),root=document.getElementById('parts');root.replaceChildren();meshes.filter(m=>m.name.toLowerCase().includes(q)).forEach(m=>{const b=document.createElement('button');b.textContent=m.name;b.onclick=()=>{m.userData.hidden=false;layerInputs[m.userData.group].checked=true;isolated=null;select(m);};root.append(b);});}
+document.getElementById('search').oninput=list;list();
+function view(kind){controls.target.copy(center);const distance=size.length()*1.55;const direction={front:[0,-1,.12],rear:[0,1,.12],top:[0,-.001,1],iso:[-1,-1,.85]}[kind];camera.position.copy(center).add(new THREE.Vector3(...direction).normalize().multiplyScalar(distance));controls.update();}
+function restore(){isolated=null;meshes.forEach(m=>m.userData.hidden=false);Object.entries(layerInputs).forEach(([k,i])=>i.checked=k!=='Reservas de instalação');document.getElementById('opacity').value=1;opacity();document.getElementById('axis').value='none';clip();refresh();view('iso');}
+document.getElementById('reset').onclick=restore;document.getElementById('exterior').onclick=restore;
+document.getElementById('interior').onclick=()=>{restore();['SIDE_L','FRONT','PLAYFIELD_ENVELOPE','CandidateGlass','SHELF_1','SHELF_2','SHELF_3'].forEach(n=>{const m=meshes.find(m=>m.name===n);if(m)m.userData.hidden=true;});refresh();};
+document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>view(b.dataset.view));
+document.getElementById('hide').onclick=()=>{selected.userData.hidden=true;isolated=null;refresh();};document.getElementById('isolate').onclick=()=>{isolated=selected;layerInputs[selected.userData.group].checked=true;selected.userData.hidden=false;refresh();};
+document.getElementById('focus').onclick=()=>{const b=new THREE.Box3().setFromObject(selected),c=b.getCenter(new THREE.Vector3()),s=b.getSize(new THREE.Vector3());const d=camera.position.clone().sub(controls.target).normalize();controls.target.copy(c);camera.position.copy(c).add(d.multiplyScalar(Math.max(s.length()*1.8,80)));controls.update();};
+function opacity(){const value=+document.getElementById('opacity').value;groups['Carcaça'].forEach(m=>{m.material.opacity=value;m.material.transparent=value<1;m.material.depthWrite=value===1;m.material.needsUpdate=true;});}
+document.getElementById('opacity').oninput=opacity;
+function clip(){const a=document.getElementById('axis').value,range=document.getElementById('cut');range.disabled=a==='none';const planes=[];if(a!=='none'){const value=bounds.min[a]+size[a]*range.value/100;const n=new THREE.Vector3();n[a]=-1;planes.push(new THREE.Plane(n,value));}meshes.forEach(m=>m.material.clippingPlanes=planes);}
+document.getElementById('axis').onchange=clip;document.getElementById('cut').oninput=clip;
+const ray=new THREE.Raycaster(),pointer=new THREE.Vector2();let down;
+renderer.domElement.addEventListener('pointerdown',e=>down=[e.clientX,e.clientY]);renderer.domElement.addEventListener('pointerup',e=>{if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>5)return;const rect=renderer.domElement.getBoundingClientRect();pointer.set((e.clientX-rect.left)/rect.width*2-1,-(e.clientY-rect.top)/rect.height*2+1);ray.setFromCamera(pointer,camera);const hit=ray.intersectObjects(meshes.filter(m=>m.visible)).find(h=>h.object.material.clippingPlanes.every(p=>p.distanceToPoint(h.point)>=0));if(hit)select(hit.object);});
+document.getElementById('capture').onclick=()=>{renderer.render(scene,camera);const a=document.createElement('a');a.href=renderer.domElement.toDataURL('image/png');a.download='vpin-v32-revisao.png';a.click();};
+function resize(){camera.aspect=stage.clientWidth/stage.clientHeight;camera.updateProjectionMatrix();renderer.setSize(stage.clientWidth,stage.clientHeight);}new ResizeObserver(resize).observe(stage);resize();restore();
+function frame(){requestAnimationFrame(frame);controls.update();renderer.render(scene,camera);}frame();
+window.viewer={scene,camera,meshes,groups,renderer,controls,bounds,select,refresh};
+}catch(e){const error=document.getElementById('error');error.hidden=false;error.textContent='Não foi possível iniciar o 3D. Abra em Chrome, Edge ou Firefox com WebGL habilitado. '+e.message;console.error(e);}
+</script></body></html>
