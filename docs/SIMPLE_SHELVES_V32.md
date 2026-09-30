@@ -1,5 +1,7 @@
 # V32 — simple top-release shelves
 
+Height definition is now explicit: tops Z172/192/252, underside Z160/180/240, measured from cabinet bottom. These tested heights are fixed at the owner's request. The [separate support and leg machining plan](SUPPORT_LEG_CNC_V32.md) adds candidate wall pilots/support screws and leg-corner reinforcement without overwriting the frozen shelf scene.
+
 **OWNER APPROVED — FUNCTIONAL LAYOUT FROZEN, 2026-09-29.** S1/S2/S3 start at Y120/565/865; clear gaps295/150 mm; four top screws and independent removal direction retained. Freeze record: `config/shelf_layout_freeze_v32.json`, baseline commit `1277f31`. Do not silently reopen placement. Hardware, support anchorage, real hinge/props/cables and manufacturing qualification remain open; this is not CNC approval.
 
 [Português (Brasil)](pt-BR/SIMPLE_SHELVES_V32.md)

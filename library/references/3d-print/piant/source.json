@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-29",
+  "file": "Pinball_Leg_Hole_Guide.stl",
+  "sha256": "f7f273de63b69551472ad9e986e051e2f8757507cf46350962f6a46647a17f48",
+  "source": "https://www.thingiverse.com/thing:4802189",
+  "creator": "PiAnt",
+  "license": "CC-BY-4.0",
+  "source_html_sha256": "478ddb9d173887eac05a9119d998bbd4daccb8b0075ef25692d4382871c336ba",
+  "second_reference": {
+    "url": "https://www.thingiverse.com/thing:7346262",
+    "creator": "Jeff13850",
+    "title": "Pincab - Drilling template for Williams/Bally legs, 58 mm center-to-center distance",
+    "license": "CC-BY-SA-4.0",
+    "description_credit": "Original concept by Stef26 for 55 mm spacing",
+    "file_status": "link only; no STL provided/downloaded",
+    "source_html_sha256": "e9de92d50cf4cbe29e22868d715360325752745baa9fcf4ecd9d823bef968493"
+  }
+}

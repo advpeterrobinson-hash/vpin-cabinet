@@ -1,0 +1,1599 @@
+{
+  "manufacturing_ready": false,
+  "source_hashes": {
+    "config/support_leg_machining_v32.json": "6639712533376b3ed4131336c385e0e5f3bf2158fa2614f1b0511674e5fae227",
+    "exports/generated/side-panel-v32/simple-shelves-validation.json": "c237921dc7afe4ad20d8cc86f638f7a899fac597e3e7bfc1d0732db206fedd06",
+    "exports/generated/side-panel-v32/simple-shelves-proposal.FCStd": "0ab0857d9bc5231a2a8d1c2eb03e3b5cb9f94dd5be175b5834619e298c01a668",
+    "config/shelf_layout_freeze_v32.json": "47f03ece56a121a1e98ebe648a774e108f103d9d210d773d53761a795cd6e10a",
+    "exports/generated/side-panel-v32/shelf-service-pose-screen.json": "77f392ac11d8c63bbfea1ecb189deb0570b6c2e51548a075ab9fa45936063fe0",
+    "tools/support_leg_machining_v32_entry.py": "7b9e23189b628ddf82a0bacbd257b07b0eef6d3be2c48fd6cecf8fcf4132c4c7"
+  },
+  "config": {
+    "status": "HEIGHTS_FIXED_AND_MACHINING_PLANNING_ONLY",
+    "manufacturing_ready": false,
+    "datum": "Z0 cabinet bottom; floor upper surface Z36 nominal",
+    "shelf_underside_z_mm": [
+      160,
+      180,
+      240
+    ],
+    "shelf_top_z_mm": [
+      172,
+      192,
+      252
+    ],
+    "support_top_z_mm": [
+      160,
+      180,
+      240
+    ],
+    "support_bottom_z_mm": [
+      142,
+      162,
+      222
+    ],
+    "shelf_thickness_mm": 12,
+    "anchor": {
+      "y_offsets_mm": [
+        55,
+        125
+      ],
+      "shaft_diameter_mm": 4,
+      "shaft_length_mm": 55,
+      "head_diameter_mm": 8,
+      "head_length_mm": 3,
+      "washer_diameter_mm": 9,
+      "washer_thickness_mm": 1,
+      "support_clearance_diameter_mm": 4.5,
+      "wall_pilot_diameter_mm_candidate": 2.5,
+      "wall_pilot_depth_mm_candidate": 13,
+      "driver_radius_mm": 8,
+      "driver_length_mm": 100,
+      "status": "wood screw geometry candidate; pilot depends on purchased screw and plywood coupon"
+    },
+    "legs": {
+      "status": "REFERENCE_58_MM_PATTERN_CANDIDATE_NOT_RELEASED",
+      "pitch_mm": 58,
+      "alternative_jig_pitch_mm": 57,
+      "hole_diameter_mm_candidate": 11,
+      "block_leg_xy_mm": 54,
+      "lamination_count": 7,
+      "lamination_thickness_mm": 18,
+      "front_block_bottom_z_mm": 54,
+      "rear_block_bottom_z_mm": 36,
+      "front_lower_bolt_z_mm_candidate": 96,
+      "rear_lower_bolt_z_mm_candidate": 64,
+      "plate_width_mm_candidate": 60,
+      "plate_thickness_mm_candidate": 3,
+      "plate_height_mm_candidate": 126,
+      "status_vertical_datums": "explicit packaging choices, not jig dimensions; actual legs/levelers and play height may change them",
+      "retention": "load-rated metal threaded backing required; never thread leg bolts into plywood alone"
+    },
+    "collision_threshold_mm3": 0.01,
+    "freeze_record": "config/shelf_layout_freeze_v32.json"
+  },
+  "checks": [
+    {
+      "check": "S1 fixed underside height",
+      "pass": true
+    },
+    {
+      "check": "S1 fixed upper surface",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1L top meets shelf",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1L1 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1L1 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1L2 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1L2 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1R top meets shelf",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1R1 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1R1 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1R2 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1R2 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "S2 fixed underside height",
+      "pass": true
+    },
+    {
+      "check": "S2 fixed upper surface",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2L top meets shelf",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2L1 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2L1 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2L2 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2L2 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2R top meets shelf",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2R1 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2R1 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2R2 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2R2 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "S3 fixed underside height",
+      "pass": true
+    },
+    {
+      "check": "S3 fixed upper surface",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3L top meets shelf",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3L1 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3L1 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3L2 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3L2 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3R top meets shelf",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3R1 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3R1 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3R2 blind pilot retains nominal 5mm outer skin",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3R2 candidate tip does not bottom",
+      "pass": true
+    },
+    {
+      "check": "FL1 block edge ligament >=20mm",
+      "pass": true
+    },
+    {
+      "check": "FL2 block edge ligament >=20mm",
+      "pass": true
+    },
+    {
+      "check": "FR1 block edge ligament >=20mm",
+      "pass": true
+    },
+    {
+      "check": "FR2 block edge ligament >=20mm",
+      "pass": true
+    },
+    {
+      "check": "RL1 block edge ligament >=20mm",
+      "pass": true
+    },
+    {
+      "check": "RL2 block edge ligament >=20mm",
+      "pass": true
+    },
+    {
+      "check": "RR1 block edge ligament >=20mm",
+      "pass": true
+    },
+    {
+      "check": "RR2 block edge ligament >=20mm",
+      "pass": true
+    },
+    {
+      "check": "valid single solids",
+      "pass": true
+    },
+    {
+      "check": "plate height equals supported block height",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegBlockFL mirrored counterpart",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegBlockRL mirrored counterpart",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegPlateFL mirrored counterpart",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegPlateRL mirrored counterpart",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1L mirrored counterpart",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2L mirrored counterpart",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3L mirrored counterpart",
+      "pass": true
+    },
+    {
+      "check": "S1 frozen board unchanged",
+      "pass": true
+    },
+    {
+      "check": "S2 frozen board unchanged",
+      "pass": true
+    },
+    {
+      "check": "S3 frozen board unchanged",
+      "pass": true
+    },
+    {
+      "check": "new parts no unintended installed collisions",
+      "pass": true
+    },
+    {
+      "check": "candidate driver access with shelves installed",
+      "pass": true
+    },
+    {
+      "check": "frozen shelf paths clear added support and leg hardware",
+      "pass": true
+    },
+    {
+      "check": "frozen top screw access clear added parts",
+      "pass": true
+    },
+    {
+      "check": "sampled display opening clears added parts",
+      "pass": true
+    },
+    {
+      "check": "reject 57mm jig as exact 58mm pattern",
+      "pass": true
+    },
+    {
+      "check": "reject through-wall pilot mutation",
+      "pass": true
+    },
+    {
+      "check": "reject taller front corner interfering with launch button",
+      "pass": true
+    },
+    {
+      "check": "inputs not overwritten",
+      "pass": true
+    },
+    {
+      "check": "reopened identity and validity",
+      "pass": true
+    },
+    {
+      "check": "reopened shapes match",
+      "pass": true
+    },
+    {
+      "check": "reopened original permanent codes preserved",
+      "pass": true
+    }
+  ],
+  "holes": [
+    {
+      "id": "CandidateFixedSupportScrew1L1-support",
+      "part": "SHELF_SUPPORT_1L",
+      "origin": [
+        60.0,
+        175,
+        151.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew1L1-wall",
+      "part": "SIDE_L",
+      "origin": [
+        18,
+        175,
+        151.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew1L2-support",
+      "part": "SHELF_SUPPORT_1L",
+      "origin": [
+        60.0,
+        245,
+        151.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew1L2-wall",
+      "part": "SIDE_L",
+      "origin": [
+        18,
+        245,
+        151.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew1R1-support",
+      "part": "SHELF_SUPPORT_1R",
+      "origin": [
+        540.0,
+        175,
+        151.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew1R1-wall",
+      "part": "SIDE_R",
+      "origin": [
+        582,
+        175,
+        151.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew1R2-support",
+      "part": "SHELF_SUPPORT_1R",
+      "origin": [
+        540.0,
+        245,
+        151.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew1R2-wall",
+      "part": "SIDE_R",
+      "origin": [
+        582,
+        245,
+        151.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew2L1-support",
+      "part": "SHELF_SUPPORT_2L",
+      "origin": [
+        60.0,
+        620,
+        171.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew2L1-wall",
+      "part": "SIDE_L",
+      "origin": [
+        18,
+        620,
+        171.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew2L2-support",
+      "part": "SHELF_SUPPORT_2L",
+      "origin": [
+        60.0,
+        690,
+        171.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew2L2-wall",
+      "part": "SIDE_L",
+      "origin": [
+        18,
+        690,
+        171.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew2R1-support",
+      "part": "SHELF_SUPPORT_2R",
+      "origin": [
+        540.0,
+        620,
+        171.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew2R1-wall",
+      "part": "SIDE_R",
+      "origin": [
+        582,
+        620,
+        171.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew2R2-support",
+      "part": "SHELF_SUPPORT_2R",
+      "origin": [
+        540.0,
+        690,
+        171.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew2R2-wall",
+      "part": "SIDE_R",
+      "origin": [
+        582,
+        690,
+        171.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew3L1-support",
+      "part": "SHELF_SUPPORT_3L",
+      "origin": [
+        60.0,
+        920,
+        231.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew3L1-wall",
+      "part": "SIDE_L",
+      "origin": [
+        18,
+        920,
+        231.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew3L2-support",
+      "part": "SHELF_SUPPORT_3L",
+      "origin": [
+        60.0,
+        990,
+        231.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew3L2-wall",
+      "part": "SIDE_L",
+      "origin": [
+        18,
+        990,
+        231.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew3R1-support",
+      "part": "SHELF_SUPPORT_3R",
+      "origin": [
+        540.0,
+        920,
+        231.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew3R1-wall",
+      "part": "SIDE_R",
+      "origin": [
+        582,
+        920,
+        231.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "CandidateFixedSupportScrew3R2-support",
+      "part": "SHELF_SUPPORT_3R",
+      "origin": [
+        540.0,
+        990,
+        231.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "depth_mm": 42.0,
+      "operation": "EDGE_THROUGH_DRILL",
+      "status": "CANDIDATE_HARDWARE_UNQUALIFIED"
+    },
+    {
+      "id": "CandidateFixedSupportScrew3R2-wall",
+      "part": "SIDE_R",
+      "origin": [
+        582,
+        990,
+        231.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 2.5,
+      "depth_mm": 13,
+      "operation": "INNER_FACE_BLIND_PILOT",
+      "status": "HOLD_SCREW_AND_PLYWOOD_COUPON"
+    },
+    {
+      "id": "LegFL1",
+      "part": "SIDE_L+FRONT+CandidateLegBlockFL+CandidateLegPlateFL",
+      "origin": [
+        0,
+        0,
+        96
+      ],
+      "axis": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "diameter_mm": 11,
+      "depth_mm": 120,
+      "operation": "45_DEG_CORNER_BORE_SHOP_FIXTURE",
+      "status": "HOLD_LEG_BRACKET_PITCH_AND_HEIGHT"
+    },
+    {
+      "id": "LegFL2",
+      "part": "SIDE_L+FRONT+CandidateLegBlockFL+CandidateLegPlateFL",
+      "origin": [
+        0,
+        0,
+        154
+      ],
+      "axis": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "diameter_mm": 11,
+      "depth_mm": 120,
+      "operation": "45_DEG_CORNER_BORE_SHOP_FIXTURE",
+      "status": "HOLD_LEG_BRACKET_PITCH_AND_HEIGHT"
+    },
+    {
+      "id": "LegFR1",
+      "part": "SIDE_R+FRONT+CandidateLegBlockFR+CandidateLegPlateFR",
+      "origin": [
+        600,
+        0,
+        96
+      ],
+      "axis": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "diameter_mm": 11,
+      "depth_mm": 120,
+      "operation": "45_DEG_CORNER_BORE_SHOP_FIXTURE",
+      "status": "HOLD_LEG_BRACKET_PITCH_AND_HEIGHT"
+    },
+    {
+      "id": "LegFR2",
+      "part": "SIDE_R+FRONT+CandidateLegBlockFR+CandidateLegPlateFR",
+      "origin": [
+        600,
+        0,
+        154
+      ],
+      "axis": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "diameter_mm": 11,
+      "depth_mm": 120,
+      "operation": "45_DEG_CORNER_BORE_SHOP_FIXTURE",
+      "status": "HOLD_LEG_BRACKET_PITCH_AND_HEIGHT"
+    },
+    {
+      "id": "LegRL1",
+      "part": "SIDE_L+REAR+CandidateLegBlockRL+CandidateLegPlateRL",
+      "origin": [
+        0,
+        1308.1,
+        64
+      ],
+      "axis": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "diameter_mm": 11,
+      "depth_mm": 120,
+      "operation": "45_DEG_CORNER_BORE_SHOP_FIXTURE",
+      "status": "HOLD_LEG_BRACKET_PITCH_AND_HEIGHT"
+    },
+    {
+      "id": "LegRL2",
+      "part": "SIDE_L+REAR+CandidateLegBlockRL+CandidateLegPlateRL",
+      "origin": [
+        0,
+        1308.1,
+        122
+      ],
+      "axis": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "diameter_mm": 11,
+      "depth_mm": 120,
+      "operation": "45_DEG_CORNER_BORE_SHOP_FIXTURE",
+      "status": "HOLD_LEG_BRACKET_PITCH_AND_HEIGHT"
+    },
+    {
+      "id": "LegRR1",
+      "part": "SIDE_R+REAR+CandidateLegBlockRR+CandidateLegPlateRR",
+      "origin": [
+        600,
+        1308.1,
+        64
+      ],
+      "axis": [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "diameter_mm": 11,
+      "depth_mm": 120,
+      "operation": "45_DEG_CORNER_BORE_SHOP_FIXTURE",
+      "status": "HOLD_LEG_BRACKET_PITCH_AND_HEIGHT"
+    },
+    {
+      "id": "LegRR2",
+      "part": "SIDE_R+REAR+CandidateLegBlockRR+CandidateLegPlateRR",
+      "origin": [
+        600,
+        1308.1,
+        122
+      ],
+      "axis": [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "diameter_mm": 11,
+      "depth_mm": 120,
+      "operation": "45_DEG_CORNER_BORE_SHOP_FIXTURE",
+      "status": "HOLD_LEG_BRACKET_PITCH_AND_HEIGHT"
+    },
+    {
+      "id": "SimpleShelfBolt1L1-shelf",
+      "part": "SHELF_1",
+      "origin": [
+        48,
+        145,
+        172.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1L1-receiver",
+      "part": "SHELF_SUPPORT_1L",
+      "origin": [
+        48,
+        145,
+        160.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1L1-tip",
+      "part": "SHELF_SUPPORT_1L",
+      "origin": [
+        48,
+        145,
+        160.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1L2-shelf",
+      "part": "SHELF_1",
+      "origin": [
+        48,
+        220,
+        172.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1L2-receiver",
+      "part": "SHELF_SUPPORT_1L",
+      "origin": [
+        48,
+        220,
+        160.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1L2-tip",
+      "part": "SHELF_SUPPORT_1L",
+      "origin": [
+        48,
+        220,
+        160.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1R1-shelf",
+      "part": "SHELF_1",
+      "origin": [
+        552,
+        145,
+        172.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1R1-receiver",
+      "part": "SHELF_SUPPORT_1R",
+      "origin": [
+        552,
+        145,
+        160.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1R1-tip",
+      "part": "SHELF_SUPPORT_1R",
+      "origin": [
+        552,
+        145,
+        160.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1R2-shelf",
+      "part": "SHELF_1",
+      "origin": [
+        552,
+        220,
+        172.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1R2-receiver",
+      "part": "SHELF_SUPPORT_1R",
+      "origin": [
+        552,
+        220,
+        160.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt1R2-tip",
+      "part": "SHELF_SUPPORT_1R",
+      "origin": [
+        552,
+        220,
+        160.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2L1-shelf",
+      "part": "SHELF_2",
+      "origin": [
+        48,
+        590,
+        192.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2L1-receiver",
+      "part": "SHELF_SUPPORT_2L",
+      "origin": [
+        48,
+        590,
+        180.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2L1-tip",
+      "part": "SHELF_SUPPORT_2L",
+      "origin": [
+        48,
+        590,
+        180.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2L2-shelf",
+      "part": "SHELF_2",
+      "origin": [
+        48,
+        665,
+        192.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2L2-receiver",
+      "part": "SHELF_SUPPORT_2L",
+      "origin": [
+        48,
+        665,
+        180.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2L2-tip",
+      "part": "SHELF_SUPPORT_2L",
+      "origin": [
+        48,
+        665,
+        180.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2R1-shelf",
+      "part": "SHELF_2",
+      "origin": [
+        552,
+        590,
+        192.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2R1-receiver",
+      "part": "SHELF_SUPPORT_2R",
+      "origin": [
+        552,
+        590,
+        180.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2R1-tip",
+      "part": "SHELF_SUPPORT_2R",
+      "origin": [
+        552,
+        590,
+        180.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2R2-shelf",
+      "part": "SHELF_2",
+      "origin": [
+        552,
+        665,
+        192.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2R2-receiver",
+      "part": "SHELF_SUPPORT_2R",
+      "origin": [
+        552,
+        665,
+        180.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt2R2-tip",
+      "part": "SHELF_SUPPORT_2R",
+      "origin": [
+        552,
+        665,
+        180.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3L1-shelf",
+      "part": "SHELF_3",
+      "origin": [
+        48,
+        880,
+        252.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3L1-receiver",
+      "part": "SHELF_SUPPORT_3L",
+      "origin": [
+        48,
+        880,
+        240.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3L1-tip",
+      "part": "SHELF_SUPPORT_3L",
+      "origin": [
+        48,
+        880,
+        240.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3L2-shelf",
+      "part": "SHELF_3",
+      "origin": [
+        48,
+        940,
+        252.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3L2-receiver",
+      "part": "SHELF_SUPPORT_3L",
+      "origin": [
+        48,
+        940,
+        240.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3L2-tip",
+      "part": "SHELF_SUPPORT_3L",
+      "origin": [
+        48,
+        940,
+        240.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3R1-shelf",
+      "part": "SHELF_3",
+      "origin": [
+        552,
+        880,
+        252.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3R1-receiver",
+      "part": "SHELF_SUPPORT_3R",
+      "origin": [
+        552,
+        880,
+        240.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3R1-tip",
+      "part": "SHELF_SUPPORT_3R",
+      "origin": [
+        552,
+        880,
+        240.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3R2-shelf",
+      "part": "SHELF_3",
+      "origin": [
+        552,
+        940,
+        252.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.0,
+      "operation": "TOP_CLEARANCE_THROUGH",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3R2-receiver",
+      "part": "SHELF_SUPPORT_3R",
+      "origin": [
+        552,
+        940,
+        240.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 8.5,
+      "depth_mm": 10.5,
+      "operation": "TOP_RECEIVER_PLACEHOLDER_NOT_PILOT_SPEC",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    },
+    {
+      "id": "SimpleShelfBolt3R2-tip",
+      "part": "SHELF_SUPPORT_3R",
+      "origin": [
+        552,
+        940,
+        240.0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter_mm": 5.5,
+      "depth_mm": 12.5,
+      "operation": "TOP_TIP_RELIEF_PLACEHOLDER",
+      "status": "HOLD_SELECTED_TOP_FASTENER_AND_INSERT"
+    }
+  ],
+  "rejected_front_corner": [
+    {
+      "part": "raised_front_right_block",
+      "obstacle": "CandidateFrontButton4",
+      "mm3": 24.28305927842158
+    }
+  ],
+  "installed_conflicts": [],
+  "tool_conflicts": [],
+  "shelf_route_conflicts": [],
+  "top_access_conflicts": [],
+  "display_sample_conflicts": [],
+  "saved_proposal": {
+    "path": "exports/generated/support-leg-v32/support-leg-planning.FCStd",
+    "sha256": "31309fa089de993511e5e76dd52c0b064ee5d2b4042d93762b46ca44c0ad44f3",
+    "solids": 140
+  },
+  "unverified": [
+    "Leg hardware including nut retention, actual legs/levelers and play height",
+    "Plywood laminations/bonding and dynamic proof",
+    "Shelf support screw/pilot and thread retention",
+    "45 degree corner drilling fixture and selected CNC capability",
+    "Actual display hinge/props/harness and upper backbox"
+  ]
+}

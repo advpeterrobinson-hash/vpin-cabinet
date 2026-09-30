@@ -1,0 +1,64 @@
+{
+  "status": "HEIGHTS_FIXED_AND_MACHINING_PLANNING_ONLY",
+  "manufacturing_ready": false,
+  "datum": "Z0 cabinet bottom; floor upper surface Z36 nominal",
+  "shelf_underside_z_mm": [
+    160,
+    180,
+    240
+  ],
+  "shelf_top_z_mm": [
+    172,
+    192,
+    252
+  ],
+  "support_top_z_mm": [
+    160,
+    180,
+    240
+  ],
+  "support_bottom_z_mm": [
+    142,
+    162,
+    222
+  ],
+  "shelf_thickness_mm": 12,
+  "anchor": {
+    "y_offsets_mm": [
+      55,
+      125
+    ],
+    "shaft_diameter_mm": 4,
+    "shaft_length_mm": 55,
+    "head_diameter_mm": 8,
+    "head_length_mm": 3,
+    "washer_diameter_mm": 9,
+    "washer_thickness_mm": 1,
+    "support_clearance_diameter_mm": 4.5,
+    "wall_pilot_diameter_mm_candidate": 2.5,
+    "wall_pilot_depth_mm_candidate": 13,
+    "driver_radius_mm": 8,
+    "driver_length_mm": 100,
+    "status": "wood screw geometry candidate; pilot depends on purchased screw and plywood coupon"
+  },
+  "legs": {
+    "status": "REFERENCE_58_MM_PATTERN_CANDIDATE_NOT_RELEASED",
+    "pitch_mm": 58,
+    "alternative_jig_pitch_mm": 57,
+    "hole_diameter_mm_candidate": 11,
+    "block_leg_xy_mm": 54,
+    "lamination_count": 7,
+    "lamination_thickness_mm": 18,
+    "front_block_bottom_z_mm": 54,
+    "rear_block_bottom_z_mm": 36,
+    "front_lower_bolt_z_mm_candidate": 96,
+    "rear_lower_bolt_z_mm_candidate": 64,
+    "plate_width_mm_candidate": 60,
+    "plate_thickness_mm_candidate": 3,
+    "plate_height_mm_candidate": 126,
+    "status_vertical_datums": "explicit packaging choices, not jig dimensions; actual legs/levelers and play height may change them",
+    "retention": "load-rated metal threaded backing required; never thread leg bolts into plywood alone"
+  },
+  "collision_threshold_mm3": 0.01,
+  "freeze_record": "config/shelf_layout_freeze_v32.json"
+}

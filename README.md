@@ -1,5 +1,7 @@
 # Virtual Pinball Cabinet
 
+[New development: fixed shelf heights, support drilling and leg corner planning](docs/SUPPORT_LEG_CNC_V32.md). The supplied printable leg jig is archived with attribution; its measured57mm pitch differs from the linked58mm template. Hardware and CNC release remain open.
+
 ## Current review entry point
 
 Review the `feat/cabinet-review-v32` branch. The owner-approved shelf layout is frozen at Y120/565/865 with 295/150 mm clear gaps and four top-release screws per shelf. Start with the [before/after plan](exports/generated/side-panel-v32/09-shelf-spacing.png), [current shelf explanation](docs/SIMPLE_SHELVES_V32.md), and [current shelf CAD](exports/generated/side-panel-v32/simple-shelves-proposal.FCStd). The older cabinet overview below is the preserved baseline, not the revised shelf scene.

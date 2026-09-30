@@ -1,5 +1,7 @@
 # V32 panel closure sequence
 
+Current continuation: [shelf heights, support anchorage and leg-corner CNC planning](SUPPORT_LEG_CNC_V32.md). Shelf height/layout fixed; candidate leg datums and hardware holes remain unqualified. Distinguish 57mm supplied jig from the separate58mm reference.
+
 **Shelf layout frozen by owner, 2026-09-29:** Y120/565/865, clear gaps295/150 mm and four top-release screws. Preserve this boundary while resolving side hardware, hinge/props and loads. See `config/shelf_layout_freeze_v32.json`. Permanent side machining and manufacturing remain open.
 
 > Current shelf direction: [four screws accessible from above](SIMPLE_SHELVES_V32.md), fixed supports and retained crossmembers. Earlier removable-support/nut-cover entries below are historical.

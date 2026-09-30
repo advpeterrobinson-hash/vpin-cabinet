@@ -7,3 +7,5 @@ Start with [references/links.txt](references/links.txt): plain-text sources, dat
 New references belong here with a contextual entry in `links.txt`. Record filename, source, review scope, retrieval failures and SHA256 in `local-files.json` for saved files. Do not silently replace an unavailable PDF with an unrelated edition. Existing `reference/` assets remain in place and read-only.
 
 Current assessment: [shelf joint and plunger references](../docs/SHELF_JOINT_REFERENCE_V32.md). This library is located in the active V32 worktree, not the protected original checkout.
+
+Exception with verified source-page licensing: the owner-supplied PiAnt leg jig is publicly archived unchanged under `references/3d-print/piant/`, with CC BY4.0 attribution and a dimensional audit. Its original license is separate from the project license. See [leg and support planning](../docs/SUPPORT_LEG_CNC_V32.md). Other third-party originals remain local-only unless individually cleared.

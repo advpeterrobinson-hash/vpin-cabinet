@@ -30,6 +30,12 @@
       "bytes": 2200729,
       "sha256": "2dbc63efeafa2baeed372079fc7807e6959b0e2480e06d2eafc91d7b4a8ea054",
       "distribution": "local only; third-party rights retained"
+    },
+    {
+      "file": "local/3d-print/Pinball_Leg_Hole_Guide.stl",
+      "bytes": 937884,
+      "sha256": "f7f273de63b69551472ad9e986e051e2f8757507cf46350962f6a46647a17f48",
+      "distribution": "CC-BY-4.0; public attributed copy in references/3d-print/piant"
     }
   ]
 }

@@ -1,5 +1,7 @@
 # Virtual Pinball Cabinet
 
+[Novo desenvolvimento: alturas congeladas, furação dos apoios e reforços das pernas](docs/SUPPORT_LEG_CNC_V32.md). O gabarito STL foi arquivado com atribuição; seu entre-eixos medido de57 mm difere do segundo modelo de58 mm. Ferragens e liberação CNC continuam pendentes.
+
 ## Por onde começar a revisão atual
 
 Use a branch `feat/cabinet-review-v32`. O layout aprovado das prateleiras está congelado em Y120/565/865, com vãos295/150 mm e quatro parafusos por cima em cada prateleira. Comece pela [comparação em planta](exports/generated/side-panel-v32/09-shelf-spacing.png), pela [explicação atual](docs/pt-BR/SIMPLE_SHELVES_V32.md) e pelo [CAD atual das prateleiras](exports/generated/side-panel-v32/simple-shelves-proposal.FCStd). As vistas antigas do gabinete abaixo representam a base preservada, não a nova posição das prateleiras.

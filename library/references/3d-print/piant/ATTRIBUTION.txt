@@ -1,0 +1,13 @@
+Pinball Leg Hole Drill Guide
+Creator: PiAnt
+Source: https://www.thingiverse.com/thing:4802189
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License terms: https://creativecommons.org/licenses/by/4.0/
+Original STL supplied by the project owner; archived without modification.
+No endorsement by the creator is implied. This STL retains CC BY 4.0, not the project CERN-OHL-S license.
+Source page structured metadata retrieved 2026-09-29 identifies PiAnt and CC BY 4.0.
+The supplied STL was not byte-compared to a fresh upstream download.
+STL has no intrinsic units. Interpret as mm only after a printed dimensional check.
+Measured section: approximately 57 mm pitch, 10 mm guide bores. Not the separate 58 mm Jeff13850 template.
+Printing scale: nominal 100%, no auto-fit scaling. Verify printed bores, pitch and corner seating before use.
+Drilling aid only; neither a structural part nor a substitute for matching the purchased leg and bracket.

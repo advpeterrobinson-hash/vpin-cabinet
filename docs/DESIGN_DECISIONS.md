@@ -203,3 +203,7 @@ Owner found S2/S3 too close. Revised proposal moves S2 from Y600 to565 and S3 fr
 ## DEC-OWNER-V32-SHELF-FREEZE — approved functional layout
 
 Owner explicitly approved and requested freezing on 2026-09-29: “Aprovado. Congele pra podermos seguir.” Freeze the layout in commit `1277f31`: S1 Y120, S2 Y565, S3 Y865; gaps295/150 mm; sizes560 ×150 ×12; underside heights160/180/240; four top screws with fixed supports and independent service direction. `config/shelf_layout_freeze_v32.json` records axes, staging positions and evidence hashes. Subsequent interface work must preserve this baseline; an unavoidable conflict needs an explicit owner-approved revision, not silent repositioning. Actual support anchorage, fasteners/insert pilots, hinge/props/harness, load proof and CNC tolerances are not frozen or approved for manufacturing. No geometry changed for this decision.
+
+## DEC-OWNER-V32-SHELF-HEIGHTS — explicit functional height freeze
+
+Owner requested defining/freezing heights while retaining approved shelf positions. Keep the already tested undersideZ160/180/240 and topZ172/192/252, relative to cabinet bottomZ0 (nominal floor topZ36). Preserve all frozen Y positions and service directions. `config/shelf_layout_freeze_v32.json` records this explicit height decision. The separate support/leg planning model does not approve pilot diameters, corner-leg datums, hardware or manufacturing. See SUPPORT_LEG_CNC_V32.

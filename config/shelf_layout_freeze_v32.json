@@ -69,5 +69,27 @@
     "exports/generated/side-panel-v32/simple-shelves-proposal.FCStd": "0ab0857d9bc5231a2a8d1c2eb03e3b5cb9f94dd5be175b5834619e298c01a668",
     "exports/generated/side-panel-v32/simple-shelves-validation.json": "c237921dc7afe4ad20d8cc86f638f7a899fac597e3e7bfc1d0732db206fedd06",
     "exports/generated/side-panel-v32/shelf-service-pose-screen.json": "77f392ac11d8c63bbfea1ecb189deb0570b6c2e51548a075ab9fa45936063fe0"
+  },
+  "height_freeze": {
+    "status": "FIXED_AT_OWNER_REQUEST",
+    "date": "2026-09-29",
+    "datum": "Z0 cabinet bottom; nominal floor upper surface Z36",
+    "underside_z_mm": [
+      160,
+      180,
+      240
+    ],
+    "top_z_mm": [
+      172,
+      192,
+      252
+    ],
+    "top_above_floor_mm": [
+      136,
+      156,
+      216
+    ],
+    "reason": "Retain tested clearance and removal routes with the approved Y layout; no geometry change",
+    "not_a_load_or_manufacturing_release": true
   }
 }

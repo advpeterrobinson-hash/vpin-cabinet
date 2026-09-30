@@ -1,0 +1,39 @@
+{
+  "source_sha256": "f7f273de63b69551472ad9e986e051e2f8757507cf46350962f6a46647a17f48",
+  "triangles": 18756,
+  "bounds_stl_units": [
+    [
+      -30.0,
+      -70.0,
+      0.0
+    ],
+    [
+      10.0,
+      10.0,
+      30.0
+    ]
+  ],
+  "units": "STL unitless; mm assumed, not manufacturing evidence",
+  "section_z": 22,
+  "circles": [
+    {
+      "center_xy": [
+        -9.699944748056266,
+        -1.4999303710261778
+      ],
+      "diameter_mm_assumed": 9.998533148342121,
+      "max_fit_error_mm_assumed": 0.003678147666859033
+    },
+    {
+      "center_xy": [
+        -9.69994399010485,
+        -58.49997508168168
+      ],
+      "diameter_mm_assumed": 9.998696696619476,
+      "max_fit_error_mm_assumed": 0.0036749223707506218
+    }
+  ],
+  "pitch_mm_assumed": 57.0000447106555,
+  "license": "CC-BY-4.0, PiAnt; see adjacent ATTRIBUTION.txt",
+  "scope": "Fits two circular sections; not print tolerance, mesh manifoldness or physical hardware qualification"
+}

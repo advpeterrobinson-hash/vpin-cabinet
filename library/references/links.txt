@@ -43,3 +43,16 @@ Referência de sistema excêntrico com recursos contra afrouxamento, descrição
 2026-09-29 | Fixação: fundamentos de madeira
 https://research.fs.usda.gov/fpl/wood-handbook
 Wood Handbook, US Forest Products Laboratory. Referência geral; não é ensaio da nossa junta ou base para atribuir capacidade ao compensado/insertos sem dados.
+
+2026-09-29 | Pernas: gabarito STL fornecido, autoria PiAnt
+https://www.thingiverse.com/thing:4802189/files
+Página original consultada por HTTP; metadados indicam CC BY 4.0. STL sem alteração em library/references/3d-print/piant/Pinball_Leg_Hole_Guide.stl com atribuição. Medição da malha: entre-eixos57 mm, não58; unidades mm presumidas. Não valida a perna física.
+
+2026-09-29 | Pernas: segundo gabarito, Jeff13850
+https://share.google/JLtYjoBspN72hC42W
+Resolve para https://www.thingiverse.com/thing:7346262
+Título anuncia58 mm para Williams/Bally. Página credita conceito original de55 mm a Stef26 e declara CC BY-SA4.0. Somente link arquivado; nenhum STL desse segundo modelo foi recebido/baixado.
+
+2026-09-29 | Apoios: exemplo de especificação de inserto M5
+https://www.inventables.com/products/threaded-inserts
+Página do fornecedor consultada: corpo9,5, comprimento10, piloto6 e profundidade11 mm. Exemplo para mostrar dependência do SKU; NÃO adotado como ferragem/CNC do V32.
