@@ -1,5 +1,7 @@
 # Renders
 
+Avanço: [eixos de fixação da lockdown e furo compartilhado](LOCKDOWN_INTERFACE_V32.md). Porta traseira aprovada; limitadores opcionais e feltro previstos pelo proprietário.
+
 **Atual:** [porta traseira com chave, abrindo para baixo](REAR_DOOR_V32.md), substituindo a tampa de quatro parafusos.
 
 Continuação em 2026-09-30: [fixação da tampa traseira, puxador e grades](REAR_HARDWARE_V32.md). Estudo separado; PC baixo e prateleiras preservados.

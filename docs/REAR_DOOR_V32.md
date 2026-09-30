@@ -6,7 +6,7 @@ A instrução do proprietário substitui a tampa removível por **uma porta com 
 
 ## Direção funcional
 
-Abertura para baixo, limitada a **110° em relação à posição fechada**, por dois limitadores laterais. A posição horizontal de90° foi comparada e rejeitada para retirada completa do PC: os fans e suas fixações ficam no caminho do conjunto baixo. A110°, a rota excepcional já estudada — levantar38 mm e deslocar500 mm para trás — passa com a porta aberta, sem removê-la. Isso é evidência geométrica, não prova de que todo reparo é acessível ou de que uma pessoa consegue manusear o PC nessa rota.
+**Desenho aprovado pelo proprietário em 2026-09-30. Limitadores opcionais.** A abertura para baixo foi verificada até **110° em relação à posição fechada**; esse ângulo é uma posição testada, não um batente obrigatório. A posição horizontal de90° foi comparada e rejeitada para retirada completa do PC: os fans e suas fixações ficam no caminho do conjunto baixo. A110°, a rota excepcional já estudada — levantar38 mm e deslocar500 mm para trás — passa com a porta aberta, sem removê-la. Isso é evidência geométrica, não prova de que todo reparo é acessível ou de que uma pessoa consegue manusear o PC nessa rota.
 
 Mantidos PCBase baixo, prateleiras aprovadas, perfil das laterais e abertura traseira340 ×293 mm. A folha permanece396 ×329 ×12 mm. Duas ventoinhas com grades acompanham a porta. O puxador foi elevado deZ130 paraZ190; a fechadura fica à direita, X450/Z350, com acesso externo à chave.
 
@@ -26,7 +26,9 @@ Eixo horizontal candidato: Y1324,1/Z54. Duas dobradiças com faixas X180..228 eX
 
 Os pontos candidatos das passagens metálicas são X190/218 e382/410, emZ36 na folha fixa eZ72 na folha móvel fechada. Pilotos/fixações na madeira aguardam comprimento e ferragem reais. O conjunto deverá chegar pronto para montagem com ferramentas comuns, sem fabricar dobradiças em casa.
 
-Dois limitadores de abertura são obrigatórios nesta direção, para que a porta não dependa do chicote nem caia livremente. O desenho mostra **linhas de reserva**, não cabos ou ferragens qualificados: pontos fixos externos X90/510, Y1324,1/Z200, e pontos na porta fechada X110/490, Y1322,1/Z180. A escolha externa evita atravessar o caminho central do PC. Ancoragens, folga quando fechados, afastamento das bordas, comprimento útil, resistência e retenção ainda precisam ser detalhados e ensaiados. Não tratar as linhas como um sistema já instalado/validado. A porta aberta não é mesa, degrau ou apoio para o computador.
+O proprietário tornou os limitadores opcionais e pediu para não investir tempo no detalhamento desse acessório. Não há furação, ancoragens ou cabos de limitador a fabricar no pacote atual. A porta será aberta raramente após a conclusão.
+
+Para proteger a pintura, o proprietário pretende colar um feltro protetor de cadeira no contato real entre o miolo da fechadura e a parte inferior do gabinete. Ponto e ângulo desse contato serão conferidos na montagem; não foram medidos no CAD. O feltro é proteção superficial, não foi tratado como trava ou suporte estrutural. O movimento além de110° e a posição livre de repouso não foram validados. Isso não reabre a aprovação funcional da porta nem torna o acessório opcional um bloqueio de projeto.
 
 O chicote de baixa tensão das ventoinhas deverá ter folga e alívio de tração junto à região da dobradiça. Manter conector para desmontagem eventual, mas **não exigir desconexão na abertura habitual**. Ainda não foram modelados cabo real, raio de curvatura, posição do conector ou seu ciclo de flexão. Rede elétrica permanece na parte fixa, protegida.
 
@@ -40,7 +42,7 @@ Os20 objetos de fechamento antigo — parafusos, arruelas, receptores e seus par
 
 `bash tools/run_rear_door_v32.sh` exige `REAR_DOOR_PASS`: **14 verificações,194 sólidos por posição**, incluindo envelopes herdados. Validade e identidade ao salvar/reabrir; simetria das dobradiças; sólidos instalados; giro da lingueta0..90° e abertura0..110°, ambos amostrados a cada2°; rota excepcional do PC com porta aberta; preservação de laterais/prateleiras/PC e dos bytes dos arquivos de entrada. Controles negativos: porta trancada não abre e porta a90° obstrui a retirada do PC.
 
-As amostras não comprovam movimento contínuo entre elas. Limitadores/chicote reais, ferramenta/mão/chave, ferragens de fixação, cargas, proteção/ventilação e condições de fabricação seguem pendentes. **A direção funcional é porta com chave; fabricação ainda não liberada.**
+As amostras não comprovam movimento contínuo entre elas. Chicote real, contato final com feltro, ferramenta/mão/chave, ferragens de fixação, cargas, proteção/ventilação e condições de fabricação seguem pendentes. **A direção funcional é porta com chave; fabricação ainda não liberada.**
 
 Renderizar: `uv run --with matplotlib python tools/render_rear_door_v32.py`.
 

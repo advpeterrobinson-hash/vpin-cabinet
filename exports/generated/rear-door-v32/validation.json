@@ -24,17 +24,24 @@
     "lock_bore_across_flats_mm_candidate": 17,
     "lock_cam_length_mm_candidate": 35,
     "handle_z_mm": 190,
-    "support": "Two side limit straps/cables must hold door at 110 degrees; actual attachments and rating not qualified. Door is not a shelf or PC support.",
+    "support": "Optional side limit straps/cables, per owner approval 2026-09-30. No further accessory detailing required. 110 degrees is a checked service pose, not a prescribed stop.",
     "optional_latch": "Owner may install simple unkeyed slide bolt; no geometry/instructions requested.",
-    "note": "All hardware shapes and hole sizes are candidate engineering choices, not selected supplier specifications. Fan low-voltage harness must flex with door; no routine unplugging or removal of closure screws."
+    "note": "All hardware shapes and hole sizes are candidate engineering choices, not selected supplier specifications. Fan low-voltage harness must flex with door; no routine unplugging or removal of closure screws.",
+    "owner_approval": {
+      "date": "2026-09-30",
+      "rear_door_design_approved": true,
+      "limiters_optional": true,
+      "rare_service_expected": true,
+      "paint_protection": "Owner will apply adhesive chair-protector felt at actual lock-body contact with lower cabinet surface. Contact angle/point to be established on assembly; not a structural restraint."
+    }
   },
   "source_hashes": {
-    "config/rear_door_v32.json": "756f68917b9e6d1d995313b1d61a0d8fb84be2db3d28c09cb2fba7a0f0229aea",
+    "config/rear_door_v32.json": "8449dcd387fab113e3a752b382776726819c0f2449243cabab9e8100c64022d5",
     "exports/generated/rear-hardware-v32/validation.json": "896dbc9b6ade1f927b64cfa81c2120acae105dabbcf38a24ac40095fcad74f7b",
     "exports/generated/panel-closure-v32/validation.json": "db0520065a3dcce6c9bed3d6a95690c4395b5286f013e23e73507ef4341c1e38",
     "exports/generated/rear-hardware-v32/rear-hardware-study.FCStd": "b9ec4fd79c5cd7a2874666ab99734bcfaf0c7d57d20c66cf1b8dff29c22625c8",
     "exports/generated/panel-closure-v32/panel-closure-study.FCStd": "8660c93cedeff56d12aa18666d8db92b4d56e1ea5fcb4caf766f74d68263bd01",
-    "tools/rear_door_v32_entry.py": "907cf0133bdad4b7df2b7d1daf2a431841cf51e461b452937143bafd397e7a69"
+    "tools/rear_door_v32_entry.py": "5e6a6030f839b015f970c295586da3039aedae722b6ad555d92d53c9df8ccb48"
   },
   "checks": [
     {
@@ -387,61 +394,22 @@
     "CandidateKeyLockShaft",
     "CandidateKeyLockCam"
   ],
-  "support_candidates": [
-    {
-      "fixed_xyz_mm": [
-        90.0,
-        1324.1,
-        200.0
-      ],
-      "door_closed_xyz_mm": [
-        110,
-        1322.1,
-        180
-      ],
-      "door_open_xyz_mm": [
-        110.0,
-        1443.1853105056757,
-        12.784847182537533
-      ],
-      "taut_length_mm_candidate": 222.77976708556602,
-      "status": "REQUIRES_REAL_ANCHORS_LOAD_RATING_AND_CLOSED_STOW"
-    },
-    {
-      "fixed_xyz_mm": [
-        510.0,
-        1324.1,
-        200.0
-      ],
-      "door_closed_xyz_mm": [
-        490,
-        1322.1,
-        180
-      ],
-      "door_open_xyz_mm": [
-        490.0,
-        1443.1853105056757,
-        12.784847182537533
-      ],
-      "taut_length_mm_candidate": 222.77976708556602,
-      "status": "REQUIRES_REAL_ANCHORS_LOAD_RATING_AND_CLOSED_STOW"
-    }
-  ],
+  "support_candidates": [],
   "saved_proposals": {
     "closed": {
       "path": "exports/generated/rear-door-v32/rear-door-closed.FCStd",
-      "sha256": "190e3c60ad0961f76453d2e303151e98160d34e5ed985e17bfbea9399198c4cd",
+      "sha256": "26cd6d772a6f9928c0ee85f6d1f7aa9fe299d8fc72da5fad224f11664b6c27f5",
       "solids": 194
     },
     "open": {
       "path": "exports/generated/rear-door-v32/rear-door-open.FCStd",
-      "sha256": "42eb127597d9edb9a250551b26e07ca6ba72aaa4e780c9dc0afc2ef0dcda183f",
+      "sha256": "fc527f1741a6dbb78f8d6dc11738a3f935ca8487afc0278ea4cb80ef0f777245",
       "solids": 194
     }
   },
   "unverified": [
     "Actual hinges/lock/cam/keeper fasteners and detailed wood pilots",
-    "Both support straps/anchors, load proof and folded stow",
+    "Actual unrestrained resting/contact angle and felt placement; beyond110 degrees not screened",
     "Fan harness slack/bend radius/connector placement",
     "Sweep between2-degree samples and human access",
     "Real legs/room/ground clearance; no use of open door as workbench",

@@ -85,14 +85,8 @@ for angle,pose in poses.items():
  pc_results[str(angle)]=conf
 check('PC exceptional route clears door at110',not pc_results[str(c['opening_degrees'])])
 check('negative 90deg door obstructs PC route',bool(pc_results['90']))
-# Support cable geometry: minimum straight length when taut at110, two symmetric sides.
-# No taut support represented at closed angle: it must fold/slacken into a reserved side region.
+# Limiters are owner-optional; do not develop mounts or stow geometry.
 restraints=[]
-for x,door_x in [(90,110),(510,490)]:
- anchor=V(x,1324.1,200);end=V(door_x,1322.1,180)
- placement=A.Placement(V(0,0,0),A.Rotation(V(1,0,0),-c['opening_degrees']),axis)
- end=placement.multVec(end);dv=end-anchor
- restraints.append({'fixed_xyz_mm':[anchor.x,anchor.y,anchor.z],'door_closed_xyz_mm':[door_x,1322.1,180],'door_open_xyz_mm':[end.x,end.y,end.z],'taut_length_mm_candidate':dv.Length,'status':'REQUIRES_REAL_ANCHORS_LOAD_RATING_AND_CLOSED_STOW'})
 mirror=A.Matrix();mirror.A11=-1;mirror.A14=600
 for stem in ['CandidateHingeFixed','CandidateHingeMoving']:
  reflected=scene[stem+'1'].transformGeometry(mirror)
@@ -113,7 +107,7 @@ for label,shapes in [('closed',scene),('open',dict(scene,**poses[c['opening_degr
    vs,fs=s.tessellate(.7);mesh.append({'name':n,'vertices':[[v.x,v.y,v.z] for v in vs],'faces':fs})
  meshes[label]=mesh;A.closeDocument(saved.Name)
 check('input files unchanged',all(sha(R/n)==h for n,h in inputs.items()))
-report={'manufacturing_ready':False,'config':c,'source_hashes':inputs,'checks':checks,'closed_conflicts':installed,'cam_unlock_conflicts':unlock_conf,'door_sweep_conflicts':sweep_conf,'locked_opening_rejected':locked_hits,'pc_route_conflicts':pc_results,'retired_objects':retired,'moving_objects':moving,'support_candidates':restraints,'saved_proposals':saved_files,'unverified':['Actual hinges/lock/cam/keeper fasteners and detailed wood pilots','Both support straps/anchors, load proof and folded stow','Fan harness slack/bend radius/connector placement','Sweep between2-degree samples and human access','Real legs/room/ground clearance; no use of open door as workbench','All prior safety/thermal/manufacturing qualifications remain open']}
+report={'manufacturing_ready':False,'config':c,'source_hashes':inputs,'checks':checks,'closed_conflicts':installed,'cam_unlock_conflicts':unlock_conf,'door_sweep_conflicts':sweep_conf,'locked_opening_rejected':locked_hits,'pc_route_conflicts':pc_results,'retired_objects':retired,'moving_objects':moving,'support_candidates':restraints,'saved_proposals':saved_files,'unverified':['Actual hinges/lock/cam/keeper fasteners and detailed wood pilots','Actual unrestrained resting/contact angle and felt placement; beyond110 degrees not screened','Fan harness slack/bend radius/connector placement','Sweep between2-degree samples and human access','Real legs/room/ground clearance; no use of open door as workbench','All prior safety/thermal/manufacturing qualifications remain open']}
 (O/'validation.json').write_text(json.dumps(report,indent=2)+'\n');(O/'mesh.json').write_text(json.dumps(meshes)+'\n')
 assert all(x['pass'] for x in checks),[x for x in checks if not x['pass']]
 print('REAR_DOOR_PASS',len(checks),'checks;',len(scene),'solids per pose; CNC HOLD')

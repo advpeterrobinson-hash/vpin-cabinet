@@ -27,10 +27,8 @@ def trans(points):return (np.array(points)-axis)@rot.T+axis
 b.add_patch(Polygon(trans([[1308.1,54],[1320.1,54],[1320.1,383],[1308.1,383]]),facecolor='#e3c89e',edgecolor='#756046'))
 b.add_patch(Polygon(trans([[1283.1,220],[1308.1,220],[1308.1,340],[1283.1,340]]),facecolor='#506876'))
 b.add_patch(Circle(axis,4,color='#354c58'))
-# Side projection of the external limiter, shown as a reservation, not certified hardware.
-t=r['support_candidates'][0];p=np.array([t['fixed_xyz_mm'][1:],t['door_open_xyz_mm'][1:]]);b.plot(p[:,0],p[:,1],ls='--',color='#ad4935',lw=2)
-b.annotate('Limitadores laterais\n(a qualificar)',xy=(1370,125),xytext=(1450,265),ha='center',arrowprops={'arrowstyle':'->'},fontsize=10)
-b.annotate('110°',xy=(1480,-20),xytext=(1480,80),arrowprops={'arrowstyle':'->'},fontsize=12,weight='bold')
+b.text(1440,270,'Limitadores opcionais.\nFeltro no contato real do miolo.',ha='center',fontsize=10)
+b.annotate('110°\npose testada',xy=(1480,-20),xytext=(1345,-75),arrowprops={'arrowstyle':'->'},fontsize=10,weight='bold')
 b.annotate('',xy=(1620,110),xytext=(1320,110),arrowprops={'arrowstyle':'->','color':'#486b85','lw':2});b.text(1470,140,'Rota do PC após elevar 38 mm',ha='center',fontsize=9,color='#486b85')
 b.set(xlim=(1160,1660),ylim=(-120,625),aspect='equal');b.axis('off')
 fig.suptitle('V32 • Abrir com chave, baixar a porta e fechar',x=.04,ha='left',fontsize=18,weight='bold')

@@ -8,7 +8,7 @@ The primary product is not merely one cabinet. The primary product is a **replic
 
 ## Source of truth
 
-- **Current rear closure (owner correction, 2026-09-30):** keyed hinged door, downward opening study110 degrees; start with `docs/REAR_DOOR_V32.md` / `tools/run_rear_door_v32.sh`. The four-screw removable cover and its nutplates are superseded. Two opening limiters required; real hardware/loads/harness remain unqualified. Optional unkeyed slide bolt is owner-installed without drawing/instructions. Preserve low fixed PC base.
+- **Current rear closure (owner correction, 2026-09-30):** keyed hinged door, downward opening study110 degrees; start with `docs/REAR_DOOR_V32.md` / `tools/run_rear_door_v32.sh`. The four-screw removable cover and its nutplates are superseded. Owner approved door and made limiters optional (2026-09-30); do not spend time detailing them. Owner will add chair-protector felt at actual lock-body/lower-cabinet contact. 110 degrees is a screened pose, not a required mechanical stop; actual resting/contact angle remains unverified. Optional unkeyed slide bolt is owner-installed without drawing/instructions. Preserve low fixed PC base.
 
 
 - **Owner-frozen shelf layout (2026-09-29):** preserve `config/shelf_layout_freeze_v32.json` (Y120/565/865; gaps295/150; four top screws and independent service direction). Do not silently reopen placement. Hardware/load/CNC qualification remains pending.

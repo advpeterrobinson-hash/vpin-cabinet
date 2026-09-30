@@ -1,0 +1,39 @@
+{
+  "status": "REFERENCE_AXES_NO_NEW_CUTS",
+  "manufacturing_ready": false,
+  "source_report": "exports/generated/rear-door-v32/validation.json",
+  "supplier_receiver_reference": "A-16773-1",
+  "guide_receiver_reference_as_written": "A-16673-1 / A-9174-4",
+  "supplier_guide_part_number_discrepancy_unresolved": true,
+  "view_in_source": "INSIDE_OF_FRONT_WALL",
+  "offsets_from_center_in_source_inch": [
+    -7,
+    0,
+    9.125
+  ],
+  "front_view_axes_x_mm": [
+    477.8,
+    300,
+    68.225
+  ],
+  "source_row_below_inside_top_mm": 34.925,
+  "source_row_z_mm": 365.125,
+  "adopted_candidate_row_z_mm": 365.096875,
+  "row_alignment_reason": "Keep existing coin-door upper center axis; 0.028125mm delta from converted reference; do not create duplicate center hole.",
+  "source_image_diameter_mm": 7.14375,
+  "source_prose_diameter_mm": 7.9375,
+  "hole_diameter_adopted": null,
+  "tool_radius_mm_candidate": 10,
+  "tool_start_y_mm_candidate": 26,
+  "tool_length_mm_candidate": 100,
+  "source_images": [
+    {
+      "file": "library/references/local/lockbar-receiver-bolts.png",
+      "sha256": "6067b07ee88b42279850c5a59a05c6f587064db11663f35fc913d2d0a2b7834c"
+    },
+    {
+      "file": "library/references/local/front-panel-lockbar-and-door-bolts.png",
+      "sha256": "1e628d4ea8d5e943c85dc378a479eb0dc7940cf6ce73a545a21146c40b02b7c6"
+    }
+  ]
+}

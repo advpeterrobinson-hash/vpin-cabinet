@@ -1,0 +1,120 @@
+{
+  "manufacturing_ready": false,
+  "source_hashes": {
+    "config/lockdown_interface_v32.json": "d3319a0c60a4535733aaa0bc14d054fc786ee8efe99a7731a2cc907e6d02c5d2",
+    "exports/generated/rear-door-v32/validation.json": "8dc411b8572ca4ec468643e1889518c1a0e771d91b929644dc0604223c9f42f5",
+    "exports/generated/rear-door-v32/rear-door-closed.FCStd": "26cd6d772a6f9928c0ee85f6d1f7aa9fe299d8fc72da5fad224f11664b6c27f5",
+    "exports/generated/side-panel-v32/shelf-service-pose-screen.json": "77f392ac11d8c63bbfea1ecb189deb0570b6c2e51548a075ab9fa45936063fe0",
+    "tools/lockdown_interface_v32_entry.py": "2ba0666b7c2d0aa7280b7be32d01685a782420dfa3304e88fd73fd9791263a09"
+  },
+  "config": {
+    "status": "REFERENCE_AXES_NO_NEW_CUTS",
+    "manufacturing_ready": false,
+    "source_report": "exports/generated/rear-door-v32/validation.json",
+    "supplier_receiver_reference": "A-16773-1",
+    "guide_receiver_reference_as_written": "A-16673-1 / A-9174-4",
+    "supplier_guide_part_number_discrepancy_unresolved": true,
+    "view_in_source": "INSIDE_OF_FRONT_WALL",
+    "offsets_from_center_in_source_inch": [
+      -7,
+      0,
+      9.125
+    ],
+    "front_view_axes_x_mm": [
+      477.8,
+      300,
+      68.225
+    ],
+    "source_row_below_inside_top_mm": 34.925,
+    "source_row_z_mm": 365.125,
+    "adopted_candidate_row_z_mm": 365.096875,
+    "row_alignment_reason": "Keep existing coin-door upper center axis; 0.028125mm delta from converted reference; do not create duplicate center hole.",
+    "source_image_diameter_mm": 7.14375,
+    "source_prose_diameter_mm": 7.9375,
+    "hole_diameter_adopted": null,
+    "tool_radius_mm_candidate": 10,
+    "tool_start_y_mm_candidate": 26,
+    "tool_length_mm_candidate": 100,
+    "source_images": [
+      {
+        "file": "library/references/local/lockbar-receiver-bolts.png",
+        "sha256": "6067b07ee88b42279850c5a59a05c6f587064db11663f35fc913d2d0a2b7834c"
+      },
+      {
+        "file": "library/references/local/front-panel-lockbar-and-door-bolts.png",
+        "sha256": "1e628d4ea8d5e943c85dc378a479eb0dc7940cf6ce73a545a21146c40b02b7c6"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check": "preserve upper shared coin door bore",
+      "pass": true
+    },
+    {
+      "check": "outer reference axes lie in existing front material",
+      "pass": true
+    },
+    {
+      "check": "converted reference agrees within0.03mm with existing center datum",
+      "pass": true
+    },
+    {
+      "check": "source bore discrepancy recorded not silently selected",
+      "pass": true
+    },
+    {
+      "check": "candidate tool corridors clear with display raised100deg",
+      "pass": true
+    },
+    {
+      "check": "negative closed display obstructs candidate tool corridors",
+      "pass": true
+    },
+    {
+      "check": "source geometry and input bytes unchanged",
+      "pass": true
+    }
+  ],
+  "axes": [
+    {
+      "x_mm": 477.8,
+      "z_mm": 365.096875,
+      "new_hole": true
+    },
+    {
+      "x_mm": 300,
+      "z_mm": 365.096875,
+      "new_hole": false
+    },
+    {
+      "x_mm": 68.225,
+      "z_mm": 365.096875,
+      "new_hole": true
+    }
+  ],
+  "closed_tool_conflicts": [
+    {
+      "axis_x_mm": 477.8,
+      "obstacle": "PLAYFIELD_ENVELOPE",
+      "mm3": 26721.76852011411
+    },
+    {
+      "axis_x_mm": 300,
+      "obstacle": "PLAYFIELD_ENVELOPE",
+      "mm3": 26721.76852011401
+    },
+    {
+      "axis_x_mm": 68.225,
+      "obstacle": "PLAYFIELD_ENVELOPE",
+      "mm3": 26721.768520114107
+    }
+  ],
+  "raised_tool_conflicts": [],
+  "unverified": [
+    "Actual receiver envelope, lever/tongues and nut/fastener stack",
+    "Complete hand/tool approach from coin door and real raised-playfield support",
+    "Selected mounting diameter and height against completed glass/siderails/bar",
+    "No receiver solid added and no permanent wood cut"
+  ]
+}

@@ -1,18 +1,35 @@
 {
- "status":"OWNER_DIRECTED_KEYED_DOWNWARD_DOOR_STUDY",
- "manufacturing_ready":false,
- "source_report":"exports/generated/rear-hardware-v32/validation.json",
- "shell_report":"exports/generated/panel-closure-v32/validation.json",
- "hinge_axis_xyz_mm":[300,1324.1,54],
- "opening_degrees":110,
- "sample_step_degrees":2,
- "hinge_start_x_mm":[180,372],
- "lock_center_xz_mm":[450,350],
- "lock_bore_diameter_mm_candidate":19,
- "lock_bore_across_flats_mm_candidate":17,
- "lock_cam_length_mm_candidate":35,
- "handle_z_mm":190,
- "support":"Two side limit straps/cables must hold door at 110 degrees; actual attachments and rating not qualified. Door is not a shelf or PC support.",
- "optional_latch":"Owner may install simple unkeyed slide bolt; no geometry/instructions requested.",
- "note":"All hardware shapes and hole sizes are candidate engineering choices, not selected supplier specifications. Fan low-voltage harness must flex with door; no routine unplugging or removal of closure screws."
+  "status": "OWNER_DIRECTED_KEYED_DOWNWARD_DOOR_STUDY",
+  "manufacturing_ready": false,
+  "source_report": "exports/generated/rear-hardware-v32/validation.json",
+  "shell_report": "exports/generated/panel-closure-v32/validation.json",
+  "hinge_axis_xyz_mm": [
+    300,
+    1324.1,
+    54
+  ],
+  "opening_degrees": 110,
+  "sample_step_degrees": 2,
+  "hinge_start_x_mm": [
+    180,
+    372
+  ],
+  "lock_center_xz_mm": [
+    450,
+    350
+  ],
+  "lock_bore_diameter_mm_candidate": 19,
+  "lock_bore_across_flats_mm_candidate": 17,
+  "lock_cam_length_mm_candidate": 35,
+  "handle_z_mm": 190,
+  "support": "Optional side limit straps/cables, per owner approval 2026-09-30. No further accessory detailing required. 110 degrees is a checked service pose, not a prescribed stop.",
+  "optional_latch": "Owner may install simple unkeyed slide bolt; no geometry/instructions requested.",
+  "note": "All hardware shapes and hole sizes are candidate engineering choices, not selected supplier specifications. Fan low-voltage harness must flex with door; no routine unplugging or removal of closure screws.",
+  "owner_approval": {
+    "date": "2026-09-30",
+    "rear_door_design_approved": true,
+    "limiters_optional": true,
+    "rare_service_expected": true,
+    "paint_protection": "Owner will apply adhesive chair-protector felt at actual lock-body contact with lower cabinet surface. Contact angle/point to be established on assembly; not a structural restraint."
+  }
 }

@@ -150,7 +150,7 @@ Audio-only mode:
 
 Reachable hazardous voltage is a blocking defect. Ordinary/keyed service areas must not expose bare mains terminals.
 
-Rear door: unlock with key, open downward, service and close. Two opening limiters and a flexing low-voltage fan harness are required; no routine screw removal or fan disconnection. Optional owner-installed unkeyed slide bolt needs no project drawing.
+Rear door: unlock with key, open downward, service and close. Opening limiters are optional per owner; a flexing low-voltage fan harness is required; no routine screw removal or fan disconnection. Optional owner-installed unkeyed slide bolt needs no project drawing.
 
 ## Service I/O
 
@@ -188,6 +188,6 @@ Before cabinet production:
 - measure actual hardware that controls hole patterns
 - complete dry-fit and collision checks
 - proof-test classic leg/bracket corners and positive restraint of the fixed PC/base
-- proof-fit rear PC door/hinges/key lock/opening limiters before final rear-panel CNC release
+- proof-fit rear PC door/hinges/key lock before final rear-panel CNC release
 
 No current engineering branch is approved for production CNC yet.

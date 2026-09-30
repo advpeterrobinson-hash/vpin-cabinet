@@ -62,3 +62,11 @@ https://www.marcospecialties.com/pinball-parts/A-19514
 Identifica a perna A-19514 citada no Pinscape enviado: comprimento nominal 28-1/2 pol. = 723,9 mm. Comprimento da peça não é altura do gabinete montado. Página consultada; sem cópia redistribuída.
 https://virtuapin.net/index.php?main_page=product_info&products_id=34
 Barra lockdown customizada compatível por padrão com receptores WMS. Pedido usa largura externa do gabinete SEM siderails; fornecedor acrescenta 1/4 pol. para encaixe. Para nosso corpo nominal: informar 600 mm (23,62205 pol.), não 606,35 mm. Geometria de linguetas e receptor ainda depende do desenho do conjunto.
+
+2026-09-30 — Lockdown: avanço da interface com o painel frontal
+https://www.marcospecialties.com/pinball-parts/A-16773-1
+Listagem do receptor WPC/WPC95 com mola de retorno. Número difere de A-16673-1 transcrito do Pinscape; registrar discrepância e usar SKU do fornecedor na seleção, sem inferir intercambialidade. Página encontrada na busca; acesso direto posterior indisponível.
+https://head.pinscape-build-guide.pages.dev/images/lockbar-receiver-bolts.png
+Figura citada no MHT enviado: receptor compartilha o parafuso central superior da porta de moedas. Download e inspeção visual; cópia local privada.
+https://head.pinscape-build-guide.pages.dev/images/front-panel-lockbar-and-door-bolts.png
+Figura cotada vista POR DENTRO da frente: centros assimétricos a7 e9-1/8 polegadas do centro; linha a1-3/8 polegadas abaixo da borda superior interna; Ø9/32. Atenção à inversão X e diferença para Ø5/16 no texto do guia. Referência de planejamento, sem recorte adotado.
