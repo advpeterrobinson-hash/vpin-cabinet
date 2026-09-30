@@ -8,6 +8,8 @@ The primary product is not merely one cabinet. The primary product is a **replic
 
 ## Source of truth
 
+- Current stage: rear functional layout closed (not manufacturing release), see `docs/REAR_CLOSURE_STATUS_V32.md`. Separate floor study `docs/FLOOR_DETAIL_V32.md` / `tools/run_floor_detail_v32.sh`: R3 intakes, wider removable filter-holder frames and8 candidate through-holes. Rear/shelves/lowPC untouched; subwoofer hardware and floor load qualification remain pending.
+
 - Corner relief audit: `docs/CORNER_RELIEF_V32.md`, `tools/run_corner_relief_v32.sh`. Separate R3 guide trial, not adopted production geometry. Six guide slots have25mm bottom clearance; captured-shell corner relief remains pending. Never claim all dogbones/CAM are complete; actual cutter is unconfirmed.
 
 - Latest connector service screen: `docs/CONNECTOR_FIT_V32.md` and `tools/run_connector_fit_v32.sh`; separate fit coupon, no cabinet geometry change. Mains enclosure must allow internal nut service; RJ45 socket/body access remains unresolved. Candidate bolt stacks are not selected hardware.

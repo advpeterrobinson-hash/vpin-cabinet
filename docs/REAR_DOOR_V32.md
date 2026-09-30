@@ -1,3 +1,5 @@
+> Historical door study below includes door-mounted fans; current fans/wiring are fixed. See [current rear closure status](REAR_CLOSURE_STATUS_V32.md) before using this earlier evidence.
+
 # V32 — porta traseira com chave, abertura para baixo
 
 **Atualização:** [fans fixos acima da porta, energia/Ethernet, piso e furação candidata da lockdown](FIXED_REAR_SERVICES_V32.md). Fans não acompanham mais a porta nesta proposta.

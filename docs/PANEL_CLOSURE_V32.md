@@ -1,3 +1,5 @@
+> Etapa atual: [traseira definida funcionalmente](REAR_CLOSURE_STATUS_V32.md), com qualificação de ferragens pendente. Avanço para [chapa inferior e fixação dos filtros](FLOOR_DETAIL_V32.md): estudo separado, preserva todo o conjunto traseiro.
+
 > Revisão de usinagem: [dogbones e cantos internos](CORNER_RELIEF_V32.md). R3 ensaiado nas seis guias sem necessidade de dogbone na posição atual; alívios da caixa capturada e inventário CAM seguem pendentes.
 
 > Continuação: [fixação/acesso dos conectores e cupom de encaixe](CONNECTOR_FIT_V32.md). Estudo de parafusos passantes; proteção interna precisa permitir manutenção das porcas. CAD do gabinete preservado.

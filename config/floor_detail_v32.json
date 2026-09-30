@@ -1,0 +1,59 @@
+{
+  "status": "FLOOR_DETAIL_STUDY_NOT_MANUFACTURING_RELEASE",
+  "source_report": "exports/generated/fixed-rear-services-v32/validation.json",
+  "trial_corner_radius_mm": 3,
+  "confirmed_tool_diameter_mm": null,
+  "intakes_xywh_mm": [
+    [
+      100,
+      630,
+      100,
+      160
+    ],
+    [
+      400,
+      630,
+      100,
+      160
+    ]
+  ],
+  "filter_frame_border_mm": 15,
+  "filter_frame_thickness_mm": 8,
+  "filter_fixing_hole_diameter_mm": 4.5,
+  "filter_fixing_centers_xy_mm": [
+    [
+      92.5,
+      622.5
+    ],
+    [
+      207.5,
+      622.5
+    ],
+    [
+      92.5,
+      797.5
+    ],
+    [
+      207.5,
+      797.5
+    ],
+    [
+      392.5,
+      622.5
+    ],
+    [
+      507.5,
+      622.5
+    ],
+    [
+      392.5,
+      797.5
+    ],
+    [
+      507.5,
+      797.5
+    ]
+  ],
+  "candidate_bolt": "M4x35, assumed0.8mm top washer,18mm floor,8mm holder,0.8mm bottom washer and3.2mm nut. Actual hardware and thread length unconfirmed.",
+  "note": "8mm frames are candidate holder envelopes, not specified sheet stock or rated filters. Actual media and retention pending. No subwoofer screw pattern assumed; no added holes for unknown electronics."
+}
