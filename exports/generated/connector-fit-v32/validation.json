@@ -1,0 +1,233 @@
+{
+  "manufacturing_ready": false,
+  "source_hashes": {
+    "config/fixed_rear_services_v32.json": "ac296a76a0e98609a0a7e5525224836761ec48325886217328da770bddea2a1b",
+    "exports/generated/fixed-rear-services-v32/validation.json": "2f142e1771acd31f05d0febdc1195aa8d75c92b23e5941d4ee25bece4ebfbdba",
+    "exports/generated/fixed-rear-services-v32/closed.FCStd": "821d8fe6de0bec58d4c471681b30c465c93c8024a665190dddc6e195df8ecace",
+    "tools/connector_fit_v32_entry.py": "cee7031d32ec75d7b7c28087ee29921a92629170c8a215a5ddb4992b320f0f6d"
+  },
+  "checks": [
+    {
+      "check": "mains1 candidate shaft through wood bore",
+      "pass": true
+    },
+    {
+      "check": "mains1 trial stack leaves at least one diameter beyond nut",
+      "pass": true
+    },
+    {
+      "check": "mains1 nut envelope clears modeled cabinet",
+      "pass": true
+    },
+    {
+      "check": "mains1 enclosure obstruction explicitly detected",
+      "pass": true
+    },
+    {
+      "check": "mains1 corridor clear with enclosure removed",
+      "pass": true
+    },
+    {
+      "check": "mains2 candidate shaft through wood bore",
+      "pass": true
+    },
+    {
+      "check": "mains2 trial stack leaves at least one diameter beyond nut",
+      "pass": true
+    },
+    {
+      "check": "mains2 nut envelope clears modeled cabinet",
+      "pass": true
+    },
+    {
+      "check": "mains2 enclosure obstruction explicitly detected",
+      "pass": true
+    },
+    {
+      "check": "mains2 corridor clear with enclosure removed",
+      "pass": true
+    },
+    {
+      "check": "ethernet1 candidate shaft through wood bore",
+      "pass": true
+    },
+    {
+      "check": "ethernet1 trial stack leaves at least one diameter beyond nut",
+      "pass": true
+    },
+    {
+      "check": "ethernet1 nut envelope clears modeled cabinet",
+      "pass": true
+    },
+    {
+      "check": "ethernet1 tool corridor clears modeled cabinet",
+      "pass": true
+    },
+    {
+      "check": "ethernet2 candidate shaft through wood bore",
+      "pass": true
+    },
+    {
+      "check": "ethernet2 trial stack leaves at least one diameter beyond nut",
+      "pass": true
+    },
+    {
+      "check": "ethernet2 nut envelope clears modeled cabinet",
+      "pass": true
+    },
+    {
+      "check": "ethernet2 tool corridor clears modeled cabinet",
+      "pass": true
+    },
+    {
+      "check": "reject assumed RJ45 socket that overlaps circular body reservation",
+      "pass": true
+    },
+    {
+      "check": "RJ45 trial small washer has positive wood margin",
+      "pass": true
+    },
+    {
+      "check": "coupon valid single solid",
+      "pass": true
+    },
+    {
+      "check": "coupon200x120x18",
+      "pass": true
+    },
+    {
+      "check": "coupon saved reopened",
+      "pass": true
+    },
+    {
+      "check": "input files unchanged",
+      "pass": true
+    }
+  ],
+  "candidate_stacks": [
+    {
+      "interface": "mains",
+      "hole": 1,
+      "axis_xz_mm": [
+        75,
+        430
+      ],
+      "candidate_bolt": "M4x30",
+      "flange_assumed_mm": 2,
+      "thread_beyond_nut_mm": 6.0,
+      "internal_tool_conflicts": [
+        {
+          "part": "CandidateMainsEnclosure",
+          "mm3": 124.15574166986846
+        }
+      ]
+    },
+    {
+      "interface": "mains",
+      "hole": 2,
+      "axis_xz_mm": [
+        115,
+        430
+      ],
+      "candidate_bolt": "M4x30",
+      "flange_assumed_mm": 2,
+      "thread_beyond_nut_mm": 6.0,
+      "internal_tool_conflicts": [
+        {
+          "part": "CandidateMainsEnclosure",
+          "mm3": 124.15574166986846
+        }
+      ]
+    },
+    {
+      "interface": "ethernet",
+      "hole": 1,
+      "axis_xz_mm": [
+        539.5,
+        442
+      ],
+      "candidate_bolt": "M3x30",
+      "flange_assumed_mm": 2,
+      "thread_beyond_nut_mm": 7.099999999999909,
+      "internal_tool_conflicts": []
+    },
+    {
+      "interface": "ethernet",
+      "hole": 2,
+      "axis_xz_mm": [
+        520.5,
+        418
+      ],
+      "candidate_bolt": "M3x30",
+      "flange_assumed_mm": 2,
+      "thread_beyond_nut_mm": 7.099999999999909,
+      "internal_tool_conflicts": []
+    }
+  ],
+  "rj45_socket_body_radial_overlap_mm": 0.6947721349860334,
+  "coupon_operations": [
+    {
+      "kind": "mains_body",
+      "shape": "rounded_rectangle",
+      "xywh_mm": [
+        41,
+        36,
+        28,
+        48
+      ],
+      "radius_mm": 3
+    },
+    {
+      "kind": "mains_fixing",
+      "shape": "circle",
+      "center_mm": [
+        35,
+        60
+      ],
+      "radius_mm": 2.25
+    },
+    {
+      "kind": "mains_fixing",
+      "shape": "circle",
+      "center_mm": [
+        75,
+        60
+      ],
+      "radius_mm": 2.25
+    },
+    {
+      "kind": "rj45_body",
+      "shape": "circle",
+      "center_mm": [
+        145,
+        60
+      ],
+      "radius_mm": 12.0
+    },
+    {
+      "kind": "rj45_fixing",
+      "shape": "circle",
+      "center_mm": [
+        135.5,
+        72
+      ],
+      "radius_mm": 1.6
+    },
+    {
+      "kind": "rj45_fixing",
+      "shape": "circle",
+      "center_mm": [
+        154.5,
+        48
+      ],
+      "radius_mm": 1.6
+    }
+  ],
+  "coupon_sha256": "dcaf5f19028a06c757334f131bc3d4100a3480f0bced90fd8446d0896aef90d4",
+  "notes": [
+    "Enclosure must be removed for mains internal nut/tool service; retention and disconnection sequence remain unspecified.",
+    "RJ45 body and tools not fully modeled; socket interference is a conservative circular screen. Use real small wrench access test.",
+    "Candidate bolt lengths assume2mm flange; purchase list and strength not qualified.",
+    "Coupon geometry is nominal; measured thickness, cutter, compensation and shop review required before cutting."
+  ]
+}

@@ -8,6 +8,8 @@ The primary product is not merely one cabinet. The primary product is a **replic
 
 ## Source of truth
 
+- Latest connector service screen: `docs/CONNECTOR_FIT_V32.md` and `tools/run_connector_fit_v32.sh`; separate fit coupon, no cabinet geometry change. Mains enclosure must allow internal nut service; RJ45 socket/body access remains unresolved. Candidate bolt stacks are not selected hardware.
+
 - **Latest integration study:** `docs/FIXED_REAR_SERVICES_V32.md`, `tools/run_fixed_rear_services_v32.sh`. Two120mm fans fixed above rear door atZ500, no moving door fan harness. Owner correction: power/Ethernet flanges mount directly to plywood, no carrier plates. Old oversized IO windows/holes removed; RJ45 has draftØ24 and twoØ3.2 cuts from owner drawing416185; mains now has28x48R3 cutout and2xØ4.5at40pitch from owner drawing416187, replacing416183. See docs/DIRECT_CONNECTOR_DIMENSIONS_V32.md; real hardware fit through18mm stock remains unverified. Two floor intakes, four unassigned floor holes omitted. Draft outer lockdown bores added; real receiver/bar fit remains open. Preserve all frozen shelf and low-PC datums.
 
 

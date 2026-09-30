@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200mm" height="120mm" viewBox="0 0 200 120">
+<rect width="200" height="120" fill="#e5ccaa" stroke="#333" stroke-width=".4"/>
+<rect x="41" y="36" width="28" height="48" rx="3" fill="white" stroke="#345" stroke-width=".3"/>
+<circle cx="35" cy="60" r="2.25" fill="white" stroke="#345" stroke-width=".3"/>
+<circle cx="75" cy="60" r="2.25" fill="white" stroke="#345" stroke-width=".3"/>
+<circle cx="145" cy="60" r="12.0" fill="white" stroke="#345" stroke-width=".3"/>
+<circle cx="135.5" cy="48" r="1.6" fill="white" stroke="#345" stroke-width=".3"/>
+<circle cx="154.5" cy="72" r="1.6" fill="white" stroke="#345" stroke-width=".3"/>
+<text x="8" y="10" font-family="sans-serif" font-size="3.6">V32 — CUPOM DE ENCAIXE • 200 × 120 × 18 mm</text>
+<text x="25" y="26" font-family="sans-serif" font-size="3.6">ENERGIA 28 × 48 R3</text>
+<text x="118" y="26" font-family="sans-serif" font-size="3.6">RJ45 Ø24 provisório</text>
+<text x="26" y="98" font-family="sans-serif" font-size="3.6">2 × Ø4,5 / passo40</text>
+<text x="117" y="98" font-family="sans-serif" font-size="3.6">2 × Ø3,2 / 19 × 24</text>
+<text x="8" y="111" font-family="sans-serif" font-size="3.6">Vista externa • Medir impressão • Não é liberação CNC</text>
+</svg>

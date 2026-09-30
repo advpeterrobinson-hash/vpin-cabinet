@@ -32,3 +32,5 @@ Página indisponível na ferramenta web; evidência dimensional é a imagem41618
 `bash tools/run_fixed_rear_services_v32.sh`:37 verificações;195 sólidos por posição. Verificações conferem cortes passantes dos dois conectores, par diagonal19×24 e conversão de vista do RJ45, recorte28×48R3 e passo40 da energia, área removida, cantos preservados e reserva interna de conexões. Mantidos fans fixos, abertura amostrada da porta, rota excepcional do PC e prateleiras aprovadas. CNC continua pendente de ferragens, stock/ferramenta/tolerâncias e demais requisitos do projeto.
 
 Original CERN-OHL-S-2.0. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet
+
+Continuação: [fixação, acesso e cupom físico dos conectores](CONNECTOR_FIT_V32.md).

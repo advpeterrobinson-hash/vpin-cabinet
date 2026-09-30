@@ -1,3 +1,5 @@
+> Continuação: [fixação/acesso dos conectores e cupom de encaixe](CONNECTOR_FIT_V32.md). Estudo de parafusos passantes; proteção interna precisa permitir manutenção das porcas. CAD do gabinete preservado.
+
 > Atualização 2026-09-30: energia/Ethernet com flange diretamente na madeira, sem placas extras. Janelas antigas retiradas; RJ45 agora com recorte/furos provisórios pela imagem416185. Energia agora usa desenho416187:28×48R3 e2×Ø4,5 a40mm; cortes incorporados. Ver [interface atual](FIXED_REAR_SERVICES_V32.md).
 
 # V32 panel closure sequence
