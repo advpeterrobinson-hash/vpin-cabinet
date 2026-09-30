@@ -1,5 +1,7 @@
 # V32 — fixação e manutenção da tampa traseira
 
+**Fechamento anterior substituído em 2026-09-30:** o proprietário determinou [porta com chave e dobradiças, abertura para baixo](REAR_DOOR_V32.md). A tampa com quatro parafusos abaixo é histórica; não retomar como solução atual.
+
 A tampa sobreposta ganha uma proposta completa de fixação geométrica: quatro parafusos externos, receptores metálicos que ficam no gabinete, puxador e grades dos dois lados das duas ventoinhas. O PC continua na base baixa aprovada. As prateleiras, laterais e abertura traseira permanecem nas posições existentes.
 
 ![Tampa traseira e fixação](../exports/generated/rear-hardware-v32/01-rear-hardware.png)

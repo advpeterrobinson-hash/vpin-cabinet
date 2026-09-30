@@ -78,8 +78,8 @@ Requirements:
 - Open-case packaging reference: 265 X × 440 Y × 128 Z mm; actual mounting points remain unmeasured.
 - PCBase: one replaceable 285 × 460 × 18 mm board at X157.5/Y830/Z36, directly above the floor. No second sled, slides or raised drawer supports.
 - Case bolts directly to PCBase; base and heavy PC components require positive mechanical restraint for nudging/vibration. Actual fixing patterns remain to be detailed.
-- PC remains installed for use and routine service. Rear removable cover provides access; raise the playfield for work that requires access from above. Rear-only service with the playfield closed is no longer a universal requirement.
-- Existing rear aperture X130..470/Z72..365 retained; current cover study and limitations are in SIDE_REAR_CLOSURE_V32.md.
+- PC remains installed for use and routine service. Keyed downward-opening rear door provides access; raise the playfield for work that requires access from above. Rear-only service with the playfield closed is no longer a universal requirement.
+- Existing rear aperture X130..470/Z72..365 retained; current hinged-door study and limitations are in REAR_DOOR_V32.md.
 - Exceptional PC replacement may require disconnecting cables and unbolting the base/case. The modeled lift38 mm then rear500 mm route is packaging evidence only, not an approved handling procedure or routine tray.
 - Separate touch-safe mains enclosure; no bare terminals behind the rear service cover.
 
@@ -150,6 +150,8 @@ Audio-only mode:
 
 Reachable hazardous voltage is a blocking defect. Ordinary/keyed service areas must not expose bare mains terminals.
 
+Rear door: unlock with key, open downward, service and close. Two opening limiters and a flexing low-voltage fan harness are required; no routine screw removal or fan disconnection. Optional owner-installed unkeyed slide bolt needs no project drawing.
+
 ## Service I/O
 
 Front/underside:
@@ -164,7 +166,7 @@ Rear/underside permanent functions:
 - No permanent SERVICE HDMI, rear USB-A/USB-C or RESERVE cutouts. Access the installed PC through the service openings.
 - PC POWER, RESET and DOF SERVICE remain at the coin door; no rear duplicates.
 - Rear-face A versus underside B awaits owner comparison review (REAR_UTILITY_V26.md).
-- Current rear aperture is X130..470/Z72..365; overlapping removable cover is detailed in SIDE_REAR_CLOSURE_V32.md. Bottom-joint and leg load paths take precedence over utility placement.
+- Current rear aperture is X130..470/Z72..365; keyed hinged door is detailed in REAR_DOOR_V32.md. Bottom-joint and leg load paths take precedence over utility placement.
 
 ## Manufacturing
 
@@ -186,6 +188,6 @@ Before cabinet production:
 - measure actual hardware that controls hole patterns
 - complete dry-fit and collision checks
 - proof-test classic leg/bracket corners and positive restraint of the fixed PC/base
-- proof-fit rear PC cover/frame/retained threaded receivers before final rear-panel CNC release
+- proof-fit rear PC door/hinges/key lock/opening limiters before final rear-panel CNC release
 
 No current engineering branch is approved for production CNC yet.

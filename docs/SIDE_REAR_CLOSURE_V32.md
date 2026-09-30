@@ -1,5 +1,7 @@
 # V32 — laterais, traseira e lockdown
 
+**Fechamento anterior substituído em 2026-09-30:** o proprietário determinou [porta com chave e dobradiças, abertura para baixo](REAR_DOOR_V32.md). A tampa com quatro parafusos abaixo é histórica; não retomar como solução atual.
+
 Continuação em 2026-09-30: [fixação da tampa traseira, puxador e grades](REAR_HARDWARE_V32.md). Estudo separado; PC baixo e prateleiras preservados.
 
 O proprietário aprovou o desenho e determinou que a conferência das ferragens importadas pode ficar para depois. Ela deixa de bloquear o avanço funcional; continua sendo uma condição dos furos que dependem dessas peças. As prateleiras e suas alturas permanecem congeladas. Este estudo não declara os painéis liberados para fabricação.

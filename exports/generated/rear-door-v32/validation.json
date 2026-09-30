@@ -1,0 +1,450 @@
+{
+  "manufacturing_ready": false,
+  "config": {
+    "status": "OWNER_DIRECTED_KEYED_DOWNWARD_DOOR_STUDY",
+    "manufacturing_ready": false,
+    "source_report": "exports/generated/rear-hardware-v32/validation.json",
+    "shell_report": "exports/generated/panel-closure-v32/validation.json",
+    "hinge_axis_xyz_mm": [
+      300,
+      1324.1,
+      54
+    ],
+    "opening_degrees": 110,
+    "sample_step_degrees": 2,
+    "hinge_start_x_mm": [
+      180,
+      372
+    ],
+    "lock_center_xz_mm": [
+      450,
+      350
+    ],
+    "lock_bore_diameter_mm_candidate": 19,
+    "lock_bore_across_flats_mm_candidate": 17,
+    "lock_cam_length_mm_candidate": 35,
+    "handle_z_mm": 190,
+    "support": "Two side limit straps/cables must hold door at 110 degrees; actual attachments and rating not qualified. Door is not a shelf or PC support.",
+    "optional_latch": "Owner may install simple unkeyed slide bolt; no geometry/instructions requested.",
+    "note": "All hardware shapes and hole sizes are candidate engineering choices, not selected supplier specifications. Fan low-voltage harness must flex with door; no routine unplugging or removal of closure screws."
+  },
+  "source_hashes": {
+    "config/rear_door_v32.json": "756f68917b9e6d1d995313b1d61a0d8fb84be2db3d28c09cb2fba7a0f0229aea",
+    "exports/generated/rear-hardware-v32/validation.json": "896dbc9b6ade1f927b64cfa81c2120acae105dabbcf38a24ac40095fcad74f7b",
+    "exports/generated/panel-closure-v32/validation.json": "db0520065a3dcce6c9bed3d6a95690c4395b5286f013e23e73507ef4341c1e38",
+    "exports/generated/rear-hardware-v32/rear-hardware-study.FCStd": "b9ec4fd79c5cd7a2874666ab99734bcfaf0c7d57d20c66cf1b8dff29c22625c8",
+    "exports/generated/panel-closure-v32/panel-closure-study.FCStd": "8660c93cedeff56d12aa18666d8db92b4d56e1ea5fcb4caf766f74d68263bd01",
+    "tools/rear_door_v32_entry.py": "907cf0133bdad4b7df2b7d1daf2a431841cf51e461b452937143bafd397e7a69"
+  },
+  "checks": [
+    {
+      "check": "closed hardware clearance",
+      "pass": true
+    },
+    {
+      "check": "key cam 90 degree unlock sampled clear",
+      "pass": true
+    },
+    {
+      "check": "downward door sampled opening clear",
+      "pass": true
+    },
+    {
+      "check": "negative locked cam blocks opening",
+      "pass": true
+    },
+    {
+      "check": "PC exceptional route clears door at110",
+      "pass": true
+    },
+    {
+      "check": "negative 90deg door obstructs PC route",
+      "pass": true
+    },
+    {
+      "check": "CandidateHingeFixed left right symmetry",
+      "pass": true
+    },
+    {
+      "check": "CandidateHingeMoving left right symmetry",
+      "pass": true
+    },
+    {
+      "check": "valid single solids",
+      "pass": true
+    },
+    {
+      "check": "frozen shelves sides PC unchanged",
+      "pass": true
+    },
+    {
+      "check": "retired closures absent",
+      "pass": true
+    },
+    {
+      "check": "closed saved solids valid and identical",
+      "pass": true
+    },
+    {
+      "check": "open saved solids valid and identical",
+      "pass": true
+    },
+    {
+      "check": "input files unchanged",
+      "pass": true
+    }
+  ],
+  "closed_conflicts": [],
+  "cam_unlock_conflicts": [],
+  "door_sweep_conflicts": [],
+  "locked_opening_rejected": [
+    {
+      "part": "locked_cam",
+      "obstacle": "rear",
+      "mm3": 760.3185808442543
+    }
+  ],
+  "pc_route_conflicts": {
+    "90": [
+      {
+        "part": "PC_BASE",
+        "obstacle": "FAN_230",
+        "mm3": 80718.26736792985
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "FAN_370",
+        "mm3": 80718.26736792985
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateFanBolt230_1",
+        "mm3": 226.1946710584632
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateFanBolt230_2",
+        "mm3": 226.19467105846525
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateFanBolt230_3",
+        "mm3": 226.19467105846377
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateFanBolt230_4",
+        "mm3": 226.19467105846581
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateFanBolt370_1",
+        "mm3": 226.1946710584637
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateFanBolt370_2",
+        "mm3": 226.19467105846576
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateFanBolt370_3",
+        "mm3": 226.1946710584644
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateFanBolt370_4",
+        "mm3": 226.19467105846644
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateKeyLockBody",
+        "mm3": 163.03888608929964
+      },
+      {
+        "part": "PC_BASE",
+        "obstacle": "CandidateKeyLockCam",
+        "mm3": 659.9999999999994
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "FAN_230",
+        "mm3": 13453.044561321622
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "FAN_370",
+        "mm3": 13453.044561321625
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanGuard230Inner",
+        "mm3": 11392.13167248102
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_1",
+        "mm3": 169.64600329384743
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_1InnerWasher",
+        "mm3": 47.71293842639496
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_1Nut",
+        "mm3": 120.63715789784843
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_2",
+        "mm3": 169.64600329384785
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_2InnerWasher",
+        "mm3": 47.71293842639511
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_2Nut",
+        "mm3": 120.63715789784806
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_3",
+        "mm3": 169.64600329384785
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_3InnerWasher",
+        "mm3": 47.712938426394985
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_3Nut",
+        "mm3": 120.63715789784828
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_4",
+        "mm3": 169.6460032938483
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_4InnerWasher",
+        "mm3": 47.712938426395134
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt230_4Nut",
+        "mm3": 120.63715789784789
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanGuard370Inner",
+        "mm3": 11392.13167248102
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_1",
+        "mm3": 169.64600329384785
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_1InnerWasher",
+        "mm3": 47.712938426394985
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_1Nut",
+        "mm3": 120.63715789784828
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_2",
+        "mm3": 169.64600329384828
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_2InnerWasher",
+        "mm3": 47.712938426395134
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_2Nut",
+        "mm3": 120.63715789784789
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_3",
+        "mm3": 169.646003293848
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_3InnerWasher",
+        "mm3": 47.712938426394985
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_3Nut",
+        "mm3": 120.63715789784828
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_4",
+        "mm3": 169.64600329384842
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_4InnerWasher",
+        "mm3": 47.712938426395134
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateFanBolt370_4Nut",
+        "mm3": 120.63715789784789
+      },
+      {
+        "part": "PC_ENVELOPE",
+        "obstacle": "CandidateKeyLockCam",
+        "mm3": 209.99999999999932
+      }
+    ],
+    "110": []
+  },
+  "retired_objects": [
+    "CandidateReceiverAnchor1_1",
+    "CandidateReceiverAnchor1_2",
+    "CandidateRearReceiver1",
+    "CandidateRearCoverBolt1",
+    "CandidateRearCoverBolt1Washer",
+    "CandidateReceiverAnchor2_1",
+    "CandidateReceiverAnchor2_2",
+    "CandidateRearReceiver2",
+    "CandidateRearCoverBolt2",
+    "CandidateRearCoverBolt2Washer",
+    "CandidateReceiverAnchor3_1",
+    "CandidateReceiverAnchor3_2",
+    "CandidateRearReceiver3",
+    "CandidateRearCoverBolt3",
+    "CandidateRearCoverBolt3Washer",
+    "CandidateReceiverAnchor4_1",
+    "CandidateReceiverAnchor4_2",
+    "CandidateRearReceiver4",
+    "CandidateRearCoverBolt4",
+    "CandidateRearCoverBolt4Washer"
+  ],
+  "moving_objects": [
+    "REAR_DOOR",
+    "FAN_230",
+    "FAN_370",
+    "CandidateFanGuard230Inner",
+    "CandidateFanGuard230Outer",
+    "CandidateFanBolt230_1",
+    "CandidateFanBolt230_1OuterWasher",
+    "CandidateFanBolt230_1InnerWasher",
+    "CandidateFanBolt230_1Nut",
+    "CandidateFanBolt230_2",
+    "CandidateFanBolt230_2OuterWasher",
+    "CandidateFanBolt230_2InnerWasher",
+    "CandidateFanBolt230_2Nut",
+    "CandidateFanBolt230_3",
+    "CandidateFanBolt230_3OuterWasher",
+    "CandidateFanBolt230_3InnerWasher",
+    "CandidateFanBolt230_3Nut",
+    "CandidateFanBolt230_4",
+    "CandidateFanBolt230_4OuterWasher",
+    "CandidateFanBolt230_4InnerWasher",
+    "CandidateFanBolt230_4Nut",
+    "CandidateFanGuard370Inner",
+    "CandidateFanGuard370Outer",
+    "CandidateFanBolt370_1",
+    "CandidateFanBolt370_1OuterWasher",
+    "CandidateFanBolt370_1InnerWasher",
+    "CandidateFanBolt370_1Nut",
+    "CandidateFanBolt370_2",
+    "CandidateFanBolt370_2OuterWasher",
+    "CandidateFanBolt370_2InnerWasher",
+    "CandidateFanBolt370_2Nut",
+    "CandidateFanBolt370_3",
+    "CandidateFanBolt370_3OuterWasher",
+    "CandidateFanBolt370_3InnerWasher",
+    "CandidateFanBolt370_3Nut",
+    "CandidateFanBolt370_4",
+    "CandidateFanBolt370_4OuterWasher",
+    "CandidateFanBolt370_4InnerWasher",
+    "CandidateFanBolt370_4Nut",
+    "CandidateHandleBolt1",
+    "CandidateHandleBolt1Washer",
+    "CandidateHandleBolt2",
+    "CandidateHandleBolt2Washer",
+    "CandidateRearHandle",
+    "CandidateHingeMoving1",
+    "CandidateHingeMoving2",
+    "CandidateKeyLockBody",
+    "CandidateKeyLockShaft",
+    "CandidateKeyLockCam"
+  ],
+  "support_candidates": [
+    {
+      "fixed_xyz_mm": [
+        90.0,
+        1324.1,
+        200.0
+      ],
+      "door_closed_xyz_mm": [
+        110,
+        1322.1,
+        180
+      ],
+      "door_open_xyz_mm": [
+        110.0,
+        1443.1853105056757,
+        12.784847182537533
+      ],
+      "taut_length_mm_candidate": 222.77976708556602,
+      "status": "REQUIRES_REAL_ANCHORS_LOAD_RATING_AND_CLOSED_STOW"
+    },
+    {
+      "fixed_xyz_mm": [
+        510.0,
+        1324.1,
+        200.0
+      ],
+      "door_closed_xyz_mm": [
+        490,
+        1322.1,
+        180
+      ],
+      "door_open_xyz_mm": [
+        490.0,
+        1443.1853105056757,
+        12.784847182537533
+      ],
+      "taut_length_mm_candidate": 222.77976708556602,
+      "status": "REQUIRES_REAL_ANCHORS_LOAD_RATING_AND_CLOSED_STOW"
+    }
+  ],
+  "saved_proposals": {
+    "closed": {
+      "path": "exports/generated/rear-door-v32/rear-door-closed.FCStd",
+      "sha256": "190e3c60ad0961f76453d2e303151e98160d34e5ed985e17bfbea9399198c4cd",
+      "solids": 194
+    },
+    "open": {
+      "path": "exports/generated/rear-door-v32/rear-door-open.FCStd",
+      "sha256": "42eb127597d9edb9a250551b26e07ca6ba72aaa4e780c9dc0afc2ef0dcda183f",
+      "solids": 194
+    }
+  },
+  "unverified": [
+    "Actual hinges/lock/cam/keeper fasteners and detailed wood pilots",
+    "Both support straps/anchors, load proof and folded stow",
+    "Fan harness slack/bend radius/connector placement",
+    "Sweep between2-degree samples and human access",
+    "Real legs/room/ground clearance; no use of open door as workbench",
+    "All prior safety/thermal/manufacturing qualifications remain open"
+  ]
+}
