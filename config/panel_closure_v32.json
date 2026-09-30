@@ -1,0 +1,114 @@
+{
+  "status": "FUNCTIONAL_INTERFACE_DEVELOPMENT_NOT_CNC_RELEASE",
+  "manufacturing_ready": false,
+  "source_report": "exports/generated/support-leg-v32/validation.json",
+  "body": {
+    "width_mm": 600,
+    "length_mm": 1308.1,
+    "front_height_mm": 400.05,
+    "rear_height_mm": 596.9,
+    "slope_end_y_mm": 1127.125,
+    "plywood_mm": 18
+  },
+  "legs": {
+    "hardware_check_deferred_by_owner": true,
+    "reference_part": "Williams/Bally A-19514",
+    "nominal_length_mm": 723.9,
+    "reference_bolt_pitch_mm": 57.15,
+    "reference_front_bolt_z_mm": [
+      101.6,
+      158.75
+    ],
+    "reference_rear_bolt_z_mm": [
+      50.8,
+      107.95
+    ],
+    "adopt_reference_holes": false,
+    "note": "Pinscape supplies bolt datums and part identity; Marco listing supplies 28.5 inch leg length. Existing 58 mm study unchanged pending imported parts."
+  },
+  "lockdown": {
+    "strategy": "CUSTOM_WIDTH_BAR_WITH_STANDARD_WPC_RECEIVER",
+    "receiver_reference": [
+      "A-16673-1",
+      "A-9174-4"
+    ],
+    "cabinet_order_width_mm": 600,
+    "vendor_added_fit_allowance_mm": 6.35,
+    "reference_url": "https://virtuapin.net/index.php?main_page=product_info&products_id=34",
+    "receiver_holes_status": "DEFER_UNTIL_DIMENSIONED_TEMPLATE",
+    "note": "600 mm is bare cabinet order width, not finished bar outside width; no vendor fabrication geometry inferred."
+  },
+  "glass_study": {
+    "width_mm": 575,
+    "length_on_slope_mm": 1100,
+    "thickness_mm": 5,
+    "front_y_mm": 35,
+    "bottom_normal_offset_mm": 4,
+    "channel_clearance_each_side_mm": 0.5,
+    "channel_engagement_each_side_mm": 5.5,
+    "status": "EXPLICIT_PACKAGING_ASSUMPTIONS_NOT_GLASS_ORDER"
+  },
+  "side_closure": {
+    "outline": "PRESERVE_600_BODY_1308_1_LENGTH_PROFILE",
+    "shelves": "PRESERVE_OWNER_FREEZE",
+    "button_family": "LEAF_PINBALL_DEFAULT_ARCADE_SEPARATE_OPTION",
+    "leg_holes": "DEFER_IMPORTED_PART_CONFIRMATION",
+    "hinge_props": "FULL_STRENGTH_CRADLE_ATTACHMENT_REQUIRED_NOT_OLED_POCKET",
+    "glass": "REPLACEABLE_SURFACE_CHANNELS_NO_NEW_LONG_SIDE_POCKET",
+    "permanent_hardware_drilling": "HOLD_ONLY_DEPENDENT_FEATURES"
+  },
+  "rear": {
+    "pc_architecture": "AWAIT_OWNER_REPLY",
+    "opening_xzwh_mm": [
+      130,
+      72,
+      340,
+      293
+    ],
+    "cover_xzwh_mm": [
+      102,
+      54,
+      396,
+      329
+    ],
+    "cover_thickness_mm": 12,
+    "cover_fasteners_xz_mm": [
+      [
+        115,
+        92
+      ],
+      [
+        485,
+        92
+      ],
+      [
+        115,
+        345
+      ],
+      [
+        485,
+        345
+      ]
+    ],
+    "fastener_clearance_mm": 5.5,
+    "fan_centers_xz_mm": [
+      [
+        230,
+        280
+      ],
+      [
+        370,
+        280
+      ]
+    ],
+    "fan_size_mm": [
+      120,
+      120,
+      25
+    ],
+    "fan_pitch_mm": 105,
+    "fan_opening_diameter_mm": 116,
+    "cover_withdrawal_mm": 150,
+    "note": "Current opening carried only as study context pending PC reply; replaceable exterior cover with four rear-access screws, detached low-voltage fan connector; no hinge needed."
+  }
+}

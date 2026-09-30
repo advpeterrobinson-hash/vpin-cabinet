@@ -56,3 +56,9 @@ Título anuncia58 mm para Williams/Bally. Página credita conceito original de55
 2026-09-29 | Apoios: exemplo de especificação de inserto M5
 https://www.inventables.com/products/threaded-inserts
 Página do fornecedor consultada: corpo9,5, comprimento10, piloto6 e profundidade11 mm. Exemplo para mostrar dependência do SKU; NÃO adotado como ferragem/CNC do V32.
+
+2026-09-29 — Laterais/traseira/lockdown; ferragens importadas podem ser confirmadas depois
+https://www.marcospecialties.com/pinball-parts/A-19514
+Identifica a perna A-19514 citada no Pinscape enviado: comprimento nominal 28-1/2 pol. = 723,9 mm. Comprimento da peça não é altura do gabinete montado. Página consultada; sem cópia redistribuída.
+https://virtuapin.net/index.php?main_page=product_info&products_id=34
+Barra lockdown customizada compatível por padrão com receptores WMS. Pedido usa largura externa do gabinete SEM siderails; fornecedor acrescenta 1/4 pol. para encaixe. Para nosso corpo nominal: informar 600 mm (23,62205 pol.), não 606,35 mm. Geometria de linguetas e receptor ainda depende do desenho do conjunto.
