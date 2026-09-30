@@ -42,9 +42,19 @@ def window(spec,y,depth):
  return s.removeSplitter()
 # User correction: no carrier plates, oversized panel windows or their four-hole patterns.
 # Do not substitute dimensions from visually similar connectors. An unset footprint leaves wood intact.
-assert all(c['direct_panel_io'][key]['footprint'] is None for key in ('mains','ethernet')), 'Implement and validate selected footprint before enabling machining'
+assert c['direct_panel_io']['mains']['footprint'] is None, 'Implement and validate selected mains footprint before machining'
 rear_before_io=scene['REAR'].copy()
-check('direct IO awaits measured footprints with no substitute openings',all(scene['REAR'].isInside(V(x,L-9,z),1e-6,True) for x,z in [c['direct_panel_io'][key]['center_xz_mm'] for key in ('mains','ethernet')]))
+e=c['direct_panel_io']['ethernet'];ef=e['footprint'];ex,ez=e['center_xz_mm'];er=ef['opening_diameter_mm']/2;hr=ef['wood_fixing_hole_diameter_mm']/2
+io_cut=cy(ex,L-19,ez,er,20)
+for hx,hz in ef['hole_centers_xz_mm']:io_cut=io_cut.fuse(cy(hx,L-19,hz,hr,20))
+scene['REAR']=scene['REAR'].cut(io_cut)
+mx,mz=c['direct_panel_io']['mains']['center_xz_mm']
+check('mains remains solid pending actual cutout',scene['REAR'].isInside(V(mx,L-9,mz),1e-6,True))
+check('RJ45 opening and two fixing holes pass through stock',all(not scene['REAR'].isInside(V(x,L-depth,z),1e-6,True) for x,z in [[ex,ez]]+ef['hole_centers_xz_mm'] for depth in (1,9,17)))
+check('RJ45 diagonal pitch and rear-view orientation',ef['hole_centers_xz_mm']==[[ex+9.5,ez+12],[ex-9.5,ez-12]])
+web=min(((x-ex)**2+(z-ez)**2)**.5-er-hr for x,z in ef['hole_centers_xz_mm'])
+check('RJ45 positive web between opening and fixing holes not strength proof',web>1.7)
+check('only three direct RJ45 bores removed from rear',abs(rear_before_io.Volume-scene['REAR'].Volume-rear_before_io.common(io_cut).Volume)<1e-5)
 # Separate covered mains enclosure: candidate mechanical shell, not an electrical rating.
 x,y,z,w,t,h=c['mains_enclosure_xyzwhd_mm'];enc=box(x,y,z,w,t,h).cut(box(x+2,y+2,z+2,w-4,t-4,h-4)).cut(window(c['mains_enclosure_access_xzwh_mm'],L-20.1,4))
 new['CandidateMainsEnclosure']=enc
@@ -81,7 +91,7 @@ for angle,pose in poses.items():
 check('90 degree PC route still rejected by lock geometry',any(x['obstacle'].startswith('CandidateKeyLock') for x in pc_results['90']));check('PC route clear at110',not pc_results['110'])
 # Low rear opening and frame are retained; interface cuts stay above door.
 check('fan frames leave57mm above closed door',440-scene['REAR_DOOR'].BoundBox.ZMax==57)
-check('no intermediate IO plates or oversized wood cuts',not any('Carrier' in n for n in scene) and scene['REAR'].cut(rear_before_io).Volume+rear_before_io.cut(scene['REAR']).Volume<1e-6)
+check('no intermediate IO plates or oversized wood cuts',not any('Carrier' in n for n in scene) and scene['REAR'].cut(rear_before_io).Volume<1e-6 and abs(rear_before_io.Volume-scene['REAR'].Volume-rear_before_io.common(io_cut).Volume)<1e-5)
 check('internal enclosure separated from closed door',not hits(new,{'door':scene['REAR_DOOR']}))
 check('frozen sides shelves and PC unchanged',all(scene[n].cut(old[n]).Volume+old[n].cut(scene[n]).Volume<1e-6 for n in ['SIDE_L','SIDE_R','SHELF_1','SHELF_2','SHELF_3','PC_BASE','PC_ENVELOPE']))
 mirror=A.Matrix();mirror.A11=-1;mirror.A14=600
@@ -107,4 +117,4 @@ for label,shapes in [('closed',scene),('open90',dict(scene,**poses[90])),('open1
  check(label+' reopened shapes and identities',set(actual)==set(shapes) and all(s.isValid() and len(s.Solids)==1 and s.cut(shapes[n]).Volume+shapes[n].cut(s).Volume<1e-5 and saved.getObject(n).PartCode==getattr(d.getObject(n),'PartCode','') for n,s in actual.items()))
  saved_files[label]={'path':str(p.relative_to(R)),'sha256':sha(p),'solids':len(actual)};A.closeDocument(saved.Name)
 check('source files unchanged',all(sha(R/p)==h for p,h in inputs.items()))
-report={'manufacturing_ready':False,'config':c,'source_hashes':inputs,'checks':checks,'installed_conflicts':installed,'door_sweep_conflicts':conf,'fan_tool_conflicts':fan_tools,'pc_route_conflicts':pc_results,'fixed_fan_objects':fixed_fans,'door_moving_objects':moving,'saved_proposals':saved_files,'unverified':['Fan thermal/noise/guard qualification and fixed wiring','Direct inlet/RJ45 cutouts and flange screw pattern; suitability for18mm plywood, local relief if required; enclosure mounting/ratings','Electrical protection PE and strain relief; no wiring design','Receiver envelope, tongues, bar profile and real fastener stack','Real door hinge/lock hardware, free resting angle/felt; optional limiters','All remaining side/playfield/SSF/floor manufacturing gates']};(O/'validation.json').write_text(json.dumps(report,indent=2)+'\n');assert all(x['pass'] for x in checks),[x for x in checks if not x['pass']];print('FIXED_REAR_SERVICES_PASS',len(checks),'checks;',len(scene),'solids per pose; CNC HOLD');A.closeDocument(d.Name)
+report={'manufacturing_ready':False,'config':c,'source_hashes':inputs,'checks':checks,'rj45_min_web_mm_not_strength_rating':web,'installed_conflicts':installed,'door_sweep_conflicts':conf,'fan_tool_conflicts':fan_tools,'pc_route_conflicts':pc_results,'fixed_fan_objects':fixed_fans,'door_moving_objects':moving,'saved_proposals':saved_files,'unverified':['Fan thermal/noise/guard qualification and fixed wiring','Mains actual cutout/retention; RJ45 draft fit and fasteners, flange coverage, rear plug/latch access through18mm plywood; enclosure mounting/ratings','Electrical protection PE and strain relief; no wiring design','Receiver envelope, tongues, bar profile and real fastener stack','Real door hinge/lock hardware, free resting angle/felt; optional limiters','All remaining side/playfield/SSF/floor manufacturing gates']};(O/'validation.json').write_text(json.dumps(report,indent=2)+'\n');assert all(x['pass'] for x in checks),[x for x in checks if not x['pass']];print('FIXED_REAR_SERVICES_PASS',len(checks),'checks;',len(scene),'solids per pose; CNC HOLD');A.closeDocument(d.Name)

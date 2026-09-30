@@ -24,7 +24,7 @@
       100
     ],
     "window_corner_radius_mm_candidate": 3,
-    "connector_cutouts": "Owner selected direct flange mounting in plywood, no extra carrier plates. Old oversized windows and carrier holes removed. Component cuts/pilots pending dimensioned SKU; solid wood is intentional, not finished CNC.",
+    "connector_cutouts": "Direct flange mounting, no extra plates. RJ45 draft24mm opening and two3.2mm wood holes from supplied drawing; mains uncut pending real cutout/retention details.",
     "lockdown_outer_axes_xz_mm": [
       [
         68.225,
@@ -73,9 +73,16 @@
           95,
           430
         ],
-        "type": "IEC C14 style inlet with fuse holder, rocker switch and own two-hole flange, as owner image",
+        "type": "New owner image416183: rectangular IEC-style inlet/fuse/rocker, no visible screw ears; retention type not confirmed",
         "footprint": null,
-        "source": "library/references/local/416182-mains-flange-reference.jpg"
+        "source": "library/references/local/416183-mains-dimensions.jpg",
+        "link": "https://meli.la/13BjJHD",
+        "image_callouts_mm": [
+          50,
+          30,
+          24
+        ],
+        "note": "Different housing from416182. Image gives no explicit panel-cutout, screw pitch or admissible panel thickness. Do not cut50x30 or assume24 is insertion depth. Snap-in appearance is inference only."
       },
       "ethernet": {
         "center_xz_mm": [
@@ -83,11 +90,38 @@
           430
         ],
         "type": "RJ45 Cat6 female-female panel coupler with own mounting flange",
-        "footprint": null,
-        "source": "https://www.mercadolivre.com.br/01-conector-rj45-cat6-dupla-femea-emenda-painel-rack-d/up/MLBU1763346612"
+        "footprint": {
+          "status": "DRAFT_FROM_OWNER_VENDOR_DRAWING_NOT_RELEASED",
+          "opening_diameter_mm": 24,
+          "wood_fixing_hole_diameter_mm": 3.2,
+          "hole_centers_xz_mm": [
+            [
+              539.5,
+              442
+            ],
+            [
+              520.5,
+              418
+            ]
+          ],
+          "basis": "24mm opening is explicit draft clearance over23.6 callout, not a vendor-specified panel cutout.3.2 wood clearance is design choice vs3.1 flange holes. External rear view is mirrored in globalX: drawing top-left maps to largerX. Body fit, flange coverage, fastener stack and rear cable latch access through18mm stock remain unverified."
+        },
+        "source": "https://www.mercadolivre.com.br/01-conector-rj45-cat6-dupla-femea-emenda-painel-rack-d/up/MLBU1763346612",
+        "drawing_source": "library/references/local/416185-rj45-dimensions.jpg",
+        "drawing_dimensions_mm": {
+          "diameter_callout": 23.6,
+          "flange_hole_diameter": 3.1,
+          "hole_pitch_horizontal": 19,
+          "hole_pitch_vertical": 24,
+          "side_view_callouts": [
+            30.7,
+            27.8,
+            21.7
+          ]
+        }
       },
       "stock_thickness_mm": 18,
-      "machining_status": "HOLD_SPECIFIC_CONNECTOR_FOOTPRINTS",
+      "machining_status": "RJ45_DRAFT_GEOMETRY; MAINS_FOOTPRINT_AND_BOTH_HARDWARE_STACKS_HOLD",
       "required_dimensions": [
         "body cutout profile and corner radii",
         "flange outline and hole pitch/diameter",
@@ -99,10 +133,10 @@
     }
   },
   "source_hashes": {
-    "config/fixed_rear_services_v32.json": "8d6ea09c772c71e5cd4b526fba217abd98986dd4c43240a7b3084421f45ade21",
+    "config/fixed_rear_services_v32.json": "90ed9722dee37a371c5ca3adfad73a9c741b03d480bf2209c1138d48c4d4f7c7",
     "exports/generated/rear-door-v32/validation.json": "8dc411b8572ca4ec468643e1889518c1a0e771d91b929644dc0604223c9f42f5",
     "exports/generated/rear-door-v32/rear-door-closed.FCStd": "26cd6d772a6f9928c0ee85f6d1f7aa9fe299d8fc72da5fad224f11664b6c27f5",
-    "tools/fixed_rear_services_v32_entry.py": "6992c3e9a8d4858eb23c9ba40324d29a83157342a466b0355eb7426c11e2d986",
+    "tools/fixed_rear_services_v32_entry.py": "1a4e8f8f9b082a268e04082d14c414aaf474fad658a2f50b7bd5fc8a557a2974",
     "config/lockdown_interface_v32.json": "d3319a0c60a4535733aaa0bc14d054fc786ee8efe99a7731a2cc907e6d02c5d2"
   },
   "checks": [
@@ -143,7 +177,23 @@
       "pass": true
     },
     {
-      "check": "direct IO awaits measured footprints with no substitute openings",
+      "check": "mains remains solid pending actual cutout",
+      "pass": true
+    },
+    {
+      "check": "RJ45 opening and two fixing holes pass through stock",
+      "pass": true
+    },
+    {
+      "check": "RJ45 diagonal pitch and rear-view orientation",
+      "pass": true
+    },
+    {
+      "check": "RJ45 positive web between opening and fixing holes not strength proof",
+      "pass": true
+    },
+    {
+      "check": "only three direct RJ45 bores removed from rear",
       "pass": true
     },
     {
@@ -223,6 +273,7 @@
       "pass": true
     }
   ],
+  "rj45_min_web_mm_not_strength_rating": 1.7052278650139665,
   "installed_conflicts": [],
   "door_sweep_conflicts": [],
   "fan_tool_conflicts": [],
@@ -302,23 +353,23 @@
   "saved_proposals": {
     "closed": {
       "path": "exports/generated/fixed-rear-services-v32/closed.FCStd",
-      "sha256": "e455487229bbe314f28ee474b3de727c19bda8cbff53f7b78eb0546420f6d3f2",
+      "sha256": "b3b0056a2030bcd59bed7832056ab7dd880820b65638f38661c3b91bc2ad2dca",
       "solids": 195
     },
     "open90": {
       "path": "exports/generated/fixed-rear-services-v32/open90.FCStd",
-      "sha256": "3a774ef200bd52e348aef7a3de102c7e4e924e898e560e2eb314d4aa76c3b7da",
+      "sha256": "1e7825d0f01841100d5d29ae7533f5cd199b85afce26e00a97fdb299a83d47a1",
       "solids": 195
     },
     "open110": {
       "path": "exports/generated/fixed-rear-services-v32/open110.FCStd",
-      "sha256": "3db6a5f91bd60acaefd3bc4650ca28dfb8ffc94e0414d5f699e2b2b04cda0c98",
+      "sha256": "2ada548187c36c51d216614323bfe46a49e2cd13b37c6a9cd07c564402cf640f",
       "solids": 195
     }
   },
   "unverified": [
     "Fan thermal/noise/guard qualification and fixed wiring",
-    "Direct inlet/RJ45 cutouts and flange screw pattern; suitability for18mm plywood, local relief if required; enclosure mounting/ratings",
+    "Mains actual cutout/retention; RJ45 draft fit and fasteners, flange coverage, rear plug/latch access through18mm plywood; enclosure mounting/ratings",
     "Electrical protection PE and strain relief; no wiring design",
     "Receiver envelope, tongues, bar profile and real fastener stack",
     "Real door hinge/lock hardware, free resting angle/felt; optional limiters",

@@ -60,6 +60,22 @@
       "source": "Owner attachment 416182.jpg, 2026-09-30",
       "review": "Visual reference: fused IEC-style inlet with rocker switch and two-hole flange. No scale or model code; no dimensions inferred.",
       "distribution": "local only; third-party rights retained"
+    },
+    {
+      "file": "local/416185-rj45-dimensions.jpg",
+      "bytes": 63781,
+      "sha256": "3eb823cb428a06a5551ede4c3d5d5062c72381bf973696475f48b03e523e3319",
+      "source": "Owner attachment2026-09-30",
+      "review": "Vendor drawing: diameter23.6; two3.1holes;19x24 diagonal pitch; side callouts30.7/27.8/21.7. Not a fully specified wood installation.",
+      "distribution": "local only; third-party rights retained"
+    },
+    {
+      "file": "local/416183-mains-dimensions.jpg",
+      "bytes": 33149,
+      "sha256": "d8db216440a6d2af06049fb1e21d4e6ba46e1bde91a89e2cc2009b2e293bd02d",
+      "source": "Owner attachment2026-09-30",
+      "review": "New housing unlike previous two-ear inlet;50/30/24 callouts, no panel cutout or fixation specification.",
+      "distribution": "local only; third-party rights retained"
     }
   ]
 }

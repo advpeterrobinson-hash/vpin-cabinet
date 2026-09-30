@@ -74,3 +74,7 @@ Figura cotada vista POR DENTRO da frente: centros assimétricos a7 e9-1/8 polega
 2026-09-30 — Energia/Ethernet: proprietário escolhe flange direta na madeira, sem placa extra
 https://www.mercadolivre.com.br/01-conector-rj45-cat6-dupla-femea-emenda-painel-rack-d/up/MLBU1763346612?pdp_filters=item_id%3AMLB4679269912#origin=share&sid=share&wid=MLB4679269912
 RJ45 Cat6 dupla fêmea para painel indicado pelo proprietário. Acesso direto indisponível na ferramenta web; desenho dimensional não obtido. Não presumir recorte/passo de outro modelo. Foto do inlet de energia 416182.jpg arquivada localmente com hash; sem link/código/dimensões. Fixação direta aprovada; cotas do corpo, flange e compatibilidade com painel18mm ainda necessárias para furos CNC.
+
+2026-09-30 — Cotas recebidas por imagens do anúncio de conectores
+https://meli.la/13BjJHD
+Link enviado após solicitação do módulo de energia. Ferramenta web indisponível; tentativa HTTP devolveu403 sem resolver anúncio; navegador não disponível. Não foi possível confirmar produto de destino. Imagens416185(RJ45) e416183(energia) recebidas em seguida e arquivadas localmente com hashes. RJ45:Ø23,6,2×Ø3,1,passos19/24; novo inlet:50/30/24 sem recorte de painel. Ver docs/DIRECT_CONNECTOR_DIMENSIONS_V32.md.

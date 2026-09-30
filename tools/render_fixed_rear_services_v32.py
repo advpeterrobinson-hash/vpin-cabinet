@@ -16,10 +16,14 @@ a.add_patch(Circle((450,350),11.5,color='#d29a2a'));a.plot([450,450],[346,354],c
 for x in (180,372):a.add_patch(Rectangle((x,24),48,60,facecolor='#536e7c'))
 for key,label in [('mains','Energia'),('ethernet','Rede')]:
  x,z=c['direct_panel_io'][key]['center_xz_mm']
- a.plot([x-8,x+8],[z,z],color='#27343c');a.plot([x,x],[z-8,z+8],color='#27343c')
+ if key=='ethernet':
+  a.add_patch(Circle((x,z),12,facecolor='#536e7c'))
+  for hx,hz in c['direct_panel_io']['ethernet']['footprint']['hole_centers_xz_mm']:a.add_patch(Circle((hx,hz),1.6,color='#27343c'))
+ else:
+  a.plot([x-8,x+8],[z,z],color='#27343c');a.plot([x,x],[z-8,z+8],color='#27343c')
  a.text(x,z+26,label,ha='center',fontsize=10,color='#1d2d39')
 a.text(300,100,'Chave + puxador\nLimitadores opcionais',ha='center',fontsize=10)
-a.text(300,-38,'Cruzes: centros de planejamento, sem corte definido.\nConectores com flange direto na madeira; sem placas extras.',ha='center',fontsize=10)
+a.text(300,-38,'Rede: recorte e dois furos provisórios. Energia: centro apenas.\nMontagem direta na madeira; sem placas extras.',ha='center',fontsize=10)
 a.set(xlim=(-25,625),ylim=(-85,645),aspect='equal');a.axis('off')
 b.set_title('PISO • entrada de ar por baixo',loc='left',weight='bold')
 b.add_patch(Rectangle((18,18),564,1272.1,facecolor='#d5bb92',edgecolor='#6e583d'))

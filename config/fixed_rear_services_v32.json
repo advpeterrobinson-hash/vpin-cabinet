@@ -22,7 +22,7 @@
     100
   ],
   "window_corner_radius_mm_candidate": 3,
-  "connector_cutouts": "Owner selected direct flange mounting in plywood, no extra carrier plates. Old oversized windows and carrier holes removed. Component cuts/pilots pending dimensioned SKU; solid wood is intentional, not finished CNC.",
+  "connector_cutouts": "Direct flange mounting, no extra plates. RJ45 draft24mm opening and two3.2mm wood holes from supplied drawing; mains uncut pending real cutout/retention details.",
   "lockdown_outer_axes_xz_mm": [
     [
       68.225,
@@ -71,9 +71,16 @@
         95,
         430
       ],
-      "type": "IEC C14 style inlet with fuse holder, rocker switch and own two-hole flange, as owner image",
+      "type": "New owner image416183: rectangular IEC-style inlet/fuse/rocker, no visible screw ears; retention type not confirmed",
       "footprint": null,
-      "source": "library/references/local/416182-mains-flange-reference.jpg"
+      "source": "library/references/local/416183-mains-dimensions.jpg",
+      "link": "https://meli.la/13BjJHD",
+      "image_callouts_mm": [
+        50,
+        30,
+        24
+      ],
+      "note": "Different housing from416182. Image gives no explicit panel-cutout, screw pitch or admissible panel thickness. Do not cut50x30 or assume24 is insertion depth. Snap-in appearance is inference only."
     },
     "ethernet": {
       "center_xz_mm": [
@@ -81,11 +88,38 @@
         430
       ],
       "type": "RJ45 Cat6 female-female panel coupler with own mounting flange",
-      "footprint": null,
-      "source": "https://www.mercadolivre.com.br/01-conector-rj45-cat6-dupla-femea-emenda-painel-rack-d/up/MLBU1763346612"
+      "footprint": {
+        "status": "DRAFT_FROM_OWNER_VENDOR_DRAWING_NOT_RELEASED",
+        "opening_diameter_mm": 24,
+        "wood_fixing_hole_diameter_mm": 3.2,
+        "hole_centers_xz_mm": [
+          [
+            539.5,
+            442
+          ],
+          [
+            520.5,
+            418
+          ]
+        ],
+        "basis": "24mm opening is explicit draft clearance over23.6 callout, not a vendor-specified panel cutout.3.2 wood clearance is design choice vs3.1 flange holes. External rear view is mirrored in globalX: drawing top-left maps to largerX. Body fit, flange coverage, fastener stack and rear cable latch access through18mm stock remain unverified."
+      },
+      "source": "https://www.mercadolivre.com.br/01-conector-rj45-cat6-dupla-femea-emenda-painel-rack-d/up/MLBU1763346612",
+      "drawing_source": "library/references/local/416185-rj45-dimensions.jpg",
+      "drawing_dimensions_mm": {
+        "diameter_callout": 23.6,
+        "flange_hole_diameter": 3.1,
+        "hole_pitch_horizontal": 19,
+        "hole_pitch_vertical": 24,
+        "side_view_callouts": [
+          30.7,
+          27.8,
+          21.7
+        ]
+      }
     },
     "stock_thickness_mm": 18,
-    "machining_status": "HOLD_SPECIFIC_CONNECTOR_FOOTPRINTS",
+    "machining_status": "RJ45_DRAFT_GEOMETRY; MAINS_FOOTPRINT_AND_BOTH_HARDWARE_STACKS_HOLD",
     "required_dimensions": [
       "body cutout profile and corner radii",
       "flange outline and hole pitch/diameter",
