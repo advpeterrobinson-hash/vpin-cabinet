@@ -1,0 +1,16 @@
+{
+ "source_head":"80e0cfd1665fe6b476d069f6ef03a24cad804899",
+ "source_directory":"exports/generated/notch-floor-fans-v32",
+ "starting_cad":"exports/generated/matrix-hinge-study-v32/gap-35.1424-tilt-25.FCStd",
+ "installed_z_adjustment_mm":-0.25,
+ "rotation_forward_deg":26,"forward_mm":68,"final_lift_mm":100,
+ "rotation_step_deg":0.25,"translation_step_mm":1,
+ "minimum_route_target_mm":1,
+ "carrier_mm":[540,95.375,12],"tilt_deg":25,"gap_mm":35.14237321235612,
+ "supports_x_mm":[36,546],"support_stock_mm":18,"seat_y_mm":[1075,1117],"foot_y_mm":[1127.125,1190],"support_bottom_z_mm":540,"retainer_local_y_mm":55,
+ "retaining_screws":"2 common M4 x 20 thumb screws; nominal 12 mm head, no specialized mechanism",
+ "support_mount_screws":"4 common 4 x 50 countersunk wood screws from inside underside; blind 3 mm pilots into rear shelf, no outer breakthrough",
+ "router_diameter_mm_provisional":6,
+ "harness":{"connector_xyz_mm":[70,1110,536],"connector_envelope_mm":[18,20,12],"service_loop_mm":200,"cable_od_mm_provisional":4,"minimum_bend_radius_mm_provisional":15,"disconnect_pull_mm":24,"moving_stow_xyz_mm":[70,1110,552]},
+ "manufacturing_ready":false
+}

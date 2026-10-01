@@ -1,0 +1,166 @@
+{
+  "views": [
+    {
+      "file": "01-matrix-installed-player.png",
+      "state": "MATRIX INSTALLED",
+      "camera_xyz_mm": [
+        300,
+        -350,
+        900
+      ],
+      "target_xyz_mm": [
+        300,
+        1080,
+        575
+      ],
+      "fov_deg": 22,
+      "pass": true
+    },
+    {
+      "file": "02-matrix-installed-side.png",
+      "state": "MATRIX INSTALLED",
+      "camera_xyz_mm": [
+        -420,
+        1090,
+        600
+      ],
+      "target_xyz_mm": [
+        300,
+        1090,
+        570
+      ],
+      "fov_deg": 23,
+      "pass": true
+    },
+    {
+      "file": "03-retention-detail.png",
+      "state": "MATRIX INSTALLED",
+      "camera_xyz_mm": [
+        -100,
+        970,
+        640
+      ],
+      "target_xyz_mm": [
+        52,
+        1125,
+        565
+      ],
+      "fov_deg": 36,
+      "pass": true
+    },
+    {
+      "file": "04-matrix-unlock.png",
+      "state": "MATRIX UNLOCK",
+      "camera_xyz_mm": [
+        -300,
+        760,
+        820
+      ],
+      "target_xyz_mm": [
+        300,
+        1080,
+        565
+      ],
+      "fov_deg": 30,
+      "pass": true
+    },
+    {
+      "file": "05-matrix-forward.png",
+      "state": "MATRIX FORWARD",
+      "camera_xyz_mm": [
+        -330,
+        770,
+        790
+      ],
+      "target_xyz_mm": [
+        300,
+        1025,
+        566
+      ],
+      "fov_deg": 31,
+      "pass": true
+    },
+    {
+      "file": "06-matrix-extraction.png",
+      "state": "MATRIX EXTRACTION",
+      "camera_xyz_mm": [
+        -340,
+        700,
+        950
+      ],
+      "target_xyz_mm": [
+        300,
+        1040,
+        610
+      ],
+      "fov_deg": 36,
+      "pass": true
+    },
+    {
+      "file": "07-matrix-removed.png",
+      "state": "MATRIX REMOVED",
+      "camera_xyz_mm": [
+        -420,
+        820,
+        610
+      ],
+      "target_xyz_mm": [
+        300,
+        1120,
+        540
+      ],
+      "fov_deg": 30,
+      "pass": true
+    },
+    {
+      "file": "08-playfield-service-matrix-removed.png",
+      "state": "PLAYFIELD SERVICE",
+      "camera_xyz_mm": [
+        -1300,
+        -900,
+        1700
+      ],
+      "target_xyz_mm": [
+        300,
+        700,
+        600
+      ],
+      "fov_deg": 40,
+      "pass": true
+    },
+    {
+      "file": "09-backbox-fold-matrix-removed.png",
+      "state": "BACKBOX FOLD",
+      "camera_xyz_mm": [
+        -1300,
+        -650,
+        1300
+      ],
+      "target_xyz_mm": [
+        300,
+        850,
+        530
+      ],
+      "fov_deg": 38,
+      "pass": true
+    },
+    {
+      "file": "10-exploded-matrix-cassette.png",
+      "state": "MATRIX EXPLODED",
+      "camera_xyz_mm": [
+        -400,
+        400,
+        1100
+      ],
+      "target_xyz_mm": [
+        300,
+        1100,
+        625
+      ],
+      "fov_deg": 33,
+      "pass": true
+    }
+  ],
+  "source_mesh_sha256": "72c3a2afadfb5babd26ecc6aae11f4b102f950cc6fdefb158e4d4e00a6c54e86",
+  "manufacturing_ready": false
+}

@@ -1,0 +1,1547 @@
+{
+  "checks": [
+    {
+      "check": "PLAY valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "PLAY explicit saved prerequisites",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FRONT accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "REAR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FAN_230 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FAN_370 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "REAR_DOOR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FLOOR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FLOOR_CLEAT_18 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FLOOR_CLEAT_552 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_1R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_2R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_SUPPORT_3R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_1L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_1R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_1R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_2L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_2R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_2R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_3L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_GUIDE_3R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CROSS_BRACKET_3R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PLAYFIELD_ENVELOPE accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PC_BASE accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PC_ENVELOPE accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PLUNGER_RESERVED accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_CoinFrame accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_DoorLeaf accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_ReturnButton1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_ReturnButton2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_LightSwitch1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_LightSwitch2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_DoorLock accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_Mechanism1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_Mechanism2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_MechanismMount1_1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_MechanismMount1_2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_MechanismMount2_1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_MechanismMount2_2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_CoinTray accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_TraySupport1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CoinStudy_TraySupport2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFrontButton1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFrontButton2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFrontButton3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFrontButton4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SHELF_1_CandidatePayload accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1L1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1L1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1L1Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1L2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1L2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1L2Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1R1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1R1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1R1Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1R2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1R2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt1R2Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2L1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2L1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2L1Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2L2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2L2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2L2Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2R1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2R1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2R1Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2R2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2R2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt2R2Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3L1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3L1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3L1Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3L2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3L2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3L2Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3R1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3R1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3R1Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3R2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3R2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SimpleShelfBolt3R2Insert accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1L1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1L1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1L2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1L2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1R1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1R1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1R2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew1R2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2L1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2L1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2L2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2L2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2R1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2R1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2R2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew2R2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3L1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3L1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3L2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3L2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3R1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3R1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3R2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFixedSupportScrew3R2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegBlockFL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegPlateFL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegBlockFR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegPlateFR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegBlockRL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegPlateRL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegBlockRR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateLegPlateRR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateGlass accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateGlassChannelL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateGlassChannelR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanGuard230Inner accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanGuard230Outer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_1OuterWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_1InnerWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_1Nut accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_2OuterWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_2InnerWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_2Nut accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_3OuterWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_3InnerWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_3Nut accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_4OuterWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_4InnerWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt230_4Nut accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanGuard370Inner accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanGuard370Outer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_1OuterWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_1InnerWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_1Nut accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_2OuterWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_2InnerWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_2Nut accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_3OuterWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_3InnerWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_3Nut accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_4OuterWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_4InnerWasher accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateFanBolt370_4Nut accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateHandleBolt1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateHandleBolt1Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateHandleBolt2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateHandleBolt2Washer accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateRearHandle accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateKeyLockBody accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateKeyLockShaft accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateKeyLockCam accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateLockKeeper accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateHingeFixed1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateHingeMoving1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateHingePin1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateHingeFixed2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateHingeMoving2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateHingePin2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "CandidateMainsEnclosure accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SSF_Subwoofer_DCS165_Reference accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SSF_BST_Carrier accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SSF_BST1_Reference accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SSF_Exciter1L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SSF_Exciter1R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SSF_Exciter2L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SSF_Exciter2R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SSF_AmplifierReserve accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SSF_PSUReserve accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "SSF_USBReserve accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafButton_primary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafButton_primary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafNut_primary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafNut_primary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafBracket_primary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafBracket_primary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafContacts_primary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafContacts_primary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafButton_secondary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafButton_secondary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafNut_secondary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafNut_secondary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafBracket_secondary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafBracket_secondary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafContacts_secondary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "LeafContacts_secondary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_BackboxCheckEnvelope accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_BasePlywood accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_WoodDowel accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_VESAEnvelope accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_SupportMountScrewL1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_SupportMountScrewR1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_SupportMountScrewL2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_SupportMountScrewR2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_SupportMountScrewL3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_SupportMountScrewR3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_OpenCradleL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_OpenCradleR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_StrapScrew1_1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_StrapScrew1_3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_CommercialStrap1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_StrapScrew2_1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_StrapScrew2_3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_CommercialStrap2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_StrapScrew3_1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_StrapScrew3_3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_CommercialStrap3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_StrapScrew4_1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_StrapScrew4_3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "PF_CommercialStrap4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanBoltL1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanNutL1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanBoltL2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanNutL2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanBoltL3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanNutL3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanBoltL4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanNutL4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterInsertL1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterScrewL1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterInsertL2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterScrewL2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterInsertL3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterScrewL3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterInsertL4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterScrewL4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorIntakeFanL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "RemovableIntakeFilterL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterMediaReserveL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorCommercialGuardReserveL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorUpperGuardReserveL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanConnectorReserveL accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanBoltR1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanNutR1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanBoltR2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanNutR2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanBoltR3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanNutR3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanBoltR4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanNutR4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterInsertR1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterScrewR1 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterInsertR2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterScrewR2 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterInsertR3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterScrewR3 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterInsertR4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterScrewR4 accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorIntakeFanR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "RemovableIntakeFilterR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFilterMediaReserveR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorCommercialGuardReserveR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorUpperGuardReserveR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "FloorFanConnectorReserveR accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonWireServiceReserve_primary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonToolServiceReserve_primary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonBodyServiceReserve_primary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonLeafServiceReserve_primary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonWireServiceReserve_primary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonToolServiceReserve_primary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonBodyServiceReserve_primary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonLeafServiceReserve_primary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonWireServiceReserve_secondary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonToolServiceReserve_secondary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonBodyServiceReserve_secondary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonLeafServiceReserve_secondary_L accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonWireServiceReserve_secondary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonToolServiceReserve_secondary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonBodyServiceReserve_secondary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "ButtonLeafServiceReserve_secondary_R accepted geometry unchanged",
+      "pass": true
+    },
+    {
+      "check": "rear shelf only four scoped blind matrix mounting pilots",
+      "pass": true
+    },
+    {
+      "check": "accepted live pivot expression retained",
+      "pass": true
+    },
+    {
+      "check": "MATRIX INSTALLED valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "MATRIX INSTALLED explicit saved prerequisites",
+      "pass": true
+    },
+    {
+      "check": "MATRIX UNLOCK valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "MATRIX UNLOCK explicit saved prerequisites",
+      "pass": true
+    },
+    {
+      "check": "MATRIX FORWARD valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "MATRIX FORWARD explicit saved prerequisites",
+      "pass": true
+    },
+    {
+      "check": "MATRIX EXTRACTION valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "MATRIX EXTRACTION explicit saved prerequisites",
+      "pass": true
+    },
+    {
+      "check": "MATRIX REMOVED valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "MATRIX REMOVED explicit saved prerequisites",
+      "pass": true
+    },
+    {
+      "check": "MATRIX REMOVED cassette and glass absent only with declared removal",
+      "pass": true
+    },
+    {
+      "check": "SERVICE valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "SERVICE explicit saved prerequisites",
+      "pass": true
+    },
+    {
+      "check": "SERVICE cassette and glass absent only with declared removal",
+      "pass": true
+    },
+    {
+      "check": "PLAYFIELD SERVICE valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "PLAYFIELD SERVICE explicit saved prerequisites",
+      "pass": true
+    },
+    {
+      "check": "PLAYFIELD SERVICE cassette and glass absent only with declared removal",
+      "pass": true
+    },
+    {
+      "check": "LIFT-OUT valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "LIFT-OUT explicit saved prerequisites",
+      "pass": true
+    },
+    {
+      "check": "LIFT-OUT cassette and glass absent only with declared removal",
+      "pass": true
+    },
+    {
+      "check": "BACKBOX FOLD valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "BACKBOX FOLD explicit saved prerequisites",
+      "pass": true
+    },
+    {
+      "check": "BACKBOX FOLD cassette and glass absent only with declared removal",
+      "pass": true
+    },
+    {
+      "check": "MATRIX EXPLODED valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "EXPLODED valid saved/recomputed solids",
+      "pass": true
+    },
+    {
+      "check": "negative geometry mutation rejected: PF_BasePlywood",
+      "pass": true
+    },
+    {
+      "check": "negative geometry mutation rejected: LeafButton_primary_L",
+      "pass": true
+    },
+    {
+      "check": "negative geometry mutation rejected: FloorIntakeFanL",
+      "pass": true
+    },
+    {
+      "check": "negative geometry mutation rejected: RemovableIntakeFilterL",
+      "pass": true
+    },
+    {
+      "check": "negative geometry mutation rejected: FAN_230",
+      "pass": true
+    },
+    {
+      "check": "negative geometry mutation rejected: PF_WoodDowel",
+      "pass": true
+    },
+    {
+      "check": "negative geometry mutation rejected: PF_OpenCradleL",
+      "pass": true
+    },
+    {
+      "check": "negative geometry mutation rejected: SHELF_2",
+      "pass": true
+    },
+    {
+      "check": "negative geometry mutation rejected: PC_BASE",
+      "pass": true
+    },
+    {
+      "check": "negative state metadata controls reject undeclared matrix removal",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/diagnostic.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/diagnostic.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/current-v32.step",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/current-v32.step",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/before.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/before.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/01-playfield-notch-top.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/01-playfield-notch-top.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/02-playfield-notch-underside.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/02-playfield-notch-underside.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/03-left-button-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/03-left-button-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/04-right-button-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/04-right-button-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/05-notch-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/05-notch-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/06-floor-fan-top.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/06-floor-fan-top.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/07-floor-fan-underside-filters.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/07-floor-fan-underside-filters.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/08-floor-fan-equipment-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/08-floor-fan-equipment-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/09-full-cabinet-airflow-path.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/09-full-cabinet-airflow-path.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/10-floor-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/10-floor-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/viewer-validation.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/viewer-validation.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: exports/generated/notch-floor-fans-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/notch-floor-fans-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes preserved: config/backbox_fold_v10.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: config/backbox_fold_v10.json",
+      "pass": true
+    },
+    {
+      "check": "route sampled at <= 0.25 degree and 1 mm",
+      "pass": true
+    },
+    {
+      "check": "all five initial lift controls fail",
+      "pass": true
+    },
+    {
+      "check": "fold blocker retained honestly",
+      "pass": true
+    },
+    {
+      "check": "viewer metadata/mesh provenance matches",
+      "pass": true
+    },
+    {
+      "check": "full current modeled SERVICE and LIFT-OUT clear with matrix and glass removed",
+      "pass": true
+    },
+    {
+      "check": "negative insufficient forward travel fails",
+      "pass": true
+    },
+    {
+      "check": "67 mm first integer travel with 1 mm rear-plane margin clears final lift",
+      "pass": true
+    },
+    {
+      "check": "selected 68 mm gives 2 mm rear-plane allowance",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "fold_clear": false,
+  "manufacturing_ready": false
+}

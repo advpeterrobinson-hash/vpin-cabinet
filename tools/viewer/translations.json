@@ -390,5 +390,189 @@
   "BUTTON TOOL ACCESS": {
     "en": "BUTTON TOOL ACCESS",
     "pt-BR": "ACESSO DE FERRAMENTA AO BOTÃO"
+  },
+  "MATRIX INSTALLED": {
+    "en": "MATRIX INSTALLED",
+    "pt-BR": "MATRIZ INSTALADA"
+  },
+  "MATRIX UNLOCK": {
+    "en": "MATRIX UNLOCK",
+    "pt-BR": "DESTRAVAR MATRIZ"
+  },
+  "MATRIX FORWARD": {
+    "en": "MATRIX FORWARD",
+    "pt-BR": "MATRIZ À FRENTE"
+  },
+  "MATRIX EXTRACTION": {
+    "en": "MATRIX EXTRACTION",
+    "pt-BR": "EXTRAÇÃO DA MATRIZ"
+  },
+  "MATRIX REMOVED": {
+    "en": "MATRIX REMOVED",
+    "pt-BR": "MATRIZ REMOVIDA"
+  },
+  "PLAYFIELD SERVICE": {
+    "en": "PLAYFIELD SERVICE",
+    "pt-BR": "SERVIÇO DO PLAYFIELD"
+  },
+  "BACKBOX FOLD": {
+    "en": "BACKBOX FOLD",
+    "pt-BR": "DOBRA DO BACKBOX"
+  },
+  "MATRIX EXPLODED": {
+    "en": "MATRIX EXPLODED",
+    "pt-BR": "MATRIZ EXPLODIDA"
+  },
+  "Matrix · installed": {
+    "en": "Matrix · installed",
+    "pt-BR": "Matriz · instalada"
+  },
+  "Matrix · wood seats and retainers": {
+    "en": "Matrix · wood seats and retainers",
+    "pt-BR": "Matriz · apoios e fixadores"
+  },
+  "Matrix · forward removal": {
+    "en": "Matrix · forward removal",
+    "pt-BR": "Matriz · remoção pela frente"
+  },
+  "Matrix · exploded cassette": {
+    "en": "Matrix · exploded cassette",
+    "pt-BR": "Matriz · cassete explodida"
+  },
+  "REMOVABLE MATRIX CASSETTE": {
+    "en": "REMOVABLE MATRIX CASSETTE",
+    "pt-BR": "CASSETE REMOVÍVEL DA MATRIZ"
+  },
+  "TWO WOOD SEATS · TWO REMOVABLE SCREWS": {
+    "en": "TWO WOOD SEATS · TWO REMOVABLE SCREWS",
+    "pt-BR": "DOIS APOIOS DE MADEIRA · DOIS PARAFUSOS REMOVÍVEIS"
+  },
+  "FOLD BLOCKED · existing envelope interference": {
+    "en": "FOLD BLOCKED · existing envelope interference",
+    "pt-BR": "DOBRA BLOQUEADA · interferência no envelope existente"
+  },
+  "MATRIX PLYWOOD CARRIER": {
+    "en": "MATRIX PLYWOOD CARRIER",
+    "pt-BR": "BASE DE COMPENSADO DA MATRIZ"
+  },
+  "MATRIX WOOD SEAT L": {
+    "en": "MATRIX WOOD SEAT L",
+    "pt-BR": "APOIO DE MADEIRA DA MATRIZ E"
+  },
+  "MATRIX WOOD SEAT R": {
+    "en": "MATRIX WOOD SEAT R",
+    "pt-BR": "APOIO DE MADEIRA DA MATRIZ D"
+  },
+  "MATRIX FIXED DISCONNECT": {
+    "en": "MATRIX FIXED DISCONNECT",
+    "pt-BR": "CONECTOR FIXO DA MATRIZ"
+  },
+  "MATRIX MOVING DISCONNECT": {
+    "en": "MATRIX MOVING DISCONNECT",
+    "pt-BR": "CONECTOR MÓVEL DA MATRIZ"
+  },
+  "MATRIX SERVICE LOOP": {
+    "en": "MATRIX SERVICE LOOP",
+    "pt-BR": "FOLGA DE SERVIÇO DA MATRIZ"
+  },
+  "MATRIX FIXED HARNESS": {
+    "en": "MATRIX FIXED HARNESS",
+    "pt-BR": "CHICOTE FIXO DA MATRIZ"
+  },
+  "MATRIX INSTALLED · glass removed → disconnect and remove matrix → playfield service / lift-out. Backbox fold verification remains BLOCKED.": {
+    "en": "MATRIX INSTALLED · glass removed → disconnect and remove matrix → playfield service / lift-out. Backbox fold verification remains BLOCKED.",
+    "pt-BR": "MATRIZ INSTALADA · retirar vidro → desconectar e remover matriz → serviço / retirada do playfield. Validação da dobra do backbox segue BLOQUEADA."
+  },
+  "MATRIX INSTALLED · two wood seats and two front-access thumb screws. Review geometry; manufacturing BLOCKED.": {
+    "en": "MATRIX INSTALLED · two wood seats and two front-access thumb screws. Review geometry; manufacturing BLOCKED.",
+    "pt-BR": "MATRIZ INSTALADA · dois apoios de madeira e dois parafusos manuais acessíveis pela frente. Geometria em revisão; fabricação BLOQUEADA."
+  },
+  "GLASS REMOVED · release two screws; unplug and stow harness; rock cassette 26° forward by hand. No hinge or rail.": {
+    "en": "GLASS REMOVED · release two screws; unplug and stow harness; rock cassette 26° forward by hand. No hinge or rail.",
+    "pt-BR": "VIDRO REMOVIDO · soltar dois parafusos; desconectar e recolher chicote; inclinar a cassete 26° para a frente à mão. Sem dobradiça ou trilho."
+  },
+  "GLASS REMOVED · HARNESS DISCONNECTED · cassette tilted forward, then pulled 68 mm toward player.": {
+    "en": "GLASS REMOVED · HARNESS DISCONNECTED · cassette tilted forward, then pulled 68 mm toward player.",
+    "pt-BR": "VIDRO REMOVIDO · CHICOTE DESCONECTADO · cassete inclinada para a frente e depois puxada 68 mm em direção ao jogador."
+  },
+  "GLASS REMOVED · HARNESS DISCONNECTED · after 68 mm forward travel, lift cassette 100 mm.": {
+    "en": "GLASS REMOVED · HARNESS DISCONNECTED · after 68 mm forward travel, lift cassette 100 mm.",
+    "pt-BR": "VIDRO REMOVIDO · CHICOTE DESCONECTADO · após avanço de 68 mm, elevar a cassete 100 mm."
+  },
+  "GLASS REMOVED · MATRIX REMOVED · stationary wood seats and fixed harness remain.": {
+    "en": "GLASS REMOVED · MATRIX REMOVED · stationary wood seats and fixed harness remain.",
+    "pt-BR": "VIDRO REMOVIDO · MATRIZ REMOVIDA · apoios de madeira e chicote fixo permanecem."
+  },
+  "PREREQUISITES: GLASS REMOVED + MATRIX REMOVED. Playfield 0–50° service retains accepted pivot geometry.": {
+    "en": "PREREQUISITES: GLASS REMOVED + MATRIX REMOVED. Playfield 0–50° service retains accepted pivot geometry.",
+    "pt-BR": "PRÉ-REQUISITOS: VIDRO REMOVIDO + MATRIZ REMOVIDA. Serviço do playfield de 0–50° mantém a geometria aceita do pivô."
+  },
+  "PREREQUISITES: GLASS REMOVED + MATRIX REMOVED. Accepted 48 mm unseat/lift-out is unchanged.": {
+    "en": "PREREQUISITES: GLASS REMOVED + MATRIX REMOVED. Accepted 48 mm unseat/lift-out is unchanged.",
+    "pt-BR": "PRÉ-REQUISITOS: VIDRO REMOVIDO + MATRIZ REMOVIDA. Desencaixe/retirada aceita de 48 mm permanece igual."
+  },
+  "PREREQUISITES: GLASS REMOVED + MATRIX REMOVED. BLOCKED: existing backbox envelope intersects cabinet; folded view is interference review only.": {
+    "en": "PREREQUISITES: GLASS REMOVED + MATRIX REMOVED. BLOCKED: existing backbox envelope intersects cabinet; folded view is interference review only.",
+    "pt-BR": "PRÉ-REQUISITOS: VIDRO REMOVIDO + MATRIZ REMOVIDA. BLOQUEADO: envelope existente do backbox cruza o gabinete; vista dobrada apenas para revisão de interferências."
+  },
+  "REVIEW ONLY · one carrier, six panels, two one-piece wood seats, two removable retainers. Common fixed screws/inserts; no custom metal.": {
+    "en": "REVIEW ONLY · one carrier, six panels, two one-piece wood seats, two removable retainers. Common fixed screws/inserts; no custom metal.",
+    "pt-BR": "APENAS REVISÃO · uma base, seis painéis, dois apoios inteiriços de madeira, dois fixadores removíveis. Parafusos/inserts comuns; sem metal customizado."
+  },
+  "MATRIX PANEL 1": {
+    "en": "MATRIX PANEL 1",
+    "pt-BR": "PAINEL DA MATRIZ 1"
+  },
+  "MATRIX PANEL 2": {
+    "en": "MATRIX PANEL 2",
+    "pt-BR": "PAINEL DA MATRIZ 2"
+  },
+  "MATRIX PANEL 3": {
+    "en": "MATRIX PANEL 3",
+    "pt-BR": "PAINEL DA MATRIZ 3"
+  },
+  "MATRIX PANEL 4": {
+    "en": "MATRIX PANEL 4",
+    "pt-BR": "PAINEL DA MATRIZ 4"
+  },
+  "MATRIX PANEL 5": {
+    "en": "MATRIX PANEL 5",
+    "pt-BR": "PAINEL DA MATRIZ 5"
+  },
+  "MATRIX PANEL 6": {
+    "en": "MATRIX PANEL 6",
+    "pt-BR": "PAINEL DA MATRIZ 6"
+  },
+  "MATRIX THUMB SCREW L": {
+    "en": "MATRIX THUMB SCREW L",
+    "pt-BR": "PARAFUSO MANUAL DA MATRIZ E"
+  },
+  "MATRIX THREADED INSERT L": {
+    "en": "MATRIX THREADED INSERT L",
+    "pt-BR": "INSERT ROSCADO DA MATRIZ E"
+  },
+  "MATRIX SUPPORT MOUNTING SCREW L1": {
+    "en": "MATRIX SUPPORT MOUNTING SCREW L1",
+    "pt-BR": "PARAFUSO DO APOIO DA MATRIZ E1"
+  },
+  "MATRIX SUPPORT MOUNTING SCREW L2": {
+    "en": "MATRIX SUPPORT MOUNTING SCREW L2",
+    "pt-BR": "PARAFUSO DO APOIO DA MATRIZ E2"
+  },
+  "MATRIX THUMB SCREW R": {
+    "en": "MATRIX THUMB SCREW R",
+    "pt-BR": "PARAFUSO MANUAL DA MATRIZ D"
+  },
+  "MATRIX THREADED INSERT R": {
+    "en": "MATRIX THREADED INSERT R",
+    "pt-BR": "INSERT ROSCADO DA MATRIZ D"
+  },
+  "MATRIX SUPPORT MOUNTING SCREW R1": {
+    "en": "MATRIX SUPPORT MOUNTING SCREW R1",
+    "pt-BR": "PARAFUSO DO APOIO DA MATRIZ D1"
+  },
+  "MATRIX SUPPORT MOUNTING SCREW R2": {
+    "en": "MATRIX SUPPORT MOUNTING SCREW R2",
+    "pt-BR": "PARAFUSO DO APOIO DA MATRIZ D2"
   }
 }

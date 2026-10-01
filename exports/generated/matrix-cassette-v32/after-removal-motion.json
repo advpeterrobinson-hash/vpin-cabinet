@@ -1,0 +1,21 @@
+{
+  "prerequisites": [
+    "GLASS_REMOVED",
+    "MATRIX_REMOVED"
+  ],
+  "checks": [
+    {
+      "state": "SERVICE",
+      "hits": [],
+      "clear": true
+    },
+    {
+      "state": "LIFT-OUT",
+      "hits": [],
+      "clear": true
+    }
+  ],
+  "service_increment_deg": 1,
+  "lift_increment_mm": 1,
+  "backbox_fold_clear": false
+}

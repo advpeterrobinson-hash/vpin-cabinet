@@ -1,0 +1,31 @@
+{
+  "geometric_forward_threshold_mm": 65.95358085911153,
+  "minimum_integer_travel_for_1mm_rear_plane_margin": 67,
+  "selected_forward_mm": 68,
+  "selected_reason": "2 mm allowance ahead of the backbox rearward obstruction; 1 mm route review target",
+  "vertical_extraction_tests": [
+    {
+      "forward_mm": 65,
+      "hits": [
+        "PF_BackboxCheckEnvelope"
+      ],
+      "rear_plane_clearance_mm": -0.9535808591115256
+    },
+    {
+      "forward_mm": 66,
+      "hits": [],
+      "rear_plane_clearance_mm": 0.04641914088847443
+    },
+    {
+      "forward_mm": 67,
+      "hits": [],
+      "rear_plane_clearance_mm": 1.0464191408884744
+    },
+    {
+      "forward_mm": 68,
+      "hits": [],
+      "rear_plane_clearance_mm": 2.0464191408884744
+    }
+  ],
+  "manufacturing_ready": false
+}

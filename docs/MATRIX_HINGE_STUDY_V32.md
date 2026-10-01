@@ -1,5 +1,7 @@
 # CURRENT V32 — hinge datum cleanup and matrix positioning study
 
+> Positioning study retained as the accepted reference. The subsequent [removable cassette study](MATRIX_CASSETTE_V32.md) implements the owner-approved removal-first service sequence. Installed SERVICE/LIFT/FOLD failures below remain historical study results, not requirements for the removable module.
+
 HEAD BEFORE: `80748804bf624d9a5c7c32d8d688da4b1318dccf`
 
 Accepted cabinet CAD and viewer are immutable inputs. This is an isolated comparison, not a replacement CURRENT model or manufacturing selection. Rebuild with `freecadcmd tools/matrix_hinge_study_v32_entry.py`, require MATRIX_STUDY_PASS, then run `freecadcmd tools/check_matrix_hinge_regressions_v32.py` (require MATRIX_REGRESSION_PASS), `freecadcmd tools/save_matrix_review_poses_v32.py` (require MATRIX_POSES_PASS), and `uv run --with matplotlib python tools/render_matrix_hinge_study_v32.py`.
