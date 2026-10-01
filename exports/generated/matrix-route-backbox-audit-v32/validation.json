@@ -1,0 +1,748 @@
+{
+  "source_head": "b4c618033805aea5cc53959a314cf77e8fb083c9",
+  "checks": [
+    {
+      "check": "bounded small-change search does not reach 3 mm at required intermediate poses",
+      "pass": true
+    },
+    {
+      "check": "baseline endpoint reproduces accepted bottleneck",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxFloorV14/BackboxLeftSideV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxFloorV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxLeftSideV14/BackboxFloorV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRightSideV14/BackboxFloorV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxTopV14/BackboxLeftSideV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxTopV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxLeftSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRightSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRearFrameLeftV14/BackboxFloorV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxFloorV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRearFrameLeftV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxTopV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRearFrameLeftV14/BackboxLeftSideV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxLeftSideV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRearFrameRightV14/BackboxFloorV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxFloorV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRearFrameRightV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxTopV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRearFrameRightV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRightSideV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRearFrameBottomV14/BackboxFloorV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxFloorV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxRearFrameTopV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "single valid source wood after joint: BackboxTopV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "documented backbox joinery resolves nominal internal wood overlaps",
+      "pass": true
+    },
+    {
+      "check": "all eight reconstructed wood members are single valid solids",
+      "pass": true
+    },
+    {
+      "check": "zero-state blocker is specifically the two existing glass channels",
+      "pass": true
+    },
+    {
+      "check": "stationary matrix supports add no zero-state overlap",
+      "pass": true
+    },
+    {
+      "check": "route upper bottleneck also exists at reconstructed floor, not just empty coarse volume",
+      "pass": true
+    },
+    {
+      "check": "reference axis and width datums retained",
+      "pass": true
+    },
+    {
+      "check": "positive reference-axis rotation folds toward player (-Y)",
+      "pass": true
+    },
+    {
+      "check": "invalid zero gate forbids a fold sweep",
+      "pass": true
+    },
+    {
+      "check": "accepted source and viewer bytes unchanged",
+      "pass": true
+    }
+  ],
+  "source_hashes": {
+    "exports/generated/matrix-cassette-v32/exploded.FCStd": "b793d27b2b0376def28eed313623cecd4345716b16ab98cf6d3b6d7a1f9fe2d5",
+    "exports/generated/matrix-cassette-v32/mesh.json": "72c3a2afadfb5babd26ecc6aae11f4b102f950cc6fdefb158e4d4e00a6c54e86",
+    "exports/generated/matrix-cassette-v32/validation.json": "c043c9da7d4cefee2c2f9f799292e85ba1f7f93e9a0fe9a8416527d8c38a64d4",
+    "exports/generated/matrix-cassette-v32/LICENSE": "d6475a84171f0cf7ff52667dea714df268fc65cea42f0bf328b0b70d4cd0ebab",
+    "exports/generated/matrix-cassette-v32/NOTICE.md": "5cbb14ae5fd1b50250019488ee8b0a172ad5b55a71d7e15da2d3456f9d8ffc8d",
+    "exports/generated/matrix-cassette-v32/viewer-validation.json": "14250b3ebfa9d17288f7a2fc65dabc3fa57db80fd7a7434e0b20ab087dae421f",
+    "exports/generated/matrix-cassette-v32/regression-validation.json": "2e348e212b4fa351f6d2ec3a29afdedac50582510c781b14335dafcfe5e5cb61",
+    "exports/generated/matrix-cassette-v32/01-matrix-installed-player.png": "da44e71e4c078cf03b1ee07e6cee8d3fffc56552c072149a9c2f96e9fd28961e",
+    "exports/generated/matrix-cassette-v32/02-matrix-installed-side.png": "d2ffdd8ad5f323c411d7d4464d94d3b32b07ffe7c02bb34235ca94a08145c386",
+    "exports/generated/matrix-cassette-v32/03-retention-detail.png": "0d86c0c5b28ee692b8a8c5d0c64238c148098f77d737b947d5b2a9f655746d21",
+    "exports/generated/matrix-cassette-v32/04-matrix-unlock.png": "43fa382dbc9c4a1c4f715dfefa84a6e1b07543711bfeee233901551f102f98f7",
+    "exports/generated/matrix-cassette-v32/05-matrix-forward.png": "a51ca4b045ca623c9d41e96c62f692c4c17d90de7702ddc42c37ff78d400af1c",
+    "exports/generated/matrix-cassette-v32/06-matrix-extraction.png": "a58d1815b0cebf237c6351461a6daaa32f5867f448b229a4222a5caf8cbbd9e9",
+    "exports/generated/matrix-cassette-v32/07-matrix-removed.png": "25b5db188b491598da7ba130482580a4c20271237f852dc44ed126391f3bf350",
+    "exports/generated/matrix-cassette-v32/08-playfield-service-matrix-removed.png": "8e351418cb8fa6e747e42def2d93bbc4d3519b3a3710a40d4fc2101b793d5e00",
+    "exports/generated/matrix-cassette-v32/09-backbox-fold-matrix-removed.png": "d6e223b8fdd85b8d89968451f2c472fb8fc13d0b75059ba6caba7396a4fc4648",
+    "exports/generated/matrix-cassette-v32/10-exploded-matrix-cassette.png": "bd7148b726b7748e1fe3f3ed47e482335b5be426733267dc8919a07f01ea82a2",
+    "exports/generated/matrix-cassette-v32/review-images.json": "37291971acfb7dcada3d3e1a5c3b1893c18e9385d71fe22c17aee3825fae96ce",
+    "exports/generated/matrix-cassette-v32/play.FCStd": "8930a2fcc6d8bd5b89e90833eefe2459e653f72d9db58c99a74818bb435d4ae5",
+    "exports/generated/matrix-cassette-v32/matrix-installed.FCStd": "1222cdc6933e9d39b40ded691fc28c552a0b65648f2b09e0e2a249e84dfd0ea5",
+    "exports/generated/matrix-cassette-v32/matrix-unlock.FCStd": "0cd4ee9fd0e57d00743f28c96d87b9df4513b23847570c70d032a2e6635911ad",
+    "exports/generated/matrix-cassette-v32/matrix-forward.FCStd": "f67f701f9ce19e924c191c5cbf66c13b196fe8abd819737f4a4fa836e8bdb101",
+    "exports/generated/matrix-cassette-v32/matrix-extraction.FCStd": "9e7f428c6b626e1eacb0e10db9454771b86d6d17218e9cd7aa333314acffa216",
+    "exports/generated/matrix-cassette-v32/matrix-removed.FCStd": "846c5fca029a855e66dfe7f733b42aba5279d613cdabdeb17dae66000429c2d8",
+    "exports/generated/matrix-cassette-v32/service.FCStd": "a826d1bff53c9b1e644c462b182279f2efb0ca7ea841e1c961a2b507aaac46b3",
+    "exports/generated/matrix-cassette-v32/playfield-service.FCStd": "f2acd6d8d9289329f6698858f7eb8e6bf64e73f3ddfcbb024eb47d0762a0e172",
+    "exports/generated/matrix-cassette-v32/lift-out.FCStd": "386279d949b5f01f8994d108e137174233a6cf0fc89bb042234d7abdf8c364b3",
+    "exports/generated/matrix-cassette-v32/backbox-fold.FCStd": "a8641c0bb80324bd73e6cae1273bbad9273f059469d3e413f4cf0751c625edcb",
+    "exports/generated/matrix-cassette-v32/matrix-exploded.FCStd": "edb469f05494488bacf31ddc3afc4ebb7a4a18d9bf3554b0c043bbc98e1dda47",
+    "exports/generated/matrix-cassette-v32/after-removal-motion.json": "b1c8aa2a74b434292133f3abea2fab1ca3258a88ac6bc1a0b23e21b28a3e2a29",
+    "exports/generated/matrix-cassette-v32/removal-route-limits.json": "c4080a6d73e570433827a0814c9599a24f18e54ec7a96ea7c1d40b4984830f89",
+    "exports/generated/viewer-v32/index.html": "cf5e0429d5c2c2ef42892c8ff9f1b0282c61640acdd690355003affd71f86144",
+    "config/matrix_cassette_v32.json": "d7031b21038810f8a11733c54ae6de6263370044bc5f8eb93fcca0009d1815cb",
+    "config/backbox_fold_v10.json": "9374251a40924c0fde87df72c541d82b4dad36efde0944330aadc7f4bc3f8d5e",
+    "config/structure_geometry_v14.json": "f31c7a4dba0e16404e2a04301d6d47c2e377308a7aa085a56f9a7692184c0dd1",
+    "config/cnc_detail_v25.json": "9f4594c2d522f31a6d296b1f930787f746d4159976bc88e88f7ccf162b672972",
+    "config/owner_services_v27.json": "947529557bfe74632a3982e68376a709968352fcdbc821399c4ba400c5d09d4c"
+  },
+  "matrix_route": {
+    "changed": false,
+    "target_achieved": false,
+    "target_mm": 3,
+    "old_minimum_mm": 1.1127880841040316,
+    "new_minimum_mm": 1.1127880841040316,
+    "rock_deg": 26,
+    "forward_mm": 68,
+    "final_lift_mm": 100,
+    "gap_mm": 35.14237321235612,
+    "tilt_deg": 25,
+    "visibility_min_percent": 75.0,
+    "stages": [
+      {
+        "stage": "1 forward only",
+        "count": 8,
+        "best_upper_bound": {
+          "rock_deg": 26,
+          "dy_mm": 0,
+          "dz_mm": 0,
+          "forward_sample_mm": 68,
+          "panel_backbox_mm": 1.112788084103918,
+          "carrier_playfield_mm": 1.1203563716837255,
+          "route_upper_bound_mm": 1.112788084103918
+        },
+        "target_candidates": 0
+      },
+      {
+        "stage": "2 Z only",
+        "count": 41,
+        "best_upper_bound": {
+          "rock_deg": 26,
+          "dy_mm": 0,
+          "dz_mm": 0.0,
+          "forward_sample_mm": 68,
+          "panel_backbox_mm": 1.112788084103918,
+          "carrier_playfield_mm": 1.1203563716837255,
+          "route_upper_bound_mm": 1.112788084103918
+        },
+        "target_candidates": 0
+      },
+      {
+        "stage": "3 Y with Z",
+        "count": 451,
+        "best_upper_bound": {
+          "rock_deg": 26.0,
+          "dy_mm": 0,
+          "dz_mm": 0.0,
+          "forward_sample_mm": 69,
+          "panel_backbox_mm": 1.112788084103918,
+          "carrier_playfield_mm": 1.1029039652465227,
+          "route_upper_bound_mm": 1.1029039652465227
+        },
+        "target_candidates": 0
+      },
+      {
+        "stage": "4 rock with Y and Z",
+        "count": 7667,
+        "best_upper_bound": {
+          "rock_deg": 26.0,
+          "dy_mm": 0,
+          "dz_mm": 0.0,
+          "forward_sample_mm": 69,
+          "panel_backbox_mm": 1.112788084103918,
+          "carrier_playfield_mm": 1.1029039652465227,
+          "route_upper_bound_mm": 1.1029039652465227
+        },
+        "target_candidates": 0
+      }
+    ],
+    "custom_metal": 0,
+    "limiting_pairs": [
+      {
+        "phase": "rock end",
+        "moving": "MatrixPanel1",
+        "obstacle": "BackboxFloorV14",
+        "clearance_mm": 1.112788084103918
+      },
+      {
+        "phase": "forward end",
+        "moving": "MatrixCarrier",
+        "obstacle": "PLAYFIELD_ENVELOPE",
+        "clearance_mm": 1.1203563716837255
+      }
+    ],
+    "scope": "Bounded sampled refinement, not proof against every possible continuous compound route. No change adopted."
+  },
+  "backbox": {
+    "zero_actual_wood_assembly_valid": false,
+    "internal_wood_joints_valid": true,
+    "coarse_valid_as_wood_collision_authority": false,
+    "classification": [
+      "B",
+      "E",
+      "F"
+    ],
+    "classification_notes": {
+      "B": "Solid coarse box includes empty interior and mixes structural wood with service space.",
+      "E": "Pre-V32 254 mm uniform-depth source floor has not been integrated with accepted V32 glass channels; not a 580 mm width error.",
+      "F": "Reconstructed source floor physically overlaps both current modeled channels at zero. Channel material is unconfirmed; do not call this wood-to-wood without material authority."
+    },
+    "axis_xyz_mm": [
+      300.0,
+      1270.0,
+      508.0
+    ],
+    "inset_mm": 59.8375,
+    "cabinet_width_mm": 600,
+    "backbox_width_mm": 780,
+    "raw_nominal_joint_overlaps": [
+      {
+        "part": "BackboxFloorV14",
+        "obstacle": "BackboxLeftSideV14",
+        "volume_mm3": 82296.0,
+        "intersection_bounds_mm": [
+          -90.0,
+          -72.0,
+          1054.1,
+          1308.1,
+          596.9,
+          614.9
+        ]
+      },
+      {
+        "part": "BackboxFloorV14",
+        "obstacle": "BackboxRightSideV14",
+        "volume_mm3": 82296.0,
+        "intersection_bounds_mm": [
+          672.0,
+          690.0,
+          1054.1,
+          1308.1,
+          596.9,
+          614.9
+        ]
+      },
+      {
+        "part": "BackboxFloorV14",
+        "obstacle": "BackboxRearFrameLeftV14",
+        "volume_mm3": 42120.0,
+        "intersection_bounds_mm": [
+          -90.0,
+          40.0,
+          1290.1,
+          1308.1,
+          596.9,
+          614.9
+        ]
+      },
+      {
+        "part": "BackboxFloorV14",
+        "obstacle": "BackboxRearFrameRightV14",
+        "volume_mm3": 42120.0,
+        "intersection_bounds_mm": [
+          560.0,
+          690.0,
+          1290.1,
+          1308.1,
+          596.9,
+          614.9
+        ]
+      },
+      {
+        "part": "BackboxFloorV14",
+        "obstacle": "BackboxRearFrameBottomV14",
+        "volume_mm3": 168480.0,
+        "intersection_bounds_mm": [
+          40.0,
+          560.0,
+          1290.1,
+          1308.1,
+          596.9,
+          614.9
+        ]
+      },
+      {
+        "part": "BackboxLeftSideV14",
+        "obstacle": "BackboxTopV14",
+        "volume_mm3": 82296.0,
+        "intersection_bounds_mm": [
+          -90.0,
+          -72.0,
+          1054.1,
+          1308.1,
+          1302.8,
+          1320.8
+        ]
+      },
+      {
+        "part": "BackboxLeftSideV14",
+        "obstacle": "BackboxRearFrameLeftV14",
+        "volume_mm3": 234543.59999999998,
+        "intersection_bounds_mm": [
+          -90.0,
+          -72.0,
+          1290.1,
+          1308.1,
+          596.9,
+          1320.8
+        ]
+      },
+      {
+        "part": "BackboxRightSideV14",
+        "obstacle": "BackboxTopV14",
+        "volume_mm3": 82296.0,
+        "intersection_bounds_mm": [
+          672.0,
+          690.0,
+          1054.1,
+          1308.1,
+          1302.8,
+          1320.8
+        ]
+      },
+      {
+        "part": "BackboxRearFrameLeftV14",
+        "obstacle": "BackboxTopV14",
+        "volume_mm3": 42120.0,
+        "intersection_bounds_mm": [
+          -90.0,
+          40.0,
+          1290.1,
+          1308.1,
+          1302.8,
+          1320.8
+        ]
+      },
+      {
+        "part": "BackboxRearFrameRightV14",
+        "obstacle": "BackboxRightSideV14",
+        "volume_mm3": 234543.59999999998,
+        "intersection_bounds_mm": [
+          672.0,
+          690.0,
+          1290.1,
+          1308.1,
+          596.9,
+          1320.8
+        ]
+      },
+      {
+        "part": "BackboxRearFrameRightV14",
+        "obstacle": "BackboxTopV14",
+        "volume_mm3": 42120.0,
+        "intersection_bounds_mm": [
+          560.0,
+          690.0,
+          1290.1,
+          1308.1,
+          1302.8,
+          1320.8
+        ]
+      },
+      {
+        "part": "BackboxRearFrameTopV14",
+        "obstacle": "BackboxTopV14",
+        "volume_mm3": 168480.0,
+        "intersection_bounds_mm": [
+          40.0,
+          560.0,
+          1290.1,
+          1308.1,
+          1302.8,
+          1320.8
+        ]
+      }
+    ],
+    "reused_joint_operations": [
+      {
+        "part": "BackboxFloorV14",
+        "mate": "BackboxLeftSideV14",
+        "removed_mm3": 54864.0
+      },
+      {
+        "part": "BackboxFloorV14",
+        "mate": "BackboxRightSideV14",
+        "removed_mm3": 54864.00000000001
+      },
+      {
+        "part": "BackboxLeftSideV14",
+        "mate": "BackboxFloorV14",
+        "removed_mm3": 27432.000000000004
+      },
+      {
+        "part": "BackboxRightSideV14",
+        "mate": "BackboxFloorV14",
+        "removed_mm3": 27432.0
+      },
+      {
+        "part": "BackboxTopV14",
+        "mate": "BackboxLeftSideV14",
+        "removed_mm3": 54864.0
+      },
+      {
+        "part": "BackboxTopV14",
+        "mate": "BackboxRightSideV14",
+        "removed_mm3": 54864.0
+      },
+      {
+        "part": "BackboxLeftSideV14",
+        "mate": "BackboxTopV14",
+        "removed_mm3": 27432.0
+      },
+      {
+        "part": "BackboxRightSideV14",
+        "mate": "BackboxTopV14",
+        "removed_mm3": 27432.0
+      },
+      {
+        "part": "BackboxRearFrameLeftV14",
+        "mate": "BackboxFloorV14",
+        "removed_mm3": 27132.0
+      },
+      {
+        "part": "BackboxFloorV14",
+        "mate": "BackboxRearFrameLeftV14",
+        "removed_mm3": 12744.0
+      },
+      {
+        "part": "BackboxRearFrameLeftV14",
+        "mate": "BackboxTopV14",
+        "removed_mm3": 27131.999999999996
+      },
+      {
+        "part": "BackboxTopV14",
+        "mate": "BackboxRearFrameLeftV14",
+        "removed_mm3": 12744.0
+      },
+      {
+        "part": "BackboxRearFrameLeftV14",
+        "mate": "BackboxLeftSideV14",
+        "removed_mm3": 161401.2
+      },
+      {
+        "part": "BackboxLeftSideV14",
+        "mate": "BackboxRearFrameLeftV14",
+        "removed_mm3": 76885.20000000167
+      },
+      {
+        "part": "BackboxRearFrameRightV14",
+        "mate": "BackboxFloorV14",
+        "removed_mm3": 27132.0
+      },
+      {
+        "part": "BackboxFloorV14",
+        "mate": "BackboxRearFrameRightV14",
+        "removed_mm3": 12744.0
+      },
+      {
+        "part": "BackboxRearFrameRightV14",
+        "mate": "BackboxTopV14",
+        "removed_mm3": 27131.999999999996
+      },
+      {
+        "part": "BackboxTopV14",
+        "mate": "BackboxRearFrameRightV14",
+        "removed_mm3": 12744.0
+      },
+      {
+        "part": "BackboxRearFrameRightV14",
+        "mate": "BackboxRightSideV14",
+        "removed_mm3": 161401.19999999998
+      },
+      {
+        "part": "BackboxRightSideV14",
+        "mate": "BackboxRearFrameRightV14",
+        "removed_mm3": 76885.20000000336
+      },
+      {
+        "part": "BackboxRearFrameBottomV14",
+        "mate": "BackboxFloorV14",
+        "removed_mm3": 118560.0
+      },
+      {
+        "part": "BackboxFloorV14",
+        "mate": "BackboxRearFrameBottomV14",
+        "removed_mm3": 56160.0
+      },
+      {
+        "part": "BackboxRearFrameTopV14",
+        "mate": "BackboxTopV14",
+        "removed_mm3": 118560.0
+      },
+      {
+        "part": "BackboxTopV14",
+        "mate": "BackboxRearFrameTopV14",
+        "removed_mm3": 56160.0
+      }
+    ],
+    "zero_wood_pairs": [],
+    "zero_wood_cabinet_hits": [
+      {
+        "part": "BackboxFloorV14",
+        "obstacle": "CandidateGlassChannelL",
+        "volume_mm3": 937.4505183347073,
+        "intersection_bounds_mm": [
+          0.0,
+          17.999999999999996,
+          1063.1877807761298,
+          1118.3381552210835,
+          596.9,
+          606.2468013269781
+        ]
+      },
+      {
+        "part": "BackboxFloorV14",
+        "obstacle": "CandidateGlassChannelR",
+        "volume_mm3": 937.4505183346776,
+        "intersection_bounds_mm": [
+          581.9999999999999,
+          600.0,
+          1063.1877807761298,
+          1118.3381552210838,
+          596.8999999999999,
+          606.2468013269781
+        ]
+      }
+    ],
+    "zero_coarse_hits": [
+      {
+        "part": "PF_BackboxCheckEnvelope",
+        "obstacle": "CandidateGlassChannelL",
+        "volume_mm3": 937.4505183347073,
+        "intersection_bounds_mm": [
+          0.0,
+          17.999999999999996,
+          1063.1877807761298,
+          1118.3381552210835,
+          596.9,
+          606.2468013269781
+        ]
+      },
+      {
+        "part": "PF_BackboxCheckEnvelope",
+        "obstacle": "CandidateGlassChannelR",
+        "volume_mm3": 937.4505183346776,
+        "intersection_bounds_mm": [
+          581.9999999999999,
+          600.0,
+          1063.1877807761298,
+          1118.3381552210838,
+          596.8999999999999,
+          606.2468013269781
+        ]
+      }
+    ],
+    "zero_display_hits": [],
+    "zero_dmd_hits": [],
+    "zero_matrix_support_hits": [],
+    "sweep_executed": false,
+    "sweep_status": "STOPPED_AT_INVALID_ZERO",
+    "first_wood_to_cabinet_collision_deg": 0,
+    "first_wood_to_wood_fold_collision_deg": null,
+    "wood_fold_clear": null,
+    "display_fold_clear": null,
+    "dmd_fold_clear": null,
+    "harness_pinch_clear": null,
+    "stationary_support_new_fold_conflict": null,
+    "stationary_support_zero_clearance_mm": 6.899999999999977,
+    "missing_authority": [
+      "No integrated detailed backbox assembly in accepted V32: reconstruction uses build_structure_v14 plus backbox-only detail_structure_v25 joints and owner_features_v27 cuts.",
+      "No defined fixed front structural wood; two source V27 speaker carrier plates are separate, material unconfirmed.",
+      "Located V27 DMD payload 190 x 55 x 90 differs from V12 future service requirement 450 x 80 x 230; larger reserve lacks a confirmed location.",
+      "No complete modeled moving backbox harness; 250 mm loop / R50 / 40 mm pinch keep-out are requirements, not a validated cable route.",
+      "Physical 01-9011-L/R, 02-4352 and 4322-01139-12B measurements still required."
+    ],
+    "source_wood_inventory": {
+      "BackboxFloorV14": {
+        "bounds_mm": [
+          -78.0,
+          678.0,
+          1054.1,
+          1302.1,
+          596.9,
+          614.9
+        ],
+        "volume_mm3": 3243145.0657883068
+      },
+      "BackboxLeftSideV14": {
+        "bounds_mm": [
+          -90.0,
+          -72.0,
+          1054.1,
+          1302.1,
+          596.9,
+          1320.8
+        ],
+        "volume_mm3": 3177921.599999998
+      },
+      "BackboxRightSideV14": {
+        "bounds_mm": [
+          672.0,
+          690.0,
+          1054.1,
+          1302.1,
+          596.9,
+          1320.8
+        ],
+        "volume_mm3": 3177921.599999997
+      },
+      "BackboxTopV14": {
+        "bounds_mm": [
+          -78.0,
+          678.0,
+          1054.1,
+          1302.1,
+          1302.8,
+          1320.8
+        ],
+        "volume_mm3": 3374783.999999999
+      },
+      "BackboxRearFrameLeftV14": {
+        "bounds_mm": [
+          -90.0,
+          40.0,
+          1290.1,
+          1308.1,
+          596.9,
+          1320.8
+        ],
+        "volume_mm3": 1478260.8000000012
+      },
+      "BackboxRearFrameRightV14": {
+        "bounds_mm": [
+          560.0,
+          690.0,
+          1290.1,
+          1308.1,
+          596.9,
+          1320.8
+        ],
+        "volume_mm3": 1478260.8000000028
+      },
+      "BackboxRearFrameBottomV14": {
+        "bounds_mm": [
+          40.0,
+          560.0,
+          1290.1,
+          1308.1,
+          596.9,
+          650.0
+        ],
+        "volume_mm3": 378456.00000000023
+      },
+      "BackboxRearFrameTopV14": {
+        "bounds_mm": [
+          40.0,
+          560.0,
+          1290.1,
+          1308.1,
+          1110.0,
+          1320.8
+        ],
+        "volume_mm3": 1567328.045402608
+      }
+    },
+    "static_diagnostic_angles_deg": [
+      45,
+      90
+    ],
+    "hinge_final_measurement_required": true
+  },
+  "accepted_geometry_modified": false,
+  "manufacturing_ready": false
+}

@@ -3,6 +3,8 @@
 > CURRENT V32 supersedes historical mechanism/PC/mobility descriptions below: 600 mm cabinet; Ø32 wooden dowel with open plywood cradles, no gas struts or steel props; low fixed PCBase, no drawer; external removable skating devices only, no integrated/retractable wheels. Accepted notch/fan stage: HEAD 8074880. Hinge/matrix positioning study: [accepted reference](docs/MATRIX_HINGE_STUDY_V32.md).
 
 > Current matrix follow-on: [removable cassette and explicit service sequence](docs/MATRIX_CASSETTE_V32.md). Fold verification remains BLOCKED; no accepted cabinet or hinge redesign.
+
+> Current audit: [matrix-route tolerance and backbox diagnosis](docs/MATRIX_ROUTE_BACKBOX_AUDIT_V32.md). Accepted geometry is unchanged; the 3 mm route target is unmet and the reconstructed backbox floor conflicts with current glass channels at 0°. Fold validation stops at that gate.
 [New development: fixed shelf heights, support drilling and leg corner planning](docs/SUPPORT_LEG_CNC_V32.md). The supplied printable leg jig is archived with attribution; its measured57mm pitch differs from the linked58mm template. Hardware and CNC release remain open.
 
 ## Current review entry point

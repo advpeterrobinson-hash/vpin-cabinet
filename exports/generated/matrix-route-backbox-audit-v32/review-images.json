@@ -1,0 +1,47 @@
+{
+  "images": [
+    {
+      "path": "exports/generated/matrix-route-backbox-audit-v32/01-upright-actual-backbox-wood.png",
+      "sha256": "c2140a09fbfc02df4aabba502ef72d195ef66e3bf60f1f1251e9a532f03e8540",
+      "source_mesh_sha256": "dba37704f655f1804489f09d8a15a14247fc70db09350286657bfced926c51c9"
+    },
+    {
+      "path": "exports/generated/matrix-route-backbox-audit-v32/02-coarse-envelope-comparison.png",
+      "sha256": "36c6429511247c44e8db76c69c5170733513715f3f66264a0f268c023e3f96a0",
+      "source_mesh_sha256": "dba37704f655f1804489f09d8a15a14247fc70db09350286657bfced926c51c9"
+    },
+    {
+      "path": "exports/generated/matrix-route-backbox-audit-v32/03-pivot-datum-close-up.png",
+      "sha256": "9221c82e74d1f1c9e97e965f7bec810597650b433a8060f61c7a7dedc1bceb28",
+      "source_mesh_sha256": "dba37704f655f1804489f09d8a15a14247fc70db09350286657bfced926c51c9"
+    },
+    {
+      "path": "exports/generated/matrix-route-backbox-audit-v32/04-first-real-interface-problem.png",
+      "sha256": "3ac56283692433d0e246a453ea993ae11f65a86be2c776bfb3d0dca35e46cc02",
+      "source_mesh_sha256": "dba37704f655f1804489f09d8a15a14247fc70db09350286657bfced926c51c9"
+    },
+    {
+      "path": "exports/generated/matrix-route-backbox-audit-v32/05-45-degree-diagnostic.png",
+      "sha256": "0c01820a720c7c10a802892ab6b2ff21413fa1d7461efe2f7b4c80431cacfac0",
+      "source_mesh_sha256": "dba37704f655f1804489f09d8a15a14247fc70db09350286657bfced926c51c9"
+    },
+    {
+      "path": "exports/generated/matrix-route-backbox-audit-v32/06-90-degree-diagnostic.png",
+      "sha256": "c36d40ef93a534e097aa96e16a30f370f1aebe0b05bea822f748695eb01d214a",
+      "source_mesh_sha256": "dba37704f655f1804489f09d8a15a14247fc70db09350286657bfced926c51c9"
+    },
+    {
+      "path": "exports/generated/matrix-route-backbox-audit-v32/07-display-separated-from-wood.png",
+      "sha256": "fd1359ac124498183a3a23472369b92278d2e81b01e33c4a737d370e3dc0555b",
+      "source_mesh_sha256": "dba37704f655f1804489f09d8a15a14247fc70db09350286657bfced926c51c9"
+    },
+    {
+      "path": "exports/generated/matrix-route-backbox-audit-v32/08-stationary-matrix-supports-zero-only.png",
+      "sha256": "4adbf302e07425681cb30757e217e27efa73860e8d4c4abb116460fb38743429",
+      "source_mesh_sha256": "dba37704f655f1804489f09d8a15a14247fc70db09350286657bfced926c51c9"
+    }
+  ],
+  "count": 8,
+  "real_cad_only": true,
+  "fold_sweep_validated": false
+}

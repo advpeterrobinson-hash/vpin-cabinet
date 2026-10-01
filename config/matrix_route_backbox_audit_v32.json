@@ -1,0 +1,22 @@
+{
+  "source_head": "b4c618033805aea5cc53959a314cf77e8fb083c9",
+  "source_directory": "exports/generated/matrix-cassette-v32",
+  "output_directory": "exports/generated/matrix-route-backbox-audit-v32",
+  "route_target_mm": 3,
+  "route_preferred_mm": 5,
+  "search": {
+    "forward_only_mm": [68, 69, 70, 72, 75, 80, 90, 100],
+    "z_adjustment_mm": [-5, 5, 0.25],
+    "y_adjustment_mm": [-10, 10, 2],
+    "rock_deg": [22, 30, 0.5],
+    "minimum_forward_mm": 68,
+    "note": "Ordered, bounded small-change screen. Endpoint distances are upper bounds on complete-route clearance, never route certification. Every longer translation must pass the sampled forward position. Failed candidates do not modify the accepted seats, retainers or installed geometry."
+  },
+  "fold_policy": {
+    "stop_on_invalid_zero": true,
+    "maximum_sweep_step_deg": 1,
+    "diagnostic_static_poses_deg": [45, 90],
+    "static_pose_note": "Requested illustrations only; no sweep or collision-clearance claim is permitted if the zero-degree gate fails."
+  },
+  "manufacturing_ready": false
+}

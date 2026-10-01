@@ -1,0 +1,488 @@
+{
+  "checks": [
+    {
+      "check": "zero-state gate and unmet margin explicitly retained",
+      "pass": true
+    },
+    {
+      "check": "negative false fold approval rejected: sweep_executed",
+      "pass": true
+    },
+    {
+      "check": "negative false fold approval rejected: wood_fold_clear",
+      "pass": true
+    },
+    {
+      "check": "negative false fold approval rejected: stationary_support_new_fold_conflict",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/viewer-validation.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/viewer-validation.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/01-matrix-installed-player.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/01-matrix-installed-player.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/02-matrix-installed-side.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/02-matrix-installed-side.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/03-retention-detail.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/03-retention-detail.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/04-matrix-unlock.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/04-matrix-unlock.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/05-matrix-forward.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/05-matrix-forward.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/06-matrix-extraction.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/06-matrix-extraction.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/07-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/07-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/08-playfield-service-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/08-playfield-service-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/09-backbox-fold-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/09-backbox-fold-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/10-exploded-matrix-cassette.png",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/10-exploded-matrix-cassette.png",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/review-images.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/review-images.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/matrix-installed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/matrix-installed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/matrix-unlock.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/matrix-unlock.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/matrix-forward.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/matrix-forward.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/matrix-extraction.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/matrix-extraction.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/matrix-removed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/matrix-removed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/playfield-service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/playfield-service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/backbox-fold.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/backbox-fold.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/matrix-exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/matrix-exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/after-removal-motion.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/after-removal-motion.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/matrix-cassette-v32/removal-route-limits.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/matrix-cassette-v32/removal-route-limits.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: exports/generated/viewer-v32/index.html",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: exports/generated/viewer-v32/index.html",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: config/matrix_cassette_v32.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: config/matrix_cassette_v32.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: config/backbox_fold_v10.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: config/backbox_fold_v10.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: config/structure_geometry_v14.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: config/structure_geometry_v14.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: config/cnc_detail_v25.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: config/cnc_detail_v25.json",
+      "pass": true
+    },
+    {
+      "check": "source bytes unchanged: config/owner_services_v27.json",
+      "pass": true
+    },
+    {
+      "check": "source matches accepted HEAD: config/owner_services_v27.json",
+      "pass": true
+    },
+    {
+      "check": "all accepted V32 sources, CAD, manufacturing and viewer files preserved",
+      "pass": true
+    },
+    {
+      "check": "saved audit shapes valid",
+      "pass": true
+    },
+    {
+      "check": "saved manufactured members single solids (intersection fragments are analysis geometry)",
+      "pass": true
+    },
+    {
+      "check": "saved audit explicitly not a current manufacturing model",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxFloorV14/BackboxLeftSideV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxFloorV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxFloorV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxFloorV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxFloorV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxFloorV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxFloorV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxLeftSideV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxLeftSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxLeftSideV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxLeftSideV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxLeftSideV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxLeftSideV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRightSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameLeftV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameLeftV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameLeftV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameLeftV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameRightV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameRightV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameRightV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameBottomV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameBottomV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameBottomV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameBottomV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameBottomV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameTopV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "wood joint no overlap: BackboxRearFrameTopV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "saved zero collision independently reproduced: CandidateGlassChannelL",
+      "pass": true
+    },
+    {
+      "check": "saved zero collision independently reproduced: CandidateGlassChannelR",
+      "pass": true
+    },
+    {
+      "check": "coarse box contains empty cavity; cannot stand for structural wood",
+      "pass": true
+    },
+    {
+      "check": "negative coordinate mutation is detectable",
+      "pass": true
+    },
+    {
+      "check": "45 degree image geometry explicitly illustration only",
+      "pass": true
+    },
+    {
+      "check": "90 degree image geometry explicitly illustration only",
+      "pass": true
+    },
+    {
+      "check": "full bounded combined grid recorded",
+      "pass": true
+    },
+    {
+      "check": "no tested upper bound reaches 3 mm",
+      "pass": true
+    },
+    {
+      "check": "larger forward travel does not improve limiting rock clearance",
+      "pass": true
+    },
+    {
+      "check": "visibility and accepted route unchanged",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "fold_validated": false,
+  "route_margin_target_achieved": false,
+  "manufacturing_ready": false
+}

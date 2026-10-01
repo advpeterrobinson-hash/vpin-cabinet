@@ -1,5 +1,7 @@
 # CURRENT V32 — removable matrix cassette review
 
+> Follow-on [route-margin / backbox audit](MATRIX_ROUTE_BACKBOX_AUDIT_V32.md): the accepted cassette remains unchanged. Small refinements do not achieve the later 3 mm route target. The source backbox floor intersects accepted glass channels at 0°, stopping fold validation. Earlier route results below are geometric review evidence, not manufacturing tolerance approval.
+
 HEAD BEFORE: `80e0cfd1665fe6b476d069f6ef03a24cad804899`.
 
 The matrix is installed for PLAY. The explicit maintenance sequence is **GLASS REMOVED → release two retainers and disconnect harness → MATRIX REMOVED → PLAYFIELD SERVICE / LIFT-OUT**. Matrix removal is also mandatory before considering backbox folding, but the current backbox envelope **does not pass** the fold screen even without the cassette. The fold pose is an interference review, not an approved transport state.
