@@ -7,6 +7,8 @@
 > Prior audit at eeab1a7: [matrix-route tolerance and backbox diagnosis](docs/MATRIX_ROUTE_BACKBOX_AUDIT_V32.md). The accepted matrix route remains unchanged at 1.112788 mm clearance. That audit identified the old backbox-floor collision at 0°.
 
 > Current floor integration: [backbox floor / glass-channel correction](docs/BACKBOX_FLOOR_V32.md). A straight front trim gives 5.084878 mm channel clearance and preserves 100% of rear-shelf bearing area. Upright wood passes; actual-wood folding remains BLOCKED by floor/shelf/side interference at 1°. Viewer and all other accepted V32 geometry remain unchanged.
+
+> Latest backbox profile study: [210/200/190/180 mm comparison and stop report](docs/BACKBOX_PROFILE_V32.md). No profile selected: 210–190 fail upright channels; 180 triggers the owner's below-190 stop. Fixed bearing/reference-axis kinematics also initially drive the floor into the shelf. Accepted floor and all cabinet systems remain unchanged.
 [New development: fixed shelf heights, support drilling and leg corner planning](docs/SUPPORT_LEG_CNC_V32.md). The supplied printable leg jig is archived with attribution; its measured57mm pitch differs from the linked58mm template. Hardware and CNC release remain open.
 
 ## Current review entry point

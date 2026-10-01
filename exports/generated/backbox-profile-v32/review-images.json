@@ -1,0 +1,67 @@
+{
+  "images": [
+    {
+      "path": "exports/generated/backbox-profile-v32/01-old-v14-side.png",
+      "sha256": "124bd055fbb9e51dbb52819e1ca383c6e7298b3fea5951983779360c05ef510c"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/02-candidate-210-side.png",
+      "sha256": "9adb5be59c48e7361f65eba8fcbf4d732392560ca9e6e981183b57b64ad501bf"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/03-200-190-180-comparison.png",
+      "sha256": "86c9e3facf7d3621b7f057e4e1de0c36ce89b08c83c4b2a158d071380eb14d5e"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/04-side-profile-overlay.png",
+      "sha256": "1cae4f3241f06d6abef0afc0b83d77f2a03ce335edda0aa1a6eede025669a5bc"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/06-candidate-floors-no-selection.png",
+      "sha256": "fcee77179182cca9c1abd5ff68e1281313cc224e75912153a744de5e75886e8e"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/08-shelf-lower-backbox-relation.png",
+      "sha256": "de9a7293aa10ab35db561f44063c0aa70d9d958bed762cf9e35c627c8777754d"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/09-hinge-bearing-relationship.png",
+      "sha256": "c35a0aa7e440553aadf42642b41d924a4815804dcaff5c606fa00db8ebca72f6"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/10-l-future-toy-zones.png",
+      "sha256": "8daf32e69b378d9780b4f7ae7375142a9155bcc5a424f297543c8c47e4004689"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/11-r-future-toy-zones.png",
+      "sha256": "5fc9bad9ff92f587b9b45da7a650b7ca6efae213513b6ba11bda38099798f93d"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/12-rear-removable-board-zone.png",
+      "sha256": "628dcf815e6b7b22a6136f724dd482381550d30c404980eeb1f9eb2c4ae6f42d"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/13-mass-cg-planning.png",
+      "sha256": "5c20295ae25ff6a849ed1ca7e617165ffc5d9578f9441beb0834951156d3c72a"
+    },
+    {
+      "path": "exports/generated/backbox-profile-v32/18-architecture-comparison-no-selection.png",
+      "sha256": "62f671b6a364529b95e4c1811433605a0836e83c773fc2bda369466b981f3914"
+    }
+  ],
+  "count": 12,
+  "mesh_sha256": "da5c8f20ba5217ebfa2b0ce3d327d6dd12604249805f4b9c100cba59084d3793",
+  "omitted": {
+    "05": "No selected profile",
+    "07": "No selected upright assembly",
+    "14": "No authorized candidate fold after upright/below-190 stop",
+    "15": "No valid fold through 45 degrees",
+    "16": "No valid fold through 90 degrees",
+    "17": "No selected wood assembly to explode"
+  },
+  "adapted": {
+    "06": "Candidate floor comparison; no selected floor",
+    "18": "Candidate architecture comparison; no selected architecture"
+  },
+  "real_cad_only": true
+}

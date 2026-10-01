@@ -1,0 +1,4551 @@
+{
+  "checks": [
+    {
+      "check": "owner stop and no false fold/selection claims",
+      "pass": true
+    },
+    {
+      "check": "negative control select180",
+      "pass": true
+    },
+    {
+      "check": "negative control claim190valid",
+      "pass": true
+    },
+    {
+      "check": "negative control foldInvalidZero",
+      "pass": true
+    },
+    {
+      "check": "negative control manufacture",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes cad/master/vpin-master.20260914-181346.FCBak",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes cad/master/vpin-master.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/active_build_v25.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/backbox_floor_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/backbox_fold_v10.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/backbox_mounting_v12.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/backbox_v06.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/cabinet_pc_slide_v22.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/cabinet_rear_cpu_shelf_v24.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/cabinet_rear_pc_service_v23.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/cabinet_service_v21.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/cabinet_structure_v20.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/cnc_coupon_v20.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/cnc_detail_v25.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/consolidated_audio_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/corner_relief_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/design.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/electrical_routing_v11.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/fixed_rear_services_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/floor_detail_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/front_panel_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/interface_zones_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/joinery_study_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/lockdown_interface_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/main_body_v07.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/matrix_cassette_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/matrix_hinge_study_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/matrix_route_backbox_audit_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/notch_floor_fans_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/owner_services_v27.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/panel_closure_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/playfield_display_v16.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/playfield_fixed_anchors_v19.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/playfield_mechanics_v18.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/playfield_pivot_v15.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/playfield_v04.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/playfield_v05.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/rear_door_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/rear_hardware_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/rear_utility_v26.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/service_correction_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/service_io_v08.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/shelf_anchorage_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/shelf_layout_freeze_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/shelf_retention_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/shelf_service_pose_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/side_motion_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/side_service_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/simple_shelves_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/structure_buildpack_v14.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/structure_geometry_v14.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/structure_materials_v13.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/support_leg_machining_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes config/wood_dowel_pivot_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/01-old-upright-collision.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/02-corrected-floor-alone.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/03-old-new-floor-overlay.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/04-corrected-upright.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/05-glass-channel-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/06-rear-shelf-bearing.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/07-preserved-hinge-lock-cable-zones.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/08-first-fold-bottleneck.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/corrected-upright.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/first-bottleneck.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/review-images.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/backbox-floor-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/01-interior.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/02-travessas.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/03-planta.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/04-traseira.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/05-encaixe.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/06-frente.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/PECAS-PARTS.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/PECAS-PARTS.pt-BR.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/README.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/README.pt-BR.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/build_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/geometry.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/render_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/vpin-central-v32.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/cabinet-v32/vpin-central-v32.step",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/connector-fit-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/connector-fit-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/connector-fit-v32/connector-coupon-mm.dxf",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/connector-fit-v32/connector-coupon.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/connector-fit-v32/connector-coupon.svg",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/connector-fit-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/01-consolidated-interior.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/README.txt",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/cabinet-v32-consolidated.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/cabinet-v32-consolidated.step",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/floor-draft-mm.dxf",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/floor-operations.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/manifest.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/v32-desenho-consolidado.zip",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/consolidated-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/corner-relief-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/corner-relief-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/corner-relief-v32/natural-guide-corners.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/corner-relief-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/fixed-rear-services-v32/01-fixed-rear-and-floor.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/fixed-rear-services-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/fixed-rear-services-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/fixed-rear-services-v32/closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/fixed-rear-services-v32/open110.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/fixed-rear-services-v32/open90.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/fixed-rear-services-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/floor-detail-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/floor-detail-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/floor-detail-v32/floor-detail.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/floor-detail-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/01-front-review.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/02-coin-door-configurations.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/03-coin-door-clearances.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/coin-basic-closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/coin-door-meshes.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/coin-door-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/coin-upgrade-closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/coin-upgrade-open.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/front-layout-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/front-panel-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/joinery-study-v32/01-joint-sections.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/joinery-study-v32/02-exploded-shell.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/joinery-study-v32/03-change-summary.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/joinery-study-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/joinery-study-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/joinery-study-v32/README.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/joinery-study-v32/captured-shell-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/joinery-study-v32/geometry.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/joinery-study-v32/sections.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/joinery-study-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/lighting-study-v32/01-layout.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/lighting-study-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/lighting-study-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/lighting-study-v32/layout.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/lockdown-interface-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/lockdown-interface-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/lockdown-interface-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/01-matrix-installed-player.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/02-matrix-installed-side.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/03-retention-detail.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/04-matrix-unlock.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/05-matrix-forward.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/06-matrix-extraction.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/07-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/08-playfield-service-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/09-backbox-fold-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/10-exploded-matrix-cassette.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/after-removal-motion.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/backbox-fold.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/matrix-exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/matrix-extraction.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/matrix-forward.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/matrix-installed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/matrix-removed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/matrix-unlock.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/playfield-service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/removal-route-limits.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/review-images.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-cassette-v32/viewer-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/01-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/02-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/03-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/04-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/05-player-eye-comparison.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/06-side-section.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/07-service.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/08-lift-out.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/09-matrix-removal.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/10-hinge-datums.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-30.6431-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-31.4219-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-32.9255-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-35.1424-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/matrix-removal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/pose-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/study-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-hinge-study-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/01-upright-actual-backbox-wood.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/02-coarse-envelope-comparison.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/03-pivot-datum-close-up.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/04-first-real-interface-problem.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/05-45-degree-diagnostic.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/06-90-degree-diagnostic.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/07-display-separated-from-wood.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/08-stationary-matrix-supports-zero-only.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/audit-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/backbox-source-audit.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/diagnostic_45_not_validated.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/diagnostic_90_not_validated.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/review-images.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/route-screen.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/matrix-route-backbox-audit-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/01-playfield-notch-top.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/02-playfield-notch-underside.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/03-left-button-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/04-right-button-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/05-notch-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/06-floor-fan-top.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/07-floor-fan-underside-filters.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/08-floor-fan-equipment-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/09-full-cabinet-airflow-path.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/10-floor-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/before.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/current-v32.step",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/diagnostic.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/notch-floor-fans-v32/viewer-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/panel-closure-v32/01-side-rear-interfaces.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/panel-closure-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/panel-closure-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/panel-closure-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/panel-closure-v32/panel-closure-study.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/panel-closure-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-door-v32/01-keyed-rear-door.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-door-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-door-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-door-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-door-v32/rear-door-closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-door-v32/rear-door-open.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-door-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-hardware-v32/01-rear-hardware.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-hardware-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-hardware-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-hardware-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-hardware-v32/rear-hardware-study.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/rear-hardware-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/04-shelf-service-routes.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/05-shelf-retention.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/06-shelf-anchorage.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/07-simple-shelves.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/08-shelf-raised-display.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/09-shelf-spacing.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/anchorage-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/motion-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/retention-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/service-stage-SHELF_1.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/service-stage-SHELF_2.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/service-stage-SHELF_3.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/service-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/shelf-anchorage-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/shelf-hole-schedule-review.csv",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/shelf-retention-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/shelf-service-pose-screen.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/simple-shelves-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/simple-shelves-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/simple-shelves-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/side-panel-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/support-leg-v32/01-heights-and-leg-corner.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/support-leg-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/support-leg-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/support-leg-v32/detail-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/support-leg-v32/machining-plan-review.csv",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/support-leg-v32/support-leg-planning.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/support-leg-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/01-cradle-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/01-player-left.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/02-mounting-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/02-player-right.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/03-floor-supports.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/03-play-oblique.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/04-lift-out.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/04-service.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/05-rear-flush.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/05-side-detail.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/06-closed-detail.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/06-mechanism-exploded.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/07-usability-original.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/08-usability-accessible.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/browser-verification.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/viewer-v32/index.html",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/01-side-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/02-exploded.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/03-corrected-ligament-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/04-final-cradle-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/05-exciter-cradle-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/06-cradle-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/cleanup-baseline-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/cradle-profile-before-cleanup.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/current-v32.step",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/diagnostic.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.svg",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/support-mounting-schedule.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes exports/generated/wood-dowel-pivot-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/active_parts.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/active_review.FCMacro",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/add_oled_c5_v03.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/audit_reference.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/audit_repository.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/backbox_floor_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_active.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_active_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_cabinet_pc_slide_v22.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_cabinet_pc_slide_v22_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_cabinet_rear_cpu_shelf_v24.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_cabinet_rear_cpu_shelf_v24_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_cabinet_rear_pc_service_v23.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_cabinet_rear_pc_service_v23_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_cabinet_service_v21.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_cabinet_service_v21_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_cabinet_structure_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_cabinet_structure_v20_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_joinery_study_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_owner_services_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_playfield_fixed_anchors_v19.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_playfield_fixed_anchors_v19_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_playfield_mechanics_v18.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_playfield_mechanics_v18_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_playfield_pivot_v15.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_playfield_pivot_v15_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_playfield_v04.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_playfield_v04_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_playfield_v05.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_playfield_v05_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_rear_utility_v26.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_review_viewer.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_service_io_v09.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_service_io_v09_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_shell_v01.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_shell_v02.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_simplification_v28_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_structure_v14.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/build_structure_v14_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/check_backbox_floor_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/check_fcstd_v04.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/check_matrix_cassette_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/check_matrix_cassette_viewer_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/check_matrix_hinge_regressions_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/check_matrix_route_backbox_audit_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/check_notch_floor_fans_viewer_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/check_review_viewer_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/cleanup_active_master_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/cleanup_active_master_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/coin_door_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/connector_fit_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/consolidated_audio_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/corner_relief_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/create_master.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/detail_structure_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/detail_structure_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/extract_backbox_reference.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/extract_backbox_reference_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/extract_outline_sketch.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/extract_playfield_fit.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/extract_playfield_mechanics.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/extract_williams_profile.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/fixed_rear_services_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/floor_detail_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/front_panel_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/generate_cnc_coupon_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/generate_cnc_register_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/generate_measurement_pack_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/generate_owner_execution_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/joinery_study.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/lockdown_interface_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/matrix_cassette_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/matrix_hinge_study_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/matrix_route_backbox_audit_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/measure_leg_jig_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/migrate_platform_v09.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/migrate_platform_v09_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/notch_floor_fans_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/owner_features_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/owner_review_scenes_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/owner_workflow_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/package_consolidated_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/panel_closure_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/propose_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/rear_door_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/rear_hardware_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_active_review.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_backbox_floor_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_cnc_detail_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_coin_door_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_consolidated_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_cradle_cleanup_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_fixed_rear_services_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_front_panel_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_joinery_study.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_ligament_review_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_lighting_study_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_matrix_hinge_study_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_matrix_route_backbox_audit_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_notch_floor_fans_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_owner_change_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_owner_review_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_panel_closure_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_rear_door_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_rear_hardware_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_shelf_anchorage_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_shelf_retention_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_shelf_service_pose_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_shelf_spacing_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_side_motion_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_simple_shelves_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_support_leg_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_support_mounting_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/render_wood_dowel_pivot_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/review_owner_change_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/review_owner_change_v28_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_active_build_v25.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_cabinet_pc_slide_v22.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_cabinet_rear_cpu_shelf_v24.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_cabinet_rear_pc_service_v23.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_cabinet_service_v21.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_cabinet_structure_v20.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_cnc_detail_v25.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_connector_fit_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_consolidated_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_corner_relief_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_fixed_rear_services_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_floor_detail_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_front_panel_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_joinery_study.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_notch_floor_fans_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_owner_change_v28.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_panel_closure_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_platform_v09.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_playfield_fixed_anchors_v19.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_playfield_mechanics_v18.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_playfield_pivot_v15.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_playfield_v04.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_playfield_v05.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_rear_door_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_rear_hardware_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_service_correction_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_shelf_service_pose_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_side_review_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_simple_shelves_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_simplification_v28.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_structure_v14.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_support_leg_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/run_v32_review.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/save_matrix_review_poses_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/service_correction_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/shelf_anchorage_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/shelf_retention_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/shelf_service_pose_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/side_motion_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/side_panel_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/side_service_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/simple_shelves_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/simplification_counts_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/solve_playfield_struts.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/solve_playfield_v05.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/support_leg_machining_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/test_active_geometry_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/test_cnc_detail_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/test_joinery_study_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/test_owner_services_v27_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/test_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_active_build_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_backbox_fold_v10.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_backbox_mounting_v12.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_backbox_v06.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_cabinet_pc_slide_v22.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_cabinet_rear_cpu_shelf_v24.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_cabinet_rear_pc_service_v23.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_cabinet_service_v21.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_cabinet_structure_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_cnc_detail_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_electrical_routing_v11.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_main_body_v07.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_owner_change_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_owner_execution_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_owner_services_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_physical_validation_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_playfield_display_v16.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_playfield_fixed_anchors_v19.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_playfield_mechanics_v18.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_playfield_pivot_v15.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_service_correction_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_service_io_v08.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_structure_buildpack_v14.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_structure_materials_v13.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/validate_wood_dowel_pivot_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_active_geometry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_active_geometry_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_active_master_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_active_master_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_active_master_v25_file.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_cabinet_pc_slide_v22.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_cabinet_rear_cpu_shelf_v24.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_cabinet_rear_cpu_shelf_v24_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_cabinet_rear_pc_service_v23.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_cabinet_service_v21.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_cabinet_structure_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_cnc_detail_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_cnc_detail_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_owner_services_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_platform_v09.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_playfield_fixed_anchors_v19.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_playfield_mechanics_v18.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_playfield_pivot_v15.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_playfield_v04.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_playfield_v05.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_rear_cpu_saved_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_rear_utility_v26.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_structure_v14.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/verify_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/viewer/template.html",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/viewer/translations.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/viewer/vendor/LICENSE.three",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/viewer/vendor/OrbitControls.js",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/viewer/vendor/three.min.js",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes tools/wood_dowel_pivot_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "scope restricted to backbox study",
+      "pass": true
+    },
+    {
+      "check": "210 single solid members",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxFloorV14/BackboxLeftSideV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxFloorV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxFloorV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxFloorV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxFloorV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxFloorV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxFloorV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxLeftSideV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxLeftSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxLeftSideV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxLeftSideV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxLeftSideV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxLeftSideV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRightSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRightSideV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRightSideV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRightSideV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRightSideV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxTopV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxTopV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxTopV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxTopV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRearFrameLeftV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRearFrameLeftV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRearFrameLeftV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRearFrameRightV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRearFrameRightV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "210 internal pair BackboxRearFrameBottomV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "210 mirrored sides",
+      "pass": true
+    },
+    {
+      "check": "210 derived floor depth",
+      "pass": true
+    },
+    {
+      "check": "210 independent channel clearance",
+      "pass": true
+    },
+    {
+      "check": "210 exact rejection BackboxFloorV14/CandidateGlass",
+      "pass": true
+    },
+    {
+      "check": "210 exact rejection BackboxFloorV14/CandidateGlassChannelL",
+      "pass": true
+    },
+    {
+      "check": "210 exact rejection BackboxFloorV14/CandidateGlassChannelR",
+      "pass": true
+    },
+    {
+      "check": "210 nominal stock",
+      "pass": true
+    },
+    {
+      "check": "210 side height",
+      "pass": true
+    },
+    {
+      "check": "210 no invalid selected status",
+      "pass": true
+    },
+    {
+      "check": "210 bearing independently measured",
+      "pass": true
+    },
+    {
+      "check": "210 planar ligament",
+      "pass": true
+    },
+    {
+      "check": "210 shared bearing witness",
+      "pass": true
+    },
+    {
+      "check": "210 L fasteners avoid future hinge band",
+      "pass": true
+    },
+    {
+      "check": "210 L fastener pitch",
+      "pass": true
+    },
+    {
+      "check": "210 R fasteners avoid future hinge band",
+      "pass": true
+    },
+    {
+      "check": "210 R fastener pitch",
+      "pass": true
+    },
+    {
+      "check": "210 CAD wood mass",
+      "pass": true
+    },
+    {
+      "check": "210 mass budget sums",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 0",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 1",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 2",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 3",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 4",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 5",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 6",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 7",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 8",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 9",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 10",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 11",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 12",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 13",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 14",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 15",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 16",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 17",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 18",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 19",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 20",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 21",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 22",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 23",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 24",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 25",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 26",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 27",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 28",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 29",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 30",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 31",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 32",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 33",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 34",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 35",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 36",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 37",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 38",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 39",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 40",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 41",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 42",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 43",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 44",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 45",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 46",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 47",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 48",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 49",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 50",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 51",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 52",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 53",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 54",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 55",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 56",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 57",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 58",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 59",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 60",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 61",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 62",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 63",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 64",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 65",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 66",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 67",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 68",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 69",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 70",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 71",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 72",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 73",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 74",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 75",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 76",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 77",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 78",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 79",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 80",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 81",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 82",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 83",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 84",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 85",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 86",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 87",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 88",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 89",
+      "pass": true
+    },
+    {
+      "check": "210 force balance 90",
+      "pass": true
+    },
+    {
+      "check": "200 single solid members",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxFloorV14/BackboxLeftSideV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxFloorV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxFloorV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxFloorV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxFloorV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxFloorV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxFloorV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxLeftSideV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxLeftSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxLeftSideV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxLeftSideV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxLeftSideV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxLeftSideV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRightSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRightSideV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRightSideV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRightSideV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRightSideV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxTopV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxTopV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxTopV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxTopV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRearFrameLeftV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRearFrameLeftV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRearFrameLeftV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRearFrameRightV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRearFrameRightV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "200 internal pair BackboxRearFrameBottomV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "200 mirrored sides",
+      "pass": true
+    },
+    {
+      "check": "200 derived floor depth",
+      "pass": true
+    },
+    {
+      "check": "200 independent channel clearance",
+      "pass": true
+    },
+    {
+      "check": "200 exact rejection BackboxFloorV14/CandidateGlass",
+      "pass": true
+    },
+    {
+      "check": "200 exact rejection BackboxFloorV14/CandidateGlassChannelL",
+      "pass": true
+    },
+    {
+      "check": "200 exact rejection BackboxFloorV14/CandidateGlassChannelR",
+      "pass": true
+    },
+    {
+      "check": "200 nominal stock",
+      "pass": true
+    },
+    {
+      "check": "200 side height",
+      "pass": true
+    },
+    {
+      "check": "200 no invalid selected status",
+      "pass": true
+    },
+    {
+      "check": "200 bearing independently measured",
+      "pass": true
+    },
+    {
+      "check": "200 planar ligament",
+      "pass": true
+    },
+    {
+      "check": "200 shared bearing witness",
+      "pass": true
+    },
+    {
+      "check": "200 L fasteners avoid future hinge band",
+      "pass": true
+    },
+    {
+      "check": "200 L fastener pitch",
+      "pass": true
+    },
+    {
+      "check": "200 R fasteners avoid future hinge band",
+      "pass": true
+    },
+    {
+      "check": "200 R fastener pitch",
+      "pass": true
+    },
+    {
+      "check": "200 CAD wood mass",
+      "pass": true
+    },
+    {
+      "check": "200 mass budget sums",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 0",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 1",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 2",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 3",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 4",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 5",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 6",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 7",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 8",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 9",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 10",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 11",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 12",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 13",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 14",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 15",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 16",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 17",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 18",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 19",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 20",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 21",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 22",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 23",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 24",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 25",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 26",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 27",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 28",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 29",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 30",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 31",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 32",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 33",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 34",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 35",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 36",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 37",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 38",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 39",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 40",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 41",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 42",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 43",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 44",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 45",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 46",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 47",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 48",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 49",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 50",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 51",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 52",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 53",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 54",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 55",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 56",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 57",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 58",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 59",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 60",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 61",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 62",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 63",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 64",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 65",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 66",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 67",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 68",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 69",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 70",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 71",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 72",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 73",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 74",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 75",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 76",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 77",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 78",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 79",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 80",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 81",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 82",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 83",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 84",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 85",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 86",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 87",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 88",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 89",
+      "pass": true
+    },
+    {
+      "check": "200 force balance 90",
+      "pass": true
+    },
+    {
+      "check": "190 single solid members",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxFloorV14/BackboxLeftSideV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxFloorV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxFloorV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxFloorV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxFloorV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxFloorV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxFloorV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxLeftSideV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxLeftSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxLeftSideV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxLeftSideV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxLeftSideV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxLeftSideV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRightSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRightSideV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRightSideV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRightSideV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRightSideV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxTopV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxTopV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxTopV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxTopV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRearFrameLeftV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRearFrameLeftV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRearFrameLeftV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRearFrameRightV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRearFrameRightV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "190 internal pair BackboxRearFrameBottomV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "190 mirrored sides",
+      "pass": true
+    },
+    {
+      "check": "190 derived floor depth",
+      "pass": true
+    },
+    {
+      "check": "190 independent channel clearance",
+      "pass": true
+    },
+    {
+      "check": "190 exact rejection BackboxFloorV14/CandidateGlassChannelL",
+      "pass": true
+    },
+    {
+      "check": "190 exact rejection BackboxFloorV14/CandidateGlassChannelR",
+      "pass": true
+    },
+    {
+      "check": "190 nominal stock",
+      "pass": true
+    },
+    {
+      "check": "190 side height",
+      "pass": true
+    },
+    {
+      "check": "190 no invalid selected status",
+      "pass": true
+    },
+    {
+      "check": "190 bearing independently measured",
+      "pass": true
+    },
+    {
+      "check": "190 planar ligament",
+      "pass": true
+    },
+    {
+      "check": "190 shared bearing witness",
+      "pass": true
+    },
+    {
+      "check": "190 L fasteners avoid future hinge band",
+      "pass": true
+    },
+    {
+      "check": "190 L fastener pitch",
+      "pass": true
+    },
+    {
+      "check": "190 R fasteners avoid future hinge band",
+      "pass": true
+    },
+    {
+      "check": "190 R fastener pitch",
+      "pass": true
+    },
+    {
+      "check": "190 CAD wood mass",
+      "pass": true
+    },
+    {
+      "check": "190 mass budget sums",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 0",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 1",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 2",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 3",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 4",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 5",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 6",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 7",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 8",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 9",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 10",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 11",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 12",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 13",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 14",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 15",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 16",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 17",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 18",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 19",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 20",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 21",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 22",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 23",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 24",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 25",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 26",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 27",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 28",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 29",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 30",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 31",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 32",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 33",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 34",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 35",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 36",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 37",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 38",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 39",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 40",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 41",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 42",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 43",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 44",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 45",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 46",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 47",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 48",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 49",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 50",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 51",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 52",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 53",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 54",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 55",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 56",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 57",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 58",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 59",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 60",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 61",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 62",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 63",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 64",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 65",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 66",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 67",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 68",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 69",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 70",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 71",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 72",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 73",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 74",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 75",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 76",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 77",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 78",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 79",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 80",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 81",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 82",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 83",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 84",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 85",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 86",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 87",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 88",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 89",
+      "pass": true
+    },
+    {
+      "check": "190 force balance 90",
+      "pass": true
+    },
+    {
+      "check": "180 single solid members",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxFloorV14/BackboxLeftSideV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxFloorV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxFloorV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxFloorV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxFloorV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxFloorV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxFloorV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxLeftSideV14/BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxLeftSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxLeftSideV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxLeftSideV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxLeftSideV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxLeftSideV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRightSideV14/BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRightSideV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRightSideV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRightSideV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRightSideV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxTopV14/BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxTopV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxTopV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxTopV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRearFrameLeftV14/BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRearFrameLeftV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRearFrameLeftV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRearFrameRightV14/BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRearFrameRightV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "180 internal pair BackboxRearFrameBottomV14/BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "180 mirrored sides",
+      "pass": true
+    },
+    {
+      "check": "180 derived floor depth",
+      "pass": true
+    },
+    {
+      "check": "180 independent channel clearance",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxFloorV14/SIDE_L",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxFloorV14/SIDE_R",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxFloorV14/REAR",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxFloorV14/BACKBOX_BASE",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxRearFrameLeftV14/SIDE_L",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxRearFrameLeftV14/REAR",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxRearFrameLeftV14/BACKBOX_BASE",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxRearFrameRightV14/SIDE_R",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxRearFrameRightV14/REAR",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxRearFrameRightV14/BACKBOX_BASE",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxRearFrameBottomV14/REAR",
+      "pass": true
+    },
+    {
+      "check": "warning 180 zero BackboxRearFrameBottomV14/BACKBOX_BASE",
+      "pass": true
+    },
+    {
+      "check": "180 nominal stock",
+      "pass": true
+    },
+    {
+      "check": "180 side height",
+      "pass": true
+    },
+    {
+      "check": "180 no invalid selected status",
+      "pass": true
+    },
+    {
+      "check": "180 bearing independently measured",
+      "pass": true
+    },
+    {
+      "check": "180 planar ligament",
+      "pass": true
+    },
+    {
+      "check": "180 shared bearing witness",
+      "pass": true
+    },
+    {
+      "check": "180 L fasteners avoid future hinge band",
+      "pass": true
+    },
+    {
+      "check": "180 L fastener pitch",
+      "pass": true
+    },
+    {
+      "check": "180 R fasteners avoid future hinge band",
+      "pass": true
+    },
+    {
+      "check": "180 R fastener pitch",
+      "pass": true
+    },
+    {
+      "check": "180 CAD wood mass",
+      "pass": true
+    },
+    {
+      "check": "180 mass budget sums",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 0",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 1",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 2",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 3",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 4",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 5",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 6",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 7",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 8",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 9",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 10",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 11",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 12",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 13",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 14",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 15",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 16",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 17",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 18",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 19",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 20",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 21",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 22",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 23",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 24",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 25",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 26",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 27",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 28",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 29",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 30",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 31",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 32",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 33",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 34",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 35",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 36",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 37",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 38",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 39",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 40",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 41",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 42",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 43",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 44",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 45",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 46",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 47",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 48",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 49",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 50",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 51",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 52",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 53",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 54",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 55",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 56",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 57",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 58",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 59",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 60",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 61",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 62",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 63",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 64",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 65",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 66",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 67",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 68",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 69",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 70",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 71",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 72",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 73",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 74",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 75",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 76",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 77",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 78",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 79",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 80",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 81",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 82",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 83",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 84",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 85",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 86",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 87",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 88",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 89",
+      "pass": true
+    },
+    {
+      "check": "180 force balance 90",
+      "pass": true
+    },
+    {
+      "check": "local derivative points down into shelf",
+      "pass": true
+    },
+    {
+      "check": "no unapproved successful fold files",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "selected_depth_mm": null,
+  "manufacturing_ready": false
+}
