@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900"><rect width="1200" height="900" fill="white"/><style>text{font-family:sans-serif;fill:#20313c;font-size:16px}.small{font-size:13px}</style>
 <text x="35" y="35" class="">V32 · SUPPORT MOUNTING · NOMINAL ASSEMBLY DRAWING</text>
 <text x="35" y="60" class="small">CNC/assembly reference · geometry not manufacturing-approved · measure both plywood pieces and purchased screw</text>
-<path d="M 135.012,680.000 L 202.000,680.000 L 202.000,413.200 L 193.662,413.200 L 193.662,339.600 L 202.000,339.600 L 202.000,130.047 L 174.975,130.047 L 174.975,163.972 A 18.974999999999998,18.974999999999998 0 0 1 137.025,163.972 L 137.025,130.047 L 110.000,130.047 L 110.000,158.498 L 135.012,158.498 Z" fill="#dec498" stroke="#5c4530" stroke-width="1.5"/>
+<path d="M 135.012,680.000 L 202.000,680.000 L 202.000,413.200 L 193.662,413.200 L 193.662,339.600 L 202.000,339.600 L 202.000,130.047 L 174.975,130.047 L 174.975,163.972 A 18.974999999999998,18.974999999999998 0 0 1 137.025,163.972 L 137.025,130.047 L 110.000,130.047 L 110.000,158.498 L 127.537,158.498 L 127.537,200.197 L 135.012,200.197 Z" fill="#dec498" stroke="#5c4530" stroke-width="1.5"/>
 <circle cx="156.0" cy="164.5466203678576" r="18.4" fill="#8c623c" fill-opacity=".4" stroke="#5c4530"/>
 <circle cx="158.0117871757431" cy="500.6" r="2.875" fill="white" stroke="#20313c"/><circle cx="158.0117871757431" cy="500.6" r="5.175" fill="none" stroke="#20313c" stroke-dasharray="3 2"/>
 <text x="88" y="505.6" class="">1</text>
@@ -13,7 +13,7 @@
 <text x="230" y="135" class="">80 mm upper profile; open U depth 46 mm</text>
 <text x="230" y="160" class="">Mouth 33 mm; dowel Ø32; minimum unseating lift 46 mm</text>
 <text x="230" y="185" class="">Demonstrated lift 48 mm: 2 mm over the upper edges</text>
-<text x="230" y="220" class="">Front shoulder clears retained crossmember guide by 1 mm</text>
+<text x="230" y="220" class="">Local front web 8.25 mm; retained guide clearance 0.5 mm</text>
 <text x="230" y="245" class="">Rear relief clears unchanged SSF exciter by 2 mm</text>
 <text x="35" y="715" class="">DIRECT BEARING ON CABINET FLOOR · Z36</text>
 <text x="230" y="285" class="">HEADS: left X36 / right X564</text>

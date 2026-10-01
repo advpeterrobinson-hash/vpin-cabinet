@@ -165,5 +165,13 @@
   "minimum_lift_to_clear_mm": 46.0,
   "foot_y_min_mm": 1017.0,
   "foot_y_max_mm": 1075.25061984718,
-  "shoulder_z_mm": 489.4801077622672
+  "shoulder_z_mm": 489.4801077622672,
+  "local_front_y_mm": 1010.5,
+  "local_widening_z_mm": 453.2203301149065,
+  "minimum_upper_ligament_before_mm": 1.75,
+  "minimum_upper_ligament_mm": 8.250619847179905,
+  "crossmember_clearance_mm": 0.5,
+  "exciter_clearance_mm": 2.0,
+  "cradle_geometry_unchanged": true,
+  "screw_coordinates_unchanged": true
 }

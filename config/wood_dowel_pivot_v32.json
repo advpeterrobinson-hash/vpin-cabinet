@@ -42,5 +42,7 @@
     "nails_used": false,
     "reference_url": "https://www.spax.com/gb-en/p/stainless-steel-screw-full-thread-flat-countersunk-head-t-star-plus-4cut-stainless-steel-a2.html?variant=1197000450303"
   },
-  "rear_door_outer_recess_mm": 0
+  "rear_door_outer_recess_mm": 0,
+  "cradle_local_guide_clearance_mm": 0.5,
+  "cradle_local_widening_below_seat_mm": 15
 }

@@ -5,6 +5,9 @@ import json, math, hashlib
 from pathlib import Path
 R=Path(__file__).resolve().parents[1]; O=R/'exports/generated/wood-dowel-pivot-v32'; O.mkdir(parents=True,exist_ok=True)
 c=json.loads((R/'config/wood_dowel_pivot_v32.json').read_text()); V=A.Vector
+previous_doc=A.openDocument(str(O/'play.FCStd'))
+previous={o.Name:o.Shape.copy() for o in previous_doc.Objects if hasattr(o,'Shape')}
+A.closeDocument(previous_doc.Name)
 source=R/'exports/generated/service-correction-v32/play.FCStd'
 d=A.openDocument(str(source));d.recompute()
 original={o.Name:o.Shape.copy() for o in d.Objects if hasattr(o,'Shape')}
@@ -36,7 +39,11 @@ foot_front=scene['SHELF_SUPPORT_3L'].BoundBox.YMax+c['cradle_edge_clearance_mm']
 shoulder_z=scene['CROSS_GUIDE_3L'].BoundBox.ZMax+c['cradle_guide_clearance_mm']
 rear_y=py+w/2
 assert foot_front<py-rr and shoulder_z<top_z
-points=[V(18,foot_front,floor_top),V(18,rear_y,floor_top),V(18,rear_y,top_z),V(18,py-w/2,top_z),V(18,py-w/2,shoulder_z),V(18,foot_front,shoulder_z)]
+local_front=scene['CROSS_GUIDE_3L'].BoundBox.YMax+c['cradle_local_guide_clearance_mm']
+widening_z=seat_bottom-c['cradle_local_widening_below_seat_mm']
+minimum_ligament=py-rr-local_front
+assert minimum_ligament>=8 and widening_z>scene['SHELF_SUPPORT_3L'].BoundBox.ZMax
+points=[V(18,foot_front,floor_top),V(18,rear_y,floor_top),V(18,rear_y,top_z),V(18,py-w/2,top_z),V(18,py-w/2,shoulder_z),V(18,local_front,shoulder_z),V(18,local_front,widening_z),V(18,foot_front,widening_z)]
 raw=Part.Face(Part.makePolygon(points+[points[0]])).extrude(V(18,0,0))
 raw=raw.cut(cyl(17,py,seat_cz,rr,20)).cut(box(17,py-rr,seat_cz,20,2*rr,top_z-seat_cz+1)).removeSplitter()
 exciter=scene['SSF_Exciter2L'].BoundBox;gap=c['cradle_edge_clearance_mm']
@@ -115,6 +122,12 @@ def hits(parts,obs):
  return out
 checks=[]
 def check(n,v):checks.append({'check':n,'pass':bool(v)});print(n,v,flush=True)
+check('only two support solids changed from previous current model',set(previous)==set(scene) and all(diff(previous[n],scene[n])<1e-5 for n in scene if n not in ('PF_OpenCradleL','PF_OpenCradleR')))
+check('upper load bearing ligament at least 8 mm',minimum_ligament>=8)
+check('one CNC solid per support',all(scene[n].isValid() and len(scene[n].Solids)==1 for n in ('PF_OpenCradleL','PF_OpenCradleR')))
+cross_clearance=min(scene['PF_OpenCradle'+side].distToShape(scene['CROSS_GUIDE_3'+side])[0] for side in ('L','R'))
+exciter_clearance=min(scene['PF_OpenCradle'+side].distToShape(scene['SSF_Exciter2'+side])[0] for side in ('L','R'))
+check('local crossmember and exciter clearances maintained',cross_clearance>=c['cradle_local_guide_clearance_mm']-1e-6 and exciter_clearance>=2-1e-6)
 sweep=[]
 for angle in range(0,int(c['service_angle_deg'])+1,2):
  h=hits({n:rot(scene[n],angle) for n in moving},fixed);sweep.append({'angle':angle,'hits':h})
@@ -195,7 +208,7 @@ for state,pose in poses.items():
 step=O/'current-v32.step';step.write_text('\n'.join(line.rstrip() for line in step.read_text().splitlines())+'\n')
 def mesh(n,s):
  vs,fs=s.tessellate(.7);return {'name':n,'vertices':[[v.x,v.y,v.z] for v in vs],'faces':[list(f) for f in fs]}
-review={k:old[k] for k in ('buttons','closed_slope_deg','structural_proof','manufacturing_ready')};review.update({'pivot_xyz_mm':[300,py,pz],'opening_deg':c['service_angle_deg'],'wood_dowel_diameter_mm':2*r,'cradle_coordinates_mm':[[18,py,36],[564,py,36]],'cradle_seat_axis_xyz_mm':[[27,py,pz],[573,py,pz]],'lift_out_mm':c['lift_out_mm'],'lift_out_clearance_mm':c['lift_out_mm']-r-c['cradle_top_above_axis_mm'],'support_profile_width_before_mm':24,'support_profile_width_after_mm':w,'cradle_depth_before_mm':5.176,'cradle_depth_after_mm':top_z-seat_bottom,'support_mounting':{'positions':fixing_positions,'screw':f,'countersink_depth_mm':cs_depth,'side_engagement_mm':f['screw_length_mm']-18,'side_remaining_beyond_tip_mm':36-f['screw_length_mm'],'minimum_lift_to_clear_mm':r+c['cradle_top_above_axis_mm'],'foot_y_min_mm':foot_front,'foot_y_max_mm':rear_y,'shoulder_z_mm':shoulder_z},'rear_flush':{'before_outer_y_mm':door_before.BoundBox.YMax,'after_outer_y_mm':scene['REAR_DOOR'].BoundBox.YMax,'plane_y_mm':rear_plane,'translation_y_mm':door_delta,'wood_recesses':rear_removed},'custom_metal_parts_required':0,'commodity_metal_parts':18,'commodity_metal_ids':[n for n in scene if 'Strap' in n or n in mount_screws],'counts':{'PLAYFIELD PIVOT CUSTOM METAL PARTS':0,'PLAYFIELD PIVOT BEARINGS':0,'PLAYFIELD PIVOT BUSHINGS':0,'PLAYFIELD PIVOT STEEL RODS':0,'PLAYFIELD PIVOT WOOD DOWELS':1,'PLAYFIELD PIVOT CNC WOOD SUPPORTS':2,'PLAYFIELD BASE PLYWOOD PANELS':1,'COMMERCIAL STRAPS':4,'STRAP SCREWS':8,'SUPPORT MOUNTING SCREWS':6,'TOTAL METAL PARTS IN PLAYFIELD PIVOT SYSTEM':18},'limits':'Sampled geometry only; no load proof. Commercial strap envelope provisional. Owner final architecture supersedes previous prop requirements.'})
+review={k:old[k] for k in ('buttons','closed_slope_deg','structural_proof','manufacturing_ready')};review.update({'pivot_xyz_mm':[300,py,pz],'opening_deg':c['service_angle_deg'],'wood_dowel_diameter_mm':2*r,'cradle_coordinates_mm':[[18,py,36],[564,py,36]],'cradle_seat_axis_xyz_mm':[[27,py,pz],[573,py,pz]],'lift_out_mm':c['lift_out_mm'],'lift_out_clearance_mm':c['lift_out_mm']-r-c['cradle_top_above_axis_mm'],'support_profile_width_before_mm':24,'support_profile_width_after_mm':w,'cradle_depth_before_mm':5.176,'cradle_depth_after_mm':top_z-seat_bottom,'support_mounting':{'positions':fixing_positions,'screw':f,'countersink_depth_mm':cs_depth,'side_engagement_mm':f['screw_length_mm']-18,'side_remaining_beyond_tip_mm':36-f['screw_length_mm'],'minimum_lift_to_clear_mm':r+c['cradle_top_above_axis_mm'],'foot_y_min_mm':foot_front,'foot_y_max_mm':rear_y,'shoulder_z_mm':shoulder_z,'local_front_y_mm':local_front,'local_widening_z_mm':widening_z,'minimum_upper_ligament_before_mm':1.75,'minimum_upper_ligament_mm':minimum_ligament,'crossmember_clearance_mm':cross_clearance,'exciter_clearance_mm':exciter_clearance,'cradle_geometry_unchanged':True,'screw_coordinates_unchanged':all(diff(previous[n],scene[n])<1e-5 for n in mount_screws)},'rear_flush':{'before_outer_y_mm':door_before.BoundBox.YMax,'after_outer_y_mm':scene['REAR_DOOR'].BoundBox.YMax,'plane_y_mm':rear_plane,'translation_y_mm':door_delta,'wood_recesses':rear_removed},'custom_metal_parts_required':0,'commodity_metal_parts':18,'commodity_metal_ids':[n for n in scene if 'Strap' in n or n in mount_screws],'counts':{'PLAYFIELD PIVOT CUSTOM METAL PARTS':0,'PLAYFIELD PIVOT BEARINGS':0,'PLAYFIELD PIVOT BUSHINGS':0,'PLAYFIELD PIVOT STEEL RODS':0,'PLAYFIELD PIVOT WOOD DOWELS':1,'PLAYFIELD PIVOT CNC WOOD SUPPORTS':2,'PLAYFIELD BASE PLYWOOD PANELS':1,'COMMERCIAL STRAPS':4,'STRAP SCREWS':8,'SUPPORT MOUNTING SCREWS':6,'TOTAL METAL PARTS IN PLAYFIELD PIVOT SYSTEM':18},'limits':'Sampled geometry only; no load proof. Commercial strap envelope provisional. Owner final architecture supersedes previous prop requirements.'})
 # 40 mm lift clears tangent dowel bottom at z+24: equality, add margin below.
 bundle={'parts':[mesh(n,s) for n,s in scene.items()],'states':{},'review':review}
 for state,pose in poses.items():bundle['states'][state]={n:mesh(n,pose[n]) if n in pose else None for n in scene if n not in pose or diff(scene[n],pose[n])>1e-5}

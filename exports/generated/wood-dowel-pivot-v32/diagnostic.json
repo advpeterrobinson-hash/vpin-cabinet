@@ -1,6 +1,22 @@
 {
   "checks": [
     {
+      "check": "only two support solids changed from previous current model",
+      "pass": true
+    },
+    {
+      "check": "upper load bearing ligament at least 8 mm",
+      "pass": true
+    },
+    {
+      "check": "one CNC solid per support",
+      "pass": true
+    },
+    {
+      "check": "local crossmember and exciter clearances maintained",
+      "pass": true
+    },
+    {
       "check": "configured opening sweep no collisions at 2 degree samples",
       "pass": true
     },
