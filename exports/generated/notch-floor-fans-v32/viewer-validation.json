@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "checks": [
+    "accepted EN/PT-BR and palettes preserved byte for byte in source",
+    "English/original defaults",
+    "four states",
+    "language and palette preserve geometry bytes",
+    "selection edges",
+    "new fan/filter labels",
+    "fan position and stationary states",
+    "old passive filter frames removed",
+    "CAD/STEP files byte unchanged by viewer work"
+  ],
+  "viewer_sha256": "47e61851fa003c05b2234bb6c09ffad077b4307390ff961c00ffe8cc7b8ce939"
+}

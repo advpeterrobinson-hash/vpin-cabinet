@@ -1,0 +1,455 @@
+{
+  "checks": [
+    {
+      "check": "one mirrored notched plywood base solid",
+      "pass": true
+    },
+    {
+      "check": "L primary body service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "L primary leaf service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "L primary wire service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "L primary tool service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "L secondary body service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "L secondary leaf service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "L secondary wire service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "L secondary tool service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "R primary body service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "R primary leaf service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "R primary wire service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "R primary tool service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "R secondary body service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "R secondary leaf service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "R secondary wire service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "R secondary tool service clears notched base",
+      "pass": true
+    },
+    {
+      "check": "wire allowances retain at least 2 mm board clearance",
+      "pass": true
+    },
+    {
+      "check": "notches away from straps VESA and all crossmembers",
+      "pass": true
+    },
+    {
+      "check": "TV and VESA clear unchanged notched board",
+      "pass": true
+    },
+    {
+      "check": "both button tool routes clear TV and non-target cabinet",
+      "pass": true
+    },
+    {
+      "check": "floor remains valid single 18 mm CNC solid",
+      "pass": true
+    },
+    {
+      "check": "all new installed parts valid single solids",
+      "pass": true
+    },
+    {
+      "check": "new fans filters and basic fasteners clear installed geometry",
+      "pass": true
+    },
+    {
+      "check": "L 120 fan envelope clear actual equipment",
+      "pass": true
+    },
+    {
+      "check": "L all four fan bores pass floor and existing fan",
+      "pass": true
+    },
+    {
+      "check": "L unobstructed 116 floor airflow aperture",
+      "pass": true
+    },
+    {
+      "check": "L blind filter inserts leave 10 mm floor skin",
+      "pass": true
+    },
+    {
+      "check": "L filter continuously removes 80 mm downward without fan removal",
+      "pass": true
+    },
+    {
+      "check": "L fan 80 mm vertical withdrawal clear after fastener removal",
+      "pass": true
+    },
+    {
+      "check": "L connector and cable service reserve clear",
+      "pass": true
+    },
+    {
+      "check": "L filter removal obstructed negative control detected",
+      "pass": true
+    },
+    {
+      "check": "L oversized 140 fan mounting negative control rejected",
+      "pass": true
+    },
+    {
+      "check": "L fan shifted into subwoofer negative control rejected",
+      "pass": true
+    },
+    {
+      "check": "R 120 fan envelope clear actual equipment",
+      "pass": true
+    },
+    {
+      "check": "R all four fan bores pass floor and existing fan",
+      "pass": true
+    },
+    {
+      "check": "R unobstructed 116 floor airflow aperture",
+      "pass": true
+    },
+    {
+      "check": "R blind filter inserts leave 10 mm floor skin",
+      "pass": true
+    },
+    {
+      "check": "R filter continuously removes 80 mm downward without fan removal",
+      "pass": true
+    },
+    {
+      "check": "R fan 80 mm vertical withdrawal clear after fastener removal",
+      "pass": true
+    },
+    {
+      "check": "R connector and cable service reserve clear",
+      "pass": true
+    },
+    {
+      "check": "R filter removal obstructed negative control detected",
+      "pass": true
+    },
+    {
+      "check": "R oversized 140 fan mounting negative control rejected",
+      "pass": true
+    },
+    {
+      "check": "R fan shifted into subwoofer negative control rejected",
+      "pass": true
+    },
+    {
+      "check": "new bottom hardware stays above existing cabinet underside datum",
+      "pass": true
+    },
+    {
+      "check": "floor cut ligaments exceed 10 mm",
+      "pass": true
+    },
+    {
+      "check": "filter frame ligaments exceed 10 mm",
+      "pass": true
+    },
+    {
+      "check": "original subwoofer BST PC floor holes preserved",
+      "pass": true
+    },
+    {
+      "check": "L modeled exhaust approach corridor clear",
+      "pass": true
+    },
+    {
+      "check": "L immediate 25 mm discharge column unobstructed",
+      "pass": true
+    },
+    {
+      "check": "R modeled exhaust approach corridor clear",
+      "pass": true
+    },
+    {
+      "check": "R immediate 25 mm discharge column unobstructed",
+      "pass": true
+    },
+    {
+      "check": "all unrelated cabinet solids exactly preserved",
+      "pass": true
+    },
+    {
+      "check": "rear fan family and guards unchanged",
+      "pass": true
+    },
+    {
+      "check": "wooden pivot straps screws and both supports unchanged",
+      "pass": true
+    },
+    {
+      "check": "PLAY to SERVICE movement unchanged and collision free",
+      "pass": true
+    },
+    {
+      "check": "vertical lift out unchanged and collision free",
+      "pass": true
+    },
+    {
+      "check": "shelf upward service paths do not meet fans",
+      "pass": true
+    }
+  ],
+  "fan_conflicts": [],
+  "button_clearance": [
+    {
+      "side": "L",
+      "button": "primary",
+      "clearance": {
+        "body": {
+          "before_mm": 19.999999999999993,
+          "after_mm": 24.94969005616665,
+          "before_overlap_mm3": 0.0,
+          "after_overlap_mm3": 0.0
+        },
+        "leaf": {
+          "before_mm": 7.999999999999993,
+          "after_mm": 11.976514427166205,
+          "before_overlap_mm3": 0.0,
+          "after_overlap_mm3": 0.0
+        },
+        "wire": {
+          "before_mm": 0.0,
+          "after_mm": 6.00888668018743,
+          "before_overlap_mm3": 4776.942991066791,
+          "after_overlap_mm3": 0.0
+        },
+        "tool": {
+          "before_mm": 0.0,
+          "after_mm": 1.8943332376248216,
+          "before_overlap_mm3": 4261.242216810701,
+          "after_overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "side": "L",
+      "button": "secondary",
+      "clearance": {
+        "body": {
+          "before_mm": 19.999999999999993,
+          "after_mm": 34.533472893693926,
+          "before_overlap_mm3": 0.0,
+          "after_overlap_mm3": 0.0
+        },
+        "leaf": {
+          "before_mm": 7.999999999999993,
+          "after_mm": 27.67479906371357,
+          "before_overlap_mm3": 0.0,
+          "after_overlap_mm3": 0.0
+        },
+        "wire": {
+          "before_mm": 0.0,
+          "after_mm": 10.0,
+          "before_overlap_mm3": 4776.942991066775,
+          "after_overlap_mm3": 0.0
+        },
+        "tool": {
+          "before_mm": 0.0,
+          "after_mm": 2.0,
+          "before_overlap_mm3": 4261.242216810662,
+          "after_overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "side": "R",
+      "button": "primary",
+      "clearance": {
+        "body": {
+          "before_mm": 20.000000000000114,
+          "after_mm": 24.949690056166656,
+          "before_overlap_mm3": 0.0,
+          "after_overlap_mm3": 0.0
+        },
+        "leaf": {
+          "before_mm": 8.000000000000114,
+          "after_mm": 11.976514427166244,
+          "before_overlap_mm3": 0.0,
+          "after_overlap_mm3": 0.0
+        },
+        "wire": {
+          "before_mm": 0.0,
+          "after_mm": 6.00888668018743,
+          "before_overlap_mm3": 4776.942991066751,
+          "after_overlap_mm3": 0.0
+        },
+        "tool": {
+          "before_mm": 0.0,
+          "after_mm": 1.8943332376248359,
+          "before_overlap_mm3": 4261.242216810676,
+          "after_overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "side": "R",
+      "button": "secondary",
+      "clearance": {
+        "body": {
+          "before_mm": 20.000000000000114,
+          "after_mm": 34.53347289369394,
+          "before_overlap_mm3": 0.0,
+          "after_overlap_mm3": 0.0
+        },
+        "leaf": {
+          "before_mm": 8.000000000000114,
+          "after_mm": 27.674799063713554,
+          "before_overlap_mm3": 0.0,
+          "after_overlap_mm3": 0.0
+        },
+        "wire": {
+          "before_mm": 0.0,
+          "after_mm": 10.0,
+          "before_overlap_mm3": 4776.942991066735,
+          "after_overlap_mm3": 0.0
+        },
+        "tool": {
+          "before_mm": 0.0,
+          "after_mm": 2.0,
+          "before_overlap_mm3": 4261.242216810635,
+          "after_overlap_mm3": 0.0
+        }
+      }
+    }
+  ],
+  "thermal": [
+    {
+      "side": "L",
+      "immediate_above_25mm_obstruction_percent": 0,
+      "projected_obstruction_to_shelf_top_percent": 55.48129629913,
+      "overhead_obstacles": [
+        "SHELF_2"
+      ],
+      "nearest_equipment_clearances_mm": {
+        "SSF_Subwoofer_DCS165_Reference": 144.9731931759172,
+        "SSF_BST_Carrier": 300.0,
+        "SSF_BST1_Reference": 319.74992192379,
+        "PC_BASE": 60.0,
+        "SHELF_1": 392.68435161080714,
+        "SHELF_2": 119.0,
+        "SHELF_3": 202.64747716169575
+      },
+      "airflow_approach_route_xyz_mm": [
+        [
+          150.0,
+          710.0,
+          86
+        ],
+        [
+          100,
+          800,
+          120
+        ],
+        [
+          100,
+          1045,
+          180
+        ],
+        [
+          100,
+          1150,
+          520
+        ],
+        [
+          230,
+          1250,
+          500
+        ]
+      ],
+      "route_radius_mm": 8,
+      "route_conflicts": [],
+      "direct_shortcut_intersects_PC_or_shelf": true
+    },
+    {
+      "side": "R",
+      "immediate_above_25mm_obstruction_percent": 0,
+      "projected_obstruction_to_shelf_top_percent": 55.48129629913,
+      "overhead_obstacles": [
+        "SHELF_2"
+      ],
+      "nearest_equipment_clearances_mm": {
+        "SSF_Subwoofer_DCS165_Reference": 144.9731931759172,
+        "SSF_BST_Carrier": 300.0,
+        "SSF_BST1_Reference": 319.74992192379,
+        "PC_BASE": 60.0,
+        "SHELF_1": 392.68435161080714,
+        "SHELF_2": 119.0,
+        "SHELF_3": 202.64747716169575
+      },
+      "airflow_approach_route_xyz_mm": [
+        [
+          450.0,
+          710.0,
+          86
+        ],
+        [
+          500,
+          800,
+          120
+        ],
+        [
+          500,
+          1045,
+          180
+        ],
+        [
+          500,
+          1150,
+          520
+        ],
+        [
+          370,
+          1250,
+          500
+        ]
+      ],
+      "route_radius_mm": 8,
+      "route_conflicts": [],
+      "direct_shortcut_intersects_PC_or_shelf": true
+    }
+  ]
+}

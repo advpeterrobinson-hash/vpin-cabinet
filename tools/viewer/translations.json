@@ -354,5 +354,41 @@
   "Unable to start 3D. Open in Chrome, Edge or Firefox with WebGL enabled.": {
     "en": "Unable to start 3D. Open in Chrome, Edge or Firefox with WebGL enabled.",
     "pt-BR": "Não foi possível iniciar o 3D. Abra em Chrome, Edge ou Firefox com WebGL habilitado."
+  },
+  "FLOOR INTAKE FAN L": {
+    "en": "FLOOR INTAKE FAN L",
+    "pt-BR": "VENTOINHA DE ADMISSÃO NO PISO E"
+  },
+  "FLOOR INTAKE FAN R": {
+    "en": "FLOOR INTAKE FAN R",
+    "pt-BR": "VENTOINHA DE ADMISSÃO NO PISO D"
+  },
+  "REMOVABLE INTAKE FILTER L": {
+    "en": "REMOVABLE INTAKE FILTER L",
+    "pt-BR": "FILTRO REMOVÍVEL DE ADMISSÃO E"
+  },
+  "REMOVABLE INTAKE FILTER R": {
+    "en": "REMOVABLE INTAKE FILTER R",
+    "pt-BR": "FILTRO REMOVÍVEL DE ADMISSÃO D"
+  },
+  "PLAYFIELD BUTTON CLEARANCE": {
+    "en": "PLAYFIELD BUTTON CLEARANCE",
+    "pt-BR": "FOLGA DOS BOTÕES DO PLAYFIELD"
+  },
+  "BUTTON BODY CLEARANCE": {
+    "en": "BUTTON BODY CLEARANCE",
+    "pt-BR": "FOLGA DO CORPO DO BOTÃO"
+  },
+  "LEAF SWITCH CLEARANCE": {
+    "en": "LEAF SWITCH CLEARANCE",
+    "pt-BR": "FOLGA DO INTERRUPTOR LEAF"
+  },
+  "WIRE SERVICE CLEARANCE": {
+    "en": "WIRE SERVICE CLEARANCE",
+    "pt-BR": "FOLGA DE SERVIÇO DOS FIOS"
+  },
+  "BUTTON TOOL ACCESS": {
+    "en": "BUTTON TOOL ACCESS",
+    "pt-BR": "ACESSO DE FERRAMENTA AO BOTÃO"
   }
 }

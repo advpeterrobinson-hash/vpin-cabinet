@@ -1,0 +1,54 @@
+{
+  "source_head": "cd416fea61ed031c59af8df93014ae7c9ba200bf",
+  "source_directory": "exports/generated/wood-dowel-pivot-v32",
+  "notch": {
+    "depth_mm": 22,
+    "corner_radius_mm": 8,
+    "trial_cutter_diameter_mm": 6,
+    "confirmed_cutter_diameter_mm": null,
+    "service_wire_inward_extension_mm": 20,
+    "wire_below_contact_mm": 5,
+    "wire_above_contact_mm": 12,
+    "tool_radius_mm": 10,
+    "tool_inward_end_x_mm": 70,
+    "service_clearance_mm": 2,
+    "dogbones": false,
+    "status": "DESIGN_PROVISIONAL; clearance envelopes, not selected hardware manufacturing dimensions",
+    "wire_forward_y_mm": 8,
+    "wire_rearward_y_mm": 22
+  },
+  "fans": {
+    "shared_family_source": "config/panel_closure_v32.json#rear",
+    "existing_regions_source": "config/floor_detail_v32.json#intakes_xywh_mm",
+    "mount_hole_diameter_mm_candidate": 4.5,
+    "floor_screw_family_candidate": "M4 through-bolt, washers and nut; same diameter family as existing rear fans; length differs with stack",
+    "floor_bolt_length_mm_candidate": 50,
+    "filter_size_mm": 170,
+    "filter_thickness_mm": 8,
+    "filter_mount_pitch_mm": 140,
+    "filter_screw_family_candidate": "M4x16 underside screw into blind threaded furniture insert; separate from fan fixing",
+    "filter_insert_diameter_mm_candidate": 6,
+    "filter_insert_depth_mm_candidate": 8,
+    "filter_media_thickness_mm_allowance": 2,
+    "commercial_guard_thickness_mm_allowance": 1.5,
+    "filter_removal_mm": 80,
+    "fan_removal_mm": 80,
+    "connector_service_xyz_mm": [
+      30,
+      20,
+      15
+    ],
+    "immediate_above_height_mm": 25,
+    "supply_v": 12,
+    "connector_options": [
+      "3-pin",
+      "4-pin PWM"
+    ],
+    "manufacturer": null,
+    "thermal_adequacy_certified": false,
+    "thermal_gate": "Later analytical gate: published airflow/static pressure/noise/filter drop and PC/PSU/amplifier heat loads under warm Brazilian ambient; no physical thermal prototype planned.",
+    "lower_guard_mount_rotation_deg_design": 45,
+    "lower_guard_fixing": "Independent short common screws guard-to-filter-frame; rotate standard105 pitch45deg so fixings land on wood away from stationary fan bolt passages. Purchased guard/pilot/head/length confirmation HOLD."
+  },
+  "manufacturing_ready": false
+}
