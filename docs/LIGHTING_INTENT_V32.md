@@ -30,3 +30,7 @@ No CSD controller port map, COM-port setup, cabinet.xml preset or bundled PSU is
 ## Owner layout render
 
 The owner requests the playfield parallel to the glass, LEDs filling the upper area above it at a slight angle, and a custom lockdown bar at the front/player end. [View the isolated render](../exports/generated/lighting-study-v32/01-layout.png). A single six-panel row and an extra 15° LED tilt are visualization assumptions, not final installation decisions. Reproduce with `uv run --with numpy --with matplotlib python tools/render_lighting_study_v32.py` after generating V32 `geometry.json`. Existing CAD remains unchanged.
+
+## CURRENT V32 matrix positioning study
+
+The earlier 15° illustration remains historical and unapproved. See [real-CAD gap/tilt comparison](MATRIX_HINGE_STUDY_V32.md). Owner-provided Emil Jurica / Way of the Wrench feedback is experienced-builder guidance: independent matrix, useful gap, rearward placement and player-facing upward tilt. 1–2 inches is not a manufacturing constraint. The 476.25 / 469.9 mm discrepancy and unknown physical thickness remain open; no vendor dimensions have been corrected or frozen.

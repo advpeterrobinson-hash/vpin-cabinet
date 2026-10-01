@@ -4,7 +4,7 @@ Status: procurement reference. Final CNC hole locations remain subject to physic
 
 ## Selected architecture
 
-Use Williams/Bally WPC-style external side hinges so the 780 mm backbox folds forward over the 580 mm main cabinet for transport.
+Use Williams/Bally WPC-style external side hinges so the 780 mm backbox folds forward over the 600 mm main cabinet for transport.
 
 ### Core hinge hardware
 
@@ -12,12 +12,12 @@ Use Williams/Bally WPC-style external side hinges so the 780 mm backbox folds fo
 |---|---|---:|---|---|
 | BB-HNG-01 | 01-9011-L | 1 | Left WPC backbox hinge bracket | Prefer OEM/reproduction import |
 | BB-HNG-02 | 01-9011-R | 1 | Right WPC backbox hinge bracket | Prefer OEM/reproduction import |
-| BB-HNG-03 | 02-4352 | 2 | Cabinet pivot bushing / hex-socket T-nut, 3/8-16 | Import or exact local-machined equivalent |
+| BB-HNG-03 | 02-4352 | 2 | Cabinet pivot bushing / hex-socket T-nut, 3/8-16 | Matched purchased family; measure actual assembly |
 | BB-HNG-04 | 4322-01139-12B | 2 | Special 3/8-16 x 3/4 in short-neck black carriage bolt | Import preferred |
 
 The hinge brackets are also commonly sold as set **01-9011-LR**.
 
-## Current price references — September 2026
+## Historical price snapshot — September 2026 (not current quotation)
 
 Prices below are product prices only and do **not** include international freight, Brazilian import tax, ICMS, courier fees or exchange-rate movement.
 
@@ -59,7 +59,7 @@ The exact locking-bolt length is deliberately **TBD** until the real shelf, gask
 
 Before production CNC files are released:
 
-1. Obtain or borrow the actual hinge set, pivot bushings and pivot bolts whenever practical.
+1. Purchase and measure the actual hinge set, both pivot bushings and both pivot bolts before CNC.
 2. Measure bracket hole centers, material thickness, bend offsets and pivot-to-floor relationship.
 3. Compare the measured parts with the engineering model.
 4. Cut a scrap hinge-location test piece if necessary.
@@ -67,9 +67,9 @@ Before production CNC files are released:
 
 This preserves the project's CNC-flatpack goal: builders should receive correctly located holes and bolt the hinge on without hand layout.
 
-## Local-fabrication fallback
+## Current hardware boundary
 
-If imported hinge brackets become unavailable or excessively expensive, a local metal shop may fabricate a functionally equivalent pair from a dimensioned drawing produced from the verified reference hardware. The pivot bushing/bolt interface should remain standardized so the cabinet geometry does not change.
+Use the purchased WPC family. No custom hinge metal or substitute hinge architecture is introduced by this datum cleanup.
 
 The release package should ultimately contain:
 
@@ -80,3 +80,5 @@ The release package should ultimately contain:
 - locking-bolt/shelf alignment drawing;
 - torque/assembly notes;
 - folded and upright inspection checklist.
+
+CURRENT V32 measurement hold: use 600 mm cabinet / 780 mm backbox and 59.8375 mm floor-row inset from each OUTER side edge. Three Ø6.35 mm reference holes per side, 44.45 mm reference pitch, row approximately 12.7 mm from rear. None is a frozen purchased-bracket pattern. Listings for 02-4352 conflict: bushing body length, exact bracket holes/bend offsets and final CNC hinge drilling remain null until the physical 01-9011-L/R + 2 × 02-4352 + 2 × 4322-01139-12B assembly is measured. Purchase/measure early (HF-006 in MEASURE_BEFORE_CNC_V25.csv); no intermediate cabinet prototype is planned. No new/custom hinge metal is authorized.

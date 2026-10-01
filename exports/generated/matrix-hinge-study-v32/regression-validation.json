@@ -1,0 +1,126 @@
+{
+  "checks": [
+    {
+      "check": "gap-25.4000-tilt-10.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-25.4000-tilt-15.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-25.4000-tilt-20.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-25.4000-tilt-25.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-30.6431-tilt-10.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-31.4219-tilt-15.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-32.9255-tilt-20.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-35.1424-tilt-25.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-38.1000-tilt-10.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-38.1000-tilt-15.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-38.1000-tilt-20.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-38.1000-tilt-25.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-50.8000-tilt-10.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-50.8000-tilt-15.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-50.8000-tilt-20.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "gap-50.8000-tilt-25.FCStd every accepted solid unchanged after reopening",
+      "pass": true
+    },
+    {
+      "check": "negative translated PF_BasePlywood is rejected",
+      "pass": true
+    },
+    {
+      "check": "negative translated LeafButton_primary_L is rejected",
+      "pass": true
+    },
+    {
+      "check": "negative translated FloorIntakeFanL is rejected",
+      "pass": true
+    },
+    {
+      "check": "negative translated RemovableIntakeFilterL is rejected",
+      "pass": true
+    },
+    {
+      "check": "negative translated FAN_230 is rejected",
+      "pass": true
+    },
+    {
+      "check": "negative translated PF_WoodDowel is rejected",
+      "pass": true
+    },
+    {
+      "check": "negative translated PF_OpenCradleL is rejected",
+      "pass": true
+    },
+    {
+      "check": "negative translated SHELF_2 is rejected",
+      "pass": true
+    },
+    {
+      "check": "negative translated PC_BASE is rejected",
+      "pass": true
+    },
+    {
+      "check": "negative translated SSF_Exciter1L is rejected",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD, reviews, STEP and complete existing viewer bytes unchanged",
+      "pass": true
+    },
+    {
+      "check": "SIDE_L WPC pivot reference is full wood or existing bore, not a partial edge overlap (no machining performed)",
+      "pass": true
+    },
+    {
+      "check": "SIDE_R WPC pivot reference is full wood or existing bore, not a partial edge overlap (no machining performed)",
+      "pass": true
+    },
+    {
+      "check": "current hinge widths/inset and null manufacturing authority audited",
+      "pass": true
+    }
+  ],
+  "source_head": "80748804bf624d9a5c7c32d8d688da4b1318dccf",
+  "all_pass": true
+}

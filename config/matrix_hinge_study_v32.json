@@ -1,0 +1,65 @@
+{
+  "source_head": "80748804bf624d9a5c7c32d8d688da4b1318dccf",
+  "source_directory": "exports/generated/notch-floor-fans-v32",
+  "gaps_mm": [
+    25.4,
+    38.1,
+    50.8
+  ],
+  "tilts_deg": [
+    10,
+    15,
+    20,
+    25
+  ],
+  "tilt_definition": "absolute face angle above horizontal, rising rearward so its normal faces the player; historical extra 15 degree render is NOT adopted",
+  "panel_count": 6,
+  "panel_nominal_square_mm": 79.375,
+  "panel_thickness_reserve_mm": 8,
+  "carrier_width_mm": 540,
+  "carrier_depth_mm": 95.375,
+  "carrier_thickness_mm": 12,
+  "glass_clearance_mm": 5,
+  "rear_limit_y_mm": 1125.125,
+  "minimum_clearance_mm": 2,
+  "matrix_removal_mm": 100,
+  "disconnect_reserve_mm": [
+    40,
+    30,
+    20
+  ],
+  "eyes_xyz_mm": [
+    [
+      220,
+      -250,
+      750
+    ],
+    [
+      300,
+      -350,
+      900
+    ],
+    [
+      380,
+      -450,
+      1050
+    ]
+  ],
+  "eye_status": "PROVISIONAL adult standing eye envelope; Z includes provisional cabinet-bottom height 750 mm above ground",
+  "hinge": {
+    "cabinet_outer_width_mm": 600,
+    "backbox_outer_width_mm": 780,
+    "offset_constant_mm": 60.325,
+    "inset_mm": 59.8375,
+    "pivot_diameter_mm": 12.7,
+    "pivot_rear_mm": 38.1,
+    "pivot_height_mm": 508,
+    "floor_hole_diameter_mm_reference": 6.35,
+    "floor_holes_per_side": 3,
+    "floor_spacing_mm_reference": 44.45,
+    "floor_row_rear_mm_reference": 12.7,
+    "final_pattern": null,
+    "physical_measurement_required": true
+  },
+  "manufacturing_ready": false
+}

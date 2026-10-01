@@ -1,5 +1,7 @@
 # Documentation
 
+> CURRENT V32 supersedes historical mechanism/PC/mobility descriptions below: 600 mm cabinet; Ø32 wooden dowel with open plywood cradles, no gas struts or steel props; low fixed PCBase, no drawer; external removable skating devices only, no integrated/retractable wheels. Accepted notch/fan stage: HEAD 8074880. Hinge/matrix study: [current record](MATRIX_HINGE_STUDY_V32.md).
+
 [English](README.md) · [Português (Brasil)](pt-BR/README.md)
 
 ## New here?

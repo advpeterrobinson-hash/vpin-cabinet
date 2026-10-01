@@ -1,5 +1,7 @@
 > Entrega consolidada: [desenhoV32 com SSF Cleveland4.1 + subwoofer](CONSOLIDATED_DRAWING_V32.md). PDF/CAD/STEP eDXF nominal do piso;39 verificações,202 sólidos. Revisão de montagem, sem liberação CNC.
 
+> CURRENT V32 supersedes historical mechanism/PC/mobility descriptions below: 600 mm cabinet; Ø32 wooden dowel with open plywood cradles, no gas struts or steel props; low fixed PCBase, no drawer; external removable skating devices only, no integrated/retractable wheels. Accepted notch/fan stage: HEAD 8074880. Hinge/matrix study: [current record](MATRIX_HINGE_STUDY_V32.md).
+
 > Etapa atual: [traseira definida funcionalmente](REAR_CLOSURE_STATUS_V32.md), com qualificação de ferragens pendente. Avanço para [chapa inferior e fixação dos filtros](FLOOR_DETAIL_V32.md): estudo separado, preserva todo o conjunto traseiro.
 
 > Revisão de usinagem: [dogbones e cantos internos](CORNER_RELIEF_V32.md). R3 ensaiado nas seis guias sem necessidade de dogbone na posição atual; alívios da caixa capturada e inventário CAM seguem pendentes.

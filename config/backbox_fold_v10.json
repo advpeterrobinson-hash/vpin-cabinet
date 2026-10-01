@@ -8,7 +8,7 @@
     "pivot_bushing": "02-4352",
     "pivot_bolt": "4322-01139-12B",
     "off_the_shelf_hardware_preferred": true,
-    "local_fabrication_alternative_planned": true
+    "local_fabrication_alternative_planned": false
   },
   "cabinet": {
     "outer_width_mm": 600.0,
@@ -27,7 +27,12 @@
     "hinge_floor_bolt_inset_formula": "(backbox_width - cabinet_width - 60.325) / 2",
     "hinge_floor_bolt_inset_each_side_mm": 59.8375,
     "hinge_floor_hole_diameter_mm": 6.35,
-    "hinge_floor_hole_count_each_side": 3
+    "hinge_floor_hole_count_each_side": 3,
+    "hinge_floor_hole_pitch_mm_reference": 44.45,
+    "hinge_floor_row_from_rear_mm_reference": 12.7,
+    "final_hinge_hole_pattern": null,
+    "final_bushing_body_length_mm": null,
+    "final_bracket_bend_offsets_mm": null
   },
   "upright_locking": {
     "required": true,
@@ -68,5 +73,6 @@
     "cable_openings_cnc_cut": true,
     "transport_rest_mounts_cnc_located": true,
     "builder_freehand_alignment_required": false
-  }
+  },
+  "physical_measurement_required_before_cnc": true
 }

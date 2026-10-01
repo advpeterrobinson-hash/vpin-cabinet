@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "check": "service real CAD baseline pose unchanged; matrix valid; original pivot expressions retained",
+      "pass": true
+    },
+    {
+      "check": "lift-out real CAD baseline pose unchanged; matrix valid; original pivot expressions retained",
+      "pass": true
+    },
+    {
+      "check": "matrix-removal real CAD baseline pose unchanged; matrix valid; original pivot expressions retained",
+      "pass": true
+    },
+    {
+      "check": "accepted source/viewer bytes unchanged after pose exports",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "best_review": {
+    "gap_mm": 35.14237321235612,
+    "tilt_deg": 25,
+    "absolute_tilt_deg": 25,
+    "front_xyz_mm": [
+      300,
+      1033.6144756704912,
+      546.577383033049
+    ],
+    "rear_y_mm": 1125.125,
+    "PLAY_mm": 3.0344445671972027,
+    "PLAY_hits": [],
+    "glass_plane_excess_mm": -5.114668171755966,
+    "glass_clearance_mm": 7.008583537848607,
+    "SERVICE_mm": 0.0,
+    "SERVICE_hits": [
+      "playfield"
+    ],
+    "LIFT_OUT_mm": 0.0,
+    "LIFT_OUT_hits": [
+      "playfield"
+    ],
+    "removal_mm": 2.0,
+    "removal_hits": [],
+    "fold_mm": 0.0,
+    "fold_hits": true,
+    "wiring_mm": 18.0,
+    "wiring_hits": [],
+    "visibility": [
+      {
+        "eye_xyz_mm": [
+          220,
+          -250,
+          750
+        ],
+        "visible_row_sample_percent": 75.0,
+        "apparent_gap_deg": 0.8122253363743903
+      },
+      {
+        "eye_xyz_mm": [
+          300,
+          -350,
+          900
+        ],
+        "visible_row_sample_percent": 75.0,
+        "apparent_gap_deg": 0.5601872263312124
+      },
+      {
+        "eye_xyz_mm": [
+          380,
+          -450,
+          1050
+        ],
+        "visible_row_sample_percent": 81.25,
+        "apparent_gap_deg": 0.37185302602855685
+      }
+    ],
+    "airflow_hits": [],
+    "airflow_clearance_mm": 53.82898559030712,
+    "tool_hits": [],
+    "tool_clearance_mm": 11.9375,
+    "wiring_SERVICE_hits": [],
+    "wiring_LIFT_OUT_hits": [],
+    "feasible": false,
+    "rearward_limit_candidate": true
+  },
+  "manufacturing_ready": false
+}

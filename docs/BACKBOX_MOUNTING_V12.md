@@ -18,9 +18,9 @@ The final flat-pack design therefore treats the following as one matched interfa
 6. rear-wall datum;
 7. common left-right centerline.
 
-The mating features must **never** be independently dimensioned from the left/right edges of the two different-width parts. The main cabinet is 580 mm wide and the backbox is 780 mm wide, so their side edges differ by 100 mm per side. The correct shared datums are the rear edge/back-wall plane and common centerline.
+The mating features must **never** be independently dimensioned from the left/right edges of the two different-width parts. The main cabinet is 600 mm wide and the backbox is 780 mm wide, so their side edges differ by 90 mm per side. The correct shared datums are the rear edge/back-wall plane and common centerline.
 
-The current engineering layout uses lock-bolt centers at ±180 mm from the shared centerline. That maps to 110/470 mm from the left edge of the 580 mm shelf and 210/570 mm from the left edge of the 780 mm backbox floor. The numbers remain provisional until FreeCAD collision/layout validation, but the shared-datum method is non-negotiable.
+The current engineering layout uses lock-bolt centers at ±180 mm from the shared centerline. That maps to 120/480 mm from the left edge of the 600 mm shelf and 210/570 mm from the left edge of the 780 mm backbox floor. The numbers remain provisional until FreeCAD collision/layout validation, but the shared-datum method is non-negotiable.
 
 The main shelf receives 11.9 mm nominal holes with underside 3/8-16 T-nuts or equivalent metal-backed captive threads. The backbox floor receives larger 25.4 mm access holes on the exact same axes so the hand-accessible lock bolts can engage the shelf threads.
 

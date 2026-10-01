@@ -1,5 +1,7 @@
 # Virtual Pinball Cabinet
 
+> CURRENT V32 supersedes historical mechanism/PC/mobility descriptions below: 600 mm cabinet; Ø32 wooden dowel with open plywood cradles, no gas struts or steel props; low fixed PCBase, no drawer; external removable skating devices only, no integrated/retractable wheels. Accepted notch/fan stage: HEAD 8074880. Hinge/matrix study: [current record](docs/MATRIX_HINGE_STUDY_V32.md).
+
 [Novo desenvolvimento: alturas congeladas, furação dos apoios e reforços das pernas](docs/SUPPORT_LEG_CNC_V32.md). O gabarito STL foi arquivado com atribuição; seu entre-eixos medido de57 mm difere do segundo modelo de58 mm. Ferragens e liberação CNC continuam pendentes.
 
 ## Por onde começar a revisão atual
