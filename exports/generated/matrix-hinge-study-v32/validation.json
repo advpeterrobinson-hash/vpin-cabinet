@@ -79,7 +79,20 @@
       "tool_clearance_mm": 11.9375,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 25.4,
@@ -144,7 +157,20 @@
       "tool_clearance_mm": 11.9375,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 25.4,
@@ -209,7 +235,20 @@
       "tool_clearance_mm": 11.9375,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 25.4,
@@ -274,7 +313,20 @@
       "tool_clearance_mm": 11.9375,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 38.1,
@@ -343,7 +395,20 @@
       "tool_clearance_mm": 11.9375,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 38.1,
@@ -412,7 +477,20 @@
       "tool_clearance_mm": 11.9375,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 38.1,
@@ -481,7 +559,20 @@
       "tool_clearance_mm": 11.9375,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 38.1,
@@ -548,7 +639,20 @@
       "tool_clearance_mm": 11.9375,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 50.8,
@@ -619,7 +723,21 @@
       "tool_clearance_mm": 0.0,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 50.8,
@@ -688,7 +806,20 @@
       "tool_clearance_mm": 1.1825350801700552,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 50.8,
@@ -757,7 +888,20 @@
       "tool_clearance_mm": 3.2647957669832977,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 50.8,
@@ -826,7 +970,20 @@
       "tool_clearance_mm": 5.914716945830605,
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
-      "feasible": false
+      "feasible": false,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 30.64307996632249,
@@ -892,7 +1049,20 @@
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
       "feasible": false,
-      "rearward_limit_candidate": true
+      "rearward_limit_candidate": true,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 31.4218933183148,
@@ -958,7 +1128,20 @@
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
       "feasible": false,
-      "rearward_limit_candidate": true
+      "rearward_limit_candidate": true,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 32.92547211450085,
@@ -1024,7 +1207,20 @@
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
       "feasible": false,
-      "rearward_limit_candidate": true
+      "rearward_limit_candidate": true,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     },
     {
       "gap_mm": 35.14237321235612,
@@ -1090,7 +1286,20 @@
       "wiring_SERVICE_hits": [],
       "wiring_LIFT_OUT_hits": [],
       "feasible": false,
-      "rearward_limit_candidate": true
+      "rearward_limit_candidate": true,
+      "removal_backbox_envelope_interference_at_mm": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "matrix_removal_fully_qualified": false
     }
   ],
   "best": null,
@@ -1158,7 +1367,20 @@
     "wiring_SERVICE_hits": [],
     "wiring_LIFT_OUT_hits": [],
     "feasible": false,
-    "rearward_limit_candidate": true
+    "rearward_limit_candidate": true,
+    "removal_backbox_envelope_interference_at_mm": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "matrix_removal_fully_qualified": false
   },
   "checks": [
     {

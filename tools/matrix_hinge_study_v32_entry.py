@@ -46,11 +46,12 @@ def candidate(gap,tilt):
   for s in obs.values():s.translate(V(0,0,dz))
   lift+=intersections(parts,obs);ld=min(ld,dist(parts,obs))
  # independent lift 100 mm with glass removed (glass is removable service access, no playfield removal).
- removal=[];rd=9999
+ removal=[];rd=9999;removal_bb=[]
  for dz in range(0,101,10):
   ps={n:s.copy() for n,s in parts.items()}
   for s in ps.values():s.translate(V(0,0,dz))
   removal+=intersections(ps,playobs);rd=min(rd,dist(ps,playobs))
+  if any(hit(s,old['PF_BackboxCheckEnvelope']) for s in ps.values()):removal_bb.append(dz)
  wire=box(280,1127.125,old['BACKBOX_BASE'].BoundBox.ZMin-38,40,30,20);wclash=intersections({'wire':wire},playobs);wd=dist({'wire':wire},playobs)
  fc=dist(parts,{str(i):s for i,s in enumerate(fold)});foldhit=any(hit(s,t) for s in parts.values() for t in fold)
  # Sightlines through real shell, display and backbox. Glass is transparent; matrix's own carrier behind LEDs excluded.
@@ -64,7 +65,7 @@ def candidate(gap,tilt):
     if not any(line.common(s).Length>.1 for s in occluders.values()):seen+=1
   # angular separation of screen rear top point and nearest LED row in sagittal view.
   p=V(300,rear,pf.BoundBox.ZMax);m=V(300,y+8*math.cos(br),z+8*math.sin(br));ang=lambda q:math.degrees(math.atan2(q.z-eye[2],q.y-eye[1]));visibility.append({'eye_xyz_mm':eye,'visible_row_sample_percent':100*seen/total,'apparent_gap_deg':abs(ang(m)-ang(p))})
- row={'gap_mm':gap,'tilt_deg':tilt,'absolute_tilt_deg':b,'front_xyz_mm':[300,y,z],'rear_y_mm':carrier.BoundBox.YMax,'PLAY_mm':dist(parts,playobs),'PLAY_hits':clash,'glass_plane_excess_mm':maxexcess,'glass_clearance_mm':dist(parts,{'glass':glass}),'SERVICE_mm':mind,'SERVICE_hits':sorted(set(service)),'LIFT_OUT_mm':ld,'LIFT_OUT_hits':sorted(set(lift)),'removal_mm':rd,'removal_hits':sorted(set(removal)),'fold_mm':fc,'fold_hits':foldhit,'wiring_mm':wd,'wiring_hits':wclash,'visibility':visibility}
+ row={'gap_mm':gap,'tilt_deg':tilt,'absolute_tilt_deg':b,'front_xyz_mm':[300,y,z],'rear_y_mm':carrier.BoundBox.YMax,'PLAY_mm':dist(parts,playobs),'PLAY_hits':clash,'glass_plane_excess_mm':maxexcess,'glass_clearance_mm':dist(parts,{'glass':glass}),'SERVICE_mm':mind,'SERVICE_hits':sorted(set(service)),'LIFT_OUT_mm':ld,'LIFT_OUT_hits':sorted(set(lift)),'removal_mm':rd,'removal_hits':sorted(set(removal)),'removal_backbox_envelope_interference_at_mm':removal_bb,'matrix_removal_fully_qualified':False,'fold_mm':fc,'fold_hits':foldhit,'wiring_mm':wd,'wiring_hits':wclash,'visibility':visibility}
  # Preserve the exact accepted diagnostic airflow paths, without reopening thermal analysis.
  routes={}
  for path in review['floor_fans']['thermal']:
@@ -87,7 +88,7 @@ def candidate(gap,tilt):
  for dz in range(0,49,2):
   q=Part.makeCompound([old[n] for n in moving]);q.translate(V(0,0,dz))
   if hit(wire,q):row['wiring_LIFT_OUT_hits'].append(dz)
- row['feasible']=not(clash or service or lift or removal or foldhit or wclash or row['airflow_hits'] or row['tool_hits'] or row['wiring_SERVICE_hits'] or row['wiring_LIFT_OUT_hits']) and maxexcess<=0 and carrier.BoundBox.YMax<=c['rear_limit_y_mm'] and min(row[k] for k in ('PLAY_mm','SERVICE_mm','LIFT_OUT_mm','removal_mm','wiring_mm'))>=2
+ row['feasible']=not(clash or service or lift or removal or removal_bb or foldhit or wclash or row['airflow_hits'] or row['tool_hits'] or row['wiring_SERVICE_hits'] or row['wiring_LIFT_OUT_hits']) and maxexcess<=0 and carrier.BoundBox.YMax<=c['rear_limit_y_mm'] and min(row[k] for k in ('PLAY_mm','SERVICE_mm','LIFT_OUT_mm','removal_mm','wiring_mm'))>=2
  return row,parts
 for gap in c['gaps_mm']:
  for tilt in c['tilts_deg']:

@@ -13,4 +13,20 @@ for label,inputpose,lift in [('service','service',0),('lift-out','lift-out',0),(
  assert d.getObject('PF_WoodDowel').TypeId=='Part::Cylinder' and d.getObject('PF_WoodDowel').ExpressionEngine
  checks.append({'check':label+' real CAD baseline pose unchanged; matrix valid; original pivot expressions retained','pass':True});A.closeDocument(d.Name)
 assert all(hashlib.sha256((R/p).read_bytes()).hexdigest()==h for p,h in r['source_hashes'].items());checks.append({'check':'accepted source/viewer bytes unchanged after pose exports','pass':True})
+# Independently evaluate removal against the accepted backbox packaging volume.
+# It is NOT modeled as actual structure, but its intrusion must not be hidden by the shell-only check.
+for row in r['candidates']:
+ cd=A.openDocument(str(O/('gap-%0.4f-tilt-%02d.FCStd'%(row['gap_mm'],row['tilt_deg']))));parts=[o.Shape.copy() for o in cd.Objects if hasattr(o,'Shape') and o.Name.startswith('Matrix')];bb=cd.getObject('PF_BackboxCheckEnvelope').Shape.copy();hits=[]
+ for dz in range(0,101,10):
+  for s in parts:
+   q=s.copy();q.translate(A.Vector(0,0,dz))
+   if q.BoundBox.intersect(bb.BoundBox) and q.common(bb).Volume>.01:hits.append(dz);break
+ row['removal_backbox_envelope_interference_at_mm']=hits;row['matrix_removal_fully_qualified']=False;A.closeDocument(cd.Name)
+r['best_review']=next(row for row in r['candidates'] if row['gap_mm']==best['gap_mm'] and row['tilt_deg']==best['tilt_deg'])
+best=r['best_review']
+(O/'validation.json').write_text(json.dumps(r,indent=2)+'\n')
+bundle=json.loads((O/'study-mesh.json').read_text())
+for entry,row in zip(bundle['candidates'],r['candidates']):entry['result']=row
+(O/'study-mesh.json').write_text(json.dumps(bundle,separators=(',',':'))+'\n')
+checks.append({'check':'matrix removal backbox packaging intrusions explicitly recorded for all 16 candidates','pass':True})
 (O/'pose-validation.json').write_text(json.dumps({'checks':checks,'all_pass':True,'best_review':best,'manufacturing_ready':False},indent=2)+'\n');print('MATRIX_POSES_PASS',len(checks),flush=True)

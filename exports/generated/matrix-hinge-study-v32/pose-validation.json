@@ -15,6 +15,10 @@
     {
       "check": "accepted source/viewer bytes unchanged after pose exports",
       "pass": true
+    },
+    {
+      "check": "matrix removal backbox packaging intrusions explicitly recorded for all 16 candidates",
+      "pass": true
     }
   ],
   "all_pass": true,

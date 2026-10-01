@@ -37,7 +37,7 @@ Provisional adult eyes: cabinet datum XYZ (220,−250,750), (300,−350,900), (3
 |32.9255|20|75.0|0.15–0.52|3.000|0.000|0.000|2.000|0.000|18.000|NO|
 |35.1424|25|75.0|0.37–0.81|3.034|0.000|0.000|2.000|0.000|18.000|NO|
 
-Zero distance with listed hits is a collision, not an acceptable tangent. Detailed per-candidate object hit lists are in validation.json. PLAY includes current shell/lockdown/side solids; glass plane checks include reserved panel thickness. SERVICE samples0–50° every2°; LIFT samples0–48 mm every2 mm; independent matrix removal samples0–100 mm every10 mm with glass removed. These are sampled motion screens, not continuous exact swept-volume certifications.
+Zero distance with listed hits is a collision, not an acceptable tangent. Detailed per-candidate object hit lists are in validation.json. PLAY includes current shell/lockdown/side solids; glass plane checks include reserved panel thickness. SERVICE samples0–50° every2°; LIFT samples0–48 mm every2 mm; independent matrix removal samples0–100 mm every10 mm with glass removed. These are sampled motion screens, not continuous exact swept-volume certifications. Matrix-removal table values measure only the modeled cabinet solids: the upward path ALSO intrudes the reserved backbox envelope. Therefore full matrix removal is NOT qualified; the absent detailed backbox/monitor/cable structure must resolve a real independent extraction route before approval. validation.json records the interfering withdrawal steps.
 
 Backbox fold uses the real accepted PF_BackboxCheckEnvelope rotated0–90° every5° at the WPC reference pivot, not nonexistent detailed measured hardware. Cable opening/backglass interior and true bracket/bend offsets are absent from this accepted CAD, so their detailed clearances remain UNVERIFIED even if a packaging sample clears. Backbox must be upright and isolated during matrix removal. Full hardware fold verification remains blocked.
 
@@ -47,9 +47,9 @@ Tool and unchanged-airflow-route clearance / hits for each combination are recor
 
 ## Best review candidate
 
-Gap 35.1424 mm; tilt 25°; rearward offset relative to25.4-mm baseline 9.7424 mm. This is the most rearward of the PLAY-clear, independently removable comparison candidates with the best minimum sampled visibility across the eye envelope. Tool reserve is11.938 mm clear, connector reserve18.000 mm clear, glass7.009 mm clear and the unchanged diagnostic airflow path53.829 mm clear for this candidate. **No fully feasible installed candidate was found.** This is only the most rearward comparison candidate, not a solved/approved assembly. Its installed service/lift/fold failures cannot be hidden by rendering or cleared by moving accepted parts.
+Gap 35.1424 mm; tilt 25°; rearward offset relative to25.4-mm baseline 9.7424 mm. This is the most rearward of the PLAY-clear, shell-only withdrawal comparison candidates with the best minimum sampled visibility across the eye envelope. Tool reserve is11.938 mm clear, connector reserve18.000 mm clear, glass7.009 mm clear and the unchanged diagnostic airflow path53.829 mm clear for this candidate. **No fully feasible installed candidate was found.** This is only the most rearward comparison candidate, not a solved/approved assembly. Its installed service/lift/fold failures cannot be hidden by rendering or cleared by moving accepted parts.
 
-The independent upward removal comparison is included. Removing the matrix before playfield service/folding is a possible sequence to review, not an owner-approved substitute for the failed installed-clearance requirements. No rejected candidate is installed into the accepted viewer/current cabinet.
+The independent upward removal comparison is included and intrudes the reserved backbox envelope; it is not a qualified complete extraction route. Removing the matrix before playfield service/folding is a possible sequence to review, not an owner-approved substitute for the failed installed-clearance requirements. No rejected candidate is installed into the accepted viewer/current cabinet.
 
 ## Regression / manufacturing
 
