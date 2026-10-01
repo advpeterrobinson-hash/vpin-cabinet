@@ -11,3 +11,5 @@ fi
 rg '^WOOD_PIVOT_PASS ' .work/service-correction-v32/build.log
 
 python3 tools/build_review_viewer.py
+
+python3 tools/render_support_mounting_v32.py

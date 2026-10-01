@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib.collections import PolyCollection
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 R=Path(__file__).resolve().parents[1];O=R/'exports/generated/wood-dowel-pivot-v32';b=json.loads((O/'mesh.json').read_text());parts={p['name']:p for p in b['parts']};py,pz=b['review']['pivot_xyz_mm'][1:]
-def color(n):return '#8c623c' if 'Dowel' in n else '#7899ad' if 'Strap' in n else '#dec498'
+def color(n):return '#8c623c' if 'Dowel' in n else '#7899ad' if 'Strap' in n or 'MountScrew' in n else '#dec498'
 def crop(poly,axis,limit):
  out=[]
  for a,z in zip(poly,poly[1:]+poly[:1]):
@@ -44,6 +44,6 @@ for n in ('PF_OpenCradleL','PF_OpenCradleR'):
   p=parts[n];vs=p['vertices'];ax.add_collection3d(Poly3DCollection([[vs[i] for i in f] for f in p['faces']],facecolor=color(n),edgecolor='none'))
 ax.set(xlim=(0,600),ylim=(0,1100),zlim=(20,750));ax.set_box_aspect((600,1100,730));ax.view_init(elev=25,azim=130);ax.set_axis_off()
 fig.suptitle('V32 · EXPLODED · ONLY THE REQUESTED MECHANISM',fontsize=16)
-fig.text(.035,.8,'1 PLYWOOD BASE\n\n4 COMMERCIAL STRAPS\n+ 8 STRAP SCREWS\n\n1 WOOD DOWEL\n\n2 OPEN WOOD CRADLES\n\nCustom pivot metal: 0\nBearings: 0\nBushings: 0\nSteel rods: 0',fontsize=12,va='top')
+fig.text(.035,.8,'1 PLYWOOD BASE\n\n4 COMMERCIAL STRAPS\n+ 8 STRAP SCREWS\n\n1 WOOD DOWEL\n\n2 OPEN WOOD CRADLES\n+ 6 SUPPORT MOUNTING SCREWS\n\nCustom pivot metal: 0\nBearings: 0\nBushings: 0\nSteel rods: 0',fontsize=12,va='top')
 fig.text(.035,.05,'CERN-OHL-S-2.0 · Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet\nActual FreeCAD mesh · TV and VESA excluded from mechanism-only exploded review',fontsize=9)
 fig.savefig(O/'02-exploded.png',dpi=160);plt.close(fig)

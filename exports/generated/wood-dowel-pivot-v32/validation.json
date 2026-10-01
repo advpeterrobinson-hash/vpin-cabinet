@@ -17,11 +17,63 @@
       "pass": true
     },
     {
+      "check": "six internal support mounting screws only",
+      "pass": true
+    },
+    {
+      "check": "floor bearing exists on both supports",
+      "pass": true
+    },
+    {
+      "check": "nominal screw engagement and exterior skin",
+      "pass": true
+    },
+    {
+      "check": "pilot stops short of outside face",
+      "pass": true
+    },
+    {
+      "check": "countersink preserves useful thickness",
+      "pass": true
+    },
+    {
+      "check": "screw centres spaced and below weakened U",
+      "pass": true
+    },
+    {
+      "check": "no pilot penetrates exterior skin",
+      "pass": true
+    },
+    {
+      "check": "support mounting screw and head geometry clear other components",
+      "pass": true
+    },
+    {
+      "check": "direct interior driver access to all six screws",
+      "pass": true
+    },
+    {
+      "check": "rear door outer wood face flush or recessed",
+      "pass": true
+    },
+    {
+      "check": "approved rear hardware preserved by rigid placements",
+      "pass": true
+    },
+    {
+      "check": "same lock keeper blocks opening while cam remains locked",
+      "pass": true
+    },
+    {
+      "check": "flush downward door sweep 0..110 degrees clear",
+      "pass": true
+    },
+    {
       "check": "all solids valid",
       "pass": true
     },
     {
-      "check": "all other subsystem solids exactly preserved",
+      "check": "all subsystems other than authorized support pilots and rear door correction preserved",
       "pass": true
     },
     {
@@ -90,11 +142,210 @@
         484.2203301149065
       ]
     ],
-    "lift_out_mm": 42,
+    "lift_out_mm": 48,
     "lift_out_clearance_mm": 2.0,
+    "support_profile_width_before_mm": 24,
+    "support_profile_width_after_mm": 80,
+    "cradle_depth_before_mm": 5.176,
+    "cradle_depth_after_mm": 46.00000000000006,
+    "support_mounting": {
+      "positions": [
+        {
+          "id": "PF_SupportMountScrewL1",
+          "head_xyz_mm": [
+            36,
+            1037.0,
+            192.0
+          ],
+          "tip_xyz_mm": [
+            6,
+            1037.0,
+            192.0
+          ],
+          "side_pilot_xyz_mm": [
+            18,
+            1037.0,
+            192.0
+          ],
+          "axis": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "PF_SupportMountScrewR1",
+          "head_xyz_mm": [
+            564,
+            1037.0,
+            192.0
+          ],
+          "tip_xyz_mm": [
+            594,
+            1037.0,
+            192.0
+          ],
+          "side_pilot_xyz_mm": [
+            582,
+            1037.0,
+            192.0
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "PF_SupportMountScrewL2",
+          "head_xyz_mm": [
+            36,
+            1042.5,
+            320.1101650574533
+          ],
+          "tip_xyz_mm": [
+            6,
+            1042.5,
+            320.1101650574533
+          ],
+          "side_pilot_xyz_mm": [
+            18,
+            1042.5,
+            320.1101650574533
+          ],
+          "axis": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "PF_SupportMountScrewR2",
+          "head_xyz_mm": [
+            564,
+            1042.5,
+            320.1101650574533
+          ],
+          "tip_xyz_mm": [
+            594,
+            1042.5,
+            320.1101650574533
+          ],
+          "side_pilot_xyz_mm": [
+            582,
+            1042.5,
+            320.1101650574533
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "PF_SupportMountScrewL3",
+          "head_xyz_mm": [
+            36,
+            1055.25061984718,
+            448.2203301149065
+          ],
+          "tip_xyz_mm": [
+            6,
+            1055.25061984718,
+            448.2203301149065
+          ],
+          "side_pilot_xyz_mm": [
+            18,
+            1055.25061984718,
+            448.2203301149065
+          ],
+          "axis": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "PF_SupportMountScrewR3",
+          "head_xyz_mm": [
+            564,
+            1055.25061984718,
+            448.2203301149065
+          ],
+          "tip_xyz_mm": [
+            594,
+            1055.25061984718,
+            448.2203301149065
+          ],
+          "side_pilot_xyz_mm": [
+            582,
+            1055.25061984718,
+            448.2203301149065
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "screw": {
+        "screw_diameter_mm": 4.5,
+        "screw_length_mm": 30,
+        "head_diameter_mm": 9,
+        "head_angle_deg": 90,
+        "drive": "Torx candidate; match purchased screw",
+        "clearance_diameter_mm": 5,
+        "pilot_diameter_mm": 3,
+        "cnc_pilot_depth_mm": 1,
+        "pilot_finished_depth_mm": 13,
+        "pilot_max_depth_mm": 15,
+        "edge_distance_mm": 20,
+        "minimum_spacing_mm": 40,
+        "measured_support_thickness_mm": null,
+        "measured_side_thickness_mm": null,
+        "glue_required": false,
+        "glue_optional_after_final_validation": true,
+        "nails_used": false,
+        "reference_url": "https://www.spax.com/gb-en/p/stainless-steel-screw-full-thread-flat-countersunk-head-t-star-plus-4cut-stainless-steel-a2.html?variant=1197000450303"
+      },
+      "countersink_depth_mm": 2.0000000000000004,
+      "side_engagement_mm": 12,
+      "side_remaining_beyond_tip_mm": 6,
+      "minimum_lift_to_clear_mm": 46.0,
+      "foot_y_min_mm": 1017.0,
+      "foot_y_max_mm": 1075.25061984718,
+      "shoulder_z_mm": 489.4801077622672
+    },
+    "rear_flush": {
+      "before_outer_y_mm": 1320.1,
+      "after_outer_y_mm": 1308.1,
+      "plane_y_mm": 1308.1,
+      "translation_y_mm": -12.0,
+      "wood_recesses": [
+        {
+          "part": "CandidateLockKeeper",
+          "removed_mm3": 320.0
+        },
+        {
+          "part": "CandidateHingeFixed1",
+          "removed_mm3": 4352.367322968462
+        },
+        {
+          "part": "CandidateHingeFixed2",
+          "removed_mm3": 4352.367322968462
+        }
+      ]
+    },
     "custom_metal_parts_required": 0,
-    "commodity_metal_parts": 12,
+    "commodity_metal_parts": 18,
     "commodity_metal_ids": [
+      "PF_SupportMountScrewL1",
+      "PF_SupportMountScrewR1",
+      "PF_SupportMountScrewL2",
+      "PF_SupportMountScrewR2",
+      "PF_SupportMountScrewL3",
+      "PF_SupportMountScrewR3",
       "PF_StrapScrew1_1",
       "PF_StrapScrew1_3",
       "PF_CommercialStrap1",
@@ -116,7 +367,10 @@
       "PLAYFIELD PIVOT WOOD DOWELS": 1,
       "PLAYFIELD PIVOT CNC WOOD SUPPORTS": 2,
       "PLAYFIELD BASE PLYWOOD PANELS": 1,
-      "COMMERCIAL STRAPS": 4
+      "COMMERCIAL STRAPS": 4,
+      "STRAP SCREWS": 8,
+      "SUPPORT MOUNTING SCREWS": 6,
+      "TOTAL METAL PARTS IN PLAYFIELD PIVOT SYSTEM": 18
     },
     "limits": "Sampled geometry only; no load proof. Commercial strap envelope provisional. Owner final architecture supersedes previous prop requirements."
   },
@@ -168,10 +422,8 @@
   ],
   "preserved_solids": [
     "FRONT",
-    "REAR",
     "FAN_230",
     "FAN_370",
-    "REAR_DOOR",
     "FLOOR",
     "FLOOR_CLEAT_18",
     "FLOOR_CLEAT_552",
@@ -332,21 +584,6 @@
     "CandidateFanBolt370_4OuterWasher",
     "CandidateFanBolt370_4InnerWasher",
     "CandidateFanBolt370_4Nut",
-    "CandidateHandleBolt1",
-    "CandidateHandleBolt1Washer",
-    "CandidateHandleBolt2",
-    "CandidateHandleBolt2Washer",
-    "CandidateRearHandle",
-    "CandidateKeyLockBody",
-    "CandidateKeyLockShaft",
-    "CandidateKeyLockCam",
-    "CandidateLockKeeper",
-    "CandidateHingeFixed1",
-    "CandidateHingeMoving1",
-    "CandidateHingePin1",
-    "CandidateHingeFixed2",
-    "CandidateHingeMoving2",
-    "CandidateHingePin2",
     "CandidateMainsEnclosure",
     "CandidateIntakeFilterFrame1",
     "CandidateIntakeFilterFrame2",
@@ -379,6 +616,6 @@
     "PF_BackboxCheckEnvelope"
   ],
   "source_sha256": "2a92233983bf4f9b712a039a37d7cc6a6813746beddde5bae7e423c8e442440d",
-  "mesh_sha256": "4074ef9660a8c34bba5dbdd3278ca40e5f4eac5fa18a2f13c9c46982f1c155bd",
+  "mesh_sha256": "2dbc6d42f55a210fe5af0093ef33d48b4352ffc55b381707a9c698796c882097",
   "manufacturing_ready": false
 }

@@ -10,7 +10,7 @@
 <h2>Explorar</h2><div class="row"><button id="exterior">Conjunto</button><button id="interior">Interior</button></div>
 <label>Estado do playfield <select id="service-state"><option>PLAY</option><option>SERVICE</option><option>LIFT-OUT</option><option>EXPLODED</option></select></label>
 <small id="state-note" aria-live="polite">PLAY · barra de madeira apoiada nos berços abertos.</small>
-<label>Vistas de revisão <select id="review-view"><option value="player-left">Jogador · frente esquerda</option><option value="player-right">Jogador · frente direita</option><option value="play-oblique">Topo / oblíqua · PLAY</option><option value="service">SERVICE / RAISED</option><option value="side-detail">Detalhe lateral · berço aberto</option><option value="closed-detail">Vista explodida · somente mecanismo</option></select></label>
+<label>Vistas de revisão <select id="review-view"><option value="cradle-close">Close-up · U profundo</option><option value="mounting-close">Close-up · 3 parafusos internos</option><option value="floor-supports">Interior · dois suportes no piso</option><option value="lift-out">LIFT-OUT · retirada vertical</option><option value="rear-flush">Traseira · porta flush</option><option value="mechanism-exploded">Explodido · mecanismo e 6 parafusos</option><option value="player-left">Jogador · frente esquerda</option><option value="player-right">Jogador · frente direita</option><option value="play-oblique">Topo / oblíqua · PLAY</option><option value="service">SERVICE / RAISED</option><option value="side-detail">Detalhe lateral · berço aberto</option><option value="closed-detail">Vista explodida · somente mecanismo</option></select></label>
 <div class="row"><button data-view="front">Frente</button><button data-view="rear">Traseira</button><button data-view="top">Topo</button></div>
 <div class="row"><button id="reset">Restaurar</button><button id="capture">Salvar imagem</button></div>
 <h2>Camadas</h2><div id="layers"></div>
@@ -21,7 +21,7 @@
 <h2>Peça selecionada</h2><div id="selection" aria-live="polite">Clique em uma peça ou escolha na lista.</div>
 <div class="row"><button id="hide" disabled>Ocultar</button><button id="isolate" disabled>Isolar</button><button id="focus" disabled>Focar</button></div>
 <input id="search" type="search" placeholder="Buscar ID da peça" aria-label="Buscar peça"><div id="parts"></div>
-<h2>Escopo atual</h2><small>Uma chapa plana, uma barra de madeira, dois berços CNC abertos, quatro abraçadeiras comerciais e oito parafusos. SERVICE: levantar a frente; a barra gira nos berços. LIFT-OUT: partir de PLAY sem vidro, levantar 42 mm para retirar as extremidades verticalmente; chapa, TV, VESA, barra e abraçadeiras saem juntos. Retirar vidro e liberar lockdown antes de abrir. Nenhum parafuso do gabinete é removido. CNC pendente.</small>
+<h2>Escopo atual</h2><small>Uma chapa plana, uma barra de madeira, dois berços CNC abertos, quatro abraçadeiras comerciais e oito parafusos das abraçadeiras e seis parafusos internos dos suportes. SERVICE: levantar a frente; a barra gira nos berços. LIFT-OUT: partir de PLAY sem vidro, levantar 48 mm para retirar as extremidades verticalmente; chapa, TV, VESA, barra e abraçadeiras saem juntos. Retirar vidro e liberar lockdown antes de abrir. Os suportes ficam aparafusados às laterais; não é preciso soltá-los para retirar o playfield. Carga vertical: contato direto com o piso. Cola opcional após validação; pregos não usados. CNC pendente.</small>
 <details><summary>Origem e licenças</summary><pre id="provenance"></pre><pre>__NOTICE__</pre><pre>__MIT__</pre><pre>__LICENSE__</pre></details>
 </aside><main id="stage" aria-label="Visualizador 3D interativo"><div id="error" role="alert" hidden></div><div id="hint">Arraste: girar · botão direito: deslocar · roda: zoom · toque: girar / pinça: zoom</div></main></div>
 <script>__THREE__</script><script>__ORBIT__</script>
@@ -71,7 +71,7 @@ function list(){const q=document.getElementById('search').value.toLowerCase(),ro
 document.getElementById('search').oninput=list;list();
 function view(kind){controls.target.copy(center);const distance=size.length()*1.55;const direction={front:[0,-1,.12],rear:[0,1,.12],top:[0,-.001,1],iso:[-1,-1,.85]}[kind];camera.position.copy(center).add(new THREE.Vector3(...direction).normalize().multiplyScalar(distance));controls.update();}
 let currentState='PLAY';
-function applyState(state){currentState=state;document.getElementById('service-state').value=state;const overrides=STATES[state];meshes.forEach(m=>{m.userData.stateAbsent=Object.hasOwn(overrides,m.name)&&overrides[m.name]===null;const part=overrides[m.name];if(m.geometry!==m.userData.playGeometry)m.geometry.dispose();m.geometry=part?geometry(part):m.userData.playGeometry;});bounds.makeEmpty();meshes.filter(m=>!m.userData.stateAbsent).forEach(m=>bounds.union(new THREE.Box3().setFromObject(m)));bounds.getCenter(center);bounds.getSize(size);clip();document.getElementById('state-note').textContent=state==='PLAY'?'PLAY · gravidade e dois berços abertos.':state==='SERVICE'?'SERVICE / RAISED · barra de madeira; 4 abraçadeiras sob a chapa.':state==='LIFT-OUT'?'LIFT-OUT · a partir de PLAY sem vidro: elevar 42 mm; retirar como uma unidade.':'EXPLODED · somente chapa, barra, 2 berços, 4 abraçadeiras e parafusos';refresh();annotate();}
+function applyState(state){currentState=state;document.getElementById('service-state').value=state;const overrides=STATES[state];meshes.forEach(m=>{m.userData.stateAbsent=Object.hasOwn(overrides,m.name)&&overrides[m.name]===null;const part=overrides[m.name];if(m.geometry!==m.userData.playGeometry)m.geometry.dispose();m.geometry=part?geometry(part):m.userData.playGeometry;});bounds.makeEmpty();meshes.filter(m=>!m.userData.stateAbsent).forEach(m=>bounds.union(new THREE.Box3().setFromObject(m)));bounds.getCenter(center);bounds.getSize(size);clip();document.getElementById('state-note').textContent=state==='PLAY'?'PLAY · barra por gravidade; suportes fixados por 6 parafusos internos.':state==='SERVICE'?'SERVICE / RAISED · barra de madeira; 4 abraçadeiras sob a chapa.':state==='LIFT-OUT'?'LIFT-OUT · a partir de PLAY sem vidro: elevar 48 mm; retirar como uma unidade.':'EXPLODED · somente chapa, barra, 2 berços, 4 abraçadeiras e parafusos';refresh();annotate();}
 function restore(){isolated=null;meshes.forEach(m=>m.userData.hidden=false);Object.entries(layerInputs).forEach(([k,i])=>i.checked=k!=='Reservas de instalação');document.getElementById('opacity').value=1;opacity();document.getElementById('axis').value='none';clip();applyState('PLAY');refresh();view('iso');}
 document.getElementById('reset').onclick=restore;document.getElementById('exterior').onclick=restore;
 document.getElementById('interior').onclick=()=>{restore();['SIDE_L','FRONT','PLAYFIELD_ENVELOPE','CandidateGlass','SHELF_1','SHELF_2','SHELF_3'].forEach(n=>{const m=meshes.find(m=>m.name===n);if(m)m.userData.hidden=true;});refresh();};
@@ -92,6 +92,13 @@ function clearAnnotations(){for(const child of [...annotations.children]){annota
 function label(text,xyz,offset=[0,0]){const el=document.createElement('span');el.textContent=text;el.style.cssText='position:absolute;pointer-events:none;background:#ffffffed;color:#20313c;padding:3px 6px;border-radius:3px;font:12px system-ui;white-space:nowrap;';stage.append(el);labels.push({el,point:new THREE.Vector3(...xyz),offset});}
 function dimension(a,b,text,offset=[0,0]){const geo=new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(...a),new THREE.Vector3(...b)]);annotations.add(new THREE.Line(geo,new THREE.LineBasicMaterial({color:0x176eaa,depthTest:false})));for(const point of [a,b]){const dot=new THREE.Mesh(new THREE.SphereGeometry(2.5,8,6),new THREE.MeshBasicMaterial({color:0x176eaa,depthTest:false}));dot.position.set(...point);annotations.add(dot);}label(text,a.map((v,i)=>(v+b[i])/2),offset);}
 function annotate(){clearAnnotations();const preset=document.getElementById('review-view').value,side=preset==='player-right'?'R':'L',x=side==='L'?-25:625;
+ if(preset==='rear-flush'){label('DOOR OUTER FACE = REAR PLANE · Y 1308.1 mm',[300,1308.1,383],[-160,-30]);return;}
+ if(['cradle-close','mounting-close','floor-supports','lift-out','mechanism-exploded'].includes(preset)){
+  const p=REVIEW.pivot_xyz_mm;label('OPEN U · 46 mm depth · no keeper',[27,p[1],p[2]+30],[-60,-25]);
+  if(preset==='mounting-close'){REVIEW.support_mounting.positions.filter(r=>r.id.includes('ScrewL')).forEach((r,i)=>label('SCREW '+(i+1)+' · 4.5 × 30 mm',r.head_xyz_mm,[20,-10]));label('DIRECT BEARING ON FLOOR',[27,p[1],36],[-100,25]);}
+  if(preset==='lift-out')label('48 mm lift · 2 mm clearance',[27,p[1],p[2]+48],[-80,-45]);
+  return;
+ }
  if(currentState==='PLAY'&&!preset.includes('detail')){const p=REVIEW.buttons.primary,s=REVIEW.buttons.secondary;dimension([x,0,p.z_mm-26],[x,p.y_mm,p.z_mm-26],'Frente → flipper: '+p.y_mm+' mm',[-100,20]);dimension([x,0,s.z_mm-58],[x,s.y_mm,s.z_mm-58],'Frente → magna: '+s.y_mm+' mm',[-70,48]);dimension([x,p.y_mm,p.z_mm],[x,p.y_mm,p.top_z_mm],'Topo local → centro: '+p.below_top_mm+' mm',[-140,-22]);label('Y = 0 · frente',[300,0,400],[0,-30]);}
  else {const p=REVIEW.pivot_xyz_mm;label('WOOD DOWEL · Ø'+REVIEW.wood_dowel_diameter_mm+' mm',[300,p[1],p[2]],[0,30]);label('OPEN WOOD CRADLE',[27,p[1],p[2]-30],[-160,30]);label('PLAYFIELD PLYWOOD + 4 STRAPS',[100,p[1]-40,p[2]+60],[-120,-45]);label('CABINET FLOOR',[27,p[1],36],[-90,20]);if(currentState==='SERVICE')label('SERVICE · '+REVIEW.opening_deg+'°',[300,p[1]-50,p[2]+300],[60,-40]);}
 
@@ -102,7 +109,20 @@ function reviewView(preset){document.getElementById('review-view').value=preset;
  else if(preset==='closed-detail'){applyState('EXPLODED');meshes.forEach(m=>{if(!m.name.startsWith('PF_'))m.userData.hidden=true;});['SIDE_L','FRONT','CandidateGlass','PLAYFIELD_ENVELOPE'].forEach(n=>meshes.find(m=>m.name===n).userData.hidden=true);controls.target.set(300,980,450);camera.position.set(-1000,300,1000);}
  else if(preset==='play-oblique'){controls.target.set(300,450,350);camera.position.set(-1100,-900,1750);}
  else {controls.target.set(300,310,310);camera.position.set(preset==='player-right'?1500:-900,-1300,1050);}
+ if(['cradle-close','mounting-close','floor-supports','lift-out','rear-flush','mechanism-exploded'].includes(preset)){
+  applyState(preset==='lift-out'?'LIFT-OUT':preset==='mechanism-exploded'?'EXPLODED':'PLAY');
+  if(preset==='rear-flush'){controls.target.set(300,1308,270);camera.position.set(-500,2300,660);}
+  else if(preset==='floor-supports'){meshes.forEach(m=>m.userData.hidden=!/PF_OpenCradle|PF_SupportMountScrew|PF_WoodDowel|^FLOOR$|^SIDE_/.test(m.name));document.getElementById('opacity').value=.18;opacity();controls.target.set(300,1035,275);camera.position.set(950,500,850);}
+  else if(preset==='lift-out'){['SIDE_L','FRONT'].forEach(n=>meshes.find(m=>m.name===n).userData.hidden=true);controls.target.set(300,900,390);camera.position.set(-850,1550,950);}
+  else {
+   meshes.forEach(m=>{m.userData.hidden=!(m.name.startsWith('PF_')&&m.name!=='PF_BackboxCheckEnvelope'&&m.name!=='PF_VESAEnvelope')&&m.name!=='FLOOR';});
+   if(preset==='cradle-close'){controls.target.set(27,1035,490);camera.position.set(-240,1080,535);}
+   if(preset==='mounting-close'){meshes.forEach(m=>m.userData.hidden=!/PF_OpenCradleL|PF_SupportMountScrewL|FLOOR/.test(m.name));controls.target.set(28,1046,280);camera.position.set(900,1300,500);}
+   if(preset==='mechanism-exploded'){meshes.forEach(m=>m.userData.hidden=m.userData.hidden||m.name==='FLOOR');controls.target.set(300,750,390);camera.position.set(-1000,1650,1150);}
+  }
+ }
  controls.update();refresh();annotate();}
+
 document.getElementById('review-view').onchange=e=>reviewView(e.target.value);
 function frame(){requestAnimationFrame(frame);controls.update();renderer.render(scene,camera);labels.forEach(l=>{const point=l.point.clone().project(camera);l.el.hidden=point.z>1||point.z< -1;const w=l.el.offsetWidth,h=l.el.offsetHeight;l.el.style.left=Math.max(4,Math.min(stage.clientWidth-w-4,(point.x+1)/2*stage.clientWidth+l.offset[0]))+'px';l.el.style.top=Math.max(4,Math.min(stage.clientHeight-h-4,(1-point.y)/2*stage.clientHeight+l.offset[1]))+'px';});}frame();
 reviewView(new URLSearchParams(location.search).get('review')||'player-left');

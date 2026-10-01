@@ -1,0 +1,169 @@
+{
+  "positions": [
+    {
+      "id": "PF_SupportMountScrewL1",
+      "head_xyz_mm": [
+        36,
+        1037.0,
+        192.0
+      ],
+      "tip_xyz_mm": [
+        6,
+        1037.0,
+        192.0
+      ],
+      "side_pilot_xyz_mm": [
+        18,
+        1037.0,
+        192.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PF_SupportMountScrewR1",
+      "head_xyz_mm": [
+        564,
+        1037.0,
+        192.0
+      ],
+      "tip_xyz_mm": [
+        594,
+        1037.0,
+        192.0
+      ],
+      "side_pilot_xyz_mm": [
+        582,
+        1037.0,
+        192.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PF_SupportMountScrewL2",
+      "head_xyz_mm": [
+        36,
+        1042.5,
+        320.1101650574533
+      ],
+      "tip_xyz_mm": [
+        6,
+        1042.5,
+        320.1101650574533
+      ],
+      "side_pilot_xyz_mm": [
+        18,
+        1042.5,
+        320.1101650574533
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PF_SupportMountScrewR2",
+      "head_xyz_mm": [
+        564,
+        1042.5,
+        320.1101650574533
+      ],
+      "tip_xyz_mm": [
+        594,
+        1042.5,
+        320.1101650574533
+      ],
+      "side_pilot_xyz_mm": [
+        582,
+        1042.5,
+        320.1101650574533
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PF_SupportMountScrewL3",
+      "head_xyz_mm": [
+        36,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "tip_xyz_mm": [
+        6,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "side_pilot_xyz_mm": [
+        18,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PF_SupportMountScrewR3",
+      "head_xyz_mm": [
+        564,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "tip_xyz_mm": [
+        594,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "side_pilot_xyz_mm": [
+        582,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "screw": {
+    "screw_diameter_mm": 4.5,
+    "screw_length_mm": 30,
+    "head_diameter_mm": 9,
+    "head_angle_deg": 90,
+    "drive": "Torx candidate; match purchased screw",
+    "clearance_diameter_mm": 5,
+    "pilot_diameter_mm": 3,
+    "cnc_pilot_depth_mm": 1,
+    "pilot_finished_depth_mm": 13,
+    "pilot_max_depth_mm": 15,
+    "edge_distance_mm": 20,
+    "minimum_spacing_mm": 40,
+    "measured_support_thickness_mm": null,
+    "measured_side_thickness_mm": null,
+    "glue_required": false,
+    "glue_optional_after_final_validation": true,
+    "nails_used": false,
+    "reference_url": "https://www.spax.com/gb-en/p/stainless-steel-screw-full-thread-flat-countersunk-head-t-star-plus-4cut-stainless-steel-a2.html?variant=1197000450303"
+  },
+  "countersink_depth_mm": 2.0000000000000004,
+  "side_engagement_mm": 12,
+  "side_remaining_beyond_tip_mm": 6,
+  "minimum_lift_to_clear_mm": 46.0,
+  "foot_y_min_mm": 1017.0,
+  "foot_y_max_mm": 1075.25061984718,
+  "shoulder_z_mm": 489.4801077622672
+}

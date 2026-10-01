@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900"><rect width="1200" height="900" fill="white"/><style>text{font-family:sans-serif;fill:#20313c;font-size:16px}.small{font-size:13px}</style>
+<text x="35" y="35" class="">V32 · SUPPORT MOUNTING · NOMINAL ASSEMBLY DRAWING</text>
+<text x="35" y="60" class="small">CNC/assembly reference · geometry not manufacturing-approved · measure both plywood pieces and purchased screw</text>
+<path d="M 135.012,680.000 L 202.000,680.000 L 202.000,413.200 L 193.662,413.200 L 193.662,339.600 L 202.000,339.600 L 202.000,130.047 L 174.975,130.047 L 174.975,163.972 A 18.974999999999998,18.974999999999998 0 0 1 137.025,163.972 L 137.025,130.047 L 110.000,130.047 L 110.000,158.498 L 135.012,158.498 Z" fill="#dec498" stroke="#5c4530" stroke-width="1.5"/>
+<circle cx="156.0" cy="164.5466203678576" r="18.4" fill="#8c623c" fill-opacity=".4" stroke="#5c4530"/>
+<circle cx="158.0117871757431" cy="500.6" r="2.875" fill="white" stroke="#20313c"/><circle cx="158.0117871757431" cy="500.6" r="5.175" fill="none" stroke="#20313c" stroke-dasharray="3 2"/>
+<text x="88" y="505.6" class="">1</text>
+<circle cx="164.3367871757431" cy="353.27331018392874" r="2.875" fill="white" stroke="#20313c"/><circle cx="164.3367871757431" cy="353.27331018392874" r="5.175" fill="none" stroke="#20313c" stroke-dasharray="3 2"/>
+<text x="88" y="358.27331018392874" class="">2</text>
+<circle cx="179.0" cy="205.94662036785752" r="2.875" fill="white" stroke="#20313c"/><circle cx="179.0" cy="205.94662036785752" r="5.175" fill="none" stroke="#20313c" stroke-dasharray="3 2"/>
+<text x="88" y="210.94662036785752" class="">3</text>
+<text x="35" y="100" class="">Identical 18 mm profiles; countersinks face cabinet interior</text>
+<text x="230" y="135" class="">80 mm upper profile; open U depth 46 mm</text>
+<text x="230" y="160" class="">Mouth 33 mm; dowel Ø32; minimum unseating lift 46 mm</text>
+<text x="230" y="185" class="">Demonstrated lift 48 mm: 2 mm over the upper edges</text>
+<text x="230" y="220" class="">Front shoulder clears retained crossmember guide by 1 mm</text>
+<text x="230" y="245" class="">Rear relief clears unchanged SSF exciter by 2 mm</text>
+<text x="35" y="715" class="">DIRECT BEARING ON CABINET FLOOR · Z36</text>
+<text x="230" y="285" class="">HEADS: left X36 / right X564</text>
+<text x="230" y="310" class="">1: Y 1037.000 / Z 192.000</text>
+<text x="230" y="335" class="">2: Y 1042.500 / Z 320.110</text>
+<text x="230" y="360" class="">3: Y 1055.251 / Z 448.220</text>
+<rect x="550" y="315" width="108" height="150" fill="#dec498" stroke="#20313c"/><rect x="658" y="315" width="108" height="150" fill="#c9ad81" stroke="#20313c"/><line x1="550" y1="385" x2="730" y2="385" stroke="#7899ad" stroke-width="9"/><circle cx="550" cy="385" r="12" fill="#7899ad"/>
+<text x="545" y="290" class="">SCREW STACK · head inside → outer face</text>
+<text x="550" y="490" class="">SUPPORT 18 mm</text>
+<text x="658" y="515" class="">SIDE 18 mm</text>
+<text x="550" y="550" class="">4.5 × 30 mm countersunk wood screw; Torx candidate</text>
+<text x="550" y="575" class="">Length includes head; flush seat: 12 mm side engagement</text>
+<text x="550" y="600" class="">6 mm wood remains beyond tip; no exterior breakthrough</text>
+<text x="550" y="625" class="">Clearance Ø5 through support; countersink Ø9 × 90°, depth 2</text>
+<text x="550" y="650" class="">Side CNC: Ø3 × 1 mm shallow pilot mark from inside ONLY</text>
+<text x="550" y="675" class="">Manual pilot: Ø3, total depth 13 mm from SIDE INNER FACE</text>
+<text x="550" y="700" class="">Maximum total pilot depth: 15 mm (including drill tip)</text>
+<text x="550" y="725" class="">Measure drill projection; use depth stop; never drill through</text>
+<text x="35" y="755" class="">XYZ HEAD DATUMS: left X36 (drive −X); right X564 (drive +X). Side pilots: left X18; right X582.</text>
+<text x="35" y="780" class="">SCREWS = REQUIRED · WOOD GLUE = OPTIONAL AFTER FINAL VALIDATION · NAILS = NOT USED</text>
+<text x="35" y="805" class="">Dry fit → confirm floor/side contact → test pivot/lift → validate geometry → optional PVA on side/floor interfaces</text>
+<text x="35" y="830" class="">Vertical load: PLAYFIELD / DOWEL → WOOD CRADLE → WOOD SUPPORT → DIRECT BEARING ON CABINET FLOOR</text>
+<text x="35" y="850" class="small">Side screws retain against tipping, separation and longitudinal/service displacement. No glue-dependent load path.</text>
+<text x="35" y="880" class="small">CERN-OHL-S-2.0 · Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</text>
+</svg>

@@ -17,11 +17,63 @@
       "pass": true
     },
     {
+      "check": "six internal support mounting screws only",
+      "pass": true
+    },
+    {
+      "check": "floor bearing exists on both supports",
+      "pass": true
+    },
+    {
+      "check": "nominal screw engagement and exterior skin",
+      "pass": true
+    },
+    {
+      "check": "pilot stops short of outside face",
+      "pass": true
+    },
+    {
+      "check": "countersink preserves useful thickness",
+      "pass": true
+    },
+    {
+      "check": "screw centres spaced and below weakened U",
+      "pass": true
+    },
+    {
+      "check": "no pilot penetrates exterior skin",
+      "pass": true
+    },
+    {
+      "check": "support mounting screw and head geometry clear other components",
+      "pass": true
+    },
+    {
+      "check": "direct interior driver access to all six screws",
+      "pass": true
+    },
+    {
+      "check": "rear door outer wood face flush or recessed",
+      "pass": true
+    },
+    {
+      "check": "approved rear hardware preserved by rigid placements",
+      "pass": true
+    },
+    {
+      "check": "same lock keeper blocks opening while cam remains locked",
+      "pass": true
+    },
+    {
+      "check": "flush downward door sweep 0..110 degrees clear",
+      "pass": true
+    },
+    {
       "check": "all solids valid",
       "pass": true
     },
     {
-      "check": "all other subsystem solids exactly preserved",
+      "check": "all subsystems other than authorized support pilots and rear door correction preserved",
       "pass": true
     }
   ],
@@ -219,6 +271,386 @@
     {
       "dz": 42,
       "hits": []
+    },
+    {
+      "dz": 44,
+      "hits": []
+    },
+    {
+      "dz": 46,
+      "hits": []
+    },
+    {
+      "dz": 48,
+      "hits": []
+    }
+  ],
+  "rear_sweep": [
+    {
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "angle": 2,
+      "hits": []
+    },
+    {
+      "angle": 4,
+      "hits": []
+    },
+    {
+      "angle": 6,
+      "hits": []
+    },
+    {
+      "angle": 8,
+      "hits": []
+    },
+    {
+      "angle": 10,
+      "hits": []
+    },
+    {
+      "angle": 12,
+      "hits": []
+    },
+    {
+      "angle": 14,
+      "hits": []
+    },
+    {
+      "angle": 16,
+      "hits": []
+    },
+    {
+      "angle": 18,
+      "hits": []
+    },
+    {
+      "angle": 20,
+      "hits": []
+    },
+    {
+      "angle": 22,
+      "hits": []
+    },
+    {
+      "angle": 24,
+      "hits": []
+    },
+    {
+      "angle": 26,
+      "hits": []
+    },
+    {
+      "angle": 28,
+      "hits": []
+    },
+    {
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "angle": 32,
+      "hits": []
+    },
+    {
+      "angle": 34,
+      "hits": []
+    },
+    {
+      "angle": 36,
+      "hits": []
+    },
+    {
+      "angle": 38,
+      "hits": []
+    },
+    {
+      "angle": 40,
+      "hits": []
+    },
+    {
+      "angle": 42,
+      "hits": []
+    },
+    {
+      "angle": 44,
+      "hits": []
+    },
+    {
+      "angle": 46,
+      "hits": []
+    },
+    {
+      "angle": 48,
+      "hits": []
+    },
+    {
+      "angle": 50,
+      "hits": []
+    },
+    {
+      "angle": 52,
+      "hits": []
+    },
+    {
+      "angle": 54,
+      "hits": []
+    },
+    {
+      "angle": 56,
+      "hits": []
+    },
+    {
+      "angle": 58,
+      "hits": []
+    },
+    {
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "angle": 62,
+      "hits": []
+    },
+    {
+      "angle": 64,
+      "hits": []
+    },
+    {
+      "angle": 66,
+      "hits": []
+    },
+    {
+      "angle": 68,
+      "hits": []
+    },
+    {
+      "angle": 70,
+      "hits": []
+    },
+    {
+      "angle": 72,
+      "hits": []
+    },
+    {
+      "angle": 74,
+      "hits": []
+    },
+    {
+      "angle": 76,
+      "hits": []
+    },
+    {
+      "angle": 78,
+      "hits": []
+    },
+    {
+      "angle": 80,
+      "hits": []
+    },
+    {
+      "angle": 82,
+      "hits": []
+    },
+    {
+      "angle": 84,
+      "hits": []
+    },
+    {
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "angle": 88,
+      "hits": []
+    },
+    {
+      "angle": 90,
+      "hits": []
+    },
+    {
+      "angle": 92,
+      "hits": []
+    },
+    {
+      "angle": 94,
+      "hits": []
+    },
+    {
+      "angle": 96,
+      "hits": []
+    },
+    {
+      "angle": 98,
+      "hits": []
+    },
+    {
+      "angle": 100,
+      "hits": []
+    },
+    {
+      "angle": 102,
+      "hits": []
+    },
+    {
+      "angle": 104,
+      "hits": []
+    },
+    {
+      "angle": 106,
+      "hits": []
+    },
+    {
+      "angle": 108,
+      "hits": []
+    },
+    {
+      "angle": 110,
+      "hits": []
+    }
+  ],
+  "support_conflicts": [],
+  "tool_hits": [],
+  "fixing_positions": [
+    {
+      "id": "PF_SupportMountScrewL1",
+      "head_xyz_mm": [
+        36,
+        1037.0,
+        192.0
+      ],
+      "tip_xyz_mm": [
+        6,
+        1037.0,
+        192.0
+      ],
+      "side_pilot_xyz_mm": [
+        18,
+        1037.0,
+        192.0
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PF_SupportMountScrewR1",
+      "head_xyz_mm": [
+        564,
+        1037.0,
+        192.0
+      ],
+      "tip_xyz_mm": [
+        594,
+        1037.0,
+        192.0
+      ],
+      "side_pilot_xyz_mm": [
+        582,
+        1037.0,
+        192.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PF_SupportMountScrewL2",
+      "head_xyz_mm": [
+        36,
+        1042.5,
+        320.1101650574533
+      ],
+      "tip_xyz_mm": [
+        6,
+        1042.5,
+        320.1101650574533
+      ],
+      "side_pilot_xyz_mm": [
+        18,
+        1042.5,
+        320.1101650574533
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PF_SupportMountScrewR2",
+      "head_xyz_mm": [
+        564,
+        1042.5,
+        320.1101650574533
+      ],
+      "tip_xyz_mm": [
+        594,
+        1042.5,
+        320.1101650574533
+      ],
+      "side_pilot_xyz_mm": [
+        582,
+        1042.5,
+        320.1101650574533
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PF_SupportMountScrewL3",
+      "head_xyz_mm": [
+        36,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "tip_xyz_mm": [
+        6,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "side_pilot_xyz_mm": [
+        18,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PF_SupportMountScrewR3",
+      "head_xyz_mm": [
+        564,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "tip_xyz_mm": [
+        594,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "side_pilot_xyz_mm": [
+        582,
+        1055.25061984718,
+        448.2203301149065
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ]
     }
   ]
 }

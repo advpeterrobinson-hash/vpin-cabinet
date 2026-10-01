@@ -1,43 +1,44 @@
 {
   "views": [
     {
-      "view": "player-left",
+      "view": "cradle-close",
       "pass": true,
-      "screenshot": "exports/generated/viewer-v32/01-player-left.png"
+      "screenshot": "exports/generated/viewer-v32/01-cradle-close.png"
     },
     {
-      "view": "player-right",
+      "view": "mounting-close",
       "pass": true,
-      "screenshot": "exports/generated/viewer-v32/02-player-right.png"
+      "screenshot": "exports/generated/viewer-v32/02-mounting-close.png"
     },
     {
-      "view": "play-oblique",
+      "view": "floor-supports",
       "pass": true,
-      "screenshot": "exports/generated/viewer-v32/03-play-oblique.png"
+      "screenshot": "exports/generated/viewer-v32/03-floor-supports.png"
     },
     {
-      "view": "service",
+      "view": "lift-out",
       "pass": true,
-      "screenshot": "exports/generated/viewer-v32/04-service.png"
+      "screenshot": "exports/generated/viewer-v32/04-lift-out.png"
     },
     {
-      "view": "side-detail",
+      "view": "rear-flush",
       "pass": true,
-      "screenshot": "exports/generated/viewer-v32/05-side-detail.png"
+      "screenshot": "exports/generated/viewer-v32/05-rear-flush.png"
     },
     {
-      "view": "closed-detail",
+      "view": "mechanism-exploded",
       "pass": true,
-      "screenshot": "exports/generated/viewer-v32/06-closed-detail.png"
+      "screenshot": "exports/generated/viewer-v32/06-mechanism-exploded.png"
     }
   ],
   "states_checked": 4,
+  "assembly_drawing": "exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.png",
   "checks": [
     "WebGL render",
     "state selection",
     "display position",
     "wooden dowel, open cradles and exactly four straps visible",
-    "42mm lift-out",
+    "48mm lift-out",
     "isolate",
     "hide",
     "search",
