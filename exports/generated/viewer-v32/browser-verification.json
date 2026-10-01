@@ -29,11 +29,28 @@
       "view": "mechanism-exploded",
       "pass": true,
       "screenshot": "exports/generated/viewer-v32/06-mechanism-exploded.png"
+    },
+    {
+      "view": "usability-original",
+      "pass": true,
+      "screenshot": "exports/generated/viewer-v32/07-usability-original.png"
+    },
+    {
+      "view": "usability-accessible",
+      "pass": true,
+      "screenshot": "exports/generated/viewer-v32/08-usability-accessible.png"
     }
   ],
   "states_checked": 4,
   "assembly_drawing": "exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.png",
   "checks": [
+    "English and original palette defaults",
+    "EN / PT-BR toggle in four states",
+    "original colors reproduced exactly",
+    "accessible palette toggle",
+    "language and palette preserve geometry bytes",
+    "selection and focus have geometry edge highlights",
+    "hidden and isolated text status",
     "WebGL render",
     "state selection",
     "display position",

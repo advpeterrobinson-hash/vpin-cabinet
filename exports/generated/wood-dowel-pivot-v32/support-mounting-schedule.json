@@ -170,6 +170,29 @@
   "local_widening_z_mm": 453.2203301149065,
   "minimum_upper_ligament_before_mm": 1.75,
   "minimum_upper_ligament_mm": 8.250619847179905,
+  "exciter_moves": [
+    {
+      "id": "SSF_Exciter2L",
+      "translation_xyz_mm": [
+        0,
+        7.250619847179905,
+        0
+      ],
+      "before_y_min_mm": 1070.0,
+      "after_y_min_mm": 1077.25061984718
+    },
+    {
+      "id": "SSF_Exciter2R",
+      "translation_xyz_mm": [
+        0,
+        7.250619847179905,
+        0
+      ],
+      "before_y_min_mm": 1070.0,
+      "after_y_min_mm": 1077.25061984718
+    }
+  ],
+  "exciter_relief_removed": true,
   "crossmember_clearance_mm": 0.5,
   "exciter_clearance_mm": 2.0,
   "cradle_geometry_unchanged": true,

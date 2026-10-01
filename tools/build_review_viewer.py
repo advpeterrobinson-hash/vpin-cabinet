@@ -5,6 +5,7 @@ import hashlib
 import html
 import json
 import math
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
 from validate_wood_dowel_pivot_v32 import validate_visible_mechanism
@@ -35,7 +36,13 @@ def main():
             assert len(face) == 3 and all(isinstance(i, int) and 0 <= i < len(part['vertices']) for i in face)
         part['vertices'] = [[round(v, 3) for v in vertex] for vertex in part['vertices']]
     template = (ROOT/'tools/viewer/template.html').read_text()
+    translations=json.loads((ROOT/'tools/viewer/translations.json').read_text())
+    assert all(v.get('en')==k and v.get('pt-BR') for k,v in translations.items()), 'Canonical English / PT-BR translation missing'
+    ui_keys={html.unescape(k) for k in re.findall(r'data-i18n(?:-placeholder|-aria-label)?="([^"]+)"',template)}
+    ui_keys.update(re.findall(r"\bt\('([^']+)'",template))
+    assert ui_keys<=translations.keys(), 'Viewer text missing from translation source: '+str(ui_keys-translations.keys())
     replacements = {
+        '__I18N__': json.dumps(translations,ensure_ascii=False,separators=(',', ':')).replace('</','<\\/'),
         '__THREE__': (ROOT/'tools/viewer/vendor/three.min.js').read_text(),
         '__ORBIT__': (ROOT/'tools/viewer/vendor/OrbitControls.js').read_text(),
         '__MESH__': json.dumps(parts, separators=(',', ':')).replace('</', '<\\/'),

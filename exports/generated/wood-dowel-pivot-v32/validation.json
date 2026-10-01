@@ -1,7 +1,19 @@
 {
   "checks": [
     {
-      "check": "only two support solids changed from previous current model",
+      "check": "only supports and two conflicting exciters changed from previous current model",
+      "pass": true
+    },
+    {
+      "check": "exciter X Z orientation and rear SSF functional zone preserved",
+      "pass": true
+    },
+    {
+      "check": "six support screws remain unchanged",
+      "pass": true
+    },
+    {
+      "check": "moving assembly and lift architecture unchanged",
       "pass": true
     },
     {
@@ -30,6 +42,10 @@
     },
     {
       "check": "two floor supported cradles clear unchanged cabinet",
+      "pass": true
+    },
+    {
+      "check": "moved exciters clear all other real components",
       "pass": true
     },
     {
@@ -89,7 +105,7 @@
       "pass": true
     },
     {
-      "check": "all subsystems other than authorized support pilots and rear door correction preserved",
+      "check": "all subsystems other than previously authorized pilots and rear door plus two exciters preserved",
       "pass": true
     },
     {
@@ -336,6 +352,29 @@
       "local_widening_z_mm": 453.2203301149065,
       "minimum_upper_ligament_before_mm": 1.75,
       "minimum_upper_ligament_mm": 8.250619847179905,
+      "exciter_moves": [
+        {
+          "id": "SSF_Exciter2L",
+          "translation_xyz_mm": [
+            0,
+            7.250619847179905,
+            0
+          ],
+          "before_y_min_mm": 1070.0,
+          "after_y_min_mm": 1077.25061984718
+        },
+        {
+          "id": "SSF_Exciter2R",
+          "translation_xyz_mm": [
+            0,
+            7.250619847179905,
+            0
+          ],
+          "before_y_min_mm": 1070.0,
+          "after_y_min_mm": 1077.25061984718
+        }
+      ],
+      "exciter_relief_removed": true,
       "crossmember_clearance_mm": 0.5,
       "exciter_clearance_mm": 2.0,
       "cradle_geometry_unchanged": true,
@@ -616,8 +655,6 @@
     "SSF_BST1_Reference",
     "SSF_Exciter1L",
     "SSF_Exciter1R",
-    "SSF_Exciter2L",
-    "SSF_Exciter2R",
     "SSF_AmplifierReserve",
     "SSF_PSUReserve",
     "SSF_USBReserve",
@@ -640,6 +677,6 @@
     "PF_BackboxCheckEnvelope"
   ],
   "source_sha256": "2a92233983bf4f9b712a039a37d7cc6a6813746beddde5bae7e423c8e442440d",
-  "mesh_sha256": "27a39d80a13e99f29347043f245931f1258d28106a7432c079e6c506c8e9f384",
+  "mesh_sha256": "99f8141875e240c29716fd84b50a695fb2ac237ffcdeb0e7c6c9a16249fb926f",
   "manufacturing_ready": false
 }

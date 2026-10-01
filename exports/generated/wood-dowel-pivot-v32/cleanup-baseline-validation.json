@@ -1,0 +1,11 @@
+{
+  "baseline_head": "67605c770a0494dfe414e5bc53e46cc6a9612330",
+  "checks": {
+    "same_part_ids": true,
+    "only_four_allowed_parts_changed": true,
+    "cradle_seat_and_entire_upper_profile_unchanged": true,
+    "floor_bearing_foot_unchanged": true,
+    "mounting_screws_unchanged": true,
+    "only_old_exciter_relief_filled": true
+  }
+}

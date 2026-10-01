@@ -1,7 +1,19 @@
 {
   "checks": [
     {
-      "check": "only two support solids changed from previous current model",
+      "check": "only supports and two conflicting exciters changed from previous current model",
+      "pass": true
+    },
+    {
+      "check": "exciter X Z orientation and rear SSF functional zone preserved",
+      "pass": true
+    },
+    {
+      "check": "six support screws remain unchanged",
+      "pass": true
+    },
+    {
+      "check": "moving assembly and lift architecture unchanged",
       "pass": true
     },
     {
@@ -30,6 +42,10 @@
     },
     {
       "check": "two floor supported cradles clear unchanged cabinet",
+      "pass": true
+    },
+    {
+      "check": "moved exciters clear all other real components",
       "pass": true
     },
     {
@@ -89,7 +105,7 @@
       "pass": true
     },
     {
-      "check": "all subsystems other than authorized support pilots and rear door correction preserved",
+      "check": "all subsystems other than previously authorized pilots and rear door plus two exciters preserved",
       "pass": true
     }
   ],

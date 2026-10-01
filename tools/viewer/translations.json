@@ -1,0 +1,358 @@
+{
+  "One flat plywood base, one wood dowel, two open CNC wood cradles, four commercial straps, eight strap screws and six interior support screws. SERVICE: raise the front; the dowel rotates in the cradles. LIFT-OUT: start from PLAY without glass, lift 48 mm to remove both ends vertically; base, TV, VESA, dowel and straps leave together. Remove glass and release lockdown before opening. Supports remain screwed to the sides during removal. Vertical load bears directly on the floor. Glue optional after validation; nails not used. CNC pending.": {
+    "en": "One flat plywood base, one wood dowel, two open CNC wood cradles, four commercial straps, eight strap screws and six interior support screws. SERVICE: raise the front; the dowel rotates in the cradles. LIFT-OUT: start from PLAY without glass, lift 48 mm to remove both ends vertically; base, TV, VESA, dowel and straps leave together. Remove glass and release lockdown before opening. Supports remain screwed to the sides during removal. Vertical load bears directly on the floor. Glue optional after validation; nails not used. CNC pending.",
+    "pt-BR": "Uma chapa plana, uma barra de madeira, dois berços CNC abertos, quatro abraçadeiras comerciais e oito parafusos das abraçadeiras e seis parafusos internos dos suportes. SERVIÇO: levantar a frente; a barra gira nos berços. RETIRADA: partir de JOGO sem vidro, levantar 48 mm para retirar as extremidades verticalmente; chapa, TV, VESA, barra e abraçadeiras saem juntos. Retirar vidro e liberar lockdown antes de abrir. Os suportes ficam aparafusados às laterais; não é preciso soltá-los para retirar o playfield. Carga vertical: contato direto com o piso. Cola opcional após validação; pregos não usados. CNC pendente."
+  },
+  "Drag: orbit · right button: pan · wheel: zoom · touch: orbit / pinch: zoom": {
+    "en": "Drag: orbit · right button: pan · wheel: zoom · touch: orbit / pinch: zoom",
+    "pt-BR": "Arraste: girar · botão direito: deslocar · roda: zoom · toque: girar / pinça: zoom"
+  },
+  "Consolidated V32 CAD · design review · CNC pending": {
+    "en": "Consolidated V32 CAD · design review · CNC pending",
+    "pt-BR": "CAD consolidado V32 · revisão de projeto · CNC pendente"
+  },
+  "The cut leaves faces open and does not modify the CAD.": {
+    "en": "The cut leaves faces open and does not modify the CAD.",
+    "pt-BR": "O corte não fecha as faces e não modifica o CAD."
+  },
+  "Click a part or choose from the list.": {
+    "en": "Click a part or choose from the list.",
+    "pt-BR": "Clique em uma peça ou escolha na lista."
+  },
+  "Exploded · mechanism and 6 screws": {
+    "en": "Exploded · mechanism and 6 screws",
+    "pt-BR": "Explodido · mecanismo e 6 parafusos"
+  },
+  "Exploded view · mechanism only": {
+    "en": "Exploded view · mechanism only",
+    "pt-BR": "Vista explodida · somente mecanismo"
+  },
+  "Interior · both supports on floor": {
+    "en": "Interior · both supports on floor",
+    "pt-BR": "Interior · dois suportes no piso"
+  },
+  "VPin · main cabinet atlas": {
+    "en": "VPin · main cabinet atlas",
+    "pt-BR": "VPin · atlas do corpo principal"
+  },
+  "Close-up · 3 interior screws": {
+    "en": "Close-up · 3 interior screws",
+    "pt-BR": "Close-up · 3 parafusos internos"
+  },
+  "Side detail · open cradle": {
+    "en": "Side detail · open cradle",
+    "pt-BR": "Detalhe lateral · berço aberto"
+  },
+  "LIFT-OUT · vertical removal": {
+    "en": "LIFT-OUT · vertical removal",
+    "pt-BR": "RETIRADA · remoção vertical"
+  },
+  "Interactive 3D viewer": {
+    "en": "Interactive 3D viewer",
+    "pt-BR": "Visualizador 3D interativo"
+  },
+  "Player · front left": {
+    "en": "Player · front left",
+    "pt-BR": "Jogador · frente esquerda"
+  },
+  "VPin — CAD 3D review": {
+    "en": "VPin — CAD 3D review",
+    "pt-BR": "VPin — revisão 3D do CAD"
+  },
+  "Player · front right": {
+    "en": "Player · front right",
+    "pt-BR": "Jogador · frente direita"
+  },
+  "Shell transparency": {
+    "en": "Shell transparency",
+    "pt-BR": "Transparência da carcaça"
+  },
+  "Rear · flush door": {
+    "en": "Rear · flush door",
+    "pt-BR": "Traseira · porta nivelada"
+  },
+  "Close-up · deep open U": {
+    "en": "Close-up · deep open U",
+    "pt-BR": "Close-up · U profundo"
+  },
+  "Top / oblique · PLAY": {
+    "en": "Top / oblique · PLAY",
+    "pt-BR": "Topo / oblíqua · JOGO"
+  },
+  "Front / rear (Y)": {
+    "en": "Front / rear (Y)",
+    "pt-BR": "Frente / traseira (Y)"
+  },
+  "Playfield state": {
+    "en": "Playfield state",
+    "pt-BR": "Estado do playfield"
+  },
+  "Review views": {
+    "en": "Review views",
+    "pt-BR": "Vistas de revisão"
+  },
+  "Inspection cut": {
+    "en": "Inspection cut",
+    "pt-BR": "Corte de inspeção"
+  },
+  "Search part ID": {
+    "en": "Search part ID",
+    "pt-BR": "Buscar ID da peça"
+  },
+  "Source and licenses": {
+    "en": "Source and licenses",
+    "pt-BR": "Origem e licenças"
+  },
+  "SERVICE / RAISED": {
+    "en": "SERVICE / RAISED",
+    "pt-BR": "SERVIÇO / LEVANTADO"
+  },
+  "Cut position": {
+    "en": "Cut position",
+    "pt-BR": "Posição do corte"
+  },
+  "Selected part": {
+    "en": "Selected part",
+    "pt-BR": "Peça selecionada"
+  },
+  "Save image": {
+    "en": "Save image",
+    "pt-BR": "Salvar imagem"
+  },
+  "Current scope": {
+    "en": "Current scope",
+    "pt-BR": "Escopo atual"
+  },
+  "Side (X)": {
+    "en": "Side (X)",
+    "pt-BR": "Lateral (X)"
+  },
+  "Search part": {
+    "en": "Search part",
+    "pt-BR": "Buscar peça"
+  },
+  "Height (Z)": {
+    "en": "Height (Z)",
+    "pt-BR": "Altura (Z)"
+  },
+  "Restore": {
+    "en": "Restore",
+    "pt-BR": "Restaurar"
+  },
+  "No cut": {
+    "en": "No cut",
+    "pt-BR": "Sem corte"
+  },
+  "Explore": {
+    "en": "Explore",
+    "pt-BR": "Explorar"
+  },
+  "Assembly": {
+    "en": "Assembly",
+    "pt-BR": "Conjunto"
+  },
+  "Interior": {
+    "en": "Interior",
+    "pt-BR": "Interior"
+  },
+  "Rear": {
+    "en": "Rear",
+    "pt-BR": "Traseira"
+  },
+  "Layers": {
+    "en": "Layers",
+    "pt-BR": "Camadas"
+  },
+  "Hide": {
+    "en": "Hide",
+    "pt-BR": "Ocultar"
+  },
+  "Front": {
+    "en": "Front",
+    "pt-BR": "Frente"
+  },
+  "Isolate": {
+    "en": "Isolate",
+    "pt-BR": "Isolar"
+  },
+  "Focus": {
+    "en": "Focus",
+    "pt-BR": "Focar"
+  },
+  "Top": {
+    "en": "Top",
+    "pt-BR": "Topo"
+  },
+  "PLAY": {
+    "en": "PLAY",
+    "pt-BR": "JOGO"
+  },
+  "SERVICE": {
+    "en": "SERVICE",
+    "pt-BR": "SERVIÇO"
+  },
+  "LIFT-OUT": {
+    "en": "LIFT-OUT",
+    "pt-BR": "RETIRADA"
+  },
+  "EXPLODED": {
+    "en": "EXPLODED",
+    "pt-BR": "EXPLODIDO"
+  },
+  "PLAY · dowel rests in open cradles.": {
+    "en": "PLAY · dowel rests in open cradles.",
+    "pt-BR": "JOGO · eixo de madeira apoiado nos berços abertos."
+  },
+  "Language": {
+    "en": "Language",
+    "pt-BR": "Idioma"
+  },
+  "Palette": {
+    "en": "Palette",
+    "pt-BR": "Paleta"
+  },
+  "ORIGINAL": {
+    "en": "ORIGINAL",
+    "pt-BR": "ORIGINAL"
+  },
+  "ACCESSIBLE": {
+    "en": "ACCESSIBLE",
+    "pt-BR": "ACESSÍVEL"
+  },
+  "Structure": {
+    "en": "Structure",
+    "pt-BR": "Carcaça"
+  },
+  "Shelves and supports": {
+    "en": "Shelves and supports",
+    "pt-BR": "Prateleiras e suportes"
+  },
+  "Playfield and glass": {
+    "en": "Playfield and glass",
+    "pt-BR": "Playfield e vidro"
+  },
+  "Wooden pivot": {
+    "en": "Wooden pivot",
+    "pt-BR": "Pivô de madeira"
+  },
+  "PC": {
+    "en": "PC",
+    "pt-BR": "PC"
+  },
+  "SSF and audio": {
+    "en": "SSF and audio",
+    "pt-BR": "SSF e áudio"
+  },
+  "Controls and front door": {
+    "en": "Controls and front door",
+    "pt-BR": "Controles e porta frontal"
+  },
+  "Rear and ventilation": {
+    "en": "Rear and ventilation",
+    "pt-BR": "Traseira e ventilação"
+  },
+  "Hardware": {
+    "en": "Hardware",
+    "pt-BR": "Ferragens"
+  },
+  "Installation reserves": {
+    "en": "Installation reserves",
+    "pt-BR": "Reservas de instalação"
+  },
+  "PLAY · dowel rests by gravity; supports fixed with 6 interior screws.": {
+    "en": "PLAY · dowel rests by gravity; supports fixed with 6 interior screws.",
+    "pt-BR": "JOGO · eixo apoiado por gravidade; suportes fixados por 6 parafusos internos."
+  },
+  "SERVICE / RAISED · wood dowel; 4 straps beneath the plywood.": {
+    "en": "SERVICE / RAISED · wood dowel; 4 straps beneath the plywood.",
+    "pt-BR": "SERVIÇO / LEVANTADO · eixo de madeira; 4 abraçadeiras sob a chapa."
+  },
+  "LIFT-OUT · from PLAY without glass: lift 48 mm; remove as one unit.": {
+    "en": "LIFT-OUT · from PLAY without glass: lift 48 mm; remove as one unit.",
+    "pt-BR": "RETIRADA · a partir de JOGO sem vidro: elevar 48 mm; retirar como uma unidade."
+  },
+  "EXPLODED · only plywood, dowel, 2 cradles, 4 straps and screws.": {
+    "en": "EXPLODED · only plywood, dowel, 2 cradles, 4 straps and screws.",
+    "pt-BR": "EXPLODIDO · somente chapa, eixo, 2 berços, 4 abraçadeiras e parafusos."
+  },
+  "DOOR OUTER FACE = REAR PLANE · Y 1308.1 mm": {
+    "en": "DOOR OUTER FACE = REAR PLANE · Y 1308.1 mm",
+    "pt-BR": "FACE EXTERNA DA PORTA = PLANO TRASEIRO · Y 1308,1 mm"
+  },
+  "OPEN U · 46 mm depth · no keeper": {
+    "en": "OPEN U · 46 mm depth · no keeper",
+    "pt-BR": "U ABERTO · profundidade 46 mm · sem trava"
+  },
+  "DIRECT BEARING ON FLOOR": {
+    "en": "DIRECT BEARING ON FLOOR",
+    "pt-BR": "APOIO DIRETO NO PISO"
+  },
+  "48 mm lift · 2 mm clearance": {
+    "en": "48 mm lift · 2 mm clearance",
+    "pt-BR": "Elevação 48 mm · folga 2 mm"
+  },
+  "OPEN WOOD CRADLE": {
+    "en": "OPEN WOOD CRADLE",
+    "pt-BR": "BERÇO ABERTO DE MADEIRA"
+  },
+  "PLAYFIELD PLYWOOD + 4 STRAPS": {
+    "en": "PLAYFIELD PLYWOOD + 4 STRAPS",
+    "pt-BR": "BASE DE COMPENSADO DO PLAYFIELD + 4 ABRAÇADEIRAS"
+  },
+  "CABINET FLOOR": {
+    "en": "CABINET FLOOR",
+    "pt-BR": "PISO DO GABINETE"
+  },
+  "SCREW {n} · 4.5 × 30 mm": {
+    "en": "SCREW {n} · 4.5 × 30 mm",
+    "pt-BR": "PARAFUSO {n} · 4,5 × 30 mm"
+  },
+  "Front → flipper: {value} mm": {
+    "en": "Front → flipper: {value} mm",
+    "pt-BR": "Frente → flipper: {value} mm"
+  },
+  "Front → magna: {value} mm": {
+    "en": "Front → magna: {value} mm",
+    "pt-BR": "Frente → magna: {value} mm"
+  },
+  "Local top → center: {value} mm": {
+    "en": "Local top → center: {value} mm",
+    "pt-BR": "Topo local → centro: {value} mm"
+  },
+  "Y = 0 · front": {
+    "en": "Y = 0 · front",
+    "pt-BR": "Y = 0 · frente"
+  },
+  "WOOD DOWEL — Ø{value} mm": {
+    "en": "WOOD DOWEL — Ø{value} mm",
+    "pt-BR": "EIXO DE MADEIRA — Ø{value} mm"
+  },
+  "SERVICE · {value}°": {
+    "en": "SERVICE · {value}°",
+    "pt-BR": "SERVIÇO · {value}°"
+  },
+  "Dimensions": {
+    "en": "Dimensions",
+    "pt-BR": "Dimensões"
+  },
+  "reference envelope": {
+    "en": "reference envelope",
+    "pt-BR": "envelope de referência"
+  },
+  "Isolated: {id}": {
+    "en": "Isolated: {id}",
+    "pt-BR": "Isolado: {id}"
+  },
+  "Hidden: {id}": {
+    "en": "Hidden: {id}",
+    "pt-BR": "Oculto: {id}"
+  },
+  "{count} visible parts": {
+    "en": "{count} visible parts",
+    "pt-BR": "{count} peças visíveis"
+  },
+  "Unable to start 3D. Open in Chrome, Edge or Firefox with WebGL enabled.": {
+    "en": "Unable to start 3D. Open in Chrome, Edge or Firefox with WebGL enabled.",
+    "pt-BR": "Não foi possível iniciar o 3D. Abra em Chrome, Edge ou Firefox com WebGL habilitado."
+  }
+}

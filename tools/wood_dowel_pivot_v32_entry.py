@@ -46,14 +46,21 @@ assert minimum_ligament>=8 and widening_z>scene['SHELF_SUPPORT_3L'].BoundBox.ZMa
 points=[V(18,foot_front,floor_top),V(18,rear_y,floor_top),V(18,rear_y,top_z),V(18,py-w/2,top_z),V(18,py-w/2,shoulder_z),V(18,local_front,shoulder_z),V(18,local_front,widening_z),V(18,foot_front,widening_z)]
 raw=Part.Face(Part.makePolygon(points+[points[0]])).extrude(V(18,0,0))
 raw=raw.cut(cyl(17,py,seat_cz,rr,20)).cut(box(17,py-rr,seat_cz,20,2*rr,top_z-seat_cz+1)).removeSplitter()
-exciter=scene['SSF_Exciter2L'].BoundBox;gap=c['cradle_edge_clearance_mm']
-raw=raw.cut(box(17,exciter.YMin-gap,exciter.ZMin-gap,20,exciter.YLength+2*gap,exciter.ZLength+2*gap)).removeSplitter()
+# Keep the wood outline straight; move only the two conflicting rear exciters.
+exciter_moves=[]
+for side in ('L','R'):
+ name='SSF_Exciter2'+side;before=scene[name].BoundBox
+ delta=max(0,rear_y+c['cradle_edge_clearance_mm']-before.YMin)
+ scene[name].translate(V(0,delta,0))
+ exciter_moves.append({'id':name,'translation_xyz_mm':[0,delta,0],'before_y_min_mm':before.YMin,'after_y_min_mm':scene[name].BoundBox.YMin})
 f=c['fixing'];edge=f['edge_distance_mm'];z_low=max(floor_top+edge,scene['PC_ENVELOPE'].BoundBox.ZMax+8+c['cradle_edge_clearance_mm']);z_high=seat_bottom-edge
 screw_z=[z_low,(z_low+z_high)/2,z_high];screw_rows=[]
 for i,z in enumerate(screw_z):
  section=raw.common(box(17,py-w, z-.001,20,2*w,.002)).BoundBox
  # Stagger the low/mid/high centres over the available section, preserving edge distance.
- y=[section.YMin+edge,(section.YMin+section.YMax)/2,section.YMax-edge][i]
+ # Keep the approved middle screw datum from the former exciter-bounded section.
+ approved_mid_rear=min(section.YMax,original['SSF_Exciter2L'].BoundBox.YMin-c['cradle_edge_clearance_mm'])
+ y=[section.YMin+edge,(section.YMin+approved_mid_rear)/2,section.YMax-edge][i]
  assert section.YMin+edge<=y<=section.YMax-edge
  screw_rows.append((y,z))
 cs_depth=(f['head_diameter_mm']-f['clearance_diameter_mm'])/(2*math.tan(math.radians(f['head_angle_deg']/2)))
@@ -122,7 +129,10 @@ def hits(parts,obs):
  return out
 checks=[]
 def check(n,v):checks.append({'check':n,'pass':bool(v)});print(n,v,flush=True)
-check('only two support solids changed from previous current model',set(previous)==set(scene) and all(diff(previous[n],scene[n])<1e-5 for n in scene if n not in ('PF_OpenCradleL','PF_OpenCradleR')))
+check('only supports and two conflicting exciters changed from previous current model',set(previous)==set(scene) and all(diff(previous[n],scene[n])<1e-5 for n in scene if n not in ('PF_OpenCradleL','PF_OpenCradleR','SSF_Exciter2L','SSF_Exciter2R')))
+check('exciter X Z orientation and rear SSF functional zone preserved',all(abs(scene[row['id']].BoundBox.XMin-original[row['id']].BoundBox.XMin)<1e-6 and abs(scene[row['id']].BoundBox.ZMin-original[row['id']].BoundBox.ZMin)<1e-6 and scene[row['id']].BoundBox.YMin>scene['REAR'].BoundBox.YMax*.75 and scene[row['id']].BoundBox.YMax<scene['REAR'].BoundBox.YMin and diff(scene[row['id']],(lambda q:(q.translate(V(*row['translation_xyz_mm'])),q)[1])(original[row['id']].copy()))<1e-5 for row in exciter_moves))
+check('six support screws remain unchanged',all(diff(previous[n],scene[n])<1e-5 for n in mount_screws))
+check('moving assembly and lift architecture unchanged',all(diff(previous[n],scene[n])<1e-5 for n in moving))
 check('upper load bearing ligament at least 8 mm',minimum_ligament>=8)
 check('one CNC solid per support',all(scene[n].isValid() and len(scene[n].Solids)==1 for n in ('PF_OpenCradleL','PF_OpenCradleR')))
 cross_clearance=min(scene['PF_OpenCradle'+side].distToShape(scene['CROSS_GUIDE_3'+side])[0] for side in ('L','R'))
@@ -144,6 +154,7 @@ support_conflicts=hits({n:scene[n] for n in ('PF_OpenCradleL','PF_OpenCradleR')}
 print('SUPPORT_CONFLICTS',support_conflicts,flush=True)
 check('two floor supported cradles clear unchanged cabinet',not hits({n:scene[n] for n in ('PF_OpenCradleL','PF_OpenCradleR')},{n:s for n,s in fixed.items() if n not in ('PF_OpenCradleL','PF_OpenCradleR') and n not in mount_screws}))
 # Fixing geometry and assembly checks; contact loads go straight to the floor.
+check('moved exciters clear all other real components',not hits({row['id']:scene[row['id']] for row in exciter_moves},{n:s for n,s in scene.items() if n not in [row['id'] for row in exciter_moves] and n not in reservations and n!='PF_BackboxCheckEnvelope'}))
 check('six internal support mounting screws only',len(mount_screws)==6)
 check('floor bearing exists on both supports',all(abs(scene['PF_OpenCradle'+side].BoundBox.ZMin-floor_top)<1e-6 for side in ('L','R')))
 check('nominal screw engagement and exterior skin',f['screw_length_mm']-18>=10 and 36-f['screw_length_mm']>=4)
@@ -176,8 +187,8 @@ check('flush downward door sweep 0..110 degrees clear',not any(row['hits'] for r
 print('REAR_COLLISIONS',[row for row in rear_sweep if row['hits']][:5],flush=True)
 
 check('all solids valid',all(s.isValid() and len(s.Solids)==1 for s in scene.values()))
-preserved=[n for n in original if n not in retired+['SIDE_L','SIDE_R','REAR']+rear_ids]
-check('all subsystems other than authorized support pilots and rear door correction preserved',all(diff(original[n],scene[n])<1e-5 for n in preserved))
+preserved=[n for n in original if n not in retired+['SIDE_L','SIDE_R','REAR']+rear_ids+['SSF_Exciter2L','SSF_Exciter2R']]
+check('all subsystems other than previously authorized pilots and rear door plus two exciters preserved',all(diff(original[n],scene[n])<1e-5 for n in preserved))
 poses={'PLAY':scene,'SERVICE':{n:(raised[n] if n in raised else s) for n,s in scene.items() if n!='CandidateGlass'}}
 poses['LIFT-OUT']={n:s.copy() for n,s in scene.items() if n!='CandidateGlass'}
 for n in moving:poses['LIFT-OUT'][n].translate(V(0,0,c['lift_out_mm']))
@@ -208,7 +219,7 @@ for state,pose in poses.items():
 step=O/'current-v32.step';step.write_text('\n'.join(line.rstrip() for line in step.read_text().splitlines())+'\n')
 def mesh(n,s):
  vs,fs=s.tessellate(.7);return {'name':n,'vertices':[[v.x,v.y,v.z] for v in vs],'faces':[list(f) for f in fs]}
-review={k:old[k] for k in ('buttons','closed_slope_deg','structural_proof','manufacturing_ready')};review.update({'pivot_xyz_mm':[300,py,pz],'opening_deg':c['service_angle_deg'],'wood_dowel_diameter_mm':2*r,'cradle_coordinates_mm':[[18,py,36],[564,py,36]],'cradle_seat_axis_xyz_mm':[[27,py,pz],[573,py,pz]],'lift_out_mm':c['lift_out_mm'],'lift_out_clearance_mm':c['lift_out_mm']-r-c['cradle_top_above_axis_mm'],'support_profile_width_before_mm':24,'support_profile_width_after_mm':w,'cradle_depth_before_mm':5.176,'cradle_depth_after_mm':top_z-seat_bottom,'support_mounting':{'positions':fixing_positions,'screw':f,'countersink_depth_mm':cs_depth,'side_engagement_mm':f['screw_length_mm']-18,'side_remaining_beyond_tip_mm':36-f['screw_length_mm'],'minimum_lift_to_clear_mm':r+c['cradle_top_above_axis_mm'],'foot_y_min_mm':foot_front,'foot_y_max_mm':rear_y,'shoulder_z_mm':shoulder_z,'local_front_y_mm':local_front,'local_widening_z_mm':widening_z,'minimum_upper_ligament_before_mm':1.75,'minimum_upper_ligament_mm':minimum_ligament,'crossmember_clearance_mm':cross_clearance,'exciter_clearance_mm':exciter_clearance,'cradle_geometry_unchanged':True,'screw_coordinates_unchanged':all(diff(previous[n],scene[n])<1e-5 for n in mount_screws)},'rear_flush':{'before_outer_y_mm':door_before.BoundBox.YMax,'after_outer_y_mm':scene['REAR_DOOR'].BoundBox.YMax,'plane_y_mm':rear_plane,'translation_y_mm':door_delta,'wood_recesses':rear_removed},'custom_metal_parts_required':0,'commodity_metal_parts':18,'commodity_metal_ids':[n for n in scene if 'Strap' in n or n in mount_screws],'counts':{'PLAYFIELD PIVOT CUSTOM METAL PARTS':0,'PLAYFIELD PIVOT BEARINGS':0,'PLAYFIELD PIVOT BUSHINGS':0,'PLAYFIELD PIVOT STEEL RODS':0,'PLAYFIELD PIVOT WOOD DOWELS':1,'PLAYFIELD PIVOT CNC WOOD SUPPORTS':2,'PLAYFIELD BASE PLYWOOD PANELS':1,'COMMERCIAL STRAPS':4,'STRAP SCREWS':8,'SUPPORT MOUNTING SCREWS':6,'TOTAL METAL PARTS IN PLAYFIELD PIVOT SYSTEM':18},'limits':'Sampled geometry only; no load proof. Commercial strap envelope provisional. Owner final architecture supersedes previous prop requirements.'})
+review={k:old[k] for k in ('buttons','closed_slope_deg','structural_proof','manufacturing_ready')};review.update({'pivot_xyz_mm':[300,py,pz],'opening_deg':c['service_angle_deg'],'wood_dowel_diameter_mm':2*r,'cradle_coordinates_mm':[[18,py,36],[564,py,36]],'cradle_seat_axis_xyz_mm':[[27,py,pz],[573,py,pz]],'lift_out_mm':c['lift_out_mm'],'lift_out_clearance_mm':c['lift_out_mm']-r-c['cradle_top_above_axis_mm'],'support_profile_width_before_mm':24,'support_profile_width_after_mm':w,'cradle_depth_before_mm':5.176,'cradle_depth_after_mm':top_z-seat_bottom,'support_mounting':{'positions':fixing_positions,'screw':f,'countersink_depth_mm':cs_depth,'side_engagement_mm':f['screw_length_mm']-18,'side_remaining_beyond_tip_mm':36-f['screw_length_mm'],'minimum_lift_to_clear_mm':r+c['cradle_top_above_axis_mm'],'foot_y_min_mm':foot_front,'foot_y_max_mm':rear_y,'shoulder_z_mm':shoulder_z,'local_front_y_mm':local_front,'local_widening_z_mm':widening_z,'minimum_upper_ligament_before_mm':1.75,'minimum_upper_ligament_mm':minimum_ligament,'exciter_moves':exciter_moves,'exciter_relief_removed':True,'crossmember_clearance_mm':cross_clearance,'exciter_clearance_mm':exciter_clearance,'cradle_geometry_unchanged':True,'screw_coordinates_unchanged':all(diff(previous[n],scene[n])<1e-5 for n in mount_screws)},'rear_flush':{'before_outer_y_mm':door_before.BoundBox.YMax,'after_outer_y_mm':scene['REAR_DOOR'].BoundBox.YMax,'plane_y_mm':rear_plane,'translation_y_mm':door_delta,'wood_recesses':rear_removed},'custom_metal_parts_required':0,'commodity_metal_parts':18,'commodity_metal_ids':[n for n in scene if 'Strap' in n or n in mount_screws],'counts':{'PLAYFIELD PIVOT CUSTOM METAL PARTS':0,'PLAYFIELD PIVOT BEARINGS':0,'PLAYFIELD PIVOT BUSHINGS':0,'PLAYFIELD PIVOT STEEL RODS':0,'PLAYFIELD PIVOT WOOD DOWELS':1,'PLAYFIELD PIVOT CNC WOOD SUPPORTS':2,'PLAYFIELD BASE PLYWOOD PANELS':1,'COMMERCIAL STRAPS':4,'STRAP SCREWS':8,'SUPPORT MOUNTING SCREWS':6,'TOTAL METAL PARTS IN PLAYFIELD PIVOT SYSTEM':18},'limits':'Sampled geometry only; no load proof. Commercial strap envelope provisional. Owner final architecture supersedes previous prop requirements.'})
 # 40 mm lift clears tangent dowel bottom at z+24: equality, add margin below.
 bundle={'parts':[mesh(n,s) for n,s in scene.items()],'states':{},'review':review}
 for state,pose in poses.items():bundle['states'][state]={n:mesh(n,pose[n]) if n in pose else None for n in scene if n not in pose or diff(scene[n],pose[n])>1e-5}

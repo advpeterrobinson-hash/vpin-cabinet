@@ -5,7 +5,7 @@ R=Path(__file__).resolve().parents[1];O=R/'exports/generated/wood-dowel-pivot-v3
 X=lambda y:110+(y-(py-40))*1.15
 Z=lambda z:680-(z-36)*1.15
 pt=lambda y,z:f'{X(y):.3f},{Z(z):.3f}'
-path=f'M {pt(front,36)} L {pt(rear,36)} L {pt(rear,268)} L {pt(1068,268)} L {pt(1068,332)} L {pt(rear,332)} L {pt(rear,top)} L {pt(py+rr,top)} L {pt(py+rr,cz)} A {rr*1.15},{rr*1.15} 0 0 1 {pt(py-rr,cz)} L {pt(py-rr,top)} L {pt(py-40,top)} L {pt(py-40,shoulder)} L {pt(m['local_front_y_mm'],shoulder)} L {pt(m['local_front_y_mm'],m['local_widening_z_mm'])} L {pt(front,m['local_widening_z_mm'])} Z'
+path=f'M {pt(front,36)} L {pt(rear,36)} L {pt(rear,top)} L {pt(py+rr,top)} L {pt(py+rr,cz)} A {rr*1.15},{rr*1.15} 0 0 1 {pt(py-rr,cz)} L {pt(py-rr,top)} L {pt(py-40,top)} L {pt(py-40,shoulder)} L {pt(m['local_front_y_mm'],shoulder)} L {pt(m['local_front_y_mm'],m['local_widening_z_mm'])} L {pt(front,m['local_widening_z_mm'])} Z'
 svg=['<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900"><rect width="1200" height="900" fill="white"/><style>text{font-family:sans-serif;fill:#20313c;font-size:16px}.small{font-size:13px}</style>']
 def text(x,y,s,cl=''):svg.append(f'<text x="{x}" y="{y}" class="{cl}">{s}</text>')
 text(35,35,'V32 · SUPPORT MOUNTING · NOMINAL ASSEMBLY DRAWING', '')
@@ -20,7 +20,7 @@ text(230,135,'80 mm upper profile; open U depth 46 mm')
 text(230,160,'Mouth 33 mm; dowel Ø32; minimum unseating lift 46 mm')
 text(230,185,'Demonstrated lift 48 mm: 2 mm over the upper edges')
 text(230,220,'Local front web 8.25 mm; retained guide clearance 0.5 mm')
-text(230,245,'Rear relief clears unchanged SSF exciter by 2 mm')
+text(230,245,'Straight rear edge; rear exciters shifted +Y for 2 mm clearance')
 text(35,715,'DIRECT BEARING ON CABINET FLOOR · Z36')
 text(230,285,'HEADS: left X36 / right X564')
 for i,row in enumerate([row for row in m['positions'] if 'ScrewL' in row['id']]):
