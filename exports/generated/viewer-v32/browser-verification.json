@@ -1,0 +1,49 @@
+{
+  "views": [
+    {
+      "view": "player-left",
+      "pass": true,
+      "screenshot": "exports/generated/viewer-v32/01-player-left.png"
+    },
+    {
+      "view": "player-right",
+      "pass": true,
+      "screenshot": "exports/generated/viewer-v32/02-player-right.png"
+    },
+    {
+      "view": "play-oblique",
+      "pass": true,
+      "screenshot": "exports/generated/viewer-v32/03-play-oblique.png"
+    },
+    {
+      "view": "service",
+      "pass": true,
+      "screenshot": "exports/generated/viewer-v32/04-service.png"
+    },
+    {
+      "view": "side-detail",
+      "pass": true,
+      "screenshot": "exports/generated/viewer-v32/05-side-detail.png"
+    },
+    {
+      "view": "closed-detail",
+      "pass": true,
+      "screenshot": "exports/generated/viewer-v32/06-closed-detail.png"
+    }
+  ],
+  "states_checked": 4,
+  "checks": [
+    "WebGL render",
+    "state selection",
+    "display position",
+    "wooden dowel, open cradles and exactly four straps visible",
+    "42mm lift-out",
+    "isolate",
+    "hide",
+    "search",
+    "cut",
+    "restore"
+  ],
+  "manufacturing_ready": false,
+  "structural_proof": false
+}

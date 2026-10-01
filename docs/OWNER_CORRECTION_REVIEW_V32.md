@@ -1,3 +1,5 @@
+> HISTORICAL / SUPERSEDED: final current playfield pivot is documented in [WOOD_DOWEL_PIVOT_V32.md](WOOD_DOWEL_PIVOT_V32.md). The props, pins, bushes and steel axis below are rejected and absent from the current viewer/CAD.
+
 # V32 — owner correction review
 
 Original project material: CERN-OHL-S-2.0. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet

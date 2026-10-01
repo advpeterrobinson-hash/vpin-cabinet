@@ -7,11 +7,11 @@ import json
 import math
 
 ROOT = Path(__file__).resolve().parents[1]
-from validate_service_correction_v32 import validate_visible_mechanism
+from validate_wood_dowel_pivot_v32 import validate_visible_mechanism
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--mesh', type=Path, default=ROOT/'exports/generated/service-correction-v32/mesh.json')
+    parser.add_argument('--mesh', type=Path, default=ROOT/'exports/generated/wood-dowel-pivot-v32/mesh.json')
     parser.add_argument('--output', type=Path, default=ROOT/'exports/generated/viewer-v32/index.html')
     args = parser.parse_args()
     raw = args.mesh.read_bytes()

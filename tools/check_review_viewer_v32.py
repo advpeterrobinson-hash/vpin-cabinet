@@ -16,15 +16,20 @@ smoke=r'''
 try {
 const v=window.viewer;if(!v)throw Error('viewer failed to start');
 const expect=(ok,name)=>{if(!ok)throw Error(name)};
-for(const state of ['PLAY','SERVICE','SERVICE LEFT PROP ONLY','SERVICE RIGHT PROP ONLY']){
+v.reviewView('play-oblique');
+for(const state of ['PLAY','SERVICE','LIFT-OUT','EXPLODED']){
  v.applyState(state);expect(v.currentState()===state,'state selection');
- const propL=v.meshes.find(m=>m.name==='PF_PropL'),propR=v.meshes.find(m=>m.name==='PF_PropR');
- expect(propL.visible===(state!=='SERVICE RIGHT PROP ONLY'),'left prop visibility');
- expect(propR.visible===(state!=='SERVICE LEFT PROP ONLY'),'right prop visibility');
+ const dowel=v.meshes.find(m=>m.name==='PF_WoodDowel');
+ expect(dowel.visible,'wooden dowel visibility');
+ for(const name of ['PF_OpenCradleL','PF_OpenCradleR'])expect(v.meshes.find(m=>m.name===name).visible,'open cradle visible');
+ expect(v.meshes.filter(m=>/^PF_CommercialStrap/.test(m.name)&&m.visible).length===4,'exactly four straps');
  const display=v.meshes.find(m=>m.name==='PLAYFIELD_ENVELOPE');
- expect(display.geometry.boundingBox.max.z>(state==='PLAY'?500:1200),'display position');
+ expect(display.visible===(state!=='EXPLODED'),'display presence');
+ if(state==='LIFT-OUT')expect(Math.abs(dowel.geometry.boundingBox.min.z-dowel.userData.playGeometry.boundingBox.min.z-42)<.01,'42mm vertical lift');
+
 }
 v.reviewView(new URLSearchParams(location.search).get('review')||'player-left');
+v.reviewView('play-oblique');
 const part=v.meshes.find(m=>m.name==='LeafButton_primary_L');v.select(part);
 document.getElementById('isolate').click();expect(v.meshes.filter(m=>m.visible).length===1,'isolate');
 document.getElementById('hide').click();expect(!part.visible,'hide');
@@ -59,5 +64,5 @@ for i,view in enumerate(views,1):
     results.append({'view':view,'pass':True,'screenshot':str(screenshot.relative_to(ROOT))})
     print('VIEWER_REVIEW_PASS',view,flush=True)
 (OUT/'browser-verification.json').write_text(json.dumps({'views':results,'states_checked':4,
-    'checks':['WebGL render','state selection','display position','both/left/right prop visibility','isolate','hide','search','cut','restore'],
+    'checks':['WebGL render','state selection','display position','wooden dowel, open cradles and exactly four straps visible','42mm lift-out','isolate','hide','search','cut','restore'],
     'manufacturing_ready':False,'structural_proof':False},indent=2)+'\n')

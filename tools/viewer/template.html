@@ -8,9 +8,9 @@
 <header><h1>VPin · atlas do corpo principal</h1><span>CAD consolidado V32 · revisão de projeto · CNC pendente</span></header>
 <div class="layout"><aside>
 <h2>Explorar</h2><div class="row"><button id="exterior">Conjunto</button><button id="interior">Interior</button></div>
-<label>Estado do playfield <select id="service-state"><option>PLAY</option><option>SERVICE</option><option>SERVICE LEFT PROP ONLY</option><option>SERVICE RIGHT PROP ONLY</option></select></label>
-<small id="state-note" aria-live="polite">PLAY · duas escoras recolhidas e presas.</small>
-<label>Vistas de revisão <select id="review-view"><option value="player-left">Jogador · frente esquerda</option><option value="player-right">Jogador · frente direita</option><option value="play-oblique">Topo / oblíqua · PLAY</option><option value="service">SERVICE · duas escoras</option><option value="side-detail">Detalhe · pivô e receptor</option><option value="closed-detail">Detalhe · escoras recolhidas</option></select></label>
+<label>Estado do playfield <select id="service-state"><option>PLAY</option><option>SERVICE</option><option>LIFT-OUT</option><option>EXPLODED</option></select></label>
+<small id="state-note" aria-live="polite">PLAY · barra de madeira apoiada nos berços abertos.</small>
+<label>Vistas de revisão <select id="review-view"><option value="player-left">Jogador · frente esquerda</option><option value="player-right">Jogador · frente direita</option><option value="play-oblique">Topo / oblíqua · PLAY</option><option value="service">SERVICE / RAISED</option><option value="side-detail">Detalhe lateral · berço aberto</option><option value="closed-detail">Vista explodida · somente mecanismo</option></select></label>
 <div class="row"><button data-view="front">Frente</button><button data-view="rear">Traseira</button><button data-view="top">Topo</button></div>
 <div class="row"><button id="reset">Restaurar</button><button id="capture">Salvar imagem</button></div>
 <h2>Camadas</h2><div id="layers"></div>
@@ -21,7 +21,7 @@
 <h2>Peça selecionada</h2><div id="selection" aria-live="polite">Clique em uma peça ou escolha na lista.</div>
 <div class="row"><button id="hide" disabled>Ocultar</button><button id="isolate" disabled>Isolar</button><button id="focus" disabled>Focar</button></div>
 <input id="search" type="search" placeholder="Buscar ID da peça" aria-label="Buscar peça"><div id="parts"></div>
-<h2>Escopo atual</h2><small>Botões leaf em Y89/Y127 e playfield articulado com duas escoras de compensado. Retirar vidro, liberar lockdown e retirar os dois pinos dos receptores antes de levantar; engatar e travar AMBOS os pinos para serviço. Estados de uma escora são apenas revisão do caminho de carga. Não há prova estrutural. Backbox é uma reserva conservadora; cabeamento, pernas e lockdown final não estão modelados. CNC BLOQUEADO.</small>
+<h2>Escopo atual</h2><small>Uma chapa plana, uma barra de madeira, dois berços CNC abertos, quatro abraçadeiras comerciais e oito parafusos. SERVICE: levantar a frente; a barra gira nos berços. LIFT-OUT: partir de PLAY sem vidro, levantar 42 mm para retirar as extremidades verticalmente; chapa, TV, VESA, barra e abraçadeiras saem juntos. Retirar vidro e liberar lockdown antes de abrir. Nenhum parafuso do gabinete é removido. CNC pendente.</small>
 <details><summary>Origem e licenças</summary><pre id="provenance"></pre><pre>__NOTICE__</pre><pre>__MIT__</pre><pre>__LICENSE__</pre></details>
 </aside><main id="stage" aria-label="Visualizador 3D interativo"><div id="error" role="alert" hidden></div><div id="hint">Arraste: girar · botão direito: deslocar · roda: zoom · toque: girar / pinça: zoom</div></main></div>
 <script>__THREE__</script><script>__ORBIT__</script>
@@ -36,12 +36,12 @@ const camera=new THREE.PerspectiveCamera(40,1,1,20000);camera.up.set(0,0,1);
 const controls=new THREE.OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.minDistance=30;controls.maxDistance=7000;
 scene.add(new THREE.HemisphereLight(0xffffff,0x667080,1));const light=new THREE.DirectionalLight(0xffffff,.85);light.position.set(-700,-1000,1800);scene.add(light);
 const fill=new THREE.DirectionalLight(0xffffff,.4);fill.position.set(1000,1000,600);scene.add(fill);
-const groups={'Carcaça':[],'Prateleiras e suportes':[],'Playfield e vidro':[],'Pivô e escoras':[],'PC':[],'SSF e áudio':[],'Controles e porta frontal':[],'Traseira e ventilação':[],'Ferragens':[],'Reservas de instalação':[]};
-const colors={'Carcaça':0xc9ad81,'Prateleiras e suportes':0xddc79f,'Playfield e vidro':0x465c73,'Pivô e escoras':0xc69c58,'PC':0x548c70,'SSF e áudio':0xd98a48,'Controles e porta frontal':0x697d8a,'Traseira e ventilação':0x718797,'Ferragens':0x83939d,'Reservas de instalação':0x8f9bc8};
+const groups={'Carcaça':[],'Prateleiras e suportes':[],'Playfield e vidro':[],'Pivô de madeira':[],'PC':[],'SSF e áudio':[],'Controles e porta frontal':[],'Traseira e ventilação':[],'Ferragens':[],'Reservas de instalação':[]};
+const colors={'Carcaça':0xc9ad81,'Prateleiras e suportes':0xddc79f,'Playfield e vidro':0x465c73,'Pivô de madeira':0xc69c58,'PC':0x548c70,'SSF e áudio':0xd98a48,'Controles e porta frontal':0x697d8a,'Traseira e ventilação':0x718797,'Ferragens':0x83939d,'Reservas de instalação':0x8f9bc8};
 function category(n){
  if(n==='PF_BackboxCheckEnvelope')return 'Reservas de instalação';
  if(n.startsWith('PF_DisplaySpacer'))return 'Playfield e vidro';
- if(n.startsWith('PF_'))return 'Pivô e escoras';
+ if(n.startsWith('PF_'))return 'Pivô de madeira';
  if(n.startsWith('Leaf'))return 'Controles e porta frontal';
  if(/Reserve|RESERVED|CandidatePayload/.test(n))return 'Reservas de instalação';
  if(n.startsWith('SSF_'))return 'SSF e áudio';
@@ -59,7 +59,7 @@ const meshes=DATA.map(part=>{
  const group=category(part.name),reserve=group==='Reservas de instalação',glass=part.name==='CandidateGlass';
  const mat=new THREE.MeshStandardMaterial({color:colors[group],roughness:.7,metalness:group==='Ferragens'?.4:0,side:THREE.DoubleSide,flatShading:true,transparent:reserve||glass,opacity:glass?.22:reserve?.3:1,depthWrite:!(reserve||glass)});
  if(part.name.startsWith('LeafButton'))mat.color.set(part.name.includes('primary')?0x176eaa:0xb75022);
- if(/PF_.*(Bolt|Pin|Washer|Locknut)/.test(part.name))mat.color.set(0x467f99);
+ if(/PF_.*(Strap|Screw)/.test(part.name))mat.color.set(0x467f99);
  const obj=new THREE.Mesh(geo,mat);obj.name=part.name;obj.userData={group,baseOpacity:mat.opacity,hidden:false,stateAbsent:false,reserve:reserve||/ENVELOPE/.test(part.name),playGeometry:geo};scene.add(obj);groups[group].push(obj);return obj;
 });
 const bounds=new THREE.Box3();meshes.forEach(m=>bounds.union(new THREE.Box3().setFromObject(m)));const center=bounds.getCenter(new THREE.Vector3()),size=bounds.getSize(new THREE.Vector3());
@@ -71,7 +71,7 @@ function list(){const q=document.getElementById('search').value.toLowerCase(),ro
 document.getElementById('search').oninput=list;list();
 function view(kind){controls.target.copy(center);const distance=size.length()*1.55;const direction={front:[0,-1,.12],rear:[0,1,.12],top:[0,-.001,1],iso:[-1,-1,.85]}[kind];camera.position.copy(center).add(new THREE.Vector3(...direction).normalize().multiplyScalar(distance));controls.update();}
 let currentState='PLAY';
-function applyState(state){currentState=state;document.getElementById('service-state').value=state;const overrides=STATES[state];meshes.forEach(m=>{m.userData.stateAbsent=Object.hasOwn(overrides,m.name)&&overrides[m.name]===null;const part=overrides[m.name];if(m.geometry!==m.userData.playGeometry)m.geometry.dispose();m.geometry=part?geometry(part):m.userData.playGeometry;});bounds.makeEmpty();meshes.filter(m=>!m.userData.stateAbsent).forEach(m=>bounds.union(new THREE.Box3().setFromObject(m)));bounds.getCenter(center);bounds.getSize(size);clip();document.getElementById('state-note').textContent=state==='PLAY'?'PLAY · escoras travadas no berço; retirar os pinos dos receptores antes de levantar.':state==='SERVICE'?'SERVICE · levantar manualmente; AMBAS as escoras e pinos engatados. DESIGN-PROVISIONAL.':'REVISÃO DE CARGA APENAS · uma escora não é procedimento de serviço nem prova estrutural.';refresh();annotate();}
+function applyState(state){currentState=state;document.getElementById('service-state').value=state;const overrides=STATES[state];meshes.forEach(m=>{m.userData.stateAbsent=Object.hasOwn(overrides,m.name)&&overrides[m.name]===null;const part=overrides[m.name];if(m.geometry!==m.userData.playGeometry)m.geometry.dispose();m.geometry=part?geometry(part):m.userData.playGeometry;});bounds.makeEmpty();meshes.filter(m=>!m.userData.stateAbsent).forEach(m=>bounds.union(new THREE.Box3().setFromObject(m)));bounds.getCenter(center);bounds.getSize(size);clip();document.getElementById('state-note').textContent=state==='PLAY'?'PLAY · gravidade e dois berços abertos.':state==='SERVICE'?'SERVICE / RAISED · barra de madeira; 4 abraçadeiras sob a chapa.':state==='LIFT-OUT'?'LIFT-OUT · a partir de PLAY sem vidro: elevar 42 mm; retirar como uma unidade.':'EXPLODED · somente chapa, barra, 2 berços, 4 abraçadeiras e parafusos';refresh();annotate();}
 function restore(){isolated=null;meshes.forEach(m=>m.userData.hidden=false);Object.entries(layerInputs).forEach(([k,i])=>i.checked=k!=='Reservas de instalação');document.getElementById('opacity').value=1;opacity();document.getElementById('axis').value='none';clip();applyState('PLAY');refresh();view('iso');}
 document.getElementById('reset').onclick=restore;document.getElementById('exterior').onclick=restore;
 document.getElementById('interior').onclick=()=>{restore();['SIDE_L','FRONT','PLAYFIELD_ENVELOPE','CandidateGlass','SHELF_1','SHELF_2','SHELF_3'].forEach(n=>{const m=meshes.find(m=>m.name===n);if(m)m.userData.hidden=true;});refresh();};
@@ -93,12 +93,13 @@ function label(text,xyz,offset=[0,0]){const el=document.createElement('span');el
 function dimension(a,b,text,offset=[0,0]){const geo=new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(...a),new THREE.Vector3(...b)]);annotations.add(new THREE.Line(geo,new THREE.LineBasicMaterial({color:0x176eaa,depthTest:false})));for(const point of [a,b]){const dot=new THREE.Mesh(new THREE.SphereGeometry(2.5,8,6),new THREE.MeshBasicMaterial({color:0x176eaa,depthTest:false}));dot.position.set(...point);annotations.add(dot);}label(text,a.map((v,i)=>(v+b[i])/2),offset);}
 function annotate(){clearAnnotations();const preset=document.getElementById('review-view').value,side=preset==='player-right'?'R':'L',x=side==='L'?-25:625;
  if(currentState==='PLAY'&&!preset.includes('detail')){const p=REVIEW.buttons.primary,s=REVIEW.buttons.secondary;dimension([x,0,p.z_mm-26],[x,p.y_mm,p.z_mm-26],'Frente → flipper: '+p.y_mm+' mm',[-100,20]);dimension([x,0,s.z_mm-58],[x,s.y_mm,s.z_mm-58],'Frente → magna: '+s.y_mm+' mm',[-70,48]);dimension([x,p.y_mm,p.z_mm],[x,p.y_mm,p.top_z_mm],'Topo local → centro: '+p.below_top_mm+' mm',[-140,-22]);label('Y = 0 · frente',[300,0,400],[0,-30]);}
- else {const u=currentState==='PLAY'?REVIEW.prop_upper_closed_yz_mm:REVIEW.prop_upper_service_yz_mm;const r=currentState==='PLAY'?REVIEW.stow_yz_mm:REVIEW.receiver_yz_mm;dimension([30,...u],[30,...r],'Escora: '+REVIEW.prop_length_centers_mm.toFixed(1)+' mm entre centros',[-160,0]);label('Eixo traseiro M10 · buchas simples',[55,REVIEW.pivot_xyz_mm[1],REVIEW.pivot_xyz_mm[2]],[-150,25]);label(currentState==='PLAY'?'Pino positivo · recolhido':'Receptor + pino positivo',[30,...r],[15,24]);label('Pivô da escora · parafuso M8',[30,...u],[-150,-50]);if(currentState!=='PLAY')label('Abertura: '+REVIEW.opening_deg+'°',[300,REVIEW.pivot_xyz_mm[1],REVIEW.pivot_xyz_mm[2]+250],[160,-95]);}
+ else {const p=REVIEW.pivot_xyz_mm;label('WOOD DOWEL · Ø'+REVIEW.wood_dowel_diameter_mm+' mm',[300,p[1],p[2]],[0,30]);label('OPEN WOOD CRADLE',[27,p[1],p[2]-30],[-160,30]);label('PLAYFIELD PLYWOOD + 4 STRAPS',[100,p[1]-40,p[2]+60],[-120,-45]);label('CABINET FLOOR',[27,p[1],36],[-90,20]);if(currentState==='SERVICE')label('SERVICE · '+REVIEW.opening_deg+'°',[300,p[1]-50,p[2]+300],[60,-40]);}
+
 }
 function serviceCamera(){controls.target.set(300,680,760);camera.position.set(-1600,-1700,1900);controls.update();}
 function reviewView(preset){document.getElementById('review-view').value=preset;restore();
- if(['service','side-detail'].includes(preset)){applyState('SERVICE');meshes.find(m=>m.name==='SIDE_L').userData.hidden=true;meshes.find(m=>m.name==='FRONT').userData.hidden=true;serviceCamera();if(preset==='side-detail'){controls.target.set(65,1010,805);camera.position.set(-1750,400,1100);}}
- else if(preset==='closed-detail'){['SIDE_L','FRONT','CandidateGlass','PLAYFIELD_ENVELOPE'].forEach(n=>meshes.find(m=>m.name===n).userData.hidden=true);controls.target.set(80,750,430);camera.position.set(-1450,350,900);}
+ if(['service','side-detail'].includes(preset)){applyState('SERVICE');meshes.find(m=>m.name==='SIDE_L').userData.hidden=true;meshes.find(m=>m.name==='FRONT').userData.hidden=true;serviceCamera();if(preset==='side-detail'){meshes.find(m=>m.name==='PLAYFIELD_ENVELOPE').userData.hidden=true;controls.target.set(300,1035,420);camera.position.set(-750,1650,750);}}
+ else if(preset==='closed-detail'){applyState('EXPLODED');meshes.forEach(m=>{if(!m.name.startsWith('PF_'))m.userData.hidden=true;});['SIDE_L','FRONT','CandidateGlass','PLAYFIELD_ENVELOPE'].forEach(n=>meshes.find(m=>m.name===n).userData.hidden=true);controls.target.set(300,980,450);camera.position.set(-1000,300,1000);}
  else if(preset==='play-oblique'){controls.target.set(300,450,350);camera.position.set(-1100,-900,1750);}
  else {controls.target.set(300,310,310);camera.position.set(preset==='player-right'?1500:-900,-1300,1050);}
  controls.update();refresh();annotate();}

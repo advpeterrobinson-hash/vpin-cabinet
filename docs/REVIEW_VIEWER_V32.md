@@ -1,3 +1,5 @@
+> CURRENT PLAYFIELD: [wooden lift-out pivot](WOOD_DOWEL_PIVOT_V32.md). Viewer states: PLAY, SERVICE, LIFT-OUT, EXPLODED. Previous prop-only states below are historical and superseded.
+
 # Visualizador 3D de revisão V32
 
 Abrir `exports/generated/viewer-v32/index.html` diretamente no Chrome, Edge ou

@@ -1,0 +1,224 @@
+{
+  "checks": [
+    {
+      "check": "configured opening sweep no collisions at 2 degree samples",
+      "pass": true
+    },
+    {
+      "check": "vertical lift out of open cradles no collisions",
+      "pass": true
+    },
+    {
+      "check": "dowel clears cradle upper edges after lift",
+      "pass": true
+    },
+    {
+      "check": "two floor supported cradles clear unchanged cabinet",
+      "pass": true
+    },
+    {
+      "check": "all solids valid",
+      "pass": true
+    },
+    {
+      "check": "all other subsystem solids exactly preserved",
+      "pass": true
+    }
+  ],
+  "sweep": [
+    {
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "angle": 2,
+      "hits": []
+    },
+    {
+      "angle": 4,
+      "hits": []
+    },
+    {
+      "angle": 6,
+      "hits": []
+    },
+    {
+      "angle": 8,
+      "hits": []
+    },
+    {
+      "angle": 10,
+      "hits": []
+    },
+    {
+      "angle": 12,
+      "hits": []
+    },
+    {
+      "angle": 14,
+      "hits": []
+    },
+    {
+      "angle": 16,
+      "hits": []
+    },
+    {
+      "angle": 18,
+      "hits": []
+    },
+    {
+      "angle": 20,
+      "hits": []
+    },
+    {
+      "angle": 22,
+      "hits": []
+    },
+    {
+      "angle": 24,
+      "hits": []
+    },
+    {
+      "angle": 26,
+      "hits": []
+    },
+    {
+      "angle": 28,
+      "hits": []
+    },
+    {
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "angle": 32,
+      "hits": []
+    },
+    {
+      "angle": 34,
+      "hits": []
+    },
+    {
+      "angle": 36,
+      "hits": []
+    },
+    {
+      "angle": 38,
+      "hits": []
+    },
+    {
+      "angle": 40,
+      "hits": []
+    },
+    {
+      "angle": 42,
+      "hits": []
+    },
+    {
+      "angle": 44,
+      "hits": []
+    },
+    {
+      "angle": 46,
+      "hits": []
+    },
+    {
+      "angle": 48,
+      "hits": []
+    },
+    {
+      "angle": 50,
+      "hits": []
+    }
+  ],
+  "lift": [
+    {
+      "dz": 0,
+      "hits": []
+    },
+    {
+      "dz": 2,
+      "hits": []
+    },
+    {
+      "dz": 4,
+      "hits": []
+    },
+    {
+      "dz": 6,
+      "hits": []
+    },
+    {
+      "dz": 8,
+      "hits": []
+    },
+    {
+      "dz": 10,
+      "hits": []
+    },
+    {
+      "dz": 12,
+      "hits": []
+    },
+    {
+      "dz": 14,
+      "hits": []
+    },
+    {
+      "dz": 16,
+      "hits": []
+    },
+    {
+      "dz": 18,
+      "hits": []
+    },
+    {
+      "dz": 20,
+      "hits": []
+    },
+    {
+      "dz": 22,
+      "hits": []
+    },
+    {
+      "dz": 24,
+      "hits": []
+    },
+    {
+      "dz": 26,
+      "hits": []
+    },
+    {
+      "dz": 28,
+      "hits": []
+    },
+    {
+      "dz": 30,
+      "hits": []
+    },
+    {
+      "dz": 32,
+      "hits": []
+    },
+    {
+      "dz": 34,
+      "hits": []
+    },
+    {
+      "dz": 36,
+      "hits": []
+    },
+    {
+      "dz": 38,
+      "hits": []
+    },
+    {
+      "dz": 40,
+      "hits": []
+    },
+    {
+      "dz": 42,
+      "hits": []
+    }
+  ]
+}

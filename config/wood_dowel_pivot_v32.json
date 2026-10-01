@@ -1,0 +1,22 @@
+{
+  "wood_dowel_diameter_mm": 32,
+  "dowel_x_mm": 20,
+  "dowel_length_mm": 560,
+  "axis_local_y_mm": 1000,
+  "base_x_mm": 50,
+  "base_width_mm": 500,
+  "base_length_mm": 1020,
+  "base_bottom_local_z_mm": -14,
+  "plywood_mm": 18,
+  "cradle_width_y_mm": 24,
+  "cradle_radial_clearance_mm": 0.5,
+  "service_angle_deg": 50,
+  "lift_out_mm": 42,
+  "strap_x_mm": [
+    55,
+    85,
+    505,
+    535
+  ],
+  "decision": "Owner final correction: open plywood cradles, wooden dowel, flat plywood base, exactly four commercial saddle straps and eight strap screws. Dimensions are explicit provisional design decisions; strap envelopes require purchased-part measurement."
+}
