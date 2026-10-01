@@ -1,0 +1,50 @@
+{
+  "images": [
+    {
+      "path": "exports/generated/backbox-floor-v32/01-old-upright-collision.png",
+      "sha256": "11e6a94ffb4358b7e0c33a9d82d6caf2ab64e2ac7791a78cdc2d9efacf169df7",
+      "mesh_sha256": "a5aed4397025a4903674cea9347dcfa764668994a04347f2bd5ef063ddcb85e2"
+    },
+    {
+      "path": "exports/generated/backbox-floor-v32/02-corrected-floor-alone.png",
+      "sha256": "10bc2e2c40a74b5251d9be9b90cdeedb9ca9b1aa6ae799b9b872f2cba4b1f695",
+      "mesh_sha256": "a5aed4397025a4903674cea9347dcfa764668994a04347f2bd5ef063ddcb85e2"
+    },
+    {
+      "path": "exports/generated/backbox-floor-v32/03-old-new-floor-overlay.png",
+      "sha256": "21a2aca520885aa94595e8f51148ddc3306e09e2211ae2980b5de7309f07377e",
+      "mesh_sha256": "a5aed4397025a4903674cea9347dcfa764668994a04347f2bd5ef063ddcb85e2"
+    },
+    {
+      "path": "exports/generated/backbox-floor-v32/04-corrected-upright.png",
+      "sha256": "64616dca122577d95af07274e6633319644391291b79393e8304f40973ad21c2",
+      "mesh_sha256": "a5aed4397025a4903674cea9347dcfa764668994a04347f2bd5ef063ddcb85e2"
+    },
+    {
+      "path": "exports/generated/backbox-floor-v32/05-glass-channel-clearance.png",
+      "sha256": "83da300d28fbf348585330e7e4e47e54a81d5ebc37d50a69d8db7f8d15bb686a",
+      "mesh_sha256": "a5aed4397025a4903674cea9347dcfa764668994a04347f2bd5ef063ddcb85e2"
+    },
+    {
+      "path": "exports/generated/backbox-floor-v32/06-rear-shelf-bearing.png",
+      "sha256": "adcc3049d06af6831e3224f45e8e8099b93ed2eabb876d8e91d76e88c345bb48",
+      "mesh_sha256": "a5aed4397025a4903674cea9347dcfa764668994a04347f2bd5ef063ddcb85e2"
+    },
+    {
+      "path": "exports/generated/backbox-floor-v32/07-preserved-hinge-lock-cable-zones.png",
+      "sha256": "333cbbc8a5c949b519743f8623429d641a31cf94326c719dd78c964e9cc0ba8e",
+      "mesh_sha256": "a5aed4397025a4903674cea9347dcfa764668994a04347f2bd5ef063ddcb85e2"
+    },
+    {
+      "path": "exports/generated/backbox-floor-v32/08-first-fold-bottleneck.png",
+      "sha256": "2c29b3af47caf3392fb198626424e4e7c1b22c878db6ff1493ddd56c0fa9ba6c",
+      "mesh_sha256": "a5aed4397025a4903674cea9347dcfa764668994a04347f2bd5ef063ddcb85e2"
+    }
+  ],
+  "count": 8,
+  "omitted": {
+    "45": "baseline collision before requested angle",
+    "90": "baseline collision before requested angle"
+  },
+  "real_cad_only": true
+}

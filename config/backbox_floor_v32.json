@@ -1,0 +1,21 @@
+{
+  "source_head": "eeab1a73a4bedde40d676ae10b3980ae625248e9",
+  "source_backbox": "exports/generated/matrix-route-backbox-audit-v32/backbox-source-audit.FCStd",
+  "source_play": "exports/generated/matrix-cassette-v32/play.FCStd",
+  "source_removed": "exports/generated/matrix-cassette-v32/matrix-removed.FCStd",
+  "output_directory": "exports/generated/backbox-floor-v32",
+  "stock_mm": 18,
+  "glass_channel_target_mm": 5,
+  "glass_channel_absolute_minimum_mm": 3,
+  "front_position_grid_mm": 0.1,
+  "corner_trim_slopes_to_compare": [0.4, 0.5, 0.6, 0.7, 1.0],
+  "profile": "STRAIGHT_FORWARD_EDGE_TRIM",
+  "new_internal_corner_radius_mm": 0,
+  "radius_status": "NOT_APPLICABLE: new contour is convex; existing R20 cable passports unchanged. Future internal relief radii remain DESIGN-PROVISIONAL until shop tool confirmation.",
+  "reference_tool_diameter_mm_design_provisional": 6,
+  "minimum_zone_wood_margin_mm": 18,
+  "fold_step_deg": 1,
+  "fold_prerequisites": ["GLASS_REMOVED", "MATRIX_REMOVED"],
+  "compare_stationary_supports_only_after_baseline_clear": true,
+  "manufacturing_ready": false
+}

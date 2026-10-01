@@ -1,0 +1,5836 @@
+{
+  "checks": [
+    {
+      "check": "explicit zero, baseline fold and support sequencing gates",
+      "pass": true
+    },
+    {
+      "check": "negative false motion approval rejected: zero",
+      "pass": true
+    },
+    {
+      "check": "negative false motion approval rejected: 45",
+      "pass": true
+    },
+    {
+      "check": "negative false motion approval rejected: matrix",
+      "pass": true
+    },
+    {
+      "check": "negative false motion approval rejected: prerequisite",
+      "pass": true
+    },
+    {
+      "check": "repository object format for byte verification",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: cad/master/vpin-master.20260914-181346.FCBak",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: cad/master/vpin-master.20260914-181346.FCBak",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: cad/master/vpin-master.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: cad/master/vpin-master.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/active_build_v25.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/active_build_v25.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/backbox_fold_v10.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/backbox_fold_v10.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/backbox_mounting_v12.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/backbox_mounting_v12.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/backbox_v06.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/backbox_v06.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/cabinet_pc_slide_v22.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/cabinet_pc_slide_v22.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/cabinet_rear_cpu_shelf_v24.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/cabinet_rear_cpu_shelf_v24.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/cabinet_rear_pc_service_v23.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/cabinet_rear_pc_service_v23.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/cabinet_service_v21.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/cabinet_service_v21.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/cabinet_structure_v20.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/cabinet_structure_v20.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/cnc_coupon_v20.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/cnc_coupon_v20.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/cnc_detail_v25.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/cnc_detail_v25.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/consolidated_audio_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/consolidated_audio_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/corner_relief_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/corner_relief_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/design.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/design.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/electrical_routing_v11.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/electrical_routing_v11.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/fixed_rear_services_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/fixed_rear_services_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/floor_detail_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/floor_detail_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/front_panel_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/front_panel_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/interface_zones_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/interface_zones_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/joinery_study_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/joinery_study_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/lockdown_interface_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/lockdown_interface_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/main_body_v07.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/main_body_v07.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/matrix_cassette_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/matrix_cassette_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/matrix_hinge_study_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/matrix_hinge_study_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/matrix_route_backbox_audit_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/matrix_route_backbox_audit_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/notch_floor_fans_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/notch_floor_fans_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/owner_services_v27.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/owner_services_v27.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/panel_closure_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/panel_closure_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/playfield_display_v16.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/playfield_display_v16.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/playfield_fixed_anchors_v19.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/playfield_fixed_anchors_v19.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/playfield_mechanics_v18.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/playfield_mechanics_v18.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/playfield_pivot_v15.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/playfield_pivot_v15.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/playfield_v04.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/playfield_v04.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/playfield_v05.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/playfield_v05.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/rear_door_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/rear_door_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/rear_hardware_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/rear_hardware_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/rear_utility_v26.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/rear_utility_v26.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/service_correction_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/service_correction_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/service_io_v08.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/service_io_v08.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/shelf_anchorage_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/shelf_anchorage_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/shelf_layout_freeze_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/shelf_layout_freeze_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/shelf_retention_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/shelf_retention_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/shelf_service_pose_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/shelf_service_pose_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/side_motion_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/side_motion_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/side_service_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/side_service_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/simple_shelves_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/simple_shelves_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/structure_buildpack_v14.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/structure_buildpack_v14.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/structure_geometry_v14.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/structure_geometry_v14.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/structure_materials_v13.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/structure_materials_v13.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/support_leg_machining_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/support_leg_machining_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: config/wood_dowel_pivot_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: config/wood_dowel_pivot_v32.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/01-interior.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/01-interior.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/02-travessas.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/02-travessas.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/03-planta.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/03-planta.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/04-traseira.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/04-traseira.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/05-encaixe.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/05-encaixe.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/06-frente.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/06-frente.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/PECAS-PARTS.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/PECAS-PARTS.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/PECAS-PARTS.pt-BR.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/PECAS-PARTS.pt-BR.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/README.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/README.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/README.pt-BR.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/README.pt-BR.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/build_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/build_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/geometry.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/geometry.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/render_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/render_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/vpin-central-v32.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/vpin-central-v32.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/cabinet-v32/vpin-central-v32.step",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/cabinet-v32/vpin-central-v32.step",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/connector-fit-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/connector-fit-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/connector-fit-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/connector-fit-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/connector-fit-v32/connector-coupon-mm.dxf",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/connector-fit-v32/connector-coupon-mm.dxf",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/connector-fit-v32/connector-coupon.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/connector-fit-v32/connector-coupon.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/connector-fit-v32/connector-coupon.svg",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/connector-fit-v32/connector-coupon.svg",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/connector-fit-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/connector-fit-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/01-consolidated-interior.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/01-consolidated-interior.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/README.txt",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/README.txt",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/cabinet-v32-consolidated.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/cabinet-v32-consolidated.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/cabinet-v32-consolidated.step",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/cabinet-v32-consolidated.step",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/floor-draft-mm.dxf",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/floor-draft-mm.dxf",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/floor-operations.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/floor-operations.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/manifest.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/manifest.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/v32-desenho-consolidado.zip",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/v32-desenho-consolidado.zip",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/consolidated-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/consolidated-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/corner-relief-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/corner-relief-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/corner-relief-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/corner-relief-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/corner-relief-v32/natural-guide-corners.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/corner-relief-v32/natural-guide-corners.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/corner-relief-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/corner-relief-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/fixed-rear-services-v32/01-fixed-rear-and-floor.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/fixed-rear-services-v32/01-fixed-rear-and-floor.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/fixed-rear-services-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/fixed-rear-services-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/fixed-rear-services-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/fixed-rear-services-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/fixed-rear-services-v32/closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/fixed-rear-services-v32/closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/fixed-rear-services-v32/open110.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/fixed-rear-services-v32/open110.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/fixed-rear-services-v32/open90.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/fixed-rear-services-v32/open90.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/fixed-rear-services-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/fixed-rear-services-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/floor-detail-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/floor-detail-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/floor-detail-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/floor-detail-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/floor-detail-v32/floor-detail.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/floor-detail-v32/floor-detail.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/floor-detail-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/floor-detail-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/01-front-review.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/01-front-review.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/02-coin-door-configurations.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/02-coin-door-configurations.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/03-coin-door-clearances.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/03-coin-door-clearances.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/coin-basic-closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/coin-basic-closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/coin-door-meshes.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/coin-door-meshes.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/coin-door-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/coin-door-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/coin-upgrade-closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/coin-upgrade-closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/coin-upgrade-open.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/coin-upgrade-open.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/front-layout-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/front-layout-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/front-panel-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/front-panel-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/joinery-study-v32/01-joint-sections.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/joinery-study-v32/01-joint-sections.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/joinery-study-v32/02-exploded-shell.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/joinery-study-v32/02-exploded-shell.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/joinery-study-v32/03-change-summary.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/joinery-study-v32/03-change-summary.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/joinery-study-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/joinery-study-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/joinery-study-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/joinery-study-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/joinery-study-v32/README.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/joinery-study-v32/README.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/joinery-study-v32/captured-shell-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/joinery-study-v32/captured-shell-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/joinery-study-v32/geometry.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/joinery-study-v32/geometry.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/joinery-study-v32/sections.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/joinery-study-v32/sections.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/joinery-study-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/joinery-study-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/lighting-study-v32/01-layout.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/lighting-study-v32/01-layout.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/lighting-study-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/lighting-study-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/lighting-study-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/lighting-study-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/lighting-study-v32/layout.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/lighting-study-v32/layout.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/lockdown-interface-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/lockdown-interface-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/lockdown-interface-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/lockdown-interface-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/lockdown-interface-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/lockdown-interface-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/01-matrix-installed-player.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/01-matrix-installed-player.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/02-matrix-installed-side.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/02-matrix-installed-side.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/03-retention-detail.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/03-retention-detail.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/04-matrix-unlock.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/04-matrix-unlock.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/05-matrix-forward.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/05-matrix-forward.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/06-matrix-extraction.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/06-matrix-extraction.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/07-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/07-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/08-playfield-service-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/08-playfield-service-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/09-backbox-fold-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/09-backbox-fold-matrix-removed.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/10-exploded-matrix-cassette.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/10-exploded-matrix-cassette.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/after-removal-motion.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/after-removal-motion.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/backbox-fold.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/backbox-fold.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/matrix-exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/matrix-exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/matrix-extraction.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/matrix-extraction.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/matrix-forward.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/matrix-forward.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/matrix-installed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/matrix-installed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/matrix-removed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/matrix-removed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/matrix-unlock.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/matrix-unlock.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/playfield-service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/playfield-service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/removal-route-limits.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/removal-route-limits.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/review-images.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/review-images.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-cassette-v32/viewer-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-cassette-v32/viewer-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/01-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/01-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/02-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/02-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/03-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/03-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/04-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/04-candidate.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/05-player-eye-comparison.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/05-player-eye-comparison.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/06-side-section.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/06-side-section.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/07-service.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/07-service.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/08-lift-out.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/08-lift-out.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/09-matrix-removal.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/09-matrix-removal.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/10-hinge-datums.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/10-hinge-datums.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-30.6431-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-30.6431-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-31.4219-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-31.4219-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-32.9255-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-32.9255-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-35.1424-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-35.1424-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-10.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-15.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-20.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-25.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/matrix-removal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/matrix-removal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/pose-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/pose-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/study-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/study-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-hinge-study-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-hinge-study-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/01-upright-actual-backbox-wood.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/01-upright-actual-backbox-wood.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/02-coarse-envelope-comparison.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/02-coarse-envelope-comparison.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/03-pivot-datum-close-up.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/03-pivot-datum-close-up.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/04-first-real-interface-problem.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/04-first-real-interface-problem.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/05-45-degree-diagnostic.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/05-45-degree-diagnostic.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/06-90-degree-diagnostic.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/06-90-degree-diagnostic.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/07-display-separated-from-wood.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/07-display-separated-from-wood.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/08-stationary-matrix-supports-zero-only.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/08-stationary-matrix-supports-zero-only.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/audit-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/audit-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/backbox-source-audit.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/backbox-source-audit.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/diagnostic_45_not_validated.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/diagnostic_45_not_validated.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/diagnostic_90_not_validated.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/diagnostic_90_not_validated.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/regression-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/review-images.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/review-images.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/route-screen.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/route-screen.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/matrix-route-backbox-audit-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/matrix-route-backbox-audit-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/01-playfield-notch-top.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/01-playfield-notch-top.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/02-playfield-notch-underside.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/02-playfield-notch-underside.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/03-left-button-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/03-left-button-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/04-right-button-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/04-right-button-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/05-notch-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/05-notch-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/06-floor-fan-top.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/06-floor-fan-top.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/07-floor-fan-underside-filters.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/07-floor-fan-underside-filters.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/08-floor-fan-equipment-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/08-floor-fan-equipment-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/09-full-cabinet-airflow-path.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/09-full-cabinet-airflow-path.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/10-floor-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/10-floor-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/before.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/before.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/current-v32.step",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/current-v32.step",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/diagnostic.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/diagnostic.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/notch-floor-fans-v32/viewer-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/notch-floor-fans-v32/viewer-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/panel-closure-v32/01-side-rear-interfaces.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/panel-closure-v32/01-side-rear-interfaces.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/panel-closure-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/panel-closure-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/panel-closure-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/panel-closure-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/panel-closure-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/panel-closure-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/panel-closure-v32/panel-closure-study.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/panel-closure-v32/panel-closure-study.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/panel-closure-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/panel-closure-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-door-v32/01-keyed-rear-door.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-door-v32/01-keyed-rear-door.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-door-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-door-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-door-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-door-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-door-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-door-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-door-v32/rear-door-closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-door-v32/rear-door-closed.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-door-v32/rear-door-open.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-door-v32/rear-door-open.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-door-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-door-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-hardware-v32/01-rear-hardware.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-hardware-v32/01-rear-hardware.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-hardware-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-hardware-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-hardware-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-hardware-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-hardware-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-hardware-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-hardware-v32/rear-hardware-study.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-hardware-v32/rear-hardware-study.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/rear-hardware-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/rear-hardware-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/04-shelf-service-routes.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/04-shelf-service-routes.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/05-shelf-retention.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/05-shelf-retention.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/06-shelf-anchorage.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/06-shelf-anchorage.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/07-simple-shelves.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/07-simple-shelves.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/08-shelf-raised-display.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/08-shelf-raised-display.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/09-shelf-spacing.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/09-shelf-spacing.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/anchorage-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/anchorage-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/motion-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/motion-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/retention-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/retention-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/service-stage-SHELF_1.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/service-stage-SHELF_1.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/service-stage-SHELF_2.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/service-stage-SHELF_2.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/service-stage-SHELF_3.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/service-stage-SHELF_3.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/service-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/service-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/shelf-anchorage-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/shelf-anchorage-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/shelf-hole-schedule-review.csv",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/shelf-hole-schedule-review.csv",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/shelf-retention-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/shelf-retention-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/shelf-service-pose-screen.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/shelf-service-pose-screen.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/simple-shelves-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/simple-shelves-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/simple-shelves-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/simple-shelves-proposal.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/simple-shelves-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/simple-shelves-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/side-panel-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/side-panel-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/support-leg-v32/01-heights-and-leg-corner.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/support-leg-v32/01-heights-and-leg-corner.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/support-leg-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/support-leg-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/support-leg-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/support-leg-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/support-leg-v32/detail-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/support-leg-v32/detail-mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/support-leg-v32/machining-plan-review.csv",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/support-leg-v32/machining-plan-review.csv",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/support-leg-v32/support-leg-planning.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/support-leg-v32/support-leg-planning.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/support-leg-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/support-leg-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/01-cradle-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/01-cradle-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/01-player-left.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/01-player-left.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/02-mounting-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/02-mounting-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/02-player-right.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/02-player-right.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/03-floor-supports.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/03-floor-supports.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/03-play-oblique.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/03-play-oblique.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/04-lift-out.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/04-lift-out.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/04-service.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/04-service.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/05-rear-flush.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/05-rear-flush.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/05-side-detail.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/05-side-detail.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/06-closed-detail.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/06-closed-detail.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/06-mechanism-exploded.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/06-mechanism-exploded.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/07-usability-original.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/07-usability-original.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/08-usability-accessible.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/08-usability-accessible.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/browser-verification.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/browser-verification.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/viewer-v32/index.html",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/viewer-v32/index.html",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/01-side-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/01-side-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/02-exploded.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/02-exploded.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/03-corrected-ligament-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/03-corrected-ligament-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/04-final-cradle-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/04-final-cradle-close.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/05-exciter-cradle-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/05-exciter-cradle-clearance.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/06-cradle-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/06-cradle-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/NOTICE.md",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/cleanup-baseline-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/cleanup-baseline-validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/cradle-profile-before-cleanup.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/cradle-profile-before-cleanup.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/current-v32.step",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/current-v32.step",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/diagnostic.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/diagnostic.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/exploded.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/service.FCStd",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.png",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.png",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.svg",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.svg",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/support-mounting-schedule.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/support-mounting-schedule.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: exports/generated/wood-dowel-pivot-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: exports/generated/wood-dowel-pivot-v32/validation.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/active_parts.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/active_parts.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/active_review.FCMacro",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/active_review.FCMacro",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/add_oled_c5_v03.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/add_oled_c5_v03.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/audit_reference.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/audit_reference.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/audit_repository.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/audit_repository.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_active.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_active.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_active_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_active_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_cabinet_pc_slide_v22.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_cabinet_pc_slide_v22.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_cabinet_pc_slide_v22_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_cabinet_pc_slide_v22_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_cabinet_rear_cpu_shelf_v24.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_cabinet_rear_cpu_shelf_v24.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_cabinet_rear_cpu_shelf_v24_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_cabinet_rear_cpu_shelf_v24_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_cabinet_rear_pc_service_v23.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_cabinet_rear_pc_service_v23.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_cabinet_rear_pc_service_v23_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_cabinet_rear_pc_service_v23_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_cabinet_service_v21.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_cabinet_service_v21.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_cabinet_service_v21_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_cabinet_service_v21_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_cabinet_structure_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_cabinet_structure_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_cabinet_structure_v20_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_cabinet_structure_v20_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_joinery_study_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_joinery_study_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_owner_services_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_owner_services_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_playfield_fixed_anchors_v19.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_playfield_fixed_anchors_v19.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_playfield_fixed_anchors_v19_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_playfield_fixed_anchors_v19_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_playfield_mechanics_v18.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_playfield_mechanics_v18.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_playfield_mechanics_v18_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_playfield_mechanics_v18_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_playfield_pivot_v15.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_playfield_pivot_v15.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_playfield_pivot_v15_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_playfield_pivot_v15_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_playfield_v04.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_playfield_v04.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_playfield_v04_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_playfield_v04_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_playfield_v05.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_playfield_v05.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_playfield_v05_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_playfield_v05_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_rear_utility_v26.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_rear_utility_v26.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_review_viewer.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_review_viewer.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_service_io_v09.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_service_io_v09.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_service_io_v09_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_service_io_v09_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_shell_v01.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_shell_v01.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_shell_v02.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_shell_v02.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_simplification_v28_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_simplification_v28_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_structure_v14.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_structure_v14.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/build_structure_v14_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/build_structure_v14_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/check_fcstd_v04.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/check_fcstd_v04.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/check_matrix_cassette_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/check_matrix_cassette_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/check_matrix_cassette_viewer_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/check_matrix_cassette_viewer_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/check_matrix_hinge_regressions_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/check_matrix_hinge_regressions_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/check_matrix_route_backbox_audit_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/check_matrix_route_backbox_audit_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/check_notch_floor_fans_viewer_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/check_notch_floor_fans_viewer_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/check_review_viewer_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/check_review_viewer_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/cleanup_active_master_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/cleanup_active_master_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/cleanup_active_master_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/cleanup_active_master_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/coin_door_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/coin_door_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/connector_fit_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/connector_fit_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/consolidated_audio_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/consolidated_audio_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/corner_relief_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/corner_relief_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/create_master.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/create_master.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/detail_structure_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/detail_structure_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/detail_structure_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/detail_structure_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/extract_backbox_reference.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/extract_backbox_reference.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/extract_backbox_reference_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/extract_backbox_reference_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/extract_outline_sketch.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/extract_outline_sketch.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/extract_playfield_fit.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/extract_playfield_fit.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/extract_playfield_mechanics.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/extract_playfield_mechanics.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/extract_williams_profile.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/extract_williams_profile.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/fixed_rear_services_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/fixed_rear_services_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/floor_detail_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/floor_detail_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/front_panel_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/front_panel_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/generate_cnc_coupon_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/generate_cnc_coupon_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/generate_cnc_register_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/generate_cnc_register_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/generate_measurement_pack_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/generate_measurement_pack_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/generate_owner_execution_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/generate_owner_execution_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/joinery_study.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/joinery_study.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/lockdown_interface_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/lockdown_interface_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/matrix_cassette_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/matrix_cassette_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/matrix_hinge_study_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/matrix_hinge_study_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/matrix_route_backbox_audit_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/matrix_route_backbox_audit_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/measure_leg_jig_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/measure_leg_jig_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/migrate_platform_v09.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/migrate_platform_v09.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/migrate_platform_v09_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/migrate_platform_v09_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/notch_floor_fans_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/notch_floor_fans_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/owner_features_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/owner_features_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/owner_review_scenes_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/owner_review_scenes_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/owner_workflow_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/owner_workflow_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/package_consolidated_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/package_consolidated_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/panel_closure_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/panel_closure_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/propose_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/propose_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/rear_door_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/rear_door_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/rear_hardware_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/rear_hardware_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_active_review.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_active_review.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_cnc_detail_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_cnc_detail_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_coin_door_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_coin_door_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_consolidated_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_consolidated_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_cradle_cleanup_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_cradle_cleanup_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_fixed_rear_services_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_fixed_rear_services_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_front_panel_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_front_panel_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_joinery_study.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_joinery_study.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_ligament_review_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_ligament_review_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_lighting_study_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_lighting_study_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_matrix_hinge_study_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_matrix_hinge_study_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_matrix_route_backbox_audit_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_matrix_route_backbox_audit_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_notch_floor_fans_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_notch_floor_fans_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_owner_change_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_owner_change_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_owner_review_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_owner_review_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_panel_closure_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_panel_closure_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_rear_door_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_rear_door_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_rear_hardware_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_rear_hardware_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_shelf_anchorage_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_shelf_anchorage_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_shelf_retention_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_shelf_retention_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_shelf_service_pose_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_shelf_service_pose_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_shelf_spacing_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_shelf_spacing_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_side_motion_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_side_motion_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_simple_shelves_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_simple_shelves_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_support_leg_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_support_leg_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_support_mounting_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_support_mounting_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/render_wood_dowel_pivot_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/render_wood_dowel_pivot_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/review_owner_change_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/review_owner_change_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/review_owner_change_v28_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/review_owner_change_v28_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_active_build_v25.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_active_build_v25.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_cabinet_pc_slide_v22.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_cabinet_pc_slide_v22.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_cabinet_rear_cpu_shelf_v24.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_cabinet_rear_cpu_shelf_v24.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_cabinet_rear_pc_service_v23.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_cabinet_rear_pc_service_v23.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_cabinet_service_v21.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_cabinet_service_v21.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_cabinet_structure_v20.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_cabinet_structure_v20.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_cnc_detail_v25.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_cnc_detail_v25.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_connector_fit_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_connector_fit_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_consolidated_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_consolidated_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_corner_relief_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_corner_relief_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_fixed_rear_services_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_fixed_rear_services_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_floor_detail_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_floor_detail_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_front_panel_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_front_panel_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_joinery_study.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_joinery_study.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_notch_floor_fans_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_notch_floor_fans_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_owner_change_v28.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_owner_change_v28.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_panel_closure_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_panel_closure_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_platform_v09.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_platform_v09.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_playfield_fixed_anchors_v19.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_playfield_fixed_anchors_v19.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_playfield_mechanics_v18.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_playfield_mechanics_v18.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_playfield_pivot_v15.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_playfield_pivot_v15.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_playfield_v04.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_playfield_v04.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_playfield_v05.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_playfield_v05.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_rear_door_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_rear_door_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_rear_hardware_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_rear_hardware_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_service_correction_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_service_correction_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_shelf_service_pose_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_shelf_service_pose_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_side_review_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_side_review_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_simple_shelves_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_simple_shelves_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_simplification_v28.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_simplification_v28.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_structure_v14.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_structure_v14.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_support_leg_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_support_leg_v32.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/run_v32_review.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/run_v32_review.sh",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/save_matrix_review_poses_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/save_matrix_review_poses_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/service_correction_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/service_correction_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/shelf_anchorage_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/shelf_anchorage_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/shelf_retention_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/shelf_retention_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/shelf_service_pose_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/shelf_service_pose_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/side_motion_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/side_motion_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/side_panel_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/side_panel_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/side_service_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/side_service_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/simple_shelves_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/simple_shelves_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/simplification_counts_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/simplification_counts_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/solve_playfield_struts.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/solve_playfield_struts.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/solve_playfield_v05.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/solve_playfield_v05.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/support_leg_machining_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/support_leg_machining_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/test_active_geometry_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/test_active_geometry_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/test_cnc_detail_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/test_cnc_detail_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/test_joinery_study_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/test_joinery_study_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/test_owner_services_v27_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/test_owner_services_v27_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/test_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/test_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_active_build_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_active_build_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_backbox_fold_v10.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_backbox_fold_v10.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_backbox_mounting_v12.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_backbox_mounting_v12.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_backbox_v06.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_backbox_v06.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_cabinet_pc_slide_v22.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_cabinet_pc_slide_v22.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_cabinet_rear_cpu_shelf_v24.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_cabinet_rear_cpu_shelf_v24.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_cabinet_rear_pc_service_v23.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_cabinet_rear_pc_service_v23.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_cabinet_service_v21.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_cabinet_service_v21.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_cabinet_structure_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_cabinet_structure_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_cnc_detail_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_cnc_detail_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_electrical_routing_v11.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_electrical_routing_v11.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_main_body_v07.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_main_body_v07.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_owner_change_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_owner_change_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_owner_execution_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_owner_execution_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_owner_services_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_owner_services_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_physical_validation_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_physical_validation_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_playfield_display_v16.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_playfield_display_v16.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_playfield_fixed_anchors_v19.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_playfield_fixed_anchors_v19.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_playfield_mechanics_v18.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_playfield_mechanics_v18.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_playfield_pivot_v15.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_playfield_pivot_v15.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_service_correction_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_service_correction_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_service_io_v08.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_service_io_v08.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_simplification_v28.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_structure_buildpack_v14.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_structure_buildpack_v14.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_structure_materials_v13.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_structure_materials_v13.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/validate_wood_dowel_pivot_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/validate_wood_dowel_pivot_v32.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_active_geometry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_active_geometry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_active_geometry_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_active_geometry_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_active_master_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_active_master_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_active_master_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_active_master_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_active_master_v25_file.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_active_master_v25_file.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_cabinet_pc_slide_v22.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_cabinet_pc_slide_v22.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_cabinet_rear_cpu_shelf_v24.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_cabinet_rear_cpu_shelf_v24.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_cabinet_rear_cpu_shelf_v24_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_cabinet_rear_cpu_shelf_v24_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_cabinet_rear_pc_service_v23.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_cabinet_rear_pc_service_v23.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_cabinet_service_v21.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_cabinet_service_v21.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_cabinet_structure_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_cabinet_structure_v20.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_cnc_detail_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_cnc_detail_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_cnc_detail_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_cnc_detail_v25_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_owner_services_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_owner_services_v27.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_platform_v09.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_platform_v09.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_playfield_fixed_anchors_v19.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_playfield_fixed_anchors_v19.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_playfield_mechanics_v18.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_playfield_mechanics_v18.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_playfield_pivot_v15.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_playfield_pivot_v15.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_playfield_v04.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_playfield_v04.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_playfield_v05.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_playfield_v05.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_rear_cpu_saved_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_rear_cpu_saved_v25.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_rear_utility_v26.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_rear_utility_v26.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_structure_v14.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_structure_v14.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/verify_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/verify_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/viewer/template.html",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/viewer/template.html",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/viewer/translations.json",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/viewer/translations.json",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/viewer/vendor/LICENSE.three",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/viewer/vendor/LICENSE.three",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/viewer/vendor/OrbitControls.js",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/viewer/vendor/OrbitControls.js",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/viewer/vendor/three.min.js",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/viewer/vendor/three.min.js",
+      "pass": true
+    },
+    {
+      "check": "accepted bytes preserved: tools/wood_dowel_pivot_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "accepted requested-HEAD blob: tools/wood_dowel_pivot_v32_entry.py",
+      "pass": true
+    },
+    {
+      "check": "only scoped floor integration and associated records changed",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SIDE_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SIDE_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FRONT",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: REAR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FAN_230",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FAN_370",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: REAR_DOOR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FLOOR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FLOOR_CLEAT_18",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FLOOR_CLEAT_552",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SHELF_1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SHELF_SUPPORT_1L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SHELF_SUPPORT_1R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SHELF_2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SHELF_SUPPORT_2L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SHELF_SUPPORT_2R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SHELF_3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SHELF_SUPPORT_3L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SHELF_SUPPORT_3R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_GUIDE_1L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_BRACKET_1L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_GUIDE_1R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_BRACKET_1R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_GUIDE_2L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_BRACKET_2L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_GUIDE_2R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_BRACKET_2R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_GUIDE_3L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_BRACKET_3L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_GUIDE_3R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CROSS_BRACKET_3R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PLAYFIELD_ENVELOPE",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PC_BASE",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PC_ENVELOPE",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: BACKBOX_BASE",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PLUNGER_RESERVED",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_CoinFrame",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_DoorLeaf",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_ReturnButton1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_ReturnButton2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_LightSwitch1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_LightSwitch2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_DoorLock",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_Mechanism1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_Mechanism2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_MechanismMount1_1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_MechanismMount1_2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_MechanismMount2_1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_MechanismMount2_2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_CoinTray",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_TraySupport1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CoinStudy_TraySupport2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFrontButton1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFrontButton2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFrontButton3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFrontButton4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SHELF_1_CandidatePayload",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1L1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1L1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1L1Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1L2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1L2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1L2Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1R1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1R1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1R1Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1R2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1R2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt1R2Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2L1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2L1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2L1Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2L2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2L2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2L2Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2R1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2R1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2R1Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2R2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2R2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt2R2Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3L1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3L1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3L1Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3L2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3L2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3L2Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3R1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3R1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3R1Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3R2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3R2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SimpleShelfBolt3R2Insert",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew1L1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew1L1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew1L2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew1L2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew1R1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew1R1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew1R2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew1R2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew2L1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew2L1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew2L2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew2L2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew2R1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew2R1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew2R2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew2R2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew3L1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew3L1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew3L2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew3L2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew3R1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew3R1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew3R2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFixedSupportScrew3R2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateLegBlockFL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateLegPlateFL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateLegBlockFR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateLegPlateFR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateLegBlockRL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateLegPlateRL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateLegBlockRR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateLegPlateRR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateGlass",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateGlassChannelL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateGlassChannelR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanGuard230Inner",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanGuard230Outer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_1OuterWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_1InnerWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_1Nut",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_2OuterWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_2InnerWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_2Nut",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_3OuterWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_3InnerWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_3Nut",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_4OuterWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_4InnerWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt230_4Nut",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanGuard370Inner",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanGuard370Outer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_1OuterWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_1InnerWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_1Nut",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_2OuterWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_2InnerWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_2Nut",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_3OuterWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_3InnerWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_3Nut",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_4OuterWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_4InnerWasher",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateFanBolt370_4Nut",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateHandleBolt1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateHandleBolt1Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateHandleBolt2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateHandleBolt2Washer",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateRearHandle",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateKeyLockBody",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateKeyLockShaft",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateKeyLockCam",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateLockKeeper",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateHingeFixed1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateHingeMoving1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateHingePin1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateHingeFixed2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateHingeMoving2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateHingePin2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: CandidateMainsEnclosure",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SSF_Subwoofer_DCS165_Reference",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SSF_BST_Carrier",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SSF_BST1_Reference",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SSF_Exciter1L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SSF_Exciter1R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SSF_Exciter2L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SSF_Exciter2R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SSF_AmplifierReserve",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SSF_PSUReserve",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: SSF_USBReserve",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafButton_primary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafButton_primary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafNut_primary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafNut_primary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafBracket_primary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafBracket_primary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafContacts_primary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafContacts_primary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafButton_secondary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafButton_secondary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafNut_secondary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafNut_secondary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafBracket_secondary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafBracket_secondary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafContacts_secondary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: LeafContacts_secondary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_BackboxCheckEnvelope",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_BasePlywood",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_WoodDowel",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_VESAEnvelope",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_SupportMountScrewL1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_SupportMountScrewR1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_SupportMountScrewL2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_SupportMountScrewR2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_SupportMountScrewL3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_SupportMountScrewR3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_OpenCradleL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_OpenCradleR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_StrapScrew1_1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_StrapScrew1_3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_CommercialStrap1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_StrapScrew2_1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_StrapScrew2_3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_CommercialStrap2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_StrapScrew3_1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_StrapScrew3_3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_CommercialStrap3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_StrapScrew4_1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_StrapScrew4_3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: PF_CommercialStrap4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanBoltL1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanNutL1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanBoltL2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanNutL2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanBoltL3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanNutL3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanBoltL4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanNutL4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterInsertL1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterScrewL1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterInsertL2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterScrewL2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterInsertL3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterScrewL3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterInsertL4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterScrewL4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorIntakeFanL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: RemovableIntakeFilterL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterMediaReserveL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorCommercialGuardReserveL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorUpperGuardReserveL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanConnectorReserveL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanBoltR1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanNutR1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanBoltR2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanNutR2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanBoltR3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanNutR3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanBoltR4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanNutR4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterInsertR1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterScrewR1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterInsertR2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterScrewR2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterInsertR3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterScrewR3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterInsertR4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterScrewR4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorIntakeFanR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: RemovableIntakeFilterR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFilterMediaReserveR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorCommercialGuardReserveR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorUpperGuardReserveR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: FloorFanConnectorReserveR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonWireServiceReserve_primary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonToolServiceReserve_primary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonBodyServiceReserve_primary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonLeafServiceReserve_primary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonWireServiceReserve_primary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonToolServiceReserve_primary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonBodyServiceReserve_primary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonLeafServiceReserve_primary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonWireServiceReserve_secondary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonToolServiceReserve_secondary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonBodyServiceReserve_secondary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonLeafServiceReserve_secondary_L",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonWireServiceReserve_secondary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonToolServiceReserve_secondary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonBodyServiceReserve_secondary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: ButtonLeafServiceReserve_secondary_R",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_WoodSeatL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_WoodSeatR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_InsertL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_FixedScrewL1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_FixedScrewL2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_InsertR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_FixedScrewR1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_FixedScrewR2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_RetainerL",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_RetainerR",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MatrixCarrier",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MatrixPanel1",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MatrixPanel2",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MatrixPanel3",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MatrixPanel4",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MatrixPanel5",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MatrixPanel6",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_FixedConnectorReserve",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_MovingConnectorReserve",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_CableLoopReserve",
+      "pass": true
+    },
+    {
+      "check": "accepted CAD component unchanged: MX_FixedCableReserve",
+      "pass": true
+    },
+    {
+      "check": "accepted wooden pivot remains live",
+      "pass": true
+    },
+    {
+      "check": "coarse reference explicit in proposed CAD",
+      "pass": true
+    },
+    {
+      "check": "saved corrected floor single valid 18 mm solid",
+      "pass": true
+    },
+    {
+      "check": "saved floor-channel positive-volume zero: CandidateGlassChannelL",
+      "pass": true
+    },
+    {
+      "check": "saved floor-channel clearance meets 5 mm: CandidateGlassChannelL",
+      "pass": true
+    },
+    {
+      "check": "negative old floor reproduces rejected overlap: CandidateGlassChannelL",
+      "pass": true
+    },
+    {
+      "check": "saved floor-channel positive-volume zero: CandidateGlassChannelR",
+      "pass": true
+    },
+    {
+      "check": "saved floor-channel clearance meets 5 mm: CandidateGlassChannelR",
+      "pass": true
+    },
+    {
+      "check": "negative old floor reproduces rejected overlap: CandidateGlassChannelR",
+      "pass": true
+    },
+    {
+      "check": "saved glass pane itself clear",
+      "pass": true
+    },
+    {
+      "check": "review section shifted witness lies on actual floor and channel",
+      "pass": true
+    },
+    {
+      "check": "negative lowering rejects unintended shelf penetration",
+      "pass": true
+    },
+    {
+      "check": "negative forward floor shift fails channel margin",
+      "pass": true
+    },
+    {
+      "check": "single planar floor bottom face",
+      "pass": true
+    },
+    {
+      "check": "two unchanged actual cable passports",
+      "pass": true
+    },
+    {
+      "check": "minimum planar ligament independently measured",
+      "pass": true
+    },
+    {
+      "check": "saved actual bearing area independently measured",
+      "pass": true
+    },
+    {
+      "check": "other reconstructed backbox member unchanged: BackboxLeftSideV14",
+      "pass": true
+    },
+    {
+      "check": "other reconstructed backbox member unchanged: BackboxRightSideV14",
+      "pass": true
+    },
+    {
+      "check": "other reconstructed backbox member unchanged: BackboxTopV14",
+      "pass": true
+    },
+    {
+      "check": "other reconstructed backbox member unchanged: BackboxRearFrameLeftV14",
+      "pass": true
+    },
+    {
+      "check": "other reconstructed backbox member unchanged: BackboxRearFrameRightV14",
+      "pass": true
+    },
+    {
+      "check": "other reconstructed backbox member unchanged: BackboxRearFrameBottomV14",
+      "pass": true
+    },
+    {
+      "check": "other reconstructed backbox member unchanged: BackboxRearFrameTopV14",
+      "pass": true
+    },
+    {
+      "check": "negative accepted-system geometry mutation rejected: PF_BasePlywood",
+      "pass": true
+    },
+    {
+      "check": "negative accepted-system geometry mutation rejected: PF_WoodDowel",
+      "pass": true
+    },
+    {
+      "check": "negative accepted-system geometry mutation rejected: FloorIntakeFanL",
+      "pass": true
+    },
+    {
+      "check": "negative accepted-system geometry mutation rejected: RemovableIntakeFilterL",
+      "pass": true
+    },
+    {
+      "check": "negative accepted-system geometry mutation rejected: LeafButton_primary_L",
+      "pass": true
+    },
+    {
+      "check": "negative accepted-system geometry mutation rejected: SHELF_2",
+      "pass": true
+    },
+    {
+      "check": "negative accepted-system geometry mutation rejected: PC_BASE",
+      "pass": true
+    },
+    {
+      "check": "negative accepted-system geometry mutation rejected: REAR_DOOR",
+      "pass": true
+    },
+    {
+      "check": "negative accepted-system geometry mutation rejected: SSF_Exciter2L",
+      "pass": true
+    },
+    {
+      "check": "first bottleneck explicitly labeled collision",
+      "pass": true
+    },
+    {
+      "check": "first collision is actual floor/shelf at 1 degree",
+      "pass": true
+    },
+    {
+      "check": "first saved collision independently reproduced: SIDE_L",
+      "pass": true
+    },
+    {
+      "check": "first saved collision independently reproduced: SIDE_R",
+      "pass": true
+    },
+    {
+      "check": "first saved collision independently reproduced: BACKBOX_BASE",
+      "pass": true
+    },
+    {
+      "check": "no invalid 45 degree success CAD generated",
+      "pass": true
+    },
+    {
+      "check": "no invalid 90 degree success CAD generated",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "zero_valid": true,
+  "fold_clear": false,
+  "manufacturing_ready": false
+}

@@ -4,7 +4,9 @@
 
 > Current matrix follow-on: [removable cassette and explicit service sequence](docs/MATRIX_CASSETTE_V32.md). Fold verification remains BLOCKED; no accepted cabinet or hinge redesign.
 
-> Current audit: [matrix-route tolerance and backbox diagnosis](docs/MATRIX_ROUTE_BACKBOX_AUDIT_V32.md). Accepted geometry is unchanged; the 3 mm route target is unmet and the reconstructed backbox floor conflicts with current glass channels at 0°. Fold validation stops at that gate.
+> Prior audit at eeab1a7: [matrix-route tolerance and backbox diagnosis](docs/MATRIX_ROUTE_BACKBOX_AUDIT_V32.md). The accepted matrix route remains unchanged at 1.112788 mm clearance. That audit identified the old backbox-floor collision at 0°.
+
+> Current floor integration: [backbox floor / glass-channel correction](docs/BACKBOX_FLOOR_V32.md). A straight front trim gives 5.084878 mm channel clearance and preserves 100% of rear-shelf bearing area. Upright wood passes; actual-wood folding remains BLOCKED by floor/shelf/side interference at 1°. Viewer and all other accepted V32 geometry remain unchanged.
 [New development: fixed shelf heights, support drilling and leg corner planning](docs/SUPPORT_LEG_CNC_V32.md). The supplied printable leg jig is archived with attribution; its measured57mm pitch differs from the linked58mm template. Hardware and CNC release remain open.
 
 ## Current review entry point
