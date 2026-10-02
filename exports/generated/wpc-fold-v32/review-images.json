@@ -1,0 +1,66 @@
+{
+  "images": [
+    {
+      "file": "01-wpc-upright.png",
+      "title": "01  WPC reference \u2014 upright bearing and rigid arms"
+    },
+    {
+      "file": "02-hinge-pivot.png",
+      "title": "02  Hinge architecture \u2014 fixed offset, pure rotation"
+    },
+    {
+      "file": "03-reference-interface.png",
+      "title": "03  WPC floor / shelf \u2014 69,304.30 mm\u00b2 upright bearing"
+    },
+    {
+      "file": "04-initial-twist.png",
+      "title": "04  WPC initial twist \u2014 actual floor edge, shelf below"
+    },
+    {
+      "file": "05-bearing-release.png",
+      "title": "05  Bearing release \u2014 immediate separation, no scraping"
+    },
+    {
+      "file": "06-reference-15.png",
+      "title": "06  WPC reference \u2014 15\u00b0"
+    },
+    {
+      "file": "07-reference-45.png",
+      "title": "07  WPC reference \u2014 45\u00b0"
+    },
+    {
+      "file": "08-reference-90.png",
+      "title": "08  WPC reference \u2014 90\u00b0"
+    },
+    {
+      "file": "09-current-interpretation.png",
+      "title": "09  Current V32 datum \u2014 reproduce the old failure"
+    },
+    {
+      "file": "10-corrected-interpretation.png",
+      "title": "10  Correct WPC interpretation \u2014 axis ahead of bearing"
+    },
+    {
+      "file": "11-deep-side-floor.png",
+      "title": "11  Separate side / floor / shelf extents \u2014 broad straight floor"
+    },
+    {
+      "file": "12-v32-early-twist.png",
+      "title": "12  V32 210 mm sides \u2014 clean early release"
+    },
+    {
+      "file": "13-first-bottleneck.png",
+      "title": "13  Channel bottleneck \u2014 isolated floor correction"
+    },
+    {
+      "file": "14-v32-45.png",
+      "title": "14  V32 study \u2014 45\u00b0 / glass and matrix removed"
+    },
+    {
+      "file": "15-v32-90.png",
+      "title": "15  V32 study \u2014 90\u00b0 / glass and matrix removed"
+    }
+  ],
+  "source": "actual OCC tessellation; hardware schematics clearly labeled",
+  "upstream_images_included": false
+}

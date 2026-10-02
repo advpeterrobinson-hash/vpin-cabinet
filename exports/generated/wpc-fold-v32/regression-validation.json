@@ -1,0 +1,4246 @@
+{
+  "pass": true,
+  "checks": [
+    "source head exists",
+    "unchanged .github/CODEOWNERS",
+    "starting blob .github/CODEOWNERS",
+    "unchanged .github/ISSUE_TEMPLATE/bug_report.yml",
+    "starting blob .github/ISSUE_TEMPLATE/bug_report.yml",
+    "unchanged .github/ISSUE_TEMPLATE/config.yml",
+    "starting blob .github/ISSUE_TEMPLATE/config.yml",
+    "unchanged .github/ISSUE_TEMPLATE/design_proposal.yml",
+    "starting blob .github/ISSUE_TEMPLATE/design_proposal.yml",
+    "unchanged .github/ISSUE_TEMPLATE/engineering_bug.yml",
+    "starting blob .github/ISSUE_TEMPLATE/engineering_bug.yml",
+    "unchanged .github/ISSUE_TEMPLATE/hardware_measurement.yml",
+    "starting blob .github/ISSUE_TEMPLATE/hardware_measurement.yml",
+    "unchanged .github/ISSUE_TEMPLATE/manufacturing_feedback.yml",
+    "starting blob .github/ISSUE_TEMPLATE/manufacturing_feedback.yml",
+    "unchanged .github/pull_request_template.md",
+    "starting blob .github/pull_request_template.md",
+    "unchanged .github/workflows/engineering.yml",
+    "starting blob .github/workflows/engineering.yml",
+    "unchanged .gitignore",
+    "starting blob .gitignore",
+    "unchanged AGENTS.md",
+    "starting blob AGENTS.md",
+    "unchanged CITATION.cff",
+    "starting blob CITATION.cff",
+    "unchanged CODE_OF_CONDUCT.md",
+    "starting blob CODE_OF_CONDUCT.md",
+    "unchanged CONTRIBUTING.md",
+    "starting blob CONTRIBUTING.md",
+    "unchanged CONTRIBUTING.pt-BR.md",
+    "starting blob CONTRIBUTING.pt-BR.md",
+    "unchanged GOVERNANCE.md",
+    "starting blob GOVERNANCE.md",
+    "unchanged LICENSE",
+    "starting blob LICENSE",
+    "unchanged Makefile",
+    "starting blob Makefile",
+    "unchanged NOTICE.md",
+    "starting blob NOTICE.md",
+    "unchanged README.md",
+    "starting blob README.md",
+    "unchanged README.pt-BR.md",
+    "starting blob README.pt-BR.md",
+    "unchanged SECURITY.md",
+    "starting blob SECURITY.md",
+    "unchanged SUPPORT.md",
+    "starting blob SUPPORT.md",
+    "unchanged THIRD_PARTY_NOTICES.md",
+    "starting blob THIRD_PARTY_NOTICES.md",
+    "unchanged bom/ACTIVE_PARTS.csv",
+    "starting blob bom/ACTIVE_PARTS.csv",
+    "unchanged bom/BLOCKED_CNC_FEATURES_V25.csv",
+    "starting blob bom/BLOCKED_CNC_FEATURES_V25.csv",
+    "unchanged bom/CNC_FEATURES_V25.csv",
+    "starting blob bom/CNC_FEATURES_V25.csv",
+    "unchanged bom/HARDWARE_FREEZE_V25.csv",
+    "starting blob bom/HARDWARE_FREEZE_V25.csv",
+    "unchanged bom/MEASURE_BEFORE_CNC_V25.csv",
+    "starting blob bom/MEASURE_BEFORE_CNC_V25.csv",
+    "unchanged bom/PC_SLIDE_V22_BOM.csv",
+    "starting blob bom/PC_SLIDE_V22_BOM.csv",
+    "unchanged bom/PC_SLIDE_V22_PARTS.csv",
+    "starting blob bom/PC_SLIDE_V22_PARTS.csv",
+    "unchanged bom/PHYSICAL_EXECUTION_STATE_V28.json",
+    "starting blob bom/PHYSICAL_EXECUTION_STATE_V28.json",
+    "unchanged bom/PHYSICAL_VALIDATION_OWNER_QUEUE_V27.json",
+    "starting blob bom/PHYSICAL_VALIDATION_OWNER_QUEUE_V27.json",
+    "unchanged bom/PHYSICAL_VALIDATION_RESULTS_V27.json",
+    "starting blob bom/PHYSICAL_VALIDATION_RESULTS_V27.json",
+    "unchanged bom/PHYSICAL_VALIDATION_RESULTS_V28_PROPOSED.json",
+    "starting blob bom/PHYSICAL_VALIDATION_RESULTS_V28_PROPOSED.json",
+    "unchanged bom/README.md",
+    "starting blob bom/README.md",
+    "unchanged bom/REAR_PC_SERVICE_V23_BOM.csv",
+    "starting blob bom/REAR_PC_SERVICE_V23_BOM.csv",
+    "unchanged bom/REAR_PC_SERVICE_V23_PARTS.csv",
+    "starting blob bom/REAR_PC_SERVICE_V23_PARTS.csv",
+    "unchanged bom/REMOVABLE_CARRIERS_V27.csv",
+    "starting blob bom/REMOVABLE_CARRIERS_V27.csv",
+    "unchanged bom/RETIRED_PARTS_V26.csv",
+    "starting blob bom/RETIRED_PARTS_V26.csv",
+    "unchanged bom/SERVICE_V21_BOM.csv",
+    "starting blob bom/SERVICE_V21_BOM.csv",
+    "unchanged bom/SERVICE_V21_PARTS.csv",
+    "starting blob bom/SERVICE_V21_PARTS.csv",
+    "unchanged bom/SIMPLIFICATION_COUNTS_V28.json",
+    "starting blob bom/SIMPLIFICATION_COUNTS_V28.json",
+    "unchanged bom/SIMPLIFICATION_FEATURE_IMPACT_V28.json",
+    "starting blob bom/SIMPLIFICATION_FEATURE_IMPACT_V28.json",
+    "unchanged bom/SIMPLIFICATION_PART_AUDIT_V28.json",
+    "starting blob bom/SIMPLIFICATION_PART_AUDIT_V28.json",
+    "unchanged bom/STRUCTURAL_JOINTS_V25.csv",
+    "starting blob bom/STRUCTURAL_JOINTS_V25.csv",
+    "unchanged bom/STRUCTURE_BOM.csv",
+    "starting blob bom/STRUCTURE_BOM.csv",
+    "unchanged bom/STRUCTURE_PARTS.csv",
+    "starting blob bom/STRUCTURE_PARTS.csv",
+    "unchanged cad/master/vpin-master.20260914-181346.FCBak",
+    "starting blob cad/master/vpin-master.20260914-181346.FCBak",
+    "unchanged cad/master/vpin-master.FCStd",
+    "starting blob cad/master/vpin-master.FCStd",
+    "unchanged config/active_build_v25.json",
+    "starting blob config/active_build_v25.json",
+    "unchanged config/backbox_floor_v32.json",
+    "starting blob config/backbox_floor_v32.json",
+    "unchanged config/backbox_fold_v10.json",
+    "starting blob config/backbox_fold_v10.json",
+    "unchanged config/backbox_mounting_v12.json",
+    "starting blob config/backbox_mounting_v12.json",
+    "unchanged config/backbox_profile_v32.json",
+    "starting blob config/backbox_profile_v32.json",
+    "unchanged config/backbox_v06.json",
+    "starting blob config/backbox_v06.json",
+    "unchanged config/cabinet_pc_slide_v22.json",
+    "starting blob config/cabinet_pc_slide_v22.json",
+    "unchanged config/cabinet_rear_cpu_shelf_v24.json",
+    "starting blob config/cabinet_rear_cpu_shelf_v24.json",
+    "unchanged config/cabinet_rear_pc_service_v23.json",
+    "starting blob config/cabinet_rear_pc_service_v23.json",
+    "unchanged config/cabinet_service_v21.json",
+    "starting blob config/cabinet_service_v21.json",
+    "unchanged config/cabinet_structure_v20.json",
+    "starting blob config/cabinet_structure_v20.json",
+    "unchanged config/cnc_coupon_v20.json",
+    "starting blob config/cnc_coupon_v20.json",
+    "unchanged config/cnc_detail_v25.json",
+    "starting blob config/cnc_detail_v25.json",
+    "unchanged config/consolidated_audio_v32.json",
+    "starting blob config/consolidated_audio_v32.json",
+    "unchanged config/corner_relief_v32.json",
+    "starting blob config/corner_relief_v32.json",
+    "unchanged config/design.json",
+    "starting blob config/design.json",
+    "unchanged config/electrical_routing_v11.json",
+    "starting blob config/electrical_routing_v11.json",
+    "unchanged config/fixed_rear_services_v32.json",
+    "starting blob config/fixed_rear_services_v32.json",
+    "unchanged config/floor_detail_v32.json",
+    "starting blob config/floor_detail_v32.json",
+    "unchanged config/front_panel_v32.json",
+    "starting blob config/front_panel_v32.json",
+    "unchanged config/interface_zones_v32.json",
+    "starting blob config/interface_zones_v32.json",
+    "unchanged config/joinery_study_v32.json",
+    "starting blob config/joinery_study_v32.json",
+    "unchanged config/lockdown_interface_v32.json",
+    "starting blob config/lockdown_interface_v32.json",
+    "unchanged config/main_body_v07.json",
+    "starting blob config/main_body_v07.json",
+    "unchanged config/matrix_cassette_v32.json",
+    "starting blob config/matrix_cassette_v32.json",
+    "unchanged config/matrix_hinge_study_v32.json",
+    "starting blob config/matrix_hinge_study_v32.json",
+    "unchanged config/matrix_route_backbox_audit_v32.json",
+    "starting blob config/matrix_route_backbox_audit_v32.json",
+    "unchanged config/notch_floor_fans_v32.json",
+    "starting blob config/notch_floor_fans_v32.json",
+    "unchanged config/owner_services_v27.json",
+    "starting blob config/owner_services_v27.json",
+    "unchanged config/panel_closure_v32.json",
+    "starting blob config/panel_closure_v32.json",
+    "unchanged config/playfield_display_v16.json",
+    "starting blob config/playfield_display_v16.json",
+    "unchanged config/playfield_fixed_anchors_v19.json",
+    "starting blob config/playfield_fixed_anchors_v19.json",
+    "unchanged config/playfield_mechanics_v18.json",
+    "starting blob config/playfield_mechanics_v18.json",
+    "unchanged config/playfield_pivot_v15.json",
+    "starting blob config/playfield_pivot_v15.json",
+    "unchanged config/playfield_v04.json",
+    "starting blob config/playfield_v04.json",
+    "unchanged config/playfield_v05.json",
+    "starting blob config/playfield_v05.json",
+    "unchanged config/rear_door_v32.json",
+    "starting blob config/rear_door_v32.json",
+    "unchanged config/rear_hardware_v32.json",
+    "starting blob config/rear_hardware_v32.json",
+    "unchanged config/rear_utility_v26.json",
+    "starting blob config/rear_utility_v26.json",
+    "unchanged config/service_correction_v32.json",
+    "starting blob config/service_correction_v32.json",
+    "unchanged config/service_io_v08.json",
+    "starting blob config/service_io_v08.json",
+    "unchanged config/shelf_anchorage_v32.json",
+    "starting blob config/shelf_anchorage_v32.json",
+    "unchanged config/shelf_layout_freeze_v32.json",
+    "starting blob config/shelf_layout_freeze_v32.json",
+    "unchanged config/shelf_retention_v32.json",
+    "starting blob config/shelf_retention_v32.json",
+    "unchanged config/shelf_service_pose_v32.json",
+    "starting blob config/shelf_service_pose_v32.json",
+    "unchanged config/side_motion_v32.json",
+    "starting blob config/side_motion_v32.json",
+    "unchanged config/side_service_v32.json",
+    "starting blob config/side_service_v32.json",
+    "unchanged config/simple_shelves_v32.json",
+    "starting blob config/simple_shelves_v32.json",
+    "unchanged config/structure_buildpack_v14.json",
+    "starting blob config/structure_buildpack_v14.json",
+    "unchanged config/structure_geometry_v14.json",
+    "starting blob config/structure_geometry_v14.json",
+    "unchanged config/structure_materials_v13.json",
+    "starting blob config/structure_materials_v13.json",
+    "unchanged config/support_leg_machining_v32.json",
+    "starting blob config/support_leg_machining_v32.json",
+    "unchanged config/wood_dowel_pivot_v32.json",
+    "starting blob config/wood_dowel_pivot_v32.json",
+    "unchanged docs/ACTIVE_ENGINEERING.md",
+    "starting blob docs/ACTIVE_ENGINEERING.md",
+    "unchanged docs/BACKBOX_FLOOR_V32.md",
+    "starting blob docs/BACKBOX_FLOOR_V32.md",
+    "unchanged docs/BACKBOX_FOLD_V10.md",
+    "starting blob docs/BACKBOX_FOLD_V10.md",
+    "unchanged docs/BACKBOX_HINGE_SHOPPING.md",
+    "starting blob docs/BACKBOX_HINGE_SHOPPING.md",
+    "unchanged docs/BACKBOX_MOUNTING_V12.md",
+    "starting blob docs/BACKBOX_MOUNTING_V12.md",
+    "unchanged docs/BACKBOX_PROFILE_V32.md",
+    "starting blob docs/BACKBOX_PROFILE_V32.md",
+    "unchanged docs/BACKBOX_SERVICE_DOOR_V12.md",
+    "starting blob docs/BACKBOX_SERVICE_DOOR_V12.md",
+    "unchanged docs/BACKBOX_V06.md",
+    "starting blob docs/BACKBOX_V06.md",
+    "unchanged docs/BUILD_PHASES.md",
+    "starting blob docs/BUILD_PHASES.md",
+    "unchanged docs/CABINET_DIMENSIONS_REFERENCE_V32.md",
+    "starting blob docs/CABINET_DIMENSIONS_REFERENCE_V32.md",
+    "unchanged docs/CABINET_JOINERY_PROPOSAL.md",
+    "starting blob docs/CABINET_JOINERY_PROPOSAL.md",
+    "unchanged docs/CABINET_REAR_PC_SERVICE_V23.md",
+    "starting blob docs/CABINET_REAR_PC_SERVICE_V23.md",
+    "unchanged docs/CABINET_SERVICE_V21.md",
+    "starting blob docs/CABINET_SERVICE_V21.md",
+    "unchanged docs/CABINET_STRUCTURE_V20.md",
+    "starting blob docs/CABINET_STRUCTURE_V20.md",
+    "unchanged docs/CABLE_ROUTE_LABELS_V11.md",
+    "starting blob docs/CABLE_ROUTE_LABELS_V11.md",
+    "unchanged docs/CAD_PLATFORM_V09.md",
+    "starting blob docs/CAD_PLATFORM_V09.md",
+    "unchanged docs/CNC_DETAIL_VALIDATION_2026-09-24.md",
+    "starting blob docs/CNC_DETAIL_VALIDATION_2026-09-24.md",
+    "unchanged docs/CNC_FLATPACK_PHILOSOPHY.md",
+    "starting blob docs/CNC_FLATPACK_PHILOSOPHY.md",
+    "unchanged docs/CNC_FREEZE_GATE_V27.md",
+    "starting blob docs/CNC_FREEZE_GATE_V27.md",
+    "unchanged docs/CNC_STRUCTURE_DETAIL_V25.md",
+    "starting blob docs/CNC_STRUCTURE_DETAIL_V25.md",
+    "unchanged docs/CNC_TOLERANCE_COUPON.md",
+    "starting blob docs/CNC_TOLERANCE_COUPON.md",
+    "unchanged docs/CONNECTOR_FIT_V32.md",
+    "starting blob docs/CONNECTOR_FIT_V32.md",
+    "unchanged docs/CONSOLIDATED_DRAWING_V32.md",
+    "starting blob docs/CONSOLIDATED_DRAWING_V32.md",
+    "unchanged docs/CORNER_RELIEF_V32.md",
+    "starting blob docs/CORNER_RELIEF_V32.md",
+    "unchanged docs/DESIGN_DECISIONS.md",
+    "starting blob docs/DESIGN_DECISIONS.md",
+    "unchanged docs/DESIGN_DECISION_021.md",
+    "starting blob docs/DESIGN_DECISION_021.md",
+    "unchanged docs/DESIGN_SIMPLIFICATION_AUDIT_V28.md",
+    "starting blob docs/DESIGN_SIMPLIFICATION_AUDIT_V28.md",
+    "unchanged docs/DIRECT_CONNECTOR_DIMENSIONS_V32.md",
+    "starting blob docs/DIRECT_CONNECTOR_DIMENSIONS_V32.md",
+    "unchanged docs/ELECTRICAL_ROUTING_V11.md",
+    "starting blob docs/ELECTRICAL_ROUTING_V11.md",
+    "unchanged docs/FIXED_REAR_SERVICES_V32.md",
+    "starting blob docs/FIXED_REAR_SERVICES_V32.md",
+    "unchanged docs/FLOOR_DETAIL_V32.md",
+    "starting blob docs/FLOOR_DETAIL_V32.md",
+    "unchanged docs/FRONT_PANEL_REVIEW_V32.md",
+    "starting blob docs/FRONT_PANEL_REVIEW_V32.md",
+    "unchanged docs/FUTURE_PROOFING.md",
+    "starting blob docs/FUTURE_PROOFING.md",
+    "unchanged docs/HARDWARE_ARRIVAL_INSPECTION_V27.md",
+    "starting blob docs/HARDWARE_ARRIVAL_INSPECTION_V27.md",
+    "unchanged docs/HARDWARE_MEASUREMENT_PACK_V25.md",
+    "starting blob docs/HARDWARE_MEASUREMENT_PACK_V25.md",
+    "unchanged docs/INTERFACES_AND_ZONES_V32.md",
+    "starting blob docs/INTERFACES_AND_ZONES_V32.md",
+    "unchanged docs/JOINERY_STUDY_V32.md",
+    "starting blob docs/JOINERY_STUDY_V32.md",
+    "unchanged docs/LANGUAGE_POLICY.md",
+    "starting blob docs/LANGUAGE_POLICY.md",
+    "unchanged docs/LICENSING_FAQ.md",
+    "starting blob docs/LICENSING_FAQ.md",
+    "unchanged docs/LIGHTING_INTENT_V32.md",
+    "starting blob docs/LIGHTING_INTENT_V32.md",
+    "unchanged docs/LOCKDOWN_BUILD_BRIEF_V32.txt",
+    "starting blob docs/LOCKDOWN_BUILD_BRIEF_V32.txt",
+    "unchanged docs/LOCKDOWN_INTERFACE_V32.md",
+    "starting blob docs/LOCKDOWN_INTERFACE_V32.md",
+    "unchanged docs/MAIN_BODY_V07.md",
+    "starting blob docs/MAIN_BODY_V07.md",
+    "unchanged docs/MATRIX_CASSETTE_V32.md",
+    "starting blob docs/MATRIX_CASSETTE_V32.md",
+    "unchanged docs/MATRIX_HINGE_STUDY_V32.md",
+    "starting blob docs/MATRIX_HINGE_STUDY_V32.md",
+    "unchanged docs/MATRIX_ROUTE_BACKBOX_AUDIT_V32.md",
+    "starting blob docs/MATRIX_ROUTE_BACKBOX_AUDIT_V32.md",
+    "unchanged docs/NOTCH_FLOOR_FANS_V32.md",
+    "starting blob docs/NOTCH_FLOOR_FANS_V32.md",
+    "unchanged docs/OPEN_SOURCE_POLICY.md",
+    "starting blob docs/OPEN_SOURCE_POLICY.md",
+    "unchanged docs/OWNER_CORRECTION_REVIEW_V32.md",
+    "starting blob docs/OWNER_CORRECTION_REVIEW_V32.md",
+    "unchanged docs/OWNER_DESIGN_CHANGE_REVIEW_V28.md",
+    "starting blob docs/OWNER_DESIGN_CHANGE_REVIEW_V28.md",
+    "unchanged docs/OWNER_EVIDENCE_PLAN_V27.md",
+    "starting blob docs/OWNER_EVIDENCE_PLAN_V27.md",
+    "unchanged docs/OWNER_MEASUREMENT_SHEETS_V27.md",
+    "starting blob docs/OWNER_MEASUREMENT_SHEETS_V27.md",
+    "unchanged docs/OWNER_PHYSICAL_CHECKLIST_V27.md",
+    "starting blob docs/OWNER_PHYSICAL_CHECKLIST_V27.md",
+    "unchanged docs/OWNER_REVIEW_V27.md",
+    "starting blob docs/OWNER_REVIEW_V27.md",
+    "unchanged docs/OWNER_VALIDATION_V27.md",
+    "starting blob docs/OWNER_VALIDATION_V27.md",
+    "unchanged docs/PANEL_CLOSURE_V32.md",
+    "starting blob docs/PANEL_CLOSURE_V32.md",
+    "unchanged docs/PART_CODES.md",
+    "starting blob docs/PART_CODES.md",
+    "unchanged docs/PART_LABELING.md",
+    "starting blob docs/PART_LABELING.md",
+    "unchanged docs/PC_SLIDE_V22.md",
+    "starting blob docs/PC_SLIDE_V22.md",
+    "unchanged docs/PHYSICAL_RESULTS_WORKSHEET_V27.md",
+    "starting blob docs/PHYSICAL_RESULTS_WORKSHEET_V27.md",
+    "unchanged docs/PHYSICAL_VALIDATION_CYCLE_AUDIT_V27.md",
+    "starting blob docs/PHYSICAL_VALIDATION_CYCLE_AUDIT_V27.md",
+    "unchanged docs/PHYSICAL_VALIDATION_PLAN_V27.md",
+    "starting blob docs/PHYSICAL_VALIDATION_PLAN_V27.md",
+    "unchanged docs/PINSCAPE_ACCELERATION_REVIEW.md",
+    "starting blob docs/PINSCAPE_ACCELERATION_REVIEW.md",
+    "unchanged docs/PINSIM_REFERENCE_REVIEW.md",
+    "starting blob docs/PINSIM_REFERENCE_REVIEW.md",
+    "unchanged docs/PLAYFIELD_DISPLAY_V16.md",
+    "starting blob docs/PLAYFIELD_DISPLAY_V16.md",
+    "unchanged docs/PLAYFIELD_FIXED_ANCHORS_V19.md",
+    "starting blob docs/PLAYFIELD_FIXED_ANCHORS_V19.md",
+    "unchanged docs/PLAYFIELD_MECHANICS_V18.md",
+    "starting blob docs/PLAYFIELD_MECHANICS_V18.md",
+    "unchanged docs/PLAYFIELD_PIVOT_V15.md",
+    "starting blob docs/PLAYFIELD_PIVOT_V15.md",
+    "unchanged docs/PLAYFIELD_V04.md",
+    "starting blob docs/PLAYFIELD_V04.md",
+    "unchanged docs/PLAYFIELD_V05.md",
+    "starting blob docs/PLAYFIELD_V05.md",
+    "unchanged docs/README.md",
+    "starting blob docs/README.md",
+    "unchanged docs/REAR_CLOSURE_STATUS_V32.md",
+    "starting blob docs/REAR_CLOSURE_STATUS_V32.md",
+    "unchanged docs/REAR_CPU_SHELF_V24.md",
+    "starting blob docs/REAR_CPU_SHELF_V24.md",
+    "unchanged docs/REAR_DOOR_V32.md",
+    "starting blob docs/REAR_DOOR_V32.md",
+    "unchanged docs/REAR_HARDWARE_V32.md",
+    "starting blob docs/REAR_HARDWARE_V32.md",
+    "unchanged docs/REAR_UTILITY_V26.md",
+    "starting blob docs/REAR_UTILITY_V26.md",
+    "unchanged docs/RENDERS.md",
+    "starting blob docs/RENDERS.md",
+    "unchanged docs/REPOSITORY_CLEANUP.md",
+    "starting blob docs/REPOSITORY_CLEANUP.md",
+    "unchanged docs/REPOSITORY_CLEANUP_AUDIT_V32.md",
+    "starting blob docs/REPOSITORY_CLEANUP_AUDIT_V32.md",
+    "unchanged docs/REVIEW_VIEWER_V32.md",
+    "starting blob docs/REVIEW_VIEWER_V32.md",
+    "unchanged docs/SERVICE_IO_V08.md",
+    "starting blob docs/SERVICE_IO_V08.md",
+    "unchanged docs/SESSION_HANDOFF_V32.md",
+    "starting blob docs/SESSION_HANDOFF_V32.md",
+    "unchanged docs/SHELF_ANCHORAGE_REVIEW_V32.md",
+    "starting blob docs/SHELF_ANCHORAGE_REVIEW_V32.md",
+    "unchanged docs/SHELF_JOINT_REFERENCE_V32.md",
+    "starting blob docs/SHELF_JOINT_REFERENCE_V32.md",
+    "unchanged docs/SHELF_RETENTION_REVIEW_V32.md",
+    "starting blob docs/SHELF_RETENTION_REVIEW_V32.md",
+    "unchanged docs/SIDE_BUTTON_OPTIONS_V32.md",
+    "starting blob docs/SIDE_BUTTON_OPTIONS_V32.md",
+    "unchanged docs/SIDE_INTERFACE_PLAN_V32.md",
+    "starting blob docs/SIDE_INTERFACE_PLAN_V32.md",
+    "unchanged docs/SIDE_MOTION_REVIEW_V32.md",
+    "starting blob docs/SIDE_MOTION_REVIEW_V32.md",
+    "unchanged docs/SIDE_PANEL_REVIEW_V32.md",
+    "starting blob docs/SIDE_PANEL_REVIEW_V32.md",
+    "unchanged docs/SIDE_REAR_CLOSURE_V32.md",
+    "starting blob docs/SIDE_REAR_CLOSURE_V32.md",
+    "unchanged docs/SIDE_SERVICE_REVIEW_V32.md",
+    "starting blob docs/SIDE_SERVICE_REVIEW_V32.md",
+    "unchanged docs/SIMPLE_SHELVES_V32.md",
+    "starting blob docs/SIMPLE_SHELVES_V32.md",
+    "unchanged docs/SIMPLIFICATION_EVIDENCE_IMPACT_V28.md",
+    "starting blob docs/SIMPLIFICATION_EVIDENCE_IMPACT_V28.md",
+    "unchanged docs/SIMPLIFICATION_V25.md",
+    "starting blob docs/SIMPLIFICATION_V25.md",
+    "unchanged docs/STRUCTURE_BUILD_MANUAL.md",
+    "starting blob docs/STRUCTURE_BUILD_MANUAL.md",
+    "unchanged docs/STRUCTURE_MATERIALS_V13.md",
+    "starting blob docs/STRUCTURE_MATERIALS_V13.md",
+    "unchanged docs/SUPPORT_LEG_CNC_V32.md",
+    "starting blob docs/SUPPORT_LEG_CNC_V32.md",
+    "unchanged docs/TAKEOVER_AUDIT_2026-09-16.md",
+    "starting blob docs/TAKEOVER_AUDIT_2026-09-16.md",
+    "unchanged docs/V04_ASSUMPTIONS.md",
+    "starting blob docs/V04_ASSUMPTIONS.md",
+    "unchanged docs/V04_CHANGELOG.md",
+    "starting blob docs/V04_CHANGELOG.md",
+    "unchanged docs/V04_README.md",
+    "starting blob docs/V04_README.md",
+    "unchanged docs/V04_STATUS.md",
+    "starting blob docs/V04_STATUS.md",
+    "unchanged docs/V04_TEST.md",
+    "starting blob docs/V04_TEST.md",
+    "unchanged docs/V11_SOURCE_NOTES.md",
+    "starting blob docs/V11_SOURCE_NOTES.md",
+    "unchanged docs/V11_STATUS.md",
+    "starting blob docs/V11_STATUS.md",
+    "unchanged docs/V32_LOCAL_AUDIT.md",
+    "starting blob docs/V32_LOCAL_AUDIT.md",
+    "unchanged docs/WOOD_DOWEL_PIVOT_V32.md",
+    "starting blob docs/WOOD_DOWEL_PIVOT_V32.md",
+    "unchanged docs/history/REAR_UTILITY_V26_COMPARISON.md",
+    "starting blob docs/history/REAR_UTILITY_V26_COMPARISON.md",
+    "unchanged docs/measurement-templates/HF-001.html",
+    "starting blob docs/measurement-templates/HF-001.html",
+    "unchanged docs/measurement-templates/HF-003.html",
+    "starting blob docs/measurement-templates/HF-003.html",
+    "unchanged docs/measurement-templates/HF-004.html",
+    "starting blob docs/measurement-templates/HF-004.html",
+    "unchanged docs/measurement-templates/HF-006.html",
+    "starting blob docs/measurement-templates/HF-006.html",
+    "unchanged docs/measurement-templates/HF-007.html",
+    "starting blob docs/measurement-templates/HF-007.html",
+    "unchanged docs/measurement-templates/HF-008.html",
+    "starting blob docs/measurement-templates/HF-008.html",
+    "unchanged docs/measurement-templates/HF-009.html",
+    "starting blob docs/measurement-templates/HF-009.html",
+    "unchanged docs/measurement-templates/HF-010.html",
+    "starting blob docs/measurement-templates/HF-010.html",
+    "unchanged docs/measurement-templates/HF-012.html",
+    "starting blob docs/measurement-templates/HF-012.html",
+    "unchanged docs/measurement-templates/HF-013.html",
+    "starting blob docs/measurement-templates/HF-013.html",
+    "unchanged docs/measurement-templates/HF-015.html",
+    "starting blob docs/measurement-templates/HF-015.html",
+    "unchanged docs/measurement-templates/HF-016.html",
+    "starting blob docs/measurement-templates/HF-016.html",
+    "unchanged docs/measurement-templates/HF-017.html",
+    "starting blob docs/measurement-templates/HF-017.html",
+    "unchanged docs/measurement-templates/HF-019.html",
+    "starting blob docs/measurement-templates/HF-019.html",
+    "unchanged docs/measurement-templates/HF-020.html",
+    "starting blob docs/measurement-templates/HF-020.html",
+    "unchanged docs/measurement-templates/HF-021.html",
+    "starting blob docs/measurement-templates/HF-021.html",
+    "unchanged docs/measurement-templates/HF-022.html",
+    "starting blob docs/measurement-templates/HF-022.html",
+    "unchanged docs/measurement-templates/HF-026.html",
+    "starting blob docs/measurement-templates/HF-026.html",
+    "unchanged docs/measurement-templates/HF-027.html",
+    "starting blob docs/measurement-templates/HF-027.html",
+    "unchanged docs/measurement-templates/HF-028.html",
+    "starting blob docs/measurement-templates/HF-028.html",
+    "unchanged docs/measurement-templates/HF-029.html",
+    "starting blob docs/measurement-templates/HF-029.html",
+    "unchanged docs/measurement-templates/HF-030.html",
+    "starting blob docs/measurement-templates/HF-030.html",
+    "unchanged docs/pt-BR/CABINET_JOINERY_PROPOSAL.md",
+    "starting blob docs/pt-BR/CABINET_JOINERY_PROPOSAL.md",
+    "unchanged docs/pt-BR/FRONT_PANEL_REVIEW_V32.md",
+    "starting blob docs/pt-BR/FRONT_PANEL_REVIEW_V32.md",
+    "unchanged docs/pt-BR/INTERFACES_AND_ZONES_V32.md",
+    "starting blob docs/pt-BR/INTERFACES_AND_ZONES_V32.md",
+    "unchanged docs/pt-BR/JOINERY_STUDY_V32.md",
+    "starting blob docs/pt-BR/JOINERY_STUDY_V32.md",
+    "unchanged docs/pt-BR/LANGUAGE_POLICY.md",
+    "starting blob docs/pt-BR/LANGUAGE_POLICY.md",
+    "unchanged docs/pt-BR/LIGHTING_INTENT_V32.md",
+    "starting blob docs/pt-BR/LIGHTING_INTENT_V32.md",
+    "unchanged docs/pt-BR/PANEL_CLOSURE_V32.md",
+    "starting blob docs/pt-BR/PANEL_CLOSURE_V32.md",
+    "unchanged docs/pt-BR/PART_CODES.md",
+    "starting blob docs/pt-BR/PART_CODES.md",
+    "unchanged docs/pt-BR/PINSCAPE_ACCELERATION_REVIEW.md",
+    "starting blob docs/pt-BR/PINSCAPE_ACCELERATION_REVIEW.md",
+    "unchanged docs/pt-BR/PINSIM_REFERENCE_REVIEW.md",
+    "starting blob docs/pt-BR/PINSIM_REFERENCE_REVIEW.md",
+    "unchanged docs/pt-BR/README.md",
+    "starting blob docs/pt-BR/README.md",
+    "unchanged docs/pt-BR/RENDERS.md",
+    "starting blob docs/pt-BR/RENDERS.md",
+    "unchanged docs/pt-BR/SHELF_ANCHORAGE_REVIEW_V32.md",
+    "starting blob docs/pt-BR/SHELF_ANCHORAGE_REVIEW_V32.md",
+    "unchanged docs/pt-BR/SHELF_RETENTION_REVIEW_V32.md",
+    "starting blob docs/pt-BR/SHELF_RETENTION_REVIEW_V32.md",
+    "unchanged docs/pt-BR/SIDE_MOTION_REVIEW_V32.md",
+    "starting blob docs/pt-BR/SIDE_MOTION_REVIEW_V32.md",
+    "unchanged docs/pt-BR/SIDE_PANEL_REVIEW_V32.md",
+    "starting blob docs/pt-BR/SIDE_PANEL_REVIEW_V32.md",
+    "unchanged docs/pt-BR/SIMPLE_SHELVES_V32.md",
+    "starting blob docs/pt-BR/SIMPLE_SHELVES_V32.md",
+    "unchanged docs/pt-BR/V32_LOCAL_AUDIT.md",
+    "starting blob docs/pt-BR/V32_LOCAL_AUDIT.md",
+    "unchanged docs/reference-baseline.md",
+    "starting blob docs/reference-baseline.md",
+    "unchanged docs/requirements.md",
+    "starting blob docs/requirements.md",
+    "unchanged docs/vendors.md",
+    "starting blob docs/vendors.md",
+    "unchanged drawings/PF-PIVOT-PLATE-001-R1.md",
+    "starting blob drawings/PF-PIVOT-PLATE-001-R1.md",
+    "unchanged exports/generated/backbox-floor-v32/01-old-upright-collision.png",
+    "starting blob exports/generated/backbox-floor-v32/01-old-upright-collision.png",
+    "unchanged exports/generated/backbox-floor-v32/02-corrected-floor-alone.png",
+    "starting blob exports/generated/backbox-floor-v32/02-corrected-floor-alone.png",
+    "unchanged exports/generated/backbox-floor-v32/03-old-new-floor-overlay.png",
+    "starting blob exports/generated/backbox-floor-v32/03-old-new-floor-overlay.png",
+    "unchanged exports/generated/backbox-floor-v32/04-corrected-upright.png",
+    "starting blob exports/generated/backbox-floor-v32/04-corrected-upright.png",
+    "unchanged exports/generated/backbox-floor-v32/05-glass-channel-clearance.png",
+    "starting blob exports/generated/backbox-floor-v32/05-glass-channel-clearance.png",
+    "unchanged exports/generated/backbox-floor-v32/06-rear-shelf-bearing.png",
+    "starting blob exports/generated/backbox-floor-v32/06-rear-shelf-bearing.png",
+    "unchanged exports/generated/backbox-floor-v32/07-preserved-hinge-lock-cable-zones.png",
+    "starting blob exports/generated/backbox-floor-v32/07-preserved-hinge-lock-cable-zones.png",
+    "unchanged exports/generated/backbox-floor-v32/08-first-fold-bottleneck.png",
+    "starting blob exports/generated/backbox-floor-v32/08-first-fold-bottleneck.png",
+    "unchanged exports/generated/backbox-floor-v32/LICENSE",
+    "starting blob exports/generated/backbox-floor-v32/LICENSE",
+    "unchanged exports/generated/backbox-floor-v32/NOTICE.md",
+    "starting blob exports/generated/backbox-floor-v32/NOTICE.md",
+    "unchanged exports/generated/backbox-floor-v32/corrected-upright.FCStd",
+    "starting blob exports/generated/backbox-floor-v32/corrected-upright.FCStd",
+    "unchanged exports/generated/backbox-floor-v32/first-bottleneck.FCStd",
+    "starting blob exports/generated/backbox-floor-v32/first-bottleneck.FCStd",
+    "unchanged exports/generated/backbox-floor-v32/mesh.json",
+    "starting blob exports/generated/backbox-floor-v32/mesh.json",
+    "unchanged exports/generated/backbox-floor-v32/regression-validation.json",
+    "starting blob exports/generated/backbox-floor-v32/regression-validation.json",
+    "unchanged exports/generated/backbox-floor-v32/review-images.json",
+    "starting blob exports/generated/backbox-floor-v32/review-images.json",
+    "unchanged exports/generated/backbox-floor-v32/validation.json",
+    "starting blob exports/generated/backbox-floor-v32/validation.json",
+    "unchanged exports/generated/backbox-profile-v32/01-old-v14-side.png",
+    "starting blob exports/generated/backbox-profile-v32/01-old-v14-side.png",
+    "unchanged exports/generated/backbox-profile-v32/02-candidate-210-side.png",
+    "starting blob exports/generated/backbox-profile-v32/02-candidate-210-side.png",
+    "unchanged exports/generated/backbox-profile-v32/03-200-190-180-comparison.png",
+    "starting blob exports/generated/backbox-profile-v32/03-200-190-180-comparison.png",
+    "unchanged exports/generated/backbox-profile-v32/04-side-profile-overlay.png",
+    "starting blob exports/generated/backbox-profile-v32/04-side-profile-overlay.png",
+    "unchanged exports/generated/backbox-profile-v32/06-candidate-floors-no-selection.png",
+    "starting blob exports/generated/backbox-profile-v32/06-candidate-floors-no-selection.png",
+    "unchanged exports/generated/backbox-profile-v32/08-shelf-lower-backbox-relation.png",
+    "starting blob exports/generated/backbox-profile-v32/08-shelf-lower-backbox-relation.png",
+    "unchanged exports/generated/backbox-profile-v32/09-hinge-bearing-relationship.png",
+    "starting blob exports/generated/backbox-profile-v32/09-hinge-bearing-relationship.png",
+    "unchanged exports/generated/backbox-profile-v32/10-l-future-toy-zones.png",
+    "starting blob exports/generated/backbox-profile-v32/10-l-future-toy-zones.png",
+    "unchanged exports/generated/backbox-profile-v32/11-r-future-toy-zones.png",
+    "starting blob exports/generated/backbox-profile-v32/11-r-future-toy-zones.png",
+    "unchanged exports/generated/backbox-profile-v32/12-rear-removable-board-zone.png",
+    "starting blob exports/generated/backbox-profile-v32/12-rear-removable-board-zone.png",
+    "unchanged exports/generated/backbox-profile-v32/13-mass-cg-planning.png",
+    "starting blob exports/generated/backbox-profile-v32/13-mass-cg-planning.png",
+    "unchanged exports/generated/backbox-profile-v32/18-architecture-comparison-no-selection.png",
+    "starting blob exports/generated/backbox-profile-v32/18-architecture-comparison-no-selection.png",
+    "unchanged exports/generated/backbox-profile-v32/LICENSE",
+    "starting blob exports/generated/backbox-profile-v32/LICENSE",
+    "unchanged exports/generated/backbox-profile-v32/NOTICE.md",
+    "starting blob exports/generated/backbox-profile-v32/NOTICE.md",
+    "unchanged exports/generated/backbox-profile-v32/candidate-180.FCStd",
+    "starting blob exports/generated/backbox-profile-v32/candidate-180.FCStd",
+    "unchanged exports/generated/backbox-profile-v32/candidate-190.FCStd",
+    "starting blob exports/generated/backbox-profile-v32/candidate-190.FCStd",
+    "unchanged exports/generated/backbox-profile-v32/candidate-200.FCStd",
+    "starting blob exports/generated/backbox-profile-v32/candidate-200.FCStd",
+    "unchanged exports/generated/backbox-profile-v32/candidate-210.FCStd",
+    "starting blob exports/generated/backbox-profile-v32/candidate-210.FCStd",
+    "unchanged exports/generated/backbox-profile-v32/mesh.json",
+    "starting blob exports/generated/backbox-profile-v32/mesh.json",
+    "unchanged exports/generated/backbox-profile-v32/regression-validation.json",
+    "starting blob exports/generated/backbox-profile-v32/regression-validation.json",
+    "unchanged exports/generated/backbox-profile-v32/review-images.json",
+    "starting blob exports/generated/backbox-profile-v32/review-images.json",
+    "unchanged exports/generated/backbox-profile-v32/validation.json",
+    "starting blob exports/generated/backbox-profile-v32/validation.json",
+    "unchanged exports/generated/cabinet-v32/01-interior.png",
+    "starting blob exports/generated/cabinet-v32/01-interior.png",
+    "unchanged exports/generated/cabinet-v32/02-travessas.png",
+    "starting blob exports/generated/cabinet-v32/02-travessas.png",
+    "unchanged exports/generated/cabinet-v32/03-planta.png",
+    "starting blob exports/generated/cabinet-v32/03-planta.png",
+    "unchanged exports/generated/cabinet-v32/04-traseira.png",
+    "starting blob exports/generated/cabinet-v32/04-traseira.png",
+    "unchanged exports/generated/cabinet-v32/05-encaixe.png",
+    "starting blob exports/generated/cabinet-v32/05-encaixe.png",
+    "unchanged exports/generated/cabinet-v32/06-frente.png",
+    "starting blob exports/generated/cabinet-v32/06-frente.png",
+    "unchanged exports/generated/cabinet-v32/LICENSE",
+    "starting blob exports/generated/cabinet-v32/LICENSE",
+    "unchanged exports/generated/cabinet-v32/NOTICE.md",
+    "starting blob exports/generated/cabinet-v32/NOTICE.md",
+    "unchanged exports/generated/cabinet-v32/PECAS-PARTS.md",
+    "starting blob exports/generated/cabinet-v32/PECAS-PARTS.md",
+    "unchanged exports/generated/cabinet-v32/PECAS-PARTS.pt-BR.md",
+    "starting blob exports/generated/cabinet-v32/PECAS-PARTS.pt-BR.md",
+    "unchanged exports/generated/cabinet-v32/README.md",
+    "starting blob exports/generated/cabinet-v32/README.md",
+    "unchanged exports/generated/cabinet-v32/README.pt-BR.md",
+    "starting blob exports/generated/cabinet-v32/README.pt-BR.md",
+    "unchanged exports/generated/cabinet-v32/build_v32.py",
+    "starting blob exports/generated/cabinet-v32/build_v32.py",
+    "unchanged exports/generated/cabinet-v32/geometry.json",
+    "starting blob exports/generated/cabinet-v32/geometry.json",
+    "unchanged exports/generated/cabinet-v32/render_v32.py",
+    "starting blob exports/generated/cabinet-v32/render_v32.py",
+    "unchanged exports/generated/cabinet-v32/validation.json",
+    "starting blob exports/generated/cabinet-v32/validation.json",
+    "unchanged exports/generated/cabinet-v32/vpin-central-v32.FCStd",
+    "starting blob exports/generated/cabinet-v32/vpin-central-v32.FCStd",
+    "unchanged exports/generated/cabinet-v32/vpin-central-v32.step",
+    "starting blob exports/generated/cabinet-v32/vpin-central-v32.step",
+    "unchanged exports/generated/connector-fit-v32/LICENSE",
+    "starting blob exports/generated/connector-fit-v32/LICENSE",
+    "unchanged exports/generated/connector-fit-v32/NOTICE.md",
+    "starting blob exports/generated/connector-fit-v32/NOTICE.md",
+    "unchanged exports/generated/connector-fit-v32/connector-coupon-mm.dxf",
+    "starting blob exports/generated/connector-fit-v32/connector-coupon-mm.dxf",
+    "unchanged exports/generated/connector-fit-v32/connector-coupon.FCStd",
+    "starting blob exports/generated/connector-fit-v32/connector-coupon.FCStd",
+    "unchanged exports/generated/connector-fit-v32/connector-coupon.svg",
+    "starting blob exports/generated/connector-fit-v32/connector-coupon.svg",
+    "unchanged exports/generated/connector-fit-v32/validation.json",
+    "starting blob exports/generated/connector-fit-v32/validation.json",
+    "unchanged exports/generated/consolidated-v32/01-consolidated-interior.png",
+    "starting blob exports/generated/consolidated-v32/01-consolidated-interior.png",
+    "unchanged exports/generated/consolidated-v32/LICENSE",
+    "starting blob exports/generated/consolidated-v32/LICENSE",
+    "unchanged exports/generated/consolidated-v32/NOTICE.md",
+    "starting blob exports/generated/consolidated-v32/NOTICE.md",
+    "unchanged exports/generated/consolidated-v32/README.txt",
+    "starting blob exports/generated/consolidated-v32/README.txt",
+    "unchanged exports/generated/consolidated-v32/cabinet-v32-consolidated.FCStd",
+    "starting blob exports/generated/consolidated-v32/cabinet-v32-consolidated.FCStd",
+    "unchanged exports/generated/consolidated-v32/cabinet-v32-consolidated.step",
+    "starting blob exports/generated/consolidated-v32/cabinet-v32-consolidated.step",
+    "unchanged exports/generated/consolidated-v32/floor-draft-mm.dxf",
+    "starting blob exports/generated/consolidated-v32/floor-draft-mm.dxf",
+    "unchanged exports/generated/consolidated-v32/floor-operations.json",
+    "starting blob exports/generated/consolidated-v32/floor-operations.json",
+    "unchanged exports/generated/consolidated-v32/manifest.json",
+    "starting blob exports/generated/consolidated-v32/manifest.json",
+    "unchanged exports/generated/consolidated-v32/mesh.json",
+    "starting blob exports/generated/consolidated-v32/mesh.json",
+    "unchanged exports/generated/consolidated-v32/v32-desenho-consolidado.zip",
+    "starting blob exports/generated/consolidated-v32/v32-desenho-consolidado.zip",
+    "unchanged exports/generated/consolidated-v32/validation.json",
+    "starting blob exports/generated/consolidated-v32/validation.json",
+    "unchanged exports/generated/corner-relief-v32/LICENSE",
+    "starting blob exports/generated/corner-relief-v32/LICENSE",
+    "unchanged exports/generated/corner-relief-v32/NOTICE.md",
+    "starting blob exports/generated/corner-relief-v32/NOTICE.md",
+    "unchanged exports/generated/corner-relief-v32/natural-guide-corners.FCStd",
+    "starting blob exports/generated/corner-relief-v32/natural-guide-corners.FCStd",
+    "unchanged exports/generated/corner-relief-v32/validation.json",
+    "starting blob exports/generated/corner-relief-v32/validation.json",
+    "unchanged exports/generated/fixed-rear-services-v32/01-fixed-rear-and-floor.png",
+    "starting blob exports/generated/fixed-rear-services-v32/01-fixed-rear-and-floor.png",
+    "unchanged exports/generated/fixed-rear-services-v32/LICENSE",
+    "starting blob exports/generated/fixed-rear-services-v32/LICENSE",
+    "unchanged exports/generated/fixed-rear-services-v32/NOTICE.md",
+    "starting blob exports/generated/fixed-rear-services-v32/NOTICE.md",
+    "unchanged exports/generated/fixed-rear-services-v32/closed.FCStd",
+    "starting blob exports/generated/fixed-rear-services-v32/closed.FCStd",
+    "unchanged exports/generated/fixed-rear-services-v32/open110.FCStd",
+    "starting blob exports/generated/fixed-rear-services-v32/open110.FCStd",
+    "unchanged exports/generated/fixed-rear-services-v32/open90.FCStd",
+    "starting blob exports/generated/fixed-rear-services-v32/open90.FCStd",
+    "unchanged exports/generated/fixed-rear-services-v32/validation.json",
+    "starting blob exports/generated/fixed-rear-services-v32/validation.json",
+    "unchanged exports/generated/floor-detail-v32/LICENSE",
+    "starting blob exports/generated/floor-detail-v32/LICENSE",
+    "unchanged exports/generated/floor-detail-v32/NOTICE.md",
+    "starting blob exports/generated/floor-detail-v32/NOTICE.md",
+    "unchanged exports/generated/floor-detail-v32/floor-detail.FCStd",
+    "starting blob exports/generated/floor-detail-v32/floor-detail.FCStd",
+    "unchanged exports/generated/floor-detail-v32/validation.json",
+    "starting blob exports/generated/floor-detail-v32/validation.json",
+    "unchanged exports/generated/front-panel-v32/01-front-review.png",
+    "starting blob exports/generated/front-panel-v32/01-front-review.png",
+    "unchanged exports/generated/front-panel-v32/02-coin-door-configurations.png",
+    "starting blob exports/generated/front-panel-v32/02-coin-door-configurations.png",
+    "unchanged exports/generated/front-panel-v32/03-coin-door-clearances.png",
+    "starting blob exports/generated/front-panel-v32/03-coin-door-clearances.png",
+    "unchanged exports/generated/front-panel-v32/LICENSE",
+    "starting blob exports/generated/front-panel-v32/LICENSE",
+    "unchanged exports/generated/front-panel-v32/NOTICE.md",
+    "starting blob exports/generated/front-panel-v32/NOTICE.md",
+    "unchanged exports/generated/front-panel-v32/coin-basic-closed.FCStd",
+    "starting blob exports/generated/front-panel-v32/coin-basic-closed.FCStd",
+    "unchanged exports/generated/front-panel-v32/coin-door-meshes.json",
+    "starting blob exports/generated/front-panel-v32/coin-door-meshes.json",
+    "unchanged exports/generated/front-panel-v32/coin-door-validation.json",
+    "starting blob exports/generated/front-panel-v32/coin-door-validation.json",
+    "unchanged exports/generated/front-panel-v32/coin-upgrade-closed.FCStd",
+    "starting blob exports/generated/front-panel-v32/coin-upgrade-closed.FCStd",
+    "unchanged exports/generated/front-panel-v32/coin-upgrade-open.FCStd",
+    "starting blob exports/generated/front-panel-v32/coin-upgrade-open.FCStd",
+    "unchanged exports/generated/front-panel-v32/front-layout-proposal.FCStd",
+    "starting blob exports/generated/front-panel-v32/front-layout-proposal.FCStd",
+    "unchanged exports/generated/front-panel-v32/validation.json",
+    "starting blob exports/generated/front-panel-v32/validation.json",
+    "unchanged exports/generated/joinery-study-v32/01-joint-sections.png",
+    "starting blob exports/generated/joinery-study-v32/01-joint-sections.png",
+    "unchanged exports/generated/joinery-study-v32/02-exploded-shell.png",
+    "starting blob exports/generated/joinery-study-v32/02-exploded-shell.png",
+    "unchanged exports/generated/joinery-study-v32/03-change-summary.png",
+    "starting blob exports/generated/joinery-study-v32/03-change-summary.png",
+    "unchanged exports/generated/joinery-study-v32/LICENSE",
+    "starting blob exports/generated/joinery-study-v32/LICENSE",
+    "unchanged exports/generated/joinery-study-v32/NOTICE.md",
+    "starting blob exports/generated/joinery-study-v32/NOTICE.md",
+    "unchanged exports/generated/joinery-study-v32/README.md",
+    "starting blob exports/generated/joinery-study-v32/README.md",
+    "unchanged exports/generated/joinery-study-v32/captured-shell-proposal.FCStd",
+    "starting blob exports/generated/joinery-study-v32/captured-shell-proposal.FCStd",
+    "unchanged exports/generated/joinery-study-v32/geometry.json",
+    "starting blob exports/generated/joinery-study-v32/geometry.json",
+    "unchanged exports/generated/joinery-study-v32/sections.json",
+    "starting blob exports/generated/joinery-study-v32/sections.json",
+    "unchanged exports/generated/joinery-study-v32/validation.json",
+    "starting blob exports/generated/joinery-study-v32/validation.json",
+    "unchanged exports/generated/lighting-study-v32/01-layout.png",
+    "starting blob exports/generated/lighting-study-v32/01-layout.png",
+    "unchanged exports/generated/lighting-study-v32/LICENSE",
+    "starting blob exports/generated/lighting-study-v32/LICENSE",
+    "unchanged exports/generated/lighting-study-v32/NOTICE.md",
+    "starting blob exports/generated/lighting-study-v32/NOTICE.md",
+    "unchanged exports/generated/lighting-study-v32/layout.json",
+    "starting blob exports/generated/lighting-study-v32/layout.json",
+    "unchanged exports/generated/lockdown-interface-v32/LICENSE",
+    "starting blob exports/generated/lockdown-interface-v32/LICENSE",
+    "unchanged exports/generated/lockdown-interface-v32/NOTICE.md",
+    "starting blob exports/generated/lockdown-interface-v32/NOTICE.md",
+    "unchanged exports/generated/lockdown-interface-v32/validation.json",
+    "starting blob exports/generated/lockdown-interface-v32/validation.json",
+    "unchanged exports/generated/matrix-cassette-v32/01-matrix-installed-player.png",
+    "starting blob exports/generated/matrix-cassette-v32/01-matrix-installed-player.png",
+    "unchanged exports/generated/matrix-cassette-v32/02-matrix-installed-side.png",
+    "starting blob exports/generated/matrix-cassette-v32/02-matrix-installed-side.png",
+    "unchanged exports/generated/matrix-cassette-v32/03-retention-detail.png",
+    "starting blob exports/generated/matrix-cassette-v32/03-retention-detail.png",
+    "unchanged exports/generated/matrix-cassette-v32/04-matrix-unlock.png",
+    "starting blob exports/generated/matrix-cassette-v32/04-matrix-unlock.png",
+    "unchanged exports/generated/matrix-cassette-v32/05-matrix-forward.png",
+    "starting blob exports/generated/matrix-cassette-v32/05-matrix-forward.png",
+    "unchanged exports/generated/matrix-cassette-v32/06-matrix-extraction.png",
+    "starting blob exports/generated/matrix-cassette-v32/06-matrix-extraction.png",
+    "unchanged exports/generated/matrix-cassette-v32/07-matrix-removed.png",
+    "starting blob exports/generated/matrix-cassette-v32/07-matrix-removed.png",
+    "unchanged exports/generated/matrix-cassette-v32/08-playfield-service-matrix-removed.png",
+    "starting blob exports/generated/matrix-cassette-v32/08-playfield-service-matrix-removed.png",
+    "unchanged exports/generated/matrix-cassette-v32/09-backbox-fold-matrix-removed.png",
+    "starting blob exports/generated/matrix-cassette-v32/09-backbox-fold-matrix-removed.png",
+    "unchanged exports/generated/matrix-cassette-v32/10-exploded-matrix-cassette.png",
+    "starting blob exports/generated/matrix-cassette-v32/10-exploded-matrix-cassette.png",
+    "unchanged exports/generated/matrix-cassette-v32/LICENSE",
+    "starting blob exports/generated/matrix-cassette-v32/LICENSE",
+    "unchanged exports/generated/matrix-cassette-v32/NOTICE.md",
+    "starting blob exports/generated/matrix-cassette-v32/NOTICE.md",
+    "unchanged exports/generated/matrix-cassette-v32/after-removal-motion.json",
+    "starting blob exports/generated/matrix-cassette-v32/after-removal-motion.json",
+    "unchanged exports/generated/matrix-cassette-v32/backbox-fold.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/backbox-fold.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/exploded.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/exploded.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/lift-out.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/lift-out.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/matrix-exploded.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/matrix-exploded.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/matrix-extraction.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/matrix-extraction.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/matrix-forward.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/matrix-forward.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/matrix-installed.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/matrix-installed.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/matrix-removed.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/matrix-removed.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/matrix-unlock.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/matrix-unlock.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/mesh.json",
+    "starting blob exports/generated/matrix-cassette-v32/mesh.json",
+    "unchanged exports/generated/matrix-cassette-v32/play.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/play.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/playfield-service.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/playfield-service.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/regression-validation.json",
+    "starting blob exports/generated/matrix-cassette-v32/regression-validation.json",
+    "unchanged exports/generated/matrix-cassette-v32/removal-route-limits.json",
+    "starting blob exports/generated/matrix-cassette-v32/removal-route-limits.json",
+    "unchanged exports/generated/matrix-cassette-v32/review-images.json",
+    "starting blob exports/generated/matrix-cassette-v32/review-images.json",
+    "unchanged exports/generated/matrix-cassette-v32/service.FCStd",
+    "starting blob exports/generated/matrix-cassette-v32/service.FCStd",
+    "unchanged exports/generated/matrix-cassette-v32/validation.json",
+    "starting blob exports/generated/matrix-cassette-v32/validation.json",
+    "unchanged exports/generated/matrix-cassette-v32/viewer-validation.json",
+    "starting blob exports/generated/matrix-cassette-v32/viewer-validation.json",
+    "unchanged exports/generated/matrix-hinge-study-v32/01-candidate.png",
+    "starting blob exports/generated/matrix-hinge-study-v32/01-candidate.png",
+    "unchanged exports/generated/matrix-hinge-study-v32/02-candidate.png",
+    "starting blob exports/generated/matrix-hinge-study-v32/02-candidate.png",
+    "unchanged exports/generated/matrix-hinge-study-v32/03-candidate.png",
+    "starting blob exports/generated/matrix-hinge-study-v32/03-candidate.png",
+    "unchanged exports/generated/matrix-hinge-study-v32/04-candidate.png",
+    "starting blob exports/generated/matrix-hinge-study-v32/04-candidate.png",
+    "unchanged exports/generated/matrix-hinge-study-v32/05-player-eye-comparison.png",
+    "starting blob exports/generated/matrix-hinge-study-v32/05-player-eye-comparison.png",
+    "unchanged exports/generated/matrix-hinge-study-v32/06-side-section.png",
+    "starting blob exports/generated/matrix-hinge-study-v32/06-side-section.png",
+    "unchanged exports/generated/matrix-hinge-study-v32/07-service.png",
+    "starting blob exports/generated/matrix-hinge-study-v32/07-service.png",
+    "unchanged exports/generated/matrix-hinge-study-v32/08-lift-out.png",
+    "starting blob exports/generated/matrix-hinge-study-v32/08-lift-out.png",
+    "unchanged exports/generated/matrix-hinge-study-v32/09-matrix-removal.png",
+    "starting blob exports/generated/matrix-hinge-study-v32/09-matrix-removal.png",
+    "unchanged exports/generated/matrix-hinge-study-v32/10-hinge-datums.png",
+    "starting blob exports/generated/matrix-hinge-study-v32/10-hinge-datums.png",
+    "unchanged exports/generated/matrix-hinge-study-v32/LICENSE",
+    "starting blob exports/generated/matrix-hinge-study-v32/LICENSE",
+    "unchanged exports/generated/matrix-hinge-study-v32/NOTICE.md",
+    "starting blob exports/generated/matrix-hinge-study-v32/NOTICE.md",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-10.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-10.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-15.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-15.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-20.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-20.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-25.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-25.4000-tilt-25.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-30.6431-tilt-10.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-30.6431-tilt-10.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-31.4219-tilt-15.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-31.4219-tilt-15.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-32.9255-tilt-20.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-32.9255-tilt-20.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-35.1424-tilt-25.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-35.1424-tilt-25.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-10.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-10.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-15.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-15.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-20.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-20.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-25.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-38.1000-tilt-25.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-10.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-10.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-15.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-15.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-20.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-20.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-25.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/gap-50.8000-tilt-25.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/lift-out.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/lift-out.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/matrix-removal.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/matrix-removal.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/pose-validation.json",
+    "starting blob exports/generated/matrix-hinge-study-v32/pose-validation.json",
+    "unchanged exports/generated/matrix-hinge-study-v32/regression-validation.json",
+    "starting blob exports/generated/matrix-hinge-study-v32/regression-validation.json",
+    "unchanged exports/generated/matrix-hinge-study-v32/service.FCStd",
+    "starting blob exports/generated/matrix-hinge-study-v32/service.FCStd",
+    "unchanged exports/generated/matrix-hinge-study-v32/study-mesh.json",
+    "starting blob exports/generated/matrix-hinge-study-v32/study-mesh.json",
+    "unchanged exports/generated/matrix-hinge-study-v32/validation.json",
+    "starting blob exports/generated/matrix-hinge-study-v32/validation.json",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/01-upright-actual-backbox-wood.png",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/01-upright-actual-backbox-wood.png",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/02-coarse-envelope-comparison.png",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/02-coarse-envelope-comparison.png",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/03-pivot-datum-close-up.png",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/03-pivot-datum-close-up.png",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/04-first-real-interface-problem.png",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/04-first-real-interface-problem.png",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/05-45-degree-diagnostic.png",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/05-45-degree-diagnostic.png",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/06-90-degree-diagnostic.png",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/06-90-degree-diagnostic.png",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/07-display-separated-from-wood.png",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/07-display-separated-from-wood.png",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/08-stationary-matrix-supports-zero-only.png",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/08-stationary-matrix-supports-zero-only.png",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/LICENSE",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/LICENSE",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/NOTICE.md",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/NOTICE.md",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/audit-mesh.json",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/audit-mesh.json",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/backbox-source-audit.FCStd",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/backbox-source-audit.FCStd",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/diagnostic_45_not_validated.FCStd",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/diagnostic_45_not_validated.FCStd",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/diagnostic_90_not_validated.FCStd",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/diagnostic_90_not_validated.FCStd",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/regression-validation.json",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/regression-validation.json",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/review-images.json",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/review-images.json",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/route-screen.json",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/route-screen.json",
+    "unchanged exports/generated/matrix-route-backbox-audit-v32/validation.json",
+    "starting blob exports/generated/matrix-route-backbox-audit-v32/validation.json",
+    "unchanged exports/generated/notch-floor-fans-v32/01-playfield-notch-top.png",
+    "starting blob exports/generated/notch-floor-fans-v32/01-playfield-notch-top.png",
+    "unchanged exports/generated/notch-floor-fans-v32/02-playfield-notch-underside.png",
+    "starting blob exports/generated/notch-floor-fans-v32/02-playfield-notch-underside.png",
+    "unchanged exports/generated/notch-floor-fans-v32/03-left-button-clearance.png",
+    "starting blob exports/generated/notch-floor-fans-v32/03-left-button-clearance.png",
+    "unchanged exports/generated/notch-floor-fans-v32/04-right-button-clearance.png",
+    "starting blob exports/generated/notch-floor-fans-v32/04-right-button-clearance.png",
+    "unchanged exports/generated/notch-floor-fans-v32/05-notch-before-after.png",
+    "starting blob exports/generated/notch-floor-fans-v32/05-notch-before-after.png",
+    "unchanged exports/generated/notch-floor-fans-v32/06-floor-fan-top.png",
+    "starting blob exports/generated/notch-floor-fans-v32/06-floor-fan-top.png",
+    "unchanged exports/generated/notch-floor-fans-v32/07-floor-fan-underside-filters.png",
+    "starting blob exports/generated/notch-floor-fans-v32/07-floor-fan-underside-filters.png",
+    "unchanged exports/generated/notch-floor-fans-v32/08-floor-fan-equipment-clearance.png",
+    "starting blob exports/generated/notch-floor-fans-v32/08-floor-fan-equipment-clearance.png",
+    "unchanged exports/generated/notch-floor-fans-v32/09-full-cabinet-airflow-path.png",
+    "starting blob exports/generated/notch-floor-fans-v32/09-full-cabinet-airflow-path.png",
+    "unchanged exports/generated/notch-floor-fans-v32/10-floor-before-after.png",
+    "starting blob exports/generated/notch-floor-fans-v32/10-floor-before-after.png",
+    "unchanged exports/generated/notch-floor-fans-v32/LICENSE",
+    "starting blob exports/generated/notch-floor-fans-v32/LICENSE",
+    "unchanged exports/generated/notch-floor-fans-v32/NOTICE.md",
+    "starting blob exports/generated/notch-floor-fans-v32/NOTICE.md",
+    "unchanged exports/generated/notch-floor-fans-v32/before.json",
+    "starting blob exports/generated/notch-floor-fans-v32/before.json",
+    "unchanged exports/generated/notch-floor-fans-v32/current-v32.step",
+    "starting blob exports/generated/notch-floor-fans-v32/current-v32.step",
+    "unchanged exports/generated/notch-floor-fans-v32/diagnostic.json",
+    "starting blob exports/generated/notch-floor-fans-v32/diagnostic.json",
+    "unchanged exports/generated/notch-floor-fans-v32/exploded.FCStd",
+    "starting blob exports/generated/notch-floor-fans-v32/exploded.FCStd",
+    "unchanged exports/generated/notch-floor-fans-v32/lift-out.FCStd",
+    "starting blob exports/generated/notch-floor-fans-v32/lift-out.FCStd",
+    "unchanged exports/generated/notch-floor-fans-v32/mesh.json",
+    "starting blob exports/generated/notch-floor-fans-v32/mesh.json",
+    "unchanged exports/generated/notch-floor-fans-v32/play.FCStd",
+    "starting blob exports/generated/notch-floor-fans-v32/play.FCStd",
+    "unchanged exports/generated/notch-floor-fans-v32/service.FCStd",
+    "starting blob exports/generated/notch-floor-fans-v32/service.FCStd",
+    "unchanged exports/generated/notch-floor-fans-v32/validation.json",
+    "starting blob exports/generated/notch-floor-fans-v32/validation.json",
+    "unchanged exports/generated/notch-floor-fans-v32/viewer-validation.json",
+    "starting blob exports/generated/notch-floor-fans-v32/viewer-validation.json",
+    "unchanged exports/generated/panel-closure-v32/01-side-rear-interfaces.png",
+    "starting blob exports/generated/panel-closure-v32/01-side-rear-interfaces.png",
+    "unchanged exports/generated/panel-closure-v32/LICENSE",
+    "starting blob exports/generated/panel-closure-v32/LICENSE",
+    "unchanged exports/generated/panel-closure-v32/NOTICE.md",
+    "starting blob exports/generated/panel-closure-v32/NOTICE.md",
+    "unchanged exports/generated/panel-closure-v32/mesh.json",
+    "starting blob exports/generated/panel-closure-v32/mesh.json",
+    "unchanged exports/generated/panel-closure-v32/panel-closure-study.FCStd",
+    "starting blob exports/generated/panel-closure-v32/panel-closure-study.FCStd",
+    "unchanged exports/generated/panel-closure-v32/validation.json",
+    "starting blob exports/generated/panel-closure-v32/validation.json",
+    "unchanged exports/generated/rear-door-v32/01-keyed-rear-door.png",
+    "starting blob exports/generated/rear-door-v32/01-keyed-rear-door.png",
+    "unchanged exports/generated/rear-door-v32/LICENSE",
+    "starting blob exports/generated/rear-door-v32/LICENSE",
+    "unchanged exports/generated/rear-door-v32/NOTICE.md",
+    "starting blob exports/generated/rear-door-v32/NOTICE.md",
+    "unchanged exports/generated/rear-door-v32/mesh.json",
+    "starting blob exports/generated/rear-door-v32/mesh.json",
+    "unchanged exports/generated/rear-door-v32/rear-door-closed.FCStd",
+    "starting blob exports/generated/rear-door-v32/rear-door-closed.FCStd",
+    "unchanged exports/generated/rear-door-v32/rear-door-open.FCStd",
+    "starting blob exports/generated/rear-door-v32/rear-door-open.FCStd",
+    "unchanged exports/generated/rear-door-v32/validation.json",
+    "starting blob exports/generated/rear-door-v32/validation.json",
+    "unchanged exports/generated/rear-hardware-v32/01-rear-hardware.png",
+    "starting blob exports/generated/rear-hardware-v32/01-rear-hardware.png",
+    "unchanged exports/generated/rear-hardware-v32/LICENSE",
+    "starting blob exports/generated/rear-hardware-v32/LICENSE",
+    "unchanged exports/generated/rear-hardware-v32/NOTICE.md",
+    "starting blob exports/generated/rear-hardware-v32/NOTICE.md",
+    "unchanged exports/generated/rear-hardware-v32/mesh.json",
+    "starting blob exports/generated/rear-hardware-v32/mesh.json",
+    "unchanged exports/generated/rear-hardware-v32/rear-hardware-study.FCStd",
+    "starting blob exports/generated/rear-hardware-v32/rear-hardware-study.FCStd",
+    "unchanged exports/generated/rear-hardware-v32/validation.json",
+    "starting blob exports/generated/rear-hardware-v32/validation.json",
+    "unchanged exports/generated/side-panel-v32/04-shelf-service-routes.png",
+    "starting blob exports/generated/side-panel-v32/04-shelf-service-routes.png",
+    "unchanged exports/generated/side-panel-v32/05-shelf-retention.png",
+    "starting blob exports/generated/side-panel-v32/05-shelf-retention.png",
+    "unchanged exports/generated/side-panel-v32/06-shelf-anchorage.png",
+    "starting blob exports/generated/side-panel-v32/06-shelf-anchorage.png",
+    "unchanged exports/generated/side-panel-v32/07-simple-shelves.png",
+    "starting blob exports/generated/side-panel-v32/07-simple-shelves.png",
+    "unchanged exports/generated/side-panel-v32/08-shelf-raised-display.png",
+    "starting blob exports/generated/side-panel-v32/08-shelf-raised-display.png",
+    "unchanged exports/generated/side-panel-v32/09-shelf-spacing.png",
+    "starting blob exports/generated/side-panel-v32/09-shelf-spacing.png",
+    "unchanged exports/generated/side-panel-v32/LICENSE",
+    "starting blob exports/generated/side-panel-v32/LICENSE",
+    "unchanged exports/generated/side-panel-v32/NOTICE.md",
+    "starting blob exports/generated/side-panel-v32/NOTICE.md",
+    "unchanged exports/generated/side-panel-v32/anchorage-validation.json",
+    "starting blob exports/generated/side-panel-v32/anchorage-validation.json",
+    "unchanged exports/generated/side-panel-v32/motion-validation.json",
+    "starting blob exports/generated/side-panel-v32/motion-validation.json",
+    "unchanged exports/generated/side-panel-v32/retention-validation.json",
+    "starting blob exports/generated/side-panel-v32/retention-validation.json",
+    "unchanged exports/generated/side-panel-v32/service-stage-SHELF_1.FCStd",
+    "starting blob exports/generated/side-panel-v32/service-stage-SHELF_1.FCStd",
+    "unchanged exports/generated/side-panel-v32/service-stage-SHELF_2.FCStd",
+    "starting blob exports/generated/side-panel-v32/service-stage-SHELF_2.FCStd",
+    "unchanged exports/generated/side-panel-v32/service-stage-SHELF_3.FCStd",
+    "starting blob exports/generated/side-panel-v32/service-stage-SHELF_3.FCStd",
+    "unchanged exports/generated/side-panel-v32/service-validation.json",
+    "starting blob exports/generated/side-panel-v32/service-validation.json",
+    "unchanged exports/generated/side-panel-v32/shelf-anchorage-proposal.FCStd",
+    "starting blob exports/generated/side-panel-v32/shelf-anchorage-proposal.FCStd",
+    "unchanged exports/generated/side-panel-v32/shelf-hole-schedule-review.csv",
+    "starting blob exports/generated/side-panel-v32/shelf-hole-schedule-review.csv",
+    "unchanged exports/generated/side-panel-v32/shelf-retention-proposal.FCStd",
+    "starting blob exports/generated/side-panel-v32/shelf-retention-proposal.FCStd",
+    "unchanged exports/generated/side-panel-v32/shelf-service-pose-screen.json",
+    "starting blob exports/generated/side-panel-v32/shelf-service-pose-screen.json",
+    "unchanged exports/generated/side-panel-v32/simple-shelves-mesh.json",
+    "starting blob exports/generated/side-panel-v32/simple-shelves-mesh.json",
+    "unchanged exports/generated/side-panel-v32/simple-shelves-proposal.FCStd",
+    "starting blob exports/generated/side-panel-v32/simple-shelves-proposal.FCStd",
+    "unchanged exports/generated/side-panel-v32/simple-shelves-validation.json",
+    "starting blob exports/generated/side-panel-v32/simple-shelves-validation.json",
+    "unchanged exports/generated/side-panel-v32/validation.json",
+    "starting blob exports/generated/side-panel-v32/validation.json",
+    "unchanged exports/generated/support-leg-v32/01-heights-and-leg-corner.png",
+    "starting blob exports/generated/support-leg-v32/01-heights-and-leg-corner.png",
+    "unchanged exports/generated/support-leg-v32/LICENSE",
+    "starting blob exports/generated/support-leg-v32/LICENSE",
+    "unchanged exports/generated/support-leg-v32/NOTICE.md",
+    "starting blob exports/generated/support-leg-v32/NOTICE.md",
+    "unchanged exports/generated/support-leg-v32/detail-mesh.json",
+    "starting blob exports/generated/support-leg-v32/detail-mesh.json",
+    "unchanged exports/generated/support-leg-v32/machining-plan-review.csv",
+    "starting blob exports/generated/support-leg-v32/machining-plan-review.csv",
+    "unchanged exports/generated/support-leg-v32/support-leg-planning.FCStd",
+    "starting blob exports/generated/support-leg-v32/support-leg-planning.FCStd",
+    "unchanged exports/generated/support-leg-v32/validation.json",
+    "starting blob exports/generated/support-leg-v32/validation.json",
+    "unchanged exports/generated/viewer-v32/01-cradle-close.png",
+    "starting blob exports/generated/viewer-v32/01-cradle-close.png",
+    "unchanged exports/generated/viewer-v32/01-player-left.png",
+    "starting blob exports/generated/viewer-v32/01-player-left.png",
+    "unchanged exports/generated/viewer-v32/02-mounting-close.png",
+    "starting blob exports/generated/viewer-v32/02-mounting-close.png",
+    "unchanged exports/generated/viewer-v32/02-player-right.png",
+    "starting blob exports/generated/viewer-v32/02-player-right.png",
+    "unchanged exports/generated/viewer-v32/03-floor-supports.png",
+    "starting blob exports/generated/viewer-v32/03-floor-supports.png",
+    "unchanged exports/generated/viewer-v32/03-play-oblique.png",
+    "starting blob exports/generated/viewer-v32/03-play-oblique.png",
+    "unchanged exports/generated/viewer-v32/04-lift-out.png",
+    "starting blob exports/generated/viewer-v32/04-lift-out.png",
+    "unchanged exports/generated/viewer-v32/04-service.png",
+    "starting blob exports/generated/viewer-v32/04-service.png",
+    "unchanged exports/generated/viewer-v32/05-rear-flush.png",
+    "starting blob exports/generated/viewer-v32/05-rear-flush.png",
+    "unchanged exports/generated/viewer-v32/05-side-detail.png",
+    "starting blob exports/generated/viewer-v32/05-side-detail.png",
+    "unchanged exports/generated/viewer-v32/06-closed-detail.png",
+    "starting blob exports/generated/viewer-v32/06-closed-detail.png",
+    "unchanged exports/generated/viewer-v32/06-mechanism-exploded.png",
+    "starting blob exports/generated/viewer-v32/06-mechanism-exploded.png",
+    "unchanged exports/generated/viewer-v32/07-usability-original.png",
+    "starting blob exports/generated/viewer-v32/07-usability-original.png",
+    "unchanged exports/generated/viewer-v32/08-usability-accessible.png",
+    "starting blob exports/generated/viewer-v32/08-usability-accessible.png",
+    "unchanged exports/generated/viewer-v32/browser-verification.json",
+    "starting blob exports/generated/viewer-v32/browser-verification.json",
+    "unchanged exports/generated/viewer-v32/index.html",
+    "starting blob exports/generated/viewer-v32/index.html",
+    "unchanged exports/generated/wood-dowel-pivot-v32/01-side-close.png",
+    "starting blob exports/generated/wood-dowel-pivot-v32/01-side-close.png",
+    "unchanged exports/generated/wood-dowel-pivot-v32/02-exploded.png",
+    "starting blob exports/generated/wood-dowel-pivot-v32/02-exploded.png",
+    "unchanged exports/generated/wood-dowel-pivot-v32/03-corrected-ligament-close.png",
+    "starting blob exports/generated/wood-dowel-pivot-v32/03-corrected-ligament-close.png",
+    "unchanged exports/generated/wood-dowel-pivot-v32/04-final-cradle-close.png",
+    "starting blob exports/generated/wood-dowel-pivot-v32/04-final-cradle-close.png",
+    "unchanged exports/generated/wood-dowel-pivot-v32/05-exciter-cradle-clearance.png",
+    "starting blob exports/generated/wood-dowel-pivot-v32/05-exciter-cradle-clearance.png",
+    "unchanged exports/generated/wood-dowel-pivot-v32/06-cradle-before-after.png",
+    "starting blob exports/generated/wood-dowel-pivot-v32/06-cradle-before-after.png",
+    "unchanged exports/generated/wood-dowel-pivot-v32/LICENSE",
+    "starting blob exports/generated/wood-dowel-pivot-v32/LICENSE",
+    "unchanged exports/generated/wood-dowel-pivot-v32/NOTICE.md",
+    "starting blob exports/generated/wood-dowel-pivot-v32/NOTICE.md",
+    "unchanged exports/generated/wood-dowel-pivot-v32/cleanup-baseline-validation.json",
+    "starting blob exports/generated/wood-dowel-pivot-v32/cleanup-baseline-validation.json",
+    "unchanged exports/generated/wood-dowel-pivot-v32/cradle-profile-before-cleanup.json",
+    "starting blob exports/generated/wood-dowel-pivot-v32/cradle-profile-before-cleanup.json",
+    "unchanged exports/generated/wood-dowel-pivot-v32/current-v32.step",
+    "starting blob exports/generated/wood-dowel-pivot-v32/current-v32.step",
+    "unchanged exports/generated/wood-dowel-pivot-v32/diagnostic.json",
+    "starting blob exports/generated/wood-dowel-pivot-v32/diagnostic.json",
+    "unchanged exports/generated/wood-dowel-pivot-v32/exploded.FCStd",
+    "starting blob exports/generated/wood-dowel-pivot-v32/exploded.FCStd",
+    "unchanged exports/generated/wood-dowel-pivot-v32/lift-out.FCStd",
+    "starting blob exports/generated/wood-dowel-pivot-v32/lift-out.FCStd",
+    "unchanged exports/generated/wood-dowel-pivot-v32/mesh.json",
+    "starting blob exports/generated/wood-dowel-pivot-v32/mesh.json",
+    "unchanged exports/generated/wood-dowel-pivot-v32/play.FCStd",
+    "starting blob exports/generated/wood-dowel-pivot-v32/play.FCStd",
+    "unchanged exports/generated/wood-dowel-pivot-v32/service.FCStd",
+    "starting blob exports/generated/wood-dowel-pivot-v32/service.FCStd",
+    "unchanged exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.png",
+    "starting blob exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.png",
+    "unchanged exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.svg",
+    "starting blob exports/generated/wood-dowel-pivot-v32/support-mounting-assembly.svg",
+    "unchanged exports/generated/wood-dowel-pivot-v32/support-mounting-schedule.json",
+    "starting blob exports/generated/wood-dowel-pivot-v32/support-mounting-schedule.json",
+    "unchanged exports/generated/wood-dowel-pivot-v32/validation.json",
+    "starting blob exports/generated/wood-dowel-pivot-v32/validation.json",
+    "unchanged library/README.md",
+    "starting blob library/README.md",
+    "unchanged library/references/3d-print/piant/ATTRIBUTION.txt",
+    "starting blob library/references/3d-print/piant/ATTRIBUTION.txt",
+    "unchanged library/references/3d-print/piant/Pinball_Leg_Hole_Guide.stl",
+    "starting blob library/references/3d-print/piant/Pinball_Leg_Hole_Guide.stl",
+    "unchanged library/references/3d-print/piant/measurement.json",
+    "starting blob library/references/3d-print/piant/measurement.json",
+    "unchanged library/references/3d-print/piant/source.json",
+    "starting blob library/references/3d-print/piant/source.json",
+    "unchanged library/references/download-status.txt",
+    "starting blob library/references/download-status.txt",
+    "unchanged library/references/links.txt",
+    "starting blob library/references/links.txt",
+    "unchanged library/references/local-files.json",
+    "starting blob library/references/local-files.json",
+    "unchanged library/references/repository-links.txt",
+    "starting blob library/references/repository-links.txt",
+    "unchanged output/pdf/v32-desenho-consolidado.pdf",
+    "starting blob output/pdf/v32-desenho-consolidado.pdf",
+    "unchanged reference/pinscape/source.json",
+    "starting blob reference/pinscape/source.json",
+    "unchanged reference/pinsim/README.md",
+    "starting blob reference/pinsim/README.md",
+    "unchanged reference/pinsim/manifest.json",
+    "starting blob reference/pinsim/manifest.json",
+    "unchanged research/way-of-the-wrench/BACKBOX_HINGE_NOTES.md",
+    "starting blob research/way-of-the-wrench/BACKBOX_HINGE_NOTES.md",
+    "unchanged research/way-of-the-wrench/INDEX.md",
+    "starting blob research/way-of-the-wrench/INDEX.md",
+    "unchanged research/way-of-the-wrench/INITIAL_FINDINGS.md",
+    "starting blob research/way-of-the-wrench/INITIAL_FINDINGS.md",
+    "unchanged research/way-of-the-wrench/PLAYFIELD_NOTES.md",
+    "starting blob research/way-of-the-wrench/PLAYFIELD_NOTES.md",
+    "unchanged research/way-of-the-wrench/TOYS_AND_ROUTING_NOTES.md",
+    "starting blob research/way-of-the-wrench/TOYS_AND_ROUTING_NOTES.md",
+    "unchanged tools/active_parts.py",
+    "starting blob tools/active_parts.py",
+    "unchanged tools/active_review.FCMacro",
+    "starting blob tools/active_review.FCMacro",
+    "unchanged tools/add_oled_c5_v03.py",
+    "starting blob tools/add_oled_c5_v03.py",
+    "unchanged tools/audit_reference.py",
+    "starting blob tools/audit_reference.py",
+    "unchanged tools/audit_repository.py",
+    "starting blob tools/audit_repository.py",
+    "unchanged tools/backbox_floor_v32_entry.py",
+    "starting blob tools/backbox_floor_v32_entry.py",
+    "unchanged tools/backbox_profile_v32_entry.py",
+    "starting blob tools/backbox_profile_v32_entry.py",
+    "unchanged tools/build_active.py",
+    "starting blob tools/build_active.py",
+    "unchanged tools/build_active_entry.py",
+    "starting blob tools/build_active_entry.py",
+    "unchanged tools/build_cabinet_pc_slide_v22.py",
+    "starting blob tools/build_cabinet_pc_slide_v22.py",
+    "unchanged tools/build_cabinet_pc_slide_v22_entry.py",
+    "starting blob tools/build_cabinet_pc_slide_v22_entry.py",
+    "unchanged tools/build_cabinet_rear_cpu_shelf_v24.py",
+    "starting blob tools/build_cabinet_rear_cpu_shelf_v24.py",
+    "unchanged tools/build_cabinet_rear_cpu_shelf_v24_entry.py",
+    "starting blob tools/build_cabinet_rear_cpu_shelf_v24_entry.py",
+    "unchanged tools/build_cabinet_rear_pc_service_v23.py",
+    "starting blob tools/build_cabinet_rear_pc_service_v23.py",
+    "unchanged tools/build_cabinet_rear_pc_service_v23_entry.py",
+    "starting blob tools/build_cabinet_rear_pc_service_v23_entry.py",
+    "unchanged tools/build_cabinet_service_v21.py",
+    "starting blob tools/build_cabinet_service_v21.py",
+    "unchanged tools/build_cabinet_service_v21_entry.py",
+    "starting blob tools/build_cabinet_service_v21_entry.py",
+    "unchanged tools/build_cabinet_structure_v20.py",
+    "starting blob tools/build_cabinet_structure_v20.py",
+    "unchanged tools/build_cabinet_structure_v20_entry.py",
+    "starting blob tools/build_cabinet_structure_v20_entry.py",
+    "unchanged tools/build_joinery_study_entry.py",
+    "starting blob tools/build_joinery_study_entry.py",
+    "unchanged tools/build_owner_services_v27.py",
+    "starting blob tools/build_owner_services_v27.py",
+    "unchanged tools/build_playfield_fixed_anchors_v19.py",
+    "starting blob tools/build_playfield_fixed_anchors_v19.py",
+    "unchanged tools/build_playfield_fixed_anchors_v19_entry.py",
+    "starting blob tools/build_playfield_fixed_anchors_v19_entry.py",
+    "unchanged tools/build_playfield_mechanics_v18.py",
+    "starting blob tools/build_playfield_mechanics_v18.py",
+    "unchanged tools/build_playfield_mechanics_v18_entry.py",
+    "starting blob tools/build_playfield_mechanics_v18_entry.py",
+    "unchanged tools/build_playfield_pivot_v15.py",
+    "starting blob tools/build_playfield_pivot_v15.py",
+    "unchanged tools/build_playfield_pivot_v15_entry.py",
+    "starting blob tools/build_playfield_pivot_v15_entry.py",
+    "unchanged tools/build_playfield_v04.py",
+    "starting blob tools/build_playfield_v04.py",
+    "unchanged tools/build_playfield_v04_entry.py",
+    "starting blob tools/build_playfield_v04_entry.py",
+    "unchanged tools/build_playfield_v05.py",
+    "starting blob tools/build_playfield_v05.py",
+    "unchanged tools/build_playfield_v05_entry.py",
+    "starting blob tools/build_playfield_v05_entry.py",
+    "unchanged tools/build_rear_utility_v26.py",
+    "starting blob tools/build_rear_utility_v26.py",
+    "unchanged tools/build_review_viewer.py",
+    "starting blob tools/build_review_viewer.py",
+    "unchanged tools/build_service_io_v09.py",
+    "starting blob tools/build_service_io_v09.py",
+    "unchanged tools/build_service_io_v09_entry.py",
+    "starting blob tools/build_service_io_v09_entry.py",
+    "unchanged tools/build_shell_v01.py",
+    "starting blob tools/build_shell_v01.py",
+    "unchanged tools/build_shell_v02.py",
+    "starting blob tools/build_shell_v02.py",
+    "unchanged tools/build_simplification_v28.py",
+    "starting blob tools/build_simplification_v28.py",
+    "unchanged tools/build_simplification_v28_entry.py",
+    "starting blob tools/build_simplification_v28_entry.py",
+    "unchanged tools/build_structure_v14.py",
+    "starting blob tools/build_structure_v14.py",
+    "unchanged tools/build_structure_v14_entry.py",
+    "starting blob tools/build_structure_v14_entry.py",
+    "unchanged tools/check_backbox_floor_v32.py",
+    "starting blob tools/check_backbox_floor_v32.py",
+    "unchanged tools/check_backbox_profile_v32.py",
+    "starting blob tools/check_backbox_profile_v32.py",
+    "unchanged tools/check_fcstd_v04.py",
+    "starting blob tools/check_fcstd_v04.py",
+    "unchanged tools/check_matrix_cassette_v32.py",
+    "starting blob tools/check_matrix_cassette_v32.py",
+    "unchanged tools/check_matrix_cassette_viewer_v32.py",
+    "starting blob tools/check_matrix_cassette_viewer_v32.py",
+    "unchanged tools/check_matrix_hinge_regressions_v32.py",
+    "starting blob tools/check_matrix_hinge_regressions_v32.py",
+    "unchanged tools/check_matrix_route_backbox_audit_v32.py",
+    "starting blob tools/check_matrix_route_backbox_audit_v32.py",
+    "unchanged tools/check_notch_floor_fans_viewer_v32.py",
+    "starting blob tools/check_notch_floor_fans_viewer_v32.py",
+    "unchanged tools/check_review_viewer_v32.py",
+    "starting blob tools/check_review_viewer_v32.py",
+    "unchanged tools/cleanup_active_master_v25.py",
+    "starting blob tools/cleanup_active_master_v25.py",
+    "unchanged tools/cleanup_active_master_v25_entry.py",
+    "starting blob tools/cleanup_active_master_v25_entry.py",
+    "unchanged tools/coin_door_v32.py",
+    "starting blob tools/coin_door_v32.py",
+    "unchanged tools/connector_fit_v32_entry.py",
+    "starting blob tools/connector_fit_v32_entry.py",
+    "unchanged tools/consolidated_audio_v32_entry.py",
+    "starting blob tools/consolidated_audio_v32_entry.py",
+    "unchanged tools/corner_relief_v32_entry.py",
+    "starting blob tools/corner_relief_v32_entry.py",
+    "unchanged tools/create_master.py",
+    "starting blob tools/create_master.py",
+    "unchanged tools/detail_structure_v25.py",
+    "starting blob tools/detail_structure_v25.py",
+    "unchanged tools/detail_structure_v25_entry.py",
+    "starting blob tools/detail_structure_v25_entry.py",
+    "unchanged tools/extract_backbox_reference.py",
+    "starting blob tools/extract_backbox_reference.py",
+    "unchanged tools/extract_backbox_reference_entry.py",
+    "starting blob tools/extract_backbox_reference_entry.py",
+    "unchanged tools/extract_outline_sketch.py",
+    "starting blob tools/extract_outline_sketch.py",
+    "unchanged tools/extract_playfield_fit.py",
+    "starting blob tools/extract_playfield_fit.py",
+    "unchanged tools/extract_playfield_mechanics.py",
+    "starting blob tools/extract_playfield_mechanics.py",
+    "unchanged tools/extract_williams_profile.py",
+    "starting blob tools/extract_williams_profile.py",
+    "unchanged tools/fixed_rear_services_v32_entry.py",
+    "starting blob tools/fixed_rear_services_v32_entry.py",
+    "unchanged tools/floor_detail_v32_entry.py",
+    "starting blob tools/floor_detail_v32_entry.py",
+    "unchanged tools/front_panel_v32_entry.py",
+    "starting blob tools/front_panel_v32_entry.py",
+    "unchanged tools/generate_cnc_coupon_v20.py",
+    "starting blob tools/generate_cnc_coupon_v20.py",
+    "unchanged tools/generate_cnc_register_v25.py",
+    "starting blob tools/generate_cnc_register_v25.py",
+    "unchanged tools/generate_measurement_pack_v25.py",
+    "starting blob tools/generate_measurement_pack_v25.py",
+    "unchanged tools/generate_owner_execution_v27.py",
+    "starting blob tools/generate_owner_execution_v27.py",
+    "unchanged tools/joinery_study.py",
+    "starting blob tools/joinery_study.py",
+    "unchanged tools/lockdown_interface_v32_entry.py",
+    "starting blob tools/lockdown_interface_v32_entry.py",
+    "unchanged tools/matrix_cassette_v32_entry.py",
+    "starting blob tools/matrix_cassette_v32_entry.py",
+    "unchanged tools/matrix_hinge_study_v32_entry.py",
+    "starting blob tools/matrix_hinge_study_v32_entry.py",
+    "unchanged tools/matrix_route_backbox_audit_v32_entry.py",
+    "starting blob tools/matrix_route_backbox_audit_v32_entry.py",
+    "unchanged tools/measure_leg_jig_v32.py",
+    "starting blob tools/measure_leg_jig_v32.py",
+    "unchanged tools/migrate_platform_v09.py",
+    "starting blob tools/migrate_platform_v09.py",
+    "unchanged tools/migrate_platform_v09_entry.py",
+    "starting blob tools/migrate_platform_v09_entry.py",
+    "unchanged tools/notch_floor_fans_v32_entry.py",
+    "starting blob tools/notch_floor_fans_v32_entry.py",
+    "unchanged tools/owner_features_v27.py",
+    "starting blob tools/owner_features_v27.py",
+    "unchanged tools/owner_review_scenes_v27.py",
+    "starting blob tools/owner_review_scenes_v27.py",
+    "unchanged tools/owner_workflow_v27.py",
+    "starting blob tools/owner_workflow_v27.py",
+    "unchanged tools/package_consolidated_v32.py",
+    "starting blob tools/package_consolidated_v32.py",
+    "unchanged tools/panel_closure_v32_entry.py",
+    "starting blob tools/panel_closure_v32_entry.py",
+    "unchanged tools/propose_simplification_v28.py",
+    "starting blob tools/propose_simplification_v28.py",
+    "unchanged tools/rear_door_v32_entry.py",
+    "starting blob tools/rear_door_v32_entry.py",
+    "unchanged tools/rear_hardware_v32_entry.py",
+    "starting blob tools/rear_hardware_v32_entry.py",
+    "unchanged tools/render_active_review.py",
+    "starting blob tools/render_active_review.py",
+    "unchanged tools/render_backbox_floor_v32.py",
+    "starting blob tools/render_backbox_floor_v32.py",
+    "unchanged tools/render_backbox_profile_v32.py",
+    "starting blob tools/render_backbox_profile_v32.py",
+    "unchanged tools/render_cnc_detail_v25.py",
+    "starting blob tools/render_cnc_detail_v25.py",
+    "unchanged tools/render_coin_door_v32.py",
+    "starting blob tools/render_coin_door_v32.py",
+    "unchanged tools/render_consolidated_v32.py",
+    "starting blob tools/render_consolidated_v32.py",
+    "unchanged tools/render_cradle_cleanup_v32.py",
+    "starting blob tools/render_cradle_cleanup_v32.py",
+    "unchanged tools/render_fixed_rear_services_v32.py",
+    "starting blob tools/render_fixed_rear_services_v32.py",
+    "unchanged tools/render_front_panel_v32.py",
+    "starting blob tools/render_front_panel_v32.py",
+    "unchanged tools/render_joinery_study.py",
+    "starting blob tools/render_joinery_study.py",
+    "unchanged tools/render_ligament_review_v32.py",
+    "starting blob tools/render_ligament_review_v32.py",
+    "unchanged tools/render_lighting_study_v32.py",
+    "starting blob tools/render_lighting_study_v32.py",
+    "unchanged tools/render_matrix_hinge_study_v32.py",
+    "starting blob tools/render_matrix_hinge_study_v32.py",
+    "unchanged tools/render_matrix_route_backbox_audit_v32.py",
+    "starting blob tools/render_matrix_route_backbox_audit_v32.py",
+    "unchanged tools/render_notch_floor_fans_v32.py",
+    "starting blob tools/render_notch_floor_fans_v32.py",
+    "unchanged tools/render_owner_change_v28.py",
+    "starting blob tools/render_owner_change_v28.py",
+    "unchanged tools/render_owner_review_v27.py",
+    "starting blob tools/render_owner_review_v27.py",
+    "unchanged tools/render_panel_closure_v32.py",
+    "starting blob tools/render_panel_closure_v32.py",
+    "unchanged tools/render_rear_door_v32.py",
+    "starting blob tools/render_rear_door_v32.py",
+    "unchanged tools/render_rear_hardware_v32.py",
+    "starting blob tools/render_rear_hardware_v32.py",
+    "unchanged tools/render_shelf_anchorage_v32.py",
+    "starting blob tools/render_shelf_anchorage_v32.py",
+    "unchanged tools/render_shelf_retention_v32.py",
+    "starting blob tools/render_shelf_retention_v32.py",
+    "unchanged tools/render_shelf_service_pose_v32.py",
+    "starting blob tools/render_shelf_service_pose_v32.py",
+    "unchanged tools/render_shelf_spacing_v32.py",
+    "starting blob tools/render_shelf_spacing_v32.py",
+    "unchanged tools/render_side_motion_v32.py",
+    "starting blob tools/render_side_motion_v32.py",
+    "unchanged tools/render_simple_shelves_v32.py",
+    "starting blob tools/render_simple_shelves_v32.py",
+    "unchanged tools/render_simplification_v28.py",
+    "starting blob tools/render_simplification_v28.py",
+    "unchanged tools/render_support_leg_v32.py",
+    "starting blob tools/render_support_leg_v32.py",
+    "unchanged tools/render_support_mounting_v32.py",
+    "starting blob tools/render_support_mounting_v32.py",
+    "unchanged tools/render_wood_dowel_pivot_v32.py",
+    "starting blob tools/render_wood_dowel_pivot_v32.py",
+    "unchanged tools/review_owner_change_v28.py",
+    "starting blob tools/review_owner_change_v28.py",
+    "unchanged tools/review_owner_change_v28_entry.py",
+    "starting blob tools/review_owner_change_v28_entry.py",
+    "unchanged tools/run_active_build_v25.sh",
+    "starting blob tools/run_active_build_v25.sh",
+    "unchanged tools/run_cabinet_pc_slide_v22.sh",
+    "starting blob tools/run_cabinet_pc_slide_v22.sh",
+    "unchanged tools/run_cabinet_rear_cpu_shelf_v24.sh",
+    "starting blob tools/run_cabinet_rear_cpu_shelf_v24.sh",
+    "unchanged tools/run_cabinet_rear_pc_service_v23.sh",
+    "starting blob tools/run_cabinet_rear_pc_service_v23.sh",
+    "unchanged tools/run_cabinet_service_v21.sh",
+    "starting blob tools/run_cabinet_service_v21.sh",
+    "unchanged tools/run_cabinet_structure_v20.sh",
+    "starting blob tools/run_cabinet_structure_v20.sh",
+    "unchanged tools/run_cnc_detail_v25.sh",
+    "starting blob tools/run_cnc_detail_v25.sh",
+    "unchanged tools/run_connector_fit_v32.sh",
+    "starting blob tools/run_connector_fit_v32.sh",
+    "unchanged tools/run_consolidated_v32.sh",
+    "starting blob tools/run_consolidated_v32.sh",
+    "unchanged tools/run_corner_relief_v32.sh",
+    "starting blob tools/run_corner_relief_v32.sh",
+    "unchanged tools/run_fixed_rear_services_v32.sh",
+    "starting blob tools/run_fixed_rear_services_v32.sh",
+    "unchanged tools/run_floor_detail_v32.sh",
+    "starting blob tools/run_floor_detail_v32.sh",
+    "unchanged tools/run_front_panel_v32.sh",
+    "starting blob tools/run_front_panel_v32.sh",
+    "unchanged tools/run_joinery_study.sh",
+    "starting blob tools/run_joinery_study.sh",
+    "unchanged tools/run_notch_floor_fans_v32.sh",
+    "starting blob tools/run_notch_floor_fans_v32.sh",
+    "unchanged tools/run_owner_change_v28.sh",
+    "starting blob tools/run_owner_change_v28.sh",
+    "unchanged tools/run_panel_closure_v32.sh",
+    "starting blob tools/run_panel_closure_v32.sh",
+    "unchanged tools/run_platform_v09.sh",
+    "starting blob tools/run_platform_v09.sh",
+    "unchanged tools/run_playfield_fixed_anchors_v19.sh",
+    "starting blob tools/run_playfield_fixed_anchors_v19.sh",
+    "unchanged tools/run_playfield_mechanics_v18.sh",
+    "starting blob tools/run_playfield_mechanics_v18.sh",
+    "unchanged tools/run_playfield_pivot_v15.sh",
+    "starting blob tools/run_playfield_pivot_v15.sh",
+    "unchanged tools/run_playfield_v04.sh",
+    "starting blob tools/run_playfield_v04.sh",
+    "unchanged tools/run_playfield_v05.sh",
+    "starting blob tools/run_playfield_v05.sh",
+    "unchanged tools/run_rear_door_v32.sh",
+    "starting blob tools/run_rear_door_v32.sh",
+    "unchanged tools/run_rear_hardware_v32.sh",
+    "starting blob tools/run_rear_hardware_v32.sh",
+    "unchanged tools/run_service_correction_v32.sh",
+    "starting blob tools/run_service_correction_v32.sh",
+    "unchanged tools/run_shelf_service_pose_v32.sh",
+    "starting blob tools/run_shelf_service_pose_v32.sh",
+    "unchanged tools/run_side_review_v32.sh",
+    "starting blob tools/run_side_review_v32.sh",
+    "unchanged tools/run_simple_shelves_v32.sh",
+    "starting blob tools/run_simple_shelves_v32.sh",
+    "unchanged tools/run_simplification_v28.sh",
+    "starting blob tools/run_simplification_v28.sh",
+    "unchanged tools/run_structure_v14.sh",
+    "starting blob tools/run_structure_v14.sh",
+    "unchanged tools/run_support_leg_v32.sh",
+    "starting blob tools/run_support_leg_v32.sh",
+    "unchanged tools/run_v32_review.sh",
+    "starting blob tools/run_v32_review.sh",
+    "unchanged tools/save_matrix_review_poses_v32.py",
+    "starting blob tools/save_matrix_review_poses_v32.py",
+    "unchanged tools/service_correction_v32_entry.py",
+    "starting blob tools/service_correction_v32_entry.py",
+    "unchanged tools/shelf_anchorage_v32_entry.py",
+    "starting blob tools/shelf_anchorage_v32_entry.py",
+    "unchanged tools/shelf_retention_v32_entry.py",
+    "starting blob tools/shelf_retention_v32_entry.py",
+    "unchanged tools/shelf_service_pose_v32_entry.py",
+    "starting blob tools/shelf_service_pose_v32_entry.py",
+    "unchanged tools/side_motion_v32_entry.py",
+    "starting blob tools/side_motion_v32_entry.py",
+    "unchanged tools/side_panel_v32_entry.py",
+    "starting blob tools/side_panel_v32_entry.py",
+    "unchanged tools/side_service_v32_entry.py",
+    "starting blob tools/side_service_v32_entry.py",
+    "unchanged tools/simple_shelves_v32_entry.py",
+    "starting blob tools/simple_shelves_v32_entry.py",
+    "unchanged tools/simplification_counts_v28.py",
+    "starting blob tools/simplification_counts_v28.py",
+    "unchanged tools/solve_playfield_struts.py",
+    "starting blob tools/solve_playfield_struts.py",
+    "unchanged tools/solve_playfield_v05.py",
+    "starting blob tools/solve_playfield_v05.py",
+    "unchanged tools/support_leg_machining_v32_entry.py",
+    "starting blob tools/support_leg_machining_v32_entry.py",
+    "unchanged tools/test_active_geometry_entry.py",
+    "starting blob tools/test_active_geometry_entry.py",
+    "unchanged tools/test_cnc_detail_v25_entry.py",
+    "starting blob tools/test_cnc_detail_v25_entry.py",
+    "unchanged tools/test_joinery_study_entry.py",
+    "starting blob tools/test_joinery_study_entry.py",
+    "unchanged tools/test_owner_services_v27_entry.py",
+    "starting blob tools/test_owner_services_v27_entry.py",
+    "unchanged tools/test_v32_entry.py",
+    "starting blob tools/test_v32_entry.py",
+    "unchanged tools/validate.py",
+    "starting blob tools/validate.py",
+    "unchanged tools/validate_active_build_v25.py",
+    "starting blob tools/validate_active_build_v25.py",
+    "unchanged tools/validate_backbox_fold_v10.py",
+    "starting blob tools/validate_backbox_fold_v10.py",
+    "unchanged tools/validate_backbox_mounting_v12.py",
+    "starting blob tools/validate_backbox_mounting_v12.py",
+    "unchanged tools/validate_backbox_v06.py",
+    "starting blob tools/validate_backbox_v06.py",
+    "unchanged tools/validate_cabinet_pc_slide_v22.py",
+    "starting blob tools/validate_cabinet_pc_slide_v22.py",
+    "unchanged tools/validate_cabinet_rear_cpu_shelf_v24.py",
+    "starting blob tools/validate_cabinet_rear_cpu_shelf_v24.py",
+    "unchanged tools/validate_cabinet_rear_pc_service_v23.py",
+    "starting blob tools/validate_cabinet_rear_pc_service_v23.py",
+    "unchanged tools/validate_cabinet_service_v21.py",
+    "starting blob tools/validate_cabinet_service_v21.py",
+    "unchanged tools/validate_cabinet_structure_v20.py",
+    "starting blob tools/validate_cabinet_structure_v20.py",
+    "unchanged tools/validate_cnc_detail_v25.py",
+    "starting blob tools/validate_cnc_detail_v25.py",
+    "unchanged tools/validate_electrical_routing_v11.py",
+    "starting blob tools/validate_electrical_routing_v11.py",
+    "unchanged tools/validate_main_body_v07.py",
+    "starting blob tools/validate_main_body_v07.py",
+    "unchanged tools/validate_owner_change_v28.py",
+    "starting blob tools/validate_owner_change_v28.py",
+    "unchanged tools/validate_owner_execution_v27.py",
+    "starting blob tools/validate_owner_execution_v27.py",
+    "unchanged tools/validate_owner_services_v27.py",
+    "starting blob tools/validate_owner_services_v27.py",
+    "unchanged tools/validate_physical_validation_v27.py",
+    "starting blob tools/validate_physical_validation_v27.py",
+    "unchanged tools/validate_playfield_display_v16.py",
+    "starting blob tools/validate_playfield_display_v16.py",
+    "unchanged tools/validate_playfield_fixed_anchors_v19.py",
+    "starting blob tools/validate_playfield_fixed_anchors_v19.py",
+    "unchanged tools/validate_playfield_mechanics_v18.py",
+    "starting blob tools/validate_playfield_mechanics_v18.py",
+    "unchanged tools/validate_playfield_pivot_v15.py",
+    "starting blob tools/validate_playfield_pivot_v15.py",
+    "unchanged tools/validate_service_correction_v32.py",
+    "starting blob tools/validate_service_correction_v32.py",
+    "unchanged tools/validate_service_io_v08.py",
+    "starting blob tools/validate_service_io_v08.py",
+    "unchanged tools/validate_simplification_v28.py",
+    "starting blob tools/validate_simplification_v28.py",
+    "unchanged tools/validate_structure_buildpack_v14.py",
+    "starting blob tools/validate_structure_buildpack_v14.py",
+    "unchanged tools/validate_structure_materials_v13.py",
+    "starting blob tools/validate_structure_materials_v13.py",
+    "unchanged tools/validate_wood_dowel_pivot_v32.py",
+    "starting blob tools/validate_wood_dowel_pivot_v32.py",
+    "unchanged tools/verify_active_geometry.py",
+    "starting blob tools/verify_active_geometry.py",
+    "unchanged tools/verify_active_geometry_entry.py",
+    "starting blob tools/verify_active_geometry_entry.py",
+    "unchanged tools/verify_active_master_v25.py",
+    "starting blob tools/verify_active_master_v25.py",
+    "unchanged tools/verify_active_master_v25_entry.py",
+    "starting blob tools/verify_active_master_v25_entry.py",
+    "unchanged tools/verify_active_master_v25_file.py",
+    "starting blob tools/verify_active_master_v25_file.py",
+    "unchanged tools/verify_cabinet_pc_slide_v22.py",
+    "starting blob tools/verify_cabinet_pc_slide_v22.py",
+    "unchanged tools/verify_cabinet_rear_cpu_shelf_v24.py",
+    "starting blob tools/verify_cabinet_rear_cpu_shelf_v24.py",
+    "unchanged tools/verify_cabinet_rear_cpu_shelf_v24_entry.py",
+    "starting blob tools/verify_cabinet_rear_cpu_shelf_v24_entry.py",
+    "unchanged tools/verify_cabinet_rear_pc_service_v23.py",
+    "starting blob tools/verify_cabinet_rear_pc_service_v23.py",
+    "unchanged tools/verify_cabinet_service_v21.py",
+    "starting blob tools/verify_cabinet_service_v21.py",
+    "unchanged tools/verify_cabinet_structure_v20.py",
+    "starting blob tools/verify_cabinet_structure_v20.py",
+    "unchanged tools/verify_cnc_detail_v25.py",
+    "starting blob tools/verify_cnc_detail_v25.py",
+    "unchanged tools/verify_cnc_detail_v25_entry.py",
+    "starting blob tools/verify_cnc_detail_v25_entry.py",
+    "unchanged tools/verify_owner_services_v27.py",
+    "starting blob tools/verify_owner_services_v27.py",
+    "unchanged tools/verify_platform_v09.py",
+    "starting blob tools/verify_platform_v09.py",
+    "unchanged tools/verify_playfield_fixed_anchors_v19.py",
+    "starting blob tools/verify_playfield_fixed_anchors_v19.py",
+    "unchanged tools/verify_playfield_mechanics_v18.py",
+    "starting blob tools/verify_playfield_mechanics_v18.py",
+    "unchanged tools/verify_playfield_pivot_v15.py",
+    "starting blob tools/verify_playfield_pivot_v15.py",
+    "unchanged tools/verify_playfield_v04.py",
+    "starting blob tools/verify_playfield_v04.py",
+    "unchanged tools/verify_playfield_v05.py",
+    "starting blob tools/verify_playfield_v05.py",
+    "unchanged tools/verify_rear_cpu_saved_v25.py",
+    "starting blob tools/verify_rear_cpu_saved_v25.py",
+    "unchanged tools/verify_rear_utility_v26.py",
+    "starting blob tools/verify_rear_utility_v26.py",
+    "unchanged tools/verify_structure_v14.py",
+    "starting blob tools/verify_structure_v14.py",
+    "unchanged tools/verify_v32_entry.py",
+    "starting blob tools/verify_v32_entry.py",
+    "unchanged tools/viewer/template.html",
+    "starting blob tools/viewer/template.html",
+    "unchanged tools/viewer/translations.json",
+    "starting blob tools/viewer/translations.json",
+    "unchanged tools/viewer/vendor/LICENSE.three",
+    "starting blob tools/viewer/vendor/LICENSE.three",
+    "unchanged tools/viewer/vendor/OrbitControls.js",
+    "starting blob tools/viewer/vendor/OrbitControls.js",
+    "unchanged tools/viewer/vendor/three.min.js",
+    "starting blob tools/viewer/vendor/three.min.js",
+    "unchanged tools/wood_dowel_pivot_v32_entry.py",
+    "starting blob tools/wood_dowel_pivot_v32_entry.py",
+    "manufacturing not released",
+    "depth order obeyed; 180 never tested",
+    "single pure-rotation architecture",
+    "same source of incorrect datum reproduced",
+    "negative control is meaningful",
+    "reference required samples",
+    "reference sampled clear",
+    "reference bearing release",
+    "v32 required samples",
+    "v32 sampled clear",
+    "v32 bearing release",
+    "recompute exports/generated/wpc-fold-v32/reference-0.FCStd",
+    "recompute exports/generated/wpc-fold-v32/v32-0.FCStd",
+    "recompute exports/generated/matrix-cassette-v32/matrix-removed.FCStd",
+    "reference valid single solid members",
+    "reference moving wood symmetric",
+    "reference early bearing pair MovingWood_Floor/Stationary_Shelf",
+    "reference early bearing z cap Stationary_Shelf",
+    "reference early bearing positive derivative MovingWood_Floor",
+    "reference early rise over whole interval MovingWood_Floor",
+    "reference early bearing pair MovingWood_Floor/Stationary_CabinetSideL",
+    "reference early bearing z cap Stationary_CabinetSideL",
+    "reference early bearing positive derivative MovingWood_Floor",
+    "reference early rise over whole interval MovingWood_Floor",
+    "reference early bearing pair MovingWood_Floor/Stationary_CabinetSideR",
+    "reference early bearing z cap Stationary_CabinetSideR",
+    "reference early bearing positive derivative MovingWood_Floor",
+    "reference early rise over whole interval MovingWood_Floor",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference continuous interval does not collapse",
+    "reference complete continuous coverage",
+    "v32 valid single solid members",
+    "v32 moving wood symmetric",
+    "v32 early bearing pair MovingWood_BackboxFloorV14/SIDE_L",
+    "v32 early bearing z cap SIDE_L",
+    "v32 early bearing positive derivative MovingWood_BackboxFloorV14",
+    "v32 early rise over whole interval MovingWood_BackboxFloorV14",
+    "v32 early bearing pair MovingWood_BackboxFloorV14/SIDE_R",
+    "v32 early bearing z cap SIDE_R",
+    "v32 early bearing positive derivative MovingWood_BackboxFloorV14",
+    "v32 early rise over whole interval MovingWood_BackboxFloorV14",
+    "v32 early bearing pair MovingWood_BackboxFloorV14/REAR",
+    "v32 early bearing z cap REAR",
+    "v32 early bearing positive derivative MovingWood_BackboxFloorV14",
+    "v32 early rise over whole interval MovingWood_BackboxFloorV14",
+    "v32 early bearing pair MovingWood_BackboxFloorV14/BACKBOX_BASE",
+    "v32 early bearing z cap BACKBOX_BASE",
+    "v32 early bearing positive derivative MovingWood_BackboxFloorV14",
+    "v32 early rise over whole interval MovingWood_BackboxFloorV14",
+    "v32 early bearing pair MovingWood_BackboxRearFrameLeftV14/SIDE_L",
+    "v32 early bearing z cap SIDE_L",
+    "v32 early bearing positive derivative MovingWood_BackboxRearFrameLeftV14",
+    "v32 early rise over whole interval MovingWood_BackboxRearFrameLeftV14",
+    "v32 early bearing pair MovingWood_BackboxRearFrameLeftV14/REAR",
+    "v32 early bearing z cap REAR",
+    "v32 early bearing positive derivative MovingWood_BackboxRearFrameLeftV14",
+    "v32 early rise over whole interval MovingWood_BackboxRearFrameLeftV14",
+    "v32 early bearing pair MovingWood_BackboxRearFrameRightV14/SIDE_R",
+    "v32 early bearing z cap SIDE_R",
+    "v32 early bearing positive derivative MovingWood_BackboxRearFrameRightV14",
+    "v32 early rise over whole interval MovingWood_BackboxRearFrameRightV14",
+    "v32 early bearing pair MovingWood_BackboxRearFrameRightV14/REAR",
+    "v32 early bearing z cap REAR",
+    "v32 early bearing positive derivative MovingWood_BackboxRearFrameRightV14",
+    "v32 early rise over whole interval MovingWood_BackboxRearFrameRightV14",
+    "v32 early bearing pair MovingWood_BackboxRearFrameBottomV14/REAR",
+    "v32 early bearing z cap REAR",
+    "v32 early bearing positive derivative MovingWood_BackboxRearFrameBottomV14",
+    "v32 early rise over whole interval MovingWood_BackboxRearFrameBottomV14",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 continuous interval does not collapse",
+    "v32 complete continuous coverage",
+    "recompute exports/generated/wpc-fold-v32/v32-45.FCStd",
+    "saved rigid pose 45 MovingWood_BackboxFloorV14",
+    "saved rigid pose 45 MovingWood_BackboxLeftSideV14",
+    "saved rigid pose 45 MovingWood_BackboxRightSideV14",
+    "saved rigid pose 45 MovingWood_BackboxTopV14",
+    "saved rigid pose 45 MovingWood_BackboxRearFrameLeftV14",
+    "saved rigid pose 45 MovingWood_BackboxRearFrameRightV14",
+    "saved rigid pose 45 MovingWood_BackboxRearFrameBottomV14",
+    "saved rigid pose 45 MovingWood_BackboxRearFrameTopV14",
+    "recompute exports/generated/wpc-fold-v32/v32-90.FCStd",
+    "saved rigid pose 90 MovingWood_BackboxFloorV14",
+    "saved rigid pose 90 MovingWood_BackboxLeftSideV14",
+    "saved rigid pose 90 MovingWood_BackboxRightSideV14",
+    "saved rigid pose 90 MovingWood_BackboxTopV14",
+    "saved rigid pose 90 MovingWood_BackboxRearFrameLeftV14",
+    "saved rigid pose 90 MovingWood_BackboxRearFrameRightV14",
+    "saved rigid pose 90 MovingWood_BackboxRearFrameBottomV14",
+    "saved rigid pose 90 MovingWood_BackboxRearFrameTopV14"
+  ],
+  "continuous_motion": {
+    "reference": {
+      "valid": true,
+      "range_deg": [
+        0,
+        90
+      ],
+      "method": "analytical bearing release 0..0.001; adaptive distance/Lipschitz certificate .001..90",
+      "radius_bound_mm": 838.735009180492,
+      "evaluations": 213,
+      "early_contact_pairs": [
+        [
+          "MovingWood_Floor",
+          "Stationary_Shelf"
+        ],
+        [
+          "MovingWood_Floor",
+          "Stationary_CabinetSideL"
+        ],
+        [
+          "MovingWood_Floor",
+          "Stationary_CabinetSideR"
+        ]
+      ],
+      "intervals": [
+        {
+          "lo_deg": 88.593765625,
+          "hi_deg": 90.0,
+          "minimum_midpoint_mm": 14.069579464985123,
+          "motion_bound_mm": 10.292712756933874,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 87.18753125,
+          "hi_deg": 88.593765625,
+          "minimum_midpoint_mm": 15.84217841102967,
+          "motion_bound_mm": 10.292712756933874,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 85.78129687500001,
+          "hi_deg": 87.18753125,
+          "minimum_midpoint_mm": 17.558735943374508,
+          "motion_bound_mm": 10.292712756933874,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 84.3750625,
+          "hi_deg": 85.78129687500001,
+          "minimum_midpoint_mm": 19.21821809492483,
+          "motion_bound_mm": 10.292712756933977,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 81.56259374999999,
+          "hi_deg": 84.3750625,
+          "minimum_midpoint_mm": 21.59824793417967,
+          "motion_bound_mm": 20.585425513867854,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 78.750125,
+          "hi_deg": 81.56259374999999,
+          "minimum_midpoint_mm": 24.562822673588958,
+          "motion_bound_mm": 20.585425513867747,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 75.93765625,
+          "hi_deg": 78.750125,
+          "minimum_midpoint_mm": 27.282257185600205,
+          "motion_bound_mm": 20.585425513867747,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 73.1251875,
+          "hi_deg": 75.93765625,
+          "minimum_midpoint_mm": 29.750000259834987,
+          "motion_bound_mm": 20.585425513867854,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 70.31271874999999,
+          "hi_deg": 73.1251875,
+          "minimum_midpoint_mm": 31.96010701916261,
+          "motion_bound_mm": 20.585425513867854,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 67.50025,
+          "hi_deg": 70.31271874999999,
+          "minimum_midpoint_mm": 33.90725324111183,
+          "motion_bound_mm": 20.585425513867747,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 64.68778125,
+          "hi_deg": 67.50025,
+          "minimum_midpoint_mm": 35.586748184103854,
+          "motion_bound_mm": 20.585425513867747,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 61.87531249999999,
+          "hi_deg": 64.68778125,
+          "minimum_midpoint_mm": 36.99454588760767,
+          "motion_bound_mm": 20.585425513867854,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 59.06284375,
+          "hi_deg": 61.87531249999999,
+          "minimum_midpoint_mm": 38.127254918998844,
+          "motion_bound_mm": 20.585425513867747,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 56.250375,
+          "hi_deg": 59.06284375,
+          "minimum_midpoint_mm": 38.98214654363451,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 53.43790625,
+          "hi_deg": 56.250375,
+          "minimum_midpoint_mm": 39.55716129846861,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 50.625437500000004,
+          "hi_deg": 53.43790625,
+          "minimum_midpoint_mm": 39.850913953368774,
+          "motion_bound_mm": 20.585425513867747,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 47.81296875,
+          "hi_deg": 50.625437500000004,
+          "minimum_midpoint_mm": 39.862696848182075,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 45.0005,
+          "hi_deg": 47.81296875,
+          "minimum_midpoint_mm": 39.59248159751382,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 42.18803125,
+          "hi_deg": 45.0005,
+          "minimum_midpoint_mm": 39.0409191591081,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 39.3755625,
+          "hi_deg": 42.18803125,
+          "minimum_midpoint_mm": 38.20933826566741,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 36.56309375,
+          "hi_deg": 39.3755625,
+          "minimum_midpoint_mm": 37.09974222389327,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 33.750625,
+          "hi_deg": 36.56309375,
+          "minimum_midpoint_mm": 35.714804088448645,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 30.93815625,
+          "hi_deg": 33.750625,
+          "minimum_midpoint_mm": 34.05786022248001,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 28.125687499999998,
+          "hi_deg": 30.93815625,
+          "minimum_midpoint_mm": 32.13290226020579,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 25.313218749999997,
+          "hi_deg": 28.125687499999998,
+          "minimum_midpoint_mm": 29.94456749093069,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 22.50075,
+          "hi_deg": 25.313218749999997,
+          "minimum_midpoint_mm": 27.498127687661114,
+          "motion_bound_mm": 20.585425513867776,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 19.688281250000003,
+          "hi_deg": 22.50075,
+          "minimum_midpoint_mm": 24.7994764072221,
+          "motion_bound_mm": 20.585425513867776,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 16.875812500000002,
+          "hi_deg": 19.688281250000003,
+          "minimum_midpoint_mm": 21.85511479247841,
+          "motion_bound_mm": 20.5854255138678,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 15.469578125000002,
+          "hi_deg": 16.875812500000002,
+          "minimum_midpoint_mm": 19.489841316552678,
+          "motion_bound_mm": 10.2927127569339,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 14.063343750000001,
+          "hi_deg": 15.469578125000002,
+          "minimum_midpoint_mm": 17.83999345254055,
+          "motion_bound_mm": 10.2927127569339,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 12.657109375000001,
+          "hi_deg": 14.063343750000001,
+          "minimum_midpoint_mm": 16.13290079249183,
+          "motion_bound_mm": 10.2927127569339,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 11.250875,
+          "hi_deg": 12.657109375000001,
+          "minimum_midpoint_mm": 14.369591602342645,
+          "motion_bound_mm": 10.2927127569339,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_CabinetSideL"
+          ]
+        },
+        {
+          "lo_deg": 9.844640625,
+          "hi_deg": 11.250875,
+          "minimum_midpoint_mm": 12.560315960792066,
+          "motion_bound_mm": 10.2927127569339,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 8.43840625,
+          "hi_deg": 9.844640625,
+          "minimum_midpoint_mm": 10.977044829218016,
+          "motion_bound_mm": 10.2927127569339,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 7.7352890625,
+          "hi_deg": 8.43840625,
+          "minimum_midpoint_mm": 9.835332499905803,
+          "motion_bound_mm": 5.14635637846695,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 7.0321718749999995,
+          "hi_deg": 7.7352890625,
+          "minimum_midpoint_mm": 9.05558083197684,
+          "motion_bound_mm": 5.14635637846695,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 6.329054687499999,
+          "hi_deg": 7.0321718749999995,
+          "minimum_midpoint_mm": 8.261077741693953,
+          "motion_bound_mm": 5.14635637846695,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 5.6259375,
+          "hi_deg": 6.329054687499999,
+          "minimum_midpoint_mm": 7.451942875641748,
+          "motion_bound_mm": 5.146356378466944,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 4.922820312500001,
+          "hi_deg": 5.6259375,
+          "minimum_midpoint_mm": 6.628298083847085,
+          "motion_bound_mm": 5.146356378466944,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 4.2197031250000006,
+          "hi_deg": 4.922820312500001,
+          "minimum_midpoint_mm": 5.790267401429105,
+          "motion_bound_mm": 5.14635637846695,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 3.8681445312500005,
+          "hi_deg": 4.2197031250000006,
+          "minimum_midpoint_mm": 5.152379486086602,
+          "motion_bound_mm": 2.573178189233475,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 3.5165859375000004,
+          "hi_deg": 3.8681445312500005,
+          "minimum_midpoint_mm": 4.722691354607491,
+          "motion_bound_mm": 2.573178189233475,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 3.1650273437500003,
+          "hi_deg": 3.5165859375000004,
+          "minimum_midpoint_mm": 4.289478460043711,
+          "motion_bound_mm": 2.573178189233475,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 2.81346875,
+          "hi_deg": 3.1650273437500003,
+          "minimum_midpoint_mm": 3.852757112253471,
+          "motion_bound_mm": 2.573178189233475,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 2.46191015625,
+          "hi_deg": 2.81346875,
+          "minimum_midpoint_mm": 3.412543753183286,
+          "motion_bound_mm": 2.573178189233475,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 2.1103515625,
+          "hi_deg": 2.46191015625,
+          "minimum_midpoint_mm": 2.968854956249288,
+          "motion_bound_mm": 2.573178189233475,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 1.934572265625,
+          "hi_deg": 2.1103515625,
+          "minimum_midpoint_mm": 2.633817646205671,
+          "motion_bound_mm": 1.2865890946167375,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 1.75879296875,
+          "hi_deg": 1.934572265625,
+          "minimum_midpoint_mm": 2.409382085890684,
+          "motion_bound_mm": 1.2865890946167375,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 1.5830136718749999,
+          "hi_deg": 1.75879296875,
+          "minimum_midpoint_mm": 2.184087105995104,
+          "motion_bound_mm": 1.2865890946167375,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 1.407234375,
+          "hi_deg": 1.5830136718749999,
+          "minimum_midpoint_mm": 1.9579348270340233,
+          "motion_bound_mm": 1.286589094616736,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 1.231455078125,
+          "hi_deg": 1.407234375,
+          "minimum_midpoint_mm": 1.7309273775912288,
+          "motion_bound_mm": 1.2865890946167375,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 1.05567578125,
+          "hi_deg": 1.231455078125,
+          "minimum_midpoint_mm": 1.503066894299991,
+          "motion_bound_mm": 1.2865890946167375,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.9677861328124999,
+          "hi_deg": 1.05567578125,
+          "minimum_midpoint_mm": 1.331613018215421,
+          "motion_bound_mm": 0.6432945473083688,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.8798964843749999,
+          "hi_deg": 0.9677861328124999,
+          "minimum_midpoint_mm": 1.2170449793579792,
+          "motion_bound_mm": 0.6432945473083688,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.7920068359374999,
+          "hi_deg": 0.8798964843749999,
+          "minimum_midpoint_mm": 1.1022648911008446,
+          "motion_bound_mm": 0.6432945473083688,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.7041171875,
+          "hi_deg": 0.7920068359374999,
+          "minimum_midpoint_mm": 0.9872730235269955,
+          "motion_bound_mm": 0.643294547308368,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.6162275390625,
+          "hi_deg": 0.7041171875,
+          "minimum_midpoint_mm": 0.8720696472171312,
+          "motion_bound_mm": 0.643294547308368,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.528337890625,
+          "hi_deg": 0.6162275390625,
+          "minimum_midpoint_mm": 0.7566550332501265,
+          "motion_bound_mm": 0.6432945473083688,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.48439306640625,
+          "hi_deg": 0.528337890625,
+          "minimum_midpoint_mm": 0.6699556114133429,
+          "motion_bound_mm": 0.3216472736541844,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.4404482421875,
+          "hi_deg": 0.48439306640625,
+          "minimum_midpoint_mm": 0.6120901266116334,
+          "motion_bound_mm": 0.3216472736541844,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.39650341796875,
+          "hi_deg": 0.4404482421875,
+          "minimum_midpoint_mm": 0.5541719853235918,
+          "motion_bound_mm": 0.3216472736541844,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.35255859375,
+          "hi_deg": 0.39650341796875,
+          "minimum_midpoint_mm": 0.4962012216203675,
+          "motion_bound_mm": 0.3216472736541844,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.30861376953124997,
+          "hi_deg": 0.35255859375,
+          "minimum_midpoint_mm": 0.43817786960391913,
+          "motion_bound_mm": 0.3216472736541844,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.26466894531249996,
+          "hi_deg": 0.30861376953124997,
+          "minimum_midpoint_mm": 0.3801019634070144,
+          "motion_bound_mm": 0.3216472736541844,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.22072412109374998,
+          "hi_deg": 0.26466894531249996,
+          "minimum_midpoint_mm": 0.32197353719357125,
+          "motion_bound_mm": 0.32164727365418416,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.198751708984375,
+          "hi_deg": 0.22072412109374998,
+          "minimum_midpoint_mm": 0.2783427718417215,
+          "motion_bound_mm": 0.160823636827092,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.176779296875,
+          "hi_deg": 0.198751708984375,
+          "minimum_midpoint_mm": 0.24923920024980362,
+          "motion_bound_mm": 0.1608236368270922,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.15480688476562499,
+          "hi_deg": 0.176779296875,
+          "minimum_midpoint_mm": 0.22012251789863058,
+          "motion_bound_mm": 0.1608236368270922,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.13283447265624998,
+          "hi_deg": 0.15480688476562499,
+          "minimum_midpoint_mm": 0.1909927290704445,
+          "motion_bound_mm": 0.1608236368270922,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.11086206054687499,
+          "hi_deg": 0.13283447265624998,
+          "minimum_midpoint_mm": 0.16184983804885178,
+          "motion_bound_mm": 0.16082363682709208,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0998758544921875,
+          "hi_deg": 0.11086206054687499,
+          "minimum_midpoint_mm": 0.13998407404665159,
+          "motion_bound_mm": 0.080411818413546,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0888896484375,
+          "hi_deg": 0.0998758544921875,
+          "minimum_midpoint_mm": 0.12540280584221364,
+          "motion_bound_mm": 0.0804118184135461,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0779034423828125,
+          "hi_deg": 0.0888896484375,
+          "minimum_midpoint_mm": 0.11081826450106291,
+          "motion_bound_mm": 0.0804118184135461,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.06691723632812499,
+          "hi_deg": 0.0779034423828125,
+          "minimum_midpoint_mm": 0.09623045055911916,
+          "motion_bound_mm": 0.0804118184135461,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.055931030273437495,
+          "hi_deg": 0.06691723632812499,
+          "minimum_midpoint_mm": 0.08163936455309795,
+          "motion_bound_mm": 0.08041181841354604,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.05043792724609375,
+          "hi_deg": 0.055931030273437495,
+          "minimum_midpoint_mm": 0.07069390307913181,
+          "motion_bound_mm": 0.040205909206773,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.04494482421875,
+          "hi_deg": 0.05043792724609375,
+          "minimum_midpoint_mm": 0.06339590652225979,
+          "motion_bound_mm": 0.04020590920677305,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.03945172119140625,
+          "hi_deg": 0.04494482421875,
+          "minimum_midpoint_mm": 0.056097092251320646,
+          "motion_bound_mm": 0.04020590920677305,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.033958618164062496,
+          "hi_deg": 0.03945172119140625,
+          "minimum_midpoint_mm": 0.048797460333162235,
+          "motion_bound_mm": 0.04020590920677305,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.028465515136718748,
+          "hi_deg": 0.033958618164062496,
+          "minimum_midpoint_mm": 0.04149701083497348,
+          "motion_bound_mm": 0.04020590920677302,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.025718963623046875,
+          "hi_deg": 0.028465515136718748,
+          "minimum_midpoint_mm": 0.03602113721478872,
+          "motion_bound_mm": 0.0201029546033865,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.022972412109375,
+          "hi_deg": 0.025718963623046875,
+          "minimum_midpoint_mm": 0.032370299342460385,
+          "motion_bound_mm": 0.020102954603386524,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.020225860595703124,
+          "hi_deg": 0.022972412109375,
+          "minimum_midpoint_mm": 0.028719257112925334,
+          "motion_bound_mm": 0.020102954603386524,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.01747930908203125,
+          "hi_deg": 0.020225860595703124,
+          "minimum_midpoint_mm": 0.025068010534369023,
+          "motion_bound_mm": 0.020102954603386524,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.014732757568359374,
+          "hi_deg": 0.01747930908203125,
+          "minimum_midpoint_mm": 0.021416559615431652,
+          "motion_bound_mm": 0.02010295460338651,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.013359481811523438,
+          "hi_deg": 0.014732757568359374,
+          "minimum_midpoint_mm": 0.018677837332688796,
+          "motion_bound_mm": 0.01005147730169325,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0119862060546875,
+          "hi_deg": 0.013359481811523438,
+          "minimum_midpoint_mm": 0.01685195862569344,
+          "motion_bound_mm": 0.010051477301693262,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.010612930297851562,
+          "hi_deg": 0.0119862060546875,
+          "minimum_midpoint_mm": 0.015026028838065031,
+          "motion_bound_mm": 0.010051477301693262,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.009239654541015625,
+          "hi_deg": 0.010612930297851562,
+          "minimum_midpoint_mm": 0.013200047971167805,
+          "motion_bound_mm": 0.010051477301693262,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.007866378784179687,
+          "hi_deg": 0.009239654541015625,
+          "minimum_midpoint_mm": 0.011374016026024947,
+          "motion_bound_mm": 0.010051477301693262,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.007179740905761719,
+          "hi_deg": 0.007866378784179687,
+          "minimum_midpoint_mm": 0.010004458547655304,
+          "motion_bound_mm": 0.005025738650846625,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.006493103027343751,
+          "hi_deg": 0.007179740905761719,
+          "minimum_midpoint_mm": 0.00909140426722388,
+          "motion_bound_mm": 0.005025738650846625,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.005806465148925782,
+          "hi_deg": 0.006493103027343751,
+          "minimum_midpoint_mm": 0.00817833721794159,
+          "motion_bound_mm": 0.005025738650846631,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.005119827270507813,
+          "hi_deg": 0.005806465148925782,
+          "minimum_midpoint_mm": 0.0072652573998084335,
+          "motion_bound_mm": 0.005025738650846631,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.004433189392089844,
+          "hi_deg": 0.005119827270507813,
+          "minimum_midpoint_mm": 0.006352164812938099,
+          "motion_bound_mm": 0.005025738650846631,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0037465515136718753,
+          "hi_deg": 0.004433189392089844,
+          "minimum_midpoint_mm": 0.005439059457216899,
+          "motion_bound_mm": 0.0050257386508466275,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0034032325744628913,
+          "hi_deg": 0.0037465515136718753,
+          "minimum_midpoint_mm": 0.004754222061364999,
+          "motion_bound_mm": 0.0025128693254233125,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.003059913635253907,
+          "hi_deg": 0.0034032325744628913,
+          "minimum_midpoint_mm": 0.004297659807320997,
+          "motion_bound_mm": 0.0025128693254233155,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0027165946960449223,
+          "hi_deg": 0.003059913635253907,
+          "minimum_midpoint_mm": 0.003841094361064279,
+          "motion_bound_mm": 0.0025128693254233155,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.002373275756835938,
+          "hi_deg": 0.0027165946960449223,
+          "minimum_midpoint_mm": 0.003384525722935905,
+          "motion_bound_mm": 0.0025128693254233155,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0020299568176269534,
+          "hi_deg": 0.002373275756835938,
+          "minimum_midpoint_mm": 0.0029279538927085014,
+          "motion_bound_mm": 0.0025128693254233155,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0018582973480224612,
+          "hi_deg": 0.0020299568176269534,
+          "minimum_midpoint_mm": 0.0025855229251874334,
+          "motion_bound_mm": 0.0012564346627116578,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.001686637878417969,
+          "hi_deg": 0.0018582973480224612,
+          "minimum_midpoint_mm": 0.0023572346161699897,
+          "motion_bound_mm": 0.0012564346627116578,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0015149784088134767,
+          "hi_deg": 0.001686637878417969,
+          "minimum_midpoint_mm": 0.0021289455088435716,
+          "motion_bound_mm": 0.0012564346627116578,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0013433189392089845,
+          "hi_deg": 0.0015149784088134767,
+          "minimum_midpoint_mm": 0.0019006556037766131,
+          "motion_bound_mm": 0.0012564346627116578,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.0011716594696044923,
+          "hi_deg": 0.0013433189392089845,
+          "minimum_midpoint_mm": 0.0016723649006280539,
+          "motion_bound_mm": 0.0012564346627116578,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        },
+        {
+          "lo_deg": 0.001,
+          "hi_deg": 0.0011716594696044923,
+          "minimum_midpoint_mm": 0.0014440733995115806,
+          "motion_bound_mm": 0.0012564346627116578,
+          "pair": [
+            "MovingWood_Floor",
+            "Stationary_Shelf"
+          ]
+        }
+      ]
+    },
+    "v32": {
+      "valid": true,
+      "range_deg": [
+        0,
+        90
+      ],
+      "method": "analytical bearing release 0..0.001; adaptive distance/Lipschitz certificate .001..90",
+      "radius_bound_mm": 847.8617399081055,
+      "evaluations": 231,
+      "early_contact_pairs": [
+        [
+          "MovingWood_BackboxFloorV14",
+          "SIDE_L"
+        ],
+        [
+          "MovingWood_BackboxFloorV14",
+          "SIDE_R"
+        ],
+        [
+          "MovingWood_BackboxFloorV14",
+          "REAR"
+        ],
+        [
+          "MovingWood_BackboxFloorV14",
+          "BACKBOX_BASE"
+        ],
+        [
+          "MovingWood_BackboxRearFrameLeftV14",
+          "SIDE_L"
+        ],
+        [
+          "MovingWood_BackboxRearFrameLeftV14",
+          "REAR"
+        ],
+        [
+          "MovingWood_BackboxRearFrameRightV14",
+          "SIDE_R"
+        ],
+        [
+          "MovingWood_BackboxRearFrameRightV14",
+          "REAR"
+        ],
+        [
+          "MovingWood_BackboxRearFrameBottomV14",
+          "REAR"
+        ]
+      ],
+      "intervals": [
+        {
+          "lo_deg": 89.2968828125,
+          "hi_deg": 90.0,
+          "minimum_midpoint_mm": 5.569843051628289,
+          "motion_bound_mm": 5.202356674603969,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 88.593765625,
+          "hi_deg": 89.2968828125,
+          "minimum_midpoint_mm": 6.463192335468099,
+          "motion_bound_mm": 5.202356674603969,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 87.8906484375,
+          "hi_deg": 88.593765625,
+          "minimum_midpoint_mm": 7.342286625088432,
+          "motion_bound_mm": 5.202356674603969,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 87.18753125,
+          "hi_deg": 87.8906484375,
+          "minimum_midpoint_mm": 8.206993535064544,
+          "motion_bound_mm": 5.202356674603969,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 86.48441406250001,
+          "hi_deg": 87.18753125,
+          "minimum_midpoint_mm": 9.057182846610038,
+          "motion_bound_mm": 5.202356674603969,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 85.78129687500001,
+          "hi_deg": 86.48441406250001,
+          "minimum_midpoint_mm": 9.892726527187179,
+          "motion_bound_mm": 5.202356674603969,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 84.3750625,
+          "hi_deg": 85.78129687500001,
+          "minimum_midpoint_mm": 11.118306851149839,
+          "motion_bound_mm": 10.404713349208041,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 82.96882812499999,
+          "hi_deg": 84.3750625,
+          "minimum_midpoint_mm": 12.699998560640172,
+          "motion_bound_mm": 10.404713349208041,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 81.56259374999999,
+          "hi_deg": 82.96882812499999,
+          "minimum_midpoint_mm": 14.220915704572706,
+          "motion_bound_mm": 10.404713349207938,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 80.156359375,
+          "hi_deg": 81.56259374999999,
+          "minimum_midpoint_mm": 15.680142159688733,
+          "motion_bound_mm": 10.404713349207938,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 78.750125,
+          "hi_deg": 80.156359375,
+          "minimum_midpoint_mm": 17.07679896206775,
+          "motion_bound_mm": 10.404713349207938,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 77.343890625,
+          "hi_deg": 78.750125,
+          "minimum_midpoint_mm": 18.410044836570478,
+          "motion_bound_mm": 10.404713349207938,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 75.93765625,
+          "hi_deg": 77.343890625,
+          "minimum_midpoint_mm": 19.679076703580353,
+          "motion_bound_mm": 10.404713349207938,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 73.1251875,
+          "hi_deg": 75.93765625,
+          "minimum_midpoint_mm": 21.46056180441605,
+          "motion_bound_mm": 20.809426698415983,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelR"
+          ]
+        },
+        {
+          "lo_deg": 70.31271874999999,
+          "hi_deg": 73.1251875,
+          "minimum_midpoint_mm": 23.6043212507377,
+          "motion_bound_mm": 20.809426698415983,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 67.50025,
+          "hi_deg": 70.31271874999999,
+          "minimum_midpoint_mm": 25.478750157520935,
+          "motion_bound_mm": 20.809426698415876,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 64.68778125,
+          "hi_deg": 67.50025,
+          "minimum_midpoint_mm": 27.07933296167607,
+          "motion_bound_mm": 20.809426698415876,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 61.87531249999999,
+          "hi_deg": 64.68778125,
+          "minimum_midpoint_mm": 28.402213804703294,
+          "motion_bound_mm": 20.809426698415983,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 59.06284375,
+          "hi_deg": 61.87531249999999,
+          "minimum_midpoint_mm": 29.44420582158721,
+          "motion_bound_mm": 20.809426698415876,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 56.250375,
+          "hi_deg": 59.06284375,
+          "minimum_midpoint_mm": 30.202798818063382,
+          "motion_bound_mm": 20.80942669841593,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 53.43790625,
+          "hi_deg": 56.250375,
+          "minimum_midpoint_mm": 30.676165317761154,
+          "motion_bound_mm": 20.80942669841593,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 50.625437500000004,
+          "hi_deg": 53.43790625,
+          "minimum_midpoint_mm": 30.863164964657734,
+          "motion_bound_mm": 20.809426698415876,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 47.81296875,
+          "hi_deg": 50.625437500000004,
+          "minimum_midpoint_mm": 30.763347270233382,
+          "motion_bound_mm": 20.80942669841593,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 45.0005,
+          "hi_deg": 47.81296875,
+          "minimum_midpoint_mm": 30.376952698714206,
+          "motion_bound_mm": 20.80942669841593,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 42.18803125,
+          "hi_deg": 45.0005,
+          "minimum_midpoint_mm": 29.704912087785797,
+          "motion_bound_mm": 20.80942669841593,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 39.3755625,
+          "hi_deg": 42.18803125,
+          "minimum_midpoint_mm": 28.74884440617295,
+          "motion_bound_mm": 20.80942669841593,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 36.56309375,
+          "hi_deg": 39.3755625,
+          "minimum_midpoint_mm": 27.511052853490114,
+          "motion_bound_mm": 20.80942669841593,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 33.750625,
+          "hi_deg": 36.56309375,
+          "minimum_midpoint_mm": 25.994519311752956,
+          "motion_bound_mm": 20.80942669841593,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 30.93815625,
+          "hi_deg": 33.750625,
+          "minimum_midpoint_mm": 24.20289716192525,
+          "motion_bound_mm": 20.80942669841593,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 28.125687499999998,
+          "hi_deg": 30.93815625,
+          "minimum_midpoint_mm": 22.140502482798286,
+          "motion_bound_mm": 20.80942669841593,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 26.719453124999998,
+          "hi_deg": 28.125687499999998,
+          "minimum_midpoint_mm": 20.418976595038934,
+          "motion_bound_mm": 10.404713349207965,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 25.313218749999997,
+          "hi_deg": 26.719453124999998,
+          "minimum_midpoint_mm": 19.189365435172068,
+          "motion_bound_mm": 10.404713349207965,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 23.906984375,
+          "hi_deg": 25.313218749999997,
+          "minimum_midpoint_mm": 17.895070844656704,
+          "motion_bound_mm": 10.404713349207938,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 22.50075,
+          "hi_deg": 23.906984375,
+          "minimum_midpoint_mm": 16.53687244083259,
+          "motion_bound_mm": 10.404713349207965,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 21.094515625,
+          "hi_deg": 22.50075,
+          "minimum_midpoint_mm": 15.115588333452433,
+          "motion_bound_mm": 10.404713349207965,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 19.688281250000003,
+          "hi_deg": 21.094515625,
+          "minimum_midpoint_mm": 13.632074631892923,
+          "motion_bound_mm": 10.404713349207938,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 18.282046875000002,
+          "hi_deg": 19.688281250000003,
+          "minimum_midpoint_mm": 12.087224929479232,
+          "motion_bound_mm": 10.404713349207965,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 16.875812500000002,
+          "hi_deg": 18.282046875000002,
+          "minimum_midpoint_mm": 10.496806488583612,
+          "motion_bound_mm": 10.404713349207965,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelL"
+          ]
+        },
+        {
+          "lo_deg": 16.172695312500004,
+          "hi_deg": 16.875812500000002,
+          "minimum_midpoint_mm": 9.536350298566163,
+          "motion_bound_mm": 5.202356674603969,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelR"
+          ]
+        },
+        {
+          "lo_deg": 15.469578125000002,
+          "hi_deg": 16.172695312500004,
+          "minimum_midpoint_mm": 9.11325874341039,
+          "motion_bound_mm": 5.202356674603996,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelR"
+          ]
+        },
+        {
+          "lo_deg": 14.766460937500002,
+          "hi_deg": 15.469578125000002,
+          "minimum_midpoint_mm": 8.894488325200701,
+          "motion_bound_mm": 5.202356674603982,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelR"
+          ]
+        },
+        {
+          "lo_deg": 14.063343750000001,
+          "hi_deg": 14.766460937500002,
+          "minimum_midpoint_mm": 8.895160662727966,
+          "motion_bound_mm": 5.202356674603982,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelR"
+          ]
+        },
+        {
+          "lo_deg": 13.360226562500001,
+          "hi_deg": 14.063343750000001,
+          "minimum_midpoint_mm": 9.115227099144771,
+          "motion_bound_mm": 5.202356674603982,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelR"
+          ]
+        },
+        {
+          "lo_deg": 12.657109375000001,
+          "hi_deg": 13.360226562500001,
+          "minimum_midpoint_mm": 9.53948485267089,
+          "motion_bound_mm": 5.202356674603982,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelR"
+          ]
+        },
+        {
+          "lo_deg": 11.250875,
+          "hi_deg": 12.657109375000001,
+          "minimum_midpoint_mm": 10.501361522516182,
+          "motion_bound_mm": 10.404713349207965,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelR"
+          ]
+        },
+        {
+          "lo_deg": 9.844640625,
+          "hi_deg": 11.250875,
+          "minimum_midpoint_mm": 12.239001111889731,
+          "motion_bound_mm": 10.404713349207965,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "CandidateGlassChannelR"
+          ]
+        },
+        {
+          "lo_deg": 8.43840625,
+          "hi_deg": 9.844640625,
+          "minimum_midpoint_mm": 11.453665703870797,
+          "motion_bound_mm": 10.404713349207965,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 7.7352890625,
+          "hi_deg": 8.43840625,
+          "minimum_midpoint_mm": 10.257354399738347,
+          "motion_bound_mm": 5.202356674603982,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 7.0321718749999995,
+          "hi_deg": 7.7352890625,
+          "minimum_midpoint_mm": 9.441122830571658,
+          "motion_bound_mm": 5.202356674603982,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 6.329054687499999,
+          "hi_deg": 7.0321718749999995,
+          "minimum_midpoint_mm": 8.610081779134475,
+          "motion_bound_mm": 5.202356674603982,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 5.6259375,
+          "hi_deg": 6.329054687499999,
+          "minimum_midpoint_mm": 7.764356394371703,
+          "motion_bound_mm": 5.202356674603975,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 4.922820312500001,
+          "hi_deg": 5.6259375,
+          "minimum_midpoint_mm": 6.90407403658503,
+          "motion_bound_mm": 5.202356674603975,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 4.2197031250000006,
+          "hi_deg": 4.922820312500001,
+          "minimum_midpoint_mm": 6.029364258253963,
+          "motion_bound_mm": 5.202356674603982,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 3.8681445312500005,
+          "hi_deg": 4.2197031250000006,
+          "minimum_midpoint_mm": 5.363943089553231,
+          "motion_bound_mm": 2.601178337301991,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 3.5165859375000004,
+          "hi_deg": 3.8681445312500005,
+          "minimum_midpoint_mm": 4.91588935549828,
+          "motion_bound_mm": 2.601178337301991,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 3.1650273437500003,
+          "hi_deg": 3.5165859375000004,
+          "minimum_midpoint_mm": 4.464303584724917,
+          "motion_bound_mm": 2.601178337301991,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 2.81346875,
+          "hi_deg": 3.1650273437500003,
+          "minimum_midpoint_mm": 4.009202778804024,
+          "motion_bound_mm": 2.601178337301991,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 2.46191015625,
+          "hi_deg": 2.81346875,
+          "minimum_midpoint_mm": 3.5506040716433063,
+          "motion_bound_mm": 2.601178337301991,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 2.1103515625,
+          "hi_deg": 2.46191015625,
+          "minimum_midpoint_mm": 3.0885247288412074,
+          "motion_bound_mm": 2.601178337301991,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 1.75879296875,
+          "hi_deg": 2.1103515625,
+          "minimum_midpoint_mm": 2.6229821470369643,
+          "motion_bound_mm": 2.601178337301991,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 1.5830136718749999,
+          "hi_deg": 1.75879296875,
+          "minimum_midpoint_mm": 2.2715629988064165,
+          "motion_bound_mm": 1.3005891686509956,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 1.407234375,
+          "hi_deg": 1.5830136718749999,
+          "minimum_midpoint_mm": 2.0362104536245624,
+          "motion_bound_mm": 1.3005891686509938,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 1.231455078125,
+          "hi_deg": 1.407234375,
+          "minimum_midpoint_mm": 1.8000020012174218,
+          "motion_bound_mm": 1.3005891686509956,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 1.05567578125,
+          "hi_deg": 1.231455078125,
+          "minimum_midpoint_mm": 1.5629398648196684,
+          "motion_bound_mm": 1.3005891686509956,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.8798964843749999,
+          "hi_deg": 1.05567578125,
+          "minimum_midpoint_mm": 1.3250262757006794,
+          "motion_bound_mm": 1.3005891686509956,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.7920068359374999,
+          "hi_deg": 0.8798964843749999,
+          "minimum_midpoint_mm": 1.146033664781612,
+          "motion_bound_mm": 0.6502945843254978,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.7041171875,
+          "hi_deg": 0.7920068359374999,
+          "minimum_midpoint_mm": 1.0264403460829499,
+          "motion_bound_mm": 0.6502945843254969,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.6162275390625,
+          "hi_deg": 0.7041171875,
+          "minimum_midpoint_mm": 0.9066354264857637,
+          "motion_bound_mm": 0.6502945843254969,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.528337890625,
+          "hi_deg": 0.6162275390625,
+          "minimum_midpoint_mm": 0.7866191878966902,
+          "motion_bound_mm": 0.6502945843254978,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.4404482421875,
+          "hi_deg": 0.528337890625,
+          "minimum_midpoint_mm": 0.6663919127189502,
+          "motion_bound_mm": 0.6502945843254978,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.39650341796875,
+          "hi_deg": 0.4404482421875,
+          "minimum_midpoint_mm": 0.5760831337379386,
+          "motion_bound_mm": 0.3251472921627489,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.35255859375,
+          "hi_deg": 0.39650341796875,
+          "minimum_midpoint_mm": 0.5158114795719939,
+          "motion_bound_mm": 0.3251472921627489,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.30861376953124997,
+          "hi_deg": 0.35255859375,
+          "minimum_midpoint_mm": 0.455487225556908,
+          "motion_bound_mm": 0.3251472921627489,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.26466894531249996,
+          "hi_deg": 0.30861376953124997,
+          "minimum_midpoint_mm": 0.39511040717889045,
+          "motion_bound_mm": 0.3251472921627489,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.22072412109374998,
+          "hi_deg": 0.26466894531249996,
+          "minimum_midpoint_mm": 0.3346810599555283,
+          "motion_bound_mm": 0.3251472921627486,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.198751708984375,
+          "hi_deg": 0.22072412109374998,
+          "minimum_midpoint_mm": 0.2893245988665285,
+          "motion_bound_mm": 0.16257364608137423,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.176779296875,
+          "hi_deg": 0.198751708984375,
+          "minimum_midpoint_mm": 0.259070561395788,
+          "motion_bound_mm": 0.16257364608137445,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.15480688476562499,
+          "hi_deg": 0.176779296875,
+          "minimum_midpoint_mm": 0.22880341171992313,
+          "motion_bound_mm": 0.16257364608137445,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.13283447265624998,
+          "hi_deg": 0.15480688476562499,
+          "minimum_midpoint_mm": 0.19852315429022838,
+          "motion_bound_mm": 0.16257364608137445,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.11086206054687499,
+          "hi_deg": 0.13283447265624998,
+          "minimum_midpoint_mm": 0.16822979355981715,
+          "motion_bound_mm": 0.1625736460813743,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0998758544921875,
+          "hi_deg": 0.11086206054687499,
+          "minimum_midpoint_mm": 0.1455011766511234,
+          "motion_bound_mm": 0.08128682304068711,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0888896484375,
+          "hi_deg": 0.0998758544921875,
+          "minimum_midpoint_mm": 0.1303446729176585,
+          "motion_bound_mm": 0.08128682304068723,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0779034423828125,
+          "hi_deg": 0.0888896484375,
+          "minimum_midpoint_mm": 0.11518489586580927,
+          "motion_bound_mm": 0.08128682304068723,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.06691723632812499,
+          "hi_deg": 0.0779034423828125,
+          "minimum_midpoint_mm": 0.10002184605252751,
+          "motion_bound_mm": 0.08128682304068723,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.055931030273437495,
+          "hi_deg": 0.06691723632812499,
+          "minimum_midpoint_mm": 0.08485552403578822,
+          "motion_bound_mm": 0.08128682304068716,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.05043792724609375,
+          "hi_deg": 0.055931030273437495,
+          "minimum_midpoint_mm": 0.07347863547499855,
+          "motion_bound_mm": 0.04064341152034356,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.04494482421875,
+          "hi_deg": 0.05043792724609375,
+          "minimum_midpoint_mm": 0.06589302082795712,
+          "motion_bound_mm": 0.04064341152034361,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.03945172119140625,
+          "hi_deg": 0.04494482421875,
+          "minimum_midpoint_mm": 0.05830658844365644,
+          "motion_bound_mm": 0.04064341152034361,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.033958618164062496,
+          "hi_deg": 0.03945172119140625,
+          "minimum_midpoint_mm": 0.05071933839190024,
+          "motion_bound_mm": 0.04064341152034361,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.028465515136718748,
+          "hi_deg": 0.033958618164062496,
+          "minimum_midpoint_mm": 0.04313127074226486,
+          "motion_bound_mm": 0.04064341152034358,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.025718963623046875,
+          "hi_deg": 0.028465515136718748,
+          "minimum_midpoint_mm": 0.037439683498519116,
+          "motion_bound_mm": 0.02032170576017178,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.022972412109375,
+          "hi_deg": 0.025718963623046875,
+          "minimum_midpoint_mm": 0.033645036539951434,
+          "motion_bound_mm": 0.020321705760171806,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.020225860595703124,
+          "hi_deg": 0.022972412109375,
+          "minimum_midpoint_mm": 0.02985018522088012,
+          "motion_bound_mm": 0.020321705760171806,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.01747930908203125,
+          "hi_deg": 0.020225860595703124,
+          "minimum_midpoint_mm": 0.026055129550400125,
+          "motion_bound_mm": 0.020321705760171806,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.014732757568359374,
+          "hi_deg": 0.01747930908203125,
+          "minimum_midpoint_mm": 0.022259869537151644,
+          "motion_bound_mm": 0.02032170576017179,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.013359481811523438,
+          "hi_deg": 0.014732757568359374,
+          "minimum_midpoint_mm": 0.01941329043256701,
+          "motion_bound_mm": 0.01016085288008589,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0119862060546875,
+          "hi_deg": 0.013359481811523438,
+          "minimum_midpoint_mm": 0.017515507176995015,
+          "motion_bound_mm": 0.010160852880085903,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.010612930297851562,
+          "hi_deg": 0.0119862060546875,
+          "minimum_midpoint_mm": 0.015617672840448904,
+          "motion_bound_mm": 0.010160852880085903,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.009239654541015625,
+          "hi_deg": 0.010612930297851562,
+          "minimum_midpoint_mm": 0.013719787424292917,
+          "motion_bound_mm": 0.010160852880085903,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.007866378784179687,
+          "hi_deg": 0.009239654541015625,
+          "minimum_midpoint_mm": 0.011821850929550237,
+          "motion_bound_mm": 0.010160852880085903,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.007179740905761719,
+          "hi_deg": 0.007866378784179687,
+          "minimum_midpoint_mm": 0.010398365038895463,
+          "motion_bound_mm": 0.005080426440042945,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.006493103027343751,
+          "hi_deg": 0.007179740905761719,
+          "minimum_midpoint_mm": 0.009449358483493597,
+          "motion_bound_mm": 0.005080426440042945,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.005806465148925782,
+          "hi_deg": 0.006493103027343751,
+          "minimum_midpoint_mm": 0.008500339159240866,
+          "motion_bound_mm": 0.005080426440042952,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.005119827270507813,
+          "hi_deg": 0.005806465148925782,
+          "minimum_midpoint_mm": 0.007551307065909896,
+          "motion_bound_mm": 0.005080426440042952,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.004433189392089844,
+          "hi_deg": 0.005119827270507813,
+          "minimum_midpoint_mm": 0.0066022622039554335,
+          "motion_bound_mm": 0.005080426440042952,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0037465515136718753,
+          "hi_deg": 0.004433189392089844,
+          "minimum_midpoint_mm": 0.005653204573150106,
+          "motion_bound_mm": 0.005080426440042947,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0034032325744628913,
+          "hi_deg": 0.0037465515136718753,
+          "minimum_midpoint_mm": 0.0049414029708714224,
+          "motion_bound_mm": 0.0025402132200214723,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.003059913635253907,
+          "hi_deg": 0.0034032325744628913,
+          "minimum_midpoint_mm": 0.004466864579285357,
+          "motion_bound_mm": 0.002540213220021476,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0027165946960449223,
+          "hi_deg": 0.003059913635253907,
+          "minimum_midpoint_mm": 0.003992322995486575,
+          "motion_bound_mm": 0.002540213220021476,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.002373275756835938,
+          "hi_deg": 0.0027165946960449223,
+          "minimum_midpoint_mm": 0.00351777821970245,
+          "motion_bound_mm": 0.002540213220021476,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0020299568176269534,
+          "hi_deg": 0.002373275756835938,
+          "minimum_midpoint_mm": 0.0030432302519329824,
+          "motion_bound_mm": 0.002540213220021476,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.001686637878417969,
+          "hi_deg": 0.0020299568176269534,
+          "minimum_midpoint_mm": 0.002568679092178172,
+          "motion_bound_mm": 0.002540213220021476,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0015149784088134767,
+          "hi_deg": 0.001686637878417969,
+          "minimum_midpoint_mm": 0.002212763627426284,
+          "motion_bound_mm": 0.001270106610010738,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0013433189392089845,
+          "hi_deg": 0.0015149784088134767,
+          "minimum_midpoint_mm": 0.00197548565336092,
+          "motion_bound_mm": 0.001270106610010738,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.0011716594696044923,
+          "hi_deg": 0.0013433189392089845,
+          "minimum_midpoint_mm": 0.001738206881327642,
+          "motion_bound_mm": 0.001270106610010738,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        },
+        {
+          "lo_deg": 0.001,
+          "hi_deg": 0.0011716594696044923,
+          "minimum_midpoint_mm": 0.0015009273114401367,
+          "motion_bound_mm": 0.001270106610010738,
+          "pair": [
+            "MovingWood_BackboxFloorV14",
+            "SIDE_L"
+          ]
+        }
+      ]
+    }
+  },
+  "manufacturing_ready": false
+}

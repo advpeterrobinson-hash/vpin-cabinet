@@ -1,0 +1,78 @@
+{
+  "source_head": "772f85cc91c20336a0a24b6ec68ce24e866d8cb9",
+  "output_directory": "exports/generated/wpc-fold-v32",
+  "reference": {
+    "cabinet_width": 558.8,
+    "length": 1308.1,
+    "rear_height": 596.9,
+    "front_height": 400.05,
+    "shelf_depth": 180.975,
+    "shelf_width": 555.625,
+    "stock": 19.05,
+    "backbox_width": 730.25,
+    "backbox_height": 723.9,
+    "side_lower_depth": 165.1,
+    "side_upper_depth": 254,
+    "floor_front_y": 1143.0,
+    "floor_bottom_z": 596.9,
+    "pivot_from_rear": 241.3,
+    "pivot_z": 508,
+    "service_passage": {
+      "width": 282.575,
+      "depth": 79.375,
+      "x_position": 279.4,
+      "y_position": 1231.9
+    },
+    "status": "Simplified Pinscape WPC architecture; offsets documented, joinery and metal silhouettes simplified; not manufacturing authority"
+  },
+  "v32": {
+    "side_lower_depth": 210,
+    "floor_front_y": 1146,
+    "pivot_xyz": [
+      300,
+      1066.8,
+      508
+    ],
+    "accepted_pivot_xyz": [
+      300,
+      1270,
+      508
+    ],
+    "service_passage": {
+      "width": 260,
+      "depth": 60,
+      "x_position": 300,
+      "y_position": 1218
+    },
+    "status": "PROVISIONAL isolated candidate; side depth and floor front extent independent",
+    "initial_floor_front_y": 1123.5
+  },
+  "angles_deg": [
+    0,
+    0.25,
+    0.5,
+    1,
+    2,
+    5,
+    10,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90
+  ],
+  "early_angles_deg": [
+    0.001,
+    0.01,
+    0.05,
+    0.1
+  ],
+  "sweep_step_deg": 1,
+  "volume_tolerance_mm3": 1e-06,
+  "fold_prerequisites": [
+    "GLASS_REMOVED",
+    "MATRIX_REMOVED"
+  ],
+  "manufacturing_ready": false
+}
