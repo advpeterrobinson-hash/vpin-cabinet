@@ -51,7 +51,7 @@
     "bracket_keepout_y_mm": 250.2,
     "bracket_keepout_z_mm": 170.0,
     "bracket_keepout_thickness_mm": 5.0,
-    "exact_bracket_hole_pattern_status": "REFERENCE RESERVE ONLY; final purchased bracket and bushing measurements required; current PF_OpenCradle interference BLOCKS promotion",
+    "exact_bracket_hole_pattern_status": "REFERENCE RESERVE ONLY; final purchased bracket and bushing measurements required; R12 cradle relief resolves previous interference; CURRENT authority config/current_v32.json",
     "bracket_keepout_front_of_pivot_mm": 22,
     "bracket_keepout_rear_y_mm": 1295,
     "kinematic_authority": "config/wpc_kinematics_v32.json"

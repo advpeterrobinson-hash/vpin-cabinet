@@ -1,0 +1,17 @@
+{
+  "status": "CURRENT_DESIGN_CANDIDATE_NOT_MANUFACTURING_RELEASE",
+  "geometry_directory": "exports/generated/pivot-cradle-integration-v32",
+  "geometry_builder": "tools/pivot_cradle_integration_v32_entry.py",
+  "geometry_parameters": "config/pivot_cradle_integration_v32.json",
+  "backbox_parameter_source": "config/backbox_structure_review_v32.json",
+  "backbox_source_note": "Historical study status is superseded here; its unchanged 210 mm side / Y1146 floor / shelf / generic passage geometry is promoted by the combined integration gates.",
+  "kinematic_reference": "config/wpc_kinematics_v32.json",
+  "cradle_relief_reserve_radius_mm": 12,
+  "cradle_relief_allowance_mm": 2,
+  "source_head_before_promotion": "ca56e7f98f119a99c6a5a28f4a903a3b6c95b997",
+  "report": "studies/pivot-cradle-integration-v32/README.md",
+  "hinge_installation_reserve": "PROVISIONAL",
+  "hinge_tool_access": "GLASS_REMOVED + MATRIX_REMOVED + PLAYFIELD_LIFT_OUT_OR_REMOVED",
+  "final_hinge_drilling_released": false,
+  "manufacturing_ready": false
+}

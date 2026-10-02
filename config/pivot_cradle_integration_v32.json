@@ -1,0 +1,33 @@
+{
+  "source_head": "ca56e7f98f119a99c6a5a28f4a903a3b6c95b997",
+  "source_directory": "exports/generated/backbox-structure-v32",
+  "output_directory": "exports/generated/pivot-cradle-integration-v32",
+  "radii_mm": [5,8,10,12,15,18,22],
+  "profile": "broad rear-ear top trim, open top and rear; convex R3 seat-side corner",
+  "radial_allowance_mm": 2,
+  "external_corner_radius_mm": 3,
+  "geometry_screen": {
+    "minimum_existing_seat_web_mm": 8,
+    "minimum_rear_top_above_seat_axis_mm": 8,
+    "minimum_straight_rear_guide_above_seat_axis_mm": 5,
+    "minimum_seat_wrap_deg": 179.999,
+    "authority": "explicit conservative geometry decisions; not timber code allowables or strength certification"
+  },
+  "hardware_reserves": {
+    "axis_radius_mm": 5,
+    "bushing_radius_mm": 8,
+    "bushing_internal_reach_mm": 10,
+    "nut_washer_radius_mm": 10,
+    "installed_internal_reach_mm": 24,
+    "tool_radius_mm": 12,
+    "tool_length_mm": 150,
+    "status": "independent provisional packaging envelopes, not purchased hardware dimensions"
+  },
+  "fold_prerequisites": ["GLASS_REMOVED", "MATRIX_REMOVED"],
+  "playfield_service_deg": 50,
+  "lift_out_mm": 48,
+  "backbox_angles_deg": [0,0.25,0.5,1,2,5,10,15,30,45,60,75,90],
+  "physical_hardware_measurement_required": true,
+  "final_hinge_holes_frozen": false,
+  "manufacturing_ready": false
+}

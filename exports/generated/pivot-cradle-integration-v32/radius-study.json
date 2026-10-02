@@ -1,0 +1,545 @@
+{
+  "source_head": "ca56e7f98f119a99c6a5a28f4a903a3b6c95b997",
+  "dowel_axis_xyz_mm": [
+    300.0,
+    1035.25061984718,
+    484.2203301149065
+  ],
+  "seat_circle_axis_xyz_mm": [
+    27.0,
+    1035.25061984718,
+    484.7203301149065
+  ],
+  "wpc_axis_xyz_mm": [
+    300.0,
+    1066.8,
+    508.0
+  ],
+  "axis_separation_mm": 39.507418137245786,
+  "wpc_to_seat_circle_axis_mm": 39.20849930800826,
+  "wpc_to_rear_edge_mm": 8.45061984717995,
+  "wpc_to_top_edge_mm": 6.220330114906574,
+  "wpc_to_seat_opening_rear_wall_mm": 15.04938015282005,
+  "wpc_to_loaded_semicircle_mm": 27.720513576465756,
+  "candidates": [
+    {
+      "radius_mm": 5,
+      "profile": "broad rear-ear top trim, open top and rear; convex R3 seat-side corner",
+      "pass": true,
+      "fail_reasons": [],
+      "solid_count": 1,
+      "valid": true,
+      "seat_wrap_before_deg": 179.99999999999994,
+      "seat_wrap_after_deg": 179.99999999999994,
+      "minimum_existing_seat_web_mm": 8.250619847179905,
+      "rear_top_z_mm": 501.0,
+      "rear_top_above_seat_axis_mm": 16.279669885093483,
+      "rear_straight_guide_height_mm": 13.279669885093483,
+      "coaxial_reserve_gap_mm": 2.0,
+      "reserve_to_original_loaded_seat_mm": 22.720513576466004,
+      "removed_volume_each_mm3": 5626.965136135172,
+      "cross_screen": {
+        "service": [],
+        "lift": [],
+        "hardware_closed": [
+          {
+            "part": "WPC_BushingL",
+            "obstacle": "PF_OpenCradleL",
+            "volume_mm3": 52.321892347348594
+          },
+          {
+            "part": "WPC_BushingR",
+            "obstacle": "PF_OpenCradleR",
+            "volume_mm3": 52.32189234734856
+          },
+          {
+            "part": "WPC_NutWasherL",
+            "obstacle": "PF_OpenCradleL",
+            "volume_mm3": 531.8979123351621
+          },
+          {
+            "part": "WPC_NutWasherR",
+            "obstacle": "PF_OpenCradleR",
+            "volume_mm3": 531.8979123351622
+          }
+        ],
+        "tool_closed": [
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_OpenCradleL",
+            "volume_mm3": 1210.3138461117758
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 27601.579984122003
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_StrapScrew1_3",
+            "volume_mm3": 89.2801847607587
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_CommercialStrap1",
+            "volume_mm3": 560.5746954794542
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_StrapScrew2_3",
+            "volume_mm3": 89.28018475277443
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_CommercialStrap2",
+            "volume_mm3": 560.5746954794544
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_OpenCradleR",
+            "volume_mm3": 1210.3138461118099
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 27601.579984122574
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_StrapScrew3_3",
+            "volume_mm3": 89.27982669995764
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_CommercialStrap3",
+            "volume_mm3": 560.574697934182
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_StrapScrew4_3",
+            "volume_mm3": 89.2798267941094
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_CommercialStrap4",
+            "volume_mm3": 560.5746979341842
+          }
+        ],
+        "tool_service": [
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_OpenCradleL",
+            "volume_mm3": 1210.3138461117758
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 16395.36004975303
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_OpenCradleR",
+            "volume_mm3": 1210.3138461118099
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 16395.360049754203
+          }
+        ],
+        "tool_lift": [
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_OpenCradleL",
+            "volume_mm3": 1210.3138461117758
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_OpenCradleR",
+            "volume_mm3": 1210.3138461118099
+          }
+        ]
+      },
+      "tool_lift_clearance_mm": 0.0,
+      "complete_packaging_pass": false,
+      "selection_note": "local wood geometry passes; complete packaging needs installed hardware and through-cradle tool corridor with >=2 mm margin",
+      "rear_ear_nominal_width_before_relief_mm": 23.5,
+      "support_volume_retained_percent": 98.8491664420074
+    },
+    {
+      "radius_mm": 8,
+      "profile": "broad rear-ear top trim, open top and rear; convex R3 seat-side corner",
+      "pass": true,
+      "fail_reasons": [],
+      "solid_count": 1,
+      "valid": true,
+      "seat_wrap_before_deg": 179.99999999999994,
+      "seat_wrap_after_deg": 179.99999999999994,
+      "minimum_existing_seat_web_mm": 8.250619847179905,
+      "rear_top_z_mm": 498.0,
+      "rear_top_above_seat_axis_mm": 13.279669885093483,
+      "rear_straight_guide_height_mm": 10.279669885093483,
+      "coaxial_reserve_gap_mm": 2.0,
+      "reserve_to_original_loaded_seat_mm": 19.72051357646596,
+      "removed_volume_each_mm3": 6895.965136135172,
+      "cross_screen": {
+        "service": [],
+        "lift": [],
+        "hardware_closed": [],
+        "tool_closed": [
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_OpenCradleL",
+            "volume_mm3": 324.11200411301184
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 27601.579984122003
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_StrapScrew1_3",
+            "volume_mm3": 89.2801847607587
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_CommercialStrap1",
+            "volume_mm3": 560.5746954794542
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_StrapScrew2_3",
+            "volume_mm3": 89.28018475277443
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_CommercialStrap2",
+            "volume_mm3": 560.5746954794544
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_OpenCradleR",
+            "volume_mm3": 324.112004113061
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 27601.579984122574
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_StrapScrew3_3",
+            "volume_mm3": 89.27982669995764
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_CommercialStrap3",
+            "volume_mm3": 560.574697934182
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_StrapScrew4_3",
+            "volume_mm3": 89.2798267941094
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_CommercialStrap4",
+            "volume_mm3": 560.5746979341842
+          }
+        ],
+        "tool_service": [
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_OpenCradleL",
+            "volume_mm3": 324.11200411301184
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 16395.36004975303
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_OpenCradleR",
+            "volume_mm3": 324.112004113061
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 16395.360049754203
+          }
+        ],
+        "tool_lift": [
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_OpenCradleL",
+            "volume_mm3": 324.11200411301184
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_OpenCradleR",
+            "volume_mm3": 324.112004113061
+          }
+        ]
+      },
+      "tool_lift_clearance_mm": 0.0,
+      "complete_packaging_pass": false,
+      "selection_note": "local wood geometry passes; complete packaging needs installed hardware and through-cradle tool corridor with >=2 mm margin",
+      "rear_ear_nominal_width_before_relief_mm": 23.5,
+      "support_volume_retained_percent": 98.58962906266339
+    },
+    {
+      "radius_mm": 10,
+      "profile": "broad rear-ear top trim, open top and rear; convex R3 seat-side corner",
+      "pass": true,
+      "fail_reasons": [],
+      "solid_count": 1,
+      "valid": true,
+      "seat_wrap_before_deg": 179.99999999999994,
+      "seat_wrap_after_deg": 179.99999999999994,
+      "minimum_existing_seat_web_mm": 8.250619847179905,
+      "rear_top_z_mm": 496.0,
+      "rear_top_above_seat_axis_mm": 11.279669885093483,
+      "rear_straight_guide_height_mm": 8.279669885093483,
+      "coaxial_reserve_gap_mm": 2.0,
+      "reserve_to_original_loaded_seat_mm": 17.720513576465894,
+      "removed_volume_each_mm3": 7741.965136135172,
+      "cross_screen": {
+        "service": [],
+        "lift": [],
+        "hardware_closed": [],
+        "tool_closed": [
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 27601.579984122003
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_StrapScrew1_3",
+            "volume_mm3": 89.2801847607587
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_CommercialStrap1",
+            "volume_mm3": 560.5746954794542
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_StrapScrew2_3",
+            "volume_mm3": 89.28018475277443
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_CommercialStrap2",
+            "volume_mm3": 560.5746954794544
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 27601.579984122574
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_StrapScrew3_3",
+            "volume_mm3": 89.27982669995764
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_CommercialStrap3",
+            "volume_mm3": 560.574697934182
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_StrapScrew4_3",
+            "volume_mm3": 89.2798267941094
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_CommercialStrap4",
+            "volume_mm3": 560.5746979341842
+          }
+        ],
+        "tool_service": [
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 16395.36004975303
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 16395.360049754203
+          }
+        ],
+        "tool_lift": []
+      },
+      "tool_lift_clearance_mm": 0.0,
+      "complete_packaging_pass": false,
+      "selection_note": "local wood geometry passes; complete packaging needs installed hardware and through-cradle tool corridor with >=2 mm margin",
+      "rear_ear_nominal_width_before_relief_mm": 23.5,
+      "support_volume_retained_percent": 98.41660414310071
+    },
+    {
+      "radius_mm": 12,
+      "profile": "broad rear-ear top trim, open top and rear; convex R3 seat-side corner",
+      "pass": true,
+      "fail_reasons": [],
+      "solid_count": 1,
+      "valid": true,
+      "seat_wrap_before_deg": 179.99999999999994,
+      "seat_wrap_after_deg": 179.99999999999994,
+      "minimum_existing_seat_web_mm": 8.250619847179905,
+      "rear_top_z_mm": 494.0,
+      "rear_top_above_seat_axis_mm": 9.279669885093483,
+      "rear_straight_guide_height_mm": 6.279669885093483,
+      "coaxial_reserve_gap_mm": 2.0,
+      "reserve_to_original_loaded_seat_mm": 15.720513576465992,
+      "removed_volume_each_mm3": 8587.96513613523,
+      "cross_screen": {
+        "service": [],
+        "lift": [],
+        "hardware_closed": [],
+        "tool_closed": [
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 27601.579984122003
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_StrapScrew1_3",
+            "volume_mm3": 89.2801847607587
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_CommercialStrap1",
+            "volume_mm3": 560.5746954794542
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_StrapScrew2_3",
+            "volume_mm3": 89.28018475277443
+          },
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_CommercialStrap2",
+            "volume_mm3": 560.5746954794544
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 27601.579984122574
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_StrapScrew3_3",
+            "volume_mm3": 89.27982669995764
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_CommercialStrap3",
+            "volume_mm3": 560.574697934182
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_StrapScrew4_3",
+            "volume_mm3": 89.2798267941094
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_CommercialStrap4",
+            "volume_mm3": 560.5746979341842
+          }
+        ],
+        "tool_service": [
+          {
+            "part": "WPC_ToolL",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 16395.36004975303
+          },
+          {
+            "part": "WPC_ToolR",
+            "obstacle": "PF_BasePlywood",
+            "volume_mm3": 16395.360049754203
+          }
+        ],
+        "tool_lift": []
+      },
+      "tool_lift_clearance_mm": 2.0,
+      "complete_packaging_pass": true,
+      "selection_note": "local wood geometry passes; complete packaging needs installed hardware and through-cradle tool corridor with >=2 mm margin",
+      "rear_ear_nominal_width_before_relief_mm": 23.5,
+      "support_volume_retained_percent": 98.24357922353803
+    },
+    {
+      "radius_mm": 15,
+      "profile": "broad rear-ear top trim, open top and rear; convex R3 seat-side corner",
+      "pass": false,
+      "fail_reasons": [
+        "insufficient rear straight guidance height",
+        "insufficient rear top margin above seat axis"
+      ],
+      "solid_count": 1,
+      "valid": true,
+      "seat_wrap_before_deg": 179.99999999999994,
+      "seat_wrap_after_deg": 179.99999999999994,
+      "minimum_existing_seat_web_mm": 8.250619847179905,
+      "rear_top_z_mm": 491.0,
+      "rear_top_above_seat_axis_mm": 6.279669885093483,
+      "rear_straight_guide_height_mm": 3.279669885093483,
+      "coaxial_reserve_gap_mm": 2.0,
+      "reserve_to_original_loaded_seat_mm": 12.720513576465947,
+      "removed_volume_each_mm3": 9856.965136135172,
+      "rear_ear_nominal_width_before_relief_mm": 23.5,
+      "support_volume_retained_percent": 97.98404184419404
+    },
+    {
+      "radius_mm": 18,
+      "profile": "broad rear-ear top trim, open top and rear; convex R3 seat-side corner",
+      "pass": false,
+      "fail_reasons": [
+        "insufficient rear straight guidance height",
+        "insufficient rear top margin above seat axis"
+      ],
+      "solid_count": 1,
+      "valid": true,
+      "seat_wrap_before_deg": 179.99999999999994,
+      "seat_wrap_after_deg": 179.99999999999994,
+      "minimum_existing_seat_web_mm": 8.250619847179905,
+      "rear_top_z_mm": 488.0,
+      "rear_top_above_seat_axis_mm": 3.279669885093483,
+      "rear_straight_guide_height_mm": 0.2796698850934831,
+      "coaxial_reserve_gap_mm": 2.0,
+      "reserve_to_original_loaded_seat_mm": 9.720513576465905,
+      "removed_volume_each_mm3": 11125.965136135172,
+      "rear_ear_nominal_width_before_relief_mm": 23.5,
+      "support_volume_retained_percent": 97.72450446485003
+    },
+    {
+      "radius_mm": 22,
+      "profile": "broad rear-ear top trim, open top and rear; convex R3 seat-side corner",
+      "pass": false,
+      "fail_reasons": [
+        "loaded semicircular seat shortened",
+        "insufficient rear straight guidance height",
+        "insufficient rear top margin above seat axis"
+      ],
+      "solid_count": 1,
+      "valid": true,
+      "seat_wrap_before_deg": 179.99999999999994,
+      "seat_wrap_after_deg": 177.49787899627992,
+      "minimum_existing_seat_web_mm": 8.250619847179905,
+      "rear_top_z_mm": 484.0,
+      "rear_top_above_seat_axis_mm": -0.7203301149065169,
+      "rear_straight_guide_height_mm": -3.720330114906517,
+      "coaxial_reserve_gap_mm": 2.0,
+      "reserve_to_original_loaded_seat_mm": 5.720513576465934,
+      "removed_volume_each_mm3": 12818.033112236299,
+      "rear_ear_nominal_width_before_relief_mm": 23.5,
+      "support_volume_retained_percent": 97.37844072317216
+    }
+  ],
+  "manufacturing_ready": false
+}

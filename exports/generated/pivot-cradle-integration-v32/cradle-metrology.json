@@ -1,0 +1,78 @@
+{
+  "radii": [
+    {
+      "radius_mm": 5,
+      "loaded_seat_to_actual_removed_wood_mm": 13.27966988509371,
+      "minimum_local_ligament_mm": 8.250619847179905,
+      "front_seat_wall_mm": 8.250619849853688,
+      "rear_seat_wall_mm": 23.50000000704168,
+      "side_contact_area_mm2": 26857.74037198254,
+      "side_contact_retained_percent": 98.84944735915882,
+      "floor_contact_mm2": 1048.5111572492383
+    },
+    {
+      "radius_mm": 8,
+      "loaded_seat_to_actual_removed_wood_mm": 10.27966988509371,
+      "minimum_local_ligament_mm": 8.250619847179905,
+      "front_seat_wall_mm": 8.250619849853688,
+      "rear_seat_wall_mm": 23.50000000704168,
+      "side_contact_area_mm2": 26787.24037198254,
+      "side_contact_retained_percent": 98.5899733325914,
+      "floor_contact_mm2": 1048.5111572492383
+    },
+    {
+      "radius_mm": 10,
+      "loaded_seat_to_actual_removed_wood_mm": 8.27966988509371,
+      "minimum_local_ligament_mm": 8.250619847179905,
+      "front_seat_wall_mm": 8.250619849853688,
+      "rear_seat_wall_mm": 23.50000000704168,
+      "side_contact_area_mm2": 26740.240371982545,
+      "side_contact_retained_percent": 98.41699064821312,
+      "floor_contact_mm2": 1048.5111572492383
+    },
+    {
+      "radius_mm": 12,
+      "loaded_seat_to_actual_removed_wood_mm": 6.2796698850937105,
+      "minimum_local_ligament_mm": 6.2796698850937105,
+      "front_seat_wall_mm": 8.250619849853688,
+      "rear_seat_wall_mm": 23.50000000704168,
+      "side_contact_area_mm2": 26693.240371982545,
+      "side_contact_retained_percent": 98.24400796383483,
+      "floor_contact_mm2": 1048.5111572492383
+    },
+    {
+      "radius_mm": 15,
+      "loaded_seat_to_actual_removed_wood_mm": 3.2796698850937105,
+      "minimum_local_ligament_mm": 3.2796698850937105,
+      "front_seat_wall_mm": 8.250619849853688,
+      "rear_seat_wall_mm": 23.50000000704168,
+      "side_contact_area_mm2": 26622.74037198254,
+      "side_contact_retained_percent": 97.98453393726741,
+      "floor_contact_mm2": 1048.5111572492383
+    },
+    {
+      "radius_mm": 18,
+      "loaded_seat_to_actual_removed_wood_mm": 0.2796698850937105,
+      "minimum_local_ligament_mm": 0.2796698850937105,
+      "front_seat_wall_mm": 8.250619849853688,
+      "rear_seat_wall_mm": 23.50000000704168,
+      "side_contact_area_mm2": 26552.240371982545,
+      "side_contact_retained_percent": 97.72505991069998,
+      "floor_contact_mm2": 1048.5111572492383
+    },
+    {
+      "radius_mm": 22,
+      "loaded_seat_to_actual_removed_wood_mm": 0.0,
+      "minimum_local_ligament_mm": 0.0,
+      "front_seat_wall_mm": 8.250619849853688,
+      "rear_seat_wall_mm": 0.0,
+      "side_contact_area_mm2": 26458.236595532468,
+      "side_contact_retained_percent": 97.37908064278444,
+      "floor_contact_mm2": 1048.5111572492383
+    }
+  ],
+  "original_side_contact_mm2": 27170.34954621227,
+  "definition": "minimum local ligament = smaller of unchanged front seat web and exact distance from original loaded semicircular seat surface to removed relief material. Separate from rear ear width and guide height. R22=0 indicates removed seat material.",
+  "geometry_only": true,
+  "manufacturing_ready": false
+}

@@ -1,0 +1,96 @@
+{
+  "images": [
+    {
+      "file": "01-review.png",
+      "title": "Original cradle / corrected WPC pivot conflict",
+      "diagnostic_only": true
+    },
+    {
+      "file": "02-review.png",
+      "title": "Section through both pivot axes",
+      "diagnostic_only": false
+    },
+    {
+      "file": "03-review.png",
+      "title": "Current cradle profile \u2014 before local relief",
+      "diagnostic_only": true
+    },
+    {
+      "file": "04-review.png",
+      "title": "R5 relief \u2014 diagnostic profile",
+      "diagnostic_only": true
+    },
+    {
+      "file": "05-review.png",
+      "title": "R10 relief \u2014 diagnostic profile",
+      "diagnostic_only": true
+    },
+    {
+      "file": "06-review.png",
+      "title": "R15 relief \u2014 diagnostic profile",
+      "diagnostic_only": true
+    },
+    {
+      "file": "07-review.png",
+      "title": "Selected largest viable relief",
+      "diagnostic_only": false
+    },
+    {
+      "file": "08-review.png",
+      "title": "Seat ligament and rear guidance close-up",
+      "diagnostic_only": false
+    },
+    {
+      "file": "09-review.png",
+      "title": "WPC installation / service corridor",
+      "diagnostic_only": false
+    },
+    {
+      "file": "10-review.png",
+      "title": "Support screw relationship",
+      "diagnostic_only": false
+    },
+    {
+      "file": "11-review.png",
+      "title": "Direct floor-bearing load path preserved",
+      "diagnostic_only": false
+    },
+    {
+      "file": "12-review.png",
+      "title": "Playfield closed",
+      "diagnostic_only": false
+    },
+    {
+      "file": "13-review.png",
+      "title": "Playfield 50\u00b0 service",
+      "diagnostic_only": false
+    },
+    {
+      "file": "14-review.png",
+      "title": "Complete playfield lift-out \u2014 48 mm",
+      "diagnostic_only": false
+    },
+    {
+      "file": "15-review.png",
+      "title": "Backbox early fold \u2014 clean floor release",
+      "diagnostic_only": false
+    },
+    {
+      "file": "16-review.png",
+      "title": "Backbox 45\u00b0",
+      "diagnostic_only": false
+    },
+    {
+      "file": "17-review.png",
+      "title": "Backbox 90\u00b0",
+      "diagnostic_only": false
+    },
+    {
+      "file": "18-review.png",
+      "title": "Final combined architecture",
+      "diagnostic_only": false
+    }
+  ],
+  "source": "actual OCC tessellation; hardware reserves are explicitly provisional",
+  "upstream_assets_included": false
+}

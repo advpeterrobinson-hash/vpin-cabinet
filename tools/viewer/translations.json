@@ -574,5 +574,17 @@
   "MATRIX SUPPORT MOUNTING SCREW R2": {
     "en": "MATRIX SUPPORT MOUNTING SCREW R2",
     "pt-BR": "PARAFUSO DO APOIO DA MATRIZ D2"
+  },
+  "MATRIX INSTALLED · remove glass and matrix before service or folding. WPC wood fold validated; hardware fit provisional.": {
+    "en": "MATRIX INSTALLED · remove glass and matrix before service or folding. WPC wood fold validated; hardware fit provisional.",
+    "pt-BR": "MATRIZ INSTALADA · remova o vidro e a matriz antes de manutenção ou rebatimento. Madeira validada no rebatimento WPC; encaixe das ferragens provisório."
+  },
+  "PREREQUISITES: GLASS REMOVED + MATRIX REMOVED. Wood fold 0–90° validated. R12 cradle relief; WPC hardware measurement and manufacturing release pending.": {
+    "en": "PREREQUISITES: GLASS REMOVED + MATRIX REMOVED. Wood fold 0–90° validated. R12 cradle relief; WPC hardware measurement and manufacturing release pending.",
+    "pt-BR": "PRÉ-REQUISITOS: VIDRO REMOVIDO + MATRIZ REMOVIDA. Rebatimento da madeira 0–90° validado. Alívio R12 no apoio; medição das ferragens WPC e liberação de fabricação pendentes."
+  },
+  "WPC FOLD · wood clear / hardware provisional": {
+    "en": "WPC FOLD · wood clear / hardware provisional",
+    "pt-BR": "REBATIMENTO WPC · madeira livre / ferragens provisórias"
   }
 }

@@ -1,4 +1,4 @@
-> **CURRENT KINEMATIC REFERENCE: Y1066.8/Z508.** Final drilling remains provisional. [Positive control](../studies/wpc-fold-v32/README.md); [integration blocker](../studies/backbox-structure-v32/README.md). Historical harness/transport prescriptions below do not govern the current backbox interface: cable termination and disconnection are USER CONFIGURABLE; only a generic passage is in scope.
+> **CURRENT KINEMATIC REFERENCE: Y1066.8/Z508.** Final drilling remains provisional. [Positive control](../studies/wpc-fold-v32/README.md); [resolved integration](../studies/pivot-cradle-integration-v32/README.md). Historical harness/transport prescriptions below do not govern the current backbox interface: cable termination and disconnection are USER CONFIGURABLE; only a generic passage is in scope.
 
 # Backbox folding / transport mechanism v0.10
 

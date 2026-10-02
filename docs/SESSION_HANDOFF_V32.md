@@ -1,3 +1,5 @@
+> **CURRENT V32:** [Pivot/cradle integration](../studies/pivot-cradle-integration-v32/README.md), `config/current_v32.json`. R12 local rear-ear relief resolves the prior cradle obstruction; 210 mm backbox / Y1146 floor and generic passage promoted. WPC Y1066.8/Z508, pure rotation. Tool access needs playfield lift-out/removal. Manufacturing and final hinge drilling remain BLOCKED. Historical records below retain their original results.
+
 > **SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION.** Pivot-dependent results below are historical, not active engineering. Correct WPC reference: Y1066.8/Z508, 241.3 mm from rear. See [positive control](../studies/wpc-fold-v32/README.md) and [structural integration review](../studies/backbox-structure-v32/README.md). Other historical findings retain their original scope.
 
 > Entrega consolidada: [desenhoV32 com SSF Cleveland4.1 + subwoofer](CONSOLIDATED_DRAWING_V32.md). PDF/CAD/STEP eDXF nominal do piso;39 verificações,202 sólidos. Revisão de montagem, sem liberação CNC.

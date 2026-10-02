@@ -78,7 +78,7 @@
     "depth": 60,
     "x_position": 300,
     "y_position": 1218,
-    "status": "GENERIC CANDIDATE; permanent shape not promoted due hinge/cradle conflict",
+    "status": "GENERIC PASSAGE PROMOTED via config/current_v32.json; cable termination USER CONFIGURABLE",
     "termination_disconnect": "USER CONFIGURABLE"
   },
   "machining_authorized": false

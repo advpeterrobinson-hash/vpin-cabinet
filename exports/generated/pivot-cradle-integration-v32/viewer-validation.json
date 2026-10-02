@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "checks": [
+    "accepted EN/PT-BR and palettes preserved byte for byte in source",
+    "English/original defaults",
+    "twelve states; declared removal enforced in CAD and viewer; validated wood fold / provisional hardware visible",
+    "language and palette preserve geometry bytes",
+    "selection edges",
+    "new fold status in EN/PT-BR",
+    "matrix state geometry and retention",
+    "CAD/STEP files byte unchanged by viewer work"
+  ],
+  "viewer_sha256": "1b8c5581bed702cb991cf8228d8a7fe8ff8fd830b2cae57a75d116256ea68c72"
+}
