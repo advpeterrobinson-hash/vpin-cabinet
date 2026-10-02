@@ -1,0 +1,36 @@
+{
+  "production_lot_id": null,
+  "package_sha256": null,
+  "cut_svg_sha256": null,
+  "machine_cam_run_reference": null,
+  "tested_by": null,
+  "tested_on": null,
+  "same_lot_machine_cutter_cam_confirmed": false,
+  "measured_slot_widths_mm": {
+    "SLOT_1": null,
+    "SLOT_2": null,
+    "SLOT_3": null,
+    "SLOT_4": null,
+    "SLOT_5": null,
+    "SLOT_6": null
+  },
+  "fit_observations": {
+    "SLOT_1": null,
+    "SLOT_2": null,
+    "SLOT_3": null,
+    "SLOT_4": null,
+    "SLOT_5": null,
+    "SLOT_6": null
+  },
+  "selected_fit_clearance_mm": null,
+  "measured_pocket_depth_mm": null,
+  "pocket_depth_accepted": false,
+  "r2_corner_accepted": false,
+  "tbone_fit_accepted": false,
+  "measured_locator_depth_mm": null,
+  "locator_accepted": false,
+  "screw_interface_accepted": false,
+  "screw_test_notes": null,
+  "production_lot_thickness_accepted": false,
+  "owner_coupon_accepted": false
+}

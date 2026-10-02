@@ -1,0 +1,1402 @@
+{
+  "supplier_profile": "peter_supplier_v1",
+  "scope": "All 93 CURRENT wood inventory components; not a completed manufacturing operation audit",
+  "parts": [
+    {
+      "id": "P001",
+      "current_object": "SIDE_L",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SIDE_L"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P002",
+      "current_object": "SIDE_R",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SIDE_R"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P003",
+      "current_object": "FRONT",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "FRONT"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P004",
+      "current_object": "REAR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "REAR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P005",
+      "current_object": "FLOOR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "FLOOR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P006",
+      "current_object": "FLOOR_CLEAT_18",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "FLOOR_CLEAT_18"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P007",
+      "current_object": "FLOOR_CLEAT_552",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "FLOOR_CLEAT_552"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P008",
+      "current_object": "REAR_DOOR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "REAR_DOOR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P009",
+      "current_object": "SHELF_1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_1"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P010",
+      "current_object": "SHELF_2",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_2"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P011",
+      "current_object": "SHELF_3",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_3"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P012",
+      "current_object": "SHELF_SUPPORT_1L",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_1L"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P013",
+      "current_object": "SHELF_SUPPORT_1R",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_1R"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P014",
+      "current_object": "SHELF_SUPPORT_2L",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_2L"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P015",
+      "current_object": "SHELF_SUPPORT_2R",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_2R"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P016",
+      "current_object": "SHELF_SUPPORT_3L",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_3L"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P017",
+      "current_object": "SHELF_SUPPORT_3R",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_3R"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P018",
+      "current_object": "CROSS_1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_1"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P019",
+      "current_object": "CROSS_2",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_2"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P020",
+      "current_object": "CROSS_3",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_3"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P021",
+      "current_object": "CROSS_GUIDE_1L",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_1L"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P022",
+      "current_object": "CROSS_GUIDE_1R",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_1R"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P023",
+      "current_object": "CROSS_GUIDE_2L",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_2L"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P024",
+      "current_object": "CROSS_GUIDE_2R",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_2R"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P025",
+      "current_object": "CROSS_GUIDE_3L",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_3L"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P026",
+      "current_object": "CROSS_GUIDE_3R",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_3R"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P027",
+      "current_object": "PC_BASE",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "PC_BASE"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P028",
+      "current_object": "BACKBOX_BASE",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BACKBOX_BASE"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P029",
+      "current_object": "CandidateLegBlockFL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CandidateLegBlockFL"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P030",
+      "current_object": "CandidateLegBlockFR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CandidateLegBlockFR"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P031",
+      "current_object": "CandidateLegBlockRL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CandidateLegBlockRL"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P032",
+      "current_object": "CandidateLegBlockRR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CandidateLegBlockRR"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P033",
+      "current_object": "SSF_BST_Carrier",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SSF_BST_Carrier"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P034",
+      "current_object": "PF_BasePlywood",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "PF_BasePlywood"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P035",
+      "current_object": "PF_OpenCradleL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "PF_OpenCradleL"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P036",
+      "current_object": "PF_OpenCradleR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "PF_OpenCradleR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P037",
+      "current_object": "RemovableIntakeFilterL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "RemovableIntakeFilterL"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P038",
+      "current_object": "RemovableIntakeFilterR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "RemovableIntakeFilterR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P039",
+      "current_object": "MX_WoodSeatL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "MX_WoodSeatL"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P040",
+      "current_object": "MX_WoodSeatR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "MX_WoodSeatR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P041",
+      "current_object": "MatrixCarrier",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "MatrixCarrier"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P042",
+      "current_object": "BB_SideL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_SideL"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P043",
+      "current_object": "BB_SideR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_SideR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P044",
+      "current_object": "BB_Floor",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_Floor"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P045",
+      "current_object": "BB_Top",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_Top"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P046",
+      "current_object": "BB_RearFrame",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_RearFrame"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P047",
+      "current_object": "BB_TopFrontRail",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_TopFrontRail"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P048",
+      "current_object": "BB_GlassLowerRail",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_GlassLowerRail"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P049",
+      "current_object": "BB_GlassTopRetainer",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_GlassTopRetainer"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P050",
+      "current_object": "BB_MonitorRail0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRail0"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P051",
+      "current_object": "BB_MonitorRailCleatL0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRailCleatL0"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P052",
+      "current_object": "BB_MonitorRailCleatR0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRailCleatR0"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P053",
+      "current_object": "BB_MonitorRail1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRail1"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P054",
+      "current_object": "BB_MonitorRailCleatL1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRailCleatL1"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P055",
+      "current_object": "BB_MonitorRailCleatR1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRailCleatR1"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P056",
+      "current_object": "BB_MonitorCarrier0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorCarrier0"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P057",
+      "current_object": "BB_MonitorDepthShoe00",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorDepthShoe00"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P058",
+      "current_object": "BB_MonitorDepthShoe01",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorDepthShoe01"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P059",
+      "current_object": "BB_MonitorCarrier1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorCarrier1"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P060",
+      "current_object": "BB_MonitorDepthShoe10",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorDepthShoe10"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P061",
+      "current_object": "BB_MonitorDepthShoe11",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorDepthShoe11"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P062",
+      "current_object": "BB_ReplaceableVESAPlate",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_ReplaceableVESAPlate"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P063",
+      "current_object": "BB_DisplayReplaceableBezel",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DisplayReplaceableBezel"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P064",
+      "current_object": "BB_MonitorStopBlock0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorStopBlock0"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P065",
+      "current_object": "BB_MonitorStopBlock1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorStopBlock1"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P066",
+      "current_object": "BB_MonitorStopContact0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorStopContact0"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P067",
+      "current_object": "BB_MonitorStopContact1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorStopContact1"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P068",
+      "current_object": "BB_LowerCassetteFrame",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_LowerCassetteFrame"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P069",
+      "current_object": "BB_SpeakerBaffleL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_SpeakerBaffleL"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P070",
+      "current_object": "BB_SpeakerBaffleR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_SpeakerBaffleR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P071",
+      "current_object": "BB_DMDReplaceableBezel",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DMDReplaceableBezel"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P072",
+      "current_object": "BB_DMDRearAdapter",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DMDRearAdapter"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P073",
+      "current_object": "BB_DMDDepthTie0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DMDDepthTie0"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P074",
+      "current_object": "BB_DMDDepthTie1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DMDDepthTie1"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P075",
+      "current_object": "BB_CassetteFixedCleatL0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_CassetteFixedCleatL0"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P076",
+      "current_object": "BB_CassetteFixedCleatL1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_CassetteFixedCleatL1"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P077",
+      "current_object": "BB_CassetteFixedCleatR0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_CassetteFixedCleatR0"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P078",
+      "current_object": "BB_CassetteFixedCleatR1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_CassetteFixedCleatR1"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P079",
+      "current_object": "BB_DoorL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DoorL"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P080",
+      "current_object": "BB_DoorR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DoorR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P081",
+      "current_object": "BB_IntakeFilterFrameL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_IntakeFilterFrameL"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P082",
+      "current_object": "BB_IntakeFilterFrameR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_IntakeFilterFrameR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P083",
+      "current_object": "BB_IntakeDownBaffleL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_IntakeDownBaffleL"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P084",
+      "current_object": "BB_IntakeDownBaffleR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_IntakeDownBaffleR"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P085",
+      "current_object": "BB_HingeCleatL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_HingeCleatL"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P086",
+      "current_object": "BB_HingeCleatR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_HingeCleatR"
+      ],
+      "manufacturing_status": "BLOCKED_DECOMPOSITION_REQUIRED",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Compound/laminated component needs planar part extraction."
+    },
+    {
+      "id": "P087",
+      "current_object": "BB_CenterAstragal",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_CenterAstragal"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P088",
+      "current_object": "BB_UprightLockLParkingPad0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_UprightLockLParkingPad0"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P089",
+      "current_object": "BB_UprightLockLParkingPad1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_UprightLockLParkingPad1"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P090",
+      "current_object": "BB_UprightLockRParkingPad0",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_UprightLockRParkingPad0"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P091",
+      "current_object": "BB_UprightLockRParkingPad1",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_UprightLockRParkingPad1"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P092",
+      "current_object": "BB_FanBlankL",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/blank-fans.FCStd",
+        "BB_FanBlankL"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    },
+    {
+      "id": "P093",
+      "current_object": "BB_FanBlankR",
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/blank-fans.FCStd",
+        "BB_FanBlankR"
+      ],
+      "manufacturing_status": "BLOCKED_OPERATION_AUDIT",
+      "cnc_face": null,
+      "cnc_operations": [],
+      "manual_finish_operations": [],
+      "operation_audit_complete": false,
+      "source_brep_preserved": true,
+      "note": "Inventory geometry is not an audited face-operation plan; no two-face instructions may be generated."
+    }
+  ],
+  "flip_instructions": false
+}

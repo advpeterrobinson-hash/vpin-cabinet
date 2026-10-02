@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "peter_supplier_v1",
+  "units": "mm",
+  "status": "COMPLETE_FOR_MANUFACTURING_PREPARATION",
+  "source": "Owner-confirmed supplier data, conversation 2026-10-02",
+  "design_authority": "config/current_v32.json",
+  "machine": {
+    "table_mm": [2000, 3000],
+    "pockets_supported": true,
+    "controlled_depth_supported": true,
+    "machining_faces": 1,
+    "two_sided_machining": false,
+    "flip_operations_allowed": false
+  },
+  "stock": {
+    "sheet_mm": [2500, 1600],
+    "sheet_to_table_axes": [1, 0],
+    "nominal_thickness_mm": 18.0,
+    "actual_thickness_mm": null,
+    "production_lot_id": null,
+    "thickness_measurements_mm": [],
+    "supplier_description": "Naval amescla plywood, export-grade, reportedly without core voids",
+    "description_authority": "SUPPLIER_REPORTED_NOT_INDEPENDENTLY_VERIFIED",
+    "hold_down_perimeter_mm": {"left": 20, "right": 20, "top": 20, "bottom": 20},
+    "usable_rectangle_mm": [20, 20, 2460, 1560],
+    "minimum_part_spacing_mm": 15,
+    "spacing_valid_for_thickness_up_to_mm": 18,
+    "spacing_basis": "Minimum finished part boundary separation, not tool-center pitch",
+    "thickness_above_18_policy": "BLOCK_NESTING_UNTIL_SUPPLIER_CONFIRMS_SPACING",
+    "other_stock_policy": "This profile qualifies nominal 18 mm stock only; do not silently replace accepted 12 mm parts with 18 mm stock. Separate stock qualification or one-face reduction requires a reviewed operation plan."
+  },
+  "tooling": {
+    "through_cut_cutter_diameter_mm": 4,
+    "natural_internal_radius_mm": 2,
+    "coupon_pocket_tool_diameter_mm": 4,
+    "pilot_locator": {"diameter_mm": 4, "depth_mm": 0.5, "purpose": "Shallow flat-bottom locator, NOT a final screw pilot"},
+    "compensation_policy": "Export finished boundary geometry; supplier CAM applies cutter compensation once. No feeds/speeds or G-code prescribed."
+  },
+  "accepted_vector_formats": ["DXF", "SVG", "DWG", "EPS", "AI", "PDF_VECTOR", "CDR_2018"],
+  "coupon": {
+    "required_before_full_sheet_release": true,
+    "same_production_lot_machine_cutter_cam_required": true,
+    "coupon_board_mm": [300, 210],
+    "fit_key_mm": [25, 25],
+    "fit_key_gap_mm": 15,
+    "clearance_trials_mm": [-0.2, -0.1, 0.0, 0.1, 0.2, 0.3],
+    "clearance_definition": "TOTAL slot width minus measured stock thickness, not per side",
+    "representative_pocket_depth_mm": 6,
+    "corner_strategy": "T_BONE_SEMICIRCLES_ON_SHORT_EDGES_R2",
+    "corner_strategy_status": "SELECTED_FOR_COUPON_ONLY_PENDING_FIT",
+    "screw_interface": {
+      "catalog_family": "F01",
+      "candidate_reference": "4.5 x 30 countersunk wood screw; current support clearance diameter 5, head reserve 9, 90-degree cone",
+      "purchased_hardware_dimensions": null,
+      "manual_finish": "Pilot and countersink in marked scrap zone using selected hardware, ordinary drill/driver and depth stop; same face only. Coupon is not a structural strength proof."
+    },
+    "validation_status": "NOT_CUT_OR_VALIDATED",
+    "selected_fit_clearance_mm": null,
+    "accepted_corner_strategy": null,
+    "validated_package_sha256": null,
+    "results": null
+  },
+  "release_policy": {
+    "full_sheet_release": false,
+    "allowed_part_statuses": ["ONE_SIDE_CNC_READY", "ONE_SIDE_CNC_PLUS_MANUAL_FINISH"],
+    "blocked_part_statuses": ["BLOCKED_OPERATION_AUDIT", "BLOCKED_DECOMPOSITION_REQUIRED", "BLOCKED_TWO_SIDE_MACHINING"],
+    "required_part_evidence": ["local manufacturing orientation", "single CNC face", "complete operations with depths/directions", "same-face tool reach", "ordinary-tool manual finish instructions where used"],
+    "two_side_resolution": "Block or propose simpler planar decomposition in a separately reviewed design change; never emit flip machining instructions.",
+    "late_bound_parameters": ["actual production-lot thickness", "coupon-selected fit clearance", "final purchased hardware dimensions"],
+    "remaining_work_not_missing_supplier_data": ["one-face part operation planning", "existing hardware/material qualification", "final regeneration and validation", "owner manufacturing approval"]
+  },
+  "license": "CERN-OHL-S-2.0",
+  "source_location": "https://github.com/advpeterrobinson-hash/vpin-cabinet"
+}

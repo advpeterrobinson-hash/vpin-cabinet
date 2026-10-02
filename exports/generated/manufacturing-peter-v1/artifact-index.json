@@ -1,0 +1,70 @@
+{
+  "source_head": "2129f4b1a301fdb072bdc550dd577bee080aa4b2",
+  "full_sheet_release": false,
+  "files": [
+    {
+      "path": "config/manufacturing/profiles/peter_supplier_v1.json",
+      "sha256": "5d3cce0adde7e0e791a8b7a389d3aef48b5ae62cda7adfa74c75074f3bea8ba3"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/LICENSE",
+      "sha256": "d6475a84171f0cf7ff52667dea714df268fc65cea42f0bf328b0b70d4cd0ebab"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/NOTICE.md",
+      "sha256": "5cbb14ae5fd1b50250019488ee8b0a172ad5b55a71d7e15da2d3456f9d8ffc8d"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/cad-validation.json",
+      "sha256": "221f1b551985dd9cc30765cee6271a8c4b5fbeb035b10a0a816f4a94f0f5cdc3"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/coupon-manifest.json",
+      "sha256": "ddb35ab699c3987102c73710fe1021b832594d7b0125ffa6f4e92c51ae57a8a7"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/coupon-results-template.json",
+      "sha256": "d183d12625aecbab2f8987e7ba1614a6921ef955a2bfb035b1cbd475c9789105"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/coupon-review.FCStd",
+      "sha256": "58a309aa49e938629f06994989db63a1bc95d83c0812e92a202ed30cc54acc9e"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/coupon-review.png",
+      "sha256": "a1c2cb1f4129440bfec49b68f4eeda1ad7b7fa9b45cf22bb3b0dcb920d2ae913"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/coupon-review.svg",
+      "sha256": "6a5b7387623174e0c15c1d6529df99e8c40eaaa55fc383080cbfbd34800cdd35"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/one-side-part-register.json",
+      "sha256": "c4421523afd85302e42a8fc44dbcd7b67906d427708b1fa0a5edddddf3c239c2"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/release-status.json",
+      "sha256": "a19fea3e6182374eb2f7d75b42e7595a86cd8c68e6c537be76eb34d27ee00355"
+    },
+    {
+      "path": "exports/generated/manufacturing-peter-v1/validation.json",
+      "sha256": "f7019c0f385964eeb273a127d7ff0583475f3c80d4ea175591fce5ee9fe12422"
+    },
+    {
+      "path": "studies/manufacturing-peter-v1/README.md",
+      "sha256": "0e308e99e91189adaf003ed2c5cf26cc0deec78e7d195cff5823e1afe054f389"
+    },
+    {
+      "path": "tools/check_manufacturing_peter_v1.py",
+      "sha256": "6e12f88f0b8bbaced2314ae0ff3bd66cd7224a2c624e1c35e0ad70cfaa765e76"
+    },
+    {
+      "path": "tools/manufacturing_peter_v1.py",
+      "sha256": "d1b20c296fac3073b439ff4df566d79df690e125ffee429052204e233b410c03"
+    },
+    {
+      "path": "tools/verify_peter_coupon_cad.py",
+      "sha256": "4afba38df8acfd6eeec32537dbb3c31ca169e6c4aaa39d35dea827616e9e942e"
+    }
+  ]
+}

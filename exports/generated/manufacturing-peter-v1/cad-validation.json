@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "checks": [
+    "SLOT_1 T-bone area matches four semicircles",
+    "SLOT_2 T-bone area matches four semicircles",
+    "SLOT_3 T-bone area matches four semicircles",
+    "SLOT_4 T-bone area matches four semicircles",
+    "SLOT_5 T-bone area matches four semicircles",
+    "SLOT_6 T-bone area matches four semicircles",
+    "TBONE_POCKET T-bone area matches four semicircles",
+    "Coupon board remains one valid solid",
+    "Fit key remains one valid solid",
+    "15 mm separate part spacing",
+    "Square key corner TBONE_POCKET",
+    "Square key corner R2_POCKET",
+    "SLOT_1 geometric clearance sign",
+    "SLOT_2 geometric clearance sign",
+    "SLOT_3 geometric clearance sign",
+    "SLOT_4 geometric clearance sign",
+    "SLOT_5 geometric clearance sign",
+    "SLOT_6 geometric clearance sign",
+    "Blind pockets retain measured stock minus6 floor",
+    "Document recomputes"
+  ],
+  "package_sha256": "e75d8bbfda0ad4035a7725f42e24bed5cf661bf408d6544718b7f87f36ddcbe8",
+  "physical_fit_validated": false,
+  "thickness_authority": "NOMINAL_ILLUSTRATION_ONLY",
+  "manufacturing_release": false
+}

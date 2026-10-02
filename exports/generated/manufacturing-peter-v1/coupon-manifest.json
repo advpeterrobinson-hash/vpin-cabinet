@@ -1,0 +1,198 @@
+{
+  "status": "PREVIEW_NO_MACHINING_FILE",
+  "full_sheet_release": false,
+  "stock_thickness_mm": 18.0,
+  "thickness_authority": "NOMINAL_ILLUSTRATION_ONLY",
+  "production_lot_id": null,
+  "package_sha256": "e75d8bbfda0ad4035a7725f42e24bed5cf661bf408d6544718b7f87f36ddcbe8",
+  "single_face": "A",
+  "features": [
+    {
+      "id": "BOARD",
+      "operation": "THROUGH",
+      "bounds_xywh_mm": [
+        0,
+        0,
+        300,
+        210
+      ],
+      "face": "A",
+      "shape": "rect",
+      "radius_mm": 4
+    },
+    {
+      "id": "FIT_KEY",
+      "operation": "THROUGH",
+      "bounds_xywh_mm": [
+        315,
+        0,
+        25,
+        25
+      ],
+      "face": "A",
+      "shape": "rect",
+      "radius_mm": 0,
+      "note": "Use square corner in pocket tests and production-thickness edge in slots. No sanding of fit edges before recording."
+    },
+    {
+      "id": "SLOT_1",
+      "operation": "THROUGH",
+      "bounds_xywh_mm": [
+        18,
+        35,
+        17.8,
+        36
+      ],
+      "face": "A",
+      "shape": "tbone",
+      "total_clearance_mm": -0.2,
+      "nominal_slot_width_mm": 17.8
+    },
+    {
+      "id": "SLOT_2",
+      "operation": "THROUGH",
+      "bounds_xywh_mm": [
+        61,
+        35,
+        17.9,
+        36
+      ],
+      "face": "A",
+      "shape": "tbone",
+      "total_clearance_mm": -0.1,
+      "nominal_slot_width_mm": 17.9
+    },
+    {
+      "id": "SLOT_3",
+      "operation": "THROUGH",
+      "bounds_xywh_mm": [
+        104,
+        35,
+        18.0,
+        36
+      ],
+      "face": "A",
+      "shape": "tbone",
+      "total_clearance_mm": 0.0,
+      "nominal_slot_width_mm": 18.0
+    },
+    {
+      "id": "SLOT_4",
+      "operation": "THROUGH",
+      "bounds_xywh_mm": [
+        147,
+        35,
+        18.1,
+        36
+      ],
+      "face": "A",
+      "shape": "tbone",
+      "total_clearance_mm": 0.1,
+      "nominal_slot_width_mm": 18.1
+    },
+    {
+      "id": "SLOT_5",
+      "operation": "THROUGH",
+      "bounds_xywh_mm": [
+        190,
+        35,
+        18.2,
+        36
+      ],
+      "face": "A",
+      "shape": "tbone",
+      "total_clearance_mm": 0.2,
+      "nominal_slot_width_mm": 18.2
+    },
+    {
+      "id": "SLOT_6",
+      "operation": "THROUGH",
+      "bounds_xywh_mm": [
+        233,
+        35,
+        18.3,
+        36
+      ],
+      "face": "A",
+      "shape": "tbone",
+      "total_clearance_mm": 0.3,
+      "nominal_slot_width_mm": 18.3
+    },
+    {
+      "id": "R2_POCKET",
+      "operation": "POCKET_6",
+      "bounds_xywh_mm": [
+        18,
+        106,
+        30,
+        30
+      ],
+      "face": "A",
+      "shape": "rect",
+      "radius_mm": 2,
+      "depth_mm": 6
+    },
+    {
+      "id": "TBONE_POCKET",
+      "operation": "POCKET_6",
+      "bounds_xywh_mm": [
+        75,
+        106,
+        30,
+        30
+      ],
+      "face": "A",
+      "shape": "tbone",
+      "depth_mm": 6
+    },
+    {
+      "id": "PILOT_LOCATOR",
+      "operation": "LOCATOR_0_5",
+      "bounds_xywh_mm": [
+        143,
+        118,
+        4,
+        4
+      ],
+      "face": "A",
+      "shape": "circle",
+      "depth_mm": 0.5,
+      "note": "Ø4 flat-bottom recess; not a pilot bore or countersink"
+    },
+    {
+      "id": "SCREW_LOCATOR",
+      "operation": "LOCATOR_0_5",
+      "bounds_xywh_mm": [
+        218,
+        118,
+        4,
+        4
+      ],
+      "face": "A",
+      "shape": "circle",
+      "depth_mm": 0.5,
+      "note": "Manual pilot/countersink test here after hardware selection, face A only"
+    }
+  ],
+  "overall_bounds_mm": [
+    340,
+    210
+  ],
+  "suggested_sheet_translation_xy_mm": [
+    20,
+    20
+  ],
+  "operations": {
+    "THROUGH": "Through measured stock, depth and spoilboard allowance set by supplier CAM",
+    "POCKET_6": "6 mm below face A with Ø4 cutter",
+    "LOCATOR_0_5": "0.5 mm below face A with Ø4 cutter; tool-entry strategy by supplier"
+  },
+  "cam_note": "Finished boundaries, not toolpaths. Machine internals first, outer parts last. Retention/tabs and compensation by supplier. Review labels never imported for machining.",
+  "manual_test": {
+    "catalog_family": "F01",
+    "candidate_reference": "4.5 x 30 countersunk wood screw; current support clearance diameter 5, head reserve 9, 90-degree cone",
+    "purchased_hardware_dimensions": null,
+    "manual_finish": "Pilot and countersink in marked scrap zone using selected hardware, ordinary drill/driver and depth stop; same face only. Coupon is not a structural strength proof."
+  },
+  "cut_svg_sha256": null
+}
