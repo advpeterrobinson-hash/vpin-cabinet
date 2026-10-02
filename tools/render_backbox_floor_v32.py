@@ -1,3 +1,5 @@
+# SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION
+# Historical baseline/replay only. See studies/wpc-fold-v32/README.md; use original source HEAD for exact replay.
 """Real CAD floor correction views; success poses gated by sweep. CERN-OHL-S-2.0."""
 from pathlib import Path
 import hashlib,json

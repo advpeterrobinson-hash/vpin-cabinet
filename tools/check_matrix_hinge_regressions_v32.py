@@ -1,3 +1,5 @@
+# SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION
+# Historical baseline/replay only. See studies/wpc-fold-v32/README.md; use original source HEAD for exact replay.
 """Reopen real saved study CAD and enforce accepted V32 regressions. CERN-OHL-S-2.0."""
 from pathlib import Path
 import FreeCAD as A,Part,json,hashlib

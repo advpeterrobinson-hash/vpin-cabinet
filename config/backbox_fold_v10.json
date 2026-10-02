@@ -1,5 +1,5 @@
 {
-  "status": "engineering-provisional-v17-width",
+  "status": "ACTIVE_WPC_KINEMATIC_REFERENCE_HARDWARE_PROVISIONAL",
   "manufacturing_ready": false,
   "depends_on_branch_stage": "feat/cabinet-width-600-v17",
   "mechanism": {
@@ -15,7 +15,7 @@
     "side_length_mm": 1308.1,
     "rear_height_mm": 596.9,
     "pivot_hole_diameter_mm": 12.7,
-    "pivot_from_rear_mm": 38.1,
+    "pivot_from_rear_mm": 241.3,
     "pivot_from_bottom_mm": 508.0
   },
   "backbox": {
@@ -29,10 +29,16 @@
     "hinge_floor_hole_diameter_mm": 6.35,
     "hinge_floor_hole_count_each_side": 3,
     "hinge_floor_hole_pitch_mm_reference": 44.45,
-    "hinge_floor_row_from_rear_mm_reference": 12.7,
+    "hinge_floor_row_from_rear_mm_reference": null,
     "final_hinge_hole_pattern": null,
     "final_bushing_body_length_mm": null,
-    "final_bracket_bend_offsets_mm": null
+    "final_bracket_bend_offsets_mm": null,
+    "hinge_floor_reference_centers_y_mm": [
+      1181.1,
+      1225.55,
+      1270
+    ],
+    "floor_reference_note": "Longitudinal three-hole row from Pinscape; centers for reserve studies only, NOT drilling. Rearmost floor fastener Y1270 is NOT pivot."
   },
   "upright_locking": {
     "required": true,
@@ -43,15 +49,6 @@
     "backbox_floor_access_hole_diameter_mm": 25.4,
     "fastener_style": "wing screw or hand-accessible socket/knob bolt",
     "rule": "hinges provide folding function; upright operating loads are clamped through dedicated safety bolts into the rear shelf/crossmember"
-  },
-  "cable_harness": {
-    "central_opening_required": true,
-    "minimum_service_loop_mm": 250.0,
-    "minimum_dynamic_bend_radius_mm": 50.0,
-    "abrasion_grommet_required": true,
-    "strain_relief_both_ends": true,
-    "hinge_pinch_zone_keepout_mm": 40.0,
-    "rule": "video, power, audio, USB and lighting harnesses must fold with the backbox without unplugging and without loading connector shells"
   },
   "folded_transport": {
     "fold_direction": "forward over playfield",
@@ -74,5 +71,15 @@
     "transport_rest_mounts_cnc_located": true,
     "builder_freehand_alignment_required": false
   },
-  "physical_measurement_required_before_cnc": true
+  "physical_measurement_required_before_cnc": true,
+  "kinematic_authority": "config/wpc_kinematics_v32.json",
+  "service_passage": {
+    "width": 260,
+    "depth": 60,
+    "x_position": 300,
+    "y_position": 1218,
+    "status": "GENERIC CANDIDATE; permanent shape not promoted due hinge/cradle conflict",
+    "termination_disconnect": "USER CONFIGURABLE"
+  },
+  "machining_authorized": false
 }

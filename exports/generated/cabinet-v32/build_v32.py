@@ -1,3 +1,6 @@
+# SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION
+# Historical base-cabinet generator; old pivot bore is audit geometry, not an active drilling datum.
+# Current reference: config/wpc_kinematics_v32.json. Do not promote old output.
 import FreeCAD as A, Part, math, json, os
 OUT=os.path.dirname(os.path.abspath(__file__))
 d=A.newDocument('VPinV32'); records=[]; shapes={}

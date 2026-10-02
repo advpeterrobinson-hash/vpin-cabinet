@@ -30,7 +30,10 @@
       "gasketed": true
     },
     "display_rail_cage": {
-      "vertical_profile_mm": [20.0, 40.0],
+      "vertical_profile_mm": [
+        20.0,
+        40.0
+      ],
       "rail_spacing_center_to_center_mm": 300.0,
       "rear_offset_from_inner_face_mm": 35.0,
       "status": "packaging rails only; final extrusion brackets after local sourcing"
@@ -43,12 +46,15 @@
     "pivot_bushing": "02-4352",
     "pivot_bolt": "4322-01139-12B",
     "pivot_hole_diameter_mm": 12.7,
-    "pivot_from_rear_mm": 38.1,
+    "pivot_from_rear_mm": 241.3,
     "pivot_from_bottom_mm": 508.0,
-    "bracket_keepout_y_mm": 110.0,
+    "bracket_keepout_y_mm": 250.2,
     "bracket_keepout_z_mm": 170.0,
     "bracket_keepout_thickness_mm": 5.0,
-    "exact_bracket_hole_pattern_status": "TBD after purchased/measured hinge; do not machine from keepout envelope"
+    "exact_bracket_hole_pattern_status": "REFERENCE RESERVE ONLY; final purchased bracket and bushing measurements required; current PF_OpenCradle interference BLOCKS promotion",
+    "bracket_keepout_front_of_pivot_mm": 22,
+    "bracket_keepout_rear_y_mm": 1295,
+    "kinematic_authority": "config/wpc_kinematics_v32.json"
   },
   "upright_locking": {
     "x_offset_from_centerline_mm": 180.0,

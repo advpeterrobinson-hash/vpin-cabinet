@@ -102,3 +102,9 @@ https://www.parts-express.com/pedocs/tech-diagrams/295-244--dayton-audio-bst-1-m
 https://www.parts-express.com/pedocs/specs/New%20folder/295-231-dayton-audio-ex32ep2-4-spec-sheet.pdf
 https://cdnimages.opentip.com/Docs/PEX/295-231-dayton-audio-ex32ep2-4-spec-sheet.pdf
 Links alternativos dos mesmos documentos, arquivados para recuperação. Tentativas PartsExpress(DCS) e OpenTip(EX) devolveram403. PDFs indisponíveis localmente; ferramenta web extraiu os documentos oficiais acima. Nenhum CAD/foto do fornecedor foi importado ao projeto público.
+
+2026-10-01 — V32 backbox structural geometry review; no strength certification
+https://www.apawood.org/guides-tools-training/technical-document-library/technical-notes/fastener-loads-for-plywood-screws/
+APA E830, Fastener Loads for Plywood — Screws (2011). Official landing-page summary read; identifies ultimate test loads and adapting connections to member/fastener properties. Full PDF not reviewed or downloaded; no tabulated strength adopted for unspecified local plywood.
+https://research.fs.usda.gov/treesearch/62253
+Rammer, D.R., 2021, Wood Handbook Chapter 8: Fastenings, FPL-GTR-282. Official abstract read; grain/moisture-sensitive fastening design. Full PDF not reviewed or downloaded. Original assessment: studies/backbox-structure-v32/README.md. No upstream assets redistributed.

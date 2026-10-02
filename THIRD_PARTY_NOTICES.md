@@ -50,3 +50,7 @@ Michael J. Roberts, *The New Pinscape Build Guide*, version 2.1.0 (2023-10-31), 
 `library/references/3d-print/piant/Pinball_Leg_Hole_Guide.stl` is the unmodified owner-supplied file associated with [Pinball Leg Hole Drill Guide by PiAnt](https://www.thingiverse.com/thing:4802189). Source-page structured metadata retrieved on2026-09-29 declares [CC BY4.0](https://creativecommons.org/licenses/by/4.0/). Preserve the adjacent `ATTRIBUTION.txt` when redistributing this file; it is not relicensed under CERN-OHL-S. Source identity, file hash and the limit of upstream byte verification are recorded alongside it. No endorsement or tested drilling accuracy is implied.
 
 The separately linked [Jeff13850 58mm template](https://www.thingiverse.com/thing:7346262) declares CC BY-SA4.0 and credits Stef26's original55mm concept in the source-page description. No file from that second model is redistributed here. Neither template establishes the project's leg/bracket compatibility or structural capacity.
+
+## Backbox structural review references (2026-10-01)
+
+The [V32 backbox structural review](studies/backbox-structure-v32/README.md) links APA's *Fastener Loads for Plywood — Screws* (E830) and the US Forest Service's *Wood Handbook*, Chapter 8: Fastenings (2021). Only official landing-page summaries were read; no PDF tables, images or source assets are redistributed. Their original rights are retained. Project load-demand calculations and CAD review images are original work and do not claim certification by these organizations.

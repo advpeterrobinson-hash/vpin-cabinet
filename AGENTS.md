@@ -8,6 +8,9 @@ The primary product is not merely one cabinet. The primary product is a **replic
 
 ## Source of truth
 
+- **Current WPC authority:** `config/wpc_kinematics_v32.json`, Y1066.8/Z508 (241.3 mm from rear), pure rotation. The old Y1270 pivot interpretation is superseded. See `studies/backbox-structure-v32/README.md`: 210 mm backbox wood candidate folds, but installation of the side pivot is obstructed by both fixed `PF_OpenCradle` supports. Candidate NOT promoted; accepted CAD/viewer remain unchanged. Do not move or notch playfield supports without a scoped follow-up. No final purchased-hardware drilling is released.
+
+
 - **Active owner correction gate:** stop unrelated development. Current corrected CAD/viewer comes from `config/service_correction_v32.json` and `tools/run_service_correction_v32.sh`; review `docs/OWNER_CORRECTION_REVIEW_V32.md`. Ergonomic centers Y89/Y127, local side top minus65mm. Actual rear pivot and two captive CNC plywood props replace the teardown-only service study and legacy v18/v19 bearing/journal/steel-rod architecture. All manufacturing and structural proof remain BLOCKED.
 
 - Latest consolidated drawing: `docs/CONSOLIDATED_DRAWING_V32.md`, `tools/run_consolidated_v32.sh`. Reference Cleveland4.1 =4 EX32EP2-4 exciters +BST-1, plus separateDCS165-4 subwoofer. Source floor study retained; consolidated model adds audio reserves and floor/PCBase anchors.39checks/202solids; not manufacturing release. Do not equate reference envelopes with measured hardware or the8-sheet PDF with completed lockdown/prop/electrical fabrication drawings.

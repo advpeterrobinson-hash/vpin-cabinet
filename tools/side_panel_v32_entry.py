@@ -1,3 +1,5 @@
+# SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION
+# Historical baseline/replay only. See studies/wpc-fold-v32/README.md; use original source HEAD for exact replay.
 """Read-only saved-solid side interface audit. CERN-OHL-S-2.0."""
 import hashlib
 import json

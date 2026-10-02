@@ -1,3 +1,5 @@
+> **SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION.** Pivot-dependent results below are historical, not active engineering. Correct WPC reference: Y1066.8/Z508, 241.3 mm from rear. See [positive control](../studies/wpc-fold-v32/README.md) and [structural integration review](../studies/backbox-structure-v32/README.md). Other historical findings retain their original scope.
+
 > Entrega consolidada: [desenhoV32 com SSF Cleveland4.1 + subwoofer](CONSOLIDATED_DRAWING_V32.md). PDF/CAD/STEP eDXF nominal do piso;39 verificações,202 sólidos. Revisão de montagem, sem liberação CNC.
 
 > Etapa atual: [traseira definida funcionalmente](REAR_CLOSURE_STATUS_V32.md), com qualificação de ferragens pendente. Avanço para [chapa inferior e fixação dos filtros](FLOOR_DETAIL_V32.md): estudo separado, preserva todo o conjunto traseiro.

@@ -61,5 +61,8 @@
     "final_pattern": null,
     "physical_measurement_required": true
   },
-  "manufacturing_ready": false
+  "manufacturing_ready": false,
+  "historical_status": "SUPERSEDED \u2014 INCORRECT LONGITUDINAL PIVOT INTERPRETATION",
+  "active_engineering": false,
+  "superseded_by": "config/wpc_kinematics_v32.json"
 }

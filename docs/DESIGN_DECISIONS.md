@@ -82,6 +82,8 @@ Preferred off-the-shelf hardware family:
 - `02-4352` pivot bushings;
 - `4322-01139-12B` pivot bolts.
 
+**SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION** — see [positive control](../studies/wpc-fold-v32/README.md). Original decision follows for audit only.
+
 The main-side pivot starts from the established WPC datum of approximately 508.0 mm above the cabinet bottom and 38.1 mm forward of the rear edge, using a 12.7 mm pivot hole.
 
 For the selected 780 mm backbox over the 580 mm main body, use the WPC custom-width hinge-floor formula. It yields a hinge mounting-row inset of approximately **69.84 mm from each backbox-floor side edge**.

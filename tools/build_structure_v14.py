@@ -49,6 +49,8 @@ def main(doc=None) -> None:
     bb = cfg["backbox"]
     hinge = cfg["wpc_hinges"]
     lock = cfg["upright_locking"]
+    from wpc_reference_v32 import reference_axis
+    assert reference_axis() == [300, float(cab["side_length_mm"]) - float(hinge["pivot_from_rear_mm"]), float(hinge["pivot_from_bottom_mm"])], "Superseded WPC pivot datum"
 
     cab_w = float(cab["outer_width_mm"])
     cab_len = float(cab["side_length_mm"])
@@ -201,7 +203,7 @@ def main(doc=None) -> None:
     ky = float(hinge["bracket_keepout_y_mm"])
     kz = float(hinge["bracket_keepout_z_mm"])
     kt = float(hinge["bracket_keepout_thickness_mm"])
-    keepout_y0 = pivot_y - ky / 2.0
+    keepout_y0 = pivot_y - float(hinge["bracket_keepout_front_of_pivot_mm"])
     keepout_z0 = pivot_z - 25.0
     left_keepout = Part.makeBox(kt, ky, kz, App.Vector(-kt, keepout_y0, keepout_z0))
     right_keepout = Part.makeBox(kt, ky, kz, App.Vector(cab_w, keepout_y0, keepout_z0))

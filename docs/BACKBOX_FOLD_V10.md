@@ -1,3 +1,5 @@
+> **CURRENT KINEMATIC REFERENCE: Y1066.8/Z508.** Final drilling remains provisional. [Positive control](../studies/wpc-fold-v32/README.md); [integration blocker](../studies/backbox-structure-v32/README.md). Historical harness/transport prescriptions below do not govern the current backbox interface: cable termination and disconnection are USER CONFIGURABLE; only a generic passage is in scope.
+
 # Backbox folding / transport mechanism v0.10
 
 Status: CURRENT V32 hinge reference datums; not manufacturing-ready.
@@ -26,7 +28,7 @@ Historical local-fabrication alternative is superseded for CURRENT V32: no new/c
 Use the established WPC pivot location as the starting datum:
 
 - pivot hole diameter: 12.7 mm (1/2 in);
-- 38.1 mm (1.5 in) forward of the cabinet rear edge;
+- 241.3 mm (9.5 in) forward of the cabinet rear edge;
 - 508.0 mm (20 in) above the cabinet bottom datum.
 
 These are reference datums, not drilling approval. After physical hinge measurement and freeze, final holes should be CNC-located so the builder does not align hardware by eye. Do not machine the reference-only pattern now.
@@ -90,7 +92,7 @@ Baseline solution: a simple padded 25 mm cam-buckle strap with a documented stra
 
 The assembly manual must state that the machine is **never transported with the backbox upright**.
 
-## Cable harness / service loop
+## Historical cable harness / service loop — superseded by builder configuration
 
 The hinge feature only works if the harness is designed to move with it.
 
@@ -134,4 +136,4 @@ After v0.9 is locally validated, add a v0.10 FreeCAD assembly state containing:
 
 The exact hinge bracket solid should be derived from purchased/measured hardware or a verified fabrication drawing rather than guessed from photographs.
 
-CURRENT V32 measurement hold: use 600 mm cabinet / 780 mm backbox and 59.8375 mm floor-row inset from each OUTER side edge. Three Ø6.35 mm reference holes per side, 44.45 mm reference pitch, row approximately 12.7 mm from rear. None is a frozen purchased-bracket pattern. Listings for 02-4352 conflict: bushing body length, exact bracket holes/bend offsets and final CNC hinge drilling remain null until the physical 01-9011-L/R + 2 × 02-4352 + 2 × 4322-01139-12B assembly is measured. Purchase/measure early (HF-006 in MEASURE_BEFORE_CNC_V25.csv); no intermediate cabinet prototype is planned. No new/custom hinge metal is authorized.
+CURRENT V32 measurement hold: use 600 mm cabinet / 780 mm backbox and 59.8375 mm floor-row inset from each OUTER side edge. Three Ø6.35 mm reference holes per side, 44.45 mm reference pitch, reference centers Y1181.1 / Y1225.55 / Y1270.0 (last floor fastener 38.1 mm from rear; NOT the pivot). None is a frozen purchased-bracket pattern. Listings for 02-4352 conflict: bushing body length, exact bracket holes/bend offsets and final CNC hinge drilling remain null until the physical 01-9011-L/R + 2 × 02-4352 + 2 × 4322-01139-12B assembly is measured. Purchase/measure early (HF-006 in MEASURE_BEFORE_CNC_V25.csv); no intermediate cabinet prototype is planned. No new/custom hinge metal is authorized.

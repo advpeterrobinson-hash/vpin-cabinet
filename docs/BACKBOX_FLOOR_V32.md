@@ -1,3 +1,5 @@
+> **SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION.** Pivot-dependent results below are historical, not active engineering. Correct WPC reference: Y1066.8/Z508, 241.3 mm from rear. See [positive control](../studies/wpc-fold-v32/README.md) and [structural integration review](../studies/backbox-structure-v32/README.md). Other historical findings retain their original scope.
+
 # CURRENT V32 — backbox floor / glass-channel integration
 
 HEAD BEFORE: `eeab1a73a4bedde40d676ae10b3980ae625248e9`.

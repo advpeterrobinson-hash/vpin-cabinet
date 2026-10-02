@@ -1,3 +1,5 @@
+> **SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION.** Pivot-dependent results below are historical, not active engineering. Correct WPC reference: Y1066.8/Z508, 241.3 mm from rear. See [positive control](../studies/wpc-fold-v32/README.md) and [structural integration review](../studies/backbox-structure-v32/README.md). Other historical findings retain their original scope.
+
 # CURRENT V32 — hinge datum cleanup and matrix positioning study
 
 > Positioning study retained as the accepted reference. The subsequent [removable cassette study](MATRIX_CASSETTE_V32.md) implements the owner-approved removal-first service sequence. Installed SERVICE/LIFT/FOLD failures below remain historical study results, not requirements for the removable module.

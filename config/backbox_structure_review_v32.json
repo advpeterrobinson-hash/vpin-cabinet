@@ -1,0 +1,118 @@
+{
+  "status": "STRUCTURAL_REVIEW_CANDIDATE_NOT_PROMOTED",
+  "source_head": "f91ba219b824dc8de77d101a2ba68cd078ac037e",
+  "output_directory": "exports/generated/backbox-structure-v32",
+  "kinematic_reference": {
+    "rear_y_mm": 1308.1,
+    "from_rear_mm": 241.3,
+    "z_mm": 508.0,
+    "axis_xyz_mm": [
+      300,
+      1066.8,
+      508
+    ],
+    "motion": "PURE_ROTATION",
+    "authority": "studies/wpc-fold-v32/README.md"
+  },
+  "backbox": {
+    "width_mm": 780,
+    "height_mm": 723.9,
+    "side_lower_depth_mm": 210,
+    "top_depth_mm": 254,
+    "stock_mm": 18,
+    "bottom_z_mm": 596.9,
+    "floor_front_y_mm": 1146,
+    "capture_mm": 6,
+    "retain_full_stock_ahead_of_floor": true
+  },
+  "service_passage": {
+    "width": 260,
+    "depth": 60,
+    "x_position": 300,
+    "y_position": 1218,
+    "status": "GENERIC_USER_CONFIGURABLE"
+  },
+  "joint_planning": {
+    "end_distance_mm": 25,
+    "count_each_side": 3,
+    "thread_reach_into_floor_mm": 20,
+    "illustrative_maximum_shank_diameter_mm": 4,
+    "selected_screw_sku": null,
+    "final_pilot_mm": null,
+    "role": "glued captured joint with provisional mechanical retention; capacities require actual plywood/adhesive/fastener qualification"
+  },
+  "hinge_reserve": {
+    "floor_row_inset_outer_mm": 59.8375,
+    "floor_reference_centers_y_mm": [
+      1181.1,
+      1225.55,
+      1270.0
+    ],
+    "floor_access_radius_mm": 18,
+    "floor_access_top_z_mm": 655,
+    "pivot_internal_reach_mm": 32,
+    "pivot_access_radius_mm": 22,
+    "arm_front_margin_mm": 22,
+    "note": "Reference centers from Pinscape diagram; Y1270 here is the rearmost FLOOR FASTENER, never the pivot. Envelopes are provisional gross packaging only."
+  },
+  "locks": {
+    "count": 2,
+    "centers_xy_mm": [
+      [
+        120,
+        1188
+      ],
+      [
+        480,
+        1188
+      ]
+    ],
+    "wood_reserve_radius_mm": 30.7,
+    "washer_backing_reserve_radius_mm": 20,
+    "tool_radius_mm": 18,
+    "tool_height_mm": 80,
+    "final_hole_diameter_mm": null,
+    "final_sku": null
+  },
+  "load_planning": {
+    "density_kg_m3": 650,
+    "sensitivity_factor": 2,
+    "horizontal_g": 0.3,
+    "front_projection_tip_load_kg": 2,
+    "note": "Existing 210 study mass inventory retained; only new wood volumes and CG recomputed. Not certified design capacities."
+  },
+  "fold_prerequisites": [
+    "GLASS_REMOVED",
+    "MATRIX_REMOVED"
+  ],
+  "angles_deg": [
+    0,
+    0.001,
+    0.01,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1,
+    2,
+    5,
+    10,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90
+  ],
+  "hardware": {
+    "parts": [
+      "01-9011-L",
+      "01-9011-R",
+      "02-4352",
+      "4322-01139-12B"
+    ],
+    "final_holes_frozen": false,
+    "physical_measurement_required": true
+  },
+  "manufacturing_ready": false
+}

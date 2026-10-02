@@ -14,7 +14,9 @@ def main() -> int:
     cab = cfg["cabinet"]
     box = cfg["backbox"]
     lock = cfg["upright_locking"]
-    harness = cfg["cable_harness"]
+    passage = cfg["service_passage"]
+    from wpc_reference_v32 import reference_axis
+    assert reference_axis() == [300, cab["side_length_mm"] - cab["pivot_from_rear_mm"], cab["pivot_from_bottom_mm"]]
     transport = cfg["folded_transport"]
     cnc = cfg["cnc_flatpack"]
 
@@ -67,12 +69,10 @@ def main() -> int:
         transport["baseline_retention"],
     ))
     checks.append((
-        "cable service loop",
-        float(harness["minimum_service_loop_mm"]) >= 250.0
-        and float(harness["minimum_dynamic_bend_radius_mm"]) >= 50.0
-        and bool(harness["abrasion_grommet_required"])
-        and bool(harness["strain_relief_both_ends"]),
-        f"loop {harness['minimum_service_loop_mm']} mm / bend R {harness['minimum_dynamic_bend_radius_mm']} mm",
+        "generic physical passage only",
+        passage["width"] > 0 and passage["depth"] > 0
+        and passage["termination_disconnect"] == "USER CONFIGURABLE",
+        "no connector, disconnect, harness or gland prescribed",
     ))
     checks.append((
         "CNC locates all hinge/transport geometry",

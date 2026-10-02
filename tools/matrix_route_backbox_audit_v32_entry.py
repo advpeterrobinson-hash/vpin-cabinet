@@ -1,3 +1,5 @@
+# SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION
+# Historical baseline/replay only. See studies/wpc-fold-v32/README.md; use original source HEAD for exact replay.
 """Read-only V32 route refinement / backbox zero-state audit. CERN-OHL-S-2.0.
 
 Owns only matrix-route-backbox-audit-v32. Reconstructs documented backbox

@@ -1,3 +1,5 @@
+# SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION
+# Historical baseline/replay only. See studies/wpc-fold-v32/README.md; use original source HEAD for exact replay.
 """Actual CAD profile and reserve comparisons; no selected/fold-success fiction. CERN-OHL-S-2.0."""
 from pathlib import Path
 import json,hashlib

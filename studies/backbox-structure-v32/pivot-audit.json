@@ -1,0 +1,614 @@
+{
+  "active_engineering_files": [
+    "config/wpc_kinematics_v32.json",
+    "config/backbox_fold_v10.json",
+    "config/structure_geometry_v14.json",
+    "config/backbox_structure_review_v32.json",
+    "tools/wpc_reference_v32.py",
+    "tools/build_structure_v14.py",
+    "tools/validate_backbox_fold_v10.py",
+    "tools/backbox_structure_review_v32.py",
+    "tools/backbox_structure_review_v32_entry.py"
+  ],
+  "active_stale_pivot_references_remaining": 0,
+  "negative_controls": [
+    "reject 38.1 offset / Y1270",
+    "reject drifted offset",
+    "legacy config consistency",
+    "final drilling remains provisional"
+  ],
+  "historical_replay_rule": "Use original source HEAD for historical outputs; do not regenerate them as CURRENT geometry.",
+  "occurrences": [
+    {
+      "path": "config/backbox_structure_review_v32.json",
+      "occurrences": [
+        {
+          "line": 49,
+          "classification": "NON-PIVOT DIMENSION: rearmost floor fastener, explicitly not axis",
+          "text": "      1270.0"
+        },
+        {
+          "line": 56,
+          "classification": "NON-PIVOT DIMENSION: rearmost floor fastener, explicitly not axis",
+          "text": "    \"note\": \"Reference centers from Pinscape diagram; Y1270 here is the rearmost FLOOR FASTENER, never the pivot. Envelopes are provisional gross packaging only.\""
+        }
+      ]
+    },
+    {
+      "path": "studies/backbox-structure-v32/README.md",
+      "occurrences": [
+        {
+          "line": 71,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "The old Y1270-centered keepouts are superseded. Reference floor attachment rows are X−30.1625 / 630.1625, Y1181.1 / 1225.55 / 1270. **Y1270 here is the rear FLOOR FASTENER, not the pivot.** Flange, exterior arm, top access and internal cabinet pivot access are modeled separately. Blanket longitudinal exclusions would incorrectly eliminate good side/floor fastener positions."
+        },
+        {
+          "line": 109,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "| Old active reference | Y1270 / Z508, 38.1 mm rear offset — superseded |"
+        },
+        {
+          "line": 163,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "**SUPERSEDED — INCORRECT LONGITUDINAL PIVOT INTERPRETATION** applies to the old pivot analysis, old captured CAD bore at Y1270, and associated collision conclusions in the historical backbox-profile, backbox-floor, matrix-route-backbox-audit, matrix-hinge-study, side-panel and cabinet-v32 base-generation snapshots. Their numbers/images are historical evidence and were not silently rewritten. Linke"
+        },
+        {
+          "line": 165,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "[Line-by-line pivot audit](pivot-audit.json) distinguishes active authority, historical comparisons, third-party quotations and unrelated dimensions. Negative regression controls reject the 38.1 mm rear offset/Y1270 pivot and a drifted 241.0 mm offset. The documented rear floor-fastener center at Y1270 remains legitimate and is explicitly distinguished from the pivot. The conflicting third-party 1"
+        }
+      ]
+    },
+    {
+      "path": "studies/backbox-structure-v32/render.py",
+      "occurrences": [
+        {
+          "line": 36,
+          "classification": "B. HISTORICAL / AUDIT (superseded comparison or negative regression control)",
+          "text": "fig,ax=plt.subplots(1,2,figsize=(13,7));yz(ax[0]);plot(ax[0],select('reserves','BB_HingeArmReserveL','BB_HingeFlangeReserveL'),alpha=.2);ax[0].plot(1270,508,'rx',ms=11);ax[0].annotate('SUPERSEDED Y1270',(1270,508),xytext=(1155,465),arrowprops={'arrowstyle':'->'});ax[0].annotate('VALIDATED Y1066.8',(1066.8,508),xytext=(988,700),arrowprops={'arrowstyle':'->'});note(ax[1],'Axis Z508, transverse X\\n\\n"
+        }
+      ]
+    },
+    {
+      "path": "tools/backbox_structure_review_v32.py",
+      "occurrences": [
+        {
+          "line": 84,
+          "classification": "B. HISTORICAL / AUDIT (repair obsolete hole in isolated candidate only)",
+          "text": "  plug=Part.makeCylinder(6.35,18,V(x,1270,508),V(1,0,0)) # HISTORICAL repair location, never a motion datum."
+        }
+      ]
+    },
+    {
+      "path": "tools/check_wpc_reference_v32.py",
+      "occurrences": [
+        {
+          "line": 9,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "for offset in [38.1,241.0]:"
+        },
+        {
+          "line": 34,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "  if not re.search(r'1270|38\\.1|1\\.5.in|1-1/2|1½',line):continue"
+        },
+        {
+          "line": 42,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "  elif name=='tools/backbox_structure_review_v32.py' and '1270' in line:"
+        },
+        {
+          "line": 44,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "  elif name=='config/backbox_structure_review_v32.json' and '1270' in line:"
+        },
+        {
+          "line": 46,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "  elif name=='config/backbox_fold_v10.json' and ('1270' in line):cls='NON-PIVOT DIMENSION: rearmost floor fastener, explicitly not axis'"
+        },
+        {
+          "line": 60,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": " assert not re.search(r'(?:rotate|axis\\s*=).*1270',text),name"
+        },
+        {
+          "line": 62,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "payload={'active_engineering_files':active,'active_stale_pivot_references_remaining':0,'negative_controls':['reject 38.1 offset / Y1270','reject drifted offset','legacy config consistency','final drilling remains provisional'],'historical_replay_rule':'Use original source HEAD for historical outputs; do not regenerate them as CURRENT geometry.','occurrences':rows,'accepted_geometry_note':'Old refe"
+        }
+      ]
+    },
+    {
+      "path": "config/backbox_fold_v10.json",
+      "occurrences": [
+        {
+          "line": 39,
+          "classification": "NON-PIVOT DIMENSION: rearmost floor fastener, explicitly not axis",
+          "text": "      1270"
+        },
+        {
+          "line": 41,
+          "classification": "NON-PIVOT DIMENSION: rearmost floor fastener, explicitly not axis",
+          "text": "    \"floor_reference_note\": \"Longitudinal three-hole row from Pinscape; centers for reserve studies only, NOT drilling. Rearmost floor fastener Y1270 is NOT pivot.\""
+        }
+      ]
+    },
+    {
+      "path": "config/backbox_profile_v32.json",
+      "occurrences": [
+        {
+          "line": 19,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "    1270,"
+        }
+      ]
+    },
+    {
+      "path": "config/consolidated_audio_v32.json",
+      "occurrences": [
+        {
+          "line": 12,
+          "classification": "NON-PIVOT DIMENSION / URL",
+          "text": " \"pc_base\":{\"anchor_holes_xy_mm\":[[180,850],[420,850],[180,1270],[420,1270]],\"through_diameter_mm\":5.5,\"countersink_diameter_mm\":10.5,\"countersink_depth_mm\":2.5,\"note\":\"Candidate M5 countersunk anchors, four pass through floor and PCBase. Heads flush; chassis removed before top tool access. Chassis-specific holes remain on replaceable PCBase; no second tray.\"},"
+        }
+      ]
+    },
+    {
+      "path": "config/matrix_hinge_study_v32.json",
+      "occurrences": [
+        {
+          "line": 6,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "    38.1,"
+        },
+        {
+          "line": 55,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "    \"pivot_rear_mm\": 38.1,"
+        }
+      ]
+    },
+    {
+      "path": "docs/BACKBOX_FLOOR_V32.md",
+      "occurrences": [
+        {
+          "line": 46,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "**Hinge zones preserved: YES.** Existing wood is retained throughout both rear outboard bands: X−78…18 / 582…678, Y1197…1302.1, Z596.9…614.9 mm. The front of these reserves is derived from the reference-axis Y1270, the documented 110 mm packaging keepout and an additional 18 mm stock margin. None of their wood is removed. Reference floor inset remains 59.8375 mm from each backbox outer edge; cabin"
+        }
+      ]
+    },
+    {
+      "path": "docs/BACKBOX_FOLD_V10.md",
+      "occurrences": [
+        {
+          "line": 139,
+          "classification": "NON-PIVOT DIMENSION / unrelated wording",
+          "text": "CURRENT V32 measurement hold: use 600 mm cabinet / 780 mm backbox and 59.8375 mm floor-row inset from each OUTER side edge. Three Ø6.35 mm reference holes per side, 44.45 mm reference pitch, reference centers Y1181.1 / Y1225.55 / Y1270.0 (last floor fastener 38.1 mm from rear; NOT the pivot). None is a frozen purchased-bracket pattern. Listings for 02-4352 conflict: bushing body length, exact brac"
+        }
+      ]
+    },
+    {
+      "path": "docs/BACKBOX_PROFILE_V32.md",
+      "occurrences": [
+        {
+          "line": 14,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "Every candidate uses outer width 780 mm, height 723.9 mm, top depth 254 mm, nominal stock 18 mm, rear plane Y1308.1 and floor bottom Z596.9. The cabinet remains 600 mm wide; shelf front is Y1127.125. Reference pivot remains (300,1270,508) mm with Ø12.7 reference hole and 59.8375 mm outer-edge hinge inset."
+        },
+        {
+          "line": 87,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "For positive X-axis rotation that folds the top forward, around **A=(300,1270,508)**:"
+        },
+        {
+          "line": 91,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "`dZ/dθ = Y−1270 = −50 mm/rad`"
+        },
+        {
+          "line": 123,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "Generic rear removable-board service reserve: **X180…420, Y1240…1272, Z850…1150 mm** (240 × 32 × 300). A 240 × 300 × 12 mm replaceable panel is a planning assumption within it. Generic lower service/toy reserve: **X220…380, Y1220…1270, Z675…750 mm** (160 × 50 × 75). Both reserves clear the modeled wood and source display/speaker payloads in all candidates. Their mounting and independent removal ar"
+        }
+      ]
+    },
+    {
+      "path": "docs/BACKBOX_V06.md",
+      "occurrences": [
+        {
+          "line": 56,
+          "classification": "NON-PIVOT DIMENSION / unrelated wording",
+          "text": "- Duex 31.5-inch model: retailer-listed near 713 mm — also within the service envelope, but exact dimensions still require confirmation before making its carrier/bezel."
+        }
+      ]
+    },
+    {
+      "path": "docs/DESIGN_DECISIONS.md",
+      "occurrences": [
+        {
+          "line": 87,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "The main-side pivot starts from the established WPC datum of approximately 508.0 mm above the cabinet bottom and 38.1 mm forward of the rear edge, using a 12.7 mm pivot hole."
+        }
+      ]
+    },
+    {
+      "path": "docs/MATRIX_HINGE_STUDY_V32.md",
+      "occurrences": [
+        {
+          "line": 13,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "600 mm cabinet / 780 mm backbox; `(780−600−60.325)/2 = 59.8375 mm` from each OUTER backbox-floor side. Cabinet pivot reference Ø12.7, rear offset38.1, bottom height508.0. Floor reference 3 × Ø6.35 per side, pitch44.45, row approximately12.7 from rear. These are reference datums only; no CNC hole pattern is frozen or new metal made. WPC 01-9011-L/R, 2 ×02-4352 and 2 ×4322-01139-12B remain HF-006 ea"
+        },
+        {
+          "line": 31,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "|38.1000|10|50.0|0.22–0.48|0.000|0.000|0.000|0.000|0.000|18.000|NO|"
+        },
+        {
+          "line": 32,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "|38.1000|15|62.5|0.08–0.21|0.000|0.000|0.000|0.000|0.000|18.000|NO|"
+        },
+        {
+          "line": 33,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "|38.1000|20|68.8|0.06–0.45|0.000|0.000|0.000|0.000|0.000|18.000|NO|"
+        },
+        {
+          "line": 34,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "|38.1000|25|75.0|0.32–0.77|0.136|0.000|0.000|0.000|0.000|18.000|NO|"
+        }
+      ]
+    },
+    {
+      "path": "docs/MATRIX_ROUTE_BACKBOX_AUDIT_V32.md",
+      "occurrences": [
+        {
+          "line": 60,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "600 mm cabinet; 780 mm backbox; outer-edge inset **59.8375 mm**. Reference axis **(300, 1270, 508) mm**; Ø12.7 reference hole; **38.1 mm** forward from Y1308.1 rear exterior; **508 mm** above cabinet bottom."
+        }
+      ]
+    },
+    {
+      "path": "docs/PANEL_CLOSURE_V32.md",
+      "occurrences": [
+        {
+          "line": 42,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "The existing V32 side pivot reference Y1270/Z508 and rear fan reference 116 mm cutouts / 105 mm mounting pitch are **not universal hardware standards or released holes**. Retain them as documented references until selected hardware confirms them."
+        }
+      ]
+    },
+    {
+      "path": "docs/PINSIM_REFERENCE_REVIEW.md",
+      "occurrences": [
+        {
+          "line": 24,
+          "classification": "NON-PIVOT DIMENSION / URL",
+          "text": "| Hinge_Test.stl | 76.200 × 12.697 × 38.100 | 2 | Printed hinge experiment; not our backbox hinge |"
+        }
+      ]
+    },
+    {
+      "path": "docs/SESSION_HANDOFF_V32.md",
+      "occurrences": [
+        {
+          "line": 72,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "The important new side finding is the 5.3 mm annular button mounting web: 18 minus 7.9375 outside recess minus 4.7625 inside recess. Verify against actual hardware and stock, not a strength claim. Side bores Ø15.875 differ from front nominal Ø25.4. Side positions Y255/310 Z270. Reference pivot Ø12.7 at Y1270/Z508. See side review for limitations."
+        },
+        {
+          "line": 144,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "Latest button direction, 2026-09-29: owner prefers traditional leaf pinball side buttons and supplied Arcade Express product 538/variant 12705. Retain a conventional arcade alternative for other builders. See `docs/SIDE_BUTTON_OPTIONS_V32.md`: seller dimensions are ambiguous, current Ø15.875 bore is unverified, and the cited SUZOHAPP arcade family needs Ø28.575. Plan separate pre-CNC configuration"
+        }
+      ]
+    },
+    {
+      "path": "docs/SIDE_BUTTON_OPTIONS_V32.md",
+      "occurrences": [
+        {
+          "line": 7,
+          "classification": "NON-PIVOT DIMENSION / URL",
+          "text": "[Arcade Express kit, product 538, supplied variant 12705](https://www.arcadexpress.com/en/pinball/538-12705-pinball-button-kit-with-end-of-stroke-switch-leaf-holder-bracket-nut.html), accessed 2026-09-29. The seller describes a Suzo Happ pinball button, leaf switch, bracket/nut and screws; its own bracket is printed in PLA. The listing specifies a 15 mm diameter but also mentions 34 mm in inconsis"
+        }
+      ]
+    },
+    {
+      "path": "docs/SIDE_PANEL_REVIEW_V32.md",
+      "occurrences": [
+        {
+          "line": 19,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "| Backbox pivot reference | Ø12.7 at Y1270/Z508; rear/top edge ligaments 31.75/82.55 mm | Actual pivot, washers, reinforcement, sweep and fastener access |"
+        }
+      ]
+    },
+    {
+      "path": "docs/history/REAR_UTILITY_V26_COMPARISON.md",
+      "occurrences": [
+        {
+          "line": 32,
+          "classification": "NON-PIVOT DIMENSION / URL",
+          "text": "| Underside, between support rails | X154.8..445.2 / Y1078..1270.1 | **290.4 × 192.1 mm** |"
+        }
+      ]
+    },
+    {
+      "path": "docs/pt-BR/PANEL_CLOSURE_V32.md",
+      "occurrences": [
+        {
+          "line": 16,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "Pivô lateral Y1270/Z508 e referências de fans (abertura 116, passo 105) não são padrões universais ou furos liberados. Os quatro centros auxiliares do piso são X185/245/305/365. Manter como referências até confirmação das ferragens."
+        }
+      ]
+    },
+    {
+      "path": "docs/pt-BR/SIDE_PANEL_REVIEW_V32.md",
+      "occurrences": [
+        {
+          "line": 13,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "Volumes provisórios de raio 18 mm e profundidade interna de 80 mm (60 de corpo +20 para cabo) não colidem com os sólidos vizinhos modelados. Ferragens ausentes não estão cobertas por esse resultado. O pivô de referência Ø12,7 em Y1270/Z508 deixa 31,75 mm até a borda traseira e 82,55 mm até o topo; fixação e reforço reais permanecem pendentes."
+        }
+      ]
+    },
+    {
+      "path": "exports/generated/cabinet-v32/build_v32.py",
+      "occurrences": [
+        {
+          "line": 80,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": " s=s.cut(cyl(x-1,1270,508,6.35,20,(1,0,0)))"
+        }
+      ]
+    },
+    {
+      "path": "research/way-of-the-wrench/BACKBOX_HINGE_NOTES.md",
+      "occurrences": [
+        {
+          "line": 37,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "- 1.5 in / 38.1 mm forward of the rear edge"
+        }
+      ]
+    },
+    {
+      "path": "studies/wpc-fold-v32/README.md",
+      "occurrences": [
+        {
+          "line": 3,
+          "classification": "B. HISTORICAL / AUDIT (positive-control negative comparison)",
+          "text": "The contradictory shelf collision came from the **longitudinal pivot datum**. The previous WPC datum used 1½ inches from the cabinet rear. Pinscape's dimensioned pivot drawing **and** its drilling instructions specify **9½ inches**. With the same cabinet rear at Y1308.1, that is **Y1066.8**, not Y1270. Height remains **Z508**. The documented assembly has one revolute joint on each side, coaxial ac"
+        },
+        {
+          "line": 16,
+          "classification": "B. HISTORICAL / AUDIT (positive-control negative comparison)",
+          "text": "- **CONFLICTING DOCUMENTED DIMENSION:** [jonaskello README](https://github.com/jonaskello/wpc-cabinet) gives 1½ inches from the rear. This is the source of the incorrect reference adopted locally. Its SKP/F3D geometry was not audited here; do not generalize the README error to those files. Applying that datum to the positive control reproduces immediate shelf collision."
+        },
+        {
+          "line": 46,
+          "classification": "B. HISTORICAL / AUDIT (positive-control negative comparison)",
+          "text": "**Final intended contact:** the complete upright planar bearing region releases simultaneously, not a rolling edge. Its reference footprint is the intersection of the floor underside and shelf top: X1.5875…557.2125, Y1143…1308.1, excluding the opening X138.1125…420.6875, Y1192.2125…1271.5875. These exact regions are present as the green CAD-derived bearing plot. An unloaded geometric contact regio"
+        },
+        {
+          "line": 78,
+          "classification": "B. HISTORICAL / AUDIT (positive-control negative comparison)",
+          "text": "P=(300,1220,596.9) is **actual structural bearing material in the accepted V32 floor and shelf**. It was not an empty-hole artifact in that model. The old derivative −50 mm/rad and reproduced **88,825.888892 mm³** floor/shelf overlap at 1° are correct **for axis Y1270/Z508**."
+        },
+        {
+          "line": 131,
+          "classification": "B. HISTORICAL / AUDIT (positive-control negative comparison)",
+          "text": "**PIVOT DATUM changed:** accepted production/configuration **NO**; isolated study interpretation **YES**, from Y1270 to Y1066.8, justified by the documented mechanism. Both values remain explicitly recorded. This report supersedes the old kinematic inference, without silently editing historical reports or accepted source configuration."
+        }
+      ]
+    },
+    {
+      "path": "studies/wpc-fold-v32/build.py",
+      "occurrences": [
+        {
+          "line": 109,
+          "classification": "B. HISTORICAL / AUDIT (positive-control negative comparison)",
+          "text": "negative=hits(pose(wood,V(cx,1270,508),.25),fixed)"
+        }
+      ]
+    },
+    {
+      "path": "studies/wpc-fold-v32/parameters.json",
+      "occurrences": [
+        {
+          "line": 38,
+          "classification": "B. HISTORICAL / AUDIT (positive-control negative comparison)",
+          "text": "      1270,"
+        }
+      ]
+    },
+    {
+      "path": "studies/wpc-fold-v32/render.py",
+      "occurrences": [
+        {
+          "line": 12,
+          "classification": "B. HISTORICAL / AUDIT (positive-control negative comparison)",
+          "text": "B['v32_current']={'wood':current['wood'],'fixed':current['context'],'axis':[300,1270,508]}"
+        },
+        {
+          "line": 69,
+          "classification": "B. HISTORICAL / AUDIT (positive-control negative comparison)",
+          "text": "fig,axs=plt.subplots(1,2,figsize=(13,6));yz(axs[0],'v32_current');axs[0].plot(1270,508,'rx',ms=10);axs[0].plot(1220,596.9,'ro');axs[0].set_title('Current floor front Y1123.5; old axis marked red')"
+        },
+        {
+          "line": 70,
+          "classification": "B. HISTORICAL / AUDIT (positive-control negative comparison)",
+          "text": "axs[1].axis('off');axs[1].text(0,.92,'OLD DATUM\\nRear offset 38.1 mm (1½ in)\\nAxis Y1270 / Z508\\n\\nP = (300,1220,596.9)\\nActual wood in accepted floor and shelf\\ndZ/dθ = −50 mm/rad\\nAt 1°: 88,825.89 mm³ floor/shelf overlap\\n\\nThis projection uses the original accepted floor/shelf.\\nThe P comparison uses those same accepted solids.',va='top',linespacing=1.6);finish(fig,'09-current-interpretation','"
+        }
+      ]
+    },
+    {
+      "path": "studies/wpc-fold-v32/sources.json",
+      "occurrences": [
+        {
+          "line": 89,
+          "classification": "C. THIRD-PARTY SOURCE QUOTATION",
+          "text": "      \"finding\": \"README says 1.5 inch from back. Repository admits possible errors. This datum fails the same positive-control collision engine; Pinscape text and dimensioned figure instead agree on 9.5 inch. Do not claim to have audited its SKP/F3D geometry.\""
+        }
+      ]
+    },
+    {
+      "path": "tools/backbox_floor_v32_entry.py",
+      "occurrences": [
+        {
+          "line": 107,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "check('accepted WPC references unchanged',list(axis)==[300,1270,508] and hinge['cabinet']['outer_width_mm']==600 and hinge['backbox']['outer_width_mm']==780 and hinge['backbox']['hinge_floor_bolt_inset_each_side_mm']==59.8375)"
+        }
+      ]
+    },
+    {
+      "path": "tools/backbox_profile_v32_entry.py",
+      "occurrences": [
+        {
+          "line": 46,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "check('fixed references match accepted WPC and cabinet',list(axis)==[300,1270,508] and hinge['backbox']['hinge_floor_bolt_inset_each_side_mm']==59.8375 and rear==1308.1 and z0==596.9)"
+        }
+      ]
+    },
+    {
+      "path": "tools/check_matrix_hinge_regressions_v32.py",
+      "occurrences": [
+        {
+          "line": 26,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": " ref=Part.makeCylinder(6.35,18,A.Vector(x,1308.1-38.1,508),A.Vector(1,0,0));vol=old[n].common(ref).Volume;assert vol>0.99*ref.Volume or vol<.01, ('pivot wood/hole partial',n,vol,ref.Volume)"
+        }
+      ]
+    },
+    {
+      "path": "tools/matrix_cassette_v32_entry.py",
+      "occurrences": [
+        {
+          "line": 132,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": " q=old['PF_BackboxCheckEnvelope'].copy();q.rotate(V(300,1270,508),V(1,0,0),ang)"
+        },
+        {
+          "line": 160,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "  q=old['PF_BackboxCheckEnvelope'].copy();q.rotate(V(300,1270,508),V(1,0,0),90);full['PF_BackboxCheckEnvelope']=q"
+        }
+      ]
+    },
+    {
+      "path": "tools/matrix_hinge_study_v32_entry.py",
+      "occurrences": [
+        {
+          "line": 31,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": " s=old['PF_BackboxCheckEnvelope'].copy();s.rotate(V(300,1308.1-38.1,508),V(1,0,0),angle);fold.append(s)"
+        }
+      ]
+    },
+    {
+      "path": "tools/matrix_route_backbox_audit_v32_entry.py",
+      "occurrences": [
+        {
+          "line": 215,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "check('reference axis and width datums retained', axis == [300, 1270, 508] and abs(inset-59.8375)<1e-9)"
+        }
+      ]
+    },
+    {
+      "path": "tools/render_backbox_floor_v32.py",
+      "occurrences": [
+        {
+          "line": 87,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "ax.text(0,.81,'Unintended positive intersection: 0 mm³\\nInternal wood joints: no overlap\\nGlass channels: 5.084878 mm minimum\\nInstalled glass: 5.589938 mm clearance\\n\\nFloor ↔ shelf is intentional bearing.\\nActual contact area: 84,604.626 mm²\\nRetained: 100% / continuous width564 mm\\n\\nWPC pivot: (300,1270,508) mm\\nReference inset: 59.8375 mm\\n\\nUpright validity does not approve folding.',va='top"
+        }
+      ]
+    },
+    {
+      "path": "tools/render_backbox_profile_v32.py",
+      "occurrences": [
+        {
+          "line": 81,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "ax.plot(1270,508,'ko',ms=8);ax.plot(1220,596.9,'o',color='#d55e00');ax.annotate('',xy=(1220,566.9),xytext=(1220,596.9),arrowprops={'arrowstyle':'->','color':'#d55e00','lw':2});ax.set_ylim(480,1350);tx.axis('off')"
+        },
+        {
+          "line": 82,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "tx.text(0,.95,'UNCHANGED REFERENCE AXIS\\nY1270 / Z508 mm\\nØ12.7 reference\\n\\nSHARED BEARING POINT\\nY1220 / Z596.9 mm\\n\\nInitial vertical velocity:\\ndZ/dθ = Y − Ypivot = −50 mm/rad\\n\\nThe contact initially moves into the shelf.\\nA sloped front does not change this.\\n\\nThis is a local analytical incompatibility,\\nnot a fold sweep of a rejected candidate.',va='top',linespacing=1.6)"
+        },
+        {
+          "line": 105,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "ax.plot(1270,508,'kx',ms=10);ax.set_ylim(480,1350);ax.legend(loc='upper right',fontsize=8);tx.axis('off')"
+        }
+      ]
+    },
+    {
+      "path": "tools/render_matrix_hinge_study_v32.py",
+      "occurrences": [
+        {
+          "line": 15,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "selected=[next(p for p in rows if p['result']['gap_mm']==g and p['result']['tilt_deg']==15) for g in (25.4,38.1,50.8)]+[best]"
+        },
+        {
+          "line": 69,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": " ax.annotate('',xy=(xref,1330),xytext=(xouter,1330),arrowprops={'arrowstyle':'<->'});ax.text((xouter+xref)/2,1340,'59.8375',ha='center');ax.scatter([xref],[1308.1-12.7],c='#0072B2');ax.text(xref,1270,'REFERENCE INSET\\n3 × Ø6.35 / pitch44.45\\npattern direction HOLD',ha='center',fontsize=8)"
+        },
+        {
+          "line": 72,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "lines=['# CURRENT V32 — hinge datum cleanup and matrix positioning study','',f\"HEAD BEFORE: `{cfg['source_head']}`\",'', 'Accepted cabinet CAD and viewer are immutable inputs. This is an isolated comparison, not a replacement CURRENT model or manufacturing selection. Rebuild with `freecadcmd tools/matrix_hinge_study_v32_entry.py`, require MATRIX_STUDY_PASS, then run `freecadcmd tools/check_matrix_h"
+        }
+      ]
+    },
+    {
+      "path": "tools/render_matrix_route_backbox_audit_v32.py",
+      "occurrences": [
+        {
+          "line": 116,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "ax.scatter([1270],[508],s=90,marker='+',color=colors['collision'])"
+        },
+        {
+          "line": 117,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "ax.annotate('WPC reference axis\\nY1270 / Z508\\nØ12.7 reference',xy=(1270,508),xytext=(1050,485),arrowprops={'arrowstyle':'->'},fontsize=10)"
+        },
+        {
+          "line": 118,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "ax.annotate('',xy=(1308.1,535),xytext=(1270,535),arrowprops={'arrowstyle':'<->'})"
+        },
+        {
+          "line": 119,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "ax.text(1289,542,'38.1',ha='center')"
+        }
+      ]
+    },
+    {
+      "path": "tools/side_panel_v32_entry.py",
+      "occurrences": [
+        {
+          "line": 46,
+          "classification": "B. HISTORICAL / AUDIT — marked superseded",
+          "text": "    check(name + ' reference pivot bore', shape.common(cylinder(x-1,1270,508,6.35,20)).Volume < 1e-5)"
+        }
+      ]
+    }
+  ],
+  "accepted_geometry_note": "Old reference bore still exists in unchanged accepted CAD snapshots; it is explicitly retired as engineering/drilling authority. No production geometry promoted."
+}

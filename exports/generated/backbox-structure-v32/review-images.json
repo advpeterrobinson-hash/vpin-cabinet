@@ -1,0 +1,82 @@
+{
+  "images": [
+    {
+      "file": "01-review.png",
+      "title": "Correct pivot vs superseded interpretation",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "02-review.png",
+      "title": "Accepted side outline / candidate floor and joint",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "03-review.png",
+      "title": "Side / floor captured joint \u2014 left; right mirrored",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "04-review.png",
+      "title": "Lower-front side projection \u2014 unused rabbet removed",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "05-review.png",
+      "title": "Upright shelf bearing",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "06-review.png",
+      "title": "Updated hinge reserve \u2014 promotion blocker",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "07-review.png",
+      "title": "Two upright locking reserves",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "08-review.png",
+      "title": "Mutable generic cable passage",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "09-review.png",
+      "title": "Generic side toy zones preserved",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "10-review.png",
+      "title": "1\u00b0 clean wood release \u2014 hinge integration still blocked",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "11-review.png",
+      "title": "15\u00b0 candidate wood fold \u2014 hardware installation blocked",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "12-review.png",
+      "title": "45\u00b0 candidate wood fold \u2014 hardware installation blocked",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "13-review.png",
+      "title": "90\u00b0 candidate wood fold \u2014 hardware installation blocked",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "14-review.png",
+      "title": "Complete upright V32 candidate \u2014 NOT CURRENT",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    },
+    {
+      "file": "15-review.png",
+      "title": "Complete folded V32 candidate \u2014 NOT CURRENT",
+      "authority": "actual candidate CAD tessellation; hardware reserves provisional"
+    }
+  ],
+  "upstream_images_included": false,
+  "source": "actual OCC tessellation from isolated candidate; reserves schematic",
+  "promoted": false
+}

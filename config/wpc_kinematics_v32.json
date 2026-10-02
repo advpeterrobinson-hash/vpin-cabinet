@@ -1,0 +1,14 @@
+{
+  "authority": "KINEMATIC_REFERENCE_VALIDATED",
+  "source": "studies/wpc-fold-v32/README.md",
+  "positive_control_head": "f91ba219b824dc8de77d101a2ba68cd078ac037e",
+  "cabinet_rear_y_mm":1308.1,
+  "pivot_from_rear_mm":241.3,
+  "pivot_z_mm":508.0,
+  "axis_xyz_mm":[300,1066.8,508],
+  "motion":"PURE_ROTATION",
+  "fold_prerequisites":["GLASS_REMOVED","MATRIX_REMOVED"],
+  "final_hinge_hole_pattern":null,
+  "physical_hardware_measurement_required":true,
+  "manufacturing_ready":false
+}
