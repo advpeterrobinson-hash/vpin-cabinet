@@ -1,0 +1,196 @@
+{
+  "images": [
+    {
+      "id": "A",
+      "title": "Rear closed \u2014 two plywood leaves",
+      "file": "A-review.png",
+      "cad": "rear-closed.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "B",
+      "title": "Passive left door open \u2014 active leaf already released",
+      "file": "B-review.png",
+      "cad": "rear-both-open.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "C",
+      "title": "Active right door open",
+      "file": "C-review.png",
+      "cad": "rear-active-open.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "D",
+      "title": "Both rear doors open",
+      "file": "D-review.png",
+      "cad": "rear-both-open.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "E",
+      "title": "Center overlap and keyed lock",
+      "file": "E-review.png",
+      "cad": "rear-closed.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "F",
+      "title": "Piano hinge and outer mounting land",
+      "file": "F-review.png",
+      "cad": "rear-closed.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "G",
+      "title": "One optional 120 mm fan station per door",
+      "file": "G-review.png",
+      "cad": "rear-closed.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "H",
+      "title": "Blank modules \u2014 identical door machining",
+      "file": "H-review.png",
+      "cad": "blank-fans.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "I",
+      "title": "Dedicated low passive intake",
+      "file": "I-review.png",
+      "cad": "rear-closed.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "J",
+      "title": "Airflow section \u2014 geometry and restrictions",
+      "file": "J-review.png",
+      "cad": "rear-closed.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "K",
+      "title": "32-inch display installed",
+      "file": "K-review.png",
+      "cad": "rear-both-open.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "L",
+      "title": "Rear access to monitor adjustment",
+      "file": "L-review.png",
+      "cad": "rear-both-open.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "M",
+      "title": "Complete display removed through the front",
+      "file": "M-review.png",
+      "cad": "monitor-removal.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "N",
+      "title": "Recessed backglass side channels",
+      "file": "N-review.png",
+      "cad": "rear-closed.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "O",
+      "title": "Top retainer removed \u2014 glass lift-out",
+      "file": "O-review.png",
+      "cad": "glass-removal.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "P",
+      "title": "Independent DMD and speaker cassette",
+      "file": "P-review.png",
+      "cad": "rear-closed.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "Q",
+      "title": "Exploded lower-front cassette",
+      "file": "Q-review.png",
+      "cad": "cassette-exploded.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "R",
+      "title": "Reserved side toy space with maximum display",
+      "file": "R-review.png",
+      "cad": "toy-zones.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "R2",
+      "title": "Future side-toy scenario \u2014 55 mm display",
+      "file": "R2-review.png",
+      "cad": "thin-display-toys.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "S",
+      "title": "Optional toy shelf \u2014 rejected at this location",
+      "file": "S-review.png",
+      "cad": "optional-shelf.FCStd",
+      "diagnostic_only": true
+    },
+    {
+      "id": "T",
+      "title": "Complete mechanical backbox exploded",
+      "file": "T-review.png",
+      "cad": "mechanical-exploded.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "U",
+      "title": "Complete populated backbox \u2014 1\u00b0 fold",
+      "file": "U-review.png",
+      "cad": "fold-1.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "V",
+      "title": "Complete populated backbox \u2014 15\u00b0 fold",
+      "file": "V-review.png",
+      "cad": "fold-15.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "W",
+      "title": "Complete populated backbox \u2014 45\u00b0 fold",
+      "file": "W-review.png",
+      "cad": "fold-45.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "X",
+      "title": "Complete populated backbox \u2014 90\u00b0 fold",
+      "file": "X-review.png",
+      "cad": "fold-90.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "Y",
+      "title": "Complete upright V32 \u2014 service design candidate",
+      "file": "Y-review.png",
+      "cad": "complete-upright.FCStd",
+      "diagnostic_only": false
+    },
+    {
+      "id": "Z",
+      "title": "Promotion blocker \u2014 upright-lock access",
+      "file": "Z-review.png",
+      "cad": "rear-closed.FCStd",
+      "diagnostic_only": false
+    }
+  ],
+  "source": "actual OpenCascade B-rep tessellation and cut sections",
+  "upstream_assets_included": false,
+  "manufacturing_ready": false
+}

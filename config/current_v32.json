@@ -13,5 +13,8 @@
   "hinge_installation_reserve": "PROVISIONAL",
   "hinge_tool_access": "GLASS_REMOVED + MATRIX_REMOVED + PLAYFIELD_LIFT_OUT_OR_REMOVED",
   "final_hinge_drilling_released": false,
-  "manufacturing_ready": false
+  "manufacturing_ready": false,
+  "backbox_service_policy": "config/backbox_service_v32.json",
+  "backbox_service_study": "studies/backbox-service-v32/README.md",
+  "backbox_service_geometry_status": "NOT_PROMOTED: populated candidate folds, but original upright-lock tool access requires front cassette withdrawal"
 }

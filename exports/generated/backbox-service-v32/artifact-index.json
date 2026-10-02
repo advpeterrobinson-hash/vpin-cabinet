@@ -1,0 +1,273 @@
+{
+  "status": "REVIEW_CANDIDATE_NOT_PROMOTED",
+  "manufacturing_ready": false,
+  "source_head": "79819c4375f24f4d2b6d7743f3aa4d67def35ef7",
+  "mesh_uncompressed_sha256": "9bff2a79b2c5692e138ef624a458655ae0b72467aa9bbe7fcadcb7961278dd0c",
+  "files": [
+    {
+      "file": "A-review.png",
+      "bytes": 358981,
+      "sha256": "bf99a5c774e137e5e6900911e30ab37120fc170fa1ec641c3e8d3596164a5d36"
+    },
+    {
+      "file": "B-review.png",
+      "bytes": 413872,
+      "sha256": "16f37c3ef3c7809314cc7cd855f3fa24eeb560d56b27d203f44be8d9db457d6f"
+    },
+    {
+      "file": "C-review.png",
+      "bytes": 388518,
+      "sha256": "da0c470e578991bc6d2a5b5c12392ad556c46cd5aa38e0120431f36fa170ceb2"
+    },
+    {
+      "file": "D-review.png",
+      "bytes": 417948,
+      "sha256": "b6d5cccb8fb695be9af5b09544a5d1077f329b1227d3c2157b60ee3b7fcefafd"
+    },
+    {
+      "file": "E-review.png",
+      "bytes": 148057,
+      "sha256": "80d68bba5cb7a6ff6a2ec07b00317a6933a47426eb1b56b4071fc1343b25a9f1"
+    },
+    {
+      "file": "F-review.png",
+      "bytes": 139789,
+      "sha256": "bac88a529fd1e2410f53833bb92ccc14919a0a1866d79133949e9b2b3c82f31b"
+    },
+    {
+      "file": "G-review.png",
+      "bytes": 321372,
+      "sha256": "78a11fc4d9fde675a49503972f0dd57d3348856bd56afd6e24b078a7fb8f1fd2"
+    },
+    {
+      "file": "H-review.png",
+      "bytes": 351755,
+      "sha256": "305d99d38f81ce27894ed9d5878964d349241aa9fd0aa7b11795530faf08e4e1"
+    },
+    {
+      "file": "I-review.png",
+      "bytes": 325903,
+      "sha256": "76ed372fc84a1a15570144b4e8dbb5630df67b2a6b8942af6567ff233d90fd03"
+    },
+    {
+      "file": "J-review.png",
+      "bytes": 167546,
+      "sha256": "ac99ceec66c29a99d8ba55854973c204414f55620c925c3e4ed89926328b3e80"
+    },
+    {
+      "file": "K-review.png",
+      "bytes": 383750,
+      "sha256": "9558b8a095de5f071b9ed83180d25e36bee86de4ce3063ddd96e2f28803cea90"
+    },
+    {
+      "file": "L-review.png",
+      "bytes": 390530,
+      "sha256": "436fec256ea06cdc9f66700d6eda52b0f3791d11457d94fce08c587a9fdf049a"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 13419,
+      "sha256": "d6475a84171f0cf7ff52667dea714df268fc65cea42f0bf328b0b70d4cd0ebab"
+    },
+    {
+      "file": "M-review.png",
+      "bytes": 374579,
+      "sha256": "8f69ad137edc9e12abfaa7325abfc8ed6e4b939253c907aafc9086fda547e432"
+    },
+    {
+      "file": "N-review.png",
+      "bytes": 123533,
+      "sha256": "1ac3eb4b82523e9adb8d04a86f0b8a033403eec110e2af975cca1a4130a27a69"
+    },
+    {
+      "file": "NOTICE.md",
+      "bytes": 1583,
+      "sha256": "5cbb14ae5fd1b50250019488ee8b0a172ad5b55a71d7e15da2d3456f9d8ffc8d"
+    },
+    {
+      "file": "O-review.png",
+      "bytes": 332320,
+      "sha256": "0f170287ec166900b2da55ec0a3c2d9dc72846e36f67f7b39ee745eab9a2cb04"
+    },
+    {
+      "file": "P-review.png",
+      "bytes": 292232,
+      "sha256": "8973dd38094bd1a76a0f881d88dcadefd3f97dfe018b6b59d84dfae62bf65ca4"
+    },
+    {
+      "file": "Q-review.png",
+      "bytes": 314685,
+      "sha256": "b6594b5ff335e6ee1a01373d5405bb66c061ee832397efbe0aa29439a6502337"
+    },
+    {
+      "file": "R-review.png",
+      "bytes": 425438,
+      "sha256": "1c74e900394c72504e8e07e8b159eedcded22f258833b2b67660abe071eaafc5"
+    },
+    {
+      "file": "R2-review.png",
+      "bytes": 420510,
+      "sha256": "ebc683f61c2f2684e2b6694783848ff161da99da72e35d8f5f040c78012242e0"
+    },
+    {
+      "file": "S-review.png",
+      "bytes": 351257,
+      "sha256": "66900854299e53ebd817a5778e4b8f93cbfba8f3f6e5bcb9983d152bf2584069"
+    },
+    {
+      "file": "T-review.png",
+      "bytes": 405827,
+      "sha256": "eefffc74e1d670f843356e8fb6b11363306a759fb48806555cf9ae590f341e17"
+    },
+    {
+      "file": "U-review.png",
+      "bytes": 667070,
+      "sha256": "2ace9be07c86b4da392ff321125b8c470b6bfbec59700ef2dae4af8a9bcf8b71"
+    },
+    {
+      "file": "V-review.png",
+      "bytes": 704581,
+      "sha256": "fec2e77d71889e2af969bf38a1dfe08df82f788c584d70a636137f11a30f9dc1"
+    },
+    {
+      "file": "W-review.png",
+      "bytes": 694762,
+      "sha256": "3c7a85cc9ab2e2a47b6906dd32aa0ce63a04608797cc91e5421feb7a4fe781ba"
+    },
+    {
+      "file": "X-review.png",
+      "bytes": 645769,
+      "sha256": "7c7c64e87f2eff9b27b7c325a19fb901d0401c50fa0220c1f2a53747da0d6ae6"
+    },
+    {
+      "file": "Y-review.png",
+      "bytes": 698154,
+      "sha256": "4837e7e6e438636aa1c52e33fa0dcded006efdf5dad25bbca84d7cc7a3000f68"
+    },
+    {
+      "file": "Z-review.png",
+      "bytes": 212961,
+      "sha256": "0551ea3211a27b0cf00f1331217bd1e82d5c00031163a5b5bc5e06b6a2e60343"
+    },
+    {
+      "file": "blank-fans.FCStd",
+      "bytes": 144017,
+      "sha256": "4ada69122d6ea9d8b97ee80c934c090086a5f5d6a10b135049d173132517fb60"
+    },
+    {
+      "file": "cassette-exploded.FCStd",
+      "bytes": 160886,
+      "sha256": "f3b7d3324223456dcca09e74119b972a32ec31ec6ef5ba64b482da55122b5f2d"
+    },
+    {
+      "file": "complete-upright.FCStd",
+      "bytes": 808083,
+      "sha256": "df69775527f50013a7823b9e7b340c0770897194f6bf56f51721364376001f5c"
+    },
+    {
+      "file": "details.json",
+      "bytes": 1203034,
+      "sha256": "520ec25863d0c6b79e5465a72f2ceb59ae1d8e9eac7c8cde2727241a31707cce"
+    },
+    {
+      "file": "fold-1.FCStd",
+      "bytes": 813184,
+      "sha256": "b521df3e330ed09918d4c0a07a13663392b545cfab7c78b4c987405fe9f7f28a"
+    },
+    {
+      "file": "fold-15.FCStd",
+      "bytes": 813457,
+      "sha256": "b3cea62fcf906b664e22bc5edd94a2da545c142dff1c016ad8b648e61eca9488"
+    },
+    {
+      "file": "fold-45.FCStd",
+      "bytes": 812485,
+      "sha256": "9c5565fa830ec69fdd4151a1bc6291dd85625eb81da36d8658eccb91ddbd7181"
+    },
+    {
+      "file": "fold-90.FCStd",
+      "bytes": 810135,
+      "sha256": "bc0c3174c308e14b47e5cfcfe9592ef5e7d1560428762c59f2accc60385576bd"
+    },
+    {
+      "file": "front-inset-screen.json",
+      "bytes": 7293,
+      "sha256": "bb8a06830e77e835fecf9ad1c13a4b1b6f9682ce2a7d0bc487c698c4767cca93"
+    },
+    {
+      "file": "glass-removal.FCStd",
+      "bytes": 153049,
+      "sha256": "76d1ffb6759896742bb9df9a933876fa1b4d11ea0711dbcb33351f263975cb35"
+    },
+    {
+      "file": "index.html",
+      "bytes": 9496,
+      "sha256": "6d74fce6704efee5a001ed8de5cbe032ca05afb61b8dfda1f0f3d2b0487faf55"
+    },
+    {
+      "file": "mechanical-exploded.FCStd",
+      "bytes": 160983,
+      "sha256": "acba08d2564c252e8c85a5c0f47e60be3b8039b54334f876210f26a334536c23"
+    },
+    {
+      "file": "monitor-removal.FCStd",
+      "bytes": 145344,
+      "sha256": "98d2e0eac7bc655e13eb4ef79fd09bf4bae04c6458d4723ab0452ce752c5e351"
+    },
+    {
+      "file": "motion-validation.json",
+      "bytes": 235787,
+      "sha256": "d4b8d279000a7a4fb8e60d9b48ee475b8de5249bbe48afdc8783a1a532104859"
+    },
+    {
+      "file": "optional-shelf.FCStd",
+      "bytes": 159096,
+      "sha256": "9209221f548ef38bb424ca962ac09127493fbef555ae5174b9a1025dfe69b7b5"
+    },
+    {
+      "file": "rear-active-open.FCStd",
+      "bytes": 159670,
+      "sha256": "0b07e9a07c7742d59a3a36b23cfbef4de5c169896e8ce0a220f6492dcb6cac73"
+    },
+    {
+      "file": "rear-both-open.FCStd",
+      "bytes": 184264,
+      "sha256": "e1fadf669937df2ed6930bc5e467b0fa663ca71512fe3fe5d6a523e2eea80ff3"
+    },
+    {
+      "file": "rear-closed.FCStd",
+      "bytes": 178271,
+      "sha256": "c2572b3473c1c31c3958662d9c115f2dd30f9225e71dca199c8d89e9edaffb3f"
+    },
+    {
+      "file": "regression-validation.json",
+      "bytes": 171451,
+      "sha256": "6ac0651a1b1d293e8c5c3339ac98dea45e767b3a51eaf7fb620c3b3c7a0c2fd9"
+    },
+    {
+      "file": "review-images.json",
+      "bytes": 5140,
+      "sha256": "61d919e9f161bb7a20d0dca9f00bec5bc30891f2605b129851aef71dac0b9020"
+    },
+    {
+      "file": "review-mesh.json.gz",
+      "bytes": 5657648,
+      "sha256": "b7a5bbb3bc1b4a6a67dca9173b39a48d23acc4b7e91e4c1e3a2f757fec8822bb"
+    },
+    {
+      "file": "thin-display-toys.FCStd",
+      "bytes": 160439,
+      "sha256": "56f99d9bbdf754c2357b90ac4d630ab1bd4a7485686c7b33cb57cf004f9ca9d7"
+    },
+    {
+      "file": "toy-zones.FCStd",
+      "bytes": 162380,
+      "sha256": "1be5573e672984f4c92daa05ee8931a76173ea7b387c74473483ead4e4b1280c"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 78255,
+      "sha256": "661bcbf5cf7ec5444e521281637367549aaad9c872fc5dccc3920737172b034e"
+    }
+  ]
+}

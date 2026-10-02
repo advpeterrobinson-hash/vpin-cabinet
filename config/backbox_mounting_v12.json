@@ -1,5 +1,7 @@
 {
-  "status": "engineering-provisional-v17-width",
+  "status": "HISTORICAL_BACKBOX_SERVICE_POLICY_SUPERSEDED",
+  "superseded_by": "config/backbox_service_v32.json",
+  "supersession_note": "Owner now requires twin rear leaves, optional door fans, generic user-configurable cable passage, front display installation and top/front backglass service. Contradictory keys below are retained as historical evidence, not active design requirements. New service geometry is a review candidate; current promoted geometry is selected by config/current_v32.json.",
   "manufacturing_ready": false,
   "depends_on": [
     "config/backbox_fold_v10.json",

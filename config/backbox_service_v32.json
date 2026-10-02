@@ -1,0 +1,344 @@
+{
+  "status": "DESIGN_REVIEW_NOT_PROMOTED_LOCK_SERVICE_TRADEOFF",
+  "source_head": "79819c4375f24f4d2b6d7743f3aa4d67def35ef7",
+  "source_directory": "exports/generated/pivot-cradle-integration-v32",
+  "output_directory": "exports/generated/backbox-service-v32",
+  "authority": "Owner backbox service correction; dimensions below are explicit design decisions except the owner-specified display/fan families. Hardware envelopes are provisional, not measured hardware.",
+  "rear": {
+    "aperture_xz_mm": [
+      -42,
+      642,
+      654,
+      1262
+    ],
+    "frame_y_mm": [
+      1290.1,
+      1308.1
+    ],
+    "door_x_mm": [
+      [
+        -52,
+        299
+      ],
+      [
+        301,
+        652
+      ]
+    ],
+    "door_z_mm": [
+      644,
+      1272
+    ],
+    "door_inner_y_mm": 1310.1,
+    "door_thickness_mm": 12,
+    "hinge_axis_xy_mm": [
+      [
+        -55,
+        1324.1
+      ],
+      [
+        655,
+        1324.1
+      ]
+    ],
+    "hinge_radius_reserve_mm": 2.5,
+    "open_angle_deg": 100,
+    "passive_leaf": "L",
+    "active_leaf": "R",
+    "astragal_box_mm": [
+      282,
+      1296.1,
+      656,
+      36,
+      12,
+      604
+    ],
+    "gasket_compressed_mm": 2,
+    "gasket_class": "replaceable closed-cell foam / EPDM; supplier thickness and compression unconfirmed",
+    "lock_sku": null,
+    "hinge_sku": null,
+    "passive_bolt_body_size_mm": [
+      30,
+      22,
+      60
+    ],
+    "passive_bolt_axis_xy_mm": [
+      261,
+      1299.1
+    ]
+  },
+  "ventilation": {
+    "fan_centers_xz_mm": [
+      [
+        155,
+        1160
+      ],
+      [
+        445,
+        1160
+      ]
+    ],
+    "fan_size_mm": [
+      120,
+      120,
+      25
+    ],
+    "pitch_mm": 105,
+    "opening_diameter_mm": 116,
+    "station_pilot_reference_mm": 4.5,
+    "accessory_depth_reserve_mm": 22,
+    "intake_centers_x_mm": [
+      125,
+      475
+    ],
+    "intake_z_mm": [
+      698,
+      778
+    ],
+    "intake_width_mm": 220,
+    "mesh_free_area_planning_fraction": 0.65,
+    "filter_pressure_drop": "UNQUALIFIED; thermal test with selected fan, guards, mesh and loaded filters required",
+    "fan_optional": true,
+    "connector_architecture": "USER_CONFIGURABLE"
+  },
+  "display": {
+    "class_inches": [
+      31.5,
+      32
+    ],
+    "envelope_box_mm": [
+      -70,
+      1118,
+      844,
+      740,
+      100,
+      450
+    ],
+    "vertical_adjustment_mm": [
+      -5,
+      5
+    ],
+    "depth_positions_mm": [
+      0,
+      16
+    ],
+    "centering_at_max_width_mm": [
+      -1,
+      1
+    ],
+    "smaller_display_centering_mm": [
+      -15,
+      15
+    ],
+    "plate_box_mm": [
+      120,
+      1218,
+      949,
+      360,
+      12,
+      230
+    ],
+    "carrier_x_mm": [
+      135,
+      415
+    ],
+    "carrier_y_mm": 1230,
+    "carrier_width_mm": 50,
+    "carrier_z_mm": [
+      870,
+      1236
+    ],
+    "rail_z_mm": [
+      816,
+      1248
+    ],
+    "rail_y_mm": 1268,
+    "adjustment_bolt_x_mm": [
+      160,
+      440
+    ],
+    "adjustment_bolt_z_mm": [
+      994,
+      1134
+    ],
+    "reference_bolt_diameter_mm": 6,
+    "vesa_holes": "replaceable adapter only; exact display required before machining",
+    "positive_retention": "four captive through bolts and large washers; two threaded adjustable lower stops with locknuts; depth fixed by discrete through-bolt positions",
+    "rail_height_mm": 42
+  },
+  "glass": {
+    "box_mm": [
+      -76,
+      1114,
+      840,
+      752,
+      4,
+      465
+    ],
+    "nominal_thickness_range_mm": [
+      3,
+      4
+    ],
+    "channel_y_mm": [
+      1112,
+      1120
+    ],
+    "side_rebate_depth_mm": 6,
+    "liner_nominal_mm": 2,
+    "top_retainer_box_mm": [
+      -78,
+      1104,
+      1320.8,
+      756,
+      37,
+      12
+    ],
+    "retainer_fastener_xy_mm": [
+      [
+        100,
+        1130
+      ],
+      [
+        500,
+        1130
+      ]
+    ],
+    "removal_lift_mm": 500,
+    "fold_retained": true
+  },
+  "lower_cassette": {
+    "frame_box_mm": [
+      -70,
+      1104,
+      620,
+      740,
+      18,
+      200
+    ],
+    "dmd_box_mm": [
+      100,
+      1122,
+      636,
+      400,
+      45,
+      170
+    ],
+    "speaker_boxes_mm": [
+      [
+        -52,
+        1122,
+        657,
+        130,
+        85,
+        130
+      ],
+      [
+        522,
+        1122,
+        657,
+        130,
+        85,
+        130
+      ]
+    ],
+    "attachment_z_mm": [
+      641,
+      801
+    ],
+    "removal_direction": "FRONT",
+    "permanent_speaker_holes": false,
+    "dmd_note": "400 x 170 x 45 is the explicit maximum occupied envelope for this stack; larger 15.6-inch chassis are not automatically compatible. Replaceable VESA / non-VESA adapters and smaller traditional DMD bezels.",
+    "attachment_reference_diameter_mm": 4,
+    "speaker_recess_through_frame_mm": 18
+  },
+  "toy_zones": {
+    "upper_boxes_mm": [
+      [
+        -68,
+        1247,
+        890,
+        96,
+        39,
+        326
+      ],
+      [
+        572,
+        1247,
+        890,
+        96,
+        39,
+        326
+      ]
+    ],
+    "lower_boxes_mm": [
+      [
+        -68,
+        1262,
+        666,
+        48,
+        24,
+        114
+      ],
+      [
+        620,
+        1262,
+        666,
+        48,
+        24,
+        114
+      ]
+    ],
+    "optional_shelf_box_mm": [
+      55,
+      1209,
+      805,
+      490,
+      65,
+      12
+    ],
+    "shelf_status": "ACCESSORY_STUDY_NOT_INSTALLED; assess access and airflow after populated layout"
+  },
+  "fan_flex": {
+    "fixed_anchor_left_mm": [
+      -25,
+      1295,
+      1022
+    ],
+    "door_anchor_left_mm": [
+      -25,
+      1305,
+      1092
+    ],
+    "length_mm": 160,
+    "corridor_radius_mm": 3,
+    "minimum_bend_radius_screen_mm": 10,
+    "connector_selection": null,
+    "fixed_integral_pad_left_box_mm": [
+      -42,
+      1290.1,
+      986,
+      30,
+      18,
+      30
+    ]
+  },
+  "service_passage_source": "config/backbox_structure_review_v32.json:service_passage",
+  "fold_prerequisites": [
+    "PLAYFIELD_GLASS_REMOVED",
+    "MATRIX_REMOVED",
+    "REAR_DOORS_LATCHED",
+    "MONITOR_AND_CASSETTE_FASTENERS_SECURED"
+  ],
+  "backbox_glass_removed_for_fold": false,
+  "physical_hinge_measurement_required": true,
+  "final_hinge_drilling_released": false,
+  "manufacturing_ready": false,
+  "front_layout_insets_mm": {
+    "cassette": 52,
+    "display_carrier": 10,
+    "bezel": 14,
+    "glass": 16
+  },
+  "front_layout_insets_note": "Offsets from stored initial module layout. Glass dimensions below already include its 16 mm inset; other groups receive their stated offset in the builder. Required by full populated fold, not a backbox depth or WPC datum change.",
+  "lock_service_note": "Installed lower cassette blocks original R18 x 80 upright-lock tool columns. Four-fastener front cassette withdrawal restores original lock/hinge tool corridors. Wiring interface remains builder-defined. This extra fold-preparation step is a design-review limitation; not silently waived."
+}

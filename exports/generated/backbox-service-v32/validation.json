@@ -1,0 +1,3783 @@
+{
+  "source_head": "79819c4375f24f4d2b6d7743f3aa4d67def35ef7",
+  "checks": [
+    {
+      "check": "validated transverse WPC axis retained",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "all new physical parts valid single solids",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "Y1146 floor and generic passage unchanged",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "side profiles only lose upper glass rebate material",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "210 lower sides entirely unchanged below Z820",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "shelf bearing unchanged",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "no wood self penetration",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "center meeting gap has continuous gasket backing including astragal ends",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "occupied display and speaker envelopes clear structure",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "provisional door hardware bodies do not embed in wood",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "four side toy mounting volumes unoccupied",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "full rear aperture without a center post",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "original lock and hinge floor tool corridors restored with front cassette removed",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "complete service architecture upright clear of current cabinet",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "both door sequences 0 to 100 sampled clear",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "constant 160 mm loop corridor clear at all door samples",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "flex loop bend screen and constant length",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "32 display and replaceable adapter withdraw through front",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "backbox glass lifts 500 without monitor removal",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "maximum display fits all stated adjustment extrema",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "rear adjustment drivers reachable with both doors open",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "each fan replaceable on open attached door",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "complete populated backbox 0 to 90 sampled",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "playfield service and lift preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute rear-closed",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute rear-active-open",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute rear-both-open",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute glass-removal",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute monitor-removal",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute blank-fans",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute toy-zones",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute optional-shelf",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute cassette-exploded",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute mechanical-exploded",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute fold-1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute fold-15",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute fold-45",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute fold-90",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CAD recompute complete-upright",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "results": {
+    "rear_aperture_mm": [
+      684,
+      608
+    ],
+    "aperture_percent_of_clear_internal_rectangle": 81.25712195602324,
+    "installed_lock_hinge_access_hits": [
+      {
+        "part": "BB_HingeAccessReserveL1",
+        "obstacle": "BB_LowerCassetteFrame",
+        "volume_mm3": 7803.899537821688
+      },
+      {
+        "part": "BB_HingeAccessReserveR1",
+        "obstacle": "BB_LowerCassetteFrame",
+        "volume_mm3": 7803.899537821616
+      },
+      {
+        "part": "BB_LockToolReserve1",
+        "obstacle": "BB_LowerCassetteFrame",
+        "volume_mm3": 1236.4479668096894
+      },
+      {
+        "part": "BB_LockToolReserve1",
+        "obstacle": "BB_DMDEnvelope",
+        "volume_mm3": 56311.55830179166
+      },
+      {
+        "part": "BB_LockToolReserve2",
+        "obstacle": "BB_LowerCassetteFrame",
+        "volume_mm3": 1236.4479668096858
+      },
+      {
+        "part": "BB_LockToolReserve2",
+        "obstacle": "BB_DMDEnvelope",
+        "volume_mm3": 56311.55830179167
+      }
+    ],
+    "upright_hits": [],
+    "door_samples": [
+      {
+        "side": "R",
+        "angle_deg": 0,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 0.1,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 0.25,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 0.5,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 1,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 2,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 4,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 5,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 6,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 8,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 10,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 12,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 14,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 15,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 16,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 18,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 20,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 22,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 24,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 26,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 28,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 30,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 32,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 34,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 36,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 38,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 40,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 42,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 44,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 45,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 46,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 48,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 50,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 52,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 54,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 56,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 58,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 60,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 62,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 64,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 66,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 68,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 70,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 72,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 74,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 75,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 76,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 78,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 80,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 82,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 84,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 86,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 88,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 90,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 92,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 94,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 96,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 98,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 100,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 0,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 0.1,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 0.25,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 0.5,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 1,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 2,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 4,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 5,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 6,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 8,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 10,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 12,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 14,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 15,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 16,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 18,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 20,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 22,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 24,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 26,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 28,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 30,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 32,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 34,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 36,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 38,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 40,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 42,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 44,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 45,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 46,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 48,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 50,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 52,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 54,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 56,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 58,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 60,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 62,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 64,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 66,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 68,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 70,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 72,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 74,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 75,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 76,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 78,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 80,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 82,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 84,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 86,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 88,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 90,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 92,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 94,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 96,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 98,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 100,
+        "hits": []
+      }
+    ],
+    "loop_samples": [
+      {
+        "side": "R",
+        "angle_deg": 0,
+        "length_mm": 160.0000000133386,
+        "minimum_centerline_bend_radius_mm": 19.17777257057924,
+        "bow_mm": 64.46333007188514,
+        "clearance": {
+          "mm": 2.1036740939971423,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 0.1,
+        "length_mm": 159.99999998983972,
+        "minimum_centerline_bend_radius_mm": 19.180002796403038,
+        "bow_mm": 64.46138835744932,
+        "clearance": {
+          "mm": 2.1039788428371877,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 0.25,
+        "length_mm": 160.00000001401582,
+        "minimum_centerline_bend_radius_mm": 19.183385574960884,
+        "bow_mm": 64.45844942936674,
+        "clearance": {
+          "mm": 2.104458826706718,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 0.5,
+        "length_mm": 159.99999998214938,
+        "minimum_centerline_bend_radius_mm": 19.189123318851372,
+        "bow_mm": 64.45348068373278,
+        "clearance": {
+          "mm": 2.1053198051430613,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 1,
+        "length_mm": 160.00000000844054,
+        "minimum_centerline_bend_radius_mm": 19.20097225006179,
+        "bow_mm": 64.44327811477706,
+        "clearance": {
+          "mm": 2.1072708168360808,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 2,
+        "length_mm": 160.000000020275,
+        "minimum_centerline_bend_radius_mm": 19.226158712905413,
+        "bow_mm": 64.4218064728193,
+        "clearance": {
+          "mm": 2.1120911269979485,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 4,
+        "length_mm": 160.00000000473503,
+        "minimum_centerline_bend_radius_mm": 19.28244360484843,
+        "bow_mm": 64.37455191044137,
+        "clearance": {
+          "mm": 2.1254190503171215,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 5,
+        "length_mm": 159.99999998732835,
+        "minimum_centerline_bend_radius_mm": 19.313517480632772,
+        "bow_mm": 64.34874479891732,
+        "clearance": {
+          "mm": 2.133933084745345,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 6,
+        "length_mm": 159.99999998891272,
+        "minimum_centerline_bend_radius_mm": 19.346529056627805,
+        "bow_mm": 64.32146966690198,
+        "clearance": {
+          "mm": 2.1436835192999366,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 8,
+        "length_mm": 159.99999998433432,
+        "minimum_centerline_bend_radius_mm": 19.418314887267012,
+        "bow_mm": 64.26247583003715,
+        "clearance": {
+          "mm": 2.166897982463687,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 10,
+        "length_mm": 159.999999995439,
+        "minimum_centerline_bend_radius_mm": 19.49769923822677,
+        "bow_mm": 64.19750015484169,
+        "clearance": {
+          "mm": 2.1950632583010834,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 12,
+        "length_mm": 159.99999999028077,
+        "minimum_centerline_bend_radius_mm": 19.5769378404332,
+        "bow_mm": 64.12648685509339,
+        "clearance": {
+          "mm": 2.2281671698492564,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 14,
+        "length_mm": 160.00000001395952,
+        "minimum_centerline_bend_radius_mm": 19.65707212588077,
+        "bow_mm": 64.04939541826025,
+        "clearance": {
+          "mm": 2.2661842424671463,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 15,
+        "length_mm": 160.0000000023925,
+        "minimum_centerline_bend_radius_mm": 19.70039462915683,
+        "bow_mm": 64.00856204563752,
+        "clearance": {
+          "mm": 2.287023558302433,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 16,
+        "length_mm": 160.00000000458684,
+        "minimum_centerline_bend_radius_mm": 19.745872344829948,
+        "bow_mm": 63.9662011875771,
+        "clearance": {
+          "mm": 2.309075470152893,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 18,
+        "length_mm": 160.00000001913358,
+        "minimum_centerline_bend_radius_mm": 19.843247524090522,
+        "bow_mm": 63.876896107103676,
+        "clearance": {
+          "mm": 2.3567881543699776,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 20,
+        "length_mm": 160.00000001792858,
+        "minimum_centerline_bend_radius_mm": 19.949104546674846,
+        "bow_mm": 63.78148914081976,
+        "clearance": {
+          "mm": 2.409255819716515,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 22,
+        "length_mm": 159.99999999459146,
+        "minimum_centerline_bend_radius_mm": 20.063348191514258,
+        "bow_mm": 63.68000680813566,
+        "clearance": {
+          "mm": 2.4663982086314795,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 24,
+        "length_mm": 160.00000000775333,
+        "minimum_centerline_bend_radius_mm": 20.185881156466067,
+        "bow_mm": 63.572493579704314,
+        "clearance": {
+          "mm": 2.528121357283254,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 26,
+        "length_mm": 159.99999999916702,
+        "minimum_centerline_bend_radius_mm": 20.31660408482451,
+        "bow_mm": 63.459012063685805,
+        "clearance": {
+          "mm": 2.5943177536403113,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 28,
+        "length_mm": 160.00000001443522,
+        "minimum_centerline_bend_radius_mm": 20.455415481946314,
+        "bow_mm": 63.33964333171025,
+        "clearance": {
+          "mm": 2.664866576086681,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 30,
+        "length_mm": 160.00000001419986,
+        "minimum_centerline_bend_radius_mm": 20.602211668553,
+        "bow_mm": 63.21448691887781,
+        "clearance": {
+          "mm": 2.7396340117149602,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 32,
+        "length_mm": 160.0000000109237,
+        "minimum_centerline_bend_radius_mm": 20.75688663506977,
+        "bow_mm": 63.08366091689095,
+        "clearance": {
+          "mm": 2.818473649061552,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 34,
+        "length_mm": 160.00000000234792,
+        "minimum_centerline_bend_radius_mm": 20.91933189436008,
+        "bow_mm": 62.947301857639104,
+        "clearance": {
+          "mm": 2.90122694019395,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 36,
+        "length_mm": 159.9999999853347,
+        "minimum_centerline_bend_radius_mm": 21.08943628044524,
+        "bow_mm": 62.80556455021724,
+        "clearance": {
+          "mm": 2.987723722897915,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 38,
+        "length_mm": 160.0000000063345,
+        "minimum_centerline_bend_radius_mm": 21.2670857018624,
+        "bow_mm": 62.65862184809521,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 40,
+        "length_mm": 160.00000000254875,
+        "minimum_centerline_bend_radius_mm": 21.45216289871302,
+        "bow_mm": 62.506664206739515,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 42,
+        "length_mm": 159.99999999357604,
+        "minimum_centerline_bend_radius_mm": 21.644547096380414,
+        "bow_mm": 62.34989935765043,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 44,
+        "length_mm": 160.00000001116737,
+        "minimum_centerline_bend_radius_mm": 21.844113677540328,
+        "bow_mm": 62.18855174956843,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 45,
+        "length_mm": 160.00000001935848,
+        "minimum_centerline_bend_radius_mm": 21.94655028192177,
+        "bow_mm": 62.10623396327719,
+        "clearance": {
+          "mm": 2.9786796564399807,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 46,
+        "length_mm": 160.00000000296006,
+        "minimum_centerline_bend_radius_mm": 22.050733829139734,
+        "bow_mm": 62.02286189654842,
+        "clearance": {
+          "mm": 2.94198059898397,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 48,
+        "length_mm": 159.99999998168178,
+        "minimum_centerline_bend_radius_mm": 22.264274114883175,
+        "bow_mm": 61.85308579588309,
+        "clearance": {
+          "mm": 2.8705655235677057,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 50,
+        "length_mm": 160.00000000846472,
+        "minimum_centerline_bend_radius_mm": 22.48459605549629,
+        "bow_mm": 61.67949418304488,
+        "clearance": {
+          "mm": 2.801866670642818,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 52,
+        "length_mm": 160.00000000249253,
+        "minimum_centerline_bend_radius_mm": 22.711555728070543,
+        "bow_mm": 61.50237162364647,
+        "clearance": {
+          "mm": 2.735967739179811,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 54,
+        "length_mm": 160.00000000404683,
+        "minimum_centerline_bend_radius_mm": 22.945003255776705,
+        "bow_mm": 61.32201581494883,
+        "clearance": {
+          "mm": 2.6729490168748167,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 56,
+        "length_mm": 160.00000000202076,
+        "minimum_centerline_bend_radius_mm": 23.175340561984076,
+        "bow_mm": 61.13873658468947,
+        "clearance": {
+          "mm": 2.612887282335167,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 58,
+        "length_mm": 159.99999999299703,
+        "minimum_centerline_bend_radius_mm": 23.40452681466552,
+        "bow_mm": 60.952854983042926,
+        "clearance": {
+          "mm": 2.555855711530335,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 60,
+        "length_mm": 159.99999998118656,
+        "minimum_centerline_bend_radius_mm": 23.638438449052355,
+        "bow_mm": 60.764702304732054,
+        "clearance": {
+          "mm": 2.5019237886467875,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 62,
+        "length_mm": 159.99999998765028,
+        "minimum_centerline_bend_radius_mm": 23.876921650449354,
+        "bow_mm": 60.57461908785626,
+        "clearance": {
+          "mm": 2.451157221422944,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 64,
+        "length_mm": 160.0000000184872,
+        "minimum_centerline_bend_radius_mm": 24.119815493145822,
+        "bow_mm": 60.382954066153616,
+        "clearance": {
+          "mm": 2.4036178611024495,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 66,
+        "length_mm": 159.9999999820948,
+        "minimum_centerline_bend_radius_mm": 24.366951424498424,
+        "bow_mm": 60.19006307469681,
+        "clearance": {
+          "mm": 2.3593636270720553,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 68,
+        "length_mm": 160.00000001489735,
+        "minimum_centerline_bend_radius_mm": 24.618152671095196,
+        "bow_mm": 59.99630818841979,
+        "clearance": {
+          "mm": 2.318448436299382,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 70,
+        "length_mm": 159.99999999143733,
+        "minimum_centerline_bend_radius_mm": 24.873233864655635,
+        "bow_mm": 59.80205637170002,
+        "clearance": {
+          "mm": 2.280922137642164,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 72,
+        "length_mm": 160.00000001138764,
+        "minimum_centerline_bend_radius_mm": 25.13200046274211,
+        "bow_mm": 59.60767871001735,
+        "clearance": {
+          "mm": 2.246830451114299,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 74,
+        "length_mm": 160.0000000167306,
+        "minimum_centerline_bend_radius_mm": 25.374562465981448,
+        "bow_mm": 59.4135491293855,
+        "clearance": {
+          "mm": 2.216214912185001,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 75,
+        "length_mm": 160.00000000311502,
+        "minimum_centerline_bend_radius_mm": 25.492949748945335,
+        "bow_mm": 59.31669477140531,
+        "clearance": {
+          "mm": 2.202222521132708,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 76,
+        "length_mm": 160.00000001608154,
+        "minimum_centerline_bend_radius_mm": 25.611872846588707,
+        "bow_mm": 59.22004348831251,
+        "clearance": {
+          "mm": 2.1891128211720354,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 78,
+        "length_mm": 160.0000000120188,
+        "minimum_centerline_bend_radius_mm": 25.85122966838235,
+        "bow_mm": 59.02753850677982,
+        "clearance": {
+          "mm": 2.1655571977985493,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 80,
+        "length_mm": 160.0000000156621,
+        "minimum_centerline_bend_radius_mm": 26.09243284151979,
+        "bow_mm": 58.83641076507047,
+        "clearance": {
+          "mm": 2.1455767409633992,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 82,
+        "length_mm": 159.9999999886971,
+        "minimum_centerline_bend_radius_mm": 26.33527184993146,
+        "bow_mm": 58.647035679314286,
+        "clearance": {
+          "mm": 2.1291957937750756,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 84,
+        "length_mm": 160.0000000165241,
+        "minimum_centerline_bend_radius_mm": 26.579525458776253,
+        "bow_mm": 58.4597866400145,
+        "clearance": {
+          "mm": 2.1164343138950934,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 86,
+        "length_mm": 160.00000001803477,
+        "minimum_centerline_bend_radius_mm": 26.799730653986124,
+        "bow_mm": 58.27503389446065,
+        "clearance": {
+          "mm": 2.1073078492206445,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 88,
+        "length_mm": 159.99999998840633,
+        "minimum_centerline_bend_radius_mm": 27.011560079004923,
+        "bow_mm": 58.09314377838746,
+        "clearance": {
+          "mm": 2.101827518942498,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 90,
+        "length_mm": 160.00000000424805,
+        "minimum_centerline_bend_radius_mm": 27.223330474566286,
+        "bow_mm": 57.91447783121839,
+        "clearance": {
+          "mm": 2.099999999999909,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 92,
+        "length_mm": 159.99999999457424,
+        "minimum_centerline_bend_radius_mm": 27.434815347561475,
+        "bow_mm": 57.73939179489389,
+        "clearance": {
+          "mm": 2.1018275189423843,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 94,
+        "length_mm": 160.00000000019992,
+        "minimum_centerline_bend_radius_mm": 27.645777254890504,
+        "bow_mm": 57.5682349386625,
+        "clearance": {
+          "mm": 2.1073078492203043,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 96,
+        "length_mm": 160.00000000849622,
+        "minimum_centerline_bend_radius_mm": 27.82360763024041,
+        "bow_mm": 57.40134915104136,
+        "clearance": {
+          "mm": 2.11643431389523,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 98,
+        "length_mm": 160.00000001172816,
+        "minimum_centerline_bend_radius_mm": 27.994112995107567,
+        "bow_mm": 57.23906819475815,
+        "clearance": {
+          "mm": 2.1291957937751076,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "R",
+        "angle_deg": 100,
+        "length_mm": 159.9999999865245,
+        "minimum_centerline_bend_radius_mm": 28.16282053336572,
+        "bow_mm": 57.081716938409954,
+        "clearance": {
+          "mm": 2.1455767409634388,
+          "pair": [
+            "flex",
+            "BB_DoorR"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 0,
+        "length_mm": 160.00000001333856,
+        "minimum_centerline_bend_radius_mm": 19.17777257059565,
+        "bow_mm": 64.46333007188514,
+        "clearance": {
+          "mm": 2.1036740939971423,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 0.1,
+        "length_mm": 159.99999998983972,
+        "minimum_centerline_bend_radius_mm": 19.180002796387996,
+        "bow_mm": 64.46138835744932,
+        "clearance": {
+          "mm": 2.1039788428371877,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 0.25,
+        "length_mm": 160.00000001401585,
+        "minimum_centerline_bend_radius_mm": 19.183385574966355,
+        "bow_mm": 64.45844942936674,
+        "clearance": {
+          "mm": 2.104458826706718,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 0.5,
+        "length_mm": 159.99999998214935,
+        "minimum_centerline_bend_radius_mm": 19.18912331886232,
+        "bow_mm": 64.45348068373278,
+        "clearance": {
+          "mm": 2.1053198051428335,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 1,
+        "length_mm": 160.00000000844054,
+        "minimum_centerline_bend_radius_mm": 19.200972250050842,
+        "bow_mm": 64.44327811477706,
+        "clearance": {
+          "mm": 2.1072708168360803,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 2,
+        "length_mm": 160.000000020275,
+        "minimum_centerline_bend_radius_mm": 19.226158712898545,
+        "bow_mm": 64.4218064728193,
+        "clearance": {
+          "mm": 2.1120911269979485,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 4,
+        "length_mm": 160.00000000473506,
+        "minimum_centerline_bend_radius_mm": 19.282443604875944,
+        "bow_mm": 64.37455191044137,
+        "clearance": {
+          "mm": 2.1254190503171153,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 5,
+        "length_mm": 159.99999998732838,
+        "minimum_centerline_bend_radius_mm": 19.31351748064932,
+        "bow_mm": 64.34874479891732,
+        "clearance": {
+          "mm": 2.1339330847455655,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 6,
+        "length_mm": 159.99999998891275,
+        "minimum_centerline_bend_radius_mm": 19.346529056654088,
+        "bow_mm": 64.32146966690198,
+        "clearance": {
+          "mm": 2.143683519299705,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 8,
+        "length_mm": 159.9999999843343,
+        "minimum_centerline_bend_radius_mm": 19.41831488722948,
+        "bow_mm": 64.26247583003715,
+        "clearance": {
+          "mm": 2.1668979824636905,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 10,
+        "length_mm": 159.99999999543897,
+        "minimum_centerline_bend_radius_mm": 19.49769923818764,
+        "bow_mm": 64.19750015484169,
+        "clearance": {
+          "mm": 2.195063258301304,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 12,
+        "length_mm": 159.99999999028057,
+        "minimum_centerline_bend_radius_mm": 19.576937840474404,
+        "bow_mm": 64.12648685509339,
+        "clearance": {
+          "mm": 2.228167169849247,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 14,
+        "length_mm": 160.00000001395944,
+        "minimum_centerline_bend_radius_mm": 19.65707212586184,
+        "bow_mm": 64.04939541826025,
+        "clearance": {
+          "mm": 2.266184242466923,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 15,
+        "length_mm": 160.0000000023926,
+        "minimum_centerline_bend_radius_mm": 19.700394629159675,
+        "bow_mm": 64.00856204563752,
+        "clearance": {
+          "mm": 2.2870235583024368,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 16,
+        "length_mm": 160.00000000458704,
+        "minimum_centerline_bend_radius_mm": 19.745872344808483,
+        "bow_mm": 63.9662011875771,
+        "clearance": {
+          "mm": 2.3090754701528677,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 18,
+        "length_mm": 160.00000001913375,
+        "minimum_centerline_bend_radius_mm": 19.843247524117622,
+        "bow_mm": 63.876896107103676,
+        "clearance": {
+          "mm": 2.356788154370204,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 20,
+        "length_mm": 160.00000001792867,
+        "minimum_centerline_bend_radius_mm": 19.949104546709325,
+        "bow_mm": 63.78148914081976,
+        "clearance": {
+          "mm": 2.409255819716296,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 22,
+        "length_mm": 159.99999999459135,
+        "minimum_centerline_bend_radius_mm": 20.063348191535972,
+        "bow_mm": 63.68000680813566,
+        "clearance": {
+          "mm": 2.4663982086314715,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 24,
+        "length_mm": 160.00000000775336,
+        "minimum_centerline_bend_radius_mm": 20.185881156525888,
+        "bow_mm": 63.572493579704314,
+        "clearance": {
+          "mm": 2.5281213572832515,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 26,
+        "length_mm": 159.99999999916716,
+        "minimum_centerline_bend_radius_mm": 20.316604084834,
+        "bow_mm": 63.459012063685805,
+        "clearance": {
+          "mm": 2.5943177536401025,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 28,
+        "length_mm": 160.0000000144352,
+        "minimum_centerline_bend_radius_mm": 20.45541548198192,
+        "bow_mm": 63.33964333171025,
+        "clearance": {
+          "mm": 2.6648665760867445,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 30,
+        "length_mm": 160.00000001419988,
+        "minimum_centerline_bend_radius_mm": 20.60221166859048,
+        "bow_mm": 63.21448691887781,
+        "clearance": {
+          "mm": 2.739634011714985,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 32,
+        "length_mm": 160.00000001092374,
+        "minimum_centerline_bend_radius_mm": 20.7568866351212,
+        "bow_mm": 63.08366091689095,
+        "clearance": {
+          "mm": 2.818473649061531,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 34,
+        "length_mm": 160.0000000023478,
+        "minimum_centerline_bend_radius_mm": 20.91933189438499,
+        "bow_mm": 62.947301857639104,
+        "clearance": {
+          "mm": 2.9012269401939403,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 36,
+        "length_mm": 159.99999998533457,
+        "minimum_centerline_bend_radius_mm": 21.089436280435507,
+        "bow_mm": 62.80556455021724,
+        "clearance": {
+          "mm": 2.9877237228977562,
+          "pair": [
+            "flex",
+            "BB_DoorL"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 38,
+        "length_mm": 160.00000000633457,
+        "minimum_centerline_bend_radius_mm": 21.267085701871736,
+        "bow_mm": 62.65862184809521,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 40,
+        "length_mm": 160.00000000254897,
+        "minimum_centerline_bend_radius_mm": 21.452162898696322,
+        "bow_mm": 62.506664206739515,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 42,
+        "length_mm": 159.99999999357613,
+        "minimum_centerline_bend_radius_mm": 21.644547096439464,
+        "bow_mm": 62.34989935765043,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 44,
+        "length_mm": 160.00000001116734,
+        "minimum_centerline_bend_radius_mm": 21.844113677543547,
+        "bow_mm": 62.18855174956843,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 45,
+        "length_mm": 160.0000000193585,
+        "minimum_centerline_bend_radius_mm": 21.946550281918487,
+        "bow_mm": 62.10623396327719,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 46,
+        "length_mm": 160.00000000296006,
+        "minimum_centerline_bend_radius_mm": 22.050733829208394,
+        "bow_mm": 62.02286189654842,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 48,
+        "length_mm": 159.99999998168158,
+        "minimum_centerline_bend_radius_mm": 22.264274114937997,
+        "bow_mm": 61.85308579588309,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 50,
+        "length_mm": 160.00000000846464,
+        "minimum_centerline_bend_radius_mm": 22.484596055497974,
+        "bow_mm": 61.67949418304488,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 52,
+        "length_mm": 160.0000000024925,
+        "minimum_centerline_bend_radius_mm": 22.71155572814189,
+        "bow_mm": 61.50237162364647,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 54,
+        "length_mm": 160.00000000404683,
+        "minimum_centerline_bend_radius_mm": 22.945003255750912,
+        "bow_mm": 61.32201581494883,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 56,
+        "length_mm": 160.00000000202078,
+        "minimum_centerline_bend_radius_mm": 23.175340561935233,
+        "bow_mm": 61.13873658468947,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 58,
+        "length_mm": 159.99999999299686,
+        "minimum_centerline_bend_radius_mm": 23.404526814653067,
+        "bow_mm": 60.952854983042926,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 60,
+        "length_mm": 159.99999998118665,
+        "minimum_centerline_bend_radius_mm": 23.63843844907381,
+        "bow_mm": 60.764702304732054,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 62,
+        "length_mm": 159.99999998765026,
+        "minimum_centerline_bend_radius_mm": 23.876921650496477,
+        "bow_mm": 60.57461908785626,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 64,
+        "length_mm": 160.00000001848719,
+        "minimum_centerline_bend_radius_mm": 24.119815493175224,
+        "bow_mm": 60.382954066153616,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 66,
+        "length_mm": 159.99999998209478,
+        "minimum_centerline_bend_radius_mm": 24.366951424528214,
+        "bow_mm": 60.19006307469681,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 68,
+        "length_mm": 160.00000001489735,
+        "minimum_centerline_bend_radius_mm": 24.618152671153712,
+        "bow_mm": 59.99630818841979,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 70,
+        "length_mm": 159.99999999143714,
+        "minimum_centerline_bend_radius_mm": 24.873233864638124,
+        "bow_mm": 59.80205637170002,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 72,
+        "length_mm": 160.0000000113877,
+        "minimum_centerline_bend_radius_mm": 25.132000462695533,
+        "bow_mm": 59.60767871001735,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 74,
+        "length_mm": 160.00000001673064,
+        "minimum_centerline_bend_radius_mm": 25.374562466008847,
+        "bow_mm": 59.4135491293855,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 75,
+        "length_mm": 160.0000000031149,
+        "minimum_centerline_bend_radius_mm": 25.492949748932915,
+        "bow_mm": 59.31669477140531,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 76,
+        "length_mm": 160.00000001608143,
+        "minimum_centerline_bend_radius_mm": 25.611872846572812,
+        "bow_mm": 59.22004348831251,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 78,
+        "length_mm": 160.00000001201875,
+        "minimum_centerline_bend_radius_mm": 25.851229668445786,
+        "bow_mm": 59.02753850677982,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 80,
+        "length_mm": 160.000000015662,
+        "minimum_centerline_bend_radius_mm": 26.09243284150704,
+        "bow_mm": 58.83641076507047,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 82,
+        "length_mm": 159.99999998869708,
+        "minimum_centerline_bend_radius_mm": 26.33527184996661,
+        "bow_mm": 58.647035679314286,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 84,
+        "length_mm": 160.00000001652427,
+        "minimum_centerline_bend_radius_mm": 26.57952545876193,
+        "bow_mm": 58.4597866400145,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 86,
+        "length_mm": 160.0000000180346,
+        "minimum_centerline_bend_radius_mm": 26.799730653961173,
+        "bow_mm": 58.27503389446065,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 88,
+        "length_mm": 159.9999999884064,
+        "minimum_centerline_bend_radius_mm": 27.01156007899208,
+        "bow_mm": 58.09314377838746,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 90,
+        "length_mm": 160.00000000424805,
+        "minimum_centerline_bend_radius_mm": 27.223330474577143,
+        "bow_mm": 57.91447783121839,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 92,
+        "length_mm": 159.99999999457413,
+        "minimum_centerline_bend_radius_mm": 27.434815347594256,
+        "bow_mm": 57.73939179489389,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 94,
+        "length_mm": 160.00000000019975,
+        "minimum_centerline_bend_radius_mm": 27.64577725488211,
+        "bow_mm": 57.5682349386625,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 96,
+        "length_mm": 160.00000000849613,
+        "minimum_centerline_bend_radius_mm": 27.823607630184615,
+        "bow_mm": 57.40134915104136,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 98,
+        "length_mm": 160.00000001172805,
+        "minimum_centerline_bend_radius_mm": 27.994112995080453,
+        "bow_mm": 57.23906819475815,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      },
+      {
+        "side": "L",
+        "angle_deg": 100,
+        "length_mm": 159.99999998652441,
+        "minimum_centerline_bend_radius_mm": 28.162820533269976,
+        "bow_mm": 57.081716938409954,
+        "clearance": {
+          "mm": 3.0,
+          "pair": [
+            "flex",
+            "BB_RearFrame"
+          ]
+        },
+        "hits": []
+      }
+    ],
+    "rear_service_space_from_original_rear_mm": 390.04457201175,
+    "front_removal": [
+      {
+        "withdrawal_mm": 0,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 10,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 20,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 30,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 40,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 50,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 60,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 70,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 80,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 90,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 100,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 110,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 120,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 130,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 140,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 150,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 160,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 170,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 180,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 190,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 200,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 210,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 220,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 230,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 240,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 250,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 260,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 270,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 280,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 290,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 300,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 310,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 320,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 330,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 340,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 350,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 360,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 370,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 380,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 390,
+        "hits": []
+      },
+      {
+        "withdrawal_mm": 400,
+        "hits": []
+      }
+    ],
+    "glass_removal": [
+      {
+        "lift_mm": 0,
+        "hits": []
+      },
+      {
+        "lift_mm": 10,
+        "hits": []
+      },
+      {
+        "lift_mm": 20,
+        "hits": []
+      },
+      {
+        "lift_mm": 30,
+        "hits": []
+      },
+      {
+        "lift_mm": 40,
+        "hits": []
+      },
+      {
+        "lift_mm": 50,
+        "hits": []
+      },
+      {
+        "lift_mm": 60,
+        "hits": []
+      },
+      {
+        "lift_mm": 70,
+        "hits": []
+      },
+      {
+        "lift_mm": 80,
+        "hits": []
+      },
+      {
+        "lift_mm": 90,
+        "hits": []
+      },
+      {
+        "lift_mm": 100,
+        "hits": []
+      },
+      {
+        "lift_mm": 110,
+        "hits": []
+      },
+      {
+        "lift_mm": 120,
+        "hits": []
+      },
+      {
+        "lift_mm": 130,
+        "hits": []
+      },
+      {
+        "lift_mm": 140,
+        "hits": []
+      },
+      {
+        "lift_mm": 150,
+        "hits": []
+      },
+      {
+        "lift_mm": 160,
+        "hits": []
+      },
+      {
+        "lift_mm": 170,
+        "hits": []
+      },
+      {
+        "lift_mm": 180,
+        "hits": []
+      },
+      {
+        "lift_mm": 190,
+        "hits": []
+      },
+      {
+        "lift_mm": 200,
+        "hits": []
+      },
+      {
+        "lift_mm": 210,
+        "hits": []
+      },
+      {
+        "lift_mm": 220,
+        "hits": []
+      },
+      {
+        "lift_mm": 230,
+        "hits": []
+      },
+      {
+        "lift_mm": 240,
+        "hits": []
+      },
+      {
+        "lift_mm": 250,
+        "hits": []
+      },
+      {
+        "lift_mm": 260,
+        "hits": []
+      },
+      {
+        "lift_mm": 270,
+        "hits": []
+      },
+      {
+        "lift_mm": 280,
+        "hits": []
+      },
+      {
+        "lift_mm": 290,
+        "hits": []
+      },
+      {
+        "lift_mm": 300,
+        "hits": []
+      },
+      {
+        "lift_mm": 310,
+        "hits": []
+      },
+      {
+        "lift_mm": 320,
+        "hits": []
+      },
+      {
+        "lift_mm": 330,
+        "hits": []
+      },
+      {
+        "lift_mm": 340,
+        "hits": []
+      },
+      {
+        "lift_mm": 350,
+        "hits": []
+      },
+      {
+        "lift_mm": 360,
+        "hits": []
+      },
+      {
+        "lift_mm": 370,
+        "hits": []
+      },
+      {
+        "lift_mm": 380,
+        "hits": []
+      },
+      {
+        "lift_mm": 390,
+        "hits": []
+      },
+      {
+        "lift_mm": 400,
+        "hits": []
+      },
+      {
+        "lift_mm": 410,
+        "hits": []
+      },
+      {
+        "lift_mm": 420,
+        "hits": []
+      },
+      {
+        "lift_mm": 430,
+        "hits": []
+      },
+      {
+        "lift_mm": 440,
+        "hits": []
+      },
+      {
+        "lift_mm": 450,
+        "hits": []
+      },
+      {
+        "lift_mm": 460,
+        "hits": []
+      },
+      {
+        "lift_mm": 470,
+        "hits": []
+      },
+      {
+        "lift_mm": 480,
+        "hits": []
+      },
+      {
+        "lift_mm": 490,
+        "hits": []
+      },
+      {
+        "lift_mm": 500,
+        "hits": []
+      }
+    ],
+    "monitor_adjustment": [
+      {
+        "depth_mm": 0,
+        "z_mm": -5,
+        "centering_mm": -1,
+        "hits": []
+      },
+      {
+        "depth_mm": 0,
+        "z_mm": -5,
+        "centering_mm": 1,
+        "hits": []
+      },
+      {
+        "depth_mm": 0,
+        "z_mm": -5,
+        "centering_mm": 0,
+        "hits": []
+      },
+      {
+        "depth_mm": 0,
+        "z_mm": 5,
+        "centering_mm": -1,
+        "hits": []
+      },
+      {
+        "depth_mm": 0,
+        "z_mm": 5,
+        "centering_mm": 1,
+        "hits": []
+      },
+      {
+        "depth_mm": 0,
+        "z_mm": 5,
+        "centering_mm": 0,
+        "hits": []
+      },
+      {
+        "depth_mm": 0,
+        "z_mm": 0,
+        "centering_mm": -1,
+        "hits": []
+      },
+      {
+        "depth_mm": 0,
+        "z_mm": 0,
+        "centering_mm": 1,
+        "hits": []
+      },
+      {
+        "depth_mm": 0,
+        "z_mm": 0,
+        "centering_mm": 0,
+        "hits": []
+      },
+      {
+        "depth_mm": 16,
+        "z_mm": -5,
+        "centering_mm": -1,
+        "hits": []
+      },
+      {
+        "depth_mm": 16,
+        "z_mm": -5,
+        "centering_mm": 1,
+        "hits": []
+      },
+      {
+        "depth_mm": 16,
+        "z_mm": -5,
+        "centering_mm": 0,
+        "hits": []
+      },
+      {
+        "depth_mm": 16,
+        "z_mm": 5,
+        "centering_mm": -1,
+        "hits": []
+      },
+      {
+        "depth_mm": 16,
+        "z_mm": 5,
+        "centering_mm": 1,
+        "hits": []
+      },
+      {
+        "depth_mm": 16,
+        "z_mm": 5,
+        "centering_mm": 0,
+        "hits": []
+      },
+      {
+        "depth_mm": 16,
+        "z_mm": 0,
+        "centering_mm": -1,
+        "hits": []
+      },
+      {
+        "depth_mm": 16,
+        "z_mm": 0,
+        "centering_mm": 1,
+        "hits": []
+      },
+      {
+        "depth_mm": 16,
+        "z_mm": 0,
+        "centering_mm": 0,
+        "hits": []
+      }
+    ],
+    "rear_driver_hits": [],
+    "fan_service": [
+      {
+        "side": "L",
+        "withdrawal_mm": 0,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 10,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 20,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 30,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 40,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 50,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 60,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 70,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 80,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 90,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 100,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 110,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 120,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 130,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 140,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 150,
+        "hits": []
+      },
+      {
+        "side": "L",
+        "withdrawal_mm": 160,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 0,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 10,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 20,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 30,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 40,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 50,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 60,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 70,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 80,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 90,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 100,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 110,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 120,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 130,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 140,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 150,
+        "hits": []
+      },
+      {
+        "side": "R",
+        "withdrawal_mm": 160,
+        "hits": []
+      }
+    ],
+    "optional_shelf_hits": [
+      {
+        "part": "shelf",
+        "obstacle": "BB_MonitorRail0",
+        "volume_mm3": 2939.1600375963426
+      },
+      {
+        "part": "shelf",
+        "obstacle": "BB_DMDEnvelope",
+        "volume_mm3": 3999.9999999999995
+      }
+    ],
+    "optional_shelf_decision": "NOT INSTALLED: central shelf would obstruct lower-to-upper air and hand/cable routes; retain as removable accessory study only",
+    "fold_samples": [
+      {
+        "angle_deg": 0,
+        "hits": []
+      },
+      {
+        "angle_deg": 0.001,
+        "hits": []
+      },
+      {
+        "angle_deg": 0.01,
+        "hits": []
+      },
+      {
+        "angle_deg": 0.05,
+        "hits": []
+      },
+      {
+        "angle_deg": 0.1,
+        "hits": []
+      },
+      {
+        "angle_deg": 0.25,
+        "hits": []
+      },
+      {
+        "angle_deg": 0.5,
+        "hits": []
+      },
+      {
+        "angle_deg": 1,
+        "hits": []
+      },
+      {
+        "angle_deg": 2,
+        "hits": []
+      },
+      {
+        "angle_deg": 5,
+        "hits": []
+      },
+      {
+        "angle_deg": 10,
+        "hits": []
+      },
+      {
+        "angle_deg": 15,
+        "hits": []
+      },
+      {
+        "angle_deg": 30,
+        "hits": []
+      },
+      {
+        "angle_deg": 45,
+        "hits": []
+      },
+      {
+        "angle_deg": 60,
+        "hits": []
+      },
+      {
+        "angle_deg": 75,
+        "hits": []
+      },
+      {
+        "angle_deg": 90,
+        "hits": []
+      }
+    ],
+    "playfield_new_interface": [
+      {
+        "angle_deg": 0,
+        "hits": []
+      },
+      {
+        "angle_deg": 1,
+        "hits": []
+      },
+      {
+        "angle_deg": 2,
+        "hits": []
+      },
+      {
+        "angle_deg": 3,
+        "hits": []
+      },
+      {
+        "angle_deg": 4,
+        "hits": []
+      },
+      {
+        "angle_deg": 5,
+        "hits": []
+      },
+      {
+        "angle_deg": 6,
+        "hits": []
+      },
+      {
+        "angle_deg": 7,
+        "hits": []
+      },
+      {
+        "angle_deg": 8,
+        "hits": []
+      },
+      {
+        "angle_deg": 9,
+        "hits": []
+      },
+      {
+        "angle_deg": 10,
+        "hits": []
+      },
+      {
+        "angle_deg": 11,
+        "hits": []
+      },
+      {
+        "angle_deg": 12,
+        "hits": []
+      },
+      {
+        "angle_deg": 13,
+        "hits": []
+      },
+      {
+        "angle_deg": 14,
+        "hits": []
+      },
+      {
+        "angle_deg": 15,
+        "hits": []
+      },
+      {
+        "angle_deg": 16,
+        "hits": []
+      },
+      {
+        "angle_deg": 17,
+        "hits": []
+      },
+      {
+        "angle_deg": 18,
+        "hits": []
+      },
+      {
+        "angle_deg": 19,
+        "hits": []
+      },
+      {
+        "angle_deg": 20,
+        "hits": []
+      },
+      {
+        "angle_deg": 21,
+        "hits": []
+      },
+      {
+        "angle_deg": 22,
+        "hits": []
+      },
+      {
+        "angle_deg": 23,
+        "hits": []
+      },
+      {
+        "angle_deg": 24,
+        "hits": []
+      },
+      {
+        "angle_deg": 25,
+        "hits": []
+      },
+      {
+        "angle_deg": 26,
+        "hits": []
+      },
+      {
+        "angle_deg": 27,
+        "hits": []
+      },
+      {
+        "angle_deg": 28,
+        "hits": []
+      },
+      {
+        "angle_deg": 29,
+        "hits": []
+      },
+      {
+        "angle_deg": 30,
+        "hits": []
+      },
+      {
+        "angle_deg": 31,
+        "hits": []
+      },
+      {
+        "angle_deg": 32,
+        "hits": []
+      },
+      {
+        "angle_deg": 33,
+        "hits": []
+      },
+      {
+        "angle_deg": 34,
+        "hits": []
+      },
+      {
+        "angle_deg": 35,
+        "hits": []
+      },
+      {
+        "angle_deg": 36,
+        "hits": []
+      },
+      {
+        "angle_deg": 37,
+        "hits": []
+      },
+      {
+        "angle_deg": 38,
+        "hits": []
+      },
+      {
+        "angle_deg": 39,
+        "hits": []
+      },
+      {
+        "angle_deg": 40,
+        "hits": []
+      },
+      {
+        "angle_deg": 41,
+        "hits": []
+      },
+      {
+        "angle_deg": 42,
+        "hits": []
+      },
+      {
+        "angle_deg": 43,
+        "hits": []
+      },
+      {
+        "angle_deg": 44,
+        "hits": []
+      },
+      {
+        "angle_deg": 45,
+        "hits": []
+      },
+      {
+        "angle_deg": 46,
+        "hits": []
+      },
+      {
+        "angle_deg": 47,
+        "hits": []
+      },
+      {
+        "angle_deg": 48,
+        "hits": []
+      },
+      {
+        "angle_deg": 49,
+        "hits": []
+      },
+      {
+        "angle_deg": 50,
+        "hits": []
+      },
+      {
+        "lift_mm": 0,
+        "hits": []
+      },
+      {
+        "lift_mm": 1,
+        "hits": []
+      },
+      {
+        "lift_mm": 2,
+        "hits": []
+      },
+      {
+        "lift_mm": 3,
+        "hits": []
+      },
+      {
+        "lift_mm": 4,
+        "hits": []
+      },
+      {
+        "lift_mm": 5,
+        "hits": []
+      },
+      {
+        "lift_mm": 6,
+        "hits": []
+      },
+      {
+        "lift_mm": 7,
+        "hits": []
+      },
+      {
+        "lift_mm": 8,
+        "hits": []
+      },
+      {
+        "lift_mm": 9,
+        "hits": []
+      },
+      {
+        "lift_mm": 10,
+        "hits": []
+      },
+      {
+        "lift_mm": 11,
+        "hits": []
+      },
+      {
+        "lift_mm": 12,
+        "hits": []
+      },
+      {
+        "lift_mm": 13,
+        "hits": []
+      },
+      {
+        "lift_mm": 14,
+        "hits": []
+      },
+      {
+        "lift_mm": 15,
+        "hits": []
+      },
+      {
+        "lift_mm": 16,
+        "hits": []
+      },
+      {
+        "lift_mm": 17,
+        "hits": []
+      },
+      {
+        "lift_mm": 18,
+        "hits": []
+      },
+      {
+        "lift_mm": 19,
+        "hits": []
+      },
+      {
+        "lift_mm": 20,
+        "hits": []
+      },
+      {
+        "lift_mm": 21,
+        "hits": []
+      },
+      {
+        "lift_mm": 22,
+        "hits": []
+      },
+      {
+        "lift_mm": 23,
+        "hits": []
+      },
+      {
+        "lift_mm": 24,
+        "hits": []
+      },
+      {
+        "lift_mm": 25,
+        "hits": []
+      },
+      {
+        "lift_mm": 26,
+        "hits": []
+      },
+      {
+        "lift_mm": 27,
+        "hits": []
+      },
+      {
+        "lift_mm": 28,
+        "hits": []
+      },
+      {
+        "lift_mm": 29,
+        "hits": []
+      },
+      {
+        "lift_mm": 30,
+        "hits": []
+      },
+      {
+        "lift_mm": 31,
+        "hits": []
+      },
+      {
+        "lift_mm": 32,
+        "hits": []
+      },
+      {
+        "lift_mm": 33,
+        "hits": []
+      },
+      {
+        "lift_mm": 34,
+        "hits": []
+      },
+      {
+        "lift_mm": 35,
+        "hits": []
+      },
+      {
+        "lift_mm": 36,
+        "hits": []
+      },
+      {
+        "lift_mm": 37,
+        "hits": []
+      },
+      {
+        "lift_mm": 38,
+        "hits": []
+      },
+      {
+        "lift_mm": 39,
+        "hits": []
+      },
+      {
+        "lift_mm": 40,
+        "hits": []
+      },
+      {
+        "lift_mm": 41,
+        "hits": []
+      },
+      {
+        "lift_mm": 42,
+        "hits": []
+      },
+      {
+        "lift_mm": 43,
+        "hits": []
+      },
+      {
+        "lift_mm": 44,
+        "hits": []
+      },
+      {
+        "lift_mm": 45,
+        "hits": []
+      },
+      {
+        "lift_mm": 46,
+        "hits": []
+      },
+      {
+        "lift_mm": 47,
+        "hits": []
+      },
+      {
+        "lift_mm": 48,
+        "hits": []
+      }
+    ],
+    "planning_mass": {
+      "plywood_volume_mm3": 24430493.924133852,
+      "density_kg_m3": 650,
+      "wood_kg": 15.879821050687005,
+      "display_kg": 7,
+      "dmd_kg": 2,
+      "speaker_pair_kg": 3.2,
+      "glass_kg": 3.4968000000000004,
+      "accessories_hardware_wiring_kg": 3,
+      "certified": false,
+      "total_kg": 34.57662105068701
+    },
+    "net_intake_planning_mm2": 22880.0,
+    "fan_opening_pair_mm2": 21136.63537335213,
+    "cad_files": {
+      "rear-closed": "rear-closed.FCStd",
+      "rear-active-open": "rear-active-open.FCStd",
+      "rear-both-open": "rear-both-open.FCStd",
+      "glass-removal": "glass-removal.FCStd",
+      "monitor-removal": "monitor-removal.FCStd",
+      "blank-fans": "blank-fans.FCStd",
+      "toy-zones": "toy-zones.FCStd",
+      "optional-shelf": "optional-shelf.FCStd",
+      "cassette-exploded": "cassette-exploded.FCStd",
+      "mechanical-exploded": "mechanical-exploded.FCStd",
+      "fold-1": "fold-1.FCStd",
+      "fold-15": "fold-15.FCStd",
+      "fold-45": "fold-45.FCStd",
+      "fold-90": "fold-90.FCStd",
+      "complete-upright": "complete-upright.FCStd"
+    }
+  },
+  "input_sha256": {
+    "config/backbox_service_v32.json": "348021d767d037d99589c20c227738c0c7f9fcd3af4dfcf63764b3ee8c80335f",
+    "tools/backbox_service_v32.py": "d7c49a37a7b0c9da275ce753f4cae76fb47cb9dc41c99e9475d34c2196aa4298",
+    "tools/backbox_service_v32_entry.py": "d701d25980543fb2468751145853e3fc01295b0d53cdb4f9993f29c94c1df8ec"
+  },
+  "promoted": false,
+  "manufacturing_ready": false
+}

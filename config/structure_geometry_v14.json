@@ -27,7 +27,8 @@
       "door_thickness_mm": 15.0,
       "lower_clearance_above_floor_mm": 53.1,
       "keyed": true,
-      "gasketed": true
+      "gasketed": true,
+      "authority": "HISTORICAL GEOMETRY: existing promoted rear-frame aperture only. Single-door service policy superseded by config/backbox_service_v32.json; do not use this opening as the required monitor insertion path."
     },
     "display_rail_cage": {
       "vertical_profile_mm": [

@@ -108,3 +108,7 @@ https://www.apawood.org/guides-tools-training/technical-document-library/technic
 APA E830, Fastener Loads for Plywood — Screws (2011). Official landing-page summary read; identifies ultimate test loads and adapting connections to member/fastener properties. Full PDF not reviewed or downloaded; no tabulated strength adopted for unspecified local plywood.
 https://research.fs.usda.gov/treesearch/62253
 Rammer, D.R., 2021, Wood Handbook Chapter 8: Fastenings, FPL-GTR-282. Official abstract read; grain/moisture-sensitive fastening design. Full PDF not reviewed or downloaded. Original assessment: studies/backbox-structure-v32/README.md. No upstream assets redistributed.
+
+2026-10-02 — Backbox service architecture V32
+https://www.noctua.at/en/products/nf-p12-redux-1300/specifications
+Primary-source HTML inspected: 120 x 120 x 25 mm frame and 105 x 105 mm mounting pitch only. Confirms the owner-provided common family; no manufacturer, electrical connector, speed, airflow or purchasing choice adopted. No image, drawing, CAD or source page copied into the repository. Original geometry and assessment: studies/backbox-service-v32/README.md.

@@ -1,0 +1,309 @@
+[
+  {
+    "role": "cassette",
+    "offset_mm": 24,
+    "samples": [
+      {
+        "angle": 75,
+        "hits": []
+      },
+      {
+        "angle": 85,
+        "hits": [
+          {
+            "part": "BB_LowerCassetteFrame",
+            "obstacle": "CandidateGlassChannelL",
+            "volume_mm3": 0.9583333138083026
+          },
+          {
+            "part": "BB_LowerCassetteFrame",
+            "obstacle": "CandidateGlassChannelR",
+            "volume_mm3": 0.9583333138075939
+          },
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "SIDE_L",
+            "volume_mm3": 25.55791951485189
+          },
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "PLAYFIELD_ENVELOPE",
+            "volume_mm3": 986.5524608065363
+          },
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "CandidateGlassChannelL",
+            "volume_mm3": 1256.1187048949917
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "SIDE_R",
+            "volume_mm3": 25.55791951485189
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "PLAYFIELD_ENVELOPE",
+            "volume_mm3": 986.5524608065306
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "CandidateGlassChannelR",
+            "volume_mm3": 1256.1187048949892
+          },
+          {
+            "part": "BB_DMDReplaceableBezel",
+            "obstacle": "PLAYFIELD_ENVELOPE",
+            "volume_mm3": 1028.8797848975855
+          }
+        ]
+      },
+      {
+        "angle": 90,
+        "hits": [
+          {
+            "part": "BB_LowerCassetteFrame",
+            "obstacle": "CandidateGlassChannelL",
+            "volume_mm3": 599.3420402908687
+          },
+          {
+            "part": "BB_LowerCassetteFrame",
+            "obstacle": "CandidateGlassChannelR",
+            "volume_mm3": 599.342040290859
+          },
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "SIDE_L",
+            "volume_mm3": 4752.976229100301
+          },
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "PLAYFIELD_ENVELOPE",
+            "volume_mm3": 26218.454359931908
+          },
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "CandidateGlassChannelL",
+            "volume_mm3": 4729.9254864762015
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "SIDE_R",
+            "volume_mm3": 4752.976229100301
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "PLAYFIELD_ENVELOPE",
+            "volume_mm3": 26218.45435993188
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "CandidateGlassChannelR",
+            "volume_mm3": 4729.92548647613
+          },
+          {
+            "part": "BB_DMDReplaceableBezel",
+            "obstacle": "PLAYFIELD_ENVELOPE",
+            "volume_mm3": 65718.36087633051
+          },
+          {
+            "part": "BB_SpeakerEnvelopeL",
+            "obstacle": "CandidateGlassChannelL",
+            "volume_mm3": 93.3106834123113
+          },
+          {
+            "part": "BB_SpeakerEnvelopeR",
+            "obstacle": "CandidateGlassChannelR",
+            "volume_mm3": 93.31068341230747
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "role": "cassette",
+    "offset_mm": 32,
+    "samples": [
+      {
+        "angle": 75,
+        "hits": []
+      },
+      {
+        "angle": 85,
+        "hits": [
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "CandidateGlassChannelL",
+            "volume_mm3": 155.05164843604166
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "CandidateGlassChannelR",
+            "volume_mm3": 155.05164843603444
+          }
+        ]
+      },
+      {
+        "angle": 90,
+        "hits": [
+          {
+            "part": "BB_LowerCassetteFrame",
+            "obstacle": "CandidateGlassChannelL",
+            "volume_mm3": 13.590014458295073
+          },
+          {
+            "part": "BB_LowerCassetteFrame",
+            "obstacle": "CandidateGlassChannelR",
+            "volume_mm3": 13.59001445829077
+          },
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "SIDE_L",
+            "volume_mm3": 132.55042264877872
+          },
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "PLAYFIELD_ENVELOPE",
+            "volume_mm3": 2368.774661750823
+          },
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "CandidateGlassChannelL",
+            "volume_mm3": 2144.513010346344
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "SIDE_R",
+            "volume_mm3": 132.55042264877872
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "PLAYFIELD_ENVELOPE",
+            "volume_mm3": 2368.7746617508187
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "CandidateGlassChannelR",
+            "volume_mm3": 2144.5130103462957
+          },
+          {
+            "part": "BB_DMDReplaceableBezel",
+            "obstacle": "PLAYFIELD_ENVELOPE",
+            "volume_mm3": 6869.153221793641
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "role": "cassette",
+    "offset_mm": 40,
+    "samples": [
+      {
+        "angle": 75,
+        "hits": []
+      },
+      {
+        "angle": 85,
+        "hits": []
+      },
+      {
+        "angle": 90,
+        "hits": [
+          {
+            "part": "BB_SpeakerBaffleL",
+            "obstacle": "CandidateGlassChannelL",
+            "volume_mm3": 278.9574835795348
+          },
+          {
+            "part": "BB_SpeakerBaffleR",
+            "obstacle": "CandidateGlassChannelR",
+            "volume_mm3": 278.9574835795224
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "role": "cassette",
+    "offset_mm": 48,
+    "samples": [
+      {
+        "angle": 75,
+        "hits": []
+      },
+      {
+        "angle": 85,
+        "hits": []
+      },
+      {
+        "angle": 90,
+        "hits": []
+      }
+    ]
+  },
+  {
+    "role": "glass",
+    "offset_mm": 8,
+    "samples": [
+      {
+        "angle": 75,
+        "hits": []
+      },
+      {
+        "angle": 85,
+        "hits": []
+      },
+      {
+        "angle": 90,
+        "hits": [
+          {
+            "part": "BB_GlassLowerRail",
+            "obstacle": "CandidateGlassChannelL",
+            "volume_mm3": 47.04829587745176
+          },
+          {
+            "part": "BB_GlassLowerRail",
+            "obstacle": "CandidateGlassChannelR",
+            "volume_mm3": 47.048295877449455
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "role": "glass",
+    "offset_mm": 12,
+    "samples": [
+      {
+        "angle": 75,
+        "hits": []
+      },
+      {
+        "angle": 85,
+        "hits": []
+      },
+      {
+        "angle": 90,
+        "hits": []
+      }
+    ]
+  },
+  {
+    "role": "glass",
+    "offset_mm": 16,
+    "samples": [
+      {
+        "angle": 75,
+        "hits": []
+      },
+      {
+        "angle": 85,
+        "hits": []
+      },
+      {
+        "angle": 90,
+        "hits": []
+      }
+    ]
+  }
+]
