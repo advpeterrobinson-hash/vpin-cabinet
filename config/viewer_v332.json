@@ -1,0 +1,19 @@
+{
+  "version": "V33.2",
+  "authority": "VIEWER_AND_DOCUMENTATION_ONLY",
+  "source_head": "a1f8bb04f7cec6a2220355c6b7ead0e7e0e92ab4",
+  "design_authority": "config/current_v32.json",
+  "manufacturing_authority": "config/manufacturing/flatpack_v331.json",
+  "viewer": "exports/generated/viewer-v32/index.html",
+  "builder": "tools/build_assembly_viewer_v332.py",
+  "hardware_lod_builder": "tools/viewer_v332_lod_entry.py",
+  "validation": "exports/generated/viewer-v332/validation.json",
+  "browser_checker": "tools/check_assembly_viewer_v332.mjs",
+  "manual_source": "tools/viewer-v332/manual_content.py",
+  "manual_json": "exports/generated/viewer-v332/assembly-manual.json",
+  "manual_status": "FRAMEWORK_NOT_VALIDATED_BUILD_INSTRUCTIONS",
+  "manufacturing_release": false,
+  "geometry_changed": false,
+  "part_id_policy": "Existing P/M/F/H/etc IDs preserved; SideL, S1, T1, BBFloor aliases are documentation labels only.",
+  "exploded_policy": "Deterministic assembly offsets, never validated removal trajectories. Unlocated family exemplars use a separate labelled tray; no fabricated installation coordinates."
+}

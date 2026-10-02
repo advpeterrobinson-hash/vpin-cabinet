@@ -19,7 +19,13 @@ if 'promotion_record' in c:
  for report in [q,r,proof]:
   for name,digest in report['input_sha256'].items():assert hashlib.sha256((R/name).read_bytes()).hexdigest()==digest,'stale '+name
  assert q['mesh_sha256']==v['mesh_sha256']==hashlib.sha256((o/'mesh.json').read_bytes()).hexdigest()
- assert v['viewer_sha256']==hashlib.sha256((R/'exports/generated/viewer-v32/index.html').read_bytes()).hexdigest()
+ if (R/'config/viewer_v332.json').exists():
+  vm=json.loads((R/'config/viewer_v332.json').read_text());vv=json.loads((R/vm['validation']).read_text())
+  assert vv['pass'] and not vm['geometry_changed'] and not vm['manufacturing_release']
+  assert vv['source_mesh_sha256']==q['mesh_sha256']
+  assert vv['viewer_sha256']==hashlib.sha256((R/vm['viewer']).read_bytes()).hexdigest()
+ else:
+  assert v['viewer_sha256']==hashlib.sha256((R/'exports/generated/viewer-v32/index.html').read_bytes()).hexdigest()
  assert not c['normal_fold_cassette_removal'] and not c['normal_fold_backbox_electronics_disconnection']
 p=json.loads((R/'config/wpc_kinematics_v32.json').read_text());bad=copy.deepcopy(p);bad['axis_xyz_mm']=[300,1270,508];bad['pivot_from_rear_mm']=38.1
 try:reference_axis(bad)

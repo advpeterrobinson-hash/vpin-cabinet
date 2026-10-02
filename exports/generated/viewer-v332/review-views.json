@@ -1,0 +1,162 @@
+[
+  {
+    "number": "01",
+    "title": {
+      "en": "Default offline viewer",
+      "pt-BR": "Visualizador offline padrão"
+    },
+    "image": "01-review.png"
+  },
+  {
+    "number": "02",
+    "title": {
+      "en": "Interior inspection",
+      "pt-BR": "Inspeção do interior"
+    },
+    "image": "02-review.png"
+  },
+  {
+    "number": "03",
+    "title": {
+      "en": "Playfield hidden",
+      "pt-BR": "Playfield oculto"
+    },
+    "image": "03-review.png"
+  },
+  {
+    "number": "04",
+    "title": {
+      "en": "Playfield and supports hidden",
+      "pt-BR": "Playfield e apoios ocultos"
+    },
+    "image": "04-review.png"
+  },
+  {
+    "number": "05",
+    "title": {
+      "en": "Both backbox doors open 100°",
+      "pt-BR": "Portas do backbox abertas 100°"
+    },
+    "image": "05-review.png"
+  },
+  {
+    "number": "06",
+    "title": {
+      "en": "Backbox interior inspection",
+      "pt-BR": "Inspeção interna do backbox"
+    },
+    "image": "06-review.png"
+  },
+  {
+    "number": "07",
+    "title": {
+      "en": "Exploded overview — semantic assemblies",
+      "pt-BR": "Visão explodida geral — conjuntos"
+    },
+    "image": "07-review.png"
+  },
+  {
+    "number": "08",
+    "title": {
+      "en": "Detailed exploded — all assemblies",
+      "pt-BR": "Explodida detalhada — todos os conjuntos"
+    },
+    "image": "08-review.png"
+  },
+  {
+    "number": "09",
+    "title": {
+      "en": "Detailed exploded — wood only",
+      "pt-BR": "Explodida detalhada — somente madeira"
+    },
+    "image": "09-review.png"
+  },
+  {
+    "number": "10",
+    "title": {
+      "en": "Detailed exploded — hardware only",
+      "pt-BR": "Explodida detalhada — somente ferragens"
+    },
+    "image": "10-review.png"
+  },
+  {
+    "number": "11",
+    "title": {
+      "en": "Playfield exploded",
+      "pt-BR": "Playfield explodido"
+    },
+    "image": "11-review.png"
+  },
+  {
+    "number": "12",
+    "title": {
+      "en": "Backbox exploded",
+      "pt-BR": "Backbox explodido"
+    },
+    "image": "12-review.png"
+  },
+  {
+    "number": "13",
+    "title": {
+      "en": "Leg-block layers — 28 pieces",
+      "pt-BR": "Camadas dos blocos dos pés — 28 peças"
+    },
+    "image": "13-review.png"
+  },
+  {
+    "number": "14",
+    "title": {
+      "en": "Intake-baffle decomposition",
+      "pt-BR": "Decomposição dos defletores de entrada"
+    },
+    "image": "14-review.png"
+  },
+  {
+    "number": "15",
+    "title": {
+      "en": "Glass-retainer cap and strip",
+      "pt-BR": "Tampa e tira do retentor de vidro"
+    },
+    "image": "15-review.png"
+  },
+  {
+    "number": "16",
+    "title": {
+      "en": "H11 hardware callout",
+      "pt-BR": "Chamada da ferragem H11"
+    },
+    "image": "16-review.png"
+  },
+  {
+    "number": "17",
+    "title": {
+      "en": "Part selection and manufacturing metadata",
+      "pt-BR": "Seleção e metadados de fabricação"
+    },
+    "image": "17-review.png"
+  },
+  {
+    "number": "18",
+    "title": {
+      "en": "Tablet controls — PT-BR / Accessible",
+      "pt-BR": "Controles de tablet — PT-BR / Acessível"
+    },
+    "image": "18-review.png"
+  },
+  {
+    "number": "19",
+    "title": {
+      "en": "Assembly step — cradle supports",
+      "pt-BR": "Passo de montagem — apoios dos berços"
+    },
+    "image": "19-review.png"
+  },
+  {
+    "number": "20",
+    "title": {
+      "en": "Normal fold checkpoint",
+      "pt-BR": "Verificação da dobra normal"
+    },
+    "image": "20-review.png"
+  }
+]

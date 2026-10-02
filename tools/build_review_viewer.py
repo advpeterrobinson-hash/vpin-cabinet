@@ -15,7 +15,12 @@ def main():
     current = json.loads((ROOT/'config/current_v32.json').read_text())
     parser.add_argument('--mesh', type=Path, default=ROOT/current['geometry_directory']/'mesh.json')
     parser.add_argument('--output', type=Path, default=ROOT/'exports/generated/viewer-v32/index.html')
+    parser.add_argument('--legacy', action='store_true', help='Build historical V32 controls for an isolated study')
     args = parser.parse_args()
+    if not args.legacy and args.mesh == ROOT/current['geometry_directory']/'mesh.json' and args.output == ROOT/'exports/generated/viewer-v32/index.html':
+        import runpy
+        runpy.run_path(str(ROOT/'tools/build_assembly_viewer_v332.py'), run_name='__main__')
+        return
     raw = args.mesh.read_bytes()
     bundle = json.loads(raw)
     validate_visible_mechanism(bundle)
