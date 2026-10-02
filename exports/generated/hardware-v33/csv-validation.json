@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "row_count": 245,
+  "columns": [
+    "row_id",
+    "bom_layer",
+    "description_en",
+    "description_pt_BR",
+    "quantity",
+    "quantity_status",
+    "unit",
+    "material",
+    "nominal_dimensions",
+    "status",
+    "flatpack_classification",
+    "measurement_required",
+    "assembly_stage",
+    "source",
+    "notes",
+    "notes_pt_BR",
+    "price_BRL"
+  ],
+  "typed_quantity_roundtrip": true,
+  "prices_unknown": true,
+  "format": "UTF-8 BOM, RFC4180 quoting, CRLF; blank quantity means unresolved, see quantity_status"
+}

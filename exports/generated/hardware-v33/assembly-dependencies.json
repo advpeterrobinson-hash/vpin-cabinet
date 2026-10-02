@@ -1,0 +1,296 @@
+{
+  "stages": {
+    "01": {
+      "assembly": "cabinet_shell",
+      "en": "Cabinet shell and legs",
+      "pt": "Caixa principal e pés",
+      "depends_on": []
+    },
+    "02": {
+      "assembly": "shelves_supports",
+      "en": "Shelf supports and crossmembers",
+      "pt": "Apoios, prateleiras e travessas",
+      "depends_on": [
+        "01"
+      ]
+    },
+    "03": {
+      "assembly": "playfield_pivot",
+      "en": "Wooden playfield pivot",
+      "pt": "Pivô de madeira do playfield",
+      "depends_on": [
+        "01",
+        "02"
+      ]
+    },
+    "04": {
+      "assembly": "main_rear_door",
+      "en": "Main rear service door",
+      "pt": "Porta traseira da caixa principal",
+      "depends_on": [
+        "01"
+      ]
+    },
+    "05": {
+      "assembly": "main_ventilation",
+      "en": "Main ventilation and filter interfaces",
+      "pt": "Ventilação e filtros da caixa principal",
+      "depends_on": [
+        "01"
+      ]
+    },
+    "06": {
+      "assembly": "backbox_shell_wpc",
+      "en": "Backbox shell and WPC interface",
+      "pt": "Caixa superior e interface WPC",
+      "depends_on": [
+        "01",
+        "03"
+      ]
+    },
+    "07": {
+      "assembly": "backbox_upright_locks",
+      "en": "Upright locks and parking",
+      "pt": "Travas verticais e alojamentos",
+      "depends_on": [
+        "06"
+      ]
+    },
+    "08": {
+      "assembly": "backbox_doors",
+      "en": "Twin backbox doors",
+      "pt": "Portas duplas da caixa superior",
+      "depends_on": [
+        "06"
+      ]
+    },
+    "09": {
+      "assembly": "backbox_ventilation",
+      "en": "Backbox blanks, filters and optional fans",
+      "pt": "Tampas, filtros e ventoinhas opcionais",
+      "depends_on": [
+        "08"
+      ]
+    },
+    "10": {
+      "assembly": "display_glass_interfaces",
+      "en": "Display carrier and glass retention",
+      "pt": "Suporte de monitor e retenção do vidro",
+      "depends_on": [
+        "06"
+      ]
+    },
+    "11": {
+      "assembly": "lower_cassette",
+      "en": "DMD/speaker cassette",
+      "pt": "Cassete DMD/alto-falantes",
+      "depends_on": [
+        "06",
+        "07"
+      ]
+    },
+    "12": {
+      "assembly": "matrix_front_interfaces",
+      "en": "Matrix and front interfaces",
+      "pt": "Matriz e interfaces frontais",
+      "depends_on": [
+        "01",
+        "03"
+      ]
+    },
+    "13": {
+      "assembly": "future_electronics",
+      "en": "Later electronics and adapters",
+      "pt": "Eletrônica e adaptadores futuros",
+      "depends_on": [
+        "02",
+        "03",
+        "10",
+        "11",
+        "12"
+      ]
+    }
+  },
+  "sequence_notes": [
+    "Basic mechanical kit includes backbox fan blanks and passive filter provisions; electronics are absent.",
+    "Do not install electronics before their replaceable adapters are confirmed.",
+    "Close/secure both doors and park locks before backbox fold; main glass and matrix removal remain prerequisites.",
+    "Stage grouping is planning metadata, not a validated assembly manual."
+  ],
+  "family_ids_by_stage": {
+    "01": [
+      "F06",
+      "G01",
+      "H18",
+      "B13",
+      "F37",
+      "H19",
+      "F38",
+      "H26"
+    ],
+    "02": [
+      "F03",
+      "W01",
+      "I01",
+      "F04",
+      "W02",
+      "B02",
+      "F05",
+      "F52",
+      "I14",
+      "F07",
+      "I02",
+      "W03"
+    ],
+    "03": [
+      "F01",
+      "F02",
+      "H01",
+      "B01"
+    ],
+    "04": [
+      "H02",
+      "H03",
+      "B03",
+      "H04",
+      "F08",
+      "F09",
+      "F53",
+      "G02",
+      "H05",
+      "H06"
+    ],
+    "05": [
+      "F10",
+      "I03",
+      "F11",
+      "F12",
+      "I04",
+      "H07",
+      "B04",
+      "B05",
+      "B06",
+      "F13",
+      "G03"
+    ],
+    "06": [
+      "H08",
+      "H09",
+      "H10",
+      "F14",
+      "F15",
+      "W06",
+      "F16",
+      "F54",
+      "B16"
+    ],
+    "07": [
+      "H11",
+      "W07",
+      "I05",
+      "I06",
+      "F17",
+      "H12",
+      "W08",
+      "H13",
+      "B07",
+      "B08"
+    ],
+    "08": [
+      "H14",
+      "H15",
+      "H16",
+      "F18",
+      "F19",
+      "G04",
+      "G05"
+    ],
+    "09": [
+      "H17",
+      "B09",
+      "G06",
+      "G07",
+      "F20",
+      "F21",
+      "I07",
+      "F22",
+      "B10",
+      "F23",
+      "B11",
+      "F55"
+    ],
+    "10": [
+      "F24",
+      "I08",
+      "G08",
+      "G09",
+      "G10",
+      "F25",
+      "F26",
+      "W09",
+      "I09",
+      "F27",
+      "I10",
+      "I11",
+      "F28"
+    ],
+    "11": [
+      "F30",
+      "I12",
+      "W10",
+      "F31"
+    ],
+    "12": [
+      "F34",
+      "I13",
+      "F35",
+      "B12",
+      "G11",
+      "G12",
+      "F36",
+      "H20",
+      "H21",
+      "H22",
+      "F39",
+      "H23",
+      "H24",
+      "F40"
+    ],
+    "13": [
+      "F29",
+      "F32",
+      "F33",
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "B14",
+      "F42",
+      "F43",
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "B15",
+      "F51",
+      "H25",
+      "R01",
+      "R02",
+      "R03",
+      "R04"
+    ]
+  }
+}

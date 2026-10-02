@@ -1,0 +1,13 @@
+{
+  "id": "F05",
+  "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {},
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "exports/generated/cabinet-v32/build_v32.py: guide anchoring loop"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}

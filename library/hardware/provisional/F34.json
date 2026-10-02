@@ -1,0 +1,18 @@
+{
+  "id": "F34",
+  "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {
+    "diameter_mm": 4,
+    "length_mm": 20,
+    "head_diameter_mm": 12,
+    "head_height_mm": 4
+  },
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "config/matrix_cassette_v32.json"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}

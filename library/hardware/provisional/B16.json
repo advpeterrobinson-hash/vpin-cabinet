@@ -1,0 +1,13 @@
+{
+  "id": "B16",
+  "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {},
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "studies/wpc-fold-v32/README.md"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}

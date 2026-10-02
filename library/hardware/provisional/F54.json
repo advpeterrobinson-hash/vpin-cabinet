@@ -1,0 +1,16 @@
+{
+  "id": "F54",
+  "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {
+    "diameter_mm_max_planning": 4,
+    "floor_thread_reach_mm": 20
+  },
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "config/backbox_structure_review_v32.json#joint_planning"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}

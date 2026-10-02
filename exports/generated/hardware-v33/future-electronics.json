@@ -1,0 +1,2465 @@
+{
+  "not_a_shopping_release": true,
+  "note": "Before-CNC items must also be on hand for assembly. Lists show obligations, not purchase authorization or stock availability. Unknown qty is not zero.",
+  "items": [
+    {
+      "id": "G10",
+      "description_en": "User-supplied backbox tempered glass",
+      "description_pt_BR": "Vidro temperado superior fornecido pelo usuário",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "tempered glass",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "752×465×4 current reserve; supplier confirms3–4 mm, edges and channel/liner fit before order.",
+      "instances": [
+        {
+          "object": "BB_Backglass",
+          "coordinate_xyz_mm": [
+            300.0,
+            1116.0,
+            1072.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "glass",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/G10.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F29",
+      "description_en": "Display VESA mounting screws and spacers",
+      "description_pt_BR": "Parafusos e espaçadores VESA do monitor",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact display thread, insertion depth and count from selected monitor; not automatically M6.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F29.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F32",
+      "description_en": "Selected speaker mounting screws",
+      "description_pt_BR": "Parafusos dos alto-falantes escolhidos",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Speaker-specific holes only in replaceable baffles.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F32.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F33",
+      "description_en": "Selected DMD mounting hardware",
+      "description_pt_BR": "Fixadores do DMD escolhido",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "VESA/non-VESA adapters; no permanent model-specific pattern.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F33.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "G11",
+      "description_en": "User-supplied playfield glass",
+      "description_pt_BR": "Vidro do playfield fornecido pelo usuário",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "12",
+      "parent_assembly": "matrix_front_interfaces",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "tempered glass",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/panel_closure_v32.json#glass_study"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "575×1100×5 study, not glass order; front/rear capture remains lockdown-dependent.",
+      "instances": [
+        {
+          "object": "CandidateGlass",
+          "coordinate_xyz_mm": [
+            300.0,
+            575.6808342917767,
+            507.18982799851767
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "glass",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/G11.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E01",
+      "description_en": "Playfield display",
+      "description_pt_BR": "Monitor do playfield",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "PLAYFIELD_ENVELOPE",
+          "coordinate_xyz_mm": [
+            300.0,
+            515.9725850590777,
+            464.08149731341314
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E01.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E02",
+      "description_en": "Backglass display",
+      "description_pt_BR": "Monitor superior",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "BB_Display32",
+          "coordinate_xyz_mm": [
+            300.0,
+            1178.0,
+            1069.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E02.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E03",
+      "description_en": "DMD display",
+      "description_pt_BR": "Tela DMD",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "BB_DMDEnvelope",
+          "coordinate_xyz_mm": [
+            300.0,
+            1196.5,
+            721.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E03.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E04",
+      "description_en": "Backbox speakers",
+      "description_pt_BR": "Alto-falantes superiores",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 2,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "BB_SpeakerEnvelopeL",
+          "coordinate_xyz_mm": [
+            13.0,
+            1207.5,
+            722.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "BB_SpeakerEnvelopeR",
+          "coordinate_xyz_mm": [
+            587.0,
+            1207.5,
+            722.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E04.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E05",
+      "description_en": "PC open chassis and computer",
+      "description_pt_BR": "Gabinete aberto e computador",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "PC_ENVELOPE",
+          "coordinate_xyz_mm": [
+            300.0,
+            1060.0,
+            118.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E05.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E06",
+      "description_en": "SSF exciter",
+      "description_pt_BR": "Excitador SSF",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 4,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "SSF_Exciter1L",
+          "coordinate_xyz_mm": [
+            35.5,
+            320.0,
+            195.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "SSF_Exciter1R",
+          "coordinate_xyz_mm": [
+            564.5,
+            320.0,
+            195.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "SSF_Exciter2L",
+          "coordinate_xyz_mm": [
+            35.5,
+            1107.25061984718,
+            300.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "SSF_Exciter2R",
+          "coordinate_xyz_mm": [
+            564.5,
+            1107.25061984718,
+            300.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E06.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E07",
+      "description_en": "Bass shaker",
+      "description_pt_BR": "Transdutor de graves",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "SSF_BST1_Reference",
+          "coordinate_xyz_mm": [
+            300.0,
+            260.0,
+            79.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E07.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E08",
+      "description_en": "Subwoofer",
+      "description_pt_BR": "Subwoofer",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "SSF_Subwoofer_DCS165_Reference",
+          "coordinate_xyz_mm": [
+            300.0,
+            440.0,
+            81.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E08.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E09",
+      "description_en": "Amplifier",
+      "description_pt_BR": "Amplificador",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "SSF_AmplifierReserve",
+          "coordinate_xyz_mm": [
+            300.0,
+            640.0,
+            232.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E09.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E10",
+      "description_en": "Protected power supply",
+      "description_pt_BR": "Fonte protegida",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "SSF_PSUReserve",
+          "coordinate_xyz_mm": [
+            300.0,
+            940.0,
+            287.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E10.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E11",
+      "description_en": "USB sound interface",
+      "description_pt_BR": "Interface de áudio USB",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "SSF_USBReserve",
+          "coordinate_xyz_mm": [
+            120.0,
+            630.0,
+            214.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E11.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E12",
+      "description_en": "Matrix LED panel",
+      "description_pt_BR": "Painel LED da matriz",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 6,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "MatrixPanel1",
+          "coordinate_xyz_mm": [
+            101.5625,
+            1075.1435552178386,
+            570.1062225379552
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "MatrixPanel2",
+          "coordinate_xyz_mm": [
+            180.93749999999997,
+            1075.1435552178386,
+            570.1062225379552
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "MatrixPanel3",
+          "coordinate_xyz_mm": [
+            260.3125,
+            1075.1435552178386,
+            570.1062225379552
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "MatrixPanel4",
+          "coordinate_xyz_mm": [
+            339.68749999999994,
+            1075.1435552178386,
+            570.1062225379552
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "MatrixPanel5",
+          "coordinate_xyz_mm": [
+            419.06249999999994,
+            1075.1435552178386,
+            570.1062225379552
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "MatrixPanel6",
+          "coordinate_xyz_mm": [
+            498.4375,
+            1075.1435552178386,
+            570.1062225379552
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E12.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E13",
+      "description_en": "Button switches/contacts",
+      "description_pt_BR": "Contatos/interruptores dos botões",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 6,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [
+        {
+          "object": "CoinStudy_LightSwitch1",
+          "coordinate_xyz_mm": [
+            330.0,
+            13.5,
+            321.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CoinStudy_LightSwitch2",
+          "coordinate_xyz_mm": [
+            390.0,
+            13.5,
+            321.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "LeafContacts_primary_L",
+          "coordinate_xyz_mm": [
+            31.0,
+            89.0,
+            336.643661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafContacts_primary_R",
+          "coordinate_xyz_mm": [
+            569.0,
+            89.0,
+            336.643661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafContacts_secondary_L",
+          "coordinate_xyz_mm": [
+            31.0,
+            127.0,
+            343.28028169014084
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafContacts_secondary_R",
+          "coordinate_xyz_mm": [
+            569.0,
+            127.0,
+            343.28028169014084
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E13.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "E14",
+      "description_en": "Optional toys/controllers/LED/relays",
+      "description_pt_BR": "Brinquedos, controladores, LEDs e relés opcionais",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "electronic reference; model selected later",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Not in mandatory flatpack; dimensions from CURRENT occupied envelope only.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/E14.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "B14",
+      "description_en": "Protected mains inlet enclosure reference",
+      "description_pt_BR": "Reserva de invólucro protegido da entrada de rede",
+      "flatpack_classification": "FUTURE_ELECTRONICS_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "insulating/protective enclosure",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Safety-critical electrical interface, not general low-voltage hardware. No exposed terminals; no wiring design in V33.",
+      "instances": [
+        {
+          "object": "CandidateMainsEnclosure",
+          "coordinate_xyz_mm": [
+            95.0,
+            1240.1,
+            435.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/B14.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F42",
+      "description_en": "Subwoofer floor mounting bolts",
+      "description_pt_BR": "Parafusos do subwoofer ao fundo",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 8,
+      "quantity_status": "ARCHITECTURE_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Selected equipment controls thread/length/retention. Existing holes/reserves remain provisional; not included in basic flatpack.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F42.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F43",
+      "description_en": "Bass-shaker carrier floor anchors",
+      "description_pt_BR": "Fixadores da base do transdutor ao fundo",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 4,
+      "quantity_status": "ARCHITECTURE_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Selected equipment controls thread/length/retention. Existing holes/reserves remain provisional; not included in basic flatpack.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F43.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F44",
+      "description_en": "Bass-shaker to carrier fasteners",
+      "description_pt_BR": "Fixadores do transdutor à base",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Selected equipment controls thread/length/retention. Existing holes/reserves remain provisional; not included in basic flatpack.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F44.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F45",
+      "description_en": "Exciter IMS mounting fasteners",
+      "description_pt_BR": "Fixadores IMS dos excitadores",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Selected equipment controls thread/length/retention. Existing holes/reserves remain provisional; not included in basic flatpack.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F45.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F46",
+      "description_en": "PC chassis/base and component restraints",
+      "description_pt_BR": "Fixadores do PC e retenção dos componentes",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Selected equipment controls thread/length/retention. Existing holes/reserves remain provisional; not included in basic flatpack.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F46.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F47",
+      "description_en": "Electronics board shelf standoffs and screws",
+      "description_pt_BR": "Espaçadores e parafusos de placas eletrônicas",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Selected equipment controls thread/length/retention. Existing holes/reserves remain provisional; not included in basic flatpack.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F47.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F48",
+      "description_en": "Matrix panel mounting fasteners",
+      "description_pt_BR": "Fixadores dos painéis da matriz",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Selected equipment controls thread/length/retention. Existing holes/reserves remain provisional; not included in basic flatpack.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F48.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F49",
+      "description_en": "Toy mounting board fasteners",
+      "description_pt_BR": "Fixadores de placas de brinquedos",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Selected equipment controls thread/length/retention. Existing holes/reserves remain provisional; not included in basic flatpack.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F49.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F50",
+      "description_en": "Mains/network flange and enclosure fasteners",
+      "description_pt_BR": "Fixadores das flanges e invólucros de rede/energia",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Selected equipment controls thread/length/retention. Existing holes/reserves remain provisional; not included in basic flatpack.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F50.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "B15",
+      "description_en": "Playfield replaceable VESA attachment",
+      "description_pt_BR": "Fixação VESA substituível do playfield",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "adapter interface; exact construction TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "CURRENT envelope is not a CNC wood part or selected bracket; no metal pivot introduced.",
+      "instances": [
+        {
+          "object": "PF_VESAEnvelope",
+          "coordinate_xyz_mm": [
+            300.0,
+            521.3919636965308,
+            433.05118414735057
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/B15.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F51",
+      "description_en": "Playfield display-to-adapter fasteners",
+      "description_pt_BR": "Fixadores do monitor ao adaptador do playfield",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Supplier-defined VESA screw depth/count; independent of eight saddle screws.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F51.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "R01",
+      "description_en": "Cable / connector routing reserves",
+      "description_pt_BR": "Reservas de passagem de cabos/conectores",
+      "flatpack_classification": "REFERENCE_ONLY_NOT_FROZEN",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 0,
+      "quantity_status": "NOT_PHYSICAL",
+      "unit": "piece",
+      "material": "nonphysical clearance",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "NOT A PURCHASE. CAD solids are clearance envelopes; retain in exploded metadata as hidden guides.",
+      "instances": [
+        {
+          "object": "FloorFanConnectorReserveL",
+          "coordinate_xyz_mm": [
+            150.0,
+            780.0,
+            47.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanConnectorReserveR",
+          "coordinate_xyz_mm": [
+            450.0,
+            780.0,
+            47.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "MX_FixedConnectorReserve",
+          "coordinate_xyz_mm": [
+            70.0,
+            1115.0,
+            536.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "MX_MovingConnectorReserve",
+          "coordinate_xyz_mm": [
+            70.0,
+            1105.0,
+            536.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "MX_CableLoopReserve",
+          "coordinate_xyz_mm": [
+            126.70033370248535,
+            1115.0,
+            548.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "MX_FixedCableReserve",
+          "coordinate_xyz_mm": [
+            70.0,
+            1147.5,
+            534.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "BB_FlexCorridorL",
+          "coordinate_xyz_mm": [
+            7.231665035942569,
+            1300.0,
+            1057.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "BB_FlexCorridorR",
+          "coordinate_xyz_mm": [
+            592.7683349640574,
+            1300.0,
+            1057.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/R01.FCStd"
+      },
+      "service_removable": false,
+      "normal_assembly_removable": false,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "R02",
+      "description_en": "Button service approach reserves",
+      "description_pt_BR": "Reservas de acesso de serviço dos botões",
+      "flatpack_classification": "REFERENCE_ONLY_NOT_FROZEN",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 0,
+      "quantity_status": "NOT_PHYSICAL",
+      "unit": "piece",
+      "material": "nonphysical clearance",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "NOT A PURCHASE. CAD solids are clearance envelopes; retain in exploded metadata as hidden guides.",
+      "instances": [
+        {
+          "object": "ButtonWireServiceReserve_primary_L",
+          "coordinate_xyz_mm": [
+            52.0,
+            96.0,
+            340.143661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonToolServiceReserve_primary_L",
+          "coordinate_xyz_mm": [
+            56.5,
+            89.0,
+            350.593661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonBodyServiceReserve_primary_L",
+          "coordinate_xyz_mm": [
+            12.5,
+            89.0,
+            350.593661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonLeafServiceReserve_primary_L",
+          "coordinate_xyz_mm": [
+            31.0,
+            89.0,
+            328.143661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonWireServiceReserve_primary_R",
+          "coordinate_xyz_mm": [
+            548.0,
+            96.0,
+            340.143661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonToolServiceReserve_primary_R",
+          "coordinate_xyz_mm": [
+            543.5,
+            89.0,
+            350.593661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonBodyServiceReserve_primary_R",
+          "coordinate_xyz_mm": [
+            587.5,
+            89.0,
+            350.593661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonLeafServiceReserve_primary_R",
+          "coordinate_xyz_mm": [
+            569.0,
+            89.0,
+            328.143661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonWireServiceReserve_secondary_L",
+          "coordinate_xyz_mm": [
+            52.0,
+            134.0,
+            346.78028169014084
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonToolServiceReserve_secondary_L",
+          "coordinate_xyz_mm": [
+            56.5,
+            127.0,
+            357.2302816901408
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonBodyServiceReserve_secondary_L",
+          "coordinate_xyz_mm": [
+            12.5,
+            127.0,
+            357.2302816901408
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonLeafServiceReserve_secondary_L",
+          "coordinate_xyz_mm": [
+            31.0,
+            127.0,
+            334.78028169014084
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonWireServiceReserve_secondary_R",
+          "coordinate_xyz_mm": [
+            548.0,
+            134.0,
+            346.78028169014084
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonToolServiceReserve_secondary_R",
+          "coordinate_xyz_mm": [
+            543.5,
+            127.0,
+            357.2302816901408
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonBodyServiceReserve_secondary_R",
+          "coordinate_xyz_mm": [
+            587.5,
+            127.0,
+            357.2302816901408
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "ButtonLeafServiceReserve_secondary_R",
+          "coordinate_xyz_mm": [
+            569.0,
+            127.0,
+            334.78028169014084
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/R02.FCStd"
+      },
+      "service_removable": false,
+      "normal_assembly_removable": false,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "R03",
+      "description_en": "Future toy mounting volumes",
+      "description_pt_BR": "Volumes livres para brinquedos",
+      "flatpack_classification": "REFERENCE_ONLY_NOT_FROZEN",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 0,
+      "quantity_status": "NOT_PHYSICAL",
+      "unit": "piece",
+      "material": "nonphysical clearance",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "NOT A PURCHASE. CAD solids are clearance envelopes; retain in exploded metadata as hidden guides.",
+      "instances": [
+        {
+          "object": "BB_ToyZoneUpperL",
+          "coordinate_xyz_mm": [
+            -20.0,
+            1266.5,
+            1053.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "BB_ToyZoneUpperR",
+          "coordinate_xyz_mm": [
+            620.0,
+            1266.5,
+            1053.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "BB_ToyZoneLowerL",
+          "coordinate_xyz_mm": [
+            -44.0,
+            1274.0,
+            723.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "BB_ToyZoneLowerR",
+          "coordinate_xyz_mm": [
+            644.0,
+            1274.0,
+            723.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/R03.FCStd"
+      },
+      "service_removable": false,
+      "normal_assembly_removable": false,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "R04",
+      "description_en": "Unpopulated equipment/payload/plunger reserves",
+      "description_pt_BR": "Reservas de equipamentos, carga e plunger",
+      "flatpack_classification": "REFERENCE_ONLY_NOT_FROZEN",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 0,
+      "quantity_status": "NOT_PHYSICAL",
+      "unit": "piece",
+      "material": "nonphysical clearance",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "NOT A PURCHASE. CAD solids are clearance envelopes; retain in exploded metadata as hidden guides.",
+      "instances": [
+        {
+          "object": "PLUNGER_RESERVED",
+          "coordinate_xyz_mm": [
+            520.0,
+            119.0,
+            280.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "SHELF_1_CandidatePayload",
+          "coordinate_xyz_mm": [
+            300.0,
+            195.0,
+            202.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/R04.FCStd"
+      },
+      "service_removable": false,
+      "normal_assembly_removable": false,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    }
+  ]
+}

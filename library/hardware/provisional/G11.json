@@ -1,0 +1,13 @@
+{
+  "id": "G11",
+  "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {},
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "config/panel_closure_v32.json#glass_study"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}

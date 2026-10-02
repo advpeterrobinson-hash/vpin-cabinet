@@ -1,0 +1,53 @@
+{
+  "catalog_families_including_electronics_and_reserves": 148,
+  "classification_counts": {
+    "REQUIRED_FLATPACK_HARDWARE": 91,
+    "OPTIONAL_FLATPACK_HARDWARE": 22,
+    "USER_ADAPTER_HARDWARE": 16,
+    "FUTURE_ELECTRONICS_HARDWARE": 15,
+    "REFERENCE_ONLY_NOT_FROZEN": 4
+  },
+  "physical_hardware_consumable_adapter_families": 129,
+  "purchase_before_cnc_families": 90,
+  "provisional_families": 148,
+  "wood_CAD_component_counts": {
+    "STRUCTURAL_PREMIUM": 72,
+    "MODULAR_SECONDARY": 21
+  },
+  "wood_scheduled_piece_counts": {
+    "STRUCTURAL_PREMIUM": 96,
+    "MODULAR_SECONDARY": 21
+  },
+  "wood_decomposition_holds": [
+    "P049",
+    "P064",
+    "P065",
+    "P075",
+    "P076",
+    "P077",
+    "P078",
+    "P083",
+    "P084",
+    "P085",
+    "P086"
+  ],
+  "required_unknown_quantity_ids": [
+    "F06",
+    "G01",
+    "F53",
+    "W06",
+    "F16",
+    "F18",
+    "F19",
+    "F22",
+    "F28",
+    "F31",
+    "F36",
+    "F38",
+    "F39"
+  ],
+  "fastener_washer_nut_insert_families_before": 78,
+  "fastener_washer_nut_insert_families_after": 76,
+  "all_CURRENT_objects_accounted_for": 438,
+  "manufacturing_ready": false
+}

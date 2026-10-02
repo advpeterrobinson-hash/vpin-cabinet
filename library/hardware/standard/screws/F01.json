@@ -1,0 +1,18 @@
+{
+  "id": "F01",
+  "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {
+    "diameter_mm": 4.5,
+    "length_mm": 30,
+    "head_diameter_mm": 9,
+    "head": "countersunk"
+  },
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "config/wood_dowel_pivot_v32.json#fixing"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}

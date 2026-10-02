@@ -1,0 +1,1996 @@
+{
+  "source_head": "0aa4ea77531c59274a0b8547a71e731626bd2cf2",
+  "manufacturing_ready": false,
+  "files": [
+    {
+      "file": "config/hardware_catalog_v33.json",
+      "bytes": 486421,
+      "sha256": "a2d0ddf9623a2271a8a51562ea4b73bad6d6ddbdb8024444adebceb07658cb5a"
+    },
+    {
+      "file": "config/wood_materials_v33.json",
+      "bytes": 137334,
+      "sha256": "cfd1137736090561ad14e71f255f6118f7d910be24c68a57f1b99c63214e1422"
+    },
+    {
+      "file": "exports/generated/hardware-v33/01-families.FCStd",
+      "bytes": 181420,
+      "sha256": "80944d3469c95dc6a1d0e7865a4f11e4bfdf10be76b44f1e8af77fda4cdaf181"
+    },
+    {
+      "file": "exports/generated/hardware-v33/01-installed.FCStd",
+      "bytes": 402428,
+      "sha256": "14fa9c923c53ffc0653c466a07e573285130c60edbf0d0bb4da7a575c2a5ce0e"
+    },
+    {
+      "file": "exports/generated/hardware-v33/01-installed.png",
+      "bytes": 238427,
+      "sha256": "9b69e77b59fe5145d8bbf3ce04b2a67c02b3a9bed0e7da91215fe0b27d0447cd"
+    },
+    {
+      "file": "exports/generated/hardware-v33/01-review.png",
+      "bytes": 1126517,
+      "sha256": "a4f876b08b682082388cdf2f596d18948ed6782f5f0596e667339cbec4a3c086"
+    },
+    {
+      "file": "exports/generated/hardware-v33/02-families.FCStd",
+      "bytes": 8703,
+      "sha256": "473f20be5900ee1cd323390f21248b67a6c4a9fc8c2fe6aea2794152a2b89a90"
+    },
+    {
+      "file": "exports/generated/hardware-v33/02-installed.FCStd",
+      "bytes": 40131,
+      "sha256": "d432475ff847778a829553a08decd66bff719c96b09f031a783921d969da02cf"
+    },
+    {
+      "file": "exports/generated/hardware-v33/02-installed.png",
+      "bytes": 94092,
+      "sha256": "a18db764fa519fe43d61d19e4576d0e76346ef5aa9b17616decef6e4cff0d88e"
+    },
+    {
+      "file": "exports/generated/hardware-v33/02-review.png",
+      "bytes": 106646,
+      "sha256": "fa8b3c4772e0f63f3830a3cf7d013faf2ac53738ff63effda86f9a1e82bdaef1"
+    },
+    {
+      "file": "exports/generated/hardware-v33/03-families.FCStd",
+      "bytes": 31716,
+      "sha256": "0040e8e631dde709faa597a0b8f880bb1a0d55f5974a2a017df75888da4ff2a2"
+    },
+    {
+      "file": "exports/generated/hardware-v33/03-installed.FCStd",
+      "bytes": 124577,
+      "sha256": "31e0a9cbab1696818a9d37463109646a1536f4a5c02f8d39a54e87eedd715f43"
+    },
+    {
+      "file": "exports/generated/hardware-v33/03-installed.png",
+      "bytes": 118855,
+      "sha256": "78aeaf7857193de460497375f6c7ab6d435c7f5a29a5a12530c54731c48728da"
+    },
+    {
+      "file": "exports/generated/hardware-v33/03-review.png",
+      "bytes": 272364,
+      "sha256": "a31e92a2e1e8c128b9905fc6d8bf5e55ab0c72e6e0c7cc85be3d3525c2b6995c"
+    },
+    {
+      "file": "exports/generated/hardware-v33/04-families.FCStd",
+      "bytes": 37391,
+      "sha256": "901b2beed7e9d4f07ce7c975176ea291cc1ed2190b0d8085277f7ee913fbcc1e"
+    },
+    {
+      "file": "exports/generated/hardware-v33/04-installed.FCStd",
+      "bytes": 34105,
+      "sha256": "212382b0742bbd0478ae8905a46987a4c283a5bac91edc71a6b234c4486237b7"
+    },
+    {
+      "file": "exports/generated/hardware-v33/04-installed.png",
+      "bytes": 115594,
+      "sha256": "2e59b05780c19c149e33bf203a5307bd020da26c4901a03e8f36fc33b2eecc60"
+    },
+    {
+      "file": "exports/generated/hardware-v33/04-review.png",
+      "bytes": 197334,
+      "sha256": "b2bb10f6b0eb8a9f48ebae11a813d55473879e5c9c379b6a4b3355b9113994c8"
+    },
+    {
+      "file": "exports/generated/hardware-v33/05-families.FCStd",
+      "bytes": 31307,
+      "sha256": "f40e959cfec153cc3927e5973ef6b85544684f9556a17023ed444321d060b677"
+    },
+    {
+      "file": "exports/generated/hardware-v33/05-installed.FCStd",
+      "bytes": 137594,
+      "sha256": "301c4dc08329bc940d7a26392428071359c19564c06625f659a004bcc42b9690"
+    },
+    {
+      "file": "exports/generated/hardware-v33/05-installed.png",
+      "bytes": 110868,
+      "sha256": "837fbdf23907ba93caccddc056106cc84a1dc23a8c1d8199d13259599919f63d"
+    },
+    {
+      "file": "exports/generated/hardware-v33/05-review.png",
+      "bytes": 290950,
+      "sha256": "dbe4cfa82dd8c5a1c25ee30420aa64ac9386cc2a02df1faecc84521fa54a4ae2"
+    },
+    {
+      "file": "exports/generated/hardware-v33/06-families.FCStd",
+      "bytes": 19807,
+      "sha256": "466ab8422196a83cda7c7a93f87d1d602c7222e542076b370ee919ae123b68ee"
+    },
+    {
+      "file": "exports/generated/hardware-v33/06-review.png",
+      "bytes": 178258,
+      "sha256": "494dd954dfa35d71fe90d4d7de0eb514b1abdde25ec9ba4a4637638091b2f242"
+    },
+    {
+      "file": "exports/generated/hardware-v33/07-families.FCStd",
+      "bytes": 31359,
+      "sha256": "3c5e880ec6216a3b3adb975da9fd1652729216fca1b844db91458008f9e5373f"
+    },
+    {
+      "file": "exports/generated/hardware-v33/07-installed.FCStd",
+      "bytes": 37484,
+      "sha256": "4fc4a4f5962e0dc2dfa649bee76cc864c14d5349b8325dc1d59c567cec35a323"
+    },
+    {
+      "file": "exports/generated/hardware-v33/07-installed.png",
+      "bytes": 73989,
+      "sha256": "f606a7c4f1dd3ddb7b4c809186762afb89e897a24273690d3b4d4796e58a1639"
+    },
+    {
+      "file": "exports/generated/hardware-v33/07-review.png",
+      "bytes": 248520,
+      "sha256": "4624a557a5b2afb6050cea678e6001624ee43e365bd0f632f1e4eebdfcc43df8"
+    },
+    {
+      "file": "exports/generated/hardware-v33/08-families.FCStd",
+      "bytes": 19088,
+      "sha256": "41e2754788ec01d2cc1d0a71d6ab12121af6339afb9052eeafd3e91d5007e57d"
+    },
+    {
+      "file": "exports/generated/hardware-v33/08-installed.FCStd",
+      "bytes": 25193,
+      "sha256": "df09bc1d16a9cd3af36692270687b4067f7eeca94c0e6682a9d4987902cf9546"
+    },
+    {
+      "file": "exports/generated/hardware-v33/08-installed.png",
+      "bytes": 148088,
+      "sha256": "976c822a4a061ca0544bfa15e92d801a4dc048098f357ba706447d6c980fcf45"
+    },
+    {
+      "file": "exports/generated/hardware-v33/08-review.png",
+      "bytes": 136842,
+      "sha256": "3de0fd2cf6fd21320af76a4a40b2f3b0c90fa0cc3038244af298ccb07ab3da58"
+    },
+    {
+      "file": "exports/generated/hardware-v33/09-families.FCStd",
+      "bytes": 39215,
+      "sha256": "3d585ae9bb324e8562f5f5a5c71cf5a5f23c9fdd4ccaa73f7979e9aabe2f1994"
+    },
+    {
+      "file": "exports/generated/hardware-v33/09-installed.FCStd",
+      "bytes": 24207,
+      "sha256": "4794bcb350db12cdd083dd3f567e8feaf07f8b025760cb9470241b339ffe741c"
+    },
+    {
+      "file": "exports/generated/hardware-v33/09-installed.png",
+      "bytes": 79619,
+      "sha256": "90334e25a6739f39c2fa9ad013aebcb05ef3ce7dbb9484319695a45e3343efae"
+    },
+    {
+      "file": "exports/generated/hardware-v33/09-review.png",
+      "bytes": 227269,
+      "sha256": "19098d9f75a825806f5bbb867f5552a9266fc09561c887f3ff52181fd2f811a7"
+    },
+    {
+      "file": "exports/generated/hardware-v33/10-families.FCStd",
+      "bytes": 32235,
+      "sha256": "2ffcf550bd13d17e12fafa5c2ce3d6488f166fbeb40d16b6972cd214aba6616c"
+    },
+    {
+      "file": "exports/generated/hardware-v33/10-installed.FCStd",
+      "bytes": 22854,
+      "sha256": "9fa85e6f83eeda477365021885c68e18eeac34b84ddb502d98489482d060cae9"
+    },
+    {
+      "file": "exports/generated/hardware-v33/10-installed.png",
+      "bytes": 178684,
+      "sha256": "af9c2ad9dde5b18403813019e939ca4a111077d1e9c59548c02ef89c1969160f"
+    },
+    {
+      "file": "exports/generated/hardware-v33/10-review.png",
+      "bytes": 229693,
+      "sha256": "36e616c0e7a301fe738fa6cf0a9bae07707a3f3bd88f57bf282a8b77b8fac3d5"
+    },
+    {
+      "file": "exports/generated/hardware-v33/11-families.FCStd",
+      "bytes": 14062,
+      "sha256": "0b85ca58e976a60fe791deda063eec1434643188d8fdd10ee01ffed13a8b1dea"
+    },
+    {
+      "file": "exports/generated/hardware-v33/11-installed.FCStd",
+      "bytes": 6130,
+      "sha256": "ae4f0c01934ee711ec297324bada18f2bbb096efa99d7902dbb9e3c058de07bc"
+    },
+    {
+      "file": "exports/generated/hardware-v33/11-installed.png",
+      "bytes": 88642,
+      "sha256": "f35ab337db929dd71edf8bd20d3da8042311d977d307c7313d48d5ef05ec75f0"
+    },
+    {
+      "file": "exports/generated/hardware-v33/11-review.png",
+      "bytes": 94259,
+      "sha256": "eaaa2ed6d37397c588409bef0ba9457869494ab8402ebe8468d64b2436fe145c"
+    },
+    {
+      "file": "exports/generated/hardware-v33/12-families.FCStd",
+      "bytes": 23834,
+      "sha256": "cc1b57ab941ca8066272ee572374582c33ddb8f8fa9fd4e9e92ab7b8eb3d4b74"
+    },
+    {
+      "file": "exports/generated/hardware-v33/12-installed.FCStd",
+      "bytes": 21106,
+      "sha256": "099e7c4e53f3acd8eec4299fe9a3d1676203577660d4ef611795afd809d67ef9"
+    },
+    {
+      "file": "exports/generated/hardware-v33/12-installed.png",
+      "bytes": 77782,
+      "sha256": "f5b7e4f21f02ed706a0b582d58fbf8768f0cb00caa3693e45487c7f28140f984"
+    },
+    {
+      "file": "exports/generated/hardware-v33/12-review.png",
+      "bytes": 169649,
+      "sha256": "769ef395745125ea3c9813c333e3d72d78597db5c9cf0b2fe8fbfd290ec7063a"
+    },
+    {
+      "file": "exports/generated/hardware-v33/13-families.FCStd",
+      "bytes": 30205,
+      "sha256": "4cbb935a4332d4a0e92cf6a52f9af9ac0b0cf8a94d0319acb364f79fd88d153b"
+    },
+    {
+      "file": "exports/generated/hardware-v33/13-installed.FCStd",
+      "bytes": 10556,
+      "sha256": "a71cfba9f4526f3c0a029b44612f8fe46e48e3a61cc04edfe54a045f92561f75"
+    },
+    {
+      "file": "exports/generated/hardware-v33/13-installed.png",
+      "bytes": 197763,
+      "sha256": "832334e16090d8eaf4b338f66afa0726f3e09d67aa5d7c5b67608309ca1fa18a"
+    },
+    {
+      "file": "exports/generated/hardware-v33/13-review.png",
+      "bytes": 151115,
+      "sha256": "54b244970853436fb70b9d975c86f32fa3d9cf4588525999299f66d82a9000f7"
+    },
+    {
+      "file": "exports/generated/hardware-v33/14-families.FCStd",
+      "bytes": 254877,
+      "sha256": "5439a74c0a7ad5be7f9c5f856166ab2460db803fd02f8689a52b0e88e93b72e5"
+    },
+    {
+      "file": "exports/generated/hardware-v33/14-installed.FCStd",
+      "bytes": 343993,
+      "sha256": "3dc965f2174ba1a7235b1871a8ca90e011cda557eef453991da9d927830d6268"
+    },
+    {
+      "file": "exports/generated/hardware-v33/14-installed.png",
+      "bytes": 367636,
+      "sha256": "f5e75b8898a46172039bc6b9f5882c5445ca1726f44a090cb2a6382d42aa8a5f"
+    },
+    {
+      "file": "exports/generated/hardware-v33/14-review.png",
+      "bytes": 1670286,
+      "sha256": "32a0e4d36dad32962e32608b2bf0b533c647960646d88fb7937b58e6389553b5"
+    },
+    {
+      "file": "exports/generated/hardware-v33/15-families.FCStd",
+      "bytes": 85134,
+      "sha256": "3c803d265fdfa85531445dc5e03fa2b8e40805d2bd647bf00ecfc99251b24094"
+    },
+    {
+      "file": "exports/generated/hardware-v33/15-installed.FCStd",
+      "bytes": 167373,
+      "sha256": "a1b9f38798bdbf6ed861578d3f45b1e54f3d42373f7c850e5f7f7dc402ea1b6a"
+    },
+    {
+      "file": "exports/generated/hardware-v33/15-installed.png",
+      "bytes": 227216,
+      "sha256": "10c870eb8297bd0ba9aeadaca4125af7efce3722e64c10996141085f6bbcc71c"
+    },
+    {
+      "file": "exports/generated/hardware-v33/15-review.png",
+      "bytes": 454890,
+      "sha256": "fd1c0fc4b07c96cabaadfe92d775e2851647e5c04c7b3df5e7384d0a1e33f291"
+    },
+    {
+      "file": "exports/generated/hardware-v33/LICENSE",
+      "bytes": 13419,
+      "sha256": "d6475a84171f0cf7ff52667dea714df268fc65cea42f0bf328b0b70d4cd0ebab"
+    },
+    {
+      "file": "exports/generated/hardware-v33/NOTICE.md",
+      "bytes": 1583,
+      "sha256": "5cbb14ae5fd1b50250019488ee8b0a172ad5b55a71d7e15da2d3456f9d8ffc8d"
+    },
+    {
+      "file": "exports/generated/hardware-v33/assembly-dependencies.json",
+      "bytes": 5222,
+      "sha256": "7c976018e036aec22622877986b2fd92d8480531247fad4f7b71da7f8c6be577"
+    },
+    {
+      "file": "exports/generated/hardware-v33/bom-preview.png",
+      "bytes": 116641,
+      "sha256": "8dc846da867724a506a75b62802f2cc2940a7924d010b17c2bee9e3786e8ce79"
+    },
+    {
+      "file": "exports/generated/hardware-v33/bom.csv",
+      "bytes": 140954,
+      "sha256": "65d0ff9764411259da0f36340c522e5884e039900559678eea2f0ca98a7bfde4"
+    },
+    {
+      "file": "exports/generated/hardware-v33/bom.json",
+      "bytes": 324649,
+      "sha256": "f4f9e0550efa648fb8a924ca95f5ec38f5aa5e3ff88ea6aab69c75de253b4fd5"
+    },
+    {
+      "file": "exports/generated/hardware-v33/cad-library-validation.json",
+      "bytes": 40892,
+      "sha256": "78c0ddffcd90977840f55c5ea5f4fc68d9eb0b2f9ea6180d52b4931c3f2d7559"
+    },
+    {
+      "file": "exports/generated/hardware-v33/csv-validation.json",
+      "bytes": 551,
+      "sha256": "9ccb6a927fdcd3ec0bdd583ed9da4d60acd0c1eee6fb606222621bf84efb58d8"
+    },
+    {
+      "file": "exports/generated/hardware-v33/exploded-metadata.json",
+      "bytes": 400759,
+      "sha256": "91e14731f55c44230cb42f4b29836d08e025ae7185466e9bdc030f9e75e8ff0e"
+    },
+    {
+      "file": "exports/generated/hardware-v33/flatpack-bom-en.md",
+      "bytes": 113416,
+      "sha256": "34cb02b1ccce4760a3928859f11be829802173ecf80c3520b00b3752b2fdf896"
+    },
+    {
+      "file": "exports/generated/hardware-v33/flatpack-bom-pt-BR.md",
+      "bytes": 117485,
+      "sha256": "cbe688417d93156fbeaf061bde959ec421ffe73725bec376302c44a9f7ae034b"
+    },
+    {
+      "file": "exports/generated/hardware-v33/future-electronics.json",
+      "bytes": 96619,
+      "sha256": "fc1fdcf148eddd48735533ce46d2658e759cb7e66c45bbdc1856b3a06f248981"
+    },
+    {
+      "file": "exports/generated/hardware-v33/future-electronics.md",
+      "bytes": 7323,
+      "sha256": "f85426111663f4ea763c26c7c4fee599724fd5b4e8509fe5264ff0638056001a"
+    },
+    {
+      "file": "exports/generated/hardware-v33/hardware-status.md",
+      "bytes": 19953,
+      "sha256": "cc894e95b2a1e15855daa6ca5ebc78e53d509f21446f5a4bc559e83c10608fb2"
+    },
+    {
+      "file": "exports/generated/hardware-v33/index.html",
+      "bytes": 7906,
+      "sha256": "ce22577010cb39767269207297d2f888420d297bb5bab79704afc7b1cd8f76b7"
+    },
+    {
+      "file": "exports/generated/hardware-v33/installed-mesh.json.gz",
+      "bytes": 13217062,
+      "sha256": "80879c7e0fea1fd3d1e8edc171d7d7e6f8378085aae1580b2b4de89c076c396b"
+    },
+    {
+      "file": "exports/generated/hardware-v33/optional-accessories.json",
+      "bytes": 80329,
+      "sha256": "d062672426835d84a5f90bcf9fffd79ba6c8259aad3175d749f701682f792086"
+    },
+    {
+      "file": "exports/generated/hardware-v33/optional-accessories.md",
+      "bytes": 4852,
+      "sha256": "b611b729e68ae0a8e987a4e8d80aa43d94992399ec92fac21b683f2495e30f8b"
+    },
+    {
+      "file": "exports/generated/hardware-v33/purchase-before-assembly.json",
+      "bytes": 120637,
+      "sha256": "38bb3a994d58501b254821fd23493441e24616fb5cc3465a1cac56208b14e34f"
+    },
+    {
+      "file": "exports/generated/hardware-v33/purchase-before-assembly.md",
+      "bytes": 7457,
+      "sha256": "741ee962e4315b34d573c2c25f41decc021b4a41565b1e1d382ad747ee81033b"
+    },
+    {
+      "file": "exports/generated/hardware-v33/purchase-before-cnc.json",
+      "bytes": 282398,
+      "sha256": "f0f734208fc5586a21268f17dca30e94d28900c9607cc4d579c1022ae321b4b0"
+    },
+    {
+      "file": "exports/generated/hardware-v33/purchase-before-cnc.md",
+      "bytes": 19227,
+      "sha256": "d41dc797a1cf828d8b7c00fa498d0471c802368fcff961301164779149336d53"
+    },
+    {
+      "file": "exports/generated/hardware-v33/review-mesh.json.gz",
+      "bytes": 2920325,
+      "sha256": "53773cc98e62fb035d9bb0c9d1842d1555457f885bd7801336edffef88e8da41"
+    },
+    {
+      "file": "exports/generated/hardware-v33/review-views.json",
+      "bytes": 8647,
+      "sha256": "8937e075a53100be2e603f94cf3e6a2c8fa35a32f154c14811309d80bd7045f4"
+    },
+    {
+      "file": "exports/generated/hardware-v33/summary.json",
+      "bytes": 1132,
+      "sha256": "718eb5c9218a72e643c7bc4a4f11b4def02eb5597fd1b78c1fe7bceca916eca1"
+    },
+    {
+      "file": "exports/generated/hardware-v33/tools.json",
+      "bytes": 2509,
+      "sha256": "f278d7d2f4bdd67745edc86f43110ab9b23711deda48e9a19de135e2123beb80"
+    },
+    {
+      "file": "exports/generated/hardware-v33/tools.md",
+      "bytes": 1847,
+      "sha256": "b59862eda8bec07e33b1d46eec5680e19914c21fce2edd43806abbb29efb6074"
+    },
+    {
+      "file": "exports/generated/hardware-v33/validation.json",
+      "bytes": 13978,
+      "sha256": "33d00985a9c6ac1507430242328e73d21adbd335f7630dd7dd238162701c0b22"
+    },
+    {
+      "file": "exports/generated/hardware-v33/wood-material-map.md",
+      "bytes": 8043,
+      "sha256": "6dc26b6ee1a41d04d743840da4111b5b86be477da4ba9c6d5a159af7bc60d243"
+    },
+    {
+      "file": "library/hardware/.gitignore",
+      "bytes": 8,
+      "sha256": "28399973a10cc83ed88f5514439e3430c68d24eb6f65db108df49131650ad93f"
+    },
+    {
+      "file": "library/hardware/README.md",
+      "bytes": 2961,
+      "sha256": "df19ae075687967bbc5a66d4bede915909b2b85eac34038b8e7cae4f8187360b"
+    },
+    {
+      "file": "library/hardware/current-object-audit.json",
+      "bytes": 514168,
+      "sha256": "df5585744287df52dfb090262f216f277d0374c15847a7ce72e14e42b70c7e4e"
+    },
+    {
+      "file": "library/hardware/doors/hinges/H02.FCStd",
+      "bytes": 9447,
+      "sha256": "12b44ae15e5e7c1555e93c3f887af804ff97fc70a7511ff499d02d8cfebbb3be"
+    },
+    {
+      "file": "library/hardware/doors/hinges/H02.json",
+      "bytes": 362,
+      "sha256": "b3925586a5dd0c885142c20ef9e5c5c1379870fb7ccce8641553214d95f154d5"
+    },
+    {
+      "file": "library/hardware/doors/hinges/H14.FCStd",
+      "bytes": 3892,
+      "sha256": "2b2af024d80a447b91e7ecf688e640de21e8b42eacef7bfcfad0328702e67092"
+    },
+    {
+      "file": "library/hardware/doors/hinges/H14.json",
+      "bytes": 373,
+      "sha256": "a8c776a1cc16bafa0e906bfe8620fd2c2309e311d9e814a9ed175845ef9a839a"
+    },
+    {
+      "file": "library/hardware/doors/locks/H03.FCStd",
+      "bytes": 5358,
+      "sha256": "7f3f4a678e0274dd25cc39791cfd21154d1a17aa8fbeb857f7b5dee7c12ec81a"
+    },
+    {
+      "file": "library/hardware/doors/locks/H03.json",
+      "bytes": 362,
+      "sha256": "4993c2fe9b2bc06c5469521519f676ba8172754434946f1ed4b4d5537201f388"
+    },
+    {
+      "file": "library/hardware/doors/locks/H11.FCStd",
+      "bytes": 2557,
+      "sha256": "3d7ba4684663a5ef2eff8b2d05fd6fecbe554598ead27ab06586c18323008dce"
+    },
+    {
+      "file": "library/hardware/doors/locks/H11.json",
+      "bytes": 487,
+      "sha256": "8a86dcecc77e41a279e89767da02827215e6f984d5cc5d9b7f90c0141ef6a8e0"
+    },
+    {
+      "file": "library/hardware/doors/locks/H15.FCStd",
+      "bytes": 3945,
+      "sha256": "fe1027046b3deff080b6e0d26ff2f6de747e7857c32140a7993b856b62d6b416"
+    },
+    {
+      "file": "library/hardware/doors/locks/H15.json",
+      "bytes": 389,
+      "sha256": "e8d6dfeb9e367f74c8931f40f26d0caa576b7b39dc4a8b86f8ced843996af96e"
+    },
+    {
+      "file": "library/hardware/doors/locks/H16.FCStd",
+      "bytes": 3353,
+      "sha256": "23cd4c988e4b618f76f8608ce3fa5416ab3671ec4bae1825a2aec4ccd73804b5"
+    },
+    {
+      "file": "library/hardware/doors/locks/H16.json",
+      "bytes": 389,
+      "sha256": "d265992c2f93a7a47371a069e5fc94d28973a3120f9c139744cb8c0086e240b8"
+    },
+    {
+      "file": "library/hardware/fans/B04.FCStd",
+      "bytes": 15214,
+      "sha256": "10502cae95435b94223d6123c55422e0afc6a4d91635ed2cbda5e08d05e92372"
+    },
+    {
+      "file": "library/hardware/fans/B04.json",
+      "bytes": 389,
+      "sha256": "f0153153fd9b29b59ea3031482428b15e126eaf96afc0d06774f7a672650a8ba"
+    },
+    {
+      "file": "library/hardware/fans/B05.FCStd",
+      "bytes": 3179,
+      "sha256": "b4ca8cad911483542fcc020aec6ab28bf3411b3914a5c2c2ad8f9aa7d44a98bf"
+    },
+    {
+      "file": "library/hardware/fans/B05.json",
+      "bytes": 389,
+      "sha256": "a5beb40d3391d4a2c79c6d3e4db1dbe9fedc77308e729815309b5635c1073830"
+    },
+    {
+      "file": "library/hardware/fans/B06.FCStd",
+      "bytes": 3296,
+      "sha256": "20496fb6c201bc972424c8521354e31cf265c89d0d3523076bac5a9148e037e8"
+    },
+    {
+      "file": "library/hardware/fans/B06.json",
+      "bytes": 389,
+      "sha256": "7862f5e16b669c488f9c96916bfe9f62e1deff83f2ede67c5606d2805debe27e"
+    },
+    {
+      "file": "library/hardware/fans/B09.FCStd",
+      "bytes": 7209,
+      "sha256": "c6a51d026f3b66de134fc352f317b36f9fb0e523bece7401637832277a3a5089"
+    },
+    {
+      "file": "library/hardware/fans/B09.json",
+      "bytes": 389,
+      "sha256": "c433b51c1f8b5a0a1f2a8479abbf0dae6bae9dfe4d1065da21658cb432686c8b"
+    },
+    {
+      "file": "library/hardware/fans/B10.FCStd",
+      "bytes": 3104,
+      "sha256": "102b1070fee059995aaf98155844cb11cc302e8ee3f60fd6193f851effc88de0"
+    },
+    {
+      "file": "library/hardware/fans/B10.json",
+      "bytes": 389,
+      "sha256": "1522bc663723fe3c84bf76cad22b3731773b39dce52b0a59b4980af2482ef515"
+    },
+    {
+      "file": "library/hardware/fans/B11.FCStd",
+      "bytes": 5392,
+      "sha256": "407317b1bf539b4be80ae06a9a00f61244c3fd1b76d6b555fe16158f883a936e"
+    },
+    {
+      "file": "library/hardware/fans/B11.json",
+      "bytes": 463,
+      "sha256": "89d66283120a79fff46c4db6ef8f8259610cf71280eb25972f45fd9db9a6919c"
+    },
+    {
+      "file": "library/hardware/fans/F13.FCStd",
+      "bytes": 5400,
+      "sha256": "a967fa4585d781b9280ff5ecc0eca1b795c399ebaad047e734e005fd8a33f495"
+    },
+    {
+      "file": "library/hardware/fans/F13.json",
+      "bytes": 402,
+      "sha256": "c1b63284e6c8540408c37353b85d10a3d8008cefdf6d1df90ec692090d6853e4"
+    },
+    {
+      "file": "library/hardware/fans/F22.FCStd",
+      "bytes": 5401,
+      "sha256": "f8432e3417af63ad3eccc8339ea09b3f0038311511d433e9baf02d5f6dcefd35"
+    },
+    {
+      "file": "library/hardware/fans/F22.json",
+      "bytes": 398,
+      "sha256": "f3c76eda99c00c45319eba6b94e20e14d57f1436a39958b9ab92b71d861b571c"
+    },
+    {
+      "file": "library/hardware/fans/F23.FCStd",
+      "bytes": 5387,
+      "sha256": "0e161bfa82b99ee2f7df4cae582e184c8e81224215745ecbfa78823b78945768"
+    },
+    {
+      "file": "library/hardware/fans/F23.json",
+      "bytes": 398,
+      "sha256": "d9523a3850a732c0815c1cf1fde2c25a42a43800cde367acc796df3971ccf539"
+    },
+    {
+      "file": "library/hardware/fans/F55.FCStd",
+      "bytes": 5397,
+      "sha256": "705d11385251fb0f22b41b607b7ced324deaee497bf79f3d6c97747177969a75"
+    },
+    {
+      "file": "library/hardware/fans/F55.json",
+      "bytes": 398,
+      "sha256": "cea79aa932be18d3cc0dcddeeff80732f6924c140239398b4ca135cca4aa94c5"
+    },
+    {
+      "file": "library/hardware/fans/G03.FCStd",
+      "bytes": 3068,
+      "sha256": "23c4eb3e22962e516fb94a35adf1d8c3b5c5d79c65542271c3a7a7d2d44275cf"
+    },
+    {
+      "file": "library/hardware/fans/G03.json",
+      "bytes": 389,
+      "sha256": "99fa4b5ac3724c8e2f2f69096fb271e04d659a0380316ea59c3a5a48f57e32f5"
+    },
+    {
+      "file": "library/hardware/fans/G06.FCStd",
+      "bytes": 3086,
+      "sha256": "ca3cea24f4719407176aac93981ca13395eb695aa84562335c625f8e1c212600"
+    },
+    {
+      "file": "library/hardware/fans/G06.json",
+      "bytes": 389,
+      "sha256": "6bf726f12c998e3d610fd44855d9e100bffd1d9a12f16ed29106b0027dcaa021"
+    },
+    {
+      "file": "library/hardware/fans/G07.FCStd",
+      "bytes": 3086,
+      "sha256": "8b30875a22f156c67ed1de9131e221b9638c51ccfa6af2ce6af346af92502d18"
+    },
+    {
+      "file": "library/hardware/fans/G07.json",
+      "bytes": 389,
+      "sha256": "2ab8549707d5ea28bf9aae6f666c0e51e2f56aa085b0c715e15f0f65391a7678"
+    },
+    {
+      "file": "library/hardware/fans/H07.FCStd",
+      "bytes": 4252,
+      "sha256": "6cff6802f989e64fb110f84172a61a5c5f2ec58c09d3f4dbc62eb5885dc2f568"
+    },
+    {
+      "file": "library/hardware/fans/H07.json",
+      "bytes": 475,
+      "sha256": "a42433a9749ffa407e654c5f81007dbe418ddfe8bbc3bb22b05c2ca6528aa906"
+    },
+    {
+      "file": "library/hardware/fans/H17.FCStd",
+      "bytes": 3085,
+      "sha256": "781cf315fc12b9fdb8fceaa3392af3954fd9d7de9ae015f589e5108249e423f7"
+    },
+    {
+      "file": "library/hardware/fans/H17.json",
+      "bytes": 475,
+      "sha256": "f0061270752b81a687a2f6a103ed379fe61f0abbe6f75010db1c9241bdbd40e1"
+    },
+    {
+      "file": "library/hardware/pinball/legs/B13.FCStd",
+      "bytes": 3801,
+      "sha256": "aae067908583cad0d52dde814290ca645c8c64705a0028bfed46cb509a1de799"
+    },
+    {
+      "file": "library/hardware/pinball/legs/B13.json",
+      "bytes": 389,
+      "sha256": "4fe917fa7196258d297ede7be040c83a5c4a65583d07aec3793f46504ee69358"
+    },
+    {
+      "file": "library/hardware/pinball/legs/F37.FCStd",
+      "bytes": 5389,
+      "sha256": "0ac8d1257b1b4311e687e0c99b0aac8bb7dab4c838411833e0bbe5375ae284ba"
+    },
+    {
+      "file": "library/hardware/pinball/legs/F37.json",
+      "bytes": 398,
+      "sha256": "878898e02cf2608d868f11724458980dc13b43c5113c3e564ff85f18a2bc6c49"
+    },
+    {
+      "file": "library/hardware/pinball/legs/F38.FCStd",
+      "bytes": 5394,
+      "sha256": "c7557d44cd9846d5bb38b465568b5eab9c61d0e6f660b8cd0d593047d7fe57b0"
+    },
+    {
+      "file": "library/hardware/pinball/legs/F38.json",
+      "bytes": 398,
+      "sha256": "216d82e261975d80d0903339351b38c94347b3fe69e7f3cfec9dcad4d3fd8e37"
+    },
+    {
+      "file": "library/hardware/pinball/legs/H18.FCStd",
+      "bytes": 5381,
+      "sha256": "825f879980b7238c860c64a5141306e965ac1adadd50c02c06373aca78e6b922"
+    },
+    {
+      "file": "library/hardware/pinball/legs/H18.json",
+      "bytes": 380,
+      "sha256": "cd87caac8e4e7491dedc6bbb8c2305a66dec996a7dae95db1a9938eafaaeab2b"
+    },
+    {
+      "file": "library/hardware/pinball/legs/H19.FCStd",
+      "bytes": 5394,
+      "sha256": "4ddf432b1994a05fcac7beb30fb8ff423f859cdae81e2898473d34be43a8f995"
+    },
+    {
+      "file": "library/hardware/pinball/legs/H19.json",
+      "bytes": 398,
+      "sha256": "cbdc36f8eab2e0588078452d28cefeca736feceba0a0e839e44e1856dc397298"
+    },
+    {
+      "file": "library/hardware/pinball/lockdown/F36.FCStd",
+      "bytes": 5401,
+      "sha256": "3d2da655dc1c761c12b54c71bd490c6e208baaa7d5d2e36539cf8c8f9e4eea30"
+    },
+    {
+      "file": "library/hardware/pinball/lockdown/F36.json",
+      "bytes": 398,
+      "sha256": "45ae0aedb26816d06eea74cf911525bd8392b88ca3fb9b82eb459f779fbfa6ce"
+    },
+    {
+      "file": "library/hardware/pinball/lockdown/H20.FCStd",
+      "bytes": 5392,
+      "sha256": "89ce05e5ab881c3043353d3231c60bb874d83eaf6c718266bc237e9148a3784d"
+    },
+    {
+      "file": "library/hardware/pinball/lockdown/H20.json",
+      "bytes": 384,
+      "sha256": "47625d3595c1706c845a64801034166e4c667b169e4f69ddb3ac8a24e7db02a8"
+    },
+    {
+      "file": "library/hardware/pinball/lockdown/H21.FCStd",
+      "bytes": 5393,
+      "sha256": "567c441a449004f06ba97fb24f44a98b5f59d00a5423c79e6c6a933affc3fc5b"
+    },
+    {
+      "file": "library/hardware/pinball/lockdown/H21.json",
+      "bytes": 384,
+      "sha256": "cfedc1ac4cf7c7d3bfca7cf0705d4ab15e7e94c55af80af97532e7df2f572123"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/F14.FCStd",
+      "bytes": 2785,
+      "sha256": "e33a01fe4aaebcc278167dfe177e4df62efa241b7145d95686bc581e29a5be05"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/F14.json",
+      "bytes": 428,
+      "sha256": "2fecf3ca506bfd176addf451bb5e2232ceb6808fdb4ae9cf631a3bbefb3d77d7"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/F15.FCStd",
+      "bytes": 5395,
+      "sha256": "48ae5ffbd4c68b147d38a3a6b7d357f98d70f279ce9b2a2b843438430a2d366c"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/F15.json",
+      "bytes": 398,
+      "sha256": "296ca0b93391e871de5a6f1638f0866d4b745faaea00426e75b2611fae671924"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/H08.FCStd",
+      "bytes": 3894,
+      "sha256": "c2d747af03358a3db8576c2f8cdb67bb2fd97d515d7647d7cf6208b4955abe20"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/H08.json",
+      "bytes": 416,
+      "sha256": "e9d888749f631c1ad72d0b605bdeef6ce7d0e9d9028ca6767b7757b824220306"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/H09.FCStd",
+      "bytes": 3902,
+      "sha256": "fb27f774a53fcf0f3f56bf2979d92b1b73f15213793da839656e0a1448200715"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/H09.json",
+      "bytes": 416,
+      "sha256": "724b041bc93a34e5d8bcb1068ff5fbf444541dfbb7e3c047ea782ad577cfea88"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/H10.FCStd",
+      "bytes": 2931,
+      "sha256": "76166d3d99c238f4cf3cd613b2ebecc3c50d955d99d0e9d46414720d43f63e64"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/H10.json",
+      "bytes": 428,
+      "sha256": "bc21074b4ef627631b4540d8b000973c720d65f7cb58ab9c9d0f17dac6777724"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/W06.FCStd",
+      "bytes": 5394,
+      "sha256": "c46cb7a46584a21531a922dacbf6dd99c9cbe94ab41819fab1b4856bf3ee172f"
+    },
+    {
+      "file": "library/hardware/pinball/wpc-hinges/W06.json",
+      "bytes": 398,
+      "sha256": "205972fa9838fedda193d9f744ef2e287b782a11afe5b91814d32e8f18bc437c"
+    },
+    {
+      "file": "library/hardware/provisional/B01.FCStd",
+      "bytes": 5724,
+      "sha256": "3739826c790b222b527c1d611dff77a265d4f19f293b0b8b9e3d9c18065de468"
+    },
+    {
+      "file": "library/hardware/provisional/B01.json",
+      "bytes": 372,
+      "sha256": "1767f37e9da54bfd563f1eed7f28aa79f80b2e80789dfff392676e790f488618"
+    },
+    {
+      "file": "library/hardware/provisional/B02.FCStd",
+      "bytes": 4060,
+      "sha256": "86b46a7c7259f77ad29ac2067a07f4e39254a973ea338741870b3810d9ec2843"
+    },
+    {
+      "file": "library/hardware/provisional/B02.json",
+      "bytes": 379,
+      "sha256": "8f6c6763ccafe04bfc0822ee077656e3ed6c6094ec5bc21e20f228cac55e2a7a"
+    },
+    {
+      "file": "library/hardware/provisional/B03.FCStd",
+      "bytes": 3157,
+      "sha256": "50aa034c38c443b8d75bd34d7fb7129190d6d5c10e94e6335dbbba7af6b78a09"
+    },
+    {
+      "file": "library/hardware/provisional/B03.json",
+      "bytes": 389,
+      "sha256": "e51d9828d2a5493f1ecd02a44454dcafcf950927b917fac7a61afcbfa8ee81a9"
+    },
+    {
+      "file": "library/hardware/provisional/B07.FCStd",
+      "bytes": 5390,
+      "sha256": "071bb136e38ca3d7469992a340abde96bf2999c15fc434e51da150033e0a8466"
+    },
+    {
+      "file": "library/hardware/provisional/B07.json",
+      "bytes": 398,
+      "sha256": "e28da3e01fa0f58b0568c99ca94853cb02d5d30dd202ae3345c46bff59f9746a"
+    },
+    {
+      "file": "library/hardware/provisional/B08.FCStd",
+      "bytes": 5387,
+      "sha256": "30ff7c7ab63b5aba63124c31263dcc18d0b8776fbeb46c0cb16cff1ba4638bc2"
+    },
+    {
+      "file": "library/hardware/provisional/B08.json",
+      "bytes": 398,
+      "sha256": "53219e3597d9e338c3a85145cdac66e00af4d4733895c991879b77b15e2034e2"
+    },
+    {
+      "file": "library/hardware/provisional/B12.FCStd",
+      "bytes": 4695,
+      "sha256": "d4132dcfc0414f68acc2dae2315cb77b4aa0c96c69c80a18f15d2b675d8ee954"
+    },
+    {
+      "file": "library/hardware/provisional/B12.json",
+      "bytes": 389,
+      "sha256": "5228be875763315d8114cdf8dd06479323cb520e933ec105382d3ed663b78362"
+    },
+    {
+      "file": "library/hardware/provisional/B14.FCStd",
+      "bytes": 5385,
+      "sha256": "0ea35d53ae4a07d0eed6f76befa992473cfe966a5b65e94e0205bc0288c164ef"
+    },
+    {
+      "file": "library/hardware/provisional/B14.json",
+      "bytes": 389,
+      "sha256": "ec9b0cd0a35ce567f9d4c96dab5016f87ae595150b3c1044355eca89419e9924"
+    },
+    {
+      "file": "library/hardware/provisional/B15.FCStd",
+      "bytes": 3258,
+      "sha256": "f149933db8f6547c4bdcc26b101089a5e210f49f9ba11829fc3c1b8f8a204a4b"
+    },
+    {
+      "file": "library/hardware/provisional/B15.json",
+      "bytes": 389,
+      "sha256": "d55150749d058d812ffe77175cd6563da616ea36462aa4e741bee0c630cb701b"
+    },
+    {
+      "file": "library/hardware/provisional/B16.FCStd",
+      "bytes": 5389,
+      "sha256": "036a62ddef860c9b70a2ae7a66b8c248b8bff22d9c6eeee77491cb05f69f0e1e"
+    },
+    {
+      "file": "library/hardware/provisional/B16.json",
+      "bytes": 376,
+      "sha256": "fa6429d6e06ebdee40375b78ba2f38f76ec99444eeaa135a2dd191da18c12f2e"
+    },
+    {
+      "file": "library/hardware/provisional/E01.FCStd",
+      "bytes": 3343,
+      "sha256": "d3486b1196097616bc0904b98280fb72942598d6bd03c9307a65818a051cc750"
+    },
+    {
+      "file": "library/hardware/provisional/E01.json",
+      "bytes": 389,
+      "sha256": "4dd26935adff4827c0cabec3979e31b0a1e5429b8256e746abf969e6e24d2cc7"
+    },
+    {
+      "file": "library/hardware/provisional/E02.FCStd",
+      "bytes": 3063,
+      "sha256": "bad42189b70f6a3ad539c6cf40fc0e9fb11031887d7f7bbe4d52d5529392a395"
+    },
+    {
+      "file": "library/hardware/provisional/E02.json",
+      "bytes": 389,
+      "sha256": "a8316b001797651ad399defd2b817a7e48a55c50f3ab16a682e608c53ea4bb81"
+    },
+    {
+      "file": "library/hardware/provisional/E03.FCStd",
+      "bytes": 3059,
+      "sha256": "8ed78088c95bc526eaafb9314a2dcabfe779ca2c64bc9e02a0f216242f06810b"
+    },
+    {
+      "file": "library/hardware/provisional/E03.json",
+      "bytes": 389,
+      "sha256": "fefe7b3bd7bdbfdd04ae450ca89063b5ce3e540ad08c5a66df7a93fa00923f38"
+    },
+    {
+      "file": "library/hardware/provisional/E04.FCStd",
+      "bytes": 3068,
+      "sha256": "feae560bf265fc573c298aa1a0de106c9107683f306a64201ce4ab15e22b040a"
+    },
+    {
+      "file": "library/hardware/provisional/E04.json",
+      "bytes": 389,
+      "sha256": "fb2923e2467b43f6c3a3ebf3870d11c542d32d336458d836161699abd9afdff2"
+    },
+    {
+      "file": "library/hardware/provisional/E05.FCStd",
+      "bytes": 3204,
+      "sha256": "68ddb1bd661621b64572f82ffe10d5d350c38153a5f504e93ecd46c25a62897c"
+    },
+    {
+      "file": "library/hardware/provisional/E05.json",
+      "bytes": 389,
+      "sha256": "859133a2c3529cc5aa26a6419616b2101a3b968daf1d59adf775bb6568e50d5d"
+    },
+    {
+      "file": "library/hardware/provisional/E06.FCStd",
+      "bytes": 2939,
+      "sha256": "68018a5b06f9f8292a63adb58dbba73344dc0ebb35f596616b3913a7d905f7d0"
+    },
+    {
+      "file": "library/hardware/provisional/E06.json",
+      "bytes": 389,
+      "sha256": "c80b04e50fc443ad63445b1823c158460b7f1de0ee0d8b3c3d94ba138d18316e"
+    },
+    {
+      "file": "library/hardware/provisional/E07.FCStd",
+      "bytes": 2756,
+      "sha256": "631ac52452c0b15999b0e73fe96428cd3d364c0da87cdd873af070a5d0b1b3b4"
+    },
+    {
+      "file": "library/hardware/provisional/E07.json",
+      "bytes": 389,
+      "sha256": "86312487ebe6d53c3f722753b13b303c1fdb61d0dc17bc5df4208b8fd67873fb"
+    },
+    {
+      "file": "library/hardware/provisional/E08.FCStd",
+      "bytes": 4171,
+      "sha256": "bc90dc677ceb0ebd82751aa4367b236993c170088004b36c35e10a4adddc62a2"
+    },
+    {
+      "file": "library/hardware/provisional/E08.json",
+      "bytes": 389,
+      "sha256": "52a922b3ffdb9becd601734e803a89f141b35f0893d17cd29a8284e424a53455"
+    },
+    {
+      "file": "library/hardware/provisional/E09.FCStd",
+      "bytes": 3079,
+      "sha256": "c67730fa04ae85680c1c52647324962633346eb598a45fdf1fa5ab799852dc22"
+    },
+    {
+      "file": "library/hardware/provisional/E09.json",
+      "bytes": 389,
+      "sha256": "869afc59beac60e558bf4ee7f69af74f406612d5d79342a2a4047e81b7b74a2b"
+    },
+    {
+      "file": "library/hardware/provisional/E10.FCStd",
+      "bytes": 3098,
+      "sha256": "84c73619772b02b19cdaa89518286fb28b2230d2e48aaaebd8afdf166fc3dcd6"
+    },
+    {
+      "file": "library/hardware/provisional/E10.json",
+      "bytes": 389,
+      "sha256": "ef0e48d37b77c3e91557e409b072ec5e54df80fef66ed9d0e8141ad2863b2158"
+    },
+    {
+      "file": "library/hardware/provisional/E11.FCStd",
+      "bytes": 3088,
+      "sha256": "f54afef574ec02a0a50d4861a4e78279c0c18854bd7c18f872d7b5a0b51c9616"
+    },
+    {
+      "file": "library/hardware/provisional/E11.json",
+      "bytes": 389,
+      "sha256": "12eb57dd4a4fda4a81258c31f22f918089c07d39093aa5879a8f968087d642b7"
+    },
+    {
+      "file": "library/hardware/provisional/E12.FCStd",
+      "bytes": 3271,
+      "sha256": "716c12689eadc226d09f1eb01208e21c2e257f9b92fa9042a68565efc0e2ae8f"
+    },
+    {
+      "file": "library/hardware/provisional/E12.json",
+      "bytes": 389,
+      "sha256": "124d5bdadb4b63b434ab9afda017af1cfd8f779b58b29b572b6d7d2d738c299c"
+    },
+    {
+      "file": "library/hardware/provisional/E13.FCStd",
+      "bytes": 3171,
+      "sha256": "c8317450a07e510d83e3066710b7a29ec23031c19801e44312d88faf28beb16c"
+    },
+    {
+      "file": "library/hardware/provisional/E13.json",
+      "bytes": 389,
+      "sha256": "38a83022aa4bbfcd1e0a442e04a548cc6d04e229c4fd959fb80cd2d4ace1fdf4"
+    },
+    {
+      "file": "library/hardware/provisional/E14.FCStd",
+      "bytes": 5398,
+      "sha256": "112693c1348a638717bd55b70d64bf54ed224b8dcc3d7ee8b4a9444df00d7146"
+    },
+    {
+      "file": "library/hardware/provisional/E14.json",
+      "bytes": 398,
+      "sha256": "172195aea34d523b7434b99ef97c6cb53b6845076529432e1053275fcbad6dff"
+    },
+    {
+      "file": "library/hardware/provisional/F05.FCStd",
+      "bytes": 5396,
+      "sha256": "222eb2b965bef4bc6593da147bf8387510b22a935f86035be0ddfa35ac07e192"
+    },
+    {
+      "file": "library/hardware/provisional/F05.json",
+      "bytes": 410,
+      "sha256": "2cb65633111d7dc4a7a8d56be6557b6f9e60ad8a387487cce2a34e5433864605"
+    },
+    {
+      "file": "library/hardware/provisional/F06.FCStd",
+      "bytes": 5403,
+      "sha256": "818e032f8dbaf41ef774102c5926adea7f98b115e8e878bfee0bb949d8a56753"
+    },
+    {
+      "file": "library/hardware/provisional/F06.json",
+      "bytes": 398,
+      "sha256": "8257dc1f0ab12d42530724c834f44c814ac0de124ed3d73e2e998732fe970b38"
+    },
+    {
+      "file": "library/hardware/provisional/F09.FCStd",
+      "bytes": 5388,
+      "sha256": "b9d7f4e1b8b91534a739f90e9ab29ae9c4230a4337ee80563f5f3bf822ca09d4"
+    },
+    {
+      "file": "library/hardware/provisional/F09.json",
+      "bytes": 391,
+      "sha256": "aa3e3324de9f276c4ac17e1d21d9d866ef85322a33e09c7808f10c43d8341a99"
+    },
+    {
+      "file": "library/hardware/provisional/F16.FCStd",
+      "bytes": 5398,
+      "sha256": "fa9ff33e16ae025664630f8bca95cb45008ba860772919f1e73218fc9a5e21bd"
+    },
+    {
+      "file": "library/hardware/provisional/F16.json",
+      "bytes": 398,
+      "sha256": "c88b31183ed6dbc562f186159b073db59a52419edd41aeb4e17750a26e6b41c2"
+    },
+    {
+      "file": "library/hardware/provisional/F18.FCStd",
+      "bytes": 5393,
+      "sha256": "f333755503f6331ea8d3c17f9f43a61eeb9c29282b9963f2e9741efae63cbf0c"
+    },
+    {
+      "file": "library/hardware/provisional/F18.json",
+      "bytes": 398,
+      "sha256": "1db25bbbc0f6e006d078fad7a61292d2593f94ac2f5bdb7012be0b41276eecd8"
+    },
+    {
+      "file": "library/hardware/provisional/F19.FCStd",
+      "bytes": 5398,
+      "sha256": "c56e94d2abc5d601323f2321a77882d52f516ca4225122b7f6591e569cf0ebfb"
+    },
+    {
+      "file": "library/hardware/provisional/F19.json",
+      "bytes": 398,
+      "sha256": "3d0c506d3e1fa674e0df071e75da67b96112788317d69c4e504a793e5174c539"
+    },
+    {
+      "file": "library/hardware/provisional/F28.FCStd",
+      "bytes": 5401,
+      "sha256": "a2d53b5877f8a407fa133609c120f2408dc8942a4182bef9e058d5a815a34a49"
+    },
+    {
+      "file": "library/hardware/provisional/F28.json",
+      "bytes": 398,
+      "sha256": "d4ec530955515f482ee11efd07eb5299af8339ae8ff1522afdb3253556ab91dc"
+    },
+    {
+      "file": "library/hardware/provisional/F29.FCStd",
+      "bytes": 5398,
+      "sha256": "79e576f7ec28c2f8bbb958a87c36c6b08046ed85002882fea00f7cdd8514bd00"
+    },
+    {
+      "file": "library/hardware/provisional/F29.json",
+      "bytes": 398,
+      "sha256": "a726d5f60204824bd3e471f6e3aa7b22dd2ee49d0361ef939a6c8cbbb71d5c43"
+    },
+    {
+      "file": "library/hardware/provisional/F31.FCStd",
+      "bytes": 5407,
+      "sha256": "d6e05aa5201705e3de4e6b2b7e1a31673651070c5d470f4ebdb4b1c6cd66cb32"
+    },
+    {
+      "file": "library/hardware/provisional/F31.json",
+      "bytes": 398,
+      "sha256": "d47461c9ca65e288abaebaaac9277eff9cca4b3c0944dd608a3df89d94f8606a"
+    },
+    {
+      "file": "library/hardware/provisional/F32.FCStd",
+      "bytes": 5394,
+      "sha256": "6a4d774fbb0d414c45bcc06933234a93db2b4ce72a4ff284583debd0da9a0453"
+    },
+    {
+      "file": "library/hardware/provisional/F32.json",
+      "bytes": 398,
+      "sha256": "b795b9712f56875f931922d87fc071d1247d45068cea2bdd686dd9d817708938"
+    },
+    {
+      "file": "library/hardware/provisional/F33.FCStd",
+      "bytes": 5393,
+      "sha256": "f3e91c00dd90ba2f107b8298c40bee643b8418759a52111d880abccd093a2a3e"
+    },
+    {
+      "file": "library/hardware/provisional/F33.json",
+      "bytes": 398,
+      "sha256": "1daf611fa21508d68d70e180ed38f6b7cddff4f325b1ca82b51e163e6e5a2464"
+    },
+    {
+      "file": "library/hardware/provisional/F34.FCStd",
+      "bytes": 2538,
+      "sha256": "5eccd986f6ae5673098ac1d2022ef6600d3255038e745d8e2d3ccc7f1920b228"
+    },
+    {
+      "file": "library/hardware/provisional/F34.json",
+      "bytes": 477,
+      "sha256": "e3a7e50f9b68ab11f515d5e03c25f2faf0fafc70b0f037774d152b49466e53f7"
+    },
+    {
+      "file": "library/hardware/provisional/F39.FCStd",
+      "bytes": 5390,
+      "sha256": "37230d8cf1e57e3312f45fb897478b54bdd7d8b12ff4e8b5c06a832513a47833"
+    },
+    {
+      "file": "library/hardware/provisional/F39.json",
+      "bytes": 398,
+      "sha256": "ebf500d822ae2ddbb128744fcc21e4f8a62f53b16f53d591a8b5b1300cbca7fd"
+    },
+    {
+      "file": "library/hardware/provisional/F40.FCStd",
+      "bytes": 5393,
+      "sha256": "63600cab4188f97f5c9db3c94cdea68f88055af40dcbd45ed52ef7dbd56e0264"
+    },
+    {
+      "file": "library/hardware/provisional/F40.json",
+      "bytes": 398,
+      "sha256": "5045c6e143caca326452b9bee968ebe21fd93ee07b74b90302b6ad3d8f5b6182"
+    },
+    {
+      "file": "library/hardware/provisional/F42.FCStd",
+      "bytes": 5393,
+      "sha256": "b868fff54b4fac06a7de2c161c89886305031c8b7ee23d6cf224e31d04ae4f6f"
+    },
+    {
+      "file": "library/hardware/provisional/F42.json",
+      "bytes": 398,
+      "sha256": "1951d8947afdab3dd4498d19b0e0fcc2301befbc4878997519c1e0e7f8005dc8"
+    },
+    {
+      "file": "library/hardware/provisional/F43.FCStd",
+      "bytes": 5398,
+      "sha256": "5c2fbe42b1782fab6373dffbc36bcc002cd6c1c31a5c4a982f3bd7530ef77027"
+    },
+    {
+      "file": "library/hardware/provisional/F43.json",
+      "bytes": 398,
+      "sha256": "aa515deae3cc1a80ad85af02a86ffb85979eedd60958b2be9749852df8139a4b"
+    },
+    {
+      "file": "library/hardware/provisional/F44.FCStd",
+      "bytes": 5395,
+      "sha256": "8086287145aa131b7278579c15cacd461243881e60b94054e5212e573fdf251f"
+    },
+    {
+      "file": "library/hardware/provisional/F44.json",
+      "bytes": 398,
+      "sha256": "a7bd7db1e308cd586f77071700ec7406a2ac8c5310d2eee0386cc9756ad09290"
+    },
+    {
+      "file": "library/hardware/provisional/F45.FCStd",
+      "bytes": 5385,
+      "sha256": "4b924a70ed3e6dd7a158de1e1ea9a7e5408a1d7659afeeb21795b35d04d763c4"
+    },
+    {
+      "file": "library/hardware/provisional/F45.json",
+      "bytes": 398,
+      "sha256": "4570940db80d9c9f9e43f9ad9c99400b39a4900016fcdd72e20d0f65a5546145"
+    },
+    {
+      "file": "library/hardware/provisional/F46.FCStd",
+      "bytes": 5401,
+      "sha256": "34358f3dc4e2bd26fa7524aa2e9a89dc7664a7ce29313258d0c1be1767a65703"
+    },
+    {
+      "file": "library/hardware/provisional/F46.json",
+      "bytes": 398,
+      "sha256": "d4b93c9918b5e06913197f4b02f5d89b198758f95f515c4aabe48c7c0aaa2548"
+    },
+    {
+      "file": "library/hardware/provisional/F47.FCStd",
+      "bytes": 5400,
+      "sha256": "f46fb3dd4aac2bd5ad78832c32b73c3ee197f2d505bbf1dd8459d1696a054f51"
+    },
+    {
+      "file": "library/hardware/provisional/F47.json",
+      "bytes": 398,
+      "sha256": "6e27199fdb36a9120daaaf6129f65ac03119774d5ea799f81347c5523debf6e5"
+    },
+    {
+      "file": "library/hardware/provisional/F48.FCStd",
+      "bytes": 5391,
+      "sha256": "b1c74bbd9fe8712563c05c080b09523a1874e5fa0cb27d0a1ee6c900a23883c3"
+    },
+    {
+      "file": "library/hardware/provisional/F48.json",
+      "bytes": 398,
+      "sha256": "a92b1ef370187daeaf3746970be52350abef9c7a29aff4a84393f8a5d0e06f6c"
+    },
+    {
+      "file": "library/hardware/provisional/F49.FCStd",
+      "bytes": 5392,
+      "sha256": "0da3107577f3c89cd92dca7cf2c9a4203bf0d58bf6da0114c942817084784a37"
+    },
+    {
+      "file": "library/hardware/provisional/F49.json",
+      "bytes": 398,
+      "sha256": "581e1adf01e3cd7f36a0c931263d9166ceefcdbf83554f7527fc75580793f855"
+    },
+    {
+      "file": "library/hardware/provisional/F50.FCStd",
+      "bytes": 5409,
+      "sha256": "91527420f563db3198efc67529b35ccff2646dd2e381cdac4ef516d5b4eb88cd"
+    },
+    {
+      "file": "library/hardware/provisional/F50.json",
+      "bytes": 398,
+      "sha256": "e3789ff12c5f4956de721bfd61668bbf13495ac50155ccb458298194525c0e6a"
+    },
+    {
+      "file": "library/hardware/provisional/F51.FCStd",
+      "bytes": 5395,
+      "sha256": "b73111b577282e1e8e1654f21d8772761527ba9ab9c011f11c1575a667ea064f"
+    },
+    {
+      "file": "library/hardware/provisional/F51.json",
+      "bytes": 398,
+      "sha256": "835d38c3a00efc5026f073b69e52c1a8f661551dfeac9f12e0c76c63df088aab"
+    },
+    {
+      "file": "library/hardware/provisional/F53.FCStd",
+      "bytes": 5392,
+      "sha256": "86a5d0dae063225b00894727fd24fec4ec88e6410dde72f34bab321423296655"
+    },
+    {
+      "file": "library/hardware/provisional/F53.json",
+      "bytes": 398,
+      "sha256": "043cad70b7a994201694a4afd9c73b40ba4f84fd7c06100f46c86eafea2830f9"
+    },
+    {
+      "file": "library/hardware/provisional/F54.FCStd",
+      "bytes": 5397,
+      "sha256": "e740f8dd0ca9b09b48fb645edc39bc1142029ef830e035efaa049d8677973fdd"
+    },
+    {
+      "file": "library/hardware/provisional/F54.json",
+      "bytes": 471,
+      "sha256": "b6d65789de5e6ed2430d8c447a94d8a00f5494a5e88c0990bc16988434b2d481"
+    },
+    {
+      "file": "library/hardware/provisional/G01.FCStd",
+      "bytes": 5388,
+      "sha256": "70acda802c234177d6f801935a2c812bd2d6f3e70951906fa61196453bd7fd85"
+    },
+    {
+      "file": "library/hardware/provisional/G01.json",
+      "bytes": 398,
+      "sha256": "d3d04864ac2f691c8c8c610047b4b030850f9a112ce11349fe39ea699c4c5343"
+    },
+    {
+      "file": "library/hardware/provisional/G02.FCStd",
+      "bytes": 5393,
+      "sha256": "c680350aa51079c9b89477e2298057baeda33695ad9f1bd4f68b88b0710fa770"
+    },
+    {
+      "file": "library/hardware/provisional/G02.json",
+      "bytes": 398,
+      "sha256": "a64006d26d9e3eb3c7c87bf98339073b0c1f102d40a4f899d7eb829dcb9f0279"
+    },
+    {
+      "file": "library/hardware/provisional/G04.FCStd",
+      "bytes": 4004,
+      "sha256": "e502fddc58547579146eab5e83bc2191182e0cc002d0137be8035d13bf112aeb"
+    },
+    {
+      "file": "library/hardware/provisional/G04.json",
+      "bytes": 389,
+      "sha256": "fa765548e04ee1276bbe69b72eb0731aac4b3984caba3a1e2e5071834dd4ce38"
+    },
+    {
+      "file": "library/hardware/provisional/G05.FCStd",
+      "bytes": 3095,
+      "sha256": "1713009c424443b108d09331d5403e34b6b50c292ea0e6ad81e7baa18d7af0e4"
+    },
+    {
+      "file": "library/hardware/provisional/G05.json",
+      "bytes": 389,
+      "sha256": "77bd0dc0004d3f9eb2691e6a9b6b7b80937413459ba3a54500fc2041ce4c751e"
+    },
+    {
+      "file": "library/hardware/provisional/G08.FCStd",
+      "bytes": 4001,
+      "sha256": "089b98106deca94315cdc0b03b0341cfe7bc8f39140faa2dd10b129bf0209748"
+    },
+    {
+      "file": "library/hardware/provisional/G08.json",
+      "bytes": 389,
+      "sha256": "24f2972e3623813f3a92532264e41a0a560e72715c6801521a7d0775291a9af8"
+    },
+    {
+      "file": "library/hardware/provisional/G09.FCStd",
+      "bytes": 3071,
+      "sha256": "e207c9df65c36e4fb280af6322b620aa7c3fd1a5bd197625bb3a39d00e73cc54"
+    },
+    {
+      "file": "library/hardware/provisional/G09.json",
+      "bytes": 389,
+      "sha256": "03ee327ede13b428e578f72abe6c951737cc03cf45a417b5836d67bf55613b68"
+    },
+    {
+      "file": "library/hardware/provisional/G10.FCStd",
+      "bytes": 3080,
+      "sha256": "27820a8c94a1424cc34e9eba5ded6c2a42e97005c08366bf86ee12557da2c6cc"
+    },
+    {
+      "file": "library/hardware/provisional/G10.json",
+      "bytes": 389,
+      "sha256": "6498797331360cb955d02076f189139f581da33f10cd4bc816f7a783a4fd70c1"
+    },
+    {
+      "file": "library/hardware/provisional/G11.FCStd",
+      "bytes": 3326,
+      "sha256": "690ab69ec4f128b91a5e53c482a89256e8f8db1f137bd6201e08a91e3fd52be7"
+    },
+    {
+      "file": "library/hardware/provisional/G11.json",
+      "bytes": 378,
+      "sha256": "eac0d7b2eb86dd92e2aeed3b01ab296272a3c7f79a3e92095c5adeddd60e65c6"
+    },
+    {
+      "file": "library/hardware/provisional/G12.FCStd",
+      "bytes": 5397,
+      "sha256": "3bb85ee57c8ceb17576181bddc95719105e3b50f51c6dda8646abd23e1de159b"
+    },
+    {
+      "file": "library/hardware/provisional/G12.json",
+      "bytes": 398,
+      "sha256": "a16fb6bc160f03d3dea09441016451d84f567fc7870fbf66bc93e420eafb5c13"
+    },
+    {
+      "file": "library/hardware/provisional/H01.FCStd",
+      "bytes": 2804,
+      "sha256": "998acfe216f1920cb795cae35d95a562fe389cf11008779b4577b42c6ddefcbe"
+    },
+    {
+      "file": "library/hardware/provisional/H01.json",
+      "bytes": 416,
+      "sha256": "c024d18d66a1d4f2ce38c45e3b58f8db9c01d2faff8b19886278f568be24b342"
+    },
+    {
+      "file": "library/hardware/provisional/H04.FCStd",
+      "bytes": 4809,
+      "sha256": "78988eb79e1976d4635016e8b4dd1fd61074838bb323d401a8943316bd47804b"
+    },
+    {
+      "file": "library/hardware/provisional/H04.json",
+      "bytes": 373,
+      "sha256": "e373e8e6d81a4010584569da23c4b5f1c23e766555901b653e80979ab4a07527"
+    },
+    {
+      "file": "library/hardware/provisional/H05.FCStd",
+      "bytes": 5396,
+      "sha256": "317ae772c81f46d4fb91a0c4e97dddc86dd3c51ac2fa5169a5cad881aba17a02"
+    },
+    {
+      "file": "library/hardware/provisional/H05.json",
+      "bytes": 398,
+      "sha256": "6216f075ff99e95c4d7825a1471694e824eb9bb617a1709834d1734d39b7bcc6"
+    },
+    {
+      "file": "library/hardware/provisional/H06.FCStd",
+      "bytes": 5394,
+      "sha256": "75932664513e5d9032f903e9eef2146aea156d8d6ff8df2bb2fd08b3e7f6a0a7"
+    },
+    {
+      "file": "library/hardware/provisional/H06.json",
+      "bytes": 398,
+      "sha256": "cd010d605b41efe0d9267690539888b872d39aebfb2ba973e33b9596d22a0ae3"
+    },
+    {
+      "file": "library/hardware/provisional/H12.FCStd",
+      "bytes": 10524,
+      "sha256": "9a2f12b6b001830dff30a68e46d50813d7421fc6ec0365076d0c4282925755a8"
+    },
+    {
+      "file": "library/hardware/provisional/H12.json",
+      "bytes": 413,
+      "sha256": "98126b258f3e79ed8adb09cb4896857044fe164e339cb848787d2a00f4454894"
+    },
+    {
+      "file": "library/hardware/provisional/H13.FCStd",
+      "bytes": 5390,
+      "sha256": "fd9d9c13a1f814572d9fa380a1ebceebde28396e615d018b12ccc958fbc97527"
+    },
+    {
+      "file": "library/hardware/provisional/H13.json",
+      "bytes": 398,
+      "sha256": "f8b2454f1ce0ee6a64490503724b1b9da9d4e30f2a67dd5ac3ce1699d608d6e8"
+    },
+    {
+      "file": "library/hardware/provisional/H22.FCStd",
+      "bytes": 6446,
+      "sha256": "9fbc48d23c9e5f17688ef0d1cf57e28d1eca3972f6441a167b3bec9e0322a371"
+    },
+    {
+      "file": "library/hardware/provisional/H22.json",
+      "bytes": 389,
+      "sha256": "4175afe2b224f7312783f212eb7b585a7aa0863332ca7e4a6ab09012138fc827"
+    },
+    {
+      "file": "library/hardware/provisional/H23.FCStd",
+      "bytes": 9536,
+      "sha256": "daeeb7c32743519b86d6cadd912351e0e18d92b6b257d4ced31a464ee9c0b21f"
+    },
+    {
+      "file": "library/hardware/provisional/H23.json",
+      "bytes": 389,
+      "sha256": "7e69e2c534aefa4b7b36b081b70beb1631239903352a68990db126491c2c6862"
+    },
+    {
+      "file": "library/hardware/provisional/H24.FCStd",
+      "bytes": 9109,
+      "sha256": "305feeea996e9b4c5fdf1aa929857cf0a123e71fb184ced113b6c1d2391934c3"
+    },
+    {
+      "file": "library/hardware/provisional/H24.json",
+      "bytes": 389,
+      "sha256": "9a2667039fa225cf9a8c1b8b192e10774cb3f85d45f72a3805906daec771d4bd"
+    },
+    {
+      "file": "library/hardware/provisional/H25.FCStd",
+      "bytes": 5391,
+      "sha256": "e1ca1cc17a0a4fc99ddffbe54c18582922617b41d313a1d61034f81975355434"
+    },
+    {
+      "file": "library/hardware/provisional/H25.json",
+      "bytes": 398,
+      "sha256": "8c670518a542cccc5bd8d4d5555236917e46a40c523ebc3f071e19752e26b5a3"
+    },
+    {
+      "file": "library/hardware/provisional/H26.FCStd",
+      "bytes": 5390,
+      "sha256": "d367c2b37dc180e6400ede014e412453d7f7ae6737b3e7e96f7f3b292ca8e705"
+    },
+    {
+      "file": "library/hardware/provisional/H26.json",
+      "bytes": 398,
+      "sha256": "b5abc76454dcf73ca746277c48866d467478b6c42e49c58dc94e7726892bb243"
+    },
+    {
+      "file": "library/hardware/provisional/R01.FCStd",
+      "bytes": 3069,
+      "sha256": "856a16fca8f5afa933593034726509423ea957199c9194bd4c6948fc9dcb39f5"
+    },
+    {
+      "file": "library/hardware/provisional/R01.json",
+      "bytes": 389,
+      "sha256": "a4af6b02dfa524006ea1742f9bca293b82f702cba6c5ed6e7b3838fc3e82518a"
+    },
+    {
+      "file": "library/hardware/provisional/R02.FCStd",
+      "bytes": 3109,
+      "sha256": "fae4bb591cdfa6c18a998384dd8c520e5efd20c1635af7a11b3fa2bfe6128786"
+    },
+    {
+      "file": "library/hardware/provisional/R02.json",
+      "bytes": 389,
+      "sha256": "d37a45c21d239e92f65472a503ff81fb994bacf1e59ec99c7fd7be28a8de8da0"
+    },
+    {
+      "file": "library/hardware/provisional/R03.FCStd",
+      "bytes": 3068,
+      "sha256": "916c7d4a63243dbdd5ef37a157276f31e140441bb9ac4f9c40259fb714b95648"
+    },
+    {
+      "file": "library/hardware/provisional/R03.json",
+      "bytes": 389,
+      "sha256": "a428a2abbcb50a57385ae02bb3965d2b0adc105896f35bd8c7f91abca6285141"
+    },
+    {
+      "file": "library/hardware/provisional/R04.FCStd",
+      "bytes": 3161,
+      "sha256": "50644f96aeecca2510f3760994b0440032ad9adf05e4b64b1e3a185488926f6a"
+    },
+    {
+      "file": "library/hardware/provisional/R04.json",
+      "bytes": 389,
+      "sha256": "aa93a22dccd5ac2b5998659d548b0f386a59476a4fabed17e29a6bc6abfeb924"
+    },
+    {
+      "file": "library/hardware/provisional/W08.FCStd",
+      "bytes": 5391,
+      "sha256": "1cc727b28f185da0b542463097379adaca35ce3389928f47453362a8cab188c1"
+    },
+    {
+      "file": "library/hardware/provisional/W08.json",
+      "bytes": 398,
+      "sha256": "ade96b6ffa1a52fae88ddaa71b642603033277ef9e136cf62dfd12cc22af26f8"
+    },
+    {
+      "file": "library/hardware/sources.json",
+      "bytes": 3798,
+      "sha256": "ce11c5e44b26d3d891de77ba9460f3d78dea8c44f4ffbce386d8804a0288be25"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I01.FCStd",
+      "bytes": 2981,
+      "sha256": "5b738c2117fc8c7bb8e2e841ee58694dd0f8de4a3ba1544a714b6cfd577fce1a"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I01.json",
+      "bytes": 438,
+      "sha256": "53e81bd752c5a7acfbd4ef76b5574c7229b02173144d48eec9b9cbd077feae9e"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I04.FCStd",
+      "bytes": 2887,
+      "sha256": "a75dfaf41b049e31141d65768e2687591fd885da7d0f36f72aa98e8ee5bb6443"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I04.json",
+      "bytes": 439,
+      "sha256": "f54b097c2a60a87c3d92f6825b7a49484204cedbffb4e3b1eecc41d7f4f107ac"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I05.FCStd",
+      "bytes": 3232,
+      "sha256": "ce1218d8d71612f603724021805cd77e2546274396af007799534c5066a924d4"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I05.json",
+      "bytes": 523,
+      "sha256": "224c8d34687911b60799eacb1c3207a2e11499e3d359c2d007650f28f5134245"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I06.FCStd",
+      "bytes": 2891,
+      "sha256": "8a821aa34f38a1f7c3302e7c6dff0b6e9fade7a6070da647046032f26a19f676"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I06.json",
+      "bytes": 461,
+      "sha256": "5362236d9f37a0b15afdd43b7a414b4515eec1309c7cecbe415b397e2aafd75b"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I07.FCStd",
+      "bytes": 5391,
+      "sha256": "93371a8947d1d1d34504059c8416182f3a6604b2dbf022db943c557bfd4cda7b"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I07.json",
+      "bytes": 420,
+      "sha256": "250407772fd57d006dc5bf4a9bd8045032701150b3b7a9d107fe3f771bcbd503"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I08.FCStd",
+      "bytes": 5392,
+      "sha256": "1af87650839e19532f107c0df5675da51351c93f0709de55a4d1f1c0a92c154c"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I08.json",
+      "bytes": 420,
+      "sha256": "e917081e892977a1f962ad2aebd5f6809fde5e86f9fcf3b552e19dda1a2acfb8"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I10.FCStd",
+      "bytes": 5386,
+      "sha256": "fe5d41f446d3389670223d7b095a09f96e92adc6526964d0f38b149a24ec8444"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I10.json",
+      "bytes": 420,
+      "sha256": "fe1946b20f935ea024944992e3fc4ab0e520f17e11d51c8ef974d7ee70a773f7"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I12.FCStd",
+      "bytes": 5387,
+      "sha256": "cdf9ed7aa2908d5fcbd7be470653d2a0fe46dc3b9346480ce11b3ec1524bf599"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I12.json",
+      "bytes": 420,
+      "sha256": "b5a986c2b06ebb69020d893da3add7642276eeb32d58854b33b1c75ae8d4c60f"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I13.FCStd",
+      "bytes": 3094,
+      "sha256": "3a7c4393ba03a99df8b3d90023f8dbc859262ae7994113e854bd467705b44aa2"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I13.json",
+      "bytes": 371,
+      "sha256": "5773b57a3aa96d49db6febf97be59878d158d7ad0b05f067e99a99ebc2fe95ed"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I14.FCStd",
+      "bytes": 5406,
+      "sha256": "aaf88d8c8aaf760421f3324294d8b4c1dd152dea2cb11a047276592b5c6d476d"
+    },
+    {
+      "file": "library/hardware/standard/inserts/I14.json",
+      "bytes": 420,
+      "sha256": "7081470b74080d76d68ba8cfde22fb6ce98555c59b4889fca83f1424d7b5a1bd"
+    },
+    {
+      "file": "library/hardware/standard/nuts/I02.FCStd",
+      "bytes": 5388,
+      "sha256": "b8893f5ca1c7f5831e443528bb609ebea6318de481b4edda6f507089a7cf6a10"
+    },
+    {
+      "file": "library/hardware/standard/nuts/I02.json",
+      "bytes": 420,
+      "sha256": "b4f02d29a28268efc930d46de5b7e56f41c74ea2aec6f6a785f5be8750e1b868"
+    },
+    {
+      "file": "library/hardware/standard/nuts/I03.FCStd",
+      "bytes": 2990,
+      "sha256": "bccc1e83f517aa435dcaaae32ea4d4af780edb136afcf621dc579312990b7071"
+    },
+    {
+      "file": "library/hardware/standard/nuts/I03.json",
+      "bytes": 461,
+      "sha256": "9a8b9bc78a9dd013b4bef7872dccf1d59a9d7034c27573d7cde71bf3fa1f5160"
+    },
+    {
+      "file": "library/hardware/standard/nuts/I09.FCStd",
+      "bytes": 5398,
+      "sha256": "d01ae18278f7348032fcf91c5338a675657ac72fdee92fd08ddbff408f08d852"
+    },
+    {
+      "file": "library/hardware/standard/nuts/I09.json",
+      "bytes": 420,
+      "sha256": "50d8a8932f8a3c11dd0fc4233270ce6d6ba170aa58f88c9b14c764f85a0db726"
+    },
+    {
+      "file": "library/hardware/standard/nuts/I11.FCStd",
+      "bytes": 5384,
+      "sha256": "2a2c691f466f9438d258e10d12a72acc101fd2086d6c5794d46d3b1c7fb3d254"
+    },
+    {
+      "file": "library/hardware/standard/nuts/I11.json",
+      "bytes": 420,
+      "sha256": "82fe423299312be8e5e66ed610ab0bbf5c950232f029e06882e27a3680c6e23b"
+    },
+    {
+      "file": "library/hardware/standard/screws/F01.FCStd",
+      "bytes": 2548,
+      "sha256": "a5b4db1cab3e093b4f5a41bf13131cab9db39dd4df218be83fc2e812b1653eca"
+    },
+    {
+      "file": "library/hardware/standard/screws/F01.json",
+      "bytes": 488,
+      "sha256": "42c74c7c6ece67193a9ef0ef7e391bd5d4ffb2b197a0b19e84c895688d3e8894"
+    },
+    {
+      "file": "library/hardware/standard/screws/F02.FCStd",
+      "bytes": 2544,
+      "sha256": "c1ae588b15091a37d0991712c6d5250b9575255c0c9d51beb0d8ebc74a6bcaab"
+    },
+    {
+      "file": "library/hardware/standard/screws/F02.json",
+      "bytes": 522,
+      "sha256": "992e5aace55b9018afc62b18cc9663465860e7a50e94131d3cfb77f63ae6a4fb"
+    },
+    {
+      "file": "library/hardware/standard/screws/F03.FCStd",
+      "bytes": 2546,
+      "sha256": "dfcb2e0d10a1ba86f30712e07246470b53b0233c992210f5abf599308ced9807"
+    },
+    {
+      "file": "library/hardware/standard/screws/F03.json",
+      "bytes": 494,
+      "sha256": "17636b5e73f5eec2cd30aa407371cde073aef2266c41c6f4c1ec00cb7c501797"
+    },
+    {
+      "file": "library/hardware/standard/screws/F04.FCStd",
+      "bytes": 2545,
+      "sha256": "a4df3b5a10a33856ff269a789d3347cabd4ff0936381b041283f34f4ea00ebe1"
+    },
+    {
+      "file": "library/hardware/standard/screws/F04.json",
+      "bytes": 508,
+      "sha256": "e312a209a8fc471fc3042b89d06a49251434a8c7dd6c51d1d590f81b5d6af6e1"
+    },
+    {
+      "file": "library/hardware/standard/screws/F07.FCStd",
+      "bytes": 5394,
+      "sha256": "9849b85b14a7cc4aaf4ba30944bc3a77117b9f170fc69d7c1e8a83435bfc0a60"
+    },
+    {
+      "file": "library/hardware/standard/screws/F07.json",
+      "bytes": 487,
+      "sha256": "f23a84712da5d436e3929168d841a5ce90799228407b34f6daa2630c065b974e"
+    },
+    {
+      "file": "library/hardware/standard/screws/F08.FCStd",
+      "bytes": 2538,
+      "sha256": "aeb2be58719076214d65a461cfaab6f358ddd9466204fdedd19c7143a694d87a"
+    },
+    {
+      "file": "library/hardware/standard/screws/F08.json",
+      "bytes": 516,
+      "sha256": "3f3f9e2cabb52951e07720e2912ff1bee6d7059e1dddee0aca8568fe3451f311"
+    },
+    {
+      "file": "library/hardware/standard/screws/F10.FCStd",
+      "bytes": 2545,
+      "sha256": "abb202afcb05547c3565baf02fb52f4d3b2669eca3bf65609d6a3729ef284713"
+    },
+    {
+      "file": "library/hardware/standard/screws/F10.json",
+      "bytes": 499,
+      "sha256": "994259218eea46d9048fa6729bec4df8c6245e45b304f7a3266e7e85ddb42ccf"
+    },
+    {
+      "file": "library/hardware/standard/screws/F11.FCStd",
+      "bytes": 2542,
+      "sha256": "cb98ca929e78d673b02d3662fcfa53ade881e9c63565a1de8f2e89d61c90fec0"
+    },
+    {
+      "file": "library/hardware/standard/screws/F11.json",
+      "bytes": 496,
+      "sha256": "5d0acd768b7b8b85d6bb2375a917e75510314571b0b34cfdd28e90e7d5ff7b95"
+    },
+    {
+      "file": "library/hardware/standard/screws/F12.FCStd",
+      "bytes": 2547,
+      "sha256": "27613dc38961d65fdd901e426332a432de62172c5ffd2fa5896c18baf1c5ae34"
+    },
+    {
+      "file": "library/hardware/standard/screws/F12.json",
+      "bytes": 516,
+      "sha256": "de3d90ebf5b28ac04255382ef85a02dafa24edf1817e8a88945f150636ab2106"
+    },
+    {
+      "file": "library/hardware/standard/screws/F17.FCStd",
+      "bytes": 2556,
+      "sha256": "bdb273c14b055dc409c0c4c2f2779ab2b50f84c509011f62389d674b7864b841"
+    },
+    {
+      "file": "library/hardware/standard/screws/F17.json",
+      "bytes": 499,
+      "sha256": "80d0143c5a561e9cbe4a699d6355da5bd7faf823fdffa7bef4be885467791571"
+    },
+    {
+      "file": "library/hardware/standard/screws/F20.FCStd",
+      "bytes": 5400,
+      "sha256": "c26049b03a8b65e3d4ddb9e6260bf55b01d84af5b37ff0db281e4df80e7073ba"
+    },
+    {
+      "file": "library/hardware/standard/screws/F20.json",
+      "bytes": 464,
+      "sha256": "90c7141b67dea90f8b4199b4329344f1f645524a4c337722f0b9b0cb84bcec31"
+    },
+    {
+      "file": "library/hardware/standard/screws/F21.FCStd",
+      "bytes": 5393,
+      "sha256": "6e2a64b31ce3703471602c341ef5b7440f30ace73765d656c7df3cbafaa2876e"
+    },
+    {
+      "file": "library/hardware/standard/screws/F21.json",
+      "bytes": 464,
+      "sha256": "bce5d38deadb476c4b5788ef7013d364d8db6a42a4f711c16eb121f0b0f41d2e"
+    },
+    {
+      "file": "library/hardware/standard/screws/F24.FCStd",
+      "bytes": 2726,
+      "sha256": "cc8f8d9b930d3143b9b912ae56d00077a6af8e5a5aad2ea00bd618c450d157c9"
+    },
+    {
+      "file": "library/hardware/standard/screws/F24.json",
+      "bytes": 460,
+      "sha256": "e5fc7fa90b03ccad6d10dbd2db6d619ca29c97a8afa6d874695dccc3b4611b21"
+    },
+    {
+      "file": "library/hardware/standard/screws/F25.FCStd",
+      "bytes": 2737,
+      "sha256": "f8f38b5b593109c4c83b854f2b5bde8d1f472c026fa66faaa9ab56ab86abb443"
+    },
+    {
+      "file": "library/hardware/standard/screws/F25.json",
+      "bytes": 460,
+      "sha256": "f272e92e0857624de2ceae034ae9b2ad0e46ff9dcf10854cc29a342fdfcef0ad"
+    },
+    {
+      "file": "library/hardware/standard/screws/F26.FCStd",
+      "bytes": 2727,
+      "sha256": "9d8648905606c547d6d7bd745c38f14ef94edcd93a79e8c07d76a9324b20908a"
+    },
+    {
+      "file": "library/hardware/standard/screws/F26.json",
+      "bytes": 462,
+      "sha256": "d9049f4cd9d561a0fb0d5d16d2f6f405035d68e91475d9dc1e0795c61a5a11ef"
+    },
+    {
+      "file": "library/hardware/standard/screws/F27.FCStd",
+      "bytes": 2741,
+      "sha256": "32c0c577fb6a239ccf3b160aa9154bf281b2db12e7fec523a0b895b6143448e0"
+    },
+    {
+      "file": "library/hardware/standard/screws/F27.json",
+      "bytes": 460,
+      "sha256": "ef6d41eac0e52215ffb5249086460e7a726633a1c17be21a3a99734cfcff78f6"
+    },
+    {
+      "file": "library/hardware/standard/screws/F30.FCStd",
+      "bytes": 2737,
+      "sha256": "563a453d9eabc4fa7c4eec652a81fd645d2890a491fcdd97dd8a8cc1bbba4877"
+    },
+    {
+      "file": "library/hardware/standard/screws/F30.json",
+      "bytes": 460,
+      "sha256": "987dca0e369390de3efc57e1720158bac48ffe1e64ac7c8e9703a38ab4f56c4a"
+    },
+    {
+      "file": "library/hardware/standard/screws/F35.FCStd",
+      "bytes": 2556,
+      "sha256": "4a9c8f96ffe06b72a449ea29de7379b98ba5dfcb913da8d10ff6d8834b0a6ef6"
+    },
+    {
+      "file": "library/hardware/standard/screws/F35.json",
+      "bytes": 478,
+      "sha256": "1d93679080abf1242f8c1b42ae9b4acfb6b72a816d7d9044a5e2aadce6f31bc8"
+    },
+    {
+      "file": "library/hardware/standard/screws/F52.FCStd",
+      "bytes": 5402,
+      "sha256": "848c25bacd1282974d922a7a208f638a3a17d23a29f110f42ad876f91bdb590e"
+    },
+    {
+      "file": "library/hardware/standard/screws/F52.json",
+      "bytes": 455,
+      "sha256": "addb78fd3ab7abfd8bb9c43619887fe32254f00780d5ddcf50a7d5d5afc0fdf4"
+    },
+    {
+      "file": "library/hardware/standard/washers/W01.FCStd",
+      "bytes": 2536,
+      "sha256": "5c13a5305f4c3f6bb41191a9846c78fa472018ccbab4559246728df6dc84cd62"
+    },
+    {
+      "file": "library/hardware/standard/washers/W01.json",
+      "bytes": 484,
+      "sha256": "1086cc32b5da18f0bdd46a2813958f6e6cf1fb85fdffbc9cb94e0f97536c1b6e"
+    },
+    {
+      "file": "library/hardware/standard/washers/W02.FCStd",
+      "bytes": 2532,
+      "sha256": "88ef05b45fe4bcf5a1d7869e38910c3903bb96ccc18307e3b64981f641e6d529"
+    },
+    {
+      "file": "library/hardware/standard/washers/W02.json",
+      "bytes": 483,
+      "sha256": "48e4fd10b8ac52732913fb5d0c6ff8266fb4ecbdbae38826a19be2fad14ed202"
+    },
+    {
+      "file": "library/hardware/standard/washers/W03.FCStd",
+      "bytes": 5393,
+      "sha256": "885da6e4097c5faaebd1045bb6ed2a6ac9c01928a04a11e0ae77919c70ed2acf"
+    },
+    {
+      "file": "library/hardware/standard/washers/W03.json",
+      "bytes": 451,
+      "sha256": "57eb335ad9f21d7d22407b77f7ab0209dd2fe5926f3027345a6d6c13fd725ec1"
+    },
+    {
+      "file": "library/hardware/standard/washers/W07.FCStd",
+      "bytes": 2538,
+      "sha256": "a9831c5509670ba1aad27316379bf9116361c605d672aa132f32707e35973f67"
+    },
+    {
+      "file": "library/hardware/standard/washers/W07.json",
+      "bytes": 470,
+      "sha256": "003d19fa9f74a9868f124d48030c974f4b11f6bf196e4d21b8c68c31f41474af"
+    },
+    {
+      "file": "library/hardware/standard/washers/W09.FCStd",
+      "bytes": 5392,
+      "sha256": "ed2ac6e5587c63b1cd6587a7267d8255ef83f8bf2afb8d2d814e61d04c91fc32"
+    },
+    {
+      "file": "library/hardware/standard/washers/W09.json",
+      "bytes": 475,
+      "sha256": "d55c16be87f08c843af45d5cc26c34ef7151160958da8b49ab6c87d5e704efb1"
+    },
+    {
+      "file": "library/hardware/standard/washers/W10.FCStd",
+      "bytes": 5386,
+      "sha256": "b96155c08931703395b081dbf9441d2de5d0ff1a366e813435e2a59d6d0875c4"
+    },
+    {
+      "file": "library/hardware/standard/washers/W10.json",
+      "bytes": 420,
+      "sha256": "cbc5a6d87d2e378240c443786d2bc602712d3b43fe9740f51ef96dba0c57d1e4"
+    },
+    {
+      "file": "studies/hardware-v33/README.md",
+      "bytes": 16093,
+      "sha256": "65913ffab88c34f915bc2558b82c555b6aa8054507c3a501c8fe06f9b534b618"
+    },
+    {
+      "file": "studies/hardware-v33/render.py",
+      "bytes": 4181,
+      "sha256": "f360e750c70757220fbf9f2fdd5e52c7325bec182cb5864d1b93801172968267"
+    },
+    {
+      "file": "tools/audit_hardware_v33.py",
+      "bytes": 1845,
+      "sha256": "dd194e6f7450f938a1c1f05f693bb53edad9e1279d6a9a460b16923c48955c52"
+    },
+    {
+      "file": "tools/build_bom_v33.py",
+      "bytes": 15783,
+      "sha256": "c58faf8bd4e824db9ef276390d3f88b80ba97617eee207642c4f009e62a29d75"
+    },
+    {
+      "file": "tools/build_hardware_library_v33.py",
+      "bytes": 8565,
+      "sha256": "4f15876406a1120389cf440c46a8cc99cc1730fcd00b4f12441736dcc8749b1a"
+    },
+    {
+      "file": "tools/check_hardware_v33.py",
+      "bytes": 7760,
+      "sha256": "dd283bc72abf870262754656988526cf3533a56a91fd9cd6133fe74b00147e56"
+    },
+    {
+      "file": "tools/define_hardware_v33.py",
+      "bytes": 51994,
+      "sha256": "3c75b3531e4a3bb413431b96e047c02762ed934db486c9ae640f9f789dd8abba"
+    },
+    {
+      "file": "tools/export_bom_v33.mjs",
+      "bytes": 2597,
+      "sha256": "bd8bfa0cc092e8733a5136cec1a351d16324e99a1448f5b85cfc36ebdb55bd3a"
+    },
+    {
+      "file": "tools/package_hardware_v33.py",
+      "bytes": 7278,
+      "sha256": "092b1704cd18ca3875612085e1a98f243eb0ff523f1c7681d07a764456ad2421"
+    }
+  ]
+}

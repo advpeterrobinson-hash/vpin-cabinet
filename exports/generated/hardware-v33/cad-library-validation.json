@@ -1,0 +1,1191 @@
+{
+  "pass": true,
+  "models": [
+    {
+      "id": "F01",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/screws/F01.FCStd",
+      "sha256": "a5b4db1cab3e093b4f5a41bf13131cab9db39dd4df218be83fc2e812b1653eca"
+    },
+    {
+      "id": "F02",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/screws/F02.FCStd",
+      "sha256": "c1ae588b15091a37d0991712c6d5250b9575255c0c9d51beb0d8ebc74a6bcaab"
+    },
+    {
+      "id": "H01",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/H01.FCStd",
+      "sha256": "998acfe216f1920cb795cae35d95a562fe389cf11008779b4577b42c6ddefcbe"
+    },
+    {
+      "id": "B01",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/B01.FCStd",
+      "sha256": "3739826c790b222b527c1d611dff77a265d4f19f293b0b8b9e3d9c18065de468"
+    },
+    {
+      "id": "F03",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/screws/F03.FCStd",
+      "sha256": "dfcb2e0d10a1ba86f30712e07246470b53b0233c992210f5abf599308ced9807"
+    },
+    {
+      "id": "W01",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/washers/W01.FCStd",
+      "sha256": "5c13a5305f4c3f6bb41191a9846c78fa472018ccbab4559246728df6dc84cd62"
+    },
+    {
+      "id": "I01",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/inserts/I01.FCStd",
+      "sha256": "5b738c2117fc8c7bb8e2e841ee58694dd0f8de4a3ba1544a714b6cfd577fce1a"
+    },
+    {
+      "id": "F04",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/screws/F04.FCStd",
+      "sha256": "a4df3b5a10a33856ff269a789d3347cabd4ff0936381b041283f34f4ea00ebe1"
+    },
+    {
+      "id": "W02",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/washers/W02.FCStd",
+      "sha256": "88ef05b45fe4bcf5a1d7869e38910c3903bb96ccc18307e3b64981f641e6d529"
+    },
+    {
+      "id": "B02",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/B02.FCStd",
+      "sha256": "86b46a7c7259f77ad29ac2067a07f4e39254a973ea338741870b3810d9ec2843"
+    },
+    {
+      "id": "F05",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F05.FCStd",
+      "sha256": "222eb2b965bef4bc6593da147bf8387510b22a935f86035be0ddfa35ac07e192"
+    },
+    {
+      "id": "F52",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/screws/F52.FCStd",
+      "sha256": "848c25bacd1282974d922a7a208f638a3a17d23a29f110f42ad876f91bdb590e"
+    },
+    {
+      "id": "I14",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/inserts/I14.FCStd",
+      "sha256": "aaf88d8c8aaf760421f3324294d8b4c1dd152dea2cb11a047276592b5c6d476d"
+    },
+    {
+      "id": "F06",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F06.FCStd",
+      "sha256": "818e032f8dbaf41ef774102c5926adea7f98b115e8e878bfee0bb949d8a56753"
+    },
+    {
+      "id": "G01",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/G01.FCStd",
+      "sha256": "70acda802c234177d6f801935a2c812bd2d6f3e70951906fa61196453bd7fd85"
+    },
+    {
+      "id": "F07",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/screws/F07.FCStd",
+      "sha256": "9849b85b14a7cc4aaf4ba30944bc3a77117b9f170fc69d7c1e8a83435bfc0a60"
+    },
+    {
+      "id": "I02",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/nuts/I02.FCStd",
+      "sha256": "b8893f5ca1c7f5831e443528bb609ebea6318de481b4edda6f507089a7cf6a10"
+    },
+    {
+      "id": "W03",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/washers/W03.FCStd",
+      "sha256": "885da6e4097c5faaebd1045bb6ed2a6ac9c01928a04a11e0ae77919c70ed2acf"
+    },
+    {
+      "id": "H02",
+      "valid": true,
+      "solid_count": 3,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/doors/hinges/H02.FCStd",
+      "sha256": "12b44ae15e5e7c1555e93c3f887af804ff97fc70a7511ff499d02d8cfebbb3be"
+    },
+    {
+      "id": "H03",
+      "valid": true,
+      "solid_count": 3,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/doors/locks/H03.FCStd",
+      "sha256": "7f3f4a678e0274dd25cc39791cfd21154d1a17aa8fbeb857f7b5dee7c12ec81a"
+    },
+    {
+      "id": "B03",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/B03.FCStd",
+      "sha256": "50aa034c38c443b8d75bd34d7fb7129190d6d5c10e94e6335dbbba7af6b78a09"
+    },
+    {
+      "id": "H04",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/H04.FCStd",
+      "sha256": "78988eb79e1976d4635016e8b4dd1fd61074838bb323d401a8943316bd47804b"
+    },
+    {
+      "id": "F08",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/screws/F08.FCStd",
+      "sha256": "aeb2be58719076214d65a461cfaab6f358ddd9466204fdedd19c7143a694d87a"
+    },
+    {
+      "id": "F09",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F09.FCStd",
+      "sha256": "b9d7f4e1b8b91534a739f90e9ab29ae9c4230a4337ee80563f5f3bf822ca09d4"
+    },
+    {
+      "id": "F53",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F53.FCStd",
+      "sha256": "86a5d0dae063225b00894727fd24fec4ec88e6410dde72f34bab321423296655"
+    },
+    {
+      "id": "G02",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/G02.FCStd",
+      "sha256": "c680350aa51079c9b89477e2298057baeda33695ad9f1bd4f68b88b0710fa770"
+    },
+    {
+      "id": "H05",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/H05.FCStd",
+      "sha256": "317ae772c81f46d4fb91a0c4e97dddc86dd3c51ac2fa5169a5cad881aba17a02"
+    },
+    {
+      "id": "H06",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/H06.FCStd",
+      "sha256": "75932664513e5d9032f903e9eef2146aea156d8d6ff8df2bb2fd08b3e7f6a0a7"
+    },
+    {
+      "id": "F10",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/screws/F10.FCStd",
+      "sha256": "abb202afcb05547c3565baf02fb52f4d3b2669eca3bf65609d6a3729ef284713"
+    },
+    {
+      "id": "I03",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/nuts/I03.FCStd",
+      "sha256": "bccc1e83f517aa435dcaaae32ea4d4af780edb136afcf621dc579312990b7071"
+    },
+    {
+      "id": "F11",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/screws/F11.FCStd",
+      "sha256": "cb98ca929e78d673b02d3662fcfa53ade881e9c63565a1de8f2e89d61c90fec0"
+    },
+    {
+      "id": "F12",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/screws/F12.FCStd",
+      "sha256": "27613dc38961d65fdd901e426332a432de62172c5ffd2fa5896c18baf1c5ae34"
+    },
+    {
+      "id": "I04",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/inserts/I04.FCStd",
+      "sha256": "a75dfaf41b049e31141d65768e2687591fd885da7d0f36f72aa98e8ee5bb6443"
+    },
+    {
+      "id": "H07",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/fans/H07.FCStd",
+      "sha256": "6cff6802f989e64fb110f84172a61a5c5f2ec58c09d3f4dbc62eb5885dc2f568"
+    },
+    {
+      "id": "B04",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/fans/B04.FCStd",
+      "sha256": "10502cae95435b94223d6123c55422e0afc6a4d91635ed2cbda5e08d05e92372"
+    },
+    {
+      "id": "B05",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/fans/B05.FCStd",
+      "sha256": "b4ca8cad911483542fcc020aec6ab28bf3411b3914a5c2c2ad8f9aa7d44a98bf"
+    },
+    {
+      "id": "B06",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/fans/B06.FCStd",
+      "sha256": "20496fb6c201bc972424c8521354e31cf265c89d0d3523076bac5a9148e037e8"
+    },
+    {
+      "id": "F13",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/fans/F13.FCStd",
+      "sha256": "a967fa4585d781b9280ff5ecc0eca1b795c399ebaad047e734e005fd8a33f495"
+    },
+    {
+      "id": "G03",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/fans/G03.FCStd",
+      "sha256": "23c4eb3e22962e516fb94a35adf1d8c3b5c5d79c65542271c3a7a7d2d44275cf"
+    },
+    {
+      "id": "H08",
+      "valid": true,
+      "solid_count": 2,
+      "model_status": "CURRENT_GROSS_HINGE_RESERVE_NOT_PART_OUTLINE",
+      "file": "library/hardware/pinball/wpc-hinges/H08.FCStd",
+      "sha256": "c2d747af03358a3db8576c2f8cdb67bb2fd97d515d7647d7cf6208b4955abe20"
+    },
+    {
+      "id": "H09",
+      "valid": true,
+      "solid_count": 2,
+      "model_status": "CURRENT_GROSS_HINGE_RESERVE_NOT_PART_OUTLINE",
+      "file": "library/hardware/pinball/wpc-hinges/H09.FCStd",
+      "sha256": "fb27f774a53fcf0f3f56bf2979d92b1b73f15213793da839656e0a1448200715"
+    },
+    {
+      "id": "H10",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_WPC_TOPOLOGY_SCHEMATIC_NOT_PURCHASED_DIMENSIONS",
+      "file": "library/hardware/pinball/wpc-hinges/H10.FCStd",
+      "sha256": "76166d3d99c238f4cf3cd613b2ebecc3c50d955d99d0e9d46414720d43f63e64"
+    },
+    {
+      "id": "F14",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_WPC_TOPOLOGY_SCHEMATIC_NOT_PURCHASED_DIMENSIONS",
+      "file": "library/hardware/pinball/wpc-hinges/F14.FCStd",
+      "sha256": "e33a01fe4aaebcc278167dfe177e4df62efa241b7145d95686bc581e29a5be05"
+    },
+    {
+      "id": "F15",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/pinball/wpc-hinges/F15.FCStd",
+      "sha256": "48ae5ffbd4c68b147d38a3a6b7d357f98d70f279ce9b2a2b843438430a2d366c"
+    },
+    {
+      "id": "W06",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/pinball/wpc-hinges/W06.FCStd",
+      "sha256": "c46cb7a46584a21531a922dacbf6dd99c9cbe94ab41819fab1b4856bf3ee172f"
+    },
+    {
+      "id": "F16",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F16.FCStd",
+      "sha256": "fa9ff33e16ae025664630f8bca95cb45008ba860772919f1e73218fc9a5e21bd"
+    },
+    {
+      "id": "F54",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F54.FCStd",
+      "sha256": "e740f8dd0ca9b09b48fb645edc39bc1142029ef830e035efaa049d8677973fdd"
+    },
+    {
+      "id": "B16",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/B16.FCStd",
+      "sha256": "036a62ddef860c9b70a2ae7a66b8c248b8bff22d9c6eeee77491cb05f69f0e1e"
+    },
+    {
+      "id": "H11",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/doors/locks/H11.FCStd",
+      "sha256": "3d7ba4684663a5ef2eff8b2d05fd6fecbe554598ead27ab06586c18323008dce"
+    },
+    {
+      "id": "W07",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/washers/W07.FCStd",
+      "sha256": "a9831c5509670ba1aad27316379bf9116361c605d672aa132f32707e35973f67"
+    },
+    {
+      "id": "I05",
+      "valid": true,
+      "solid_count": 2,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/inserts/I05.FCStd",
+      "sha256": "ce1218d8d71612f603724021805cd77e2546274396af007799534c5066a924d4"
+    },
+    {
+      "id": "I06",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/inserts/I06.FCStd",
+      "sha256": "8a821aa34f38a1f7c3302e7c6dff0b6e9fade7a6070da647046032f26a19f676"
+    },
+    {
+      "id": "F17",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/screws/F17.FCStd",
+      "sha256": "bdb273c14b055dc409c0c4c2f2779ab2b50f84c509011f62389d674b7864b841"
+    },
+    {
+      "id": "H12",
+      "valid": true,
+      "solid_count": 34,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/H12.FCStd",
+      "sha256": "9a2f12b6b001830dff30a68e46d50813d7421fc6ec0365076d0c4282925755a8"
+    },
+    {
+      "id": "W08",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/W08.FCStd",
+      "sha256": "1cc727b28f185da0b542463097379adaca35ce3389928f47453362a8cab188c1"
+    },
+    {
+      "id": "H13",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/H13.FCStd",
+      "sha256": "fd9d9c13a1f814572d9fa380a1ebceebde28396e615d018b12ccc958fbc97527"
+    },
+    {
+      "id": "B07",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/B07.FCStd",
+      "sha256": "071bb136e38ca3d7469992a340abde96bf2999c15fc434e51da150033e0a8466"
+    },
+    {
+      "id": "B08",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/B08.FCStd",
+      "sha256": "30ff7c7ab63b5aba63124c31263dcc18d0b8776fbeb46c0cb16cff1ba4638bc2"
+    },
+    {
+      "id": "H14",
+      "valid": true,
+      "solid_count": 3,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/doors/hinges/H14.FCStd",
+      "sha256": "2b2af024d80a447b91e7ecf688e640de21e8b42eacef7bfcfad0328702e67092"
+    },
+    {
+      "id": "H15",
+      "valid": true,
+      "solid_count": 3,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/doors/locks/H15.FCStd",
+      "sha256": "fe1027046b3deff080b6e0d26ff2f6de747e7857c32140a7993b856b62d6b416"
+    },
+    {
+      "id": "H16",
+      "valid": true,
+      "solid_count": 2,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/doors/locks/H16.FCStd",
+      "sha256": "23cd4c988e4b618f76f8608ce3fa5416ab3671ec4bae1825a2aec4ccd73804b5"
+    },
+    {
+      "id": "F18",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F18.FCStd",
+      "sha256": "f333755503f6331ea8d3c17f9f43a61eeb9c29282b9963f2e9741efae63cbf0c"
+    },
+    {
+      "id": "F19",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F19.FCStd",
+      "sha256": "c56e94d2abc5d601323f2321a77882d52f516ca4225122b7f6591e569cf0ebfb"
+    },
+    {
+      "id": "G04",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/G04.FCStd",
+      "sha256": "e502fddc58547579146eab5e83bc2191182e0cc002d0137be8035d13bf112aeb"
+    },
+    {
+      "id": "G05",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/G05.FCStd",
+      "sha256": "1713009c424443b108d09331d5403e34b6b50c292ea0e6ad81e7baa18d7af0e4"
+    },
+    {
+      "id": "H17",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/fans/H17.FCStd",
+      "sha256": "781cf315fc12b9fdb8fceaa3392af3954fd9d7de9ae015f589e5108249e423f7"
+    },
+    {
+      "id": "B09",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/fans/B09.FCStd",
+      "sha256": "c6a51d026f3b66de134fc352f317b36f9fb0e523bece7401637832277a3a5089"
+    },
+    {
+      "id": "G06",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/fans/G06.FCStd",
+      "sha256": "ca3cea24f4719407176aac93981ca13395eb695aa84562335c625f8e1c212600"
+    },
+    {
+      "id": "G07",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/fans/G07.FCStd",
+      "sha256": "8b30875a22f156c67ed1de9131e221b9638c51ccfa6af2ce6af346af92502d18"
+    },
+    {
+      "id": "F20",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/screws/F20.FCStd",
+      "sha256": "c26049b03a8b65e3d4ddb9e6260bf55b01d84af5b37ff0db281e4df80e7073ba"
+    },
+    {
+      "id": "F21",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/screws/F21.FCStd",
+      "sha256": "6e2a64b31ce3703471602c341ef5b7440f30ace73765d656c7df3cbafaa2876e"
+    },
+    {
+      "id": "I07",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/inserts/I07.FCStd",
+      "sha256": "93371a8947d1d1d34504059c8416182f3a6604b2dbf022db943c557bfd4cda7b"
+    },
+    {
+      "id": "F22",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/fans/F22.FCStd",
+      "sha256": "f8432e3417af63ad3eccc8339ea09b3f0038311511d433e9baf02d5f6dcefd35"
+    },
+    {
+      "id": "B10",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/fans/B10.FCStd",
+      "sha256": "102b1070fee059995aaf98155844cb11cc302e8ee3f60fd6193f851effc88de0"
+    },
+    {
+      "id": "F23",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/fans/F23.FCStd",
+      "sha256": "0e161bfa82b99ee2f7df4cae582e184c8e81224215745ecbfa78823b78945768"
+    },
+    {
+      "id": "B11",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/fans/B11.FCStd",
+      "sha256": "407317b1bf539b4be80ae06a9a00f61244c3fd1b76d6b555fe16158f883a936e"
+    },
+    {
+      "id": "F55",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/fans/F55.FCStd",
+      "sha256": "705d11385251fb0f22b41b607b7ced324deaee497bf79f3d6c97747177969a75"
+    },
+    {
+      "id": "F24",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/screws/F24.FCStd",
+      "sha256": "cc8f8d9b930d3143b9b912ae56d00077a6af8e5a5aad2ea00bd618c450d157c9"
+    },
+    {
+      "id": "I08",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/inserts/I08.FCStd",
+      "sha256": "1af87650839e19532f107c0df5675da51351c93f0709de55a4d1f1c0a92c154c"
+    },
+    {
+      "id": "G08",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/G08.FCStd",
+      "sha256": "089b98106deca94315cdc0b03b0341cfe7bc8f39140faa2dd10b129bf0209748"
+    },
+    {
+      "id": "G09",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/G09.FCStd",
+      "sha256": "e207c9df65c36e4fb280af6322b620aa7c3fd1a5bd197625bb3a39d00e73cc54"
+    },
+    {
+      "id": "G10",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/G10.FCStd",
+      "sha256": "27820a8c94a1424cc34e9eba5ded6c2a42e97005c08366bf86ee12557da2c6cc"
+    },
+    {
+      "id": "F25",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/screws/F25.FCStd",
+      "sha256": "f8f38b5b593109c4c83b854f2b5bde8d1f472c026fa66faaa9ab56ab86abb443"
+    },
+    {
+      "id": "F26",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/screws/F26.FCStd",
+      "sha256": "9d8648905606c547d6d7bd745c38f14ef94edcd93a79e8c07d76a9324b20908a"
+    },
+    {
+      "id": "W09",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/washers/W09.FCStd",
+      "sha256": "ed2ac6e5587c63b1cd6587a7267d8255ef83f8bf2afb8d2d814e61d04c91fc32"
+    },
+    {
+      "id": "I09",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/nuts/I09.FCStd",
+      "sha256": "d01ae18278f7348032fcf91c5338a675657ac72fdee92fd08ddbff408f08d852"
+    },
+    {
+      "id": "F27",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/screws/F27.FCStd",
+      "sha256": "32c0c577fb6a239ccf3b160aa9154bf281b2db12e7fec523a0b895b6143448e0"
+    },
+    {
+      "id": "I10",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/inserts/I10.FCStd",
+      "sha256": "fe5d41f446d3389670223d7b095a09f96e92adc6526964d0f38b149a24ec8444"
+    },
+    {
+      "id": "I11",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/nuts/I11.FCStd",
+      "sha256": "2a2c691f466f9438d258e10d12a72acc101fd2086d6c5794d46d3b1c7fb3d254"
+    },
+    {
+      "id": "F28",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F28.FCStd",
+      "sha256": "a2d53b5877f8a407fa133609c120f2408dc8942a4182bef9e058d5a815a34a49"
+    },
+    {
+      "id": "F29",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F29.FCStd",
+      "sha256": "79e576f7ec28c2f8bbb958a87c36c6b08046ed85002882fea00f7cdd8514bd00"
+    },
+    {
+      "id": "F30",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/screws/F30.FCStd",
+      "sha256": "563a453d9eabc4fa7c4eec652a81fd645d2890a491fcdd97dd8a8cc1bbba4877"
+    },
+    {
+      "id": "I12",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/inserts/I12.FCStd",
+      "sha256": "cdf9ed7aa2908d5fcbd7be470653d2a0fe46dc3b9346480ce11b3ec1524bf599"
+    },
+    {
+      "id": "W10",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/standard/washers/W10.FCStd",
+      "sha256": "b96155c08931703395b081dbf9441d2de5d0ff1a366e813435e2a59d6d0875c4"
+    },
+    {
+      "id": "F31",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F31.FCStd",
+      "sha256": "d6e05aa5201705e3de4e6b2b7e1a31673651070c5d470f4ebdb4b1c6cd66cb32"
+    },
+    {
+      "id": "F32",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F32.FCStd",
+      "sha256": "6a4d774fbb0d414c45bcc06933234a93db2b4ce72a4ff284583debd0da9a0453"
+    },
+    {
+      "id": "F33",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F33.FCStd",
+      "sha256": "f3e91c00dd90ba2f107b8298c40bee643b8418759a52111d880abccd093a2a3e"
+    },
+    {
+      "id": "F34",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/provisional/F34.FCStd",
+      "sha256": "5eccd986f6ae5673098ac1d2022ef6600d3255038e745d8e2d3ccc7f1920b228"
+    },
+    {
+      "id": "I13",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/standard/inserts/I13.FCStd",
+      "sha256": "3a7c4393ba03a99df8b3d90023f8dbc859262ae7994113e854bd467705b44aa2"
+    },
+    {
+      "id": "F35",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+      "file": "library/hardware/standard/screws/F35.FCStd",
+      "sha256": "4a9c8f96ffe06b72a449ea29de7379b98ba5dfcb913da8d10ff6d8834b0a6ef6"
+    },
+    {
+      "id": "B12",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/B12.FCStd",
+      "sha256": "d4132dcfc0414f68acc2dae2315cb77b4aa0c96c69c80a18f15d2b675d8ee954"
+    },
+    {
+      "id": "G11",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/G11.FCStd",
+      "sha256": "690ab69ec4f128b91a5e53c482a89256e8f8db1f137bd6201e08a91e3fd52be7"
+    },
+    {
+      "id": "G12",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/G12.FCStd",
+      "sha256": "3bb85ee57c8ceb17576181bddc95719105e3b50f51c6dda8646abd23e1de159b"
+    },
+    {
+      "id": "F36",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/pinball/lockdown/F36.FCStd",
+      "sha256": "3d2da655dc1c761c12b54c71bd490c6e208baaa7d5d2e36539cf8c8f9e4eea30"
+    },
+    {
+      "id": "H18",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/pinball/legs/H18.FCStd",
+      "sha256": "825f879980b7238c860c64a5141306e965ac1adadd50c02c06373aca78e6b922"
+    },
+    {
+      "id": "B13",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/pinball/legs/B13.FCStd",
+      "sha256": "aae067908583cad0d52dde814290ca645c8c64705a0028bfed46cb509a1de799"
+    },
+    {
+      "id": "F37",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/pinball/legs/F37.FCStd",
+      "sha256": "0ac8d1257b1b4311e687e0c99b0aac8bb7dab4c838411833e0bbe5375ae284ba"
+    },
+    {
+      "id": "H19",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/pinball/legs/H19.FCStd",
+      "sha256": "4ddf432b1994a05fcac7beb30fb8ff423f859cdae81e2898473d34be43a8f995"
+    },
+    {
+      "id": "F38",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/pinball/legs/F38.FCStd",
+      "sha256": "c7557d44cd9846d5bb38b465568b5eab9c61d0e6f660b8cd0d593047d7fe57b0"
+    },
+    {
+      "id": "H20",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/pinball/lockdown/H20.FCStd",
+      "sha256": "89ce05e5ab881c3043353d3231c60bb874d83eaf6c718266bc237e9148a3784d"
+    },
+    {
+      "id": "H21",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/pinball/lockdown/H21.FCStd",
+      "sha256": "567c441a449004f06ba97fb24f44a98b5f59d00a5423c79e6c6a933affc3fc5b"
+    },
+    {
+      "id": "H22",
+      "valid": true,
+      "solid_count": 5,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/H22.FCStd",
+      "sha256": "9fbc48d23c9e5f17688ef0d1cf57e28d1eca3972f6441a167b3bec9e0322a371"
+    },
+    {
+      "id": "F39",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F39.FCStd",
+      "sha256": "37230d8cf1e57e3312f45fb897478b54bdd7d8b12ff4e8b5c06a832513a47833"
+    },
+    {
+      "id": "H23",
+      "valid": true,
+      "solid_count": 9,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/H23.FCStd",
+      "sha256": "daeeb7c32743519b86d6cadd912351e0e18d92b6b257d4ced31a464ee9c0b21f"
+    },
+    {
+      "id": "H24",
+      "valid": true,
+      "solid_count": 16,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/H24.FCStd",
+      "sha256": "305feeea996e9b4c5fdf1aa929857cf0a123e71fb184ced113b6c1d2391934c3"
+    },
+    {
+      "id": "F40",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F40.FCStd",
+      "sha256": "63600cab4188f97f5c9db3c94cdea68f88055af40dcbd45ed52ef7dbd56e0264"
+    },
+    {
+      "id": "H26",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/H26.FCStd",
+      "sha256": "d367c2b37dc180e6400ede014e412453d7f7ae6737b3e7e96f7f3b292ca8e705"
+    },
+    {
+      "id": "E01",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E01.FCStd",
+      "sha256": "d3486b1196097616bc0904b98280fb72942598d6bd03c9307a65818a051cc750"
+    },
+    {
+      "id": "E02",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E02.FCStd",
+      "sha256": "bad42189b70f6a3ad539c6cf40fc0e9fb11031887d7f7bbe4d52d5529392a395"
+    },
+    {
+      "id": "E03",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E03.FCStd",
+      "sha256": "8ed78088c95bc526eaafb9314a2dcabfe779ca2c64bc9e02a0f216242f06810b"
+    },
+    {
+      "id": "E04",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E04.FCStd",
+      "sha256": "feae560bf265fc573c298aa1a0de106c9107683f306a64201ce4ab15e22b040a"
+    },
+    {
+      "id": "E05",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E05.FCStd",
+      "sha256": "68ddb1bd661621b64572f82ffe10d5d350c38153a5f504e93ecd46c25a62897c"
+    },
+    {
+      "id": "E06",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E06.FCStd",
+      "sha256": "68018a5b06f9f8292a63adb58dbba73344dc0ebb35f596616b3913a7d905f7d0"
+    },
+    {
+      "id": "E07",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E07.FCStd",
+      "sha256": "631ac52452c0b15999b0e73fe96428cd3d364c0da87cdd873af070a5d0b1b3b4"
+    },
+    {
+      "id": "E08",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E08.FCStd",
+      "sha256": "bc90dc677ceb0ebd82751aa4367b236993c170088004b36c35e10a4adddc62a2"
+    },
+    {
+      "id": "E09",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E09.FCStd",
+      "sha256": "c67730fa04ae85680c1c52647324962633346eb598a45fdf1fa5ab799852dc22"
+    },
+    {
+      "id": "E10",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E10.FCStd",
+      "sha256": "84c73619772b02b19cdaa89518286fb28b2230d2e48aaaebd8afdf166fc3dcd6"
+    },
+    {
+      "id": "E11",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E11.FCStd",
+      "sha256": "f54afef574ec02a0a50d4861a4e78279c0c18854bd7c18f872d7b5a0b51c9616"
+    },
+    {
+      "id": "E12",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E12.FCStd",
+      "sha256": "716c12689eadc226d09f1eb01208e21c2e257f9b92fa9042a68565efc0e2ae8f"
+    },
+    {
+      "id": "E13",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/E13.FCStd",
+      "sha256": "c8317450a07e510d83e3066710b7a29ec23031c19801e44312d88faf28beb16c"
+    },
+    {
+      "id": "E14",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/E14.FCStd",
+      "sha256": "112693c1348a638717bd55b70d64bf54ed224b8dcc3d7ee8b4a9444df00d7146"
+    },
+    {
+      "id": "B14",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/B14.FCStd",
+      "sha256": "0ea35d53ae4a07d0eed6f76befa992473cfe966a5b65e94e0205bc0288c164ef"
+    },
+    {
+      "id": "F42",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F42.FCStd",
+      "sha256": "b868fff54b4fac06a7de2c161c89886305031c8b7ee23d6cf224e31d04ae4f6f"
+    },
+    {
+      "id": "F43",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F43.FCStd",
+      "sha256": "5c2fbe42b1782fab6373dffbc36bcc002cd6c1c31a5c4a982f3bd7530ef77027"
+    },
+    {
+      "id": "F44",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F44.FCStd",
+      "sha256": "8086287145aa131b7278579c15cacd461243881e60b94054e5212e573fdf251f"
+    },
+    {
+      "id": "F45",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F45.FCStd",
+      "sha256": "4b924a70ed3e6dd7a158de1e1ea9a7e5408a1d7659afeeb21795b35d04d763c4"
+    },
+    {
+      "id": "F46",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F46.FCStd",
+      "sha256": "34358f3dc4e2bd26fa7524aa2e9a89dc7664a7ce29313258d0c1be1767a65703"
+    },
+    {
+      "id": "F47",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F47.FCStd",
+      "sha256": "f46fb3dd4aac2bd5ad78832c32b73c3ee197f2d505bbf1dd8459d1696a054f51"
+    },
+    {
+      "id": "F48",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F48.FCStd",
+      "sha256": "b1c74bbd9fe8712563c05c080b09523a1874e5fa0cb27d0a1ee6c900a23883c3"
+    },
+    {
+      "id": "F49",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F49.FCStd",
+      "sha256": "0da3107577f3c89cd92dca7cf2c9a4203bf0d58bf6da0114c942817084784a37"
+    },
+    {
+      "id": "F50",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F50.FCStd",
+      "sha256": "91527420f563db3198efc67529b35ccff2646dd2e381cdac4ef516d5b4eb88cd"
+    },
+    {
+      "id": "B15",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/B15.FCStd",
+      "sha256": "f149933db8f6547c4bdcc26b101089a5e210f49f9ba11829fc3c1b8f8a204a4b"
+    },
+    {
+      "id": "F51",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/F51.FCStd",
+      "sha256": "b73111b577282e1e8e1654f21d8772761527ba9ab9c011f11c1575a667ea064f"
+    },
+    {
+      "id": "H25",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+      "file": "library/hardware/provisional/H25.FCStd",
+      "sha256": "e1ca1cc17a0a4fc99ddffbe54c18582922617b41d313a1d61034f81975355434"
+    },
+    {
+      "id": "R01",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/R01.FCStd",
+      "sha256": "856a16fca8f5afa933593034726509423ea957199c9194bd4c6948fc9dcb39f5"
+    },
+    {
+      "id": "R02",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/R02.FCStd",
+      "sha256": "fae4bb591cdfa6c18a998384dd8c520e5efd20c1635af7a11b3fa2bfe6128786"
+    },
+    {
+      "id": "R03",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/R03.FCStd",
+      "sha256": "916c7d4a63243dbdd5ef37a157276f31e140441bb9ac4f9c40259fb714b95648"
+    },
+    {
+      "id": "R04",
+      "valid": true,
+      "solid_count": 1,
+      "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+      "file": "library/hardware/provisional/R04.FCStd",
+      "sha256": "50644f96aeecca2510f3760994b0440032ad9adf05e4b64b1e3a185488926f6a"
+    }
+  ],
+  "detailed_threads": false,
+  "current_modified": false
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "T01",
+    "classification": "REQUIRED",
+    "en": "Hand screwdrivers or driver with interchangeable bits",
+    "pt_BR": "Chaves manuais ou parafusadeira com bits intercambiáveis",
+    "size": null,
+    "families": "F screw families; size after purchase"
+  },
+  {
+    "id": "T02",
+    "classification": "HARDWARE-DEPENDENT",
+    "en": "Torx, Phillips and/or hex bits",
+    "pt_BR": "Bits Torx, Phillips e/ou sextavados",
+    "size": null,
+    "families": "F01 Torx candidate; do not claim T20 for an unselected local equivalent"
+  },
+  {
+    "id": "T03",
+    "classification": "HARDWARE-DEPENDENT",
+    "en": "Sockets/spanners for nuts and leg/WPC bolts",
+    "pt_BR": "Soquetes/chaves para porcas e parafusos dos pés/WPC",
+    "size": null,
+    "families": "M4/M5/M6/M8 and measured imperial interfaces"
+  },
+  {
+    "id": "T04",
+    "classification": "REQUIRED",
+    "en": "Tape, square, clamps and soft mallet",
+    "pt_BR": "Trena, esquadro, sargentos e martelo de borracha",
+    "size": null,
+    "families": "Wood assembly and laminated pads"
+  },
+  {
+    "id": "T05",
+    "classification": "LIKELY",
+    "en": "Drill with depth stop for qualified shallow pilot completion",
+    "pt_BR": "Furadeira com limitador para finalizar pilotos qualificados",
+    "size": null,
+    "families": "F01 current CNC pilot1 mm / finished13 mm; supplier coupon first"
+  },
+  {
+    "id": "T06",
+    "classification": "HARDWARE-DEPENDENT",
+    "en": "Pilot bits and countersink for controlled touch-up only",
+    "pt_BR": "Brocas piloto e escareador somente para retoques controlados",
+    "size": null,
+    "families": "Primary structural holes/countersinks are CNC-shop work; no freehand pattern layout"
+  },
+  {
+    "id": "T07",
+    "classification": "HARDWARE-DEPENDENT",
+    "en": "Insert driver and retaining-ring pliers",
+    "pt_BR": "Chave para insertos e alicate para anéis de retenção",
+    "size": null,
+    "families": "I families / W08/H13 after selection"
+  },
+  {
+    "id": "T08",
+    "classification": "LIKELY",
+    "en": "Torque-controlled hand tool",
+    "pt_BR": "Ferramenta manual com controle de torque",
+    "size": null,
+    "families": "Qualified structural clamps/legs/WPC; torque not yet specified"
+  },
+  {
+    "id": "T09",
+    "classification": "REQUIRED",
+    "en": "Eye protection, sanding and adhesive cleanup supplies",
+    "pt_BR": "Proteção ocular, lixas e materiais para limpeza do adesivo",
+    "size": null,
+    "families": "Flatpack finishing/assembly"
+  }
+]

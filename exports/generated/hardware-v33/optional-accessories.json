@@ -1,0 +1,2127 @@
+{
+  "not_a_shopping_release": true,
+  "note": "Before-CNC items must also be on hand for assembly. Lists show obligations, not purchase authorization or stock availability. Unknown qty is not zero.",
+  "items": [
+    {
+      "id": "G02",
+      "description_en": "Main rear door contact felt",
+      "description_pt_BR": "Feltro de contato da porta traseira",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "04",
+      "parent_assembly": "main_rear_door",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "adhesive furniture felt",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Owner adds at actual contact; not a restraint. Quantity/size determined at assembly.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "gasket",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/G02.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hand",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "H05",
+      "description_en": "Optional main rear door limiter set",
+      "description_pt_BR": "Conjunto limitador opcional da porta principal",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "04",
+      "parent_assembly": "main_rear_door",
+      "quantity": 1,
+      "quantity_status": "ARCHITECTURE_COUNT",
+      "unit": "set",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Accessory only; no new mechanism designed.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/H05.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "H06",
+      "description_en": "Optional main rear slide bolt",
+      "description_pt_BR": "Ferrolho opcional da porta principal",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "04",
+      "parent_assembly": "main_rear_door",
+      "quantity": 1,
+      "quantity_status": "ARCHITECTURE_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/H06.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F10",
+      "description_en": "M4 ×55 main rear fan bolt",
+      "description_pt_BR": "Parafuso M4 ×55 da ventoinha traseira principal",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "main_ventilation",
+      "quantity": 8,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {
+        "diameter_mm": 4,
+        "length_mm": 55,
+        "head": "pan",
+        "head_diameter_mm": 8,
+        "head_height_mm": 3
+      },
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/fixed_rear_services_v32.json"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": " Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted.",
+      "instances": [
+        {
+          "object": "CandidateFanBolt230_1",
+          "coordinate_xyz_mm": [
+            177.5,
+            1284.6,
+            447.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": [
+            0,
+            -1,
+            0
+          ],
+          "direction_status": "CURRENT_DESIGN_APPROACH; hardware physical check required",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt230_2",
+          "coordinate_xyz_mm": [
+            177.5,
+            1284.6,
+            552.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": [
+            0,
+            -1,
+            0
+          ],
+          "direction_status": "CURRENT_DESIGN_APPROACH; hardware physical check required",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt230_3",
+          "coordinate_xyz_mm": [
+            282.5,
+            1284.6,
+            447.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": [
+            0,
+            -1,
+            0
+          ],
+          "direction_status": "CURRENT_DESIGN_APPROACH; hardware physical check required",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt230_4",
+          "coordinate_xyz_mm": [
+            282.5,
+            1284.6,
+            552.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": [
+            0,
+            -1,
+            0
+          ],
+          "direction_status": "CURRENT_DESIGN_APPROACH; hardware physical check required",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt370_1",
+          "coordinate_xyz_mm": [
+            317.5,
+            1284.6,
+            447.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": [
+            0,
+            -1,
+            0
+          ],
+          "direction_status": "CURRENT_DESIGN_APPROACH; hardware physical check required",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt370_2",
+          "coordinate_xyz_mm": [
+            317.5,
+            1284.6,
+            552.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": [
+            0,
+            -1,
+            0
+          ],
+          "direction_status": "CURRENT_DESIGN_APPROACH; hardware physical check required",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt370_3",
+          "coordinate_xyz_mm": [
+            422.5,
+            1284.6,
+            447.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": [
+            0,
+            -1,
+            0
+          ],
+          "direction_status": "CURRENT_DESIGN_APPROACH; hardware physical check required",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt370_4",
+          "coordinate_xyz_mm": [
+            422.5,
+            1284.6,
+            552.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": [
+            0,
+            -1,
+            0
+          ],
+          "direction_status": "CURRENT_DESIGN_APPROACH; hardware physical check required",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "screw",
+        "parameters": {
+          "diameter_mm": 4,
+          "length_mm": 55,
+          "head": "pan",
+          "head_diameter_mm": 8,
+          "head_height_mm": 3
+        },
+        "detailed_threads": false,
+        "path": "library/hardware/standard/screws/F10.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "I03",
+      "description_en": "M4 fan nut",
+      "description_pt_BR": "Porca M4 da ventoinha",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "main_ventilation",
+      "quantity": 16,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {
+        "thread": "M4",
+        "outer_diameter_mm": 8,
+        "length_mm": 3.2
+      },
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "",
+      "instances": [
+        {
+          "object": "CandidateFanBolt230_1Nut",
+          "coordinate_xyz_mm": [
+            177.5,
+            1261.0,
+            447.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt230_2Nut",
+          "coordinate_xyz_mm": [
+            177.5,
+            1261.0,
+            552.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt230_3Nut",
+          "coordinate_xyz_mm": [
+            282.5,
+            1261.0,
+            447.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt230_4Nut",
+          "coordinate_xyz_mm": [
+            282.5,
+            1261.0,
+            552.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt370_1Nut",
+          "coordinate_xyz_mm": [
+            317.5,
+            1261.0,
+            447.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt370_2Nut",
+          "coordinate_xyz_mm": [
+            317.5,
+            1261.0,
+            552.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt370_3Nut",
+          "coordinate_xyz_mm": [
+            422.5,
+            1261.0,
+            447.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanBolt370_4Nut",
+          "coordinate_xyz_mm": [
+            422.5,
+            1261.0,
+            552.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "FloorFanNutL1",
+          "coordinate_xyz_mm": [
+            97.5,
+            657.5,
+            16.4
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanNutL2",
+          "coordinate_xyz_mm": [
+            97.5,
+            762.5,
+            16.4
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanNutL3",
+          "coordinate_xyz_mm": [
+            202.5,
+            657.5,
+            16.4
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanNutL4",
+          "coordinate_xyz_mm": [
+            202.5,
+            762.5,
+            16.4
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanNutR1",
+          "coordinate_xyz_mm": [
+            397.5,
+            657.5,
+            16.4
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanNutR2",
+          "coordinate_xyz_mm": [
+            397.5,
+            762.5,
+            16.4
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanNutR3",
+          "coordinate_xyz_mm": [
+            502.5,
+            657.5,
+            16.4
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanNutR4",
+          "coordinate_xyz_mm": [
+            502.5,
+            762.5,
+            16.4
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "nut",
+        "parameters": {
+          "thread": "M4",
+          "outer_diameter_mm": 8,
+          "length_mm": 3.2
+        },
+        "detailed_threads": false,
+        "path": "library/hardware/standard/nuts/I03.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F11",
+      "description_en": "M4 ×50 floor fan bolt",
+      "description_pt_BR": "Parafuso M4 ×50 da ventoinha do fundo",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "main_ventilation",
+      "quantity": 8,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {
+        "diameter_mm": 4,
+        "length_mm": 50,
+        "head": "pan",
+        "head_diameter_mm": 8,
+        "head_height_mm": 3
+      },
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/notch_floor_fans_v32.json"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": " Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted.",
+      "instances": [
+        {
+          "object": "FloorFanBoltL1",
+          "coordinate_xyz_mm": [
+            97.5,
+            657.5,
+            39.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanBoltL2",
+          "coordinate_xyz_mm": [
+            97.5,
+            762.5,
+            39.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanBoltL3",
+          "coordinate_xyz_mm": [
+            202.5,
+            657.5,
+            39.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanBoltL4",
+          "coordinate_xyz_mm": [
+            202.5,
+            762.5,
+            39.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanBoltR1",
+          "coordinate_xyz_mm": [
+            397.5,
+            657.5,
+            39.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanBoltR2",
+          "coordinate_xyz_mm": [
+            397.5,
+            762.5,
+            39.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanBoltR3",
+          "coordinate_xyz_mm": [
+            502.5,
+            657.5,
+            39.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorFanBoltR4",
+          "coordinate_xyz_mm": [
+            502.5,
+            762.5,
+            39.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "screw",
+        "parameters": {
+          "diameter_mm": 4,
+          "length_mm": 50,
+          "head": "pan",
+          "head_diameter_mm": 8,
+          "head_height_mm": 3
+        },
+        "detailed_threads": false,
+        "path": "library/hardware/standard/screws/F11.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "H07",
+      "description_en": "120 mm main/floor optional fan",
+      "description_pt_BR": "Ventoinha opcional 120 mm da caixa/fundo",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "main_ventilation",
+      "quantity": 4,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "fan assembly; no electrical interface selected",
+      "nominal_dimensions": {
+        "width_mm": 120,
+        "height_mm": 120,
+        "depth_mm": 25,
+        "pitch_mm": 105
+      },
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "4 optional fans. Passive floor filtration remains possible; thermal qualification is separate. Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted.",
+      "instances": [
+        {
+          "object": "FAN_230",
+          "coordinate_xyz_mm": [
+            230.0,
+            1277.6,
+            500.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "FAN_370",
+          "coordinate_xyz_mm": [
+            370.0,
+            1277.6,
+            500.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "FloorIntakeFanL",
+          "coordinate_xyz_mm": [
+            150.0,
+            710.0,
+            48.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorIntakeFanR",
+          "coordinate_xyz_mm": [
+            450.0,
+            710.0,
+            48.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {
+          "width_mm": 120,
+          "height_mm": 120,
+          "depth_mm": 25,
+          "pitch_mm": 105
+        },
+        "detailed_threads": false,
+        "path": "library/hardware/fans/H07.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "B04",
+      "description_en": "120 mm main rear fan finger guard",
+      "description_pt_BR": "Grade de proteção 120 mm da ventoinha traseira",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "main_ventilation",
+      "quantity": 4,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "4 guards; purchased finger protection/free area not certified.",
+      "instances": [
+        {
+          "object": "CandidateFanGuard230Inner",
+          "coordinate_xyz_mm": [
+            230.0,
+            1264.35,
+            500.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanGuard230Outer",
+          "coordinate_xyz_mm": [
+            230.0,
+            1308.85,
+            500.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanGuard370Inner",
+          "coordinate_xyz_mm": [
+            370.0,
+            1264.35,
+            500.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFanGuard370Outer",
+          "coordinate_xyz_mm": [
+            370.0,
+            1308.85,
+            500.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/fans/B04.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "B06",
+      "description_en": "Floor fan upper finger guard",
+      "description_pt_BR": "Grade superior da ventoinha do fundo",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "main_ventilation",
+      "quantity": 2,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "",
+      "instances": [
+        {
+          "object": "FloorUpperGuardReserveL",
+          "coordinate_xyz_mm": [
+            150.0,
+            710.0,
+            61.75
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "FloorUpperGuardReserveR",
+          "coordinate_xyz_mm": [
+            450.0,
+            710.0,
+            61.75
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/fans/B06.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "H17",
+      "description_en": "Optional 120 mm backbox door fan",
+      "description_pt_BR": "Ventoinha opcional 120 mm da porta superior",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "quantity": 2,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "fan assembly",
+      "nominal_dimensions": {
+        "width_mm": 120,
+        "height_mm": 120,
+        "depth_mm": 25,
+        "pitch_mm": 105
+      },
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Fan state replaces blank; no manufacturer/connector required. Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted.",
+      "instances": [
+        {
+          "object": "BB_FanL",
+          "coordinate_xyz_mm": [
+            155.0,
+            1297.6,
+            1160.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "BB_FanR",
+          "coordinate_xyz_mm": [
+            445.0,
+            1297.6,
+            1160.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {
+          "width_mm": 120,
+          "height_mm": 120,
+          "depth_mm": 25,
+          "pitch_mm": 105
+        },
+        "detailed_threads": false,
+        "path": "library/hardware/fans/H17.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "B09",
+      "description_en": "Backbox fan finger guard",
+      "description_pt_BR": "Grade da ventoinha superior",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "quantity": 2,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "",
+      "instances": [
+        {
+          "object": "BB_FanGuardL",
+          "coordinate_xyz_mm": [
+            155.0,
+            1323.6,
+            1160.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "BB_FanGuardR",
+          "coordinate_xyz_mm": [
+            445.0,
+            1323.6,
+            1160.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/fans/B09.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "G06",
+      "description_en": "Backbox fan dust mesh/filter",
+      "description_pt_BR": "Tela/filtro da ventoinha superior",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "quantity": 2,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "mesh/filter",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exhaust pressure loss unresolved; no zero-restriction assumption.",
+      "instances": [
+        {
+          "object": "BB_FanMeshReserveL",
+          "coordinate_xyz_mm": [
+            155.0,
+            1324.6,
+            1160.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "BB_FanMeshReserveR",
+          "coordinate_xyz_mm": [
+            445.0,
+            1324.6,
+            1160.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "mesh",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/fans/G06.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hand",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F20",
+      "description_en": "M4 backbox fan-station bolt, length pending",
+      "description_pt_BR": "Parafuso M4 da ventoinha superior, comprimento pendente",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "quantity": 8,
+      "quantity_status": "ARCHITECTURE_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {
+        "diameter_mm": 4,
+        "length_mm": null,
+        "head": "pan"
+      },
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "12 mm door +25 mm fan +accessories; do not copy main55 mm bolt automatically. Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted.",
+      "instances": [],
+      "model": {
+        "strategy": "ORIGINAL_PARAMETRIC",
+        "kind": "screw",
+        "parameters": {
+          "diameter_mm": 4,
+          "length_mm": null,
+          "head": "pan"
+        },
+        "detailed_threads": false,
+        "path": "library/hardware/standard/screws/F20.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "B10",
+      "description_en": "Flexible fan-cable clamp/strain relief",
+      "description_pt_BR": "Abraçadeira/alívio de tração do cabo flexível",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "quantity": 4,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Two fixed and two door attachment points; only two door reserves modeled. Connector choice remains builder-defined.",
+      "instances": [
+        {
+          "object": "BB_FanStrainReliefReserveL",
+          "coordinate_xyz_mm": [
+            -25.0,
+            1306.05,
+            1092.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "BB_FanStrainReliefReserveR",
+          "coordinate_xyz_mm": [
+            625.0,
+            1306.05,
+            1092.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/fans/B10.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F23",
+      "description_en": "Fan-loop clamp screws",
+      "description_pt_BR": "Parafusos das abraçadeiras dos cabos",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Clamp SKU controls number and screw length; electrical connectors excluded.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/fans/F23.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "B11",
+      "description_en": "Optional downward fan dust hood",
+      "description_pt_BR": "Capa opcional de ventilação voltada para baixo",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "quantity": 2,
+      "quantity_status": "ARCHITECTURE_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {
+        "width_mm": 140,
+        "depth_mm": 19,
+        "height_mm": 140
+      },
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Owner-accepted accessory reserve in service source; not installed CURRENT geometry.",
+      "instances": [],
+      "model": {
+        "strategy": "ORIGINAL_PARAMETRIC",
+        "kind": "envelope",
+        "parameters": {
+          "width_mm": 140,
+          "depth_mm": 19,
+          "height_mm": 140
+        },
+        "detailed_threads": false,
+        "path": "library/hardware/fans/B11.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F55",
+      "description_en": "Optional dust-hood service screws",
+      "description_pt_BR": "Parafusos de serviço da capa antipoeira",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "quantity": 4,
+      "quantity_status": "ARCHITECTURE_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Two per optional hood in service concept; hole and screw geometry remain unselected.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/fans/F55.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "H23",
+      "description_en": "Coin mechanism/tray mounting set",
+      "description_pt_BR": "Conjunto de mecanismos e bandeja de moedas",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "12",
+      "parent_assembly": "matrix_front_interfaces",
+      "quantity": 1,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "set",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Optional1 set of2 mechanisms/tray/supports; no duplicate part purchase for CAD components.",
+      "instances": [
+        {
+          "object": "CoinStudy_Mechanism1",
+          "coordinate_xyz_mm": [
+            332.5,
+            55.5,
+            237.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CoinStudy_Mechanism2",
+          "coordinate_xyz_mm": [
+            392.5,
+            55.5,
+            237.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CoinStudy_MechanismMount1_1",
+          "coordinate_xyz_mm": [
+            315.0,
+            3.5,
+            195.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CoinStudy_MechanismMount1_2",
+          "coordinate_xyz_mm": [
+            315.0,
+            3.5,
+            285.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CoinStudy_MechanismMount2_1",
+          "coordinate_xyz_mm": [
+            375.0,
+            3.5,
+            195.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CoinStudy_MechanismMount2_2",
+          "coordinate_xyz_mm": [
+            375.0,
+            3.5,
+            285.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CoinStudy_CoinTray",
+          "coordinate_xyz_mm": [
+            362.5,
+            65.0,
+            127.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CoinStudy_TraySupport1",
+          "coordinate_xyz_mm": [
+            310.0,
+            61.5,
+            92.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CoinStudy_TraySupport2",
+          "coordinate_xyz_mm": [
+            415.0,
+            61.5,
+            92.5
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/H23.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "H24",
+      "description_en": "Optional pinball button mechanical set",
+      "description_pt_BR": "Conjunto mecânico opcional de botões de pinball",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "12",
+      "parent_assembly": "matrix_front_interfaces",
+      "quantity": 8,
+      "quantity_status": "CURRENT_OBJECT_COUNT",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "4 side +4 front bodies, side nuts/brackets included. Hole shapes remain existing references; builder may choose later buttons.",
+      "instances": [
+        {
+          "object": "CandidateFrontButton1",
+          "coordinate_xyz_mm": [
+            90.0,
+            50.5,
+            310.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFrontButton2",
+          "coordinate_xyz_mm": [
+            90.0,
+            50.5,
+            260.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFrontButton3",
+          "coordinate_xyz_mm": [
+            90.0,
+            50.5,
+            210.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "CandidateFrontButton4",
+          "coordinate_xyz_mm": [
+            520.0,
+            50.5,
+            210.0
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "LeafButton_primary_L",
+          "coordinate_xyz_mm": [
+            12.5,
+            89.0,
+            350.593661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafButton_primary_R",
+          "coordinate_xyz_mm": [
+            587.5,
+            89.0,
+            350.593661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafNut_primary_L",
+          "coordinate_xyz_mm": [
+            16.5,
+            89.0,
+            350.593661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafNut_primary_R",
+          "coordinate_xyz_mm": [
+            583.5,
+            89.0,
+            350.593661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafBracket_primary_L",
+          "coordinate_xyz_mm": [
+            31.0,
+            89.0,
+            326.593661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafBracket_primary_R",
+          "coordinate_xyz_mm": [
+            569.0,
+            89.0,
+            326.593661971831
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafButton_secondary_L",
+          "coordinate_xyz_mm": [
+            12.5,
+            127.0,
+            357.2302816901408
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafButton_secondary_R",
+          "coordinate_xyz_mm": [
+            587.5,
+            127.0,
+            357.2302816901408
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafNut_secondary_L",
+          "coordinate_xyz_mm": [
+            16.5,
+            127.0,
+            357.2302816901408
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafNut_secondary_R",
+          "coordinate_xyz_mm": [
+            583.5,
+            127.0,
+            357.2302816901408
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafBracket_secondary_L",
+          "coordinate_xyz_mm": [
+            31.0,
+            127.0,
+            333.2302816901408
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "LeafBracket_secondary_R",
+          "coordinate_xyz_mm": [
+            569.0,
+            127.0,
+            333.2302816901408
+          ],
+          "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
+          "installation_direction": null,
+          "direction_status": "HARDWARE_DEPENDENT; not inferred from bounding box",
+          "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "model": {
+        "strategy": "CURRENT_BREP_ENVELOPE",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/H24.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "CURRENT_BREP_CENTERS",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F40",
+      "description_en": "Button bracket mounting fasteners",
+      "description_pt_BR": "Fixadores dos suportes de botões",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "12",
+      "parent_assembly": "matrix_front_interfaces",
+      "quantity": null,
+      "quantity_status": "UNRESOLVED_NOT_ZERO",
+      "unit": "piece",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "4 side brackets, exact number of screws unselected.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/F40.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "H26",
+      "description_en": "Optional mobility skate set",
+      "description_pt_BR": "Conjunto opcional de patins externos de transporte",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "01",
+      "parent_assembly": "cabinet_shell",
+      "quantity": 1,
+      "quantity_status": "ARCHITECTURE_COUNT",
+      "unit": "set",
+      "material": "steel; finish/grade TBD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "External removable PinSkates-style only; no integrated wheels.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/H26.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "H25",
+      "description_en": "Optional removable toy shelf",
+      "description_pt_BR": "Prateleira removível opcional de brinquedos",
+      "flatpack_classification": "OPTIONAL_FLATPACK_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "quantity": 1,
+      "quantity_status": "ARCHITECTURE_COUNT",
+      "unit": "piece",
+      "material": "plywood accessory; not in current installed CAD",
+      "nominal_dimensions": {},
+      "dimensional_authority": "UNSPECIFIED",
+      "freeze_status": "OPTIONAL",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Study only; no mandatory toy shelf. No unvalidated production cut part generated.",
+      "instances": [],
+      "model": {
+        "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
+        "kind": "envelope",
+        "parameters": {},
+        "detailed_threads": false,
+        "path": "library/hardware/provisional/H25.FCStd"
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "hardware-dependent drive/socket; size not selected",
+      "installed_coordinate_status": "UNMODELED_INTERFACE; coordinates must be qualified before installation/CNC",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    }
+  ]
+}

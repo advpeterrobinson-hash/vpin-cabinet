@@ -1,0 +1,13 @@
+{
+  "id": "H09",
+  "model_status": "CURRENT_GROSS_HINGE_RESERVE_NOT_PART_OUTLINE",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {},
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "config/wpc_kinematics_v32.json; studies/wpc-fold-v32/README.md"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}

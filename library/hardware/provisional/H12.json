@@ -1,0 +1,15 @@
+{
+  "id": "H12",
+  "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {
+    "length_mm": 200
+  },
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "CURRENT V32 B-reps / owner V33 inventory instruction"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}

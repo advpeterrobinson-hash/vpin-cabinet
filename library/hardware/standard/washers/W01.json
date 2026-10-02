@@ -1,0 +1,17 @@
+{
+  "id": "W01",
+  "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {
+    "inner_diameter_mm": 5.5,
+    "outer_diameter_mm": 12,
+    "thickness_mm": 1
+  },
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "CURRENT V32 B-reps / owner V33 inventory instruction"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}

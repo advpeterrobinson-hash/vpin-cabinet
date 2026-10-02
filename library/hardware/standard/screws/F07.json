@@ -1,0 +1,18 @@
+{
+  "id": "F07",
+  "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {
+    "diameter_mm": 5,
+    "length_mm": null,
+    "head": "countersunk",
+    "clearance_mm": 5.5
+  },
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "config/consolidated_audio_v32.json#pc_base"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}

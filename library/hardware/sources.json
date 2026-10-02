@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-10-02",
+  "downloaded_cad": false,
+  "standard_geometry_policy": "Original simplified parameterized geometry from current design values. No claim of ISO/DIN certification or exact drive geometry. No detailed threads.",
+  "sources": [
+    {
+      "id": "CURRENT",
+      "source": "config/current_v32.json and exports/generated/backbox-lock-integration-v32/play.FCStd",
+      "status": "CURRENT DESIGN AUTHORITY; physical hardware unmeasured",
+      "license": "CERN-OHL-S-2.0",
+      "use": "Object counts, installed B-reps, source chain and owner-accepted architecture"
+    },
+    {
+      "id": "BR-FASTENERS",
+      "url": "https://www.ciser.com.br/categoria/parafusos",
+      "related_urls": ["https://www.ciser.com.br/categoria/porcas", "https://www.ciser.com.br/categoria/arruelas", "https://www.ciser.com.br/catalogos"],
+      "status": "Primary manufacturer HTML opened",
+      "license": "Vendor copyright; links only",
+      "use": "Brazilian commodity sourcing route for wood/machine screws, nuts and washers; no SKU, stock, size availability or price promise"
+    },
+    {
+      "id": "BR-CATALOG-SEARCH",
+      "url": "https://www.ciser.com.br/userfiles/downloads/ciser-catalogo-de-produtos-v24-01-2025.pdf",
+      "status": "Search index lists metric M4/M5/M6/M8 family; direct PDF open failed",
+      "license": "Vendor copyright; not downloaded",
+      "use": "Sourcing lead only; no dimensional table imported or used to freeze hardware"
+    },
+    {
+      "id": "SPAX-REFERENCE",
+      "url": "https://www.spax.com/gb-en/p/stainless-steel-screw-full-thread-flat-countersunk-head-t-star-plus-4cut-stainless-steel-a2.html?variant=1197000450303",
+      "status": "Primary manufacturer search result inspected; existing source in current pivot config",
+      "license": "Vendor copyright; no CAD imported",
+      "use": "Confirms a 4.5x30 countersunk Torx-family screw exists; not selected SKU, not proof of Brazilian availability. Current9 mm head reserve differs from listed8.8 mm head. Bit size not frozen."
+    },
+    {
+      "id": "BR-LOCKS",
+      "url": "https://www.hafele.com.br/INTERSHOP/static/WFS/Haefele-HBR-Site/-/Haefele-HBR/pt_BR/opentext/assets/HBR/Compact_2024.pdf",
+      "status": "Primary Brazilian supplier catalog search result inspected",
+      "license": "Vendor copyright; no document imported",
+      "use": "Local cabinet-lock sourcing lead; no proposed exact lock or piano hinge compatibility"
+    },
+    {
+      "id": "LOSS-PROTECTION",
+      "url": "https://www.ganternorm.com/en/products/2.2-Tensioning-clamping-withknobs/Star-knobs/GN-6336.13-Star-Knobs-Plastic-Threaded-Stud-Stainless-Steel-with-Loss-Protection",
+      "status": "Prior accepted lock study primary source; link retained",
+      "license": "Vendor copyright; no CAD imported",
+      "use": "Architecture of loss-protected male knob; not a proprietary dependency or chosen supplier"
+    },
+    {
+      "id": "BR-MANIPULOS-LEAD",
+      "url": "https://www.atibrasil.com.br/img/cms/Catalogos/FOLDER-E-G-PORTUGU%C3%8AS.pdf",
+      "status": "Brazil supplier search lead; full PDF refused by web tool due to size",
+      "license": "Vendor copyright; not downloaded",
+      "use": "Local supply inquiry lead only; no product availability/fit claim"
+    },
+    {
+      "id": "WPC",
+      "source": "studies/wpc-fold-v32/sources.json and README.md",
+      "url": "https://head.pinscape-build-guide.pages.dev/#hingeInstall",
+      "status": "Existing positively validated repository reference",
+      "license": "External references retain original copyrights; library shapes are original project schematics",
+      "use": "Rigid arm / three floor attachments / concentric bushing / single transverse pivot topology. Final purchased dimensions remain null."
+    }
+  ]
+}

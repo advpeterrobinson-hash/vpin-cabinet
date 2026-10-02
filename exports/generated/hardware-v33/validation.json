@@ -1,0 +1,732 @@
+{
+  "pass": true,
+  "source_head": "0aa4ea77531c59274a0b8547a71e731626bd2cf2",
+  "checks": [
+    {
+      "check": "Classification, uncertain quantities, prices and CNC holds",
+      "pass": true
+    },
+    {
+      "check": "All438 CURRENT and blank-state B-reps classified exactly once",
+      "pass": true
+    },
+    {
+      "check": "Wood pivot1 dowel /4 straps /8 strap screws /6 support screws",
+      "pass": true
+    },
+    {
+      "check": "Two CNC cradles preserved",
+      "pass": true
+    },
+    {
+      "check": "Purchased subcomponents not double counted",
+      "pass": true
+    },
+    {
+      "check": "No invented metal shaft bearings or legacy prop hardware",
+      "pass": true
+    },
+    {
+      "check": "WPC family exact references and physical holds",
+      "pass": true
+    },
+    {
+      "check": "Canonical washer aliases do not create buy rows",
+      "pass": true
+    },
+    {
+      "check": "Washer equivalence CandidateHandleBolt1Washer",
+      "pass": true
+    },
+    {
+      "check": "Washer equivalence CandidateFixedSupportScrew1L1Washer",
+      "pass": true
+    },
+    {
+      "check": "Washer equivalence CandidateFanBolt230_1OuterWasher",
+      "pass": true
+    },
+    {
+      "check": "No electronics in required hardware layer",
+      "pass": true
+    },
+    {
+      "check": "Blank and fan bolt alternatives explicit",
+      "pass": true
+    },
+    {
+      "check": "Wood component map preserves structural load-bearing parts",
+      "pass": true
+    },
+    {
+      "check": "Known fused/stepped wood objects expose CNC decomposition holds",
+      "pass": true
+    },
+    {
+      "check": "All current CAD valid at read-only audit",
+      "pass": true
+    },
+    {
+      "check": "One valid lightweight model per canonical family",
+      "pass": true
+    },
+    {
+      "check": "Saved model F01",
+      "pass": true
+    },
+    {
+      "check": "Saved model F02",
+      "pass": true
+    },
+    {
+      "check": "Saved model H01",
+      "pass": true
+    },
+    {
+      "check": "Saved model B01",
+      "pass": true
+    },
+    {
+      "check": "Saved model F03",
+      "pass": true
+    },
+    {
+      "check": "Saved model W01",
+      "pass": true
+    },
+    {
+      "check": "Saved model I01",
+      "pass": true
+    },
+    {
+      "check": "Saved model F04",
+      "pass": true
+    },
+    {
+      "check": "Saved model W02",
+      "pass": true
+    },
+    {
+      "check": "Saved model B02",
+      "pass": true
+    },
+    {
+      "check": "Saved model F05",
+      "pass": true
+    },
+    {
+      "check": "Saved model F52",
+      "pass": true
+    },
+    {
+      "check": "Saved model I14",
+      "pass": true
+    },
+    {
+      "check": "Saved model F06",
+      "pass": true
+    },
+    {
+      "check": "Saved model G01",
+      "pass": true
+    },
+    {
+      "check": "Saved model F07",
+      "pass": true
+    },
+    {
+      "check": "Saved model I02",
+      "pass": true
+    },
+    {
+      "check": "Saved model W03",
+      "pass": true
+    },
+    {
+      "check": "Saved model H02",
+      "pass": true
+    },
+    {
+      "check": "Saved model H03",
+      "pass": true
+    },
+    {
+      "check": "Saved model B03",
+      "pass": true
+    },
+    {
+      "check": "Saved model H04",
+      "pass": true
+    },
+    {
+      "check": "Saved model F08",
+      "pass": true
+    },
+    {
+      "check": "Saved model F09",
+      "pass": true
+    },
+    {
+      "check": "Saved model F53",
+      "pass": true
+    },
+    {
+      "check": "Saved model G02",
+      "pass": true
+    },
+    {
+      "check": "Saved model H05",
+      "pass": true
+    },
+    {
+      "check": "Saved model H06",
+      "pass": true
+    },
+    {
+      "check": "Saved model F10",
+      "pass": true
+    },
+    {
+      "check": "Saved model I03",
+      "pass": true
+    },
+    {
+      "check": "Saved model F11",
+      "pass": true
+    },
+    {
+      "check": "Saved model F12",
+      "pass": true
+    },
+    {
+      "check": "Saved model I04",
+      "pass": true
+    },
+    {
+      "check": "Saved model H07",
+      "pass": true
+    },
+    {
+      "check": "Saved model B04",
+      "pass": true
+    },
+    {
+      "check": "Saved model B05",
+      "pass": true
+    },
+    {
+      "check": "Saved model B06",
+      "pass": true
+    },
+    {
+      "check": "Saved model F13",
+      "pass": true
+    },
+    {
+      "check": "Saved model G03",
+      "pass": true
+    },
+    {
+      "check": "Saved model H08",
+      "pass": true
+    },
+    {
+      "check": "Saved model H09",
+      "pass": true
+    },
+    {
+      "check": "Saved model H10",
+      "pass": true
+    },
+    {
+      "check": "Saved model F14",
+      "pass": true
+    },
+    {
+      "check": "Saved model F15",
+      "pass": true
+    },
+    {
+      "check": "Saved model W06",
+      "pass": true
+    },
+    {
+      "check": "Saved model F16",
+      "pass": true
+    },
+    {
+      "check": "Saved model F54",
+      "pass": true
+    },
+    {
+      "check": "Saved model B16",
+      "pass": true
+    },
+    {
+      "check": "Saved model H11",
+      "pass": true
+    },
+    {
+      "check": "Saved model W07",
+      "pass": true
+    },
+    {
+      "check": "Saved model I05",
+      "pass": true
+    },
+    {
+      "check": "Saved model I06",
+      "pass": true
+    },
+    {
+      "check": "Saved model F17",
+      "pass": true
+    },
+    {
+      "check": "Saved model H12",
+      "pass": true
+    },
+    {
+      "check": "Saved model W08",
+      "pass": true
+    },
+    {
+      "check": "Saved model H13",
+      "pass": true
+    },
+    {
+      "check": "Saved model B07",
+      "pass": true
+    },
+    {
+      "check": "Saved model B08",
+      "pass": true
+    },
+    {
+      "check": "Saved model H14",
+      "pass": true
+    },
+    {
+      "check": "Saved model H15",
+      "pass": true
+    },
+    {
+      "check": "Saved model H16",
+      "pass": true
+    },
+    {
+      "check": "Saved model F18",
+      "pass": true
+    },
+    {
+      "check": "Saved model F19",
+      "pass": true
+    },
+    {
+      "check": "Saved model G04",
+      "pass": true
+    },
+    {
+      "check": "Saved model G05",
+      "pass": true
+    },
+    {
+      "check": "Saved model H17",
+      "pass": true
+    },
+    {
+      "check": "Saved model B09",
+      "pass": true
+    },
+    {
+      "check": "Saved model G06",
+      "pass": true
+    },
+    {
+      "check": "Saved model G07",
+      "pass": true
+    },
+    {
+      "check": "Saved model F20",
+      "pass": true
+    },
+    {
+      "check": "Saved model F21",
+      "pass": true
+    },
+    {
+      "check": "Saved model I07",
+      "pass": true
+    },
+    {
+      "check": "Saved model F22",
+      "pass": true
+    },
+    {
+      "check": "Saved model B10",
+      "pass": true
+    },
+    {
+      "check": "Saved model F23",
+      "pass": true
+    },
+    {
+      "check": "Saved model B11",
+      "pass": true
+    },
+    {
+      "check": "Saved model F55",
+      "pass": true
+    },
+    {
+      "check": "Saved model F24",
+      "pass": true
+    },
+    {
+      "check": "Saved model I08",
+      "pass": true
+    },
+    {
+      "check": "Saved model G08",
+      "pass": true
+    },
+    {
+      "check": "Saved model G09",
+      "pass": true
+    },
+    {
+      "check": "Saved model G10",
+      "pass": true
+    },
+    {
+      "check": "Saved model F25",
+      "pass": true
+    },
+    {
+      "check": "Saved model F26",
+      "pass": true
+    },
+    {
+      "check": "Saved model W09",
+      "pass": true
+    },
+    {
+      "check": "Saved model I09",
+      "pass": true
+    },
+    {
+      "check": "Saved model F27",
+      "pass": true
+    },
+    {
+      "check": "Saved model I10",
+      "pass": true
+    },
+    {
+      "check": "Saved model I11",
+      "pass": true
+    },
+    {
+      "check": "Saved model F28",
+      "pass": true
+    },
+    {
+      "check": "Saved model F29",
+      "pass": true
+    },
+    {
+      "check": "Saved model F30",
+      "pass": true
+    },
+    {
+      "check": "Saved model I12",
+      "pass": true
+    },
+    {
+      "check": "Saved model W10",
+      "pass": true
+    },
+    {
+      "check": "Saved model F31",
+      "pass": true
+    },
+    {
+      "check": "Saved model F32",
+      "pass": true
+    },
+    {
+      "check": "Saved model F33",
+      "pass": true
+    },
+    {
+      "check": "Saved model F34",
+      "pass": true
+    },
+    {
+      "check": "Saved model I13",
+      "pass": true
+    },
+    {
+      "check": "Saved model F35",
+      "pass": true
+    },
+    {
+      "check": "Saved model B12",
+      "pass": true
+    },
+    {
+      "check": "Saved model G11",
+      "pass": true
+    },
+    {
+      "check": "Saved model G12",
+      "pass": true
+    },
+    {
+      "check": "Saved model F36",
+      "pass": true
+    },
+    {
+      "check": "Saved model H18",
+      "pass": true
+    },
+    {
+      "check": "Saved model B13",
+      "pass": true
+    },
+    {
+      "check": "Saved model F37",
+      "pass": true
+    },
+    {
+      "check": "Saved model H19",
+      "pass": true
+    },
+    {
+      "check": "Saved model F38",
+      "pass": true
+    },
+    {
+      "check": "Saved model H20",
+      "pass": true
+    },
+    {
+      "check": "Saved model H21",
+      "pass": true
+    },
+    {
+      "check": "Saved model H22",
+      "pass": true
+    },
+    {
+      "check": "Saved model F39",
+      "pass": true
+    },
+    {
+      "check": "Saved model H23",
+      "pass": true
+    },
+    {
+      "check": "Saved model H24",
+      "pass": true
+    },
+    {
+      "check": "Saved model F40",
+      "pass": true
+    },
+    {
+      "check": "Saved model H26",
+      "pass": true
+    },
+    {
+      "check": "Saved model E01",
+      "pass": true
+    },
+    {
+      "check": "Saved model E02",
+      "pass": true
+    },
+    {
+      "check": "Saved model E03",
+      "pass": true
+    },
+    {
+      "check": "Saved model E04",
+      "pass": true
+    },
+    {
+      "check": "Saved model E05",
+      "pass": true
+    },
+    {
+      "check": "Saved model E06",
+      "pass": true
+    },
+    {
+      "check": "Saved model E07",
+      "pass": true
+    },
+    {
+      "check": "Saved model E08",
+      "pass": true
+    },
+    {
+      "check": "Saved model E09",
+      "pass": true
+    },
+    {
+      "check": "Saved model E10",
+      "pass": true
+    },
+    {
+      "check": "Saved model E11",
+      "pass": true
+    },
+    {
+      "check": "Saved model E12",
+      "pass": true
+    },
+    {
+      "check": "Saved model E13",
+      "pass": true
+    },
+    {
+      "check": "Saved model E14",
+      "pass": true
+    },
+    {
+      "check": "Saved model B14",
+      "pass": true
+    },
+    {
+      "check": "Saved model F42",
+      "pass": true
+    },
+    {
+      "check": "Saved model F43",
+      "pass": true
+    },
+    {
+      "check": "Saved model F44",
+      "pass": true
+    },
+    {
+      "check": "Saved model F45",
+      "pass": true
+    },
+    {
+      "check": "Saved model F46",
+      "pass": true
+    },
+    {
+      "check": "Saved model F47",
+      "pass": true
+    },
+    {
+      "check": "Saved model F48",
+      "pass": true
+    },
+    {
+      "check": "Saved model F49",
+      "pass": true
+    },
+    {
+      "check": "Saved model F50",
+      "pass": true
+    },
+    {
+      "check": "Saved model B15",
+      "pass": true
+    },
+    {
+      "check": "Saved model F51",
+      "pass": true
+    },
+    {
+      "check": "Saved model H25",
+      "pass": true
+    },
+    {
+      "check": "Saved model R01",
+      "pass": true
+    },
+    {
+      "check": "Saved model R02",
+      "pass": true
+    },
+    {
+      "check": "Saved model R03",
+      "pass": true
+    },
+    {
+      "check": "Saved model R04",
+      "pass": true
+    },
+    {
+      "check": "Every assembly stage dependency resolves and is acyclic",
+      "pass": true
+    },
+    {
+      "check": "CURRENT byte preservation exports/generated/backbox-lock-integration-v32/play.FCStd",
+      "pass": true
+    },
+    {
+      "check": "CURRENT byte preservation exports/generated/backbox-lock-integration-v32/blank-fans.FCStd",
+      "pass": true
+    },
+    {
+      "check": "CURRENT byte preservation config/current_v32.json",
+      "pass": true
+    },
+    {
+      "check": "CURRENT byte preservation exports/generated/backbox-lock-integration-v32/mesh.json",
+      "pass": true
+    },
+    {
+      "check": "CURRENT byte preservation exports/generated/viewer-v32/index.html",
+      "pass": true
+    },
+    {
+      "check": "Every source-HEAD file byte identical",
+      "pass": true
+    },
+    {
+      "check": "Reject false frozen WPC",
+      "pass": true
+    },
+    {
+      "check": "Reject unknown quantity converted to zero",
+      "pass": true
+    },
+    {
+      "check": "Reject automatic structural material downgrade",
+      "pass": true
+    },
+    {
+      "check": "CSV row/ID roundtrip",
+      "pass": true
+    },
+    {
+      "check": "CSV null quantities and prices preserved",
+      "pass": true
+    },
+    {
+      "check": "All15 requested real-CAD views",
+      "pass": true
+    }
+  ],
+  "unchanged_source_head_files": 1113,
+  "manufacturing_ready": false,
+  "structural_certification": false,
+  "input_sha256": {
+    "config/hardware_catalog_v33.json": "a2d0ddf9623a2271a8a51562ea4b73bad6d6ddbdb8024444adebceb07658cb5a",
+    "config/wood_materials_v33.json": "cfd1137736090561ad14e71f255f6118f7d910be24c68a57f1b99c63214e1422",
+    "library/hardware/current-object-audit.json": "df5585744287df52dfb090262f216f277d0374c15847a7ce72e14e42b70c7e4e",
+    "tools/check_hardware_v33.py": "dd283bc72abf870262754656988526cf3533a56a91fd9cd6133fe74b00147e56",
+    "tools/build_hardware_library_v33.py": "4f15876406a1120389cf440c46a8cc99cc1730fcd00b4f12441736dcc8749b1a",
+    "tools/build_bom_v33.py": "c58faf8bd4e824db9ef276390d3f88b80ba97617eee207642c4f009e62a29d75",
+    "tools/define_hardware_v33.py": "3c75b3531e4a3bb413431b96e047c02762ed934db486c9ae640f9f789dd8abba",
+    "tools/export_bom_v33.mjs": "bd8bfa0cc092e8733a5136cec1a351d16324e99a1448f5b85cfc36ebdb55bd3a",
+    "studies/hardware-v33/render.py": "f360e750c70757220fbf9f2fdd5e52c7325bec182cb5864d1b93801172968267"
+  }
+}

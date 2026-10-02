@@ -1,0 +1,17 @@
+{
+  "id": "I04",
+  "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+  "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
+  "parameters": {
+    "thread": "M4",
+    "outer_diameter_mm": 6,
+    "length_mm": 8
+  },
+  "manufacturing_ready": false,
+  "detailed_threads": false,
+  "source": [
+    "config/notch_floor_fans_v32.json"
+  ],
+  "license": "CERN-OHL-S-2.0",
+  "measured": false
+}
