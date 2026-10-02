@@ -1,0 +1,144 @@
+{
+  "images": [
+    {
+      "id": "01",
+      "title": "Historical lock / cassette obstruction",
+      "file": "01-review.png",
+      "cad": "option-a.FCStd"
+    },
+    {
+      "id": "02",
+      "title": "Lock-access search map",
+      "file": "02-review.png",
+      "cad": "search-map.FCStd"
+    },
+    {
+      "id": "03",
+      "title": "Option A \u2014 compact access still conflicts",
+      "file": "03-review.png",
+      "cad": "option-a-compact.FCStd"
+    },
+    {
+      "id": "04",
+      "title": "Option B \u2014 symmetric relocated pair",
+      "file": "04-review.png",
+      "cad": "lower-open.FCStd"
+    },
+    {
+      "id": "05",
+      "title": "Selected lock L \u2014 engaged and captive",
+      "file": "05-review.png",
+      "cad": "lock-close-L.FCStd"
+    },
+    {
+      "id": "06",
+      "title": "Selected lock R \u2014 engaged and captive",
+      "file": "06-review.png",
+      "cad": "lock-close-R.FCStd"
+    },
+    {
+      "id": "07",
+      "title": "Open rear \u2014 both hand paths, lower section",
+      "file": "07-review.png",
+      "cad": "both-access-section.FCStd"
+    },
+    {
+      "id": "08",
+      "title": "Hand corridor L \u2014 approach, release and stow",
+      "file": "08-review.png",
+      "cad": "hand-close-L.FCStd"
+    },
+    {
+      "id": "09",
+      "title": "Hand corridor R \u2014 approach, release and stow",
+      "file": "09-review.png",
+      "cad": "hand-close-R.FCStd"
+    },
+    {
+      "id": "10",
+      "title": "Floor wood reserve",
+      "file": "10-review.png",
+      "cad": "wood-reserves.FCStd"
+    },
+    {
+      "id": "11",
+      "title": "Shelf / captive-thread section",
+      "file": "11-review.png",
+      "cad": "lock-section.FCStd"
+    },
+    {
+      "id": "12",
+      "title": "Generic cable passage remains clear",
+      "file": "12-review.png",
+      "cad": "wood-reserves.FCStd"
+    },
+    {
+      "id": "13",
+      "title": "Locks separated from hinge-service reserves",
+      "file": "13-review.png",
+      "cad": "wood-reserves.FCStd"
+    },
+    {
+      "id": "14",
+      "title": "Cassette remains installed for locking",
+      "file": "14-review.png",
+      "cad": "doors-open.FCStd"
+    },
+    {
+      "id": "15",
+      "title": "DMD and speakers installed \u2014 locks accessible",
+      "file": "15-review.png",
+      "cad": "doors-open.FCStd"
+    },
+    {
+      "id": "16",
+      "title": "Both doors fully open \u2014 lock operation",
+      "file": "16-review.png",
+      "cad": "doors-open.FCStd"
+    },
+    {
+      "id": "17",
+      "title": "Doors latched \u2014 upright locks engaged",
+      "file": "17-review.png",
+      "cad": "locks-engaged.FCStd"
+    },
+    {
+      "id": "18",
+      "title": "Populated fold 1\u00b0 \u2014 locks parked",
+      "file": "18-review.png",
+      "cad": "fold-1.FCStd"
+    },
+    {
+      "id": "19",
+      "title": "Populated fold 45\u00b0 \u2014 locks parked",
+      "file": "19-review.png",
+      "cad": "fold-45.FCStd"
+    },
+    {
+      "id": "20",
+      "title": "Populated fold 90\u00b0 \u2014 locks parked",
+      "file": "20-review.png",
+      "cad": "fold-90.FCStd"
+    },
+    {
+      "id": "21",
+      "title": "Complete final backbox \u2014 front",
+      "file": "21-review.png",
+      "cad": "locks-engaged.FCStd"
+    },
+    {
+      "id": "22",
+      "title": "Complete final backbox \u2014 rear",
+      "file": "22-review.png",
+      "cad": "locks-engaged.FCStd"
+    },
+    {
+      "id": "23",
+      "title": "Complete final backbox \u2014 exploded",
+      "file": "23-review.png",
+      "cad": "backbox-exploded.FCStd"
+    }
+  ],
+  "source": "actual OCC B-reps / exact sections",
+  "manufacturing_ready": false
+}

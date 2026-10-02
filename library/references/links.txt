@@ -112,3 +112,7 @@ Rammer, D.R., 2021, Wood Handbook Chapter 8: Fastenings, FPL-GTR-282. Official a
 2026-10-02 — Backbox service architecture V32
 https://www.noctua.at/en/products/nf-p12-redux-1300/specifications
 Primary-source HTML inspected: 120 x 120 x 25 mm frame and 105 x 105 mm mounting pitch only. Confirms the owner-provided common family; no manufacturer, electrical connector, speed, airflow or purchasing choice adopted. No image, drawing, CAD or source page copied into the repository. Original geometry and assessment: studies/backbox-service-v32/README.md.
+
+2026-10-02 — V32 upright-lock integration
+https://www.ganternorm.com/en/products/2.2-Tensioning-clamping-withknobs/Star-knobs/GN-6336.13-Star-Knobs-Plastic-Threaded-Stud-Stainless-Steel-with-Loss-Protection
+Primary manufacturer HTML inspected: GN 6336.13 includes loss-protected male star knobs and a 40/M8/40 family. Establishes purchased-hardware architecture only; no supplier/SKU or Brazilian availability selected. Geometry remains explicit provisional packaging. No third-party CAD or drawing imported. Original study: studies/backbox-lock-integration-v32/README.md.

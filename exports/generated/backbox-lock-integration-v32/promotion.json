@@ -1,0 +1,16 @@
+{
+  "promoted": true,
+  "source_head_before": "f3e2eee32fde61835376c53b462436b996f01794",
+  "manufacturing_ready": false,
+  "two_independent_locks": true,
+  "cassette_retained_for_normal_fold": true,
+  "electronics_disconnection_introduced": false,
+  "backbox_glass_retained": true,
+  "custom_metal_added": 0,
+  "input_sha256": {
+    "exports/generated/backbox-lock-integration-v32/validation.json": "3fdc714c5e5c69d3fa499399f960154a562abf5c053c74597d9f367955792a62",
+    "exports/generated/backbox-lock-integration-v32/regression-validation.json": "385883dfcf73a3ae6aca378aa91895888e6361771710a09b00916d28d3f72d94",
+    "exports/generated/backbox-lock-integration-v32/viewer-validation.json": "287276bc4c53d51a014bea1f5935e072b792d73827aff44dd595567bd282eb11",
+    "config/current_v32.json": "a10a6cb51e2b3d65c5e28f774b11928e90255f9fd92e134052ae204774bd174a"
+  }
+}

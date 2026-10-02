@@ -1,0 +1,16 @@
+"""Promote only after concrete CAD, independent regression and viewer gates. CERN-OHL-S-2.0."""
+from pathlib import Path
+import json,hashlib
+R=Path(__file__).resolve().parents[1];O=R/'exports/generated/backbox-lock-integration-v32'
+q=json.loads((O/'validation.json').read_text());r=json.loads((O/'regression-validation.json').read_text());v=json.loads((O/'viewer-validation.json').read_text());c=json.loads((R/'config/backbox_lock_integration_v32.json').read_text())
+assert all(x['pass'] for x in q['checks']) and r['pass'] and v['pass']
+for report in [q,r]:
+ for name,digest in report['input_sha256'].items():assert hashlib.sha256((R/name).read_bytes()).hexdigest()==digest,'stale '+name
+assert v['mesh_sha256']==q['mesh_sha256']==hashlib.sha256((O/'mesh.json').read_bytes()).hexdigest()
+assert v['viewer_sha256']==hashlib.sha256((R/'exports/generated/viewer-v32/index.html').read_bytes()).hexdigest()
+assert not c['normal_fold_cassette_removal'] and not c['normal_fold_electrical_disconnection'] and not c['manufacturing_ready']
+manifest=json.loads((R/'config/current_v32.json').read_text())
+manifest.update({'geometry_directory':str(O.relative_to(R)),'geometry_builder':'tools/backbox_lock_integration_v32_entry.py','geometry_parameters':'config/backbox_lock_integration_v32.json','backbox_parameter_source':'config/backbox_service_v32.json','backbox_structure_parameter_source':'config/backbox_structure_review_v32.json','backbox_source_note':'Owner-accepted service architecture promoted by rear-lock integration; historical study status and old lock centers are superseded by this CURRENT manifest. Existing 210 mm sides / Y1146 floor / shelf profile / generic passage retained; only reference lock bores and blind parking reliefs added.','cradle_validation_directory':'exports/generated/pivot-cradle-integration-v32','source_head_before_promotion':c['source_head'],'report':'studies/backbox-lock-integration-v32/README.md','hinge_tool_access':'RARE SERVICE: main glass + matrix removed; side pivot requires playfield lift-out/removal; first floor hinge fasteners may require cassette removal','backbox_service_study':'studies/backbox-lock-integration-v32/README.md','backbox_service_reference_study':'studies/backbox-service-v32/README.md','backbox_service_geometry_status':'PROMOTED: two rear-operated positive hand locks; cassette and backbox glass retained for routine fold','upright_lock_parameters':'config/backbox_lock_integration_v32.json','normal_fold_cassette_removal':False,'normal_fold_backbox_electronics_disconnection':False,'backbox_front_glass_retained_for_fold':True,'promotion_record':str((O/'promotion.json').relative_to(R))})
+(R/'config/current_v32.json').write_text(json.dumps(manifest,indent=2)+'\n')
+proof={'promoted':True,'source_head_before':c['source_head'],'manufacturing_ready':False,'two_independent_locks':True,'cassette_retained_for_normal_fold':True,'electronics_disconnection_introduced':False,'backbox_glass_retained':True,'custom_metal_added':0,'input_sha256':{str(p.relative_to(R)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [O/'validation.json',O/'regression-validation.json',O/'viewer-validation.json',R/'config/current_v32.json']}}
+(O/'promotion.json').write_text(json.dumps(proof,indent=2)+'\n');print('BACKBOX_LOCK_PROMOTION_PASS')

@@ -49,6 +49,10 @@ const ACCESSIBLE_PALETTE={'Structure':0xbdbdbd,'Shelves and supports':0xd4d0c8,'
 let currentPalette='original';
 function semanticRole(n,group){if(n.startsWith('LeafButton'))return n.includes('primary')?'primary_button':'secondary_button';if(/PF_.*(Strap|Screw)/.test(n))return 'pivot_hardware';if(n.startsWith('PF_OpenCradle'))return 'wood_support';if(n==='PF_BasePlywood')return 'playfield_base';if(n==='PF_WoodDowel')return 'moving_mechanism';return group;}
 function category(n){
+ if(n.startsWith('BB_ToyZone'))return 'Installation reserves';
+ if(n==='BB_Backglass'||n==='BB_Display32'||n==='BB_DMDEnvelope')return 'Playfield and glass';
+ if(n.startsWith('BB_SpeakerEnvelope'))return 'SSF and audio';
+ if(/UprightLock.*(Knob|Washer|Thread|Backing|Tether)/.test(n))return 'Hardware';
  if(n==='MatrixCarrier'||n.startsWith('MX_WoodSeat'))return 'Shelves and supports';
  if(n.startsWith('MatrixPanel'))return 'Playfield and glass';
  if(n.startsWith('MX_Retainer'))return 'Hardware';
@@ -69,7 +73,7 @@ function category(n){
 function geometry(part){const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.Float32BufferAttribute(part.vertices.flat(),3));geo.setIndex(part.faces.flat());geo.computeVertexNormals();geo.computeBoundingBox();return geo;}
 const meshes=DATA.map(part=>{
  const geo=geometry(part);
- const group=category(part.name),role=semanticRole(part.name,group),reserve=group==='Installation reserves',glass=part.name==='CandidateGlass';
+ const group=category(part.name),role=semanticRole(part.name,group),reserve=group==='Installation reserves',glass=part.name==='CandidateGlass'||part.name==='BB_Backglass';
  const mat=new THREE.MeshStandardMaterial({color:ORIGINAL_PALETTE[role],roughness:.7,metalness:group==='Hardware'?.4:0,side:THREE.DoubleSide,flatShading:true,transparent:reserve||glass,opacity:glass?.22:reserve?.3:1,depthWrite:!(reserve||glass)});
  const obj=new THREE.Mesh(geo,mat);obj.name=part.name;obj.userData={group,role,label:part.label||null,baseOpacity:mat.opacity,hidden:false,stateAbsent:false,reserve:reserve||/ENVELOPE/.test(part.name),playGeometry:geo};scene.add(obj);groups[group].push(obj);return obj;
 });
@@ -95,6 +99,10 @@ const MATRIX_NOTES={"PLAY": "MATRIX INSTALLED \u00b7 glass removed \u2192 discon
 if(REVIEW.pivot_cradle_integration?.promoted){
  MATRIX_NOTES.PLAY='MATRIX INSTALLED · remove glass and matrix before service or folding. WPC wood fold validated; hardware fit provisional.';
  MATRIX_NOTES['BACKBOX FOLD']='PREREQUISITES: GLASS REMOVED + MATRIX REMOVED. Wood fold 0–90° validated. R12 cradle relief; WPC hardware measurement and manufacturing release pending.';
+}
+if(REVIEW.backbox_service?.promoted){
+ MATRIX_NOTES.PLAY='MATRIX INSTALLED · upright locks engaged. Open rear doors to release and park both captive knobs; no backbox module removal.';
+ MATRIX_NOTES['BACKBOX FOLD']='PREREQUISITES: PLAYFIELD GLASS REMOVED + MATRIX REMOVED; locks released and parked; rear doors latched. Populated fold 0–90° validated with backbox glass and cassette retained. Hardware and manufacturing provisional.';
 }
 function updateStateNote(){document.getElementById('state-note').textContent=[STATE_NOTES[currentState],MATRIX_NOTES[currentState]].filter(Boolean).map(k=>t(k)).join(' ');}
 function applyState(state){if(!STATES[state])throw Error('Unknown state');if(['SERVICE','PLAYFIELD SERVICE','LIFT-OUT','BACKBOX FOLD'].includes(state)&&!['GLASS_REMOVED','MATRIX_REMOVED'].every(p=>REVIEW.matrix_cassette?.prerequisites[state]?.includes(p)))throw Error('MATRIX_REMOVED prerequisite missing');currentState=state;document.getElementById('service-state').value=state;const overrides=STATES[state];meshes.forEach(m=>{m.userData.stateAbsent=Object.hasOwn(overrides,m.name)&&overrides[m.name]===null;const part=overrides[m.name];if(m.geometry!==m.userData.playGeometry)m.geometry.dispose();m.geometry=part?geometry(part):m.userData.playGeometry;});bounds.makeEmpty();meshes.filter(m=>!m.userData.stateAbsent).forEach(m=>bounds.union(new THREE.Box3().setFromObject(m)));bounds.getCenter(center);bounds.getSize(size);clip();updateStateNote();updateSelectionEdges();selectionText();refresh();annotate();}

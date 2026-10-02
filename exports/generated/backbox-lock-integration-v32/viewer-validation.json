@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "checks": [
+    "English/original defaults; existing twelve state controls",
+    "prior translations and palette definitions preserved",
+    "PT-BR/accessible toggles do not alter geometry",
+    "populated cassette/display/backglass retained in every state",
+    "parked knobs in fold; main glass and matrix absent",
+    "selection/hide/isolate/focus/cut/search preserved",
+    "offline WebGL screenshot"
+  ],
+  "viewer_sha256": "584d37307140b9ce153bfa461df4a5223b3a04e2e75cdf273455d5a9f3a941ee",
+  "mesh_sha256": "d22ecd807a4cda3fb6423bde7f9fefe1a254c7180ea9376ec1f2dc8ae42ca051",
+  "manufacturing_ready": false
+}

@@ -586,5 +586,13 @@
   "WPC FOLD · wood clear / hardware provisional": {
     "en": "WPC FOLD · wood clear / hardware provisional",
     "pt-BR": "REBATIMENTO WPC · madeira livre / ferragens provisórias"
+  },
+  "MATRIX INSTALLED · upright locks engaged. Open rear doors to release and park both captive knobs; no backbox module removal.": {
+    "en": "MATRIX INSTALLED · upright locks engaged. Open rear doors to release and park both captive knobs; no backbox module removal.",
+    "pt-BR": "MATRIZ INSTALADA · travas verticais apertadas. Abra as portas traseiras para soltar e guardar os dois manípulos cativos; sem remover módulos do backbox."
+  },
+  "PREREQUISITES: PLAYFIELD GLASS REMOVED + MATRIX REMOVED; locks released and parked; rear doors latched. Populated fold 0–90° validated with backbox glass and cassette retained. Hardware and manufacturing provisional.": {
+    "en": "PREREQUISITES: PLAYFIELD GLASS REMOVED + MATRIX REMOVED; locks released and parked; rear doors latched. Populated fold 0–90° validated with backbox glass and cassette retained. Hardware and manufacturing provisional.",
+    "pt-BR": "PRÉ-REQUISITOS: VIDRO DO PLAYFIELD REMOVIDO + MATRIZ REMOVIDA; travas soltas e guardadas; portas traseiras travadas. Dobra de 0–90° com componentes validada, mantendo o vidro e o cassete do backbox. Ferragens e fabricação provisórias."
   }
 }

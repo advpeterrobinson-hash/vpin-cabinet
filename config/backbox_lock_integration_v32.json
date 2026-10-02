@@ -1,0 +1,79 @@
+{
+  "status": "DESIGN_GEOMETRY_CANDIDATE_NOT_MANUFACTURING_RELEASE",
+  "source_head": "f3e2eee32fde61835376c53b462436b996f01794",
+  "service_source": "exports/generated/backbox-service-v32",
+  "cabinet_source": "exports/generated/pivot-cradle-integration-v32",
+  "output_directory": "exports/generated/backbox-lock-integration-v32",
+  "lock_centers_xy_mm": [
+    [
+      130,
+      1260
+    ],
+    [
+      470,
+      1260
+    ]
+  ],
+  "selected_option": "B",
+  "operation": "HAND",
+  "hardware_family": "Provisional M8 x 40 male hand knob, rotating loss-protection ring and short retaining tether; metal-backed shelf captive thread; positively threaded parking socket. No selected supplier or custom metal.",
+  "knob_radius_mm": 20,
+  "knob_height_mm": 26,
+  "shaft_diameter_mm": 8,
+  "under_head_length_mm": 40,
+  "washer_radius_mm": 16,
+  "washer_thickness_mm": 3,
+  "wood_reserve_radius_mm": 26,
+  "shelf_thread_barrel_radius_mm": 6,
+  "shelf_thread_barrel_length_mm": 12,
+  "shelf_backing_radius_mm": 16,
+  "shelf_backing_thickness_mm": 3,
+  "withdrawal_mm": 80,
+  "parking_centers_xy_mm": [
+    [
+      185,
+      1268
+    ],
+    [
+      415,
+      1268
+    ]
+  ],
+  "parking_block_size_mm": [
+    50,
+    32,
+    36
+  ],
+  "parking_block_construction": "Two identical 18 mm plywood pads per lock, glued and positively screwed to floor; threaded parking socket only, never upright clamp support.",
+  "parking_thread_radius_mm": 6,
+  "parking_thread_length_mm": 12,
+  "hand_palm_size_mm": [
+    90,
+    50,
+    45
+  ],
+  "hand_palm_base_z_mm": 656,
+  "finger_size_mm": [
+    14,
+    20,
+    40
+  ],
+  "finger_base_z_mm": 626,
+  "rear_entry_y_mm": 1510,
+  "entry_lift_mm": 80,
+  "mechanical_tether_length_mm": 200,
+  "mechanical_tether_corridor_radius_mm": 1.5,
+  "service_passage_mutable": true,
+  "cassette_geometry_changed": false,
+  "normal_fold_cassette_removal": false,
+  "normal_fold_electrical_disconnection": false,
+  "rare_hinge_service_cassette_removal": true,
+  "hardware_dimensions_authority": "Explicit conservative packaging decisions, not measured or purchased specifications. Thread engagement, washers, retention ring and parking socket require physical qualification.",
+  "final_hinge_drilling_released": false,
+  "manufacturing_ready": false,
+  "reference_floor_bore_diameter_mm": 9,
+  "reference_shelf_bore_diameter_mm": 12,
+  "parking_floor_blind_relief_depth_mm": 3,
+  "washer_retention": "Load-spreading washer captive on shank using a common retaining washer; physical stack confirmation required.",
+  "mechanical_tether_stow": "Surplus mechanically retained around the knob with a reusable positive cord keeper, in both engaged and parked states. Free arch is a hand-guided operation corridor only, never the unrestrained fold state."
+}
