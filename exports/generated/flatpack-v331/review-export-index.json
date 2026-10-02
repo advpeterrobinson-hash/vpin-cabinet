@@ -1,0 +1,6722 @@
+[
+  {
+    "id": "M001",
+    "svg": "part-reviews/M001-review.svg",
+    "dxf": "part-reviews/M001-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P001-Main-R7",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P001-Main-R9",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P001-Main-R6",
+          "depth_mm": 3.000000000000012
+        },
+        {
+          "operation": "P001-Main-R8",
+          "depth_mm": 3.000000000000012
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M002",
+    "svg": "part-reviews/M002-review.svg",
+    "dxf": "part-reviews/M002-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P002-Main-R4",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P002-Main-R6",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P002-Main-R3",
+          "depth_mm": 3.0000000000000013
+        },
+        {
+          "operation": "P002-Main-R5",
+          "depth_mm": 3.0000000000000013
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M003",
+    "svg": "part-reviews/M003-review.svg",
+    "dxf": "part-reviews/M003-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P003-Main-R5",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R6",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R7",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R8",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R9",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R10",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R11",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R12",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R12",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R12",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R12",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R12",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R12",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R12",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R12",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R13",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R14",
+          "depth_mm": 18.000000000000004
+        },
+        {
+          "operation": "P003-Main-R15",
+          "depth_mm": 18.000000000000004
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M004",
+    "svg": "part-reviews/M004-review.svg",
+    "dxf": "part-reviews/M004-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P004-Main-R5",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R6",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R7",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R8",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R9",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R10",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R11",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R11",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R11",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R11",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R11",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R11",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R11",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R11",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R12",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R13",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R14",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R15",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R16",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R17",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R21",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R22",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R22",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R22",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R22",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R22",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R22",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R22",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P004-Main-R22",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P004-Main-R19",
+          "depth_mm": 7.999999999999943
+        },
+        {
+          "operation": "P004-Main-R19",
+          "depth_mm": 7.999999999999943
+        },
+        {
+          "operation": "P004-Main-R19",
+          "depth_mm": 7.999999999999943
+        },
+        {
+          "operation": "P004-Main-R19",
+          "depth_mm": 7.999999999999943
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M005",
+    "svg": "part-reviews/M005-review.svg",
+    "dxf": "part-reviews/M005-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P005-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R3",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R4",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R6",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R7",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R8",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R9",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R11",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R12",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R13",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R14",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R15",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R16",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R17",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R18",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R20",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R21",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R23",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R25",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R26",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R27",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R29",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R31",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R32",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R33",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P005-Main-R35",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P005-Main-R5",
+          "depth_mm": 8.0
+        },
+        {
+          "operation": "P005-Main-R10",
+          "depth_mm": 8.0
+        },
+        {
+          "operation": "P005-Main-R19",
+          "depth_mm": 8.0
+        },
+        {
+          "operation": "P005-Main-R22",
+          "depth_mm": 8.0
+        },
+        {
+          "operation": "P005-Main-R24",
+          "depth_mm": 8.0
+        },
+        {
+          "operation": "P005-Main-R28",
+          "depth_mm": 8.0
+        },
+        {
+          "operation": "P005-Main-R30",
+          "depth_mm": 8.0
+        },
+        {
+          "operation": "P005-Main-R34",
+          "depth_mm": 8.0
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M006",
+    "svg": "part-reviews/M006-review.svg",
+    "dxf": "part-reviews/M006-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M007",
+    "svg": "part-reviews/M007-review.svg",
+    "dxf": "part-reviews/M007-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P008-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R2",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P008-Main-R3",
+          "depth_mm": 12.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M008",
+    "svg": "part-reviews/M008-review.svg",
+    "dxf": "part-reviews/M008-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P009-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P009-Main-R2",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P009-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P009-Main-R4",
+          "depth_mm": 12.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M009",
+    "svg": "part-reviews/M009-review.svg",
+    "dxf": "part-reviews/M009-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P011-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P011-Main-R2",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P011-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P011-Main-R4",
+          "depth_mm": 12.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M010",
+    "svg": "part-reviews/M010-review.svg",
+    "dxf": "part-reviews/M010-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P012-Main-R3",
+          "depth_mm": 10.5
+        },
+        {
+          "operation": "P012-Main-R4",
+          "depth_mm": 12.5
+        },
+        {
+          "operation": "P012-Main-R5",
+          "depth_mm": 10.5
+        },
+        {
+          "operation": "P012-Main-R6",
+          "depth_mm": 12.5
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M011",
+    "svg": "part-reviews/M011-review.svg",
+    "dxf": "part-reviews/M011-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P013-Main-R3",
+          "depth_mm": 10.5
+        },
+        {
+          "operation": "P013-Main-R4",
+          "depth_mm": 12.5
+        },
+        {
+          "operation": "P013-Main-R5",
+          "depth_mm": 10.5
+        },
+        {
+          "operation": "P013-Main-R6",
+          "depth_mm": 12.5
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M012",
+    "svg": "part-reviews/M012-review.svg",
+    "dxf": "part-reviews/M012-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P016-Main-R3",
+          "depth_mm": 10.5
+        },
+        {
+          "operation": "P016-Main-R4",
+          "depth_mm": 12.5
+        },
+        {
+          "operation": "P016-Main-R5",
+          "depth_mm": 10.5
+        },
+        {
+          "operation": "P016-Main-R6",
+          "depth_mm": 12.5
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M013",
+    "svg": "part-reviews/M013-review.svg",
+    "dxf": "part-reviews/M013-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P017-Main-R3",
+          "depth_mm": 10.5
+        },
+        {
+          "operation": "P017-Main-R4",
+          "depth_mm": 12.5
+        },
+        {
+          "operation": "P017-Main-R5",
+          "depth_mm": 10.5
+        },
+        {
+          "operation": "P017-Main-R6",
+          "depth_mm": 12.5
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M014",
+    "svg": "part-reviews/M014-review.svg",
+    "dxf": "part-reviews/M014-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P018-Main-R1-STEP2",
+          "depth_mm": 2
+        },
+        {
+          "operation": "P018-Main-R1-STEP2",
+          "depth_mm": 2
+        },
+        {
+          "operation": "P018-Main-R1-STEP2",
+          "depth_mm": 2
+        },
+        {
+          "operation": "P018-Main-R1-STEP2",
+          "depth_mm": 2
+        },
+        {
+          "operation": "P018-Main-R1-STEP3",
+          "depth_mm": 3
+        },
+        {
+          "operation": "P018-Main-R1-STEP3",
+          "depth_mm": 3
+        },
+        {
+          "operation": "P018-Main-R1-STEP3",
+          "depth_mm": 3
+        },
+        {
+          "operation": "P018-Main-R1-STEP3",
+          "depth_mm": 3
+        },
+        {
+          "operation": "P018-Main-R1-STEP4",
+          "depth_mm": 4
+        },
+        {
+          "operation": "P018-Main-R1-STEP4",
+          "depth_mm": 4
+        },
+        {
+          "operation": "P018-Main-R1-STEP4",
+          "depth_mm": 4
+        },
+        {
+          "operation": "P018-Main-R1-STEP4",
+          "depth_mm": 4
+        },
+        {
+          "operation": "P018-Main-R1-STEP5",
+          "depth_mm": 5
+        },
+        {
+          "operation": "P018-Main-R1-STEP5",
+          "depth_mm": 5
+        },
+        {
+          "operation": "P018-Main-R1-STEP5",
+          "depth_mm": 5
+        },
+        {
+          "operation": "P018-Main-R1-STEP5",
+          "depth_mm": 5
+        },
+        {
+          "operation": "P018-Main-R1-STEP6",
+          "depth_mm": 6
+        },
+        {
+          "operation": "P018-Main-R1-STEP6",
+          "depth_mm": 6
+        },
+        {
+          "operation": "P018-Main-R1-STEP6",
+          "depth_mm": 6
+        },
+        {
+          "operation": "P018-Main-R1-STEP6",
+          "depth_mm": 6
+        },
+        {
+          "operation": "P018-Main-R1-STEP7",
+          "depth_mm": 7
+        },
+        {
+          "operation": "P018-Main-R1-STEP7",
+          "depth_mm": 7
+        },
+        {
+          "operation": "P018-Main-R1-STEP7",
+          "depth_mm": 7
+        },
+        {
+          "operation": "P018-Main-R1-STEP7",
+          "depth_mm": 7
+        },
+        {
+          "operation": "P018-Main-R1-STEP8",
+          "depth_mm": 8
+        },
+        {
+          "operation": "P018-Main-R1-STEP8",
+          "depth_mm": 8
+        },
+        {
+          "operation": "P018-Main-R1-STEP8",
+          "depth_mm": 8
+        },
+        {
+          "operation": "P018-Main-R1-STEP8",
+          "depth_mm": 8
+        },
+        {
+          "operation": "P018-Main-R1-STEP9",
+          "depth_mm": 9
+        },
+        {
+          "operation": "P018-Main-R1-STEP9",
+          "depth_mm": 9
+        },
+        {
+          "operation": "P018-Main-R1-STEP9",
+          "depth_mm": 9
+        },
+        {
+          "operation": "P018-Main-R1-STEP9",
+          "depth_mm": 9
+        },
+        {
+          "operation": "P018-Main-R1-STEP10",
+          "depth_mm": 10
+        },
+        {
+          "operation": "P018-Main-R1-STEP10",
+          "depth_mm": 10
+        },
+        {
+          "operation": "P018-Main-R1-STEP10",
+          "depth_mm": 10
+        },
+        {
+          "operation": "P018-Main-R1-STEP10",
+          "depth_mm": 10
+        },
+        {
+          "operation": "P018-Main-R1-STEP11",
+          "depth_mm": 11
+        },
+        {
+          "operation": "P018-Main-R1-STEP11",
+          "depth_mm": 11
+        },
+        {
+          "operation": "P018-Main-R1-STEP11",
+          "depth_mm": 11
+        },
+        {
+          "operation": "P018-Main-R1-STEP11",
+          "depth_mm": 11
+        },
+        {
+          "operation": "P018-Main-R1-STEP12",
+          "depth_mm": 12
+        },
+        {
+          "operation": "P018-Main-R1-STEP12",
+          "depth_mm": 12
+        },
+        {
+          "operation": "P018-Main-R1-STEP12",
+          "depth_mm": 12
+        },
+        {
+          "operation": "P018-Main-R1-STEP12",
+          "depth_mm": 12
+        },
+        {
+          "operation": "P018-Main-R1-STEP13",
+          "depth_mm": 13
+        },
+        {
+          "operation": "P018-Main-R1-STEP13",
+          "depth_mm": 13
+        },
+        {
+          "operation": "P018-Main-R1-STEP13",
+          "depth_mm": 13
+        },
+        {
+          "operation": "P018-Main-R1-STEP13",
+          "depth_mm": 13
+        },
+        {
+          "operation": "P018-Main-R1-STEP14",
+          "depth_mm": 14
+        },
+        {
+          "operation": "P018-Main-R1-STEP14",
+          "depth_mm": 14
+        },
+        {
+          "operation": "P018-Main-R1-STEP14",
+          "depth_mm": 14
+        },
+        {
+          "operation": "P018-Main-R1-STEP14",
+          "depth_mm": 14
+        },
+        {
+          "operation": "P018-Main-R1-STEP15",
+          "depth_mm": 15
+        },
+        {
+          "operation": "P018-Main-R1-STEP15",
+          "depth_mm": 15
+        },
+        {
+          "operation": "P018-Main-R1-STEP15",
+          "depth_mm": 15
+        },
+        {
+          "operation": "P018-Main-R1-STEP15",
+          "depth_mm": 15
+        },
+        {
+          "operation": "P018-Main-R1-STEP16",
+          "depth_mm": 16
+        },
+        {
+          "operation": "P018-Main-R1-STEP16",
+          "depth_mm": 16
+        },
+        {
+          "operation": "P018-Main-R1-STEP16",
+          "depth_mm": 16
+        },
+        {
+          "operation": "P018-Main-R1-STEP16",
+          "depth_mm": 16
+        },
+        {
+          "operation": "P018-Main-R1-STEP17",
+          "depth_mm": 17
+        },
+        {
+          "operation": "P018-Main-R1-STEP17",
+          "depth_mm": 17
+        },
+        {
+          "operation": "P018-Main-R1-STEP17",
+          "depth_mm": 17
+        },
+        {
+          "operation": "P018-Main-R1-STEP17",
+          "depth_mm": 17
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M015",
+    "svg": "part-reviews/M015-review.svg",
+    "dxf": "part-reviews/M015-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P021-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P021-Main-R3",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P021-Main-R4",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P021-Main-R5",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P021-Main-R6",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P021-Main-R7",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P021-Main-R8",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P021-Main-R9",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P021-Main-R10",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P021-Main-R11",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P021-Main-R1",
+          "depth_mm": 6.000000000000007
+        },
+        {
+          "operation": "P021-Main-R1",
+          "depth_mm": 6.000000000000007
+        },
+        {
+          "operation": "P021-Main-R1",
+          "depth_mm": 6.000000000000007
+        },
+        {
+          "operation": "P021-Main-R1",
+          "depth_mm": 6.000000000000007
+        },
+        {
+          "operation": "P021-Main-R1",
+          "depth_mm": 6.000000000000007
+        },
+        {
+          "operation": "P021-Main-R1",
+          "depth_mm": 6.000000000000007
+        },
+        {
+          "operation": "P021-Main-R1",
+          "depth_mm": 6.000000000000007
+        },
+        {
+          "operation": "P021-Main-R1",
+          "depth_mm": 6.000000000000007
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M016",
+    "svg": "part-reviews/M016-review.svg",
+    "dxf": "part-reviews/M016-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P022-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P022-Main-R3",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P022-Main-R4",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P022-Main-R5",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P022-Main-R6",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P022-Main-R7",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P022-Main-R8",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P022-Main-R9",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P022-Main-R10",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P022-Main-R11",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P022-Main-R1",
+          "depth_mm": 6.000000000000014
+        },
+        {
+          "operation": "P022-Main-R1",
+          "depth_mm": 6.000000000000014
+        },
+        {
+          "operation": "P022-Main-R1",
+          "depth_mm": 6.000000000000014
+        },
+        {
+          "operation": "P022-Main-R1",
+          "depth_mm": 6.000000000000014
+        },
+        {
+          "operation": "P022-Main-R1",
+          "depth_mm": 6.000000000000014
+        },
+        {
+          "operation": "P022-Main-R1",
+          "depth_mm": 6.000000000000014
+        },
+        {
+          "operation": "P022-Main-R1",
+          "depth_mm": 6.000000000000014
+        },
+        {
+          "operation": "P022-Main-R1",
+          "depth_mm": 6.000000000000014
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M017",
+    "svg": "part-reviews/M017-review.svg",
+    "dxf": "part-reviews/M017-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M018",
+    "svg": "part-reviews/M018-review.svg",
+    "dxf": "part-reviews/M018-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P028-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P028-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P028-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P028-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P028-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P028-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P028-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P028-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P028-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P028-Main-R3",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M019",
+    "svg": "part-reviews/M019-review.svg",
+    "dxf": "part-reviews/M019-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M020",
+    "svg": "part-reviews/M020-review.svg",
+    "dxf": "part-reviews/M020-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M021",
+    "svg": "part-reviews/M021-review.svg",
+    "dxf": "part-reviews/M021-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M022",
+    "svg": "part-reviews/M022-review.svg",
+    "dxf": "part-reviews/M022-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M023",
+    "svg": "part-reviews/M023-review.svg",
+    "dxf": "part-reviews/M023-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M024",
+    "svg": "part-reviews/M024-review.svg",
+    "dxf": "part-reviews/M024-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P033-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P033-Main-R2",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P033-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P033-Main-R4",
+          "depth_mm": 12.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M025",
+    "svg": "part-reviews/M025-review.svg",
+    "dxf": "part-reviews/M025-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M026",
+    "svg": "part-reviews/M026-review.svg",
+    "dxf": "part-reviews/M026-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M027",
+    "svg": "part-reviews/M027-review.svg",
+    "dxf": "part-reviews/M027-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M028",
+    "svg": "part-reviews/M028-review.svg",
+    "dxf": "part-reviews/M028-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P037-Main-R1",
+          "depth_mm": 7.9999999999999964
+        },
+        {
+          "operation": "P037-Main-R2",
+          "depth_mm": 7.9999999999999964
+        },
+        {
+          "operation": "P037-Main-R3",
+          "depth_mm": 7.9999999999999964
+        },
+        {
+          "operation": "P037-Main-R4",
+          "depth_mm": 7.9999999999999964
+        },
+        {
+          "operation": "P037-Main-R5",
+          "depth_mm": 7.9999999999999964
+        },
+        {
+          "operation": "P037-Main-R6",
+          "depth_mm": 7.9999999999999964
+        },
+        {
+          "operation": "P037-Main-R7",
+          "depth_mm": 7.9999999999999964
+        },
+        {
+          "operation": "P037-Main-R8",
+          "depth_mm": 7.9999999999999964
+        },
+        {
+          "operation": "P037-Main-R9",
+          "depth_mm": 7.9999999999999964
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M029",
+    "svg": "part-reviews/M029-review.svg",
+    "dxf": "part-reviews/M029-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M030",
+    "svg": "part-reviews/M030-review.svg",
+    "dxf": "part-reviews/M030-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P041-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P041-Main-R4",
+          "depth_mm": 12.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M031",
+    "svg": "part-reviews/M031-review.svg",
+    "dxf": "part-reviews/M031-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R1",
+          "depth_mm": 6.000000000000066
+        },
+        {
+          "operation": "P042-Main-R2",
+          "depth_mm": 5.999999999999988
+        },
+        {
+          "operation": "P042-Main-R2",
+          "depth_mm": 5.999999999999988
+        },
+        {
+          "operation": "P042-Main-R2",
+          "depth_mm": 5.999999999999988
+        },
+        {
+          "operation": "P042-Main-R2",
+          "depth_mm": 5.999999999999988
+        },
+        {
+          "operation": "P042-Main-R2",
+          "depth_mm": 5.999999999999988
+        },
+        {
+          "operation": "P042-Main-R2",
+          "depth_mm": 5.999999999999988
+        },
+        {
+          "operation": "P042-Main-R2",
+          "depth_mm": 5.999999999999988
+        },
+        {
+          "operation": "P042-Main-R2",
+          "depth_mm": 5.999999999999988
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M032",
+    "svg": "part-reviews/M032-review.svg",
+    "dxf": "part-reviews/M032-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P043-Main-R1",
+          "depth_mm": 6.000000000000002
+        },
+        {
+          "operation": "P043-Main-R1",
+          "depth_mm": 6.000000000000002
+        },
+        {
+          "operation": "P043-Main-R1",
+          "depth_mm": 6.000000000000002
+        },
+        {
+          "operation": "P043-Main-R1",
+          "depth_mm": 6.000000000000002
+        },
+        {
+          "operation": "P043-Main-R1",
+          "depth_mm": 6.000000000000002
+        },
+        {
+          "operation": "P043-Main-R1",
+          "depth_mm": 6.000000000000002
+        },
+        {
+          "operation": "P043-Main-R1",
+          "depth_mm": 6.000000000000002
+        },
+        {
+          "operation": "P043-Main-R1",
+          "depth_mm": 6.000000000000002
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        },
+        {
+          "operation": "P043-Main-R2",
+          "depth_mm": 6.000000000000057
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M033",
+    "svg": "part-reviews/M033-review.svg",
+    "dxf": "part-reviews/M033-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P044-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P044-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P044-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P044-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P044-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P044-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P044-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P044-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P044-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P044-Main-R4",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P044-Main-R3",
+          "depth_mm": 3.0000000000000004
+        },
+        {
+          "operation": "P044-Main-R5",
+          "depth_mm": 3.0000000000000004
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M034",
+    "svg": "part-reviews/M034-review.svg",
+    "dxf": "part-reviews/M034-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M035",
+    "svg": "part-reviews/M035-review.svg",
+    "dxf": "part-reviews/M035-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        },
+        {
+          "operation": "P046-Main-R2",
+          "depth_mm": 18.000000000000227
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        },
+        {
+          "operation": "P046-Main-R1",
+          "depth_mm": 12.000000000000227
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M036",
+    "svg": "part-reviews/M036-review.svg",
+    "dxf": "part-reviews/M036-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M037",
+    "svg": "part-reviews/M037-review.svg",
+    "dxf": "part-reviews/M037-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [
+        {
+          "operation": "P048-Main-R1",
+          "depth_mm": 2.0000000000001137
+        },
+        {
+          "operation": "P048-Main-R1",
+          "depth_mm": 2.0000000000001137
+        },
+        {
+          "operation": "P048-Main-R1",
+          "depth_mm": 2.0000000000001137
+        },
+        {
+          "operation": "P048-Main-R1",
+          "depth_mm": 2.0000000000001137
+        },
+        {
+          "operation": "P048-Main-R1",
+          "depth_mm": 2.0000000000001137
+        },
+        {
+          "operation": "P048-Main-R1",
+          "depth_mm": 2.0000000000001137
+        },
+        {
+          "operation": "P048-Main-R1",
+          "depth_mm": 2.0000000000001137
+        },
+        {
+          "operation": "P048-Main-R1",
+          "depth_mm": 2.0000000000001137
+        }
+      ],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M038",
+    "svg": "part-reviews/M038-review.svg",
+    "dxf": "part-reviews/M038-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P049-Cap-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P049-Cap-R2",
+          "depth_mm": 12.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M039",
+    "svg": "part-reviews/M039-review.svg",
+    "dxf": "part-reviews/M039-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M040",
+    "svg": "part-reviews/M040-review.svg",
+    "dxf": "part-reviews/M040-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M041",
+    "svg": "part-reviews/M041-review.svg",
+    "dxf": "part-reviews/M041-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M042",
+    "svg": "part-reviews/M042-review.svg",
+    "dxf": "part-reviews/M042-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P056-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P056-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P056-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P056-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P056-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P056-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P056-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P056-Main-R2",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M043",
+    "svg": "part-reviews/M043-review.svg",
+    "dxf": "part-reviews/M043-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P057-Main-R2",
+          "depth_mm": 17.999999999999886
+        },
+        {
+          "operation": "P057-Main-R2",
+          "depth_mm": 17.999999999999886
+        },
+        {
+          "operation": "P057-Main-R2",
+          "depth_mm": 17.999999999999886
+        },
+        {
+          "operation": "P057-Main-R3",
+          "depth_mm": 17.999999999999886
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M044",
+    "svg": "part-reviews/M044-review.svg",
+    "dxf": "part-reviews/M044-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P062-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R2",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R2",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R2",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R2",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P062-Main-R4",
+          "depth_mm": 12.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M045",
+    "svg": "part-reviews/M045-review.svg",
+    "dxf": "part-reviews/M045-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P063-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P063-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P063-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P063-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P063-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P063-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P063-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P063-Main-R1",
+          "depth_mm": 6.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M046",
+    "svg": "part-reviews/M046-review.svg",
+    "dxf": "part-reviews/M046-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M047",
+    "svg": "part-reviews/M047-review.svg",
+    "dxf": "part-reviews/M047-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M048",
+    "svg": "part-reviews/M048-review.svg",
+    "dxf": "part-reviews/M048-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M049",
+    "svg": "part-reviews/M049-review.svg",
+    "dxf": "part-reviews/M049-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M050",
+    "svg": "part-reviews/M050-review.svg",
+    "dxf": "part-reviews/M050-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P068-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R3",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R3",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R3",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R3",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R3",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R3",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R3",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P068-Main-R3",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M051",
+    "svg": "part-reviews/M051-review.svg",
+    "dxf": "part-reviews/M051-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M052",
+    "svg": "part-reviews/M052-review.svg",
+    "dxf": "part-reviews/M052-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P071-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P071-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P071-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P071-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P071-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P071-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P071-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P071-Main-R1",
+          "depth_mm": 12.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M053",
+    "svg": "part-reviews/M053-review.svg",
+    "dxf": "part-reviews/M053-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M054",
+    "svg": "part-reviews/M054-review.svg",
+    "dxf": "part-reviews/M054-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M055",
+    "svg": "part-reviews/M055-review.svg",
+    "dxf": "part-reviews/M055-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M056",
+    "svg": "part-reviews/M056-review.svg",
+    "dxf": "part-reviews/M056-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P079-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R2",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R5",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P079-Main-R6",
+          "depth_mm": 12.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M057",
+    "svg": "part-reviews/M057-review.svg",
+    "dxf": "part-reviews/M057-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P080-Main-R1",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R2",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R3",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R4",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R5",
+          "depth_mm": 12.0
+        },
+        {
+          "operation": "P080-Main-R6",
+          "depth_mm": 12.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M058",
+    "svg": "part-reviews/M058-review.svg",
+    "dxf": "part-reviews/M058-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P081-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P081-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P081-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P081-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P081-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P081-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P081-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P081-Main-R1",
+          "depth_mm": 6.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M059",
+    "svg": "part-reviews/M059-review.svg",
+    "dxf": "part-reviews/M059-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M060",
+    "svg": "part-reviews/M060-review.svg",
+    "dxf": "part-reviews/M060-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M061",
+    "svg": "part-reviews/M061-review.svg",
+    "dxf": "part-reviews/M061-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M062",
+    "svg": "part-reviews/M062-review.svg",
+    "dxf": "part-reviews/M062-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M063",
+    "svg": "part-reviews/M063-review.svg",
+    "dxf": "part-reviews/M063-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M064",
+    "svg": "part-reviews/M064-review.svg",
+    "dxf": "part-reviews/M064-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P088-Main-R1",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P088-Main-R2",
+          "depth_mm": 18.0
+        },
+        {
+          "operation": "P088-Main-R3",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M065",
+    "svg": "part-reviews/M065-review.svg",
+    "dxf": "part-reviews/M065-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P089-Main-R2",
+          "depth_mm": 18.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  },
+  {
+    "id": "M066",
+    "svg": "part-reviews/M066-review.svg",
+    "dxf": "part-reviews/M066-review.dxf",
+    "semantic_groups": [
+      "CUT",
+      "POCKET",
+      "LOCATOR",
+      "ENGRAVE",
+      "REFERENCE"
+    ],
+    "entity_operations": {
+      "CUT": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "P092-Main-R1",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P092-Main-R2",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P092-Main-R3",
+          "depth_mm": 6.0
+        },
+        {
+          "operation": "P092-Main-R4",
+          "depth_mm": 6.0
+        }
+      ],
+      "POCKET": [],
+      "LOCATOR": [],
+      "ENGRAVE": [],
+      "REFERENCE": [
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        },
+        {
+          "operation": "OUTLINE_OR_REFERENCE",
+          "depth_mm": null
+        }
+      ]
+    },
+    "exact_vector_curves": true,
+    "operation_depth_authority": "manufacturing-register.json",
+    "engraving_geometry_enabled": false,
+    "pilot_locators": "REFERENCE crosses only where no safe \u00d84 recess can fit inside accepted removal",
+    "full_sheet_release": false
+  }
+]

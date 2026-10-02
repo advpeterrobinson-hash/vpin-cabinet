@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="252.0mm" height="71.0mm" viewBox="-9.999999999999972 -19.999999999999773 252.0 71.0">
+<title>M060 PRELIMINARY — NOT FOR CNC</title>
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</metadata>
+<g id="CUT" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 232.00000000000003 2.2737367544323206e-13 L 232.00000000000003 36.00000000000023"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 232.00000000000003 36.00000000000023 L 2.842170943040401e-14 36.00000000000023"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 2.842170943040401e-14 2.2737367544323206e-13 L 2.842170943040401e-14 36.00000000000023"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 2.842170943040401e-14 2.2737367544323206e-13 L 232.00000000000003 2.2737367544323206e-13"/></g>
+</g>
+<g id="POCKET" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="LOCATOR" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="ENGRAVE" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="REFERENCE" fill="none" stroke="black" stroke-width="0.15" stroke-dasharray="1 1">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 231.99999999999991 0.0 L 231.99999999999991 36.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 231.99999999999991 36.0 L -8.526512829121202e-14 36.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M -8.526512829121202e-14 0.0 L -8.526512829121202e-14 36.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M -8.526512829121202e-14 0.0 L 231.99999999999991 0.0"/></g>
+</g>
+<g id="REVIEW_LABELS"><text x="2.842170943040401e-14" y="-7.999999999999773" font-family="sans-serif" font-size="2.577777777777778">M060 — PRELIMINARY — NOT FOR CNC</text></g></svg>

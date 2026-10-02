@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="584.0mm" height="1307.1mm" viewBox="-10.0 -20.0 584.0 1307.1">
+<title>M005 PRELIMINARY — NOT FOR CNC</title>
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</metadata>
+<g id="CUT" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 0.0 1272.1"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 1272.1 L 564.0 1272.1"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 564.0 0.0 L 564.0 1272.1"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 564.0 0.0"/></g>
+<g data-operation="P005-Main-R1"><circle cx="202.0" cy="162.0" r="2.75"/></g>
+<g data-operation="P005-Main-R2"><circle cx="202.0" cy="322.0" r="2.75"/></g>
+<g data-operation="P005-Main-R3"><circle cx="209.01351693160834" cy="391.76800884315793" r="2.75"/></g>
+<g data-operation="P005-Main-R4"><circle cx="251.76800884315793" cy="349.01351693160836" r="2.75"/></g>
+<g data-operation="P005-Main-R6"><circle cx="79.5" cy="639.5" r="2.25"/></g>
+<g data-operation="P005-Main-R7"><circle cx="132.0" cy="692.0" r="58.0"/></g>
+<g data-operation="P005-Main-R8"><circle cx="209.01351693160836" cy="452.2319911568421" r="2.75"/></g>
+<g data-operation="P005-Main-R9"><circle cx="251.76800884315793" cy="494.98648306839164" r="2.75"/></g>
+<g data-operation="P005-Main-R11"><circle cx="184.5" cy="639.5" r="2.25"/></g>
+<g data-operation="P005-Main-R12"><circle cx="362.0" cy="162.0" r="2.75"/></g>
+<g data-operation="P005-Main-R13"><circle cx="312.2319911568421" cy="349.01351693160836" r="2.75"/></g>
+<g data-operation="P005-Main-R14"><circle cx="282.0" cy="422.0" r="71.75"/></g>
+<g data-operation="P005-Main-R15"><circle cx="362.0" cy="322.0" r="2.75"/></g>
+<g data-operation="P005-Main-R16"><circle cx="354.98648306839164" cy="391.76800884315793" r="2.75"/></g>
+<g data-operation="P005-Main-R17"><circle cx="312.23199115684207" cy="494.98648306839164" r="2.75"/></g>
+<g data-operation="P005-Main-R18"><circle cx="354.98648306839164" cy="452.23199115684207" r="2.75"/></g>
+<g data-operation="P005-Main-R20"><circle cx="379.5" cy="639.5" r="2.25"/></g>
+<g data-operation="P005-Main-R21"><circle cx="432.0" cy="692.0" r="58.0"/></g>
+<g data-operation="P005-Main-R23"><circle cx="484.5" cy="639.5" r="2.25"/></g>
+<g data-operation="P005-Main-R25"><circle cx="79.5" cy="744.5" r="2.25"/></g>
+<g data-operation="P005-Main-R26"><circle cx="162.0" cy="832.0" r="2.75"/></g>
+<g data-operation="P005-Main-R27"><circle cx="184.5" cy="744.5" r="2.25"/></g>
+<g data-operation="P005-Main-R29"><circle cx="162.0" cy="1252.0" r="2.75"/></g>
+<g data-operation="P005-Main-R31"><circle cx="379.5" cy="744.5" r="2.25"/></g>
+<g data-operation="P005-Main-R32"><circle cx="402.0" cy="832.0" r="2.75"/></g>
+<g data-operation="P005-Main-R33"><circle cx="484.5" cy="744.5" r="2.25"/></g>
+<g data-operation="P005-Main-R35"><circle cx="402.0" cy="1252.0" r="2.75"/></g>
+</g>
+<g id="POCKET" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="P005-Main-R5"><circle cx="62.0" cy="622.0" r="3.0"/></g>
+<g data-operation="P005-Main-R10"><circle cx="202.0" cy="622.0" r="3.0"/></g>
+<g data-operation="P005-Main-R19"><circle cx="362.0" cy="622.0" r="3.0"/></g>
+<g data-operation="P005-Main-R22"><circle cx="502.0" cy="622.0" r="3.0"/></g>
+<g data-operation="P005-Main-R24"><circle cx="62.0" cy="762.0" r="3.0"/></g>
+<g data-operation="P005-Main-R28"><circle cx="202.0" cy="762.0" r="3.0"/></g>
+<g data-operation="P005-Main-R30"><circle cx="362.0" cy="762.0" r="3.0"/></g>
+<g data-operation="P005-Main-R34"><circle cx="502.0" cy="762.0" r="3.0"/></g>
+</g>
+<g id="LOCATOR" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="ENGRAVE" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="REFERENCE" fill="none" stroke="black" stroke-width="0.15" stroke-dasharray="1 1">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 0.0 1272.1"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 564.0 0.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 564.0 0.0 L 564.0 1272.1"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 1272.1 L 564.0 1272.1"/></g>
+</g>
+<g id="REVIEW_LABELS"><text x="0.0" y="-8.0" font-family="sans-serif" font-size="5">M005 — PRELIMINARY — NOT FOR CNC</text></g></svg>

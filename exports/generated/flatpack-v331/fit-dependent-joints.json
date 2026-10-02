@@ -1,0 +1,525 @@
+[
+  {
+    "instance": "P001-Main",
+    "source_component": "SIDE_L",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P002-Main",
+    "source_component": "SIDE_R",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P003-Main",
+    "source_component": "FRONT",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P003-Main-R12"
+    ]
+  },
+  {
+    "instance": "P004-Main",
+    "source_component": "REAR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P004-Main-R19",
+      "P004-Main-R22"
+    ]
+  },
+  {
+    "instance": "P005-Main",
+    "source_component": "FLOOR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P021-Main",
+    "source_component": "CROSS_GUIDE_1L",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P021-Main-R1"
+    ]
+  },
+  {
+    "instance": "P022-Main",
+    "source_component": "CROSS_GUIDE_1R",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P022-Main-R1"
+    ]
+  },
+  {
+    "instance": "P023-Main",
+    "source_component": "CROSS_GUIDE_2L",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P023-Main-R1"
+    ]
+  },
+  {
+    "instance": "P024-Main",
+    "source_component": "CROSS_GUIDE_2R",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P024-Main-R1"
+    ]
+  },
+  {
+    "instance": "P025-Main",
+    "source_component": "CROSS_GUIDE_3L",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P025-Main-R1"
+    ]
+  },
+  {
+    "instance": "P026-Main",
+    "source_component": "CROSS_GUIDE_3R",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P026-Main-R1"
+    ]
+  },
+  {
+    "instance": "P028-Main",
+    "source_component": "BACKBOX_BASE",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P028-Main-R1"
+    ]
+  },
+  {
+    "instance": "P029-L1",
+    "source_component": "CandidateLegBlockFL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P029-L2",
+    "source_component": "CandidateLegBlockFL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P029-L3",
+    "source_component": "CandidateLegBlockFL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P029-L4",
+    "source_component": "CandidateLegBlockFL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P029-L5",
+    "source_component": "CandidateLegBlockFL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P029-L6",
+    "source_component": "CandidateLegBlockFL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P029-L7",
+    "source_component": "CandidateLegBlockFL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P030-L1",
+    "source_component": "CandidateLegBlockFR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P030-L2",
+    "source_component": "CandidateLegBlockFR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P030-L3",
+    "source_component": "CandidateLegBlockFR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P030-L4",
+    "source_component": "CandidateLegBlockFR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P030-L5",
+    "source_component": "CandidateLegBlockFR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P030-L6",
+    "source_component": "CandidateLegBlockFR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P030-L7",
+    "source_component": "CandidateLegBlockFR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P031-L1",
+    "source_component": "CandidateLegBlockRL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P031-L2",
+    "source_component": "CandidateLegBlockRL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P031-L3",
+    "source_component": "CandidateLegBlockRL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P031-L4",
+    "source_component": "CandidateLegBlockRL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P031-L5",
+    "source_component": "CandidateLegBlockRL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P031-L6",
+    "source_component": "CandidateLegBlockRL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P031-L7",
+    "source_component": "CandidateLegBlockRL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P032-L1",
+    "source_component": "CandidateLegBlockRR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P032-L2",
+    "source_component": "CandidateLegBlockRR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P032-L3",
+    "source_component": "CandidateLegBlockRR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P032-L4",
+    "source_component": "CandidateLegBlockRR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P032-L5",
+    "source_component": "CandidateLegBlockRR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P032-L6",
+    "source_component": "CandidateLegBlockRR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P032-L7",
+    "source_component": "CandidateLegBlockRR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P042-Main",
+    "source_component": "BB_SideL",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P042-Main-R1",
+      "P042-Main-R2"
+    ]
+  },
+  {
+    "instance": "P043-Main",
+    "source_component": "BB_SideR",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P043-Main-R1",
+      "P043-Main-R2"
+    ]
+  },
+  {
+    "instance": "P044-Main",
+    "source_component": "BB_Floor",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P044-Main-R1"
+    ]
+  },
+  {
+    "instance": "P045-Main",
+    "source_component": "BB_Top",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P046-Main",
+    "source_component": "BB_RearFrame",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P046-Main-R1",
+      "P046-Main-R2"
+    ]
+  },
+  {
+    "instance": "P047-Main",
+    "source_component": "BB_TopFrontRail",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P048-Main",
+    "source_component": "BB_GlassLowerRail",
+    "fit_expression": "measured_glass_thickness_mm + selected_liner_and_channel_clearance_mm",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P048-Main-R1"
+    ]
+  },
+  {
+    "instance": "P049-Cap",
+    "source_component": "BB_GlassTopRetainer",
+    "fit_expression": "measured_glass_thickness_mm + selected_liner_and_channel_clearance_mm",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P049-Strip",
+    "source_component": "BB_GlassTopRetainer",
+    "fit_expression": "measured_glass_thickness_mm + selected_liner_and_channel_clearance_mm",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P057-Main",
+    "source_component": "BB_MonitorDepthShoe00",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P057-Main-R1"
+    ]
+  },
+  {
+    "instance": "P058-Main",
+    "source_component": "BB_MonitorDepthShoe01",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P058-Main-R1"
+    ]
+  },
+  {
+    "instance": "P060-Main",
+    "source_component": "BB_MonitorDepthShoe10",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P060-Main-R1"
+    ]
+  },
+  {
+    "instance": "P061-Main",
+    "source_component": "BB_MonitorDepthShoe11",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": [
+      "P061-Main-R1"
+    ]
+  },
+  {
+    "instance": "P064-Base18",
+    "source_component": "BB_MonitorStopBlock0",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P064-Cap12",
+    "source_component": "BB_MonitorStopBlock0",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P065-Base18",
+    "source_component": "BB_MonitorStopBlock1",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P065-Cap12",
+    "source_component": "BB_MonitorStopBlock1",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P075-Ply1",
+    "source_component": "BB_CassetteFixedCleatL0",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P075-Ply2",
+    "source_component": "BB_CassetteFixedCleatL0",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P076-Ply1",
+    "source_component": "BB_CassetteFixedCleatL1",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P076-Ply2",
+    "source_component": "BB_CassetteFixedCleatL1",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P077-Ply1",
+    "source_component": "BB_CassetteFixedCleatR0",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P077-Ply2",
+    "source_component": "BB_CassetteFixedCleatR0",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P078-Ply1",
+    "source_component": "BB_CassetteFixedCleatR1",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P078-Ply2",
+    "source_component": "BB_CassetteFixedCleatR1",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P088-Main",
+    "source_component": "BB_UprightLockLParkingPad0",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P089-Main",
+    "source_component": "BB_UprightLockLParkingPad1",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P090-Main",
+    "source_component": "BB_UprightLockRParkingPad0",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  },
+  {
+    "instance": "P091-Main",
+    "source_component": "BB_UprightLockRParkingPad1",
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "status": "PARAMETRIC_HOLD_NO_NOMINAL18_FIT_RELEASE",
+    "affected_features": []
+  }
+]

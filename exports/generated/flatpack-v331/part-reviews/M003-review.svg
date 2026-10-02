@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="584.0mm" height="435.05mm" viewBox="-6.110912703472618 -20.0 584.0 435.05">
+<title>M003 PRELIMINARY — NOT FOR CNC</title>
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</metadata>
+<g id="CUT" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.889087296527407 400.05 L 567.8890872965274 400.05"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 567.8890872965274 0.0 L 567.8890872965274 400.05"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.889087296527407 0.0 L 567.8890872965274 0.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.889087296527407 0.0 L 3.889087296527407 400.05"/></g>
+<g data-operation="P003-Main-R5"><circle cx="75.8890872965274" cy="210.0" r="12.699999999999989"/></g>
+<g data-operation="P003-Main-R6"><circle cx="285.8890872965274" cy="84.903125" r="3.5718750000000057"/></g>
+<g data-operation="P003-Main-R7"><circle cx="505.8890872965274" cy="210.0" r="12.699999999999989"/></g>
+<g data-operation="P003-Main-R8"><circle cx="75.8890872965274" cy="260.0" r="12.699999999999989"/></g>
+<g data-operation="P003-Main-R9"><circle cx="122.37658729652742" cy="225.0" r="3.5718750000000057"/></g>
+<g data-operation="P003-Main-R10"><circle cx="75.8890872965274" cy="310.0" r="12.699999999999989"/></g>
+<g data-operation="P003-Main-R11"><circle cx="54.114087296527394" cy="365.096875" r="3.5718749999999773"/></g>
+<g data-operation="P003-Main-R12"><path d="M 132.3140872965274 357.159375 L 439.4640872965274 357.159375"/></g>
+<g data-operation="P003-Main-R12"><path d="M 439.4640872965274 357.159375 A 2.0 2.0 0 0 0 441.46408729652734 355.1593750000001"/></g>
+<g data-operation="P003-Main-R12"><path d="M 441.4640872965274 355.15937499999995 L 441.4640872965274 94.84062499999999"/></g>
+<g data-operation="P003-Main-R12"><path d="M 441.4640872965274 94.84062500000002 A 2.0 2.0 0 0 0 439.4640872965274 92.84062499999999"/></g>
+<g data-operation="P003-Main-R12"><path d="M 132.3140872965274 92.84062500000002 L 439.4640872965274 92.84062500000002"/></g>
+<g data-operation="P003-Main-R12"><path d="M 132.3140872965274 92.84062500000002 A 2.0 2.0 0 0 0 130.3140872965274 94.84062500000002"/></g>
+<g data-operation="P003-Main-R12"><path d="M 130.3140872965274 355.15937499999995 L 130.3140872965274 94.84062499999999"/></g>
+<g data-operation="P003-Main-R12"><path d="M 130.3140872965274 355.159375 A 2.0 2.0 0 0 0 132.31408729652742 357.15937500000007"/></g>
+<g data-operation="P003-Main-R13"><circle cx="449.4015872965274" cy="225.0" r="3.5718750000000057"/></g>
+<g data-operation="P003-Main-R14"><circle cx="285.8890872965274" cy="365.096875" r="3.5718749999999773"/></g>
+<g data-operation="P003-Main-R15"><circle cx="463.6890872965274" cy="365.096875" r="3.5718749999999773"/></g>
+</g>
+<g id="POCKET" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="LOCATOR" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="ENGRAVE" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="REFERENCE" fill="none" stroke="black" stroke-width="0.15" stroke-dasharray="1 1">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.8890872965274 400.05 L 567.8890872965274 400.05"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.889087296527382 9.992007221626407e-16 L 3.889087296527382 400.05"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.8890872965274 1.998401444325288e-15 L 567.8890872965274 1.998401444325288e-15"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 567.8890872965274 9.992007221626407e-16 L 567.8890872965274 400.05"/></g>
+</g>
+<g id="REVIEW_LABELS"><text x="3.889087296527382" y="-7.999999999999999" font-family="sans-serif" font-size="5">M003 — PRELIMINARY — NOT FOR CNC</text></g></svg>

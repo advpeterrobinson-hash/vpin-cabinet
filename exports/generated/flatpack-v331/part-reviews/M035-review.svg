@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800.0mm" height="758.9mm" viewBox="-10.0 -20.000000000000114 800.0 758.9">
+<title>M035 PRELIMINARY — NOT FOR CNC</title>
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</metadata>
+<g id="CUT" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 780.0 723.8999999999999 L 0.0 723.8999999999999"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 723.8999999999999 L 0.0 -1.1368683772161603e-13"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 780.0 0.0 L 0.0 0.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 780.0 723.8999999999999 L 780.0 -1.1368683772161603e-13"/></g>
+<g data-operation="P046-Main-R2"><path d="M 50.0 58.799999999999955 L 730.0 58.799999999999955"/></g>
+<g data-operation="P046-Main-R2"><path d="M 732.0 60.79999999999995 A 2.0 2.0 0 0 0 730.0 58.799999999999955"/></g>
+<g data-operation="P046-Main-R2"><path d="M 732.0 60.79999999999984 L 732.0 302.7999999999998"/></g>
+<g data-operation="P046-Main-R2"><path d="M 730.0 304.79999999999984 A 2.0 2.0 0 0 0 732.0 302.79999999999984"/></g>
+<g data-operation="P046-Main-R2"><path d="M 730.0 304.79999999999984 L 702.0 304.79999999999984"/></g>
+<g data-operation="P046-Main-R2"><path d="M 702.0 334.79999999999984 L 702.0 304.79999999999984"/></g>
+<g data-operation="P046-Main-R2"><path d="M 730.0 334.79999999999984 L 702.0 334.79999999999984"/></g>
+<g data-operation="P046-Main-R2"><path d="M 732.0 336.79999999999984 A 2.0 2.0 0 0 0 730.0 334.79999999999984"/></g>
+<g data-operation="P046-Main-R2"><path d="M 732.0 336.7999999999998 L 732.0 664.7999999999998"/></g>
+<g data-operation="P046-Main-R2"><path d="M 730.0 666.7999999999998 A 2.0 2.0 0 0 0 732.0 664.7999999999998"/></g>
+<g data-operation="P046-Main-R2"><path d="M 50.0 666.7999999999998 L 730.0 666.7999999999998"/></g>
+<g data-operation="P046-Main-R2"><path d="M 48.0 664.7999999999998 A 2.0 2.0 0 0 0 49.99999999999999 666.7999999999998"/></g>
+<g data-operation="P046-Main-R2"><path d="M 48.0 336.7999999999998 L 48.0 664.7999999999998"/></g>
+<g data-operation="P046-Main-R2"><path d="M 49.99999999999999 334.79999999999984 A 2.0 2.0 0 0 0 48.0 336.79999999999984"/></g>
+<g data-operation="P046-Main-R2"><path d="M 50.0 334.79999999999984 L 78.0 334.79999999999984"/></g>
+<g data-operation="P046-Main-R2"><path d="M 78.0 334.79999999999984 L 78.0 304.79999999999984"/></g>
+<g data-operation="P046-Main-R2"><path d="M 50.0 304.79999999999984 L 78.0 304.79999999999984"/></g>
+<g data-operation="P046-Main-R2"><path d="M 48.0 302.79999999999984 A 2.0 2.0 0 0 0 49.99999999999999 304.79999999999984"/></g>
+<g data-operation="P046-Main-R2"><path d="M 48.0 60.79999999999984 L 48.0 302.7999999999998"/></g>
+<g data-operation="P046-Main-R2"><path d="M 50.00000000000001 58.799999999999955 A 2.0 2.0 0 0 0 48.000000000000114 60.79999999999985"/></g>
+</g>
+<g id="POCKET" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="P046-Main-R1"><path d="M 778.0 723.8999999999999 L 2.0 723.8999999999999"/></g>
+<g data-operation="P046-Main-R1"><path d="M 0.0 721.8999999999999 A 2.0 2.0 0 0 0 1.9999999999999936 723.8999999999999"/></g>
+<g data-operation="P046-Main-R1"><path d="M 0.0 721.8999999999999 L 0.0 1.9999999999998863"/></g>
+<g data-operation="P046-Main-R1"><path d="M 2.0000000000000067 0.0 A 2.0 2.0 0 0 0 1.1368683772161603e-13 1.9999999999999936"/></g>
+<g data-operation="P046-Main-R1"><path d="M 778.0 0.0 L 2.0 0.0"/></g>
+<g data-operation="P046-Main-R1"><path d="M 780.0 1.9999999999999931 A 2.0 2.0 0 0 0 778.0 0.0"/></g>
+<g data-operation="P046-Main-R1"><path d="M 780.0 721.8999999999999 L 780.0 1.9999999999998863"/></g>
+<g data-operation="P046-Main-R1"><path d="M 778.0 723.8999999999999 A 2.0 2.0 0 0 0 780.0 721.8999999999999"/></g>
+<g data-operation="P046-Main-R1"><path d="M 762.0 17.999999999999773 L 762.0 705.8999999999999"/></g>
+<g data-operation="P046-Main-R1"><path d="M 18.0 705.8999999999999 L 762.0 705.8999999999999"/></g>
+<g data-operation="P046-Main-R1"><path d="M 18.0 17.999999999999773 L 18.0 705.8999999999999"/></g>
+<g data-operation="P046-Main-R1"><path d="M 18.0000000000001 18.0 L 762.0 18.0"/></g>
+</g>
+<g id="LOCATOR" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="ENGRAVE" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="REFERENCE" fill="none" stroke="black" stroke-width="0.15" stroke-dasharray="1 1">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 780.0 723.9000000000001 L 0.0 723.9000000000001"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 723.9000000000001 L 0.0 2.2737367544323206e-13"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 780.0 2.2737367544323206e-13 L 0.0 2.2737367544323206e-13"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 780.0 723.9000000000001 L 780.0 2.2737367544323206e-13"/></g>
+</g>
+<g id="REVIEW_LABELS"><text x="0.0" y="-8.000000000000114" font-family="sans-serif" font-size="5">M035 — PRELIMINARY — NOT FOR CNC</text></g></svg>

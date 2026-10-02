@@ -1,0 +1,22 @@
+// Typed Artifact Tool CSV; original CERN-OHL-S-2.0 source.
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {Workbook} from '@oai/artifact-tool';
+const out=path.join(process.cwd(),'exports/generated/flatpack-v331');
+const source=JSON.parse(await fs.readFile(path.join(out,'manufacturing-bom.json'),'utf8'));
+const columns=['manufacturing_part_id','quantity','nominal_stock_thickness_mm','finished_reference_thickness_mm','description_en','description_pt_BR','material_class','finished_xy_size_mm','machining_face','opposite_face','manufacturing_status','assembly_ids','instances','operations','manual_finish','identical_relation','mirrored_relation','fit_dependent','coupon_dependent','source'];
+const rows=source.rows.map(r=>columns.map(k=>r[k]===null||r[k]===undefined?null:typeof r[k]==='object'?JSON.stringify(r[k]):r[k]));
+const w=Workbook.create(),s=w.worksheets.add('Manufacturing BOM');s.showGridLines=false;
+const region=s.getRangeByIndexes(0,0,rows.length+1,columns.length);region.values=[columns,...rows];region.format.font={name:'Arial',size:10};region.format.rowHeight=44;
+s.getRangeByIndexes(0,0,1,columns.length).format.fill='#233746';s.getRangeByIndexes(0,0,1,columns.length).format.font={color:'#FFFFFF',bold:true};
+s.getRangeByIndexes(0,0,rows.length+1,4).format.columnWidth=19;s.getRangeByIndexes(0,4,rows.length+1,2).format.columnWidth=55;s.getRangeByIndexes(0,0,rows.length+1,6).format.wrapText=true;
+s.getRangeByIndexes(1,1,rows.length,1).numberFormat='0';s.getRangeByIndexes(1,2,rows.length,2).numberFormat='0.000';
+s.freezePanes.freezeRows(1);s.freezePanes.freezeColumns(1);w.recalculate();
+const values=region.values;
+if(JSON.stringify(values)!==JSON.stringify([columns,...rows]))throw Error('Typed CSV cell roundtrip failed');
+const quote=v=>v===null||v===undefined?'':`"${String(v).replaceAll('"','""')}"`;
+await fs.writeFile(path.join(out,'manufacturing-bom.csv'),'\uFEFF'+values.map(r=>r.map(quote).join(',')).join('\r\n')+'\r\n');
+s.getRange('A1:F1').values=[['Part ID','Quantity','Stock mm','Finished mm','Description EN','Descrição PT-BR']];w.recalculate();
+const img=await w.render({sheetName:s.name,range:'A1:F12',scale:1,format:'png'});await fs.writeFile(path.join(out,'bom-preview.png'),new Uint8Array(await img.arrayBuffer()));
+await fs.writeFile(path.join(out,'csv-validation.json'),JSON.stringify({pass:true,families:rows.length,pieces:source.rows.reduce((a,r)=>a+r.quantity,0),typed_quantity_roundtrip:true,format:'UTF-8 BOM; RFC4180; CRLF; no prices or nominal fit release'},null,2)+'\n');
+console.log('FLATPACK_V331_CSV_PASS',rows.length);

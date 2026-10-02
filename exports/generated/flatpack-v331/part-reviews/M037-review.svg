@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="764.0mm" height="53.0mm" viewBox="-10.0 -20.0 764.0 53.0">
+<title>M037 PRELIMINARY — NOT FOR CNC</title>
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</metadata>
+<g id="CUT" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 744.0 0.0 L 744.0 18.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 744.0 18.0 L 0.0 18.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 0.0 18.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 744.0 0.0 L 0.0 0.0"/></g>
+</g>
+<g id="POCKET" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="P048-Main-R1"><path d="M 2.0 4.0 L 742.0 4.0"/></g>
+<g data-operation="P048-Main-R1"><path d="M 744.0 5.999999999999993 A 2.0 2.0 0 0 0 742.0 4.0"/></g>
+<g data-operation="P048-Main-R1"><path d="M 744.0 6.0 L 744.0 10.0"/></g>
+<g data-operation="P048-Main-R1"><path d="M 742.0 12.0 A 2.0 2.0 0 0 0 744.0 10.000000000000007"/></g>
+<g data-operation="P048-Main-R1"><path d="M 2.0 12.0 L 742.0 12.0"/></g>
+<g data-operation="P048-Main-R1"><path d="M 0.0 10.000000000000007 A 2.0 2.0 0 0 0 1.9999999999999936 12.0"/></g>
+<g data-operation="P048-Main-R1"><path d="M 0.0 6.0 L 0.0 10.0"/></g>
+<g data-operation="P048-Main-R1"><path d="M 1.9999999999999931 4.0 A 2.0 2.0 0 0 0 0.0 5.999999999999994"/></g>
+</g>
+<g id="LOCATOR" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="ENGRAVE" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="REFERENCE" fill="none" stroke="black" stroke-width="0.15" stroke-dasharray="1 1">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 744.0 0.0 L 744.0 18.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 743.9999999999999 18.0 L -1.1368683772161603e-13 18.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 0.0 18.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 743.9999999999999 0.0 L -1.1368683772161603e-13 0.0"/></g>
+</g>
+<g id="REVIEW_LABELS"><text x="0.0" y="-8.0" font-family="sans-serif" font-size="5">M037 — PRELIMINARY — NOT FOR CNC</text></g></svg>

@@ -1,0 +1,1618 @@
+[
+  {
+    "id": "F01",
+    "description": "Cradle support wood screw",
+    "source": [
+      "config/wood_dowel_pivot_v32.json#fixing"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F02",
+    "description": "Saddle-strap wood screw",
+    "source": [
+      "tools/wood_dowel_pivot_v32_entry.py: saddle strap loop"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H01",
+    "description": "Wooden pivot dowel",
+    "source": [
+      "config/wood_dowel_pivot_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B01",
+    "description": "Commercial saddle strap for Ø32 wooden dowel",
+    "source": [
+      "tools/wood_dowel_pivot_v32_entry.py"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F03",
+    "description": "Shelf top-release M5 screw",
+    "source": [
+      "config/simple_shelves_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "I01",
+    "description": "M5 shelf captive insert",
+    "source": [
+      "config/simple_shelves_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F04",
+    "description": "Fixed shelf-support wood screw",
+    "source": [
+      "config/support_leg_machining_v32.json#anchor"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B02",
+    "description": "Commodity support angle, 40 ×40 ×50 ×3 reserve",
+    "source": [
+      "exports/generated/cabinet-v32/build_v32.py"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F05",
+    "description": "Crossmember guide attachment screws",
+    "source": [
+      "exports/generated/cabinet-v32/build_v32.py: guide anchoring loop"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F52",
+    "description": "M5-family crossmember support-angle bolts",
+    "source": [
+      "exports/generated/cabinet-v32/build_v32.py: support-angle loop"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "I14",
+    "description": "Crossmember angle captive-thread/retention set",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F06",
+    "description": "Cabinet shell/floor/cleat joint fasteners",
+    "source": [
+      "CURRENT SIDE/FRONT/REAR/FLOOR/FLOOR_CLEAT interfaces"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F07",
+    "description": "PCBase flush M5 floor anchors",
+    "source": [
+      "config/consolidated_audio_v32.json#pc_base"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H02",
+    "description": "Main rear door hinge assembly",
+    "source": [
+      "config/rear_door_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H03",
+    "description": "Main rear keyed cam-lock assembly",
+    "source": [
+      "config/rear_door_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B03",
+    "description": "Main rear lock keeper",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H04",
+    "description": "Main rear door handle",
+    "source": [
+      "config/rear_hardware_v32.json#handle"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F08",
+    "description": "M4 ×20 handle screw",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F09",
+    "description": "Main rear hinge fixing screws",
+    "source": [
+      "tools/rear_door_v32_entry.py: hinge leaf loop"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F53",
+    "description": "Main rear keeper fixing screws",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F10",
+    "description": "M4 ×55 main rear fan bolt",
+    "source": [
+      "config/fixed_rear_services_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F11",
+    "description": "M4 ×50 floor fan bolt",
+    "source": [
+      "config/notch_floor_fans_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F12",
+    "description": "M4 ×16 floor-filter screw",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "I04",
+    "description": "M4 blind floor-filter insert",
+    "source": [
+      "config/notch_floor_fans_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H07",
+    "description": "120 mm main/floor optional fan",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B05",
+    "description": "Floor intake lower guard",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F13",
+    "description": "Short floor lower-guard attachment screws",
+    "source": [
+      "config/notch_floor_fans_v32.json#fans.lower_guard_fixing"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H08",
+    "description": "WPC 01-9011-L left",
+    "source": [
+      "config/wpc_kinematics_v32.json; studies/wpc-fold-v32/README.md"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "arm_thickness_mm": null,
+      "bend_angles_deg": null,
+      "bend_offsets_mm": null,
+      "floor_holes_xyz_mm_3": null,
+      "floor_hole_diameters_mm_3": null,
+      "pivot_hole_diameter_mm": null
+    }
+  },
+  {
+    "id": "H09",
+    "description": "WPC 01-9011-R right",
+    "source": [
+      "config/wpc_kinematics_v32.json; studies/wpc-fold-v32/README.md"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "arm_thickness_mm": null,
+      "bend_angles_deg": null,
+      "bend_offsets_mm": null,
+      "floor_holes_xyz_mm_3": null,
+      "floor_hole_diameters_mm_3": null,
+      "pivot_hole_diameter_mm": null
+    }
+  },
+  {
+    "id": "H10",
+    "description": "WPC 02-4352 bushing",
+    "source": [
+      "config/wpc_kinematics_v32.json; studies/wpc-fold-v32/README.md"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "bushing_od_mm": null,
+      "bushing_id_mm": null,
+      "bushing_length_mm": null,
+      "flange_diameter_mm": null,
+      "flange_thickness_mm": null
+    }
+  },
+  {
+    "id": "F14",
+    "description": "WPC 4322-01139-12B pivot bolt",
+    "source": [
+      "config/wpc_kinematics_v32.json; studies/wpc-fold-v32/README.md"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "shank_diameter_mm": null,
+      "thread_diameter_mm": null,
+      "thread_pitch_mm_or_tpi": null,
+      "thread_standard": null,
+      "square_neck_width_mm": null,
+      "square_neck_length_mm": null,
+      "head_diameter_mm": null,
+      "head_height_mm": null,
+      "under_head_length_mm": null,
+      "total_length_mm": null,
+      "washer_nut_stack_mm": null
+    }
+  },
+  {
+    "id": "F15",
+    "description": "WPC floor attachment fasteners",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "W06",
+    "description": "WPC pivot/floor washer and nut stack",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F16",
+    "description": "Backbox shell/frame/rail joint screws",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F54",
+    "description": "Backbox side-to-floor joint screws",
+    "source": [
+      "config/backbox_structure_review_v32.json#joint_planning"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B16",
+    "description": "WPC floor backing plate",
+    "source": [
+      "studies/wpc-fold-v32/README.md"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H11",
+    "description": "M8 ×40 captive upright-lock hand knob",
+    "source": [
+      "config/backbox_lock_integration_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "W07",
+    "description": "Captive upright-lock load washer",
+    "source": [
+      "config/backbox_lock_integration_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "I05",
+    "description": "M8 metal-backed shelf captive receiver",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "I06",
+    "description": "M8 metal parking insert",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F17",
+    "description": "Parking-pad countersunk wood screw",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B08",
+    "description": "Parking-block tether anchor",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H14",
+    "description": "628 mm continuous backbox door hinge",
+    "source": [
+      "config/backbox_service_v32.json#rear"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H15",
+    "description": "Backbox active-door keyed cam lock",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H16",
+    "description": "Backbox passive-leaf retaining bolt",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F18",
+    "description": "Backbox piano-hinge fixing screws",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F19",
+    "description": "Backbox latch/astragal fasteners",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H17",
+    "description": "Optional 120 mm backbox door fan",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F20",
+    "description": "M4 backbox fan-station bolt, length pending",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F21",
+    "description": "M4 backbox blank-station fixing",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "I07",
+    "description": "M4 station captive nut/insert",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F22",
+    "description": "Backbox intake frame/baffle/filter fixings",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B10",
+    "description": "Flexible fan-cable clamp/strain relief",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F23",
+    "description": "Fan-loop clamp screws",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F24",
+    "description": "Backglass top-retainer M6-family fastener",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "I08",
+    "description": "Top-retainer captive metal thread",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "G08",
+    "description": "Backglass side U-liners",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "G09",
+    "description": "Backglass lower and top pads",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "G10",
+    "description": "User-supplied backbox tempered glass",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F25",
+    "description": "Monitor depth-position M6 through bolt",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F26",
+    "description": "Monitor alignment M6 clamp bolt",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F27",
+    "description": "Monitor M6 adjustable lower stop",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "I10",
+    "description": "M6 stop captive thread",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F28",
+    "description": "Monitor ladder/stop/cleat wood joints",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F30",
+    "description": "Lower cassette M4 positive attachment",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "I12",
+    "description": "Cassette M4 captive receiver",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F31",
+    "description": "Replaceable baffle/bezel and DMD-adapter fixings",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F34",
+    "description": "M4 ×20 matrix thumb screw",
+    "source": [
+      "config/matrix_cassette_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "I13",
+    "description": "M4 matrix support insert",
+    "source": [
+      "tools/matrix_cassette_v32_entry.py"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F35",
+    "description": "4 ×50 countersunk matrix-support screw",
+    "source": [
+      "config/matrix_cassette_v32.json"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B12",
+    "description": "Playfield glass side channel",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "G11",
+    "description": "User-supplied playfield glass",
+    "source": [
+      "config/panel_closure_v32.json#glass_study"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F36",
+    "description": "Playfield channel/lockdown fixing hardware",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H18",
+    "description": "Real pinball leg",
+    "source": [
+      "config/panel_closure_v32.json#legs"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B13",
+    "description": "Metal threaded leg backing plate",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F37",
+    "description": "Matched pinball leg bolts",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H19",
+    "description": "Leg leveler and jam-nut assembly",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F38",
+    "description": "Leg backing plate retention screws",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H20",
+    "description": "600 mm body lockdown bar",
+    "source": [
+      "config/panel_closure_v32.json#lockdown"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H21",
+    "description": "WPC-compatible lockdown receiver",
+    "source": [
+      "config/panel_closure_v32.json#lockdown"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H22",
+    "description": "Front coin-door/frame/keyed access assembly",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F39",
+    "description": "Front-door frame fixing set",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "H24",
+    "description": "Optional pinball button mechanical set",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F40",
+    "description": "Button bracket mounting fasteners",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B14",
+    "description": "Protected mains inlet enclosure reference",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F42",
+    "description": "Subwoofer floor mounting bolts",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F43",
+    "description": "Bass-shaker carrier floor anchors",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F45",
+    "description": "Exciter IMS mounting fasteners",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "F50",
+    "description": "Mains/network flange and enclosure fasteners",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  },
+  {
+    "id": "B15",
+    "description": "Playfield replaceable VESA attachment",
+    "source": [
+      "CURRENT V32 B-reps / owner V33 inventory instruction"
+    ],
+    "hold": "PURCHASE_BEFORE_CNC",
+    "measurement_fields": {
+      "actual_dimensions_mm": null,
+      "selected_manufacturer_part": null,
+      "thread_standard_and_pitch": null,
+      "drive_and_size": null,
+      "mount_pattern_and_count": null,
+      "installed_stack_and_engagement_mm": null,
+      "material_grade": null,
+      "physical_fit_approved": false
+    }
+  }
+]

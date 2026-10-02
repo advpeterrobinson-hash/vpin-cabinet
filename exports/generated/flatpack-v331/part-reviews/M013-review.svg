@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.0mm" height="185.0mm" viewBox="-10.0 -20.0 62.0 185.0">
+<title>M013 PRELIMINARY — NOT FOR CNC</title>
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</metadata>
+<g id="CUT" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 42.0 0.0 L 42.0 150.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 42.0 150.0 L 0.0 150.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 0.0 150.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 42.0 0.0 L 0.0 0.0"/></g>
+</g>
+<g id="POCKET" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="P017-Main-R3"><circle cx="30.0" cy="15.0" r="4.25"/></g>
+<g data-operation="P017-Main-R4"><circle cx="30.0" cy="15.0" r="2.75"/></g>
+<g data-operation="P017-Main-R5"><circle cx="30.0" cy="75.0" r="4.25"/></g>
+<g data-operation="P017-Main-R6"><circle cx="30.0" cy="75.0" r="2.75"/></g>
+</g>
+<g id="LOCATOR" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="ENGRAVE" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="REFERENCE" fill="none" stroke="black" stroke-width="0.15" stroke-dasharray="1 1">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 42.0 0.0 L 42.0 150.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 42.0 150.0 L 0.0 150.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 0.0 150.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 42.0 0.0 L 0.0 0.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 41.0 55.0 L 43.0 55.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 42.0 54.0 L 42.0 56.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 41.0 125.0 L 43.0 125.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 42.0 124.0 L 42.0 126.0"/></g>
+</g>
+<g id="REVIEW_LABELS"><text x="0.0" y="-8.0" font-family="sans-serif" font-size="1.2">M013 — PRELIMINARY — NOT FOR CNC</text></g></svg>

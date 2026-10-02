@@ -1,0 +1,63 @@
+# Manual finish schedule
+
+All coordinates use the part’s finished FACE_A datum; +z enters the wood. FACE_B has NO CNC. Edge/oblique bores use an ordinary drill/driver with a qualified guide; hardware/pilot depth remains provisional. No freehand drill-angle accuracy is claimed.
+
+- **P001-Main / M001**: DRILL_OR_COUNTERSINK P001-Main-R1; DRILL_OR_COUNTERSINK P001-Main-R2; DRILL_OR_COUNTERSINK P001-Main-R3; DRILL_OR_COUNTERSINK P001-Main-R4; DRILL_OR_COUNTERSINK P001-Main-R5; DRILL_OR_COUNTERSINK P001-Main-R10; DRILL_OR_COUNTERSINK P001-Main-R11; DRILL_OR_COUNTERSINK P001-Main-R12; DRILL_OR_COUNTERSINK P001-Main-R13; DRILL_OR_COUNTERSINK P001-Main-R14; DRILL_OR_COUNTERSINK P001-Main-R15; DRILL_OR_COUNTERSINK P001-Main-R16; DRILL_OR_COUNTERSINK P001-Main-R17. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P002-Main / M002**: DRILL_OR_COUNTERSINK P002-Main-R1; DRILL_OR_COUNTERSINK P002-Main-R2; DRILL_OR_COUNTERSINK P002-Main-R7; DRILL_OR_COUNTERSINK P002-Main-R8; DRILL_OR_COUNTERSINK P002-Main-R9; DRILL_OR_COUNTERSINK P002-Main-R10; DRILL_OR_COUNTERSINK P002-Main-R11; DRILL_OR_COUNTERSINK P002-Main-R12; DRILL_OR_COUNTERSINK P002-Main-R13; DRILL_OR_COUNTERSINK P002-Main-R14; DRILL_OR_COUNTERSINK P002-Main-R15; DRILL_OR_COUNTERSINK P002-Main-R16; DRILL_OR_COUNTERSINK P002-Main-R17. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P003-Main / M003**: DRILL_OR_COUNTERSINK P003-Main-R1; DRILL_OR_COUNTERSINK P003-Main-R2; DRILL_OR_COUNTERSINK P003-Main-R3; DRILL_OR_COUNTERSINK P003-Main-R4; SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P003-Main-R12. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P004-Main / M004**: DRILL_OR_COUNTERSINK P004-Main-R1; DRILL_OR_COUNTERSINK P004-Main-R2; DRILL_OR_COUNTERSINK P004-Main-R3; DRILL_OR_COUNTERSINK P004-Main-R4; DRILL_OR_COUNTERSINK P004-Main-R18; SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P004-Main-R19; NARROW_FEATURE_MANUAL_FINISH P004-Main-R19; DRILL_OR_COUNTERSINK P004-Main-R20; SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P004-Main-R22; DRILL_OR_COUNTERSINK P004-Main-R23; DRILL_OR_COUNTERSINK P004-Main-R24. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P008-Main / M007**: R2_ACCESS_RESIDUAL_FINISH P008-Main-R3. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P012-Main / M010**: DRILL_OR_COUNTERSINK P012-Main-R1; DRILL_OR_COUNTERSINK P012-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P013-Main / M011**: DRILL_OR_COUNTERSINK P013-Main-R1; DRILL_OR_COUNTERSINK P013-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P014-Main / M010**: DRILL_OR_COUNTERSINK P014-Main-R1; DRILL_OR_COUNTERSINK P014-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P015-Main / M011**: DRILL_OR_COUNTERSINK P015-Main-R1; DRILL_OR_COUNTERSINK P015-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P016-Main / M012**: DRILL_OR_COUNTERSINK P016-Main-R1; DRILL_OR_COUNTERSINK P016-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P017-Main / M013**: DRILL_OR_COUNTERSINK P017-Main-R1; DRILL_OR_COUNTERSINK P017-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P018-Main / M014**: BEVEL_SANDING_FINISH P018-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P019-Main / M014**: BEVEL_SANDING_FINISH P019-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P020-Main / M014**: BEVEL_SANDING_FINISH P020-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P021-Main / M015**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P021-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P022-Main / M016**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P022-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P023-Main / M015**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P023-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P024-Main / M016**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P024-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P025-Main / M015**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P025-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P026-Main / M016**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P026-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P027-Main / M017**: DRILL_OR_COUNTERSINK P027-Main-R1; DRILL_OR_COUNTERSINK P027-Main-R2; DRILL_OR_COUNTERSINK P027-Main-R3; DRILL_OR_COUNTERSINK P027-Main-R4. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P028-Main / M018**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P028-Main-R1; DRILL_OR_COUNTERSINK P028-Main-R4; DRILL_OR_COUNTERSINK P028-Main-R5; DRILL_OR_COUNTERSINK P028-Main-R6; DRILL_OR_COUNTERSINK P028-Main-R7. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P029-L3 / M020**: DRILL_OR_COUNTERSINK P029-L3-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P029-L6 / M021**: DRILL_OR_COUNTERSINK P029-L6-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P030-L3 / M020**: DRILL_OR_COUNTERSINK P030-L3-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P030-L6 / M021**: DRILL_OR_COUNTERSINK P030-L6-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P031-L2 / M021**: DRILL_OR_COUNTERSINK P031-L2-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P031-L5 / M022**: DRILL_OR_COUNTERSINK P031-L5-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P031-L6 / M023**: DRILL_OR_COUNTERSINK P031-L6-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P032-L2 / M021**: DRILL_OR_COUNTERSINK P032-L2-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P032-L5 / M022**: DRILL_OR_COUNTERSINK P032-L5-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P032-L6 / M023**: DRILL_OR_COUNTERSINK P032-L6-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P035-Main / M026**: OUTER_REENTRANT_CORNER_FINISH ; DRILL_OR_COUNTERSINK P035-Main-R1; DRILL_OR_COUNTERSINK P035-Main-R2; DRILL_OR_COUNTERSINK P035-Main-R3. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P036-Main / M027**: OUTER_REENTRANT_CORNER_FINISH ; DRILL_OR_COUNTERSINK P036-Main-R1; DRILL_OR_COUNTERSINK P036-Main-R2; DRILL_OR_COUNTERSINK P036-Main-R3. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P039-Main / M029**: OUTER_REENTRANT_CORNER_FINISH ; DRILL_OR_COUNTERSINK P039-Main-R1; DRILL_OR_COUNTERSINK P039-Main-R2; DRILL_OR_COUNTERSINK P039-Main-R3. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P040-Main / M029**: OUTER_REENTRANT_CORNER_FINISH ; DRILL_OR_COUNTERSINK P040-Main-R1; DRILL_OR_COUNTERSINK P040-Main-R2; DRILL_OR_COUNTERSINK P040-Main-R3. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P041-Main / M030**: DRILL_OR_COUNTERSINK P041-Main-R1; DRILL_OR_COUNTERSINK P041-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P042-Main / M031**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P042-Main-R1; SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P042-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P043-Main / M032**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P043-Main-R1; SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P043-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P044-Main / M033**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P044-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P046-Main / M035**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P046-Main-R1; SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P046-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P048-Main / M037**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P048-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P050-Main / M040**: DRILL_OR_COUNTERSINK P050-Main-R1; DRILL_OR_COUNTERSINK P050-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P053-Main / M040**: DRILL_OR_COUNTERSINK P053-Main-R1; DRILL_OR_COUNTERSINK P053-Main-R2. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P057-Main / M043**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P057-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P058-Main / M043**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P058-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P060-Main / M043**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P060-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P061-Main / M043**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P061-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P063-Main / M045**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P063-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P064-Base18 / M046**: OUTER_REENTRANT_CORNER_FINISH . See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P065-Base18 / M048**: OUTER_REENTRANT_CORNER_FINISH . See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P068-Main / M050**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P068-Main-R1; SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P068-Main-R2; SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P068-Main-R3. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P071-Main / M052**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P071-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P079-Main / M056**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P079-Main-R3. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P080-Main / M057**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P080-Main-R4. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P081-Main / M058**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P081-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P082-Main / M058**: SQUARE_CORNER_FINISH_OR_COUPON_RELIEF P082-Main-R1. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P089-Main / M065**: DRILL_OR_COUNTERSINK P089-Main-R1; DRILL_OR_COUNTERSINK P089-Main-R3. See numeric entry/exit vectors and exact removal B-rep in the JSON register.
+- **P091-Main / M065**: DRILL_OR_COUNTERSINK P091-Main-R1; DRILL_OR_COUNTERSINK P091-Main-R3. See numeric entry/exit vectors and exact removal B-rep in the JSON register.

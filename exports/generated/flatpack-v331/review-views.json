@@ -1,0 +1,307 @@
+[
+  {
+    "number": "01",
+    "title": "Complete flatpack inventory \u2014 canonical families",
+    "image": "01-review.png",
+    "instances": [
+      "P001-Main",
+      "P002-Main",
+      "P003-Main",
+      "P004-Main",
+      "P005-Main",
+      "P006-Main",
+      "P008-Main",
+      "P009-Main",
+      "P011-Main",
+      "P012-Main",
+      "P013-Main",
+      "P016-Main",
+      "P017-Main",
+      "P018-Main",
+      "P021-Main",
+      "P022-Main",
+      "P027-Main",
+      "P028-Main",
+      "P029-L1",
+      "P029-L3",
+      "P029-L6",
+      "P031-L5",
+      "P031-L6",
+      "P033-Main",
+      "P034-Main",
+      "P035-Main",
+      "P036-Main",
+      "P037-Main",
+      "P039-Main",
+      "P041-Main",
+      "P042-Main",
+      "P043-Main",
+      "P044-Main",
+      "P045-Main",
+      "P046-Main",
+      "P047-Main",
+      "P048-Main",
+      "P049-Cap",
+      "P049-Strip",
+      "P050-Main",
+      "P051-Main",
+      "P056-Main",
+      "P057-Main",
+      "P062-Main",
+      "P063-Main",
+      "P064-Base18",
+      "P064-Cap12",
+      "P065-Base18",
+      "P066-Main",
+      "P068-Main",
+      "P069-Main",
+      "P071-Main",
+      "P072-Main",
+      "P073-Main",
+      "P075-Ply1",
+      "P079-Main",
+      "P080-Main",
+      "P081-Main",
+      "P083-Face",
+      "P083-Top",
+      "P083-Side1",
+      "P085-Reduced18",
+      "P087-Main",
+      "P088-Main",
+      "P089-Main",
+      "P092-Main"
+    ]
+  },
+  {
+    "number": "02",
+    "title": "18 mm structural stock members",
+    "image": "02-review.png",
+    "instances": [
+      "P001-Main",
+      "P002-Main",
+      "P003-Main",
+      "P004-Main",
+      "P005-Main",
+      "P006-Main",
+      "P012-Main",
+      "P013-Main",
+      "P016-Main",
+      "P017-Main",
+      "P018-Main",
+      "P021-Main",
+      "P022-Main",
+      "P028-Main",
+      "P029-L1",
+      "P029-L3",
+      "P029-L6",
+      "P031-L5",
+      "P031-L6",
+      "P034-Main",
+      "P035-Main",
+      "P036-Main",
+      "P039-Main",
+      "P042-Main",
+      "P043-Main",
+      "P044-Main",
+      "P045-Main",
+      "P046-Main",
+      "P047-Main",
+      "P048-Main",
+      "P049-Strip",
+      "P050-Main",
+      "P051-Main",
+      "P056-Main",
+      "P057-Main",
+      "P064-Base18",
+      "P065-Base18",
+      "P068-Main",
+      "P073-Main",
+      "P085-Reduced18",
+      "P088-Main",
+      "P089-Main"
+    ]
+  },
+  {
+    "number": "03",
+    "title": "Modular / secondary-eligible members",
+    "image": "03-review.png",
+    "instances": [
+      "P008-Main",
+      "P009-Main",
+      "P011-Main",
+      "P027-Main",
+      "P037-Main",
+      "P041-Main",
+      "P063-Main",
+      "P069-Main",
+      "P071-Main",
+      "P079-Main",
+      "P080-Main",
+      "P081-Main",
+      "P083-Face",
+      "P083-Top",
+      "P083-Side1",
+      "P087-Main",
+      "P092-Main"
+    ]
+  },
+  {
+    "number": "04",
+    "title": "Glass-retainer cap + reduced strip",
+    "image": "04-review.png",
+    "instances": [
+      "P049-Cap",
+      "P049-Strip"
+    ]
+  },
+  {
+    "number": "05",
+    "title": "Monitor stops \u2014 18 + 12 mm planar lamination",
+    "image": "05-review.png",
+    "instances": [
+      "P064-Base18",
+      "P064-Cap12",
+      "P065-Base18",
+      "P065-Cap12"
+    ]
+  },
+  {
+    "number": "06",
+    "title": "Four cassette cleats \u2014 eight identical 12 mm layers",
+    "image": "06-review.png",
+    "instances": [
+      "P075-Ply1",
+      "P075-Ply2",
+      "P076-Ply1",
+      "P076-Ply2",
+      "P077-Ply1",
+      "P077-Ply2",
+      "P078-Ply1",
+      "P078-Ply2"
+    ]
+  },
+  {
+    "number": "07",
+    "title": "Intake baffles \u2014 face, top and two returns",
+    "image": "07-review.png",
+    "instances": [
+      "P083-Face",
+      "P083-Top",
+      "P083-Side1",
+      "P083-Side2",
+      "P084-Face",
+      "P084-Top",
+      "P084-Side1",
+      "P084-Side2"
+    ]
+  },
+  {
+    "number": "08",
+    "title": "Hinge cleats \u2014 18 mm stock faced to 14 mm",
+    "image": "08-review.png",
+    "instances": [
+      "P085-Reduced18",
+      "P086-Reduced18"
+    ]
+  },
+  {
+    "number": "09",
+    "title": "Front leg blocks \u2014 real seven-layer geometry",
+    "image": "09-review.png",
+    "instances": [
+      "P029-L1",
+      "P029-L2",
+      "P029-L3",
+      "P029-L4",
+      "P029-L5",
+      "P029-L6",
+      "P029-L7",
+      "P030-L1",
+      "P030-L2",
+      "P030-L3",
+      "P030-L4",
+      "P030-L5",
+      "P030-L6",
+      "P030-L7"
+    ]
+  },
+  {
+    "number": "10",
+    "title": "Rear leg blocks \u2014 split bore across L5 / L6",
+    "image": "10-review.png",
+    "instances": [
+      "P031-L1",
+      "P031-L2",
+      "P031-L3",
+      "P031-L4",
+      "P031-L5",
+      "P031-L6",
+      "P031-L7",
+      "P032-L1",
+      "P032-L2",
+      "P032-L3",
+      "P032-L4",
+      "P032-L5",
+      "P032-L6",
+      "P032-L7"
+    ]
+  },
+  {
+    "number": "11",
+    "title": "One-face pocket and reduction examples",
+    "image": "11-review.png",
+    "instances": [
+      "P005-Main",
+      "P057-Main",
+      "P048-Main",
+      "P085-Reduced18"
+    ]
+  },
+  {
+    "number": "12",
+    "title": "Manual drilling / countersink / bevel examples",
+    "image": "12-review.png",
+    "instances": [
+      "P035-Main",
+      "P012-Main",
+      "P018-Main",
+      "P001-Main"
+    ]
+  },
+  {
+    "number": "13",
+    "title": "R2 decisions \u2014 open radii, mating captures, hand-finished roots",
+    "image": "13-review.png",
+    "instances": [
+      "P035-Main",
+      "P021-Main",
+      "P048-Main",
+      "P064-Base18"
+    ]
+  },
+  {
+    "number": "14",
+    "title": "Largest manufacturing pieces",
+    "image": "14-review.png",
+    "instances": [
+      "P001-Main",
+      "P002-Main",
+      "P005-Main",
+      "P046-Main",
+      "P034-Main",
+      "P063-Main",
+      "P004-Main",
+      "P003-Main"
+    ]
+  },
+  {
+    "number": "15",
+    "title": "Preliminary sheet feasibility",
+    "image": "15-review.png"
+  },
+  {
+    "number": "16",
+    "title": "Exploded wood-only members",
+    "image": "16-review.png"
+  }
+]

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="305.0mm" height="495.0mm" viewBox="-10.0 -20.0 305.0 495.0">
+<title>M017 PRELIMINARY — NOT FOR CNC</title>
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</metadata>
+<g id="CUT" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 285.0 0.0 L 285.0 460.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 285.0 460.0 L 0.0 460.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 0.0 460.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 285.0 0.0 L 0.0 0.0"/></g>
+</g>
+<g id="POCKET" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="LOCATOR" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="ENGRAVE" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="REFERENCE" fill="none" stroke="black" stroke-width="0.15" stroke-dasharray="1 1">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 285.0 0.0 L 285.0 460.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 285.0 460.0 L 0.0 460.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 285.0 0.0 L 0.0 0.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 0.0 460.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 261.5 20.0 L 263.5 20.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 262.5 19.0 L 262.5 21.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 261.5 20.0 L 263.5 20.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 262.5 19.0 L 262.5 21.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 21.5 20.0 L 23.5 20.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 22.5 19.0 L 22.5 21.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 21.499999999999996 20.0 L 23.499999999999996 20.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 22.499999999999996 19.0 L 22.499999999999996 21.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 261.5 440.0 L 263.5 440.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 262.5 439.0 L 262.5 441.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 261.5 440.0 L 263.5 440.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 262.5 439.0 L 262.5 441.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 21.5 440.0 L 23.5 440.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 22.5 439.0 L 22.5 441.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 21.499999999999996 440.0 L 23.499999999999996 440.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 22.499999999999996 439.0 L 22.499999999999996 441.0"/></g>
+</g>
+<g id="REVIEW_LABELS"><text x="0.0" y="-8.0" font-family="sans-serif" font-size="3.1666666666666665">M017 — PRELIMINARY — NOT FOR CNC</text></g></svg>

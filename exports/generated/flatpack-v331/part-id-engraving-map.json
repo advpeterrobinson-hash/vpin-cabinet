@@ -1,0 +1,1302 @@
+[
+  {
+    "instance": "P001-Main",
+    "id": "M001",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M001",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P002-Main",
+    "id": "M002",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M002",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P003-Main",
+    "id": "M003",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M003",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P004-Main",
+    "id": "M004",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M004",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P005-Main",
+    "id": "M005",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M005",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P006-Main",
+    "id": "M006",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M006",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P007-Main",
+    "id": "M006",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M006",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P008-Main",
+    "id": "M007",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M007",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P009-Main",
+    "id": "M008",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M008",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P010-Main",
+    "id": "M008",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M008",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P011-Main",
+    "id": "M009",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M009",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P012-Main",
+    "id": "M010",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M010",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P013-Main",
+    "id": "M011",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M011",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P014-Main",
+    "id": "M010",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M010",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P015-Main",
+    "id": "M011",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M011",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P016-Main",
+    "id": "M012",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M012",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P017-Main",
+    "id": "M013",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M013",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P018-Main",
+    "id": "M014",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M014",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P019-Main",
+    "id": "M014",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M014",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P020-Main",
+    "id": "M014",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M014",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P021-Main",
+    "id": "M015",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M015",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P022-Main",
+    "id": "M016",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M016",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P023-Main",
+    "id": "M015",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M015",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P024-Main",
+    "id": "M016",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M016",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P025-Main",
+    "id": "M015",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M015",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P026-Main",
+    "id": "M016",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M016",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P027-Main",
+    "id": "M017",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M017",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P028-Main",
+    "id": "M018",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M018",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P029-L1",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P029-L2",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P029-L3",
+    "id": "M020",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M020",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P029-L4",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P029-L5",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P029-L6",
+    "id": "M021",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M021",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P029-L7",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P030-L1",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P030-L2",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P030-L3",
+    "id": "M020",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M020",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P030-L4",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P030-L5",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P030-L6",
+    "id": "M021",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M021",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P030-L7",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P031-L1",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P031-L2",
+    "id": "M021",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M021",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P031-L3",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P031-L4",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P031-L5",
+    "id": "M022",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M022",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P031-L6",
+    "id": "M023",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M023",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P031-L7",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P032-L1",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P032-L2",
+    "id": "M021",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M021",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P032-L3",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P032-L4",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P032-L5",
+    "id": "M022",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M022",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P032-L6",
+    "id": "M023",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M023",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P032-L7",
+    "id": "M019",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M019",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P033-Main",
+    "id": "M024",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M024",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P034-Main",
+    "id": "M025",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M025",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P035-Main",
+    "id": "M026",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M026",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P036-Main",
+    "id": "M027",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M027",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P037-Main",
+    "id": "M028",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M028",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P038-Main",
+    "id": "M028",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M028",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P039-Main",
+    "id": "M029",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M029",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P040-Main",
+    "id": "M029",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M029",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P041-Main",
+    "id": "M030",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M030",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P042-Main",
+    "id": "M031",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M031",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P043-Main",
+    "id": "M032",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M032",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P044-Main",
+    "id": "M033",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M033",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P045-Main",
+    "id": "M034",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M034",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P046-Main",
+    "id": "M035",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M035",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P047-Main",
+    "id": "M036",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M036",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P048-Main",
+    "id": "M037",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M037",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P049-Cap",
+    "id": "M038",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M038",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P049-Strip",
+    "id": "M039",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M039",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P050-Main",
+    "id": "M040",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M040",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P051-Main",
+    "id": "M041",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M041",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P052-Main",
+    "id": "M041",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M041",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P053-Main",
+    "id": "M040",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M040",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P054-Main",
+    "id": "M041",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M041",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P055-Main",
+    "id": "M041",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M041",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P056-Main",
+    "id": "M042",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M042",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P057-Main",
+    "id": "M043",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M043",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P058-Main",
+    "id": "M043",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M043",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P059-Main",
+    "id": "M042",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M042",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P060-Main",
+    "id": "M043",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M043",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P061-Main",
+    "id": "M043",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M043",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P062-Main",
+    "id": "M044",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M044",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P063-Main",
+    "id": "M045",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M045",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P064-Base18",
+    "id": "M046",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M046",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P064-Cap12",
+    "id": "M047",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M047",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P065-Base18",
+    "id": "M048",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M048",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P065-Cap12",
+    "id": "M047",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M047",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P066-Main",
+    "id": "M049",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M049",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P067-Main",
+    "id": "M049",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M049",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P068-Main",
+    "id": "M050",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M050",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P069-Main",
+    "id": "M051",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M051",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P070-Main",
+    "id": "M051",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M051",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P071-Main",
+    "id": "M052",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M052",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P072-Main",
+    "id": "M053",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M053",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P073-Main",
+    "id": "M054",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M054",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P074-Main",
+    "id": "M054",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M054",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P075-Ply1",
+    "id": "M055",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M055",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P075-Ply2",
+    "id": "M055",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M055",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P076-Ply1",
+    "id": "M055",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M055",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P076-Ply2",
+    "id": "M055",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M055",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P077-Ply1",
+    "id": "M055",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M055",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P077-Ply2",
+    "id": "M055",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M055",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P078-Ply1",
+    "id": "M055",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M055",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P078-Ply2",
+    "id": "M055",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M055",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P079-Main",
+    "id": "M056",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M056",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P080-Main",
+    "id": "M057",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M057",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P081-Main",
+    "id": "M058",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M058",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P082-Main",
+    "id": "M058",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M058",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P083-Face",
+    "id": "M059",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M059",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P083-Top",
+    "id": "M060",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M060",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P083-Side1",
+    "id": "M061",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M061",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P083-Side2",
+    "id": "M061",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M061",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P084-Face",
+    "id": "M059",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M059",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P084-Top",
+    "id": "M060",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M060",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P084-Side1",
+    "id": "M061",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M061",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P084-Side2",
+    "id": "M061",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M061",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P085-Reduced18",
+    "id": "M062",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M062",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P086-Reduced18",
+    "id": "M062",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M062",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P087-Main",
+    "id": "M063",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M063",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P088-Main",
+    "id": "M064",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M064",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P089-Main",
+    "id": "M065",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M065",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P090-Main",
+    "id": "M064",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M064",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P091-Main",
+    "id": "M065",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M065",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P092-Main",
+    "id": "M066",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M066",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  },
+  {
+    "instance": "P093-Main",
+    "id": "M066",
+    "optional": true,
+    "face": "FACE_A",
+    "text": "M066",
+    "depth_mm": null,
+    "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+    "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+  }
+]

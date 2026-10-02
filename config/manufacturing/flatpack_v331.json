@@ -1,0 +1,33 @@
+{
+  "status": "CURRENT_MANUFACTURING_PREPARATION_AUTHORITY_NOT_RELEASE",
+  "design_authority": "config/current_v32.json",
+  "source_head": "a9b16bd5e9a264c96b3be34de7bdce9308e6459b",
+  "supplier_profile": "config/manufacturing/profiles/peter_supplier_v1.json",
+  "one_side_register": "exports/generated/flatpack-v331/manufacturing-register.json",
+  "manufacturing_wood_bom": "exports/generated/flatpack-v331/manufacturing-bom.json",
+  "hardware_quantity_overlay": "exports/generated/flatpack-v331/hardware-quantity-closure.json",
+  "preliminary_layout": "exports/generated/flatpack-v331/preliminary-layout.json",
+  "historical_inventory": "config/wood_materials_v33.json",
+  "supersedes_for_operation_preparation_only": "exports/generated/manufacturing-peter-v1/one-side-part-register.json",
+  "measured_thickness_mm": null,
+  "selected_coupon_clearance_mm": null,
+  "fit_rule": "measured_thickness_mm + selected_coupon_clearance_mm",
+  "no_nominal_fit_release": true,
+  "allowed_cnc_face": "FACE_A",
+  "face_B_cnc": false,
+  "part_status_is_preparation_route_not_release": true,
+  "premium_first": true,
+  "structural_material_auto_downgrade": false,
+  "full_sheet_release": false,
+  "gcode_generated": false,
+  "current_geometry_changed": false,
+  "release_gates": [
+    "actual production-lot material thickness for every stock family",
+    "physical coupon and selected fit clearance",
+    "fit-dependent geometry regeneration and validation",
+    "purchased hardware dimensions and dependent machining",
+    "manual drilling guide and finish qualification",
+    "adhesive joints and remaining structural/ergonomic qualification",
+    "supplier holding/CAM review and owner manufacturing approval"
+  ]
+}

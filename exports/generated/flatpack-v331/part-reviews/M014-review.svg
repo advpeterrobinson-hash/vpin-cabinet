@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="559.6mm" height="116.57183098591548mm" viewBox="-10.0 -20.0 559.6 116.57183098591548">
+<title>M014 PRELIMINARY — NOT FOR CNC</title>
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</metadata>
+<g id="CUT" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 81.57183098591548 L 0.0 -1.4210854715202004e-14"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 539.6 81.57183098591548 L 539.6 -1.4210854715202004e-14"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 81.57183098591548 L 539.6 81.57183098591548"/></g>
+</g>
+<g id="POCKET" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="P018-Main-R1-STEP2"><path d="M 0.0 2.794366197183079 L 539.6 2.794366197183079"/></g>
+<g data-operation="P018-Main-R1-STEP2"><path d="M 539.6 2.794366197183038 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP2"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP2"><path d="M 0.0 2.794366197183038 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP3"><path d="M 0.0 2.6197183098591363 L 539.6 2.6197183098591363"/></g>
+<g data-operation="P018-Main-R1-STEP3"><path d="M 539.6 2.619718309859138 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP3"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP3"><path d="M 0.0 2.619718309859138 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP4"><path d="M 0.0 2.4450704225351942 L 539.6 2.4450704225351942"/></g>
+<g data-operation="P018-Main-R1-STEP4"><path d="M 539.6 2.445070422535238 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP4"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP4"><path d="M 0.0 2.445070422535238 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP5"><path d="M 0.0 2.2704225352112517 L 539.6 2.2704225352112517"/></g>
+<g data-operation="P018-Main-R1-STEP5"><path d="M 539.6 2.270422535211239 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP5"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP5"><path d="M 0.0 2.270422535211239 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP6"><path d="M 0.0 2.0957746478873096 L 539.6 2.0957746478873096"/></g>
+<g data-operation="P018-Main-R1-STEP6"><path d="M 539.6 2.095774647887339 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP6"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP6"><path d="M 0.0 2.095774647887339 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP7"><path d="M 0.0 1.9211267605633668 L 539.6 1.9211267605633668"/></g>
+<g data-operation="P018-Main-R1-STEP7"><path d="M 539.6 1.9211267605633395 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP7"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP7"><path d="M 0.0 1.9211267605633395 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP8"><path d="M 0.0 1.7464788732394245 L 539.6 1.7464788732394245"/></g>
+<g data-operation="P018-Main-R1-STEP8"><path d="M 539.6 1.7464788732394396 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP8"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP8"><path d="M 0.0 1.7464788732394396 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP9"><path d="M 0.0 1.571830985915482 L 539.6 1.571830985915482"/></g>
+<g data-operation="P018-Main-R1-STEP9"><path d="M 539.6 1.5718309859154402 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP9"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP9"><path d="M 0.0 1.5718309859154402 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP10"><path d="M 0.0 1.3971830985915394 L 539.6 1.3971830985915394"/></g>
+<g data-operation="P018-Main-R1-STEP10"><path d="M 539.6 1.3971830985915403 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP10"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP10"><path d="M 0.0 1.3971830985915403 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP11"><path d="M 0.0 1.2225352112675971 L 539.6 1.2225352112675971"/></g>
+<g data-operation="P018-Main-R1-STEP11"><path d="M 539.6 1.2225352112676404 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP11"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP11"><path d="M 0.0 1.2225352112676404 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP12"><path d="M 0.0 1.0478873239436548 L 539.6 1.0478873239436548"/></g>
+<g data-operation="P018-Main-R1-STEP12"><path d="M 539.6 1.047887323943641 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP12"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP12"><path d="M 0.0 1.047887323943641 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP13"><path d="M 0.0 0.8732394366197123 L 539.6 0.8732394366197123"/></g>
+<g data-operation="P018-Main-R1-STEP13"><path d="M 539.6 0.8732394366197411 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP13"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP13"><path d="M 0.0 0.8732394366197411 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP14"><path d="M 0.0 0.6985915492957697 L 539.6 0.6985915492957697"/></g>
+<g data-operation="P018-Main-R1-STEP14"><path d="M 539.6 0.6985915492957417 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP14"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP14"><path d="M 0.0 0.6985915492957417 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP15"><path d="M 0.0 0.5239436619718272 L 539.6 0.5239436619718272"/></g>
+<g data-operation="P018-Main-R1-STEP15"><path d="M 539.6 0.5239436619718418 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP15"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP15"><path d="M 0.0 0.5239436619718418 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP16"><path d="M 0.0 0.34929577464788486 L 539.6 0.34929577464788486"/></g>
+<g data-operation="P018-Main-R1-STEP16"><path d="M 539.6 0.34929577464784245 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP16"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP16"><path d="M 0.0 0.34929577464784245 L 0.0 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP17"><path d="M 0.0 0.17464788732394254 L 539.6 0.17464788732394254"/></g>
+<g data-operation="P018-Main-R1-STEP17"><path d="M 539.6 0.17464788732394254 L 539.6 4.263256414560601e-14"/></g>
+<g data-operation="P018-Main-R1-STEP17"><path d="M 0.0 0.0 L 539.6 0.0"/></g>
+<g data-operation="P018-Main-R1-STEP17"><path d="M 0.0 0.17464788732394254 L 0.0 4.263256414560601e-14"/></g>
+</g>
+<g id="LOCATOR" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="ENGRAVE" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="REFERENCE" fill="none" stroke="black" stroke-width="0.15" stroke-dasharray="1 1">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 81.57183098591548 L 0.0 -1.4210854715202004e-14"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 -4.547473508864641e-13 L 539.6 -4.547473508864641e-13"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 539.6 81.57183098591548 L 539.6 -1.4210854715202004e-14"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 81.57183098591503 L 539.6 81.57183098591503"/></g>
+</g>
+<g id="REVIEW_LABELS"><text x="0.0" y="-8.0" font-family="sans-serif" font-size="5">M014 — PRELIMINARY — NOT FOR CNC</text></g></svg>

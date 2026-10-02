@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.0mm" height="401.0mm" viewBox="-10.0 -19.999999999999886 70.0 401.0">
+<title>M042 PRELIMINARY — NOT FOR CNC</title>
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</metadata>
+<g id="CUT" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 366.0000000000001 L 50.0 366.0000000000001"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 50.0 366.0000000000001 L 50.0 1.1368683772161603e-13"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 2.2737367544323206e-13 L 50.0 2.2737367544323206e-13"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 366.0000000000001 L 0.0 1.1368683772161603e-13"/></g>
+<g data-operation="P056-Main-R1"><path d="M 21.75 237.0000000000001 L 21.75 247.0000000000001"/></g>
+<g data-operation="P056-Main-R1"><path d="M 28.25 247.0000000000001 A 3.25 3.25 0 0 1 21.75 247.0000000000001"/></g>
+<g data-operation="P056-Main-R1"><path d="M 28.25 237.0000000000001 L 28.25 247.0000000000001"/></g>
+<g data-operation="P056-Main-R1"><path d="M 21.75 237.0000000000001 A 3.25 3.25 0 0 1 28.25 237.0000000000001"/></g>
+<g data-operation="P056-Main-R2"><path d="M 21.75 97.00000000000011 L 21.75 107.00000000000011"/></g>
+<g data-operation="P056-Main-R2"><path d="M 28.25 107.00000000000024 A 3.25 3.25 0 0 1 21.75 107.00000000000023"/></g>
+<g data-operation="P056-Main-R2"><path d="M 28.25 97.00000000000011 L 28.25 107.00000000000011"/></g>
+<g data-operation="P056-Main-R2"><path d="M 21.75 97.00000000000023 A 3.25 3.25 0 0 1 28.25 97.00000000000021"/></g>
+</g>
+<g id="POCKET" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="LOCATOR" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="ENGRAVE" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="REFERENCE" fill="none" stroke="black" stroke-width="0.15" stroke-dasharray="1 1">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 366.0000000000001 L 50.0 366.0000000000001"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 50.0 366.0000000000001 L 50.0 2.2737367544323206e-13"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 366.0000000000001 L 0.0 2.2737367544323206e-13"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 0.0 2.2737367544323206e-13 L 50.0 2.2737367544323206e-13"/></g>
+</g>
+<g id="REVIEW_LABELS"><text x="0.0" y="-7.999999999999886" font-family="sans-serif" font-size="1.2">M042 — PRELIMINARY — NOT FOR CNC</text></g></svg>

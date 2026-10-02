@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "families": 66,
+  "pieces": 130,
+  "typed_quantity_roundtrip": true,
+  "format": "UTF-8 BOM; RFC4180; CRLF; no prices or nominal fit release"
+}

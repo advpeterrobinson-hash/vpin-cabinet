@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="584.0mm" height="631.9mm" viewBox="-6.110912703472106 -20.0 584.0 631.9">
+<title>M004 PRELIMINARY — NOT FOR CNC</title>
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet</metadata>
+<g id="CUT" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.8890872965279186 0.0 L 567.8890872965279 0.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 567.8890872965279 596.9 L 567.8890872965279 0.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.8890872965279186 596.9 L 567.8890872965279 596.9"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.8890872965279186 596.9 L 3.8890872965279186 0.0"/></g>
+<g data-operation="P004-Main-R5"><circle cx="163.3890872965279" cy="44.40000000000009" r="2.25"/></g>
+<g data-operation="P004-Main-R6"><circle cx="163.3890872965279" cy="149.40000000000015" r="2.25"/></g>
+<g data-operation="P004-Main-R7"><circle cx="215.8890872965279" cy="96.90000000000015" r="58.0"/></g>
+<g data-operation="P004-Main-R8"><circle cx="268.3890872965279" cy="44.40000000000009" r="2.25"/></g>
+<g data-operation="P004-Main-R9"><circle cx="268.3890872965279" cy="149.40000000000015" r="2.25"/></g>
+<g data-operation="P004-Main-R10"><circle cx="60.889087296527904" cy="166.90000000000015" r="2.25"/></g>
+<g data-operation="P004-Main-R11"><path d="M 66.88908729652789 145.90000000000003 A 3.0 3.0 0 0 1 69.8890872965279 142.90000000000003"/></g>
+<g data-operation="P004-Main-R11"><path d="M 69.88908729652789 142.90000000000003 L 91.88908729652789 142.90000000000003"/></g>
+<g data-operation="P004-Main-R11"><path d="M 91.8890872965279 142.90000000000003 A 3.0 3.0 0 0 1 94.88908729652789 145.90000000000003"/></g>
+<g data-operation="P004-Main-R11"><path d="M 94.88908729652789 145.89999999999998 L 94.88908729652789 187.89999999999998"/></g>
+<g data-operation="P004-Main-R11"><path d="M 94.88908729652789 187.90000000000003 A 3.0 3.0 0 0 1 91.8890872965279 190.90000000000003"/></g>
+<g data-operation="P004-Main-R11"><path d="M 69.88908729652789 190.90000000000003 L 91.88908729652789 190.90000000000003"/></g>
+<g data-operation="P004-Main-R11"><path d="M 69.8890872965279 190.90000000000003 A 3.0 3.0 0 0 1 66.88908729652789 187.90000000000003"/></g>
+<g data-operation="P004-Main-R11"><path d="M 66.88908729652789 145.89999999999998 L 66.88908729652789 187.89999999999998"/></g>
+<g data-operation="P004-Main-R12"><circle cx="100.8890872965279" cy="166.90000000000015" r="2.25"/></g>
+<g data-operation="P004-Main-R13"><circle cx="303.3890872965279" cy="44.40000000000009" r="2.25"/></g>
+<g data-operation="P004-Main-R14"><circle cx="408.3890872965279" cy="44.40000000000009" r="2.25"/></g>
+<g data-operation="P004-Main-R15"><circle cx="355.8890872965279" cy="96.90000000000015" r="58.0"/></g>
+<g data-operation="P004-Main-R16"><circle cx="303.3890872965279" cy="149.40000000000015" r="2.25"/></g>
+<g data-operation="P004-Main-R17"><circle cx="408.3890872965279" cy="149.40000000000015" r="2.25"/></g>
+<g data-operation="P004-Main-R21"><circle cx="515.8890872965279" cy="166.90000000000015" r="12.0"/></g>
+<g data-operation="P004-Main-R22"><path d="M 86.88908729652789 214.89999999999998 L 86.88908729652789 541.9"/></g>
+<g data-operation="P004-Main-R22"><path d="M 86.88908729652789 541.9 A 2.0 2.0 0 0 0 88.88908729652789 543.9"/></g>
+<g data-operation="P004-Main-R22"><path d="M 88.88908729652789 543.9 L 482.8890872965279 543.9"/></g>
+<g data-operation="P004-Main-R22"><path d="M 482.8890872965279 543.9 A 2.0 2.0 0 0 0 484.8890872965278 541.9"/></g>
+<g data-operation="P004-Main-R22"><path d="M 484.8890872965279 214.89999999999998 L 484.8890872965279 541.9"/></g>
+<g data-operation="P004-Main-R22"><path d="M 484.8890872965279 214.90000000000003 A 2.0 2.0 0 0 0 482.8890872965278 212.90000000000003"/></g>
+<g data-operation="P004-Main-R22"><path d="M 88.88908729652789 212.90000000000003 L 482.8890872965279 212.90000000000003"/></g>
+<g data-operation="P004-Main-R22"><path d="M 88.88908729652789 212.90000000000003 A 2.0 2.0 0 0 0 86.88908729652789 214.90000000000003"/></g>
+</g>
+<g id="POCKET" fill="none" stroke="black" stroke-width="0.15">
+<g data-operation="P004-Main-R19"><path d="M 425.8890872965279 209.9000000000001 L 425.8890872965279 211.9000000000001"/></g>
+<g data-operation="P004-Main-R19"><path d="M 425.8890872965279 211.9000000000001 L 445.8890872965279 211.9000000000001"/></g>
+<g data-operation="P004-Main-R19"><path d="M 445.8890872965279 209.9000000000001 L 445.8890872965279 211.9000000000001"/></g>
+<g data-operation="P004-Main-R19"><path d="M 425.8890872965279 209.9000000000001 L 445.8890872965279 209.9000000000001"/></g>
+</g>
+<g id="LOCATOR" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="ENGRAVE" fill="none" stroke="black" stroke-width="0.15">
+</g>
+<g id="REFERENCE" fill="none" stroke="black" stroke-width="0.15" stroke-dasharray="1 1">
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.889087296527901 1.1368683772161603e-13 L 567.8890872965279 1.1368683772161603e-13"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 567.8890872965279 596.9 L 567.8890872965279 0.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.889087296527901 596.9000000000001 L 567.8890872965279 596.9000000000001"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 3.8890872965278938 596.9 L 3.8890872965278938 0.0"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 524.3890872965279 154.90000000000003 L 526.3890872965279 154.90000000000003"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 525.3890872965279 153.90000000000003 L 525.3890872965279 155.90000000000003"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 505.3890872965279 178.90000000000003 L 507.3890872965279 178.90000000000003"/></g>
+<g data-operation="OUTLINE_OR_REFERENCE"><path d="M 506.3890872965279 177.90000000000003 L 506.3890872965279 179.90000000000003"/></g>
+</g>
+<g id="REVIEW_LABELS"><text x="3.8890872965278938" y="-8.0" font-family="sans-serif" font-size="5">M004 — PRELIMINARY — NOT FOR CNC</text></g></svg>
