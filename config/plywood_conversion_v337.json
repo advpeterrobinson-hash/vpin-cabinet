@@ -1,0 +1,88 @@
+{
+  "version": "V33.7",
+  "source_head": "c02f9b878f370441b2bc3e637a3030f681fe140a",
+  "source": "exports/generated/front-landings-v3363/play.FCStd",
+  "manufacturing_register": "exports/generated/front-landings-v3363/manufacturing-register.json",
+  "output": "exports/generated/two-stock-user-module-v337",
+  "allowed_nominal_plywood_stock_mm": [
+    18,
+    12
+  ],
+  "manufacturing_release": false,
+  "promoted": false,
+  "density_kg_m3": 650,
+  "measured_stock_thickness_mm": null,
+  "coupon_clearance_mm": null,
+  "families": {
+    "M028": {
+      "quantity": 2,
+      "previous_nominal_mm": 8,
+      "new_nominal_mm": 12,
+      "retain_floor_mating_z_mm": 18,
+      "machining_face": "UNDERSIDE / FACE_A",
+      "service_pocket_radius_mm": 86,
+      "service_pocket_depth_mm": 4,
+      "filter_screw_head_recess_radius_mm": 7,
+      "filter_screw_head_recess_depth_mm": 4,
+      "reason": "Preserve existing media, rotated guard, screw heads, fan nuts and floor interfaces; retain12 mm corner lands from12 mm stock. No full-face reduction."
+    },
+    "M045": {
+      "quantity": 1,
+      "previous_nominal_mm": 6,
+      "new_nominal_mm": 12,
+      "finished_web_mm": 6,
+      "face_A_reduction_mm": 6,
+      "machining_face": "REAR / FACE_A",
+      "exception": "Full-face reduction is explicit: protected glass/display gap is10 mm, with2 mm clearance on each side, leaving6 mm finished bezel. Owner permits12 mm nominal stock with one-face reduction. No third stock family and no claim of12 mm finished bezel."
+    },
+    "M058": {
+      "quantity": 2,
+      "previous_nominal_mm": 6,
+      "new_nominal_mm": 12,
+      "preserve": "door mating plane and220x80 aperture",
+      "growth": "rearward/exterior6 mm",
+      "machining_face": "EXTERIOR / FACE_A"
+    },
+    "M059": {
+      "quantity": 2,
+      "previous_nominal_mm": 6,
+      "new_nominal_mm": 12,
+      "preserve": "baffle inner front plane",
+      "growth": "frontward6 mm plus widened closure of external seams",
+      "machining_face": "FRONT / FACE_A"
+    },
+    "M060": {
+      "quantity": 2,
+      "previous_nominal_mm": 6,
+      "new_nominal_mm": 12,
+      "preserve": "baffle inner ceiling",
+      "growth": "upward6 mm and outward side closure",
+      "machining_face": "TOP / FACE_A"
+    },
+    "M061": {
+      "quantity": 4,
+      "previous_nominal_mm": 6,
+      "new_nominal_mm": 12,
+      "preserve": "baffle inner side walls",
+      "growth": "outward6 mm each side",
+      "machining_face": "SIDE / FACE_A",
+      "one_face_rebate": {
+        "depth_mm": 3,
+        "height_mm": 32,
+        "width_mm": 36,
+        "minimum_finished_wall_mm": 9,
+        "quantity": 4,
+        "purpose": "Identical exterior lower-edge rebate preserves 2 mm clearance to existing passive lower door bolt body; no inside airway change"
+      }
+    },
+    "M066": {
+      "quantity": 2,
+      "previous_nominal_mm": 6,
+      "new_nominal_mm": 12,
+      "preserve": "door mounting plane,128x128 outline and105 mm hole pitch",
+      "growth": "rearward/exterior6 mm",
+      "hardware": "fastener length gains6 mm; purchased stack remains HOLD",
+      "machining_face": "EXTERIOR / FACE_A"
+    }
+  }
+}

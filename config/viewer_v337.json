@@ -1,0 +1,14 @@
+{
+  "version": "V33.7",
+  "authority": "TWO_STOCK_GENERIC_USER_MODULE_DESIGN_CANDIDATE",
+  "source_head": "c02f9b878f370441b2bc3e637a3030f681fe140a",
+  "viewer": "exports/generated/viewer-v32/index.html",
+  "builder": "tools/build_viewer_v337.py",
+  "validation": "exports/generated/two-stock-user-module-v337/validation.json",
+  "manual_json": "exports/generated/two-stock-user-module-v337/assembly-manual.json",
+  "manufacturing_register": "config/manufacturing/flatpack_v337.json",
+  "hardware_catalog": "config/hardware_catalog_v337.json",
+  "unrelated_geometry_unchanged": true,
+  "physical_qualification_complete": false,
+  "manufacturing_release": false
+}

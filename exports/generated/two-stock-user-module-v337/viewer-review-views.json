@@ -1,0 +1,38 @@
+[
+  {
+    "image": "viewer-variant-UNDERFRONT_OWNER.png",
+    "title": "Owner —5buttons +dualUSB"
+  },
+  {
+    "image": "viewer-variant-UNDERFRONT_BUTTON_ONLY.png",
+    "title": "Generic —6buttons"
+  },
+  {
+    "image": "viewer-variant-UNDERFRONT_BLANK.png",
+    "title": "Blank mechanical plate"
+  },
+  {
+    "image": "viewer-module-selection.png",
+    "title": "User plate metadata and hardware-dependent interface"
+  },
+  {
+    "image": "viewer-two-stock-exploded.png",
+    "title": "Two-stock detailed manufacturing inventory"
+  },
+  {
+    "image": "viewer-module-assembly.png",
+    "title": "Module assembly with actual blank plate"
+  },
+  {
+    "image": "viewer-module-removal.png",
+    "title": "Underfront plate removal; harness remains configurable"
+  },
+  {
+    "image": "viewer-packing.png",
+    "title": "Current two-stock flatpack packing"
+  },
+  {
+    "image": "viewer-tablet.png",
+    "title": "Tablet module controls — PT-BR Accessible"
+  }
+]

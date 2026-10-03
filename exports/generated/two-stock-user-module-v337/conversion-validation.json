@@ -1,0 +1,258 @@
+{
+  "checks": [
+    {
+      "name": "15 manufacturing members audited",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all finished members are valid single solids",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all unchanged CURRENT objects preserved",
+      "pass": true,
+      "detail": {
+        "method": "exact serialized B-rep equality; avoids invalid self-overlap Booleans on intentional compound reference envelopes",
+        "differences": []
+      }
+    },
+    {
+      "name": "conversions preserve all original wood or exact bezel",
+      "pass": true,
+      "detail": {
+        "RemovableIntakeFilterL": 0.0,
+        "RemovableIntakeFilterR": 0.0,
+        "BB_DisplayReplaceableBezel": null,
+        "BB_IntakeFilterFrameL": 0.0,
+        "BB_IntakeFilterFrameR": 0.0,
+        "BB_IntakeDownBaffleL": 0.0,
+        "BB_IntakeDownBaffleR": 0.0,
+        "BB_FanBlankL": 0.0,
+        "BB_FanBlankR": 0.0
+      }
+    },
+    {
+      "name": "all exact local-installed manufacturing roundtrips",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "baffles reconstruct exactly from four real12mm members",
+      "pass": true,
+      "detail": {
+        "BB_IntakeDownBaffleL": 0.0,
+        "BB_IntakeDownBaffleR": 0.0
+      }
+    },
+    {
+      "name": "baffle chamber and airflow unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all added installed wood clears every preserved shape including hardware reserves",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "input source bytes unchanged",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "parts": [],
+  "manufacturing_release": false,
+  "pass": true,
+  "source_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "source": "exports/generated/front-landings-v3363/play.FCStd",
+  "changes": {
+    "RemovableIntakeFilterL": {
+      "old_volume_mm3": 142525.40575977444,
+      "new_volume_mm3": 163000.81559604948,
+      "retained_12mm_land_area_mm2": 5118.852459068745,
+      "old_wood_removed_mm3": 0.0,
+      "old_mating_face_difference_mm2": 0.0,
+      "media_guard_minimum_gap_mm": 0.0,
+      "installed_lowest_z_mm": 6,
+      "floor_reference_z_mm": 0,
+      "service": "Remove four holder screws; filter/media/guard travel down80 mm. Fan mounting nuts remain in pass-through holes.",
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/RemovableIntakeFilterL.brep",
+      "before_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/RemovableIntakeFilterL-before.brep",
+      "volume_delta_mm3": 20475.409836275037,
+      "mass_delta_kg": 0.013309016393578775
+    },
+    "RemovableIntakeFilterR": {
+      "old_volume_mm3": 142525.40575977444,
+      "new_volume_mm3": 163000.8155960495,
+      "retained_12mm_land_area_mm2": 5118.852459068746,
+      "old_wood_removed_mm3": 0.0,
+      "old_mating_face_difference_mm2": 0.0,
+      "media_guard_minimum_gap_mm": 0.0,
+      "installed_lowest_z_mm": 6,
+      "floor_reference_z_mm": 0,
+      "service": "Remove four holder screws; filter/media/guard travel down80 mm. Fan mounting nuts remain in pass-through holes.",
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/RemovableIntakeFilterR.brep",
+      "before_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/RemovableIntakeFilterR-before.brep",
+      "volume_delta_mm3": 20475.409836275066,
+      "mass_delta_kg": 0.013309016393578794
+    },
+    "BB_DisplayReplaceableBezel": {
+      "old_volume_mm3": 365880.0,
+      "new_volume_mm3": 365880.0,
+      "finished_shape_difference_mm3": 0,
+      "protected_glass_gap_mm": 2.0,
+      "protected_display_gap_mm": 2.0,
+      "finished_web_mm": 6,
+      "nominal_stock_mm": 12,
+      "full_blank_facing_removal_mm3": 2029080,
+      "net_outline_facing_removal_mm3": 365880.0,
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_DisplayReplaceableBezel.brep",
+      "before_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_DisplayReplaceableBezel-before.brep",
+      "volume_delta_mm3": 0.0,
+      "mass_delta_kg": 0.0
+    },
+    "BB_IntakeFilterFrameL": {
+      "old_volume_mm3": 38400.0,
+      "new_volume_mm3": 76800.0,
+      "old_wood_removed_mm3": 0.0,
+      "aperture_mm": [
+        220,
+        80
+      ],
+      "mating_y_mm": 1322.1,
+      "rearward_growth_mm": 6,
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeFilterFrameL.brep",
+      "before_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeFilterFrameL-before.brep",
+      "volume_delta_mm3": 38400.0,
+      "mass_delta_kg": 0.02496
+    },
+    "BB_IntakeFilterFrameR": {
+      "old_volume_mm3": 38400.0,
+      "new_volume_mm3": 76800.0,
+      "old_wood_removed_mm3": 0.0,
+      "aperture_mm": [
+        220,
+        80
+      ],
+      "mating_y_mm": 1322.1,
+      "rearward_growth_mm": 6,
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeFilterFrameR.brep",
+      "before_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeFilterFrameR-before.brep",
+      "volume_delta_mm3": 38400.0,
+      "mass_delta_kg": 0.02496
+    },
+    "BB_IntakeDownBaffleL": {
+      "old_volume_mm3": 237215.99999999852,
+      "new_volume_mm3": 505248.0,
+      "old_wood_removed_mm3": 0.0,
+      "inner_chamber_mm": [
+        220,
+        36,
+        98
+      ],
+      "inner_chamber_volume_mm3": 776160.0,
+      "old_chamber_penetration_mm3": 0.0,
+      "new_chamber_penetration_mm3": 0.0,
+      "downward_mouth_before_mm2": 7920.0,
+      "downward_mouth_after_mm2": 7920.0,
+      "inlet_before_mm2": 17600.0,
+      "inlet_after_mm2": 17600.0,
+      "speaker_gap_mm": 3.099999999999909,
+      "passive_bolt_body_gap_mm": 2.0,
+      "side_member_rebate_mm": {
+        "depth": 3,
+        "height": 32,
+        "width": 36,
+        "remaining_wall": 9
+      },
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeDownBaffleL.brep",
+      "before_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeDownBaffleL-before.brep",
+      "volume_delta_mm3": 268032.0000000015,
+      "mass_delta_kg": 0.17422080000000098
+    },
+    "BB_IntakeDownBaffleR": {
+      "old_volume_mm3": 237215.99999999852,
+      "new_volume_mm3": 505248.0,
+      "old_wood_removed_mm3": 0.0,
+      "inner_chamber_mm": [
+        220,
+        36,
+        98
+      ],
+      "inner_chamber_volume_mm3": 776160.0,
+      "old_chamber_penetration_mm3": 0.0,
+      "new_chamber_penetration_mm3": 0.0,
+      "downward_mouth_before_mm2": 7920.0,
+      "downward_mouth_after_mm2": 7920.0,
+      "inlet_before_mm2": 17600.0,
+      "inlet_after_mm2": 17600.0,
+      "speaker_gap_mm": 3.099999999999909,
+      "passive_bolt_body_gap_mm": 77.02596964660685,
+      "side_member_rebate_mm": {
+        "depth": 3,
+        "height": 32,
+        "width": 36,
+        "remaining_wall": 9
+      },
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeDownBaffleR.brep",
+      "before_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeDownBaffleR-before.brep",
+      "volume_delta_mm3": 268032.0000000015,
+      "mass_delta_kg": 0.17422080000000098
+    },
+    "BB_FanBlankL": {
+      "old_volume_mm3": 97922.29649258884,
+      "new_volume_mm3": 195844.59298517767,
+      "old_wood_removed_mm3": 0.0,
+      "mating_y_mm": 1322.1,
+      "hole_pitch_mm": 105,
+      "outline_mm": [
+        128,
+        128
+      ],
+      "rearward_growth_mm": 6,
+      "selected_fastener_extra_stack_mm": 6,
+      "optional": true,
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_FanBlankL.brep",
+      "before_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_FanBlankL-before.brep",
+      "volume_delta_mm3": 97922.29649258884,
+      "mass_delta_kg": 0.06364949272018275
+    },
+    "BB_FanBlankR": {
+      "old_volume_mm3": 97922.29649258884,
+      "new_volume_mm3": 195844.59298517767,
+      "old_wood_removed_mm3": 0.0,
+      "mating_y_mm": 1322.1,
+      "hole_pitch_mm": 105,
+      "outline_mm": [
+        128,
+        128
+      ],
+      "rearward_growth_mm": 6,
+      "selected_fastener_extra_stack_mm": 6,
+      "optional": true,
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_FanBlankR.brep",
+      "before_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_FanBlankR-before.brep",
+      "volume_delta_mm3": 97922.29649258884,
+      "mass_delta_kg": 0.06364949272018275
+    }
+  },
+  "part_count": 15,
+  "stock_volume_gain_mm3": 849659.4126577307,
+  "mass_delta_kg": 0.552278618227525,
+  "conversion_sha256": "36194168f735ba3e7b253c53684e327269448313506b5a6c61024791d5363aab",
+  "promoted_breps": {
+    "RemovableIntakeFilterL": "exports/generated/two-stock-user-module-v337/conversion-brep/RemovableIntakeFilterL.brep",
+    "RemovableIntakeFilterR": "exports/generated/two-stock-user-module-v337/conversion-brep/RemovableIntakeFilterR.brep",
+    "BB_DisplayReplaceableBezel": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_DisplayReplaceableBezel.brep",
+    "BB_IntakeFilterFrameL": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeFilterFrameL.brep",
+    "BB_IntakeFilterFrameR": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeFilterFrameR.brep",
+    "BB_IntakeDownBaffleL": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeDownBaffleL.brep",
+    "BB_IntakeDownBaffleR": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_IntakeDownBaffleR.brep"
+  },
+  "optional_breps": {
+    "BB_FanBlankL": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_FanBlankL.brep",
+    "BB_FanBlankR": "exports/generated/two-stock-user-module-v337/conversion-brep/BB_FanBlankR.brep"
+  }
+}

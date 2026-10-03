@@ -1,0 +1,646 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "new floor and12mm plate each valid single solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bay and perimeter recess originate from existing underside FACE_A",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "module stays below structural shoulder with zero penetration",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "OWNER5_USB hardware and85/70mm rear service clear actual cabinet",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "OWNER5_USB rear hardware clears through aperture",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "OWNER5_USB100mm downward service sweep clears cabinet",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "OWNER5_USB withdrawal also clears machined floor",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "GENERIC6 hardware and85/70mm rear service clear actual cabinet",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "GENERIC6 rear hardware clears through aperture",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "GENERIC6100mm downward service sweep clears cabinet",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "GENERIC6 withdrawal also clears machined floor",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "FALLBACK4_USB hardware and85/70mm rear service clear actual cabinet",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "FALLBACK4_USB rear hardware clears through aperture",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "FALLBACK4_USB100mm downward service sweep clears cabinet",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "FALLBACK4_USB withdrawal also clears machined floor",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "6button nuts have4mm nominal minimum gap",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "generic flexibleharness loop reserve clear abovebay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "USB rear pocket reserve does not intersect adjacent device bore",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coin door0to110deg clears module andcontrol envelopes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "coin door continuous vertical separation",
+      "pass": true,
+      "detail": {
+        "door_z_min": 94.0,
+        "module_z_max": 93.0,
+        "clearance_mm": 1.0
+      }
+    },
+    {
+      "name": "flexibleloop remains behind whole outwardcoin sweep",
+      "pass": true,
+      "detail": {
+        "method": "Analytic rotating enclosing-box corner extrema over0..110deg about -Z",
+        "coin_sweep_Y_max_mm": 103.0,
+        "loop_Y_min_mm": 110,
+        "separation_mm": 7.0
+      }
+    },
+    {
+      "name": "five finger press approaches with70mm palm clear neighboring controls",
+      "pass": true,
+      "detail": [
+        {
+          "control": 1,
+          "pass": true,
+          "hits": []
+        },
+        {
+          "control": 2,
+          "pass": true,
+          "hits": []
+        },
+        {
+          "control": 3,
+          "pass": true,
+          "hits": []
+        },
+        {
+          "control": 4,
+          "pass": true,
+          "hits": []
+        },
+        {
+          "control": 5,
+          "pass": true,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "name": "four underside screwdrivers require no interior nut orplayfield access",
+      "pass": true,
+      "detail": [
+        {
+          "screw": 1,
+          "pass": true,
+          "hits": []
+        },
+        {
+          "screw": 2,
+          "pass": true,
+          "hits": []
+        },
+        {
+          "screw": 3,
+          "pass": true,
+          "hits": []
+        },
+        {
+          "screw": 4,
+          "pass": true,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "name": "USB plug hand corridor clears neighbors/cabinet",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "rearward cap0to120deg clears panel andneighbors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "controlfaces hidden in three standing-front sightline screens",
+      "pass": true,
+      "detail": [
+        {
+          "control": "Underfront_Button1_Face",
+          "eye": [
+            300.0,
+            -450.0,
+            1000.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button2_Face",
+          "eye": [
+            300.0,
+            -450.0,
+            1000.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button3_Face",
+          "eye": [
+            300.0,
+            -450.0,
+            1000.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button4_Face",
+          "eye": [
+            300.0,
+            -450.0,
+            1000.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button5_Face",
+          "eye": [
+            300.0,
+            -450.0,
+            1000.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_USBFlange",
+          "eye": [
+            300.0,
+            -450.0,
+            1000.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button1_Face",
+          "eye": [
+            180.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button2_Face",
+          "eye": [
+            180.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button3_Face",
+          "eye": [
+            180.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button4_Face",
+          "eye": [
+            180.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button5_Face",
+          "eye": [
+            180.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_USBFlange",
+          "eye": [
+            180.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button1_Face",
+          "eye": [
+            420.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button2_Face",
+          "eye": [
+            420.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button3_Face",
+          "eye": [
+            420.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button4_Face",
+          "eye": [
+            420.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_Button5_Face",
+          "eye": [
+            420.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        },
+        {
+          "control": "Underfront_USBFlange",
+          "eye": [
+            420.0,
+            -400.0,
+            900.0
+          ],
+          "occluded_by_front": true,
+          "closed_front_occluders": [
+            "CoinStudy_DoorLeaf"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "permanent front capture untouched andfullheightfrontweb>=44mm",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "exact only scopedfloor modification",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "source_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "native_sha256": "db90139b614b9d0534d56cf9122bba0cb4dedfd235a949867fae858bd52edd90",
+  "changed_existing": [
+    "FLOOR"
+  ],
+  "added_names": [
+    "Underfront_Plate",
+    "Underfront_Screw1",
+    "Underfront_Insert1",
+    "Underfront_Screw2",
+    "Underfront_Insert2",
+    "Underfront_Screw3",
+    "Underfront_Insert3",
+    "Underfront_Screw4",
+    "Underfront_Insert4",
+    "Underfront_HarnessLoopReserve",
+    "Underfront_Button1_Body",
+    "Underfront_Button1_Face",
+    "Underfront_Button1_Nut",
+    "Underfront_Button1_Switch",
+    "Underfront_Button1_WireReserve",
+    "Underfront_Button2_Body",
+    "Underfront_Button2_Face",
+    "Underfront_Button2_Nut",
+    "Underfront_Button2_Switch",
+    "Underfront_Button2_WireReserve",
+    "Underfront_Button3_Body",
+    "Underfront_Button3_Face",
+    "Underfront_Button3_Nut",
+    "Underfront_Button3_Switch",
+    "Underfront_Button3_WireReserve",
+    "Underfront_Button4_Body",
+    "Underfront_Button4_Face",
+    "Underfront_Button4_Nut",
+    "Underfront_Button4_Switch",
+    "Underfront_Button4_WireReserve",
+    "Underfront_Button5_Body",
+    "Underfront_Button5_Face",
+    "Underfront_Button5_Nut",
+    "Underfront_Button5_Switch",
+    "Underfront_Button5_WireReserve",
+    "Underfront_USBBody",
+    "Underfront_USBFlange",
+    "Underfront_USBNut",
+    "Underfront_USBCap",
+    "Underfront_USBCableReserve"
+  ],
+  "new_wood_names": [
+    "Underfront_Plate"
+  ],
+  "variant_only_names": [
+    "Underfront_Button6_Body",
+    "Underfront_Button6_Face",
+    "Underfront_Button6_Nut",
+    "Underfront_Button6_Switch",
+    "Underfront_Button6_WireReserve"
+  ],
+  "selected": {
+    "plate_size_mm": [
+      160,
+      116,
+      12
+    ],
+    "center_xy_mm": [
+      300,
+      110
+    ],
+    "plate_bounds_mm": [
+      220.0,
+      52.0,
+      8.0,
+      380.0,
+      168.0,
+      20.0
+    ],
+    "recess_bounds_mm": [
+      219.8,
+      51.8,
+      18.0,
+      380.20000000000005,
+      168.2,
+      20.0
+    ],
+    "through_aperture_bounds_mm": [
+      234.0,
+      66.0,
+      17.0,
+      366.0,
+      154.0,
+      37.0
+    ],
+    "recess_depth_mm": 2,
+    "remaining_shoulder_skin_mm": 16,
+    "aperture_fullheight_front_web_from_capture_mm": 44.0,
+    "recess_front_web_from_capture_mm": 29.799999999999997,
+    "pitch_mm": 42,
+    "physically_feasible_pitch_mm": 40,
+    "owner_buttons": 5,
+    "generic_buttons": 6,
+    "usb_rear_reserve_mm": 70
+  },
+  "recess_study": [
+    {
+      "depth_mm": 2,
+      "remaining_structural_skin_mm": 16,
+      "panel_projection_below_floor_mm": 10,
+      "selected": true,
+      "reason": "2mm positive location already sufficient; deeper recess removes more structuralskin without neededfunction"
+    },
+    {
+      "depth_mm": 3,
+      "remaining_structural_skin_mm": 15,
+      "panel_projection_below_floor_mm": 9,
+      "selected": false,
+      "reason": "2mm positive location already sufficient; deeper recess removes more structuralskin without neededfunction"
+    },
+    {
+      "depth_mm": 4,
+      "remaining_structural_skin_mm": 14,
+      "panel_projection_below_floor_mm": 8,
+      "selected": false,
+      "reason": "2mm positive location already sufficient; deeper recess removes more structuralskin without neededfunction"
+    }
+  ],
+  "nearest": {
+    "front": [
+      {
+        "part": "FRONT",
+        "distance_mm": 34.0,
+        "volume_mm3": 0
+      }
+    ],
+    "SW01": [
+      {
+        "part": "CandidateLegBlockFL",
+        "distance_mm": 156.83966240110604,
+        "volume_mm3": 0
+      },
+      {
+        "part": "CandidateLegBlockFR",
+        "distance_mm": 156.83966240110604,
+        "volume_mm3": 0
+      }
+    ],
+    "leg_hardware": [
+      {
+        "part": "CandidateLegPlateFL",
+        "distance_mm": 158.58597256041386,
+        "volume_mm3": 0
+      },
+      {
+        "part": "CandidateLegPlateFR",
+        "distance_mm": 158.58597256041386,
+        "volume_mm3": 0
+      }
+    ],
+    "M006": [
+      {
+        "part": "FLOOR_CLEAT_18",
+        "distance_mm": 172.0,
+        "volume_mm3": 0
+      },
+      {
+        "part": "FLOOR_CLEAT_552",
+        "distance_mm": 172.0,
+        "volume_mm3": 0
+      }
+    ],
+    "coin_tray": [
+      {
+        "part": "CoinStudy_TraySupport1",
+        "distance_mm": 19.0,
+        "volume_mm3": 0
+      }
+    ],
+    "landings": [
+      {
+        "part": "FrontLandingL_Layer1",
+        "distance_mm": 256.90797459964926,
+        "volume_mm3": 0
+      }
+    ],
+    "plunger": [
+      {
+        "part": "PLUNGER_RESERVED",
+        "distance_mm": 216.640254800441,
+        "volume_mm3": 0
+      }
+    ],
+    "side_buttons": [
+      {
+        "part": "ButtonWireServiceReserve_primary_L",
+        "distance_mm": 295.6801451047816,
+        "volume_mm3": 0
+      },
+      {
+        "part": "ButtonWireServiceReserve_primary_R",
+        "distance_mm": 295.6801451047816,
+        "volume_mm3": 0
+      }
+    ],
+    "S1": [
+      {
+        "part": "SHELF_1",
+        "distance_mm": 67.0,
+        "volume_mm3": 0
+      }
+    ],
+    "SSF": [
+      {
+        "part": "SSF_BST_Carrier",
+        "distance_mm": 16.1245154965971,
+        "volume_mm3": 0
+      }
+    ]
+  },
+  "floor_removed_volume_mm3": 222252.116520511,
+  "plate_volume_mm3": 221279.57513160614,
+  "device_holes_not_cut": true,
+  "manufacturing_release": false,
+  "physical_ergonomic_qualification": false,
+  "limits": [
+    "Representative finger/palm and three viewing points, not population ergonomic certification",
+    "Production leg length/groundclearance/kneegeometry remains hardwaredependent; controls do not descend below cabinet side/front loweredgeZ0",
+    "Hardware envelopeexample is not a purchasedSKU",
+    "Controlbody/plate andscrew/insert/uncutwood overlaps are intentional referenceinterfaces awaiting selectedbore",
+    "No electrical connector selected; cable250mm slack andbendradius must be verified in actualharness"
+  ]
+}

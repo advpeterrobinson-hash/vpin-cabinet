@@ -1,0 +1,112 @@
+{
+  "source_config": "config/underfront_user_module_v337.json",
+  "members": [
+    {
+      "instance_id": "P005-Main",
+      "manufacturing_part_id": "M005",
+      "source_component": "FLOOR",
+      "nominal_stock_thickness_mm": 18,
+      "finished_reference_thickness_mm": 18,
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        14.0,
+        0.0,
+        1.0,
+        0.0,
+        18.0,
+        0.0,
+        0.0,
+        1.0,
+        18.000000000000004,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "finished_member_brep": "exports/generated/two-stock-user-module-v337/brep/P005-Main-finished.brep",
+      "installed_member_brep": "exports/generated/two-stock-user-module-v337/brep/FLOOR.brep",
+      "machining_face": "FACE_A",
+      "face_A_outward_world": [
+        0,
+        0,
+        -1
+      ],
+      "operations_added": [
+        {
+          "group": "CUT",
+          "id": "bay",
+          "face": "FACE_A",
+          "depth_mm": 18,
+          "brep": "exports/generated/two-stock-user-module-v337/brep/P005-Main-bay.brep"
+        },
+        {
+          "group": "POCKET",
+          "id": "locating-shoulder",
+          "face": "FACE_A",
+          "depth_mm": 2,
+          "brep": "exports/generated/two-stock-user-module-v337/brep/P005-Main-locating-shoulder.brep"
+        }
+      ],
+      "attachment_interfaces": "REFERENCE_ONLY / PURCHASE_BEFORE_CNC / guided manual pilot fromsameFACE_A datum",
+      "device_bores": null,
+      "quantity": 1,
+      "optional_variant_not_extra_piece": false
+    },
+    {
+      "instance_id": "P097-Main",
+      "manufacturing_part_id": "M074",
+      "source_component": "Underfront_Plate",
+      "nominal_stock_thickness_mm": 12,
+      "finished_reference_thickness_mm": 12,
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        220.0,
+        0.0,
+        -1.0,
+        0.0,
+        168.0,
+        0.0,
+        0.0,
+        -1.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "finished_member_brep": "exports/generated/two-stock-user-module-v337/brep/P097-Main-finished.brep",
+      "installed_member_brep": "exports/generated/two-stock-user-module-v337/brep/Underfront_Plate.brep",
+      "machining_face": "FACE_A",
+      "face_A_outward_world": [
+        0,
+        0,
+        1
+      ],
+      "operations_added": [
+        {
+          "group": "CUT",
+          "id": "strain-slot1",
+          "face": "FACE_A",
+          "depth_mm": 12,
+          "brep": "exports/generated/two-stock-user-module-v337/brep/P097-Main-strain-slot1.brep"
+        },
+        {
+          "group": "CUT",
+          "id": "strain-slot2",
+          "face": "FACE_A",
+          "depth_mm": 12,
+          "brep": "exports/generated/two-stock-user-module-v337/brep/P097-Main-strain-slot2.brep"
+        }
+      ],
+      "attachment_interfaces": "REFERENCE_ONLY / PURCHASE_BEFORE_CNC / guided manual pilot fromsameFACE_A datum",
+      "device_bores": null,
+      "quantity": 1,
+      "optional_variant_not_extra_piece": true
+    }
+  ],
+  "manufacturing_release": false
+}

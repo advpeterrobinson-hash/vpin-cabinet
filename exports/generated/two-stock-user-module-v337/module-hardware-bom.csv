@@ -1,0 +1,5 @@
+id,description_en,description_pt_BR,quantity,quantity_status,flatpack_classification,freeze_status
+F62,"Underfront removable-plate machine screw, M4 family","Parafuso de máquina da placa removível sob a frente, família M4",4,EXACT_FROM_FOUR_DESIGN_INTERFACES,REQUIRED_FLATPACK_HARDWARE,PURCHASE_BEFORE_CNC
+I19,"Underfront blind metal captive insert, M4 family","Inserto metálico cativo cego sob a frente, família M4",4,EXACT_FROM_FOUR_DESIGN_INTERFACES,REQUIRED_FLATPACK_HARDWARE,PURCHASE_BEFORE_CNC
+E15,Optional programmable underfront arcade button with microswitch,Botão arcade programável opcional sob a frente com microinterruptor,,USER_SELECTED_MUTUALLY_EXCLUSIVE_VARIANT,USER_ADAPTER_HARDWARE,PURCHASE_BEFORE_CNC
+E16,Optional dual USB panel extension,Extensão USB dupla opcional para painel,,USER_SELECTED_MUTUALLY_EXCLUSIVE_VARIANT,USER_ADAPTER_HARDWARE,PURCHASE_BEFORE_CNC

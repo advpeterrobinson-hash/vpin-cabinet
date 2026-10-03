@@ -1,0 +1,81 @@
+{
+  "version": "V33.7",
+  "production_authorized": false,
+  "method": "Previous exact unchanged metrics plus freshly audited changed B-reps; established deterministic rectangle packing with actual contour overlays.",
+  "sources": [
+    {
+      "path": "tools/build_two_stock_v337_metrics.py",
+      "sha256": "ed0cdb66d975441c39b9f0dcf84ef05058bf8277cc31722d55db6d66c438cf6e"
+    },
+    {
+      "path": "tools/build_solid_leg_metrics_v334.py",
+      "sha256": "283038464d83dc5261e3d899d4a1a1470c93d634cd02056d50196243848ee5ac"
+    },
+    {
+      "path": "tools/validate_plywood_stock_v337.py",
+      "sha256": "6a2c95d65fedeff3f786ed4434ba714cef7c4427d7a0f3697584016f87bd5d33"
+    },
+    {
+      "path": "config/packaging_v337.json",
+      "sha256": "03218707f15344b3d7de6f59c65b2f30c1c626b468ee3dc3954da64ccf776fa3"
+    },
+    {
+      "path": "exports/generated/two-stock-user-module-v337/stock-policy-negative-control.json",
+      "sha256": "626e231a01f3847290f650c34d61bd7970ec48286605f13b7ae6c2fd51782e1d"
+    },
+    {
+      "path": "exports/generated/two-stock-user-module-v337/manufacturing-audit.json",
+      "sha256": "8d1d4a69d5df8f0453d83b3df3dee2f46a4f65a4cfdb4537aa8127dde181f64f"
+    },
+    {
+      "path": "exports/generated/two-stock-user-module-v337/geometry-validation.json",
+      "sha256": "8ece68ab9f14e5f0707fc0bf73d34766d19cc1e3d8613dabd0a4e2dededaa00e"
+    },
+    {
+      "path": "config/underfront_user_module_v337.json",
+      "sha256": "5da822f69e5a4930625a4f2ed47adfba75d210f5c791a3dd9d911af46fda745b"
+    },
+    {
+      "path": "config/manufacturing/stock_policy_v337.json",
+      "sha256": "b098bafada95dc2f160fbda7f90615952d8bc1fe055cc4f65ee603982a41c50a"
+    },
+    {
+      "path": "exports/generated/front-landings-v3363/manufacturing-register.json",
+      "sha256": "9d3ffcf15b2d9c4ae540aca88413dbe10ef18a530c06fa4b84b10b4330126144"
+    },
+    {
+      "path": "exports/generated/front-landings-v3363/packing-metrics.json",
+      "sha256": "5f7d2954528cad5b6e3ac9baec8023877ae373beb0f900c671a4419e2e3701db"
+    },
+    {
+      "path": "exports/generated/two-stock-user-module-v337/manufacturing-register.json",
+      "sha256": "1a0d49c8761092e2b40ce613c2c2e6a2add242836433c94f7af312690310ba46"
+    },
+    {
+      "path": "exports/generated/two-stock-user-module-v337/changed-piece-metrics.json",
+      "sha256": "fb1d2a7c2a66b337c55e55b77843dd93ee22db2a73889438574b6bb58a235246"
+    },
+    {
+      "path": "exports/generated/two-stock-user-module-v337/assembly-manual.json",
+      "sha256": "bd31b194e094d561759b494f10efc6fd97741b7d7e6c3d8ec51cf1013563f0eb"
+    },
+    {
+      "path": "config/hardware_catalog_v337.json",
+      "sha256": "370d0288caa3de9a91d86950303f0fd5f1c3d4844d6fbeaf851d823f4b478b47"
+    },
+    {
+      "path": "config/assembly_planning_v333.json",
+      "sha256": "9a8c6347660ecef2aae9913b2051edbcf698e65430888142fe31227af8edb89f"
+    },
+    {
+      "path": "config/solid_leg_blocks_v334.json",
+      "sha256": "a6c4ab3634ab0805c87881e0da769f3e53039b0a259ac8b081ef7f0adf0f0395"
+    },
+    {
+      "path": "config/manufacturing/profiles/peter_supplier_v1.json",
+      "sha256": "5d3cce0adde7e0e791a8b7a389d3aef48b5ae62cda7adfa74c75074f3bea8ba3"
+    }
+  ],
+  "no_geometry_modification_by_accounting": true,
+  "no_G_code": true
+}

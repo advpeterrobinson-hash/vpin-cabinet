@@ -1,0 +1,179 @@
+{
+  "variants": [
+    {
+      "id": "UNDERFRONT_OWNER",
+      "names": {
+        "en": "Owner \u20145buttons +dualUSB",
+        "pt-BR": "Propriet\u00e1rio \u20145bot\u00f5es +USB duplo"
+      },
+      "object_names": [
+        "Underfront_Button1_Body",
+        "Underfront_Button1_Face",
+        "Underfront_Button1_Nut",
+        "Underfront_Button1_Switch",
+        "Underfront_Button1_WireReserve",
+        "Underfront_Button2_Body",
+        "Underfront_Button2_Face",
+        "Underfront_Button2_Nut",
+        "Underfront_Button2_Switch",
+        "Underfront_Button2_WireReserve",
+        "Underfront_Button3_Body",
+        "Underfront_Button3_Face",
+        "Underfront_Button3_Nut",
+        "Underfront_Button3_Switch",
+        "Underfront_Button3_WireReserve",
+        "Underfront_Button4_Body",
+        "Underfront_Button4_Face",
+        "Underfront_Button4_Nut",
+        "Underfront_Button4_Switch",
+        "Underfront_Button4_WireReserve",
+        "Underfront_Button5_Body",
+        "Underfront_Button5_Face",
+        "Underfront_Button5_Nut",
+        "Underfront_Button5_Switch",
+        "Underfront_Button5_WireReserve",
+        "Underfront_USBBody",
+        "Underfront_USBFlange",
+        "Underfront_USBNut",
+        "Underfront_USBCap",
+        "Underfront_USBCableReserve"
+      ],
+      "status": "HARDWARE_PENDING"
+    },
+    {
+      "id": "UNDERFRONT_BUTTON_ONLY",
+      "names": {
+        "en": "Generic \u20146buttons",
+        "pt-BR": "Gen\u00e9rico \u20146bot\u00f5es"
+      },
+      "object_names": [
+        "Underfront_Button1_Body",
+        "Underfront_Button1_Face",
+        "Underfront_Button1_Nut",
+        "Underfront_Button1_Switch",
+        "Underfront_Button1_WireReserve",
+        "Underfront_Button2_Body",
+        "Underfront_Button2_Face",
+        "Underfront_Button2_Nut",
+        "Underfront_Button2_Switch",
+        "Underfront_Button2_WireReserve",
+        "Underfront_Button3_Body",
+        "Underfront_Button3_Face",
+        "Underfront_Button3_Nut",
+        "Underfront_Button3_Switch",
+        "Underfront_Button3_WireReserve",
+        "Underfront_Button4_Body",
+        "Underfront_Button4_Face",
+        "Underfront_Button4_Nut",
+        "Underfront_Button4_Switch",
+        "Underfront_Button4_WireReserve",
+        "Underfront_Button5_Body",
+        "Underfront_Button5_Face",
+        "Underfront_Button5_Nut",
+        "Underfront_Button5_Switch",
+        "Underfront_Button5_WireReserve",
+        "Underfront_Button6_Body",
+        "Underfront_Button6_Face",
+        "Underfront_Button6_Nut",
+        "Underfront_Button6_Switch",
+        "Underfront_Button6_WireReserve"
+      ],
+      "status": "HARDWARE_PENDING"
+    },
+    {
+      "id": "UNDERFRONT_BLANK",
+      "names": {
+        "en": "Blank mechanical plate",
+        "pt-BR": "Placa mec\u00e2nica sem controles"
+      },
+      "object_names": [],
+      "status": "MECHANICAL_FLATPACK_DEFAULT"
+    }
+  ],
+  "default_variant": "UNDERFRONT_OWNER",
+  "common_names": [
+    "Underfront_Plate",
+    "Underfront_Screw1",
+    "Underfront_Insert1",
+    "Underfront_Screw2",
+    "Underfront_Insert2",
+    "Underfront_Screw3",
+    "Underfront_Insert3",
+    "Underfront_Screw4",
+    "Underfront_Insert4",
+    "Underfront_HarnessLoopReserve"
+  ],
+  "removable_names": [
+    "Underfront_Plate",
+    "Underfront_Button1_Body",
+    "Underfront_Button1_Face",
+    "Underfront_Button1_Nut",
+    "Underfront_Button1_Switch",
+    "Underfront_Button1_WireReserve",
+    "Underfront_Button2_Body",
+    "Underfront_Button2_Face",
+    "Underfront_Button2_Nut",
+    "Underfront_Button2_Switch",
+    "Underfront_Button2_WireReserve",
+    "Underfront_Button3_Body",
+    "Underfront_Button3_Face",
+    "Underfront_Button3_Nut",
+    "Underfront_Button3_Switch",
+    "Underfront_Button3_WireReserve",
+    "Underfront_Button4_Body",
+    "Underfront_Button4_Face",
+    "Underfront_Button4_Nut",
+    "Underfront_Button4_Switch",
+    "Underfront_Button4_WireReserve",
+    "Underfront_Button5_Body",
+    "Underfront_Button5_Face",
+    "Underfront_Button5_Nut",
+    "Underfront_Button5_Switch",
+    "Underfront_Button5_WireReserve",
+    "Underfront_USBBody",
+    "Underfront_USBFlange",
+    "Underfront_USBNut",
+    "Underfront_USBCap",
+    "Underfront_USBCableReserve",
+    "Underfront_Button6_Body",
+    "Underfront_Button6_Face",
+    "Underfront_Button6_Nut",
+    "Underfront_Button6_Switch",
+    "Underfront_Button6_WireReserve"
+  ],
+  "removal_vector_mm": [
+    0,
+    0,
+    -100
+  ],
+  "rigid_removal_validated": true,
+  "variant_native_file": "exports/generated/two-stock-user-module-v337/modulevariants.FCStd",
+  "variant_only_names": [
+    "Underfront_Button6_Body",
+    "Underfront_Button6_Face",
+    "Underfront_Button6_Nut",
+    "Underfront_Button6_Switch",
+    "Underfront_Button6_WireReserve"
+  ],
+  "fixed_names": [
+    "FLOOR",
+    "Underfront_HarnessLoopReserve",
+    "Underfront_Insert1",
+    "Underfront_Insert2",
+    "Underfront_Insert3",
+    "Underfront_Insert4"
+  ],
+  "screw_names": [
+    "Underfront_Screw1",
+    "Underfront_Screw2",
+    "Underfront_Screw3",
+    "Underfront_Screw4"
+  ],
+  "final_interface_status": {
+    "button_bore_mm": null,
+    "usb_cutout": null,
+    "attachment_bore_mm": null,
+    "status": "PURCHASE_BEFORE_CNC"
+  },
+  "harness": "Builder-selected disconnect,250mm minimum planning service slack in60x44x60mm loopreserve,2module-side strain slots; remove4screws,lower100mm,disconnectforbenchservice. Flexible wire trajectory is envelope-screened, not a cablebend certification."
+}

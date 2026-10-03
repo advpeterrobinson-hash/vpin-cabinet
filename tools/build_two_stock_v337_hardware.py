@@ -1,0 +1,48 @@
+"""Append-only V33.7 underfront hardware overlay. CERN-OHL-S-2.0.
+Exact architecture counts; nominal envelopes are not selected hardware/CNC bores.
+"""
+from pathlib import Path
+import json,copy,hashlib,csv
+R=Path(__file__).resolve().parents[1];O=R/'exports/generated/two-stock-user-module-v337'
+def read(p):return json.loads((R/p).read_text())
+def dump(p,v):(R/p).write_text(json.dumps(v,indent=2,ensure_ascii=False)+'\n')
+C=read('config/underfront_user_module_v337.json');G=read(str(O.relative_to(R))+'/geometry-validation.json');V=read(str(O.relative_to(R))+'/module-validation.json')
+assert G['pass'] and V['pass'] and not G['manufacturing_release']
+cat=read('config/hardware_catalog_v3363.json');old=copy.deepcopy(cat['hardware']);assert len(old)==162
+prefix=str(O.relative_to(R))+'/'
+new=[];mapping={};centers=[[C['module']['center_xy_mm'][0]+xy[0],C['module']['center_xy_mm'][1]+xy[1]] for xy in C['module']['attachment_offsets_xy_mm']]
+base={'assembly_stage':'07','parent_assembly':'underfront_user_module','unit':'piece','dimensional_authority':'PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED','freeze_status':'PURCHASE_BEFORE_CNC','design_status':'PROVISIONAL','measurement_required':True,'controls_permanent_cnc':True,'source':['config/underfront_user_module_v337.json',prefix+'module-validation.json'],'source_license':'CERN-OHL-S-2.0 original simplified envelope; external citations only, no vendor CAD copied','supplier':None,'price_BRL':None,'service_removable':True,'normal_assembly_removable':True,'installed_coordinate_status':'REFERENCE_AXIS_NOT_DRILLING_RELEASE','measurement_fields':{'selected_manufacturer_part':None,'actual_dimensions_mm':None,'thread_standard_and_pitch':None,'pilot_or_cutout_mm':None,'installed_stack_and_engagement_mm':None,'drive_and_size':None,'physical_fit_approved':False}}
+for id,en,pt,kind,dims,z,tool in [
+ ('F62','Underfront removable-plate machine screw, M4 family','Parafuso de máquina da placa removível sob a frente, família M4','Screw',{'thread_family':'M4','underhead_reference_mm':20,'head_family':'button/pan; purchased drive pending'},8,'selected screw drive; exact bit remains hardware-dependent'),
+ ('I19','Underfront blind metal captive insert, M4 family','Inserto metálico cativo cego sob a frente, família M4','Insert',{'thread_family':'M4','outer_diameter_reference_mm':8,'length_reference_mm':10},20,'selected insert driver, qualified locator template and depth stop')]:
+ h=copy.deepcopy(base);h.update(id=id,description_en=en,description_pt_BR=pt,quantity=4,quantity_status='EXACT_FROM_FOUR_DESIGN_INTERFACES',flatpack_classification='REQUIRED_FLATPACK_HARDWARE',material='steel / selected material and finish pending',nominal_dimensions=dims,tool_family=tool,instances=[],notes='Four independent module attachments. No washer is counted. Reference hardware is unselected; floor receiver and plate clearance holes remain uncut mandatory interface holds. Qualify actual stack, engagement, drill-point depth and remaining floor skin before machining.')
+ for i,(x,y) in enumerate(centers,1):
+  name=f'Underfront_{kind}{i}';assert name in V['added_names'];mapping[name]=id
+  h['instances'].append({'object':name,'coordinate_xyz_mm':[x,y,z],'coordinate_meaning':'nominal attachment-axis entry; not a final drilling datum','installation_direction':[0,0,1],'direction_status':'UNDERSIDE_SERVICE_APPROACH_VALIDATED_REFERENCE','source':prefix+'play.FCStd','mirrored_pair':True})
+ h['model']={'strategy':'ORIGINAL_SIMPLIFIED_REFERENCE_ENVELOPE','path':prefix+'play.FCStd','detailed_threads':False}
+ h['measurement_fields'].update(blind_drill_depth_mm=None,drill_point_allowance_mm=None,remaining_floor_skin_mm=None)
+ new.append(h)
+for id,en,pt,countfield,objects in [
+ ('E15','Optional programmable underfront arcade button with microswitch','Botão arcade programável opcional sob a frente com microinterruptor','button_count',[n for n in V['added_names']+V['variant_only_names'] if n.startswith('Underfront_Button') and not n.endswith('WireReserve')]),
+ ('E16','Optional dual USB panel extension','Extensão USB dupla opcional para painel','dual_usb',[n for n in V['added_names'] if n.startswith('Underfront_USB') and n!='Underfront_USBCableReserve'])]:
+ h=copy.deepcopy(base);h.update(id=id,description_en=en,description_pt_BR=pt,quantity=None,quantity_status='USER_SELECTED_MUTUALLY_EXCLUSIVE_VARIANT',flatpack_classification='USER_ADAPTER_HARDWARE',material='selected device materials pending',nominal_dimensions=copy.deepcopy(C['button' if id=='E15' else 'usb']),tool_family='purchased mounting nut tool; actual geometry pending',instances=[],notes='Not required to assemble the mechanical flatpack. Blank/default mechanical state requires zero devices. Counts are per selected variant, not additive; no fixed function is assigned. Final device bores/cutouts are null and no device mounting hole is cut into the current plate.')
+ h['quantity_by_variant']={v['id']:int(v[countfield]) for v in C['variants']};h['controls_permanent_cnc']=False;h['controls_replaceable_adapter_cnc']=True
+ h['model']={'strategy':'REFERENCE_ENVELOPE_ONLY','path':prefix+'play.FCStd','alternative_path':prefix+'modulevariants.FCStd','detailed_threads':False,'visual_subparts_are_not_additional_purchased_items':True}
+ if id=='E15':h['source'].append(C['button']['source'])
+ else:h['measurement_fields'].update(threaded_length_mm=None,compatibility_with_12mm_plate=None,required_rear_pocket_mm=None,final_cutout_diameter_mm=None)
+ for name in objects:mapping[name]=id;h['instances'].append({'object':name,'coordinate_xyz_mm':None,'coordinate_meaning':'view nominal object; final adapter location awaits purchased controls','installation_direction':[0,0,1],'source':prefix+'play.FCStd' if name in V['added_names'] else prefix+'modulevariants.FCStd','mirrored_pair':False})
+ new.append(h)
+cat.update(version='V33.7',source_head=C['head_before'],manufacturing_ready=False,authority='V33.7 two-stock and removable user-module design; old hardware rows preserved with explicit stack review overlay; purchased hardware and machining remain held');cat['hardware']=old+new;cat['object_to_id'].update(mapping)
+assert cat['hardware'][:162]==old and len(cat['hardware'])==166
+cat['v337_authority']={'previous_catalog':'config/hardware_catalog_v3363.json','append_only_ids':[h['id'] for h in new],'source_native_sha256':hashlib.sha256((O/'play.FCStd').read_bytes()).hexdigest(),'quantity_rule':'Four screws and four inserts required; zero mandatory electronics; controls/USB vary by mutually exclusive user plate variant','all_prior_entries_unchanged':162,'final_device_bores':None,'custom_metal_added':0}
+cat['v337_interface_review']=[
+ {'hardware_id':'F12','affected_manufacturing_families':['M028'],'status':'EXISTING_REFERENCE_STACK_PRESERVED','reason':'Four underside4 mm head recesses and service pocket retain original8 mm media/guard/screw stack despite nominal12 stock; purchased screw qualification remains.'},
+ {'hardware_id':'F21','affected_manufacturing_families':['M066'],'status':'PURCHASE_BEFORE_CNC / RESELECT_LENGTH','stack_change_mm':6,'final_length_mm':None,'reason':'Optional blank station is now12 mm versus6 mm finished thickness; no purchased bolt length was frozen.'},
+ {'hardware_id':'F22','affected_manufacturing_families':['M058','M059','M060','M061'],'status':'PURCHASE_BEFORE_CNC / RESELECT_STACK_AND_FIXINGS','frame_stack_change_mm':6,'final_length_mm':None,'quantity':None,'reason':'Frame and baffle members use12 mm stock; final fixing pattern/count and engagement remain hardware-dependent. No guessed fixings added.'}]
+dump('config/hardware_catalog_v337.json',cat)
+closure=read('exports/generated/front-landings-v3363/hardware-quantity-closure.json');closure['version']='V33.7';closure['rows'] += [{'id':h['id'],'classification':'EXACT_FROM_DESIGN' if h['quantity'] is not None else 'USER_VARIANT_QUANTITY','quantity':h['quantity'],'quantity_by_variant':h.get('quantity_by_variant'),'source':'config/underfront_user_module_v337.json','hardware_status':'PURCHASE_BEFORE_CNC'} for h in new]
+dump(prefix+'hardware-quantity-closure.json',closure);dump(prefix+'module-hardware-map.json',mapping);dump(prefix+'module-hardware-bom.json',{'version':'V33.7','manufacturing_release':False,'hardware':new,'existing_catalog_entries_unchanged':162})
+with (O/'module-hardware-bom.csv').open('w') as f:
+ keys=['id','description_en','description_pt_BR','quantity','quantity_status','flatpack_classification','freeze_status'];w=csv.DictWriter(f,fieldnames=keys);w.writeheader();w.writerows({k:h[k] for k in keys} for h in new)
+(O/'module-hardware-status.md').write_text('# V33.7 underfront hardware\n\nF62 ×4 and I19 ×4 are required mechanical attachments, both PURCHASE_BEFORE_CNC. The old162 catalog families and their unresolved counts are unchanged. There are no extra washers or custom metal parts.\n\nE15 and E16 are USER_ADAPTER_HARDWARE: owner layout5 buttons +1 dual USB; generic layout6 buttons; blank mechanical plate0 devices. Do not add the alternative variants together. No volume/mode/pairing function is permanently assigned.\n\nThe button manufacturer drawing is a reference example, not a selected part. The USB reference has conflicting seller cutout dimensions and unverified12 mm threaded-stack compatibility. Final button/USB cuts and any rear USB pocket remain null. Physical parts, a qualified locator/template, actual stock, depth-stop coupon, insert pilot/skin and clamping engagement must be confirmed before machining.\n\nNo vendor CAD is imported. Original simplified reference envelopes retain CERN-OHL-S-2.0; external source documents retain their own copyright.\n')
+print('V337_HARDWARE_PASS',len(cat['hardware']),len(new))

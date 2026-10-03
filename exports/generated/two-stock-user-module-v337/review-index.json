@@ -1,0 +1,146 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "Previous front / underside \u2014 historical intent",
+    "note": "The historical under-front controls were an unresolved service intent. This is the actual previous cabinet B-rep; no historical drilled centers are invented. Accepted side leaf-button centers and front structure remain protected.",
+    "native_cad": true
+  },
+  {
+    "image": "02-review.png",
+    "title": "Placement search \u2014 actual cabinet constraints",
+    "note": "Computed candidate centers are overlaid on the native floor. Green dots pass the search screen; rust dots fail. Final exact B-rep, service, hand and tool tests govern the selected location. Points are search metadata, not new holes.",
+    "native_cad": true
+  },
+  {
+    "image": "03-review.png",
+    "title": "Generic six-button variant",
+    "note": "Six ordinary arcade microswitch buttons; 42 mm cell pitch and 4 mm minimum nominal nut-envelope gap. \u00d828\u201330 mm hole class is reference only. Final purchased button bores are not cut into the blank CNC plate.",
+    "native_cad": true
+  },
+  {
+    "image": "04-review.png",
+    "title": "Owner configuration \u2014 five buttons + dual USB",
+    "note": "Owner controls are removable user adapters. Button functions are configurable; there are no permanent function labels. USB seller dimensions conflict and are not machining authority. Default mechanical flatpack can use the same blank plate without electronics.",
+    "native_cad": true
+  },
+  {
+    "image": "05-review.png",
+    "title": "Fallback \u2014 four buttons + dual USB",
+    "note": "Fallback study remains available if the purchased USB connector or cap needs more space. It uses the same removable plate and permanent cabinet bay; it is not an extra mandatory flatpack part. Exact electrical interface remains user-configurable.",
+    "native_cad": true
+  },
+  {
+    "image": "06-review.png",
+    "title": "Removable plate \u2014 underside and FACE A",
+    "note": "Only the two generic strain-relief slots are current plate CNC geometry. Device bores and four attachment interfaces remain purchased-hardware references. FACE B receives no CNC; use hidden-face labels rather than visible engraving.",
+    "native_cad": true
+  },
+  {
+    "image": "07-review.png",
+    "title": "Player reach \u2014 under-front approach",
+    "note": "Actual swept palm/finger reserve clears the cabinet and neighboring controls for each of five owner buttons. Three standing-front sightline screens keep the controls hidden. Physical reach, clothing clearance and comfort still require owner trial; this is not ergonomic certification.",
+    "native_cad": true
+  },
+  {
+    "image": "08-review.png",
+    "title": "USB depth, cap and flexible service reserve",
+    "note": "The cap sweep and hand/plug corridors are native study geometry. USB compatibility with a 12 mm plate is unverified; a later one-face pocket is supported but its depth is not frozen. A flexible harness reserve provides service slack; no electrical connector architecture is mandated.",
+    "native_cad": true
+  },
+  {
+    "image": "09-review.png",
+    "title": "Floor shoulder \u2014 one-face 2 mm recess",
+    "note": "The selected 2 mm recess locates the plate while preserving more floor material than the 3/4 mm alternatives. The 132 \u00d7 88 mm through bay and recess are both cut from the existing underside FACE A. Fit clearance remains measured-thickness and coupon dependent.",
+    "native_cad": true
+  },
+  {
+    "image": "10-review.png",
+    "title": "Four underside attachments \u2014 ordinary tool access",
+    "note": "Four provisional M4 screw/metal-insert interfaces are reached from below; no loose interior nut or playfield removal is needed. Hole size, insert OD/length, head seat and purchased screw stack remain HOLD. The cabinet wood is not released with assumed bores.",
+    "native_cad": true
+  },
+  {
+    "image": "11-review.png",
+    "title": "Module exploded \u2014 remove from below",
+    "note": "Exploded offsets explain the parts; they are not a physical insertion certificate. The separate service proof verifies 100 mm downward rigid withdrawal and a flexible harness slack reserve. Do not pull fixed wiring or choose an electrical disconnect here.",
+    "native_cad": true
+  },
+  {
+    "image": "12-review.png",
+    "title": "Coin door \u2014 110\u00b0 service state",
+    "note": "Coin door sweep is validated 0\u2013110\u00b0. The control envelopes remain below the moving door by at least 1 mm in the current planning geometry; the harness loop stays behind the outward sweep. Physical hinge and latch choices remain provisional.",
+    "native_cad": true
+  },
+  {
+    "image": "13-review.png",
+    "title": "Playfield landings \u2014 unchanged protected mechanism",
+    "note": "The V33.6.3 side landings, adjusters, captive retainers, front relief, side buttons and accepted playfield pose remain unchanged. Module/cable reserves are checked against playfield service, lift-out and landing tool access; no support hardware is relocated.",
+    "native_cad": true
+  },
+  {
+    "image": "14-review.png",
+    "title": "SW01 leg blocks \u2014 solid wood remains separate",
+    "note": "Four SW01 shop-made solid-wood leg blocks remain outside the plywood stock-family count. They are not relabelled as 12 or 18 mm plywood. Front leg hardware, floor cleats and lockdown/coin interfaces retain their current geometry.",
+    "native_cad": true
+  },
+  {
+    "image": "15-review.png",
+    "title": "M028 floor filters \u2014 8 mm to 12 mm stock",
+    "note": "R86 \u00d7 4 mm service pocket preserves media, rotated guard and fan hardware; four R7 recesses preserve screw heads. Each holder retains 5118.85 mm\u00b2 of 12 mm lands. The exact continuous 80 mm downward filter-service sweep passes. All cuts enter underside FACE A.",
+    "native_cad": true
+  },
+  {
+    "image": "16-review.png",
+    "title": "M045 bezel \u2014 explicit faced-stock exception",
+    "note": "Nominal stock is 12 mm; finished bezel remains 6 mm to preserve both 2 mm clearances. This full-face reduction is explicit, not a hidden third stock family. FACE A is the rear; no glass, display, visible front plane or carrier datum moves.",
+    "native_cad": true
+  },
+  {
+    "image": "17-review.png",
+    "title": "M058 intake frames \u2014 preserve mating plane",
+    "note": "Frames grow only rearward. The door mating plane and mesh aperture remain exact; a continuous 80 mm rearward removal corridor passes. Selected fastener length must include 6 mm additional stack. No unselected screw head is silently relocated.",
+    "native_cad": true
+  },
+  {
+    "image": "18-review.png",
+    "title": "M059 / M060 / M061 \u2014 four real baffle pieces",
+    "note": "Outside growth uses 12 mm stock. All four side members share a 3 mm deep \u00d7 32 mm high exterior lower-edge rebate, leaving 9 mm local wall and 12 mm upper wall. This preserves 2 mm clearance to the existing passive bolt. Exact four-member union difference:0 mm\u00b3.",
+    "native_cad": true
+  },
+  {
+    "image": "19-review.png",
+    "title": "Airflow geometry \u2014 unchanged inner throat",
+    "note": "Both baffles preserve the 220 \u00d7 36 \u00d7 98 mm inner chamber (776160 mm\u00b3 each). Inlet and outlet areas are unchanged; no cable opening is counted as intake. Dust protection and cleaning access remain. This geometric screen is not a thermal/pressure-loss certification.",
+    "native_cad": true
+  },
+  {
+    "image": "20-review.png",
+    "title": "M066 fan blank \u2014 same station, 12 mm stock",
+    "note": "128 \u00d7 128 mm outline, 105 mm mounting pitch and door mating plane remain exact. Extra 6 mm lies outside the door. Blank and fan/guard/mesh are mutually exclusive states; fastener length is a purchased-hardware hold. Optional blanks are not installed over fans.",
+    "native_cad": true
+  },
+  {
+    "image": "21-review.png",
+    "title": "Actual manufacturing pieces \u2014 two plywood stocks",
+    "note": "Every shape is a real finished manufacturing B-rep from the current register. This identification layout is not nesting or CAM. Nominal 12/18 mm stock may retain local pockets or faced webs. Four SW01 solid-wood blocks are counted separately; no odd plywood stock family is introduced.",
+    "native_cad": true
+  },
+  {
+    "image": "22-review.png",
+    "title": "Preliminary sheet feasibility \u2014 NOT FOR CNC",
+    "note": "Actual manufacturing contours follow the current deterministic heuristic placements.2500 \u00d7 1600 mm sheet; 20 mm border; \u226515 mm finished-boundary spacing. This is non-production, not an optimized release nest. Actual thickness, fit coupon and hardware dimensions remain mandatory release gates. Current preliminary study: 2 sheet(s) at 18 mm, 1 sheet(s) at 12 mm.",
+    "native_cad": true
+  },
+  {
+    "image": "23-review.png",
+    "title": "Complete cabinet \u2014 underside inspection",
+    "note": "The user module is underside-removable; the rest of the cabinet architecture is preserved. Floor fans/filter holders retain downward service. Backbox service/fold, front leg blocks and playfield landings remain integrated. Electronics are optional user equipment, not mandatory flatpack hardware.",
+    "native_cad": true
+  },
+  {
+    "image": "24-review.png",
+    "title": "Complete cabinet \u2014 interior inspection",
+    "note": "Viewer-only inspection hides the playfield, supports, matrix, main glass and near cabinet side. No CAD component has moved. New rear control envelopes, shelves and fixed landing structure remain visible. Manufacturing remains blocked pending hardware, material and coupon validation.",
+    "native_cad": true
+  }
+]

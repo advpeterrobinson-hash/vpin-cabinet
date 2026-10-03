@@ -1,0 +1,622 @@
+{
+  "pass": true,
+  "scope": "Focused new underfront variants, metadata, schematic assembly, native/documented removal endpoint, two-stock detailed/packing, inherited service smoke, EN/PT and emulated touch; broader prior UI inherited.",
+  "checks": [
+    {
+      "name": "new current revision",
+      "pass": true
+    },
+    {
+      "name": "dedicated user-module group",
+      "pass": true
+    },
+    {
+      "name": "old fixed-function schematic absent",
+      "pass": true
+    },
+    {
+      "name": "only selected samebay variant UNDERFRONT_OWNER",
+      "pass": true,
+      "detail": {
+        "visible": [
+          "FLOOR",
+          "Underfront_Button1_Body",
+          "Underfront_Button1_Face",
+          "Underfront_Button1_Nut",
+          "Underfront_Button1_Switch",
+          "Underfront_Button1_WireReserve",
+          "Underfront_Button2_Body",
+          "Underfront_Button2_Face",
+          "Underfront_Button2_Nut",
+          "Underfront_Button2_Switch",
+          "Underfront_Button2_WireReserve",
+          "Underfront_Button3_Body",
+          "Underfront_Button3_Face",
+          "Underfront_Button3_Nut",
+          "Underfront_Button3_Switch",
+          "Underfront_Button3_WireReserve",
+          "Underfront_Button4_Body",
+          "Underfront_Button4_Face",
+          "Underfront_Button4_Nut",
+          "Underfront_Button4_Switch",
+          "Underfront_Button4_WireReserve",
+          "Underfront_Button5_Body",
+          "Underfront_Button5_Face",
+          "Underfront_Button5_Nut",
+          "Underfront_Button5_Switch",
+          "Underfront_Button5_WireReserve",
+          "Underfront_HarnessLoopReserve",
+          "Underfront_Insert1",
+          "Underfront_Insert2",
+          "Underfront_Insert3",
+          "Underfront_Insert4",
+          "Underfront_Plate",
+          "Underfront_Screw1",
+          "Underfront_Screw2",
+          "Underfront_Screw3",
+          "Underfront_Screw4",
+          "Underfront_USBBody",
+          "Underfront_USBCableReserve",
+          "Underfront_USBCap",
+          "Underfront_USBFlange",
+          "Underfront_USBNut"
+        ],
+        "expected": [
+          "FLOOR",
+          "Underfront_Button1_Body",
+          "Underfront_Button1_Face",
+          "Underfront_Button1_Nut",
+          "Underfront_Button1_Switch",
+          "Underfront_Button1_WireReserve",
+          "Underfront_Button2_Body",
+          "Underfront_Button2_Face",
+          "Underfront_Button2_Nut",
+          "Underfront_Button2_Switch",
+          "Underfront_Button2_WireReserve",
+          "Underfront_Button3_Body",
+          "Underfront_Button3_Face",
+          "Underfront_Button3_Nut",
+          "Underfront_Button3_Switch",
+          "Underfront_Button3_WireReserve",
+          "Underfront_Button4_Body",
+          "Underfront_Button4_Face",
+          "Underfront_Button4_Nut",
+          "Underfront_Button4_Switch",
+          "Underfront_Button4_WireReserve",
+          "Underfront_Button5_Body",
+          "Underfront_Button5_Face",
+          "Underfront_Button5_Nut",
+          "Underfront_Button5_Switch",
+          "Underfront_Button5_WireReserve",
+          "Underfront_HarnessLoopReserve",
+          "Underfront_Insert1",
+          "Underfront_Insert2",
+          "Underfront_Insert3",
+          "Underfront_Insert4",
+          "Underfront_Plate",
+          "Underfront_Screw1",
+          "Underfront_Screw2",
+          "Underfront_Screw3",
+          "Underfront_Screw4",
+          "Underfront_USBBody",
+          "Underfront_USBCableReserve",
+          "Underfront_USBCap",
+          "Underfront_USBFlange",
+          "Underfront_USBNut"
+        ]
+      }
+    },
+    {
+      "name": "only selected samebay variant UNDERFRONT_BUTTON_ONLY",
+      "pass": true,
+      "detail": {
+        "visible": [
+          "FLOOR",
+          "Underfront_Button1_Body",
+          "Underfront_Button1_Face",
+          "Underfront_Button1_Nut",
+          "Underfront_Button1_Switch",
+          "Underfront_Button1_WireReserve",
+          "Underfront_Button2_Body",
+          "Underfront_Button2_Face",
+          "Underfront_Button2_Nut",
+          "Underfront_Button2_Switch",
+          "Underfront_Button2_WireReserve",
+          "Underfront_Button3_Body",
+          "Underfront_Button3_Face",
+          "Underfront_Button3_Nut",
+          "Underfront_Button3_Switch",
+          "Underfront_Button3_WireReserve",
+          "Underfront_Button4_Body",
+          "Underfront_Button4_Face",
+          "Underfront_Button4_Nut",
+          "Underfront_Button4_Switch",
+          "Underfront_Button4_WireReserve",
+          "Underfront_Button5_Body",
+          "Underfront_Button5_Face",
+          "Underfront_Button5_Nut",
+          "Underfront_Button5_Switch",
+          "Underfront_Button5_WireReserve",
+          "Underfront_Button6_Body",
+          "Underfront_Button6_Face",
+          "Underfront_Button6_Nut",
+          "Underfront_Button6_Switch",
+          "Underfront_Button6_WireReserve",
+          "Underfront_HarnessLoopReserve",
+          "Underfront_Insert1",
+          "Underfront_Insert2",
+          "Underfront_Insert3",
+          "Underfront_Insert4",
+          "Underfront_Plate",
+          "Underfront_Screw1",
+          "Underfront_Screw2",
+          "Underfront_Screw3",
+          "Underfront_Screw4"
+        ],
+        "expected": [
+          "FLOOR",
+          "Underfront_Button1_Body",
+          "Underfront_Button1_Face",
+          "Underfront_Button1_Nut",
+          "Underfront_Button1_Switch",
+          "Underfront_Button1_WireReserve",
+          "Underfront_Button2_Body",
+          "Underfront_Button2_Face",
+          "Underfront_Button2_Nut",
+          "Underfront_Button2_Switch",
+          "Underfront_Button2_WireReserve",
+          "Underfront_Button3_Body",
+          "Underfront_Button3_Face",
+          "Underfront_Button3_Nut",
+          "Underfront_Button3_Switch",
+          "Underfront_Button3_WireReserve",
+          "Underfront_Button4_Body",
+          "Underfront_Button4_Face",
+          "Underfront_Button4_Nut",
+          "Underfront_Button4_Switch",
+          "Underfront_Button4_WireReserve",
+          "Underfront_Button5_Body",
+          "Underfront_Button5_Face",
+          "Underfront_Button5_Nut",
+          "Underfront_Button5_Switch",
+          "Underfront_Button5_WireReserve",
+          "Underfront_Button6_Body",
+          "Underfront_Button6_Face",
+          "Underfront_Button6_Nut",
+          "Underfront_Button6_Switch",
+          "Underfront_Button6_WireReserve",
+          "Underfront_HarnessLoopReserve",
+          "Underfront_Insert1",
+          "Underfront_Insert2",
+          "Underfront_Insert3",
+          "Underfront_Insert4",
+          "Underfront_Plate",
+          "Underfront_Screw1",
+          "Underfront_Screw2",
+          "Underfront_Screw3",
+          "Underfront_Screw4"
+        ]
+      }
+    },
+    {
+      "name": "only selected samebay variant UNDERFRONT_BLANK",
+      "pass": true,
+      "detail": {
+        "visible": [
+          "FLOOR",
+          "Underfront_HarnessLoopReserve",
+          "Underfront_Insert1",
+          "Underfront_Insert2",
+          "Underfront_Insert3",
+          "Underfront_Insert4",
+          "Underfront_Plate",
+          "Underfront_Screw1",
+          "Underfront_Screw2",
+          "Underfront_Screw3",
+          "Underfront_Screw4"
+        ],
+        "expected": [
+          "FLOOR",
+          "Underfront_HarnessLoopReserve",
+          "Underfront_Insert1",
+          "Underfront_Insert2",
+          "Underfront_Insert3",
+          "Underfront_Insert4",
+          "Underfront_Plate",
+          "Underfront_Screw1",
+          "Underfront_Screw2",
+          "Underfront_Screw3",
+          "Underfront_Screw4"
+        ]
+      }
+    },
+    {
+      "name": "plate metadata nominal12mm and canonical family",
+      "pass": true
+    },
+    {
+      "name": "every detailed piece uses current nominal stock",
+      "pass": true
+    },
+    {
+      "name": "all plywood12or18only",
+      "pass": true
+    },
+    {
+      "name": "module assembly explicitly schematic",
+      "pass": true
+    },
+    {
+      "name": "module actual flat pieces in assembly",
+      "pass": true
+    },
+    {
+      "name": "module removal endpoint matches documented vector",
+      "pass": true,
+      "detail": [
+        {
+          "name": "Underfront_Plate",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button1_Body",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button1_Face",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button1_Nut",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button1_Switch",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button1_WireReserve",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button2_Body",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button2_Face",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button2_Nut",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button2_Switch",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button2_WireReserve",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button3_Body",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button3_Face",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button3_Nut",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button3_Switch",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button3_WireReserve",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button4_Body",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button4_Face",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button4_Nut",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button4_Switch",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button4_WireReserve",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button5_Body",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button5_Face",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button5_Nut",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button5_Switch",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button5_WireReserve",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_USBBody",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_USBFlange",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_USBNut",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_USBCap",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_USBCableReserve",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button6_Body",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button6_Face",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button6_Nut",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button6_Switch",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        },
+        {
+          "name": "Underfront_Button6_WireReserve",
+          "xyz": [
+            0,
+            0,
+            -100
+          ]
+        }
+      ]
+    },
+    {
+      "name": "removal validation classification honest",
+      "pass": true
+    },
+    {
+      "name": "every packing member shown once",
+      "pass": true
+    },
+    {
+      "name": "packing honors authoritative preferred target",
+      "pass": true
+    },
+    {
+      "name": "inherited service state remains usable service-pf-release",
+      "pass": true
+    },
+    {
+      "name": "inherited service state remains usable service-pf-service",
+      "pass": true
+    },
+    {
+      "name": "inherited service state remains usable service-pf-lift",
+      "pass": true
+    },
+    {
+      "name": "inherited service state remains usable service-pf-close",
+      "pass": true
+    },
+    {
+      "name": "inherited service state remains usable service-fold",
+      "pass": true
+    },
+    {
+      "name": "PT-BR module controls",
+      "pass": true
+    },
+    {
+      "name": "tablet touch targets44px",
+      "pass": true
+    },
+    {
+      "name": "tablet module play/pause",
+      "pass": true
+    },
+    {
+      "name": "PT-BR animation title",
+      "pass": true
+    },
+    {
+      "name": "tablet no overflow",
+      "pass": true
+    },
+    {
+      "name": "noJavaScript errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "offline no network",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "unchanged broaderUI prior validated",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "tablet_playback": "PASS_EMULATED_TOUCH_PHYSICAL_FPS_NOT_CERTIFIED",
+  "inherited": {
+    "path": "exports/generated/front-landings-v3363/browser-validation.json",
+    "sha256": "646fea789aeb5dabd8b99340a01e2579800e88a5a5e22e2507650a2d66145ff0"
+  },
+  "viewer_sha256": "2515047b624bc9bdbc775f99939af1ea169e0c1b9b242e1dc9091a99e119b933"
+}

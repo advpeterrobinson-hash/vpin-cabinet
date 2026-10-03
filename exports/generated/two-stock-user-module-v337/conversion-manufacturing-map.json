@@ -1,0 +1,879 @@
+{
+  "parts": [
+    {
+      "instance_id": "P037-Main",
+      "source_component": "RemovableIntakeFilterL",
+      "face_A_outward_world": [
+        0,
+        0,
+        -1
+      ],
+      "note": "12 mm stock with 4 mm underside service pocket; original 8 mm media/guard/head stack retained. Broad 12 mm corner lands remain. All original cuts are through cuts, now entered from underside.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [
+        {
+          "shape": "circle",
+          "center_world_mm": [
+            150,
+            710,
+            6
+          ],
+          "radius_mm": 86,
+          "depth_mm": 4,
+          "purpose": "media/guard service plane"
+        },
+        {
+          "shape": "four circles",
+          "centers_world_mm": [
+            [
+              80,
+              640,
+              6
+            ],
+            [
+              80,
+              780,
+              6
+            ],
+            [
+              220,
+              640,
+              6
+            ],
+            [
+              220,
+              780,
+              6
+            ]
+          ],
+          "radius_mm": 7,
+          "depth_mm": 4,
+          "purpose": "existing filter screw heads"
+        }
+      ],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P037-Main-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P037-Main-local.brep",
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        64.99999999999945,
+        0.0,
+        1.0,
+        0.0,
+        624.9999999999994,
+        0.0,
+        0.0,
+        1.0,
+        6.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 163000.81559604948,
+      "bounds_world_mm": [
+        64.99999999999945,
+        624.9999999999994,
+        6.0,
+        235.0,
+        795.0000000000005,
+        18.0
+      ],
+      "finished_xy_mm": [
+        170.00000000000057,
+        170.00000000000105
+      ]
+    },
+    {
+      "instance_id": "P038-Main",
+      "source_component": "RemovableIntakeFilterR",
+      "face_A_outward_world": [
+        0,
+        0,
+        -1
+      ],
+      "note": "12 mm stock with 4 mm underside service pocket; original 8 mm media/guard/head stack retained. Broad 12 mm corner lands remain. All original cuts are through cuts, now entered from underside.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [
+        {
+          "shape": "circle",
+          "center_world_mm": [
+            450,
+            710,
+            6
+          ],
+          "radius_mm": 86,
+          "depth_mm": 4,
+          "purpose": "media/guard service plane"
+        },
+        {
+          "shape": "four circles",
+          "centers_world_mm": [
+            [
+              380,
+              640,
+              6
+            ],
+            [
+              380,
+              780,
+              6
+            ],
+            [
+              520,
+              640,
+              6
+            ],
+            [
+              520,
+              780,
+              6
+            ]
+          ],
+          "radius_mm": 7,
+          "depth_mm": 4,
+          "purpose": "existing filter screw heads"
+        }
+      ],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P038-Main-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P038-Main-local.brep",
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        364.99999999999943,
+        0.0,
+        1.0,
+        0.0,
+        624.9999999999994,
+        0.0,
+        0.0,
+        1.0,
+        6.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 163000.8155960495,
+      "bounds_world_mm": [
+        364.99999999999943,
+        624.9999999999994,
+        6.0,
+        535.0,
+        795.0000000000005,
+        18.0
+      ],
+      "finished_xy_mm": [
+        170.00000000000054,
+        170.00000000000105
+      ]
+    },
+    {
+      "instance_id": "P063-Main",
+      "source_component": "BB_DisplayReplaceableBezel",
+      "face_A_outward_world": [
+        0,
+        1,
+        0
+      ],
+      "note": "EXPLICIT full-face rear reduction: 12 mm nominal stock -> 6 mm finished bezel. Protected glass/display planes leave only6 mm finished wood. Facing precedes all through cutting.",
+      "finished_thickness_mm": 6,
+      "facing_reduction_mm": 6,
+      "pockets": [],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P063-Main-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P063-Main-local.brep",
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        -70.0,
+        -0.0,
+        2.220446049250313e-16,
+        -1.0,
+        1126.0000000000002,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        841.9999999999999,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 365880.0,
+      "bounds_world_mm": [
+        -70.0,
+        1120.0,
+        842.0,
+        670.0,
+        1126.0,
+        1299.0
+      ],
+      "finished_xy_mm": [
+        740.0,
+        457.0000000000001
+      ]
+    },
+    {
+      "instance_id": "P081-Main",
+      "source_component": "BB_IntakeFilterFrameL",
+      "face_A_outward_world": [
+        0,
+        1,
+        0
+      ],
+      "note": "12 mm exterior frame; door mating plane and 220 x80 clear aperture unchanged. Selected mounting fastener stack requires6 mm more length.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P081-Main-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P081-Main-local.brep",
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        5.0,
+        -0.0,
+        2.220446049250313e-16,
+        -1.0,
+        1334.1000000000001,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        687.9999999999998,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 76800.0,
+      "bounds_world_mm": [
+        5.0,
+        1322.1,
+        688.0,
+        245.0,
+        1334.1,
+        788.0
+      ],
+      "finished_xy_mm": [
+        240.0,
+        100.0
+      ]
+    },
+    {
+      "instance_id": "P082-Main",
+      "source_component": "BB_IntakeFilterFrameR",
+      "face_A_outward_world": [
+        0,
+        1,
+        0
+      ],
+      "note": "12 mm exterior frame; door mating plane and 220 x80 clear aperture unchanged. Selected mounting fastener stack requires6 mm more length.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P082-Main-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P082-Main-local.brep",
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        355.0,
+        -0.0,
+        2.220446049250313e-16,
+        -1.0,
+        1334.1000000000001,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        687.9999999999998,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 76800.0,
+      "bounds_world_mm": [
+        355.0,
+        1322.1,
+        688.0,
+        595.0,
+        1334.1,
+        788.0
+      ],
+      "finished_xy_mm": [
+        240.0,
+        100.0
+      ]
+    },
+    {
+      "instance_id": "P083-Face",
+      "source_component": "BB_IntakeDownBaffleL",
+      "face_A_outward_world": [
+        0,
+        -1,
+        0
+      ],
+      "note": "Outside-only growth. Preserve inner chamber and downward mouth exactly; nonoverlapping butt-seam planar members. Assembly order Face, Top, Side1/Side2.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P083-Face-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P083-Face-local.brep",
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        3.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        1262.0999999999997,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        796.0000000000001,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 322080.0,
+      "bounds_world_mm": [
+        3.0,
+        1262.1,
+        686.0,
+        247.0,
+        1274.1,
+        796.0
+      ],
+      "finished_xy_mm": [
+        244.0,
+        110.0
+      ]
+    },
+    {
+      "instance_id": "P083-Top",
+      "source_component": "BB_IntakeDownBaffleL",
+      "face_A_outward_world": [
+        0,
+        0,
+        1
+      ],
+      "note": "Outside-only growth. Preserve inner chamber and downward mouth exactly; nonoverlapping butt-seam planar members. Assembly order Face, Top, Side1/Side2.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P083-Top-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P083-Top-local.brep",
+      "local_to_installed_matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        247.00000000000009,
+        -0.0,
+        1.0,
+        0.0,
+        1274.1,
+        0.0,
+        -0.0,
+        -1.0,
+        796.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 105408.0,
+      "bounds_world_mm": [
+        3.0,
+        1274.1,
+        784.0,
+        247.0,
+        1310.1,
+        796.0
+      ],
+      "finished_xy_mm": [
+        244.0,
+        36.0
+      ]
+    },
+    {
+      "instance_id": "P083-Side1",
+      "source_component": "BB_IntakeDownBaffleL",
+      "face_A_outward_world": [
+        -1,
+        0,
+        0
+      ],
+      "note": "Outside-only growth. Preserve inner chamber and downward mouth exactly; nonoverlapping butt-seam planar members. Assembly order Face, Top, Side1/Side2. Side members share an exterior lower-edge rebate3 mm deep x32 mm high across36 mm, leaving9 mm wall; clears passive bolt body without moving hardware.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [
+        {
+          "shape": "open lower-edge strip",
+          "depth_mm": 3,
+          "height_mm": 32,
+          "width_mm": 36,
+          "purpose": "preserve passive-door bolt body; common identical side-member profile"
+        }
+      ],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P083-Side1-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P083-Side1-local.brep",
+      "local_to_installed_matrix": [
+        2.220446049250313e-16,
+        0.0,
+        1.0,
+        2.999999999999906,
+        -0.0,
+        1.0,
+        0.0,
+        1274.1,
+        -1.0,
+        -0.0,
+        2.220446049250313e-16,
+        784.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 38880.0,
+      "bounds_world_mm": [
+        3.0,
+        1274.1,
+        686.0,
+        15.0,
+        1310.1,
+        784.0
+      ],
+      "finished_xy_mm": [
+        98.0,
+        36.0
+      ]
+    },
+    {
+      "instance_id": "P083-Side2",
+      "source_component": "BB_IntakeDownBaffleL",
+      "face_A_outward_world": [
+        1,
+        0,
+        0
+      ],
+      "note": "Outside-only growth. Preserve inner chamber and downward mouth exactly; nonoverlapping butt-seam planar members. Assembly order Face, Top, Side1/Side2. Side members share an exterior lower-edge rebate3 mm deep x32 mm high across36 mm, leaving9 mm wall; clears passive bolt body without moving hardware.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [
+        {
+          "shape": "open lower-edge strip",
+          "depth_mm": 3,
+          "height_mm": 32,
+          "width_mm": 36,
+          "purpose": "preserve passive-door bolt body; common identical side-member profile"
+        }
+      ],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P083-Side2-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P083-Side2-local.brep",
+      "local_to_installed_matrix": [
+        2.220446049250313e-16,
+        0.0,
+        -1.0,
+        247.00000000000006,
+        0.0,
+        1.0,
+        0.0,
+        1274.1,
+        1.0,
+        0.0,
+        2.220446049250313e-16,
+        686.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 38880.0,
+      "bounds_world_mm": [
+        235.0,
+        1274.1,
+        686.0,
+        247.0,
+        1310.1,
+        784.0
+      ],
+      "finished_xy_mm": [
+        98.0,
+        36.0
+      ]
+    },
+    {
+      "instance_id": "P084-Face",
+      "source_component": "BB_IntakeDownBaffleR",
+      "face_A_outward_world": [
+        0,
+        -1,
+        0
+      ],
+      "note": "Outside-only growth. Preserve inner chamber and downward mouth exactly; nonoverlapping butt-seam planar members. Assembly order Face, Top, Side1/Side2.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P084-Face-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P084-Face-local.brep",
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        353.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        1262.0999999999997,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        796.0000000000001,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 322080.0,
+      "bounds_world_mm": [
+        353.0,
+        1262.1,
+        686.0,
+        597.0,
+        1274.1,
+        796.0
+      ],
+      "finished_xy_mm": [
+        244.0,
+        110.0
+      ]
+    },
+    {
+      "instance_id": "P084-Top",
+      "source_component": "BB_IntakeDownBaffleR",
+      "face_A_outward_world": [
+        0,
+        0,
+        1
+      ],
+      "note": "Outside-only growth. Preserve inner chamber and downward mouth exactly; nonoverlapping butt-seam planar members. Assembly order Face, Top, Side1/Side2.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P084-Top-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P084-Top-local.brep",
+      "local_to_installed_matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        597.0000000000001,
+        -0.0,
+        1.0,
+        0.0,
+        1274.1,
+        0.0,
+        -0.0,
+        -1.0,
+        796.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 105408.0,
+      "bounds_world_mm": [
+        353.0,
+        1274.1,
+        784.0,
+        597.0,
+        1310.1,
+        796.0
+      ],
+      "finished_xy_mm": [
+        244.0,
+        36.0
+      ]
+    },
+    {
+      "instance_id": "P084-Side1",
+      "source_component": "BB_IntakeDownBaffleR",
+      "face_A_outward_world": [
+        -1,
+        0,
+        0
+      ],
+      "note": "Outside-only growth. Preserve inner chamber and downward mouth exactly; nonoverlapping butt-seam planar members. Assembly order Face, Top, Side1/Side2. Side members share an exterior lower-edge rebate3 mm deep x32 mm high across36 mm, leaving9 mm wall; clears passive bolt body without moving hardware.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [
+        {
+          "shape": "open lower-edge strip",
+          "depth_mm": 3,
+          "height_mm": 32,
+          "width_mm": 36,
+          "purpose": "preserve passive-door bolt body; common identical side-member profile"
+        }
+      ],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P084-Side1-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P084-Side1-local.brep",
+      "local_to_installed_matrix": [
+        2.220446049250313e-16,
+        0.0,
+        1.0,
+        352.9999999999999,
+        -0.0,
+        1.0,
+        0.0,
+        1274.1,
+        -1.0,
+        -0.0,
+        2.220446049250313e-16,
+        784.0000000000001,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 38880.0,
+      "bounds_world_mm": [
+        353.0,
+        1274.1,
+        686.0,
+        365.0,
+        1310.1,
+        784.0
+      ],
+      "finished_xy_mm": [
+        98.0,
+        36.0
+      ]
+    },
+    {
+      "instance_id": "P084-Side2",
+      "source_component": "BB_IntakeDownBaffleR",
+      "face_A_outward_world": [
+        1,
+        0,
+        0
+      ],
+      "note": "Outside-only growth. Preserve inner chamber and downward mouth exactly; nonoverlapping butt-seam planar members. Assembly order Face, Top, Side1/Side2. Side members share an exterior lower-edge rebate3 mm deep x32 mm high across36 mm, leaving9 mm wall; clears passive bolt body without moving hardware.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [
+        {
+          "shape": "open lower-edge strip",
+          "depth_mm": 3,
+          "height_mm": 32,
+          "width_mm": 36,
+          "purpose": "preserve passive-door bolt body; common identical side-member profile"
+        }
+      ],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P084-Side2-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P084-Side2-local.brep",
+      "local_to_installed_matrix": [
+        2.220446049250313e-16,
+        0.0,
+        -1.0,
+        597.0,
+        0.0,
+        1.0,
+        0.0,
+        1274.1,
+        1.0,
+        0.0,
+        2.220446049250313e-16,
+        686.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 38880.0,
+      "bounds_world_mm": [
+        585.0,
+        1274.1,
+        686.0,
+        597.0,
+        1310.1,
+        784.0
+      ],
+      "finished_xy_mm": [
+        98.0,
+        36.0
+      ]
+    },
+    {
+      "instance_id": "P092-Main",
+      "source_component": "BB_FanBlankL",
+      "face_A_outward_world": [
+        0,
+        1,
+        0
+      ],
+      "note": "Optional blank variant, mutually exclusive with fan/guard/mesh. Same128x128 outline and105 mm station; fastener stack increases6 mm and remains purchased-hardware HOLD.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P092-Main-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P092-Main-local.brep",
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        91.0,
+        -0.0,
+        2.220446049250313e-16,
+        -1.0,
+        1334.1,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        1096.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 195844.59298517767,
+      "bounds_world_mm": [
+        91.0,
+        1322.1,
+        1096.0,
+        219.0,
+        1334.1,
+        1224.0
+      ],
+      "finished_xy_mm": [
+        128.0,
+        128.0
+      ]
+    },
+    {
+      "instance_id": "P093-Main",
+      "source_component": "BB_FanBlankR",
+      "face_A_outward_world": [
+        0,
+        1,
+        0
+      ],
+      "note": "Optional blank variant, mutually exclusive with fan/guard/mesh. Same128x128 outline and105 mm station; fastener stack increases6 mm and remains purchased-hardware HOLD.",
+      "finished_thickness_mm": 12,
+      "facing_reduction_mm": 0,
+      "pockets": [],
+      "installed_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P093-Main-installed.brep",
+      "local_brep": "exports/generated/two-stock-user-module-v337/conversion-brep/P093-Main-local.brep",
+      "local_to_installed_matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        381.0,
+        -0.0,
+        2.220446049250313e-16,
+        -1.0,
+        1334.1,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        1096.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nominal_stock_thickness_mm": 12,
+      "machining_face": "FACE_A",
+      "opposite_face": "FACE_B / NO CNC",
+      "roundtrip_difference_mm3": 0.0,
+      "volume_mm3": 195844.59298517767,
+      "bounds_world_mm": [
+        381.0,
+        1322.1,
+        1096.0,
+        509.0,
+        1334.1,
+        1224.0
+      ],
+      "finished_xy_mm": [
+        128.0,
+        128.0
+      ]
+    }
+  ],
+  "source": "exports/generated/front-landings-v3363/play.FCStd",
+  "source_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "nominal_stock_mm": 12,
+  "reconstruction_difference_mm3": {
+    "BB_IntakeDownBaffleL": 0.0,
+    "BB_IntakeDownBaffleR": 0.0
+  },
+  "holds": [
+    "Actual stock thickness",
+    "Coupon",
+    "Purchased hardware stack lengths",
+    "No production release"
+  ]
+}

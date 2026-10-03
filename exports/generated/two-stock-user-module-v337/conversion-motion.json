@@ -1,0 +1,1202 @@
+{
+  "checks": [
+    {
+      "name": "native conversion prerequisite",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "floor filters continuous80mm downward service",
+      "pass": true,
+      "detail": [
+        {
+          "side": "L",
+          "range_mm": [
+            0,
+            80
+          ],
+          "hits": [],
+          "method": "exact full through-cut top silhouette extruded continuously fromZ18 toZ-74; conservative superset of pocketed holder travel; removed screws/media/guard excluded"
+        },
+        {
+          "side": "R",
+          "range_mm": [
+            0,
+            80
+          ],
+          "hits": [],
+          "method": "exact full through-cut top silhouette extruded continuously fromZ18 toZ-74; conservative superset of pocketed holder travel; removed screws/media/guard excluded"
+        }
+      ]
+    },
+    {
+      "name": "rear intake frames continuous80mm removal",
+      "pass": true,
+      "detail": [
+        {
+          "side": "L",
+          "hits": [],
+          "range_mm": [
+            0,
+            80
+          ]
+        },
+        {
+          "side": "R",
+          "hits": [],
+          "range_mm": [
+            0,
+            80
+          ]
+        }
+      ]
+    },
+    {
+      "name": "continuous doorR0to100 differential including blank",
+      "pass": true,
+      "detail": 17
+    },
+    {
+      "name": "doorR fan loop differential sampled1deg",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "continuous doorL0to100 differential including blank",
+      "pass": true,
+      "detail": 17
+    },
+    {
+      "name": "doorL fan loop differential sampled1deg",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "continuous backbox0to90 newwood and optional blanks clearcabinet",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "name": "continuous populatedbackbox0to90 clearsfloorfiltergrowth",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous playfield0to50 clearconversions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "conservative playfield48mm liftsweep clearconversions",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "required fold angle samples clear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "conversion and CURRENT input bytes unchanged",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "certificates": {
+    "door_R": {
+      "range_deg": [
+        0,
+        100
+      ],
+      "intervals": [
+        [
+          0,
+          0.78125
+        ],
+        [
+          0.78125,
+          1.5625
+        ],
+        [
+          1.5625,
+          3.125
+        ],
+        [
+          3.125,
+          4.6875
+        ],
+        [
+          4.6875,
+          6.25
+        ],
+        [
+          6.25,
+          9.375
+        ],
+        [
+          9.375,
+          12.5
+        ],
+        [
+          12.5,
+          18.75
+        ],
+        [
+          18.75,
+          25.0
+        ],
+        [
+          25.0,
+          31.25
+        ],
+        [
+          31.25,
+          37.5
+        ],
+        [
+          37.5,
+          43.75
+        ],
+        [
+          43.75,
+          50.0
+        ],
+        [
+          50.0,
+          62.5
+        ],
+        [
+          62.5,
+          75.0
+        ],
+        [
+          75.0,
+          87.5
+        ],
+        [
+          87.5,
+          100
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "door_L": {
+      "range_deg": [
+        0,
+        100
+      ],
+      "intervals": [
+        [
+          0,
+          0.78125
+        ],
+        [
+          0.78125,
+          1.5625
+        ],
+        [
+          1.5625,
+          3.125
+        ],
+        [
+          3.125,
+          4.6875
+        ],
+        [
+          4.6875,
+          6.25
+        ],
+        [
+          6.25,
+          9.375
+        ],
+        [
+          9.375,
+          12.5
+        ],
+        [
+          12.5,
+          18.75
+        ],
+        [
+          18.75,
+          25.0
+        ],
+        [
+          25.0,
+          31.25
+        ],
+        [
+          31.25,
+          37.5
+        ],
+        [
+          37.5,
+          43.75
+        ],
+        [
+          43.75,
+          50.0
+        ],
+        [
+          50.0,
+          62.5
+        ],
+        [
+          62.5,
+          75.0
+        ],
+        [
+          75.0,
+          87.5
+        ],
+        [
+          87.5,
+          100
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "backbox_new_wood_vs_cabinet": {
+      "range_deg": [
+        0,
+        90
+      ],
+      "intervals": [
+        [
+          0,
+          45.0
+        ],
+        [
+          45.0,
+          90
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "populated_backbox_vs_floor_additions": {
+      "range_deg": [
+        0,
+        90
+      ],
+      "intervals": [
+        [
+          0,
+          45.0
+        ],
+        [
+          45.0,
+          90
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "playfield_vs_additions": {
+      "range_deg": [
+        0,
+        50
+      ],
+      "intervals": [
+        [
+          0,
+          25.0
+        ],
+        [
+          25.0,
+          50
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    }
+  },
+  "manufacturing_release": false,
+  "pass": true,
+  "source_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "conversion_sha256": "36194168f735ba3e7b253c53684e327269448313506b5a6c61024791d5363aab",
+  "prerequisites": [
+    "Backbox locks released/parked",
+    "Doors closed and latched for fold",
+    "Main playfield glass removed",
+    "Matrix removed",
+    "Backbox glass and lower cassette remain installed"
+  ],
+  "fan_loop_R": [
+    {
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "angle": 1,
+      "hits": []
+    },
+    {
+      "angle": 2,
+      "hits": []
+    },
+    {
+      "angle": 3,
+      "hits": []
+    },
+    {
+      "angle": 4,
+      "hits": []
+    },
+    {
+      "angle": 5,
+      "hits": []
+    },
+    {
+      "angle": 6,
+      "hits": []
+    },
+    {
+      "angle": 7,
+      "hits": []
+    },
+    {
+      "angle": 8,
+      "hits": []
+    },
+    {
+      "angle": 9,
+      "hits": []
+    },
+    {
+      "angle": 10,
+      "hits": []
+    },
+    {
+      "angle": 11,
+      "hits": []
+    },
+    {
+      "angle": 12,
+      "hits": []
+    },
+    {
+      "angle": 13,
+      "hits": []
+    },
+    {
+      "angle": 14,
+      "hits": []
+    },
+    {
+      "angle": 15,
+      "hits": []
+    },
+    {
+      "angle": 16,
+      "hits": []
+    },
+    {
+      "angle": 17,
+      "hits": []
+    },
+    {
+      "angle": 18,
+      "hits": []
+    },
+    {
+      "angle": 19,
+      "hits": []
+    },
+    {
+      "angle": 20,
+      "hits": []
+    },
+    {
+      "angle": 21,
+      "hits": []
+    },
+    {
+      "angle": 22,
+      "hits": []
+    },
+    {
+      "angle": 23,
+      "hits": []
+    },
+    {
+      "angle": 24,
+      "hits": []
+    },
+    {
+      "angle": 25,
+      "hits": []
+    },
+    {
+      "angle": 26,
+      "hits": []
+    },
+    {
+      "angle": 27,
+      "hits": []
+    },
+    {
+      "angle": 28,
+      "hits": []
+    },
+    {
+      "angle": 29,
+      "hits": []
+    },
+    {
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "angle": 31,
+      "hits": []
+    },
+    {
+      "angle": 32,
+      "hits": []
+    },
+    {
+      "angle": 33,
+      "hits": []
+    },
+    {
+      "angle": 34,
+      "hits": []
+    },
+    {
+      "angle": 35,
+      "hits": []
+    },
+    {
+      "angle": 36,
+      "hits": []
+    },
+    {
+      "angle": 37,
+      "hits": []
+    },
+    {
+      "angle": 38,
+      "hits": []
+    },
+    {
+      "angle": 39,
+      "hits": []
+    },
+    {
+      "angle": 40,
+      "hits": []
+    },
+    {
+      "angle": 41,
+      "hits": []
+    },
+    {
+      "angle": 42,
+      "hits": []
+    },
+    {
+      "angle": 43,
+      "hits": []
+    },
+    {
+      "angle": 44,
+      "hits": []
+    },
+    {
+      "angle": 45,
+      "hits": []
+    },
+    {
+      "angle": 46,
+      "hits": []
+    },
+    {
+      "angle": 47,
+      "hits": []
+    },
+    {
+      "angle": 48,
+      "hits": []
+    },
+    {
+      "angle": 49,
+      "hits": []
+    },
+    {
+      "angle": 50,
+      "hits": []
+    },
+    {
+      "angle": 51,
+      "hits": []
+    },
+    {
+      "angle": 52,
+      "hits": []
+    },
+    {
+      "angle": 53,
+      "hits": []
+    },
+    {
+      "angle": 54,
+      "hits": []
+    },
+    {
+      "angle": 55,
+      "hits": []
+    },
+    {
+      "angle": 56,
+      "hits": []
+    },
+    {
+      "angle": 57,
+      "hits": []
+    },
+    {
+      "angle": 58,
+      "hits": []
+    },
+    {
+      "angle": 59,
+      "hits": []
+    },
+    {
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "angle": 61,
+      "hits": []
+    },
+    {
+      "angle": 62,
+      "hits": []
+    },
+    {
+      "angle": 63,
+      "hits": []
+    },
+    {
+      "angle": 64,
+      "hits": []
+    },
+    {
+      "angle": 65,
+      "hits": []
+    },
+    {
+      "angle": 66,
+      "hits": []
+    },
+    {
+      "angle": 67,
+      "hits": []
+    },
+    {
+      "angle": 68,
+      "hits": []
+    },
+    {
+      "angle": 69,
+      "hits": []
+    },
+    {
+      "angle": 70,
+      "hits": []
+    },
+    {
+      "angle": 71,
+      "hits": []
+    },
+    {
+      "angle": 72,
+      "hits": []
+    },
+    {
+      "angle": 73,
+      "hits": []
+    },
+    {
+      "angle": 74,
+      "hits": []
+    },
+    {
+      "angle": 75,
+      "hits": []
+    },
+    {
+      "angle": 76,
+      "hits": []
+    },
+    {
+      "angle": 77,
+      "hits": []
+    },
+    {
+      "angle": 78,
+      "hits": []
+    },
+    {
+      "angle": 79,
+      "hits": []
+    },
+    {
+      "angle": 80,
+      "hits": []
+    },
+    {
+      "angle": 81,
+      "hits": []
+    },
+    {
+      "angle": 82,
+      "hits": []
+    },
+    {
+      "angle": 83,
+      "hits": []
+    },
+    {
+      "angle": 84,
+      "hits": []
+    },
+    {
+      "angle": 85,
+      "hits": []
+    },
+    {
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "angle": 87,
+      "hits": []
+    },
+    {
+      "angle": 88,
+      "hits": []
+    },
+    {
+      "angle": 89,
+      "hits": []
+    },
+    {
+      "angle": 90,
+      "hits": []
+    },
+    {
+      "angle": 91,
+      "hits": []
+    },
+    {
+      "angle": 92,
+      "hits": []
+    },
+    {
+      "angle": 93,
+      "hits": []
+    },
+    {
+      "angle": 94,
+      "hits": []
+    },
+    {
+      "angle": 95,
+      "hits": []
+    },
+    {
+      "angle": 96,
+      "hits": []
+    },
+    {
+      "angle": 97,
+      "hits": []
+    },
+    {
+      "angle": 98,
+      "hits": []
+    },
+    {
+      "angle": 99,
+      "hits": []
+    },
+    {
+      "angle": 100,
+      "hits": []
+    }
+  ],
+  "fan_loop_L": [
+    {
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "angle": 1,
+      "hits": []
+    },
+    {
+      "angle": 2,
+      "hits": []
+    },
+    {
+      "angle": 3,
+      "hits": []
+    },
+    {
+      "angle": 4,
+      "hits": []
+    },
+    {
+      "angle": 5,
+      "hits": []
+    },
+    {
+      "angle": 6,
+      "hits": []
+    },
+    {
+      "angle": 7,
+      "hits": []
+    },
+    {
+      "angle": 8,
+      "hits": []
+    },
+    {
+      "angle": 9,
+      "hits": []
+    },
+    {
+      "angle": 10,
+      "hits": []
+    },
+    {
+      "angle": 11,
+      "hits": []
+    },
+    {
+      "angle": 12,
+      "hits": []
+    },
+    {
+      "angle": 13,
+      "hits": []
+    },
+    {
+      "angle": 14,
+      "hits": []
+    },
+    {
+      "angle": 15,
+      "hits": []
+    },
+    {
+      "angle": 16,
+      "hits": []
+    },
+    {
+      "angle": 17,
+      "hits": []
+    },
+    {
+      "angle": 18,
+      "hits": []
+    },
+    {
+      "angle": 19,
+      "hits": []
+    },
+    {
+      "angle": 20,
+      "hits": []
+    },
+    {
+      "angle": 21,
+      "hits": []
+    },
+    {
+      "angle": 22,
+      "hits": []
+    },
+    {
+      "angle": 23,
+      "hits": []
+    },
+    {
+      "angle": 24,
+      "hits": []
+    },
+    {
+      "angle": 25,
+      "hits": []
+    },
+    {
+      "angle": 26,
+      "hits": []
+    },
+    {
+      "angle": 27,
+      "hits": []
+    },
+    {
+      "angle": 28,
+      "hits": []
+    },
+    {
+      "angle": 29,
+      "hits": []
+    },
+    {
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "angle": 31,
+      "hits": []
+    },
+    {
+      "angle": 32,
+      "hits": []
+    },
+    {
+      "angle": 33,
+      "hits": []
+    },
+    {
+      "angle": 34,
+      "hits": []
+    },
+    {
+      "angle": 35,
+      "hits": []
+    },
+    {
+      "angle": 36,
+      "hits": []
+    },
+    {
+      "angle": 37,
+      "hits": []
+    },
+    {
+      "angle": 38,
+      "hits": []
+    },
+    {
+      "angle": 39,
+      "hits": []
+    },
+    {
+      "angle": 40,
+      "hits": []
+    },
+    {
+      "angle": 41,
+      "hits": []
+    },
+    {
+      "angle": 42,
+      "hits": []
+    },
+    {
+      "angle": 43,
+      "hits": []
+    },
+    {
+      "angle": 44,
+      "hits": []
+    },
+    {
+      "angle": 45,
+      "hits": []
+    },
+    {
+      "angle": 46,
+      "hits": []
+    },
+    {
+      "angle": 47,
+      "hits": []
+    },
+    {
+      "angle": 48,
+      "hits": []
+    },
+    {
+      "angle": 49,
+      "hits": []
+    },
+    {
+      "angle": 50,
+      "hits": []
+    },
+    {
+      "angle": 51,
+      "hits": []
+    },
+    {
+      "angle": 52,
+      "hits": []
+    },
+    {
+      "angle": 53,
+      "hits": []
+    },
+    {
+      "angle": 54,
+      "hits": []
+    },
+    {
+      "angle": 55,
+      "hits": []
+    },
+    {
+      "angle": 56,
+      "hits": []
+    },
+    {
+      "angle": 57,
+      "hits": []
+    },
+    {
+      "angle": 58,
+      "hits": []
+    },
+    {
+      "angle": 59,
+      "hits": []
+    },
+    {
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "angle": 61,
+      "hits": []
+    },
+    {
+      "angle": 62,
+      "hits": []
+    },
+    {
+      "angle": 63,
+      "hits": []
+    },
+    {
+      "angle": 64,
+      "hits": []
+    },
+    {
+      "angle": 65,
+      "hits": []
+    },
+    {
+      "angle": 66,
+      "hits": []
+    },
+    {
+      "angle": 67,
+      "hits": []
+    },
+    {
+      "angle": 68,
+      "hits": []
+    },
+    {
+      "angle": 69,
+      "hits": []
+    },
+    {
+      "angle": 70,
+      "hits": []
+    },
+    {
+      "angle": 71,
+      "hits": []
+    },
+    {
+      "angle": 72,
+      "hits": []
+    },
+    {
+      "angle": 73,
+      "hits": []
+    },
+    {
+      "angle": 74,
+      "hits": []
+    },
+    {
+      "angle": 75,
+      "hits": []
+    },
+    {
+      "angle": 76,
+      "hits": []
+    },
+    {
+      "angle": 77,
+      "hits": []
+    },
+    {
+      "angle": 78,
+      "hits": []
+    },
+    {
+      "angle": 79,
+      "hits": []
+    },
+    {
+      "angle": 80,
+      "hits": []
+    },
+    {
+      "angle": 81,
+      "hits": []
+    },
+    {
+      "angle": 82,
+      "hits": []
+    },
+    {
+      "angle": 83,
+      "hits": []
+    },
+    {
+      "angle": 84,
+      "hits": []
+    },
+    {
+      "angle": 85,
+      "hits": []
+    },
+    {
+      "angle": 86,
+      "hits": []
+    },
+    {
+      "angle": 87,
+      "hits": []
+    },
+    {
+      "angle": 88,
+      "hits": []
+    },
+    {
+      "angle": 89,
+      "hits": []
+    },
+    {
+      "angle": 90,
+      "hits": []
+    },
+    {
+      "angle": 91,
+      "hits": []
+    },
+    {
+      "angle": 92,
+      "hits": []
+    },
+    {
+      "angle": 93,
+      "hits": []
+    },
+    {
+      "angle": 94,
+      "hits": []
+    },
+    {
+      "angle": 95,
+      "hits": []
+    },
+    {
+      "angle": 96,
+      "hits": []
+    },
+    {
+      "angle": 97,
+      "hits": []
+    },
+    {
+      "angle": 98,
+      "hits": []
+    },
+    {
+      "angle": 99,
+      "hits": []
+    },
+    {
+      "angle": 100,
+      "hits": []
+    }
+  ],
+  "fold_samples": [
+    {
+      "angle": 0,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 0.25,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 0.5,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 1,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 2,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 5,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 10,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 15,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 30,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 45,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 60,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 75,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    },
+    {
+      "angle": 90,
+      "newwood_hits": [],
+      "populated_vs_newfloor_hits": []
+    }
+  ]
+}

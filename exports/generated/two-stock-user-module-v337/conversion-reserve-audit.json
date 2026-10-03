@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "conversion_sha256": "36194168f735ba3e7b253c53684e327269448313506b5a6c61024791d5363aab",
+  "current_added_wood_hits": [],
+  "scope": "Every preserved source B-rep including ALL reserve names; only changed component itself excluded",
+  "negative_control": {
+    "name": "Remove lower-edge rebate",
+    "expected": "FAIL",
+    "overlap_mm3": 660.0,
+    "parts": [
+      "BB_IntakeDownBaffleL",
+      "BB_PassiveBoltBodyReserve0"
+    ]
+  },
+  "final_passive_bolt_body_gap_mm": 2.0,
+  "manufacturing_release": false
+}

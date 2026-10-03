@@ -1,0 +1,115 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "independent native geometry checks pass",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "conversion motion and all preserved reserves pass for same native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "only authorized existing wood changes",
+      "pass": true,
+      "detail": [
+        "FLOOR",
+        "RemovableIntakeFilterL",
+        "RemovableIntakeFilterR",
+        "BB_IntakeFilterFrameL",
+        "BB_IntakeDownBaffleL",
+        "BB_IntakeFilterFrameR",
+        "BB_IntakeDownBaffleR"
+      ]
+    },
+    {
+      "name": "all original objects retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "new module andoriginalfrontlanding/sidebuttons coexist",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "floor change removes only approvedbaystock",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "playfield0to50 continuously clears module",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "playfield48mm fullvertical envelope clears module",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "populatedbackbox0to90 continuously clears module",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "landing tool/hand/access sweeps remain clear",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all namedstate transformations provenfromoldnative",
+      "pass": true,
+      "detail": {
+        "transforms": 63
+      }
+    }
+  ],
+  "certificates": {
+    "PF_module_service": {
+      "range_deg": [
+        0,
+        50
+      ],
+      "intervals": [
+        [
+          0,
+          50
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "BB_module_fold": {
+      "range_deg": [
+        0,
+        90
+      ],
+      "intervals": [
+        [
+          0,
+          90
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    }
+  },
+  "source_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "native_sha256": "ee7b3c2a255220c2cd72e4035e8d9c91b03821a82d4b33131048e00747b45cc7",
+  "manufacturing_release": false,
+  "inherited": {
+    "source": "exports/generated/front-landings-v3363/validation.json",
+    "sha256": "11538b3336481a3103e9878f3a81381c684890845048979eca291daa239cc8e4",
+    "meaning": "Exactunchangedinteractions inheritpriorverification; newmodules/conversionwood undergo separate differentialscreen"
+  },
+  "native_inputs_sha256": {
+    "module.FCStd": "db90139b614b9d0534d56cf9122bba0cb4dedfd235a949867fae858bd52edd90",
+    "module-validation.json": "b472ac4c1e39a8928fd975e0333b8790857ca6bb7792b6b0a5e37eb78acdd457",
+    "conversion.FCStd": "36194168f735ba3e7b253c53684e327269448313506b5a6c61024791d5363aab",
+    "conversion-validation.json": "85ea4f6ee6be374760fd7161e03ee102f9a7f4d18148ff1d5cad3291101a0dc1",
+    "conversion-motion.json": "a610ffd9dbe2c62eff9bd36c3812ff9a47a074fea6d6370b64a9bff68f94d593",
+    "conversion-reserve-audit.json": "bbc43b4a37e977d43702c546782fc0a6b063f5984f8bad2011c9a0dac7838936",
+    "module-motion.json": "5d2d33fe7035a6356d126ae91a294681026d6248013b571dc88c353d6aefefd2"
+  }
+}

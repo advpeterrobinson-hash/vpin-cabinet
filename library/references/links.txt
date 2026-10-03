@@ -116,3 +116,7 @@ Primary-source HTML inspected: 120 x 120 x 25 mm frame and 105 x 105 mm mounting
 2026-10-02 — V32 upright-lock integration
 https://www.ganternorm.com/en/products/2.2-Tensioning-clamping-withknobs/Star-knobs/GN-6336.13-Star-Knobs-Plastic-Threaded-Stud-Stainless-Steel-with-Loss-Protection
 Primary manufacturer HTML inspected: GN 6336.13 includes loss-protected male star knobs and a 40/M8/40 family. Establishes purchased-hardware architecture only; no supplier/SKU or Brazilian availability selected. Geometry remains explicit provisional packaging. No third-party CAD or drawing imported. Original study: studies/backbox-lock-integration-v32/README.md.
+
+2026-10-03 — V33.7 generic under-cabinet programmable module
+https://joy-it.net/files/files/Produkte/Button-XXX/Button-XXX_Datasheet_2024-10-21.pdf
+Official manufacturer PDF text inspected through web extraction: ordinary microswitch arcade button,28mm referencehole/M28,35mm overall diameter,67mm overall length. No product selected. Conservative project envelopes add nut/wire/hand margins; final bore remains null. Diagram screenshot failed withcachemiss; no diagram dimensions inferred and no third-party asset redistributed. Owner dualUSB dimensions are supplied conflicting seller-image references, not independently verified: cutout26 or28±0.3,body26.5,flange33,rear46.8,nut33×8.2. USB cutout staysnull. Original CAD only.

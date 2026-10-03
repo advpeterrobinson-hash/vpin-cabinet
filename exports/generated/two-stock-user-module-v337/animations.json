@@ -1,0 +1,1756 @@
+[
+  {
+    "id": "assembly-00.1",
+    "type": "assembly",
+    "title": {
+      "en": "00.1 · Confirm the preparation holds",
+      "pt-BR": "00.1 · Confirme as pendências de preparação"
+    },
+    "stage": "00",
+    "step": "00.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [],
+    "hardware_ids": [],
+    "action": {
+      "en": "Read the supplier profile and inventory the production lot. Do not cut full sheets until actual thickness, coupon clearance and hardware interfaces are approved. CURRENT plywood purchasing uses only nominal 12 mm and 18 mm stock. Measure each actual production lot and qualify the fit coupon before release. Finished local webs can be thinner after a documented FACE_A pocket/reduction; this does not create a6/8 mm purchase family. The backglass bezel deliberately retains its 6 mm finished web by one-face reduction from 12 mm stock because the glass/display gap is protected. SW 01 solid leg blocks remain a separate solid-wood material, not a plywood stock exception.",
+      "pt-BR": "Leia o perfil do fornecedor e identifique o lote de produção. Não corte chapas completas antes da aprovação da espessura real, folga do cupom e interfaces das ferragens. A compra de compensado CURRENT usa somente chapas nominais 12 mm e18 mm. Meça cada lote real e valide o cupom de encaixe antes da liberação. Trechos acabados podem ser mais finos após bolso/redução documentado pela FACE_A; isso não cria família de compra 6/8 mm. A moldura do backglass mantém deliberadamente alma acabada 6 mm por redução de uma face da chapa 12 mm, preservando a folga vidro/monitor. Blocos de perna SW 01 continuam em madeira maciça separada, não são exceção de chapa."
+    },
+    "check": {
+      "en": "Record the measured lot, coupon result and selected hardware; unresolved values stay HOLD.",
+      "pt-BR": "Registre o lote medido, resultado do cupom e ferragens escolhidas; valores não resolvidos permanecem PENDENTES."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Read the supplier profile and inventory the production lot. Do not cut full sheets until actual thickness, coupon clearance and hardware interfaces are approved. CURRENT plywood purchasing uses only nominal 12 mm and 18 mm stock. Measure each actual production lot and qualify the fit coupon before release. Finished local webs can be thinner after a documented FACE_A pocket/reduction; this does not create a6/8 mm purchase family. The backglass bezel deliberately retains its 6 mm finished web by one-face reduction from 12 mm stock because the glass/display gap is protected. SW 01 solid leg blocks remain a separate solid-wood material, not a plywood stock exception.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Leia o perfil do fornecedor e identifique o lote de produção. Não corte chapas completas antes da aprovação da espessura real, folga do cupom e interfaces das ferragens. A compra de compensado CURRENT usa somente chapas nominais 12 mm e18 mm. Meça cada lote real e valide o cupom de encaixe antes da liberação. Trechos acabados podem ser mais finos após bolso/redução documentado pela FACE_A; isso não cria família de compra 6/8 mm. A moldura do backglass mantém deliberadamente alma acabada 6 mm por redução de uma face da chapa 12 mm, preservando a folga vidro/monitor. Blocos de perna SW 01 continuam em madeira maciça separada, não são exceção de chapa."
+    }
+  },
+  {
+    "id": "assembly-00.2",
+    "type": "assembly",
+    "title": {
+      "en": "00.2 · Prepare ordinary assembly tools",
+      "pt-BR": "00.2 · Prepare as ferramentas comuns"
+    },
+    "stage": "00",
+    "step": "00.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [],
+    "hardware_ids": [],
+    "action": {
+      "en": "Prepare clamps, square, tape, drill/driver, depth stop, selected bits and qualified angle guides. Exact drive sizes follow purchased hardware. Do not improvise precise angled drilling freehand.",
+      "pt-BR": "Prepare grampos, esquadro, trena, furadeira/parafusadeira, limitador de profundidade, pontas selecionadas e guias angulares validadas. As medidas das pontas dependem das ferragens compradas. Não improvise furos angulares precisos à mão livre."
+    },
+    "check": {
+      "en": "A qualified guide and finish procedure must exist before each affected manual operation.",
+      "pt-BR": "Uma guia e um procedimento de acabamento validados devem existir antes de cada operação manual afetada."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Prepare clamps, square, tape, drill/driver, depth stop, selected bits and qualified angle guides. Exact drive sizes follow purchased hardware. Do not improvise precise angled drilling freehand.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Prepare grampos, esquadro, trena, furadeira/parafusadeira, limitador de profundidade, pontas selecionadas e guias angulares validadas. As medidas das pontas dependem das ferragens compradas. Não improvise furos angulares precisos à mão livre."
+    }
+  },
+  {
+    "id": "assembly-01.1",
+    "type": "assembly",
+    "title": {
+      "en": "01.1 · Match manufacturing IDs and faces",
+      "pt-BR": "01.1 · Confira os IDs de fabricação e as faces"
+    },
+    "stage": "01",
+    "step": "01.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [],
+    "hardware_ids": [],
+    "action": {
+      "en": "Match every M-family and P-instance against the 106-piece register (102 CNC +4 shop-made). Use the orientation cards: FACE A is the finished machining datum; FACE B receives no CNC. Keep mirrored parts labelled.",
+      "pt-BR": "Confira cada família M e instância P com o registro de 106 peças (102 CNC +4 de marcenaria). Use as fichas de orientação: FACE A é a referência acabada de usinagem; FACE B não recebe CNC. Mantenha as peças espelhadas identificadas."
+    },
+    "check": {
+      "en": "Count 106 pieces in 62 families. Do not mistake 93 installed assemblies for the cut-piece count.",
+      "pt-BR": "Conte 106 peças em 62 famílias. Não confunda as 93 montagens instaladas com a quantidade de peças cortadas."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Match every M-family and P-instance against the 106-piece register (102 CNC +4 shop-made). Use the orientation cards: FACE A is the finished machining datum; FACE B receives no CNC. Keep mirrored parts labelled.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Confira cada família M e instância P com o registro de 106 peças (102 CNC +4 de marcenaria). Use as fichas de orientação: FACE A é a referência acabada de usinagem; FACE B não recebe CNC. Mantenha as peças espelhadas identificadas."
+    }
+  },
+  {
+    "id": "assembly-01.2",
+    "type": "assembly",
+    "title": {
+      "en": "01.2 · Check CNC work and builder finish",
+      "pt-BR": "01.2 · Confira o CNC e o acabamento do montador"
+    },
+    "stage": "01",
+    "step": "01.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [],
+    "hardware_ids": [],
+    "action": {
+      "en": "Use each piece’s preparation card. Check the contour and FACE A pockets first; then perform only the listed manual drilling, countersinking or corner/bevel finish after its holds clear. Depths refer to finished FACE A, including after face reduction.",
+      "pt-BR": "Use a ficha de preparação de cada peça. Confira primeiro o contorno e os rebaixos da FACE A; depois execute somente a furação, escareamento ou acabamento manual de cantos/chanfros listado, após liberar suas pendências. As profundidades se referem à FACE A acabada, inclusive após redução de espessura."
+    },
+    "check": {
+      "en": "Never request a second CNC face. Trial-fit without forcing thickness-dependent joints; physical coupon approval is mandatory.",
+      "pt-BR": "Nunca solicite uma segunda face CNC. Teste os encaixes sem forçar juntas dependentes da espessura; a aprovação física do cupom é obrigatória."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Use each piece’s preparation card. Check the contour and FACE A pockets first; then perform only the listed manual drilling, countersinking or corner/bevel finish after its holds clear. Depths refer to finished FACE A, including after face reduction.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Use a ficha de preparação de cada peça. Confira primeiro o contorno e os rebaixos da FACE A; depois execute somente a furação, escareamento ou acabamento manual de cantos/chanfros listado, após liberar suas pendências. As profundidades se referem à FACE A acabada, inclusive após redução de espessura."
+    }
+  },
+  {
+    "id": "assembly-02.0",
+    "type": "assembly",
+    "title": {
+      "en": "02.0 · Position and qualify solid leg blocks before closing the shell",
+      "pt-BR": "02.0 · Posicione e qualifique os blocos maciços antes de fechar a caixa"
+    },
+    "stage": "02",
+    "step": "02.0",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P029-Solid",
+      "P030-Solid",
+      "P031-Solid",
+      "P032-Solid"
+    ],
+    "hardware_ids": [
+      "H18",
+      "B13",
+      "F37"
+    ],
+    "action": {
+      "en": "Shop-cut SW 01 ×4 from dry, straight, stable knot-free solid wood:54×54×126 mm square stock, then 45° rip to the accepted triangular section. Check dimensions/squareness; register FL/FR/RL/RR to the documented cabinet datums. Before FLOOR, PC_BASE or SHELF_1 installation, fit the diagonal-face/top-stop jig, clamp, drill only with physically qualified hardware parameters, then test the real backing plate and bolts. Retain temporary support throughout.",
+      "pt-BR": "Encomende SW 01 ×4 de madeira maciça seca, reta, estável e sem nós: material quadrado 54×54×126 mm, depois corte longitudinal 45° para a seção triangular aceita. Confira dimensões/esquadro; posicione FL/FR/RL/RR nos referenciais documentados. Antes de instalar FLOOR, PC_BASE ou SHELF_1, encaixe o gabarito na diagonal/topo, prenda, fure somente com parâmetros fisicamente qualificados e teste a chapa e parafusos reais. Mantenha apoio temporário."
+    },
+    "check": {
+      "en": "HOLD: real leg/backing/bolt pitch, diameter, drilling depth, selected drill and clamp envelope, printed registration and test bore.58 mm vs 57.15 mm remains unresolved. No drilling through assembled shelves/floor; protect bore breakout and all neighboring surfaces.",
+      "pt-BR": "PENDENTE: passo/diâmetro/profundidade reais, envelope da furadeira/grampos, registro impresso e furo de teste.58 mm versus 57,15 mm continua pendente. Não fure através das prateleiras/piso montados; proteja saída e superfícies vizinhas."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Shop-cut SW 01 ×4 from dry, straight, stable knot-free solid wood:54×54×126 mm square stock, then 45° rip to the accepted triangular section. Check dimensions/squareness; register FL/FR/RL/RR to the documented cabinet datums. Before FLOOR, PC_BASE or SHELF_1 installation, fit the diagonal-face/top-stop jig, clamp, drill only with physically qualified hardware parameters, then test the real backing plate and bolts. Retain temporary support throughout.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Encomende SW 01 ×4 de madeira maciça seca, reta, estável e sem nós: material quadrado 54×54×126 mm, depois corte longitudinal 45° para a seção triangular aceita. Confira dimensões/esquadro; posicione FL/FR/RL/RR nos referenciais documentados. Antes de instalar FLOOR, PC_BASE ou SHELF_1, encaixe o gabarito na diagonal/topo, prenda, fure somente com parâmetros fisicamente qualificados e teste a chapa e parafusos reais. Mantenha apoio temporário."
+    }
+  },
+  {
+    "id": "assembly-02.1",
+    "type": "assembly",
+    "title": {
+      "en": "02.1 · Dry-fit the captured shell",
+      "pt-BR": "02.1 · Monte a caixa capturada a seco"
+    },
+    "stage": "02",
+    "step": "02.1",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P001-Main",
+      "P002-Main",
+      "P003-Main",
+      "P004-Main",
+      "P005-Main",
+      "P028-Main"
+    ],
+    "hardware_ids": [
+      "F06",
+      "G01"
+    ],
+    "action": {
+      "en": "After SW 01 jig qualification at 02.0, lay SideL on a flat reference. Insert Floor, Front, Rear and RearBearingShelf into the 4 mm side captures BEFORE closing SideR. Shelf capture is an open-top rabbet. Clamp lightly, seat shoulders, measure both diagonals and 600 mm exterior width. No screw may pull a bad fit into place. M006 installs later; do not trap the floor/shelf after closing the shell.",
+      "pt-BR": "Após qualificar SW 01 no passo 02.0, apoie SideL numa superfície plana. Encaixe piso, frente, traseira e prateleira traseira nas capturas de 4 mm ANTES de fechar SideR. A captura da prateleira é um rebaixo aberto no topo. Grampeie levemente, assente os ombros, meça diagonais e largura externa 600 mm. Não use parafusos para forçar ajuste ruim. Instale M006 depois; não prenda piso/prateleira fora da caixa já fechada."
+    },
+    "check": {
+      "en": "CABINET SQUARE CHECK: compare diagonals and seating on a flat reference. No numerical tolerance is released yet.",
+      "pt-BR": "VERIFICAÇÃO DO ESQUADRO: compare diagonais e assentamento em uma referência plana. Nenhuma tolerância numérica foi liberada."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. After SW 01 jig qualification at 02.0, lay SideL on a flat reference. Insert Floor, Front, Rear and RearBearingShelf into the 4 mm side captures BEFORE closing SideR. Shelf capture is an open-top rabbet. Clamp lightly, seat shoulders, measure both diagonals and 600 mm exterior width. No screw may pull a bad fit into place. M006 installs later; do not trap the floor/shelf after closing the shell.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Após qualificar SW 01 no passo 02.0, apoie SideL numa superfície plana. Encaixe piso, frente, traseira e prateleira traseira nas capturas de 4 mm ANTES de fechar SideR. A captura da prateleira é um rebaixo aberto no topo. Grampeie levemente, assente os ombros, meça diagonais e largura externa 600 mm. Não use parafusos para forçar ajuste ruim. Instale M006 depois; não prenda piso/prateleira fora da caixa já fechada."
+    }
+  },
+  {
+    "id": "assembly-02.2",
+    "type": "assembly",
+    "title": {
+      "en": "02.2 · Glue and clamp qualified captured joints",
+      "pt-BR": "02.2 · Cole e grampeie as juntas capturadas qualificadas"
+    },
+    "stage": "02",
+    "step": "02.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P001-Main",
+      "P002-Main",
+      "P003-Main",
+      "P004-Main"
+    ],
+    "hardware_ids": [
+      "F06",
+      "G01"
+    ],
+    "action": {
+      "en": "Disassemble after the dry-fit checkpoint. Apply the approved structural adhesive, reassemble on the reference, clamp and recheck square. Fit widths use measured plywood plus coupon clearance. Do not apply glue until the coupon passes. Front/rear joints retain existing SW 01/leg hardware interfaces; final shell fastener family F06 remains held.",
+      "pt-BR": "Desmonte após verificar o ajuste seco. Aplique adesivo estrutural aprovado, remonte sobre a referência, grampeie e confira esquadro. Larguras de encaixe usam espessura medida mais folga do cupom. Não cole antes do cupom aprovado. Frente/traseira preservam interfaces SW 01/pés; família final F06 permanece pendente."
+    },
+    "check": {
+      "en": "HOLD permanent assembly until the joint schedule and material/bond qualification are complete.",
+      "pt-BR": "PENDÊNCIA: não faça a montagem permanente antes de concluir o plano das juntas e a validação do material/colagem."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Disassemble after the dry-fit checkpoint. Apply the approved structural adhesive, reassemble on the reference, clamp and recheck square. Fit widths use measured plywood plus coupon clearance. Do not apply glue until the coupon passes. Front/rear joints retain existing SW 01/leg hardware interfaces; final shell fastener family F06 remains held.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Desmonte após verificar o ajuste seco. Aplique adesivo estrutural aprovado, remonte sobre a referência, grampeie e confira esquadro. Larguras de encaixe usam espessura medida mais folga do cupom. Não cole antes do cupom aprovado. Frente/traseira preservam interfaces SW 01/pés; família final F06 permanece pendente."
+    }
+  },
+  {
+    "id": "assembly-03.1",
+    "type": "assembly",
+    "title": {
+      "en": "03.1 · Retain floor and bearing shelf; then install M006",
+      "pt-BR": "03.1 · Retenha piso e prateleira; depois instale M006"
+    },
+    "stage": "03",
+    "step": "03.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P005-Main",
+      "P006-Main",
+      "P007-Main",
+      "P028-Main"
+    ],
+    "hardware_ids": [
+      "F58"
+    ],
+    "action": {
+      "en": "Keep M006 out while qualifying/drilling underside pockets. Paper templates locate longitudinal stations only; jig angle, stop collar, screw and depth are hardware-dependent. Check exterior skin, top-face skin and driver path on a coupon. Glue/clamp shelf shoulders at unchanged Z596.9. Install approved screws without forcing the fit. After access work, glue the two retained M006 underside ledges to floor/side; their final F06 mechanical fixing schedule remains a physical-hardware hold. Cure before loading. Optional offcut supports are tooling only and removed after cure.",
+      "pt-BR": "Mantenha M006 fora durante qualificação/furação inferior. Gabaritos de papel marcam apenas posições longitudinais; ângulo, colar, parafuso e profundidade dependem do gabarito comprado. Verifique pele externa/superior e acesso no cupom. Cole/grampeie apoios da prateleira mantendo Z596,9. Instale parafusos aprovados sem forçar ajuste. Após o acesso, cole os dois apoios M006 sob piso/laterais; fixação mecânica final F06 permanece pendente. Aguarde cura antes de carregar. Apoios de retalho opcionais são ferramentas e saem após cura."
+    },
+    "check": {
+      "en": "Confirm continuous floor support and the shelf’s broad bearing faces. Do not use screws to pull a distorted shell into alignment.",
+      "pt-BR": "Confirme o apoio contínuo do fundo e as faces amplas de apoio da prateleira. Não use parafusos para alinhar uma caixa deformada."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Keep M006 out while qualifying/drilling underside pockets. Paper templates locate longitudinal stations only; jig angle, stop collar, screw and depth are hardware-dependent. Check exterior skin, top-face skin and driver path on a coupon. Glue/clamp shelf shoulders at unchanged Z596.9. Install approved screws without forcing the fit. After access work, glue the two retained M006 underside ledges to floor/side; their final F06 mechanical fixing schedule remains a physical-hardware hold. Cure before loading. Optional offcut supports are tooling only and removed after cure.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Mantenha M006 fora durante qualificação/furação inferior. Gabaritos de papel marcam apenas posições longitudinais; ângulo, colar, parafuso e profundidade dependem do gabarito comprado. Verifique pele externa/superior e acesso no cupom. Cole/grampeie apoios da prateleira mantendo Z596,9. Instale parafusos aprovados sem forçar ajuste. Após o acesso, cole os dois apoios M006 sob piso/laterais; fixação mecânica final F06 permanece pendente. Aguarde cura antes de carregar. Apoios de retalho opcionais são ferramentas e saem após cura."
+    }
+  },
+  {
+    "id": "assembly-04.1",
+    "type": "assembly",
+    "title": {
+      "en": "04.1 · Install guides and shelf supports",
+      "pt-BR": "04.1 · Instale guias e apoios das prateleiras"
+    },
+    "stage": "04",
+    "step": "04.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P009-Main",
+      "P010-Main",
+      "P011-Main",
+      "P012-Main",
+      "P013-Main",
+      "P014-Main",
+      "P015-Main",
+      "P016-Main",
+      "P017-Main",
+      "P018-Main",
+      "P019-Main",
+      "P020-Main",
+      "P021-Main",
+      "P022-Main",
+      "P023-Main",
+      "P024-Main",
+      "P025-Main",
+      "P026-Main",
+      "P027-Main"
+    ],
+    "hardware_ids": [
+      "F03",
+      "W01",
+      "I01",
+      "F04",
+      "W02",
+      "B02",
+      "F05",
+      "F52",
+      "I14",
+      "F07",
+      "I02",
+      "W03"
+    ],
+    "action": {
+      "en": "Identify S1–S3 and T1–T3 with their matching supports/guides. Use the actual mounting interfaces; F05/F52/I14 are catalog hardware, not permission to guess unlocated holes.",
+      "pt-BR": "Identifique S1–S3 e T1–T3 com seus apoios/guias correspondentes. Use as interfaces reais de montagem; F05/F52/I14 são ferragens do catálogo, não autorização para adivinhar furos sem posição definida."
+    },
+    "check": {
+      "en": "SHELF HEIGHT CHECK: confirm left/right seats align and removable shelves/crossmembers can be extracted without forcing.",
+      "pt-BR": "VERIFICAÇÃO DA ALTURA: confirme o alinhamento dos apoios esquerdo/direito e a retirada das prateleiras/travessas sem forçar."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Identify S1–S3 and T1–T3 with their matching supports/guides. Use the actual mounting interfaces; F05/F52/I14 are catalog hardware, not permission to guess unlocated holes.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Identifique S1–S3 e T1–T3 com seus apoios/guias correspondentes. Use as interfaces reais de montagem; F05/F52/I14 são ferragens do catálogo, não autorização para adivinhar furos sem posição definida."
+    }
+  },
+  {
+    "id": "assembly-04.2",
+    "type": "assembly",
+    "title": {
+      "en": "04.2 · Secure removable boards",
+      "pt-BR": "04.2 · Fixe as placas removíveis"
+    },
+    "stage": "04",
+    "step": "04.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P009-Main",
+      "P010-Main",
+      "P011-Main",
+      "P012-Main",
+      "P013-Main",
+      "P014-Main",
+      "P015-Main",
+      "P016-Main",
+      "P017-Main",
+      "P018-Main",
+      "P019-Main",
+      "P020-Main",
+      "P021-Main",
+      "P022-Main",
+      "P023-Main",
+      "P024-Main",
+      "P025-Main",
+      "P026-Main",
+      "P027-Main"
+    ],
+    "hardware_ids": [
+      "F03",
+      "W01",
+      "I01",
+      "F04",
+      "W02",
+      "B02",
+      "F05",
+      "F52",
+      "I14",
+      "F07",
+      "I02",
+      "W03"
+    ],
+    "action": {
+      "en": "Fit shelf clamp hardware and PCBase flush floor anchors only after their stack is confirmed. PCBase is the accepted low board, not a drawer. Electronics payloads are optional later additions.",
+      "pt-BR": "Instale as ferragens de aperto das prateleiras e ancoragens niveladas da PCBase somente após confirmar suas camadas. PCBase é a placa baixa aceita, não uma gaveta. As cargas eletrônicas são adições opcionais futuras."
+    },
+    "check": {
+      "en": "Check positive retention and service removal; keep side-wall SSF zones unbridged.",
+      "pt-BR": "Confira a retenção positiva e a remoção para manutenção; não crie travamentos nas zonas SSF das laterais."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Fit shelf clamp hardware and PCBase flush floor anchors only after their stack is confirmed. PCBase is the accepted low board, not a drawer. Electronics payloads are optional later additions.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Instale as ferragens de aperto das prateleiras e ancoragens niveladas da PCBase somente após confirmar suas camadas. PCBase é a placa baixa aceita, não uma gaveta. As cargas eletrônicas são adições opcionais futuras."
+    }
+  },
+  {
+    "id": "assembly-05.1",
+    "type": "assembly",
+    "title": {
+      "en": "05.1 · Install the retained open cradles",
+      "pt-BR": "05.1 · Instale os berços abertos preservados"
+    },
+    "stage": "05",
+    "step": "05.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P035-Main",
+      "P036-Main"
+    ],
+    "hardware_ids": [
+      "F01"
+    ],
+    "action": {
+      "en": "Install the real M026/M027 profiles with the six unchanged F01 coordinates and direct floor feet. The upper-wall trim was rejected: unchanged minimum root alone does not prove unchanged ear stiffness. Preserve 180° dowel seating,8.251 mm front root and 6.280 mm rear limiting ligament. S3/T3 stay at CURRENT datums. Verify 48 mm lift-out and 50° service; no bearings or metal shaft.",
+      "pt-BR": "Instale os perfis reais M026/M027 nos seis pontos F01 inalterados e pés apoiados no piso. O recorte superior foi rejeitado: manter a raiz mínima não comprova rigidez igual da orelha. Preserve apoio 180°, raiz frontal 8,251 mm e ligamento traseiro 6,280 mm. S3/T3 mantêm referências CURRENT. Confira remoção 48 mm e serviço 50°; sem rolamentos ou eixo metálico."
+    },
+    "check": {
+      "en": "CRADLE ALIGNMENT CHECK: both seats share the accepted axis and both feet bear continuously. Do not shim or relocate the axis without a new review.",
+      "pt-BR": "VERIFICAÇÃO DOS BERÇOS: os dois assentos compartilham o eixo aceito e os pés se apoiam continuamente. Não calce nem reposicione o eixo sem nova revisão."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Install the real M026/M027 profiles with the six unchanged F01 coordinates and direct floor feet. The upper-wall trim was rejected: unchanged minimum root alone does not prove unchanged ear stiffness. Preserve 180° dowel seating,8.251 mm front root and 6.280 mm rear limiting ligament. S3/T3 stay at CURRENT datums. Verify 48 mm lift-out and 50° service; no bearings or metal shaft.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Instale os perfis reais M026/M027 nos seis pontos F01 inalterados e pés apoiados no piso. O recorte superior foi rejeitado: manter a raiz mínima não comprova rigidez igual da orelha. Preserve apoio 180°, raiz frontal 8,251 mm e ligamento traseiro 6,280 mm. S3/T3 mantêm referências CURRENT. Confira remoção 48 mm e serviço 50°; sem rolamentos ou eixo metálico."
+    }
+  },
+  {
+    "id": "assembly-05.2",
+    "type": "assembly",
+    "title": {
+      "en": "05.2 · Install the front landing bodies and adjuster stacks",
+      "pt-BR": "05.2 · Instale os corpos dos apoios e os conjuntos reguladores"
+    },
+    "stage": "05",
+    "step": "05.2",
+    "first_stage_step": false,
+    "duration_s": 8,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "piece_ids": [
+      "P095-Layer1",
+      "P095-Layer2",
+      "P095-Layer3",
+      "P096-Layer1",
+      "P096-Layer2",
+      "P096-Layer3"
+    ],
+    "hardware_ids": [
+      "F59",
+      "F60",
+      "F61",
+      "H27",
+      "I15",
+      "I16",
+      "I17",
+      "I18",
+      "W11",
+      "W12",
+      "B17"
+    ],
+    "action": {
+      "en": "Identify the actual manufacturing members and handed placement from their FACE A cards. Assemble the front landing bodies at the CURRENT side-wall datums after the button/service zone. Glue the three laminations together and secure them with the two specified lamination screws. Mount each finished body with four positive side screws; do not glue the body to the wall or rely on wall friction. Fit metal threaded receivers, adjusters, locknuts and replaceable contact tips. The M025 blind metal-receiver bores are PURCHASE_BEFORE_CNC / hardware-dependent manual finish, not supplied holes; use a qualified rigid angle drill guide matching the 9.906669° difference from the board normal and a depth stop. Qualify the actual bore, drill-point allowance and intact top skin on a coupon; the 11.3 mm reference depth is a packaging limit, not a drilling instruction. Never thread a repeated structural retainer directly into plywood. Include the contact-pad thickness in the nominal stack. Keep the assembly replaceable and use no added shims or T1 shoes.",
+      "pt-BR": "Identifique peças reais e orientação pelas fichas FACE A. Monte os apoios frontais nas referências CURRENT das laterais, após a zona de botões/serviço. Cole as três lâminas entre si e fixe-as com os dois parafusos de laminação especificados. Monte cada corpo pronto com quatro parafusos positivos na lateral; não cole o corpo na parede nem dependa de atrito. Instale receptores metálicos roscados, reguladores, contraporcas e pontas substituíveis. Os furos cegos dos receptores metálicos em M025 são PURCHASE_BEFORE_CNC / acabamento manual dependente da ferragem, não furos já fornecidos; use uma guia rígida qualificada para o ângulo de 9,906669° em relação à normal da placa e limitador de profundidade. Qualifique furo real, ponta da broca e pele superior intacta em cupom;11,3 mm de referência é limite de ocupação, não instrução de furação. Nunca rosqueie retenção estrutural repetitiva diretamente no compensado. Inclua a espessura da ponta na altura nominal. Preserve substituição e não acrescente calços nem sapatas em T1."
+    },
+    "check": {
+      "en": "Verify full body-to-side bearing, screw/receiver engagement, no exterior breakthrough, retained button/wire/tool access, and clearance to plunger, S1, legs and front service. Exact purchased dimensions remain HOLD.",
+      "pt-BR": "Verifique apoio integral na lateral, engate de parafusos/receptores, ausência de perfuração externa, acesso a botões/fios/ferramentas e folgas ao plunger, S1, pernas e serviço frontal. Dimensões compradas continuam PENDENTES."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Identify the actual manufacturing members and handed placement from their FACE A cards. Assemble the front landing bodies at the CURRENT side-wall datums after the button/service zone. Glue the three laminations together and secure them with the two specified lamination screws. Mount each finished body with four positive side screws; do not glue the body to the wall or rely on wall friction. Fit metal threaded receivers, adjusters, locknuts and replaceable contact tips. The M025 blind metal-receiver bores are PURCHASE_BEFORE_CNC / hardware-dependent manual finish, not supplied holes; use a qualified rigid angle drill guide matching the 9.906669° difference from the board normal and a depth stop. Qualify the actual bore, drill-point allowance and intact top skin on a coupon; the 11.3 mm reference depth is a packaging limit, not a drilling instruction. Never thread a repeated structural retainer directly into plywood. Include the contact-pad thickness in the nominal stack. Keep the assembly replaceable and use no added shims or T1 shoes.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Identifique peças reais e orientação pelas fichas FACE A. Monte os apoios frontais nas referências CURRENT das laterais, após a zona de botões/serviço. Cole as três lâminas entre si e fixe-as com os dois parafusos de laminação especificados. Monte cada corpo pronto com quatro parafusos positivos na lateral; não cole o corpo na parede nem dependa de atrito. Instale receptores metálicos roscados, reguladores, contraporcas e pontas substituíveis. Os furos cegos dos receptores metálicos em M025 são PURCHASE_BEFORE_CNC / acabamento manual dependente da ferragem, não furos já fornecidos; use uma guia rígida qualificada para o ângulo de 9,906669° em relação à normal da placa e limitador de profundidade. Qualifique furo real, ponta da broca e pele superior intacta em cupom;11,3 mm de referência é limite de ocupação, não instrução de furação. Nunca rosqueie retenção estrutural repetitiva diretamente no compensado. Inclua a espessura da ponta na altura nominal. Preserve substituição e não acrescente calços nem sapatas em T1."
+    }
+  },
+  {
+    "id": "assembly-06.1",
+    "type": "assembly",
+    "title": {
+      "en": "06.1 · Capture the wooden dowel",
+      "pt-BR": "06.1 · Prenda a cavilha de madeira"
+    },
+    "stage": "06",
+    "step": "06.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P034-Main"
+    ],
+    "hardware_ids": [
+      "F02",
+      "H01",
+      "B01"
+    ],
+    "action": {
+      "en": "Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings. Use CURRENT M025 with the clean relief open to the front edge: narrowed straight sides and rounded return to full width, with no horn, front bridge or hooked projection. Keep the V33.6 rear 180 × 110 mm R8 service window and two strain-relief slots. Preserve the VESA load region, dowel, four straps and eight F02 coordinates. Button clearance is derived from the restored front leaf-body, terminal, wire and tool reserves. Do not move buttons to fit the plywood. Final display/button hardware and stiffness qualification remain HOLD. Owner-requested V33.6.2 relief extends 30 mm farther inward on EACH side: total inset 52 mm, remaining front width 396 mm, retained length 87 mm and R8 transition. Buttons stay atY 89/Y127, local side top minus 65 mm. Rear window, strain slots, VESA region, dowel and straps remain unchanged.",
+      "pt-BR": "Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT com alívio limpo aberto até a borda frontal: laterais retas recuadas e retorno arredondado à largura total, sem ponta, ponte frontal ou gancho. Mantenha a janela traseira V33.6 de 180 × 110 mm R8 e dois rasgos para alívio de tração. Preserve região de carga VESA, cavilha, quatro abraçadeiras e oito coordenadas F02. A folga é derivada das reservas frontais de corpo leaf, terminais, fios e ferramenta. Não mova os botões para acomodar a madeira. Ferragens finais do monitor/botões e qualificação de rigidez permanecem PENDENTES. O alívio V33.6.2 solicitado avança mais 30 mm para dentro em CADA lateral: recuo total 52 mm, largura frontal restante 396 mm, comprimento 87 mm e transiçãoR 8 mantidos. Os botões permanecem emY 89/Y127,65 mm abaixo do topo local. Janela traseira, rasgos de alívio de tração, região VESA, cavilha e abraçadeiras permanecem iguais."
+    },
+    "check": {
+      "en": "Check strap seating, screw engagement and no splitting after purchased strap/material qualification.",
+      "pt-BR": "Confira assentamento das abraçadeiras, engate dos parafusos e ausência de rachaduras após validar as abraçadeiras/material."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings. Use CURRENT M025 with the clean relief open to the front edge: narrowed straight sides and rounded return to full width, with no horn, front bridge or hooked projection. Keep the V33.6 rear 180 × 110 mm R8 service window and two strain-relief slots. Preserve the VESA load region, dowel, four straps and eight F02 coordinates. Button clearance is derived from the restored front leaf-body, terminal, wire and tool reserves. Do not move buttons to fit the plywood. Final display/button hardware and stiffness qualification remain HOLD. Owner-requested V33.6.2 relief extends 30 mm farther inward on EACH side: total inset 52 mm, remaining front width 396 mm, retained length 87 mm and R8 transition. Buttons stay atY 89/Y127, local side top minus 65 mm. Rear window, strain slots, VESA region, dowel and straps remain unchanged.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT com alívio limpo aberto até a borda frontal: laterais retas recuadas e retorno arredondado à largura total, sem ponta, ponte frontal ou gancho. Mantenha a janela traseira V33.6 de 180 × 110 mm R8 e dois rasgos para alívio de tração. Preserve região de carga VESA, cavilha, quatro abraçadeiras e oito coordenadas F02. A folga é derivada das reservas frontais de corpo leaf, terminais, fios e ferramenta. Não mova os botões para acomodar a madeira. Ferragens finais do monitor/botões e qualificação de rigidez permanecem PENDENTES. O alívio V33.6.2 solicitado avança mais 30 mm para dentro em CADA lateral: recuo total 52 mm, largura frontal restante 396 mm, comprimento 87 mm e transiçãoR 8 mantidos. Os botões permanecem emY 89/Y127,65 mm abaixo do topo local. Janela traseira, rasgos de alívio de tração, região VESA, cavilha e abraçadeiras permanecem iguais."
+    }
+  },
+  {
+    "id": "assembly-06.2",
+    "type": "assembly",
+    "title": {
+      "en": "06.2 · Seat rear dowel and lower onto the front landings",
+      "pt-BR": "06.2 · Assente a cavilha traseira e abaixe nos apoios frontais"
+    },
+    "stage": "06",
+    "step": "06.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P034-Main",
+      "P095-Layer1",
+      "P095-Layer2",
+      "P095-Layer3",
+      "P096-Layer1",
+      "P096-Layer2",
+      "P096-Layer3"
+    ],
+    "hardware_ids": [
+      "F02",
+      "H01",
+      "B01",
+      "F59",
+      "F60",
+      "F61",
+      "H27",
+      "I15",
+      "I16",
+      "I17",
+      "I18",
+      "W11",
+      "W12",
+      "B17"
+    ],
+    "action": {
+      "en": "Remove the main playfield glass and matrix. Release both captive closed-position retainers to their documented parked limits; keep the front support bodies installed. Support the module while seating both ends of the Ø32 dowel in the rear open cradles, then lower the front onto the two resilient adjuster contacts. Rear dowel/cradles define the rear support axis; the front landings carry the front load into the structural side walls. T1/T2/T3 remain cabinet structural crossmembers, intentionally clear by about 22 mm normal to the base; none is a playfield landing. Keep the clean 52 mm front inset,87 mm length,R8 transitions and 396 mm front width. CURRENT setup: pad centers X72 / X528, Y245 mm; retention axes are 30 mm rearward. Each body is 3 × nominal 18 mm plywood. M8 adjustment is±3 mm of stack/tolerance compensation to reproduce the unchanged 9.906669° PLAY pose, including the 3 mm contact tip. Retention release travel is 10.5 mm after unscrewing. These are reference packaging values, not purchased machining dimensions.",
+      "pt-BR": "Remova o vidro principal e a matriz. Solte as duas retenções cativas da posição fechada até os limites de estacionamento documentados; mantenha os corpos dos apoios frontais instalados. Sustente o módulo ao assentar as duas pontas da cavilha Ø32 nos berços traseiros e depois abaixe a frente sobre os dois contatos resilientes reguláveis. Cavilha/berços definem o eixo de apoio traseiro; os apoios frontais levam a carga às laterais estruturais. T1/T2/T3 são travessas estruturais do gabinete, com folga intencional de aproximadamente 22 mm normal à base; nenhuma é apoio do playfield. Mantenha recuos frontais 52 mm, comprimento 87 mm, transiçõesR 8 e largura frontal 396 mm. Ajuste CURRENT: centros das pontas X72 / X528, Y245 mm; eixos de retenção 30 mm atrás. Cada corpo tem 3 ×18 mm nominais. Curso M8±3 mm de compensação de tolerâncias para reproduzir a posição PLAY inalterada de 9,906669°, incluindo ponta de 3 mm. Retenção recua 10.5 mm após desrosquear. São valores de referência de ocupação, não dimensões de usinagem compradas."
+    },
+    "check": {
+      "en": "REAR SEATING / FRONT CONTACT CHECK: both dowel ends fully seated; both front contacts loaded without rocking. No weight on glass, lockdown, buttons, electronics, cable or T1/T2/T3. Keep the module externally supported until the selected hardware/wood is qualified.",
+      "pt-BR": "VERIFICAÇÃO DO APOIO TRASEIRO / CONTATO FRONTAL: ambas as pontas da cavilha assentadas; ambos os contatos frontais carregados, sem balanço. Nenhuma carga no vidro, lockdown, botões, eletrônica, cabo ou T1/T2/T3. Sustente externamente até qualificar ferragens/madeira."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Remove the main playfield glass and matrix. Release both captive closed-position retainers to their documented parked limits; keep the front support bodies installed. Support the module while seating both ends of the Ø32 dowel in the rear open cradles, then lower the front onto the two resilient adjuster contacts. Rear dowel/cradles define the rear support axis; the front landings carry the front load into the structural side walls. T1/T2/T3 remain cabinet structural crossmembers, intentionally clear by about 22 mm normal to the base; none is a playfield landing. Keep the clean 52 mm front inset,87 mm length,R8 transitions and 396 mm front width. CURRENT setup: pad centers X72 / X528, Y245 mm; retention axes are 30 mm rearward. Each body is 3 × nominal 18 mm plywood. M8 adjustment is±3 mm of stack/tolerance compensation to reproduce the unchanged 9.906669° PLAY pose, including the 3 mm contact tip. Retention release travel is 10.5 mm after unscrewing. These are reference packaging values, not purchased machining dimensions.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Remova o vidro principal e a matriz. Solte as duas retenções cativas da posição fechada até os limites de estacionamento documentados; mantenha os corpos dos apoios frontais instalados. Sustente o módulo ao assentar as duas pontas da cavilha Ø32 nos berços traseiros e depois abaixe a frente sobre os dois contatos resilientes reguláveis. Cavilha/berços definem o eixo de apoio traseiro; os apoios frontais levam a carga às laterais estruturais. T1/T2/T3 são travessas estruturais do gabinete, com folga intencional de aproximadamente 22 mm normal à base; nenhuma é apoio do playfield. Mantenha recuos frontais 52 mm, comprimento 87 mm, transiçõesR 8 e largura frontal 396 mm. Ajuste CURRENT: centros das pontas X72 / X528, Y245 mm; eixos de retenção 30 mm atrás. Cada corpo tem 3 ×18 mm nominais. Curso M8±3 mm de compensação de tolerâncias para reproduzir a posição PLAY inalterada de 9,906669°, incluindo ponta de 3 mm. Retenção recua 10.5 mm após desrosquear. São valores de referência de ocupação, não dimensões de usinagem compradas."
+    }
+  },
+  {
+    "id": "assembly-06.3",
+    "type": "assembly",
+    "title": {
+      "en": "06.3 · Reproduce the approved PLAY pose and engage retention",
+      "pt-BR": "06.3 · Reproduza a posição PLAY aprovada e engate a retenção"
+    },
+    "stage": "06",
+    "step": "06.3",
+    "first_stage_step": false,
+    "duration_s": 8,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "piece_ids": [
+      "P095-Layer1",
+      "P095-Layer2",
+      "P095-Layer3",
+      "P096-Layer1",
+      "P096-Layer2",
+      "P096-Layer3"
+    ],
+    "hardware_ids": [
+      "F59",
+      "F60",
+      "F61",
+      "H27",
+      "I15",
+      "I16",
+      "I17",
+      "I18",
+      "W11",
+      "W12",
+      "B17"
+    ],
+    "action": {
+      "en": "Leave both retainers released while adjusting. Start both front adjusters at the nominal CAD height. With the rear dowel fully seated, adjust left and right for equal transverse height while retaining the CURRENT fore/aft slope of 9.906669°. The±3 mm travel compensates hardware/material tolerances only; it does not authorize a new playing height, slope or left/right twist. The complete−3 mm lowered pose collides with button envelopes and is forbidden. Include both contact tips and reproduce the exact nominal pose. Lock both adjuster locknuts, then reset each captive bolt stop for 7 mm reference engagement, within the qualified 6–8 mm purchased-hardware limits. Open the coin door to the validated 110° service pose. Reach the two retention heads through that front service aperture with the compact spanner; no electronics removal is required. Use the spanner to engage the two captive M6-family hex bolts into the metal-backed receivers without lifting the base from its pads. Retainers resist uplift/rattle; they do not replace the landing load path. Check glass/lockdown clearance. For opening, remove main glass/matrix, support the module, release and park both retainers, then rotate to 50°. Routine opening does not remove landing bodies. For complete removal, retainers stay released and the whole module lifts 48 mm clear of the rear cradles.",
+      "pt-BR": "Mantenha ambas as retenções soltas durante o ajuste. Inicie os reguladores na altura nominal do CAD. Com a cavilha traseira assentada, ajuste esquerda/direita para a mesma altura transversal e mantenha a inclinação longitudinal CURRENT de 9,906669°. O curso±3 mm compensa apenas tolerâncias de ferragens/material; não autoriza nova altura, inclinação ou torção transversal. A posição inteira rebaixada−3 mm colide com os envelopes dos botões e é proibida. Inclua ambas as pontas e reproduza a posição nominal exata. Trave as contraporcas e reajuste cada batente de retenção para engate de referência 7 mm, dentro dos limites 6–8 mm qualificados na ferragem comprada. Abra a porta frontal de moedas na posição de serviço validada de 110°. Alcance as duas cabeças de retenção por essa abertura com a chave compacta; não é necessário remover eletrônica. Use a chave para engatar os dois parafusos sextavados cativos da família M6 nos receptores metálicos sem retirar a base dos apoios. As retenções resistem à elevação/vibração e não substituem o apoio vertical. Confira folgas do vidro/lockdown. Para abrir, remova vidro principal/matriz, sustente o módulo, solte/estacione as duas retenções e gire até 50°. Abertura normal não remove os apoios. Para retirada completa, deixe as retenções soltas e eleve o módulo 48 mm para liberar os berços."
+    },
+    "check": {
+      "en": "LEVEL / RETENTION CHECK: left–right level, intended fore/aft slope, both locknuts secured, both retainers positively engaged, no rocking. Then test release, clean early pad separation,50° service and 48 mm lift under controlled handling. No uncontrolled drop and no pivot-friction assumption.",
+      "pt-BR": "VERIFICAÇÃO DE NÍVEL / RETENÇÃO: nível transversal, inclinação longitudinal correta, contraporcas travadas, retenções engatadas e ausência de balanço. Teste soltura, separação inicial limpa, serviço 50° e retirada 48 mm com manuseio controlado. Não permita queda nem suponha retenção por atrito do pivô."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Leave both retainers released while adjusting. Start both front adjusters at the nominal CAD height. With the rear dowel fully seated, adjust left and right for equal transverse height while retaining the CURRENT fore/aft slope of 9.906669°. The±3 mm travel compensates hardware/material tolerances only; it does not authorize a new playing height, slope or left/right twist. The complete−3 mm lowered pose collides with button envelopes and is forbidden. Include both contact tips and reproduce the exact nominal pose. Lock both adjuster locknuts, then reset each captive bolt stop for 7 mm reference engagement, within the qualified 6–8 mm purchased-hardware limits. Open the coin door to the validated 110° service pose. Reach the two retention heads through that front service aperture with the compact spanner; no electronics removal is required. Use the spanner to engage the two captive M6-family hex bolts into the metal-backed receivers without lifting the base from its pads. Retainers resist uplift/rattle; they do not replace the landing load path. Check glass/lockdown clearance. For opening, remove main glass/matrix, support the module, release and park both retainers, then rotate to 50°. Routine opening does not remove landing bodies. For complete removal, retainers stay released and the whole module lifts 48 mm clear of the rear cradles.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Mantenha ambas as retenções soltas durante o ajuste. Inicie os reguladores na altura nominal do CAD. Com a cavilha traseira assentada, ajuste esquerda/direita para a mesma altura transversal e mantenha a inclinação longitudinal CURRENT de 9,906669°. O curso±3 mm compensa apenas tolerâncias de ferragens/material; não autoriza nova altura, inclinação ou torção transversal. A posição inteira rebaixada−3 mm colide com os envelopes dos botões e é proibida. Inclua ambas as pontas e reproduza a posição nominal exata. Trave as contraporcas e reajuste cada batente de retenção para engate de referência 7 mm, dentro dos limites 6–8 mm qualificados na ferragem comprada. Abra a porta frontal de moedas na posição de serviço validada de 110°. Alcance as duas cabeças de retenção por essa abertura com a chave compacta; não é necessário remover eletrônica. Use a chave para engatar os dois parafusos sextavados cativos da família M6 nos receptores metálicos sem retirar a base dos apoios. As retenções resistem à elevação/vibração e não substituem o apoio vertical. Confira folgas do vidro/lockdown. Para abrir, remova vidro principal/matriz, sustente o módulo, solte/estacione as duas retenções e gire até 50°. Abertura normal não remove os apoios. Para retirada completa, deixe as retenções soltas e eleve o módulo 48 mm para liberar os berços."
+    }
+  },
+  {
+    "id": "assembly-07.1",
+    "type": "assembly",
+    "title": {
+      "en": "07.1 · Fit rear door hardware",
+      "pt-BR": "07.1 · Instale as ferragens da porta traseira"
+    },
+    "stage": "07",
+    "step": "07.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P008-Main",
+      "P037-Main",
+      "P038-Main"
+    ],
+    "hardware_ids": [
+      "H02",
+      "H03",
+      "B03",
+      "H04",
+      "F08",
+      "F09",
+      "F53",
+      "G02",
+      "H05",
+      "H06",
+      "F10",
+      "I03",
+      "F11",
+      "F12",
+      "I04",
+      "H07",
+      "B04",
+      "B05",
+      "B06",
+      "F13",
+      "G03"
+    ],
+    "action": {
+      "en": "Fit the main rear door, its two hinge assemblies, keeper and lock from the selected hardware. Main rear hinge hardware is separate from the backbox piano hinges. Keep selected-hardware quantities as formulas.",
+      "pt-BR": "Instale a porta traseira principal, suas duas dobradiças, contra-fecho e fechadura com as ferragens selecionadas. Essas dobradiças são distintas das dobradiças contínuas do backbox. Mantenha as quantidades dependentes das ferragens como fórmulas."
+    },
+    "check": {
+      "en": "REAR DOOR SWEEP CHECK: verify opening, latch engagement and ordinary tool access without forcing the flush door.",
+      "pt-BR": "VERIFICAÇÃO DA PORTA TRASEIRA: confira abertura, engate do fecho e acesso com ferramenta comum sem forçar a porta nivelada."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Fit the main rear door, its two hinge assemblies, keeper and lock from the selected hardware. Main rear hinge hardware is separate from the backbox piano hinges. Keep selected-hardware quantities as formulas.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Instale a porta traseira principal, suas duas dobradiças, contra-fecho e fechadura com as ferragens selecionadas. Essas dobradiças são distintas das dobradiças contínuas do backbox. Mantenha as quantidades dependentes das ferragens como fórmulas."
+    }
+  },
+  {
+    "id": "assembly-07.2",
+    "type": "assembly",
+    "title": {
+      "en": "07.2 · Fit rear fans from the interior",
+      "pt-BR": "07.2 · Instale ventoinhas traseiras pelo interior"
+    },
+    "stage": "07",
+    "step": "07.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P008-Main",
+      "P037-Main",
+      "P038-Main"
+    ],
+    "hardware_ids": [
+      "H02",
+      "H03",
+      "B03",
+      "H04",
+      "F08",
+      "F09",
+      "F53",
+      "G02",
+      "H05",
+      "H06",
+      "I03",
+      "F11",
+      "F12",
+      "I04",
+      "H07",
+      "B04",
+      "B05",
+      "B06",
+      "F13",
+      "G03",
+      "F56"
+    ],
+    "action": {
+      "en": "Place fan against rear wood, inner finger grill against fan, then F56 screw heads facing the interior. Drive toward the wood. Withdraw old F10 through bolts/exterior washers and rear I03 nuts. Floor fan M4 fasteners remain unchanged. Select grip length, wood bite and pilot on the purchased fan/grill; no exterior breakthrough. Fan/accessory selection remains optional.",
+      "pt-BR": "Encoste ventoinha na madeira traseira, grade interna na ventoinha e cabeças F56 voltadas ao interior. Parafuse para a madeira. Retire hipótese antiga F10, arruelas externas e porcas I03 traseiras. Fixação M4 das ventoinhas do piso fica igual. Selecione comprimento, penetração e piloto com ventoinha/grade reais; sem atravessar a face externa. Ventoinha/acessórios são opcionais."
+    },
+    "check": {
+      "en": "Filters remain serviceable; no fan or electronics purchase is required to understand the mechanical kit.",
+      "pt-BR": "Os filtros devem permanecer acessíveis; não é necessário comprar ventoinhas ou eletrônica para compreender o kit mecânico."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Place fan against rear wood, inner finger grill against fan, then F56 screw heads facing the interior. Drive toward the wood. Withdraw old F10 through bolts/exterior washers and rear I03 nuts. Floor fan M4 fasteners remain unchanged. Select grip length, wood bite and pilot on the purchased fan/grill; no exterior breakthrough. Fan/accessory selection remains optional.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Encoste ventoinha na madeira traseira, grade interna na ventoinha e cabeças F56 voltadas ao interior. Parafuse para a madeira. Retire hipótese antiga F10, arruelas externas e porcas I03 traseiras. Fixação M4 das ventoinhas do piso fica igual. Selecione comprimento, penetração e piloto com ventoinha/grade reais; sem atravessar a face externa. Ventoinha/acessórios são opcionais."
+    }
+  },
+  {
+    "id": "assembly-07.3",
+    "type": "assembly",
+    "title": {
+      "en": "07.3 · Install the removable underfront user module",
+      "pt-BR": "07.3 · Instale o módulo removível do usuário sob a frente"
+    },
+    "stage": "07",
+    "step": "07.3",
+    "first_stage_step": false,
+    "duration_s": 8,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "piece_ids": [
+      "P097-Main"
+    ],
+    "hardware_ids": [
+      "F62",
+      "I19",
+      "E15",
+      "E16"
+    ],
+    "action": {
+      "en": "Identify the existing structural 18 mm FLOOR / M005 with its scoped underside bay and the removable 12 mm plate from their FACE A cards. The bay is one-face machining in the existing floor, not a separate wooden box; preserve its authoritative underside-front datums. Retain the plate with the four positive machine-fastener/captive-insert interfaces, accessible from below. Fit a blank plate for the basic mechanical cabinet, or a replaceable user adapter after controls are selected. Alternative button/USB layouts use this same bay and are mutually exclusive. Keep a flexible harness/service-loop corridor and the rear component reserve; the electrical connector remains builder-configurable. Do not cut schematic button or USB holes into permanent wood.",
+      "pt-BR": "Identifique o FLOOR / M005 estrutural existente 18 mm com alojamento inferior localizado e a placa removível 12 mm pelas fichas FACE A. O alojamento é usinado por uma face no fundo existente, não uma caixa de madeira separada; preserve suas referências oficiais sob a frente. Fixe a placa nas quatro interfaces positivas de parafuso de máquina/inserto cativo acessíveis por baixo. Use placa cega no gabinete mecânico básico ou adaptador substituível após selecionar controles. Arranjos alternativos de botões/USB usam o mesmo alojamento e são mutuamente exclusivos. Mantenha corredor de chicote/laço de serviço flexível e reserva traseira dos componentes; o conector elétrico é escolha do construtor. Não corte furos esquemáticos de botão/USB na madeira permanente."
+    },
+    "check": {
+      "en": "MODULE RETENTION / SERVICE CHECK: all four attachments positively secure the plate; no loose hardware can drop inside. Confirm underside tool access, selected control reach and clearance to front structure, coin door, plunger, legs, playfield and landing hardware. Support the plate during removal; release its four attachments and follow the documented path. Cable flex/connector disconnection is hardware-dependent, not a validated electrical instruction.",
+      "pt-BR": "VERIFICAÇÃO DE RETENÇÃO / SERVIÇO: as quatro fixações seguram positivamente a placa; não deixe ferragens soltas caírem. Confira acesso inferior da ferramenta, alcance dos controles e folgas à frente, porta de moedas, plunger, pernas, playfield e seus apoios. Sustente a placa na retirada; solte as quatro fixações e siga o trajeto documentado. Flexão/desconexão de cabo depende das ferragens; não é instrução elétrica validada."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Identify the existing structural 18 mm FLOOR / M005 with its scoped underside bay and the removable 12 mm plate from their FACE A cards. The bay is one-face machining in the existing floor, not a separate wooden box; preserve its authoritative underside-front datums. Retain the plate with the four positive machine-fastener/captive-insert interfaces, accessible from below. Fit a blank plate for the basic mechanical cabinet, or a replaceable user adapter after controls are selected. Alternative button/USB layouts use this same bay and are mutually exclusive. Keep a flexible harness/service-loop corridor and the rear component reserve; the electrical connector remains builder-configurable. Do not cut schematic button or USB holes into permanent wood.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Identifique o FLOOR / M005 estrutural existente 18 mm com alojamento inferior localizado e a placa removível 12 mm pelas fichas FACE A. O alojamento é usinado por uma face no fundo existente, não uma caixa de madeira separada; preserve suas referências oficiais sob a frente. Fixe a placa nas quatro interfaces positivas de parafuso de máquina/inserto cativo acessíveis por baixo. Use placa cega no gabinete mecânico básico ou adaptador substituível após selecionar controles. Arranjos alternativos de botões/USB usam o mesmo alojamento e são mutuamente exclusivos. Mantenha corredor de chicote/laço de serviço flexível e reserva traseira dos componentes; o conector elétrico é escolha do construtor. Não corte furos esquemáticos de botão/USB na madeira permanente."
+    }
+  },
+  {
+    "id": "assembly-08.1",
+    "type": "assembly",
+    "title": {
+      "en": "08.1 · Assemble the structural backbox",
+      "pt-BR": "08.1 · Monte a estrutura do backbox"
+    },
+    "stage": "08",
+    "step": "08.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P042-Main",
+      "P043-Main",
+      "P044-Main",
+      "P045-Main",
+      "P046-Main",
+      "P047-Main"
+    ],
+    "hardware_ids": [
+      "F16",
+      "F54"
+    ],
+    "action": {
+      "en": "Assemble 210 mm lower-depth sides, Y1146 straight-front floor, top and fixed rear frame. The side projection ahead of the floor is intentional. Maintain structural validity with both rear doors open.",
+      "pt-BR": "Monte as laterais com profundidade inferior de 210 mm, fundo reto em Y1146, topo e quadro traseiro fixo. A projeção das laterais à frente do fundo é intencional. Preserve a integridade estrutural com ambas as portas abertas."
+    },
+    "check": {
+      "en": "Confirm floor/side engagement and rear-frame squareness. F16 joint schedule and adhesive qualification remain HOLD.",
+      "pt-BR": "Confirme o engate fundo/lateral e o esquadro do quadro traseiro. O plano de juntas F16 e a validação da colagem continuam PENDENTES."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Assemble 210 mm lower-depth sides, Y1146 straight-front floor, top and fixed rear frame. The side projection ahead of the floor is intentional. Maintain structural validity with both rear doors open.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Monte as laterais com profundidade inferior de 210 mm, fundo reto em Y1146, topo e quadro traseiro fixo. A projeção das laterais à frente do fundo é intencional. Preserve a integridade estrutural com ambas as portas abertas."
+    }
+  },
+  {
+    "id": "assembly-09.1",
+    "type": "assembly",
+    "title": {
+      "en": "09.1 · Measure and install the WPC family",
+      "pt-BR": "09.1 · Meça e instale a família WPC"
+    },
+    "stage": "09",
+    "step": "09.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P088-Main",
+      "P089-Main",
+      "P090-Main",
+      "P091-Main"
+    ],
+    "hardware_ids": [
+      "H08",
+      "H09",
+      "H10",
+      "F14",
+      "F15",
+      "W06",
+      "B16",
+      "H11",
+      "W07",
+      "I05",
+      "I06",
+      "F17",
+      "H12",
+      "W08",
+      "H13",
+      "B07",
+      "B08"
+    ],
+    "action": {
+      "en": "Measure 01-9011-L/R, 02-4352 and 4322-01139-12B before any final hinge drilling. The reference rotation axis is Y1066.8/Z508; it is not a released drill pattern. Do not substitute metric threads into purchased imperial hardware.",
+      "pt-BR": "Meça 01-9011-L/R, 02-4352 e 4322-01139-12B antes de qualquer furação final. O eixo de referência é Y1066.8/Z508; ele não é um padrão de furação liberado. Não substitua roscas imperiais por métricas nas ferragens compradas."
+    },
+    "check": {
+      "en": "HOLD installation until bends, floor-hole pattern, bushing and complete bolt stack are measured and validated.",
+      "pt-BR": "PENDÊNCIA: aguarde a medição e validação das dobras, furos do fundo, bucha e conjunto completo do parafuso."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Measure 01-9011-L/R, 02-4352 and 4322-01139-12B before any final hinge drilling. The reference rotation axis is Y1066.8/Z508; it is not a released drill pattern. Do not substitute metric threads into purchased imperial hardware.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Meça 01-9011-L/R, 02-4352 e 4322-01139-12B antes de qualquer furação final. O eixo de referência é Y1066.8/Z508; ele não é um padrão de furação liberado. Não substitua roscas imperiais por métricas nas ferragens compradas."
+    }
+  },
+  {
+    "id": "assembly-09.2",
+    "type": "assembly",
+    "title": {
+      "en": "09.2 · Fit two rear-operated captive locks",
+      "pt-BR": "09.2 · Instale duas travas cativas operadas por trás"
+    },
+    "stage": "09",
+    "step": "09.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P088-Main",
+      "P089-Main",
+      "P090-Main",
+      "P091-Main"
+    ],
+    "hardware_ids": [
+      "H08",
+      "H09",
+      "H10",
+      "F14",
+      "F15",
+      "W06",
+      "B16",
+      "H11",
+      "W07",
+      "I05",
+      "I06",
+      "F17",
+      "H12",
+      "W08",
+      "H13",
+      "B07",
+      "B08"
+    ],
+    "action": {
+      "en": "Retain H11 ×2 at L X130/Y1260 and R X470/Y1260 with metal-backed shelf receivers, loss protection, tethers and parking sockets. Exact purchased knob/receiver details remain provisional.",
+      "pt-BR": "Mantenha H11 ×2 em L X130/Y1260 e R X470/Y1260 com receptores metálicos apoiados na prateleira, retenção contra perda, tirantes e alojamentos de estacionamento. Os detalhes exatos dos manípulos/receptores continuam provisórios."
+    },
+    "check": {
+      "en": "UPRIGHT LOCK CHECK: floor bears broadly on shelf; both independent clamps engage and can be released/parked through open rear doors with cassette installed.",
+      "pt-BR": "VERIFICAÇÃO DAS TRAVAS: o fundo se apoia amplamente na prateleira; os dois apertos independentes engatam e podem ser soltos/guardados pelas portas traseiras abertas com o cassete instalado."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Retain H11 ×2 at L X130/Y1260 and R X470/Y1260 with metal-backed shelf receivers, loss protection, tethers and parking sockets. Exact purchased knob/receiver details remain provisional.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Mantenha H11 ×2 em L X130/Y1260 e R X470/Y1260 com receptores metálicos apoiados na prateleira, retenção contra perda, tirantes e alojamentos de estacionamento. Os detalhes exatos dos manípulos/receptores continuam provisórios."
+    }
+  },
+  {
+    "id": "assembly-10.1",
+    "type": "assembly",
+    "title": {
+      "en": "10.1 · Fit hinge cleats and leaves",
+      "pt-BR": "10.1 · Instale os apoios das dobradiças e as folhas"
+    },
+    "stage": "10",
+    "step": "10.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P079-Main",
+      "P080-Main",
+      "P085-Reduced18",
+      "P086-Reduced18",
+      "P087-Main"
+    ],
+    "hardware_ids": [
+      "H14",
+      "H15",
+      "H16",
+      "F18",
+      "F19",
+      "G04",
+      "G05"
+    ],
+    "action": {
+      "en": "Use the 18 mm cleats reduced from FACE A to the accepted 14 mm finished geometry. Preserve the hinge axis. Install one continuous hinge on each outer vertical edge; screw count follows the selected hinge hole schedule.",
+      "pt-BR": "Use os apoios de 18 mm reduzidos pela FACE A à geometria acabada aceita de 14 mm. Preserve o eixo da dobradiça. Instale uma dobradiça contínua em cada borda vertical externa; a quantidade de parafusos depende do plano de furos selecionado."
+    },
+    "check": {
+      "en": "No permanent center mullion. Both doors must reach the validated 100° service position upright.",
+      "pt-BR": "Sem montante central permanente. Ambas as portas devem alcançar a posição de serviço validada de 100° com o backbox vertical."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Use the 18 mm cleats reduced from FACE A to the accepted 14 mm finished geometry. Preserve the hinge axis. Install one continuous hinge on each outer vertical edge; screw count follows the selected hinge hole schedule.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Use os apoios de 18 mm reduzidos pela FACE A à geometria acabada aceita de 14 mm. Preserve o eixo da dobradiça. Instale uma dobradiça contínua em cada borda vertical externa; a quantidade de parafusos depende do plano de furos selecionado."
+    }
+  },
+  {
+    "id": "assembly-10.2",
+    "type": "assembly",
+    "title": {
+      "en": "10.2 · Fit passive bolts, astragal and active lock",
+      "pt-BR": "10.2 · Instale ferrolhos passivos, sobreposição e fechadura ativa"
+    },
+    "stage": "10",
+    "step": "10.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P079-Main",
+      "P080-Main",
+      "P085-Reduced18",
+      "P086-Reduced18",
+      "P087-Main"
+    ],
+    "hardware_ids": [
+      "H14",
+      "H15",
+      "H16",
+      "F18",
+      "F19",
+      "G04",
+      "G05"
+    ],
+    "action": {
+      "en": "Secure passive upper/lower bolts first, then close the active leaf and keyed cam lock against the overlap. Fit replaceable perimeter and center gaskets. Open active leaf before passive leaf.",
+      "pt-BR": "Trave primeiro os ferrolhos superior/inferior da folha passiva, depois feche a folha ativa e sua fechadura sobre a sobreposição. Instale vedações substituíveis no perímetro e no centro. Abra a folha ativa antes da passiva."
+    },
+    "check": {
+      "en": "REAR DOOR SWEEP CHECK: no clash with fan bodies, loops, overlap or lock hardware. Doors are service closures, not structural shear panels.",
+      "pt-BR": "VERIFICAÇÃO DO GIRO DAS PORTAS: sem colisões com ventoinhas, laços, sobreposição ou ferragens. As portas são fechamentos de serviço, não painéis estruturais de contraventamento."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Secure passive upper/lower bolts first, then close the active leaf and keyed cam lock against the overlap. Fit replaceable perimeter and center gaskets. Open active leaf before passive leaf.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Trave primeiro os ferrolhos superior/inferior da folha passiva, depois feche a folha ativa e sua fechadura sobre a sobreposição. Instale vedações substituíveis no perímetro e no centro. Abra a folha ativa antes da passiva."
+    }
+  },
+  {
+    "id": "assembly-11.1",
+    "type": "assembly",
+    "title": {
+      "en": "11.1 · Assemble intake baffles and filter frames",
+      "pt-BR": "11.1 · Monte defletores de entrada e molduras de filtro"
+    },
+    "stage": "11",
+    "step": "11.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P081-Main",
+      "P082-Main",
+      "P083-Face",
+      "P083-Top",
+      "P083-Side1",
+      "P083-Side2",
+      "P084-Face",
+      "P084-Top",
+      "P084-Side1",
+      "P084-Side2",
+      "P092-Main",
+      "P093-Main"
+    ],
+    "hardware_ids": [
+      "H17",
+      "B09",
+      "G06",
+      "G07",
+      "F20",
+      "F21",
+      "I07",
+      "F22",
+      "B10",
+      "F23",
+      "B11",
+      "F55"
+    ],
+    "action": {
+      "en": "Build each baffle from its face, top and two returns using the four actual manufacturing pieces. Keep the downward mouth open and filters removable. Qualified glue seams must not obstruct the throat.",
+      "pt-BR": "Monte cada defletor com sua face, topo e duas laterais, usando as quatro peças reais. Mantenha aberta a saída inferior e os filtros removíveis. As juntas de cola validadas não podem obstruir a garganta."
+    },
+    "check": {
+      "en": "Per door: preserve 220×80 mm inlet and 220×36 mm downward mouth before mesh effects. No thermal certification is implied.",
+      "pt-BR": "Por porta: preserve a entrada de 220×80 mm e saída inferior de 220×36 mm antes dos efeitos da tela. Isso não implica certificação térmica."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Build each baffle from its face, top and two returns using the four actual manufacturing pieces. Keep the downward mouth open and filters removable. Qualified glue seams must not obstruct the throat.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Monte cada defletor com sua face, topo e duas laterais, usando as quatro peças reais. Mantenha aberta a saída inferior e os filtros removíveis. As juntas de cola validadas não podem obstruir a garganta."
+    }
+  },
+  {
+    "id": "assembly-11.2",
+    "type": "assembly",
+    "title": {
+      "en": "11.2 · Choose blank or optional fan",
+      "pt-BR": "11.2 · Escolha tampa ou ventoinha opcional"
+    },
+    "stage": "11",
+    "step": "11.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P081-Main",
+      "P082-Main",
+      "P083-Face",
+      "P083-Top",
+      "P083-Side1",
+      "P083-Side2",
+      "P084-Face",
+      "P084-Top",
+      "P084-Side1",
+      "P084-Side2",
+      "P092-Main",
+      "P093-Main"
+    ],
+    "hardware_ids": [
+      "H17",
+      "B09",
+      "G06",
+      "G07",
+      "F20",
+      "F21",
+      "I07",
+      "F22",
+      "B10",
+      "F23",
+      "B11",
+      "F55"
+    ],
+    "action": {
+      "en": "Install the blank module for an unpowered station, or a selected 120 mm fan/accessory stack. For a moving fan, preserve the low-voltage flexible corridor and strain relief through full door motion; connectors remain builder-configurable.",
+      "pt-BR": "Instale a tampa na estação sem ventilação ativa ou um conjunto selecionado de ventoinha/acessórios de 120 mm. Para ventoinha móvel, preserve o corredor flexível de baixa tensão e alívio de tração em todo o giro; conectores ficam a critério do montador."
+    },
+    "check": {
+      "en": "Check ordinary screwdriver access with the door open; no display removal. Fine exhaust filters need later pressure-loss analysis.",
+      "pt-BR": "Confira o acesso com chave comum e porta aberta, sem remover o monitor. Filtros finos na exaustão exigem análise posterior de perda de pressão."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Install the blank module for an unpowered station, or a selected 120 mm fan/accessory stack. For a moving fan, preserve the low-voltage flexible corridor and strain relief through full door motion; connectors remain builder-configurable.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Instale a tampa na estação sem ventilação ativa ou um conjunto selecionado de ventoinha/acessórios de 120 mm. Para ventoinha móvel, preserve o corredor flexível de baixa tensão e alívio de tração em todo o giro; conectores ficam a critério do montador."
+    }
+  },
+  {
+    "id": "assembly-12.1",
+    "type": "assembly",
+    "title": {
+      "en": "12.1 · Install the single transverse stop rail",
+      "pt-BR": "12.1 · Instale a travessa única de apoio"
+    },
+    "stage": "12",
+    "step": "12.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P050-Main",
+      "P051-Main",
+      "P052-Main",
+      "P053-Main",
+      "P054-Main",
+      "P055-Main",
+      "P056-Main",
+      "P057-Main",
+      "P058-Main",
+      "P059-Main",
+      "P060-Main",
+      "P061-Main",
+      "P062-Main",
+      "P063-Main",
+      "P094-Main"
+    ],
+    "hardware_ids": [
+      "F25",
+      "F26",
+      "W09",
+      "I09",
+      "F27",
+      "I10",
+      "I11",
+      "F28",
+      "F57"
+    ],
+    "action": {
+      "en": "Seat M067 in the two 6 mm carrier-front captures. Install two rear-operated F57 retention screws after screw/pilot qualification. Fit two I10 captive threads, F27 M6-family adjusters, I11 locknuts and replaceable contact tips. Use required 10 mm adjustment travel. Retain the four existing F26 monitor clamps for fold and out-of-plane loads. No M049 plywood pads. Front display removal, rear adjustment and existing 16 mm depth choices remain. The two vertical carriers now include paired 6 × 16 mm R3 strain-relief slots above the display adapter. Thread replaceable straps through them; keep cable loads off structural fasteners. M067, its 6 mm capture lands, rear tool paths and all four monitor retention bolts remain unchanged.",
+      "pt-BR": "Assente M067 nas duas capturas frontais de 6 mm dos suportes. Instale dois F57 pelo lado traseiro após qualificar parafuso/piloto. Instale duas roscas I10, reguladores F27 M6, contraporcas I11 e pontas substituíveis. Exija curso 10 mm. Preserve quatro F26 para cargas de dobramento e fora do plano. Sem calços M049. Remoção frontal, ajuste traseiro e posições de profundidade 16 mm continuam. Os dois suportes verticais agora têm pares de rasgos 6 × 16 mm R3 acima do adaptador. Passe cintas substituíveis neles; não use parafusos estruturais para prender cabos. M067, capturas de 6 mm, acesso traseiro e quatro parafusos de retenção permanecem iguais."
+    },
+    "check": {
+      "en": "The mechanical carrier is retained without requiring a monitor purchase. No permanent display-specific hole pattern.",
+      "pt-BR": "O suporte mecânico fica retido sem exigir a compra de um monitor. Sem padrão permanente de furos específico de tela."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Seat M067 in the two 6 mm carrier-front captures. Install two rear-operated F57 retention screws after screw/pilot qualification. Fit two I10 captive threads, F27 M6-family adjusters, I11 locknuts and replaceable contact tips. Use required 10 mm adjustment travel. Retain the four existing F26 monitor clamps for fold and out-of-plane loads. No M049 plywood pads. Front display removal, rear adjustment and existing 16 mm depth choices remain. The two vertical carriers now include paired 6 × 16 mm R3 strain-relief slots above the display adapter. Thread replaceable straps through them; keep cable loads off structural fasteners. M067, its 6 mm capture lands, rear tool paths and all four monitor retention bolts remain unchanged.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Assente M067 nas duas capturas frontais de 6 mm dos suportes. Instale dois F57 pelo lado traseiro após qualificar parafuso/piloto. Instale duas roscas I10, reguladores F27 M6, contraporcas I11 e pontas substituíveis. Exija curso 10 mm. Preserve quatro F26 para cargas de dobramento e fora do plano. Sem calços M049. Remoção frontal, ajuste traseiro e posições de profundidade 16 mm continuam. Os dois suportes verticais agora têm pares de rasgos 6 × 16 mm R3 acima do adaptador. Passe cintas substituíveis neles; não use parafusos estruturais para prender cabos. M067, capturas de 6 mm, acesso traseiro e quatro parafusos de retenção permanecem iguais."
+    }
+  },
+  {
+    "id": "assembly-12.2",
+    "type": "assembly",
+    "title": {
+      "en": "12.2 · Explain later front installation and rear adjustment",
+      "pt-BR": "12.2 · Explique a instalação frontal e ajuste traseiro futuros"
+    },
+    "stage": "12",
+    "step": "12.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P050-Main",
+      "P051-Main",
+      "P052-Main",
+      "P053-Main",
+      "P054-Main",
+      "P055-Main",
+      "P056-Main",
+      "P057-Main",
+      "P058-Main",
+      "P059-Main",
+      "P060-Main",
+      "P061-Main",
+      "P062-Main",
+      "P063-Main"
+    ],
+    "hardware_ids": [
+      "F25",
+      "F26",
+      "W09",
+      "I09",
+      "F27",
+      "I10",
+      "I11",
+      "F28"
+    ],
+    "action": {
+      "en": "When selected, install the 31.5/32-inch display from the front, access alignment from the open rear doors and positively clamp every axis. VESA screws are user-adapter hardware and follow the display manufacturer. Use the existing side access beside the VESA plate for connector service. The proposed central plate window is NOT PROMOTED: real VESA load points are unselected. Existing adjustment remains ±5 mm vertical, two depth positions 16 mm apart, ±1 mm centering for the maximum display and approximately ±15 mm for smaller displays. No extra adjustment slots.",
+      "pt-BR": "Quando selecionado, instale o monitor de 31,5/32 polegadas pela frente, ajuste pelas portas traseiras abertas e aperte positivamente todos os eixos. Os parafusos VESA pertencem ao adaptador do usuário e seguem o fabricante do monitor. Use os acessos laterais existentes ao lado da placa VESA para conectores. A janela central proposta NÃO FOI PROMOVIDA: pontos reais de carga VESA ainda não selecionados. Ajustes existentes: vertical ±5 mm, duas profundidades separadas por 16 mm, centralização ±1 mm para monitor máximo e cerca de ±15 mm para menores. Sem rasgos adicionais de ajuste."
+    },
+    "check": {
+      "en": "No gravity-only hook, glass support or cassette support for display mass. Recheck retention through fold before use.",
+      "pt-BR": "Sem gancho retido apenas pela gravidade, nem peso do monitor apoiado no vidro ou cassete. Verifique a retenção durante a dobra antes do uso."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. When selected, install the 31.5/32-inch display from the front, access alignment from the open rear doors and positively clamp every axis. VESA screws are user-adapter hardware and follow the display manufacturer. Use the existing side access beside the VESA plate for connector service. The proposed central plate window is NOT PROMOTED: real VESA load points are unselected. Existing adjustment remains ±5 mm vertical, two depth positions 16 mm apart, ±1 mm centering for the maximum display and approximately ±15 mm for smaller displays. No extra adjustment slots.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Quando selecionado, instale o monitor de 31,5/32 polegadas pela frente, ajuste pelas portas traseiras abertas e aperte positivamente todos os eixos. Os parafusos VESA pertencem ao adaptador do usuário e seguem o fabricante do monitor. Use os acessos laterais existentes ao lado da placa VESA para conectores. A janela central proposta NÃO FOI PROMOVIDA: pontos reais de carga VESA ainda não selecionados. Ajustes existentes: vertical ±5 mm, duas profundidades separadas por 16 mm, centralização ±1 mm para monitor máximo e cerca de ±15 mm para menores. Sem rasgos adicionais de ajuste."
+    }
+  },
+  {
+    "id": "assembly-13.1",
+    "type": "assembly",
+    "title": {
+      "en": "13.1 · Fit liners and removable top retainer",
+      "pt-BR": "13.1 · Instale os revestimentos e retentor superior removível"
+    },
+    "stage": "13",
+    "step": "13.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P048-Main",
+      "P049-Cap",
+      "P049-Strip"
+    ],
+    "hardware_ids": [
+      "F24",
+      "I08",
+      "G08",
+      "G09",
+      "G10"
+    ],
+    "action": {
+      "en": "Assemble the actual top-retainer cap and reduced strip. Fit side liners and padded lower support. After supplier confirmation, slide the nominal 3–4 mm tempered glass from top/front and positively secure the retainer.",
+      "pt-BR": "Monte a tampa e tira reduzida reais do retentor superior. Instale revestimentos laterais e apoio inferior acolchoado. Após confirmação do fornecedor, deslize o vidro temperado nominal de 3–4 mm pelo topo/frente e fixe positivamente o retentor."
+    },
+    "check": {
+      "en": "GLASS RETENTION CHECK: no bare plywood contact, no loose gravity-only retention. Backbox glass stays installed for normal fold; main playfield glass is different.",
+      "pt-BR": "VERIFICAÇÃO DO VIDRO: sem contato direto com compensado e sem retenção solta apenas por gravidade. O vidro do backbox permanece na dobra normal; o vidro principal do playfield é distinto."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Assemble the actual top-retainer cap and reduced strip. Fit side liners and padded lower support. After supplier confirmation, slide the nominal 3–4 mm tempered glass from top/front and positively secure the retainer.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Monte a tampa e tira reduzida reais do retentor superior. Instale revestimentos laterais e apoio inferior acolchoado. Após confirmação do fornecedor, deslize o vidro temperado nominal de 3–4 mm pelo topo/frente e fixe positivamente o retentor."
+    }
+  },
+  {
+    "id": "assembly-14.1",
+    "type": "assembly",
+    "title": {
+      "en": "14.1 · Build and retain the removable cassette",
+      "pt-BR": "14.1 · Monte e retenha o cassete removível"
+    },
+    "stage": "14",
+    "step": "14.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P068-Main",
+      "P069-Main",
+      "P070-Main",
+      "P071-Main",
+      "P072-Main",
+      "P073-Main",
+      "P074-Main",
+      "P075-Ply1",
+      "P075-Ply2",
+      "P076-Ply1",
+      "P076-Ply2",
+      "P077-Ply1",
+      "P077-Ply2",
+      "P078-Ply1",
+      "P078-Ply2"
+    ],
+    "hardware_ids": [
+      "F30",
+      "I12",
+      "W10",
+      "F31"
+    ],
+    "action": {
+      "en": "Laminate each fixed cleat from two identical 12 mm layers. Install the frame, replaceable speaker baffles and DMD adapter/bezel. Preserve four positive cassette attachments and the separate monitor carrier.",
+      "pt-BR": "Lamine cada apoio fixo com duas camadas idênticas de 12 mm. Instale quadro, baffles substituíveis dos alto-falantes e adaptador/moldura DMD. Preserve quatro fixações positivas do cassete e o suporte independente do monitor."
+    },
+    "check": {
+      "en": "Confirm front removal, rear wiring access and clear normal lock access. F31 insert/baffle attachment count remains TBD; four cassette bolts do not resolve it.",
+      "pt-BR": "Confirme remoção frontal, acesso traseiro à fiação e acesso livre às travas normais. A quantidade F31 das fixações de insertos/baffles continua indefinida; quatro parafusos do cassete não a resolvem."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Laminate each fixed cleat from two identical 12 mm layers. Install the frame, replaceable speaker baffles and DMD adapter/bezel. Preserve four positive cassette attachments and the separate monitor carrier.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Lamine cada apoio fixo com duas camadas idênticas de 12 mm. Instale quadro, baffles substituíveis dos alto-falantes e adaptador/moldura DMD. Preserve quatro fixações positivas do cassete e o suporte independente do monitor."
+    }
+  },
+  {
+    "id": "assembly-15.1",
+    "type": "assembly",
+    "title": {
+      "en": "15.1 · Fit wood seats and removable retention",
+      "pt-BR": "15.1 · Instale assentos de madeira e retenção removível"
+    },
+    "stage": "15",
+    "step": "15.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P039-Main",
+      "P040-Main",
+      "P041-Main"
+    ],
+    "hardware_ids": [
+      "F34",
+      "I13",
+      "F35",
+      "B12"
+    ],
+    "action": {
+      "en": "Install the two fixed wood seats, inserts and removable retainer screws. The carrier is mechanical; LED panels and their model-specific fasteners remain future electronics. Follow the saved forward/lift removal path.",
+      "pt-BR": "Instale os dois assentos fixos de madeira, insertos e parafusos removíveis de retenção. O suporte é mecânico; painéis LED e seus fixadores específicos são eletrônica futura. Siga o trajeto salvo de avanço/elevação."
+    },
+    "check": {
+      "en": "Check both seats and removal before playfield service or backbox fold. Do not force the matrix past installed main glass.",
+      "pt-BR": "Confira ambos os assentos e a retirada antes do serviço do playfield ou dobra do backbox. Não force a matriz com o vidro principal instalado."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Install the two fixed wood seats, inserts and removable retainer screws. The carrier is mechanical; LED panels and their model-specific fasteners remain future electronics. Follow the saved forward/lift removal path.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Instale os dois assentos fixos de madeira, insertos e parafusos removíveis de retenção. O suporte é mecânico; painéis LED e seus fixadores específicos são eletrônica futura. Siga o trajeto salvo de avanço/elevação."
+    }
+  },
+  {
+    "id": "assembly-16.2",
+    "type": "assembly",
+    "title": {
+      "en": "16.2 · Fit purchased legs and front interfaces",
+      "pt-BR": "16.2 · Instale os pés e interfaces frontais comprados"
+    },
+    "stage": "16",
+    "step": "16.2",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P029-Solid",
+      "P030-Solid",
+      "P031-Solid",
+      "P032-Solid"
+    ],
+    "hardware_ids": [
+      "G11",
+      "G12",
+      "F36",
+      "H18",
+      "B13",
+      "F37",
+      "H19",
+      "F38",
+      "H20",
+      "H21",
+      "H22",
+      "F39",
+      "H23",
+      "H24",
+      "F40",
+      "H26"
+    ],
+    "action": {
+      "en": "Use matched real pinball legs, bolts, backing plates and levelers. The 600 mm body uses the accepted custom-width lockdown strategy; exact receiver/fastener interfaces remain held. Mobility skates are optional external accessories.",
+      "pt-BR": "Use pés reais de pinball com parafusos, chapas de apoio e niveladores compatíveis. A caixa de 600 mm usa a estratégia aceita de lockdown de largura personalizada; as interfaces exatas de receptor/fixadores permanecem pendentes. Patins de transporte são acessórios externos opcionais."
+    },
+    "check": {
+      "en": "Keep cabinet securely supported until leg/load and attachment qualification is complete. No integrated wheels.",
+      "pt-BR": "Mantenha a caixa apoiada com segurança até concluir a validação de carga dos pés e fixações. Sem rodas integradas."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Use matched real pinball legs, bolts, backing plates and levelers. The 600 mm body uses the accepted custom-width lockdown strategy; exact receiver/fastener interfaces remain held. Mobility skates are optional external accessories.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Use pés reais de pinball com parafusos, chapas de apoio e niveladores compatíveis. A caixa de 600 mm usa a estratégia aceita de lockdown de largura personalizada; as interfaces exatas de receptor/fixadores permanecem pendentes. Patins de transporte são acessórios externos opcionais."
+    }
+  },
+  {
+    "id": "assembly-17.1",
+    "type": "assembly",
+    "title": {
+      "en": "17.1 · Perform the normal fold sequence",
+      "pt-BR": "17.1 · Execute a sequência normal de dobra"
+    },
+    "stage": "17",
+    "step": "17.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [],
+    "hardware_ids": [],
+    "action": {
+      "en": "Open rear doors; release and park both rear-operated locks; close/latch the rear doors; remove MAIN PLAYFIELD GLASS and MATRIX; fold. Keep the cassette, secured display, DMD/speakers and backbox front glass installed. No routine electronics disconnection.",
+      "pt-BR": "Abra as portas traseiras; solte e guarde ambas as travas traseiras; feche/trave as portas; remova o VIDRO PRINCIPAL DO PLAYFIELD e a MATRIZ; dobre. Mantenha cassete, monitor fixado, DMD/alto-falantes e vidro frontal do backbox instalados. Sem desconexão elétrica de rotina."
+    },
+    "check": {
+      "en": "BACKBOX FOLD CHECK: geometry supports 0–90° pure rotation around Y1066.8/Z508. Check actual retention, cable slack, surroundings and handling only after physical qualification. Reverse the sequence and positively engage both locks upright.",
+      "pt-BR": "VERIFICAÇÃO DA DOBRA: a geometria permite rotação pura de 0–90° em Y1066.8/Z508. Confira retenção real, folga dos cabos, entorno e manuseio somente após validação física. Inverta a sequência e engate positivamente as duas travas na vertical."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Open rear doors; release and park both rear-operated locks; close/latch the rear doors; remove MAIN PLAYFIELD GLASS and MATRIX; fold. Keep the cassette, secured display, DMD/speakers and backbox front glass installed. No routine electronics disconnection.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. Abra as portas traseiras; solte e guarde ambas as travas traseiras; feche/trave as portas; remova o VIDRO PRINCIPAL DO PLAYFIELD e a MATRIZ; dobre. Mantenha cassete, monitor fixado, DMD/alto-falantes e vidro frontal do backbox instalados. Sem desconexão elétrica de rotina."
+    }
+  },
+  {
+    "id": "assembly-17.2",
+    "type": "assembly",
+    "title": {
+      "en": "17.2 · Separate rare hinge maintenance",
+      "pt-BR": "17.2 · Separe a manutenção rara das dobradiças"
+    },
+    "stage": "17",
+    "step": "17.2",
+    "first_stage_step": false,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [],
+    "hardware_ids": [],
+    "action": {
+      "en": "Rare WPC hinge service may require lower-cassette removal and playfield lift-out/removal for side-pivot access. This is not the normal fold procedure. Keep all unqualified structural/ergonomic gates visible.",
+      "pt-BR": "A manutenção rara das dobradiças WPC pode exigir remoção do cassete inferior e retirada do playfield para acessar o pivô lateral. Esse não é o procedimento normal de dobra. Mantenha visíveis todas as pendências estruturais/ergonômicas."
+    },
+    "check": {
+      "en": "Final inspection is a checkpoint framework, not structural certification or manufacturing authorization.",
+      "pt-BR": "A inspeção final é um roteiro de verificação, não certificação estrutural nem autorização de fabricação."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. Rare WPC hinge service may require lower-cassette removal and playfield lift-out/removal for side-pivot access. This is not the normal fold procedure. Keep all unqualified structural/ergonomic gates visible.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. A manutenção rara das dobradiças WPC pode exigir remoção do cassete inferior e retirada do playfield para acessar o pivô lateral. Esse não é o procedimento normal de dobra. Mantenha visíveis todas as pendências estruturais/ergonômicas."
+    }
+  },
+  {
+    "id": "assembly-18.1",
+    "type": "assembly",
+    "title": {
+      "en": "18.1 · Identify future controls and electronics",
+      "pt-BR": "18.1 · Identifique controles e eletrônica futuros"
+    },
+    "stage": "18",
+    "step": "18.1",
+    "first_stage_step": true,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "duration_s": 8,
+    "piece_ids": [
+      "P033-Main",
+      "P097-Main"
+    ],
+    "hardware_ids": [
+      "F29",
+      "F32",
+      "F33",
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "B14",
+      "F42",
+      "F43",
+      "F44",
+      "F45",
+      "F46",
+      "F47",
+      "F48",
+      "F49",
+      "F50",
+      "B15",
+      "F51",
+      "H25",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "F62",
+      "I19",
+      "E15",
+      "E16"
+    ],
+    "action": {
+      "en": "The underfront user module is a removable generic plate in the fixed front bay. The owner configuration may use five programmable buttons plus a dual USB module; four plus USB and a button-only configuration share the same bay. Functions are assigned by the builder; the permanent wood imposes no volume, operating-mode or pairing function. Button bores and USB cutout remain unselected and hardware-dependent. The conventional front-right plunger remains a separate provisional interface at X520/Z280. Displays, controllers, power interfaces and electronics remain optional, with generic carriers and service passage.",
+      "pt-BR": "O módulo do usuário sob a frente é uma placa genérica removível no alojamento frontal fixo. A configuração do proprietário pode usar cinco botões programáveis e um módulo USB duplo; quatro mais USB e uma configuração só de botões usam o mesmo alojamento. O construtor atribui funções; a madeira permanente não impõe volume, modo de operação ou pareamento. Furos de botões e recorte USB continuam indefinidos e dependem das ferragens. O plunger frontal direito permanece interface provisória separada em X520/Z280. Monitores, controladoras, interfaces elétricas e eletrônica são opcionais, com suportes genéricos e passagem de serviço."
+    },
+    "check": {
+      "en": "USER CONFIGURATION CHECK: no final machining from schematic centers; buy and measure the actual controls first. Route a flexible service loop without selecting a connector family. Confirm reach, accidental-operation protection, rear body/nut space and removal with the chosen parts. USB thread compatibility through 12 mm is unverified; any one-face rear pocket waits for physical dimensions and coupon. Keep at least the planned 70 mm rear USB reserve.",
+      "pt-BR": "VERIFICAÇÃO DA CONFIGURAÇÃO DO USUÁRIO: não usine a partir de centros esquemáticos; compre e meça os controles reais primeiro. Reserve laço flexível de serviço sem impor conectores. Confira alcance, proteção contra acionamento acidental, espaço traseiro de corpos/porcas e retirada com as peças escolhidas. Compatibilidade da rosca USB com 12 mm não está verificada; eventual bolso traseiro por uma face aguarda medição física e cupom. Preserve a reserva USB traseira planejada de pelo menos 70 mm."
+    },
+    "note": {
+      "en": "SCHEMATIC ASSEMBLY ANIMATION. The underfront user module is a removable generic plate in the fixed front bay. The owner configuration may use five programmable buttons plus a dual USB module; four plus USB and a button-only configuration share the same bay. Functions are assigned by the builder; the permanent wood imposes no volume, operating-mode or pairing function. Button bores and USB cutout remain unselected and hardware-dependent. The conventional front-right plunger remains a separate provisional interface at X520/Z280. Displays, controllers, power interfaces and electronics remain optional, with generic carriers and service passage.",
+      "pt-BR": "ANIMAÇÃO ESQUEMÁTICA DE MONTAGEM. O módulo do usuário sob a frente é uma placa genérica removível no alojamento frontal fixo. A configuração do proprietário pode usar cinco botões programáveis e um módulo USB duplo; quatro mais USB e uma configuração só de botões usam o mesmo alojamento. O construtor atribui funções; a madeira permanente não impõe volume, modo de operação ou pareamento. Furos de botões e recorte USB continuam indefinidos e dependem das ferragens. O plunger frontal direito permanece interface provisória separada em X520/Z280. Monitores, controladoras, interfaces elétricas e eletrônica são opcionais, com suportes genéricos e passagem de serviço."
+    }
+  },
+  {
+    "id": "service-pf-service",
+    "type": "service",
+    "mode": "PF",
+    "title": {
+      "en": "Playfield service opening",
+      "pt-BR": "Abertura de serviço do playfield"
+    },
+    "duration_s": 12,
+    "status": "INHERITED_VALIDATED_RIGID_PATH_WITH_SCHEMATIC_RELEASE_DETAILS",
+    "note": {
+      "en": "Main glass and matrix removed; retainers released and parked. Landing bodies remain fixed; front pads separate naturally. Support raised module; physical qualification remains HOLD.",
+      "pt-BR": "Vidro principal e matriz removidos; retenções soltas/estacionadas. Apoios permanecem fixos; a base separa naturalmente das pontas. Sustente o módulo levantado; validação física PENDENTE."
+    }
+  },
+  {
+    "id": "service-pf-lift",
+    "type": "service",
+    "mode": "PF_LIFT",
+    "title": {
+      "en": "Playfield lift-out 48 mm",
+      "pt-BR": "Retirada do playfield 48 mm"
+    },
+    "duration_s": 12,
+    "status": "INHERITED_VALIDATED_RIGID_PATH_WITH_SCHEMATIC_RELEASE_DETAILS",
+    "note": {
+      "en": "Main glass and matrix removed; retainers released and parked. Landing bodies remain fixed; front pads separate naturally. Support raised module; physical qualification remains HOLD.",
+      "pt-BR": "Vidro principal e matriz removidos; retenções soltas/estacionadas. Apoios permanecem fixos; a base separa naturalmente das pontas. Sustente o módulo levantado; validação física PENDENTE."
+    }
+  },
+  {
+    "id": "service-matrix",
+    "type": "service",
+    "mode": "MATRIX",
+    "title": {
+      "en": "Matrix removal",
+      "pt-BR": "Remoção da matriz"
+    },
+    "duration_s": 12,
+    "status": "INHERITED_VALIDATED_RIGID_PATH_WITH_SCHEMATIC_RELEASE_DETAILS",
+    "note": {
+      "en": "Main glass removed; release retainers, rock26°, translate forward68mm, lift100mm. Electrical interface remains builder-configurable; secure any moving leads.",
+      "pt-BR": "Vidro principal removido; solte retentores, gire26°, avance68mm, eleve100mm. Interface elétrica configurável; acomode os cabos móveis."
+    }
+  },
+  {
+    "id": "service-doors",
+    "type": "service",
+    "mode": "DOORS",
+    "title": {
+      "en": "Backbox rear doors",
+      "pt-BR": "Portas traseiras do backbox"
+    },
+    "duration_s": 12,
+    "status": "INHERITED_VALIDATED_RIGID_PATH_WITH_SCHEMATIC_RELEASE_DETAILS",
+    "note": {
+      "en": "UPRIGHT only. Release active cam and passive bolts; active leaf opens first, then passive. Latch operation shown schematically; door rotation0–100° uses accepted axes.",
+      "pt-BR": "Somente VERTICAL. Solte fecho ativo e ferrolhos passivos; abra ativa antes da passiva. Fechos esquemáticos; rotação0–100° nos eixos aceitos."
+    }
+  },
+  {
+    "id": "service-unlock",
+    "type": "service",
+    "mode": "LOCK",
+    "title": {
+      "en": "Unlock → PARK",
+      "pt-BR": "Destravar → GUARDAR"
+    },
+    "duration_s": 12,
+    "status": "INHERITED_VALIDATED_RIGID_PATH_WITH_SCHEMATIC_RELEASE_DETAILS",
+    "note": {
+      "en": "UPRIGHT, both rear doors open. Release L then R, lift80mm, transfer to parking sockets, lower44mm. Knob turning and flexible tether are schematic; rigid clearance route validated.",
+      "pt-BR": "VERTICAL, portas abertas. Solte E e D, eleve80mm, transfira aos alojamentos, abaixe44mm. Giro e tirante flexível esquemáticos; trajeto rígido validado."
+    }
+  },
+  {
+    "id": "service-fold",
+    "type": "service",
+    "mode": "FOLD",
+    "title": {
+      "en": "Backbox fold0–90°",
+      "pt-BR": "Dobra do backbox0–90°"
+    },
+    "duration_s": 12,
+    "status": "INHERITED_VALIDATED_RIGID_PATH_WITH_SCHEMATIC_RELEASE_DETAILS",
+    "note": {
+      "en": "Locks already released/parked; doors closed/latched; MAIN PLAYFIELD GLASS and MATRIX removed. Backbox glass/cassette retained. No routine electronics disconnection.",
+      "pt-BR": "Travas soltas/guardadas; portas fechadas/travadas; VIDRO PRINCIPAL e MATRIZ removidos. Vidro do backbox/cassete mantidos. Sem desconexão elétrica de rotina."
+    }
+  },
+  {
+    "id": "service-glass",
+    "type": "service",
+    "mode": "GLASS",
+    "title": {
+      "en": "Backbox glass removal",
+      "pt-BR": "Remoção do vidro do backbox"
+    },
+    "duration_s": 12,
+    "status": "INHERITED_VALIDATED_RIGID_PATH_WITH_SCHEMATIC_RELEASE_DETAILS",
+    "note": {
+      "en": "Support glass; release/remove top retainer (schematic), lift glass500mm. Monitor remains installed.",
+      "pt-BR": "Sustente o vidro; solte/remova retentor superior (esquemático), eleve vidro500mm. Monitor permanece instalado."
+    }
+  },
+  {
+    "id": "service-display",
+    "type": "service",
+    "mode": "DISPLAY",
+    "title": {
+      "en": "Front display removal",
+      "pt-BR": "Retirada frontal do monitor"
+    },
+    "duration_s": 12,
+    "status": "INHERITED_VALIDATED_RIGID_PATH_WITH_SCHEMATIC_RELEASE_DETAILS",
+    "note": {
+      "en": "Front glass, top retainer and bezel removed; release clamps and stop screws, support display/adapter; withdraw400mm toward front. Release operations schematic.",
+      "pt-BR": "Vidro frontal, retentor e moldura removidos; solte fixações/batentes, sustente monitor/adaptador; retire400mm para frente. Liberação esquemática."
+    }
+  },
+  {
+    "id": "service-cassette",
+    "type": "service",
+    "mode": "CASSETTE",
+    "title": {
+      "en": "DMD / speaker cassette removal",
+      "pt-BR": "Remoção do cassete DMD / alto-falantes"
+    },
+    "duration_s": 12,
+    "status": "INHERITED_VALIDATED_RIGID_PATH_WITH_SCHEMATIC_RELEASE_DETAILS",
+    "note": {
+      "en": "Support cassette, release its four attachments; withdraw240mm toward front. Rare service, NOT a normal fold prerequisite.",
+      "pt-BR": "Sustente cassete, solte quatro fixações; retire240mm para frente. Serviço raro, NÃO exigido na dobra normal."
+    }
+  },
+  {
+    "id": "service-fan",
+    "type": "service",
+    "mode": "FAN",
+    "title": {
+      "en": "Fan replacement on open doors",
+      "pt-BR": "Troca de ventoinha nas portas abertas"
+    },
+    "duration_s": 12,
+    "status": "INHERITED_VALIDATED_RIGID_PATH_WITH_SCHEMATIC_RELEASE_DETAILS",
+    "note": {
+      "en": "Both doors open100°; release fan screws and local accessory stack; withdraw each fan160mm normal to open door. Accessories schematic; fan-body corridor validated. Fan wiring is builder-configurable.",
+      "pt-BR": "Portas abertas100°; solte parafusos e acessórios; retire cada ventoinha160mm normal à porta. Acessórios esquemáticos; trajeto do corpo validado. Fiação configurável."
+    }
+  },
+  {
+    "id": "service-shelf",
+    "type": "service",
+    "mode": "SHELF",
+    "title": {
+      "en": "Shelf removal",
+      "pt-BR": "Remoção de prateleira"
+    },
+    "duration_s": 12,
+    "status": "SCHEMATIC_SERVICE_ANIMATION",
+    "note": {
+      "en": "SCHEMATIC SERVICE — remove playfield for access, release top screws; shelf highlighted then faded. No continuous shelf removal path is validated by this task.",
+      "pt-BR": "SERVIÇO ESQUEMÁTICO — remova playfield para acesso, solte parafusos superiores; destaque/transição da prateleira. Trajetória contínua não validada nesta tarefa."
+    }
+  },
+  {
+    "id": "pack",
+    "type": "packing",
+    "mode": "PACK",
+    "title": {
+      "en": "Flatpack packing",
+      "pt-BR": "Embalagem do flatpack"
+    },
+    "duration_s": 35,
+    "status": "DOCUMENTATION_PACKING_SEQUENCE_NOT_TRANSIT_QUALIFICATION",
+    "note": {
+      "en": "Layer-by-layer actual manufacturing pieces. IDs identify the current layer. Full rigid separators and edge padding required. Hardware box separate; no glass/electronics.",
+      "pt-BR": "Peças reais de fabricação por camada. IDs identificam a camada atual. Separadores rígidos inteiros e proteção nas bordas. Caixa de ferragens separada; sem vidro/eletrônica."
+    }
+  },
+  {
+    "id": "unpack",
+    "type": "packing",
+    "mode": "UNPACK",
+    "title": {
+      "en": "Unpack / identify parts",
+      "pt-BR": "Desembalar / identificar peças"
+    },
+    "duration_s": 35,
+    "status": "DOCUMENTATION_PACKING_SEQUENCE_NOT_TRANSIT_QUALIFICATION",
+    "note": {
+      "en": "Layer-by-layer actual manufacturing pieces. IDs identify the current layer. Full rigid separators and edge padding required. Hardware box separate; no glass/electronics.",
+      "pt-BR": "Peças reais de fabricação por camada. IDs identificam a camada atual. Separadores rígidos inteiros e proteção nas bordas. Caixa de ferragens separada; sem vidro/eletrônica."
+    }
+  },
+  {
+    "id": "jig-place",
+    "type": "jig",
+    "mode": "place",
+    "title": {
+      "en": "Solid block placement",
+      "pt-BR": "Posicionamento do bloco maciço"
+    },
+    "duration_s": 8,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "note": {
+      "en": "SCHEMATIC — tooling only.58mm reference versus57.15mm remains HOLD. Register before FLOOR / PC_BASE / SHELF_1 installation. Clamp jaws show reserved lands, not a qualified complete clamp. Test purchased hardware before accepting bores; no drilling release.",
+      "pt-BR": "ESQUEMÁTICO — somente ferramental.58mm versus57,15mm permanece PENDENTE. Posicione antes de FLOOR / PC_BASE / SHELF_1. Sapatas indicam áreas reservadas, não grampo completo qualificado. Teste ferragens reais antes de aceitar; furação não liberada."
+    }
+  },
+  {
+    "id": "jig-fit",
+    "type": "jig",
+    "mode": "fit",
+    "title": {
+      "en": "Fit universal jig / F-R stop",
+      "pt-BR": "Encaixe do gabarito / batente F-R"
+    },
+    "duration_s": 8,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "note": {
+      "en": "SCHEMATIC — tooling only.58mm reference versus57.15mm remains HOLD. Register before FLOOR / PC_BASE / SHELF_1 installation. Clamp jaws show reserved lands, not a qualified complete clamp. Test purchased hardware before accepting bores; no drilling release.",
+      "pt-BR": "ESQUEMÁTICO — somente ferramental.58mm versus57,15mm permanece PENDENTE. Posicione antes de FLOOR / PC_BASE / SHELF_1. Sapatas indicam áreas reservadas, não grampo completo qualificado. Teste ferragens reais antes de aceitar; furação não liberada."
+    }
+  },
+  {
+    "id": "jig-clamp",
+    "type": "jig",
+    "mode": "clamp",
+    "title": {
+      "en": "Clamp jaw locations",
+      "pt-BR": "Posições das sapatas dos grampos"
+    },
+    "duration_s": 8,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "note": {
+      "en": "SCHEMATIC — tooling only.58mm reference versus57.15mm remains HOLD. Register before FLOOR / PC_BASE / SHELF_1 installation. Clamp jaws show reserved lands, not a qualified complete clamp. Test purchased hardware before accepting bores; no drilling release.",
+      "pt-BR": "ESQUEMÁTICO — somente ferramental.58mm versus57,15mm permanece PENDENTE. Posicione antes de FLOOR / PC_BASE / SHELF_1. Sapatas indicam áreas reservadas, não grampo completo qualificado. Teste ferragens reais antes de aceitar; furação não liberada."
+    }
+  },
+  {
+    "id": "jig-drill",
+    "type": "jig",
+    "mode": "drill",
+    "title": {
+      "en": "Drill reference axes",
+      "pt-BR": "Furação nos eixos de referência"
+    },
+    "duration_s": 8,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "note": {
+      "en": "SCHEMATIC — tooling only.58mm reference versus57.15mm remains HOLD. Register before FLOOR / PC_BASE / SHELF_1 installation. Clamp jaws show reserved lands, not a qualified complete clamp. Test purchased hardware before accepting bores; no drilling release.",
+      "pt-BR": "ESQUEMÁTICO — somente ferramental.58mm versus57,15mm permanece PENDENTE. Posicione antes de FLOOR / PC_BASE / SHELF_1. Sapatas indicam áreas reservadas, não grampo completo qualificado. Teste ferragens reais antes de aceitar; furação não liberada."
+    }
+  },
+  {
+    "id": "jig-test",
+    "type": "jig",
+    "mode": "test",
+    "title": {
+      "en": "Test real backing plate / leg bolts",
+      "pt-BR": "Teste da chapa e parafusos reais"
+    },
+    "duration_s": 8,
+    "status": "SCHEMATIC_ASSEMBLY_ANIMATION",
+    "note": {
+      "en": "SCHEMATIC — tooling only.58mm reference versus57.15mm remains HOLD. Register before FLOOR / PC_BASE / SHELF_1 installation. Clamp jaws show reserved lands, not a qualified complete clamp. Test purchased hardware before accepting bores; no drilling release. B13 is the existing plate envelope; translucent probes mark axes, not selected bolts.",
+      "pt-BR": "ESQUEMÁTICO — somente ferramental.58mm versus57,15mm permanece PENDENTE. Posicione antes de FLOOR / PC_BASE / SHELF_1. Sapatas indicam áreas reservadas, não grampo completo qualificado. Teste ferragens reais antes de aceitar; furação não liberada. B13 é o envelope existente da chapa; cilindros translúcidos indicam eixos, não parafusos selecionados."
+    }
+  },
+  {
+    "id": "service-pf-release",
+    "type": "service",
+    "mode": "PF_RELEASE",
+    "title": {
+      "en": "Release front playfield retention",
+      "pt-BR": "Soltar retenções frontais do playfield"
+    },
+    "note": {
+      "en": "TOOL OPERATED. Open the front coin door110° first (shown). Support module; withdraw both captive hex bolts with compact spanner to the released stops. Axial reference-envelope motion only; thread turns and exact tool size follow selected hardware. Landing bodies stay installed.",
+      "pt-BR": "OPERAÇÃO POR FERRAMENTA. Abra primeiro a porta frontal de moedas110° (mostrada). Sustente o módulo; recue ambos os parafusos cativos com chave compacta até os batentes. Movimento axial de referência; voltas da rosca e chave dependem da ferragem. Apoios permanecem instalados."
+    },
+    "duration_s": 9,
+    "status": "NATIVE_PATH_AND_PROVISIONAL_AXIAL_HARDWARE_ENVELOPES"
+  },
+  {
+    "id": "service-pf-close",
+    "type": "service",
+    "mode": "PF_CLOSE",
+    "title": {
+      "en": "Seat rear dowel → lower front → retain",
+      "pt-BR": "Assentar cavilha → abaixar frente → reter"
+    },
+    "note": {
+      "en": "Coin door110° open for tool access. Rear seating first, then lower onto front pads and engage captive retention. Main glass/matrix removed. Rigid path is validated only where the native motion certificate explicitly says so; final hardware/load qualification remains HOLD.",
+      "pt-BR": "Porta frontal de moedas110° aberta para acesso da ferramenta. Assente primeiro a cavilha, abaixe nos apoios frontais e engate retenções. Vidro principal/matriz removidos. Trajeto rígido validado somente onde consta no certificado nativo; ferragens/carga finais PENDENTES."
+    },
+    "duration_s": 14,
+    "status": "NATIVE_PATH_AND_PROVISIONAL_AXIAL_HARDWARE_ENVELOPES"
+  },
+  {
+    "id": "service-underfront",
+    "type": "service",
+    "mode": "UNDERFRONT",
+    "title": {
+      "en": "Underfront user-module removal",
+      "pt-BR": "Retirada do módulo do usuário sob a frente"
+    },
+    "note": {
+      "en": "Rigid panel removal path validated. SCHEMATIC fastener unthreading first, then the panel path. Support the plate, release four attachments and lower it. Harness flex/connector interface remains hardware-dependent; no connector family is prescribed. Generic controls are translucent reference envelopes; they intentionally overlap the uncut blank plate. They are not released holes.",
+      "pt-BR": "Trajeto rígido da placa validado. Desrosqueamento ESQUEMÁTICO dos fixadores primeiro, depois trajeto da placa. Sustente a placa, solte quatro fixações e abaixe. Flexão/interface do chicote depende das ferragens; não se impõe família de conector. Controles genéricos são envelopes de referência translúcidos; sobrepõem intencionalmente a placa cega sem cortes. Não são furos liberados."
+    },
+    "duration_s": 10,
+    "status": "NATIVE_RIGID_PANEL_PATH_HARNESS_PROVISIONAL"
+  }
+]

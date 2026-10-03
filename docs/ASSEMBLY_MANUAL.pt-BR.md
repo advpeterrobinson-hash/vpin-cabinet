@@ -1,4 +1,4 @@
-# Manual de montagem — V33.6.3
+# Manual de montagem — V33.7
 
 **SOMENTE PREPARAÇÃO — CNC BLOQUEADO**
 
@@ -22,7 +22,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Leia o perfil do fornecedor e identifique o lote de produção. Não corte chapas completas antes da aprovação da espessura real, folga do cupom e interfaces das ferragens.
+Leia o perfil do fornecedor e identifique o lote de produção. Não corte chapas completas antes da aprovação da espessura real, folga do cupom e interfaces das ferragens. A compra de compensado CURRENT usa somente chapas nominais 12 mm e18 mm. Meça cada lote real e valide o cupom de encaixe antes da liberação. Trechos acabados podem ser mais finos após bolso/redução documentado pela FACE_A; isso não cria família de compra 6/8 mm. A moldura do backglass mantém deliberadamente alma acabada 6 mm por redução de uma face da chapa 12 mm, preservando a folga vidro/monitor. Blocos de perna SW 01 continuam em madeira maciça separada, não são exceção de chapa.
 
 Registre o lote medido, resultado do cupom e ferragens escolhidas; valores não resolvidos permanecem PENDENTES.
 
@@ -70,9 +70,9 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Confira cada família M e instância P com o registro de106 peças (102 CNC +4 de marcenaria). Use as fichas de orientação: FACE A é a referência acabada de usinagem; FACE B não recebe CNC. Mantenha as peças espelhadas identificadas.
+Confira cada família M e instância P com o registro de 106 peças (102 CNC +4 de marcenaria). Use as fichas de orientação: FACE A é a referência acabada de usinagem; FACE B não recebe CNC. Mantenha as peças espelhadas identificadas.
 
-Conte 106 peças em62 famílias. Não confunda as 93 montagens instaladas com a quantidade de peças cortadas.
+Conte 106 peças em 62 famílias. Não confunda as 93 montagens instaladas com a quantidade de peças cortadas.
 
 Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
 
@@ -112,15 +112,15 @@ Parts / Peças: P029-Solid, P030-Solid, P031-Solid, P032-Solid
 
 Hardware / Ferragens: H18, B13, F37. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
 
-Face diagonal para dentro; altura/fibras126mm na vertical. F usa espaçador superior14mm; R usa batente sem espaçador. Eixos frontais42/100mm da base; traseiros28/86mm — somente referência.
+Face diagonal para dentro; altura/fibras 126 mm na vertical. F usa espaçador superior 14 mm; R usa batente sem espaçador. Eixos frontais 42/100 mm da base; traseiros 28/86 mm — somente referência.
 
 Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitador somente para as ferragens/acabamentos listados.
 
 REFERÊNCIA A DE MARCENARIA: face diagonal. Batente SUPERIOR é referência B. Sem CNC e sem pilha de compensado.
 
-Encomende SW01 ×4 de madeira maciça seca, reta, estável e sem nós: material quadrado54×54×126mm, depois corte longitudinal45° para a seção triangular aceita. Confira dimensões/esquadro; posicione FL/FR/RL/RR nos referenciais documentados. Antes de instalar FLOOR, PC_BASE ou SHELF_1, encaixe o gabarito na diagonal/topo, prenda, fure somente com parâmetros fisicamente qualificados e teste a chapa e parafusos reais. Mantenha apoio temporário.
+Encomende SW 01 ×4 de madeira maciça seca, reta, estável e sem nós: material quadrado 54×54×126 mm, depois corte longitudinal 45° para a seção triangular aceita. Confira dimensões/esquadro; posicione FL/FR/RL/RR nos referenciais documentados. Antes de instalar FLOOR, PC_BASE ou SHELF_1, encaixe o gabarito na diagonal/topo, prenda, fure somente com parâmetros fisicamente qualificados e teste a chapa e parafusos reais. Mantenha apoio temporário.
 
-PENDENTE: passo/diâmetro/profundidade reais, envelope da furadeira/grampos, registro impresso e furo de teste.58mm versus57,15mm continua pendente. Não fure através das prateleiras/piso montados; proteja saída e superfícies vizinhas.
+PENDENTE: passo/diâmetro/profundidade reais, envelope da furadeira/grampos, registro impresso e furo de teste.58 mm versus 57,15 mm continua pendente. Não fure através das prateleiras/piso montados; proteja saída e superfícies vizinhas.
 
 Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
 
@@ -140,7 +140,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Após qualificar SW01 no passo02.0, apoie SideL numa superfície plana. Encaixe piso, frente, traseira e prateleira traseira nas capturas de4mm ANTES de fechar SideR. A captura da prateleira é um rebaixo aberto no topo. Grampeie levemente, assente os ombros, meça diagonais e largura externa600mm. Não use parafusos para forçar ajuste ruim. Instale M006 depois; não prenda piso/prateleira fora da caixa já fechada.
+Após qualificar SW 01 no passo 02.0, apoie SideL numa superfície plana. Encaixe piso, frente, traseira e prateleira traseira nas capturas de 4 mm ANTES de fechar SideR. A captura da prateleira é um rebaixo aberto no topo. Grampeie levemente, assente os ombros, meça diagonais e largura externa 600 mm. Não use parafusos para forçar ajuste ruim. Instale M006 depois; não prenda piso/prateleira fora da caixa já fechada.
 
 VERIFICAÇÃO DO ESQUADRO: compare diagonais e assentamento em uma referência plana. Nenhuma tolerância numérica foi liberada.
 
@@ -162,7 +162,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Desmonte após verificar o ajuste seco. Aplique adesivo estrutural aprovado, remonte sobre a referência, grampeie e confira esquadro. Larguras de encaixe usam espessura medida mais folga do cupom. Não cole antes do cupom aprovado. Frente/traseira preservam interfaces SW01/pés; família final F06 permanece pendente.
+Desmonte após verificar o ajuste seco. Aplique adesivo estrutural aprovado, remonte sobre a referência, grampeie e confira esquadro. Larguras de encaixe usam espessura medida mais folga do cupom. Não cole antes do cupom aprovado. Frente/traseira preservam interfaces SW 01/pés; família final F06 permanece pendente.
 
 PENDÊNCIA: não faça a montagem permanente antes de concluir o plano das juntas e a validação do material/colagem.
 
@@ -262,7 +262,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Instale os perfis reais M026/M027 nos seis pontos F01 inalterados e pés apoiados no piso. O recorte superior foi rejeitado: manter a raiz mínima não comprova rigidez igual da orelha. Preserve apoio180°, raiz frontal8,251mm e ligamento traseiro6,280mm. S3/T3 mantêm referências CURRENT. Confira remoção48mm e serviço50°; sem rolamentos ou eixo metálico.
+Instale os perfis reais M026/M027 nos seis pontos F01 inalterados e pés apoiados no piso. O recorte superior foi rejeitado: manter a raiz mínima não comprova rigidez igual da orelha. Preserve apoio 180°, raiz frontal 8,251 mm e ligamento traseiro 6,280 mm. S3/T3 mantêm referências CURRENT. Confira remoção 48 mm e serviço 50°; sem rolamentos ou eixo metálico.
 
 VERIFICAÇÃO DOS BERÇOS: os dois assentos compartilham o eixo aceito e os pés se apoiam continuamente. Não calce nem reposicione o eixo sem nova revisão.
 
@@ -284,7 +284,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Identifique peças reais e orientação pelas fichas FACE A. Monte os apoios frontais nas referências CURRENT das laterais, após a zona de botões/serviço. Cole as três lâminas entre si e fixe-as com os dois parafusos de laminação especificados. Monte cada corpo pronto com quatro parafusos positivos na lateral; não cole o corpo na parede nem dependa de atrito. Instale receptores metálicos roscados, reguladores, contraporcas e pontas substituíveis. Os furos cegos dos receptores metálicos em M025 são PURCHASE_BEFORE_CNC / acabamento manual dependente da ferragem, não furos já fornecidos; use uma guia rígida qualificada para o ângulo de9,906669° em relação à normal da placa e limitador de profundidade. Qualifique furo real, ponta da broca e pele superior intacta em cupom;11,3 mm de referência é limite de ocupação, não instrução de furação. Nunca rosqueie retenção estrutural repetitiva diretamente no compensado. Inclua a espessura da ponta na altura nominal. Preserve substituição e não acrescente calços nem sapatas em T1.
+Identifique peças reais e orientação pelas fichas FACE A. Monte os apoios frontais nas referências CURRENT das laterais, após a zona de botões/serviço. Cole as três lâminas entre si e fixe-as com os dois parafusos de laminação especificados. Monte cada corpo pronto com quatro parafusos positivos na lateral; não cole o corpo na parede nem dependa de atrito. Instale receptores metálicos roscados, reguladores, contraporcas e pontas substituíveis. Os furos cegos dos receptores metálicos em M025 são PURCHASE_BEFORE_CNC / acabamento manual dependente da ferragem, não furos já fornecidos; use uma guia rígida qualificada para o ângulo de 9,906669° em relação à normal da placa e limitador de profundidade. Qualifique furo real, ponta da broca e pele superior intacta em cupom;11,3 mm de referência é limite de ocupação, não instrução de furação. Nunca rosqueie retenção estrutural repetitiva diretamente no compensado. Inclua a espessura da ponta na altura nominal. Preserve substituição e não acrescente calços nem sapatas em T1.
 
 Verifique apoio integral na lateral, engate de parafusos/receptores, ausência de perfuração externa, acesso a botões/fios/ferramentas e folgas ao plunger, S1, pernas e serviço frontal. Dimensões compradas continuam PENDENTES.
 
@@ -310,7 +310,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT com alívio limpo aberto até a borda frontal: laterais retas recuadas e retorno arredondado à largura total, sem ponta, ponte frontal ou gancho. Mantenha a janela traseira V33.6 de 180 × 110 mm R8 e dois rasgos para alívio de tração. Preserve região de carga VESA, cavilha, quatro abraçadeiras e oito coordenadas F02. A folga é derivada das reservas frontais de corpo leaf, terminais, fios e ferramenta. Não mova os botões para acomodar a madeira. Ferragens finais do monitor/botões e qualificação de rigidez permanecem PENDENTES. O alívio V33.6.2 solicitado avança mais30 mm para dentro em CADA lateral: recuo total52 mm, largura frontal restante396 mm, comprimento87 mm e transiçãoR8 mantidos. Os botões permanecem emY89/Y127,65 mm abaixo do topo local. Janela traseira, rasgos de alívio de tração, região VESA, cavilha e abraçadeiras permanecem iguais.
+Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT com alívio limpo aberto até a borda frontal: laterais retas recuadas e retorno arredondado à largura total, sem ponta, ponte frontal ou gancho. Mantenha a janela traseira V33.6 de 180 × 110 mm R8 e dois rasgos para alívio de tração. Preserve região de carga VESA, cavilha, quatro abraçadeiras e oito coordenadas F02. A folga é derivada das reservas frontais de corpo leaf, terminais, fios e ferramenta. Não mova os botões para acomodar a madeira. Ferragens finais do monitor/botões e qualificação de rigidez permanecem PENDENTES. O alívio V33.6.2 solicitado avança mais 30 mm para dentro em CADA lateral: recuo total 52 mm, largura frontal restante 396 mm, comprimento 87 mm e transiçãoR 8 mantidos. Os botões permanecem emY 89/Y127,65 mm abaixo do topo local. Janela traseira, rasgos de alívio de tração, região VESA, cavilha e abraçadeiras permanecem iguais.
 
 Confira assentamento das abraçadeiras, engate dos parafusos e ausência de rachaduras após validar as abraçadeiras/material.
 
@@ -328,11 +328,11 @@ Hardware / Ferragens: F02, H01, B01, F59, F60, F61, H27, I15, I16, I17, I18, W11
 
 X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
 
-Chave compacta para o parafuso de retenção M6 sextavado (referência10 mm entre faces); tamanho/acesso finais dependem da ferragem comprada. Chaves do regulador e contraporca também dependem da família M8 selecionada.
+Chave compacta para o parafuso de retenção M6 sextavado (referência 10 mm entre faces); tamanho/acesso finais dependem da ferragem comprada. Chaves do regulador e contraporca também dependem da família M8 selecionada.
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Remova o vidro principal e a matriz. Solte as duas retenções cativas da posição fechada até os limites de estacionamento documentados; mantenha os corpos dos apoios frontais instalados. Sustente o módulo ao assentar as duas pontas da cavilha Ø32 nos berços traseiros e depois abaixe a frente sobre os dois contatos resilientes reguláveis. Cavilha/berços definem o eixo de apoio traseiro; os apoios frontais levam a carga às laterais estruturais. T1/T2/T3 são travessas estruturais do gabinete, com folga intencional de aproximadamente22 mm normal à base; nenhuma é apoio do playfield. Mantenha recuos frontais52 mm, comprimento87 mm, transiçõesR8 e largura frontal396 mm. Ajuste CURRENT: centros das pontas X72 / X528, Y245 mm; eixos de retenção30 mm atrás. Cada corpo tem3 ×18 mm nominais. Curso M8±3 mm de compensação de tolerâncias para reproduzir a posição PLAY inalterada de9,906669°, incluindo ponta de3 mm. Retenção recua10.5 mm após desrosquear. São valores de referência de ocupação, não dimensões de usinagem compradas.
+Remova o vidro principal e a matriz. Solte as duas retenções cativas da posição fechada até os limites de estacionamento documentados; mantenha os corpos dos apoios frontais instalados. Sustente o módulo ao assentar as duas pontas da cavilha Ø32 nos berços traseiros e depois abaixe a frente sobre os dois contatos resilientes reguláveis. Cavilha/berços definem o eixo de apoio traseiro; os apoios frontais levam a carga às laterais estruturais. T1/T2/T3 são travessas estruturais do gabinete, com folga intencional de aproximadamente 22 mm normal à base; nenhuma é apoio do playfield. Mantenha recuos frontais 52 mm, comprimento 87 mm, transiçõesR 8 e largura frontal 396 mm. Ajuste CURRENT: centros das pontas X72 / X528, Y245 mm; eixos de retenção 30 mm atrás. Cada corpo tem 3 ×18 mm nominais. Curso M8±3 mm de compensação de tolerâncias para reproduzir a posição PLAY inalterada de 9,906669°, incluindo ponta de 3 mm. Retenção recua 10.5 mm após desrosquear. São valores de referência de ocupação, não dimensões de usinagem compradas.
 
 VERIFICAÇÃO DO APOIO TRASEIRO / CONTATO FRONTAL: ambas as pontas da cavilha assentadas; ambos os contatos frontais carregados, sem balanço. Nenhuma carga no vidro, lockdown, botões, eletrônica, cabo ou T1/T2/T3. Sustente externamente até qualificar ferragens/madeira.
 
@@ -350,13 +350,13 @@ Hardware / Ferragens: F59, F60, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use
 
 X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
 
-Chave compacta para o parafuso de retenção M6 sextavado (referência10 mm entre faces); tamanho/acesso finais dependem da ferragem comprada. Chaves do regulador e contraporca também dependem da família M8 selecionada.
+Chave compacta para o parafuso de retenção M6 sextavado (referência 10 mm entre faces); tamanho/acesso finais dependem da ferragem comprada. Chaves do regulador e contraporca também dependem da família M8 selecionada.
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Mantenha ambas as retenções soltas durante o ajuste. Inicie os reguladores na altura nominal do CAD. Com a cavilha traseira assentada, ajuste esquerda/direita para a mesma altura transversal e mantenha a inclinação longitudinal CURRENT de9,906669°. O curso±3 mm compensa apenas tolerâncias de ferragens/material; não autoriza nova altura, inclinação ou torção transversal. A posição inteira rebaixada−3 mm colide com os envelopes dos botões e é proibida. Inclua ambas as pontas e reproduza a posição nominal exata. Trave as contraporcas e reajuste cada batente de retenção para engate de referência7 mm, dentro dos limites6–8 mm qualificados na ferragem comprada. Abra a porta frontal de moedas na posição de serviço validada de110°. Alcance as duas cabeças de retenção por essa abertura com a chave compacta; não é necessário remover eletrônica. Use a chave para engatar os dois parafusos sextavados cativos da família M6 nos receptores metálicos sem retirar a base dos apoios. As retenções resistem à elevação/vibração e não substituem o apoio vertical. Confira folgas do vidro/lockdown. Para abrir, remova vidro principal/matriz, sustente o módulo, solte/estacione as duas retenções e gire até50°. Abertura normal não remove os apoios. Para retirada completa, deixe as retenções soltas e eleve o módulo48 mm para liberar os berços.
+Mantenha ambas as retenções soltas durante o ajuste. Inicie os reguladores na altura nominal do CAD. Com a cavilha traseira assentada, ajuste esquerda/direita para a mesma altura transversal e mantenha a inclinação longitudinal CURRENT de 9,906669°. O curso±3 mm compensa apenas tolerâncias de ferragens/material; não autoriza nova altura, inclinação ou torção transversal. A posição inteira rebaixada−3 mm colide com os envelopes dos botões e é proibida. Inclua ambas as pontas e reproduza a posição nominal exata. Trave as contraporcas e reajuste cada batente de retenção para engate de referência 7 mm, dentro dos limites 6–8 mm qualificados na ferragem comprada. Abra a porta frontal de moedas na posição de serviço validada de 110°. Alcance as duas cabeças de retenção por essa abertura com a chave compacta; não é necessário remover eletrônica. Use a chave para engatar os dois parafusos sextavados cativos da família M6 nos receptores metálicos sem retirar a base dos apoios. As retenções resistem à elevação/vibração e não substituem o apoio vertical. Confira folgas do vidro/lockdown. Para abrir, remova vidro principal/matriz, sustente o módulo, solte/estacione as duas retenções e gire até 50°. Abertura normal não remove os apoios. Para retirada completa, deixe as retenções soltas e eleve o módulo 48 mm para liberar os berços.
 
-VERIFICAÇÃO DE NÍVEL / RETENÇÃO: nível transversal, inclinação longitudinal correta, contraporcas travadas, retenções engatadas e ausência de balanço. Teste soltura, separação inicial limpa, serviço50° e retirada48 mm com manuseio controlado. Não permita queda nem suponha retenção por atrito do pivô.
+VERIFICAÇÃO DE NÍVEL / RETENÇÃO: nível transversal, inclinação longitudinal correta, contraporcas travadas, retenções engatadas e ausência de balanço. Teste soltura, separação inicial limpa, serviço 50° e retirada 48 mm com manuseio controlado. Não permita queda nem suponha retenção por atrito do pivô.
 
 VALIDAÇÃO FÍSICA AINDA NECESSÁRIA: reguladores, insertos, retenção, parafusos de montagem, compensado real/massa do monitor, cupom e ensaios de carga/vibração. Geometria de referência não libera dimensões das ferragens compradas nem CNC. Não trabalhe sob o playfield levantado sem apoio.
 
@@ -409,6 +409,28 @@ Os filtros devem permanecer acessíveis; não é necessário comprar ventoinhas 
 CNC BLOQUEADO. Qualificar material real, cupom, gabarito e ferragens selecionadas.
 
 Viewer: INTERIOR INSPECTION · animation assembly-07.2
+
+### 07.3 — Instale o módulo removível do usuário sob a frente
+
+PROVISIONAL_HARDWARE
+
+Parts / Peças: P097-Main
+
+Hardware / Ferragens: F62, I19, E15, E16. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
+
+X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
+
+Chave adequada aos quatro parafusos de máquina selecionados; medida após compra. Ferramentas de localização/limitador qualificadas para insertos pendentes quando especificado.
+
+FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
+
+Identifique o FLOOR / M005 estrutural existente 18 mm com alojamento inferior localizado e a placa removível 12 mm pelas fichas FACE A. O alojamento é usinado por uma face no fundo existente, não uma caixa de madeira separada; preserve suas referências oficiais sob a frente. Fixe a placa nas quatro interfaces positivas de parafuso de máquina/inserto cativo acessíveis por baixo. Use placa cega no gabinete mecânico básico ou adaptador substituível após selecionar controles. Arranjos alternativos de botões/USB usam o mesmo alojamento e são mutuamente exclusivos. Mantenha corredor de chicote/laço de serviço flexível e reserva traseira dos componentes; o conector elétrico é escolha do construtor. Não corte furos esquemáticos de botão/USB na madeira permanente.
+
+VERIFICAÇÃO DE RETENÇÃO / SERVIÇO: as quatro fixações seguram positivamente a placa; não deixe ferragens soltas caírem. Confira acesso inferior da ferramenta, alcance dos controles e folgas à frente, porta de moedas, plunger, pernas, playfield e seus apoios. Sustente a placa na retirada; solte as quatro fixações e siga o trajeto documentado. Flexão/desconexão de cabo depende das ferragens; não é instrução elétrica validada.
+
+HARDWARE_PENDING / COMPRAR ANTES DO CNC: BUTTON_BORE_MM=null; USB_CUTOUT=null. Referências conflitantes do vendedor são evidências de ocupação, não dimensões selecionadas. O antigo esquema 220×55 com funções fixas é somente histórico.
+
+Viewer: UNDERFRONT USER MODULE · animation assembly-07.3
 
 <a id="stage-08"></a>
 
@@ -554,7 +576,7 @@ Monte cada defletor com sua face, topo e duas laterais, usando as quatro peças 
 
 Por porta: preserve a entrada de 220×80 mm e saída inferior de 220×36 mm antes dos efeitos da tela. Isso não implica certificação térmica.
 
-Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
+Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar. PENDÊNCIA de revisão das pilhas V33.7: F21 na estação cega ganha 6 mm; a pilha F22 da moldura/defletor de entrada muda. Meça a montagem das ferragens selecionadas antes de fixar comprimentos; nenhuma quantidade ou medida é adivinhada. A interface F12 do filtro principal é preservada por rebaixos inferiores 4 mm na chapa 12 mm.
 
 Viewer: EXPLODED DETAILED · animation assembly-11.1
 
@@ -598,7 +620,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Assente M067 nas duas capturas frontais de6mm dos suportes. Instale dois F57 pelo lado traseiro após qualificar parafuso/piloto. Instale duas roscas I10, reguladores F27 M6, contraporcas I11 e pontas substituíveis. Exija curso10mm. Preserve quatro F26 para cargas de dobramento e fora do plano. Sem calços M049. Remoção frontal, ajuste traseiro e posições de profundidade16mm continuam. Os dois suportes verticais agora têm pares de rasgos 6 × 16 mm R3 acima do adaptador. Passe cintas substituíveis neles; não use parafusos estruturais para prender cabos. M067, capturas de 6 mm, acesso traseiro e quatro parafusos de retenção permanecem iguais.
+Assente M067 nas duas capturas frontais de 6 mm dos suportes. Instale dois F57 pelo lado traseiro após qualificar parafuso/piloto. Instale duas roscas I10, reguladores F27 M6, contraporcas I11 e pontas substituíveis. Exija curso 10 mm. Preserve quatro F26 para cargas de dobramento e fora do plano. Sem calços M049. Remoção frontal, ajuste traseiro e posições de profundidade 16 mm continuam. Os dois suportes verticais agora têm pares de rasgos 6 × 16 mm R3 acima do adaptador. Passe cintas substituíveis neles; não use parafusos estruturais para prender cabos. M067, capturas de 6 mm, acesso traseiro e quatro parafusos de retenção permanecem iguais.
 
 O suporte mecânico fica retido sem exigir a compra de um monitor. Sem padrão permanente de furos específico de tela.
 
@@ -788,9 +810,9 @@ Viewer: BACKBOX FOLD 45° · animation assembly-17.2
 
 WAITING_FOR_PHYSICAL_MEASUREMENT
 
-Parts / Peças: P033-Main
+Parts / Peças: P033-Main, P097-Main
 
-Hardware / Ferragens: F29, F32, F33, E01, E02, E03, E04, E05, E06, E07, E08, E09, E10, E11, E12, E13, E14, B14, F42, F43, F44, F45, F46, F47, F48, F49, F50, B15, F51, H25, R01, R02, R03, R04. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
+Hardware / Ferragens: F29, F32, F33, E01, E02, E03, E04, E05, E06, E07, E08, E09, E10, E11, E12, E13, E14, B14, F42, F43, F44, F45, F46, F47, F48, F49, F50, B15, F51, H25, R01, R02, R03, R04, F62, I19, E15, E16. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
 
 X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
 
@@ -798,13 +820,13 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-O plunger convencional frontal direito aparece provisoriamente em X520/Z280. Furo: COMPRAR ANTES DO CNC. Painel inferior220×55mm restaurado como esquema SEM LOCALIZAÇÃO FINAL: volume, seletor OFF/AUDIO/PINBALL, pareamento Bluetooth e USB-C opcional. Não existem centros finais autorizados; selecione controles e valide ergonomia/folgas depois. Passagem genérica de cabos e eletrônica opcional permanecem configuráveis. AUTORIDADE ATUAL DO PROPRIETÁRIO PARA BOTÕES: primário Y89, secundário Y127, ambos 65 mm abaixo do topo local real da lateral (atualmente Z350,593661971831 e Z357,2302816901408). Espelhe nos dois lados. Restaura a correção ergonômica87d63825; Y255/Y310 Z270 da V33.6 foi restauração temporária incorreta e está SUPERADA. Furo Ø15,875 e rebaixo Ø25 ×3 são SOMENTE REFERÊNCIA, NÃO LIBERADOS. Compre botões leaf antes de liberar furos/rebaixos/fixações: PURCHASE_BEFORE_CNC. Serviço requer vidro principal e matriz removidos, com playfield levantado. Controles inferiores220 ×55 continuam esquema separado sem localização.
+O módulo do usuário sob a frente é uma placa genérica removível no alojamento frontal fixo. A configuração do proprietário pode usar cinco botões programáveis e um módulo USB duplo; quatro mais USB e uma configuração só de botões usam o mesmo alojamento. O construtor atribui funções; a madeira permanente não impõe volume, modo de operação ou pareamento. Furos de botões e recorte USB continuam indefinidos e dependem das ferragens. O plunger frontal direito permanece interface provisória separada em X520/Z280. Monitores, controladoras, interfaces elétricas e eletrônica são opcionais, com suportes genéricos e passagem de serviço.
 
-Mantenha a eletrônica separada do kit mecânico obrigatório. Dispositivos pesados exigem retenção positiva; o projeto de potência/elétrica está fora deste roteiro.
+VERIFICAÇÃO DA CONFIGURAÇÃO DO USUÁRIO: não usine a partir de centros esquemáticos; compre e meça os controles reais primeiro. Reserve laço flexível de serviço sem impor conectores. Confira alcance, proteção contra acionamento acidental, espaço traseiro de corpos/porcas e retirada com as peças escolhidas. Compatibilidade da rosca USB com 12 mm não está verificada; eventual bolso traseiro por uma face aguarda medição física e cupom. Preserve a reserva USB traseira planejada de pelo menos 70 mm.
 
-CNC BLOQUEADO. Qualificar material real, cupom, gabarito e ferragens selecionadas.
+HARDWARE_PENDING / COMPRAR ANTES DO CNC: BUTTON_BORE_MM=null; USB_CUTOUT=null. Referências conflitantes do vendedor são evidências de ocupação, não dimensões selecionadas. O antigo esquema 220×55 com funções fixas é somente histórico.
 
-Viewer: INTERIOR INSPECTION · animation assembly-18.1
+Viewer: UNDERFRONT USER MODULE · animation assembly-18.1
 
 ## Preparação CNC e manual de todas as peças de compensado
 
@@ -812,10 +834,10 @@ Viewer: INTERIOR INSPECTION · animation assembly-18.1
 
 FACE_A: [1.0, 0.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
-SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P001-Main-R6 · CUT · depth / profundidade: 18 mm.
-SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P001-Main-R8 · CUT · depth / profundidade: 18 mm.
-SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P001-Main-R5 · POCKET · depth / profundidade: 3 mm.
-SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P001-Main-R7 · POCKET · depth / profundidade: 3 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — interface final indefinida · P001-Main-R6 · CUT · depth / profundidade: 18 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — interface final indefinida · P001-Main-R8 · CUT · depth / profundidade: 18 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — interface final indefinida · P001-Main-R5 · POCKET · depth / profundidade: 3 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — interface final indefinida · P001-Main-R7 · POCKET · depth / profundidade: 3 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 18 mm.
 - OUTER_REENTRANT_CORNER_FINISH: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 18 mm.
@@ -843,10 +865,10 @@ BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 1 mm.
 
 FACE_A: [-1.0, 0.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
-SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P002-Main-R3 · CUT · depth / profundidade: 18 mm.
-SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P002-Main-R5 · CUT · depth / profundidade: 18 mm.
-SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P002-Main-R2 · POCKET · depth / profundidade: 3 mm.
-SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P002-Main-R4 · POCKET · depth / profundidade: 3 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — interface final indefinida · P002-Main-R3 · CUT · depth / profundidade: 18 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — interface final indefinida · P002-Main-R5 · CUT · depth / profundidade: 18 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — interface final indefinida · P002-Main-R2 · POCKET · depth / profundidade: 3 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — interface final indefinida · P002-Main-R4 · POCKET · depth / profundidade: 3 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 18 mm.
 - OUTER_REENTRANT_CORNER_FINISH: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 18 mm.
@@ -933,17 +955,16 @@ BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 6 / 18 mm.
 
 ### P005-Main / M005
 
-FACE_A: [0.0, 0.0, -1.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+FACE_A: [0, 0, -1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
 CNC FACE_A · P005-Main-R1 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R2 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P005-Main-R3 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R4 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P005-Main-R5 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R6 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R7 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R8 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P005-Main-R9 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P005-Main-R11 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P005-Main-R10 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R12 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R13 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R14 · CUT · depth / profundidade: 18 mm.
@@ -951,27 +972,32 @@ CNC FACE_A · P005-Main-R15 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R16 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R17 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R18 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P005-Main-R20 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P005-Main-R19 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R21 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P005-Main-R23 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P005-Main-R25 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P005-Main-R22 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P005-Main-R24 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R26 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R27 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P005-Main-R29 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P005-Main-R31 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P005-Main-R28 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P005-Main-R30 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R32 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P005-Main-R33 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P005-Main-R35 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P005-Main-R5 · POCKET · depth / profundidade: 8 mm.
-CNC FACE_A · P005-Main-R10 · POCKET · depth / profundidade: 8 mm.
-CNC FACE_A · P005-Main-R19 · POCKET · depth / profundidade: 8 mm.
-CNC FACE_A · P005-Main-R22 · POCKET · depth / profundidade: 8 mm.
-CNC FACE_A · P005-Main-R24 · POCKET · depth / profundidade: 8 mm.
-CNC FACE_A · P005-Main-R28 · POCKET · depth / profundidade: 8 mm.
-CNC FACE_A · P005-Main-R30 · POCKET · depth / profundidade: 8 mm.
-CNC FACE_A · P005-Main-R34 · POCKET · depth / profundidade: 8 mm.
+CNC FACE_A · P005-Main-R34 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P005-Main-R36 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P005-Main-R37 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P005-Main-R3 · POCKET · depth / profundidade: 8 mm.
+CNC FACE_A · P005-Main-R9 · POCKET · depth / profundidade: 8 mm.
+CNC FACE_A · P005-Main-R11 · POCKET · depth / profundidade: 2 mm.
+CNC FACE_A · P005-Main-R20 · POCKET · depth / profundidade: 8 mm.
+CNC FACE_A · P005-Main-R23 · POCKET · depth / profundidade: 8 mm.
+CNC FACE_A · P005-Main-R25 · POCKET · depth / profundidade: 8 mm.
+CNC FACE_A · P005-Main-R29 · POCKET · depth / profundidade: 8 mm.
+CNC FACE_A · P005-Main-R31 · POCKET · depth / profundidade: 8 mm.
+CNC FACE_A · P005-Main-R35 · POCKET · depth / profundidade: 8 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
 - HARDWARE_DEPENDENT_RETENTION: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- HARDWARE_DEPENDENT_UNDERFRONT_ATTACHMENT: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 
 ### P006-Main / M006
 
@@ -1355,31 +1381,45 @@ BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 18 mm.
 
 ### P037-Main / M028
 
-FACE_A: [0.0, 0.0, 1.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [0, 0, -1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
-CNC FACE_A · P037-Main-R1 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P037-Main-R2 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P037-Main-R3 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P037-Main-R4 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P037-Main-R5 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P037-Main-R6 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P037-Main-R7 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P037-Main-R8 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P037-Main-R9 · CUT · depth / profundidade: 8 mm.
+CNC FACE_A · P037-Main-R2 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P037-Main-R3 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P037-Main-R4 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P037-Main-R5 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P037-Main-R6 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P037-Main-R8 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P037-Main-R10 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P037-Main-R12 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P037-Main-R14 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P037-Main-R1 · POCKET · depth / profundidade: 4 mm.
+CNC FACE_A · P037-Main-R7 · POCKET · depth / profundidade: 4 mm.
+CNC FACE_A · P037-Main-R9 · POCKET · depth / profundidade: 4 mm.
+CNC FACE_A · P037-Main-R11 · POCKET · depth / profundidade: 4 mm.
+CNC FACE_A · P037-Main-R13 · POCKET · depth / profundidade: 4 mm.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 4 mm.
+- R2_ACCESS_RESIDUAL_FINISH: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 
 ### P038-Main / M028
 
-FACE_A: [0.0, 0.0, 1.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [0, 0, -1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
-CNC FACE_A · P038-Main-R1 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P038-Main-R2 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P038-Main-R3 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P038-Main-R4 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P038-Main-R5 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P038-Main-R6 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P038-Main-R7 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P038-Main-R8 · CUT · depth / profundidade: 8 mm.
-CNC FACE_A · P038-Main-R9 · CUT · depth / profundidade: 8 mm.
+CNC FACE_A · P038-Main-R2 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P038-Main-R3 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P038-Main-R4 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P038-Main-R5 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P038-Main-R6 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P038-Main-R8 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P038-Main-R10 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P038-Main-R12 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P038-Main-R14 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P038-Main-R1 · POCKET · depth / profundidade: 4 mm.
+CNC FACE_A · P038-Main-R7 · POCKET · depth / profundidade: 4 mm.
+CNC FACE_A · P038-Main-R9 · POCKET · depth / profundidade: 4 mm.
+CNC FACE_A · P038-Main-R11 · POCKET · depth / profundidade: 4 mm.
+CNC FACE_A · P038-Main-R13 · POCKET · depth / profundidade: 4 mm.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 4 mm.
+- R2_ACCESS_RESIDUAL_FINISH: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 
 ### P039-Main / M029
 
@@ -1611,9 +1651,10 @@ CNC FACE_A · P062-Main-R4 · CUT · depth / profundidade: 12 mm.
 
 ### P063-Main / M045
 
-FACE_A: [-0.0, -1.0, -0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+FACE_A: [0, 1, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
 CNC FACE_A · P063-Main-R1 · CUT · depth / profundidade: 6 mm.
+CNC FACE_A · P063-Main-FACE_REDUCTION · POCKET · depth / profundidade: 6 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 6 mm.
 - SQUARE_CORNER_FINISH_OR_COUPON_RELIEF: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 
@@ -1732,59 +1773,63 @@ BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 12 mm.
 
 ### P081-Main / M058
 
-FACE_A: [-0.0, -1.0, -0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+FACE_A: [0, 1, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
-CNC FACE_A · P081-Main-R1 · CUT · depth / profundidade: 6 mm.
-BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 6 mm.
+CNC FACE_A · P081-Main-R1 · CUT · depth / profundidade: 12 mm.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 12 mm.
 - SQUARE_CORNER_FINISH_OR_COUPON_RELIEF: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 
 ### P082-Main / M058
 
-FACE_A: [-0.0, -1.0, -0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+FACE_A: [0, 1, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
-CNC FACE_A · P082-Main-R1 · CUT · depth / profundidade: 6 mm.
-BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 6 mm.
+CNC FACE_A · P082-Main-R1 · CUT · depth / profundidade: 12 mm.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 12 mm.
 - SQUARE_CORNER_FINISH_OR_COUPON_RELIEF: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 
 ### P083-Face / M059
 
-FACE_A: [0.0, -1.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [0, -1, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
 
 ### P083-Top / M060
 
-FACE_A: [0.0, 0.0, 1.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
 
 ### P083-Side1 / M061
 
-FACE_A: [1.0, 0.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [-1, 0, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
+CNC FACE_A · P083-Side1-R1 · POCKET · depth / profundidade: 3 mm.
 
 ### P083-Side2 / M061
 
-FACE_A: [1.0, 0.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [1, 0, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
+CNC FACE_A · P083-Side2-R1 · POCKET · depth / profundidade: 3 mm.
 
 ### P084-Face / M059
 
-FACE_A: [0.0, -1.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [0, -1, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
 
 ### P084-Top / M060
 
-FACE_A: [0.0, 0.0, 1.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
 
 ### P084-Side1 / M061
 
-FACE_A: [1.0, 0.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [-1, 0, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
+CNC FACE_A · P084-Side1-R1 · POCKET · depth / profundidade: 3 mm.
 
 ### P084-Side2 / M061
 
-FACE_A: [1.0, 0.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [1, 0, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
+CNC FACE_A · P084-Side2-R1 · POCKET · depth / profundidade: 3 mm.
 
 ### P085-Reduced18 / M062
 
@@ -1841,21 +1886,21 @@ BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 18 mm.
 
 ### P092-Main / M066
 
-FACE_A: [-0.0, -1.0, -0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [0, 1, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
-CNC FACE_A · P092-Main-R1 · CUT · depth / profundidade: 6 mm.
-CNC FACE_A · P092-Main-R2 · CUT · depth / profundidade: 6 mm.
-CNC FACE_A · P092-Main-R3 · CUT · depth / profundidade: 6 mm.
-CNC FACE_A · P092-Main-R4 · CUT · depth / profundidade: 6 mm.
+CNC FACE_A · P092-Main-R1 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P092-Main-R2 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P092-Main-R3 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P092-Main-R4 · CUT · depth / profundidade: 12 mm.
 
 ### P093-Main / M066
 
-FACE_A: [-0.0, -1.0, -0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [0, 1, 0]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
-CNC FACE_A · P093-Main-R1 · CUT · depth / profundidade: 6 mm.
-CNC FACE_A · P093-Main-R2 · CUT · depth / profundidade: 6 mm.
-CNC FACE_A · P093-Main-R3 · CUT · depth / profundidade: 6 mm.
-CNC FACE_A · P093-Main-R4 · CUT · depth / profundidade: 6 mm.
+CNC FACE_A · P093-Main-R1 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P093-Main-R2 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P093-Main-R3 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P093-Main-R4 · CUT · depth / profundidade: 12 mm.
 
 ### P029-Solid / SW01
 
@@ -1941,6 +1986,15 @@ FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
 - HARDWARE_DEPENDENT_LANDING_ASSEMBLY: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
+
+### P097-Main / M074
+
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+
+CNC FACE_A · P097-Main-R1 · CUT · depth / profundidade: 12 mm.
+CNC FACE_A · P097-Main-R2 · CUT · depth / profundidade: 12 mm.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- HARDWARE_DEPENDENT_UNDERFRONT_ATTACHMENT: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 
 ## Quantidades e pendências das ferragens
 
@@ -2108,3 +2162,7 @@ BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
 | W11 | 2 | PURCHASE_BEFORE_CNC |
 | W12 | 2 | PURCHASE_BEFORE_CNC |
 | B17 | 2 | PURCHASE_BEFORE_CNC |
+| F62 | 4 | PURCHASE_BEFORE_CNC |
+| I19 | 4 | PURCHASE_BEFORE_CNC |
+| E15 | TBD / HARDWARE-DEPENDENT | PURCHASE_BEFORE_CNC |
+| E16 | TBD / HARDWARE-DEPENDENT | PURCHASE_BEFORE_CNC |

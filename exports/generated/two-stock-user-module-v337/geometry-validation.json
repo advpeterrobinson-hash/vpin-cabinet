@@ -1,0 +1,149 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "independent native geometry checks pass",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "conversion motion and all preserved reserves pass for same native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "only authorized existing wood changes",
+      "pass": true,
+      "detail": [
+        "FLOOR",
+        "RemovableIntakeFilterL",
+        "RemovableIntakeFilterR",
+        "BB_IntakeFilterFrameL",
+        "BB_IntakeDownBaffleL",
+        "BB_IntakeFilterFrameR",
+        "BB_IntakeDownBaffleR"
+      ]
+    },
+    {
+      "name": "all original objects retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "new module andoriginalfrontlanding/sidebuttons coexist",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "floor change removes only approvedbaystock",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "playfield0to50 continuously clears module",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "playfield48mm fullvertical envelope clears module",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "populatedbackbox0to90 continuously clears module",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "landing tool/hand/access sweeps remain clear",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all namedstate transformations provenfromoldnative",
+      "pass": true,
+      "detail": {
+        "transforms": 63
+      }
+    }
+  ],
+  "source": "exports/generated/front-landings-v3363/play.FCStd",
+  "source_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "native_sha256": "ee7b3c2a255220c2cd72e4035e8d9c91b03821a82d4b33131048e00747b45cc7",
+  "changed_existing": [
+    "FLOOR",
+    "RemovableIntakeFilterL",
+    "RemovableIntakeFilterR",
+    "BB_IntakeFilterFrameL",
+    "BB_IntakeDownBaffleL",
+    "BB_IntakeFilterFrameR",
+    "BB_IntakeDownBaffleR"
+  ],
+  "changed_names": [
+    "FLOOR",
+    "RemovableIntakeFilterL",
+    "RemovableIntakeFilterR",
+    "BB_IntakeFilterFrameL",
+    "BB_IntakeDownBaffleL",
+    "BB_IntakeFilterFrameR",
+    "BB_IntakeDownBaffleR"
+  ],
+  "added_names": [
+    "Underfront_Plate",
+    "Underfront_Screw1",
+    "Underfront_Insert1",
+    "Underfront_Screw2",
+    "Underfront_Insert2",
+    "Underfront_Screw3",
+    "Underfront_Insert3",
+    "Underfront_Screw4",
+    "Underfront_Insert4",
+    "Underfront_HarnessLoopReserve",
+    "Underfront_Button1_Body",
+    "Underfront_Button1_Face",
+    "Underfront_Button1_Nut",
+    "Underfront_Button1_Switch",
+    "Underfront_Button1_WireReserve",
+    "Underfront_Button2_Body",
+    "Underfront_Button2_Face",
+    "Underfront_Button2_Nut",
+    "Underfront_Button2_Switch",
+    "Underfront_Button2_WireReserve",
+    "Underfront_Button3_Body",
+    "Underfront_Button3_Face",
+    "Underfront_Button3_Nut",
+    "Underfront_Button3_Switch",
+    "Underfront_Button3_WireReserve",
+    "Underfront_Button4_Body",
+    "Underfront_Button4_Face",
+    "Underfront_Button4_Nut",
+    "Underfront_Button4_Switch",
+    "Underfront_Button4_WireReserve",
+    "Underfront_Button5_Body",
+    "Underfront_Button5_Face",
+    "Underfront_Button5_Nut",
+    "Underfront_Button5_Switch",
+    "Underfront_Button5_WireReserve",
+    "Underfront_USBBody",
+    "Underfront_USBFlange",
+    "Underfront_USBNut",
+    "Underfront_USBCap",
+    "Underfront_USBCableReserve"
+  ],
+  "removed_names": [],
+  "new_wood_names": [
+    "Underfront_Plate"
+  ],
+  "current_shapes_changed": [
+    "FLOOR",
+    "RemovableIntakeFilterL",
+    "RemovableIntakeFilterR",
+    "BB_IntakeFilterFrameL",
+    "BB_IntakeDownBaffleL",
+    "BB_IntakeFilterFrameR",
+    "BB_IntakeDownBaffleR"
+  ],
+  "native_geometry_file": "exports/generated/two-stock-user-module-v337/play.FCStd",
+  "manufacturing_release": false,
+  "allowed_change_scope": "15 thin-stock manufacturingmembers plusFLOORbay/new12module only; noothergeometrychanges"
+}

@@ -1,4 +1,4 @@
-> CURRENT V33.6.3: [complete closed playfield support](exports/generated/front-landings-v3363/README.md). Rear dowel/cradles plus two adjustable side landings at Y245 support the unchanged playing pose. Two captive tool-operated M6 clamps provide separate uplift retention. T1/T2/T3 intentionally remain clear. **Support design architecture passes; physical qualification and CNC release remain BLOCKED.** ±3 mm adjuster travel compensates construction tolerances only. All previous geometry is unchanged;103 CNC plywood +4 SW01 =107 wood pieces /65 finished families. [Offline viewer](exports/generated/viewer-v32/index.html).
+> CURRENT V33.7: [two plywood families and compact removable user module](docs/TWO_STOCK_USER_MODULE_V337.md). Nominal plywood stock is **18 / 12 mm only**. A 160×116 mm removable 12 mm plate accepts the owner 5-button + dual USB reference or a 6-button alternative. Hardware bores, physical qualification and CNC release remain **BLOCKED**. Protected V33.6.3 playfield supports and other accepted architecture remain unchanged. [Offline viewer](exports/generated/viewer-v32/index.html).
 
 # Virtual Pinball Cabinet
 

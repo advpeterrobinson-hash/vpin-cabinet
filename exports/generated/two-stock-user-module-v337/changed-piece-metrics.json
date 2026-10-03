@@ -1,0 +1,325 @@
+[
+  {
+    "instance_id": "P037-Main",
+    "volume_mm3": 163000.8155960494,
+    "center_of_mass_local_mm": [
+      85.0000000000006,
+      85.00000000000101,
+      7.246307077041604
+    ],
+    "finished_center_of_mass_local_mm": [
+      85.00000000000063,
+      85.00000000000057,
+      7.24630770362461
+    ],
+    "shipping_volume_mm3": 163000.83506375074,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P037-Main-cnc_stage.brep",
+    "outer_area_mm2": 28900.0,
+    "projected_material_area_mm2": 17815.67571997178,
+    "removed_stock_volume_mm3": 183799.1844039506
+  },
+  {
+    "instance_id": "P038-Main",
+    "volume_mm3": 163000.81559604936,
+    "center_of_mass_local_mm": [
+      85.00000000000107,
+      85.00000000000101,
+      7.246307077041606
+    ],
+    "finished_center_of_mass_local_mm": [
+      85.00000000000114,
+      85.00000000000114,
+      7.246307703624609
+    ],
+    "shipping_volume_mm3": 163000.83506375074,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P038-Main-cnc_stage.brep",
+    "outer_area_mm2": 28900.0,
+    "projected_material_area_mm2": 17815.67571997178,
+    "removed_stock_volume_mm3": 183799.18440395064
+  },
+  {
+    "instance_id": "P063-Main",
+    "volume_mm3": 365880.0000000001,
+    "center_of_mass_local_mm": [
+      369.99999999999983,
+      235.31816068414318,
+      3.00000000000042
+    ],
+    "finished_center_of_mass_local_mm": [
+      370.0000000000003,
+      235.31862905870773,
+      3.0000000000006817
+    ],
+    "shipping_volume_mm3": 365900.6017763275,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P063-Main-cnc_stage.brep",
+    "outer_area_mm2": 338180.0,
+    "projected_material_area_mm2": 60980.00000000006,
+    "removed_stock_volume_mm3": 3692280.0
+  },
+  {
+    "instance_id": "P081-Main",
+    "volume_mm3": 76800.00000000001,
+    "center_of_mass_local_mm": [
+      119.99999999999996,
+      50.000000000000064,
+      5.999999999999988
+    ],
+    "finished_center_of_mass_local_mm": [
+      120.0,
+      50.0,
+      6.000000000001364
+    ],
+    "shipping_volume_mm3": 76841.2035526278,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P081-Main-cnc_stage.brep",
+    "outer_area_mm2": 24000.0,
+    "projected_material_area_mm2": 6400.0,
+    "removed_stock_volume_mm3": 211200.0
+  },
+  {
+    "instance_id": "P082-Main",
+    "volume_mm3": 76800.00000000001,
+    "center_of_mass_local_mm": [
+      119.99999999999996,
+      50.000000000000064,
+      5.999999999999988
+    ],
+    "finished_center_of_mass_local_mm": [
+      120.0,
+      50.0,
+      6.000000000001364
+    ],
+    "shipping_volume_mm3": 76841.2035526278,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P082-Main-cnc_stage.brep",
+    "outer_area_mm2": 24000.0,
+    "projected_material_area_mm2": 6400.0,
+    "removed_stock_volume_mm3": 211200.0
+  },
+  {
+    "instance_id": "P083-Face",
+    "volume_mm3": 322080.0,
+    "center_of_mass_local_mm": [
+      122.0,
+      55.000000000000114,
+      6.0
+    ],
+    "finished_center_of_mass_local_mm": [
+      122.0,
+      55.0,
+      6.0
+    ],
+    "shipping_volume_mm3": 322080.00000000023,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P083-Face-cnc_stage.brep",
+    "outer_area_mm2": 26839.999999999996,
+    "projected_material_area_mm2": 26839.999999999996,
+    "removed_stock_volume_mm3": -5.820766091346741e-11
+  },
+  {
+    "instance_id": "P083-Top",
+    "volume_mm3": 105408.0,
+    "center_of_mass_local_mm": [
+      121.99999999999991,
+      18.0,
+      6.000000000000004
+    ],
+    "finished_center_of_mass_local_mm": [
+      121.9999999999999,
+      18.0,
+      6.0
+    ],
+    "shipping_volume_mm3": 105408.00000000017,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P083-Top-cnc_stage.brep",
+    "outer_area_mm2": 8784.0,
+    "projected_material_area_mm2": 8784.0,
+    "removed_stock_volume_mm3": 0.0
+  },
+  {
+    "instance_id": "P083-Side1",
+    "volume_mm3": 38880.0,
+    "center_of_mass_local_mm": [
+      46.06666666666666,
+      18.0,
+      6.400000000000002
+    ],
+    "finished_center_of_mass_local_mm": [
+      46.066666666666606,
+      18.0,
+      6.400000000000002
+    ],
+    "shipping_volume_mm3": 38880.00000000002,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P083-Side1-cnc_stage.brep",
+    "outer_area_mm2": 3528.0,
+    "projected_material_area_mm2": 3528.0,
+    "removed_stock_volume_mm3": 3456.0
+  },
+  {
+    "instance_id": "P083-Side2",
+    "volume_mm3": 38880.0,
+    "center_of_mass_local_mm": [
+      51.933333333333415,
+      17.999999999999996,
+      6.400000000000007
+    ],
+    "finished_center_of_mass_local_mm": [
+      51.93333333333328,
+      18.0,
+      6.400000000000034
+    ],
+    "shipping_volume_mm3": 38879.99999999993,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P083-Side2-cnc_stage.brep",
+    "outer_area_mm2": 3528.0,
+    "projected_material_area_mm2": 3528.0,
+    "removed_stock_volume_mm3": 3456.0
+  },
+  {
+    "instance_id": "P084-Face",
+    "volume_mm3": 322080.0,
+    "center_of_mass_local_mm": [
+      122.0,
+      55.000000000000114,
+      6.0
+    ],
+    "finished_center_of_mass_local_mm": [
+      122.0,
+      55.0,
+      6.0
+    ],
+    "shipping_volume_mm3": 322080.00000000023,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P084-Face-cnc_stage.brep",
+    "outer_area_mm2": 26839.999999999996,
+    "projected_material_area_mm2": 26839.999999999996,
+    "removed_stock_volume_mm3": -5.820766091346741e-11
+  },
+  {
+    "instance_id": "P084-Top",
+    "volume_mm3": 105408.0,
+    "center_of_mass_local_mm": [
+      121.99999999999986,
+      18.0,
+      6.000000000000124
+    ],
+    "finished_center_of_mass_local_mm": [
+      121.99999999999994,
+      17.999999999999545,
+      6.0
+    ],
+    "shipping_volume_mm3": 105408.000000001,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P084-Top-cnc_stage.brep",
+    "outer_area_mm2": 8784.0,
+    "projected_material_area_mm2": 8784.0,
+    "removed_stock_volume_mm3": 0.0
+  },
+  {
+    "instance_id": "P084-Side1",
+    "volume_mm3": 38880.0,
+    "center_of_mass_local_mm": [
+      46.06666666666658,
+      18.0,
+      6.4000000000000155
+    ],
+    "finished_center_of_mass_local_mm": [
+      46.06666666666672,
+      18.0,
+      6.399999999999977
+    ],
+    "shipping_volume_mm3": 38880.00000000009,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P084-Side1-cnc_stage.brep",
+    "outer_area_mm2": 3528.0,
+    "projected_material_area_mm2": 3528.0,
+    "removed_stock_volume_mm3": 3456.0
+  },
+  {
+    "instance_id": "P084-Side2",
+    "volume_mm3": 38880.0,
+    "center_of_mass_local_mm": [
+      51.93333333333357,
+      18.0,
+      6.40000000000001
+    ],
+    "finished_center_of_mass_local_mm": [
+      51.93333333333328,
+      18.0,
+      6.399999999999977
+    ],
+    "shipping_volume_mm3": 38879.99999999989,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P084-Side2-cnc_stage.brep",
+    "outer_area_mm2": 3528.0,
+    "projected_material_area_mm2": 3528.0,
+    "removed_stock_volume_mm3": 3456.0
+  },
+  {
+    "instance_id": "P092-Main",
+    "volume_mm3": 195844.5929851777,
+    "center_of_mass_local_mm": [
+      63.99999999999999,
+      64.00000000000024,
+      6.000000000000001
+    ],
+    "finished_center_of_mass_local_mm": [
+      63.99999999999994,
+      64.0,
+      6.000000000000682
+    ],
+    "shipping_volume_mm3": 195844.59298517782,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P092-Main-cnc_stage.brep",
+    "outer_area_mm2": 16384.0,
+    "projected_material_area_mm2": 16320.382748764805,
+    "removed_stock_volume_mm3": 763.4070148222963
+  },
+  {
+    "instance_id": "P093-Main",
+    "volume_mm3": 195844.5929851777,
+    "center_of_mass_local_mm": [
+      63.99999999999999,
+      64.00000000000024,
+      6.000000000000001
+    ],
+    "finished_center_of_mass_local_mm": [
+      63.99999999999994,
+      64.0,
+      6.000000000000682
+    ],
+    "shipping_volume_mm3": 195844.59298517782,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P093-Main-cnc_stage.brep",
+    "outer_area_mm2": 16384.0,
+    "projected_material_area_mm2": 16320.382748764805,
+    "removed_stock_volume_mm3": 763.4070148222963
+  },
+  {
+    "instance_id": "P005-Main",
+    "volume_mm3": 12192771.803602736,
+    "center_of_mass_local_mm": [
+      285.99999999999994,
+      649.3714600529695,
+      9.010028220250513
+    ],
+    "finished_center_of_mass_local_mm": [
+      285.99999999999994,
+      649.3714600529693,
+      9.010028220250506
+    ],
+    "shipping_volume_mm3": 12192771.803602738,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P005-Main-cnc_stage.brep",
+    "outer_area_mm2": 727641.2,
+    "projected_material_area_mm2": 678263.0201530419,
+    "removed_stock_volume_mm3": 904769.7963972632
+  },
+  {
+    "instance_id": "P097-Main",
+    "volume_mm3": 221279.5751316061,
+    "center_of_mass_local_mm": [
+      80.00000000000006,
+      58.000000000000036,
+      5.999999999999995
+    ],
+    "finished_center_of_mass_local_mm": [
+      80.00000000000003,
+      58.000000000000014,
+      6.000000000000003
+    ],
+    "shipping_volume_mm3": 221279.5751316061,
+    "shipping_geometry_authority": "exports/generated/two-stock-user-module-v337/brep/P097-Main-cnc_stage.brep",
+    "outer_area_mm2": 18529.097335529234,
+    "projected_material_area_mm2": 18439.964594300513,
+    "removed_stock_volume_mm3": 1069.592894744681
+  }
+]

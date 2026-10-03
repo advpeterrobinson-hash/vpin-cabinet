@@ -1,0 +1,338 @@
+{
+  "native_files": {
+    "PLAY": "play.FCStd",
+    "PF RELEASED": "released.FCStd",
+    "SERVICE": "service.FCStd",
+    "LIFT-OUT": "lift-out.FCStd",
+    "MATRIX REMOVED": "matrix-removed.FCStd",
+    "DOORS OPEN": "doors-open.FCStd",
+    "UNLOCKED": "locks-parked.FCStd",
+    "FOLD1": "fold-1.FCStd",
+    "FOLD45": "fold-45.FCStd",
+    "BACKBOX FOLD": "backbox-fold.FCStd",
+    "UNDERFRONT MODULE REMOVED": "module-removed.FCStd"
+  },
+  "source_sha256": "ee7b3c2a255220c2cd72e4035e8d9c91b03821a82d4b33131048e00747b45cc7",
+  "manufacturing_release": false,
+  "state_transform_proofs": [
+    {
+      "state": "PF RELEASED",
+      "part": "FLOOR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "PF RELEASED",
+      "part": "RemovableIntakeFilterL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "PF RELEASED",
+      "part": "RemovableIntakeFilterR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "PF RELEASED",
+      "part": "BB_IntakeFilterFrameL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "PF RELEASED",
+      "part": "BB_IntakeDownBaffleL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "PF RELEASED",
+      "part": "BB_IntakeFilterFrameR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "PF RELEASED",
+      "part": "BB_IntakeDownBaffleR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "SERVICE",
+      "part": "FLOOR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "SERVICE",
+      "part": "RemovableIntakeFilterL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "SERVICE",
+      "part": "RemovableIntakeFilterR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "SERVICE",
+      "part": "BB_IntakeFilterFrameL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "SERVICE",
+      "part": "BB_IntakeDownBaffleL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "SERVICE",
+      "part": "BB_IntakeFilterFrameR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "SERVICE",
+      "part": "BB_IntakeDownBaffleR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "LIFT-OUT",
+      "part": "FLOOR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "LIFT-OUT",
+      "part": "RemovableIntakeFilterL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "LIFT-OUT",
+      "part": "RemovableIntakeFilterR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "LIFT-OUT",
+      "part": "BB_IntakeFilterFrameL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "LIFT-OUT",
+      "part": "BB_IntakeDownBaffleL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "LIFT-OUT",
+      "part": "BB_IntakeFilterFrameR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "LIFT-OUT",
+      "part": "BB_IntakeDownBaffleR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "MATRIX REMOVED",
+      "part": "FLOOR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "MATRIX REMOVED",
+      "part": "RemovableIntakeFilterL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "MATRIX REMOVED",
+      "part": "RemovableIntakeFilterR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "MATRIX REMOVED",
+      "part": "BB_IntakeFilterFrameL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "MATRIX REMOVED",
+      "part": "BB_IntakeDownBaffleL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "MATRIX REMOVED",
+      "part": "BB_IntakeFilterFrameR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "MATRIX REMOVED",
+      "part": "BB_IntakeDownBaffleR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "DOORS OPEN",
+      "part": "FLOOR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "DOORS OPEN",
+      "part": "RemovableIntakeFilterL",
+      "transform_roundtrip_mm3": 0,
+      "status": "REMOVED_IN_AUTHORITATIVE_SERVICE_STATE; preserved absence"
+    },
+    {
+      "state": "DOORS OPEN",
+      "part": "RemovableIntakeFilterR",
+      "transform_roundtrip_mm3": 0,
+      "status": "REMOVED_IN_AUTHORITATIVE_SERVICE_STATE; preserved absence"
+    },
+    {
+      "state": "DOORS OPEN",
+      "part": "BB_IntakeFilterFrameL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "DOORS OPEN",
+      "part": "BB_IntakeDownBaffleL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "DOORS OPEN",
+      "part": "BB_IntakeFilterFrameR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "DOORS OPEN",
+      "part": "BB_IntakeDownBaffleR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "UNLOCKED",
+      "part": "FLOOR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "UNLOCKED",
+      "part": "RemovableIntakeFilterL",
+      "transform_roundtrip_mm3": 0,
+      "status": "REMOVED_IN_AUTHORITATIVE_SERVICE_STATE; preserved absence"
+    },
+    {
+      "state": "UNLOCKED",
+      "part": "RemovableIntakeFilterR",
+      "transform_roundtrip_mm3": 0,
+      "status": "REMOVED_IN_AUTHORITATIVE_SERVICE_STATE; preserved absence"
+    },
+    {
+      "state": "UNLOCKED",
+      "part": "BB_IntakeFilterFrameL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "UNLOCKED",
+      "part": "BB_IntakeDownBaffleL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "UNLOCKED",
+      "part": "BB_IntakeFilterFrameR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "UNLOCKED",
+      "part": "BB_IntakeDownBaffleR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD1",
+      "part": "FLOOR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD1",
+      "part": "RemovableIntakeFilterL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD1",
+      "part": "RemovableIntakeFilterR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD1",
+      "part": "BB_IntakeFilterFrameL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD1",
+      "part": "BB_IntakeDownBaffleL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD1",
+      "part": "BB_IntakeFilterFrameR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD1",
+      "part": "BB_IntakeDownBaffleR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD45",
+      "part": "FLOOR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD45",
+      "part": "RemovableIntakeFilterL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD45",
+      "part": "RemovableIntakeFilterR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD45",
+      "part": "BB_IntakeFilterFrameL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD45",
+      "part": "BB_IntakeDownBaffleL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD45",
+      "part": "BB_IntakeFilterFrameR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "FOLD45",
+      "part": "BB_IntakeDownBaffleR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "BACKBOX FOLD",
+      "part": "FLOOR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "BACKBOX FOLD",
+      "part": "RemovableIntakeFilterL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "BACKBOX FOLD",
+      "part": "RemovableIntakeFilterR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "BACKBOX FOLD",
+      "part": "BB_IntakeFilterFrameL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "BACKBOX FOLD",
+      "part": "BB_IntakeDownBaffleL",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "BACKBOX FOLD",
+      "part": "BB_IntakeFilterFrameR",
+      "transform_roundtrip_mm3": 0.0
+    },
+    {
+      "state": "BACKBOX FOLD",
+      "part": "BB_IntakeDownBaffleR",
+      "transform_roundtrip_mm3": 0.0
+    }
+  ]
+}

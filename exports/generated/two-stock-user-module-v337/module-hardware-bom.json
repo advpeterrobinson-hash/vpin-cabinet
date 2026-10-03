@@ -1,0 +1,741 @@
+{
+  "version": "V33.7",
+  "manufacturing_release": false,
+  "hardware": [
+    {
+      "assembly_stage": "07",
+      "parent_assembly": "underfront_user_module",
+      "unit": "piece",
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/underfront_user_module_v337.json",
+        "exports/generated/two-stock-user-module-v337/module-validation.json"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original simplified envelope; external citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "installed_coordinate_status": "REFERENCE_AXIS_NOT_DRILLING_RELEASE",
+      "measurement_fields": {
+        "selected_manufacturer_part": null,
+        "actual_dimensions_mm": null,
+        "thread_standard_and_pitch": null,
+        "pilot_or_cutout_mm": null,
+        "installed_stack_and_engagement_mm": null,
+        "drive_and_size": null,
+        "physical_fit_approved": false,
+        "blind_drill_depth_mm": null,
+        "drill_point_allowance_mm": null,
+        "remaining_floor_skin_mm": null
+      },
+      "id": "F62",
+      "description_en": "Underfront removable-plate machine screw, M4 family",
+      "description_pt_BR": "Parafuso de máquina da placa removível sob a frente, família M4",
+      "quantity": 4,
+      "quantity_status": "EXACT_FROM_FOUR_DESIGN_INTERFACES",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "material": "steel / selected material and finish pending",
+      "nominal_dimensions": {
+        "thread_family": "M4",
+        "underhead_reference_mm": 20,
+        "head_family": "button/pan; purchased drive pending"
+      },
+      "tool_family": "selected screw drive; exact bit remains hardware-dependent",
+      "instances": [
+        {
+          "object": "Underfront_Screw1",
+          "coordinate_xyz_mm": [
+            230,
+            62,
+            8
+          ],
+          "coordinate_meaning": "nominal attachment-axis entry; not a final drilling datum",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "UNDERSIDE_SERVICE_APPROACH_VALIDATED_REFERENCE",
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "Underfront_Screw2",
+          "coordinate_xyz_mm": [
+            370,
+            62,
+            8
+          ],
+          "coordinate_meaning": "nominal attachment-axis entry; not a final drilling datum",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "UNDERSIDE_SERVICE_APPROACH_VALIDATED_REFERENCE",
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "Underfront_Screw3",
+          "coordinate_xyz_mm": [
+            230,
+            158,
+            8
+          ],
+          "coordinate_meaning": "nominal attachment-axis entry; not a final drilling datum",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "UNDERSIDE_SERVICE_APPROACH_VALIDATED_REFERENCE",
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "Underfront_Screw4",
+          "coordinate_xyz_mm": [
+            370,
+            158,
+            8
+          ],
+          "coordinate_meaning": "nominal attachment-axis entry; not a final drilling datum",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "UNDERSIDE_SERVICE_APPROACH_VALIDATED_REFERENCE",
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "notes": "Four independent module attachments. No washer is counted. Reference hardware is unselected; floor receiver and plate clearance holes remain uncut mandatory interface holds. Qualify actual stack, engagement, drill-point depth and remaining floor skin before machining.",
+      "model": {
+        "strategy": "ORIGINAL_SIMPLIFIED_REFERENCE_ENVELOPE",
+        "path": "exports/generated/two-stock-user-module-v337/play.FCStd",
+        "detailed_threads": false
+      }
+    },
+    {
+      "assembly_stage": "07",
+      "parent_assembly": "underfront_user_module",
+      "unit": "piece",
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/underfront_user_module_v337.json",
+        "exports/generated/two-stock-user-module-v337/module-validation.json"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original simplified envelope; external citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "installed_coordinate_status": "REFERENCE_AXIS_NOT_DRILLING_RELEASE",
+      "measurement_fields": {
+        "selected_manufacturer_part": null,
+        "actual_dimensions_mm": null,
+        "thread_standard_and_pitch": null,
+        "pilot_or_cutout_mm": null,
+        "installed_stack_and_engagement_mm": null,
+        "drive_and_size": null,
+        "physical_fit_approved": false,
+        "blind_drill_depth_mm": null,
+        "drill_point_allowance_mm": null,
+        "remaining_floor_skin_mm": null
+      },
+      "id": "I19",
+      "description_en": "Underfront blind metal captive insert, M4 family",
+      "description_pt_BR": "Inserto metálico cativo cego sob a frente, família M4",
+      "quantity": 4,
+      "quantity_status": "EXACT_FROM_FOUR_DESIGN_INTERFACES",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "material": "steel / selected material and finish pending",
+      "nominal_dimensions": {
+        "thread_family": "M4",
+        "outer_diameter_reference_mm": 8,
+        "length_reference_mm": 10
+      },
+      "tool_family": "selected insert driver, qualified locator template and depth stop",
+      "instances": [
+        {
+          "object": "Underfront_Insert1",
+          "coordinate_xyz_mm": [
+            230,
+            62,
+            20
+          ],
+          "coordinate_meaning": "nominal attachment-axis entry; not a final drilling datum",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "UNDERSIDE_SERVICE_APPROACH_VALIDATED_REFERENCE",
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "Underfront_Insert2",
+          "coordinate_xyz_mm": [
+            370,
+            62,
+            20
+          ],
+          "coordinate_meaning": "nominal attachment-axis entry; not a final drilling datum",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "UNDERSIDE_SERVICE_APPROACH_VALIDATED_REFERENCE",
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "Underfront_Insert3",
+          "coordinate_xyz_mm": [
+            230,
+            158,
+            20
+          ],
+          "coordinate_meaning": "nominal attachment-axis entry; not a final drilling datum",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "UNDERSIDE_SERVICE_APPROACH_VALIDATED_REFERENCE",
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": true
+        },
+        {
+          "object": "Underfront_Insert4",
+          "coordinate_xyz_mm": [
+            370,
+            158,
+            20
+          ],
+          "coordinate_meaning": "nominal attachment-axis entry; not a final drilling datum",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "UNDERSIDE_SERVICE_APPROACH_VALIDATED_REFERENCE",
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": true
+        }
+      ],
+      "notes": "Four independent module attachments. No washer is counted. Reference hardware is unselected; floor receiver and plate clearance holes remain uncut mandatory interface holds. Qualify actual stack, engagement, drill-point depth and remaining floor skin before machining.",
+      "model": {
+        "strategy": "ORIGINAL_SIMPLIFIED_REFERENCE_ENVELOPE",
+        "path": "exports/generated/two-stock-user-module-v337/play.FCStd",
+        "detailed_threads": false
+      }
+    },
+    {
+      "assembly_stage": "07",
+      "parent_assembly": "underfront_user_module",
+      "unit": "piece",
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "config/underfront_user_module_v337.json",
+        "exports/generated/two-stock-user-module-v337/module-validation.json",
+        "https://joy-it.net/files/files/Produkte/Button-XXX/Button-XXX_Datasheet_2024-10-21.pdf"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original simplified envelope; external citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "installed_coordinate_status": "REFERENCE_AXIS_NOT_DRILLING_RELEASE",
+      "measurement_fields": {
+        "selected_manufacturer_part": null,
+        "actual_dimensions_mm": null,
+        "thread_standard_and_pitch": null,
+        "pilot_or_cutout_mm": null,
+        "installed_stack_and_engagement_mm": null,
+        "drive_and_size": null,
+        "physical_fit_approved": false
+      },
+      "id": "E15",
+      "description_en": "Optional programmable underfront arcade button with microswitch",
+      "description_pt_BR": "Botão arcade programável opcional sob a frente com microinterruptor",
+      "quantity": null,
+      "quantity_status": "USER_SELECTED_MUTUALLY_EXCLUSIVE_VARIANT",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "material": "selected device materials pending",
+      "nominal_dimensions": {
+        "type": "generic ordinary arcade pushbutton with microswitch, NOT traditional flipper leaf button",
+        "BUTTON_BORE_MM": null,
+        "reference_hole_class_mm": [
+          28,
+          30
+        ],
+        "reference_flange_diameter_mm": 35,
+        "nut_envelope_diameter_mm": 38,
+        "reference_rear_body_depth_mm": 62,
+        "body_switch_wire_planning_depth_mm": 85,
+        "rear_service_footprint_mm": [
+          40,
+          40
+        ],
+        "status": "PURCHASE_BEFORE_CNC",
+        "source": "https://joy-it.net/files/files/Produkte/Button-XXX/Button-XXX_Datasheet_2024-10-21.pdf",
+        "source_scope": "Manufacturer reference example only:28mm hole/M28,35mm overall diameter,67mm overall length. Our38mm nut,40mm rear footprint and85mm wiring depth are conservative design assumptions, not selected hardware."
+      },
+      "tool_family": "purchased mounting nut tool; actual geometry pending",
+      "instances": [
+        {
+          "object": "Underfront_Button1_Body",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button1_Face",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button1_Nut",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button1_Switch",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button2_Body",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button2_Face",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button2_Nut",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button2_Switch",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button3_Body",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button3_Face",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button3_Nut",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button3_Switch",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button4_Body",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button4_Face",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button4_Nut",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button4_Switch",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button5_Body",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button5_Face",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button5_Nut",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button5_Switch",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button6_Body",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/modulevariants.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button6_Face",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/modulevariants.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button6_Nut",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/modulevariants.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_Button6_Switch",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/modulevariants.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "notes": "Not required to assemble the mechanical flatpack. Blank/default mechanical state requires zero devices. Counts are per selected variant, not additive; no fixed function is assigned. Final device bores/cutouts are null and no device mounting hole is cut into the current plate.",
+      "quantity_by_variant": {
+        "UNDERFRONT_OWNER": 5,
+        "UNDERFRONT_BUTTON_ONLY": 6,
+        "UNDERFRONT_BLANK": 0
+      },
+      "controls_replaceable_adapter_cnc": true,
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "path": "exports/generated/two-stock-user-module-v337/play.FCStd",
+        "alternative_path": "exports/generated/two-stock-user-module-v337/modulevariants.FCStd",
+        "detailed_threads": false,
+        "visual_subparts_are_not_additional_purchased_items": true
+      }
+    },
+    {
+      "assembly_stage": "07",
+      "parent_assembly": "underfront_user_module",
+      "unit": "piece",
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": false,
+      "source": [
+        "config/underfront_user_module_v337.json",
+        "exports/generated/two-stock-user-module-v337/module-validation.json"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original simplified envelope; external citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "installed_coordinate_status": "REFERENCE_AXIS_NOT_DRILLING_RELEASE",
+      "measurement_fields": {
+        "selected_manufacturer_part": null,
+        "actual_dimensions_mm": null,
+        "thread_standard_and_pitch": null,
+        "pilot_or_cutout_mm": null,
+        "installed_stack_and_engagement_mm": null,
+        "drive_and_size": null,
+        "physical_fit_approved": false,
+        "threaded_length_mm": null,
+        "compatibility_with_12mm_plate": null,
+        "required_rear_pocket_mm": null,
+        "final_cutout_diameter_mm": null
+      },
+      "id": "E16",
+      "description_en": "Optional dual USB panel extension",
+      "description_pt_BR": "Extensão USB dupla opcional para painel",
+      "quantity": null,
+      "quantity_status": "USER_SELECTED_MUTUALLY_EXCLUSIVE_VARIANT",
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "material": "selected device materials pending",
+      "nominal_dimensions": {
+        "type": "dual USB3.0 panel-mount male-to-female extension",
+        "status": "SELLER_REFERENCE_NOT_VERIFIED / PURCHASE_BEFORE_CNC / PHYSICAL_MEASUREMENT_REQUIRED",
+        "seller_reference_origin": "Owner-supplied description; conflicting seller-image dimensions, no authoritative physical sample",
+        "seller_cutout_reference_mm": [
+          26.0,
+          27.7,
+          28.3
+        ],
+        "USB_CUTOUT_DIAMETER_MM": null,
+        "body_thread_reference_diameter_mm": 26.5,
+        "front_flange_reference_diameter_mm": 33,
+        "rear_body_length_reference_mm": 46.8,
+        "nut_reference_width_mm": 33,
+        "nut_reference_thickness_mm": 8.2,
+        "rear_reserved_depth_mm": 70,
+        "rear_footprint_mm": [
+          42,
+          42
+        ],
+        "thread_12mm_compatibility": "UNKNOWN_UNTIL_PHYSICAL_PART",
+        "rear_pocket_supported": true,
+        "rear_pocket_depth_mm": null,
+        "cap_orientation": "DOWNWARD; cap opens toward cabinet rear, away from neighboring buttons",
+        "electrical_connector_family": null
+      },
+      "tool_family": "purchased mounting nut tool; actual geometry pending",
+      "instances": [
+        {
+          "object": "Underfront_USBBody",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_USBFlange",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_USBNut",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        },
+        {
+          "object": "Underfront_USBCap",
+          "coordinate_xyz_mm": null,
+          "coordinate_meaning": "view nominal object; final adapter location awaits purchased controls",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+          "mirrored_pair": false
+        }
+      ],
+      "notes": "Not required to assemble the mechanical flatpack. Blank/default mechanical state requires zero devices. Counts are per selected variant, not additive; no fixed function is assigned. Final device bores/cutouts are null and no device mounting hole is cut into the current plate.",
+      "quantity_by_variant": {
+        "UNDERFRONT_OWNER": 1,
+        "UNDERFRONT_BUTTON_ONLY": 0,
+        "UNDERFRONT_BLANK": 0
+      },
+      "controls_replaceable_adapter_cnc": true,
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "path": "exports/generated/two-stock-user-module-v337/play.FCStd",
+        "alternative_path": "exports/generated/two-stock-user-module-v337/modulevariants.FCStd",
+        "detailed_threads": false,
+        "visual_subparts_are_not_additional_purchased_items": true
+      }
+    }
+  ],
+  "existing_catalog_entries_unchanged": 162
+}

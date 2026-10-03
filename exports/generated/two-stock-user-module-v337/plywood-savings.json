@@ -1,0 +1,13 @@
+{
+  "version": "V33.7",
+  "baseline": "V33.6.3",
+  "retired_CNC_pieces": 0,
+  "new_CNC_pieces": 1,
+  "net_plywood_volume_change_mm3": 848686.8712689728,
+  "net_finished_plywood_volume_change_mm3": 848686.8712689728,
+  "net_delivered_plywood_volume_change_mm3": 848789.9190858155,
+  "outer_contour_area_change_mm2": 24817.097335529514,
+  "projected_material_area_change_mm2": 13166.902664470486,
+  "preliminary_full_sheet_count_change": -2,
+  "note": "Signed changes: negative means less material than V33.6.3. No retired leg laminations or monitor stops are counted again. No production nesting."
+}
