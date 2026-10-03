@@ -1,0 +1,14 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "T1 landing proposal \u2014 current gap and captured shoes",
+    "note": "Rear dowel bearing exists but does not set closed pitch. Current T1/T2/T3 each have a 22 mm normal gap. Shoes are a geometry proposal only: attachment, closed uplift retention, coupon fit and structural qualification remain unresolved. No CURRENT part is changed.",
+    "native_cad": true
+  },
+  {
+    "image": "02-review.png",
+    "title": "Captured T1 shoe \u2014 exact bearing and service release",
+    "note": "One planar profile per side, cut through 18 mm stock from one face. The wider crown and two 18 mm legs avoid tiny loose pads, but still require positive attachment to T1 and separate closed-state retention. The nominal notch is not a final tool-compatible cutting outline.",
+    "native_cad": true
+  }
+]

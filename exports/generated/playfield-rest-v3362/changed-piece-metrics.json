@@ -1,0 +1,14 @@
+[
+  {
+    "instance_id": "P034-Main",
+    "volume_mm3": 8657745.451874824,
+    "center_of_mass_local_mm": [
+      250.0000000000001,
+      508.10386594267345,
+      9.0
+    ],
+    "outer_area_mm2": 500979.46903508506,
+    "projected_material_area_mm2": 480985.8584374909,
+    "removed_stock_volume_mm3": 359884.99075670727
+  }
+]

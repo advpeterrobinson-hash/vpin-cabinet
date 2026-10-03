@@ -1,0 +1,647 @@
+{
+  "status": "CLOSED_POSITION_SUPPORT_BLOCKED",
+  "audit_completed": true,
+  "closed_position_support_valid": false,
+  "manufacturing_release": false,
+  "source": "exports/generated/playfield-rest-v3362/play.FCStd",
+  "sha256": "30c6a13cec662b93d123114fdaf49758e443107632feb9f4a4c7cd841e9f0582",
+  "pivot_xyz_mm": [
+    300.0,
+    1035.25061984718,
+    484.2203301149065
+  ],
+  "moving": [
+    "PLAYFIELD_ENVELOPE",
+    "PF_BasePlywood",
+    "PF_WoodDowel",
+    "PF_VESAEnvelope",
+    "PF_StrapScrew1_1",
+    "PF_StrapScrew1_3",
+    "PF_CommercialStrap1",
+    "PF_StrapScrew2_1",
+    "PF_StrapScrew2_3",
+    "PF_CommercialStrap2",
+    "PF_StrapScrew3_1",
+    "PF_StrapScrew3_3",
+    "PF_CommercialStrap3",
+    "PF_StrapScrew4_1",
+    "PF_StrapScrew4_3",
+    "PF_CommercialStrap4"
+  ],
+  "parts": {
+    "PF_BasePlywood": {
+      "bbox_mm": [
+        49.99999999999999,
+        64.01361107210916,
+        331.3788680816646,
+        550.0,
+        1071.9014918612513,
+        524.5951171988511
+      ],
+      "center_of_volume_mm": [
+        299.99999999999994,
+        566.0896900824364,
+        427.6607745956856
+      ],
+      "volume_mm3": 8657745.451874834,
+      "base_distance_mm": 0.0,
+      "witness_xyz_mm": [
+        [
+          [
+            49.99999999999999,
+            149.71638076885338,
+            364.0782832704759
+          ],
+          [
+            49.99999999999999,
+            149.71638076885338,
+            364.0782832704759
+          ]
+        ],
+        [
+          [
+            49.99999999999999,
+            1068.804704068421,
+            524.5951171988511
+          ],
+          [
+            49.99999999999999,
+            1068.804704068421,
+            524.5951171988511
+          ]
+        ]
+      ],
+      "penetration_mm3": 0
+    },
+    "PF_WoodDowel": {
+      "bbox_mm": [
+        20.0,
+        1019.2506198471799,
+        468.2203301149065,
+        580.0,
+        1051.25061984718,
+        500.2203301149065
+      ],
+      "center_of_volume_mm": [
+        300.0,
+        1035.25061984718,
+        484.2203301149065
+      ],
+      "volume_mm3": 450378.72281863255,
+      "base_distance_mm": 0.0,
+      "witness_xyz_mm": [
+        [
+          [
+            49.99999999999999,
+            1032.4979195868864,
+            499.9817590246526
+          ],
+          [
+            49.99999999999999,
+            1032.4979195868864,
+            499.9817590246526
+          ]
+        ],
+        [
+          [
+            549.9999999999999,
+            1032.4979195868864,
+            499.9817590246526
+          ],
+          [
+            549.9999999999999,
+            1032.4979195868864,
+            499.9817590246526
+          ]
+        ]
+      ],
+      "penetration_mm3": 0.0
+    },
+    "PF_OpenCradleL": {
+      "bbox_mm": [
+        17.999999999999993,
+        995.2506198471799,
+        36.0,
+        36.0,
+        1075.25061984718,
+        514.2203301149066
+      ],
+      "center_of_volume_mm": [
+        26.997920250113385,
+        1045.2969495721213,
+        265.7800540034408
+      ],
+      "volume_mm3": 480358.9461748494,
+      "base_distance_mm": 13.999999999999993,
+      "witness_xyz_mm": [
+        [
+          [
+            49.99999999999999,
+            1018.7506198471799,
+            514.2203301149066
+          ],
+          [
+            36.0,
+            1018.7506198471799,
+            514.2203301149066
+          ]
+        ],
+        [
+          [
+            49.99999999999999,
+            995.2506198471799,
+            493.47659681659127
+          ],
+          [
+            36.0,
+            995.2506198471799,
+            493.4765968165912
+          ]
+        ]
+      ],
+      "penetration_mm3": 0.0
+    },
+    "PF_OpenCradleR": {
+      "bbox_mm": [
+        564.0,
+        995.2506198471799,
+        36.0,
+        582.0,
+        1075.25061984718,
+        514.2203301149066
+      ],
+      "center_of_volume_mm": [
+        573.0020797498863,
+        1045.2969495721218,
+        265.7800540034408
+      ],
+      "volume_mm3": 480358.94617484947,
+      "base_distance_mm": 14.000000000000114,
+      "witness_xyz_mm": [
+        [
+          [
+            549.9999999999999,
+            1018.7506198471799,
+            514.2203301149066
+          ],
+          [
+            564.0,
+            1018.7506198471799,
+            514.2203301149066
+          ]
+        ],
+        [
+          [
+            549.9999999999999,
+            995.2506198471799,
+            511.749051785564
+          ],
+          [
+            564.0,
+            995.2506198471799,
+            511.74905178556395
+          ]
+        ]
+      ],
+      "penetration_mm3": 0.0
+    },
+    "CROSS_1": {
+      "bbox_mm": [
+        30.2,
+        371.0,
+        283.691375367901,
+        569.8000000000001,
+        389.0,
+        365.2632063538165
+      ],
+      "center_of_volume_mm": [
+        300.0,
+        380.0589436619718,
+        323.69652256091825
+      ],
+      "volume_mm3": 777024.0,
+      "base_distance_mm": 22.000000000000046,
+      "witness_xyz_mm": [
+        [
+          [
+            49.99999999999999,
+            385.21503714209615,
+            386.93517110471737
+          ],
+          [
+            49.99999999999999,
+            389.0,
+            365.2632063538165
+          ]
+        ],
+        [
+          [
+            49.99999999999999,
+            367.21503714209615,
+            383.7915091328864
+          ],
+          [
+            49.99999999999999,
+            371.0,
+            362.1195443819855
+          ]
+        ]
+      ],
+      "penetration_mm3": 0.0,
+      "section_y_mm": 380.0,
+      "base_underside_z_mm": 386.0243758855344,
+      "crossmember_top_z_mm": 363.691375367901,
+      "same_Y_vertical_gap_mm": 22.333000517633423,
+      "normal_gap_mm": 22.000000000000046
+    },
+    "CROSS_2": {
+      "bbox_mm": [
+        30.2,
+        691.0,
+        339.578699311563,
+        569.8000000000001,
+        709.0,
+        421.1505302974785
+      ],
+      "center_of_volume_mm": [
+        300.0,
+        700.0589436619716,
+        379.58384650458015
+      ],
+      "volume_mm3": 777023.9999999999,
+      "base_distance_mm": 22.000000000000096,
+      "witness_xyz_mm": [
+        [
+          [
+            49.99999999999999,
+            705.2150371420962,
+            442.82249504837944
+          ],
+          [
+            49.99999999999999,
+            709.0,
+            421.1505302974785
+          ]
+        ],
+        [
+          [
+            49.99999999999999,
+            687.2150371420962,
+            439.6788330765484
+          ],
+          [
+            49.99999999999999,
+            691.0,
+            418.0068683256475
+          ]
+        ]
+      ],
+      "penetration_mm3": 0.0,
+      "section_y_mm": 700.0,
+      "base_underside_z_mm": 441.9116998291964,
+      "crossmember_top_z_mm": 419.57869931156296,
+      "same_Y_vertical_gap_mm": 22.333000517633423,
+      "normal_gap_mm": 22.000000000000096
+    },
+    "CROSS_3": {
+      "bbox_mm": [
+        30.2,
+        971.0,
+        388.4801077622672,
+        569.8000000000001,
+        989.0,
+        470.0519387481827
+      ],
+      "center_of_volume_mm": [
+        300.0,
+        980.058943661972,
+        428.4852549552846
+      ],
+      "volume_mm3": 777024.0,
+      "base_distance_mm": 22.000000000000096,
+      "witness_xyz_mm": [
+        [
+          [
+            549.9999999999999,
+            985.2150371420962,
+            491.7239034990837
+          ],
+          [
+            549.9999999999999,
+            989.0,
+            470.0519387481827
+          ]
+        ],
+        [
+          [
+            549.9999999999999,
+            967.2150371420962,
+            488.58024152725267
+          ],
+          [
+            549.9999999999999,
+            971.0,
+            466.9082767763517
+          ]
+        ]
+      ],
+      "penetration_mm3": 0.0,
+      "section_y_mm": 980.0,
+      "base_underside_z_mm": 490.81310827990063,
+      "crossmember_top_z_mm": 468.4801077622672,
+      "same_Y_vertical_gap_mm": 22.333000517633423,
+      "normal_gap_mm": 22.000000000000096
+    },
+    "FRONT": {
+      "bbox_mm": [
+        8.110885442505117,
+        0.0,
+        0.0,
+        591.8891145574938,
+        23.90232731828657,
+        400.05
+      ],
+      "center_of_volume_mm": [
+        301.4558072517243,
+        8.995159410926343,
+        185.05964381623232
+      ],
+      "volume_mm3": 2595426.5155491587,
+      "base_distance_mm": 46.01361107210916,
+      "witness_xyz_mm": [
+        [
+          [
+            498.0,
+            64.01361107210916,
+            349.110475605129
+          ],
+          [
+            498.0,
+            18.0,
+            349.110475605129
+          ]
+        ],
+        [
+          [
+            102.0,
+            64.01361107210916,
+            349.110475605129
+          ],
+          [
+            102.0,
+            18.0,
+            349.110475605129
+          ]
+        ]
+      ],
+      "penetration_mm3": 0.0
+    },
+    "SIDE_L": {
+      "bbox_mm": [
+        -3.88908730122752,
+        -3.88908730122752,
+        0.0,
+        25.939277162768004,
+        1311.9890873012264,
+        596.9
+      ],
+      "center_of_volume_mm": [
+        8.895809916711272,
+        699.9820650764036,
+        261.3949034872594
+      ],
+      "volume_mm3": 11865853.838038227,
+      "base_distance_mm": 31.999999999999993,
+      "witness_xyz_mm": [
+        [
+          [
+            49.99999999999999,
+            149.71638076885338,
+            364.0782832704759
+          ],
+          [
+            18.0,
+            149.71638076885338,
+            364.0782832704759
+          ]
+        ],
+        [
+          [
+            49.99999999999999,
+            152.81316856168377,
+            346.34667574701155
+          ],
+          [
+            18.0,
+            152.81316856168377,
+            346.34667574701155
+          ]
+        ]
+      ],
+      "penetration_mm3": 0.0
+    },
+    "SIDE_R": {
+      "bbox_mm": [
+        574.0607228372319,
+        -3.88908730122752,
+        0.0,
+        603.8890873012274,
+        1311.9890873012264,
+        596.9
+      ],
+      "center_of_volume_mm": [
+        591.1041900832886,
+        699.9820650764036,
+        261.3949034872594
+      ],
+      "volume_mm3": 11865853.838038227,
+      "base_distance_mm": 32.000000000000114,
+      "witness_xyz_mm": [
+        [
+          [
+            549.9999999999999,
+            149.71638076885338,
+            364.0782832704759
+          ],
+          [
+            582.0,
+            149.71638076885338,
+            364.0782832704759
+          ]
+        ],
+        [
+          [
+            549.9999999999999,
+            152.81316856168377,
+            346.34667574701155
+          ],
+          [
+            582.0,
+            152.81316856168377,
+            346.34667574701155
+          ]
+        ]
+      ],
+      "penetration_mm3": 0.0
+    }
+  },
+  "contacts": [
+    {
+      "moving": "PF_WoodDowel",
+      "fixed": "PF_OpenCradleL",
+      "distance_mm": 0.0,
+      "penetration_mm3": 0.0,
+      "witness_xyz_mm": [
+        [
+          [
+            20.0,
+            1035.25061984718,
+            468.2203301149065
+          ],
+          [
+            20.0,
+            1035.25061984718,
+            468.2203301149065
+          ]
+        ]
+      ]
+    },
+    {
+      "moving": "PF_WoodDowel",
+      "fixed": "PF_OpenCradleR",
+      "distance_mm": 0.0,
+      "penetration_mm3": 0.0,
+      "witness_xyz_mm": [
+        [
+          [
+            580.0,
+            1035.25061984718,
+            468.2203301149065
+          ],
+          [
+            580.0,
+            1035.25061984718,
+            468.2203301149065
+          ]
+        ]
+      ]
+    }
+  ],
+  "small_downward_rotation": [
+    {
+      "angle_deg": 0.1,
+      "hits": [],
+      "meaning": "Diagnostic downward motion; incidental contact is NOT a designed support."
+    },
+    {
+      "angle_deg": 0.5,
+      "hits": [
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_primary_L",
+          "penetration_mm3": 515.0888355265706
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_primary_R",
+          "penetration_mm3": 515.0888355265693
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_secondary_L",
+          "penetration_mm3": 467.9135913649701
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_secondary_R",
+          "penetration_mm3": 467.9135913649791
+        },
+        {
+          "moving": "PF_BasePlywood",
+          "fixed": "CandidateFrontButton1",
+          "penetration_mm3": 0.11388138379692099
+        }
+      ],
+      "meaning": "Diagnostic downward motion; incidental contact is NOT a designed support."
+    },
+    {
+      "angle_deg": 1,
+      "hits": [
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_primary_L",
+          "penetration_mm3": 1659.208910427987
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_primary_R",
+          "penetration_mm3": 1659.2089104279848
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_secondary_L",
+          "penetration_mm3": 1590.519655404009
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_secondary_R",
+          "penetration_mm3": 1590.5196554040267
+        },
+        {
+          "moving": "PF_BasePlywood",
+          "fixed": "CandidateFrontButton1",
+          "penetration_mm3": 320.0668095440536
+        }
+      ],
+      "meaning": "Diagnostic downward motion; incidental contact is NOT a designed support."
+    }
+  ],
+  "checks": [
+    {
+      "name": "only rear dowel seats contact fixed assembly",
+      "pass": true
+    },
+    {
+      "name": "all three crossmember normal gaps22mm",
+      "pass": true
+    },
+    {
+      "name": "sameYverticalgaps equal22/cos(slope)",
+      "pass": true
+    },
+    {
+      "name": "free0.1degree downward rotation is not stopped",
+      "pass": true
+    },
+    {
+      "name": "basealone forward gravity moment positive",
+      "pass": true
+    },
+    {
+      "name": "native input unchanged",
+      "pass": true
+    }
+  ],
+  "scope": "Exact B-rep contacts and small downward rotation. Geometry audit only; no stiffness/friction/load proof. No front rest or retention hardware has been invented.",
+  "wood_base_alone": {
+    "density_kg_m3": 650,
+    "estimated_mass_kg": 5.627534543718642,
+    "horizontal_COM_distance_forward_of_axis_mm": 469.1609297647435,
+    "gravity_moment_about_rear_axis_Nm": 25.89170697898276,
+    "note": "Illustrates nonzero forward gravity moment even before display/payload. No allowable load or friction capacity claimed."
+  },
+  "history": [
+    {
+      "source": "exports/generated/cabinet-v32/build_v32.py:109",
+      "finding": "T1\u2013T3 tops matched the old monitor-rail underside at localZ\u221236."
+    },
+    {
+      "source": "tools/wood_dowel_pivot_v32_entry.py:32",
+      "finding": "Replacement plywood underside is localZ\u221214;22mm normal gap remains."
+    },
+    {
+      "source": "config/playfield_mechanics_v18.json:125",
+      "finding": "Historical two front pads/two latches are not present in CURRENT; no historical dimensions promoted."
+    }
+  ]
+}

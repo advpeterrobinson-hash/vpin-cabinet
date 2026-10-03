@@ -1,0 +1,15 @@
+{
+  "version": "V33.6.2",
+  "authority": "CURRENT_REQUESTED_FRONT_TRIM_WITH_EXPLICIT_CLOSED_SUPPORT_BLOCKER",
+  "phase": "GEOMETRY_ONLY_TRIM",
+  "source_head": "f8bffe2638469adae3f827045f6b9505d0b7300a",
+  "viewer": "exports/generated/viewer-v32/index.html",
+  "builder": "tools/build_viewer_v3362.py",
+  "validation": "exports/generated/playfield-rest-v3362/validation.json",
+  "manual_json": "exports/generated/playfield-rest-v3362/assembly-manual.json",
+  "manufacturing_register": "config/manufacturing/flatpack_v3362.json",
+  "geometry_changed": true,
+  "closed_position_support_valid": false,
+  "closed_position_support_status": "CLOSED_POSITION_SUPPORT_BLOCKED",
+  "manufacturing_release": false
+}

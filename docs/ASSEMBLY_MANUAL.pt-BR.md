@@ -1,4 +1,4 @@
-# Manual de montagem — V33.6.1
+# Manual de montagem — V33.6.2
 
 **SOMENTE PREPARAÇÃO — CNC BLOQUEADO**
 
@@ -26,7 +26,7 @@ Leia o perfil do fornecedor e identifique o lote de produção. Não corte chapa
 
 Registre o lote medido, resultado do cupom e ferragens escolhidas; valores não resolvidos permanecem PENDENTES.
 
-Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
+CLOSED_POSITION_SUPPORT_BLOCKED. A cavilha traseira apoia nos dois berços abertos, mas CURRENT não contém apoio/batente frontal nem trava da posição fechada. A base está22 mm acima de T1, T2 e T3. PLAY é posição de referência e não representa montagem operacional com apoio próprio. Não use atrito não qualificado do pivô ou eletrônicos/botões como batente. Projeto de apoio e validação de carga/retenção continuam necessários; esta BOM não inclui novas peças de apoio. Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
 
 Viewer: PLAY · animation assembly-00.1
 
@@ -266,7 +266,7 @@ Instale os perfis reais M026/M027 nos seis pontos F01 inalterados e pés apoiado
 
 VERIFICAÇÃO DOS BERÇOS: os dois assentos compartilham o eixo aceito e os pés se apoiam continuamente. Não calce nem reposicione o eixo sem nova revisão.
 
-CNC BLOQUEADO. Qualificar material real, cupom, gabarito e ferragens selecionadas.
+CLOSED_POSITION_SUPPORT_BLOCKED. A cavilha traseira apoia nos dois berços abertos, mas CURRENT não contém apoio/batente frontal nem trava da posição fechada. A base está22 mm acima de T1, T2 e T3. PLAY é posição de referência e não representa montagem operacional com apoio próprio. Não use atrito não qualificado do pivô ou eletrônicos/botões como batente. Projeto de apoio e validação de carga/retenção continuam necessários; esta BOM não inclui novas peças de apoio. CNC BLOQUEADO. Qualificar material real, cupom, gabarito e ferragens selecionadas.
 
 Viewer: EXPLODED DETAILED · animation assembly-05.1
 
@@ -288,11 +288,11 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT com alívio limpo aberto até a borda frontal: laterais retas recuadas e retorno arredondado à largura total, sem ponta, ponte frontal ou gancho. Mantenha a janela traseira V33.6 de 180 × 110 mm R8 e dois rasgos para alívio de tração. Preserve região de carga VESA, cavilha, quatro abraçadeiras e oito coordenadas F02. A folga é derivada das reservas frontais de corpo leaf, terminais, fios e ferramenta. Não mova os botões para acomodar a madeira. Ferragens finais do monitor/botões e qualificação de rigidez permanecem PENDENTES.
+Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT com alívio limpo aberto até a borda frontal: laterais retas recuadas e retorno arredondado à largura total, sem ponta, ponte frontal ou gancho. Mantenha a janela traseira V33.6 de 180 × 110 mm R8 e dois rasgos para alívio de tração. Preserve região de carga VESA, cavilha, quatro abraçadeiras e oito coordenadas F02. A folga é derivada das reservas frontais de corpo leaf, terminais, fios e ferramenta. Não mova os botões para acomodar a madeira. Ferragens finais do monitor/botões e qualificação de rigidez permanecem PENDENTES. O alívio V33.6.2 solicitado avança mais30 mm para dentro em CADA lateral: recuo total52 mm, largura frontal restante396 mm, comprimento87 mm e transiçãoR8 mantidos. Os botões permanecem emY89/Y127,65 mm abaixo do topo local. Janela traseira, rasgos de alívio de tração, região VESA, cavilha e abraçadeiras permanecem iguais. Esta alteração de folga não cria apoio frontal.
 
 Confira assentamento das abraçadeiras, engate dos parafusos e ausência de rachaduras após validar as abraçadeiras/material.
 
-Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
+CLOSED_POSITION_SUPPORT_BLOCKED. A cavilha traseira apoia nos dois berços abertos, mas CURRENT não contém apoio/batente frontal nem trava da posição fechada. A base está22 mm acima de T1, T2 e T3. PLAY é posição de referência e não representa montagem operacional com apoio próprio. Não use atrito não qualificado do pivô ou eletrônicos/botões como batente. Projeto de apoio e validação de carga/retenção continuam necessários; esta BOM não inclui novas peças de apoio. Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
 
 Viewer: PLAYFIELD LIFT-OUT · animation assembly-06.1
 
@@ -310,11 +310,11 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Abaixe as duas pontas da cavilha nos assentos abertos. Com vidro principal e matriz removidos, demonstre a retirada vertical aceita de 48 mm. A montagem completa sai junta; os berços fixos permanecem. O estudo opcional do laço usa trecho flexível de 400 mm e zona de grampo removível acima de S3. Use raio de curvatura e folga qualificados; a curva desenhada não é peça rígida nem especificação de cabo. Verifique PLAY, serviço 50° e elevação 48 mm com os cabos reais. Libere o grampo antes de remover S3. Nenhuma família de conector é obrigatória.
+CLOSED_POSITION_SUPPORT_BLOCKED. A cavilha traseira apoia nos dois berços abertos, mas CURRENT não contém apoio/batente frontal nem trava da posição fechada. A base está22 mm acima de T1, T2 e T3. PLAY é posição de referência e não representa montagem operacional com apoio próprio. Não use atrito não qualificado do pivô ou eletrônicos/botões como batente. Projeto de apoio e validação de carga/retenção continuam necessários; esta BOM não inclui novas peças de apoio. Abaixe as duas pontas da cavilha nos assentos abertos. Com vidro principal e matriz removidos, demonstre a retirada vertical aceita de 48 mm. A montagem completa sai junta; os berços fixos permanecem. O estudo opcional do laço usa trecho flexível de 400 mm e zona de grampo removível acima de S3. Use raio de curvatura e folga qualificados; a curva desenhada não é peça rígida nem especificação de cabo. Verifique PLAY, serviço 50° e elevação 48 mm com os cabos reais. Libere o grampo antes de remover S3. Nenhuma família de conector é obrigatória.
 
-VERIFICAÇÃO DA RETIRADA: sem travamento, com apoio aproximadamente semicircular preservado. A posição de serviço de 50° é uma vista geométrica; não trabalhe sob a montagem levantada sem apoio. A validação de apoio/carga permanece pendente.
+PARE: qualifique os apoios e a retenção da posição fechada antes de demonstrar PLAY ou serviço sem apoio externo. As trajetórias50°/48 mm mantidas estabelecem apenas folga geométrica; qualificação de manuseio/apoio/carga é separada.
 
-Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
+CLOSED_POSITION_SUPPORT_BLOCKED. A cavilha traseira apoia nos dois berços abertos, mas CURRENT não contém apoio/batente frontal nem trava da posição fechada. A base está22 mm acima de T1, T2 e T3. PLAY é posição de referência e não representa montagem operacional com apoio próprio. Não use atrito não qualificado do pivô ou eletrônicos/botões como batente. Projeto de apoio e validação de carga/retenção continuam necessários; esta BOM não inclui novas peças de apoio. Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
 
 Viewer: PLAYFIELD LIFT-OUT · animation assembly-06.2
 
@@ -710,7 +710,7 @@ Abra as portas traseiras; solte e guarde ambas as travas traseiras; feche/trave 
 
 VERIFICAÇÃO DA DOBRA: a geometria permite rotação pura de 0–90° em Y1066.8/Z508. Confira retenção real, folga dos cabos, entorno e manuseio somente após validação física. Inverta a sequência e engate positivamente as duas travas na vertical.
 
-Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
+CLOSED_POSITION_SUPPORT_BLOCKED. A cavilha traseira apoia nos dois berços abertos, mas CURRENT não contém apoio/batente frontal nem trava da posição fechada. A base está22 mm acima de T1, T2 e T3. PLAY é posição de referência e não representa montagem operacional com apoio próprio. Não use atrito não qualificado do pivô ou eletrônicos/botões como batente. Projeto de apoio e validação de carga/retenção continuam necessários; esta BOM não inclui novas peças de apoio. Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
 
 Viewer: BACKBOX FOLD 45° · animation assembly-17.1
 
@@ -732,7 +732,7 @@ A manutenção rara das dobradiças WPC pode exigir remoção do cassete inferio
 
 A inspeção final é um roteiro de verificação, não certificação estrutural nem autorização de fabricação.
 
-Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
+CLOSED_POSITION_SUPPORT_BLOCKED. A cavilha traseira apoia nos dois berços abertos, mas CURRENT não contém apoio/batente frontal nem trava da posição fechada. A base está22 mm acima de T1, T2 e T3. PLAY é posição de referência e não representa montagem operacional com apoio próprio. Não use atrito não qualificado do pivô ou eletrônicos/botões como batente. Projeto de apoio e validação de carga/retenção continuam necessários; esta BOM não inclui novas peças de apoio. Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
 
 Viewer: BACKBOX FOLD 45° · animation assembly-17.2
 

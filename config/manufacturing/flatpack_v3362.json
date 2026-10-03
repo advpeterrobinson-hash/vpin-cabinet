@@ -1,0 +1,15 @@
+{
+  "version": "V33.6.2",
+  "head_before": "f8bffe2638469adae3f827045f6b9505d0b7300a",
+  "current_register": "exports/generated/playfield-rest-v3362/manufacturing-register.json",
+  "current_BOM": "exports/generated/playfield-rest-v3362/manufacturing-bom.csv",
+  "CNC_filter": "manufacturing_class != SHOP_MADE_SOLID_WOOD_PART",
+  "shop_family": "SW01",
+  "installed_material_map": "config/wood_materials_v335.json",
+  "release": false,
+  "hardware_catalog": "config/hardware_catalog_v335.json",
+  "button_positional_authority": "config/button_relief_v3361.json",
+  "button_final_bore_mm": null,
+  "button_final_recess_mm": null,
+  "closed_position_support": "CLOSED_POSITION_SUPPORT_BLOCKED"
+}

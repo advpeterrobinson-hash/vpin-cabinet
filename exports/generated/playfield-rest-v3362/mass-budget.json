@@ -1,0 +1,853 @@
+{
+  "units": "kg",
+  "scenario_order": [
+    "LOW",
+    "NOMINAL",
+    "HIGH"
+  ],
+  "wood_volume_mm3": 92909518.38946013,
+  "wood_flatpack_kg": [
+    51.063493514203074,
+    60.39118695314908,
+    69.7556219920951
+  ],
+  "wood_status": "CNC BREP VOLUME + FOUR UNDRILLED TRIANGULAR SHOP BLANKS; ASSUMED SEPARATE MATERIAL DENSITIES",
+  "known_measured_hardware_mass_kg": null,
+  "known_measured_items": 0,
+  "known_quantity_nominal_model_subtotal_kg": 1.1119286742656742,
+  "known_quantity_model_status": "ESTIMATED_NOT_WEIGHED",
+  "estimated_hardware_items": [
+    {
+      "id": "F01",
+      "quantity": 6,
+      "volume_each_mm3": 524.8423226903448,
+      "mass_kg": 0.02472007339871524,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    },
+    {
+      "id": "F02",
+      "quantity": 8,
+      "volume_each_mm3": 173.290250772013,
+      "mass_kg": 0.010882627748482416,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    },
+    {
+      "id": "H01",
+      "quantity": 1,
+      "volume_each_mm3": 450378.72281863267,
+      "mass_kg": 0.31526510597304286,
+      "status": "ESTIMATED",
+      "density_kg_m3": 700,
+      "source": "CURRENT_SIMPLIFIED_ENVELOPE"
+    },
+    {
+      "id": "F03",
+      "quantity": 12,
+      "volume_each_mm3": 745.3428570641784,
+      "mass_kg": 0.07021129713544559,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    },
+    {
+      "id": "W01",
+      "quantity": 12,
+      "volume_each_mm3": 89.33904108645973,
+      "mass_kg": 0.008415737670344505,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    },
+    {
+      "id": "I01",
+      "quantity": 12,
+      "volume_each_mm3": 306.30528372500453,
+      "mass_kg": 0.02885395772689543,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "CURRENT_SIMPLIFIED_ENVELOPE"
+    },
+    {
+      "id": "F04",
+      "quantity": 12,
+      "volume_each_mm3": 841.9468311620644,
+      "mass_kg": 0.07931139149546647,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    },
+    {
+      "id": "W02",
+      "quantity": 12,
+      "volume_each_mm3": 47.712938426394985,
+      "mass_kg": 0.004494558799766408,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    },
+    {
+      "id": "F08",
+      "quantity": 2,
+      "volume_each_mm3": 402.1238596594935,
+      "mass_kg": 0.0063133445966540485,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    },
+    {
+      "id": "F12",
+      "quantity": 8,
+      "volume_each_mm3": 351.8583772020568,
+      "mass_kg": 0.022096706088289165,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    },
+    {
+      "id": "I04",
+      "quantity": 8,
+      "volume_each_mm3": 125.6637061435917,
+      "mass_kg": 0.007891680745817559,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "CURRENT_SIMPLIFIED_ENVELOPE"
+    },
+    {
+      "id": "W07",
+      "quantity": 2,
+      "volume_each_mm3": 2221.8914042513807,
+      "mass_kg": 0.034883695046746675,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    },
+    {
+      "id": "I05",
+      "quantity": 2,
+      "volume_each_mm3": 3168.516102631055,
+      "mass_kg": 0.049745702811307566,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "CURRENT_SIMPLIFIED_ENVELOPE"
+    },
+    {
+      "id": "I06",
+      "quantity": 2,
+      "volume_each_mm3": 946.6246983796755,
+      "mass_kg": 0.014862007764560904,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "CURRENT_SIMPLIFIED_ENVELOPE"
+    },
+    {
+      "id": "F17",
+      "quantity": 4,
+      "volume_each_mm3": 658.8181593965594,
+      "mass_kg": 0.020686890205051964,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    },
+    {
+      "id": "F24",
+      "quantity": 2,
+      "volume_each_mm3": 848.2300164692447,
+      "mass_kg": 0.01331721125856714,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "CURRENT_SIMPLIFIED_ENVELOPE"
+    },
+    {
+      "id": "F25",
+      "quantity": 4,
+      "volume_each_mm3": 2035.7520395261872,
+      "mass_kg": 0.06392261404112227,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "CURRENT_SIMPLIFIED_ENVELOPE"
+    },
+    {
+      "id": "F26",
+      "quantity": 4,
+      "volume_each_mm3": 9160.884177867842,
+      "mass_kg": 0.28765176318505026,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "CURRENT_SIMPLIFIED_ENVELOPE"
+    },
+    {
+      "id": "F30",
+      "quantity": 4,
+      "volume_each_mm3": 816.8140899333443,
+      "mass_kg": 0.02564796242390701,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "CURRENT_SIMPLIFIED_ENVELOPE"
+    },
+    {
+      "id": "I13",
+      "quantity": 2,
+      "volume_each_mm3": 125.66370614359087,
+      "mass_kg": 0.0019729201864543766,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "CURRENT_SIMPLIFIED_ENVELOPE"
+    },
+    {
+      "id": "F35",
+      "quantity": 4,
+      "volume_each_mm3": 661.8288523562499,
+      "mass_kg": 0.020781425963986244,
+      "status": "ESTIMATED",
+      "density_kg_m3": 7850,
+      "source": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS"
+    }
+  ],
+  "unknown_hardware_items": [
+    {
+      "id": "B01",
+      "quantity": 4,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "B02",
+      "quantity": 6,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F05",
+      "quantity": 24,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F52",
+      "quantity": 12,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "I14",
+      "quantity": 12,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F06",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "G01",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F07",
+      "quantity": 4,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "I02",
+      "quantity": 4,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "W03",
+      "quantity": 4,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H02",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H03",
+      "quantity": 1,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "B03",
+      "quantity": 1,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H04",
+      "quantity": 1,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F09",
+      "quantity": 8,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F53",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "B05",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F13",
+      "quantity": 8,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "G03",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H08",
+      "quantity": 1,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H09",
+      "quantity": 1,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H10",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F14",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F15",
+      "quantity": 6,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "W06",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F16",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F54",
+      "quantity": 6,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "B16",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H11",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H12",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "W08",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H13",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "B07",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "B08",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H14",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H15",
+      "quantity": 1,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H16",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F18",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F19",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "G04",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "G05",
+      "quantity": 1,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "G07",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F21",
+      "quantity": 8,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "I07",
+      "quantity": 8,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F22",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "I08",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "G08",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "G09",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "W09",
+      "quantity": 16,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "I09",
+      "quantity": 8,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F27",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "I10",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "I11",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F28",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "I12",
+      "quantity": 4,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "W10",
+      "quantity": 4,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F31",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F34",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "B12",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "G12",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F36",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H18",
+      "quantity": 4,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "B13",
+      "quantity": 4,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F37",
+      "quantity": 8,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H19",
+      "quantity": 4,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F38",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H20",
+      "quantity": 1,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H21",
+      "quantity": 1,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "H22",
+      "quantity": 1,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F39",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F57",
+      "quantity": 2,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    },
+    {
+      "id": "F58",
+      "quantity": null,
+      "mass_kg": null,
+      "status": "UNKNOWN",
+      "reason": "unmeasured assembly/envelope, unknown quantity, or non-piece unit"
+    }
+  ],
+  "unknown_required_hardware_allowance_kg": [
+    8,
+    15,
+    25
+  ],
+  "mechanical_scenario_kg": [
+    59.939408888378686,
+    76.48539979260676,
+    96.06676954031113
+  ],
+  "mechanical_exact_total_kg": null,
+  "glass_reference_kg": 11.40305,
+  "glass_items": [
+    {
+      "object": "CandidateGlass",
+      "volume_mm3": 3162500.0,
+      "status": "ESTIMATED_REFERENCE_GLASS"
+    },
+    {
+      "object": "BB_Backglass",
+      "volume_mm3": 1398720.0,
+      "status": "ESTIMATED_REFERENCE_GLASS"
+    }
+  ],
+  "glass_status": "ESTIMATED_REFERENCE_THICKNESS_AND_DENSITY",
+  "future_electronics_kg": [
+    21,
+    38.2,
+    55
+  ],
+  "full_planning_build_kg": [
+    92.34245888837869,
+    126.08844979260677,
+    162.46981954031114
+  ],
+  "full_planning_status": "ILLUSTRATIVE_SCENARIO_NOT_GUARANTEED_BOUNDS; unknown hardware is an explicit allowance, optional electronics vary",
+  "assumptions": {
+    "version": "V33.3",
+    "head_before": "254c54541548555b22e6455413e642cb32131f79",
+    "manufacturing_release": false,
+    "densities_kg_m3": {
+      "plywood": [
+        550,
+        650,
+        750
+      ],
+      "steel": 7850,
+      "hardwood_dowel": [
+        550,
+        700,
+        850
+      ],
+      "glass": 2500
+    },
+    "density_authority": "650 plywood is owner planning input; low/high are explicit sensitivity assumptions, not measured lot limits. Other densities are configurable planning assumptions.",
+    "unknown_required_hardware_allowance_kg": [
+      8,
+      15,
+      25
+    ],
+    "unknown_hardware_authority": "Scenario allowance for unweighed legs, WPC, locks, hinges, fittings, adhesives and unresolved quantities; NOT a measured subtotal or guaranteed bound.",
+    "future_electronics_scenarios_kg": {
+      "playfield_display": [
+        8,
+        10,
+        12
+      ],
+      "backglass_display": [
+        4,
+        7,
+        8
+      ],
+      "DMD_and_speakers": [
+        2,
+        5.2,
+        6
+      ],
+      "PC_and_power": [
+        5,
+        9,
+        14
+      ],
+      "audio_matrix_controllers_optional_toys": [
+        2,
+        7,
+        15
+      ]
+    },
+    "future_mass_authority": "Explicit illustrative populated-build assumptions, optional content not mandatory flatpack; no upper bound on future toys.",
+    "packaging": {
+      "targets_kg": [
+        20,
+        25,
+        30
+      ],
+      "preferred_target_kg": 25,
+      "edge_padding_mm": 20,
+      "top_bottom_padding_mm": 10,
+      "separator_mm": 2,
+      "separator_areal_mass_kg_m2": 0.15,
+      "outer_areal_mass_kg_m2": 0.6,
+      "corner_and_strap_mass_kg": 0.3,
+      "capacity_density_kg_m3": 750,
+      "capacity_note": "Size bundles to high planning density750, not only nominal650; verify actual gross mass. This sensitivity is not a lot-density guarantee."
+    },
+    "reusable_offcut_minimum_xy_mm": [
+      150,
+      150
+    ],
+    "status": "NON_PRODUCTION_PLANNING; physical packaging compression/drop/handling qualification and tool trials pending",
+    "future_mass_sources": {
+      "backglass_display_nominal": "exports/generated/backbox-service-v32/validation.json: results.planning_mass.display_kg =7",
+      "DMD_and_speakers_nominal": "exports/generated/backbox-service-v32/validation.json: results.planning_mass.dmd_kg2 +speaker_pair_kg3.2",
+      "remaining_scenarios": "Explicit sensitivity/planning assumptions; no purchased electronics selected"
+    }
+  },
+  "installed_wood_kg": [
+    51.04986594896615,
+    60.37347111834108,
+    69.73245513119232
+  ],
+  "plywood_only_kg": [
+    50.696077514203076,
+    59.913546153149085,
+    69.1310147920951
+  ],
+  "solid_undrilled_shop_blanks_kg": [
+    0.367416,
+    0.4776408,
+    0.6246072
+  ],
+  "solid_density_kg_m3": [
+    500,
+    650,
+    850
+  ],
+  "solid_density_status": "MATERIAL_DEPENDENT; illustrative sensitivity only, measure selected wood"
+}

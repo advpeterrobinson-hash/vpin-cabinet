@@ -1,0 +1,111 @@
+{
+  "pass": true,
+  "scope": "Focused V33.6.2 changed PF geometry/metadata/notes/endpoints/packing plus desktop and emulated tablet; unchanged broader49clip/UI suite inherited.",
+  "checks": [
+    {
+      "name": "PLAY identifies missing front support",
+      "pass": true
+    },
+    {
+      "name": "current viewer revision",
+      "pass": true
+    },
+    {
+      "name": "49 inherited clips retained; full suite not repeated",
+      "pass": true
+    },
+    {
+      "name": "installed and real manufacturing mesh front width396",
+      "pass": true,
+      "details": {
+        "installed": 396,
+        "detail": 396
+      }
+    },
+    {
+      "name": "M025 current authority and unresolved support metadata",
+      "pass": true
+    },
+    {
+      "name": "owner button centers unchanged",
+      "pass": true
+    },
+    {
+      "name": "current PF animation endpoint service-pf-service",
+      "pass": true,
+      "details": 0.00006903462006188262
+    },
+    {
+      "name": "support blocker visible service-pf-service",
+      "pass": true
+    },
+    {
+      "name": "current PF animation endpoint service-pf-lift",
+      "pass": true,
+      "details": 0.000030517578125
+    },
+    {
+      "name": "support blocker visible service-pf-lift",
+      "pass": true
+    },
+    {
+      "name": "schematic assembly and missing support both explicit",
+      "pass": true
+    },
+    {
+      "name": "packing101 members retained",
+      "pass": true
+    },
+    {
+      "name": "packing uses current detailed M025 without stale override",
+      "pass": true
+    },
+    {
+      "name": "tablet default support blocker",
+      "pass": true
+    },
+    {
+      "name": "tablet PLAY/PAUSE works",
+      "pass": true
+    },
+    {
+      "name": "Portuguese support blocker",
+      "pass": true
+    },
+    {
+      "name": "PT-BR playback label",
+      "pass": true
+    },
+    {
+      "name": "tablet44px playback targets",
+      "pass": true
+    },
+    {
+      "name": "tablet no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "offline no network",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "inherited broad V33.6.1 suite passed",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "tablet_playback": "PASS_EMULATED_TOUCH_PHYSICAL_FPS_NOT_CERTIFIED",
+  "inherited": {
+    "path": "exports/generated/button-relief-v3361/browser-validation.json",
+    "sha256": "ef5d8cc2525c17931d38093f03f49557a251ebcdcb8663267e177019b2f56c80",
+    "checks": 148
+  },
+  "viewer_sha256": "11f77159966100ebf28ef14ea6afa1159645b41ae3097a3f42494831861ca656"
+}

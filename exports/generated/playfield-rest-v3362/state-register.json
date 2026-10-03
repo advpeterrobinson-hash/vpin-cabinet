@@ -1,0 +1,16 @@
+{
+  "native_files": {
+    "PLAY": "play.FCStd",
+    "SERVICE": "service.FCStd",
+    "LIFT-OUT": "lift-out.FCStd",
+    "MATRIX REMOVED": "matrix-removed.FCStd",
+    "DOORS OPEN": "doors-open.FCStd",
+    "UNLOCKED": "locks-parked.FCStd",
+    "FOLD1": "fold-1.FCStd",
+    "FOLD45": "fold-45.FCStd",
+    "BACKBOX FOLD": "backbox-fold.FCStd"
+  },
+  "source_sha256": "30c6a13cec662b93d123114fdaf49758e443107632feb9f4a4c7cd841e9f0582",
+  "release": false,
+  "closed_position_support_status": "CLOSED_POSITION_SUPPORT_BLOCKED"
+}

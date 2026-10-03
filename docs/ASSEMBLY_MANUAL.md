@@ -1,4 +1,4 @@
-# Assembly manual — V33.6.1
+# Assembly manual — V33.6.2
 
 **PREPARATION ONLY — CNC RELEASE BLOCKED**
 
@@ -26,7 +26,7 @@ Read the supplier profile and inventory the production lot. Do not cut full shee
 
 Record the measured lot, coupon result and selected hardware; unresolved values stay HOLD.
 
-Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
+CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
 
 Viewer: PLAY · animation assembly-00.1
 
@@ -266,7 +266,7 @@ Install the real M026/M027 profiles with the six unchanged F01 coordinates and d
 
 CRADLE ALIGNMENT CHECK: both seats share the accepted axis and both feet bear continuously. Do not shim or relocate the axis without a new review.
 
-CNC RELEASE BLOCKED. Actual material, coupon, jig and selected hardware must be qualified.
+CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. CNC RELEASE BLOCKED. Actual material, coupon, jig and selected hardware must be qualified.
 
 Viewer: EXPLODED DETAILED · animation assembly-05.1
 
@@ -288,11 +288,11 @@ Clamps, square and measuring tools; selected drive/bit and depth stop for the li
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings. Use CURRENT M025 with the clean relief open to the front edge: narrowed straight sides and rounded return to full width, with no horn, front bridge or hooked projection. Keep the V33.6 rear 180 × 110 mm R8 service window and two strain-relief slots. Preserve the VESA load region, dowel, four straps and eight F02 coordinates. Button clearance is derived from the restored front leaf-body, terminal, wire and tool reserves. Do not move buttons to fit the plywood. Final display/button hardware and stiffness qualification remain HOLD.
+Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings. Use CURRENT M025 with the clean relief open to the front edge: narrowed straight sides and rounded return to full width, with no horn, front bridge or hooked projection. Keep the V33.6 rear 180 × 110 mm R8 service window and two strain-relief slots. Preserve the VESA load region, dowel, four straps and eight F02 coordinates. Button clearance is derived from the restored front leaf-body, terminal, wire and tool reserves. Do not move buttons to fit the plywood. Final display/button hardware and stiffness qualification remain HOLD. Owner-requested V33.6.2 relief extends30 mm farther inward on EACH side: total inset52 mm, remaining front width396 mm, retained length87 mm and R8 transition. Buttons stay atY89/Y127, local side top minus65 mm. Rear window, strain slots, VESA region, dowel and straps remain unchanged. This clearance edit does not add front support.
 
 Check strap seating, screw engagement and no splitting after purchased strap/material qualification.
 
-Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
+CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
 
 Viewer: PLAYFIELD LIFT-OUT · animation assembly-06.1
 
@@ -310,11 +310,11 @@ Clamps, square and measuring tools; selected drive/bit and depth stop for the li
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-Lower both dowel ends into the open seats. With main glass and matrix removed, demonstrate the accepted 48 mm vertical lift-out. The complete playfield assembly leaves together; fixed cradles remain. The optional cable-loop study uses a flexible 400 mm segment and a removable clamp zone above S3. Route actual cables with qualified bend radius and slack; never treat the rendered curve as a rigid member or selected cable specification. Check PLAY, 50° service and 48 mm lift with the actual harness. Release that clamp before removing S3. No connector family is required.
+CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Lower both dowel ends into the open seats. With main glass and matrix removed, demonstrate the accepted 48 mm vertical lift-out. The complete playfield assembly leaves together; fixed cradles remain. The optional cable-loop study uses a flexible 400 mm segment and a removable clamp zone above S3. Route actual cables with qualified bend radius and slack; never treat the rendered curve as a rigid member or selected cable specification. Check PLAY, 50° service and 48 mm lift with the actual harness. Release that clamp before removing S3. No connector family is required.
 
-DOWEL LIFT-OUT CHECK: no binding, approximately semicircular support retained. The 50° service pose is a geometric view; do not work beneath an unsupported raised assembly. Support/load qualification remains pending.
+STOP: qualify closed-position rests and retention before an unsupported PLAY or service demonstration. The retained50° service/48 mm lift paths establish geometric clearance only; handling/support/load qualification is separate.
 
-Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
+CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
 
 Viewer: PLAYFIELD LIFT-OUT · animation assembly-06.2
 
@@ -710,7 +710,7 @@ Open rear doors; release and park both rear-operated locks; close/latch the rear
 
 BACKBOX FOLD CHECK: geometry supports 0–90° pure rotation around Y1066.8/Z508. Check actual retention, cable slack, surroundings and handling only after physical qualification. Reverse the sequence and positively engage both locks upright.
 
-Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
+CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
 
 Viewer: BACKBOX FOLD 45° · animation assembly-17.1
 
@@ -732,7 +732,7 @@ Rare WPC hinge service may require lower-cassette removal and playfield lift-out
 
 Final inspection is a checkpoint framework, not structural certification or manufacturing authorization.
 
-Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
+CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
 
 Viewer: BACKBOX FOLD 45° · animation assembly-17.2
 

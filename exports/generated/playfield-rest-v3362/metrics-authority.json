@@ -1,0 +1,49 @@
+{
+  "version": "V33.6.2",
+  "production_authorized": false,
+  "method": "Previous exact unchanged metrics plus freshly audited changed B-reps; established deterministic rectangle packing with actual contour overlays.",
+  "sources": [
+    {
+      "path": "tools/build_solid_leg_metrics_v334.py",
+      "sha256": "283038464d83dc5261e3d899d4a1a1470c93d634cd02056d50196243848ee5ac"
+    },
+    {
+      "path": "exports/generated/button-relief-v3361/manufacturing-register.json",
+      "sha256": "060ecb776c6a1b15008f3d95e5f53934836b09098ab288bbaa791496fcd54672"
+    },
+    {
+      "path": "exports/generated/button-relief-v3361/packing-metrics.json",
+      "sha256": "396837819e0863f8efdb94d876de36d793d9496d9348cb0f138c06a3c799fede"
+    },
+    {
+      "path": "exports/generated/playfield-rest-v3362/manufacturing-register.json",
+      "sha256": "d47da37c0cf720ed0ce07b3cf1f927bcd8029d9308dcc55e7315702d403e8a38"
+    },
+    {
+      "path": "exports/generated/playfield-rest-v3362/changed-piece-metrics.json",
+      "sha256": "c83bedbd9f8f5de570c2616613097d469746e6e6812f7b634226f279aa28a7ce"
+    },
+    {
+      "path": "exports/generated/playfield-rest-v3362/assembly-manual.json",
+      "sha256": "620a1d4c196fae60661f5245ac609a25ba52e24556be4d2545c6db035bd296ad"
+    },
+    {
+      "path": "config/hardware_catalog_v335.json",
+      "sha256": "c8fa8d039fbd89e89c701016000f1e35dc3ebe9d03f1fabdc17486fac7d81a58"
+    },
+    {
+      "path": "config/assembly_planning_v333.json",
+      "sha256": "9a8c6347660ecef2aae9913b2051edbcf698e65430888142fe31227af8edb89f"
+    },
+    {
+      "path": "config/solid_leg_blocks_v334.json",
+      "sha256": "a6c4ab3634ab0805c87881e0da769f3e53039b0a259ac8b081ef7f0adf0f0395"
+    },
+    {
+      "path": "config/manufacturing/profiles/peter_supplier_v1.json",
+      "sha256": "5d3cce0adde7e0e791a8b7a389d3aef48b5ae62cda7adfa74c75074f3bea8ba3"
+    }
+  ],
+  "no_geometry_modification": true,
+  "no_G_code": true
+}

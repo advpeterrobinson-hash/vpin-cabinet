@@ -1,0 +1,2765 @@
+{
+  "source": "exports/generated/playfield-rest-v3362/play.FCStd",
+  "source_sha256": "30c6a13cec662b93d123114fdaf49758e443107632feb9f4a4c7cd841e9f0582",
+  "status": "HELD_PROPOSALS_ONLY_NOT_CURRENT_GEOMETRY",
+  "selected": false,
+  "manufacturing_release": false,
+  "CAD_pose_is_not_closed_pitch_retention": true,
+  "datum_changes": [],
+  "new_holes": [],
+  "new_purchased_hardware": [],
+  "rear_axis_mm": [
+    300.0,
+    1035.25061984718,
+    484.2203301149065
+  ],
+  "base_to_crossmembers": {
+    "CROSS_1": {
+      "distance_mm": 22.000000000000046,
+      "penetration_mm3": 0.0,
+      "witnesses": [
+        [
+          [
+            49.99999999999999,
+            385.21503714209615,
+            386.93517110471737
+          ],
+          [
+            49.99999999999999,
+            389.0,
+            365.2632063538165
+          ]
+        ],
+        [
+          [
+            49.99999999999999,
+            367.21503714209615,
+            383.7915091328864
+          ],
+          [
+            49.99999999999999,
+            371.0,
+            362.1195443819855
+          ]
+        ]
+      ],
+      "bearing_area_mm2": 0.0,
+      "sample_y_mm": 380.0,
+      "crossmember_top_z_at_same_y_mm": 363.691375367901,
+      "base_bottom_z_at_same_y_mm": 386.0243758855344,
+      "vertical_gap_at_same_y_mm": 22.333000517633423
+    },
+    "CROSS_2": {
+      "distance_mm": 22.000000000000096,
+      "penetration_mm3": 0.0,
+      "witnesses": [
+        [
+          [
+            49.99999999999999,
+            705.2150371420962,
+            442.82249504837944
+          ],
+          [
+            49.99999999999999,
+            709.0,
+            421.1505302974785
+          ]
+        ],
+        [
+          [
+            49.99999999999999,
+            687.2150371420962,
+            439.6788330765484
+          ],
+          [
+            49.99999999999999,
+            691.0,
+            418.0068683256475
+          ]
+        ]
+      ],
+      "bearing_area_mm2": 0.0,
+      "sample_y_mm": 700.0,
+      "crossmember_top_z_at_same_y_mm": 419.578699311563,
+      "base_bottom_z_at_same_y_mm": 441.91169982919644,
+      "vertical_gap_at_same_y_mm": 22.333000517633423
+    },
+    "CROSS_3": {
+      "distance_mm": 22.000000000000096,
+      "penetration_mm3": 0.0,
+      "witnesses": [
+        [
+          [
+            549.9999999999999,
+            985.2150371420962,
+            491.7239034990837
+          ],
+          [
+            549.9999999999999,
+            989.0,
+            470.0519387481827
+          ]
+        ],
+        [
+          [
+            549.9999999999999,
+            967.2150371420962,
+            488.58024152725267
+          ],
+          [
+            549.9999999999999,
+            971.0,
+            466.9082767763517
+          ]
+        ]
+      ],
+      "bearing_area_mm2": 0.0,
+      "sample_y_mm": 980.0,
+      "crossmember_top_z_at_same_y_mm": 468.4801077622672,
+      "base_bottom_z_at_same_y_mm": 490.81310827990063,
+      "vertical_gap_at_same_y_mm": 22.333000517633423
+    }
+  },
+  "rear_dowel_contacts": {
+    "PF_OpenCradleL": {
+      "distance_mm": 0.0,
+      "penetration_mm3": 0.0,
+      "witnesses": [
+        [
+          [
+            20.0,
+            1035.25061984718,
+            468.2203301149065
+          ],
+          [
+            20.0,
+            1035.25061984718,
+            468.2203301149065
+          ]
+        ],
+        [
+          [
+            35.99999999999999,
+            1035.25061984718,
+            468.2203301149065
+          ],
+          [
+            35.99999999999999,
+            1035.25061984718,
+            468.2203301149065
+          ]
+        ]
+      ]
+    },
+    "PF_OpenCradleR": {
+      "distance_mm": 0.0,
+      "penetration_mm3": 0.0,
+      "witnesses": [
+        [
+          [
+            580.0,
+            1035.25061984718,
+            468.2203301149065
+          ],
+          [
+            580.0,
+            1035.25061984718,
+            468.2203301149065
+          ]
+        ],
+        [
+          [
+            564.0,
+            1035.25061984718,
+            468.2203301149065
+          ],
+          [
+            564.0,
+            1035.25061984718,
+            468.2203301149065
+          ]
+        ]
+      ]
+    }
+  },
+  "normal_gap_mm": 22.000000000000085,
+  "vertical_gap_mm": 22.333000517633423,
+  "plywood_density_kg_m3": 650,
+  "concepts": {
+    "compact_pad": {
+      "status": "HELD_NOT_PROMOTED",
+      "members": [
+        {
+          "name": "HELD_compact_pad_L",
+          "brep": "exports/generated/playfield-rest-v3362/t1-rest-study/brep/HELD_compact_pad_L.brep",
+          "valid": true,
+          "solid_count": 1,
+          "bounds_mm": [
+            125.0,
+            371.0,
+            362.1195443819855,
+            143.0,
+            389.0,
+            387.5962068714499
+          ],
+          "volume_mm3": 7235.892167713226,
+          "mass_kg": 0.004703329909013596,
+          "nominal_stock_thickness_mm": 18,
+          "stock_axis": "X",
+          "top_bearing_area_mm2": 328.90418944150906,
+          "T1_bearing_area_mm2": 328.90418944150906,
+          "base_contact": {
+            "distance_mm": 0.0,
+            "penetration_mm3": 0.0,
+            "witnesses": [
+              [
+                [
+                  125.0,
+                  371.0,
+                  384.45254489961894
+                ],
+                [
+                  125.0,
+                  371.0,
+                  384.45254489961894
+                ]
+              ],
+              [
+                [
+                  143.0,
+                  371.0,
+                  384.45254489961894
+                ],
+                [
+                  143.0,
+                  371.0,
+                  384.45254489961894
+                ]
+              ]
+            ]
+          },
+          "T1_contact": {
+            "distance_mm": 0.0,
+            "penetration_mm3": 0.0,
+            "witnesses": [
+              [
+                [
+                  125.0,
+                  371.0,
+                  362.1195443819855
+                ],
+                [
+                  125.0,
+                  371.0,
+                  362.1195443819855
+                ]
+              ],
+              [
+                [
+                  143.0,
+                  371.0,
+                  362.1195443819855
+                ],
+                [
+                  143.0,
+                  371.0,
+                  362.1195443819855
+                ]
+              ]
+            ]
+          },
+          "other_fixed_collisions": [],
+          "service_samples": [
+            {
+              "angle_deg": 0,
+              "penetrations": [],
+              "base_separation_mm": 0.0
+            },
+            {
+              "angle_deg": 0.001,
+              "penetrations": [],
+              "base_separation_mm": 0.01140115901001816
+            },
+            {
+              "angle_deg": 0.01,
+              "penetrations": [],
+              "base_separation_mm": 0.11401180885153682
+            },
+            {
+              "angle_deg": 0.1,
+              "penetrations": [],
+              "base_separation_mm": 1.1401394479201787
+            },
+            {
+              "angle_deg": 0.25,
+              "penetrations": [],
+              "base_separation_mm": 2.850432407641051
+            },
+            {
+              "angle_deg": 0.5,
+              "penetrations": [],
+              "base_separation_mm": 5.70111516409449
+            },
+            {
+              "angle_deg": 1,
+              "penetrations": [],
+              "base_separation_mm": 11.403014628143016
+            },
+            {
+              "angle_deg": 2,
+              "penetrations": [],
+              "base_separation_mm": 22.8074295425622
+            },
+            {
+              "angle_deg": 3,
+              "penetrations": [],
+              "base_separation_mm": 34.209770847997625
+            },
+            {
+              "angle_deg": 4,
+              "penetrations": [],
+              "base_separation_mm": 45.606565280831006
+            },
+            {
+              "angle_deg": 5,
+              "penetrations": [],
+              "base_separation_mm": 56.99434126707443
+            },
+            {
+              "angle_deg": 6,
+              "penetrations": [],
+              "base_separation_mm": 68.36962997984672
+            },
+            {
+              "angle_deg": 7,
+              "penetrations": [],
+              "base_separation_mm": 79.72896639601124
+            },
+            {
+              "angle_deg": 8,
+              "penetrations": [],
+              "base_separation_mm": 91.06889035165514
+            },
+            {
+              "angle_deg": 9,
+              "penetrations": [],
+              "base_separation_mm": 102.3859475960894
+            },
+            {
+              "angle_deg": 10,
+              "penetrations": [],
+              "base_separation_mm": 113.67669084404629
+            },
+            {
+              "angle_deg": 11,
+              "penetrations": [],
+              "base_separation_mm": 124.93768082575674
+            },
+            {
+              "angle_deg": 12,
+              "penetrations": [],
+              "base_separation_mm": 136.16548733458467
+            },
+            {
+              "angle_deg": 13,
+              "penetrations": [],
+              "base_separation_mm": 147.35669027190127
+            },
+            {
+              "angle_deg": 14,
+              "penetrations": [],
+              "base_separation_mm": 158.5078806888802
+            },
+            {
+              "angle_deg": 15,
+              "penetrations": [],
+              "base_separation_mm": 169.61566182489653
+            },
+            {
+              "angle_deg": 16,
+              "penetrations": [],
+              "base_separation_mm": 180.67665014221262
+            },
+            {
+              "angle_deg": 17,
+              "penetrations": [],
+              "base_separation_mm": 191.6874763566368
+            },
+            {
+              "angle_deg": 18,
+              "penetrations": [],
+              "base_separation_mm": 202.64478646384
+            },
+            {
+              "angle_deg": 19,
+              "penetrations": [],
+              "base_separation_mm": 213.5452427610178
+            },
+            {
+              "angle_deg": 20,
+              "penetrations": [],
+              "base_separation_mm": 224.38552486358654
+            },
+            {
+              "angle_deg": 21,
+              "penetrations": [],
+              "base_separation_mm": 235.1623307166064
+            },
+            {
+              "angle_deg": 22,
+              "penetrations": [],
+              "base_separation_mm": 245.8723776006164
+            },
+            {
+              "angle_deg": 23,
+              "penetrations": [],
+              "base_separation_mm": 256.51240313158576
+            },
+            {
+              "angle_deg": 24,
+              "penetrations": [],
+              "base_separation_mm": 267.07916625466504
+            },
+            {
+              "angle_deg": 25,
+              "penetrations": [],
+              "base_separation_mm": 277.5694482314447
+            },
+            {
+              "angle_deg": 26,
+              "penetrations": [],
+              "base_separation_mm": 287.98005362041306
+            },
+            {
+              "angle_deg": 27,
+              "penetrations": [],
+              "base_separation_mm": 298.30781125031876
+            },
+            {
+              "angle_deg": 28,
+              "penetrations": [],
+              "base_separation_mm": 308.5495751861401
+            },
+            {
+              "angle_deg": 29,
+              "penetrations": [],
+              "base_separation_mm": 318.70222568736875
+            },
+            {
+              "angle_deg": 30,
+              "penetrations": [],
+              "base_separation_mm": 328.7626701583104
+            },
+            {
+              "angle_deg": 31,
+              "penetrations": [],
+              "base_separation_mm": 338.7278440901222
+            },
+            {
+              "angle_deg": 32,
+              "penetrations": [],
+              "base_separation_mm": 348.5947119942889
+            },
+            {
+              "angle_deg": 33,
+              "penetrations": [],
+              "base_separation_mm": 358.36026832726503
+            },
+            {
+              "angle_deg": 34,
+              "penetrations": [],
+              "base_separation_mm": 368.02153840599044
+            },
+            {
+              "angle_deg": 35,
+              "penetrations": [],
+              "base_separation_mm": 377.57557931400777
+            },
+            {
+              "angle_deg": 36,
+              "penetrations": [],
+              "base_separation_mm": 387.019480797905
+            },
+            {
+              "angle_deg": 37,
+              "penetrations": [],
+              "base_separation_mm": 396.350366153805
+            },
+            {
+              "angle_deg": 38,
+              "penetrations": [],
+              "base_separation_mm": 405.5653931036375
+            },
+            {
+              "angle_deg": 39,
+              "penetrations": [],
+              "base_separation_mm": 414.6617546609258
+            },
+            {
+              "angle_deg": 40,
+              "penetrations": [],
+              "base_separation_mm": 423.6366799858217
+            },
+            {
+              "angle_deg": 41,
+              "penetrations": [],
+              "base_separation_mm": 432.48743522912844
+            },
+            {
+              "angle_deg": 42,
+              "penetrations": [],
+              "base_separation_mm": 441.21132436505997
+            },
+            {
+              "angle_deg": 43,
+              "penetrations": [],
+              "base_separation_mm": 449.8056900124756
+            },
+            {
+              "angle_deg": 44,
+              "penetrations": [],
+              "base_separation_mm": 458.2679142443432
+            },
+            {
+              "angle_deg": 45,
+              "penetrations": [],
+              "base_separation_mm": 466.5954193851864
+            },
+            {
+              "angle_deg": 46,
+              "penetrations": [],
+              "base_separation_mm": 474.78566879626925
+            },
+            {
+              "angle_deg": 47,
+              "penetrations": [],
+              "base_separation_mm": 482.8361676482797
+            },
+            {
+              "angle_deg": 48,
+              "penetrations": [],
+              "base_separation_mm": 490.7444636812811
+            },
+            {
+              "angle_deg": 49,
+              "penetrations": [],
+              "base_separation_mm": 498.5081479516929
+            },
+            {
+              "angle_deg": 50,
+              "penetrations": [],
+              "base_separation_mm": 506.1248555660766
+            }
+          ],
+          "lift_samples": [
+            {
+              "lift_mm": 0,
+              "penetrations": [],
+              "base_separation_mm": 0.0
+            },
+            {
+              "lift_mm": 0.01,
+              "penetrations": [],
+              "base_separation_mm": 0.009850893068577758
+            },
+            {
+              "lift_mm": 0.1,
+              "penetrations": [],
+              "base_separation_mm": 0.09850893068591624
+            },
+            {
+              "lift_mm": 1,
+              "penetrations": [],
+              "base_separation_mm": 0.985089306859126
+            },
+            {
+              "lift_mm": 2,
+              "penetrations": [],
+              "base_separation_mm": 1.970178613718252
+            },
+            {
+              "lift_mm": 3,
+              "penetrations": [],
+              "base_separation_mm": 2.9552679205773775
+            },
+            {
+              "lift_mm": 4,
+              "penetrations": [],
+              "base_separation_mm": 3.940357227436504
+            },
+            {
+              "lift_mm": 5,
+              "penetrations": [],
+              "base_separation_mm": 4.92544653429563
+            },
+            {
+              "lift_mm": 6,
+              "penetrations": [],
+              "base_separation_mm": 5.910535841154766
+            },
+            {
+              "lift_mm": 7,
+              "penetrations": [],
+              "base_separation_mm": 6.895625148013892
+            },
+            {
+              "lift_mm": 8,
+              "penetrations": [],
+              "base_separation_mm": 7.880714454873017
+            },
+            {
+              "lift_mm": 9,
+              "penetrations": [],
+              "base_separation_mm": 8.865803761732144
+            },
+            {
+              "lift_mm": 10,
+              "penetrations": [],
+              "base_separation_mm": 9.850893068591269
+            },
+            {
+              "lift_mm": 11,
+              "penetrations": [],
+              "base_separation_mm": 10.835982375450394
+            },
+            {
+              "lift_mm": 12,
+              "penetrations": [],
+              "base_separation_mm": 11.82107168230952
+            },
+            {
+              "lift_mm": 13,
+              "penetrations": [],
+              "base_separation_mm": 12.806160989168646
+            },
+            {
+              "lift_mm": 14,
+              "penetrations": [],
+              "base_separation_mm": 13.791250296027783
+            },
+            {
+              "lift_mm": 15,
+              "penetrations": [],
+              "base_separation_mm": 14.776339602886909
+            },
+            {
+              "lift_mm": 16,
+              "penetrations": [],
+              "base_separation_mm": 15.761428909746034
+            },
+            {
+              "lift_mm": 17,
+              "penetrations": [],
+              "base_separation_mm": 16.74651821660516
+            },
+            {
+              "lift_mm": 18,
+              "penetrations": [],
+              "base_separation_mm": 17.731607523464287
+            },
+            {
+              "lift_mm": 19,
+              "penetrations": [],
+              "base_separation_mm": 18.71669683032341
+            },
+            {
+              "lift_mm": 20,
+              "penetrations": [],
+              "base_separation_mm": 19.701786137182538
+            },
+            {
+              "lift_mm": 21,
+              "penetrations": [],
+              "base_separation_mm": 20.686875444041664
+            },
+            {
+              "lift_mm": 22,
+              "penetrations": [],
+              "base_separation_mm": 21.671964750900788
+            },
+            {
+              "lift_mm": 23,
+              "penetrations": [],
+              "base_separation_mm": 22.657054057759925
+            },
+            {
+              "lift_mm": 24,
+              "penetrations": [],
+              "base_separation_mm": 23.642143364619052
+            },
+            {
+              "lift_mm": 25,
+              "penetrations": [],
+              "base_separation_mm": 24.62723267147818
+            },
+            {
+              "lift_mm": 26,
+              "penetrations": [],
+              "base_separation_mm": 25.612321978337302
+            },
+            {
+              "lift_mm": 27,
+              "penetrations": [],
+              "base_separation_mm": 26.597411285196486
+            },
+            {
+              "lift_mm": 28,
+              "penetrations": [],
+              "base_separation_mm": 27.58250059205561
+            },
+            {
+              "lift_mm": 29,
+              "penetrations": [],
+              "base_separation_mm": 28.567589898914736
+            },
+            {
+              "lift_mm": 30,
+              "penetrations": [],
+              "base_separation_mm": 29.552679205773863
+            },
+            {
+              "lift_mm": 31,
+              "penetrations": [],
+              "base_separation_mm": 30.53776851263299
+            },
+            {
+              "lift_mm": 32,
+              "penetrations": [],
+              "base_separation_mm": 31.522857819492124
+            },
+            {
+              "lift_mm": 33,
+              "penetrations": [],
+              "base_separation_mm": 32.50794712635125
+            },
+            {
+              "lift_mm": 34,
+              "penetrations": [],
+              "base_separation_mm": 33.49303643321038
+            },
+            {
+              "lift_mm": 35,
+              "penetrations": [],
+              "base_separation_mm": 34.4781257400695
+            },
+            {
+              "lift_mm": 36,
+              "penetrations": [],
+              "base_separation_mm": 35.46321504692863
+            },
+            {
+              "lift_mm": 37,
+              "penetrations": [],
+              "base_separation_mm": 36.448304353787755
+            },
+            {
+              "lift_mm": 38,
+              "penetrations": [],
+              "base_separation_mm": 37.43339366064688
+            },
+            {
+              "lift_mm": 39,
+              "penetrations": [],
+              "base_separation_mm": 38.418482967506
+            },
+            {
+              "lift_mm": 40,
+              "penetrations": [],
+              "base_separation_mm": 39.40357227436513
+            },
+            {
+              "lift_mm": 41,
+              "penetrations": [],
+              "base_separation_mm": 40.38866158122426
+            },
+            {
+              "lift_mm": 42,
+              "penetrations": [],
+              "base_separation_mm": 41.37375088808339
+            },
+            {
+              "lift_mm": 43,
+              "penetrations": [],
+              "base_separation_mm": 42.35884019494252
+            },
+            {
+              "lift_mm": 44,
+              "penetrations": [],
+              "base_separation_mm": 43.34392950180165
+            },
+            {
+              "lift_mm": 45,
+              "penetrations": [],
+              "base_separation_mm": 44.32901880866077
+            },
+            {
+              "lift_mm": 46,
+              "penetrations": [],
+              "base_separation_mm": 45.3141081155199
+            },
+            {
+              "lift_mm": 47,
+              "penetrations": [],
+              "base_separation_mm": 46.299197422379024
+            },
+            {
+              "lift_mm": 48,
+              "penetrations": [],
+              "base_separation_mm": 47.28428672923815
+            }
+          ],
+          "operation_plan": "One planar Y-Z outline extruded 18 mm; through profile from FACE A only. No holes frozen.",
+          "fit": "Gap height must be regenerated for actual stock and assembly datum.",
+          "notch_corner": "Open outer corners; no internal cut corner.",
+          "attachment_status": "UNSELECTED; geometry alone is not positive attachment or uplift retention"
+        },
+        {
+          "name": "HELD_compact_pad_R",
+          "brep": "exports/generated/playfield-rest-v3362/t1-rest-study/brep/HELD_compact_pad_R.brep",
+          "valid": true,
+          "solid_count": 1,
+          "bounds_mm": [
+            457.0,
+            371.0,
+            362.1195443819855,
+            475.0,
+            389.0,
+            387.5962068714499
+          ],
+          "volume_mm3": 7235.8921677132275,
+          "mass_kg": 0.004703329909013598,
+          "nominal_stock_thickness_mm": 18,
+          "stock_axis": "X",
+          "top_bearing_area_mm2": 328.90418944150906,
+          "T1_bearing_area_mm2": 328.90418944150906,
+          "base_contact": {
+            "distance_mm": 0.0,
+            "penetration_mm3": 0.0,
+            "witnesses": [
+              [
+                [
+                  457.0,
+                  371.0,
+                  384.45254489961894
+                ],
+                [
+                  457.0,
+                  371.0,
+                  384.45254489961894
+                ]
+              ],
+              [
+                [
+                  475.0,
+                  371.0,
+                  384.45254489961894
+                ],
+                [
+                  475.0,
+                  371.0,
+                  384.45254489961894
+                ]
+              ]
+            ]
+          },
+          "T1_contact": {
+            "distance_mm": 0.0,
+            "penetration_mm3": 0.0,
+            "witnesses": [
+              [
+                [
+                  457.0,
+                  371.0,
+                  362.1195443819855
+                ],
+                [
+                  457.0,
+                  371.0,
+                  362.1195443819855
+                ]
+              ],
+              [
+                [
+                  475.0,
+                  371.0,
+                  362.1195443819855
+                ],
+                [
+                  475.0,
+                  371.0,
+                  362.1195443819855
+                ]
+              ]
+            ]
+          },
+          "other_fixed_collisions": [],
+          "service_samples": [
+            {
+              "angle_deg": 0,
+              "penetrations": [],
+              "base_separation_mm": 0.0
+            },
+            {
+              "angle_deg": 0.001,
+              "penetrations": [],
+              "base_separation_mm": 0.01140115901001816
+            },
+            {
+              "angle_deg": 0.01,
+              "penetrations": [],
+              "base_separation_mm": 0.11401180885153682
+            },
+            {
+              "angle_deg": 0.1,
+              "penetrations": [],
+              "base_separation_mm": 1.1401394479201787
+            },
+            {
+              "angle_deg": 0.25,
+              "penetrations": [],
+              "base_separation_mm": 2.850432407641051
+            },
+            {
+              "angle_deg": 0.5,
+              "penetrations": [],
+              "base_separation_mm": 5.70111516409449
+            },
+            {
+              "angle_deg": 1,
+              "penetrations": [],
+              "base_separation_mm": 11.403014628143016
+            },
+            {
+              "angle_deg": 2,
+              "penetrations": [],
+              "base_separation_mm": 22.8074295425622
+            },
+            {
+              "angle_deg": 3,
+              "penetrations": [],
+              "base_separation_mm": 34.209770847997625
+            },
+            {
+              "angle_deg": 4,
+              "penetrations": [],
+              "base_separation_mm": 45.606565280831006
+            },
+            {
+              "angle_deg": 5,
+              "penetrations": [],
+              "base_separation_mm": 56.99434126707443
+            },
+            {
+              "angle_deg": 6,
+              "penetrations": [],
+              "base_separation_mm": 68.36962997984672
+            },
+            {
+              "angle_deg": 7,
+              "penetrations": [],
+              "base_separation_mm": 79.72896639601124
+            },
+            {
+              "angle_deg": 8,
+              "penetrations": [],
+              "base_separation_mm": 91.06889035165514
+            },
+            {
+              "angle_deg": 9,
+              "penetrations": [],
+              "base_separation_mm": 102.3859475960894
+            },
+            {
+              "angle_deg": 10,
+              "penetrations": [],
+              "base_separation_mm": 113.67669084404629
+            },
+            {
+              "angle_deg": 11,
+              "penetrations": [],
+              "base_separation_mm": 124.93768082575674
+            },
+            {
+              "angle_deg": 12,
+              "penetrations": [],
+              "base_separation_mm": 136.16548733458467
+            },
+            {
+              "angle_deg": 13,
+              "penetrations": [],
+              "base_separation_mm": 147.35669027190127
+            },
+            {
+              "angle_deg": 14,
+              "penetrations": [],
+              "base_separation_mm": 158.5078806888802
+            },
+            {
+              "angle_deg": 15,
+              "penetrations": [],
+              "base_separation_mm": 169.61566182489653
+            },
+            {
+              "angle_deg": 16,
+              "penetrations": [],
+              "base_separation_mm": 180.67665014221262
+            },
+            {
+              "angle_deg": 17,
+              "penetrations": [],
+              "base_separation_mm": 191.6874763566368
+            },
+            {
+              "angle_deg": 18,
+              "penetrations": [],
+              "base_separation_mm": 202.64478646384
+            },
+            {
+              "angle_deg": 19,
+              "penetrations": [],
+              "base_separation_mm": 213.5452427610178
+            },
+            {
+              "angle_deg": 20,
+              "penetrations": [],
+              "base_separation_mm": 224.38552486358654
+            },
+            {
+              "angle_deg": 21,
+              "penetrations": [],
+              "base_separation_mm": 235.1623307166064
+            },
+            {
+              "angle_deg": 22,
+              "penetrations": [],
+              "base_separation_mm": 245.8723776006164
+            },
+            {
+              "angle_deg": 23,
+              "penetrations": [],
+              "base_separation_mm": 256.51240313158576
+            },
+            {
+              "angle_deg": 24,
+              "penetrations": [],
+              "base_separation_mm": 267.07916625466504
+            },
+            {
+              "angle_deg": 25,
+              "penetrations": [],
+              "base_separation_mm": 277.5694482314447
+            },
+            {
+              "angle_deg": 26,
+              "penetrations": [],
+              "base_separation_mm": 287.98005362041306
+            },
+            {
+              "angle_deg": 27,
+              "penetrations": [],
+              "base_separation_mm": 298.30781125031876
+            },
+            {
+              "angle_deg": 28,
+              "penetrations": [],
+              "base_separation_mm": 308.5495751861401
+            },
+            {
+              "angle_deg": 29,
+              "penetrations": [],
+              "base_separation_mm": 318.70222568736875
+            },
+            {
+              "angle_deg": 30,
+              "penetrations": [],
+              "base_separation_mm": 328.7626701583104
+            },
+            {
+              "angle_deg": 31,
+              "penetrations": [],
+              "base_separation_mm": 338.7278440901222
+            },
+            {
+              "angle_deg": 32,
+              "penetrations": [],
+              "base_separation_mm": 348.5947119942889
+            },
+            {
+              "angle_deg": 33,
+              "penetrations": [],
+              "base_separation_mm": 358.36026832726503
+            },
+            {
+              "angle_deg": 34,
+              "penetrations": [],
+              "base_separation_mm": 368.02153840599044
+            },
+            {
+              "angle_deg": 35,
+              "penetrations": [],
+              "base_separation_mm": 377.57557931400777
+            },
+            {
+              "angle_deg": 36,
+              "penetrations": [],
+              "base_separation_mm": 387.019480797905
+            },
+            {
+              "angle_deg": 37,
+              "penetrations": [],
+              "base_separation_mm": 396.350366153805
+            },
+            {
+              "angle_deg": 38,
+              "penetrations": [],
+              "base_separation_mm": 405.5653931036375
+            },
+            {
+              "angle_deg": 39,
+              "penetrations": [],
+              "base_separation_mm": 414.6617546609258
+            },
+            {
+              "angle_deg": 40,
+              "penetrations": [],
+              "base_separation_mm": 423.6366799858217
+            },
+            {
+              "angle_deg": 41,
+              "penetrations": [],
+              "base_separation_mm": 432.48743522912844
+            },
+            {
+              "angle_deg": 42,
+              "penetrations": [],
+              "base_separation_mm": 441.21132436505997
+            },
+            {
+              "angle_deg": 43,
+              "penetrations": [],
+              "base_separation_mm": 449.8056900124756
+            },
+            {
+              "angle_deg": 44,
+              "penetrations": [],
+              "base_separation_mm": 458.2679142443432
+            },
+            {
+              "angle_deg": 45,
+              "penetrations": [],
+              "base_separation_mm": 466.5954193851864
+            },
+            {
+              "angle_deg": 46,
+              "penetrations": [],
+              "base_separation_mm": 474.78566879626925
+            },
+            {
+              "angle_deg": 47,
+              "penetrations": [],
+              "base_separation_mm": 482.8361676482797
+            },
+            {
+              "angle_deg": 48,
+              "penetrations": [],
+              "base_separation_mm": 490.7444636812811
+            },
+            {
+              "angle_deg": 49,
+              "penetrations": [],
+              "base_separation_mm": 498.5081479516929
+            },
+            {
+              "angle_deg": 50,
+              "penetrations": [],
+              "base_separation_mm": 506.1248555660766
+            }
+          ],
+          "lift_samples": [
+            {
+              "lift_mm": 0,
+              "penetrations": [],
+              "base_separation_mm": 0.0
+            },
+            {
+              "lift_mm": 0.01,
+              "penetrations": [],
+              "base_separation_mm": 0.009850893068577758
+            },
+            {
+              "lift_mm": 0.1,
+              "penetrations": [],
+              "base_separation_mm": 0.09850893068591624
+            },
+            {
+              "lift_mm": 1,
+              "penetrations": [],
+              "base_separation_mm": 0.985089306859126
+            },
+            {
+              "lift_mm": 2,
+              "penetrations": [],
+              "base_separation_mm": 1.970178613718252
+            },
+            {
+              "lift_mm": 3,
+              "penetrations": [],
+              "base_separation_mm": 2.9552679205773775
+            },
+            {
+              "lift_mm": 4,
+              "penetrations": [],
+              "base_separation_mm": 3.940357227436504
+            },
+            {
+              "lift_mm": 5,
+              "penetrations": [],
+              "base_separation_mm": 4.92544653429563
+            },
+            {
+              "lift_mm": 6,
+              "penetrations": [],
+              "base_separation_mm": 5.910535841154766
+            },
+            {
+              "lift_mm": 7,
+              "penetrations": [],
+              "base_separation_mm": 6.895625148013892
+            },
+            {
+              "lift_mm": 8,
+              "penetrations": [],
+              "base_separation_mm": 7.880714454873017
+            },
+            {
+              "lift_mm": 9,
+              "penetrations": [],
+              "base_separation_mm": 8.865803761732144
+            },
+            {
+              "lift_mm": 10,
+              "penetrations": [],
+              "base_separation_mm": 9.850893068591269
+            },
+            {
+              "lift_mm": 11,
+              "penetrations": [],
+              "base_separation_mm": 10.835982375450394
+            },
+            {
+              "lift_mm": 12,
+              "penetrations": [],
+              "base_separation_mm": 11.82107168230952
+            },
+            {
+              "lift_mm": 13,
+              "penetrations": [],
+              "base_separation_mm": 12.806160989168646
+            },
+            {
+              "lift_mm": 14,
+              "penetrations": [],
+              "base_separation_mm": 13.791250296027783
+            },
+            {
+              "lift_mm": 15,
+              "penetrations": [],
+              "base_separation_mm": 14.776339602886909
+            },
+            {
+              "lift_mm": 16,
+              "penetrations": [],
+              "base_separation_mm": 15.761428909746034
+            },
+            {
+              "lift_mm": 17,
+              "penetrations": [],
+              "base_separation_mm": 16.74651821660516
+            },
+            {
+              "lift_mm": 18,
+              "penetrations": [],
+              "base_separation_mm": 17.731607523464287
+            },
+            {
+              "lift_mm": 19,
+              "penetrations": [],
+              "base_separation_mm": 18.71669683032341
+            },
+            {
+              "lift_mm": 20,
+              "penetrations": [],
+              "base_separation_mm": 19.701786137182538
+            },
+            {
+              "lift_mm": 21,
+              "penetrations": [],
+              "base_separation_mm": 20.686875444041664
+            },
+            {
+              "lift_mm": 22,
+              "penetrations": [],
+              "base_separation_mm": 21.671964750900788
+            },
+            {
+              "lift_mm": 23,
+              "penetrations": [],
+              "base_separation_mm": 22.657054057759925
+            },
+            {
+              "lift_mm": 24,
+              "penetrations": [],
+              "base_separation_mm": 23.642143364619052
+            },
+            {
+              "lift_mm": 25,
+              "penetrations": [],
+              "base_separation_mm": 24.62723267147818
+            },
+            {
+              "lift_mm": 26,
+              "penetrations": [],
+              "base_separation_mm": 25.612321978337302
+            },
+            {
+              "lift_mm": 27,
+              "penetrations": [],
+              "base_separation_mm": 26.597411285196486
+            },
+            {
+              "lift_mm": 28,
+              "penetrations": [],
+              "base_separation_mm": 27.58250059205561
+            },
+            {
+              "lift_mm": 29,
+              "penetrations": [],
+              "base_separation_mm": 28.567589898914736
+            },
+            {
+              "lift_mm": 30,
+              "penetrations": [],
+              "base_separation_mm": 29.552679205773863
+            },
+            {
+              "lift_mm": 31,
+              "penetrations": [],
+              "base_separation_mm": 30.53776851263299
+            },
+            {
+              "lift_mm": 32,
+              "penetrations": [],
+              "base_separation_mm": 31.522857819492124
+            },
+            {
+              "lift_mm": 33,
+              "penetrations": [],
+              "base_separation_mm": 32.50794712635125
+            },
+            {
+              "lift_mm": 34,
+              "penetrations": [],
+              "base_separation_mm": 33.49303643321038
+            },
+            {
+              "lift_mm": 35,
+              "penetrations": [],
+              "base_separation_mm": 34.4781257400695
+            },
+            {
+              "lift_mm": 36,
+              "penetrations": [],
+              "base_separation_mm": 35.46321504692863
+            },
+            {
+              "lift_mm": 37,
+              "penetrations": [],
+              "base_separation_mm": 36.448304353787755
+            },
+            {
+              "lift_mm": 38,
+              "penetrations": [],
+              "base_separation_mm": 37.43339366064688
+            },
+            {
+              "lift_mm": 39,
+              "penetrations": [],
+              "base_separation_mm": 38.418482967506
+            },
+            {
+              "lift_mm": 40,
+              "penetrations": [],
+              "base_separation_mm": 39.40357227436513
+            },
+            {
+              "lift_mm": 41,
+              "penetrations": [],
+              "base_separation_mm": 40.38866158122426
+            },
+            {
+              "lift_mm": 42,
+              "penetrations": [],
+              "base_separation_mm": 41.37375088808339
+            },
+            {
+              "lift_mm": 43,
+              "penetrations": [],
+              "base_separation_mm": 42.35884019494252
+            },
+            {
+              "lift_mm": 44,
+              "penetrations": [],
+              "base_separation_mm": 43.34392950180165
+            },
+            {
+              "lift_mm": 45,
+              "penetrations": [],
+              "base_separation_mm": 44.32901880866077
+            },
+            {
+              "lift_mm": 46,
+              "penetrations": [],
+              "base_separation_mm": 45.3141081155199
+            },
+            {
+              "lift_mm": 47,
+              "penetrations": [],
+              "base_separation_mm": 46.299197422379024
+            },
+            {
+              "lift_mm": 48,
+              "penetrations": [],
+              "base_separation_mm": 47.28428672923815
+            }
+          ],
+          "operation_plan": "One planar Y-Z outline extruded 18 mm; through profile from FACE A only. No holes frozen.",
+          "fit": "Gap height must be regenerated for actual stock and assembly datum.",
+          "notch_corner": "Open outer corners; no internal cut corner.",
+          "attachment_status": "UNSELECTED; geometry alone is not positive attachment or uplift retention"
+        }
+      ],
+      "pair_upper_bearing_mm2": 657.8083788830181,
+      "pair_T1_bearing_mm2": 657.8083788830181,
+      "pair_mass_kg": 0.009406659818027194,
+      "new_stock_family": false,
+      "nominal_stock_mm": 18,
+      "functional_reason": "Two front landings plus the rear dowel establish closed pitch; separate positive retention is still required.",
+      "collision_screen": "Sampled service 0\u201350 degrees (1-degree plus fine initial samples), lift 0\u201348 mm (1-mm plus fine initial samples). Intentional zero-gap bearing at PLAY.",
+      "not_a_continuous_clearance_certificate": true
+    },
+    "captured_shoe": {
+      "status": "HELD_NOT_PROMOTED",
+      "members": [
+        {
+          "name": "HELD_captured_shoe_L",
+          "brep": "exports/generated/playfield-rest-v3362/t1-rest-study/brep/HELD_captured_shoe_L.brep",
+          "valid": true,
+          "solid_count": 1,
+          "bounds_mm": [
+            125.0,
+            353.0,
+            340.97588241015455,
+            143.0,
+            407.0,
+            390.73986884328093
+          ],
+          "volume_mm3": 33371.676503139715,
+          "mass_kg": 0.021691589727040817,
+          "nominal_stock_thickness_mm": 18,
+          "stock_axis": "X",
+          "top_bearing_area_mm2": 986.7125683245274,
+          "T1_bearing_area_mm2": 328.90418944150906,
+          "base_contact": {
+            "distance_mm": 5.684341886080802e-14,
+            "penetration_mm3": 0.0,
+            "witnesses": [
+              [
+                [
+                  143.0,
+                  353.0,
+                  381.308882927788
+                ],
+                [
+                  143.0,
+                  353.0,
+                  381.3088829277879
+                ]
+              ],
+              [
+                [
+                  125.0,
+                  407.0,
+                  390.73986884328093
+                ],
+                [
+                  125.0,
+                  407.0,
+                  390.7398688432809
+                ]
+              ]
+            ]
+          },
+          "T1_contact": {
+            "distance_mm": 0.0,
+            "penetration_mm3": 0.0,
+            "witnesses": [
+              [
+                [
+                  125.0,
+                  371.0,
+                  362.1195443819855
+                ],
+                [
+                  125.0,
+                  371.0,
+                  362.1195443819855
+                ]
+              ],
+              [
+                [
+                  143.0,
+                  371.0,
+                  362.1195443819855
+                ],
+                [
+                  143.0,
+                  371.0,
+                  362.1195443819855
+                ]
+              ]
+            ]
+          },
+          "other_fixed_collisions": [],
+          "service_samples": [
+            {
+              "angle_deg": 0,
+              "penetrations": [],
+              "base_separation_mm": 5.684341886080802e-14
+            },
+            {
+              "angle_deg": 0.001,
+              "penetrations": [],
+              "base_separation_mm": 0.01108224450835139
+            },
+            {
+              "angle_deg": 0.01,
+              "penetrations": [],
+              "base_separation_mm": 0.110822663851367
+            },
+            {
+              "angle_deg": 0.1,
+              "penetrations": [],
+              "base_separation_mm": 1.1082480139481603
+            },
+            {
+              "angle_deg": 0.25,
+              "penetrations": [],
+              "base_separation_mm": 2.7707040352198002
+            },
+            {
+              "angle_deg": 0.5,
+              "penetrations": [],
+              "base_separation_mm": 5.5416599371652895
+            },
+            {
+              "angle_deg": 1,
+              "penetrations": [],
+              "base_separation_mm": 11.084116317417488
+            },
+            {
+              "angle_deg": 2,
+              "penetrations": [],
+              "base_separation_mm": 22.169730060625866
+            },
+            {
+              "angle_deg": 3,
+              "penetrations": [],
+              "base_separation_mm": 33.25346444429031
+            },
+            {
+              "angle_deg": 4,
+              "penetrations": [],
+              "base_separation_mm": 44.33194325554708
+            },
+            {
+              "angle_deg": 5,
+              "penetrations": [],
+              "base_separation_mm": 55.40179188243043
+            },
+            {
+              "angle_deg": 6,
+              "penetrations": [],
+              "base_separation_mm": 66.45963834181251
+            },
+            {
+              "angle_deg": 7,
+              "penetrations": [],
+              "base_separation_mm": 77.50211430654242
+            },
+            {
+              "angle_deg": 8,
+              "penetrations": [],
+              "base_separation_mm": 88.52585613147008
+            },
+            {
+              "angle_deg": 9,
+              "penetrations": [],
+              "base_separation_mm": 99.52750587804636
+            },
+            {
+              "angle_deg": 10,
+              "penetrations": [],
+              "base_separation_mm": 110.50371233718306
+            },
+            {
+              "angle_deg": 11,
+              "penetrations": [],
+              "base_separation_mm": 121.45113205006388
+            },
+            {
+              "angle_deg": 12,
+              "penetrations": [],
+              "base_separation_mm": 132.3664303265942
+            },
+            {
+              "angle_deg": 13,
+              "penetrations": [],
+              "base_separation_mm": 143.2462822611801
+            },
+            {
+              "angle_deg": 14,
+              "penetrations": [],
+              "base_separation_mm": 154.08737374552683
+            },
+            {
+              "angle_deg": 15,
+              "penetrations": [],
+              "base_separation_mm": 164.88640247814817
+            },
+            {
+              "angle_deg": 16,
+              "penetrations": [],
+              "base_separation_mm": 175.64007897027977
+            },
+            {
+              "angle_deg": 17,
+              "penetrations": [],
+              "base_separation_mm": 186.34512754788878
+            },
+            {
+              "angle_deg": 18,
+              "penetrations": [],
+              "base_separation_mm": 196.99828734947644
+            },
+            {
+              "angle_deg": 19,
+              "penetrations": [],
+              "base_separation_mm": 207.59631331936774
+            },
+            {
+              "angle_deg": 20,
+              "penetrations": [],
+              "base_separation_mm": 218.13597719618673
+            },
+            {
+              "angle_deg": 21,
+              "penetrations": [],
+              "base_separation_mm": 228.61406849621667
+            },
+            {
+              "angle_deg": 22,
+              "penetrations": [],
+              "base_separation_mm": 239.0273954913439
+            },
+            {
+              "angle_deg": 23,
+              "penetrations": [],
+              "base_separation_mm": 249.3727861812896
+            },
+            {
+              "angle_deg": 24,
+              "penetrations": [],
+              "base_separation_mm": 259.6470892598314
+            },
+            {
+              "angle_deg": 25,
+              "penetrations": [],
+              "base_separation_mm": 269.8471750747222
+            },
+            {
+              "angle_deg": 26,
+              "penetrations": [],
+              "base_separation_mm": 279.96993658101263
+            },
+            {
+              "angle_deg": 27,
+              "penetrations": [],
+              "base_separation_mm": 290.01229028748645
+            },
+            {
+              "angle_deg": 28,
+              "penetrations": [],
+              "base_separation_mm": 299.9711771959217
+            },
+            {
+              "angle_deg": 29,
+              "penetrations": [],
+              "base_separation_mm": 309.84356373289273
+            },
+            {
+              "angle_deg": 30,
+              "penetrations": [],
+              "base_separation_mm": 319.6264426738241
+            },
+            {
+              "angle_deg": 31,
+              "penetrations": [],
+              "base_separation_mm": 329.31683405902174
+            },
+            {
+              "angle_deg": 32,
+              "penetrations": [],
+              "base_separation_mm": 338.91178610139656
+            },
+            {
+              "angle_deg": 33,
+              "penetrations": [],
+              "base_separation_mm": 348.4083760856082
+            },
+            {
+              "angle_deg": 34,
+              "penetrations": [],
+              "base_separation_mm": 357.803711258352
+            },
+            {
+              "angle_deg": 35,
+              "penetrations": [],
+              "base_separation_mm": 367.09492970951925
+            },
+            {
+              "angle_deg": 36,
+              "penetrations": [],
+              "base_separation_mm": 376.2792012439645
+            },
+            {
+              "angle_deg": 37,
+              "penetrations": [],
+              "base_separation_mm": 385.35372824360775
+            },
+            {
+              "angle_deg": 38,
+              "penetrations": [],
+              "base_separation_mm": 394.3157465196181
+            },
+            {
+              "angle_deg": 39,
+              "penetrations": [],
+              "base_separation_mm": 403.16252615441124
+            },
+            {
+              "angle_deg": 40,
+              "penetrations": [],
+              "base_separation_mm": 411.8913723332107
+            },
+            {
+              "angle_deg": 41,
+              "penetrations": [],
+              "base_separation_mm": 420.4996261649113
+            },
+            {
+              "angle_deg": 42,
+              "penetrations": [],
+              "base_separation_mm": 428.9846654920064
+            },
+            {
+              "angle_deg": 43,
+              "penetrations": [],
+              "base_separation_mm": 437.34390568932037
+            },
+            {
+              "angle_deg": 44,
+              "penetrations": [],
+              "base_separation_mm": 445.57480045131126
+            },
+            {
+              "angle_deg": 45,
+              "penetrations": [],
+              "base_separation_mm": 453.6748425676999
+            },
+            {
+              "angle_deg": 46,
+              "penetrations": [],
+              "base_separation_mm": 461.6415646871914
+            },
+            {
+              "angle_deg": 47,
+              "penetrations": [],
+              "base_separation_mm": 469.4725400690517
+            },
+            {
+              "angle_deg": 48,
+              "penetrations": [],
+              "base_separation_mm": 477.16538332232057
+            },
+            {
+              "angle_deg": 49,
+              "penetrations": [],
+              "base_separation_mm": 484.71775113241983
+            },
+            {
+              "angle_deg": 50,
+              "penetrations": [],
+              "base_separation_mm": 492.1273429749533
+            }
+          ],
+          "lift_samples": [
+            {
+              "lift_mm": 0,
+              "penetrations": [],
+              "base_separation_mm": 5.684341886080802e-14
+            },
+            {
+              "lift_mm": 0.01,
+              "penetrations": [],
+              "base_separation_mm": 0.009850893068521762
+            },
+            {
+              "lift_mm": 0.1,
+              "penetrations": [],
+              "base_separation_mm": 0.09850893068586025
+            },
+            {
+              "lift_mm": 1,
+              "penetrations": [],
+              "base_separation_mm": 0.9850893068590699
+            },
+            {
+              "lift_mm": 2,
+              "penetrations": [],
+              "base_separation_mm": 1.9701786137181958
+            },
+            {
+              "lift_mm": 3,
+              "penetrations": [],
+              "base_separation_mm": 2.9552679205773216
+            },
+            {
+              "lift_mm": 4,
+              "penetrations": [],
+              "base_separation_mm": 3.9403572274364476
+            },
+            {
+              "lift_mm": 5,
+              "penetrations": [],
+              "base_separation_mm": 4.925446534295573
+            },
+            {
+              "lift_mm": 6,
+              "penetrations": [],
+              "base_separation_mm": 5.91053584115471
+            },
+            {
+              "lift_mm": 7,
+              "penetrations": [],
+              "base_separation_mm": 6.895625148013835
+            },
+            {
+              "lift_mm": 8,
+              "penetrations": [],
+              "base_separation_mm": 7.880714454873017
+            },
+            {
+              "lift_mm": 9,
+              "penetrations": [],
+              "base_separation_mm": 8.865803761732144
+            },
+            {
+              "lift_mm": 10,
+              "penetrations": [],
+              "base_separation_mm": 9.850893068591269
+            },
+            {
+              "lift_mm": 11,
+              "penetrations": [],
+              "base_separation_mm": 10.835982375450394
+            },
+            {
+              "lift_mm": 12,
+              "penetrations": [],
+              "base_separation_mm": 11.82107168230952
+            },
+            {
+              "lift_mm": 13,
+              "penetrations": [],
+              "base_separation_mm": 12.806160989168646
+            },
+            {
+              "lift_mm": 14,
+              "penetrations": [],
+              "base_separation_mm": 13.791250296027773
+            },
+            {
+              "lift_mm": 15,
+              "penetrations": [],
+              "base_separation_mm": 14.776339602886909
+            },
+            {
+              "lift_mm": 16,
+              "penetrations": [],
+              "base_separation_mm": 15.761428909746034
+            },
+            {
+              "lift_mm": 17,
+              "penetrations": [],
+              "base_separation_mm": 16.74651821660516
+            },
+            {
+              "lift_mm": 18,
+              "penetrations": [],
+              "base_separation_mm": 17.731607523464287
+            },
+            {
+              "lift_mm": 19,
+              "penetrations": [],
+              "base_separation_mm": 18.71669683032341
+            },
+            {
+              "lift_mm": 20,
+              "penetrations": [],
+              "base_separation_mm": 19.701786137182538
+            },
+            {
+              "lift_mm": 21,
+              "penetrations": [],
+              "base_separation_mm": 20.686875444041664
+            },
+            {
+              "lift_mm": 22,
+              "penetrations": [],
+              "base_separation_mm": 21.671964750900788
+            },
+            {
+              "lift_mm": 23,
+              "penetrations": [],
+              "base_separation_mm": 22.657054057759915
+            },
+            {
+              "lift_mm": 24,
+              "penetrations": [],
+              "base_separation_mm": 23.642143364619052
+            },
+            {
+              "lift_mm": 25,
+              "penetrations": [],
+              "base_separation_mm": 24.62723267147818
+            },
+            {
+              "lift_mm": 26,
+              "penetrations": [],
+              "base_separation_mm": 25.612321978337302
+            },
+            {
+              "lift_mm": 27,
+              "penetrations": [],
+              "base_separation_mm": 26.59741128519643
+            },
+            {
+              "lift_mm": 28,
+              "penetrations": [],
+              "base_separation_mm": 27.582500592055556
+            },
+            {
+              "lift_mm": 29,
+              "penetrations": [],
+              "base_separation_mm": 28.567589898914683
+            },
+            {
+              "lift_mm": 30,
+              "penetrations": [],
+              "base_separation_mm": 29.552679205773806
+            },
+            {
+              "lift_mm": 31,
+              "penetrations": [],
+              "base_separation_mm": 30.537768512632933
+            },
+            {
+              "lift_mm": 32,
+              "penetrations": [],
+              "base_separation_mm": 31.522857819492067
+            },
+            {
+              "lift_mm": 33,
+              "penetrations": [],
+              "base_separation_mm": 32.5079471263512
+            },
+            {
+              "lift_mm": 34,
+              "penetrations": [],
+              "base_separation_mm": 33.49303643321032
+            },
+            {
+              "lift_mm": 35,
+              "penetrations": [],
+              "base_separation_mm": 34.4781257400695
+            },
+            {
+              "lift_mm": 36,
+              "penetrations": [],
+              "base_separation_mm": 35.46321504692863
+            },
+            {
+              "lift_mm": 37,
+              "penetrations": [],
+              "base_separation_mm": 36.448304353787755
+            },
+            {
+              "lift_mm": 38,
+              "penetrations": [],
+              "base_separation_mm": 37.43339366064682
+            },
+            {
+              "lift_mm": 39,
+              "penetrations": [],
+              "base_separation_mm": 38.418482967506
+            },
+            {
+              "lift_mm": 40,
+              "penetrations": [],
+              "base_separation_mm": 39.40357227436513
+            },
+            {
+              "lift_mm": 41,
+              "penetrations": [],
+              "base_separation_mm": 40.38866158122426
+            },
+            {
+              "lift_mm": 42,
+              "penetrations": [],
+              "base_separation_mm": 41.37375088808339
+            },
+            {
+              "lift_mm": 43,
+              "penetrations": [],
+              "base_separation_mm": 42.35884019494252
+            },
+            {
+              "lift_mm": 44,
+              "penetrations": [],
+              "base_separation_mm": 43.34392950180165
+            },
+            {
+              "lift_mm": 45,
+              "penetrations": [],
+              "base_separation_mm": 44.32901880866077
+            },
+            {
+              "lift_mm": 46,
+              "penetrations": [],
+              "base_separation_mm": 45.3141081155199
+            },
+            {
+              "lift_mm": 47,
+              "penetrations": [],
+              "base_separation_mm": 46.299197422379024
+            },
+            {
+              "lift_mm": 48,
+              "penetrations": [],
+              "base_separation_mm": 47.28428672923815
+            }
+          ],
+          "operation_plan": "One planar Y-Z outline extruded 18 mm; through profile from FACE A only. No holes frozen.",
+          "fit": "PARAMETRIC_HOLD: measured T1 stock plus coupon clearance; current shape is zero-clearance contact study, NOT a released cut outline.",
+          "notch_corner": "Mating corners need coupon-selected dogbone/T-bone or manual finish; no automatic relief generated.",
+          "attachment_status": "UNSELECTED; geometry alone is not positive attachment or uplift retention"
+        },
+        {
+          "name": "HELD_captured_shoe_R",
+          "brep": "exports/generated/playfield-rest-v3362/t1-rest-study/brep/HELD_captured_shoe_R.brep",
+          "valid": true,
+          "solid_count": 1,
+          "bounds_mm": [
+            457.0,
+            353.0,
+            340.97588241015455,
+            475.0,
+            407.0,
+            390.73986884328093
+          ],
+          "volume_mm3": 33371.67650313971,
+          "mass_kg": 0.02169158972704081,
+          "nominal_stock_thickness_mm": 18,
+          "stock_axis": "X",
+          "top_bearing_area_mm2": 986.7125683245274,
+          "T1_bearing_area_mm2": 328.90418944150906,
+          "base_contact": {
+            "distance_mm": 5.684341886080802e-14,
+            "penetration_mm3": 0.0,
+            "witnesses": [
+              [
+                [
+                  475.0,
+                  353.0,
+                  381.308882927788
+                ],
+                [
+                  475.0,
+                  353.0,
+                  381.3088829277879
+                ]
+              ],
+              [
+                [
+                  457.0,
+                  407.0,
+                  390.73986884328093
+                ],
+                [
+                  457.0,
+                  407.0,
+                  390.7398688432809
+                ]
+              ]
+            ]
+          },
+          "T1_contact": {
+            "distance_mm": 0.0,
+            "penetration_mm3": 0.0,
+            "witnesses": [
+              [
+                [
+                  457.0,
+                  371.0,
+                  362.1195443819855
+                ],
+                [
+                  457.0,
+                  371.0,
+                  362.1195443819855
+                ]
+              ],
+              [
+                [
+                  475.0,
+                  371.0,
+                  362.1195443819855
+                ],
+                [
+                  475.0,
+                  371.0,
+                  362.1195443819855
+                ]
+              ]
+            ]
+          },
+          "other_fixed_collisions": [],
+          "service_samples": [
+            {
+              "angle_deg": 0,
+              "penetrations": [],
+              "base_separation_mm": 5.684341886080802e-14
+            },
+            {
+              "angle_deg": 0.001,
+              "penetrations": [],
+              "base_separation_mm": 0.01108224450835139
+            },
+            {
+              "angle_deg": 0.01,
+              "penetrations": [],
+              "base_separation_mm": 0.110822663851367
+            },
+            {
+              "angle_deg": 0.1,
+              "penetrations": [],
+              "base_separation_mm": 1.1082480139481603
+            },
+            {
+              "angle_deg": 0.25,
+              "penetrations": [],
+              "base_separation_mm": 2.7707040352198002
+            },
+            {
+              "angle_deg": 0.5,
+              "penetrations": [],
+              "base_separation_mm": 5.5416599371652895
+            },
+            {
+              "angle_deg": 1,
+              "penetrations": [],
+              "base_separation_mm": 11.084116317417488
+            },
+            {
+              "angle_deg": 2,
+              "penetrations": [],
+              "base_separation_mm": 22.169730060625866
+            },
+            {
+              "angle_deg": 3,
+              "penetrations": [],
+              "base_separation_mm": 33.25346444429031
+            },
+            {
+              "angle_deg": 4,
+              "penetrations": [],
+              "base_separation_mm": 44.33194325554708
+            },
+            {
+              "angle_deg": 5,
+              "penetrations": [],
+              "base_separation_mm": 55.40179188243043
+            },
+            {
+              "angle_deg": 6,
+              "penetrations": [],
+              "base_separation_mm": 66.45963834181251
+            },
+            {
+              "angle_deg": 7,
+              "penetrations": [],
+              "base_separation_mm": 77.50211430654242
+            },
+            {
+              "angle_deg": 8,
+              "penetrations": [],
+              "base_separation_mm": 88.52585613147008
+            },
+            {
+              "angle_deg": 9,
+              "penetrations": [],
+              "base_separation_mm": 99.52750587804636
+            },
+            {
+              "angle_deg": 10,
+              "penetrations": [],
+              "base_separation_mm": 110.50371233718306
+            },
+            {
+              "angle_deg": 11,
+              "penetrations": [],
+              "base_separation_mm": 121.45113205006388
+            },
+            {
+              "angle_deg": 12,
+              "penetrations": [],
+              "base_separation_mm": 132.3664303265942
+            },
+            {
+              "angle_deg": 13,
+              "penetrations": [],
+              "base_separation_mm": 143.2462822611801
+            },
+            {
+              "angle_deg": 14,
+              "penetrations": [],
+              "base_separation_mm": 154.08737374552683
+            },
+            {
+              "angle_deg": 15,
+              "penetrations": [],
+              "base_separation_mm": 164.88640247814817
+            },
+            {
+              "angle_deg": 16,
+              "penetrations": [],
+              "base_separation_mm": 175.64007897027977
+            },
+            {
+              "angle_deg": 17,
+              "penetrations": [],
+              "base_separation_mm": 186.34512754788878
+            },
+            {
+              "angle_deg": 18,
+              "penetrations": [],
+              "base_separation_mm": 196.99828734947644
+            },
+            {
+              "angle_deg": 19,
+              "penetrations": [],
+              "base_separation_mm": 207.59631331936774
+            },
+            {
+              "angle_deg": 20,
+              "penetrations": [],
+              "base_separation_mm": 218.13597719618673
+            },
+            {
+              "angle_deg": 21,
+              "penetrations": [],
+              "base_separation_mm": 228.61406849621667
+            },
+            {
+              "angle_deg": 22,
+              "penetrations": [],
+              "base_separation_mm": 239.0273954913439
+            },
+            {
+              "angle_deg": 23,
+              "penetrations": [],
+              "base_separation_mm": 249.3727861812896
+            },
+            {
+              "angle_deg": 24,
+              "penetrations": [],
+              "base_separation_mm": 259.6470892598314
+            },
+            {
+              "angle_deg": 25,
+              "penetrations": [],
+              "base_separation_mm": 269.8471750747222
+            },
+            {
+              "angle_deg": 26,
+              "penetrations": [],
+              "base_separation_mm": 279.96993658101263
+            },
+            {
+              "angle_deg": 27,
+              "penetrations": [],
+              "base_separation_mm": 290.01229028748645
+            },
+            {
+              "angle_deg": 28,
+              "penetrations": [],
+              "base_separation_mm": 299.9711771959217
+            },
+            {
+              "angle_deg": 29,
+              "penetrations": [],
+              "base_separation_mm": 309.84356373289273
+            },
+            {
+              "angle_deg": 30,
+              "penetrations": [],
+              "base_separation_mm": 319.6264426738241
+            },
+            {
+              "angle_deg": 31,
+              "penetrations": [],
+              "base_separation_mm": 329.31683405902174
+            },
+            {
+              "angle_deg": 32,
+              "penetrations": [],
+              "base_separation_mm": 338.91178610139656
+            },
+            {
+              "angle_deg": 33,
+              "penetrations": [],
+              "base_separation_mm": 348.4083760856082
+            },
+            {
+              "angle_deg": 34,
+              "penetrations": [],
+              "base_separation_mm": 357.803711258352
+            },
+            {
+              "angle_deg": 35,
+              "penetrations": [],
+              "base_separation_mm": 367.09492970951925
+            },
+            {
+              "angle_deg": 36,
+              "penetrations": [],
+              "base_separation_mm": 376.2792012439645
+            },
+            {
+              "angle_deg": 37,
+              "penetrations": [],
+              "base_separation_mm": 385.35372824360775
+            },
+            {
+              "angle_deg": 38,
+              "penetrations": [],
+              "base_separation_mm": 394.3157465196181
+            },
+            {
+              "angle_deg": 39,
+              "penetrations": [],
+              "base_separation_mm": 403.16252615441124
+            },
+            {
+              "angle_deg": 40,
+              "penetrations": [],
+              "base_separation_mm": 411.8913723332107
+            },
+            {
+              "angle_deg": 41,
+              "penetrations": [],
+              "base_separation_mm": 420.4996261649113
+            },
+            {
+              "angle_deg": 42,
+              "penetrations": [],
+              "base_separation_mm": 428.9846654920064
+            },
+            {
+              "angle_deg": 43,
+              "penetrations": [],
+              "base_separation_mm": 437.34390568932037
+            },
+            {
+              "angle_deg": 44,
+              "penetrations": [],
+              "base_separation_mm": 445.57480045131126
+            },
+            {
+              "angle_deg": 45,
+              "penetrations": [],
+              "base_separation_mm": 453.6748425676999
+            },
+            {
+              "angle_deg": 46,
+              "penetrations": [],
+              "base_separation_mm": 461.6415646871914
+            },
+            {
+              "angle_deg": 47,
+              "penetrations": [],
+              "base_separation_mm": 469.4725400690517
+            },
+            {
+              "angle_deg": 48,
+              "penetrations": [],
+              "base_separation_mm": 477.16538332232057
+            },
+            {
+              "angle_deg": 49,
+              "penetrations": [],
+              "base_separation_mm": 484.71775113241983
+            },
+            {
+              "angle_deg": 50,
+              "penetrations": [],
+              "base_separation_mm": 492.1273429749533
+            }
+          ],
+          "lift_samples": [
+            {
+              "lift_mm": 0,
+              "penetrations": [],
+              "base_separation_mm": 5.684341886080802e-14
+            },
+            {
+              "lift_mm": 0.01,
+              "penetrations": [],
+              "base_separation_mm": 0.009850893068521762
+            },
+            {
+              "lift_mm": 0.1,
+              "penetrations": [],
+              "base_separation_mm": 0.09850893068586025
+            },
+            {
+              "lift_mm": 1,
+              "penetrations": [],
+              "base_separation_mm": 0.9850893068590699
+            },
+            {
+              "lift_mm": 2,
+              "penetrations": [],
+              "base_separation_mm": 1.9701786137181958
+            },
+            {
+              "lift_mm": 3,
+              "penetrations": [],
+              "base_separation_mm": 2.9552679205773216
+            },
+            {
+              "lift_mm": 4,
+              "penetrations": [],
+              "base_separation_mm": 3.9403572274364476
+            },
+            {
+              "lift_mm": 5,
+              "penetrations": [],
+              "base_separation_mm": 4.925446534295573
+            },
+            {
+              "lift_mm": 6,
+              "penetrations": [],
+              "base_separation_mm": 5.91053584115471
+            },
+            {
+              "lift_mm": 7,
+              "penetrations": [],
+              "base_separation_mm": 6.895625148013835
+            },
+            {
+              "lift_mm": 8,
+              "penetrations": [],
+              "base_separation_mm": 7.880714454873017
+            },
+            {
+              "lift_mm": 9,
+              "penetrations": [],
+              "base_separation_mm": 8.865803761732144
+            },
+            {
+              "lift_mm": 10,
+              "penetrations": [],
+              "base_separation_mm": 9.850893068591269
+            },
+            {
+              "lift_mm": 11,
+              "penetrations": [],
+              "base_separation_mm": 10.835982375450394
+            },
+            {
+              "lift_mm": 12,
+              "penetrations": [],
+              "base_separation_mm": 11.82107168230952
+            },
+            {
+              "lift_mm": 13,
+              "penetrations": [],
+              "base_separation_mm": 12.806160989168646
+            },
+            {
+              "lift_mm": 14,
+              "penetrations": [],
+              "base_separation_mm": 13.791250296027773
+            },
+            {
+              "lift_mm": 15,
+              "penetrations": [],
+              "base_separation_mm": 14.776339602886909
+            },
+            {
+              "lift_mm": 16,
+              "penetrations": [],
+              "base_separation_mm": 15.761428909746034
+            },
+            {
+              "lift_mm": 17,
+              "penetrations": [],
+              "base_separation_mm": 16.74651821660516
+            },
+            {
+              "lift_mm": 18,
+              "penetrations": [],
+              "base_separation_mm": 17.731607523464287
+            },
+            {
+              "lift_mm": 19,
+              "penetrations": [],
+              "base_separation_mm": 18.71669683032341
+            },
+            {
+              "lift_mm": 20,
+              "penetrations": [],
+              "base_separation_mm": 19.701786137182538
+            },
+            {
+              "lift_mm": 21,
+              "penetrations": [],
+              "base_separation_mm": 20.686875444041664
+            },
+            {
+              "lift_mm": 22,
+              "penetrations": [],
+              "base_separation_mm": 21.671964750900788
+            },
+            {
+              "lift_mm": 23,
+              "penetrations": [],
+              "base_separation_mm": 22.657054057759915
+            },
+            {
+              "lift_mm": 24,
+              "penetrations": [],
+              "base_separation_mm": 23.642143364619052
+            },
+            {
+              "lift_mm": 25,
+              "penetrations": [],
+              "base_separation_mm": 24.62723267147818
+            },
+            {
+              "lift_mm": 26,
+              "penetrations": [],
+              "base_separation_mm": 25.612321978337302
+            },
+            {
+              "lift_mm": 27,
+              "penetrations": [],
+              "base_separation_mm": 26.59741128519643
+            },
+            {
+              "lift_mm": 28,
+              "penetrations": [],
+              "base_separation_mm": 27.582500592055556
+            },
+            {
+              "lift_mm": 29,
+              "penetrations": [],
+              "base_separation_mm": 28.567589898914683
+            },
+            {
+              "lift_mm": 30,
+              "penetrations": [],
+              "base_separation_mm": 29.552679205773806
+            },
+            {
+              "lift_mm": 31,
+              "penetrations": [],
+              "base_separation_mm": 30.537768512632933
+            },
+            {
+              "lift_mm": 32,
+              "penetrations": [],
+              "base_separation_mm": 31.522857819492067
+            },
+            {
+              "lift_mm": 33,
+              "penetrations": [],
+              "base_separation_mm": 32.5079471263512
+            },
+            {
+              "lift_mm": 34,
+              "penetrations": [],
+              "base_separation_mm": 33.49303643321032
+            },
+            {
+              "lift_mm": 35,
+              "penetrations": [],
+              "base_separation_mm": 34.4781257400695
+            },
+            {
+              "lift_mm": 36,
+              "penetrations": [],
+              "base_separation_mm": 35.46321504692863
+            },
+            {
+              "lift_mm": 37,
+              "penetrations": [],
+              "base_separation_mm": 36.448304353787755
+            },
+            {
+              "lift_mm": 38,
+              "penetrations": [],
+              "base_separation_mm": 37.43339366064682
+            },
+            {
+              "lift_mm": 39,
+              "penetrations": [],
+              "base_separation_mm": 38.418482967506
+            },
+            {
+              "lift_mm": 40,
+              "penetrations": [],
+              "base_separation_mm": 39.40357227436513
+            },
+            {
+              "lift_mm": 41,
+              "penetrations": [],
+              "base_separation_mm": 40.38866158122426
+            },
+            {
+              "lift_mm": 42,
+              "penetrations": [],
+              "base_separation_mm": 41.37375088808339
+            },
+            {
+              "lift_mm": 43,
+              "penetrations": [],
+              "base_separation_mm": 42.35884019494252
+            },
+            {
+              "lift_mm": 44,
+              "penetrations": [],
+              "base_separation_mm": 43.34392950180165
+            },
+            {
+              "lift_mm": 45,
+              "penetrations": [],
+              "base_separation_mm": 44.32901880866077
+            },
+            {
+              "lift_mm": 46,
+              "penetrations": [],
+              "base_separation_mm": 45.3141081155199
+            },
+            {
+              "lift_mm": 47,
+              "penetrations": [],
+              "base_separation_mm": 46.299197422379024
+            },
+            {
+              "lift_mm": 48,
+              "penetrations": [],
+              "base_separation_mm": 47.28428672923815
+            }
+          ],
+          "operation_plan": "One planar Y-Z outline extruded 18 mm; through profile from FACE A only. No holes frozen.",
+          "fit": "PARAMETRIC_HOLD: measured T1 stock plus coupon clearance; current shape is zero-clearance contact study, NOT a released cut outline.",
+          "notch_corner": "Mating corners need coupon-selected dogbone/T-bone or manual finish; no automatic relief generated.",
+          "attachment_status": "UNSELECTED; geometry alone is not positive attachment or uplift retention"
+        }
+      ],
+      "pair_upper_bearing_mm2": 1973.4251366490548,
+      "pair_T1_bearing_mm2": 657.8083788830181,
+      "pair_mass_kg": 0.04338317945408163,
+      "new_stock_family": false,
+      "nominal_stock_mm": 18,
+      "functional_reason": "Two front landings plus the rear dowel establish closed pitch; separate positive retention is still required.",
+      "collision_screen": "Sampled service 0\u201350 degrees (1-degree plus fine initial samples), lift 0\u201348 mm (1-mm plus fine initial samples). Intentional zero-gap bearing at PLAY.",
+      "not_a_continuous_clearance_certificate": true
+    }
+  },
+  "history": "The 22 mm gap follows inherited crossmember tops sized for old monitor-rail underside -36 versus present base underside -14. Landing pads were already absent in the V32 service-correction source; do not attribute their loss specifically to the dowel commit.",
+  "scope": "Exact contact and geometric motion screen only. Not structural or ergonomic certification.",
+  "holds": [
+    "Owner selection of front landing architecture",
+    "Positive removable attachment of shoes to T1; no SKU or drilling selected",
+    "Positive closed-state uplift/vibration retention",
+    "Stock-thickness + coupon-clearance fit and R2 mating-corner strategy",
+    "Front-overhang and bearing/fastener structural qualification"
+  ],
+  "rear_dowel_explanation": "Real tangent seat contact exists, but a freely rotating dowel does not set closed pitch. Current lacks a modeled front landing and positive closed retention.",
+  "front_panel_to_base": {
+    "distance_mm": 46.01361107210916,
+    "penetration_mm3": 0.0,
+    "witnesses": [
+      [
+        [
+          498.0,
+          64.01361107210916,
+          349.110475605129
+        ],
+        [
+          498.0,
+          18.0,
+          349.110475605129
+        ]
+      ],
+      [
+        [
+          102.0,
+          64.01361107210916,
+          349.110475605129
+        ],
+        [
+          102.0,
+          18.0,
+          349.110475605129
+        ]
+      ]
+    ]
+  },
+  "T1_front_lever_y_mm": 655.2506198471799,
+  "T1_to_base_front_y_mm": 315.98638892789086,
+  "gates": {
+    "actual_gaps_22_normal": true,
+    "no_existing_crossmember_bearing": true,
+    "rear_dowel_actual_contact": true,
+    "all_proposals_valid_single_solids": true,
+    "all_proposals_have_true_top_and_lower_bearing": true,
+    "no_unintended_fixed_collision": true,
+    "sampled_service_and_lift_clear": true,
+    "source_bytes_unchanged": true,
+    "no_promotion": true
+  }
+}

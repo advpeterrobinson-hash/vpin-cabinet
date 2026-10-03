@@ -1,0 +1,51 @@
+{
+  "version": "V33.6.2",
+  "pass": true,
+  "manufacturing_release": false,
+  "source_register": "exports/generated/button-relief-v3361/manufacturing-register.json",
+  "source_register_sha256": "060ecb776c6a1b15008f3d95e5f53934836b09098ab288bbaa791496fcd54672",
+  "native_geometry_sha256": "30c6a13cec662b93d123114fdaf49758e443107632feb9f4a4c7cd841e9f0582",
+  "geometry_validation_sha256": "f0e0f74fe4b6aea2a5d2c09c7f29c23fcb0325218aac8171ba05891e278d5360",
+  "native_configuration_sha256": "ced689d3855ca16a2df474f08b40f0b46d298fba52ac1eb87167be1a8e875d67",
+  "changed_audits": [
+    {
+      "instance_id": "P034-Main",
+      "manufacturing_part_id": "M025",
+      "source_component": "PF_BasePlywood",
+      "installed_reconstruction_difference_mm3": 0.0,
+      "finished_solids": 1,
+      "shape_valid": true,
+      "face_A_outward_world": [
+        -0.0,
+        0.172043766268355,
+        -0.9850893068591292
+      ],
+      "opposite_face_CNC": false,
+      "stock_thickness_mm": 18,
+      "measured_reference_thickness_mm": 18.0,
+      "through_cuts": 3,
+      "pockets": 0,
+      "manual_operations": 0,
+      "status": "ONE_SIDE_CNC_READY",
+      "before_volume_mm3": 8751705.451874824,
+      "after_volume_mm3": 8657745.451874824,
+      "volume_change_mm3": -93960.0,
+      "outer_contour_before_mm2": 506199.46903508506,
+      "outer_contour_after_mm2": 500979.46903508506,
+      "cutters": {
+        "diameter_mm": 4,
+        "natural_internal_radius_mm": 2
+      },
+      "structural_web_authority": "geometry-validation.json: named openings, section and reserve checks; CNC readiness is not structural certification"
+    }
+  ],
+  "unchanged_pieces_retained": 100,
+  "counts": {
+    "ONE_SIDE_CNC_PLUS_MANUAL_FINISH": 51,
+    "ONE_SIDE_CNC_READY": 46,
+    "SHOP_MADE_SOLID_WOOD_PART": 4
+  },
+  "cutting_rule": "FACE_A only; FACE_B has no CNC operations; manual operations retain FACE_A depth datum.",
+  "geometry_rule": "Actual closed outer boundary includes the two front-open reliefs; no bounding rectangle substituted. Exact local B-reps and installed reconstruction; dimensions are reporting bounds only.",
+  "structural_rule": "One solid / one-face status alone does not approve webs; native geometry validation controls opening acceptance."
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "Front relief: another 30 mm inward on each side",
+    "note": "Owner-confirmed transverse trim only. Total inset 52 mm each side; front width 396 mm. Length 87 mm and R8 unchanged. Rear service window and strain slots preserved.",
+    "native_cad": true
+  },
+  {
+    "image": "02-review.png",
+    "title": "Current closed pose has no front landing",
+    "note": "Each T top is 22 mm normal below the base. Rear dowel/cradles support the rear but do not stop rotation. This is an unsupported CAD pose, NOT a qualified closed assembly. See separate HELD T1 landing-shoe study.",
+    "native_cad": true
+  },
+  {
+    "image": "03-review.png",
+    "title": "Wider front relief with unchanged VESA/dowel",
+    "note": "VESA load reserve, wooden dowel, four commercial saddle straps and eight screws remain exact. Front section 396 x 18 =7128 mm2. Structural qualification requires the missing closed-position support and actual materials.",
+    "native_cad": true
+  }
+]

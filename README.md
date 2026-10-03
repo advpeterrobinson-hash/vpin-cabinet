@@ -1,4 +1,4 @@
-> CURRENT V33.6.1: [front-button ergonomics and clean open-front playfield relief](exports/generated/button-relief-v3361/README.md). Y89/Y127, local side top minus65mm; the temporary V33.6 Y255/Y310 restoration is superseded. 97 CNC plywood +4 SW01 =101 pieces /59 families. Final button bores and CNC release remain HOLD. [Offline viewer](exports/generated/viewer-v32/index.html).
+> CURRENT V33.6.2: [wider playfield relief and closed-support audit](exports/generated/playfield-rest-v3362/README.md). Owner-requested additional 30 mm inward per side gives a 52 mm total inset and 396 mm front width; the 87 mm length and R8 transitions remain. **Closed-position support is BLOCKED:** the base has a 22 mm gap above T1/T2/T3 and no front landing. Separate T1 landing shoes remain a proposal. Button datums Y89/Y127 are unchanged. 97 CNC plywood + 4 SW01 = 101 pieces / 59 families. No CNC release. [Offline viewer](exports/generated/viewer-v32/index.html).
 
 # Virtual Pinball Cabinet
 
