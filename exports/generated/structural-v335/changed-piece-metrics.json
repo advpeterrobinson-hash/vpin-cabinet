@@ -1,0 +1,110 @@
+[
+  {
+    "instance_id": "P001-Main",
+    "volume_mm3": 11865853.838038228,
+    "center_of_mass_local_mm": [
+      261.3949034872593,
+      703.8711523776311,
+      9.104190083288753
+    ],
+    "outer_area_mm2": 669847.4998387625,
+    "projected_material_area_mm2": 669451.6346207175,
+    "removed_stock_volume_mm3": 191401.15905949473
+  },
+  {
+    "instance_id": "P002-Main",
+    "volume_mm3": 11865853.838038143,
+    "center_of_mass_local_mm": [
+      335.5050965127398,
+      703.8711523776327,
+      9.104190083288358
+    ],
+    "outer_area_mm2": 669847.4998387625,
+    "projected_material_area_mm2": 669451.6346207175,
+    "removed_stock_volume_mm3": 191401.15905958042
+  },
+  {
+    "instance_id": "P003-Main",
+    "volume_mm3": 2595426.5155491587,
+    "center_of_mass_local_mm": [
+      293.3449218092191,
+      185.05964381623235,
+      9.004840589073659
+    ],
+    "outer_area_mm2": 228828.59999999998,
+    "projected_material_area_mm2": 144318.50290114764,
+    "removed_stock_volume_mm3": 1523488.2844508411
+  },
+  {
+    "instance_id": "P004-Main",
+    "volume_mm3": 3349549.6231286186,
+    "center_of_mass_local_mm": [
+      292.82680893086587,
+      265.24390975448875,
+      9.002547531191794
+    ],
+    "outer_area_mm2": 341426.8,
+    "projected_material_area_mm2": 186715.6073706447,
+    "removed_stock_volume_mm3": 2796132.776871381
+  },
+  {
+    "instance_id": "P005-Main",
+    "volume_mm3": 12415023.920123244,
+    "center_of_mass_local_mm": [
+      285.9999999999998,
+      639.3934698789744,
+      9.000728777238027
+    ],
+    "outer_area_mm2": 727641.2,
+    "projected_material_area_mm2": 689824.082082872,
+    "removed_stock_volume_mm3": 682517.6798767559
+  },
+  {
+    "instance_id": "P028-Main",
+    "volume_mm3": 1392779.803914356,
+    "center_of_mass_local_mm": [
+      286.0000000000002,
+      79.45649655261855,
+      8.999269176638109
+    ],
+    "outer_area_mm2": 93221.69999999995,
+    "projected_material_area_mm2": 77395.50532894148,
+    "removed_stock_volume_mm3": 285210.7960856431
+  },
+  {
+    "instance_id": "P056-Main",
+    "volume_mm3": 320465.4093934724,
+    "center_of_mass_local_mm": [
+      24.99999999999997,
+      180.9813125399321,
+      9.101102955421084
+    ],
+    "outer_area_mm2": 18299.999999999993,
+    "projected_material_area_mm2": 18103.63385519291,
+    "removed_stock_volume_mm3": 8934.590606527461
+  },
+  {
+    "instance_id": "P059-Main",
+    "volume_mm3": 320465.4093934724,
+    "center_of_mass_local_mm": [
+      25.0,
+      180.9813125399321,
+      9.101102955421084
+    ],
+    "outer_area_mm2": 18299.999999999993,
+    "projected_material_area_mm2": 18103.63385519291,
+    "removed_stock_volume_mm3": 8934.590606527461
+  },
+  {
+    "instance_id": "P094-Main",
+    "volume_mm3": 106920.0,
+    "center_of_mass_local_mm": [
+      165.0,
+      8.999999999999773,
+      9.0
+    ],
+    "outer_area_mm2": 5939.999999999999,
+    "projected_material_area_mm2": 5939.999999999999,
+    "removed_stock_volume_mm3": -1.4551915228366852e-11
+  }
+]

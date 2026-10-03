@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250mm" height="380mm" viewBox="0 0 250 380">
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet; positioning reference only; no manufacturing release</metadata>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="sans-serif" font-size="4" fill="black">
+<text x="8" y="10">M018 RearBearingShelf LEFT — UNDERSIDE / FACE A datum</text>
+<text x="8" y="18">PRINT AT 100% · ACTUAL SIZE · DO NOT FIT TO PAGE</text>
+<text x="8" y="25">IMPRIMIR 100% · TAMANHO REAL · SEM AJUSTAR À PÁGINA</text>
+<text x="8" y="33">HARDWARE-DEPENDENT — NOT A DRILLING RELEASE</text>
+<text x="8" y="40">Station lines only. Kreg reference-to-bit offset: TBD.</text>
+<text x="8" y="47">Face A: floor underside; shelf TOP datum, underside manual work.</text>
+<path d="M35 70V232.975" stroke="black" stroke-width="0.35"/>
+<text x="8" y="65">FRONT / FRENTE — Y1127.125</text>
+<text x="8" y="240.975">REAR / TRASEIRA — Y1290.1</text>
+<path d="M20 90v35m-3 -6l3 6 3 -6" stroke="black" fill="none"/>
+<text x="55" y="62">SIDE SEATING SHOULDER / OMBRO LATERAL</text>
+<path d="M27 97.875H120M35 92.875v10" stroke="black" stroke-width=".2"/>
+<text x="125" y="99.375">L1 · Y1155</text>
+<text x="43" y="94.875">JIG STATION / POSIÇÃO</text>
+<path d="M27 162.875H120M35 157.875v10" stroke="black" stroke-width=".2"/>
+<text x="125" y="164.375">L2 · Y1220</text>
+<text x="43" y="159.875">JIG STATION / POSIÇÃO</text>
+<rect x="35" y="70" width="70" height="25" fill="none" stroke="black" stroke-dasharray="2 1"/>
+<text x="38" y="82">END KEEPOUT</text>
+<rect x="35" y="207.975" width="70" height="25" fill="none" stroke="black" stroke-dasharray="2 1"/>
+<text x="38" y="219.975">END KEEPOUT</text>
+<rect x="140" y="262" width="100" height="100" stroke="black" fill="none" stroke-width=".2"/>
+<text x="147" y="310">100 ×100 mm</text>
+<text x="147" y="317">VERIFY BOTH AXES</text>
+<path d="M15 355h100m-100 -3v6m100 -6v6" stroke="black" fill="none" stroke-width=".25"/>
+<text x="15" y="349">100 mm SCALE BAR</text>
+</g></svg>

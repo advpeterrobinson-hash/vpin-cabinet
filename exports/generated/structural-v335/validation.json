@@ -1,0 +1,3023 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "all native geometry checks pass",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all differential service checks pass",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "authorized wood differences only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "exact source authority immutable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected config/manufacturing/profiles/peter_supplier_v1.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected config/solid_leg_blocks_v334.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected config/wpc_kinematics_v32.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/01-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/02-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/03-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/04-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/05-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/06-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/07-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/08-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/09-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/10-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/11-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/12-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/13-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/14-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/15-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/16-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/17-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/18-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/19-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/20-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/21-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/22-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/23-review.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/LICENSE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/NOTICE.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/access-L.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/access-R.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/artifact-index.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/backbox-exploded.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/backbox-fold.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/blank-fans.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/both-access-section.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/both-access.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/doors-open.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/exploded.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/fold-1.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/fold-45.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/fold-90.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/hand-close-L.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/hand-close-R.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/index.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/lift-out.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/lock-close-L.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/lock-close-R.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/lock-section.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/locks-engaged.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/locks-parked.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/lower-open.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/matrix-exploded.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/matrix-extraction.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/matrix-forward.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/matrix-installed.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/matrix-removed.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/matrix-unlock.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/mesh.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/option-a-compact.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/option-a.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/play.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/playfield-service.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/promotion.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/regression-validation.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/review-images.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/review-mesh.json.gz",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/search-map.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/search.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/service.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/toy-zones.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/validation.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/viewer-current.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/viewer-validation.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/backbox-lock-integration-v32/wood-reserves.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/.gitattributes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/01-metrics.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/01-solid-block.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/02-FL-jig.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/02-assembly.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/03-FR-jig.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/03-packages.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/04-RL-jig.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/04-packing-layer.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/05-RR-jig.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/05-unpacking.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/06-drill-axis.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/06-fold45.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/07-doors.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/07-jig-exploded.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/08-lock-parking.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/09-glass.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/10-display.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/11-cassette.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/12-fan.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/13-tablet.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/14-exploded-packing.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/FrontStop14-REFERENCE.3mf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/FrontStop14-REFERENCE.stl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/GuideBody-REFERENCE.3mf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/GuideBody-REFERENCE.stl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/P029-solid-reference.brep",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/P030-solid-reference.brep",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/P031-solid-reference.brep",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/P032-solid-reference.brep",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/Sacrificial1-REFERENCE.3mf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/Sacrificial1-REFERENCE.stl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/T12-N1.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/T12-SMALL-STOCK.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/T18-N1.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/T18-N2.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/T4-N1.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/T4-SMALL-STOCK.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/T6-N1.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/T6-SMALL-STOCK.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/T8-N1.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/T8-SMALL-STOCK.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/TopSaddle-REFERENCE.3mf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/TopSaddle-REFERENCE.stl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/animations.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/assembly-manual.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/browser-validation.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/engineering-validation.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/hardware-dashboard.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/index.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/jig-clamp.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/jig-drill.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/jig-fit.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/jig-place.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/jig-test.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/jig-validation.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/leg-drill-jig-REFERENCE.FCStd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/leg-drill-jig-REFERENCE.step",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/legacy-browser-validation.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/manufacturing-bom.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/manufacturing-bom.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/manufacturing-bom.pt-BR.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/manufacturing-register.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/mass-budget.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/material-utilization.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/metrology.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/packaging.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/packing-metrics.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/plywood-savings.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/print-solid-checks.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/project-metrics.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/review-mesh.json.gz",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/review-views.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/solid-members.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/solid-metadata.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/tooling-bom.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/validation.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/viewer-data.json.gz",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected exports/generated/solid-leg-v334/viewer-regression.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected tools/solid_leg_v334.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected tools/viewer-v334/jig.js",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "101 physical /97 CNC /4 solid /59 families",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "M006 retained twice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "old layers and4mm pads not resurrected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SW01 exact records preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all one-sided /manual plans, no operation blockers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "only permitted part records changed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unknown production fit stays null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "under-front centers remain unresolved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P001-Main exact B-rep available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P002-Main exact B-rep available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P003-Main exact B-rep available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P004-Main exact B-rep available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P005-Main exact B-rep available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P028-Main exact B-rep available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P056-Main exact B-rep available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P059-Main exact B-rep available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P094-Main exact B-rep available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "packing contains each permanent piece once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all preferred bundles <=25kg at high density",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tooling/glass/electronics not wood packing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "sheet feasibility 18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "sheet feasibility 12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "sheet feasibility 8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "sheet feasibility 6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mass derives from actual piece volumes plus undrilled SW01 stock",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no false known-zero hardware total",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "F10 obsolete /F56 optional interior screws /I03 floor only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "F28 unresolved remainder preserved /rail retention separately counted",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "floor-left.svg physical SVG scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "floor-left.svg calibration +no jig geometry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "floor-right.svg physical SVG scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "floor-right.svg calibration +no jig geometry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear-bearing-left.svg physical SVG scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear-bearing-left.svg calibration +no jig geometry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear-bearing-right.svg physical SVG scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear-bearing-right.svg calibration +no jig geometry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FAN_230",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FAN_370",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry REAR_DOOR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FLOOR_CLEAT_18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FLOOR_CLEAT_552",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SHELF_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SHELF_SUPPORT_1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SHELF_SUPPORT_1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SHELF_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SHELF_SUPPORT_2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SHELF_SUPPORT_2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SHELF_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SHELF_SUPPORT_3L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SHELF_SUPPORT_3R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_GUIDE_1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_BRACKET_1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_GUIDE_1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_BRACKET_1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_GUIDE_2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_BRACKET_2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_GUIDE_2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_BRACKET_2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_GUIDE_3L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_BRACKET_3L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_GUIDE_3R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CROSS_BRACKET_3R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PLAYFIELD_ENVELOPE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PC_BASE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PC_ENVELOPE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PLUNGER_RESERVED",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_CoinFrame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_DoorLeaf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_ReturnButton1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_ReturnButton2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_LightSwitch1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_LightSwitch2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_DoorLock",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_Mechanism1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_Mechanism2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_MechanismMount1_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_MechanismMount1_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_MechanismMount2_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_MechanismMount2_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_CoinTray",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_TraySupport1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CoinStudy_TraySupport2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFrontButton1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFrontButton2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFrontButton3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFrontButton4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SHELF_1_CandidatePayload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1L1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1L2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1R1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt1R2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2L1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2L2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2R1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt2R2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3L1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3L2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3R1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SimpleShelfBolt3R2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew1L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew1L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew1L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew1L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew1R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew1R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew1R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew1R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew2L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew2L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew2L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew2L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew2R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew2R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew2R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew2R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew3L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew3L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew3L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew3L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew3R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew3R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew3R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFixedSupportScrew3R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateLegBlockFL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateLegPlateFL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateLegBlockFR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateLegPlateFR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateLegBlockRL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateLegPlateRL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateLegBlockRR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateLegPlateRR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateGlass",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateGlassChannelL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateGlassChannelR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFanGuard230Inner",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateFanGuard370Inner",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateHandleBolt1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateHandleBolt1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateHandleBolt2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateHandleBolt2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateRearHandle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateKeyLockBody",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateKeyLockShaft",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateKeyLockCam",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateLockKeeper",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateHingeFixed1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateHingeMoving1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateHingePin1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateHingeFixed2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateHingeMoving2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateHingePin2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry CandidateMainsEnclosure",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SSF_Subwoofer_DCS165_Reference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SSF_BST_Carrier",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SSF_BST1_Reference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SSF_Exciter1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SSF_Exciter1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SSF_Exciter2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SSF_Exciter2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SSF_AmplifierReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SSF_PSUReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry SSF_USBReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafButton_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafButton_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafNut_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafNut_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafBracket_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafBracket_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafContacts_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafContacts_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafButton_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafButton_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafNut_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafNut_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafBracket_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafBracket_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafContacts_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry LeafContacts_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_BasePlywood",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_WoodDowel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_VESAEnvelope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_SupportMountScrewL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_SupportMountScrewR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_SupportMountScrewL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_SupportMountScrewR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_SupportMountScrewL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_SupportMountScrewR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_OpenCradleL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_OpenCradleR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_StrapScrew1_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_StrapScrew1_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_CommercialStrap1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_StrapScrew2_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_StrapScrew2_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_CommercialStrap2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_StrapScrew3_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_StrapScrew3_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_CommercialStrap3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_StrapScrew4_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_StrapScrew4_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry PF_CommercialStrap4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanBoltL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanNutL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanBoltL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanNutL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanBoltL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanNutL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanBoltL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanNutL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterInsertL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterScrewL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterInsertL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterScrewL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterInsertL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterScrewL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterInsertL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterScrewL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorIntakeFanL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry RemovableIntakeFilterL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterMediaReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorCommercialGuardReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorUpperGuardReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanConnectorReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanBoltR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanNutR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanBoltR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanNutR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanBoltR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanNutR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanBoltR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanNutR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterInsertR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterScrewR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterInsertR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterScrewR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterInsertR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterScrewR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterInsertR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterScrewR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorIntakeFanR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry RemovableIntakeFilterR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFilterMediaReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorCommercialGuardReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorUpperGuardReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry FloorFanConnectorReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonWireServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonToolServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonBodyServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonLeafServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonWireServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonToolServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonBodyServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonLeafServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonWireServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonToolServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonBodyServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonLeafServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonWireServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonToolServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonBodyServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry ButtonLeafServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_WoodSeatL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_WoodSeatR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_InsertL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_FixedScrewL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_FixedScrewL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_InsertR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_FixedScrewR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_FixedScrewR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_RetainerL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_RetainerR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MatrixCarrier",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MatrixPanel1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MatrixPanel2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MatrixPanel3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MatrixPanel4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MatrixPanel5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MatrixPanel6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_FixedConnectorReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_MovingConnectorReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_CableLoopReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry MX_FixedCableReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry UprightLockLShelfThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry UprightLockLShelfBacking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry UprightLockRShelfThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry UprightLockRShelfBacking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_SideL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_SideR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_Floor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_Top",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_RearFrame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_GlassLinerL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_GlassLinerR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_TopFrontRail",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_Backglass",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_GlassLowerRail",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_GlassLowerPad",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_GlassTopRetainer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_GlassTopPad",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_GlassRetainerFastenerReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_GlassRetainerFastenerReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorRail0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorRailCleatL0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorRailCleatR0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorRail1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorRailCleatL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorRailCleatR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorDepthShoe00",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorDepthBoltReserve00",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorDepthShoe01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorDepthBoltReserve01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorDepthShoe10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorDepthBoltReserve10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorDepthShoe11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorDepthBoltReserve11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorClampReserve160994",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorClampReserve1601134",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorClampReserve440994",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_MonitorClampReserve4401134",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_ReplaceableVESAPlate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_Display32",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_DisplayReplaceableBezel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_LowerCassetteFrame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_SpeakerBaffleL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_SpeakerBaffleR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_DMDReplaceableBezel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_DMDEnvelope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_SpeakerEnvelopeL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_SpeakerEnvelopeR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_DMDRearAdapter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_DMDDepthTie0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_DMDDepthTie1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CassetteFixedCleatL0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CassetteBoltReserveL0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CassetteFixedCleatL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CassetteBoltReserveL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CassetteFixedCleatR0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CassetteBoltReserveR0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CassetteFixedCleatR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CassetteBoltReserveR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_DoorL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_FanL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_FanGuardL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_FanMeshReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_IntakeFilterFrameL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_IntakeMeshReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_IntakeDownBaffleL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeCleatL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PianoHingeReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PianoLeafFixedL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PianoLeafDoorL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_DoorPerimeterGasketL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_FanStrainReliefReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_DoorR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_FanR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_FanGuardR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_FanMeshReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_IntakeFilterFrameR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_IntakeMeshReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_IntakeDownBaffleR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeCleatR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PianoHingeReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PianoLeafFixedR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PianoLeafDoorR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_DoorPerimeterGasketR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_FanStrainReliefReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CenterAstragal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CenterGasket",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CamLockBodyReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CamLockBarrelReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CamTongueClosedReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PassiveBoltBodyReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PassiveBoltClosedReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PassiveBoltBodyReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PassiveBoltClosedReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockLWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockLParkingPad0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockLParkingPad1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockLParkingThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockLParkingScrewReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockLParkingScrewReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockLKnob",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockRWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockRParkingPad0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockRParkingPad1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockRParkingThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockRParkingScrewReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockRParkingScrewReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockRKnob",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockLTether",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_UprightLockRTether",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_FlexCorridorL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_FlexCorridorR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_ToyZoneUpperL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_ToyZoneUpperR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_ToyZoneLowerL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_ToyZoneLowerR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_CamTongueRetractedReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PassiveBoltRetractedReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_PassiveBoltRetractedReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeArmReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeFlangeReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeAccessReserveL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeAccessReserveL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeAccessReserveL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeArmReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeFlangeReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeAccessReserveR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeAccessReserveR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged viewer geometry BB_HingeAccessReserveR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "real101 wood meshes; no obsolete pads",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "plunger visible geometry restored",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "offline/tablet browser validation current",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "24 review views present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no final full-sheet/CAM output",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "native_geometry_checks": 21,
+  "native_motion_checks": 28,
+  "browser_checks": 145,
+  "source_head": "ca4e23eb598bb716156c41a7897ec8275e41f0ae",
+  "viewer_sha256": "4358e329e2ce330ad0462a813288c2e0b584150cb292016cc146696df09b370d",
+  "source_mesh_sha256": "4fac3e8913e613a3d2adc3f0126f79659bb4c63b446431728bbdf7fe6cb16a55",
+  "manufacturing_ready": false,
+  "manufacturing_release": false
+}

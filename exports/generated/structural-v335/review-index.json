@@ -1,0 +1,122 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "CURRENT baseline floor and M006",
+    "note": "M006 is directly under the floor; 30mm-wide continuous bearing per side."
+  },
+  {
+    "image": "02-review.png",
+    "title": "Captured floor: 4mm nominal side engagement",
+    "note": "SIDE_R omitted for inspection. 14mm nominal exterior skin. Width = measured stock + coupon clearance."
+  },
+  {
+    "image": "03-review.png",
+    "title": "Floor underside pocket stations",
+    "note": "12 reference stations; M006 absent during drilling. Kreg model, drill and screws TBD."
+  },
+  {
+    "image": "04-review.png",
+    "title": "Pocket screw section \u2014 reference geometry",
+    "note": "15\u00b0 / 28mm / R2 shank are STUDY assumptions. Exact jig/drill/length not selected."
+  },
+  {
+    "image": "05-review.png",
+    "title": "Optional transverse offcut supports \u2014 TOOLING",
+    "note": "Two564\u00d750\u00d718mm offcuts. Not permanent cabinet parts; not selected as replacement for retained M006."
+  },
+  {
+    "image": "06-review.png",
+    "title": "Lower captured shell dry-fit",
+    "note": "Floor/ends/shelf enter before SideR closes. Dry-fit, measure diagonals/600mm width, then glue and clamp."
+  },
+  {
+    "image": "07-review.png",
+    "title": "Baseline rear bearing shelf",
+    "note": "Bearing topZ596.9; baseline564mm width."
+  },
+  {
+    "image": "08-review.png",
+    "title": "Rear bearing shelf with side captures",
+    "note": "Open-top side rabbets, not closed dados. Top and original backbox contact footprint unchanged."
+  },
+  {
+    "image": "09-review.png",
+    "title": "Rear shelf underside pocket reference",
+    "note": "Y1155 /1220 each side. Manual underside work; FACE_A remains top. No CNC flip."
+  },
+  {
+    "image": "10-review.png",
+    "title": "Shelf pockets and WPC/lock service reserves",
+    "note": "Reference drivers clear current reserves; purchased hardware/tool envelopes remain HOLD."
+  },
+  {
+    "image": "11-review.png",
+    "title": "Historical rear fan through-bolt stack",
+    "note": "Superseded stack shown for audit only; not current assembly instructions."
+  },
+  {
+    "image": "12-review.png",
+    "title": "Rear fan: wood \u2192 fan \u2192 grill \u2192 screw head",
+    "note": "INTERIOR \u2192 WOOD (+Y). Wood screw pilot and length HOLD."
+  },
+  {
+    "image": "13-review.png",
+    "title": "Baseline open-cradle profile",
+    "note": "13 exterior edges; seat180\u00b0; rear limiting ligament6.280mm."
+  },
+  {
+    "image": "14-review.png",
+    "title": "Trimmed cradle candidate \u2014 NOT PROMOTED",
+    "note": "11 exterior edges; root unchanged but upper guide wall narrows23.5 to8.251mm. Original retained pending structural evidence."
+  },
+  {
+    "image": "15-review.png",
+    "title": "T3 \u221220mm diagnostic \u2014 REJECTED",
+    "note": "No meaningful simplification: seat/WPC/S3 constraints remain. CURRENT cradle and T3 do not move."
+  },
+  {
+    "image": "16-review.png",
+    "title": "S3 retained \u2014 no move study selected",
+    "note": "S3\u00b120mm not performed: no demonstrated benefit justifies reopening rear-service clearances."
+  },
+  {
+    "image": "17-review.png",
+    "title": "Old monitor stop blocks and pads",
+    "note": "Six plywood pieces: two18mm bases +two12mm caps +two4mm pads."
+  },
+  {
+    "image": "18-review.png",
+    "title": "One18mm transverse monitor-stop rail",
+    "note": "M067\u00d71;6mm end captures +two rear retention screws; two adjustable M6-family supports."
+  },
+  {
+    "image": "19-review.png",
+    "title": "Stop rail rear attachment and access",
+    "note": "Driver envelopes R8\u00d790mm checked with doors open. Final screws/inserts/stroke need physical qualification."
+  },
+  {
+    "image": "20-review.png",
+    "title": "4mm plywood pads replaced by purchased contact tips",
+    "note": "M049 retired; zero4mm plywood pieces. Polymer tip envelopes are provisional hardware."
+  },
+  {
+    "image": "21-review.png",
+    "title": "Manufacturing-piece comparison: old six / new one",
+    "note": "106\u2192101 permanent wood pieces;62\u219259 families. SW01\u00d74 unchanged. M006 retained."
+  },
+  {
+    "image": "22-review.png",
+    "title": "V33.5 interior inspection",
+    "note": "Inspection cutaway only. Exterior dimensions, playfield, WPC axis and SW01 remain unchanged."
+  },
+  {
+    "image": "23-review.png",
+    "title": "Recovered conventional front-right plunger",
+    "note": "Latest authority X520/Z280. Body/travel reference preserved. Final plunger bore NOT CUT."
+  },
+  {
+    "image": "24-review.png",
+    "title": "Under-front controls \u2014 restored intent, unlocated",
+    "note": "220\u00d755mm intent. Volume / OFF-AUDIO-PINBALL / Bluetooth pair / optional USB-C. No final centers or bores."
+  }
+]

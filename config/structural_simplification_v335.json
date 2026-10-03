@@ -1,0 +1,116 @@
+{
+  "version": "V33.5",
+  "head_before": "ca4e23eb598bb716156c41a7897ec8275e41f0ae",
+  "source": "exports/generated/backbox-lock-integration-v32/play.FCStd",
+  "output": "exports/generated/structural-v335",
+  "release": false,
+  "measured_thickness_mm": null,
+  "selected_coupon_clearance_mm": null,
+  "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm",
+  "capture_depth_candidates_mm": [
+    4,
+    5,
+    6
+  ],
+  "selected_capture_depth_mm": 4,
+  "front_rear_capture_depth_mm": 4,
+  "M006_decision": "KEEP",
+  "M006_reason": "Existing underside bearing ledges reduce unsupported floor span from 564 to 504 mm. Removing this support increases one-way strip bending stress by 25.2% and deflection by 56.8% under the same distributed load. Actual floor loading and plywood qualification are unresolved; do not assert redundancy.",
+  "pockets": {
+    "status": "HARDWARE_DEPENDENT",
+    "KREG_MODEL": null,
+    "DRILL_GEOMETRY": null,
+    "SCREW": null,
+    "reference_angle_deg": 15,
+    "reference_shank_radius_mm": 2,
+    "reference_length_mm": 28,
+    "reference_counterbore_radius_mm": 4.75,
+    "head_inset_from_inner_side_mm": 14,
+    "head_height_from_underside_mm": 6,
+    "floor_y_mm": [
+      160,
+      340,
+      520,
+      840,
+      1020,
+      1180
+    ],
+    "shelf_y_mm": [
+      1155,
+      1220
+    ],
+    "note": "Original geometric packaging study; not a Kreg specification. Floor pockets require underside access before M006 installation. No permanent pocket geometry or pilot diameter released."
+  },
+  "monitor_rail": {
+    "candidate_bounds_mm": [
+      135,
+      1228,
+      917,
+      465,
+      1246,
+      935
+    ],
+    "carrier_capture_depth_mm": 6,
+    "adjuster_xy_mm": [
+      [
+        214,
+        1237
+      ],
+      [
+        386,
+        1237
+      ]
+    ],
+    "hardware": "M6-family captive thread, adjustable support with replaceable polymer contact, locking nut; purchased dimensions HOLD",
+    "attachment_reference_xz_mm": [
+      [
+        160,
+        926
+      ],
+      [
+        440,
+        926
+      ]
+    ],
+    "attachment": "Two rear-driven retention screws; captured end shoulders carry vertical load. Pilot, screw length and head selected before machining.",
+    "main_display_retention": "Existing four positive through-bolts unchanged; rail is adjustment support only."
+  },
+  "underfront_controls": {
+    "source_commit": "2eed36e4ff6e0871edc4d7d845288c5a629fd8b9",
+    "source_files": [
+      "docs/SERVICE_IO_V08.md",
+      "config/service_io_v08.json",
+      "DESIGN_DECISIONS.md#DEC-016"
+    ],
+    "nominal_panel_size_mm": [
+      220,
+      55
+    ],
+    "installed_origin_mm": null,
+    "control_centers_mm": null,
+    "controls": [
+      "MASTER VOLUME",
+      "OFF / AUDIO / PINBALL",
+      "BLUETOOTH PAIR",
+      "USB-C CHARGE (OPTIONAL)"
+    ],
+    "status": "UNRESOLVED / HARDWARE_DEPENDENT / PURCHASE_BEFORE_CNC",
+    "display": "Unlocated schematic inset only; no final coordinates or bores"
+  },
+  "T3_diagnostic_offset_y_mm": -20,
+  "T3_decision": "KEEP",
+  "S3_decision": "KEEP",
+  "temporary_floor_supports": {
+    "classification": "OPTIONAL_ASSEMBLY_TOOLING_NOT_INSTALLED",
+    "quantity": 2,
+    "offcut_size_mm": [
+      564,
+      50,
+      18
+    ],
+    "selected_for_current_sequence": false
+  },
+  "supplier_profile": "config/manufacturing/profiles/peter_supplier_v1.json",
+  "cradle_decision": "KEEP_ORIGINAL",
+  "cradle_reason": "Upper guide wall stiffness is not proven preserved by candidate trimming; minimum root alone is insufficient evidence."
+}

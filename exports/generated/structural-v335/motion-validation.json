@@ -1,0 +1,326 @@
+{
+  "checks": [
+    {
+      "name": "new monitor rail and hardware clear cabinet throughout fold",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "withdrawn fan clearance bore 0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "withdrawn fan clearance bore 1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "withdrawn fan clearance bore 2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "withdrawn fan clearance bore 3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "withdrawn fan clearance bore 4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "withdrawn fan clearance bore 5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "withdrawn fan clearance bore 6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "withdrawn fan clearance bore 7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "playfield lift-out clears newly restored fan pilot material",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "front display/adapter removal preserved",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "glass top removal preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "lower cassette removal preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rail retention rear driver 0",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "rail retention rear driver 1",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "upright lock rear approach L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upright lock rear approach R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rail allows -5 vertical adapter adjustment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "existing shelf contact preserved, tab bearing added",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BACKBOX_BASE_ScrewL1 WPC/lock reserve clearance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "BACKBOX_BASE_DriverL1 WPC/lock reserve clearance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "BACKBOX_BASE_ScrewL2 WPC/lock reserve clearance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "BACKBOX_BASE_DriverL2 WPC/lock reserve clearance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "BACKBOX_BASE_ScrewR1 WPC/lock reserve clearance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "BACKBOX_BASE_DriverR1 WPC/lock reserve clearance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "BACKBOX_BASE_ScrewR2 WPC/lock reserve clearance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "BACKBOX_BASE_DriverR2 WPC/lock reserve clearance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "provisional exterior plunger clears cabinet wood",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "certificates": {
+    "rail_populated_fold": {
+      "range_deg": [
+        0,
+        90
+      ],
+      "intervals": [
+        [
+          0,
+          45.0
+        ],
+        [
+          45.0,
+          90
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "PF_vs_withdrawn_fan_bores": {
+      "range_deg": [
+        0,
+        50
+      ],
+      "intervals": [
+        [
+          0,
+          25.0
+        ],
+        [
+          25.0,
+          37.5
+        ],
+        [
+          37.5,
+          50
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "door_L": {
+      "range_deg": [
+        0,
+        100
+      ],
+      "intervals": [
+        [
+          0,
+          25.0
+        ],
+        [
+          25.0,
+          50.0
+        ],
+        [
+          50.0,
+          100
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "door_R": {
+      "range_deg": [
+        0,
+        100
+      ],
+      "intervals": [
+        [
+          0,
+          25.0
+        ],
+        [
+          25.0,
+          50.0
+        ],
+        [
+          50.0,
+          100
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    }
+  },
+  "samples": {
+    "rail_fold": [
+      {
+        "angle": 0,
+        "hits": []
+      },
+      {
+        "angle": 0.25,
+        "hits": []
+      },
+      {
+        "angle": 0.5,
+        "hits": []
+      },
+      {
+        "angle": 1,
+        "hits": []
+      },
+      {
+        "angle": 2,
+        "hits": []
+      },
+      {
+        "angle": 5,
+        "hits": []
+      },
+      {
+        "angle": 10,
+        "hits": []
+      },
+      {
+        "angle": 15,
+        "hits": []
+      },
+      {
+        "angle": 30,
+        "hits": []
+      },
+      {
+        "angle": 45,
+        "hits": []
+      },
+      {
+        "angle": 60,
+        "hits": []
+      },
+      {
+        "angle": 75,
+        "hits": []
+      },
+      {
+        "angle": 90,
+        "hits": []
+      }
+    ]
+  },
+  "manufacturing_release": false,
+  "adjustment": {
+    "rearward_positions_mm": [
+      0,
+      16
+    ],
+    "vertical_mm": [
+      -5,
+      5
+    ],
+    "centering_large_display_mm": [
+      -1,
+      1
+    ],
+    "adjuster_tip_top_required_mm": [
+      944,
+      954
+    ],
+    "adjuster_physical_stroke": "PURCHASE_BEFORE_CNC",
+    "rail_top_mm": 935,
+    "through_bolts_unchanged": true
+  },
+  "inherited_proof": {
+    "source": "exports/generated/backbox-lock-integration-v32/validation.json",
+    "fixed_shell_union": "exact, except restored obsolete fan bores screened above",
+    "cradles": "entire original B-rep retained; trimmed candidate not promoted",
+    "main_fan_body": "unchanged; screw insertion hardware-dependent",
+    "new_rail": "continuous rotation certificates + exact swept service envelopes",
+    "underfront_controls": "unlocated schematic, not a fit validation"
+  },
+  "bearing": {
+    "top_z_mm": 596.9,
+    "old_shelf_contact_mm2": 65446.20532894148,
+    "new_shelf_contact_mm2": 66599.00532894148,
+    "added_tab_shoulder_area_mm2": 1303.8
+  },
+  "T3_diagnostic": {
+    "offset_y_mm": -20,
+    "hits_at_proposed_static_position": [],
+    "meaningful_cradle_simplification": false,
+    "promoted": false,
+    "service_qualification": "Not pursued: no geometric benefit; CURRENT T3 and all service paths remain unchanged."
+  },
+  "pass": true
+}

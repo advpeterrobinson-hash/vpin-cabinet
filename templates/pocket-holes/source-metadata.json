@@ -1,0 +1,102 @@
+[
+  {
+    "file": "floor-left.svg",
+    "part_id": "M005",
+    "side": "left",
+    "physical_size_mm": [
+      250,
+      1422.1
+    ],
+    "station_world_y_mm": [
+      160,
+      340,
+      520,
+      840,
+      1020,
+      1180
+    ],
+    "datum_world_y_mm": 18,
+    "jig_reference_offset_mm": null,
+    "print_scale": 1,
+    "calibration_square_mm": [
+      100,
+      100
+    ],
+    "scale_bar_mm": 100,
+    "status": "POSITIONING_REFERENCE_HARDWARE_DEPENDENT",
+    "actual_drilling_released": false
+  },
+  {
+    "file": "floor-right.svg",
+    "part_id": "M005",
+    "side": "right",
+    "physical_size_mm": [
+      250,
+      1422.1
+    ],
+    "station_world_y_mm": [
+      160,
+      340,
+      520,
+      840,
+      1020,
+      1180
+    ],
+    "datum_world_y_mm": 18,
+    "jig_reference_offset_mm": null,
+    "print_scale": 1,
+    "calibration_square_mm": [
+      100,
+      100
+    ],
+    "scale_bar_mm": 100,
+    "status": "POSITIONING_REFERENCE_HARDWARE_DEPENDENT",
+    "actual_drilling_released": false
+  },
+  {
+    "file": "rear-bearing-left.svg",
+    "part_id": "M018",
+    "side": "left",
+    "physical_size_mm": [
+      250,
+      380
+    ],
+    "station_world_y_mm": [
+      1155,
+      1220
+    ],
+    "datum_world_y_mm": 1127.125,
+    "jig_reference_offset_mm": null,
+    "print_scale": 1,
+    "calibration_square_mm": [
+      100,
+      100
+    ],
+    "scale_bar_mm": 100,
+    "status": "POSITIONING_REFERENCE_HARDWARE_DEPENDENT",
+    "actual_drilling_released": false
+  },
+  {
+    "file": "rear-bearing-right.svg",
+    "part_id": "M018",
+    "side": "right",
+    "physical_size_mm": [
+      250,
+      380
+    ],
+    "station_world_y_mm": [
+      1155,
+      1220
+    ],
+    "datum_world_y_mm": 1127.125,
+    "jig_reference_offset_mm": null,
+    "print_scale": 1,
+    "calibration_square_mm": [
+      100,
+      100
+    ],
+    "scale_bar_mm": 100,
+    "status": "POSITIONING_REFERENCE_HARDWARE_DEPENDENT",
+    "actual_drilling_released": false
+  }
+]

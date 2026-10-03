@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250mm" height="1422.1mm" viewBox="0 0 250 1422.1">
+<metadata>CERN-OHL-S-2.0; Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet; positioning reference only; no manufacturing release</metadata>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="sans-serif" font-size="4" fill="black">
+<text x="8" y="10">M005 Floor LEFT — UNDERSIDE / FACE A datum</text>
+<text x="8" y="18">PRINT AT 100% · ACTUAL SIZE · DO NOT FIT TO PAGE</text>
+<text x="8" y="25">IMPRIMIR 100% · TAMANHO REAL · SEM AJUSTAR À PÁGINA</text>
+<text x="8" y="33">HARDWARE-DEPENDENT — NOT A DRILLING RELEASE</text>
+<text x="8" y="40">Station lines only. Kreg reference-to-bit offset: TBD.</text>
+<text x="8" y="47">Face A: floor underside; shelf TOP datum, underside manual work.</text>
+<path d="M35 70V1342.1" stroke="black" stroke-width="0.35"/>
+<text x="8" y="65">FRONT / FRENTE — Y18</text>
+<text x="8" y="1350.1">REAR / TRASEIRA — Y1290.1</text>
+<path d="M20 90v35m-3 -6l3 6 3 -6" stroke="black" fill="none"/>
+<text x="55" y="62">SIDE SEATING SHOULDER / OMBRO LATERAL</text>
+<path d="M27 212H120M35 207v10" stroke="black" stroke-width=".2"/>
+<text x="125" y="213.5">L1 · Y160</text>
+<text x="43" y="209">JIG STATION / POSIÇÃO</text>
+<path d="M27 392H120M35 387v10" stroke="black" stroke-width=".2"/>
+<text x="125" y="393.5">L2 · Y340</text>
+<text x="43" y="389">JIG STATION / POSIÇÃO</text>
+<path d="M27 572H120M35 567v10" stroke="black" stroke-width=".2"/>
+<text x="125" y="573.5">L3 · Y520</text>
+<text x="43" y="569">JIG STATION / POSIÇÃO</text>
+<path d="M27 892H120M35 887v10" stroke="black" stroke-width=".2"/>
+<text x="125" y="893.5">L4 · Y840</text>
+<text x="43" y="889">JIG STATION / POSIÇÃO</text>
+<path d="M27 1072H120M35 1067v10" stroke="black" stroke-width=".2"/>
+<text x="125" y="1073.5">L5 · Y1020</text>
+<text x="43" y="1069">JIG STATION / POSIÇÃO</text>
+<path d="M27 1232H120M35 1227v10" stroke="black" stroke-width=".2"/>
+<text x="125" y="1233.5">L6 · Y1180</text>
+<text x="43" y="1229">JIG STATION / POSIÇÃO</text>
+<rect x="35" y="70" width="70" height="25" fill="none" stroke="black" stroke-dasharray="2 1"/>
+<text x="38" y="82">END KEEPOUT</text>
+<rect x="35" y="1317.1" width="70" height="25" fill="none" stroke="black" stroke-dasharray="2 1"/>
+<text x="38" y="1329.1">END KEEPOUT</text>
+<rect x="140" y="1304.1" width="100" height="100" stroke="black" fill="none" stroke-width=".2"/>
+<text x="147" y="1352.1">100 ×100 mm</text>
+<text x="147" y="1359.1">VERIFY BOTH AXES</text>
+<path d="M15 1397.1h100m-100 -3v6m100 -6v6" stroke="black" fill="none" stroke-width=".25"/>
+<text x="15" y="1391.1">100 mm SCALE BAR</text>
+</g></svg>

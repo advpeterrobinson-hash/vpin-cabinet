@@ -1,3 +1,5 @@
+> Historical study retained. CURRENT captured-joint authority is [V33.5](STRUCTURAL_SIMPLIFICATION_V335.md): 4 mm nominal side capture, measured-stock/coupon fit hold, hardware-dependent underside pockets. Earlier proposal dimensions/status are not current manufacturing release.
+
 # Captured lower-shell study — V32 comparison
 
 [English](JOINERY_STUDY_V32.md) · [Português (Brasil)](pt-BR/JOINERY_STUDY_V32.md)

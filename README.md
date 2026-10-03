@@ -1,4 +1,4 @@
-> CURRENT V33.4 manufacturing update: [solid leg blocks + drill jig](exports/generated/solid-leg-v334/README.md).102 CNC plywood pieces +4 shop-made solid blocks;106 pieces /62families. Installed geometry unchanged. CNC and final drilling remain BLOCKED. [Offline viewer](exports/generated/viewer-v32/index.html).
+> CURRENT V33.5: [structural interfaces and owner review](exports/generated/structural-v335/README.md). 97 CNC plywood pieces + 4 unchanged SW01 shop blocks = 101 pieces / 59 families. Captured shell/shelf joints and one monitor-stop rail; M006 and original cradles retained. CNC remains BLOCKED. [Offline viewer](exports/generated/viewer-v32/index.html). [Preserved SW01 jig](exports/generated/solid-leg-v334/README.md).
 
 # Virtual Pinball Cabinet
 

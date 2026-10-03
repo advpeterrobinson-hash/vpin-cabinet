@@ -1,0 +1,2230 @@
+{
+  "captures": [
+    {
+      "part": "FLOOR",
+      "side": "SIDE_L",
+      "depth_mm": 4,
+      "volume_mm3": 91591.2,
+      "shoulder_area_mm2": 5088.4
+    },
+    {
+      "part": "FLOOR",
+      "side": "SIDE_R",
+      "depth_mm": 4,
+      "volume_mm3": 91591.2,
+      "shoulder_area_mm2": 5088.4
+    },
+    {
+      "part": "FRONT",
+      "side": "SIDE_L",
+      "depth_mm": 4,
+      "volume_mm3": 28094.000659760524,
+      "shoulder_area_mm2": 1600.2
+    },
+    {
+      "part": "FRONT",
+      "side": "SIDE_R",
+      "depth_mm": 4,
+      "volume_mm3": 28094.000659760233,
+      "shoulder_area_mm2": 1600.2
+    },
+    {
+      "part": "REAR",
+      "side": "SIDE_L",
+      "depth_mm": 4,
+      "volume_mm3": 42267.20064869154,
+      "shoulder_area_mm2": 2387.6
+    },
+    {
+      "part": "REAR",
+      "side": "SIDE_R",
+      "depth_mm": 4,
+      "volume_mm3": 42267.20064871659,
+      "shoulder_area_mm2": 2387.6
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "side": "SIDE_L",
+      "depth_mm": 4,
+      "volume_mm3": 11734.199999999993,
+      "shoulder_area_mm2": 651.9
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "side": "SIDE_R",
+      "depth_mm": 4,
+      "volume_mm3": 11734.199999999993,
+      "shoulder_area_mm2": 651.9
+    }
+  ],
+  "rear_fan_bore_revision": {
+    "retired_through_bores": 8,
+    "old_diameter_mm": 4.5,
+    "new_pilot_mm": null,
+    "status": "PURCHASE_BEFORE_CNC",
+    "reason": "Clearance holes are not wood-screw anchors; restore nominal wood pending selected pilot."
+  },
+  "PF_OpenCradleL": {
+    "removed_mm3": 6790.9150029724115,
+    "seat_wrap_before_after_deg": [
+      180,
+      180
+    ],
+    "minimum_rear_ligament_before_after_mm": [
+      6.279669885093483,
+      6.279669885093483
+    ],
+    "front_seat_root_before_after_mm": [
+      8.25061984718,
+      8.25061984718
+    ],
+    "exterior_edges_before_after": [
+      13,
+      11
+    ],
+    "decision": "KEEP_ORIGINAL",
+    "reason": "Upper front wall narrowed from23.5 to8.251mm over the guide height. Same minimum root does not prove same local stiffness; no structural qualification supports removal.",
+    "promoted": false
+  },
+  "PF_OpenCradleR": {
+    "removed_mm3": 6790.91500297247,
+    "seat_wrap_before_after_deg": [
+      180,
+      180
+    ],
+    "minimum_rear_ligament_before_after_mm": [
+      6.279669885093483,
+      6.279669885093483
+    ],
+    "front_seat_root_before_after_mm": [
+      8.25061984718,
+      8.25061984718
+    ],
+    "exterior_edges_before_after": [
+      13,
+      11
+    ],
+    "decision": "KEEP_ORIGINAL",
+    "reason": "Upper front wall narrowed from23.5 to8.251mm over the guide height. Same minimum root does not prove same local stiffness; no structural qualification supports removal.",
+    "promoted": false
+  },
+  "pockets": [
+    {
+      "part": "FLOOR",
+      "pocket": "L1",
+      "depth_mm": 4,
+      "head_mm": [
+        32.0,
+        160.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        160.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        160.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        14.0,
+        160.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L1",
+      "depth_mm": 5,
+      "head_mm": [
+        32.0,
+        160.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        160.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        160.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        13.0,
+        160.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L1",
+      "depth_mm": 6,
+      "head_mm": [
+        32.0,
+        160.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        160.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        160.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        12.0,
+        160.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L2",
+      "depth_mm": 4,
+      "head_mm": [
+        32.0,
+        340.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        340.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        340.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        14.0,
+        340.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L2",
+      "depth_mm": 5,
+      "head_mm": [
+        32.0,
+        340.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        340.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        340.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        13.0,
+        340.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L2",
+      "depth_mm": 6,
+      "head_mm": [
+        32.0,
+        340.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        340.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        340.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        12.0,
+        340.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L3",
+      "depth_mm": 4,
+      "head_mm": [
+        32.0,
+        520.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        520.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        520.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        14.0,
+        520.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L3",
+      "depth_mm": 5,
+      "head_mm": [
+        32.0,
+        520.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        520.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        520.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        13.0,
+        520.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L3",
+      "depth_mm": 6,
+      "head_mm": [
+        32.0,
+        520.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        520.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        520.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        12.0,
+        520.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L4",
+      "depth_mm": 4,
+      "head_mm": [
+        32.0,
+        840.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        840.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        840.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        14.0,
+        840.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L4",
+      "depth_mm": 5,
+      "head_mm": [
+        32.0,
+        840.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        840.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        840.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        13.0,
+        840.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L4",
+      "depth_mm": 6,
+      "head_mm": [
+        32.0,
+        840.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        840.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        840.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        12.0,
+        840.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L5",
+      "depth_mm": 4,
+      "head_mm": [
+        32.0,
+        1020.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1020.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1020.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        14.0,
+        1020.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L5",
+      "depth_mm": 5,
+      "head_mm": [
+        32.0,
+        1020.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1020.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1020.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        13.0,
+        1020.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L5",
+      "depth_mm": 6,
+      "head_mm": [
+        32.0,
+        1020.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1020.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1020.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        12.0,
+        1020.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L6",
+      "depth_mm": 4,
+      "head_mm": [
+        32.0,
+        1180.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1180.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1180.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        14.0,
+        1180.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L6",
+      "depth_mm": 5,
+      "head_mm": [
+        32.0,
+        1180.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1180.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1180.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        13.0,
+        1180.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "L6",
+      "depth_mm": 6,
+      "head_mm": [
+        32.0,
+        1180.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1180.0,
+        18.0
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1180.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        12.0,
+        1180.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R1",
+      "depth_mm": 4,
+      "head_mm": [
+        568.0,
+        160.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        160.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        160.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        586.0,
+        160.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R1",
+      "depth_mm": 5,
+      "head_mm": [
+        568.0,
+        160.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        160.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        160.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        587.0,
+        160.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R1",
+      "depth_mm": 6,
+      "head_mm": [
+        568.0,
+        160.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        160.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        160.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        588.0,
+        160.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R2",
+      "depth_mm": 4,
+      "head_mm": [
+        568.0,
+        340.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        340.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        340.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        586.0,
+        340.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R2",
+      "depth_mm": 5,
+      "head_mm": [
+        568.0,
+        340.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        340.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        340.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        587.0,
+        340.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R2",
+      "depth_mm": 6,
+      "head_mm": [
+        568.0,
+        340.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        340.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        340.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        588.0,
+        340.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R3",
+      "depth_mm": 4,
+      "head_mm": [
+        568.0,
+        520.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        520.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        520.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        586.0,
+        520.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R3",
+      "depth_mm": 5,
+      "head_mm": [
+        568.0,
+        520.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        520.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        520.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        587.0,
+        520.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R3",
+      "depth_mm": 6,
+      "head_mm": [
+        568.0,
+        520.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        520.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        520.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        588.0,
+        520.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R4",
+      "depth_mm": 4,
+      "head_mm": [
+        568.0,
+        840.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        840.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        840.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        586.0,
+        840.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R4",
+      "depth_mm": 5,
+      "head_mm": [
+        568.0,
+        840.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        840.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        840.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        587.0,
+        840.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R4",
+      "depth_mm": 6,
+      "head_mm": [
+        568.0,
+        840.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        840.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        840.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        588.0,
+        840.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R5",
+      "depth_mm": 4,
+      "head_mm": [
+        568.0,
+        1020.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1020.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1020.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        586.0,
+        1020.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R5",
+      "depth_mm": 5,
+      "head_mm": [
+        568.0,
+        1020.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1020.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1020.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        587.0,
+        1020.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R5",
+      "depth_mm": 6,
+      "head_mm": [
+        568.0,
+        1020.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1020.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1020.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        588.0,
+        1020.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R6",
+      "depth_mm": 4,
+      "head_mm": [
+        568.0,
+        1180.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1180.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1180.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        586.0,
+        1180.0,
+        28.823085463760208
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R6",
+      "depth_mm": 5,
+      "head_mm": [
+        568.0,
+        1180.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1180.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1180.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        587.0,
+        1180.0,
+        29.09103465619133
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.977113691230534,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "FLOOR",
+      "pocket": "R6",
+      "depth_mm": 6,
+      "head_mm": [
+        568.0,
+        1180.0,
+        24.0
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1180.0,
+        18.0
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1180.0,
+        31.24693326287058
+      ],
+      "side_entry_mm": [
+        588.0,
+        1180.0,
+        29.358983848622454
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.821215084551283,
+      "dado_edge_margin_mm": 4.709164498799409,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "L1",
+      "depth_mm": 4,
+      "head_mm": [
+        32.0,
+        1155.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1155.0,
+        578.9
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1155.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        14.0,
+        1155.0,
+        589.7230854637602
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "L1",
+      "depth_mm": 5,
+      "head_mm": [
+        32.0,
+        1155.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1155.0,
+        578.9
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1155.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        13.0,
+        1155.0,
+        589.9910346561913
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 4.977113691230495,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "L1",
+      "depth_mm": 6,
+      "head_mm": [
+        32.0,
+        1155.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1155.0,
+        578.9
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1155.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        12.0,
+        1155.0,
+        590.2589838486224
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 4.709164498799448,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "L2",
+      "depth_mm": 4,
+      "head_mm": [
+        32.0,
+        1220.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1220.0,
+        578.9
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1220.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        14.0,
+        1220.0,
+        589.7230854637602
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "L2",
+      "depth_mm": 5,
+      "head_mm": [
+        32.0,
+        1220.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1220.0,
+        578.9
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1220.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        13.0,
+        1220.0,
+        589.9910346561913
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 4.977113691230495,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "L2",
+      "depth_mm": 6,
+      "head_mm": [
+        32.0,
+        1220.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        54.392304845413264,
+        1220.0,
+        578.9
+      ],
+      "axis": [
+        -0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        4.954076863906089,
+        1220.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        12.0,
+        1220.0,
+        590.2589838486224
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773701047,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 4.709164498799448,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "R1",
+      "depth_mm": 4,
+      "head_mm": [
+        568.0,
+        1155.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1155.0,
+        578.9
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1155.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        586.0,
+        1155.0,
+        589.7230854637602
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "R1",
+      "depth_mm": 5,
+      "head_mm": [
+        568.0,
+        1155.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1155.0,
+        578.9
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1155.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        587.0,
+        1155.0,
+        589.9910346561913
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 4.977113691230495,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "R1",
+      "depth_mm": 6,
+      "head_mm": [
+        568.0,
+        1155.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1155.0,
+        578.9
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1155.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        588.0,
+        1155.0,
+        590.2589838486224
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 4.709164498799448,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "R2",
+      "depth_mm": 4,
+      "head_mm": [
+        568.0,
+        1220.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1220.0,
+        578.9
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1220.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        586.0,
+        1220.0,
+        589.7230854637602
+      ],
+      "side_engagement_mm": 9.365028752618507,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 5.245062883661656,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "R2",
+      "depth_mm": 5,
+      "head_mm": [
+        568.0,
+        1220.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1220.0,
+        578.9
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1220.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        587.0,
+        1220.0,
+        589.9910346561913
+      ],
+      "side_engagement_mm": 8.329752572208424,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 4.977113691230495,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    },
+    {
+      "part": "BACKBOX_BASE",
+      "pocket": "R2",
+      "depth_mm": 6,
+      "head_mm": [
+        568.0,
+        1220.0,
+        584.9
+      ],
+      "underside_entry_mm": [
+        545.6076951545867,
+        1220.0,
+        578.9
+      ],
+      "axis": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "tip_mm": [
+        595.045923136094,
+        1220.0,
+        592.1469332628706
+      ],
+      "side_entry_mm": [
+        588.0,
+        1220.0,
+        590.2589838486224
+      ],
+      "side_engagement_mm": 7.294476391798341,
+      "outside_skin_mm": 4.436438773700997,
+      "floor_top_to_counterbore_mm": 7.411852325126926,
+      "screw_to_panel_top_mm": 2.8212150845512793,
+      "dado_edge_margin_mm": 4.709164498799448,
+      "screw_hits": [],
+      "driver_hits": [],
+      "status": "HARDWARE_DEPENDENT",
+      "geometry_pass": true
+    }
+  ],
+  "M006": {
+    "decision": "KEEP",
+    "unsupported_span_before_mm": 504,
+    "unsupported_span_without_mm": 564,
+    "stress_ratio": 1.2522675736961453,
+    "deflection_ratio": 1.5681740761308305,
+    "mass_kg": 0.8087742,
+    "pocket_access_prerequisite": "M006 installed after pocket drilling/retention; shelf pockets before backbox assembly"
+  },
+  "T3": {
+    "translation_y_mm": -20,
+    "meaningful_simplification": false,
+    "decision": "KEEP",
+    "reason": "The seat root, WPC relief and S3-controlled floor foot remain. Exterior cantilever can be removed without moving any accepted support.",
+    "CROSS_3_cradle_clearance_mm": 32.65805863184445,
+    "CROSS_GUIDE_3L_cradle_clearance_mm": 5.344998482656429,
+    "CROSS_GUIDE_3R_cradle_clearance_mm": 5.344998482656429
+  },
+  "changed": [
+    {
+      "name": "SIDE_L",
+      "before_mm3": 12039540.43930468,
+      "after_mm3": 11865853.838038225,
+      "symmetric_difference_mm3": 173686.6009822691
+    },
+    {
+      "name": "SIDE_R",
+      "before_mm3": 12039540.439304681,
+      "after_mm3": 11865853.838038143,
+      "symmetric_difference_mm3": 173686.60098241398
+    },
+    {
+      "name": "FRONT",
+      "before_mm3": 2539238.5189091363,
+      "after_mm3": 2595426.5155491587,
+      "symmetric_difference_mm3": 56188.00409337014
+    },
+    {
+      "name": "REAR",
+      "before_mm3": 3262725.043844318,
+      "after_mm3": 3349549.623128619,
+      "symmetric_difference_mm3": 86824.5864686383
+    },
+    {
+      "name": "FLOOR",
+      "before_mm3": 12231841.520123221,
+      "after_mm3": 12415023.920123244,
+      "symmetric_difference_mm3": 183182.4000000016
+    },
+    {
+      "name": "BACKBOX_BASE",
+      "before_mm3": 1369311.4039143594,
+      "after_mm3": 1392779.8039143558,
+      "symmetric_difference_mm3": 23468.400000000052
+    },
+    {
+      "name": "BB_MonitorCarrier0",
+      "before_mm3": 325865.40939347254,
+      "after_mm3": 320465.4093934725,
+      "symmetric_difference_mm3": 5400.0
+    },
+    {
+      "name": "BB_MonitorCarrier1",
+      "before_mm3": 325865.40939347254,
+      "after_mm3": 320465.4093934725,
+      "symmetric_difference_mm3": 5400.0
+    }
+  ],
+  "added": [
+    "BB_MonitorStopRail",
+    "BB_StopAdjuster0",
+    "BB_StopTip0",
+    "BB_StopInsert0",
+    "BB_StopLocknut0",
+    "BB_StopAdjuster1",
+    "BB_StopTip1",
+    "BB_StopInsert1",
+    "BB_StopLocknut1",
+    "BB_StopRailRetention0",
+    "BB_StopRailRetention1",
+    "PlungerFrontInterfaceProvisional",
+    "PlungerShaftProvisional",
+    "PlungerHandleProvisional",
+    "RearFanWoodScrew230_1",
+    "RearFanWoodScrew230_2",
+    "RearFanWoodScrew230_3",
+    "RearFanWoodScrew230_4",
+    "RearFanWoodScrew370_1",
+    "RearFanWoodScrew370_2",
+    "RearFanWoodScrew370_3",
+    "RearFanWoodScrew370_4"
+  ],
+  "removed": [
+    "CandidateFanGuard230Outer",
+    "CandidateFanBolt230_1",
+    "CandidateFanBolt230_1OuterWasher",
+    "CandidateFanBolt230_1InnerWasher",
+    "CandidateFanBolt230_1Nut",
+    "CandidateFanBolt230_2",
+    "CandidateFanBolt230_2OuterWasher",
+    "CandidateFanBolt230_2InnerWasher",
+    "CandidateFanBolt230_2Nut",
+    "CandidateFanBolt230_3",
+    "CandidateFanBolt230_3OuterWasher",
+    "CandidateFanBolt230_3InnerWasher",
+    "CandidateFanBolt230_3Nut",
+    "CandidateFanBolt230_4",
+    "CandidateFanBolt230_4OuterWasher",
+    "CandidateFanBolt230_4InnerWasher",
+    "CandidateFanBolt230_4Nut",
+    "CandidateFanGuard370Outer",
+    "CandidateFanBolt370_1",
+    "CandidateFanBolt370_1OuterWasher",
+    "CandidateFanBolt370_1InnerWasher",
+    "CandidateFanBolt370_1Nut",
+    "CandidateFanBolt370_2",
+    "CandidateFanBolt370_2OuterWasher",
+    "CandidateFanBolt370_2InnerWasher",
+    "CandidateFanBolt370_2Nut",
+    "CandidateFanBolt370_3",
+    "CandidateFanBolt370_3OuterWasher",
+    "CandidateFanBolt370_3InnerWasher",
+    "CandidateFanBolt370_3Nut",
+    "CandidateFanBolt370_4",
+    "CandidateFanBolt370_4OuterWasher",
+    "CandidateFanBolt370_4InnerWasher",
+    "CandidateFanBolt370_4Nut",
+    "BB_MonitorStopBlock0",
+    "BB_MonitorStopScrewReserve0",
+    "BB_MonitorStopContact0",
+    "BB_MonitorStopBlock1",
+    "BB_MonitorStopScrewReserve1",
+    "BB_MonitorStopContact1"
+  ],
+  "protected_count": 388,
+  "checks": [
+    {
+      "name": "captured lower-shell and shelf union equals original exact wood union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "joinery transfers have no wood overlap",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PF_OpenCradleL valid single solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PF_OpenCradleL exact seat region unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PF_OpenCradleL all retained wood is subset of original",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PF_OpenCradleR valid single solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PF_OpenCradleR exact seat region unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PF_OpenCradleR all retained wood is subset of original",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stop rail clear of occupied wood/display envelopes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "BB_MonitorCarrier0 remains single valid solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BB_MonitorCarrier1 remains single valid solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stop tip 0 clear display",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stop tip 0 bears on unchanged VESA underside",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stop tip 1 clear display",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stop tip 1 bears on unchanged VESA underside",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pocket packaging cases clear after deferred cleat installation",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no new positive-volume wood collisions",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all changed or added wood valid single solids",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all unrelated installed shapes exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SW01 installed blocks unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WPC and playfield functional objects unchanged",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "pass": true,
+  "release": false,
+  "source_sha256": "3b200d59d0940ea21a6dd86afa928f4e47766bd8f806bad3d54a269a41d84954"
+}

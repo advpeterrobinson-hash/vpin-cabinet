@@ -1,0 +1,12 @@
+{
+  "version": "V33.5",
+  "authority": "CURRENT_AUTHORIZED_STRUCTURAL_INTERFACE_OVERLAY",
+  "source_head": "ca4e23eb598bb716156c41a7897ec8275e41f0ae",
+  "viewer": "exports/generated/viewer-v32/index.html",
+  "builder": "tools/build_viewer_v335.py",
+  "validation": "exports/generated/structural-v335/validation.json",
+  "manual_json": "exports/generated/structural-v335/assembly-manual.json",
+  "manufacturing_register": "config/manufacturing/flatpack_v335.json",
+  "geometry_changed": true,
+  "manufacturing_release": false
+}

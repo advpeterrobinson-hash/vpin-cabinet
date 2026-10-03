@@ -1,0 +1,23 @@
+{
+  "version": "V33.5",
+  "head_before": "ca4e23eb598bb716156c41a7897ec8275e41f0ae",
+  "current_register": "exports/generated/structural-v335/manufacturing-register.json",
+  "current_BOM": "exports/generated/structural-v335/manufacturing-bom.csv",
+  "CNC_filter": "manufacturing_class != SHOP_MADE_SOLID_WOOD_PART",
+  "shop_family": "SW01",
+  "superseded_leg_families": [
+    "M019",
+    "M020",
+    "M021",
+    "M022",
+    "M023"
+  ],
+  "superseded_stop_families": [
+    "M046",
+    "M047",
+    "M048",
+    "M049"
+  ],
+  "installed_material_map": "config/wood_materials_v335.json",
+  "release": false
+}

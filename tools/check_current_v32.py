@@ -2,6 +2,15 @@
 from pathlib import Path
 import json,copy,hashlib
 from wpc_reference_v32 import reference_axis
+import runpy,sys
+_current_root=Path(__file__).resolve().parents[1]
+_current_manifest=json.loads((_current_root/'config/current_v32.json').read_text())
+if _current_manifest.get('structural_revision')=='V33.5':
+ assert reference_axis()==[300,1066.8,508]
+ assert not _current_manifest['final_hinge_drilling_released'] and not _current_manifest['manufacturing_ready']
+ runpy.run_path(str(_current_root/'tools/check_structural_v335.py'),run_name='__main__')
+ print('CURRENT_V335_PROMOTION_GATES_PASS')
+ sys.exit(0)
 R=Path(__file__).resolve().parents[1];c=json.loads((R/'config/current_v32.json').read_text());o=R/c['geometry_directory'];q=json.loads((o/'validation.json').read_text());r=json.loads((o/'regression-validation.json').read_text());v=json.loads((o/'viewer-validation.json').read_text())
 assert reference_axis()==[300,1066.8,508]
 assert r['pass'] and v['pass'] and all(x['pass'] for x in q['checks'])
