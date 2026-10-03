@@ -1,0 +1,12 @@
+{
+  "all_installed_geometry_and_state_ids_unchanged": true,
+  "geometry_dictionary_unchanged": true,
+  "CNC_manufacturing_meshes_unchanged": true,
+  "wood_pieces": 106,
+  "solid_blocks": 4,
+  "jig_is_tooling_only": true,
+  "source_mesh_sha256": "d22ecd807a4cda3fb6423bde7f9fefe1a254c7180ea9376ec1f2dc8ae42ca051",
+  "head_before": "f989d6cc9540247571a28e7f99f1499aacbfdd10",
+  "viewer_html_sha256": "d105b7d7885e54b2d6a9b4f7ef344d80ded19d2e018d54f47857c805486565aa",
+  "release": false
+}

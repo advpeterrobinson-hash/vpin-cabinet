@@ -1,0 +1,51 @@
+{
+  "class": "ASSEMBLY_TOOLING_NOT_CABINET_COMPONENT",
+  "status": "PHYSICAL_PRINT_AND_HARDWARE_QUALIFICATION_HOLD",
+  "cabinet_hardware_catalog_changed": false,
+  "items": [
+    {
+      "id": "JIG-LEG-BODY",
+      "quantity": 1,
+      "description_en": "Universal printed guide body",
+      "description_pt_BR": "Corpo guia universal impresso",
+      "file": "GuideBody-REFERENCE.stl"
+    },
+    {
+      "id": "JIG-LEG-TOP",
+      "quantity": 1,
+      "description_en": "Removable top registration saddle",
+      "description_pt_BR": "Batente superior removível",
+      "file": "TopSaddle-REFERENCE.stl"
+    },
+    {
+      "id": "JIG-LEG-F14",
+      "quantity": 1,
+      "description_en": "Front-only14mm index spacer",
+      "description_pt_BR": "Espaçador14mm somente frontal",
+      "file": "FrontStop14-REFERENCE.stl"
+    },
+    {
+      "id": "JIG-LEG-BUSHING",
+      "quantity": 2,
+      "description_en": "Preferred replaceable metal drill sleeve; dimensions unselected",
+      "description_pt_BR": "Bucha metálica substituível preferida; dimensões pendentes",
+      "mutually_exclusive_with": "JIG-LEG-SACRIFICIAL",
+      "purchase_hold": true
+    },
+    {
+      "id": "JIG-LEG-SACRIFICIAL",
+      "quantity": 2,
+      "description_en": "Optional sacrificial printed guide",
+      "description_pt_BR": "Guia impressa sacrificial opcional",
+      "file": "Sacrificial1-REFERENCE.stl",
+      "mutually_exclusive_with": "JIG-LEG-BUSHING"
+    },
+    {
+      "id": "JIG-LEG-CLAMP",
+      "quantity": null,
+      "description_en": "Selected clamps and cabinet support fixture; full envelope to qualify",
+      "description_pt_BR": "Grampos e apoio da caixa selecionados; validar envelope completo",
+      "quantity_status": "SETUP_DEPENDENT_NOT_CABINET_BOM"
+    }
+  ]
+}

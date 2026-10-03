@@ -1,0 +1,37 @@
+{
+  "GuideBody": {
+    "valid_solid": true,
+    "solids": 1,
+    "volume_mm3": 88785.08415937013
+  },
+  "TopSaddle": {
+    "valid_solid": true,
+    "solids": 1,
+    "volume_mm3": 6848.900000000001
+  },
+  "FrontStop14": {
+    "valid_solid": true,
+    "solids": 1,
+    "volume_mm3": 7560.0
+  },
+  "Bushing1": {
+    "valid_solid": true,
+    "solids": 1,
+    "volume_mm3": 2544.690049407732
+  },
+  "Bushing2": {
+    "valid_solid": true,
+    "solids": 1,
+    "volume_mm3": 2544.690049407731
+  },
+  "Sacrificial1": {
+    "valid_solid": true,
+    "solids": 1,
+    "volume_mm3": 2418.5865202926384
+  },
+  "Sacrificial2": {
+    "valid_solid": true,
+    "solids": 1,
+    "volume_mm3": 2418.5865202926357
+  }
+}

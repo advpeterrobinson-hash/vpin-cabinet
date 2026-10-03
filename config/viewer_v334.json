@@ -1,0 +1,12 @@
+{
+  "version": "V33.4",
+  "authority": "VIEWER_DOCUMENTATION_AND_SHOP_BLOCK_MANUFACTURING_OVERLAY",
+  "source_head": "f989d6cc9540247571a28e7f99f1499aacbfdd10",
+  "viewer": "exports/generated/viewer-v32/index.html",
+  "builder": "tools/build_viewer_v334.py",
+  "validation": "exports/generated/solid-leg-v334/validation.json",
+  "manual_json": "exports/generated/solid-leg-v334/assembly-manual.json",
+  "manufacturing_register": "config/manufacturing/flatpack_v334.json",
+  "geometry_changed": false,
+  "manufacturing_release": false
+}

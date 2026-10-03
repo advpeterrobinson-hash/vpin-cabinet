@@ -1,0 +1,4329 @@
+{
+  "policy": {
+    "strategy": "PREMIUM_FIRST",
+    "first_pass": "Nest all plywood in premium material",
+    "secondary_trigger": {
+      "type": "EXTRA_PREMIUM_SHEET_CAUSED_ONLY_BY_SMALL_MODULAR_SECONDARY_SUBSET",
+      "small_subset_max_parts": null,
+      "requires_owner_or_supplier_review": true
+    },
+    "structural_premium_never_auto_downgrade": true,
+    "secondary_allowed": "good-quality secondary plywood / virola only after thickness, bond, flatness, screw-holding and payload qualification",
+    "do_not_nest_world_aabb": true,
+    "actual_sheet_sizes_mm": null,
+    "kerf_mm": null,
+    "grain_direction": null,
+    "material_release": false
+  },
+  "parts": [
+    {
+      "id": "P001",
+      "object": "SIDE_L",
+      "description_en": "Cabinet side — SIDE_L",
+      "description_pt_BR": "Lateral da caixa — SIDE_L",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -3.88908730122752,
+          -3.88908730122752,
+          0.0,
+          25.939277162768004,
+          1311.9890873012264,
+          596.9
+        ],
+        "world_size_mm": [
+          29.828364463995523,
+          1315.878174602454,
+          596.9
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SIDE_L"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "01",
+      "parent_assembly": "cabinet_shell",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        11.025094930770242,
+        654.0499999999994,
+        298.45
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P002",
+      "object": "SIDE_R",
+      "description_en": "Cabinet side — SIDE_R",
+      "description_pt_BR": "Lateral da caixa — SIDE_R",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          574.0607228372319,
+          -3.88908730122752,
+          0.0,
+          603.8890873012274,
+          1311.9890873012264,
+          596.9
+        ],
+        "world_size_mm": [
+          29.828364463995513,
+          1315.878174602454,
+          596.9
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SIDE_R"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "01",
+      "parent_assembly": "cabinet_shell",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        588.9749050692296,
+        654.0499999999994,
+        298.45
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P003",
+      "object": "FRONT",
+      "description_en": "Cabinet end structure — FRONT",
+      "description_pt_BR": "Estrutura frontal/traseira — FRONT",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          14.110912703472618,
+          0.0,
+          0.0,
+          585.8890872965293,
+          22.05018986624017,
+          400.05
+        ],
+        "world_size_mm": [
+          571.7781745930566,
+          22.05018986624017,
+          400.05
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "FRONT"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "01",
+      "parent_assembly": "cabinet_shell",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.00000000000097,
+        11.025094933120085,
+        200.025
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P004",
+      "object": "REAR",
+      "description_en": "Cabinet end structure — REAR",
+      "description_pt_BR": "Estrutura frontal/traseira — REAR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          14.110912703472106,
+          1286.0498101337764,
+          0.0,
+          585.8890956835587,
+          1308.1,
+          596.9
+        ],
+        "world_size_mm": [
+          571.7781829800866,
+          22.05018986622349,
+          596.9
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "REAR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "01",
+      "parent_assembly": "cabinet_shell",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0000041935154,
+        1297.0749050668883,
+        298.45
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P005",
+      "object": "FLOOR",
+      "description_en": "Structural floor — FLOOR",
+      "description_pt_BR": "Fundo estrutural — FLOOR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          18.0,
+          18.0,
+          18.0,
+          582.0,
+          1290.1,
+          36.0
+        ],
+        "world_size_mm": [
+          564.0,
+          1272.1,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "FLOOR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "01",
+      "parent_assembly": "cabinet_shell",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        654.05,
+        27.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P006",
+      "object": "FLOOR_CLEAT_18",
+      "description_en": "Floor cleat — FLOOR_CLEAT_18",
+      "description_pt_BR": "Sarrafo do fundo — FLOOR_CLEAT_18",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          18.0,
+          120.0,
+          0.0,
+          48.0,
+          1272.1,
+          18.0
+        ],
+        "world_size_mm": [
+          30.0,
+          1152.1,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "FLOOR_CLEAT_18"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "01",
+      "parent_assembly": "cabinet_shell",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        33.0,
+        696.05,
+        9.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P007",
+      "object": "FLOOR_CLEAT_552",
+      "description_en": "Floor cleat — FLOOR_CLEAT_552",
+      "description_pt_BR": "Sarrafo do fundo — FLOOR_CLEAT_552",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          552.0,
+          120.0,
+          0.0,
+          582.0,
+          1272.1,
+          18.0
+        ],
+        "world_size_mm": [
+          30.0,
+          1152.1,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "FLOOR_CLEAT_552"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "01",
+      "parent_assembly": "cabinet_shell",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        567.0,
+        696.05,
+        9.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P008",
+      "object": "REAR_DOOR",
+      "description_en": "Main rear door — REAR_DOOR",
+      "description_pt_BR": "Porta traseira principal — REAR_DOOR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          102.0,
+          1296.1,
+          54.0,
+          498.0,
+          1308.1,
+          383.0
+        ],
+        "world_size_mm": [
+          396.0,
+          12.0,
+          329.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "REAR_DOOR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "04",
+      "parent_assembly": "main_rear_door",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1302.1,
+        218.5
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P009",
+      "object": "SHELF_1",
+      "description_en": "Removable equipment shelf — SHELF_1",
+      "description_pt_BR": "Prateleira removível de equipamentos — SHELF_1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          20.0,
+          120.0,
+          160.0,
+          580.0,
+          270.0,
+          172.0
+        ],
+        "world_size_mm": [
+          560.0,
+          150.0,
+          12.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_1"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        195.0,
+        166.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P010",
+      "object": "SHELF_2",
+      "description_en": "Removable equipment shelf — SHELF_2",
+      "description_pt_BR": "Prateleira removível de equipamentos — SHELF_2",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          20.0,
+          565.0,
+          180.0,
+          580.0,
+          715.0,
+          192.0
+        ],
+        "world_size_mm": [
+          560.0,
+          150.0,
+          12.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_2"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        640.0,
+        186.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P011",
+      "object": "SHELF_3",
+      "description_en": "Removable equipment shelf — SHELF_3",
+      "description_pt_BR": "Prateleira removível de equipamentos — SHELF_3",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          20.0,
+          865.0,
+          240.0,
+          580.0,
+          1015.0,
+          252.0
+        ],
+        "world_size_mm": [
+          560.0,
+          150.0,
+          12.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_3"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        940.0,
+        246.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P012",
+      "object": "SHELF_SUPPORT_1L",
+      "description_en": "Fixed shelf support — SHELF_SUPPORT_1L",
+      "description_pt_BR": "Apoio fixo da prateleira — SHELF_SUPPORT_1L",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          18.0,
+          120.0,
+          142.0,
+          60.0,
+          270.0,
+          160.0
+        ],
+        "world_size_mm": [
+          42.0,
+          150.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_1L"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        39.0,
+        195.0,
+        151.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P013",
+      "object": "SHELF_SUPPORT_1R",
+      "description_en": "Fixed shelf support — SHELF_SUPPORT_1R",
+      "description_pt_BR": "Apoio fixo da prateleira — SHELF_SUPPORT_1R",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          540.0,
+          120.0,
+          142.0,
+          582.0,
+          270.0,
+          160.0
+        ],
+        "world_size_mm": [
+          42.0,
+          150.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_1R"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        561.0,
+        195.0,
+        151.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P014",
+      "object": "SHELF_SUPPORT_2L",
+      "description_en": "Fixed shelf support — SHELF_SUPPORT_2L",
+      "description_pt_BR": "Apoio fixo da prateleira — SHELF_SUPPORT_2L",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          18.0,
+          565.0,
+          162.0,
+          60.0,
+          715.0,
+          180.0
+        ],
+        "world_size_mm": [
+          42.0,
+          150.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_2L"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        39.0,
+        640.0,
+        171.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P015",
+      "object": "SHELF_SUPPORT_2R",
+      "description_en": "Fixed shelf support — SHELF_SUPPORT_2R",
+      "description_pt_BR": "Apoio fixo da prateleira — SHELF_SUPPORT_2R",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          540.0,
+          565.0,
+          162.0,
+          582.0,
+          715.0,
+          180.0
+        ],
+        "world_size_mm": [
+          42.0,
+          150.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_2R"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        561.0,
+        640.0,
+        171.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P016",
+      "object": "SHELF_SUPPORT_3L",
+      "description_en": "Fixed shelf support — SHELF_SUPPORT_3L",
+      "description_pt_BR": "Apoio fixo da prateleira — SHELF_SUPPORT_3L",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          18.0,
+          865.0,
+          222.0,
+          60.0,
+          1015.0,
+          240.0
+        ],
+        "world_size_mm": [
+          42.0,
+          150.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_3L"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        39.0,
+        940.0,
+        231.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P017",
+      "object": "SHELF_SUPPORT_3R",
+      "description_en": "Fixed shelf support — SHELF_SUPPORT_3R",
+      "description_pt_BR": "Apoio fixo da prateleira — SHELF_SUPPORT_3R",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          540.0,
+          865.0,
+          222.0,
+          582.0,
+          1015.0,
+          240.0
+        ],
+        "world_size_mm": [
+          42.0,
+          150.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SHELF_SUPPORT_3R"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        561.0,
+        940.0,
+        231.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P018",
+      "object": "CROSS_1",
+      "description_en": "Removable crossmember — CROSS_1",
+      "description_pt_BR": "Travessa removível — CROSS_1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          30.2,
+          371.0,
+          283.691375367901,
+          569.8000000000001,
+          389.0,
+          365.2632063538165
+        ],
+        "world_size_mm": [
+          539.6,
+          18.0,
+          81.57183098591548
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_1"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.00000000000006,
+        380.0,
+        324.4772908608587
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P019",
+      "object": "CROSS_2",
+      "description_en": "Removable crossmember — CROSS_2",
+      "description_pt_BR": "Travessa removível — CROSS_2",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          30.2,
+          691.0,
+          339.578699311563,
+          569.8000000000001,
+          709.0,
+          421.1505302974785
+        ],
+        "world_size_mm": [
+          539.6,
+          18.0,
+          81.57183098591548
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_2"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.00000000000006,
+        700.0,
+        380.3646148045208
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P020",
+      "object": "CROSS_3",
+      "description_en": "Removable crossmember — CROSS_3",
+      "description_pt_BR": "Travessa removível — CROSS_3",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          30.2,
+          971.0,
+          388.4801077622672,
+          569.8000000000001,
+          989.0,
+          470.0519387481827
+        ],
+        "world_size_mm": [
+          539.6,
+          18.0,
+          81.57183098591548
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_3"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.00000000000006,
+        980.0,
+        429.2660232552249
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P021",
+      "object": "CROSS_GUIDE_1L",
+      "description_en": "Crossmember guide — CROSS_GUIDE_1L",
+      "description_pt_BR": "Guia da travessa — CROSS_GUIDE_1L",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          18.0,
+          350.0,
+          238.691375367901,
+          36.0,
+          410.0,
+          383.691375367901
+        ],
+        "world_size_mm": [
+          18.0,
+          60.0,
+          145.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_1L"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        27.0,
+        380.0,
+        311.191375367901
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P022",
+      "object": "CROSS_GUIDE_1R",
+      "description_en": "Crossmember guide — CROSS_GUIDE_1R",
+      "description_pt_BR": "Guia da travessa — CROSS_GUIDE_1R",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          564.0,
+          350.0,
+          238.691375367901,
+          582.0,
+          410.0,
+          383.691375367901
+        ],
+        "world_size_mm": [
+          18.0,
+          60.0,
+          145.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_1R"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        573.0,
+        380.0,
+        311.191375367901
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P023",
+      "object": "CROSS_GUIDE_2L",
+      "description_en": "Crossmember guide — CROSS_GUIDE_2L",
+      "description_pt_BR": "Guia da travessa — CROSS_GUIDE_2L",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          18.0,
+          670.0,
+          294.578699311563,
+          36.0,
+          730.0,
+          439.578699311563
+        ],
+        "world_size_mm": [
+          18.0,
+          60.0,
+          145.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_2L"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        27.0,
+        700.0,
+        367.078699311563
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P024",
+      "object": "CROSS_GUIDE_2R",
+      "description_en": "Crossmember guide — CROSS_GUIDE_2R",
+      "description_pt_BR": "Guia da travessa — CROSS_GUIDE_2R",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          564.0,
+          670.0,
+          294.578699311563,
+          582.0,
+          730.0,
+          439.578699311563
+        ],
+        "world_size_mm": [
+          18.0,
+          60.0,
+          145.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_2R"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        573.0,
+        700.0,
+        367.078699311563
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P025",
+      "object": "CROSS_GUIDE_3L",
+      "description_en": "Crossmember guide — CROSS_GUIDE_3L",
+      "description_pt_BR": "Guia da travessa — CROSS_GUIDE_3L",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          18.0,
+          950.0,
+          343.4801077622672,
+          36.0,
+          1010.0,
+          488.4801077622672
+        ],
+        "world_size_mm": [
+          18.0,
+          60.0,
+          145.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_3L"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        27.0,
+        980.0,
+        415.9801077622672
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P026",
+      "object": "CROSS_GUIDE_3R",
+      "description_en": "Crossmember guide — CROSS_GUIDE_3R",
+      "description_pt_BR": "Guia da travessa — CROSS_GUIDE_3R",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          564.0,
+          950.0,
+          343.4801077622672,
+          582.0,
+          1010.0,
+          488.4801077622672
+        ],
+        "world_size_mm": [
+          18.0,
+          60.0,
+          145.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CROSS_GUIDE_3R"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        573.0,
+        980.0,
+        415.9801077622672
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P027",
+      "object": "PC_BASE",
+      "description_en": "Floor-supported PCBase — PC_BASE",
+      "description_pt_BR": "PCBase apoiada no fundo — PC_BASE",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          157.5,
+          830.0,
+          36.0,
+          442.5,
+          1290.0,
+          54.0
+        ],
+        "world_size_mm": [
+          285.0,
+          460.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "PC_BASE"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02",
+      "parent_assembly": "shelves_supports",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1060.0,
+        45.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P028",
+      "object": "BACKBOX_BASE",
+      "description_en": "Rear bearing shelf — BACKBOX_BASE",
+      "description_pt_BR": "Prateleira traseira de apoio — BACKBOX_BASE",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          18.0,
+          1127.125,
+          578.9,
+          582.0,
+          1290.1,
+          596.9
+        ],
+        "world_size_mm": [
+          564.0,
+          162.9749999999999,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BACKBOX_BASE"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "06",
+      "parent_assembly": "backbox_shell_wpc",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1208.6125,
+        587.9
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P029",
+      "object": "CandidateLegBlockFL",
+      "description_en": "Solid-wood leg corner block FL",
+      "description_pt_BR": "Bloco maciço do pé FL",
+      "quantity": 7,
+      "unit": "lamination",
+      "material": "solid wood; species late-bound",
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          14.110912699983817,
+          14.110912699983817,
+          54.0,
+          72.0,
+          72.0,
+          180.0
+        ],
+        "world_size_mm": [
+          57.889087300016186,
+          57.889087300016186,
+          126.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CandidateLegBlockFL"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02.0",
+      "parent_assembly": "cabinet_shell",
+      "notes": "54×54×126mm triangular blank after45°shop rip; no CNC plywood lamination. Real leg/backing/bolt and drill-jig qualification HOLD.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        43.05545634999191,
+        43.05545634999191,
+        117.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null,
+      "manufacturing_class": "SHOP_MADE_SOLID_WOOD_PART",
+      "manufacturing_family": "SW01"
+    },
+    {
+      "id": "P030",
+      "object": "CandidateLegBlockFR",
+      "description_en": "Solid-wood leg corner block FR",
+      "description_pt_BR": "Bloco maciço do pé FR",
+      "quantity": 7,
+      "unit": "lamination",
+      "material": "solid wood; species late-bound",
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          528.0,
+          14.11091269998229,
+          54.0,
+          585.8890873000176,
+          72.0,
+          180.0
+        ],
+        "world_size_mm": [
+          57.88908730001765,
+          57.88908730001771,
+          126.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CandidateLegBlockFR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02.0",
+      "parent_assembly": "cabinet_shell",
+      "notes": "54×54×126mm triangular blank after45°shop rip; no CNC plywood lamination. Real leg/backing/bolt and drill-jig qualification HOLD.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        556.9445436500089,
+        43.05545634999115,
+        117.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null,
+      "manufacturing_class": "SHOP_MADE_SOLID_WOOD_PART",
+      "manufacturing_family": "SW01"
+    },
+    {
+      "id": "P031",
+      "object": "CandidateLegBlockRL",
+      "description_en": "Solid-wood leg corner block RL",
+      "description_pt_BR": "Bloco maciço do pé RL",
+      "quantity": 7,
+      "unit": "lamination",
+      "material": "solid wood; species late-bound",
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          14.110912699982261,
+          1236.1,
+          36.0,
+          72.0,
+          1293.9890873000177,
+          162.0
+        ],
+        "world_size_mm": [
+          57.889087300017735,
+          57.88908730001776,
+          126.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CandidateLegBlockRL"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02.0",
+      "parent_assembly": "cabinet_shell",
+      "notes": "54×54×126mm triangular blank after45°shop rip; no CNC plywood lamination. Real leg/backing/bolt and drill-jig qualification HOLD.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        43.05545634999113,
+        1265.0445436500088,
+        99.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null,
+      "manufacturing_class": "SHOP_MADE_SOLID_WOOD_PART",
+      "manufacturing_family": "SW01"
+    },
+    {
+      "id": "P032",
+      "object": "CandidateLegBlockRR",
+      "description_en": "Solid-wood leg corner block RR",
+      "description_pt_BR": "Bloco maciço do pé RR",
+      "quantity": 7,
+      "unit": "lamination",
+      "material": "solid wood; species late-bound",
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          528.0,
+          1236.1,
+          36.0,
+          585.8890873000154,
+          1293.9890873000154,
+          162.0
+        ],
+        "world_size_mm": [
+          57.889087300015376,
+          57.88908730001549,
+          126.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "CandidateLegBlockRR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "02.0",
+      "parent_assembly": "cabinet_shell",
+      "notes": "54×54×126mm triangular blank after45°shop rip; no CNC plywood lamination. Real leg/backing/bolt and drill-jig qualification HOLD.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        556.9445436500077,
+        1265.0445436500077,
+        99.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null,
+      "manufacturing_class": "SHOP_MADE_SOLID_WOOD_PART",
+      "manufacturing_family": "SW01"
+    },
+    {
+      "id": "P033",
+      "object": "SSF_BST_Carrier",
+      "description_en": "Replaceable shaker carrier — SSF_BST_Carrier",
+      "description_pt_BR": "Base substituível do transdutor — SSF_BST_Carrier",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          210.0,
+          170.0,
+          36.0,
+          390.0,
+          350.0,
+          48.0
+        ],
+        "world_size_mm": [
+          180.0,
+          180.0,
+          12.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "SSF_BST_Carrier"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "USER_ADAPTER_HARDWARE",
+      "assembly_stage": "13",
+      "parent_assembly": "future_electronics",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        260.0,
+        42.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P034",
+      "object": "PF_BasePlywood",
+      "description_en": "Playfield load-carrying base — PF_BasePlywood",
+      "description_pt_BR": "Base estrutural do playfield — PF_BasePlywood",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          49.999999999999986,
+          64.01361107210916,
+          331.3788680816646,
+          550.0,
+          1071.9014918612513,
+          524.5951171988511
+        ],
+        "world_size_mm": [
+          500.0,
+          1007.8878807891422,
+          193.21624911718646
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "PF_BasePlywood"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "03",
+      "parent_assembly": "playfield_pivot",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        567.9575514666802,
+        427.9869926402579
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P035",
+      "object": "PF_OpenCradleL",
+      "description_en": "Floor-bearing open cradle — PF_OpenCradleL",
+      "description_pt_BR": "Apoio aberto apoiado no fundo — PF_OpenCradleL",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          17.999999999999993,
+          995.2506198471799,
+          36.0,
+          36.0,
+          1075.25061984718,
+          514.2203301149066
+        ],
+        "world_size_mm": [
+          18.000000000000007,
+          80.0,
+          478.2203301149066
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "PF_OpenCradleL"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "03",
+      "parent_assembly": "playfield_pivot",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        26.999999999999996,
+        1035.25061984718,
+        275.1101650574533
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P036",
+      "object": "PF_OpenCradleR",
+      "description_en": "Floor-bearing open cradle — PF_OpenCradleR",
+      "description_pt_BR": "Apoio aberto apoiado no fundo — PF_OpenCradleR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          564.0,
+          995.2506198471799,
+          36.0,
+          582.0,
+          1075.25061984718,
+          514.2203301149066
+        ],
+        "world_size_mm": [
+          18.0,
+          80.0,
+          478.2203301149066
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "PF_OpenCradleR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "03",
+      "parent_assembly": "playfield_pivot",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        573.0,
+        1035.25061984718,
+        275.1101650574533
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P037",
+      "object": "RemovableIntakeFilterL",
+      "description_en": "Floor filter holder — RemovableIntakeFilterL",
+      "description_pt_BR": "Suporte do filtro do fundo — RemovableIntakeFilterL",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 8,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          65.0,
+          625.0,
+          10.0,
+          235.0,
+          795.0,
+          18.0
+        ],
+        "world_size_mm": [
+          170.0,
+          170.0,
+          8.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "RemovableIntakeFilterL"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "main_ventilation",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        150.0,
+        710.0,
+        14.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P038",
+      "object": "RemovableIntakeFilterR",
+      "description_en": "Floor filter holder — RemovableIntakeFilterR",
+      "description_pt_BR": "Suporte do filtro do fundo — RemovableIntakeFilterR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 8,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          365.0,
+          625.0,
+          10.0,
+          535.0,
+          795.0,
+          18.0
+        ],
+        "world_size_mm": [
+          170.0,
+          170.0,
+          8.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "RemovableIntakeFilterR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "main_ventilation",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        450.0,
+        710.0,
+        14.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P039",
+      "object": "MX_WoodSeatL",
+      "description_en": "Matrix seat — MX_WoodSeatL",
+      "description_pt_BR": "Apoio da matriz — MX_WoodSeatL",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          35.99999999999999,
+          1075.0,
+          540.0,
+          54.00000000000001,
+          1190.0,
+          578.9
+        ],
+        "world_size_mm": [
+          18.000000000000014,
+          115.0,
+          38.89999999999998
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "MX_WoodSeatL"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "12",
+      "parent_assembly": "matrix_front_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        45.0,
+        1132.5,
+        559.45
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P040",
+      "object": "MX_WoodSeatR",
+      "description_en": "Matrix seat — MX_WoodSeatR",
+      "description_pt_BR": "Apoio da matriz — MX_WoodSeatR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          545.9999999999999,
+          1075.0,
+          540.0,
+          564.0000000000001,
+          1190.0,
+          578.9
+        ],
+        "world_size_mm": [
+          18.000000000000227,
+          115.0,
+          38.89999999999998
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "MX_WoodSeatR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "12",
+      "parent_assembly": "matrix_front_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        555.0,
+        1132.5,
+        559.45
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P041",
+      "object": "MatrixCarrier",
+      "description_en": "Removable matrix carrier — MatrixCarrier",
+      "description_pt_BR": "Suporte removível da matriz — MatrixCarrier",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          29.999999999999996,
+          1033.6144756704912,
+          535.4516895886093,
+          570.0,
+          1125.125,
+          586.6345997465683
+        ],
+        "world_size_mm": [
+          540.0,
+          91.51052432950883,
+          51.182910157958986
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "MatrixCarrier"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "12",
+      "parent_assembly": "matrix_front_interfaces",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1079.3697378352456,
+        561.0431446675888
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P042",
+      "object": "BB_SideL",
+      "description_en": "Backbox shell/frame — BB_SideL",
+      "description_pt_BR": "Estrutura da caixa superior — BB_SideL",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -90.0,
+          1054.1,
+          596.9,
+          -71.99999999999997,
+          1302.1,
+          1320.8
+        ],
+        "world_size_mm": [
+          18.00000000000003,
+          248.0,
+          723.9
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_SideL"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "06",
+      "parent_assembly": "backbox_shell_wpc",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        -80.99999999999999,
+        1178.1,
+        958.8499999999999
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P043",
+      "object": "BB_SideR",
+      "description_en": "Backbox shell/frame — BB_SideR",
+      "description_pt_BR": "Estrutura da caixa superior — BB_SideR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          672.0,
+          1054.1,
+          596.9,
+          690.0,
+          1302.1,
+          1320.8
+        ],
+        "world_size_mm": [
+          18.0,
+          248.0,
+          723.9
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_SideR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "06",
+      "parent_assembly": "backbox_shell_wpc",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        681.0,
+        1178.1,
+        958.8499999999999
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P044",
+      "object": "BB_Floor",
+      "description_en": "Backbox shell/frame — BB_Floor",
+      "description_pt_BR": "Estrutura da caixa superior — BB_Floor",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -78.0,
+          1146.0,
+          596.9,
+          678.0,
+          1302.1,
+          614.9
+        ],
+        "world_size_mm": [
+          756.0,
+          156.0999999999999,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_Floor"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "06",
+      "parent_assembly": "backbox_shell_wpc",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1224.05,
+        605.9
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P045",
+      "object": "BB_Top",
+      "description_en": "Backbox shell/frame — BB_Top",
+      "description_pt_BR": "Estrutura da caixa superior — BB_Top",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -78.0,
+          1120.0,
+          1302.8,
+          678.0,
+          1302.1,
+          1320.8
+        ],
+        "world_size_mm": [
+          756.0,
+          182.0999999999999,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_Top"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "06",
+      "parent_assembly": "backbox_shell_wpc",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1211.05,
+        1311.8
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P046",
+      "object": "BB_RearFrame",
+      "description_en": "Backbox shell/frame — BB_RearFrame",
+      "description_pt_BR": "Estrutura da caixa superior — BB_RearFrame",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -90.0,
+          1290.1,
+          596.9,
+          690.0,
+          1308.1,
+          1320.8
+        ],
+        "world_size_mm": [
+          780.0,
+          18.0,
+          723.9
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_RearFrame"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "06",
+      "parent_assembly": "backbox_shell_wpc",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1299.1,
+        958.8499999999999
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P047",
+      "object": "BB_TopFrontRail",
+      "description_en": "Backbox shell/frame — BB_TopFrontRail",
+      "description_pt_BR": "Estrutura da caixa superior — BB_TopFrontRail",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -78.0,
+          1055.1940737670948,
+          1302.8,
+          678.0,
+          1112.0,
+          1320.8
+        ],
+        "world_size_mm": [
+          756.0,
+          56.80592623290522,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_TopFrontRail"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "06",
+      "parent_assembly": "backbox_shell_wpc",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1083.5970368835474,
+        1311.8
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P048",
+      "object": "BB_GlassLowerRail",
+      "description_en": "Padded lower glass rail — BB_GlassLowerRail",
+      "description_pt_BR": "Apoio inferior do vidro — BB_GlassLowerRail",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -72.0,
+          1108.0,
+          822.0,
+          672.0,
+          1126.0,
+          840.0
+        ],
+        "world_size_mm": [
+          744.0,
+          18.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_GlassLowerRail"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1117.0,
+        831.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P049",
+      "object": "BB_GlassTopRetainer",
+      "description_en": "Positive glass top retainer — BB_GlassTopRetainer",
+      "description_pt_BR": "Retentor superior positivo do vidro — BB_GlassTopRetainer",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -78.0,
+          1104.0,
+          1307.0,
+          678.0,
+          1141.0,
+          1332.8
+        ],
+        "world_size_mm": [
+          756.0,
+          37.0,
+          25.799999999999955
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_GlassTopRetainer"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1122.5,
+        1319.9
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P050",
+      "object": "BB_MonitorRail0",
+      "description_en": "Monitor structural carrier member — BB_MonitorRail0",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorRail0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -72.0,
+          1268.0,
+          816.0,
+          672.0,
+          1286.0,
+          858.0
+        ],
+        "world_size_mm": [
+          744.0,
+          18.0,
+          42.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRail0"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1277.0,
+        837.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P051",
+      "object": "BB_MonitorRailCleatL0",
+      "description_en": "Monitor structural carrier member — BB_MonitorRailCleatL0",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorRailCleatL0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -72.0,
+          1248.0,
+          786.0,
+          -54.0,
+          1286.0,
+          816.0
+        ],
+        "world_size_mm": [
+          18.0,
+          38.0,
+          30.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRailCleatL0"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        -63.0,
+        1267.0,
+        801.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P052",
+      "object": "BB_MonitorRailCleatR0",
+      "description_en": "Monitor structural carrier member — BB_MonitorRailCleatR0",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorRailCleatR0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          654.0,
+          1248.0,
+          786.0,
+          672.0,
+          1286.0,
+          816.0
+        ],
+        "world_size_mm": [
+          18.0,
+          38.0,
+          30.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRailCleatR0"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        663.0,
+        1267.0,
+        801.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P053",
+      "object": "BB_MonitorRail1",
+      "description_en": "Monitor structural carrier member — BB_MonitorRail1",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorRail1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -72.0,
+          1268.0,
+          1248.0,
+          672.0,
+          1286.0,
+          1290.0
+        ],
+        "world_size_mm": [
+          744.0,
+          18.0,
+          42.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRail1"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1277.0,
+        1269.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P054",
+      "object": "BB_MonitorRailCleatL1",
+      "description_en": "Monitor structural carrier member — BB_MonitorRailCleatL1",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorRailCleatL1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -72.0,
+          1248.0,
+          1218.0,
+          -54.0,
+          1286.0,
+          1248.0
+        ],
+        "world_size_mm": [
+          18.0,
+          38.0,
+          30.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRailCleatL1"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        -63.0,
+        1267.0,
+        1233.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P055",
+      "object": "BB_MonitorRailCleatR1",
+      "description_en": "Monitor structural carrier member — BB_MonitorRailCleatR1",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorRailCleatR1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          654.0,
+          1248.0,
+          1218.0,
+          672.0,
+          1286.0,
+          1248.0
+        ],
+        "world_size_mm": [
+          18.0,
+          38.0,
+          30.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorRailCleatR1"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        663.0,
+        1267.0,
+        1233.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P056",
+      "object": "BB_MonitorCarrier0",
+      "description_en": "Monitor structural carrier member — BB_MonitorCarrier0",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorCarrier0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          135.0,
+          1240.0,
+          870.0,
+          185.0,
+          1258.0,
+          1236.0
+        ],
+        "world_size_mm": [
+          50.0,
+          18.0,
+          366.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorCarrier0"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        160.0,
+        1249.0,
+        1053.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P057",
+      "object": "BB_MonitorDepthShoe00",
+      "description_en": "Monitor structural carrier member — BB_MonitorDepthShoe00",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorDepthShoe00",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          135.0,
+          1240.0,
+          858.0,
+          185.0,
+          1290.0,
+          876.0
+        ],
+        "world_size_mm": [
+          50.0,
+          50.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorDepthShoe00"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        160.0,
+        1265.0,
+        867.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P058",
+      "object": "BB_MonitorDepthShoe01",
+      "description_en": "Monitor structural carrier member — BB_MonitorDepthShoe01",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorDepthShoe01",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          135.0,
+          1240.0,
+          1230.0,
+          185.0,
+          1290.0,
+          1248.0
+        ],
+        "world_size_mm": [
+          50.0,
+          50.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorDepthShoe01"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        160.0,
+        1265.0,
+        1239.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P059",
+      "object": "BB_MonitorCarrier1",
+      "description_en": "Monitor structural carrier member — BB_MonitorCarrier1",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorCarrier1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          415.0,
+          1240.0,
+          870.0,
+          465.0,
+          1258.0,
+          1236.0
+        ],
+        "world_size_mm": [
+          50.0,
+          18.0,
+          366.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorCarrier1"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        440.0,
+        1249.0,
+        1053.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P060",
+      "object": "BB_MonitorDepthShoe10",
+      "description_en": "Monitor structural carrier member — BB_MonitorDepthShoe10",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorDepthShoe10",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          415.0,
+          1240.0,
+          858.0,
+          465.0,
+          1290.0,
+          876.0
+        ],
+        "world_size_mm": [
+          50.0,
+          50.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorDepthShoe10"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        440.0,
+        1265.0,
+        867.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P061",
+      "object": "BB_MonitorDepthShoe11",
+      "description_en": "Monitor structural carrier member — BB_MonitorDepthShoe11",
+      "description_pt_BR": "Elemento estrutural do suporte de monitor — BB_MonitorDepthShoe11",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          415.0,
+          1240.0,
+          1230.0,
+          465.0,
+          1290.0,
+          1248.0
+        ],
+        "world_size_mm": [
+          50.0,
+          50.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorDepthShoe11"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        440.0,
+        1265.0,
+        1239.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P062",
+      "object": "BB_ReplaceableVESAPlate",
+      "description_en": "Replaceable load-carrying VESA plate — BB_ReplaceableVESAPlate",
+      "description_pt_BR": "Placa VESA substituível estrutural — BB_ReplaceableVESAPlate",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          120.0,
+          1228.0,
+          949.0,
+          480.0,
+          1240.0,
+          1179.0
+        ],
+        "world_size_mm": [
+          360.0,
+          12.0,
+          230.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_ReplaceableVESAPlate"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1234.0,
+        1064.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P063",
+      "object": "BB_DisplayReplaceableBezel",
+      "description_en": "Replaceable display bezel — BB_DisplayReplaceableBezel",
+      "description_pt_BR": "Moldura substituível do monitor — BB_DisplayReplaceableBezel",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 6,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -70.0,
+          1120.0,
+          842.0,
+          670.0,
+          1126.0,
+          1299.0
+        ],
+        "world_size_mm": [
+          740.0,
+          6.0,
+          457.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DisplayReplaceableBezel"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1123.0,
+        1070.5
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P064",
+      "object": "BB_MonitorStopBlock0",
+      "description_en": "Monitor stop block — BB_MonitorStopBlock0",
+      "description_pt_BR": "Bloco de batente do monitor — BB_MonitorStopBlock0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          185.0,
+          1230.0,
+          899.0,
+          223.0,
+          1258.0,
+          929.0
+        ],
+        "world_size_mm": [
+          38.0,
+          28.0,
+          30.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorStopBlock0"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        204.0,
+        1244.0,
+        914.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P065",
+      "object": "BB_MonitorStopBlock1",
+      "description_en": "Monitor stop block — BB_MonitorStopBlock1",
+      "description_pt_BR": "Bloco de batente do monitor — BB_MonitorStopBlock1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          377.0,
+          1230.0,
+          899.0,
+          415.0,
+          1258.0,
+          929.0
+        ],
+        "world_size_mm": [
+          38.0,
+          28.0,
+          30.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorStopBlock1"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        396.0,
+        1244.0,
+        914.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P066",
+      "object": "BB_MonitorStopContact0",
+      "description_en": "Monitor stop contact pad — BB_MonitorStopContact0",
+      "description_pt_BR": "Calço de contato do batente — BB_MonitorStopContact0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 4,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          205.0,
+          1228.0,
+          945.0,
+          223.0,
+          1240.0,
+          949.0
+        ],
+        "world_size_mm": [
+          18.0,
+          12.0,
+          4.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorStopContact0"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        214.0,
+        1234.0,
+        947.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P067",
+      "object": "BB_MonitorStopContact1",
+      "description_en": "Monitor stop contact pad — BB_MonitorStopContact1",
+      "description_pt_BR": "Calço de contato do batente — BB_MonitorStopContact1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 4,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          377.0,
+          1228.0,
+          945.0,
+          395.0,
+          1240.0,
+          949.0
+        ],
+        "world_size_mm": [
+          18.0,
+          12.0,
+          4.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_MonitorStopContact1"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "10",
+      "parent_assembly": "display_glass_interfaces",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        386.0,
+        1234.0,
+        947.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P068",
+      "object": "BB_LowerCassetteFrame",
+      "description_en": "Lower cassette frame — BB_LowerCassetteFrame",
+      "description_pt_BR": "Quadro do cassete inferior — BB_LowerCassetteFrame",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -70.0,
+          1156.0,
+          620.0,
+          670.0,
+          1174.0,
+          820.0
+        ],
+        "world_size_mm": [
+          740.0,
+          18.0,
+          200.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_LowerCassetteFrame"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1165.0,
+        720.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P069",
+      "object": "BB_SpeakerBaffleL",
+      "description_en": "Replaceable speaker baffle — BB_SpeakerBaffleL",
+      "description_pt_BR": "Defletor substituível do alto-falante — BB_SpeakerBaffleL",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -70.0,
+          1144.0,
+          620.0,
+          90.0,
+          1156.0,
+          820.0
+        ],
+        "world_size_mm": [
+          160.0,
+          12.0,
+          200.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_SpeakerBaffleL"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        10.0,
+        1150.0,
+        720.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P070",
+      "object": "BB_SpeakerBaffleR",
+      "description_en": "Replaceable speaker baffle — BB_SpeakerBaffleR",
+      "description_pt_BR": "Defletor substituível do alto-falante — BB_SpeakerBaffleR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          510.0,
+          1144.0,
+          620.0,
+          670.0,
+          1156.0,
+          820.0
+        ],
+        "world_size_mm": [
+          160.0,
+          12.0,
+          200.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_SpeakerBaffleR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        590.0,
+        1150.0,
+        720.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P071",
+      "object": "BB_DMDReplaceableBezel",
+      "description_en": "Replaceable DMD bezel — BB_DMDReplaceableBezel",
+      "description_pt_BR": "Moldura substituível do DMD — BB_DMDReplaceableBezel",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          90.0,
+          1144.0,
+          626.0,
+          510.0,
+          1156.0,
+          806.0
+        ],
+        "world_size_mm": [
+          420.0,
+          12.0,
+          180.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DMDReplaceableBezel"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1150.0,
+        716.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P072",
+      "object": "BB_DMDRearAdapter",
+      "description_en": "Load-carrying DMD rear adapter — BB_DMDRearAdapter",
+      "description_pt_BR": "Adaptador traseiro estrutural do DMD — BB_DMDRearAdapter",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          80.0,
+          1219.0,
+          704.0,
+          520.0,
+          1231.0,
+          800.0
+        ],
+        "world_size_mm": [
+          440.0,
+          12.0,
+          96.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DMDRearAdapter"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1225.0,
+        752.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P073",
+      "object": "BB_DMDDepthTie0",
+      "description_en": "DMD depth tie — BB_DMDDepthTie0",
+      "description_pt_BR": "Travessa de profundidade do DMD — BB_DMDDepthTie0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          80.0,
+          1174.0,
+          710.0,
+          98.0,
+          1219.0,
+          780.0
+        ],
+        "world_size_mm": [
+          18.0,
+          45.0,
+          70.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DMDDepthTie0"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        89.0,
+        1196.5,
+        745.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P074",
+      "object": "BB_DMDDepthTie1",
+      "description_en": "DMD depth tie — BB_DMDDepthTie1",
+      "description_pt_BR": "Travessa de profundidade do DMD — BB_DMDDepthTie1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          502.0,
+          1174.0,
+          710.0,
+          520.0,
+          1219.0,
+          780.0
+        ],
+        "world_size_mm": [
+          18.0,
+          45.0,
+          70.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DMDDepthTie1"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        511.0,
+        1196.5,
+        745.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P075",
+      "object": "BB_CassetteFixedCleatL0",
+      "description_en": "Cassette fixed cleat — BB_CassetteFixedCleatL0",
+      "description_pt_BR": "Apoio fixo do cassete — BB_CassetteFixedCleatL0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -72.0,
+          1174.0,
+          629.0,
+          -50.0,
+          1206.0,
+          653.0
+        ],
+        "world_size_mm": [
+          22.0,
+          32.0,
+          24.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_CassetteFixedCleatL0"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        -61.0,
+        1190.0,
+        641.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P076",
+      "object": "BB_CassetteFixedCleatL1",
+      "description_en": "Cassette fixed cleat — BB_CassetteFixedCleatL1",
+      "description_pt_BR": "Apoio fixo do cassete — BB_CassetteFixedCleatL1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -72.0,
+          1174.0,
+          789.0,
+          -50.0,
+          1206.0,
+          813.0
+        ],
+        "world_size_mm": [
+          22.0,
+          32.0,
+          24.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_CassetteFixedCleatL1"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        -61.0,
+        1190.0,
+        801.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P077",
+      "object": "BB_CassetteFixedCleatR0",
+      "description_en": "Cassette fixed cleat — BB_CassetteFixedCleatR0",
+      "description_pt_BR": "Apoio fixo do cassete — BB_CassetteFixedCleatR0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          650.0,
+          1174.0,
+          629.0,
+          672.0,
+          1206.0,
+          653.0
+        ],
+        "world_size_mm": [
+          22.0,
+          32.0,
+          24.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_CassetteFixedCleatR0"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        661.0,
+        1190.0,
+        641.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P078",
+      "object": "BB_CassetteFixedCleatR1",
+      "description_en": "Cassette fixed cleat — BB_CassetteFixedCleatR1",
+      "description_pt_BR": "Apoio fixo do cassete — BB_CassetteFixedCleatR1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          650.0,
+          1174.0,
+          789.0,
+          672.0,
+          1206.0,
+          813.0
+        ],
+        "world_size_mm": [
+          22.0,
+          32.0,
+          24.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_CassetteFixedCleatR1"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "11",
+      "parent_assembly": "lower_cassette",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        661.0,
+        1190.0,
+        801.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P079",
+      "object": "BB_DoorL",
+      "description_en": "Backbox rear door — BB_DoorL",
+      "description_pt_BR": "Porta traseira superior — BB_DoorL",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -52.0,
+          1310.1,
+          644.0,
+          299.0,
+          1322.1,
+          1272.0
+        ],
+        "world_size_mm": [
+          351.0,
+          12.0,
+          628.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DoorL"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "08",
+      "parent_assembly": "backbox_doors",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        123.5,
+        1316.1,
+        958.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P080",
+      "object": "BB_DoorR",
+      "description_en": "Backbox rear door — BB_DoorR",
+      "description_pt_BR": "Porta traseira superior — BB_DoorR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          301.0,
+          1310.1,
+          644.0,
+          652.0,
+          1322.1,
+          1272.0
+        ],
+        "world_size_mm": [
+          351.0,
+          12.0,
+          628.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_DoorR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "08",
+      "parent_assembly": "backbox_doors",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        476.5,
+        1316.1,
+        958.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P081",
+      "object": "BB_IntakeFilterFrameL",
+      "description_en": "Backbox intake filter frame — BB_IntakeFilterFrameL",
+      "description_pt_BR": "Quadro do filtro superior — BB_IntakeFilterFrameL",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 6,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          5.0,
+          1322.1,
+          688.0,
+          245.0,
+          1328.1,
+          788.0
+        ],
+        "world_size_mm": [
+          240.0,
+          6.0,
+          100.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_IntakeFilterFrameL"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        125.0,
+        1325.1,
+        738.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P082",
+      "object": "BB_IntakeFilterFrameR",
+      "description_en": "Backbox intake filter frame — BB_IntakeFilterFrameR",
+      "description_pt_BR": "Quadro do filtro superior — BB_IntakeFilterFrameR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 6,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          355.0,
+          1322.1,
+          688.0,
+          595.0,
+          1328.1,
+          788.0
+        ],
+        "world_size_mm": [
+          240.0,
+          6.0,
+          100.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_IntakeFilterFrameR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        475.0,
+        1325.1,
+        738.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P083",
+      "object": "BB_IntakeDownBaffleL",
+      "description_en": "Downward intake baffle assembly — BB_IntakeDownBaffleL",
+      "description_pt_BR": "Conjunto defletor inferior de ar — BB_IntakeDownBaffleL",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 6,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          9.0,
+          1268.1,
+          686.0,
+          241.0,
+          1310.1,
+          790.0
+        ],
+        "world_size_mm": [
+          232.0,
+          42.0,
+          104.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_IntakeDownBaffleL"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        125.0,
+        1289.1,
+        738.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P084",
+      "object": "BB_IntakeDownBaffleR",
+      "description_en": "Downward intake baffle assembly — BB_IntakeDownBaffleR",
+      "description_pt_BR": "Conjunto defletor inferior de ar — BB_IntakeDownBaffleR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 6,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          359.0,
+          1268.1,
+          686.0,
+          591.0,
+          1310.1,
+          790.0
+        ],
+        "world_size_mm": [
+          232.0,
+          42.0,
+          104.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_IntakeDownBaffleR"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        475.0,
+        1289.1,
+        738.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P085",
+      "object": "BB_HingeCleatL",
+      "description_en": "Continuous-hinge fixed cleat — BB_HingeCleatL",
+      "description_pt_BR": "Apoio fixo da dobradiça contínua — BB_HingeCleatL",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          -78.0,
+          1308.1,
+          644.0,
+          -55.0,
+          1322.1,
+          1272.0
+        ],
+        "world_size_mm": [
+          23.0,
+          14.0,
+          628.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_HingeCleatL"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "08",
+      "parent_assembly": "backbox_doors",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        -66.5,
+        1315.1,
+        958.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P086",
+      "object": "BB_HingeCleatR",
+      "description_en": "Continuous-hinge fixed cleat — BB_HingeCleatR",
+      "description_pt_BR": "Apoio fixo da dobradiça contínua — BB_HingeCleatR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": null,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          655.0,
+          1308.1,
+          644.0,
+          678.0,
+          1322.1,
+          1272.0
+        ],
+        "world_size_mm": [
+          23.0,
+          14.0,
+          628.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_HingeCleatR"
+      ],
+      "status": "CNC_COMPONENT_BREAKDOWN_HOLD",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "08",
+      "parent_assembly": "backbox_doors",
+      "notes": "Fused/stepped assembly needs explicit flatpack decomposition or CNC thickness plan; no new wood designed.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        666.5,
+        1315.1,
+        958.0
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P087",
+      "object": "BB_CenterAstragal",
+      "description_en": "Center overlap strip — BB_CenterAstragal",
+      "description_pt_BR": "Régua de sobreposição central — BB_CenterAstragal",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 12,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          282.0,
+          1296.1,
+          656.0,
+          318.0,
+          1308.1,
+          1260.0
+        ],
+        "world_size_mm": [
+          36.0,
+          12.0,
+          604.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_CenterAstragal"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "08",
+      "parent_assembly": "backbox_doors",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        300.0,
+        1302.1,
+        958.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P088",
+      "object": "BB_UprightLockLParkingPad0",
+      "description_en": "Lock parking lamination — BB_UprightLockLParkingPad0",
+      "description_pt_BR": "Lâmina do bloco de estacionamento — BB_UprightLockLParkingPad0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          160.0,
+          1252.0,
+          614.9,
+          210.0,
+          1284.0,
+          632.9
+        ],
+        "world_size_mm": [
+          50.0,
+          32.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_UprightLockLParkingPad0"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "07",
+      "parent_assembly": "backbox_upright_locks",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        185.0,
+        1268.0,
+        623.9
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P089",
+      "object": "BB_UprightLockLParkingPad1",
+      "description_en": "Lock parking lamination — BB_UprightLockLParkingPad1",
+      "description_pt_BR": "Lâmina do bloco de estacionamento — BB_UprightLockLParkingPad1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          160.0,
+          1252.0,
+          632.9,
+          210.0,
+          1284.0,
+          650.9
+        ],
+        "world_size_mm": [
+          50.0,
+          32.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_UprightLockLParkingPad1"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "07",
+      "parent_assembly": "backbox_upright_locks",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        185.0,
+        1268.0,
+        641.9
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P090",
+      "object": "BB_UprightLockRParkingPad0",
+      "description_en": "Lock parking lamination — BB_UprightLockRParkingPad0",
+      "description_pt_BR": "Lâmina do bloco de estacionamento — BB_UprightLockRParkingPad0",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          390.0,
+          1252.0,
+          614.9,
+          440.0,
+          1284.0,
+          632.9
+        ],
+        "world_size_mm": [
+          50.0,
+          32.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_UprightLockRParkingPad0"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "07",
+      "parent_assembly": "backbox_upright_locks",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        415.0,
+        1268.0,
+        623.9
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P091",
+      "object": "BB_UprightLockRParkingPad1",
+      "description_en": "Lock parking lamination — BB_UprightLockRParkingPad1",
+      "description_pt_BR": "Lâmina do bloco de estacionamento — BB_UprightLockRParkingPad1",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_thickness_mm": 18,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          390.0,
+          1252.0,
+          632.9,
+          440.0,
+          1284.0,
+          650.9
+        ],
+        "world_size_mm": [
+          50.0,
+          32.0,
+          18.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/play.FCStd",
+        "BB_UprightLockRParkingPad1"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "07",
+      "parent_assembly": "backbox_upright_locks",
+      "notes": "Load path or positive retention: premium class cannot be automatically downgraded.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        415.0,
+        1268.0,
+        641.9
+      ],
+      "installation_direction": null,
+      "service_removable": false,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P092",
+      "object": "BB_FanBlankL",
+      "description_en": "Interchangeable fan blank — BB_FanBlankL",
+      "description_pt_BR": "Tampa cega intercambiável da ventoinha — BB_FanBlankL",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 6,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          91.0,
+          1322.1,
+          1096.0,
+          219.0,
+          1328.1,
+          1224.0
+        ],
+        "world_size_mm": [
+          128.0,
+          6.0,
+          128.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/blank-fans.FCStd",
+        "BB_FanBlankL"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        155.0,
+        1325.1,
+        1160.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    },
+    {
+      "id": "P093",
+      "object": "BB_FanBlankR",
+      "description_en": "Interchangeable fan blank — BB_FanBlankR",
+      "description_pt_BR": "Tampa cega intercambiável da ventoinha — BB_FanBlankR",
+      "quantity": 1,
+      "unit": "CAD component",
+      "material": "plywood",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_thickness_mm": 6,
+      "nominal_dimensions": {
+        "world_bounds_mm": [
+          381.0,
+          1322.1,
+          1096.0,
+          509.0,
+          1328.1,
+          1224.0
+        ],
+        "world_size_mm": [
+          128.0,
+          6.0,
+          128.0
+        ],
+        "note": "Installed AABB, NOT nesting or stock dimensions; inclined/stepped parts require local profile extraction."
+      },
+      "source": [
+        "exports/generated/backbox-lock-integration-v32/blank-fans.FCStd",
+        "BB_FanBlankR"
+      ],
+      "status": "DESIGN_GEOMETRY_ONLY",
+      "measurement_required": true,
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "09",
+      "parent_assembly": "backbox_ventilation",
+      "notes": "Secondary substitution only after nesting trigger and quality/load/joint qualification.",
+      "price_BRL": null,
+      "installed_coordinate_xyz_mm": [
+        445.0,
+        1325.1,
+        1160.0
+      ],
+      "installation_direction": null,
+      "service_removable": true,
+      "normal_assembly_removable": null
+    }
+  ],
+  "solid_wood_stock": [
+    {
+      "id": "H01",
+      "object": "PF_WoodDowel",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "material": "sound straight hardwood; species and moisture unselected",
+      "quantity": 1,
+      "diameter_mm": 32,
+      "length_mm": 560,
+      "include_in_plywood_nesting": false,
+      "note": "Counted in required hardware BOM; do not double-count as plywood."
+    }
+  ],
+  "current_manufacturing_register": "exports/generated/solid-leg-v334/manufacturing-register.json",
+  "solid_leg_wood": {
+    "quantity": 4,
+    "family": "SW01",
+    "density_kg_m3": null,
+    "species": null,
+    "nominal_planning_density_kg_m3": 650,
+    "condition": "dry, straight, stable, knot-free; selected lot qualification required",
+    "CNC_required": false
+  }
+}

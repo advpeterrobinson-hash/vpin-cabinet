@@ -1,3 +1,5 @@
+V33.4 CURRENT:106 manufacturing pieces =102 CNC plywood +4 shop-made solid triangular leg blocks.62 families. Step16.1 glue-up retired; new02.0 registration/drilling occurs before floor/PCBase/Shelf1 closes access. All physical drilling/hardware/print qualification remains HOLD.
+
 V33.3: 19 stages /31steps geometrically screened; physical assembly and new continuous insertion paths remain UNVALIDATED. Assembly clips are schematic. [Per-step evidence](../exports/generated/assembly-v333/assembly-validation.json). [Play assembly](../exports/generated/viewer-v32/index.html?animation=assembly-02.1).
 
 # Assembly manual framework — V33.2
@@ -64,13 +66,13 @@ Pieces (each instance ×1): —
 
 [Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-01.1)
 
-Match every M-family and P-instance against the 130-piece register. Use the orientation cards: FACE A is the finished machining datum; FACE B receives no CNC. Keep mirrored parts labelled.
+Match every M-family and P-instance against the 106-piece register (102 CNC +4 shop-made). Use the orientation cards: FACE A is the finished machining datum; FACE B receives no CNC. Keep mirrored parts labelled.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
 **Faces:** FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 **Tools:** Clamps, square and measuring tools; selected drive/bit and depth stop for the listed hardware/finish only.
 
-**Checkpoint:** Count 130 pieces in 66 families. Do not mistake 93 installed assemblies for the cut-piece count.
+**Checkpoint:** Count 106 pieces in62 families. Do not mistake 93 installed assemblies for the cut-piece count.
 
 **HOLD:** Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
 
@@ -103,6 +105,22 @@ Pieces (each instance ×1): P001-Main (M001), P002-Main (M002), P003-Main (M003)
 |---|---|---|---|
 | F06 | Cabinet shell/floor/cleat joint fasteners | TBD — do not guess | PURCHASE_BEFORE_CNC |
 | G01 | Plywood joint adhesive | TBD — do not guess | PURCHASE_BEFORE_ASSEMBLY |
+
+### 02.0 — Position and qualify solid leg blocks before closing the shell
+
+[SCHEMATIC / ESQUEMÁTICO](../exports/generated/viewer-v32/index.html?animation=jig-fit)
+
+Shop-cut SW01 ×4 from dry, straight, stable knot-free solid wood:54×54×126mm square stock, then45° rip to the accepted triangular section. Check dimensions/squareness; register FL/FR/RL/RR to the documented cabinet datums. Before FLOOR, PC_BASE or SHELF_1 installation, fit the diagonal-face/top-stop jig, clamp, drill only with physically qualified hardware parameters, then test the real backing plate and bolts. Retain temporary support throughout.
+
+Diagonal backing face inward;126mm grain/height vertical. F uses14mm top spacer; R uses bare top stop. Front lower/upper axes42/100mm from bottom; rear28/86mm — reference only.
+
+**HOLD:** HOLD: real leg/backing/bolt pitch, diameter, drilling depth, selected drill and clamp envelope, printed registration and test bore.58mm vs57.15mm remains unresolved. No drilling through assembled shelves/floor; protect bore breakout and all neighboring surfaces.
+
+![SW01](../exports/generated/solid-leg-v334/01-solid-block.svg)
+
+![FL](../exports/generated/solid-leg-v334/02-FL-jig.svg)
+
+[FL / FR / RL / RR + STEP / STL /3MF](../exports/generated/solid-leg-v334/README.md)
 
 ### 02.1 — Dry-assemble sides and ends
 
@@ -687,7 +705,7 @@ Install the two fixed wood seats, inserts and removable retainer screws. The car
 
 **WAITING_FOR_PHYSICAL_MEASUREMENT** · Depends on: 02, 03
 
-Pieces (each instance ×1): P029-L1 (M019), P029-L2 (M019), P029-L3 (M020), P029-L4 (M019), P029-L5 (M019), P029-L6 (M021), P029-L7 (M019), P030-L1 (M019), P030-L2 (M019), P030-L3 (M020), P030-L4 (M019), P030-L5 (M019), P030-L6 (M021), P030-L7 (M019), P031-L1 (M019), P031-L2 (M021), P031-L3 (M019), P031-L4 (M019), P031-L5 (M022), P031-L6 (M023), P031-L7 (M019), P032-L1 (M019), P032-L2 (M021), P032-L3 (M019), P032-L4 (M019), P032-L5 (M022), P032-L6 (M023), P032-L7 (M019)
+Pieces: P029-Solid (SW01), P030-Solid (SW01), P031-Solid (SW01), P032-Solid (SW01)
 
 | ID | Hardware | Project quantity | Status |
 |---|---|---|---|
@@ -707,22 +725,6 @@ Pieces (each instance ×1): P029-L1 (M019), P029-L2 (M019), P029-L3 (M020), P029
 | H24 | Optional pinball button mechanical set | 8 | PURCHASE_BEFORE_CNC |
 | F40 | Button bracket mounting fasteners | TBD — do not guess | PURCHASE_BEFORE_CNC |
 | H26 | Optional mobility skate set | 1 | OPTIONAL |
-
-### 16.1 — Laminate real leg-block layers
-
-[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-16.1)
-
-Identify each seven-layer stack bottom L1 to top L7. Front L3/L6 carry bores; rear L2 carries the lower bore and L5/L6 share the upper bore. Preserve the five distinct manufacturing profiles.
-
-**Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
-**Faces:** FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
-**Tools:** Clamps, square and measuring tools; selected drive/bit and depth stop for the listed hardware/finish only.
-
-**Checkpoint:** HOLD diagonal drilling until the purchased leg plate/bolt pattern and a clamped drill guide are validated. Historical 58/57.15 mm disagreement is not resolved by this manual.
-
-**HOLD:** Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
-
-[Next-state CAD: EXPLODED DETAILED](../exports/generated/viewer-v32/index.html?manual=16&step=16.1&state=EXPLODED%20DETAILED&lang=en)
 
 ### 16.2 — Fit purchased legs and front interfaces
 
@@ -1487,369 +1489,33 @@ Fit/coupon HOLD: True
 
 [Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P028-Main&lang=en)
 
-### P029-L1 / M019
 
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L1.svg)
 
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
 
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
 
-BUILDER FINISH: none in the nominal operation audit.
 
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P029-L1&lang=en)
 
-### P029-L2 / M019
 
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L2.svg)
 
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
 
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
 
-BUILDER FINISH: none in the nominal operation audit.
 
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P029-L2&lang=en)
 
-### P029-L3 / M020
 
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L3.svg)
 
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
 
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
 
-- BUILDER FINISH: drill / countersink with selected bit, depth stop and qualified guide · P029-L3-R1 · FACE A datum [6.5, 17.500000000000007] mm. Do not enlarge sub-Ø4 pilots into Ø4 locators. Physical tool/hardware qualification required.
 
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P029-L3&lang=en)
 
-### P029-L4 / M019
 
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L4.svg)
 
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
 
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
 
-BUILDER FINISH: none in the nominal operation audit.
 
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P029-L4&lang=en)
 
-### P029-L5 / M019
 
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L5.svg)
 
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
 
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P029-L5&lang=en)
-
-### P029-L6 / M021
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L6.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-- BUILDER FINISH: drill / countersink with selected bit, depth stop and qualified guide · P029-L6-R1 · FACE A datum [2.5, 13.500000000000007] mm. Do not enlarge sub-Ø4 pilots into Ø4 locators. Physical tool/hardware qualification required.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P029-L6&lang=en)
-
-### P029-L7 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L7.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction -2.842170943040401e-14 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P029-L7&lang=en)
-
-### P030-L1 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L1.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 7.105427357601002e-15 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P030-L1&lang=en)
-
-### P030-L2 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L2.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P030-L2&lang=en)
-
-### P030-L3 / M020
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L3.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-- BUILDER FINISH: drill / countersink with selected bit, depth stop and qualified guide · P030-L3-R1 · FACE A datum [6.499999999994714, 17.500000000005286] mm. Do not enlarge sub-Ø4 pilots into Ø4 locators. Physical tool/hardware qualification required.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P030-L3&lang=en)
-
-### P030-L4 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L4.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P030-L4&lang=en)
-
-### P030-L5 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L5.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction -1.4210854715202004e-14 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P030-L5&lang=en)
-
-### P030-L6 / M021
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L6.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-- BUILDER FINISH: drill / countersink with selected bit, depth stop and qualified guide · P030-L6-R1 · FACE A datum [2.499999999994742, 13.500000000005315] mm. Do not enlarge sub-Ø4 pilots into Ø4 locators. Physical tool/hardware qualification required.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P030-L6&lang=en)
-
-### P030-L7 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L7.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P030-L7&lang=en)
-
-### P031-L1 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L1.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 7.105427357601002e-15 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P031-L1&lang=en)
-
-### P031-L2 / M021
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L2.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction -7.105427357601002e-15 mm.
-Fit/coupon HOLD: True
-
-- BUILDER FINISH: drill / countersink with selected bit, depth stop and qualified guide · P031-L2-R1 · FACE A datum [2.5, 13.500000000000007] mm. Do not enlarge sub-Ø4 pilots into Ø4 locators. Physical tool/hardware qualification required.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P031-L2&lang=en)
-
-### P031-L3 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L3.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P031-L3&lang=en)
-
-### P031-L4 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L4.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P031-L4&lang=en)
-
-### P031-L5 / M022
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L5.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-- BUILDER FINISH: drill / countersink with selected bit, depth stop and qualified guide · P031-L5-R1 · FACE A datum [0, 9.500000000000007] mm. Do not enlarge sub-Ø4 pilots into Ø4 locators. Physical tool/hardware qualification required.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P031-L5&lang=en)
-
-### P031-L6 / M023
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L6.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction -1.4210854715202004e-14 mm.
-Fit/coupon HOLD: True
-
-- BUILDER FINISH: drill / countersink with selected bit, depth stop and qualified guide · P031-L6-R1 · FACE A datum [16.5, 18.000000000000014] mm. Do not enlarge sub-Ø4 pilots into Ø4 locators. Physical tool/hardware qualification required.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P031-L6&lang=en)
-
-### P031-L7 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L7.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P031-L7&lang=en)
-
-### P032-L1 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L1.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 7.105427357601002e-15 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P032-L1&lang=en)
-
-### P032-L2 / M021
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L2.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-- BUILDER FINISH: drill / countersink with selected bit, depth stop and qualified guide · P032-L2-R1 · FACE A datum [2.499999999999994, 13.5] mm. Do not enlarge sub-Ø4 pilots into Ø4 locators. Physical tool/hardware qualification required.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P032-L2&lang=en)
-
-### P032-L3 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L3.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P032-L3&lang=en)
-
-### P032-L4 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L4.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P032-L4&lang=en)
-
-### P032-L5 / M022
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L5.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-- BUILDER FINISH: drill / countersink with selected bit, depth stop and qualified guide · P032-L5-R1 · FACE A datum [0, 9.5] mm. Do not enlarge sub-Ø4 pilots into Ø4 locators. Physical tool/hardware qualification required.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P032-L5&lang=en)
-
-### P032-L6 / M023
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L6.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction -2.842170943040401e-14 mm.
-Fit/coupon HOLD: True
-
-- BUILDER FINISH: drill / countersink with selected bit, depth stop and qualified guide · P032-L6-R1 · FACE A datum [16.500000000000007, 18.00000000000003] mm. Do not enlarge sub-Ø4 pilots into Ø4 locators. Physical tool/hardware qualification required.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P032-L6&lang=en)
-
-### P032-L7 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L7.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-CNC PROVIDED: outer contour; 0 CUT; 0 POCKET; face reduction 0.0 mm.
-Fit/coupon HOLD: True
-
-BUILDER FINISH: none in the nominal operation audit.
-
-[Exact axes, depths and operations](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspect member](../exports/generated/viewer-v32/index.html?part=P032-L7&lang=en)
 
 ### P033-Main / M024
 
@@ -2933,3 +2599,17 @@ BUILDER FINISH: none in the nominal operation audit.
 
 ---
 CERN-OHL-S-2.0 · Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet
+
+
+## SW01 — SHOP_MADE_SOLID_WOOD_PART ×4
+
+SHOP DATUM A: diagonal backing face. TOP stop is datum B. No CNC and no plywood layer stack.
+
+Shop-cut SW01 ×4 from dry, straight, stable knot-free solid wood:54×54×126mm square stock, then45° rip to the accepted triangular section. Check dimensions/squareness; register FL/FR/RL/RR to the documented cabinet datums. Before FLOOR, PC_BASE or SHELF_1 installation, fit the diagonal-face/top-stop jig, clamp, drill only with physically qualified hardware parameters, then test the real backing plate and bolts. Retain temporary support throughout.
+
+HOLD: real leg/backing/bolt pitch, diameter, drilling depth, selected drill and clamp envelope, printed registration and test bore.58mm vs57.15mm remains unresolved. No drilling through assembled shelves/floor; protect bore breakout and all neighboring surfaces.
+
+- P029-Solid / FL / SW01 ×1 — [CAD](../exports/generated/viewer-v32/index.html?part=P029-Solid)
+- P030-Solid / FR / SW01 ×1 — [CAD](../exports/generated/viewer-v32/index.html?part=P030-Solid)
+- P031-Solid / RL / SW01 ×1 — [CAD](../exports/generated/viewer-v32/index.html?part=P031-Solid)
+- P032-Solid / RR / SW01 ×1 — [CAD](../exports/generated/viewer-v32/index.html?part=P032-Solid)

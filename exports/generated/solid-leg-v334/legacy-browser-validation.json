@@ -1,0 +1,246 @@
+{
+  "pass": true,
+  "viewer_sha256": "d105b7d7885e54b2d6a9b4f7ef344d80ded19d2e018d54f47857c805486565aa",
+  "checks": [
+    {
+      "name": "English/original defaults",
+      "pass": true
+    },
+    {
+      "name": "Legacy Original palette assignments retained",
+      "pass": true
+    },
+    {
+      "name": "Detailed GPU objects are lazy",
+      "pass": true
+    },
+    {
+      "name": "18 independent visibility groups",
+      "pass": true
+    },
+    {
+      "name": "Closed doors do not show retracted tongues",
+      "pass": true
+    },
+    {
+      "name": "Interior hides complete playfield, supports and matrix",
+      "pass": true
+    },
+    {
+      "name": "Interior retains shell, shelves, PCBase, fan and SSF",
+      "pass": true
+    },
+    {
+      "name": "Hide playfield retains fixed supports",
+      "pass": true
+    },
+    {
+      "name": "Visibility action preserves camera",
+      "pass": true
+    },
+    {
+      "name": "Hide fixed supports",
+      "pass": true
+    },
+    {
+      "name": "Door-open state replaces closed latch meshes with saved retracted meshes",
+      "pass": true
+    },
+    {
+      "name": "Backbox interior exposes carrier and preserves cassette",
+      "pass": true
+    },
+    {
+      "name": "PLAYFIELD SERVICE 50° removes main glass and matrix",
+      "pass": true
+    },
+    {
+      "name": "PLAYFIELD LIFT-OUT removes main glass and matrix",
+      "pass": true
+    },
+    {
+      "name": "BACKBOX FOLD 45° removes main glass and matrix",
+      "pass": true
+    },
+    {
+      "name": "BACKBOX FOLD 45° retains populated backbox and correct prerequisites",
+      "pass": true
+    },
+    {
+      "name": "BACKBOX FOLD 90° removes main glass and matrix",
+      "pass": true
+    },
+    {
+      "name": "BACKBOX FOLD 90° retains populated backbox and correct prerequisites",
+      "pass": true
+    },
+    {
+      "name": "Unlocked state has parked left knob",
+      "pass": true
+    },
+    {
+      "name": "Detailed view uses all 106 real manufacturing pieces",
+      "pass": true
+    },
+    {
+      "name": "All 148 V33 catalog families represented honestly",
+      "pass": true
+    },
+    {
+      "name": "Wood-only exposes exactly 106 pieces",
+      "pass": true
+    },
+    {
+      "name": "Hardware-only excludes wood",
+      "pass": true
+    },
+    {
+      "name": "Playfield assembly scope",
+      "pass": true
+    },
+    {
+      "name": "4 solid leg blocks",
+      "pass": true
+    },
+    {
+      "name": "Eight actual intake-baffle pieces",
+      "pass": true
+    },
+    {
+      "name": "Glass-retainer cap and strip",
+      "pass": true
+    },
+    {
+      "name": "Hardware callout has ID and non-color edge outline",
+      "pass": true
+    },
+    {
+      "name": "Canonical SideL search",
+      "pass": true
+    },
+    {
+      "name": "Selected part metadata links M-family and route",
+      "pass": true
+    },
+    {
+      "name": "Search SideR",
+      "pass": true
+    },
+    {
+      "name": "Search T1",
+      "pass": true
+    },
+    {
+      "name": "Search S2",
+      "pass": true
+    },
+    {
+      "name": "Search BBFloor",
+      "pass": true
+    },
+    {
+      "name": "Search F01",
+      "pass": true
+    },
+    {
+      "name": "Search H11",
+      "pass": true
+    },
+    {
+      "name": "Search SW01",
+      "pass": true
+    },
+    {
+      "name": "Language/palette do not change geometry or visibility",
+      "pass": true
+    },
+    {
+      "name": "Legacy Accessible primary-control color retained",
+      "pass": true
+    },
+    {
+      "name": "PT-BR quick actions",
+      "pass": true
+    },
+    {
+      "name": "Accessible selection uses edges",
+      "pass": true
+    },
+    {
+      "name": "All visible touch targets at least 44 px",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Tablet has no horizontal page overflow",
+      "pass": true
+    },
+    {
+      "name": "Tablet full-width model toggle",
+      "pass": true
+    },
+    {
+      "name": "Manual step connects exact hardware quantity and face authority",
+      "pass": true
+    },
+    {
+      "name": "Manual normal-fold prerequisites",
+      "pass": true
+    },
+    {
+      "name": "PT-BR manual headings and instructions",
+      "pass": true
+    },
+    {
+      "name": "Portrait tablet no overflow",
+      "pass": true
+    },
+    {
+      "name": "Cumulative mechanical manual excludes optional electronics/fans",
+      "pass": true
+    },
+    {
+      "name": "Real touch-emulation quick action",
+      "pass": true
+    },
+    {
+      "name": "Touch full-screen inspection",
+      "pass": true
+    },
+    {
+      "name": "No browser runtime errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No HTTP requests; network disabled",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "load_ms": 1263,
+  "desktop": [
+    1600,
+    1050
+  ],
+  "tablets": [
+    [
+      1024,
+      1366
+    ],
+    [
+      834,
+      1194
+    ]
+  ],
+  "touch_target_min_px": 44,
+  "offline": true,
+  "network_requests": [],
+  "errors": [],
+  "stats": {
+    "gpuGeometryCount": 1129,
+    "renderTriangles": 223292,
+    "renderCalls": 219
+  },
+  "physical_tablet_fps_certified": false
+}

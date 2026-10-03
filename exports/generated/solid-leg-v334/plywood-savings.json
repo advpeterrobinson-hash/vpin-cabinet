@@ -1,0 +1,9 @@
+{
+  "retired_CNC_pieces": 28,
+  "old_plywood_volume_mm3": 707576.8694975884,
+  "finished_outer_area_saved_mm2": 40824.00000000005,
+  "projected_net_area_saved_mm2": 40824.000000000065,
+  "bounding_stock_area_saved_mm2": 81648,
+  "purchased_full_sheet_count_reduction": 0,
+  "note": "Finished contour saving is not a whole sheet saving; no production nesting."
+}

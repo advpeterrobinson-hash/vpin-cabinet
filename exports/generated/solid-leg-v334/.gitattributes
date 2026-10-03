@@ -1,0 +1,3 @@
+# OCCT serialization is checked by B-rep equivalence, not textual whitespace.
+*.brep -diff -text
+*.step -diff -text

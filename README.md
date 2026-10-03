@@ -1,3 +1,5 @@
+> CURRENT V33.4 manufacturing update: [solid leg blocks + drill jig](exports/generated/solid-leg-v334/README.md).102 CNC plywood pieces +4 shop-made solid blocks;106 pieces /62families. Installed geometry unchanged. CNC and final drilling remain BLOCKED. [Offline viewer](exports/generated/viewer-v32/index.html).
+
 # Virtual Pinball Cabinet
 
 > CURRENT V32 supersedes historical mechanism/PC/mobility descriptions below: 600 mm cabinet; Ø32 wooden dowel with open plywood cradles, no gas struts or steel props; low fixed PCBase, no drawer; external removable skating devices only, no integrated/retractable wheels. Accepted notch/fan stage: HEAD 8074880. Hinge/matrix positioning study: [accepted reference](docs/MATRIX_HINGE_STUDY_V32.md).

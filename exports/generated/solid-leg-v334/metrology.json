@@ -1,0 +1,358 @@
+[
+  {
+    "assembly_id": "P029",
+    "side": "FL",
+    "source_component": "CandidateLegBlockFL",
+    "family": "SW01",
+    "raw_square_stock_mm": [
+      54,
+      54,
+      126
+    ],
+    "finished_section": "RIGHT_ISOSCELES_TRIANGLE_45_DEG_SHOP_RIP",
+    "triangular_blank_volume_mm3": 183708.0,
+    "finished_reference_volume_mm3": 176894.2173821526,
+    "square_stock_excess_over_blank_mm3": 183708.0,
+    "old_lamination_union_difference_mm3": 0.0,
+    "original_difference_mm3": 0.0,
+    "axes": [
+      {
+        "axis_world": [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          -7.071067811865475,
+          -7.071067811865475,
+          96.0
+        ],
+        "entry_on_diagonal_world": [
+          45.0,
+          45.0,
+          96.0
+        ],
+        "block_exit_corner_world": [
+          18.0,
+          18.0,
+          96.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 42.0,
+        "depth_from_top_mm": 84.0
+      },
+      {
+        "axis_world": [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          -7.071067811865475,
+          -7.071067811865475,
+          154.0
+        ],
+        "entry_on_diagonal_world": [
+          45.0,
+          45.0,
+          154.0
+        ],
+        "block_exit_corner_world": [
+          18.0,
+          18.0,
+          154.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 100.0,
+        "depth_from_top_mm": 26.0
+      }
+    ],
+    "local_to_installed_matrix": [
+      1.0,
+      0.0,
+      0.0,
+      18.0,
+      0.0,
+      1.0,
+      0.0,
+      18.0,
+      0.0,
+      0.0,
+      1.0,
+      54.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "assembly_id": "P030",
+    "side": "FR",
+    "source_component": "CandidateLegBlockFR",
+    "family": "SW01",
+    "raw_square_stock_mm": [
+      54,
+      54,
+      126
+    ],
+    "finished_section": "RIGHT_ISOSCELES_TRIANGLE_45_DEG_SHOP_RIP",
+    "triangular_blank_volume_mm3": 183708.0,
+    "finished_reference_volume_mm3": 176894.21738214258,
+    "square_stock_excess_over_blank_mm3": 183708.0,
+    "old_lamination_union_difference_mm3": 0.0,
+    "original_difference_mm3": 0.0,
+    "axes": [
+      {
+        "axis_world": [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          607.0710678118654,
+          -7.071067811865475,
+          96.0
+        ],
+        "entry_on_diagonal_world": [
+          555.0,
+          45.0,
+          96.0
+        ],
+        "block_exit_corner_world": [
+          582.0,
+          18.0,
+          96.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 42.0,
+        "depth_from_top_mm": 84.0
+      },
+      {
+        "axis_world": [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          607.0710678118654,
+          -7.071067811865475,
+          154.0
+        ],
+        "entry_on_diagonal_world": [
+          555.0,
+          45.0,
+          154.0
+        ],
+        "block_exit_corner_world": [
+          582.0,
+          18.0,
+          154.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 100.0,
+        "depth_from_top_mm": 26.0
+      }
+    ],
+    "local_to_installed_matrix": [
+      -1.0,
+      0.0,
+      0.0,
+      582.0,
+      0.0,
+      1.0,
+      0.0,
+      18.0,
+      0.0,
+      0.0,
+      1.0,
+      54.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "assembly_id": "P031",
+    "side": "RL",
+    "source_component": "CandidateLegBlockRL",
+    "family": "SW01",
+    "raw_square_stock_mm": [
+      54,
+      54,
+      126
+    ],
+    "finished_section": "RIGHT_ISOSCELES_TRIANGLE_45_DEG_SHOP_RIP",
+    "triangular_blank_volume_mm3": 183708.0,
+    "finished_reference_volume_mm3": 176894.21738093067,
+    "square_stock_excess_over_blank_mm3": 183708.0,
+    "old_lamination_union_difference_mm3": 0.0,
+    "original_difference_mm3": 0.0,
+    "axes": [
+      {
+        "axis_world": [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          -7.071067811865475,
+          1315.1710678118654,
+          64.0
+        ],
+        "entry_on_diagonal_world": [
+          45.0,
+          1263.1,
+          64.0
+        ],
+        "block_exit_corner_world": [
+          18.0,
+          1290.1,
+          64.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 28.0,
+        "depth_from_top_mm": 98.0
+      },
+      {
+        "axis_world": [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          -7.071067811865475,
+          1315.1710678118654,
+          122.0
+        ],
+        "entry_on_diagonal_world": [
+          45.0,
+          1263.1,
+          122.0
+        ],
+        "block_exit_corner_world": [
+          18.0,
+          1290.1,
+          122.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 86.0,
+        "depth_from_top_mm": 40.0
+      }
+    ],
+    "local_to_installed_matrix": [
+      1.0,
+      0.0,
+      0.0,
+      18.0,
+      0.0,
+      -1.0,
+      0.0,
+      1290.1,
+      0.0,
+      0.0,
+      1.0,
+      36.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "assembly_id": "P032",
+    "side": "RR",
+    "source_component": "CandidateLegBlockRR",
+    "family": "SW01",
+    "raw_square_stock_mm": [
+      54,
+      54,
+      126
+    ],
+    "finished_section": "RIGHT_ISOSCELES_TRIANGLE_45_DEG_SHOP_RIP",
+    "triangular_blank_volume_mm3": 183708.0,
+    "finished_reference_volume_mm3": 176894.21738092648,
+    "square_stock_excess_over_blank_mm3": 183708.0,
+    "old_lamination_union_difference_mm3": 0.0,
+    "original_difference_mm3": 0.0,
+    "axes": [
+      {
+        "axis_world": [
+          -0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          607.0710678118654,
+          1315.1710678118654,
+          64.0
+        ],
+        "entry_on_diagonal_world": [
+          555.0,
+          1263.1,
+          64.0
+        ],
+        "block_exit_corner_world": [
+          582.0,
+          1290.1,
+          64.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 28.0,
+        "depth_from_top_mm": 98.0
+      },
+      {
+        "axis_world": [
+          -0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          607.0710678118654,
+          1315.1710678118654,
+          122.0
+        ],
+        "entry_on_diagonal_world": [
+          555.0,
+          1263.1,
+          122.0
+        ],
+        "block_exit_corner_world": [
+          582.0,
+          1290.1,
+          122.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 86.0,
+        "depth_from_top_mm": 40.0
+      }
+    ],
+    "local_to_installed_matrix": [
+      -1.0,
+      0.0,
+      0.0,
+      582.0,
+      0.0,
+      -1.0,
+      0.0,
+      1290.1,
+      0.0,
+      0.0,
+      1.0,
+      36.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+]

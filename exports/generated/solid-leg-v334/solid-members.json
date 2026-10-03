@@ -1,0 +1,750 @@
+[
+  {
+    "manufacturing_part_id": "SW01",
+    "instance_id": "P029-Solid",
+    "source_component": "CandidateLegBlockFL",
+    "assembly_id": "P029",
+    "description_en": "Solid-wood leg corner block FL",
+    "description_pt_BR": "Bloco maci\u00e7o do p\u00e9 FL",
+    "material_class": "STRUCTURAL_SOLID_WOOD",
+    "nominal_stock_thickness_mm": null,
+    "finished_reference_thickness_mm": 126,
+    "quantity": 1,
+    "machining_face": "SHOP_DATUM_A_DIAGONAL",
+    "opposite_face": "NO CNC",
+    "face_A_outward_world": [
+      0.7071067811865475,
+      0.7071067811865475,
+      0
+    ],
+    "local_to_canonical_matrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_to_installed_matrix": [
+      1.0,
+      0.0,
+      0.0,
+      18.0,
+      0.0,
+      1.0,
+      0.0,
+      18.0,
+      0.0,
+      0.0,
+      1.0,
+      54.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+    "finished_xy_bounds_mm": [
+      0,
+      0,
+      54,
+      54
+    ],
+    "finished_xy_size_mm": [
+      54,
+      54
+    ],
+    "cnc_outer_access_brep": "exports/generated/flatpack-v331/brep/P029-L1-cnc_outline.brep",
+    "outer_contour_brep": "exports/generated/flatpack-v331/brep/P029-L1-outline.brep",
+    "finished_member_brep": "exports/generated/solid-leg-v334/P029-solid-reference.brep",
+    "through_cuts": [],
+    "pockets": [],
+    "reference_features": [
+      {
+        "axis_world": [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          -7.071067811865475,
+          -7.071067811865475,
+          96.0
+        ],
+        "entry_on_diagonal_world": [
+          45.0,
+          45.0,
+          96.0
+        ],
+        "block_exit_corner_world": [
+          18.0,
+          18.0,
+          96.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 42.0,
+        "depth_from_top_mm": 84.0
+      },
+      {
+        "axis_world": [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          -7.071067811865475,
+          -7.071067811865475,
+          154.0
+        ],
+        "entry_on_diagonal_world": [
+          45.0,
+          45.0,
+          154.0
+        ],
+        "block_exit_corner_world": [
+          18.0,
+          18.0,
+          154.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 100.0,
+        "depth_from_top_mm": 26.0
+      }
+    ],
+    "manual_finish": [
+      {
+        "operation": "SHOP_CUT_SQUARE_STOCK_AND_45_DEG_RIP",
+        "instruction": "Shop supplies triangular prism; ordinary builder tools do not make the long rip."
+      },
+      {
+        "operation": "JIG_GUIDED_DRILLING_HOLD",
+        "instruction": "Measure real leg/backing/bolt hardware; qualify print/bushings and hand drill before drilling. Use selected parameters, not reference58mm by default."
+      }
+    ],
+    "blockers": [],
+    "manufacturing_status": "SHOP_MADE_SOLID_WOOD_PART",
+    "facing_reduction_mm": 0,
+    "fit_dependent": true,
+    "coupon_dependent": false,
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "corner_classes": [
+      "B_OPEN_EDGE_NO_RELIEF_NEEDED"
+    ],
+    "grain": "long-axis grain preferred; use 0/180 only in conservative preliminary layout; structural direction qualification remains",
+    "rotation_90_allowed_geometrically": true,
+    "arbitrary_rotation_90_for_packing": false,
+    "engraving": {
+      "optional": true,
+      "face": "FACE_A",
+      "text": "M019",
+      "depth_mm": null,
+      "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+      "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+    },
+    "opposite_face_cnc": false,
+    "mirror_relation": "Exact identical families consolidated by Boolean comparison, including in-plane rotations for leg layers; local-to-canonical and local-to-installed matrices preserve FACE_A. No CNC flip.",
+    "corner_policy": "A radius >=2 / B open; square mating corners C relief proposal or D coupon HOLD, otherwise hand-square exact reference. No blanket dogbones.",
+    "projected_area_mm2": 1458.0,
+    "volume_mm3": 176894.2173821526,
+    "blank_outside_error_mm3": 0.0,
+    "cnc_vs_finished_difference_before_manual_mm3": 0.0,
+    "cnc_stage_brep": "exports/generated/flatpack-v331/brep/P029-L1-cnc_stage.brep",
+    "review_outline": [
+      [
+        0,
+        0
+      ],
+      [
+        54,
+        0
+      ],
+      [
+        0,
+        54
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "source": [
+      "exports/generated/backbox-lock-integration-v32/play.FCStd",
+      "CandidateLegBlockFL"
+    ],
+    "joinery": "One solid triangular prism; no plywood lamination glue-up. Cabinet attachment qualification unchanged.",
+    "manufacturing_class": "SHOP_MADE_SOLID_WOOD_PART"
+  },
+  {
+    "manufacturing_part_id": "SW01",
+    "instance_id": "P030-Solid",
+    "source_component": "CandidateLegBlockFR",
+    "assembly_id": "P030",
+    "description_en": "Solid-wood leg corner block FR",
+    "description_pt_BR": "Bloco maci\u00e7o do p\u00e9 FR",
+    "material_class": "STRUCTURAL_SOLID_WOOD",
+    "nominal_stock_thickness_mm": null,
+    "finished_reference_thickness_mm": 126,
+    "quantity": 1,
+    "machining_face": "SHOP_DATUM_A_DIAGONAL",
+    "opposite_face": "NO CNC",
+    "face_A_outward_world": [
+      -0.7071067811865475,
+      0.7071067811865475,
+      0
+    ],
+    "local_to_canonical_matrix": [
+      2.220446049250313e-16,
+      -1.0,
+      0.0,
+      54.000000000000064,
+      1.0,
+      2.220446049250313e-16,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_to_installed_matrix": [
+      -1.0,
+      0.0,
+      0.0,
+      582.0,
+      0.0,
+      1.0,
+      0.0,
+      18.0,
+      0.0,
+      0.0,
+      1.0,
+      54.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+    "finished_xy_bounds_mm": [
+      0,
+      0,
+      54,
+      54
+    ],
+    "finished_xy_size_mm": [
+      54,
+      54
+    ],
+    "cnc_outer_access_brep": "exports/generated/flatpack-v331/brep/P030-L1-cnc_outline.brep",
+    "outer_contour_brep": "exports/generated/flatpack-v331/brep/P030-L1-outline.brep",
+    "finished_member_brep": "exports/generated/solid-leg-v334/P030-solid-reference.brep",
+    "through_cuts": [],
+    "pockets": [],
+    "reference_features": [
+      {
+        "axis_world": [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          607.0710678118654,
+          -7.071067811865475,
+          96.0
+        ],
+        "entry_on_diagonal_world": [
+          555.0,
+          45.0,
+          96.0
+        ],
+        "block_exit_corner_world": [
+          582.0,
+          18.0,
+          96.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 42.0,
+        "depth_from_top_mm": 84.0
+      },
+      {
+        "axis_world": [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          607.0710678118654,
+          -7.071067811865475,
+          154.0
+        ],
+        "entry_on_diagonal_world": [
+          555.0,
+          45.0,
+          154.0
+        ],
+        "block_exit_corner_world": [
+          582.0,
+          18.0,
+          154.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 100.0,
+        "depth_from_top_mm": 26.0
+      }
+    ],
+    "manual_finish": [
+      {
+        "operation": "SHOP_CUT_SQUARE_STOCK_AND_45_DEG_RIP",
+        "instruction": "Shop supplies triangular prism; ordinary builder tools do not make the long rip."
+      },
+      {
+        "operation": "JIG_GUIDED_DRILLING_HOLD",
+        "instruction": "Measure real leg/backing/bolt hardware; qualify print/bushings and hand drill before drilling. Use selected parameters, not reference58mm by default."
+      }
+    ],
+    "blockers": [],
+    "manufacturing_status": "SHOP_MADE_SOLID_WOOD_PART",
+    "facing_reduction_mm": 0,
+    "fit_dependent": true,
+    "coupon_dependent": false,
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "corner_classes": [
+      "B_OPEN_EDGE_NO_RELIEF_NEEDED"
+    ],
+    "grain": "long-axis grain preferred; use 0/180 only in conservative preliminary layout; structural direction qualification remains",
+    "rotation_90_allowed_geometrically": true,
+    "arbitrary_rotation_90_for_packing": false,
+    "engraving": {
+      "optional": true,
+      "face": "FACE_A",
+      "text": "M019",
+      "depth_mm": null,
+      "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+      "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+    },
+    "opposite_face_cnc": false,
+    "mirror_relation": "Exact identical families consolidated by Boolean comparison, including in-plane rotations for leg layers; local-to-canonical and local-to-installed matrices preserve FACE_A. No CNC flip.",
+    "corner_policy": "A radius >=2 / B open; square mating corners C relief proposal or D coupon HOLD, otherwise hand-square exact reference. No blanket dogbones.",
+    "projected_area_mm2": 1458.0,
+    "volume_mm3": 176894.21738214258,
+    "blank_outside_error_mm3": 0.0,
+    "cnc_vs_finished_difference_before_manual_mm3": 0.0,
+    "cnc_stage_brep": "exports/generated/flatpack-v331/brep/P030-L1-cnc_stage.brep",
+    "review_outline": [
+      [
+        0,
+        0
+      ],
+      [
+        54,
+        0
+      ],
+      [
+        0,
+        54
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "source": [
+      "exports/generated/backbox-lock-integration-v32/play.FCStd",
+      "CandidateLegBlockFR"
+    ],
+    "joinery": "One solid triangular prism; no plywood lamination glue-up. Cabinet attachment qualification unchanged.",
+    "manufacturing_class": "SHOP_MADE_SOLID_WOOD_PART"
+  },
+  {
+    "manufacturing_part_id": "SW01",
+    "instance_id": "P031-Solid",
+    "source_component": "CandidateLegBlockRL",
+    "assembly_id": "P031",
+    "description_en": "Solid-wood leg corner block RL",
+    "description_pt_BR": "Bloco maci\u00e7o do p\u00e9 RL",
+    "material_class": "STRUCTURAL_SOLID_WOOD",
+    "nominal_stock_thickness_mm": null,
+    "finished_reference_thickness_mm": 126,
+    "quantity": 1,
+    "machining_face": "SHOP_DATUM_A_DIAGONAL",
+    "opposite_face": "NO CNC",
+    "face_A_outward_world": [
+      0.7071067811865475,
+      -0.7071067811865475,
+      0
+    ],
+    "local_to_canonical_matrix": [
+      -2.220446049250313e-16,
+      1.0,
+      0.0,
+      2.1316282072803006e-14,
+      -1.0,
+      -2.220446049250313e-16,
+      0.0,
+      54.000000000000064,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_to_installed_matrix": [
+      1.0,
+      0.0,
+      0.0,
+      18.0,
+      0.0,
+      -1.0,
+      0.0,
+      1290.1,
+      0.0,
+      0.0,
+      1.0,
+      36.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+    "finished_xy_bounds_mm": [
+      0,
+      0,
+      54,
+      54
+    ],
+    "finished_xy_size_mm": [
+      54,
+      54
+    ],
+    "cnc_outer_access_brep": "exports/generated/flatpack-v331/brep/P031-L1-cnc_outline.brep",
+    "outer_contour_brep": "exports/generated/flatpack-v331/brep/P031-L1-outline.brep",
+    "finished_member_brep": "exports/generated/solid-leg-v334/P031-solid-reference.brep",
+    "through_cuts": [],
+    "pockets": [],
+    "reference_features": [
+      {
+        "axis_world": [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          -7.071067811865475,
+          1315.1710678118654,
+          64.0
+        ],
+        "entry_on_diagonal_world": [
+          45.0,
+          1263.1,
+          64.0
+        ],
+        "block_exit_corner_world": [
+          18.0,
+          1290.1,
+          64.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 28.0,
+        "depth_from_top_mm": 98.0
+      },
+      {
+        "axis_world": [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          -7.071067811865475,
+          1315.1710678118654,
+          122.0
+        ],
+        "entry_on_diagonal_world": [
+          45.0,
+          1263.1,
+          122.0
+        ],
+        "block_exit_corner_world": [
+          18.0,
+          1290.1,
+          122.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 86.0,
+        "depth_from_top_mm": 40.0
+      }
+    ],
+    "manual_finish": [
+      {
+        "operation": "SHOP_CUT_SQUARE_STOCK_AND_45_DEG_RIP",
+        "instruction": "Shop supplies triangular prism; ordinary builder tools do not make the long rip."
+      },
+      {
+        "operation": "JIG_GUIDED_DRILLING_HOLD",
+        "instruction": "Measure real leg/backing/bolt hardware; qualify print/bushings and hand drill before drilling. Use selected parameters, not reference58mm by default."
+      }
+    ],
+    "blockers": [],
+    "manufacturing_status": "SHOP_MADE_SOLID_WOOD_PART",
+    "facing_reduction_mm": 0,
+    "fit_dependent": true,
+    "coupon_dependent": false,
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "corner_classes": [
+      "B_OPEN_EDGE_NO_RELIEF_NEEDED"
+    ],
+    "grain": "long-axis grain preferred; use 0/180 only in conservative preliminary layout; structural direction qualification remains",
+    "rotation_90_allowed_geometrically": true,
+    "arbitrary_rotation_90_for_packing": false,
+    "engraving": {
+      "optional": true,
+      "face": "FACE_A",
+      "text": "M019",
+      "depth_mm": null,
+      "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+      "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+    },
+    "opposite_face_cnc": false,
+    "mirror_relation": "Exact identical families consolidated by Boolean comparison, including in-plane rotations for leg layers; local-to-canonical and local-to-installed matrices preserve FACE_A. No CNC flip.",
+    "corner_policy": "A radius >=2 / B open; square mating corners C relief proposal or D coupon HOLD, otherwise hand-square exact reference. No blanket dogbones.",
+    "projected_area_mm2": 1458.0,
+    "volume_mm3": 176894.21738093067,
+    "blank_outside_error_mm3": 0.0,
+    "cnc_vs_finished_difference_before_manual_mm3": 0.0,
+    "cnc_stage_brep": "exports/generated/flatpack-v331/brep/P031-L1-cnc_stage.brep",
+    "review_outline": [
+      [
+        0,
+        0
+      ],
+      [
+        54,
+        0
+      ],
+      [
+        0,
+        54
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "source": [
+      "exports/generated/backbox-lock-integration-v32/play.FCStd",
+      "CandidateLegBlockRL"
+    ],
+    "joinery": "One solid triangular prism; no plywood lamination glue-up. Cabinet attachment qualification unchanged.",
+    "manufacturing_class": "SHOP_MADE_SOLID_WOOD_PART"
+  },
+  {
+    "manufacturing_part_id": "SW01",
+    "instance_id": "P032-Solid",
+    "source_component": "CandidateLegBlockRR",
+    "assembly_id": "P032",
+    "description_en": "Solid-wood leg corner block RR",
+    "description_pt_BR": "Bloco maci\u00e7o do p\u00e9 RR",
+    "material_class": "STRUCTURAL_SOLID_WOOD",
+    "nominal_stock_thickness_mm": null,
+    "finished_reference_thickness_mm": 126,
+    "quantity": 1,
+    "machining_face": "SHOP_DATUM_A_DIAGONAL",
+    "opposite_face": "NO CNC",
+    "face_A_outward_world": [
+      -0.7071067811865475,
+      -0.7071067811865475,
+      0
+    ],
+    "local_to_canonical_matrix": [
+      -1.0,
+      -1.2246467991473532e-16,
+      0.0,
+      53.99999999999991,
+      1.2246467991473532e-16,
+      -1.0,
+      0.0,
+      54.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_to_installed_matrix": [
+      -1.0,
+      0.0,
+      0.0,
+      582.0,
+      0.0,
+      -1.0,
+      0.0,
+      1290.1,
+      0.0,
+      0.0,
+      1.0,
+      36.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+    "finished_xy_bounds_mm": [
+      0,
+      0,
+      54,
+      54
+    ],
+    "finished_xy_size_mm": [
+      54,
+      54
+    ],
+    "cnc_outer_access_brep": "exports/generated/flatpack-v331/brep/P032-L1-cnc_outline.brep",
+    "outer_contour_brep": "exports/generated/flatpack-v331/brep/P032-L1-outline.brep",
+    "finished_member_brep": "exports/generated/solid-leg-v334/P032-solid-reference.brep",
+    "through_cuts": [],
+    "pockets": [],
+    "reference_features": [
+      {
+        "axis_world": [
+          -0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          607.0710678118654,
+          1315.1710678118654,
+          64.0
+        ],
+        "entry_on_diagonal_world": [
+          555.0,
+          1263.1,
+          64.0
+        ],
+        "block_exit_corner_world": [
+          582.0,
+          1290.1,
+          64.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 28.0,
+        "depth_from_top_mm": 98.0
+      },
+      {
+        "axis_world": [
+          -0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        "point_world": [
+          607.0710678118654,
+          1315.1710678118654,
+          122.0
+        ],
+        "entry_on_diagonal_world": [
+          555.0,
+          1263.1,
+          122.0
+        ],
+        "block_exit_corner_world": [
+          582.0,
+          1290.1,
+          122.0
+        ],
+        "nominal_block_travel_mm": 38.18376618407357,
+        "diameter_mm": 11.0,
+        "height_from_bottom_mm": 86.0,
+        "depth_from_top_mm": 40.0
+      }
+    ],
+    "manual_finish": [
+      {
+        "operation": "SHOP_CUT_SQUARE_STOCK_AND_45_DEG_RIP",
+        "instruction": "Shop supplies triangular prism; ordinary builder tools do not make the long rip."
+      },
+      {
+        "operation": "JIG_GUIDED_DRILLING_HOLD",
+        "instruction": "Measure real leg/backing/bolt hardware; qualify print/bushings and hand drill before drilling. Use selected parameters, not reference58mm by default."
+      }
+    ],
+    "blockers": [],
+    "manufacturing_status": "SHOP_MADE_SOLID_WOOD_PART",
+    "facing_reduction_mm": 0,
+    "fit_dependent": true,
+    "coupon_dependent": false,
+    "fit_expression": "measured_thickness_mm + selected_coupon_clearance_mm; laminate heights = sum(actual layer thicknesses), dependent panel widths regenerated from fixed outside datums",
+    "corner_classes": [
+      "B_OPEN_EDGE_NO_RELIEF_NEEDED"
+    ],
+    "grain": "long-axis grain preferred; use 0/180 only in conservative preliminary layout; structural direction qualification remains",
+    "rotation_90_allowed_geometrically": true,
+    "arbitrary_rotation_90_for_packing": false,
+    "engraving": {
+      "optional": true,
+      "face": "FACE_A",
+      "text": "M019",
+      "depth_mm": null,
+      "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+      "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+    },
+    "opposite_face_cnc": false,
+    "mirror_relation": "Exact identical families consolidated by Boolean comparison, including in-plane rotations for leg layers; local-to-canonical and local-to-installed matrices preserve FACE_A. No CNC flip.",
+    "corner_policy": "A radius >=2 / B open; square mating corners C relief proposal or D coupon HOLD, otherwise hand-square exact reference. No blanket dogbones.",
+    "projected_area_mm2": 1458.0,
+    "volume_mm3": 176894.21738092648,
+    "blank_outside_error_mm3": 0.0,
+    "cnc_vs_finished_difference_before_manual_mm3": 0.0,
+    "cnc_stage_brep": "exports/generated/flatpack-v331/brep/P032-L1-cnc_stage.brep",
+    "review_outline": [
+      [
+        0,
+        0
+      ],
+      [
+        54,
+        0
+      ],
+      [
+        0,
+        54
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "source": [
+      "exports/generated/backbox-lock-integration-v32/play.FCStd",
+      "CandidateLegBlockRR"
+    ],
+    "joinery": "One solid triangular prism; no plywood lamination glue-up. Cabinet attachment qualification unchanged.",
+    "manufacturing_class": "SHOP_MADE_SOLID_WOOD_PART"
+  }
+]

@@ -1,3 +1,5 @@
+V33.4 ATUAL:106 peças =102 de compensado CNC +4 blocos maciços triangulares de marcenaria.62famílias. Colagem16.1 substituída pelo registro/furação02.0 antes de piso/PCBase/prateleira1 obstruírem acesso. Furação/ferragens/impressão físicas permanecem PENDENTES.
+
 V33.3: 19 etapas /31passos auditados geometricamente; montagem física e trajetórias contínuas novas NÃO validadas. Animações de montagem são esquemáticas. [Resultados por passo](../exports/generated/assembly-v333/assembly-validation.json). [Reproduzir montagem](../exports/generated/viewer-v32/index.html?animation=assembly-02.1&lang=pt-BR).
 
 # Roteiro do manual de montagem — V33.2
@@ -64,13 +66,13 @@ Peças (cada instância ×1): —
 
 [Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-01.1&lang=pt-BR)
 
-Confira cada família M e instância P com o registro de 130 peças. Use as fichas de orientação: FACE A é a referência acabada de usinagem; FACE B não recebe CNC. Mantenha as peças espelhadas identificadas.
+Confira cada família M e instância P com o registro de106 peças (102 CNC +4 de marcenaria). Use as fichas de orientação: FACE A é a referência acabada de usinagem; FACE B não recebe CNC. Mantenha as peças espelhadas identificadas.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
 **Faces:** FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 **Ferramentas:** Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitador somente para as ferragens/acabamentos listados.
 
-**Verificação:** Conte 130 peças em 66 famílias. Não confunda as 93 montagens instaladas com a quantidade de peças cortadas.
+**Verificação:** Conte 106 peças em62 famílias. Não confunda as 93 montagens instaladas com a quantidade de peças cortadas.
 
 **PENDÊNCIA:** Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
 
@@ -103,6 +105,22 @@ Peças (cada instância ×1): P001-Main (M001), P002-Main (M002), P003-Main (M00
 |---|---|---|---|
 | F06 | Fixadores das juntas da caixa, fundo e sarrafos | INDEFINIDA — não estimar | PURCHASE_BEFORE_CNC |
 | G01 | Adesivo para juntas de compensado | INDEFINIDA — não estimar | PURCHASE_BEFORE_ASSEMBLY |
+
+### 02.0 — Posicione e qualifique os blocos maciços antes de fechar a caixa
+
+[SCHEMATIC / ESQUEMÁTICO](../exports/generated/viewer-v32/index.html?animation=jig-fit)
+
+Encomende SW01 ×4 de madeira maciça seca, reta, estável e sem nós: material quadrado54×54×126mm, depois corte longitudinal45° para a seção triangular aceita. Confira dimensões/esquadro; posicione FL/FR/RL/RR nos referenciais documentados. Antes de instalar FLOOR, PC_BASE ou SHELF_1, encaixe o gabarito na diagonal/topo, prenda, fure somente com parâmetros fisicamente qualificados e teste a chapa e parafusos reais. Mantenha apoio temporário.
+
+Face diagonal para dentro; altura/fibras126mm na vertical. F usa espaçador superior14mm; R usa batente sem espaçador. Eixos frontais42/100mm da base; traseiros28/86mm — somente referência.
+
+**HOLD:** PENDENTE: passo/diâmetro/profundidade reais, envelope da furadeira/grampos, registro impresso e furo de teste.58mm versus57,15mm continua pendente. Não fure através das prateleiras/piso montados; proteja saída e superfícies vizinhas.
+
+![SW01](../exports/generated/solid-leg-v334/01-solid-block.svg)
+
+![FL](../exports/generated/solid-leg-v334/02-FL-jig.svg)
+
+[FL / FR / RL / RR + STEP / STL /3MF](../exports/generated/solid-leg-v334/README.md)
 
 ### 02.1 — Monte laterais e extremidades a seco
 
@@ -687,7 +705,7 @@ Instale os dois assentos fixos de madeira, insertos e parafusos removíveis de r
 
 **WAITING_FOR_PHYSICAL_MEASUREMENT** · Depende de: 02, 03
 
-Peças (cada instância ×1): P029-L1 (M019), P029-L2 (M019), P029-L3 (M020), P029-L4 (M019), P029-L5 (M019), P029-L6 (M021), P029-L7 (M019), P030-L1 (M019), P030-L2 (M019), P030-L3 (M020), P030-L4 (M019), P030-L5 (M019), P030-L6 (M021), P030-L7 (M019), P031-L1 (M019), P031-L2 (M021), P031-L3 (M019), P031-L4 (M019), P031-L5 (M022), P031-L6 (M023), P031-L7 (M019), P032-L1 (M019), P032-L2 (M021), P032-L3 (M019), P032-L4 (M019), P032-L5 (M022), P032-L6 (M023), P032-L7 (M019)
+Peças: P029-Solid (SW01), P030-Solid (SW01), P031-Solid (SW01), P032-Solid (SW01)
 
 | ID | Ferragem | Quantidade no projeto | Status |
 |---|---|---|---|
@@ -707,22 +725,6 @@ Peças (cada instância ×1): P029-L1 (M019), P029-L2 (M019), P029-L3 (M020), P0
 | H24 | Conjunto mecânico opcional de botões de pinball | 8 | PURCHASE_BEFORE_CNC |
 | F40 | Fixadores dos suportes de botões | INDEFINIDA — não estimar | PURCHASE_BEFORE_CNC |
 | H26 | Conjunto opcional de patins externos de transporte | 1 | OPTIONAL |
-
-### 16.1 — Lamine as camadas reais dos blocos dos pés
-
-[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-16.1&lang=pt-BR)
-
-Identifique cada pilha de sete camadas de L1 inferior a L7 superior. Na frente L3/L6 contêm furos; atrás L2 contém o furo inferior e L5/L6 compartilham o superior. Preserve os cinco perfis distintos de fabricação.
-
-**Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
-**Faces:** FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
-**Ferramentas:** Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitador somente para as ferragens/acabamentos listados.
-
-**Verificação:** PENDÊNCIA: aguarde validar o padrão comprado de placa/parafusos e uma guia presa antes de furar diagonalmente. A divergência histórica 58/57,15 mm não é resolvida por este manual.
-
-**PENDÊNCIA:** Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar.
-
-[CAD do próximo estado: EXPLODIDA DETALHADA](../exports/generated/viewer-v32/index.html?manual=16&step=16.1&state=EXPLODED%20DETAILED&lang=pt-BR)
 
 ### 16.2 — Instale os pés e interfaces frontais comprados
 
@@ -1487,369 +1489,33 @@ PENDÊNCIA de ajuste/cupom: True
 
 [Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P028-Main&lang=pt-BR)
 
-### P029-L1 / M019
 
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L1.svg)
 
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
 
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
 
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
 
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P029-L1&lang=pt-BR)
 
-### P029-L2 / M019
 
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L2.svg)
 
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
 
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
 
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
 
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P029-L2&lang=pt-BR)
 
-### P029-L3 / M020
 
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L3.svg)
 
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
 
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
 
-- ACABAMENTO DO MONTADOR: furar / escarear com broca selecionada, limitador e guia validada · P029-L3-R1 · FACE A datum [6.5, 17.500000000000007] mm. Não amplie pilotos menores que Ø4 para localizadores Ø4. É necessária validação física das ferramentas/ferragens.
 
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P029-L3&lang=pt-BR)
 
-### P029-L4 / M019
 
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L4.svg)
 
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
 
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
 
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
 
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P029-L4&lang=pt-BR)
 
-### P029-L5 / M019
 
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L5.svg)
 
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
 
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P029-L5&lang=pt-BR)
-
-### P029-L6 / M021
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L6.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-- ACABAMENTO DO MONTADOR: furar / escarear com broca selecionada, limitador e guia validada · P029-L6-R1 · FACE A datum [2.5, 13.500000000000007] mm. Não amplie pilotos menores que Ø4 para localizadores Ø4. É necessária validação física das ferramentas/ferragens.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P029-L6&lang=pt-BR)
-
-### P029-L7 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P029-L7.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face -2.842170943040401e-14 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P029-L7&lang=pt-BR)
-
-### P030-L1 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L1.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 7.105427357601002e-15 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P030-L1&lang=pt-BR)
-
-### P030-L2 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L2.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P030-L2&lang=pt-BR)
-
-### P030-L3 / M020
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L3.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-- ACABAMENTO DO MONTADOR: furar / escarear com broca selecionada, limitador e guia validada · P030-L3-R1 · FACE A datum [6.499999999994714, 17.500000000005286] mm. Não amplie pilotos menores que Ø4 para localizadores Ø4. É necessária validação física das ferramentas/ferragens.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P030-L3&lang=pt-BR)
-
-### P030-L4 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L4.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P030-L4&lang=pt-BR)
-
-### P030-L5 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L5.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face -1.4210854715202004e-14 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P030-L5&lang=pt-BR)
-
-### P030-L6 / M021
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L6.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-- ACABAMENTO DO MONTADOR: furar / escarear com broca selecionada, limitador e guia validada · P030-L6-R1 · FACE A datum [2.499999999994742, 13.500000000005315] mm. Não amplie pilotos menores que Ø4 para localizadores Ø4. É necessária validação física das ferramentas/ferragens.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P030-L6&lang=pt-BR)
-
-### P030-L7 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P030-L7.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P030-L7&lang=pt-BR)
-
-### P031-L1 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L1.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 7.105427357601002e-15 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P031-L1&lang=pt-BR)
-
-### P031-L2 / M021
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L2.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face -7.105427357601002e-15 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-- ACABAMENTO DO MONTADOR: furar / escarear com broca selecionada, limitador e guia validada · P031-L2-R1 · FACE A datum [2.5, 13.500000000000007] mm. Não amplie pilotos menores que Ø4 para localizadores Ø4. É necessária validação física das ferramentas/ferragens.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P031-L2&lang=pt-BR)
-
-### P031-L3 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L3.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P031-L3&lang=pt-BR)
-
-### P031-L4 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L4.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P031-L4&lang=pt-BR)
-
-### P031-L5 / M022
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L5.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-- ACABAMENTO DO MONTADOR: furar / escarear com broca selecionada, limitador e guia validada · P031-L5-R1 · FACE A datum [0, 9.500000000000007] mm. Não amplie pilotos menores que Ø4 para localizadores Ø4. É necessária validação física das ferramentas/ferragens.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P031-L5&lang=pt-BR)
-
-### P031-L6 / M023
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L6.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face -1.4210854715202004e-14 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-- ACABAMENTO DO MONTADOR: furar / escarear com broca selecionada, limitador e guia validada · P031-L6-R1 · FACE A datum [16.5, 18.000000000000014] mm. Não amplie pilotos menores que Ø4 para localizadores Ø4. É necessária validação física das ferramentas/ferragens.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P031-L6&lang=pt-BR)
-
-### P031-L7 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P031-L7.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P031-L7&lang=pt-BR)
-
-### P032-L1 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L1.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 7.105427357601002e-15 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P032-L1&lang=pt-BR)
-
-### P032-L2 / M021
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L2.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-- ACABAMENTO DO MONTADOR: furar / escarear com broca selecionada, limitador e guia validada · P032-L2-R1 · FACE A datum [2.499999999999994, 13.5] mm. Não amplie pilotos menores que Ø4 para localizadores Ø4. É necessária validação física das ferramentas/ferragens.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P032-L2&lang=pt-BR)
-
-### P032-L3 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L3.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P032-L3&lang=pt-BR)
-
-### P032-L4 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L4.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P032-L4&lang=pt-BR)
-
-### P032-L5 / M022
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L5.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-- ACABAMENTO DO MONTADOR: furar / escarear com broca selecionada, limitador e guia validada · P032-L5-R1 · FACE A datum [0, 9.5] mm. Não amplie pilotos menores que Ø4 para localizadores Ø4. É necessária validação física das ferramentas/ferragens.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P032-L5&lang=pt-BR)
-
-### P032-L6 / M023
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L6.svg)
-
-**ONE_SIDE_CNC_PLUS_MANUAL_FINISH** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face -2.842170943040401e-14 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-- ACABAMENTO DO MONTADOR: furar / escarear com broca selecionada, limitador e guia validada · P032-L6-R1 · FACE A datum [16.500000000000007, 18.00000000000003] mm. Não amplie pilotos menores que Ø4 para localizadores Ø4. É necessária validação física das ferramentas/ferragens.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P032-L6&lang=pt-BR)
-
-### P032-L7 / M019
-
-![FACE A / FACE B](../exports/generated/viewer-v332/orientation/P032-L7.svg)
-
-**ONE_SIDE_CNC_READY** · 18 mm · FACE A [0.0, 0.0, 1.0]
-
-FORNECIDO PELO CNC: contorno externo; 0 CUT; 0 POCKET; redução da face 0.0 mm.
-PENDÊNCIA de ajuste/cupom: True
-
-ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
-
-[Eixos, profundidades e operações exatas](../exports/generated/flatpack-v331/manual-finish-schedule.json) · [Inspecionar peça](../exports/generated/viewer-v32/index.html?part=P032-L7&lang=pt-BR)
 
 ### P033-Main / M024
 
@@ -2933,3 +2599,17 @@ ACABAMENTO DO MONTADOR: nenhum na auditoria nominal de operações.
 
 ---
 CERN-OHL-S-2.0 · Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet
+
+
+## SW01 — SHOP_MADE_SOLID_WOOD_PART ×4
+
+REFERÊNCIA A DE MARCENARIA: face diagonal. Batente SUPERIOR é referência B. Sem CNC e sem pilha de compensado.
+
+Encomende SW01 ×4 de madeira maciça seca, reta, estável e sem nós: material quadrado54×54×126mm, depois corte longitudinal45° para a seção triangular aceita. Confira dimensões/esquadro; posicione FL/FR/RL/RR nos referenciais documentados. Antes de instalar FLOOR, PC_BASE ou SHELF_1, encaixe o gabarito na diagonal/topo, prenda, fure somente com parâmetros fisicamente qualificados e teste a chapa e parafusos reais. Mantenha apoio temporário.
+
+PENDENTE: passo/diâmetro/profundidade reais, envelope da furadeira/grampos, registro impresso e furo de teste.58mm versus57,15mm continua pendente. Não fure através das prateleiras/piso montados; proteja saída e superfícies vizinhas.
+
+- P029-Solid / FL / SW01 ×1 — [CAD](../exports/generated/viewer-v32/index.html?part=P029-Solid)
+- P030-Solid / FR / SW01 ×1 — [CAD](../exports/generated/viewer-v32/index.html?part=P030-Solid)
+- P031-Solid / RL / SW01 ×1 — [CAD](../exports/generated/viewer-v32/index.html?part=P031-Solid)
+- P032-Solid / RR / SW01 ×1 — [CAD](../exports/generated/viewer-v32/index.html?part=P032-Solid)

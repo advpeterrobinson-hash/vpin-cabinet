@@ -1,0 +1,259 @@
+{
+  "rows": [
+    {
+      "side": "FL",
+      "registration_distances": {
+        "guide_to_block_mm": 0.0,
+        "top_stop_to_block_mm": 0.0
+      },
+      "tooling_pair_penetrations": [],
+      "backing_plate_reference_bores": [
+        {
+          "center": [
+            -7.071067811865475,
+            -7.071067811865475,
+            154.0
+          ],
+          "axis": [
+            0.7071067811865476,
+            0.7071067811865476,
+            0.0
+          ],
+          "diameter": 11.0
+        },
+        {
+          "center": [
+            -7.071067811865475,
+            -7.071067811865475,
+            96.0
+          ],
+          "axis": [
+            0.7071067811865476,
+            0.7071067811865476,
+            0.0
+          ],
+          "diameter": 11.0
+        }
+      ],
+      "axis_error_mm": [
+        0.0,
+        0.0
+      ],
+      "wood_interferences": [
+        {
+          "tool": "DrillBody1",
+          "obstacle": "SHELF_1",
+          "penetration_mm3": 79038.29197897256
+        }
+      ],
+      "early_assembly_obstacles_absent": [
+        "FLOOR",
+        "PC_BASE",
+        "SHELF_1"
+      ],
+      "early_assembly_interferences": [],
+      "hand_drill_clearance": "HOLD_SELECTED_TOOL_AND_PHYSICAL_TRIAL",
+      "clamp_status": "JAW_LANDS_SHOWN_FULL_CLAMP_AND_FIXTURE_HOLD",
+      "angle_reference_error_deg": 0,
+      "reference_body_radius_mm": 30,
+      "reference_body_length_mm": 180,
+      "registration": "Diagonal face +top saddle; full-width plate end lands center against adjoining corner planes; clamp required; print tolerance qualification HOLD",
+      "mode": "F +14mm stop"
+    },
+    {
+      "side": "FR",
+      "registration_distances": {
+        "guide_to_block_mm": 0.0,
+        "top_stop_to_block_mm": 0.0
+      },
+      "tooling_pair_penetrations": [],
+      "backing_plate_reference_bores": [
+        {
+          "center": [
+            607.0710678118654,
+            -7.071067811865475,
+            96.0
+          ],
+          "axis": [
+            -0.7071067811865476,
+            0.7071067811865476,
+            0.0
+          ],
+          "diameter": 11.0
+        },
+        {
+          "center": [
+            607.0710678118654,
+            -7.071067811865475,
+            154.0
+          ],
+          "axis": [
+            -0.7071067811865476,
+            0.7071067811865476,
+            0.0
+          ],
+          "diameter": 11.0
+        }
+      ],
+      "axis_error_mm": [
+        0.0,
+        0.0
+      ],
+      "wood_interferences": [
+        {
+          "tool": "DrillBody1",
+          "obstacle": "SHELF_1",
+          "penetration_mm3": 79038.29197572127
+        }
+      ],
+      "early_assembly_obstacles_absent": [
+        "FLOOR",
+        "PC_BASE",
+        "SHELF_1"
+      ],
+      "early_assembly_interferences": [],
+      "hand_drill_clearance": "HOLD_SELECTED_TOOL_AND_PHYSICAL_TRIAL",
+      "clamp_status": "JAW_LANDS_SHOWN_FULL_CLAMP_AND_FIXTURE_HOLD",
+      "angle_reference_error_deg": 0,
+      "reference_body_radius_mm": 30,
+      "reference_body_length_mm": 180,
+      "registration": "Diagonal face +top saddle; full-width plate end lands center against adjoining corner planes; clamp required; print tolerance qualification HOLD",
+      "mode": "F +14mm stop"
+    },
+    {
+      "side": "RL",
+      "registration_distances": {
+        "guide_to_block_mm": 0.0,
+        "top_stop_to_block_mm": 0.0
+      },
+      "tooling_pair_penetrations": [],
+      "backing_plate_reference_bores": [
+        {
+          "center": [
+            -7.071067811865475,
+            1315.1710678118654,
+            122.0
+          ],
+          "axis": [
+            0.7071067811865476,
+            -0.7071067811865476,
+            0.0
+          ],
+          "diameter": 11.0
+        },
+        {
+          "center": [
+            -7.071067811865475,
+            1315.1710678118654,
+            64.0
+          ],
+          "axis": [
+            0.7071067811865476,
+            -0.7071067811865476,
+            0.0
+          ],
+          "diameter": 11.0
+        }
+      ],
+      "axis_error_mm": [
+        0.0,
+        0.0
+      ],
+      "wood_interferences": [
+        {
+          "tool": "DrillBody0",
+          "obstacle": "FLOOR",
+          "penetration_mm3": 5205.238074453732
+        },
+        {
+          "tool": "DrillBody0",
+          "obstacle": "PC_BASE",
+          "penetration_mm3": 54056.153932249676
+        }
+      ],
+      "early_assembly_obstacles_absent": [
+        "FLOOR",
+        "PC_BASE",
+        "SHELF_1"
+      ],
+      "early_assembly_interferences": [],
+      "hand_drill_clearance": "HOLD_SELECTED_TOOL_AND_PHYSICAL_TRIAL",
+      "clamp_status": "JAW_LANDS_SHOWN_FULL_CLAMP_AND_FIXTURE_HOLD",
+      "angle_reference_error_deg": 0,
+      "reference_body_radius_mm": 30,
+      "reference_body_length_mm": 180,
+      "registration": "Diagonal face +top saddle; full-width plate end lands center against adjoining corner planes; clamp required; print tolerance qualification HOLD",
+      "mode": "R bare stop"
+    },
+    {
+      "side": "RR",
+      "registration_distances": {
+        "guide_to_block_mm": 0.0,
+        "top_stop_to_block_mm": 0.0
+      },
+      "tooling_pair_penetrations": [],
+      "backing_plate_reference_bores": [
+        {
+          "center": [
+            607.0710678118654,
+            1315.1710678118654,
+            64.0
+          ],
+          "axis": [
+            -0.7071067811865476,
+            -0.7071067811865476,
+            0.0
+          ],
+          "diameter": 11.0
+        },
+        {
+          "center": [
+            607.0710678118654,
+            1315.1710678118654,
+            122.0
+          ],
+          "axis": [
+            -0.7071067811865476,
+            -0.7071067811865476,
+            0.0
+          ],
+          "diameter": 11.0
+        }
+      ],
+      "axis_error_mm": [
+        0.0,
+        0.0
+      ],
+      "wood_interferences": [
+        {
+          "tool": "DrillBody0",
+          "obstacle": "FLOOR",
+          "penetration_mm3": 5205.238074453754
+        },
+        {
+          "tool": "DrillBody0",
+          "obstacle": "PC_BASE",
+          "penetration_mm3": 54056.153933060275
+        }
+      ],
+      "early_assembly_obstacles_absent": [
+        "FLOOR",
+        "PC_BASE",
+        "SHELF_1"
+      ],
+      "early_assembly_interferences": [],
+      "hand_drill_clearance": "HOLD_SELECTED_TOOL_AND_PHYSICAL_TRIAL",
+      "clamp_status": "JAW_LANDS_SHOWN_FULL_CLAMP_AND_FIXTURE_HOLD",
+      "angle_reference_error_deg": 0,
+      "reference_body_radius_mm": 30,
+      "reference_body_length_mm": 180,
+      "registration": "Diagonal face +top saddle; full-width plate end lands center against adjoining corner planes; clamp required; print tolerance qualification HOLD",
+      "mode": "R bare stop"
+    }
+  ],
+  "physical_accuracy_validated": false,
+  "drilling_released": false,
+  "jig_body_variants": 1,
+  "mode_spacer_count": 1,
+  "bushing_interface_provisional": true
+}

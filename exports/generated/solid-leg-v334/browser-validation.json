@@ -1,0 +1,590 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "31 assembly +11 service +2 packing +5 tooling clips",
+      "pass": true
+    },
+    {
+      "name": "Metrics from authoritative inventory",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-00.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-00.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-00.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-00.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-00.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-00.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-01.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-01.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-01.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-01.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-01.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-01.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-02.0",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-02.0",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-02.0",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-02.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-02.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-02.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-02.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-02.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-02.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-03.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-03.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-03.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-04.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-04.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-04.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-04.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-04.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-04.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-05.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-05.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-05.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-06.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-06.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-06.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-06.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-06.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-06.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-07.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-07.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-07.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-07.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-07.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-07.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-08.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-08.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-08.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-09.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-09.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-09.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-09.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-09.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-09.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-10.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-10.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-10.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-10.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-10.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-10.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-11.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-11.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-11.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-11.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-11.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-11.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-12.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-12.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-12.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-12.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-12.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-12.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-13.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-13.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-13.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-14.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-14.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-14.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-15.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-15.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-15.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-16.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-16.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-16.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-17.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-17.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-17.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-17.2",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-17.2",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-17.2",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms assembly-18.1",
+      "pass": true
+    },
+    {
+      "name": "Assembly/checkpoint has visible real CAD assembly-18.1",
+      "pass": true
+    },
+    {
+      "name": "Honest assembly label assembly-18.1",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-pf-service",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-pf-lift",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-matrix",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-doors",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-unlock",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-fold",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-glass",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-display",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-cassette",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-fan",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms service-shelf",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms pack",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms unpack",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms jig-place",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms jig-fit",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms jig-clamp",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms jig-drill",
+      "pass": true
+    },
+    {
+      "name": "Finite transforms jig-test",
+      "pass": true
+    },
+    {
+      "name": "Matches accepted endpoint service-pf-service",
+      "pass": true,
+      "details": {
+        "max": 0.00015272782563430289
+      }
+    },
+    {
+      "name": "Matches accepted endpoint service-pf-lift",
+      "pass": true,
+      "details": {
+        "max": 0.000030517578125
+      }
+    },
+    {
+      "name": "Matches accepted endpoint service-fold",
+      "pass": true,
+      "details": {
+        "max": 0
+      }
+    },
+    {
+      "name": "Matches accepted endpoint service-doors",
+      "pass": true,
+      "details": {
+        "max": 0.00012916742887596896
+      }
+    },
+    {
+      "name": "Matches accepted endpoint service-unlock",
+      "pass": true,
+      "details": {
+        "max": 0.00000762939453125
+      }
+    },
+    {
+      "name": "Packing includes all106 actual members once",
+      "pass": true
+    },
+    {
+      "name": "Real tooling mesh place",
+      "pass": true
+    },
+    {
+      "name": "Tooling honesty place",
+      "pass": true
+    },
+    {
+      "name": "Real tooling mesh fit",
+      "pass": true
+    },
+    {
+      "name": "Tooling honesty fit",
+      "pass": true
+    },
+    {
+      "name": "Real tooling mesh clamp",
+      "pass": true
+    },
+    {
+      "name": "Tooling honesty clamp",
+      "pass": true
+    },
+    {
+      "name": "Real tooling mesh drill",
+      "pass": true
+    },
+    {
+      "name": "Tooling honesty drill",
+      "pass": true
+    },
+    {
+      "name": "Real tooling mesh test",
+      "pass": true
+    },
+    {
+      "name": "Tooling honesty test",
+      "pass": true
+    },
+    {
+      "name": "Solid block route and jig link",
+      "pass": true
+    },
+    {
+      "name": "Tablet touch PLAY advances",
+      "pass": true
+    },
+    {
+      "name": "PAUSE stable",
+      "pass": true
+    },
+    {
+      "name": "RESTART",
+      "pass": true
+    },
+    {
+      "name": "NEXT",
+      "pass": true
+    },
+    {
+      "name": "PREVIOUS",
+      "pass": true
+    },
+    {
+      "name": "Portuguese playback",
+      "pass": true
+    },
+    {
+      "name": "Tablet44px playback targets",
+      "pass": true
+    },
+    {
+      "name": "Tablet no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Exit clears motion transforms",
+      "pass": true
+    },
+    {
+      "name": "No JS errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Offline no network",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "tablet_playback": "PASS_EMULATED_TOUCH_PHYSICAL_FPS_NOT_CERTIFIED",
+  "viewer_sha256": "d105b7d7885e54b2d6a9b4f7ef344d80ded19d2e018d54f47857c805486565aa"
+}

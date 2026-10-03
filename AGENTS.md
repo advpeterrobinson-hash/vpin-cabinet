@@ -8,6 +8,10 @@ The primary product is not merely one cabinet. The primary product is a **replic
 
 ## Source of truth
 
+- **CURRENT manufacturing overlay V33.4:** `config/manufacturing/flatpack_v334.json` supersedes only the four leg-block lamination assemblies in V33.1:102 CNC plywood pieces +4 shop-made solid triangular blocks (SW01),106 total /62families. M019–M023 and the old130-piece register are historical. Installed CURRENT B-reps remain unchanged. Reference jig/58mm pitch and real leg/backing/bolt measurements remain HOLD.
+- **CURRENT documentation viewer:** `config/viewer_v334.json`; use its builder/checks. V33.3 reports remain historical planning evidence.
+
+
 - **CURRENT complete V32 backbox:** `config/current_v32.json`, `config/backbox_lock_integration_v32.json`, `studies/backbox-lock-integration-v32/README.md`. Owner-accepted twin 12 mm rear doors, optional door fans/blanks, low intakes, front-installed/rear-adjusted display, top-removable retained backglass and independent lower cassette are integrated with two rear-operated positive hand locks at X130/X470, Y1260. Captive knobs/washer assemblies are threaded into parking sockets before fold. Routine folding retains all backbox front modules and introduces no electronics disconnection. Old Y1188 lock centers/tool columns are historical. Rare WPC hinge floor service may still require cassette removal. No final purchased-hardware/CNC drilling or manufacturing release.
 
 - **Preserved cradle/WPC baseline:** `studies/pivot-cradle-integration-v32/README.md`. R12 coaxial reserve + 2 mm allowance, broad rear-ear relief with convex R3 corner; full 180° seat, floor bearing, six support screws and accepted playfield poses retained. 210 mm backbox sides, Y1146 floor, generic passage and WPC axis Y1066.8/Z508 remain current. Side pivot installation tools require playfield lift-out/removal. The earlier service study is an immutable snapshot; its normal-fold cassette-removal blocker is superseded by the rear-lock integration above.

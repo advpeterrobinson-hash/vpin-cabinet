@@ -1,0 +1,18 @@
+{
+  "version": "V33.4",
+  "head_before": "f989d6cc9540247571a28e7f99f1499aacbfdd10",
+  "current_register": "exports/generated/solid-leg-v334/manufacturing-register.json",
+  "current_BOM": "exports/generated/solid-leg-v334/manufacturing-bom.csv",
+  "CNC_filter": "manufacturing_class != SHOP_MADE_SOLID_WOOD_PART",
+  "superseded_leg_families": [
+    "M019",
+    "M020",
+    "M021",
+    "M022",
+    "M023"
+  ],
+  "shop_family": "SW01",
+  "geometry_unchanged": true,
+  "release": false,
+  "installed_material_map": "config/wood_materials_v334.json"
+}

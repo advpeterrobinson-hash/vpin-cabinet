@@ -1,0 +1,12 @@
+{
+  "manufacturing_pieces": 106,
+  "CNC_pieces": 102,
+  "shop_solid_pieces": 4,
+  "canonical_families": 62,
+  "wood_mass_kg": 60.655252555432924,
+  "preliminary_sheets": 6,
+  "known_fastener_minimum": 160,
+  "hardware_models": 148,
+  "manufacturing_status": "BLOCKED",
+  "coupon_status": "NOT_CUT_OR_VALIDATED"
+}

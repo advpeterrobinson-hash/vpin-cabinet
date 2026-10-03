@@ -1,0 +1,50 @@
+{
+  "version": "V33.4",
+  "head_before": "f989d6cc9540247571a28e7f99f1499aacbfdd10",
+  "manufacturing_class": "SHOP_MADE_SOLID_WOOD_PART",
+  "family_id": "SW01",
+  "quantity": 4,
+  "material": "Dry, straight, stable, knot-free structurally suitable solid wood; species and moisture qualification pending",
+  "density_kg_m3": [
+    500,
+    650,
+    850
+  ],
+  "density_status": "MATERIAL_DEPENDENT; illustrative sensitivity only, measure selected wood",
+  "jig": {
+    "block_width_mm": 54,
+    "block_depth_mm": 54,
+    "block_height_mm": 126,
+    "bore_angle_deg": 45,
+    "bore_spacing_mm": 58,
+    "bore_diameter_mm": 11,
+    "edge_offset_mm": 40,
+    "front_edge_offset_mm": 26,
+    "guide_length_mm": 24,
+    "bushing_outer_diameter_mm": 16,
+    "bushing_inner_diameter_mm": 11,
+    "print_fit_clearance_mm": 0.3,
+    "plate_thickness_mm": 8,
+    "boss_wall_mm": 4,
+    "metal_bushing_selected": false,
+    "printed_sacrificial_guide": true,
+    "status": "REFERENCE_DEMONSTRATOR_ONLY_NOT_QUALIFIED_FOR_DRILLING"
+  },
+  "measurement_fields": {
+    "selected_leg": null,
+    "selected_backing_plate": null,
+    "selected_bolt": null,
+    "bore_spacing_mm": null,
+    "bore_diameter_mm": null,
+    "bushing_outer_diameter_mm": null,
+    "bushing_inner_diameter_mm": null,
+    "bushing_length_mm": null,
+    "drill_chuck_diameter_mm": null,
+    "drill_body_envelope": null,
+    "actual_solid_wood_density_kg_m3": null,
+    "printed_jig_test": null
+  },
+  "pitch_hold": "58 mm CURRENT candidate vs57.15 mm historical reference; neither is purchased-hardware authority",
+  "full_sheet_release": false,
+  "final_leg_drilling_released": false
+}
