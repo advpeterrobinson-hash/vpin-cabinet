@@ -1,0 +1,185 @@
+{
+  "status": "REVIEW_ONLY_FULL_SHEET_RELEASE_BLOCKED",
+  "files": [
+    {
+      "path": "exports/generated/assembly-v333/01-metrics.png",
+      "sha256": "f9fae508a3b7f9f12586109e552e17670e7f199905743858b88825f819a9fe50"
+    },
+    {
+      "path": "exports/generated/assembly-v333/02-assembly.png",
+      "sha256": "10f9ad09c695a3365a6a0e2f90a0f0d2eb7d487f1cea607d5cef32ae61dc89d1"
+    },
+    {
+      "path": "exports/generated/assembly-v333/03-packages.png",
+      "sha256": "bb88e4610242ee1234e82b171803cc0b941ff38ee61cdabd9c232dd7dac176fa"
+    },
+    {
+      "path": "exports/generated/assembly-v333/04-packing-layer.png",
+      "sha256": "9353fc05426711e8933297bd7bfac43fba4b263e63b105fcde73ea7b7d9c29a8"
+    },
+    {
+      "path": "exports/generated/assembly-v333/05-unpacking.png",
+      "sha256": "4490e2f6e52a956fafebe8969ea6db022afa3ba91e0091cdc167b5f1ed08a586"
+    },
+    {
+      "path": "exports/generated/assembly-v333/06-fold45.png",
+      "sha256": "618dedda068fa2abaa91ec6ec0dee4d6525dc8e68d919d61fffceaebffdc003a"
+    },
+    {
+      "path": "exports/generated/assembly-v333/07-doors.png",
+      "sha256": "36bf4c04b64c8a9442d13263ae5616f66ffc61548afc91f4f6335ad0a459fcce"
+    },
+    {
+      "path": "exports/generated/assembly-v333/08-lock-parking.png",
+      "sha256": "9d042a7dde91c8735f5f1485fd2101b7c06051a4c6ebeadf6f428b619f1d8495"
+    },
+    {
+      "path": "exports/generated/assembly-v333/09-glass.png",
+      "sha256": "012558bf2ba5a7c22acc6c4bedc864a059414f0cc690cf590c1d687c382cfdae"
+    },
+    {
+      "path": "exports/generated/assembly-v333/10-display.png",
+      "sha256": "f1988215ba9d62843bfe37cfc2918231f828f26d3f7c336cb97576f034b8df3e"
+    },
+    {
+      "path": "exports/generated/assembly-v333/11-cassette.png",
+      "sha256": "f2d57200e38b526856cca89808ad7a68905987b232c98e4c333b98a0dd36d599"
+    },
+    {
+      "path": "exports/generated/assembly-v333/12-fan.png",
+      "sha256": "9b8904eaecb101da405bdfdd1f5b6d9fd706a86f1c090ff76c258a6062cd11a6"
+    },
+    {
+      "path": "exports/generated/assembly-v333/13-tablet.png",
+      "sha256": "17a5f730e383d6e881300fd10953f2be94ea34988768c55c86f680c94972333f"
+    },
+    {
+      "path": "exports/generated/assembly-v333/14-exploded-packing.png",
+      "sha256": "0489f1a0cad6ec96e63fab1998eebb25f728c20c426859973fb1011035f31aa2"
+    },
+    {
+      "path": "exports/generated/assembly-v333/README.md",
+      "sha256": "ec3f703e0b1425d534c602767285acb5cd8fe4ec28455a697f933fafb4163e44"
+    },
+    {
+      "path": "exports/generated/assembly-v333/T12-N1.svg",
+      "sha256": "69a278737d3e74dba8d63e73fbade13d6ccab3287e213e35d7a9885b9ad683f6"
+    },
+    {
+      "path": "exports/generated/assembly-v333/T12-SMALL-STOCK.svg",
+      "sha256": "8e9f49a31d27eca8b272871598d199acb829646404d58130f3b5e55604354771"
+    },
+    {
+      "path": "exports/generated/assembly-v333/T18-N1.svg",
+      "sha256": "cf2b3b73d2f73918a284709c2c41e4ac054c88d31c3b664dffa137cd6340e49f"
+    },
+    {
+      "path": "exports/generated/assembly-v333/T18-N2.svg",
+      "sha256": "08682b3ac137fff0b882a17eb421545b610d3117084a66fbc1f39187d3494525"
+    },
+    {
+      "path": "exports/generated/assembly-v333/T4-N1.svg",
+      "sha256": "4756605f49ab50e95f4fd69bdeb4fee962c7b97d019d7023fca982b0ffb01c0b"
+    },
+    {
+      "path": "exports/generated/assembly-v333/T4-SMALL-STOCK.svg",
+      "sha256": "728aa1e8bad83de7c7e176f19f04bfb5044a08a8e5b6c3293774dfb2f5c61c5f"
+    },
+    {
+      "path": "exports/generated/assembly-v333/T6-N1.svg",
+      "sha256": "e95763d8c521d0358fd9b98db4d960e671a7577996f69573c0d980347e0bd8c0"
+    },
+    {
+      "path": "exports/generated/assembly-v333/T6-SMALL-STOCK.svg",
+      "sha256": "65a5b65ca7adb65145643a083bda96eaa5a7c4b27e9ce43f100b893f0e213662"
+    },
+    {
+      "path": "exports/generated/assembly-v333/T8-N1.svg",
+      "sha256": "9209a971b4e0df0b8e2fee9cd608ca2286d362693bb3c2c57ec09518618ecb45"
+    },
+    {
+      "path": "exports/generated/assembly-v333/T8-SMALL-STOCK.svg",
+      "sha256": "cb55ff19c84141111325cfcb0e5ed258cef4d3621a1086c171b1cd272468fcb4"
+    },
+    {
+      "path": "exports/generated/assembly-v333/animations.json",
+      "sha256": "0a1f73df55ae5fa33ae05e0a10b5bb1a64329c73c332a1ab2a2f1d80a163be8d"
+    },
+    {
+      "path": "exports/generated/assembly-v333/assembly-manual.json",
+      "sha256": "dcbec1c61e58522173437b24a3e911be10913d871e340be56dadb63a48ef7da6"
+    },
+    {
+      "path": "exports/generated/assembly-v333/assembly-validation.json",
+      "sha256": "c65d9cbe08f6526673bfc21b8f4b961cd6765fe04226cbe1a2c869b51d1313a1"
+    },
+    {
+      "path": "exports/generated/assembly-v333/brep-metrics.json",
+      "sha256": "bbd4d66e7a25a6ef823d8a8e6a6e22ef3a7dad28bc9d0080c2fe05d4dd9b6bba"
+    },
+    {
+      "path": "exports/generated/assembly-v333/browser-validation.json",
+      "sha256": "7b04570664cc20c56dcc612caec3258085db5bb944b0f4ecce5e00c1be3ab157"
+    },
+    {
+      "path": "exports/generated/assembly-v333/geometry-protection.json",
+      "sha256": "ea698e09db2638b5e4a8b77fb11d6b3429037652f67b98813985e6aebf1b42ca"
+    },
+    {
+      "path": "exports/generated/assembly-v333/glass-volumes.json",
+      "sha256": "ff7c98cc596d2e6674e7dadd6cd19da0de4b4de2a7a29cd87a915cf26e843c18"
+    },
+    {
+      "path": "exports/generated/assembly-v333/hardware-dashboard.json",
+      "sha256": "2030fb6d4f5ebc8286f558959e503f786ca68186afe22ae3c14fe9bbd2160117"
+    },
+    {
+      "path": "exports/generated/assembly-v333/hardware-volumes.json",
+      "sha256": "b73bdd05c943d9b44d7b3c6304d1016c9c0a2e80555ff05ea7c471f06317905c"
+    },
+    {
+      "path": "exports/generated/assembly-v333/index.html",
+      "sha256": "5c9f4f45aae70748528042dc4bc4e5ed1066317b354b476621ebbaff5d5b097d"
+    },
+    {
+      "path": "exports/generated/assembly-v333/insertion-screens.json",
+      "sha256": "618c278b5e10ef4202f080b51e0141c1fdcaa3cf7f763a534b321ac3cfa6671a"
+    },
+    {
+      "path": "exports/generated/assembly-v333/legacy-browser-validation.json",
+      "sha256": "8b514c528aeec367db5adb8c611678604bc1e3a57ed9814e06940ee0ebe2a521"
+    },
+    {
+      "path": "exports/generated/assembly-v333/mass-budget.json",
+      "sha256": "b32ee482414f26a4f6b0ace3e44f0c38861a8f196e0a262c3c3f7cb936a1b4ab"
+    },
+    {
+      "path": "exports/generated/assembly-v333/material-utilization.json",
+      "sha256": "d16241486ac50e1d96519f4a141d70af274282594e1f3d0b4ad9c4f734d139da"
+    },
+    {
+      "path": "exports/generated/assembly-v333/motion-authority.json",
+      "sha256": "3f9bbcabcc1489bf19b2784402a36c6bd6616a96fb898743f6ba5d5467ab2ab2"
+    },
+    {
+      "path": "exports/generated/assembly-v333/packaging.json",
+      "sha256": "814a24fe3a9b3d297d3b58ef174bf2345f542ffc7035eb06a94b9dbce75ecd6e"
+    },
+    {
+      "path": "exports/generated/assembly-v333/project-metrics.json",
+      "sha256": "f515f20a4d515c121d6735dbed1b6bd2e7842e0a3743aaf9ba2e47ee9366fc18"
+    },
+    {
+      "path": "exports/generated/assembly-v333/review-views.json",
+      "sha256": "03a153412de1970de18e021e67be3be1e52cd5a6d9179d18cd222dce3d39afe7"
+    },
+    {
+      "path": "exports/generated/assembly-v333/tool-screens.json",
+      "sha256": "530c345e1b8df2a5cd93c142f7e10ecd71a5ab85bcc4da8d212cf2180bcff7ad"
+    },
+    {
+      "path": "exports/generated/assembly-v333/validation.json",
+      "sha256": "24d96f67d8255518feb5ee08f46e93475e6b1804e8c4b7b300f84a7687339cf2"
+    }
+  ]
+}

@@ -1,0 +1,4064 @@
+{
+  "samples_mm": [
+    0.5,
+    2,
+    5,
+    10,
+    20,
+    40,
+    80,
+    150,
+    300
+  ],
+  "scope": "WOOD_ONLY_CANDIDATE_FACE_NORMALS_NOT_VALIDATED_INSTALLATION_PATHS",
+  "parts": [
+    {
+      "instance_id": "P001-Main",
+      "stage": 2,
+      "candidates": [
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P003-Main",
+            "overlap_mm3": 3530.501867283243
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P002-Main",
+      "stage": 2,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P003-Main",
+            "overlap_mm3": 3530.5018677173757
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P003-Main",
+      "stage": 2,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P004-Main",
+      "stage": 2,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P005-Main",
+      "stage": 3,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P006-Main",
+            "overlap_mm3": 17281.499999999996
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P006-Main",
+      "stage": 3,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 17281.499999999996
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P007-Main",
+      "stage": 3,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 17281.499999999996
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P008-Main",
+      "stage": 7,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 300,
+            "obstacle": "P011-Main",
+            "overlap_mm3": 57024.0
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P009-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P012-Main",
+            "overlap_mm3": 2943.254982694703
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P010-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P019-Main",
+            "overlap_mm3": 23517.609326645495
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P014-Main",
+            "overlap_mm3": 2943.254982694871
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P011-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P020-Main",
+            "overlap_mm3": 116553.6
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P016-Main",
+            "overlap_mm3": 2943.254982694704
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P012-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P009-Main",
+            "overlap_mm3": 2943.254982694703
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P006-Main",
+            "overlap_mm3": 43694.59330148366
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P013-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P009-Main",
+            "overlap_mm3": 2943.2549826943678
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P007-Main",
+            "overlap_mm3": 43694.593301483204
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P014-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P010-Main",
+            "overlap_mm3": 2943.2549826948707
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 73001.11747731802
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P015-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P010-Main",
+            "overlap_mm3": 2943.2549826943678
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 73001.11747731711
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P016-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P011-Main",
+            "overlap_mm3": 2943.254982694704
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P017-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P011-Main",
+            "overlap_mm3": 2943.2549826943678
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P018-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P021-Main",
+            "overlap_mm3": 136.51059718310006
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P021-Main",
+            "overlap_mm3": 141.88940281690722
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P019-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P023-Main",
+            "overlap_mm3": 136.51059718307422
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P023-Main",
+            "overlap_mm3": 141.88940281693368
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P020-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P025-Main",
+            "overlap_mm3": 136.51059718312672
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P025-Main",
+            "overlap_mm3": 141.889402816881
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P021-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P018-Main",
+            "overlap_mm3": 431.9999999999991
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P001-Main",
+            "overlap_mm3": 4231.208527786198
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P022-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P018-Main",
+            "overlap_mm3": 432.00000000009805
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P002-Main",
+            "overlap_mm3": 4231.2085277861315
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P023-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P019-Main",
+            "overlap_mm3": 431.9999999999989
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P001-Main",
+            "overlap_mm3": 4231.208527786254
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P024-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P019-Main",
+            "overlap_mm3": 432.0000000000979
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P002-Main",
+            "overlap_mm3": 4231.2085277861315
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P025-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P020-Main",
+            "overlap_mm3": 432.000000000005
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P001-Main",
+            "overlap_mm3": 4231.208527786255
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P026-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P020-Main",
+            "overlap_mm3": 432.00000000009817
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P002-Main",
+            "overlap_mm3": 4231.2085277861315
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P027-Main",
+      "stage": 4,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 65502.483411124114
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P028-Main",
+      "stage": 3,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P029-L1",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 20,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 2916.0000000000014
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P029-L2",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 5832.000000000004
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P029-L3",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 13639.864772786475
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P029-L4",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 11664.000000000005
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P029-L5",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P029-L6",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P029-L7",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 17496.000000000047
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P030-L1",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 20,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 2916.0000000000555
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P030-L2",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 5832.000000000064
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P030-L3",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 13639.864772954352
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P030-L4",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 11664.000000000213
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P030-L5",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P030-L6",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P030-L7",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 17495.999999999818
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P031-L1",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 729.0000000000111
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P031-L2",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 20,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 2916.0000000000036
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P031-L3",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 5832.000000000002
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P031-L4",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 14579.999999999995
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P031-L5",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 11663.999999999996
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P031-L6",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P031-L7",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P006-Main",
+            "overlap_mm3": 7560.000000000009
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P032-L1",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 729.0000000000548
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P032-L2",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 20,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 2916.000000000058
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P032-L3",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 5832.0000000000555
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P032-L4",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 14579.999999999785
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P032-L5",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 11664.000000000218
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P032-L6",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P032-L7",
+      "stage": 16,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P007-Main",
+            "overlap_mm3": 7559.999999999936
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P033-Main",
+      "stage": 18,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 16152.483411116838
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P034-Main",
+      "stage": 6,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            0.172043766268355,
+            -0.9850893068591292
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P018-Main",
+            "overlap_mm3": 164452.09472075725
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            -0.172043766268355,
+            0.9850893068591292
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P035-Main",
+      "stage": 5,
+      "candidates": [
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P027-Main",
+            "overlap_mm3": 18873.200830486203
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P001-Main",
+            "overlap_mm3": 13346.620185991525
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P036-Main",
+      "stage": 5,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P027-Main",
+            "overlap_mm3": 18873.200830486574
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P002-Main",
+            "overlap_mm3": 13346.62018599118
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P037-Main",
+      "stage": 7,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 8883.097817838228
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P038-Main",
+      "stage": 7,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P005-Main",
+            "overlap_mm3": 8883.097817838783
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P039-Main",
+      "stage": 15,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 2,
+            "obstacle": "P041-Main",
+            "overlap_mm3": 12.00000000000219
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 2,
+            "obstacle": "P041-Main",
+            "overlap_mm3": 12.000000000000249
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P040-Main",
+      "stage": 15,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 2,
+            "obstacle": "P041-Main",
+            "overlap_mm3": 11.999999999999833
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 2,
+            "obstacle": "P041-Main",
+            "overlap_mm3": 12.00000000000186
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P041-Main",
+      "stage": 15,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -0.42261826174069905,
+            0.9063077870366502
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            0.42261826174069905,
+            -0.9063077870366502
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P039-Main",
+            "overlap_mm3": 328.81733406506504
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P042-Main",
+      "stage": 8,
+      "candidates": [
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P044-Main",
+            "overlap_mm3": 1404.899999999669
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P043-Main",
+      "stage": 8,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P044-Main",
+            "overlap_mm3": 1404.900000000575
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P044-Main",
+      "stage": 8,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P042-Main",
+            "overlap_mm3": 468.2999999999944
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P001-Main",
+            "overlap_mm3": 1404.8999999999915
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P045-Main",
+      "stage": 8,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P042-Main",
+            "overlap_mm3": 546.3000000000087
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P046-Main",
+      "stage": 8,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P042-Main",
+            "overlap_mm3": 6407.099999997723
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P047-Main",
+      "stage": 8,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P042-Main",
+            "overlap_mm3": 170.3721922917666
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P048-Main",
+      "stage": 13,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 5,
+            "obstacle": "P063-Main",
+            "overlap_mm3": 13319.999999998976
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 300,
+            "obstacle": "P001-Main",
+            "overlap_mm3": 5544.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P049-Cap",
+      "stage": 13,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P045-Main",
+            "overlap_mm3": 7904.816927596708
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P049-Strip",
+      "stage": 13,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P050-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P063-Main",
+            "overlap_mm3": 70713.74052857384
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 5,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 2268.0000000000155
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P051-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P042-Main",
+            "overlap_mm3": 570.0000000002688
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P083-Face",
+            "overlap_mm3": 407.99999999998244
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P052-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P084-Face",
+            "overlap_mm3": 407.9999999999894
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P043-Main",
+            "overlap_mm3": 570.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P053-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P063-Main",
+            "overlap_mm3": 106211.00200982502
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 5,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 19504.800000002935
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P054-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P042-Main",
+            "overlap_mm3": 570.0000000003389
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P055-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P043-Main",
+            "overlap_mm3": 570.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P056-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P062-Main",
+            "overlap_mm3": 5465.8838551943545
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P057-Main",
+            "overlap_mm3": 139.74071755426286
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P057-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P056-Main",
+            "overlap_mm3": 449.79000939882275
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P050-Main",
+            "overlap_mm3": 433.4084637983328
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P058-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P056-Main",
+            "overlap_mm3": 449.7900093992878
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P053-Main",
+            "overlap_mm3": 433.4084637982228
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P059-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P062-Main",
+            "overlap_mm3": 5465.883855194353
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P060-Main",
+            "overlap_mm3": 139.7407175542619
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P060-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P059-Main",
+            "overlap_mm3": 449.79000939875505
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P050-Main",
+            "overlap_mm3": 433.40846379835466
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P061-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P059-Main",
+            "overlap_mm3": 449.7900093992877
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P053-Main",
+            "overlap_mm3": 433.40846379822284
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P062-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P056-Main",
+            "overlap_mm3": 5465.883855194354
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P063-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P050-Main",
+            "overlap_mm3": 70713.74052857311
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P064-Base18",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P062-Main",
+            "overlap_mm3": 1440.0000000000066
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 300,
+            "obstacle": "P044-Main",
+            "overlap_mm3": 6041.99999999999
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P064-Cap12",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 20,
+            "obstacle": "P066-Main",
+            "overlap_mm3": 720.0
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 300,
+            "obstacle": "P088-Main",
+            "overlap_mm3": 359.9999999999959
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P065-Base18",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P062-Main",
+            "overlap_mm3": 1439.9999999999955
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 300,
+            "obstacle": "P044-Main",
+            "overlap_mm3": 6041.9999999999745
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P065-Cap12",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 20,
+            "obstacle": "P067-Main",
+            "overlap_mm3": 720.0
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 300,
+            "obstacle": "P090-Main",
+            "overlap_mm3": 360.00000000000813
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P066-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 20,
+            "obstacle": "P064-Cap12",
+            "overlap_mm3": 720.0
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P062-Main",
+            "overlap_mm3": 107.99999999997505
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P067-Main",
+      "stage": 12,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 20,
+            "obstacle": "P065-Cap12",
+            "overlap_mm3": 720.0
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P062-Main",
+            "overlap_mm3": 107.99999999997505
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P068-Main",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P069-Main",
+            "overlap_mm3": 6479.999999998765
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P073-Main",
+            "overlap_mm3": 594.9999999999951
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P069-Main",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P068-Main",
+            "overlap_mm3": 6480.000000001235
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P070-Main",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P068-Main",
+            "overlap_mm3": 6480.000000003662
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P071-Main",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P068-Main",
+            "overlap_mm3": 5800.000000000006
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P072-Main",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P073-Main",
+            "overlap_mm3": 629.9999999999966
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P083-Face",
+            "overlap_mm3": 40153.399999997026
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P073-Main",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P074-Main",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P075-Ply1",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P076-Ply1",
+            "overlap_mm3": 1407.9999999999998
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 20,
+            "obstacle": "P044-Main",
+            "overlap_mm3": 4153.599999999984
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P075-Ply2",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P076-Ply1",
+            "overlap_mm3": 7039.999999999998
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P044-Main",
+            "overlap_mm3": 8448.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P076-Ply1",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P075-Ply1",
+            "overlap_mm3": 1408.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P076-Ply2",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P075-Ply2",
+            "overlap_mm3": 1408.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P077-Ply1",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P078-Ply1",
+            "overlap_mm3": 1408.0
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 20,
+            "obstacle": "P044-Main",
+            "overlap_mm3": 4153.600000000053
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P077-Ply2",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P078-Ply1",
+            "overlap_mm3": 7039.999999999999
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P044-Main",
+            "overlap_mm3": 8448.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P078-Ply1",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P077-Ply1",
+            "overlap_mm3": 1408.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P078-Ply2",
+      "stage": 14,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P077-Ply2",
+            "overlap_mm3": 1408.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P079-Main",
+      "stage": 10,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 5,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 42000.000000021566
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P080-Main",
+      "stage": 10,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 5,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 42000.000000023836
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P081-Main",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P079-Main",
+            "overlap_mm3": 3200.0000000020013
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P082-Main",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P080-Main",
+            "overlap_mm3": 3200.0000000020013
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P083-Face",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P079-Main",
+            "overlap_mm3": 26112.000000003645
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P083-Top",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 25055.999999999985
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P083-Side1",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 300,
+            "obstacle": "P087-Main",
+            "overlap_mm3": 7056.0
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 10584.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P083-Side2",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P087-Main",
+            "overlap_mm3": 3528.000000000002
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 300,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 10584.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P084-Face",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 40,
+            "obstacle": "P080-Main",
+            "overlap_mm3": 26112.000000003645
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P084-Top",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 150,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 25055.999999999993
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P084-Side1",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 300,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 10584.0
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P087-Main",
+            "overlap_mm3": 3528.0000000000346
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P084-Side2",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 80,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 10584.0
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 300,
+            "obstacle": "P087-Main",
+            "overlap_mm3": 7056.0
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P085-Reduced18",
+      "stage": 10,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 7222.000000001643
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P086-Reduced18",
+      "stage": 10,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P046-Main",
+            "overlap_mm3": 7222.000000001643
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P087-Main",
+      "stage": 10,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 5,
+            "obstacle": "P079-Main",
+            "overlap_mm3": 30803.99999999907
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P088-Main",
+      "stage": 9,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P089-Main",
+            "overlap_mm3": 727.5470194265853
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P044-Main",
+            "overlap_mm3": 727.5470194265772
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P089-Main",
+      "stage": 9,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P088-Main",
+            "overlap_mm3": 727.5470194265853
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P090-Main",
+      "stage": 9,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P091-Main",
+            "overlap_mm3": 727.5470194265853
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P044-Main",
+            "overlap_mm3": 727.54701942652
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P091-Main",
+      "stage": 9,
+      "candidates": [
+        {
+          "outward_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        },
+        {
+          "outward_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P090-Main",
+            "overlap_mm3": 727.5470194265853
+          },
+          "status": "CONFLICT"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P092-Main",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P079-Main",
+            "overlap_mm3": 2876.0325310455432
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    },
+    {
+      "instance_id": "P093-Main",
+      "stage": 11,
+      "candidates": [
+        {
+          "outward_direction": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "first_sample_conflict": {
+            "distance_mm": 0.5,
+            "obstacle": "P080-Main",
+            "overlap_mm3": 2876.0325310455432
+          },
+          "status": "CONFLICT"
+        },
+        {
+          "outward_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_sample_conflict": null,
+          "status": "SAMPLED_CLEAR_NOT_TRAJECTORY_VALIDATED"
+        }
+      ],
+      "same_stage_policy": "all other assemblies already present, conservative; own laminate siblings excluded",
+      "continuous_path_validated": false
+    }
+  ]
+}

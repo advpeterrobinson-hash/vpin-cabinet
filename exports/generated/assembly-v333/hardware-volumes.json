@@ -1,0 +1,152 @@
+[
+  {
+    "id": "F01",
+    "volume_mm3": 524.8423226903448,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F02",
+    "volume_mm3": 173.290250772013,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "H01",
+    "volume_mm3": 450378.72281863267,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F03",
+    "volume_mm3": 745.3428570641784,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "W01",
+    "volume_mm3": 89.33904108645973,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "I01",
+    "volume_mm3": 306.30528372500453,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F04",
+    "volume_mm3": 841.9468311620644,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "W02",
+    "volume_mm3": 47.712938426394985,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F08",
+    "volume_mm3": 402.1238596594935,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F10",
+    "volume_mm3": 841.9468311620644,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "I03",
+    "volume_mm3": 120.63715789784816,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F11",
+    "volume_mm3": 779.1149780902686,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F12",
+    "volume_mm3": 351.8583772020568,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "I04",
+    "volume_mm3": 125.6637061435917,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "W07",
+    "volume_mm3": 2221.8914042513807,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "I05",
+    "volume_mm3": 3168.516102631055,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "I06",
+    "volume_mm3": 946.6246983796755,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F17",
+    "volume_mm3": 658.8181593965594,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F24",
+    "volume_mm3": 848.2300164692447,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F25",
+    "volume_mm3": 2035.7520395261872,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F26",
+    "volume_mm3": 9160.884177867842,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F27",
+    "volume_mm3": 1300.6193585861752,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F30",
+    "volume_mm3": 816.8140899333443,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "I13",
+    "volume_mm3": 125.66370614359087,
+    "model_status": "CURRENT_SIMPLIFIED_ENVELOPE",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  },
+  {
+    "id": "F35",
+    "volume_mm3": 661.8288523562499,
+    "model_status": "ORIGINAL_PARAMETRIC_NOMINAL_NO_THREADS",
+    "mass_status": "ESTIMATED_NOMINAL_SIMPLIFIED_NO_THREADS"
+  }
+]

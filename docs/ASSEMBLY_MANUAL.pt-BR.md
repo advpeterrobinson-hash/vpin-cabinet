@@ -1,3 +1,5 @@
+V33.3: 19 etapas /31passos auditados geometricamente; montagem física e trajetórias contínuas novas NÃO validadas. Animações de montagem são esquemáticas. [Resultados por passo](../exports/generated/assembly-v333/assembly-validation.json). [Reproduzir montagem](../exports/generated/viewer-v32/index.html?animation=assembly-02.1&lang=pt-BR).
+
 # Roteiro do manual de montagem — V33.2
 
 **ROTEIRO — LIBERAÇÃO DE FABRICAÇÃO BLOQUEADA. Permanecem pendências de ferragens, cupom e validação física.**
@@ -18,6 +20,8 @@ Peças (cada instância ×1): —
 
 ### 00.1 — Confirme as pendências de preparação
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-00.1&lang=pt-BR)
+
 Leia o perfil do fornecedor e identifique o lote de produção. Não corte chapas completas antes da aprovação da espessura real, folga do cupom e interfaces das ferragens.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -31,6 +35,8 @@ Leia o perfil do fornecedor e identifique o lote de produção. Não corte chapa
 [CAD do próximo estado: JOGO](../exports/generated/viewer-v32/index.html?manual=00&step=00.1&state=PLAY&lang=pt-BR)
 
 ### 00.2 — Prepare as ferramentas comuns
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-00.2&lang=pt-BR)
 
 Prepare grampos, esquadro, trena, furadeira/parafusadeira, limitador de profundidade, pontas selecionadas e guias angulares validadas. As medidas das pontas dependem das ferragens compradas. Não improvise furos angulares precisos à mão livre.
 
@@ -56,6 +62,8 @@ Peças (cada instância ×1): —
 
 ### 01.1 — Confira os IDs de fabricação e as faces
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-01.1&lang=pt-BR)
+
 Confira cada família M e instância P com o registro de 130 peças. Use as fichas de orientação: FACE A é a referência acabada de usinagem; FACE B não recebe CNC. Mantenha as peças espelhadas identificadas.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -69,6 +77,8 @@ Confira cada família M e instância P com o registro de 130 peças. Use as fich
 [CAD do próximo estado: EXPLODIDA DETALHADA](../exports/generated/viewer-v32/index.html?manual=01&step=01.1&state=EXPLODED%20DETAILED&lang=pt-BR)
 
 ### 01.2 — Confira o CNC e o acabamento do montador
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-01.2&lang=pt-BR)
 
 Use a ficha de preparação de cada peça. Confira primeiro o contorno e os rebaixos da FACE A; depois execute somente a furação, escareamento ou acabamento manual de cantos/chanfros listado, após liberar suas pendências. As profundidades se referem à FACE A acabada, inclusive após redução de espessura.
 
@@ -96,6 +106,8 @@ Peças (cada instância ×1): P001-Main (M001), P002-Main (M002), P003-Main (M00
 
 ### 02.1 — Monte laterais e extremidades a seco
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-02.1&lang=pt-BR)
+
 Oriente SideL/SideR a partir da posição do jogador, frente em Y0. Monte frente e traseira a seco na estrutura integral das laterais. Mantenha a caixa apoiada, com os grampos ainda permitindo o esquadrejamento.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -109,6 +121,8 @@ Oriente SideL/SideR a partir da posição do jogador, frente em Y0. Monte frente
 [CAD do próximo estado: EXPLODIDA GERAL](../exports/generated/viewer-v32/index.html?manual=02&step=02.1&state=EXPLODED%20OVERVIEW&lang=pt-BR)
 
 ### 02.2 — Valide as juntas permanentes da caixa
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-02.2&lang=pt-BR)
 
 Use o plano aprovado de colagem/fixação quando disponível. F06 e o consumo de adesivo G01 continuam indefinidos; este roteiro não inventa espaçamento de parafusos. Mantenha as faces das juntas sem acabamento até validar a colagem.
 
@@ -133,6 +147,8 @@ Peças (cada instância ×1): P005-Main (M005), P006-Main (M006), P007-Main (M00
 |---|---|---|---|
 
 ### 03.1 — Assente o fundo, sarrafos e prateleira traseira
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-03.1&lang=pt-BR)
 
 Encaixe o fundo e seus sarrafos nos ressaltos correspondentes. Instale BBBase como prateleira de apoio vertical do backbox; preserve a passagem genérica de cabos e o material dos receptores das travas.
 
@@ -170,6 +186,8 @@ Peças (cada instância ×1): P009-Main (M008), P010-Main (M008), P011-Main (M00
 
 ### 04.1 — Instale guias e apoios das prateleiras
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-04.1&lang=pt-BR)
+
 Identifique S1–S3 e T1–T3 com seus apoios/guias correspondentes. Use as interfaces reais de montagem; F05/F52/I14 são ferragens do catálogo, não autorização para adivinhar furos sem posição definida.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -183,6 +201,8 @@ Identifique S1–S3 e T1–T3 com seus apoios/guias correspondentes. Use as inte
 [CAD do próximo estado: EXPLODIDA DETALHADA](../exports/generated/viewer-v32/index.html?manual=04&step=04.1&state=EXPLODED%20DETAILED&lang=pt-BR)
 
 ### 04.2 — Fixe as placas removíveis
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-04.2&lang=pt-BR)
 
 Instale as ferragens de aperto das prateleiras e ancoragens niveladas da PCBase somente após confirmar suas camadas. PCBase é a placa baixa aceita, não uma gaveta. As cargas eletrônicas são adições opcionais futuras.
 
@@ -208,6 +228,8 @@ Peças (cada instância ×1): P035-Main (M026), P036-Main (M027)
 | F01 | Parafuso de madeira do apoio do pivô | 6 | PURCHASE_BEFORE_CNC |
 
 ### 05.1 — Instale os dois berços abertos
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-05.1&lang=pt-BR)
 
 Posicione cada berço de 18 mm diretamente no fundo e junto à lateral. Preserve o alívio aberto do pivô e as seis coordenadas F01. Os parafusos retêm contra tombamento/separação; a carga vertical se apoia no fundo.
 
@@ -236,6 +258,8 @@ Peças (cada instância ×1): P034-Main (M025)
 
 ### 06.1 — Prenda a cavilha de madeira
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-06.1&lang=pt-BR)
+
 Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -249,6 +273,8 @@ Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito 
 [CAD do próximo estado: RETIRADA DO PLAYFIELD](../exports/generated/viewer-v32/index.html?manual=06&step=06.1&state=PLAYFIELD%20LIFT-OUT&lang=pt-BR)
 
 ### 06.2 — Confira o assentamento e a retirada
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-06.2&lang=pt-BR)
 
 Abaixe as duas pontas da cavilha nos assentos abertos. Com vidro principal e matriz removidos, demonstre a retirada vertical aceita de 48 mm. A montagem completa sai junta; os berços fixos permanecem.
 
@@ -295,6 +321,8 @@ Peças (cada instância ×1): P008-Main (M007), P037-Main (M028), P038-Main (M02
 
 ### 07.1 — Instale as ferragens da porta traseira
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-07.1&lang=pt-BR)
+
 Instale a porta traseira principal, suas duas dobradiças, contra-fecho e fechadura com as ferragens selecionadas. Essas dobradiças são distintas das dobradiças contínuas do backbox. Mantenha as quantidades dependentes das ferragens como fórmulas.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -308,6 +336,8 @@ Instale a porta traseira principal, suas duas dobradiças, contra-fecho e fechad
 [CAD do próximo estado: INSPECIONAR INTERIOR](../exports/generated/viewer-v32/index.html?manual=07&step=07.1&state=INTERIOR%20INSPECTION&lang=pt-BR)
 
 ### 07.2 — Prepare as estações opcionais de ventoinha/filtro
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-07.2&lang=pt-BR)
 
 Monte as molduras removíveis de filtro e grades selecionadas. As ventoinhas são opcionais; os comprimentos M4 dependem das camadas reais da estação. Não instale fixadores soltos em uma abertura sem uso nem suponha um comprimento único para todas as estações.
 
@@ -334,6 +364,8 @@ Peças (cada instância ×1): P042-Main (M031), P043-Main (M032), P044-Main (M03
 | F54 | Parafusos da junta lateral/piso superior | 6 | PURCHASE_BEFORE_CNC |
 
 ### 08.1 — Monte a estrutura do backbox
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-08.1&lang=pt-BR)
 
 Monte as laterais com profundidade inferior de 210 mm, fundo reto em Y1146, topo e quadro traseiro fixo. A projeção das laterais à frente do fundo é intencional. Preserve a integridade estrutural com ambas as portas abertas.
 
@@ -376,6 +408,8 @@ Peças (cada instância ×1): P088-Main (M064), P089-Main (M065), P090-Main (M06
 
 ### 09.1 — Meça e instale a família WPC
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-09.1&lang=pt-BR)
+
 Meça 01-9011-L/R, 02-4352 e 4322-01139-12B antes de qualquer furação final. O eixo de referência é Y1066.8/Z508; ele não é um padrão de furação liberado. Não substitua roscas imperiais por métricas nas ferragens compradas.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -389,6 +423,8 @@ Meça 01-9011-L/R, 02-4352 e 4322-01139-12B antes de qualquer furação final. O
 [CAD do próximo estado: BACKBOX DESTRAVADO](../exports/generated/viewer-v32/index.html?manual=09&step=09.1&state=BACKBOX%20UNLOCKED&lang=pt-BR)
 
 ### 09.2 — Instale duas travas cativas operadas por trás
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-09.2&lang=pt-BR)
 
 Mantenha H11 ×2 em L X130/Y1260 e R X470/Y1260 com receptores metálicos apoiados na prateleira, retenção contra perda, tirantes e alojamentos de estacionamento. Os detalhes exatos dos manípulos/receptores continuam provisórios.
 
@@ -421,6 +457,8 @@ Peças (cada instância ×1): P079-Main (M056), P080-Main (M057), P085-Reduced18
 
 ### 10.1 — Instale os apoios das dobradiças e as folhas
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-10.1&lang=pt-BR)
+
 Use os apoios de 18 mm reduzidos pela FACE A à geometria acabada aceita de 14 mm. Preserve o eixo da dobradiça. Instale uma dobradiça contínua em cada borda vertical externa; a quantidade de parafusos depende do plano de furos selecionado.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -434,6 +472,8 @@ Use os apoios de 18 mm reduzidos pela FACE A à geometria acabada aceita de 14 m
 [CAD do próximo estado: PORTAS DO BACKBOX ABERTAS](../exports/generated/viewer-v32/index.html?manual=10&step=10.1&state=BACKBOX%20REAR%20DOORS%20OPEN&lang=pt-BR)
 
 ### 10.2 — Instale ferrolhos passivos, sobreposição e fechadura ativa
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-10.2&lang=pt-BR)
 
 Trave primeiro os ferrolhos superior/inferior da folha passiva, depois feche a folha ativa e sua fechadura sobre a sobreposição. Instale vedações substituíveis no perímetro e no centro. Abra a folha ativa antes da passiva.
 
@@ -471,6 +511,8 @@ Peças (cada instância ×1): P081-Main (M058), P082-Main (M058), P083-Face (M05
 
 ### 11.1 — Monte defletores de entrada e molduras de filtro
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-11.1&lang=pt-BR)
+
 Monte cada defletor com sua face, topo e duas laterais, usando as quatro peças reais. Mantenha aberta a saída inferior e os filtros removíveis. As juntas de cola validadas não podem obstruir a garganta.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -484,6 +526,8 @@ Monte cada defletor com sua face, topo e duas laterais, usando as quatro peças 
 [CAD do próximo estado: EXPLODIDA DETALHADA](../exports/generated/viewer-v32/index.html?manual=11&step=11.1&state=EXPLODED%20DETAILED&lang=pt-BR)
 
 ### 11.2 — Escolha tampa ou ventoinha opcional
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-11.2&lang=pt-BR)
 
 Instale a tampa na estação sem ventilação ativa ou um conjunto selecionado de ventoinha/acessórios de 120 mm. Para ventoinha móvel, preserve o corredor flexível de baixa tensão e alívio de tração em todo o giro; conectores ficam a critério do montador.
 
@@ -517,6 +561,8 @@ Peças (cada instância ×1): P050-Main (M040), P051-Main (M041), P052-Main (M04
 
 ### 12.1 — Monte trilhos, suportes ajustáveis e batentes
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-12.1&lang=pt-BR)
+
 Use as bases e tampas reais dos batentes, coladas pelas faces amplas após validação. Instale sapatas de profundidade, arruelas/porcas de aperto e placa VESA substituível. Deixe os ajustes soltos somente durante o alinhamento.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -530,6 +576,8 @@ Use as bases e tampas reais dos batentes, coladas pelas faces amplas após valid
 [CAD do próximo estado: INTERIOR DO BACKBOX](../exports/generated/viewer-v32/index.html?manual=12&step=12.1&state=BACKBOX%20INTERIOR&lang=pt-BR)
 
 ### 12.2 — Explique a instalação frontal e ajuste traseiro futuros
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-12.2&lang=pt-BR)
 
 Quando selecionado, instale o monitor de 31,5/32 polegadas pela frente, ajuste pelas portas traseiras abertas e aperte positivamente todos os eixos. Os parafusos VESA pertencem ao adaptador do usuário e seguem o fabricante do monitor.
 
@@ -560,6 +608,8 @@ Peças (cada instância ×1): P048-Main (M037), P049-Cap (M038), P049-Strip (M03
 
 ### 13.1 — Instale os revestimentos e retentor superior removível
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-13.1&lang=pt-BR)
+
 Monte a tampa e tira reduzida reais do retentor superior. Instale revestimentos laterais e apoio inferior acolchoado. Após confirmação do fornecedor, deslize o vidro temperado nominal de 3–4 mm pelo topo/frente e fixe positivamente o retentor.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -588,6 +638,8 @@ Peças (cada instância ×1): P068-Main (M050), P069-Main (M051), P070-Main (M05
 
 ### 14.1 — Monte e retenha o cassete removível
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-14.1&lang=pt-BR)
+
 Lamine cada apoio fixo com duas camadas idênticas de 12 mm. Instale quadro, baffles substituíveis dos alto-falantes e adaptador/moldura DMD. Preserve quatro fixações positivas do cassete e o suporte independente do monitor.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -615,6 +667,8 @@ Peças (cada instância ×1): P039-Main (M029), P040-Main (M029), P041-Main (M03
 | B12 | Canaleta lateral do vidro do playfield | 2 | PURCHASE_BEFORE_CNC |
 
 ### 15.1 — Instale assentos de madeira e retenção removível
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-15.1&lang=pt-BR)
 
 Instale os dois assentos fixos de madeira, insertos e parafusos removíveis de retenção. O suporte é mecânico; painéis LED e seus fixadores específicos são eletrônica futura. Siga o trajeto salvo de avanço/elevação.
 
@@ -656,6 +710,8 @@ Peças (cada instância ×1): P029-L1 (M019), P029-L2 (M019), P029-L3 (M020), P0
 
 ### 16.1 — Lamine as camadas reais dos blocos dos pés
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-16.1&lang=pt-BR)
+
 Identifique cada pilha de sete camadas de L1 inferior a L7 superior. Na frente L3/L6 contêm furos; atrás L2 contém o furo inferior e L5/L6 compartilham o superior. Preserve os cinco perfis distintos de fabricação.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -669,6 +725,8 @@ Identifique cada pilha de sete camadas de L1 inferior a L7 superior. Na frente L
 [CAD do próximo estado: EXPLODIDA DETALHADA](../exports/generated/viewer-v32/index.html?manual=16&step=16.1&state=EXPLODED%20DETAILED&lang=pt-BR)
 
 ### 16.2 — Instale os pés e interfaces frontais comprados
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-16.2&lang=pt-BR)
 
 Use pés reais de pinball com parafusos, chapas de apoio e niveladores compatíveis. A caixa de 600 mm usa a estratégia aceita de lockdown de largura personalizada; as interfaces exatas de receptor/fixadores permanecem pendentes. Patins de transporte são acessórios externos opcionais.
 
@@ -694,6 +752,8 @@ Peças (cada instância ×1): —
 
 ### 17.1 — Execute a sequência normal de dobra
 
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-17.1&lang=pt-BR)
+
 Abra as portas traseiras; solte e guarde ambas as travas traseiras; feche/trave as portas; remova o VIDRO PRINCIPAL DO PLAYFIELD e a MATRIZ; dobre. Mantenha cassete, monitor fixado, DMD/alto-falantes e vidro frontal do backbox instalados. Sem desconexão elétrica de rotina.
 
 **Orientação:** X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
@@ -707,6 +767,8 @@ Abra as portas traseiras; solte e guarde ambas as travas traseiras; feche/trave 
 [CAD do próximo estado: DOBRA DO BACKBOX 45°](../exports/generated/viewer-v32/index.html?manual=17&step=17.1&state=BACKBOX%20FOLD%2045%C2%B0&lang=pt-BR)
 
 ### 17.2 — Separe a manutenção rara das dobradiças
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-17.2&lang=pt-BR)
 
 A manutenção rara das dobradiças WPC pode exigir remoção do cassete inferior e retirada do playfield para acessar o pivô lateral. Esse não é o procedimento normal de dobra. Mantenha visíveis todas as pendências estruturais/ergonômicas.
 
@@ -765,6 +827,8 @@ Peças (cada instância ×1): P033-Main (M024)
 | R04 | Reservas de equipamentos, carga e plunger | 0 | PURCHASE_BEFORE_ASSEMBLY |
 
 ### 18.1 — Use zonas reservadas e adaptadores substituíveis
+
+[Reproduzir animação esquemática](../exports/generated/viewer-v32/index.html?animation=assembly-18.1&lang=pt-BR)
 
 Adicione monitores, PC, DMD, alto-falantes, SSF, controladores ou brinquedos depois, usando os volumes reservados e placas substituíveis. Preserve ambas as zonas laterais e a passagem genérica de cabos. Sem prateleira obrigatória para brinquedos ou família obrigatória de conectores.
 

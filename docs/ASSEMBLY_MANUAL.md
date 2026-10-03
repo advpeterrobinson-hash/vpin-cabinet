@@ -1,3 +1,5 @@
+V33.3: 19 stages /31steps geometrically screened; physical assembly and new continuous insertion paths remain UNVALIDATED. Assembly clips are schematic. [Per-step evidence](../exports/generated/assembly-v333/assembly-validation.json). [Play assembly](../exports/generated/viewer-v32/index.html?animation=assembly-02.1).
+
 # Assembly manual framework — V33.2
 
 **FRAMEWORK — MANUFACTURING RELEASE BLOCKED. Hardware, coupon and physical qualification holds remain.**
@@ -18,6 +20,8 @@ Pieces (each instance ×1): —
 
 ### 00.1 — Confirm the preparation holds
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-00.1)
+
 Read the supplier profile and inventory the production lot. Do not cut full sheets until actual thickness, coupon clearance and hardware interfaces are approved.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -31,6 +35,8 @@ Read the supplier profile and inventory the production lot. Do not cut full shee
 [Next-state CAD: PLAY](../exports/generated/viewer-v32/index.html?manual=00&step=00.1&state=PLAY&lang=en)
 
 ### 00.2 — Prepare ordinary assembly tools
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-00.2)
 
 Prepare clamps, square, tape, drill/driver, depth stop, selected bits and qualified angle guides. Exact drive sizes follow purchased hardware. Do not improvise precise angled drilling freehand.
 
@@ -56,6 +62,8 @@ Pieces (each instance ×1): —
 
 ### 01.1 — Match manufacturing IDs and faces
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-01.1)
+
 Match every M-family and P-instance against the 130-piece register. Use the orientation cards: FACE A is the finished machining datum; FACE B receives no CNC. Keep mirrored parts labelled.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -69,6 +77,8 @@ Match every M-family and P-instance against the 130-piece register. Use the orie
 [Next-state CAD: EXPLODED DETAILED](../exports/generated/viewer-v32/index.html?manual=01&step=01.1&state=EXPLODED%20DETAILED&lang=en)
 
 ### 01.2 — Check CNC work and builder finish
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-01.2)
 
 Use each piece’s preparation card. Check the contour and FACE A pockets first; then perform only the listed manual drilling, countersinking or corner/bevel finish after its holds clear. Depths refer to finished FACE A, including after face reduction.
 
@@ -96,6 +106,8 @@ Pieces (each instance ×1): P001-Main (M001), P002-Main (M002), P003-Main (M003)
 
 ### 02.1 — Dry-assemble sides and ends
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-02.1)
+
 Orient SideL/SideR from the player position, front at Y0. Dry-assemble front and rear against the full-strength side structure. Keep the shell supported and unclamped enough to square.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -109,6 +121,8 @@ Orient SideL/SideR from the player position, front at Y0. Dry-assemble front and
 [Next-state CAD: EXPLODED OVERVIEW](../exports/generated/viewer-v32/index.html?manual=02&step=02.1&state=EXPLODED%20OVERVIEW&lang=en)
 
 ### 02.2 — Qualify permanent shell joints
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-02.2)
 
 Use the approved glue/fastener schedule when available. F06 and adhesive consumption G01 remain unresolved; this framework does not invent screw spacing. Keep joint faces free of finish until bonding is qualified.
 
@@ -133,6 +147,8 @@ Pieces (each instance ×1): P005-Main (M005), P006-Main (M006), P007-Main (M006)
 |---|---|---|---|
 
 ### 03.1 — Seat floor, cleats and rear shelf
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-03.1)
 
 Fit the floor and its cleats to their exact mating shoulders. Install BBBase as the upright backbox bearing shelf; preserve the generic cable passage and lock receiver material.
 
@@ -170,6 +186,8 @@ Pieces (each instance ×1): P009-Main (M008), P010-Main (M008), P011-Main (M009)
 
 ### 04.1 — Install guides and shelf supports
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-04.1)
+
 Identify S1–S3 and T1–T3 with their matching supports/guides. Use the actual mounting interfaces; F05/F52/I14 are catalog hardware, not permission to guess unlocated holes.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -183,6 +201,8 @@ Identify S1–S3 and T1–T3 with their matching supports/guides. Use the actual
 [Next-state CAD: EXPLODED DETAILED](../exports/generated/viewer-v32/index.html?manual=04&step=04.1&state=EXPLODED%20DETAILED&lang=en)
 
 ### 04.2 — Secure removable boards
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-04.2)
 
 Fit shelf clamp hardware and PCBase flush floor anchors only after their stack is confirmed. PCBase is the accepted low board, not a drawer. Electronics payloads are optional later additions.
 
@@ -208,6 +228,8 @@ Pieces (each instance ×1): P035-Main (M026), P036-Main (M027)
 | F01 | Cradle support wood screw | 6 | PURCHASE_BEFORE_CNC |
 
 ### 05.1 — Install both open cradles
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-05.1)
 
 Place each 18 mm cradle directly on the cabinet floor and against its side. Preserve the open pivot relief and all six F01 coordinates. The screws retain against tipping/separation; vertical load bears on the floor.
 
@@ -236,6 +258,8 @@ Pieces (each instance ×1): P034-Main (M025)
 
 ### 06.1 — Capture the wooden dowel
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-06.1)
+
 Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -249,6 +273,8 @@ Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F0
 [Next-state CAD: PLAYFIELD LIFT-OUT](../exports/generated/viewer-v32/index.html?manual=06&step=06.1&state=PLAYFIELD%20LIFT-OUT&lang=en)
 
 ### 06.2 — Check seating and removal
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-06.2)
 
 Lower both dowel ends into the open seats. With main glass and matrix removed, demonstrate the accepted 48 mm vertical lift-out. The complete playfield assembly leaves together; fixed cradles remain.
 
@@ -295,6 +321,8 @@ Pieces (each instance ×1): P008-Main (M007), P037-Main (M028), P038-Main (M028)
 
 ### 07.1 — Fit rear door hardware
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-07.1)
+
 Fit the main rear door, its two hinge assemblies, keeper and lock from the selected hardware. Main rear hinge hardware is separate from the backbox piano hinges. Keep selected-hardware quantities as formulas.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -308,6 +336,8 @@ Fit the main rear door, its two hinge assemblies, keeper and lock from the selec
 [Next-state CAD: INTERIOR INSPECTION](../exports/generated/viewer-v32/index.html?manual=07&step=07.1&state=INTERIOR%20INSPECTION&lang=en)
 
 ### 07.2 — Prepare optional fan/filter stations
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-07.2)
 
 Assemble removable filter frames and selected guards. Fans are optional; M4 fastener lengths follow the actual station stack. Do not install loose fasteners into an unused opening or assume one bolt length fits every station.
 
@@ -334,6 +364,8 @@ Pieces (each instance ×1): P042-Main (M031), P043-Main (M032), P044-Main (M033)
 | F54 | Backbox side-to-floor joint screws | 6 | PURCHASE_BEFORE_CNC |
 
 ### 08.1 — Assemble the structural backbox
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-08.1)
 
 Assemble 210 mm lower-depth sides, Y1146 straight-front floor, top and fixed rear frame. The side projection ahead of the floor is intentional. Maintain structural validity with both rear doors open.
 
@@ -376,6 +408,8 @@ Pieces (each instance ×1): P088-Main (M064), P089-Main (M065), P090-Main (M064)
 
 ### 09.1 — Measure and install the WPC family
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-09.1)
+
 Measure 01-9011-L/R, 02-4352 and 4322-01139-12B before any final hinge drilling. The reference rotation axis is Y1066.8/Z508; it is not a released drill pattern. Do not substitute metric threads into purchased imperial hardware.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -389,6 +423,8 @@ Measure 01-9011-L/R, 02-4352 and 4322-01139-12B before any final hinge drilling.
 [Next-state CAD: BACKBOX UNLOCKED](../exports/generated/viewer-v32/index.html?manual=09&step=09.1&state=BACKBOX%20UNLOCKED&lang=en)
 
 ### 09.2 — Fit two rear-operated captive locks
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-09.2)
 
 Retain H11 ×2 at L X130/Y1260 and R X470/Y1260 with metal-backed shelf receivers, loss protection, tethers and parking sockets. Exact purchased knob/receiver details remain provisional.
 
@@ -421,6 +457,8 @@ Pieces (each instance ×1): P079-Main (M056), P080-Main (M057), P085-Reduced18 (
 
 ### 10.1 — Fit hinge cleats and leaves
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-10.1)
+
 Use the 18 mm cleats reduced from FACE A to the accepted 14 mm finished geometry. Preserve the hinge axis. Install one continuous hinge on each outer vertical edge; screw count follows the selected hinge hole schedule.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -434,6 +472,8 @@ Use the 18 mm cleats reduced from FACE A to the accepted 14 mm finished geometry
 [Next-state CAD: BACKBOX REAR DOORS OPEN](../exports/generated/viewer-v32/index.html?manual=10&step=10.1&state=BACKBOX%20REAR%20DOORS%20OPEN&lang=en)
 
 ### 10.2 — Fit passive bolts, astragal and active lock
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-10.2)
 
 Secure passive upper/lower bolts first, then close the active leaf and keyed cam lock against the overlap. Fit replaceable perimeter and center gaskets. Open active leaf before passive leaf.
 
@@ -471,6 +511,8 @@ Pieces (each instance ×1): P081-Main (M058), P082-Main (M058), P083-Face (M059)
 
 ### 11.1 — Assemble intake baffles and filter frames
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-11.1)
+
 Build each baffle from its face, top and two returns using the four actual manufacturing pieces. Keep the downward mouth open and filters removable. Qualified glue seams must not obstruct the throat.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -484,6 +526,8 @@ Build each baffle from its face, top and two returns using the four actual manuf
 [Next-state CAD: EXPLODED DETAILED](../exports/generated/viewer-v32/index.html?manual=11&step=11.1&state=EXPLODED%20DETAILED&lang=en)
 
 ### 11.2 — Choose blank or optional fan
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-11.2)
 
 Install the blank module for an unpowered station, or a selected 120 mm fan/accessory stack. For a moving fan, preserve the low-voltage flexible corridor and strain relief through full door motion; connectors remain builder-configurable.
 
@@ -517,6 +561,8 @@ Pieces (each instance ×1): P050-Main (M040), P051-Main (M041), P052-Main (M041)
 
 ### 12.1 — Build rails, adjustable carriers and stops
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-12.1)
+
 Use the real monitor-stop bases and caps, glued on their broad faces after qualification. Fit depth shoes, clamping washers/nuts and replaceable VESA plate. Leave adjustments loose only during alignment.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -530,6 +576,8 @@ Use the real monitor-stop bases and caps, glued on their broad faces after quali
 [Next-state CAD: BACKBOX INTERIOR](../exports/generated/viewer-v32/index.html?manual=12&step=12.1&state=BACKBOX%20INTERIOR&lang=en)
 
 ### 12.2 — Explain later front installation and rear adjustment
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-12.2)
 
 When selected, install the 31.5/32-inch display from the front, access alignment from the open rear doors and positively clamp every axis. VESA screws are user-adapter hardware and follow the display manufacturer.
 
@@ -560,6 +608,8 @@ Pieces (each instance ×1): P048-Main (M037), P049-Cap (M038), P049-Strip (M039)
 
 ### 13.1 — Fit liners and removable top retainer
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-13.1)
+
 Assemble the actual top-retainer cap and reduced strip. Fit side liners and padded lower support. After supplier confirmation, slide the nominal 3–4 mm tempered glass from top/front and positively secure the retainer.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -588,6 +638,8 @@ Pieces (each instance ×1): P068-Main (M050), P069-Main (M051), P070-Main (M051)
 
 ### 14.1 — Build and retain the removable cassette
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-14.1)
+
 Laminate each fixed cleat from two identical 12 mm layers. Install the frame, replaceable speaker baffles and DMD adapter/bezel. Preserve four positive cassette attachments and the separate monitor carrier.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -615,6 +667,8 @@ Pieces (each instance ×1): P039-Main (M029), P040-Main (M029), P041-Main (M030)
 | B12 | Playfield glass side channel | 2 | PURCHASE_BEFORE_CNC |
 
 ### 15.1 — Fit wood seats and removable retention
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-15.1)
 
 Install the two fixed wood seats, inserts and removable retainer screws. The carrier is mechanical; LED panels and their model-specific fasteners remain future electronics. Follow the saved forward/lift removal path.
 
@@ -656,6 +710,8 @@ Pieces (each instance ×1): P029-L1 (M019), P029-L2 (M019), P029-L3 (M020), P029
 
 ### 16.1 — Laminate real leg-block layers
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-16.1)
+
 Identify each seven-layer stack bottom L1 to top L7. Front L3/L6 carry bores; rear L2 carries the lower bore and L5/L6 share the upper bore. Preserve the five distinct manufacturing profiles.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -669,6 +725,8 @@ Identify each seven-layer stack bottom L1 to top L7. Front L3/L6 carry bores; re
 [Next-state CAD: EXPLODED DETAILED](../exports/generated/viewer-v32/index.html?manual=16&step=16.1&state=EXPLODED%20DETAILED&lang=en)
 
 ### 16.2 — Fit purchased legs and front interfaces
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-16.2)
 
 Use matched real pinball legs, bolts, backing plates and levelers. The 600 mm body uses the accepted custom-width lockdown strategy; exact receiver/fastener interfaces remain held. Mobility skates are optional external accessories.
 
@@ -694,6 +752,8 @@ Pieces (each instance ×1): —
 
 ### 17.1 — Perform the normal fold sequence
 
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-17.1)
+
 Open rear doors; release and park both rear-operated locks; close/latch the rear doors; remove MAIN PLAYFIELD GLASS and MATRIX; fold. Keep the cassette, secured display, DMD/speakers and backbox front glass installed. No routine electronics disconnection.
 
 **Orientation:** X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
@@ -707,6 +767,8 @@ Open rear doors; release and park both rear-operated locks; close/latch the rear
 [Next-state CAD: BACKBOX FOLD 45°](../exports/generated/viewer-v32/index.html?manual=17&step=17.1&state=BACKBOX%20FOLD%2045%C2%B0&lang=en)
 
 ### 17.2 — Separate rare hinge maintenance
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-17.2)
 
 Rare WPC hinge service may require lower-cassette removal and playfield lift-out/removal for side-pivot access. This is not the normal fold procedure. Keep all unqualified structural/ergonomic gates visible.
 
@@ -765,6 +827,8 @@ Pieces (each instance ×1): P033-Main (M024)
 | R04 | Unpopulated equipment/payload/plunger reserves | 0 | PURCHASE_BEFORE_ASSEMBLY |
 
 ### 18.1 — Use reserved zones and replaceable adapters
+
+[Play schematic assembly animation](../exports/generated/viewer-v32/index.html?animation=assembly-18.1)
 
 Add displays, PC, DMD, speakers, SSF, controllers or toys later using the reserved envelopes and replaceable mounting boards. Preserve both side toy zones and generic cable passage. No mandatory toy shelf or connector family.
 

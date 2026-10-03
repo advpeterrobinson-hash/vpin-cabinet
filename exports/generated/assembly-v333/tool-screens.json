@@ -1,0 +1,1656 @@
+[
+  {
+    "id": "F01",
+    "object": "PF_SupportMountScrewL1",
+    "start_mm": [
+      46.0,
+      1037.0,
+      192.0
+    ],
+    "direction": [
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F01",
+    "object": "PF_SupportMountScrewR1",
+    "start_mm": [
+      554.0,
+      1037.0,
+      192.0
+    ],
+    "direction": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F01",
+    "object": "PF_SupportMountScrewL2",
+    "start_mm": [
+      46.0,
+      1042.5,
+      320.1101650574533
+    ],
+    "direction": [
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F01",
+    "object": "PF_SupportMountScrewR2",
+    "start_mm": [
+      554.0,
+      1042.5,
+      320.1101650574533
+    ],
+    "direction": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F01",
+    "object": "PF_SupportMountScrewL3",
+    "start_mm": [
+      46.0,
+      1055.25061984718,
+      448.2203301149065
+    ],
+    "direction": [
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F01",
+    "object": "PF_SupportMountScrewR3",
+    "start_mm": [
+      554.0,
+      1055.25061984718,
+      448.2203301149065
+    ],
+    "direction": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F02",
+    "object": "PF_StrapScrew1_1",
+    "start_mm": [
+      60.999999999999986,
+      1013.3795560603152,
+      474.0517110586099
+    ],
+    "direction": [
+      -0.0,
+      0.172043766268355,
+      -0.9850893068591292
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F02",
+    "object": "PF_StrapScrew1_3",
+    "start_mm": [
+      60.999999999999986,
+      1060.6638427895532,
+      482.30981183949103
+    ],
+    "direction": [
+      -0.0,
+      0.172043766268355,
+      -0.9850893068591292
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F02",
+    "object": "PF_StrapScrew2_1",
+    "start_mm": [
+      90.99999999999999,
+      1013.3795560603152,
+      474.0517110586099
+    ],
+    "direction": [
+      -0.0,
+      0.172043766268355,
+      -0.9850893068591292
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F02",
+    "object": "PF_StrapScrew2_3",
+    "start_mm": [
+      90.99999999999999,
+      1060.6638427895532,
+      482.30981183949103
+    ],
+    "direction": [
+      -0.0,
+      0.172043766268355,
+      -0.9850893068591292
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F02",
+    "object": "PF_StrapScrew3_1",
+    "start_mm": [
+      510.99999999999994,
+      1013.3795560603152,
+      474.0517110586099
+    ],
+    "direction": [
+      -0.0,
+      0.172043766268355,
+      -0.9850893068591292
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F02",
+    "object": "PF_StrapScrew3_3",
+    "start_mm": [
+      510.99999999999994,
+      1060.6638427895532,
+      482.30981183949103
+    ],
+    "direction": [
+      -0.0,
+      0.172043766268355,
+      -0.9850893068591292
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F02",
+    "object": "PF_StrapScrew4_1",
+    "start_mm": [
+      540.9999999999999,
+      1013.3795560603152,
+      474.0517110586099
+    ],
+    "direction": [
+      -0.0,
+      0.172043766268355,
+      -0.9850893068591292
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F02",
+    "object": "PF_StrapScrew4_3",
+    "start_mm": [
+      540.9999999999999,
+      1060.6638427895532,
+      482.30981183949103
+    ],
+    "direction": [
+      -0.0,
+      0.172043766268355,
+      -0.9850893068591292
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt1L1",
+    "start_mm": [
+      48.0,
+      145.0,
+      187.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt1L2",
+    "start_mm": [
+      48.0,
+      220.0,
+      187.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt1R1",
+    "start_mm": [
+      552.0,
+      145.0,
+      187.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt1R2",
+    "start_mm": [
+      552.0,
+      220.0,
+      187.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt2L1",
+    "start_mm": [
+      48.0,
+      590.0,
+      207.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt2L2",
+    "start_mm": [
+      48.0,
+      665.0,
+      207.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt2R1",
+    "start_mm": [
+      552.0,
+      590.0,
+      207.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt2R2",
+    "start_mm": [
+      552.0,
+      665.0,
+      207.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt3L1",
+    "start_mm": [
+      48.0,
+      880.0,
+      267.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt3L2",
+    "start_mm": [
+      48.0,
+      940.0,
+      267.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt3R1",
+    "start_mm": [
+      552.0,
+      880.0,
+      267.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F03",
+    "object": "SimpleShelfBolt3R2",
+    "start_mm": [
+      552.0,
+      940.0,
+      267.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew1L1",
+    "start_mm": [
+      60.0,
+      175.0,
+      151.0
+    ],
+    "direction": [
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P009-Main",
+        "overlap_mm3": 587.2590687760534,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew1L2",
+    "start_mm": [
+      60.0,
+      245.0,
+      151.0
+    ],
+    "direction": [
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P009-Main",
+        "overlap_mm3": 587.2590687760534,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew1R1",
+    "start_mm": [
+      540.0,
+      175.0,
+      151.0
+    ],
+    "direction": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P009-Main",
+        "overlap_mm3": 587.2590687760919,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew1R2",
+    "start_mm": [
+      540.0,
+      245.0,
+      151.0
+    ],
+    "direction": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P009-Main",
+        "overlap_mm3": 587.2590687760919,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew2L1",
+    "start_mm": [
+      60.0,
+      620.0,
+      171.0
+    ],
+    "direction": [
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P010-Main",
+        "overlap_mm3": 587.2590687760477,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew2L2",
+    "start_mm": [
+      60.0,
+      690.0,
+      171.0
+    ],
+    "direction": [
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P010-Main",
+        "overlap_mm3": 587.2590687760477,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew2R1",
+    "start_mm": [
+      540.0,
+      620.0,
+      171.0
+    ],
+    "direction": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P010-Main",
+        "overlap_mm3": 587.2590687760859,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew2R2",
+    "start_mm": [
+      540.0,
+      690.0,
+      171.0
+    ],
+    "direction": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P010-Main",
+        "overlap_mm3": 587.2590687760858,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew3L1",
+    "start_mm": [
+      60.0,
+      920.0,
+      231.0
+    ],
+    "direction": [
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P011-Main",
+        "overlap_mm3": 587.2590687760477,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew3L2",
+    "start_mm": [
+      60.0,
+      990.0,
+      231.0
+    ],
+    "direction": [
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P011-Main",
+        "overlap_mm3": 587.2590687760477,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew3R1",
+    "start_mm": [
+      540.0,
+      920.0,
+      231.0
+    ],
+    "direction": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P011-Main",
+        "overlap_mm3": 587.2590687760859,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F04",
+    "object": "CandidateFixedSupportScrew3R2",
+    "start_mm": [
+      540.0,
+      990.0,
+      231.0
+    ],
+    "direction": [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P011-Main",
+        "overlap_mm3": 587.2590687760859,
+        "stage": 4
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F08",
+    "object": "CandidateHandleBolt1",
+    "start_mm": [
+      268.0,
+      1328.6,
+      190.0
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F08",
+    "object": "CandidateHandleBolt2",
+    "start_mm": [
+      332.0,
+      1328.6,
+      190.0
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F10",
+    "object": "CandidateFanBolt230_1",
+    "start_mm": [
+      177.5,
+      1309.6,
+      447.5
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F10",
+    "object": "CandidateFanBolt230_2",
+    "start_mm": [
+      177.5,
+      1309.6,
+      552.5
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F10",
+    "object": "CandidateFanBolt230_3",
+    "start_mm": [
+      282.5,
+      1309.6,
+      447.5
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F10",
+    "object": "CandidateFanBolt230_4",
+    "start_mm": [
+      282.5,
+      1309.6,
+      552.5
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F10",
+    "object": "CandidateFanBolt370_1",
+    "start_mm": [
+      317.5,
+      1309.6,
+      447.5
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F10",
+    "object": "CandidateFanBolt370_2",
+    "start_mm": [
+      317.5,
+      1309.6,
+      552.5
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F10",
+    "object": "CandidateFanBolt370_3",
+    "start_mm": [
+      422.5,
+      1309.6,
+      447.5
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F10",
+    "object": "CandidateFanBolt370_4",
+    "start_mm": [
+      422.5,
+      1309.6,
+      552.5
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F12",
+    "object": "FloorFilterScrewL1",
+    "start_mm": [
+      80.0,
+      640.0,
+      -8.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F12",
+    "object": "FloorFilterScrewL2",
+    "start_mm": [
+      80.0,
+      780.0,
+      -8.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F12",
+    "object": "FloorFilterScrewL3",
+    "start_mm": [
+      220.0,
+      640.0,
+      -8.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F12",
+    "object": "FloorFilterScrewL4",
+    "start_mm": [
+      220.0,
+      780.0,
+      -8.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F12",
+    "object": "FloorFilterScrewR1",
+    "start_mm": [
+      380.0,
+      640.0,
+      -8.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F12",
+    "object": "FloorFilterScrewR2",
+    "start_mm": [
+      380.0,
+      780.0,
+      -8.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F12",
+    "object": "FloorFilterScrewR3",
+    "start_mm": [
+      520.0,
+      640.0,
+      -8.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F12",
+    "object": "FloorFilterScrewR4",
+    "start_mm": [
+      520.0,
+      780.0,
+      -8.5
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F17",
+    "object": "BB_UprightLockLParkingScrewReserve0",
+    "start_mm": [
+      168.0,
+      1268.0,
+      651.9
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P083-Face",
+        "overlap_mm3": 7377.0159327280535,
+        "stage": 11
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F17",
+    "object": "BB_UprightLockLParkingScrewReserve1",
+    "start_mm": [
+      202.0,
+      1268.0,
+      651.9
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P083-Face",
+        "overlap_mm3": 7377.0159327280535,
+        "stage": 11
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F17",
+    "object": "BB_UprightLockRParkingScrewReserve0",
+    "start_mm": [
+      398.0,
+      1268.0,
+      651.9
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P084-Face",
+        "overlap_mm3": 7377.0159327280535,
+        "stage": 11
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F17",
+    "object": "BB_UprightLockRParkingScrewReserve1",
+    "start_mm": [
+      432.0,
+      1268.0,
+      651.9
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P084-Face",
+        "overlap_mm3": 7377.0159327280535,
+        "stage": 11
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F24",
+    "object": "BB_GlassRetainerFastenerReserve0",
+    "start_mm": [
+      100.0,
+      1130.0,
+      1346.0
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F24",
+    "object": "BB_GlassRetainerFastenerReserve1",
+    "start_mm": [
+      500.0,
+      1130.0,
+      1346.0
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [],
+    "status": "WOOD_CLEAR_ONLY",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F25",
+    "object": "BB_MonitorDepthBoltReserve00",
+    "start_mm": [
+      160.0,
+      1277.0,
+      871.0
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P057-Main",
+        "overlap_mm3": 1404.880964777156,
+        "stage": 12
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F25",
+    "object": "BB_MonitorDepthBoltReserve01",
+    "start_mm": [
+      160.0,
+      1277.0,
+      1285.0
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P045-Main",
+        "overlap_mm3": 5654.866776461639,
+        "stage": 8
+      },
+      {
+        "piece": "P053-Main",
+        "overlap_mm3": 1346.1550578995832,
+        "stage": 12
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F25",
+    "object": "BB_MonitorDepthBoltReserve10",
+    "start_mm": [
+      440.0,
+      1277.0,
+      871.0
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P060-Main",
+        "overlap_mm3": 1404.8809647771554,
+        "stage": 12
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F25",
+    "object": "BB_MonitorDepthBoltReserve11",
+    "start_mm": [
+      440.0,
+      1277.0,
+      1285.0
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P045-Main",
+        "overlap_mm3": 5654.866776461638,
+        "stage": 8
+      },
+      {
+        "piece": "P053-Main",
+        "overlap_mm3": 1346.1550578995832,
+        "stage": 12
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F26",
+    "object": "BB_MonitorClampReserve160994",
+    "start_mm": [
+      160.0,
+      1271.0,
+      994.0
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P079-Main",
+        "overlap_mm3": 3769.9111843077517,
+        "stage": 10
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F26",
+    "object": "BB_MonitorClampReserve1601134",
+    "start_mm": [
+      160.0,
+      1271.0,
+      1134.0
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P092-Main",
+        "overlap_mm3": 1884.9555921538781,
+        "stage": 11
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F26",
+    "object": "BB_MonitorClampReserve440994",
+    "start_mm": [
+      440.0,
+      1271.0,
+      994.0
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P080-Main",
+        "overlap_mm3": 3769.9111843077517,
+        "stage": 10
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F26",
+    "object": "BB_MonitorClampReserve4401134",
+    "start_mm": [
+      440.0,
+      1271.0,
+      1134.0
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P093-Main",
+        "overlap_mm3": 1884.9555921538786,
+        "stage": 11
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F27",
+    "object": "BB_MonitorStopScrewReserve0",
+    "start_mm": [
+      214.0,
+      1235.0,
+      947.0
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P062-Main",
+        "overlap_mm3": 21872.707848172857,
+        "stage": 12
+      },
+      {
+        "piece": "P066-Main",
+        "overlap_mm3": 422.89143006881363,
+        "stage": 12
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F27",
+    "object": "BB_MonitorStopScrewReserve1",
+    "start_mm": [
+      386.0,
+      1235.0,
+      947.0
+    ],
+    "direction": [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P062-Main",
+        "overlap_mm3": 21872.70784817285,
+        "stage": 12
+      },
+      {
+        "piece": "P067-Main",
+        "overlap_mm3": 422.89143006881375,
+        "stage": 12
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F30",
+    "object": "BB_CassetteBoltReserveL0",
+    "start_mm": [
+      -61.0,
+      1207.5,
+      641.0
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P046-Main",
+        "overlap_mm3": 5466.371217246269,
+        "stage": 8
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F30",
+    "object": "BB_CassetteBoltReserveL1",
+    "start_mm": [
+      -61.0,
+      1207.5,
+      801.0
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P046-Main",
+        "overlap_mm3": 5466.371217246271,
+        "stage": 8
+      },
+      {
+        "piece": "P051-Main",
+        "overlap_mm3": 10815.156490933807,
+        "stage": 12
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F30",
+    "object": "BB_CassetteBoltReserveR0",
+    "start_mm": [
+      661.0,
+      1207.5,
+      641.0
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P046-Main",
+        "overlap_mm3": 5466.371217246267,
+        "stage": 8
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  },
+  {
+    "id": "F30",
+    "object": "BB_CassetteBoltReserveR1",
+    "start_mm": [
+      661.0,
+      1207.5,
+      801.0
+    ],
+    "direction": [
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "radius_mm": 10,
+    "length_mm": 100,
+    "wood_conflicts": [
+      {
+        "piece": "P046-Main",
+        "overlap_mm3": 5466.371217246267,
+        "stage": 8
+      },
+      {
+        "piece": "P052-Main",
+        "overlap_mm3": 10815.156490933856,
+        "stage": 12
+      }
+    ],
+    "status": "CONSERVATIVE_RESERVE_CONFLICT",
+    "physical_tool_validated": false
+  }
+]

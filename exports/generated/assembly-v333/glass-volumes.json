@@ -1,0 +1,12 @@
+[
+  {
+    "object": "CandidateGlass",
+    "volume_mm3": 3162500.0,
+    "status": "ESTIMATED_REFERENCE_GLASS"
+  },
+  {
+    "object": "BB_Backglass",
+    "volume_mm3": 1398720.0,
+    "status": "ESTIMATED_REFERENCE_GLASS"
+  }
+]

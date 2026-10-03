@@ -1,0 +1,80 @@
+{
+  "version": "V33.3",
+  "head_before": "254c54541548555b22e6455413e642cb32131f79",
+  "manufacturing_release": false,
+  "densities_kg_m3": {
+    "plywood": [
+      550,
+      650,
+      750
+    ],
+    "steel": 7850,
+    "hardwood_dowel": [
+      550,
+      700,
+      850
+    ],
+    "glass": 2500
+  },
+  "density_authority": "650 plywood is owner planning input; low/high are explicit sensitivity assumptions, not measured lot limits. Other densities are configurable planning assumptions.",
+  "unknown_required_hardware_allowance_kg": [
+    8,
+    15,
+    25
+  ],
+  "unknown_hardware_authority": "Scenario allowance for unweighed legs, WPC, locks, hinges, fittings, adhesives and unresolved quantities; NOT a measured subtotal or guaranteed bound.",
+  "future_electronics_scenarios_kg": {
+    "playfield_display": [
+      8,
+      10,
+      12
+    ],
+    "backglass_display": [
+      4,
+      7,
+      8
+    ],
+    "DMD_and_speakers": [
+      2,
+      5.2,
+      6
+    ],
+    "PC_and_power": [
+      5,
+      9,
+      14
+    ],
+    "audio_matrix_controllers_optional_toys": [
+      2,
+      7,
+      15
+    ]
+  },
+  "future_mass_authority": "Explicit illustrative populated-build assumptions, optional content not mandatory flatpack; no upper bound on future toys.",
+  "packaging": {
+    "targets_kg": [
+      20,
+      25,
+      30
+    ],
+    "preferred_target_kg": 25,
+    "edge_padding_mm": 20,
+    "top_bottom_padding_mm": 10,
+    "separator_mm": 2,
+    "separator_areal_mass_kg_m2": 0.15,
+    "outer_areal_mass_kg_m2": 0.6,
+    "corner_and_strap_mass_kg": 0.3,
+    "capacity_density_kg_m3": 750,
+    "capacity_note": "Size bundles to high planning density750, not only nominal650; verify actual gross mass. This sensitivity is not a lot-density guarantee."
+  },
+  "reusable_offcut_minimum_xy_mm": [
+    150,
+    150
+  ],
+  "status": "NON_PRODUCTION_PLANNING; physical packaging compression/drop/handling qualification and tool trials pending",
+  "future_mass_sources": {
+    "backglass_display_nominal": "exports/generated/backbox-service-v32/validation.json: results.planning_mass.display_kg =7",
+    "DMD_and_speakers_nominal": "exports/generated/backbox-service-v32/validation.json: results.planning_mass.dmd_kg2 +speaker_pair_kg3.2",
+    "remaining_scenarios": "Explicit sensitivity/planning assumptions; no purchased electronics selected"
+  }
+}

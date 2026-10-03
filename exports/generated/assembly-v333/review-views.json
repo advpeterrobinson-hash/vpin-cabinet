@@ -1,0 +1,58 @@
+[
+  {
+    "image": "01-metrics.png",
+    "title": "Project metrics and current cabinet"
+  },
+  {
+    "image": "02-assembly.png",
+    "title": "Schematic cradle assembly — real pieces and F01"
+  },
+  {
+    "image": "03-packages.png",
+    "title": "Preferred25kg wood bundle candidate"
+  },
+  {
+    "image": "14-exploded-packing.png",
+    "title": "Exploded packing — actual layer order"
+  },
+  {
+    "image": "04-packing-layer.png",
+    "title": "Layer-by-layer packing / part identification"
+  },
+  {
+    "image": "05-unpacking.png",
+    "title": "Unpack and identify pieces"
+  },
+  {
+    "image": "06-fold45.png",
+    "title": "Validated populated fold45°"
+  },
+  {
+    "image": "07-doors.png",
+    "title": "Active then passive door sweep"
+  },
+  {
+    "image": "08-lock-parking.png",
+    "title": "Rear-operated lock release and parking"
+  },
+  {
+    "image": "09-glass.png",
+    "title": "Glass lift with display retained"
+  },
+  {
+    "image": "10-display.png",
+    "title": "Front display withdrawal"
+  },
+  {
+    "image": "11-cassette.png",
+    "title": "Independent cassette withdrawal"
+  },
+  {
+    "image": "12-fan.png",
+    "title": "Fan service with doors open"
+  },
+  {
+    "image": "13-tablet.png",
+    "title": "Tablet playback — PT-BR / Accessible"
+  }
+]

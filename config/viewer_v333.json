@@ -1,0 +1,15 @@
+{
+  "version": "V33.3",
+  "authority": "VIEWER_DOCUMENTATION_AND_PLANNING_ONLY",
+  "source_head": "254c54541548555b22e6455413e642cb32131f79",
+  "viewer": "exports/generated/viewer-v32/index.html",
+  "builder": "tools/build_viewer_v333.py",
+  "metrics_builder": "tools/build_assembly_v333.py",
+  "brep_metrics_builder": "tools/assembly_v333_brep.py",
+  "validation": "exports/generated/assembly-v333/validation.json",
+  "manual_json": "exports/generated/assembly-v333/assembly-manual.json",
+  "geometry_changed": false,
+  "manufacturing_release": false,
+  "assembly_status": "31_STEP_SCREEN_COMPLETE_PHYSICAL_QUALIFICATION_HOLD",
+  "planning_config": "config/assembly_planning_v333.json"
+}
