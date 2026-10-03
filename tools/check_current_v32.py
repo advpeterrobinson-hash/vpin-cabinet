@@ -5,6 +5,16 @@ from wpc_reference_v32 import reference_axis
 import runpy,sys
 _current_root=Path(__file__).resolve().parents[1]
 _current_manifest=json.loads((_current_root/'config/current_v32.json').read_text())
+if _current_manifest.get('structural_revision')=='V33.6.1':
+ assert reference_axis()==[300,1066.8,508]
+ assert not _current_manifest['final_hinge_drilling_released'] and not _current_manifest['manufacturing_ready']
+ expected=[[89,350.593661971831],[127,357.2302816901408]]
+ assert all(abs(x-y)<1e-7 for row,want in zip(_current_manifest['side_button_centers_yz_mm'],expected) for x,y in zip(row,want))
+ assert _current_manifest['side_button_vertical_datum']=='local_side_top_minus_65_mm'
+ assert _current_manifest['side_button_final_bore_mm'] is None and _current_manifest['playfield_base_horn_absent']
+ runpy.run_path(str(_current_root/'tools/check_button_relief_v3361.py'),run_name='__main__')
+ print('CURRENT_V3361_PROMOTION_GATES_PASS')
+ sys.exit(0)
 if _current_manifest.get('structural_revision')=='V33.6':
  assert reference_axis()==[300,1066.8,508]
  assert not _current_manifest['final_hinge_drilling_released'] and not _current_manifest['manufacturing_ready']

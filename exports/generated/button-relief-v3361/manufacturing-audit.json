@@ -1,0 +1,111 @@
+{
+  "version": "V33.6.1",
+  "pass": true,
+  "manufacturing_release": false,
+  "source_register": "exports/generated/monitor-support-v336/manufacturing-register.json",
+  "source_register_sha256": "338023b59791f3ab2af73b7a53dbb637eacade3ef30f179ec78715416441e00c",
+  "native_geometry_sha256": "2a5802b869958e2f9d720cf7976a6e056072975bcd17b05002e4beb843e11a6f",
+  "geometry_validation_sha256": "d9385ac070920b19343896cc8a30057ee1e0a1b811baf75f0aec6686ba7ac999",
+  "native_configuration_sha256": "914c06f58f552844a0a229e2da0beeb68b3f7684e4841d08c01ae979caa97501",
+  "changed_audits": [
+    {
+      "instance_id": "P001-Main",
+      "manufacturing_part_id": "M001",
+      "source_component": "SIDE_L",
+      "installed_reconstruction_difference_mm3": 0.0,
+      "finished_solids": 1,
+      "shape_valid": true,
+      "face_A_outward_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face_CNC": false,
+      "stock_thickness_mm": 18,
+      "measured_reference_thickness_mm": 18.00000000000003,
+      "through_cuts": 2,
+      "pockets": 2,
+      "manual_operations": 11,
+      "status": "ONE_SIDE_CNC_PLUS_MANUAL_FINISH",
+      "before_volume_mm3": 11865853.838037863,
+      "after_volume_mm3": 11865853.838038225,
+      "volume_change_mm3": 3.6135315895080566e-07,
+      "outer_contour_before_mm2": 669847.4998387625,
+      "outer_contour_after_mm2": 669847.4998387625,
+      "cutters": {
+        "diameter_mm": 4,
+        "natural_internal_radius_mm": 2
+      },
+      "structural_web_authority": "geometry-validation.json: named openings, section and reserve checks; CNC readiness is not structural certification"
+    },
+    {
+      "instance_id": "P002-Main",
+      "manufacturing_part_id": "M002",
+      "source_component": "SIDE_R",
+      "installed_reconstruction_difference_mm3": 0.0,
+      "finished_solids": 1,
+      "shape_valid": true,
+      "face_A_outward_world": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face_CNC": false,
+      "stock_thickness_mm": 18,
+      "measured_reference_thickness_mm": 18.0,
+      "through_cuts": 2,
+      "pockets": 2,
+      "manual_operations": 11,
+      "status": "ONE_SIDE_CNC_PLUS_MANUAL_FINISH",
+      "before_volume_mm3": 11865853.83803786,
+      "after_volume_mm3": 11865853.838038225,
+      "volume_change_mm3": 3.650784492492676e-07,
+      "outer_contour_before_mm2": 669847.4998387626,
+      "outer_contour_after_mm2": 669847.4998387626,
+      "cutters": {
+        "diameter_mm": 4,
+        "natural_internal_radius_mm": 2
+      },
+      "structural_web_authority": "geometry-validation.json: named openings, section and reserve checks; CNC readiness is not structural certification"
+    },
+    {
+      "instance_id": "P034-Main",
+      "manufacturing_part_id": "M025",
+      "source_component": "PF_BasePlywood",
+      "installed_reconstruction_difference_mm3": 0.0,
+      "finished_solids": 1,
+      "shape_valid": true,
+      "face_A_outward_world": [
+        -0.0,
+        0.172043766268355,
+        -0.9850893068591292
+      ],
+      "opposite_face_CNC": false,
+      "stock_thickness_mm": 18,
+      "measured_reference_thickness_mm": 18.000000000000057,
+      "through_cuts": 3,
+      "pockets": 0,
+      "manual_operations": 0,
+      "status": "ONE_SIDE_CNC_READY",
+      "before_volume_mm3": 8820115.009243298,
+      "after_volume_mm3": 8751705.451874824,
+      "volume_change_mm3": -68409.55736847408,
+      "outer_contour_before_mm2": 509999.9999999999,
+      "outer_contour_after_mm2": 506199.46903508506,
+      "cutters": {
+        "diameter_mm": 4,
+        "natural_internal_radius_mm": 2
+      },
+      "structural_web_authority": "geometry-validation.json: named openings, section and reserve checks; CNC readiness is not structural certification"
+    }
+  ],
+  "unchanged_pieces_retained": 98,
+  "counts": {
+    "ONE_SIDE_CNC_PLUS_MANUAL_FINISH": 51,
+    "ONE_SIDE_CNC_READY": 46,
+    "SHOP_MADE_SOLID_WOOD_PART": 4
+  },
+  "cutting_rule": "FACE_A only; FACE_B has no CNC operations; manual operations retain FACE_A depth datum.",
+  "geometry_rule": "Actual closed outer boundary includes the two front-open reliefs; no bounding rectangle substituted. Exact local B-reps and installed reconstruction; dimensions are reporting bounds only.",
+  "structural_rule": "One solid / one-face status alone does not approve webs; native geometry validation controls opening acceptance."
+}

@@ -1,4 +1,4 @@
-# Assembly manual — V33.6
+# Assembly manual — V33.6.1
 
 **PREPARATION ONLY — CNC RELEASE BLOCKED**
 
@@ -288,7 +288,7 @@ Clamps, square and measuring tools; selected drive/bit and depth stop for the li
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings. Use CURRENT M025: clean rectangular outer contour with one rear 180 × 110 mm R8 service window and two rounded strain-relief slots. No horn or front side notch remains. Preserve the entire modeled VESA load region and all four straps/eight F02 positions. The rear window admits the illustrative connector envelope; confirm the chosen display port location before machining its replaceable adapter. No new VESA adjustment holes are authorized.
+Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings. Use CURRENT M025 with the clean relief open to the front edge: narrowed straight sides and rounded return to full width, with no horn, front bridge or hooked projection. Keep the V33.6 rear 180 × 110 mm R8 service window and two strain-relief slots. Preserve the VESA load region, dowel, four straps and eight F02 coordinates. Button clearance is derived from the restored front leaf-body, terminal, wire and tool reserves. Do not move buttons to fit the plywood. Final display/button hardware and stiffness qualification remain HOLD.
 
 Check strap seating, screw engagement and no splitting after purchased strap/material qualification.
 
@@ -754,7 +754,7 @@ Clamps, square and measuring tools; selected drive/bit and depth stop for the li
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-The conventional front-right plunger is a visible provisional interface at X520/Z280. Its bore remains PURCHASE BEFORE CNC. The220×55mm under-front panel is restored as an UNLOCATED schematic: volume, OFF/AUDIO/PINBALL selector, Bluetooth pair and optional USB-C charge. No authoritative final control centers exist; select controls, then validate ergonomics and clearances. Generic cable passage and optional electronics remain builder-configurable. SIDE BUTTON POSITIONAL AUTHORITY: Y255 / Y310, Z270 on both sides, from cabinet-front Y0. This supersedes Y89/Y127; it does not select bore/recess diameters. Traditional leaf button body, nut, wire, tool and open-cabinet hand corridors are planning reserves only. Purchase actual buttons before CNC. Service requires main glass/matrix removed and playfield raised. Under-front controls remain a separate UNLOCATED 220 × 55 mm schematic.
+The conventional front-right plunger is a visible provisional interface at X520/Z280. Its bore remains PURCHASE BEFORE CNC. The220×55mm under-front panel is restored as an UNLOCATED schematic: volume, OFF/AUDIO/PINBALL selector, Bluetooth pair and optional USB-C charge. No authoritative final control centers exist; select controls, then validate ergonomics and clearances. Generic cable passage and optional electronics remain builder-configurable. CURRENT OWNER BUTTON AUTHORITY: primary Y89, secondary Y127, both 65 mm below the actual local side-top profile (currently Z350.593661971831 and Z357.2302816901408). Mirror both sides. This restores owner ergonomic correction87d63825; V33.6 rearward Y255/Y310 Z270 was an erroneous temporary restoration and is SUPERSEDED. Reference Ø15.875 bore and Ø25 ×3 nut pocket are REFERENCE_ONLY_NOT_RELEASED. Actual leaf buttons and all final bores/recesses/leaf mounting holes are PURCHASE_BEFORE_CNC. Service requires main playfield glass and matrix removed, with playfield raised. Under-front220 ×55 controls remain a separate unlocated schematic.
 
 Keep electronics separate from the mandatory mechanical kit. Heavy devices need positive retention; power/electrical design is outside this manual framework.
 

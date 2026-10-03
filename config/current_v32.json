@@ -1,15 +1,15 @@
 {
   "status": "CURRENT_DESIGN_CANDIDATE_NOT_MANUFACTURING_RELEASE",
-  "geometry_directory": "exports/generated/monitor-support-v336",
-  "geometry_builder": "tools/monitor_support_v336_entry.py",
-  "geometry_parameters": "config/monitor_support_v336.json",
+  "geometry_directory": "exports/generated/button-relief-v3361",
+  "geometry_builder": "tools/button_relief_v3361_entry.py",
+  "geometry_parameters": "config/button_relief_v3361.json",
   "backbox_parameter_source": "config/backbox_service_v32.json",
-  "backbox_source_note": "V33.5 accepted architecture retained. V33.6 adds carrier strain-relief slots; central VESA-plate window NOT promoted. M067 and all existing adjustment/retention preserved.",
+  "backbox_source_note": "V33.6 monitor/carrier strain slots, M067 and every existing adjustment/retention remain unchanged. V33.6.1 restores Y89/Y127 front ergonomics and adds a clean open-front playfield relief. V33.6 rear service window and slots preserved; central VESA-plate window remains HOLD.",
   "kinematic_reference": "config/wpc_kinematics_v32.json",
   "cradle_relief_reserve_radius_mm": 12,
   "cradle_relief_allowance_mm": 2,
-  "source_head_before_promotion": "7b84181f5c48c1a1e4a78f87319eec5512318492",
-  "report": "exports/generated/monitor-support-v336/README.md",
+  "source_head_before_promotion": "fb13f88dfbd36afab18193baaf285bbffe721c7d",
+  "report": "exports/generated/button-relief-v3361/README.md",
   "hinge_installation_reserve": "PROVISIONAL",
   "hinge_tool_access": "RARE SERVICE: main glass + matrix removed; side pivot requires playfield lift-out/removal; first floor hinge fasteners may require cassette removal",
   "final_hinge_drilling_released": false,
@@ -25,23 +25,25 @@
   "normal_fold_backbox_electronics_disconnection": false,
   "backbox_front_glass_retained_for_fold": true,
   "promotion_record": "exports/generated/backbox-lock-integration-v32/promotion.json",
-  "structural_revision": "V33.6",
-  "geometry_mesh": "exports/generated/monitor-support-v336/mesh.json.gz",
-  "structural_promotion_record": "exports/generated/monitor-support-v336/validation.json",
-  "manufacturing_register": "config/manufacturing/flatpack_v336.json",
+  "structural_revision": "V33.6.1",
+  "geometry_mesh": "exports/generated/button-relief-v3361/mesh.json.gz",
+  "structural_promotion_record": "exports/generated/button-relief-v3361/validation.json",
+  "manufacturing_register": "config/manufacturing/flatpack_v3361.json",
   "hardware_catalog": "config/hardware_catalog_v335.json",
-  "side_button_positional_authority": "config/monitor_support_v336.json",
+  "side_button_positional_authority": "config/button_relief_v3361.json",
   "side_button_centers_yz_mm": [
     [
-      255,
-      270
+      89,
+      350.593661971831
     ],
     [
-      310,
-      270
+      127,
+      357.2302816901408
     ]
   ],
   "side_button_final_bore_mm": null,
   "side_button_final_recess_mm": null,
-  "playfield_base_horn_absent": true
+  "playfield_base_horn_absent": true,
+  "side_button_vertical_datum": "local_side_top_minus_65_mm",
+  "side_button_authority_commit": "87d63825e09f5ebbe85a89a7e705a49f1b0c320b"
 }

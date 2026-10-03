@@ -1,4 +1,4 @@
-# Manual de montagem — V33.6
+# Manual de montagem — V33.6.1
 
 **SOMENTE PREPARAÇÃO — CNC BLOQUEADO**
 
@@ -288,7 +288,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT: contorno externo retangular limpo, janela traseira de serviço 180 × 110 mm R8 e dois rasgos arredondados para alívio de tração. Sem ponta ou entalhe lateral frontal. Preserve toda a região de carga VESA modelada e quatro abraçadeiras/oito F02. A janela admite o conector ilustrativo; confirme portas do monitor escolhido antes de usinar o adaptador. Nenhum novo furo de ajuste VESA está autorizado.
+Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT com alívio limpo aberto até a borda frontal: laterais retas recuadas e retorno arredondado à largura total, sem ponta, ponte frontal ou gancho. Mantenha a janela traseira V33.6 de 180 × 110 mm R8 e dois rasgos para alívio de tração. Preserve região de carga VESA, cavilha, quatro abraçadeiras e oito coordenadas F02. A folga é derivada das reservas frontais de corpo leaf, terminais, fios e ferramenta. Não mova os botões para acomodar a madeira. Ferragens finais do monitor/botões e qualificação de rigidez permanecem PENDENTES.
 
 Confira assentamento das abraçadeiras, engate dos parafusos e ausência de rachaduras após validar as abraçadeiras/material.
 
@@ -754,7 +754,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-O plunger convencional frontal direito aparece provisoriamente em X520/Z280. Furo: COMPRAR ANTES DO CNC. Painel inferior220×55mm restaurado como esquema SEM LOCALIZAÇÃO FINAL: volume, seletor OFF/AUDIO/PINBALL, pareamento Bluetooth e USB-C opcional. Não existem centros finais autorizados; selecione controles e valide ergonomia/folgas depois. Passagem genérica de cabos e eletrônica opcional permanecem configuráveis. AUTORIDADE DE POSIÇÃO DOS BOTÕES LATERAIS: Y255 / Y310, Z270 em ambos os lados, a partir de Y0 frontal. Substitui Y89/Y127 sem selecionar diâmetros de furo/rebaixo. Corpo leaf, porca, fiação e acesso de ferramenta/mão são reservas de planejamento. Compre botões reais antes do CNC. Serviço: vidro/matriz removidos e playfield levantado. Controles inferiores continuam esquema separado SEM LOCALIZAÇÃO de 220 × 55 mm.
+O plunger convencional frontal direito aparece provisoriamente em X520/Z280. Furo: COMPRAR ANTES DO CNC. Painel inferior220×55mm restaurado como esquema SEM LOCALIZAÇÃO FINAL: volume, seletor OFF/AUDIO/PINBALL, pareamento Bluetooth e USB-C opcional. Não existem centros finais autorizados; selecione controles e valide ergonomia/folgas depois. Passagem genérica de cabos e eletrônica opcional permanecem configuráveis. AUTORIDADE ATUAL DO PROPRIETÁRIO PARA BOTÕES: primário Y89, secundário Y127, ambos 65 mm abaixo do topo local real da lateral (atualmente Z350,593661971831 e Z357,2302816901408). Espelhe nos dois lados. Restaura a correção ergonômica87d63825; Y255/Y310 Z270 da V33.6 foi restauração temporária incorreta e está SUPERADA. Furo Ø15,875 e rebaixo Ø25 ×3 são SOMENTE REFERÊNCIA, NÃO LIBERADOS. Compre botões leaf antes de liberar furos/rebaixos/fixações: PURCHASE_BEFORE_CNC. Serviço requer vidro principal e matriz removidos, com playfield levantado. Controles inferiores220 ×55 continuam esquema separado sem localização.
 
 Mantenha a eletrônica separada do kit mecânico obrigatório. Dispositivos pesados exigem retenção positiva; o projeto de potência/elétrica está fora deste roteiro.
 

@@ -1,0 +1,86 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "Button comparison \u2014 WRONG V33.6 \u00b7 Y255 / Y310, Z270",
+    "note": "The front ergonomic centers were explicitly corrected in 87d63825. V33.6 temporarily reinstated the superseded older layout. Hardware geometry is reference-only; final bores/recesses remain PURCHASE_BEFORE_CNC.",
+    "native_cad": true
+  },
+  {
+    "image": "02-review.png",
+    "title": "Button comparison \u2014 OWNER AUTHORITY \u00b7 Y89 / Y127, local top \u221265",
+    "note": "The front ergonomic centers were explicitly corrected in 87d63825. V33.6 temporarily reinstated the superseded older layout. Hardware geometry is reference-only; final bores/recesses remain PURCHASE_BEFORE_CNC.",
+    "native_cad": true
+  },
+  {
+    "image": "03-review.png",
+    "title": "Correct front buttons \u2014 interior service",
+    "note": "Actual body, nut, leaf, contact, wire and driver reserves at the restored centers. The wood relief adapts to front ergonomics. No button is shifted to solve an interference.",
+    "native_cad": true
+  },
+  {
+    "image": "04-review.png",
+    "title": "Historical horn \u2014 rejected contour",
+    "note": "Rounded local notch left a forward plywood lip. The current correction removes that bridge by opening the relief directly through the front edge.",
+    "native_cad": true
+  },
+  {
+    "image": "05-review.png",
+    "title": "M025 \u2014 clean open-front relief",
+    "note": "Straight narrowed front edges return to full width with simple R8 transitions. The relief is derived from current reference service envelopes with 2 mm clearance. Rear 180 \u00d7110 R8 window and both strain slots remain exact.",
+    "native_cad": true
+  },
+  {
+    "image": "06-review.png",
+    "title": "M025 historical/current overlay",
+    "note": "Dashed: superseded horned contour. Solid: clean current open-edge contour. No forward bridge, finger or peninsula remains.",
+    "native_cad": true
+  },
+  {
+    "image": "07-review.png",
+    "title": "Button body / nut clearance",
+    "note": "Exact native body/nut/service-reserve to base minimum: 25.647 mm. Existing reference bore and pocket are not final machining dimensions. Fixed ergonomic centers remain Y89 / Y127.",
+    "native_cad": true
+  },
+  {
+    "image": "08-review.png",
+    "title": "Leaf / wire / tool clearance and access",
+    "note": "Operational references pass the clean relief. Conservative hand/driver entry is checked with playfield at 50\u00b0 and main glass/matrix removed. Not a universal ergonomic qualification; final leaf hardware remains unselected.",
+    "native_cad": true
+  },
+  {
+    "image": "09-review.png",
+    "title": "Playfield PLAY \u2014 clean relief",
+    "note": "Restored front buttons and new open-edge clearance in the closed pose. VESA load region, wooden dowel, four saddle straps and eight strap screws remain in their accepted positions.",
+    "native_cad": true
+  },
+  {
+    "image": "10-review.png",
+    "title": "Playfield 50\u00b0 service",
+    "note": "Exact native rotation about the unchanged wooden-dowel axis. Continuous differential clearance certificates and whole-assembly samples check the corrected base and front-button reserves.",
+    "native_cad": true
+  },
+  {
+    "image": "11-review.png",
+    "title": "48 mm lift-out \u2014 cable route retained",
+    "note": "Full 48 mm lift-out preserved. Flexible 400 mm cable loop is a sampled packaging study; actual cable and clamp remain HOLD. Release the S3 clamp before removing that shelf.",
+    "native_cad": true
+  },
+  {
+    "image": "12-review.png",
+    "title": "Player-left \u2014 CURRENT V33.6.1",
+    "note": "Y89 / Y127, both 65 mm below local side top. V33.6 monitor openings and backbox strain slots retained; M067, WPC, captured shell, SW01, shelves, glass and matrix unchanged. CNC release remains blocked.",
+    "native_cad": true
+  },
+  {
+    "image": "13-review.png",
+    "title": "Player-right \u2014 CURRENT V33.6.1",
+    "note": "Y89 / Y127, both 65 mm below local side top. V33.6 monitor openings and backbox strain slots retained; M067, WPC, captured shell, SW01, shelves, glass and matrix unchanged. CNC release remains blocked.",
+    "native_cad": true
+  },
+  {
+    "image": "14-review.png",
+    "title": "Front oblique \u2014 CURRENT V33.6.1",
+    "note": "Y89 / Y127, both 65 mm below local side top. V33.6 monitor openings and backbox strain slots retained; M067, WPC, captured shell, SW01, shelves, glass and matrix unchanged. CNC release remains blocked.",
+    "native_cad": true
+  }
+]

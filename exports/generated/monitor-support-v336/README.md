@@ -1,3 +1,5 @@
+> V33.6.1 CORRECTION: the rearward Y255/Y310,Z270 restoration and rectangular-front-base conclusion in this historical V33.6 snapshot are superseded. Owner authority is Y89/Y127, local side top minus65mm, with a clean front-open relief. V33.6 rear monitor openings/backbox work remain retained. See [CURRENT report](../button-relief-v3361/README.md).
+
 # V33.6 — clean playfield contour, restored button datums and monitor service
 
 HEAD BEFORE: `7b84181f5c48c1a1e4a78f87319eec5512318492`

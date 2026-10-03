@@ -1,4 +1,4 @@
-> HISTORICAL: Y89/Y127 and the horned M025 contour are superseded by [V33.6](MONITOR_SUPPORT_V336.md). CURRENT uses Y255/Y310, Z270 and the clean base. Historical numbers below are retained for audit; no final button drilling is released.
+> V33.6.1 AUTHORITY CORRECTION: Y89/Y127, local side top minus65mm, is the CURRENT owner ergonomic authority. The V33.6 banner that called it superseded was erroneous. The horned M025 contour alone is superseded by the [front-open relief](BUTTON_RELIEF_V3361.md). Historical body below is retained; no final button drilling is released.
 
 # V32 — button-edge plywood relief and active floor intakes
 

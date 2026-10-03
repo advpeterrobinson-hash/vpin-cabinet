@@ -1,0 +1,930 @@
+{
+  "button_centers": [
+    {
+      "kind": "primary",
+      "y_mm": 89,
+      "z_mm": 350.593661971831,
+      "local_top_z_mm": 415.593661971831,
+      "offset_below_top_mm": 65
+    },
+    {
+      "kind": "secondary",
+      "y_mm": 127,
+      "z_mm": 357.2302816901408,
+      "local_top_z_mm": 422.2302816901408,
+      "offset_below_top_mm": 65
+    }
+  ],
+  "relief": {
+    "profile": "FRONT_OPEN_STRAIGHT_PLUS_SINGLE_TANGENT_QUARTER_ARC_PER_SIDE",
+    "classification": "SERVICE_WINDOW",
+    "depth_mm": 22.0,
+    "length_mm": 87.0,
+    "transition_radius_mm": 8,
+    "local_y_start_mm": 19.999999999999996,
+    "local_y_arc_start_mm": 99.0,
+    "local_y_end_mm": 107.0,
+    "local_left_inset_x_mm": 72.0,
+    "local_right_inset_x_mm": 528.0,
+    "minimum_transverse_width_mm": 456.0,
+    "minimum_section_area_mm2": 8208.000000000058,
+    "thickness_mm": 18.000000000000128,
+    "minimum_target_service_clearance_mm": 2,
+    "unrounded_minimum_y_end_mm": 106.96130798605606,
+    "previous_0_1mm_shorter_fails": true,
+    "previous_0_1mm_shallower_fails": true,
+    "remaining_transverse_section_fraction": 0.912,
+    "nearest_VESA_mm": 286.3076621496626,
+    "nearest_strap_mm": 861.9999999999998,
+    "nearest_fastener_mm": 865.8023099992283,
+    "nearest_dowel_mm": 877.1433255642679,
+    "TV_envelope_clearance_mm": 7.999999999999954,
+    "removed_volume_mm3": 68409.55736846731,
+    "mass_removed_kg_at650": 0.04446621228950375,
+    "source_reach_bounds": {
+      "ButtonWireServiceReserve_primary_L": [
+        62.0,
+        66.38612287975323
+      ],
+      "ButtonToolServiceReserve_primary_L": [
+        70.0,
+        54.86899751849393
+      ],
+      "ButtonWireServiceReserve_secondary_L": [
+        62.0,
+        104.96130559202899
+      ],
+      "ButtonToolServiceReserve_secondary_L": [
+        70.0,
+        93.44418023076966
+      ]
+    },
+    "dogbones": false,
+    "structural_certification": false,
+    "previous_0_1mm_shallower_minimum_gap_mm": 1.9000000000000057
+  },
+  "buttons": [
+    {
+      "name": "LeafButton_primary_L",
+      "hits": [],
+      "base_separation_mm": 42.0
+    },
+    {
+      "name": "LeafButton_primary_R",
+      "hits": [],
+      "base_separation_mm": 42.0
+    },
+    {
+      "name": "LeafNut_primary_L",
+      "hits": [],
+      "base_separation_mm": 54.0
+    },
+    {
+      "name": "LeafNut_primary_R",
+      "hits": [],
+      "base_separation_mm": 54.0
+    },
+    {
+      "name": "LeafBracket_primary_L",
+      "hits": [],
+      "base_separation_mm": 30.0
+    },
+    {
+      "name": "LeafBracket_primary_R",
+      "hits": [],
+      "base_separation_mm": 30.0
+    },
+    {
+      "name": "LeafContacts_primary_L",
+      "hits": [],
+      "base_separation_mm": 31.0
+    },
+    {
+      "name": "LeafContacts_primary_R",
+      "hits": [],
+      "base_separation_mm": 31.0
+    },
+    {
+      "name": "LeafButton_secondary_L",
+      "hits": [],
+      "base_separation_mm": 25.6474043221143
+    },
+    {
+      "name": "LeafButton_secondary_R",
+      "hits": [],
+      "base_separation_mm": 25.647404322114397
+    },
+    {
+      "name": "LeafNut_secondary_L",
+      "hits": [],
+      "base_separation_mm": 34.02259500007215
+    },
+    {
+      "name": "LeafNut_secondary_R",
+      "hits": [],
+      "base_separation_mm": 34.022595000072265
+    },
+    {
+      "name": "LeafBracket_secondary_L",
+      "hits": [],
+      "base_separation_mm": 18.445427295278517
+    },
+    {
+      "name": "LeafBracket_secondary_R",
+      "hits": [],
+      "base_separation_mm": 18.44542729527857
+    },
+    {
+      "name": "LeafContacts_secondary_L",
+      "hits": [],
+      "base_separation_mm": 20.915012689831492
+    },
+    {
+      "name": "LeafContacts_secondary_R",
+      "hits": [],
+      "base_separation_mm": 20.915012689831546
+    },
+    {
+      "name": "ButtonWireServiceReserve_primary_L",
+      "hits": [],
+      "base_separation_mm": 10.0
+    },
+    {
+      "name": "ButtonToolServiceReserve_primary_L",
+      "hits": [],
+      "base_separation_mm": 2.0
+    },
+    {
+      "name": "ButtonBodyServiceReserve_primary_L",
+      "hits": [],
+      "base_separation_mm": 42.0
+    },
+    {
+      "name": "ButtonLeafServiceReserve_primary_L",
+      "hits": [],
+      "base_separation_mm": 30.0
+    },
+    {
+      "name": "ButtonWireServiceReserve_primary_R",
+      "hits": [],
+      "base_separation_mm": 10.0
+    },
+    {
+      "name": "ButtonToolServiceReserve_primary_R",
+      "hits": [],
+      "base_separation_mm": 2.0
+    },
+    {
+      "name": "ButtonBodyServiceReserve_primary_R",
+      "hits": [],
+      "base_separation_mm": 42.0
+    },
+    {
+      "name": "ButtonLeafServiceReserve_primary_R",
+      "hits": [],
+      "base_separation_mm": 30.0
+    },
+    {
+      "name": "ButtonWireServiceReserve_secondary_L",
+      "hits": [],
+      "base_separation_mm": 2.0386944079710125
+    },
+    {
+      "name": "ButtonToolServiceReserve_secondary_L",
+      "hits": [],
+      "base_separation_mm": 2.0
+    },
+    {
+      "name": "ButtonBodyServiceReserve_secondary_L",
+      "hits": [],
+      "base_separation_mm": 25.6474043221143
+    },
+    {
+      "name": "ButtonLeafServiceReserve_secondary_L",
+      "hits": [],
+      "base_separation_mm": 17.820860050667523
+    },
+    {
+      "name": "ButtonWireServiceReserve_secondary_R",
+      "hits": [],
+      "base_separation_mm": 2.0386944079710125
+    },
+    {
+      "name": "ButtonToolServiceReserve_secondary_R",
+      "hits": [],
+      "base_separation_mm": 2.0
+    },
+    {
+      "name": "ButtonBodyServiceReserve_secondary_R",
+      "hits": [],
+      "base_separation_mm": 25.647404322114397
+    },
+    {
+      "name": "ButtonLeafServiceReserve_secondary_R",
+      "hits": [],
+      "base_separation_mm": 17.820860050667577
+    }
+  ],
+  "openings": [
+    {
+      "name": "PF_MainServiceWindow",
+      "classification": "SERVICE_WINDOW",
+      "local_xy_bounds_mm": [
+        210.0,
+        730.0,
+        390.0,
+        840.0
+      ],
+      "radius_mm": 8,
+      "nearest_outer_edge_mm": 160.0,
+      "nearest_VESA_mm": 120.00000000000009,
+      "nearest_strap_mm": 174.78402556022215,
+      "nearest_fastener_mm": 180.80536957475076,
+      "nearest_insert": "No selected playfield insert positions; outside entire modeled VESA load reserve",
+      "removed_volume_mm3": 355411.1147369347,
+      "mass_removed_kg_at650": 0.23101722457900756,
+      "nearest_other_opening_mm": 26.0
+    },
+    {
+      "name": "PF_StrainSlot1",
+      "classification": "STRAIN_RELIEF_SLOT",
+      "local_xy_bounds_mm": [
+        280.0,
+        866.0,
+        286.0,
+        888.0
+      ],
+      "radius_mm": 3,
+      "nearest_outer_edge_mm": 152.0,
+      "nearest_VESA_mm": 256.00000000000006,
+      "nearest_strap_mm": 201.08821622033932,
+      "nearest_fastener_mm": 206.27595171454269,
+      "nearest_insert": "No selected playfield insert positions; outside entire modeled VESA load reserve",
+      "removed_volume_mm3": 2236.938009881546,
+      "mass_removed_kg_at650": 0.0014540097064230048,
+      "nearest_other_opening_mm": 26.0
+    },
+    {
+      "name": "PF_StrainSlot2",
+      "classification": "STRAIN_RELIEF_SLOT",
+      "local_xy_bounds_mm": [
+        314.0,
+        866.0,
+        320.0,
+        888.0
+      ],
+      "radius_mm": 3,
+      "nearest_outer_edge_mm": 152.0,
+      "nearest_VESA_mm": 256.00000000000006,
+      "nearest_strap_mm": 202.91260281973987,
+      "nearest_fastener_mm": 208.0849266647067,
+      "nearest_insert": "No selected playfield insert positions; outside entire modeled VESA load reserve",
+      "removed_volume_mm3": 2236.938009881546,
+      "mass_removed_kg_at650": 0.0014540097064230048,
+      "nearest_other_opening_mm": 26.0
+    }
+  ],
+  "playfield_structural_screen": {
+    "profile": "FRONT_OPEN_STRAIGHT_PLUS_SINGLE_TANGENT_QUARTER_ARC_PER_SIDE",
+    "classification": "SERVICE_WINDOW",
+    "depth_mm": 22.0,
+    "length_mm": 87.0,
+    "transition_radius_mm": 8,
+    "local_y_start_mm": 19.999999999999996,
+    "local_y_arc_start_mm": 99.0,
+    "local_y_end_mm": 107.0,
+    "local_left_inset_x_mm": 72.0,
+    "local_right_inset_x_mm": 528.0,
+    "minimum_transverse_width_mm": 456.0,
+    "minimum_section_area_mm2": 8208.000000000058,
+    "thickness_mm": 18.000000000000128,
+    "minimum_target_service_clearance_mm": 2,
+    "unrounded_minimum_y_end_mm": 106.96130798605606,
+    "previous_0_1mm_shorter_fails": true,
+    "previous_0_1mm_shallower_fails": true,
+    "remaining_transverse_section_fraction": 0.912,
+    "nearest_VESA_mm": 286.3076621496626,
+    "nearest_strap_mm": 861.9999999999998,
+    "nearest_fastener_mm": 865.8023099992283,
+    "nearest_dowel_mm": 877.1433255642679,
+    "TV_envelope_clearance_mm": 7.999999999999954,
+    "removed_volume_mm3": 68409.55736846731,
+    "mass_removed_kg_at650": 0.04446621228950375,
+    "source_reach_bounds": {
+      "ButtonWireServiceReserve_primary_L": [
+        62.0,
+        66.38612287975323
+      ],
+      "ButtonToolServiceReserve_primary_L": [
+        70.0,
+        54.86899751849393
+      ],
+      "ButtonWireServiceReserve_secondary_L": [
+        62.0,
+        104.96130559202899
+      ],
+      "ButtonToolServiceReserve_secondary_L": [
+        70.0,
+        93.44418023076966
+      ]
+    },
+    "dogbones": false,
+    "structural_certification": false,
+    "previous_0_1mm_shallower_minimum_gap_mm": 1.9000000000000057,
+    "certification": false,
+    "rear_service_window_transverse_width_mm": 320,
+    "rear_window_side_band_mm": 160,
+    "remaining_hold": "Full-load stiffness, actual plywood, selected leaf/adapter fasteners and ergonomic/physical qualification; unchanged VESA load reserve."
+  },
+  "negative_controls": {
+    "historical_horn_front_width_mm": 500.0,
+    "accepted_front_width_mm": 456.0,
+    "historical_horn_rejected": true,
+    "Y255_Y310_rejected": true,
+    "Z270_rejected": true,
+    "shallower_relief_rejected": true,
+    "shorter_relief_rejected": true
+  },
+  "changed": [
+    {
+      "name": "SIDE_L",
+      "before_mm3": 11865853.838037863,
+      "after_mm3": 11865853.838038227,
+      "symmetric_difference_mm3": 17766.442766828455
+    },
+    {
+      "name": "SIDE_R",
+      "before_mm3": 11865853.838037865,
+      "after_mm3": 11865853.838038227,
+      "symmetric_difference_mm3": 17766.442766828455
+    },
+    {
+      "name": "LeafButton_primary_L",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "LeafButton_primary_R",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "LeafNut_primary_L",
+      "before_mm3": 827.0242660575122,
+      "after_mm3": 827.024266057512,
+      "symmetric_difference_mm3": 1654.0485321150243
+    },
+    {
+      "name": "LeafNut_primary_R",
+      "before_mm3": 827.0242660575122,
+      "after_mm3": 827.024266057512,
+      "symmetric_difference_mm3": 1654.0485321150243
+    },
+    {
+      "name": "LeafBracket_primary_L",
+      "before_mm3": 7039.999999999999,
+      "after_mm3": 7040.0,
+      "symmetric_difference_mm3": 14080.0
+    },
+    {
+      "name": "LeafBracket_primary_R",
+      "before_mm3": 7039.999999999999,
+      "after_mm3": 7040.0,
+      "symmetric_difference_mm3": 14080.0
+    },
+    {
+      "name": "LeafContacts_primary_L",
+      "before_mm3": 361.2000000000121,
+      "after_mm3": 361.200000000012,
+      "symmetric_difference_mm3": 722.4000000000241
+    },
+    {
+      "name": "LeafContacts_primary_R",
+      "before_mm3": 361.2000000000121,
+      "after_mm3": 361.200000000012,
+      "symmetric_difference_mm3": 722.4000000000241
+    },
+    {
+      "name": "LeafButton_secondary_L",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "LeafButton_secondary_R",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "LeafNut_secondary_L",
+      "before_mm3": 827.0242660575126,
+      "after_mm3": 827.0242660575122,
+      "symmetric_difference_mm3": 1654.048532115025
+    },
+    {
+      "name": "LeafNut_secondary_R",
+      "before_mm3": 827.0242660575126,
+      "after_mm3": 827.0242660575122,
+      "symmetric_difference_mm3": 1654.048532115025
+    },
+    {
+      "name": "LeafBracket_secondary_L",
+      "before_mm3": 7039.999999999999,
+      "after_mm3": 7040.0,
+      "symmetric_difference_mm3": 14080.0
+    },
+    {
+      "name": "LeafBracket_secondary_R",
+      "before_mm3": 7039.999999999999,
+      "after_mm3": 7040.0,
+      "symmetric_difference_mm3": 14080.0
+    },
+    {
+      "name": "LeafContacts_secondary_L",
+      "before_mm3": 361.2000000000121,
+      "after_mm3": 361.20000000001164,
+      "symmetric_difference_mm3": 722.4000000000237
+    },
+    {
+      "name": "LeafContacts_secondary_R",
+      "before_mm3": 361.2000000000121,
+      "after_mm3": 361.20000000001164,
+      "symmetric_difference_mm3": 722.4000000000237
+    },
+    {
+      "name": "PF_BasePlywood",
+      "before_mm3": 8820115.0092433,
+      "after_mm3": 8751705.45187483,
+      "symmetric_difference_mm3": 68409.55736846731
+    },
+    {
+      "name": "ButtonWireServiceReserve_primary_L",
+      "before_mm3": 11460.000000000015,
+      "after_mm3": 11460.000000000015,
+      "symmetric_difference_mm3": 22920.00000000003
+    },
+    {
+      "name": "ButtonToolServiceReserve_primary_L",
+      "before_mm3": 8482.30016469244,
+      "after_mm3": 8482.300164692439,
+      "symmetric_difference_mm3": 16964.600329384877
+    },
+    {
+      "name": "ButtonBodyServiceReserve_primary_L",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "ButtonLeafServiceReserve_primary_L",
+      "before_mm3": 8404.00000000001,
+      "after_mm3": 8404.000000000011,
+      "symmetric_difference_mm3": 16808.000000000022
+    },
+    {
+      "name": "ButtonWireServiceReserve_primary_R",
+      "before_mm3": 11460.000000000015,
+      "after_mm3": 11460.000000000015,
+      "symmetric_difference_mm3": 22920.00000000003
+    },
+    {
+      "name": "ButtonToolServiceReserve_primary_R",
+      "before_mm3": 8482.30016469244,
+      "after_mm3": 8482.300164692439,
+      "symmetric_difference_mm3": 16964.600329384877
+    },
+    {
+      "name": "ButtonBodyServiceReserve_primary_R",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "ButtonLeafServiceReserve_primary_R",
+      "before_mm3": 8404.00000000001,
+      "after_mm3": 8404.000000000011,
+      "symmetric_difference_mm3": 16808.000000000022
+    },
+    {
+      "name": "ButtonWireServiceReserve_secondary_L",
+      "before_mm3": 11460.000000000015,
+      "after_mm3": 11460.000000000015,
+      "symmetric_difference_mm3": 22920.00000000003
+    },
+    {
+      "name": "ButtonToolServiceReserve_secondary_L",
+      "before_mm3": 8482.300164692439,
+      "after_mm3": 8482.300164692439,
+      "symmetric_difference_mm3": 16964.600329384877
+    },
+    {
+      "name": "ButtonBodyServiceReserve_secondary_L",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "ButtonLeafServiceReserve_secondary_L",
+      "before_mm3": 8404.00000000001,
+      "after_mm3": 8404.000000000011,
+      "symmetric_difference_mm3": 16808.000000000022
+    },
+    {
+      "name": "ButtonWireServiceReserve_secondary_R",
+      "before_mm3": 11460.000000000015,
+      "after_mm3": 11460.000000000015,
+      "symmetric_difference_mm3": 22920.00000000003
+    },
+    {
+      "name": "ButtonToolServiceReserve_secondary_R",
+      "before_mm3": 8482.300164692439,
+      "after_mm3": 8482.300164692439,
+      "symmetric_difference_mm3": 16964.600329384877
+    },
+    {
+      "name": "ButtonBodyServiceReserve_secondary_R",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "ButtonLeafServiceReserve_secondary_R",
+      "before_mm3": 8404.00000000001,
+      "after_mm3": 8404.000000000011,
+      "symmetric_difference_mm3": 16808.000000000022
+    }
+  ],
+  "added": [],
+  "removed": [],
+  "checks": [
+    {
+      "name": "primary owner center from actual side top",
+      "pass": true,
+      "detail": {
+        "y_mm": 89,
+        "z_mm": 350.593661971831,
+        "top_z_mm": 415.593661971831
+      }
+    },
+    {
+      "name": "secondary owner center from actual side top",
+      "pass": true,
+      "detail": {
+        "y_mm": 127,
+        "z_mm": 357.2302816901408,
+        "top_z_mm": 422.2302816901408
+      }
+    },
+    {
+      "name": "button side symmetry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ergonomic maximum and negative old datum controls",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "M025 one valid symmetric 18mm stock solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PLAYFIELD_BASE_HORN_ABSENT open front monotone widening",
+      "pass": true,
+      "detail": [
+        {
+          "local_y_mm": 20.000999999999998,
+          "width_mm": 456.0
+        },
+        {
+          "local_y_mm": 98.999,
+          "width_mm": 456.0
+        },
+        {
+          "local_y_mm": 103.0,
+          "width_mm": 458.1437090114273
+        },
+        {
+          "local_y_mm": 106.999,
+          "width_mm": 471.7600067500946
+        },
+        {
+          "local_y_mm": 107.001,
+          "width_mm": 500.0
+        }
+      ]
+    },
+    {
+      "name": "minimum simple profile derived from restored service envelopes",
+      "pass": true,
+      "detail": {
+        "profile": "FRONT_OPEN_STRAIGHT_PLUS_SINGLE_TANGENT_QUARTER_ARC_PER_SIDE",
+        "classification": "SERVICE_WINDOW",
+        "depth_mm": 22.0,
+        "length_mm": 87.0,
+        "transition_radius_mm": 8,
+        "local_y_start_mm": 19.999999999999996,
+        "local_y_arc_start_mm": 99.0,
+        "local_y_end_mm": 107.0,
+        "local_left_inset_x_mm": 72.0,
+        "local_right_inset_x_mm": 528.0,
+        "minimum_transverse_width_mm": 456.0,
+        "minimum_section_area_mm2": 8208.000000000058,
+        "thickness_mm": 18.000000000000128,
+        "minimum_target_service_clearance_mm": 2,
+        "unrounded_minimum_y_end_mm": 106.96130798605606,
+        "previous_0_1mm_shorter_fails": true,
+        "previous_0_1mm_shallower_fails": true,
+        "remaining_transverse_section_fraction": 0.912,
+        "nearest_VESA_mm": 286.3076621496626,
+        "nearest_strap_mm": 861.9999999999998,
+        "nearest_fastener_mm": 865.8023099992283,
+        "nearest_dowel_mm": 877.1433255642679,
+        "TV_envelope_clearance_mm": 7.999999999999954,
+        "removed_volume_mm3": 68409.55736846731,
+        "mass_removed_kg_at650": 0.04446621228950375,
+        "source_reach_bounds": {
+          "ButtonWireServiceReserve_primary_L": [
+            62.0,
+            66.38612287975323
+          ],
+          "ButtonToolServiceReserve_primary_L": [
+            70.0,
+            54.86899751849393
+          ],
+          "ButtonWireServiceReserve_secondary_L": [
+            62.0,
+            104.96130559202899
+          ],
+          "ButtonToolServiceReserve_secondary_L": [
+            70.0,
+            93.44418023076966
+          ]
+        },
+        "dogbones": false,
+        "structural_certification": false,
+        "previous_0_1mm_shallower_minimum_gap_mm": 1.9000000000000057
+      }
+    },
+    {
+      "name": "restored buttons and wire/tool reserves clear installed structures",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all restored button envelopes retain2mm base clearance",
+      "pass": true,
+      "detail": [
+        {
+          "name": "LeafButton_primary_L",
+          "hits": [],
+          "base_separation_mm": 42.0
+        },
+        {
+          "name": "LeafButton_primary_R",
+          "hits": [],
+          "base_separation_mm": 42.0
+        },
+        {
+          "name": "LeafNut_primary_L",
+          "hits": [],
+          "base_separation_mm": 54.0
+        },
+        {
+          "name": "LeafNut_primary_R",
+          "hits": [],
+          "base_separation_mm": 54.0
+        },
+        {
+          "name": "LeafBracket_primary_L",
+          "hits": [],
+          "base_separation_mm": 30.0
+        },
+        {
+          "name": "LeafBracket_primary_R",
+          "hits": [],
+          "base_separation_mm": 30.0
+        },
+        {
+          "name": "LeafContacts_primary_L",
+          "hits": [],
+          "base_separation_mm": 31.0
+        },
+        {
+          "name": "LeafContacts_primary_R",
+          "hits": [],
+          "base_separation_mm": 31.0
+        },
+        {
+          "name": "LeafButton_secondary_L",
+          "hits": [],
+          "base_separation_mm": 25.6474043221143
+        },
+        {
+          "name": "LeafButton_secondary_R",
+          "hits": [],
+          "base_separation_mm": 25.647404322114397
+        },
+        {
+          "name": "LeafNut_secondary_L",
+          "hits": [],
+          "base_separation_mm": 34.02259500007215
+        },
+        {
+          "name": "LeafNut_secondary_R",
+          "hits": [],
+          "base_separation_mm": 34.022595000072265
+        },
+        {
+          "name": "LeafBracket_secondary_L",
+          "hits": [],
+          "base_separation_mm": 18.445427295278517
+        },
+        {
+          "name": "LeafBracket_secondary_R",
+          "hits": [],
+          "base_separation_mm": 18.44542729527857
+        },
+        {
+          "name": "LeafContacts_secondary_L",
+          "hits": [],
+          "base_separation_mm": 20.915012689831492
+        },
+        {
+          "name": "LeafContacts_secondary_R",
+          "hits": [],
+          "base_separation_mm": 20.915012689831546
+        },
+        {
+          "name": "ButtonWireServiceReserve_primary_L",
+          "hits": [],
+          "base_separation_mm": 10.0
+        },
+        {
+          "name": "ButtonToolServiceReserve_primary_L",
+          "hits": [],
+          "base_separation_mm": 2.0
+        },
+        {
+          "name": "ButtonBodyServiceReserve_primary_L",
+          "hits": [],
+          "base_separation_mm": 42.0
+        },
+        {
+          "name": "ButtonLeafServiceReserve_primary_L",
+          "hits": [],
+          "base_separation_mm": 30.0
+        },
+        {
+          "name": "ButtonWireServiceReserve_primary_R",
+          "hits": [],
+          "base_separation_mm": 10.0
+        },
+        {
+          "name": "ButtonToolServiceReserve_primary_R",
+          "hits": [],
+          "base_separation_mm": 2.0
+        },
+        {
+          "name": "ButtonBodyServiceReserve_primary_R",
+          "hits": [],
+          "base_separation_mm": 42.0
+        },
+        {
+          "name": "ButtonLeafServiceReserve_primary_R",
+          "hits": [],
+          "base_separation_mm": 30.0
+        },
+        {
+          "name": "ButtonWireServiceReserve_secondary_L",
+          "hits": [],
+          "base_separation_mm": 2.0386944079710125
+        },
+        {
+          "name": "ButtonToolServiceReserve_secondary_L",
+          "hits": [],
+          "base_separation_mm": 2.0
+        },
+        {
+          "name": "ButtonBodyServiceReserve_secondary_L",
+          "hits": [],
+          "base_separation_mm": 25.6474043221143
+        },
+        {
+          "name": "ButtonLeafServiceReserve_secondary_L",
+          "hits": [],
+          "base_separation_mm": 17.820860050667523
+        },
+        {
+          "name": "ButtonWireServiceReserve_secondary_R",
+          "hits": [],
+          "base_separation_mm": 2.0386944079710125
+        },
+        {
+          "name": "ButtonToolServiceReserve_secondary_R",
+          "hits": [],
+          "base_separation_mm": 2.0
+        },
+        {
+          "name": "ButtonBodyServiceReserve_secondary_R",
+          "hits": [],
+          "base_separation_mm": 25.647404322114397
+        },
+        {
+          "name": "ButtonLeafServiceReserve_secondary_R",
+          "hits": [],
+          "base_separation_mm": 17.820860050667577
+        }
+      ]
+    },
+    {
+      "name": "VESA straps screws dowel and TV unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "V336 rear service window and paired strain slots exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "backbox monitor carriers and M067 exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "only authorized3wood and32reference shapes changed",
+      "pass": true,
+      "detail": [
+        "SIDE_L",
+        "SIDE_R",
+        "LeafButton_primary_L",
+        "LeafButton_primary_R",
+        "LeafNut_primary_L",
+        "LeafNut_primary_R",
+        "LeafBracket_primary_L",
+        "LeafBracket_primary_R",
+        "LeafContacts_primary_L",
+        "LeafContacts_primary_R",
+        "LeafButton_secondary_L",
+        "LeafButton_secondary_R",
+        "LeafNut_secondary_L",
+        "LeafNut_secondary_R",
+        "LeafBracket_secondary_L",
+        "LeafBracket_secondary_R",
+        "LeafContacts_secondary_L",
+        "LeafContacts_secondary_R",
+        "PF_BasePlywood",
+        "ButtonWireServiceReserve_primary_L",
+        "ButtonToolServiceReserve_primary_L",
+        "ButtonBodyServiceReserve_primary_L",
+        "ButtonLeafServiceReserve_primary_L",
+        "ButtonWireServiceReserve_primary_R",
+        "ButtonToolServiceReserve_primary_R",
+        "ButtonBodyServiceReserve_primary_R",
+        "ButtonLeafServiceReserve_primary_R",
+        "ButtonWireServiceReserve_secondary_L",
+        "ButtonToolServiceReserve_secondary_L",
+        "ButtonBodyServiceReserve_secondary_L",
+        "ButtonLeafServiceReserve_secondary_L",
+        "ButtonWireServiceReserve_secondary_R",
+        "ButtonToolServiceReserve_secondary_R",
+        "ButtonBodyServiceReserve_secondary_R",
+        "ButtonLeafServiceReserve_secondary_R"
+      ]
+    },
+    {
+      "name": "all unrelated shapes retain exact native geometry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no new changed wood penetration",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "historical horn and wrong old datums rejected by active rules",
+      "pass": true,
+      "detail": {
+        "historical_horn_front_width_mm": 500.0,
+        "accepted_front_width_mm": 456.0,
+        "historical_horn_rejected": true,
+        "Y255_Y310_rejected": true,
+        "Z270_rejected": true,
+        "shallower_relief_rejected": true,
+        "shorter_relief_rejected": true
+      }
+    }
+  ],
+  "release": false,
+  "source_sha256": "3502d40839e815b8fe0a0ce1e45dbb33612fe9341a235455533f30c011d822d4",
+  "clean_source_sha256": "d387263a238bac367a06f7c321d281f8297629fb2533a3bdf9d377848badbf8a",
+  "pass": true,
+  "base_volume_mm3": 8751705.45187483
+}

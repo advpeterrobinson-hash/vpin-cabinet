@@ -1,0 +1,102 @@
+instance_id,manufacturing_part_id,assembly_id,description_en,description_pt_BR,quantity,material_class,manufacturing_class,nominal_stock_thickness_mm,finished_xy_size_mm,manufacturing_status,fit_dependent
+P001-Main,M001,P001,Cabinet side — SIDE_L / Main,Lateral da caixa — SIDE_L / Main,1,STRUCTURAL_PREMIUM,,18,"[596.9, 1308.1]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P002-Main,M002,P002,Cabinet side — SIDE_R / Main,Lateral da caixa — SIDE_R / Main,1,STRUCTURAL_PREMIUM,,18,"[596.9, 1308.1]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P003-Main,M003,P003,Cabinet end structure — FRONT / Main,Estrutura frontal/traseira — FRONT / Main,1,STRUCTURAL_PREMIUM,,18,"[572.0, 400.05]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P004-Main,M004,P004,Cabinet end structure — REAR / Main,Estrutura frontal/traseira — REAR / Main,1,STRUCTURAL_PREMIUM,,18,"[572.0, 596.9]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P005-Main,M005,P005,Structural floor — FLOOR / Main,Fundo estrutural — FLOOR / Main,1,STRUCTURAL_PREMIUM,,18,"[572.0, 1272.1]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P006-Main,M006,P006,Floor cleat — FLOOR_CLEAT_18 / Main,Sarrafo do fundo — FLOOR_CLEAT_18 / Main,1,STRUCTURAL_PREMIUM,,18,"[30.0, 1152.1]",ONE_SIDE_CNC_READY,False
+P007-Main,M006,P007,Floor cleat — FLOOR_CLEAT_552 / Main,Sarrafo do fundo — FLOOR_CLEAT_552 / Main,1,STRUCTURAL_PREMIUM,,18,"[30.0, 1152.1]",ONE_SIDE_CNC_READY,False
+P008-Main,M007,P008,Main rear door — REAR_DOOR / Main,Porta traseira principal — REAR_DOOR / Main,1,MODULAR_SECONDARY,,12,"[396.0, 329.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P009-Main,M008,P009,Removable equipment shelf — SHELF_1 / Main,Prateleira removível de equipamentos — SHELF_1 / Main,1,MODULAR_SECONDARY,,12,"[560.0, 150.0]",ONE_SIDE_CNC_READY,False
+P010-Main,M008,P010,Removable equipment shelf — SHELF_2 / Main,Prateleira removível de equipamentos — SHELF_2 / Main,1,MODULAR_SECONDARY,,12,"[560.0, 150.0]",ONE_SIDE_CNC_READY,False
+P011-Main,M009,P011,Removable equipment shelf — SHELF_3 / Main,Prateleira removível de equipamentos — SHELF_3 / Main,1,MODULAR_SECONDARY,,12,"[560.0, 150.0]",ONE_SIDE_CNC_READY,False
+P012-Main,M010,P012,Fixed shelf support — SHELF_SUPPORT_1L / Main,Apoio fixo da prateleira — SHELF_SUPPORT_1L / Main,1,STRUCTURAL_PREMIUM,,18,"[42.0, 150.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P013-Main,M011,P013,Fixed shelf support — SHELF_SUPPORT_1R / Main,Apoio fixo da prateleira — SHELF_SUPPORT_1R / Main,1,STRUCTURAL_PREMIUM,,18,"[42.0, 150.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P014-Main,M010,P014,Fixed shelf support — SHELF_SUPPORT_2L / Main,Apoio fixo da prateleira — SHELF_SUPPORT_2L / Main,1,STRUCTURAL_PREMIUM,,18,"[42.0, 150.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P015-Main,M011,P015,Fixed shelf support — SHELF_SUPPORT_2R / Main,Apoio fixo da prateleira — SHELF_SUPPORT_2R / Main,1,STRUCTURAL_PREMIUM,,18,"[42.0, 150.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P016-Main,M012,P016,Fixed shelf support — SHELF_SUPPORT_3L / Main,Apoio fixo da prateleira — SHELF_SUPPORT_3L / Main,1,STRUCTURAL_PREMIUM,,18,"[42.0, 150.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P017-Main,M013,P017,Fixed shelf support — SHELF_SUPPORT_3R / Main,Apoio fixo da prateleira — SHELF_SUPPORT_3R / Main,1,STRUCTURAL_PREMIUM,,18,"[42.0, 150.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P018-Main,M014,P018,Removable crossmember — CROSS_1 / Main,Travessa removível — CROSS_1 / Main,1,STRUCTURAL_PREMIUM,,18,"[539.6, 81.57183098591548]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P019-Main,M014,P019,Removable crossmember — CROSS_2 / Main,Travessa removível — CROSS_2 / Main,1,STRUCTURAL_PREMIUM,,18,"[539.6, 81.57183098591548]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P020-Main,M014,P020,Removable crossmember — CROSS_3 / Main,Travessa removível — CROSS_3 / Main,1,STRUCTURAL_PREMIUM,,18,"[539.6, 81.57183098591548]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P021-Main,M015,P021,Crossmember guide — CROSS_GUIDE_1L / Main,Guia da travessa — CROSS_GUIDE_1L / Main,1,STRUCTURAL_PREMIUM,,18,"[145.0, 60.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P022-Main,M016,P022,Crossmember guide — CROSS_GUIDE_1R / Main,Guia da travessa — CROSS_GUIDE_1R / Main,1,STRUCTURAL_PREMIUM,,18,"[145.0, 60.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P023-Main,M015,P023,Crossmember guide — CROSS_GUIDE_2L / Main,Guia da travessa — CROSS_GUIDE_2L / Main,1,STRUCTURAL_PREMIUM,,18,"[145.0, 60.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P024-Main,M016,P024,Crossmember guide — CROSS_GUIDE_2R / Main,Guia da travessa — CROSS_GUIDE_2R / Main,1,STRUCTURAL_PREMIUM,,18,"[145.0, 60.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P025-Main,M015,P025,Crossmember guide — CROSS_GUIDE_3L / Main,Guia da travessa — CROSS_GUIDE_3L / Main,1,STRUCTURAL_PREMIUM,,18,"[145.0, 60.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P026-Main,M016,P026,Crossmember guide — CROSS_GUIDE_3R / Main,Guia da travessa — CROSS_GUIDE_3R / Main,1,STRUCTURAL_PREMIUM,,18,"[145.0, 60.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P027-Main,M017,P027,Floor-supported PCBase — PC_BASE / Main,PCBase apoiada no fundo — PC_BASE / Main,1,MODULAR_SECONDARY,,18,"[285.0, 460.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P028-Main,M018,P028,Rear bearing shelf — BACKBOX_BASE / Main,Prateleira traseira de apoio — BACKBOX_BASE / Main,1,STRUCTURAL_PREMIUM,,18,"[572.0, 162.9749999999999]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P033-Main,M024,P033,Replaceable shaker carrier — SSF_BST_Carrier / Main,Base substituível do transdutor — SSF_BST_Carrier / Main,1,STRUCTURAL_PREMIUM,,12,"[180.0, 180.0]",ONE_SIDE_CNC_READY,False
+P034-Main,M025,P034,Playfield load-carrying base — PF_BasePlywood / Main,Base estrutural do playfield — PF_BasePlywood / Main,1,STRUCTURAL_PREMIUM,,18,"[500.0, 1020.0]",ONE_SIDE_CNC_READY,False
+P035-Main,M026,P035,Floor-bearing open cradle — PF_OpenCradleL / Main,Apoio aberto apoiado no fundo — PF_OpenCradleL / Main,1,STRUCTURAL_PREMIUM,,18,"[478.2203301149066, 80.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P036-Main,M027,P036,Floor-bearing open cradle — PF_OpenCradleR / Main,Apoio aberto apoiado no fundo — PF_OpenCradleR / Main,1,STRUCTURAL_PREMIUM,,18,"[478.2203301149066, 80.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P037-Main,M028,P037,Floor filter holder — RemovableIntakeFilterL / Main,Suporte do filtro do fundo — RemovableIntakeFilterL / Main,1,MODULAR_SECONDARY,,8,"[170.0, 170.0]",ONE_SIDE_CNC_READY,False
+P038-Main,M028,P038,Floor filter holder — RemovableIntakeFilterR / Main,Suporte do filtro do fundo — RemovableIntakeFilterR / Main,1,MODULAR_SECONDARY,,8,"[170.0, 170.0]",ONE_SIDE_CNC_READY,False
+P039-Main,M029,P039,Matrix seat — MX_WoodSeatL / Main,Apoio da matriz — MX_WoodSeatL / Main,1,STRUCTURAL_PREMIUM,,18,"[38.89999999999998, 115.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P040-Main,M029,P040,Matrix seat — MX_WoodSeatR / Main,Apoio da matriz — MX_WoodSeatR / Main,1,STRUCTURAL_PREMIUM,,18,"[38.89999999999998, 115.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P041-Main,M030,P041,Removable matrix carrier — MatrixCarrier / Main,Suporte removível da matriz — MatrixCarrier / Main,1,MODULAR_SECONDARY,,12,"[540.0, 95.375]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P042-Main,M031,P042,Backbox shell/frame — BB_SideL / Main,Estrutura da caixa superior — BB_SideL / Main,1,STRUCTURAL_PREMIUM,,18,"[723.9000000000001, 248.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P043-Main,M032,P043,Backbox shell/frame — BB_SideR / Main,Estrutura da caixa superior — BB_SideR / Main,1,STRUCTURAL_PREMIUM,,18,"[723.9000000000002, 248.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P044-Main,M033,P044,Backbox shell/frame — BB_Floor / Main,Estrutura da caixa superior — BB_Floor / Main,1,STRUCTURAL_PREMIUM,,18,"[756.0, 156.0999999999999]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P045-Main,M034,P045,Backbox shell/frame — BB_Top / Main,Estrutura da caixa superior — BB_Top / Main,1,STRUCTURAL_PREMIUM,,18,"[756.0, 182.0999999999999]",ONE_SIDE_CNC_READY,True
+P046-Main,M035,P046,Backbox shell/frame — BB_RearFrame / Main,Estrutura da caixa superior — BB_RearFrame / Main,1,STRUCTURAL_PREMIUM,,18,"[780.0, 723.9]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P047-Main,M036,P047,Backbox shell/frame — BB_TopFrontRail / Main,Estrutura da caixa superior — BB_TopFrontRail / Main,1,STRUCTURAL_PREMIUM,,18,"[756.0, 56.80592623290522]",ONE_SIDE_CNC_READY,True
+P048-Main,M037,P048,Padded lower glass rail — BB_GlassLowerRail / Main,Apoio inferior do vidro — BB_GlassLowerRail / Main,1,STRUCTURAL_PREMIUM,,18,"[744.0, 18.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P049-Cap,M038,P049,Positive glass top retainer — BB_GlassTopRetainer / Cap,Retentor superior positivo do vidro — BB_GlassTopRetainer / Cap,1,STRUCTURAL_PREMIUM,,12,"[756.0, 37.0]",ONE_SIDE_CNC_READY,True
+P049-Strip,M039,P049,Positive glass top retainer — BB_GlassTopRetainer / Strip,Retentor superior positivo do vidro — BB_GlassTopRetainer / Strip,1,STRUCTURAL_PREMIUM,,18,"[744.0, 8.0]",ONE_SIDE_CNC_READY,True
+P050-Main,M040,P050,Monitor structural carrier member — BB_MonitorRail0 / Main,Elemento estrutural do suporte de monitor — BB_MonitorRail0 / Main,1,STRUCTURAL_PREMIUM,,18,"[744.0, 42.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P051-Main,M041,P051,Monitor structural carrier member — BB_MonitorRailCleatL0 / Main,Elemento estrutural do suporte de monitor — BB_MonitorRailCleatL0 / Main,1,STRUCTURAL_PREMIUM,,18,"[30.0, 38.0]",ONE_SIDE_CNC_READY,False
+P052-Main,M041,P052,Monitor structural carrier member — BB_MonitorRailCleatR0 / Main,Elemento estrutural do suporte de monitor — BB_MonitorRailCleatR0 / Main,1,STRUCTURAL_PREMIUM,,18,"[30.0, 38.0]",ONE_SIDE_CNC_READY,False
+P053-Main,M040,P053,Monitor structural carrier member — BB_MonitorRail1 / Main,Elemento estrutural do suporte de monitor — BB_MonitorRail1 / Main,1,STRUCTURAL_PREMIUM,,18,"[744.0, 42.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P054-Main,M041,P054,Monitor structural carrier member — BB_MonitorRailCleatL1 / Main,Elemento estrutural do suporte de monitor — BB_MonitorRailCleatL1 / Main,1,STRUCTURAL_PREMIUM,,18,"[30.0, 38.0]",ONE_SIDE_CNC_READY,False
+P055-Main,M041,P055,Monitor structural carrier member — BB_MonitorRailCleatR1 / Main,Elemento estrutural do suporte de monitor — BB_MonitorRailCleatR1 / Main,1,STRUCTURAL_PREMIUM,,18,"[30.0, 38.0]",ONE_SIDE_CNC_READY,False
+P056-Main,M042,P056,Monitor structural carrier member — BB_MonitorCarrier0 / Main,Elemento estrutural do suporte de monitor — BB_MonitorCarrier0 / Main,1,STRUCTURAL_PREMIUM,,18,"[50.0, 365.9999999999999]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P057-Main,M043,P057,Monitor structural carrier member — BB_MonitorDepthShoe00 / Main,Elemento estrutural do suporte de monitor — BB_MonitorDepthShoe00 / Main,1,STRUCTURAL_PREMIUM,,18,"[50.0, 50.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P058-Main,M043,P058,Monitor structural carrier member — BB_MonitorDepthShoe01 / Main,Elemento estrutural do suporte de monitor — BB_MonitorDepthShoe01 / Main,1,STRUCTURAL_PREMIUM,,18,"[50.0, 50.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P059-Main,M042,P059,Monitor structural carrier member — BB_MonitorCarrier1 / Main,Elemento estrutural do suporte de monitor — BB_MonitorCarrier1 / Main,1,STRUCTURAL_PREMIUM,,18,"[50.0, 365.9999999999999]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P060-Main,M043,P060,Monitor structural carrier member — BB_MonitorDepthShoe10 / Main,Elemento estrutural do suporte de monitor — BB_MonitorDepthShoe10 / Main,1,STRUCTURAL_PREMIUM,,18,"[50.0, 50.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P061-Main,M043,P061,Monitor structural carrier member — BB_MonitorDepthShoe11 / Main,Elemento estrutural do suporte de monitor — BB_MonitorDepthShoe11 / Main,1,STRUCTURAL_PREMIUM,,18,"[50.0, 50.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P062-Main,M044,P062,Replaceable load-carrying VESA plate — BB_ReplaceableVESAPlate / Main,Placa VESA substituível estrutural — BB_ReplaceableVESAPlate / Main,1,STRUCTURAL_PREMIUM,,12,"[360.0, 230.0]",ONE_SIDE_CNC_READY,False
+P063-Main,M045,P063,Replaceable display bezel — BB_DisplayReplaceableBezel / Main,Moldura substituível do monitor — BB_DisplayReplaceableBezel / Main,1,MODULAR_SECONDARY,,6,"[740.0, 457.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P068-Main,M050,P068,Lower cassette frame — BB_LowerCassetteFrame / Main,Quadro do cassete inferior — BB_LowerCassetteFrame / Main,1,STRUCTURAL_PREMIUM,,18,"[740.0, 200.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P069-Main,M051,P069,Replaceable speaker baffle — BB_SpeakerBaffleL / Main,Defletor substituível do alto-falante — BB_SpeakerBaffleL / Main,1,MODULAR_SECONDARY,,12,"[160.0, 200.0]",ONE_SIDE_CNC_READY,False
+P070-Main,M051,P070,Replaceable speaker baffle — BB_SpeakerBaffleR / Main,Defletor substituível do alto-falante — BB_SpeakerBaffleR / Main,1,MODULAR_SECONDARY,,12,"[160.0, 200.0]",ONE_SIDE_CNC_READY,False
+P071-Main,M052,P071,Replaceable DMD bezel — BB_DMDReplaceableBezel / Main,Moldura substituível do DMD — BB_DMDReplaceableBezel / Main,1,MODULAR_SECONDARY,,12,"[420.0, 180.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P072-Main,M053,P072,Load-carrying DMD rear adapter — BB_DMDRearAdapter / Main,Adaptador traseiro estrutural do DMD — BB_DMDRearAdapter / Main,1,STRUCTURAL_PREMIUM,,12,"[440.0, 96.0]",ONE_SIDE_CNC_READY,False
+P073-Main,M054,P073,DMD depth tie — BB_DMDDepthTie0 / Main,Travessa de profundidade do DMD — BB_DMDDepthTie0 / Main,1,STRUCTURAL_PREMIUM,,18,"[70.0, 45.0]",ONE_SIDE_CNC_READY,False
+P074-Main,M054,P074,DMD depth tie — BB_DMDDepthTie1 / Main,Travessa de profundidade do DMD — BB_DMDDepthTie1 / Main,1,STRUCTURAL_PREMIUM,,18,"[70.0, 45.0]",ONE_SIDE_CNC_READY,False
+P075-Ply1,M055,P075,Cassette fixed cleat — BB_CassetteFixedCleatL0 / Ply1,Apoio fixo do cassete — BB_CassetteFixedCleatL0 / Ply1,1,STRUCTURAL_PREMIUM,,12,"[22.0, 32.0]",ONE_SIDE_CNC_READY,True
+P075-Ply2,M055,P075,Cassette fixed cleat — BB_CassetteFixedCleatL0 / Ply2,Apoio fixo do cassete — BB_CassetteFixedCleatL0 / Ply2,1,STRUCTURAL_PREMIUM,,12,"[22.0, 32.0]",ONE_SIDE_CNC_READY,True
+P076-Ply1,M055,P076,Cassette fixed cleat — BB_CassetteFixedCleatL1 / Ply1,Apoio fixo do cassete — BB_CassetteFixedCleatL1 / Ply1,1,STRUCTURAL_PREMIUM,,12,"[22.0, 32.0]",ONE_SIDE_CNC_READY,True
+P076-Ply2,M055,P076,Cassette fixed cleat — BB_CassetteFixedCleatL1 / Ply2,Apoio fixo do cassete — BB_CassetteFixedCleatL1 / Ply2,1,STRUCTURAL_PREMIUM,,12,"[22.0, 32.0]",ONE_SIDE_CNC_READY,True
+P077-Ply1,M055,P077,Cassette fixed cleat — BB_CassetteFixedCleatR0 / Ply1,Apoio fixo do cassete — BB_CassetteFixedCleatR0 / Ply1,1,STRUCTURAL_PREMIUM,,12,"[22.0, 32.0]",ONE_SIDE_CNC_READY,True
+P077-Ply2,M055,P077,Cassette fixed cleat — BB_CassetteFixedCleatR0 / Ply2,Apoio fixo do cassete — BB_CassetteFixedCleatR0 / Ply2,1,STRUCTURAL_PREMIUM,,12,"[22.0, 32.0]",ONE_SIDE_CNC_READY,True
+P078-Ply1,M055,P078,Cassette fixed cleat — BB_CassetteFixedCleatR1 / Ply1,Apoio fixo do cassete — BB_CassetteFixedCleatR1 / Ply1,1,STRUCTURAL_PREMIUM,,12,"[22.0, 32.0]",ONE_SIDE_CNC_READY,True
+P078-Ply2,M055,P078,Cassette fixed cleat — BB_CassetteFixedCleatR1 / Ply2,Apoio fixo do cassete — BB_CassetteFixedCleatR1 / Ply2,1,STRUCTURAL_PREMIUM,,12,"[22.0, 32.0]",ONE_SIDE_CNC_READY,True
+P079-Main,M056,P079,Backbox rear door — BB_DoorL / Main,Porta traseira superior — BB_DoorL / Main,1,MODULAR_SECONDARY,,12,"[351.0, 628.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P080-Main,M057,P080,Backbox rear door — BB_DoorR / Main,Porta traseira superior — BB_DoorR / Main,1,MODULAR_SECONDARY,,12,"[351.0, 628.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P081-Main,M058,P081,Backbox intake filter frame — BB_IntakeFilterFrameL / Main,Quadro do filtro superior — BB_IntakeFilterFrameL / Main,1,MODULAR_SECONDARY,,6,"[240.0, 100.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P082-Main,M058,P082,Backbox intake filter frame — BB_IntakeFilterFrameR / Main,Quadro do filtro superior — BB_IntakeFilterFrameR / Main,1,MODULAR_SECONDARY,,6,"[240.0, 100.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,False
+P083-Face,M059,P083,Downward intake baffle assembly — BB_IntakeDownBaffleL / Face,Conjunto defletor inferior de ar — BB_IntakeDownBaffleL / Face,1,MODULAR_SECONDARY,,6,"[232.0, 104.0]",ONE_SIDE_CNC_READY,False
+P083-Top,M060,P083,Downward intake baffle assembly — BB_IntakeDownBaffleL / Top,Conjunto defletor inferior de ar — BB_IntakeDownBaffleL / Top,1,MODULAR_SECONDARY,,6,"[232.0, 36.0]",ONE_SIDE_CNC_READY,False
+P083-Side1,M061,P083,Downward intake baffle assembly — BB_IntakeDownBaffleL / Side1,Conjunto defletor inferior de ar — BB_IntakeDownBaffleL / Side1,1,MODULAR_SECONDARY,,6,"[98.0, 36.0]",ONE_SIDE_CNC_READY,False
+P083-Side2,M061,P083,Downward intake baffle assembly — BB_IntakeDownBaffleL / Side2,Conjunto defletor inferior de ar — BB_IntakeDownBaffleL / Side2,1,MODULAR_SECONDARY,,6,"[98.0, 36.0]",ONE_SIDE_CNC_READY,False
+P084-Face,M059,P084,Downward intake baffle assembly — BB_IntakeDownBaffleR / Face,Conjunto defletor inferior de ar — BB_IntakeDownBaffleR / Face,1,MODULAR_SECONDARY,,6,"[232.0, 104.0]",ONE_SIDE_CNC_READY,False
+P084-Top,M060,P084,Downward intake baffle assembly — BB_IntakeDownBaffleR / Top,Conjunto defletor inferior de ar — BB_IntakeDownBaffleR / Top,1,MODULAR_SECONDARY,,6,"[232.0, 36.0]",ONE_SIDE_CNC_READY,False
+P084-Side1,M061,P084,Downward intake baffle assembly — BB_IntakeDownBaffleR / Side1,Conjunto defletor inferior de ar — BB_IntakeDownBaffleR / Side1,1,MODULAR_SECONDARY,,6,"[98.0, 36.0]",ONE_SIDE_CNC_READY,False
+P084-Side2,M061,P084,Downward intake baffle assembly — BB_IntakeDownBaffleR / Side2,Conjunto defletor inferior de ar — BB_IntakeDownBaffleR / Side2,1,MODULAR_SECONDARY,,6,"[98.0, 36.0]",ONE_SIDE_CNC_READY,False
+P085-Reduced18,M062,P085,Continuous-hinge fixed cleat — BB_HingeCleatL / Reduced18,Apoio fixo da dobradiça contínua — BB_HingeCleatL / Reduced18,1,STRUCTURAL_PREMIUM,,18,"[23.0, 628.0]",ONE_SIDE_CNC_READY,False
+P086-Reduced18,M062,P086,Continuous-hinge fixed cleat — BB_HingeCleatR / Reduced18,Apoio fixo da dobradiça contínua — BB_HingeCleatR / Reduced18,1,STRUCTURAL_PREMIUM,,18,"[23.0, 628.0]",ONE_SIDE_CNC_READY,False
+P087-Main,M063,P087,Center overlap strip — BB_CenterAstragal / Main,Régua de sobreposição central — BB_CenterAstragal / Main,1,MODULAR_SECONDARY,,12,"[36.0, 604.0]",ONE_SIDE_CNC_READY,False
+P088-Main,M064,P088,Lock parking lamination — BB_UprightLockLParkingPad0 / Main,Lâmina do bloco de estacionamento — BB_UprightLockLParkingPad0 / Main,1,STRUCTURAL_PREMIUM,,18,"[50.0, 32.0]",ONE_SIDE_CNC_READY,True
+P089-Main,M065,P089,Lock parking lamination — BB_UprightLockLParkingPad1 / Main,Lâmina do bloco de estacionamento — BB_UprightLockLParkingPad1 / Main,1,STRUCTURAL_PREMIUM,,18,"[50.0, 32.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P090-Main,M064,P090,Lock parking lamination — BB_UprightLockRParkingPad0 / Main,Lâmina do bloco de estacionamento — BB_UprightLockRParkingPad0 / Main,1,STRUCTURAL_PREMIUM,,18,"[50.0, 32.0]",ONE_SIDE_CNC_READY,True
+P091-Main,M065,P091,Lock parking lamination — BB_UprightLockRParkingPad1 / Main,Lâmina do bloco de estacionamento — BB_UprightLockRParkingPad1 / Main,1,STRUCTURAL_PREMIUM,,18,"[50.0, 32.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True
+P092-Main,M066,P092,Interchangeable fan blank — BB_FanBlankL / Main,Tampa cega intercambiável da ventoinha — BB_FanBlankL / Main,1,MODULAR_SECONDARY,,6,"[128.0, 128.0]",ONE_SIDE_CNC_READY,False
+P093-Main,M066,P093,Interchangeable fan blank — BB_FanBlankR / Main,Tampa cega intercambiável da ventoinha — BB_FanBlankR / Main,1,MODULAR_SECONDARY,,6,"[128.0, 128.0]",ONE_SIDE_CNC_READY,False
+P029-Solid,SW01,P029,Solid-wood leg corner block FL,Bloco maciço do pé FL,1,STRUCTURAL_SOLID_WOOD,SHOP_MADE_SOLID_WOOD_PART,,"[54, 54]",SHOP_MADE_SOLID_WOOD_PART,True
+P030-Solid,SW01,P030,Solid-wood leg corner block FR,Bloco maciço do pé FR,1,STRUCTURAL_SOLID_WOOD,SHOP_MADE_SOLID_WOOD_PART,,"[54, 54]",SHOP_MADE_SOLID_WOOD_PART,True
+P031-Solid,SW01,P031,Solid-wood leg corner block RL,Bloco maciço do pé RL,1,STRUCTURAL_SOLID_WOOD,SHOP_MADE_SOLID_WOOD_PART,,"[54, 54]",SHOP_MADE_SOLID_WOOD_PART,True
+P032-Solid,SW01,P032,Solid-wood leg corner block RR,Bloco maciço do pé RR,1,STRUCTURAL_SOLID_WOOD,SHOP_MADE_SOLID_WOOD_PART,,"[54, 54]",SHOP_MADE_SOLID_WOOD_PART,True
+P094-Main,M067,P094,Transverse monitor stop rail / Main,Travessa de apoio ajustável do monitor / Main,1,STRUCTURAL_PREMIUM,,18,"[330.0, 18.0]",ONE_SIDE_CNC_PLUS_MANUAL_FINISH,True

@@ -1,4 +1,4 @@
-> CURRENT V33.6: [clean playfield contour, restored side-button datums and monitor service](exports/generated/monitor-support-v336/README.md). 97 CNC plywood pieces + 4 unchanged SW01 blocks = 101 pieces / 59 families. Side-button centers Y255/Y310, Z270; hardware bores remain HOLD. CNC remains BLOCKED. [Offline viewer](exports/generated/viewer-v32/index.html).
+> CURRENT V33.6.1: [front-button ergonomics and clean open-front playfield relief](exports/generated/button-relief-v3361/README.md). Y89/Y127, local side top minus65mm; the temporary V33.6 Y255/Y310 restoration is superseded. 97 CNC plywood +4 SW01 =101 pieces /59 families. Final button bores and CNC release remain HOLD. [Offline viewer](exports/generated/viewer-v32/index.html).
 
 # Virtual Pinball Cabinet
 

@@ -1,0 +1,15 @@
+{
+  "native_files": {
+    "PLAY": "play.FCStd",
+    "SERVICE": "service.FCStd",
+    "LIFT-OUT": "lift-out.FCStd",
+    "MATRIX REMOVED": "matrix-removed.FCStd",
+    "DOORS OPEN": "doors-open.FCStd",
+    "UNLOCKED": "locks-parked.FCStd",
+    "FOLD1": "fold-1.FCStd",
+    "FOLD45": "fold-45.FCStd",
+    "BACKBOX FOLD": "backbox-fold.FCStd"
+  },
+  "source_sha256": "2a5802b869958e2f9d720cf7976a6e056072975bcd17b05002e4beb843e11a6f",
+  "release": false
+}

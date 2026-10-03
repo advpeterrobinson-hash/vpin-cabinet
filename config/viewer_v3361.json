@@ -1,0 +1,12 @@
+{
+  "version": "V33.6.1",
+  "authority": "CURRENT_OWNER_FRONT_ERGONOMICS_AND_CLEAN_RELIEF",
+  "source_head": "fb13f88dfbd36afab18193baaf285bbffe721c7d",
+  "viewer": "exports/generated/viewer-v32/index.html",
+  "builder": "tools/build_viewer_v3361.py",
+  "validation": "exports/generated/button-relief-v3361/validation.json",
+  "manual_json": "exports/generated/button-relief-v3361/assembly-manual.json",
+  "manufacturing_register": "config/manufacturing/flatpack_v3361.json",
+  "geometry_changed": true,
+  "manufacturing_release": false
+}

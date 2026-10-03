@@ -1,3 +1,5 @@
+> V33.6.1 CORRECTION: the rearward Y255/Y310,Z270 restoration and rectangular-front-base conclusion in this historical V33.6 snapshot are superseded. Owner authority is Y89/Y127, local side top minus65mm, with a clean front-open relief. V33.6 rear monitor openings/backbox work remain retained. See [CURRENT report](../../exports/generated/button-relief-v3361/README.md).
+
 # V33.6 contour and button authority audit
 
 Original project material: CERN-OHL-S-2.0. Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet

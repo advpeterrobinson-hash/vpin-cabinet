@@ -1,0 +1,589 @@
+{
+  "source_sha256": "2a5802b869958e2f9d720cf7976a6e056072975bcd17b05002e4beb843e11a6f",
+  "pass": true,
+  "method": "Constant 400mm flexible parabolic centerline; varying lateral bow, R4 swept packaging tube, 1 degree rotation /4mm lift samples. NOT a continuous-motion certificate or selected cable bending specification.",
+  "diameter_mm": 8,
+  "loop_length_mm": 400,
+  "minimum_required_reference_bend_radius_mm": 35,
+  "fixed_end_mm": [
+    450.0,
+    900.0,
+    258.0
+  ],
+  "fixed_end_mount": "Provisional removable clamp on S3 top at X450/Y900; no permanent drill introduced. Release clamp for S3 removal. Clamp/adhesive fastening and actual cable remain hardware-dependent.",
+  "moving_end_local_mm": [
+    300,
+    877,
+    -20
+  ],
+  "rows": [
+    {
+      "state": "PLAY",
+      "angle_deg": 0,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999052,
+      "minimum_bend_radius_mm": 39.269698643904704,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725634467
+    },
+    {
+      "state": "SERVICE50",
+      "angle_deg": 50,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999039,
+      "minimum_bend_radius_mm": 137.41625232642838,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999999656
+    },
+    {
+      "state": "LIFT48",
+      "angle_deg": 0,
+      "lift_mm": 48,
+      "length_mm": 400.0000000000571,
+      "minimum_bend_radius_mm": 68.94303386000645,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725633903
+    },
+    {
+      "state": "SERVICE1",
+      "angle_deg": 1,
+      "lift_mm": 0,
+      "length_mm": 399.99999999986665,
+      "minimum_bend_radius_mm": 40.2913566186651,
+      "hits": [],
+      "screened_minimum_mm": 2.0482325971191506
+    },
+    {
+      "state": "SERVICE2",
+      "angle_deg": 2,
+      "lift_mm": 0,
+      "length_mm": 400.00000000017144,
+      "minimum_bend_radius_mm": 41.34021919757673,
+      "hits": [],
+      "screened_minimum_mm": 2.0380261683072067
+    },
+    {
+      "state": "SERVICE3",
+      "angle_deg": 3,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999599,
+      "minimum_bend_radius_mm": 42.41684252908893,
+      "hits": [],
+      "screened_minimum_mm": 2.0290265951050106
+    },
+    {
+      "state": "SERVICE4",
+      "angle_deg": 4,
+      "lift_mm": 0,
+      "length_mm": 400.0000000000617,
+      "minimum_bend_radius_mm": 43.52180519513449,
+      "hits": [],
+      "screened_minimum_mm": 2.000000000000035
+    },
+    {
+      "state": "SERVICE5",
+      "angle_deg": 5,
+      "lift_mm": 0,
+      "length_mm": 399.99999999991815,
+      "minimum_bend_radius_mm": 44.655709367077236,
+      "hits": [],
+      "screened_minimum_mm": 2.014658612503447
+    },
+    {
+      "state": "SERVICE6",
+      "angle_deg": 6,
+      "lift_mm": 0,
+      "length_mm": 399.9999999998853,
+      "minimum_bend_radius_mm": 45.79415127718265,
+      "hits": [],
+      "screened_minimum_mm": 2.0092945797304624
+    },
+    {
+      "state": "SERVICE7",
+      "angle_deg": 7,
+      "lift_mm": 0,
+      "length_mm": 400.00000000009254,
+      "minimum_bend_radius_mm": 46.95135527162514,
+      "hits": [],
+      "screened_minimum_mm": 2.0051461544875493
+    },
+    {
+      "state": "SERVICE8",
+      "angle_deg": 8,
+      "lift_mm": 0,
+      "length_mm": 400.00000000000665,
+      "minimum_bend_radius_mm": 48.13900496852712,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000010885
+    },
+    {
+      "state": "SERVICE9",
+      "angle_deg": 9,
+      "lift_mm": 0,
+      "length_mm": 399.99999999994964,
+      "minimum_bend_radius_mm": 49.357811626836295,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000021642577
+    },
+    {
+      "state": "SERVICE10",
+      "angle_deg": 10,
+      "lift_mm": 0,
+      "length_mm": 400.00000000003644,
+      "minimum_bend_radius_mm": 50.60851704225357,
+      "hits": [],
+      "screened_minimum_mm": 36.19950248448358
+    },
+    {
+      "state": "SERVICE11",
+      "angle_deg": 11,
+      "lift_mm": 0,
+      "length_mm": 399.999999999909,
+      "minimum_bend_radius_mm": 51.891895261112715,
+      "hits": [],
+      "screened_minimum_mm": 2.0007282402440114
+    },
+    {
+      "state": "SERVICE12",
+      "angle_deg": 12,
+      "lift_mm": 0,
+      "length_mm": 399.99999999983555,
+      "minimum_bend_radius_mm": 53.20875441426041,
+      "hits": [],
+      "screened_minimum_mm": 2.002669390590799
+    },
+    {
+      "state": "SERVICE13",
+      "angle_deg": 13,
+      "lift_mm": 0,
+      "length_mm": 400.0000000000916,
+      "minimum_bend_radius_mm": 54.55993868158879,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000073475
+    },
+    {
+      "state": "SERVICE14",
+      "angle_deg": 14,
+      "lift_mm": 0,
+      "length_mm": 399.999999999973,
+      "minimum_bend_radius_mm": 55.94633039784769,
+      "hits": [],
+      "screened_minimum_mm": 1.999999999999939
+    },
+    {
+      "state": "SERVICE15",
+      "angle_deg": 15,
+      "lift_mm": 0,
+      "length_mm": 400.00000000005673,
+      "minimum_bend_radius_mm": 57.368852310619786,
+      "hits": [],
+      "screened_minimum_mm": 2.000000000000029
+    },
+    {
+      "state": "SERVICE16",
+      "angle_deg": 16,
+      "lift_mm": 0,
+      "length_mm": 400.00000000011687,
+      "minimum_bend_radius_mm": 58.82847000570944,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999999403
+    },
+    {
+      "state": "SERVICE17",
+      "angle_deg": 17,
+      "lift_mm": 0,
+      "length_mm": 400.00000000005275,
+      "minimum_bend_radius_mm": 60.326194512372474,
+      "hits": [],
+      "screened_minimum_mm": 2.000000000000008
+    },
+    {
+      "state": "SERVICE18",
+      "angle_deg": 18,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999525,
+      "minimum_bend_radius_mm": 61.860000628091434,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000005502
+    },
+    {
+      "state": "SERVICE19",
+      "angle_deg": 19,
+      "lift_mm": 0,
+      "length_mm": 400.0000000001306,
+      "minimum_bend_radius_mm": 63.39146326167954,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999998166
+    },
+    {
+      "state": "SERVICE20",
+      "angle_deg": 20,
+      "lift_mm": 0,
+      "length_mm": 400.0000000000838,
+      "minimum_bend_radius_mm": 64.96390518927542,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000001035
+    },
+    {
+      "state": "SERVICE21",
+      "angle_deg": 21,
+      "lift_mm": 0,
+      "length_mm": 399.9999999998437,
+      "minimum_bend_radius_mm": 66.57854858543033,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000001132
+    },
+    {
+      "state": "SERVICE22",
+      "angle_deg": 22,
+      "lift_mm": 0,
+      "length_mm": 399.99999999990655,
+      "minimum_bend_radius_mm": 68.23667727980768,
+      "hits": [],
+      "screened_minimum_mm": 2.000000000000028
+    },
+    {
+      "state": "SERVICE23",
+      "angle_deg": 23,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999423,
+      "minimum_bend_radius_mm": 69.93964083963914,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999999971
+    },
+    {
+      "state": "SERVICE24",
+      "angle_deg": 24,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999459,
+      "minimum_bend_radius_mm": 71.68885898555062,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999997828
+    },
+    {
+      "state": "SERVICE25",
+      "angle_deg": 25,
+      "lift_mm": 0,
+      "length_mm": 400.00000000006787,
+      "minimum_bend_radius_mm": 73.48582637486994,
+      "hits": [],
+      "screened_minimum_mm": 2.00000000000007
+    },
+    {
+      "state": "SERVICE26",
+      "angle_deg": 26,
+      "lift_mm": 0,
+      "length_mm": 399.99999999995424,
+      "minimum_bend_radius_mm": 75.33211778872729,
+      "hits": [],
+      "screened_minimum_mm": 2.156754291220258
+    },
+    {
+      "state": "SERVICE27",
+      "angle_deg": 27,
+      "lift_mm": 0,
+      "length_mm": 399.999999999996,
+      "minimum_bend_radius_mm": 77.22939376260771,
+      "hits": [],
+      "screened_minimum_mm": 2.1766910610203345
+    },
+    {
+      "state": "SERVICE28",
+      "angle_deg": 28,
+      "lift_mm": 0,
+      "length_mm": 400.0000000000604,
+      "minimum_bend_radius_mm": 79.1463095438012,
+      "hits": [],
+      "screened_minimum_mm": 2.197792447760361
+    },
+    {
+      "state": "SERVICE29",
+      "angle_deg": 29,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999788,
+      "minimum_bend_radius_mm": 81.0963199249813,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999998959
+    },
+    {
+      "state": "SERVICE30",
+      "angle_deg": 30,
+      "lift_mm": 0,
+      "length_mm": 399.99999999985613,
+      "minimum_bend_radius_mm": 83.10238389816807,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999998659
+    },
+    {
+      "state": "SERVICE31",
+      "angle_deg": 31,
+      "lift_mm": 0,
+      "length_mm": 400.000000000037,
+      "minimum_bend_radius_mm": 85.16656774625729,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000004694
+    },
+    {
+      "state": "SERVICE32",
+      "angle_deg": 32,
+      "lift_mm": 0,
+      "length_mm": 399.99999999997357,
+      "minimum_bend_radius_mm": 87.29105988001193,
+      "hits": [],
+      "screened_minimum_mm": 1.999999999999855
+    },
+    {
+      "state": "SERVICE33",
+      "angle_deg": 33,
+      "lift_mm": 0,
+      "length_mm": 400.00000000011454,
+      "minimum_bend_radius_mm": 89.47818029453755,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000000484
+    },
+    {
+      "state": "SERVICE34",
+      "angle_deg": 34,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999476,
+      "minimum_bend_radius_mm": 91.73039093718882,
+      "hits": [],
+      "screened_minimum_mm": 2.000000000000013
+    },
+    {
+      "state": "SERVICE35",
+      "angle_deg": 35,
+      "lift_mm": 0,
+      "length_mm": 400.00000000013836,
+      "minimum_bend_radius_mm": 94.04098901283464,
+      "hits": [],
+      "screened_minimum_mm": 2.000000000000291
+    },
+    {
+      "state": "SERVICE36",
+      "angle_deg": 36,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999241,
+      "minimum_bend_radius_mm": 96.36877003171746,
+      "hits": [],
+      "screened_minimum_mm": 2.000000000000683
+    },
+    {
+      "state": "SERVICE37",
+      "angle_deg": 37,
+      "lift_mm": 0,
+      "length_mm": 400.00000000008737,
+      "minimum_bend_radius_mm": 98.7694641789735,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999999338
+    },
+    {
+      "state": "SERVICE38",
+      "angle_deg": 38,
+      "lift_mm": 0,
+      "length_mm": 399.9999999998793,
+      "minimum_bend_radius_mm": 101.24621877789691,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999999787
+    },
+    {
+      "state": "SERVICE39",
+      "angle_deg": 39,
+      "lift_mm": 0,
+      "length_mm": 399.99999999998175,
+      "minimum_bend_radius_mm": 103.802392381676,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000000298
+    },
+    {
+      "state": "SERVICE40",
+      "angle_deg": 40,
+      "lift_mm": 0,
+      "length_mm": 399.999999999958,
+      "minimum_bend_radius_mm": 106.44157335858391,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999999893
+    },
+    {
+      "state": "SERVICE41",
+      "angle_deg": 41,
+      "lift_mm": 0,
+      "length_mm": 399.99999999996817,
+      "minimum_bend_radius_mm": 109.16222202193767,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999999953
+    },
+    {
+      "state": "SERVICE42",
+      "angle_deg": 42,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999924,
+      "minimum_bend_radius_mm": 111.9085035055312,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000165157
+    },
+    {
+      "state": "SERVICE43",
+      "angle_deg": 43,
+      "lift_mm": 0,
+      "length_mm": 400.00000000003104,
+      "minimum_bend_radius_mm": 114.74955810748921,
+      "hits": [],
+      "screened_minimum_mm": 1.999999999999936
+    },
+    {
+      "state": "SERVICE44",
+      "angle_deg": 44,
+      "lift_mm": 0,
+      "length_mm": 400.00000000000614,
+      "minimum_bend_radius_mm": 117.69011053220899,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999999847
+    },
+    {
+      "state": "SERVICE45",
+      "angle_deg": 45,
+      "lift_mm": 0,
+      "length_mm": 399.99999999998266,
+      "minimum_bend_radius_mm": 120.73524415245889,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999998803
+    },
+    {
+      "state": "SERVICE46",
+      "angle_deg": 46,
+      "lift_mm": 0,
+      "length_mm": 400.000000000018,
+      "minimum_bend_radius_mm": 123.88843107041092,
+      "hits": [],
+      "screened_minimum_mm": 2.000000000000084
+    },
+    {
+      "state": "SERVICE47",
+      "angle_deg": 47,
+      "lift_mm": 0,
+      "length_mm": 400.00000000000756,
+      "minimum_bend_radius_mm": 127.08080586112514,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000000053
+    },
+    {
+      "state": "SERVICE48",
+      "angle_deg": 48,
+      "lift_mm": 0,
+      "length_mm": 399.99999999990905,
+      "minimum_bend_radius_mm": 130.39486780309474,
+      "hits": [],
+      "screened_minimum_mm": 2.0000000000000284
+    },
+    {
+      "state": "SERVICE49",
+      "angle_deg": 49,
+      "lift_mm": 0,
+      "length_mm": 399.9999999999221,
+      "minimum_bend_radius_mm": 133.83751960282848,
+      "hits": [],
+      "screened_minimum_mm": 1.9999999999999676
+    },
+    {
+      "state": "LIFT4",
+      "angle_deg": 0,
+      "lift_mm": 4,
+      "length_mm": 400.00000000011516,
+      "minimum_bend_radius_mm": 41.202755025817126,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725634467
+    },
+    {
+      "state": "LIFT8",
+      "angle_deg": 0,
+      "lift_mm": 8,
+      "length_mm": 399.9999999999185,
+      "minimum_bend_radius_mm": 43.22454416324222,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725634467
+    },
+    {
+      "state": "LIFT12",
+      "angle_deg": 0,
+      "lift_mm": 12,
+      "length_mm": 399.9999999998866,
+      "minimum_bend_radius_mm": 45.33019687929553,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725634467
+    },
+    {
+      "state": "LIFT16",
+      "angle_deg": 0,
+      "lift_mm": 16,
+      "length_mm": 399.99999999989154,
+      "minimum_bend_radius_mm": 47.47843083879964,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725634467
+    },
+    {
+      "state": "LIFT20",
+      "angle_deg": 0,
+      "lift_mm": 20,
+      "length_mm": 399.99999999997027,
+      "minimum_bend_radius_mm": 49.73166346468695,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725634467
+    },
+    {
+      "state": "LIFT24",
+      "angle_deg": 0,
+      "lift_mm": 24,
+      "length_mm": 400.00000000005394,
+      "minimum_bend_radius_mm": 52.09700047645311,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725634467
+    },
+    {
+      "state": "LIFT28",
+      "angle_deg": 0,
+      "lift_mm": 28,
+      "length_mm": 400.000000000097,
+      "minimum_bend_radius_mm": 54.582302166111766,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725634467
+    },
+    {
+      "state": "LIFT32",
+      "angle_deg": 0,
+      "lift_mm": 32,
+      "length_mm": 400.0000000001309,
+      "minimum_bend_radius_mm": 57.196290757015966,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725634467
+    },
+    {
+      "state": "LIFT36",
+      "angle_deg": 0,
+      "lift_mm": 36,
+      "length_mm": 399.99999999987006,
+      "minimum_bend_radius_mm": 59.948677227101946,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725633903
+    },
+    {
+      "state": "LIFT40",
+      "angle_deg": 0,
+      "lift_mm": 40,
+      "length_mm": 400.0000000000008,
+      "minimum_bend_radius_mm": 62.81853429981542,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725633903
+    },
+    {
+      "state": "LIFT44",
+      "angle_deg": 0,
+      "lift_mm": 44,
+      "length_mm": 399.9999999999474,
+      "minimum_bend_radius_mm": 65.7943294960119,
+      "hits": [],
+      "screened_minimum_mm": 2.0596427725633903
+    }
+  ],
+  "release": false
+}
