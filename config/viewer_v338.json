@@ -1,0 +1,15 @@
+{
+  "version": "V33.8",
+  "authority": "SW02_SERVICE_MODULARITY_DESIGN_REVIEW",
+  "source_head": "cdd21333ca0382cd8e99f9a96872f994136306e5",
+  "viewer": "exports/generated/viewer-v32/index.html",
+  "builder": "tools/build_viewer_v338.py",
+  "validation": "exports/generated/service-productization-v338/validation.json",
+  "manual_json": "exports/generated/service-productization-v338/assembly-manual.json",
+  "manufacturing_register": "config/manufacturing/flatpack_v338.json",
+  "hardware_catalog": "config/hardware_catalog_v338.json",
+  "unrelated_geometry_unchanged": true,
+  "primary_service_support_released": false,
+  "physical_qualification_complete": false,
+  "manufacturing_release": false
+}

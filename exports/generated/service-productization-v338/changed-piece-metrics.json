@@ -1,0 +1,40 @@
+[
+  {
+    "instance_id": "P095-Solid",
+    "volume_mm3": 257040.0,
+    "finished_volume_mm3": 245252.62800844762,
+    "center_of_mass_local_mm": [
+      34,
+      35,
+      27
+    ],
+    "finished_center_of_mass_local_mm": [
+      33.466530935290514,
+      35.1314266880138,
+      26.938667545593553
+    ],
+    "outer_area_mm2": 4760,
+    "projected_material_area_mm2": 4760,
+    "removed_stock_volume_mm3": 11787.371991552383,
+    "shipping_geometry_authority": "exports/generated/service-productization-v338/brep/P095-Solid-shop-blank.brep"
+  },
+  {
+    "instance_id": "P096-Solid",
+    "volume_mm3": 257040.0,
+    "finished_volume_mm3": 245252.62800844762,
+    "center_of_mass_local_mm": [
+      34,
+      35,
+      27
+    ],
+    "finished_center_of_mass_local_mm": [
+      33.466530935290514,
+      35.1314266880138,
+      26.938667545593553
+    ],
+    "outer_area_mm2": 4760,
+    "projected_material_area_mm2": 4760,
+    "removed_stock_volume_mm3": 11787.371991552383,
+    "shipping_geometry_authority": "exports/generated/service-productization-v338/brep/P096-Solid-shop-blank.brep"
+  }
+]

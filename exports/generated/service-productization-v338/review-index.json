@@ -1,0 +1,134 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "Previous landing \u2014 three plywood laminations per side",
+    "note": "The native V33.7 profiles are shown, including actual reference bores. Two binder screws per side and the lamination glue-up belonged to this earlier construction. Exploded translation is documentation only; no accepted playfield or cabinet datum moves.",
+    "native_cad": true
+  },
+  {
+    "image": "02-review.png",
+    "title": "SW02 \u2014 one shop-made solid block per side",
+    "note": "SW02 replaces three 18 mm layers without introducing another plywood stock. Species, strength, moisture and purchased drilling sizes remain held. The woodshop supplies a square blank; qualified guide/template/manual drilling creates the reference interfaces.",
+    "native_cad": true
+  },
+  {
+    "image": "03-review.png",
+    "title": "SW02 / former union \u2014 exact external geometry",
+    "note": "External and mating surfaces remain exact. The symmetric difference is deliberately nonzero only because redundant binder bores are filled. Adjuster, retainer and side-attachment reference bores remain. No claim of byte-identical internal voids hides this manufacturing simplification.",
+    "native_cad": true
+  },
+  {
+    "image": "04-review.png",
+    "title": "SW02 drilling / adjuster interface",
+    "note": "A scale-verified paper template locates centers; a clamped portable perpendicular guide and depth stop control the 54/68 mm drilling paths. Paper alone is insufficient. Mechanical travel remains \u00b13 mm, but the occupied-volume common-height setup screen is -1.9\u2026+0.9 mm with 1 mm margin. Restore the nominal 9.906669\u00b0 pose; do not choose a new PLAY angle or twist the rigid base.",
+    "native_cad": true
+  },
+  {
+    "image": "05-review.png",
+    "title": "Selected retention A \u2014 captive M6 tool-operated bolt",
+    "note": "Two independent existing M6 \u00d7 100 retainers remain selected. Release both through the open coin door before opening/lift-out. Reset stop position after setup so the blind receiver does not bottom. Captivity, anti-loosening, receiver pull-out and nudge tests still require the purchased parts and physical qualification.",
+    "native_cad": true
+  },
+  {
+    "image": "06-review.png",
+    "title": "Hand-operated retention B \u2014 packaging pass, not promoted",
+    "note": "All three head sizes and conservative finger/palm approach sweeps clear the modeled cabinet, including 10.5 mm retraction; minimum approach gap is 6.5 mm. A compatible long-shank captive hand assembly, grip retention and anti-release behavior are unqualified. No friction cap or short catalog knob is silently substituted for the selected retainer.",
+    "native_cad": true
+  },
+  {
+    "image": "07-review.png",
+    "title": "Quick-pin option C \u2014 rejected at the current receiver",
+    "note": "No viable quick-pin candidate is selected. A plain pin in the current threaded receiver cannot supply positive uplift retention. Adding a different bushing, shoulder or through receiver would alter protected material and add complexity. This view shows the real current interface; no invented successful quick-pin assembly is rendered.",
+    "native_cad": true
+  },
+  {
+    "image": "08-review.png",
+    "title": "Selected tool access \u2014 coin door open 110\u00b0",
+    "note": "The actual earlier spanner/hand access geometry is retained and checked against SW02. The selected mechanism remains tool-operated. Coin door, underfront module, front buttons and plunger keep their current coordinates. Do not substitute the held hand-knob study for an approved tool-free workflow.",
+    "native_cad": true
+  },
+  {
+    "image": "09-review.png",
+    "title": "Safety strap study \u2014 NO secondary restraint promoted",
+    "note": "These native CAD diagnostic routes are rejected candidates, not installed straps. CURRENT has no modeled positive 50\u00b0 primary support or single-support proof. A pivot and closed front landings do not hold service pitch. Do not work beneath the raised playfield; a qualified primary support remains required.",
+    "native_cad": true
+  },
+  {
+    "image": "10-review.png",
+    "title": "Normal slack \u2014 conditional geometry, not a safe service state",
+    "note": "Straight tubes show the required tension line; they do not pretend to model hanging webbing. Slack is an explicit length allowance. Both straps would need independent full-load anchors and a rated short assembly. No stow location or routing is approved; removal and external storage introduces no cabinet snag geometry.",
+    "native_cad": true
+  },
+  {
+    "image": "11-review.png",
+    "title": "Failure-arrest screen \u2014 hypothetical, rejected route",
+    "note": "Demand is calculated from the native mass centers and gravity energy loss. Extension is an unknown sensitivity, not a selected webbing property. The illustrated peak is not a proven upper bound. No rated short tether, wood anchor capacity, rear-dowel capture under asymmetric arrest, primary support failure mode or dynamic cable proof is established.",
+    "native_cad": true
+  },
+  {
+    "image": "12-review.png",
+    "title": "Existing S1/S2/S3 and T1/T2/T3 remain the hardpoints",
+    "note": "No permanent stations, large internal panels or universal hole grid are added. Small modules use existing removable shelves. T1/T2/T3 retain their original role and intentional playfield clearance.",
+    "native_cad": true
+  },
+  {
+    "image": "13-review.png",
+    "title": "ACC01 optional 100 \u00d7 120 \u00d7 12 mm board",
+    "note": "One small board family, two optional sample locations. No electronics holes are permanent. Two screw C-clamps per chosen board are original provisional envelopes, not selected vendor geometry or qualified impact-toy anchors. Remove modules/clamps before independent shelf extraction.",
+    "native_cad": true
+  },
+  {
+    "image": "14-review.png",
+    "title": "Cable-management vocabulary \u2014 reuse current slots",
+    "note": "Preferred hook-and-loop grammar reuses the M025 6 \u00d7 22 mm R3 pair. Existing protected exceptions remain: backbox carriers 6 \u00d7 16 R3, underfront panel 4 \u00d7 12 R2. No extra permanent slots or connector cutouts. Actual tie/strap width and edge protection require physical selection.",
+    "native_cad": true
+  },
+  {
+    "image": "15-review.png",
+    "title": "Low power and signal route zones",
+    "note": "Two 20 mm diameter low routing zones clear current occupied geometry by at least 24.677 mm. Their centerlines are 420 mm apart. Branches, clamps and final bundles are not pre-wired. Mains remains separately enclosed/protected and signal wiring must not pass through mains compartments.",
+    "native_cad": true
+  },
+  {
+    "image": "16-review.png",
+    "title": "Moving playfield harness \u2014 current anchors and window",
+    "note": "The existing 8 mm packaging tube/400 mm loop passes 63 sampled PLAY/service/lift configurations without disconnecting for the geometric 50\u00b0 motion. Clamp releases for S3 removal. This is not cable bend certification; primary raised-playfield support is unresolved, so the 50\u00b0 pose is not permission to work unsupported.",
+    "native_cad": true
+  },
+  {
+    "image": "17-review.png",
+    "title": "Backbox harness zones \u2014 route remains HOLD",
+    "note": "Carrier slots, rear adjustment and side connector access remain. No central VESA window is cut. New universal fold-loop trials hit floor geometry or violate sensible bend curvature, so no backbox harness is validated or promoted. Cable selection and a supported continuous fold route remain explicit builder/hardware qualification holds.",
+    "native_cad": true
+  },
+  {
+    "image": "18-review.png",
+    "title": "Dry-fit assembly \u2014 captured shell before closure",
+    "note": "Shell shoulders provide positive datums: dry-fit, square check, then qualified adhesive/fixation. Shelf supports and cradle pilots match side references. Crossmember guides and backbox rail/hinge cleats still require qualified placement templates; no matching side-location feature is silently invented.",
+    "native_cad": true
+  },
+  {
+    "image": "19-review.png",
+    "title": "Interior without optional boards",
+    "note": "Minimum geometry and BOM have no ACC01 boards or clamps. Shelf/support architecture, floor fans, PCBase, SSF, underfront module and structural members remain. No third plywood stock is introduced.",
+    "native_cad": true
+  },
+  {
+    "image": "20-review.png",
+    "title": "Interior with optional sample boards",
+    "note": "Samples preserve continuous PF0\u201350\u00b0 clearance,48 mm lift, shelf fastener access and independent shelf routes after clamp/module removal. Neither board is a structural cabinet part. Payload, clamp dimensions and vibration/impact retention remain hardware-specific holds.",
+    "native_cad": true
+  },
+  {
+    "image": "21-review.png",
+    "title": "Packaging impact \u2014 actual contents / preliminary bundles",
+    "note": "SW02 replaces six plywood layers with two solid blanks; four binder screws are eliminated. 104 wood pieces remain in the minimum set. Packing uses actual CNC-stage shipping shapes and undrilled SW01/SW02 shop blanks. Separators/edge protection and separate hardware box remain required; glass/electronics are excluded. Dimensions and HIGH masses come from the final preliminary packing report, not a shipping qualification.",
+    "native_cad": true
+  },
+  {
+    "image": "22-review.png",
+    "title": "Completed cabinet \u2014 protected architecture retained",
+    "note": "Only the accepted front-landing bodies become SW02 and the obsolete binder screws retire. WPC axis, backbox, shelves, T members, main glass, M025 geometry, controls and all other protected systems remain. Optional boards are not mandatory, and no safety strap is promoted. Raised 50\u00b0 primary support remains a separate unresolved qualification gate; full-sheet CNC release stays blocked.",
+    "native_cad": true
+  }
+]

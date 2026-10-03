@@ -1,0 +1,13 @@
+{
+  "version": "V33.8",
+  "baseline": "V33.7",
+  "retired_CNC_pieces": 6,
+  "new_CNC_pieces": 0,
+  "net_plywood_volume_change_mm3": -487154.74745184183,
+  "net_finished_plywood_volume_change_mm3": -487154.74745184183,
+  "net_delivered_plywood_volume_change_mm3": -514080.0,
+  "outer_contour_area_change_mm2": -28560.0,
+  "projected_material_area_change_mm2": -27820.154930079356,
+  "preliminary_full_sheet_count_change": 0,
+  "note": "Signed changes: negative means less material than V33.7. Only the six current landing laminations retire; SW01 leg blocks and M067 are unchanged. No production nesting."
+}

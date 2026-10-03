@@ -1,4 +1,6 @@
-> CURRENT V33.7: [two plywood families and compact removable user module](docs/TWO_STOCK_USER_MODULE_V337.md). Nominal plywood stock is **18 / 12 mm only**. A 160×116 mm removable 12 mm plate accepts the owner 5-button + dual USB reference or a 6-button alternative. Hardware bores, physical qualification and CNC release remain **BLOCKED**. Protected V33.6.3 playfield supports and other accepted architecture remain unchanged. [Offline viewer](exports/generated/viewer-v32/index.html).
+> CURRENT V33.8: [solid front landings, service and modularity](docs/SERVICE_PRODUCTIZATION_V338.md). SW02 replaces six landing laminations; all other geometry remains protected. **104 wood pieces / 98 CNC plywood / 6 solid blocks / 61 families**. Captive M6 tool retention remains. Plywood: **18 / 12 mm only**. Primary raised-playfield support, physical qualification and CNC remain **BLOCKED**. [Offline viewer](exports/generated/viewer-v32/index.html).
+
+> Historical V33.7 baseline: [two plywood families and compact removable user module](docs/TWO_STOCK_USER_MODULE_V337.md). Nominal plywood stock is **18 / 12 mm only**. A 160×116 mm removable 12 mm plate accepts the owner 5-button + dual USB reference or a 6-button alternative. Hardware bores, physical qualification and CNC release remain **BLOCKED**. Protected V33.6.3 playfield supports and other accepted architecture remain unchanged. [Offline viewer](exports/generated/viewer-v32/index.html).
 
 # Virtual Pinball Cabinet
 

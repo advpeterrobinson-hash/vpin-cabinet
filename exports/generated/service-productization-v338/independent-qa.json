@@ -1,0 +1,249 @@
+{
+  "version": "V33.8",
+  "pass": true,
+  "checks": [
+    {
+      "name": "Native adjustment report uses the inspected candidate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "15 mm broad-phase radius exceeds maximum point motion plus 1 mm margin",
+      "pass": true,
+      "detail": {
+        "maximum_radius_mm": 1010.2637858428748,
+        "maximum_radius_object": "PLAYFIELD_ENVELOPE",
+        "maximum_rotation_deg": 0.2119376430737816,
+        "maximum_arc_displacement_mm": 3.736975523745972,
+        "margin_mm": 1,
+        "broad_phase_mm": 15
+      }
+    },
+    {
+      "name": "Rear mechanism sample -1.9 mm has only intended seated-dowel contact",
+      "pass": true,
+      "detail": {
+        "common_height_delta_mm": -1.9,
+        "rotation_deg": -0.134094157221341,
+        "penetrations": [],
+        "contacts": [
+          {
+            "moving": "PF_WoodDowel",
+            "fixed": "PF_OpenCradleL"
+          },
+          {
+            "moving": "PF_WoodDowel",
+            "fixed": "PF_OpenCradleR"
+          }
+        ],
+        "nearest_noncontact": {
+          "distance_mm": 5.485529944944497,
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "PF_OpenCradleL"
+        }
+      }
+    },
+    {
+      "name": "Rear mechanism sample -1 mm has only intended seated-dowel contact",
+      "pass": true,
+      "detail": {
+        "common_height_delta_mm": -1,
+        "rotation_deg": -0.07058884981239544,
+        "penetrations": [],
+        "contacts": [
+          {
+            "moving": "PF_WoodDowel",
+            "fixed": "PF_OpenCradleL"
+          },
+          {
+            "moving": "PF_WoodDowel",
+            "fixed": "PF_OpenCradleR"
+          }
+        ],
+        "nearest_noncontact": {
+          "distance_mm": 5.5234110729871855,
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "PF_OpenCradleL"
+        }
+      }
+    },
+    {
+      "name": "Rear mechanism sample 0 mm has only intended seated-dowel contact",
+      "pass": true,
+      "detail": {
+        "common_height_delta_mm": 0,
+        "rotation_deg": -5.684341886080802e-14,
+        "penetrations": [],
+        "contacts": [
+          {
+            "moving": "PF_WoodDowel",
+            "fixed": "PF_OpenCradleL"
+          },
+          {
+            "moving": "PF_WoodDowel",
+            "fixed": "PF_OpenCradleR"
+          }
+        ],
+        "nearest_noncontact": {
+          "distance_mm": 5.565570143491826,
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "PF_OpenCradleL"
+        }
+      }
+    },
+    {
+      "name": "Rear mechanism sample 0.9 mm has only intended seated-dowel contact",
+      "pass": true,
+      "detail": {
+        "common_height_delta_mm": 0.9,
+        "rotation_deg": 0.06355446441847334,
+        "penetrations": [],
+        "contacts": [
+          {
+            "moving": "PF_WoodDowel",
+            "fixed": "PF_OpenCradleL"
+          },
+          {
+            "moving": "PF_WoodDowel",
+            "fixed": "PF_OpenCradleR"
+          }
+        ],
+        "nearest_noncontact": {
+          "distance_mm": 5.60357525097342,
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "PF_OpenCradleL"
+        }
+      }
+    },
+    {
+      "name": "Native snapshot matches geometry and manufacturing evidence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Selected retention remains A with tool and physical hold",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Load screen does not claim material capacity or certification",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Setup window is distinct from mechanical travel and not angle/twist permission",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Metrics authority binds the current manual and sources",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "source_sha256": {
+    "tools/service_productization_v338_independent_qa.py": "810d8de60cdd2570b2a4b3b9b0bb9fd9344c0c734ff418c7a63ac942843858c5",
+    "tools/front_landing_adjustment_v338.py": "f6fe0875fea1c1ec89b348bb13b4fed9c9a2f10f1dffa78eca2f74073a27b2fb",
+    "tools/combine_service_productization_v338.py": "ca9b2ac37b37d0a1798689a585c39769f79f96db28b9c367eb829ff9352adc74",
+    "exports/generated/service-productization-v338/landing-candidate.FCStd": "7e7515a72cf1ce2a014672df21a658d640e4e5c62620fdbc37494edaaedb18ef",
+    "exports/generated/service-productization-v338/play.FCStd": "c78a64794d4ac009e12986aa5adc03f936b5bbf95b84d0a4da35e2742f7c4c53",
+    "exports/generated/service-productization-v338/adjustment-validation.json": "fba79c775a0eb24bbdddb2dcd5928017ba218057cc906841b8350cb27c24b553",
+    "exports/generated/service-productization-v338/geometry-validation.json": "ca886817a3e7fb0b6d49db648054e89eb3dade882aa36e1079928f8d62e8488e",
+    "exports/generated/service-productization-v338/manufacturing-audit.json": "d31ef76ae480d2c767b90b9e2365371deff217c4d3bf1d581ca5738cd6b4026f",
+    "exports/generated/service-productization-v338/SW02-load-screen.json": "4ff18b6a25bdb4364b5039a9fd15113cff60f16eca06a2367a1155e0bb9938e7",
+    "exports/generated/service-productization-v338/retention-decision.json": "0fd05b126f3ad3409c585da8ef22a1dfe05313b2612dbd8917b495bebeae2836",
+    "exports/generated/service-productization-v338/metrics-authority.json": "d6bdfec7a9af2b9a6d6fa7f8f1b8b3d8bd7b635d68d72c3869d1643a6adb3dde",
+    "exports/generated/service-productization-v338/assembly-manual.json": "0973a4b60bac5e6cc8979808e6aa884754615dc39cf8f1eb0225fe9009bafe2c",
+    "exports/generated/front-landings-v3363/viewer-motion.json": "35332428ba464b6a84fd4b70f729c4092c64e7922191b1356fd75751ff64b027"
+  },
+  "native_sha256": "c78a64794d4ac009e12986aa5adc03f936b5bbf95b84d0a4da35e2742f7c4c53",
+  "rear_mechanism_samples": [
+    {
+      "common_height_delta_mm": -1.9,
+      "rotation_deg": -0.134094157221341,
+      "penetrations": [],
+      "contacts": [
+        {
+          "moving": "PF_WoodDowel",
+          "fixed": "PF_OpenCradleL"
+        },
+        {
+          "moving": "PF_WoodDowel",
+          "fixed": "PF_OpenCradleR"
+        }
+      ],
+      "nearest_noncontact": {
+        "distance_mm": 5.485529944944497,
+        "moving": "PLAYFIELD_ENVELOPE",
+        "fixed": "PF_OpenCradleL"
+      }
+    },
+    {
+      "common_height_delta_mm": -1,
+      "rotation_deg": -0.07058884981239544,
+      "penetrations": [],
+      "contacts": [
+        {
+          "moving": "PF_WoodDowel",
+          "fixed": "PF_OpenCradleL"
+        },
+        {
+          "moving": "PF_WoodDowel",
+          "fixed": "PF_OpenCradleR"
+        }
+      ],
+      "nearest_noncontact": {
+        "distance_mm": 5.5234110729871855,
+        "moving": "PLAYFIELD_ENVELOPE",
+        "fixed": "PF_OpenCradleL"
+      }
+    },
+    {
+      "common_height_delta_mm": 0,
+      "rotation_deg": -5.684341886080802e-14,
+      "penetrations": [],
+      "contacts": [
+        {
+          "moving": "PF_WoodDowel",
+          "fixed": "PF_OpenCradleL"
+        },
+        {
+          "moving": "PF_WoodDowel",
+          "fixed": "PF_OpenCradleR"
+        }
+      ],
+      "nearest_noncontact": {
+        "distance_mm": 5.565570143491826,
+        "moving": "PLAYFIELD_ENVELOPE",
+        "fixed": "PF_OpenCradleL"
+      }
+    },
+    {
+      "common_height_delta_mm": 0.9,
+      "rotation_deg": 0.06355446441847334,
+      "penetrations": [],
+      "contacts": [
+        {
+          "moving": "PF_WoodDowel",
+          "fixed": "PF_OpenCradleL"
+        },
+        {
+          "moving": "PF_WoodDowel",
+          "fixed": "PF_OpenCradleR"
+        }
+      ],
+      "nearest_noncontact": {
+        "distance_mm": 5.60357525097342,
+        "moving": "PLAYFIELD_ENVELOPE",
+        "fixed": "PF_OpenCradleL"
+      }
+    }
+  ],
+  "scope": "Independent conservative broad-phase bound and explicit rear-mechanism samples; source/claim consistency. Final safe range also relies on the root continuous certificate.",
+  "limitations": [
+    "Sampled rear check is not a new full-path certificate; rear dowel rotation is concentric and contacts intentional.",
+    "Simple load-path demand is not combined torsion/notch/material capacity.",
+    "No physical service-support or manufacturing release; primary raised-playfield support remains OPERATIONAL HOLD."
+  ],
+  "manufacturing_release": false
+}

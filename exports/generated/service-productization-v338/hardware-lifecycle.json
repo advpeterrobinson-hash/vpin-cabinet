@@ -1,0 +1,21 @@
+{
+  "version": "V33.8",
+  "pass": true,
+  "retired_required": [
+    {
+      "id": "F60",
+      "before": 4,
+      "after": 0
+    }
+  ],
+  "unchanged_existing_families": 164,
+  "metadata_only_changes": {
+    "H27": [
+      "notes"
+    ]
+  },
+  "new_required_hardware": 0,
+  "selected_retention": "A",
+  "manufacturing_release": false,
+  "optional_studies_separate": true
+}

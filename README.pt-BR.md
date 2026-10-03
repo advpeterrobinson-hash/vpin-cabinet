@@ -1,3 +1,5 @@
+> CURRENT V33.8: [apoios maciços, manutenção e modularidade](docs/SERVICE_PRODUCTIZATION_V338.pt-BR.md). SW02 substitui seis lâminas; a geometria não relacionada permanece igual. **104 peças de madeira / 98 CNC / 6 blocos maciços / 61 famílias**. Permanecem os retentores M6 com ferramenta. Compensado: **18 / 12 mm**. Suporte primário do playfield elevado, qualificação física e CNC continuam **BLOQUEADOS**. [Visualizador offline](exports/generated/viewer-v32/index.html).
+
 # Virtual Pinball Cabinet
 
 > CURRENT V32 supersedes historical mechanism/PC/mobility descriptions below: 600 mm cabinet; Ø32 wooden dowel with open plywood cradles, no gas struts or steel props; low fixed PCBase, no drawer; external removable skating devices only, no integrated/retractable wheels. Accepted notch/fan stage: HEAD 8074880. Hinge/matrix study: [current record](docs/MATRIX_HINGE_STUDY_V32.md).

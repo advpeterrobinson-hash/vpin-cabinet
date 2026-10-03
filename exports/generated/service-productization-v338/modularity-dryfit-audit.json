@@ -1,0 +1,3492 @@
+{
+  "source_sha256": "ee7b3c2a255220c2cd72e4035e8d9c91b03821a82d4b33131048e00747b45cc7",
+  "register_sha256": "1a0d49c8761092e2b40ce613c2c2e6a2add242836433c94f7af312690310ba46",
+  "manual_sha256": "bd31b194e094d561759b494f10efc6fd97741b7d7e6c3d8ec51cf1013563f0eb",
+  "records": [
+    {
+      "component": "SHELF_SUPPORT_1L",
+      "manufacturing_instances": [
+        "P012-Main"
+      ],
+      "ids": [
+        "M010"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          175.0,
+          151.0,
+          2.25
+        ],
+        [
+          245.0,
+          151.0,
+          2.25
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          175.0,
+          151.0,
+          2.25
+        ],
+        [
+          245.0,
+          151.0,
+          2.25
+        ]
+      ],
+      "matching_side_reference_axes": [
+        [
+          175.0,
+          151.0,
+          2.25
+        ],
+        [
+          245.0,
+          151.0,
+          2.25
+        ]
+      ],
+      "matching_side": "SIDE_L",
+      "all_axes_match": true,
+      "face_A": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "SHELF_SUPPORT_1R",
+      "manufacturing_instances": [
+        "P013-Main"
+      ],
+      "ids": [
+        "M011"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          175.0,
+          151.0,
+          2.25
+        ],
+        [
+          245.0,
+          151.0,
+          2.25
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          175.0,
+          151.0,
+          2.25
+        ],
+        [
+          245.0,
+          151.0,
+          2.25
+        ]
+      ],
+      "matching_side_reference_axes": [
+        [
+          175.0,
+          151.0,
+          2.25
+        ],
+        [
+          245.0,
+          151.0,
+          2.25
+        ]
+      ],
+      "matching_side": "SIDE_R",
+      "all_axes_match": true,
+      "face_A": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "SHELF_SUPPORT_2L",
+      "manufacturing_instances": [
+        "P014-Main"
+      ],
+      "ids": [
+        "M010"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          620.0,
+          171.0,
+          2.25
+        ],
+        [
+          690.0,
+          171.0,
+          2.25
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          620.0,
+          171.0,
+          2.25
+        ],
+        [
+          690.0,
+          171.0,
+          2.25
+        ]
+      ],
+      "matching_side_reference_axes": [
+        [
+          620.0,
+          171.0,
+          2.25
+        ],
+        [
+          690.0,
+          171.0,
+          2.25
+        ]
+      ],
+      "matching_side": "SIDE_L",
+      "all_axes_match": true,
+      "face_A": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "SHELF_SUPPORT_2R",
+      "manufacturing_instances": [
+        "P015-Main"
+      ],
+      "ids": [
+        "M011"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          620.0,
+          171.0,
+          2.25
+        ],
+        [
+          690.0,
+          171.0,
+          2.25
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          620.0,
+          171.0,
+          2.25
+        ],
+        [
+          690.0,
+          171.0,
+          2.25
+        ]
+      ],
+      "matching_side_reference_axes": [
+        [
+          620.0,
+          171.0,
+          2.25
+        ],
+        [
+          690.0,
+          171.0,
+          2.25
+        ]
+      ],
+      "matching_side": "SIDE_R",
+      "all_axes_match": true,
+      "face_A": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "SHELF_SUPPORT_3L",
+      "manufacturing_instances": [
+        "P016-Main"
+      ],
+      "ids": [
+        "M012"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          920.0,
+          231.0,
+          2.25
+        ],
+        [
+          990.0,
+          231.0,
+          2.25
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          920.0,
+          231.0,
+          2.25
+        ],
+        [
+          990.0,
+          231.0,
+          2.25
+        ]
+      ],
+      "matching_side_reference_axes": [
+        [
+          920.0,
+          231.0,
+          2.25
+        ],
+        [
+          990.0,
+          231.0,
+          2.25
+        ]
+      ],
+      "matching_side": "SIDE_L",
+      "all_axes_match": true,
+      "face_A": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "SHELF_SUPPORT_3R",
+      "manufacturing_instances": [
+        "P017-Main"
+      ],
+      "ids": [
+        "M013"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          920.0,
+          231.0,
+          2.25
+        ],
+        [
+          990.0,
+          231.0,
+          2.25
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          920.0,
+          231.0,
+          2.25
+        ],
+        [
+          990.0,
+          231.0,
+          2.25
+        ]
+      ],
+      "matching_side_reference_axes": [
+        [
+          920.0,
+          231.0,
+          2.25
+        ],
+        [
+          990.0,
+          231.0,
+          2.25
+        ]
+      ],
+      "matching_side": "SIDE_R",
+      "all_axes_match": true,
+      "face_A": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "CROSS_GUIDE_1L",
+      "manufacturing_instances": [
+        "P021-Main"
+      ],
+      "ids": [
+        "M015"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          358.0,
+          303.691375,
+          2.75
+        ],
+        [
+          358.0,
+          358.691375,
+          2.75
+        ],
+        [
+          402.0,
+          303.691375,
+          2.75
+        ],
+        [
+          402.0,
+          358.691375,
+          2.75
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          358.0,
+          303.691375,
+          2.75
+        ],
+        [
+          358.0,
+          358.691375,
+          2.75
+        ],
+        [
+          360.0,
+          251.691375,
+          2.75
+        ],
+        [
+          360.0,
+          261.691375,
+          2.75
+        ],
+        [
+          360.0,
+          271.691375,
+          2.75
+        ],
+        [
+          400.0,
+          251.691375,
+          2.75
+        ],
+        [
+          400.0,
+          261.691375,
+          2.75
+        ],
+        [
+          400.0,
+          271.691375,
+          2.75
+        ],
+        [
+          402.0,
+          303.691375,
+          2.75
+        ],
+        [
+          402.0,
+          358.691375,
+          2.75
+        ]
+      ],
+      "matching_side_reference_axes": [],
+      "matching_side": "SIDE_L",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "CROSS_GUIDE_1R",
+      "manufacturing_instances": [
+        "P022-Main"
+      ],
+      "ids": [
+        "M016"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          358.0,
+          303.691375,
+          2.75
+        ],
+        [
+          358.0,
+          358.691375,
+          2.75
+        ],
+        [
+          402.0,
+          303.691375,
+          2.75
+        ],
+        [
+          402.0,
+          358.691375,
+          2.75
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          358.0,
+          303.691375,
+          2.75
+        ],
+        [
+          358.0,
+          358.691375,
+          2.75
+        ],
+        [
+          360.0,
+          251.691375,
+          2.75
+        ],
+        [
+          360.0,
+          261.691375,
+          2.75
+        ],
+        [
+          360.0,
+          271.691375,
+          2.75
+        ],
+        [
+          400.0,
+          251.691375,
+          2.75
+        ],
+        [
+          400.0,
+          261.691375,
+          2.75
+        ],
+        [
+          400.0,
+          271.691375,
+          2.75
+        ],
+        [
+          402.0,
+          303.691375,
+          2.75
+        ],
+        [
+          402.0,
+          358.691375,
+          2.75
+        ]
+      ],
+      "matching_side_reference_axes": [],
+      "matching_side": "SIDE_R",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "CROSS_GUIDE_2L",
+      "manufacturing_instances": [
+        "P023-Main"
+      ],
+      "ids": [
+        "M015"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          678.0,
+          359.578699,
+          2.75
+        ],
+        [
+          678.0,
+          414.578699,
+          2.75
+        ],
+        [
+          722.0,
+          359.578699,
+          2.75
+        ],
+        [
+          722.0,
+          414.578699,
+          2.75
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          678.0,
+          359.578699,
+          2.75
+        ],
+        [
+          678.0,
+          414.578699,
+          2.75
+        ],
+        [
+          680.0,
+          307.578699,
+          2.75
+        ],
+        [
+          680.0,
+          317.578699,
+          2.75
+        ],
+        [
+          680.0,
+          327.578699,
+          2.75
+        ],
+        [
+          720.0,
+          307.578699,
+          2.75
+        ],
+        [
+          720.0,
+          317.578699,
+          2.75
+        ],
+        [
+          720.0,
+          327.578699,
+          2.75
+        ],
+        [
+          722.0,
+          359.578699,
+          2.75
+        ],
+        [
+          722.0,
+          414.578699,
+          2.75
+        ]
+      ],
+      "matching_side_reference_axes": [],
+      "matching_side": "SIDE_L",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "CROSS_GUIDE_2R",
+      "manufacturing_instances": [
+        "P024-Main"
+      ],
+      "ids": [
+        "M016"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          678.0,
+          359.578699,
+          2.75
+        ],
+        [
+          678.0,
+          414.578699,
+          2.75
+        ],
+        [
+          722.0,
+          359.578699,
+          2.75
+        ],
+        [
+          722.0,
+          414.578699,
+          2.75
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          678.0,
+          359.578699,
+          2.75
+        ],
+        [
+          678.0,
+          414.578699,
+          2.75
+        ],
+        [
+          680.0,
+          307.578699,
+          2.75
+        ],
+        [
+          680.0,
+          317.578699,
+          2.75
+        ],
+        [
+          680.0,
+          327.578699,
+          2.75
+        ],
+        [
+          720.0,
+          307.578699,
+          2.75
+        ],
+        [
+          720.0,
+          317.578699,
+          2.75
+        ],
+        [
+          720.0,
+          327.578699,
+          2.75
+        ],
+        [
+          722.0,
+          359.578699,
+          2.75
+        ],
+        [
+          722.0,
+          414.578699,
+          2.75
+        ]
+      ],
+      "matching_side_reference_axes": [],
+      "matching_side": "SIDE_R",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "CROSS_GUIDE_3L",
+      "manufacturing_instances": [
+        "P025-Main"
+      ],
+      "ids": [
+        "M015"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          958.0,
+          408.480108,
+          2.75
+        ],
+        [
+          958.0,
+          463.480108,
+          2.75
+        ],
+        [
+          1002.0,
+          408.480108,
+          2.75
+        ],
+        [
+          1002.0,
+          463.480108,
+          2.75
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          958.0,
+          408.480108,
+          2.75
+        ],
+        [
+          958.0,
+          463.480108,
+          2.75
+        ],
+        [
+          960.0,
+          356.480108,
+          2.75
+        ],
+        [
+          960.0,
+          366.480108,
+          2.75
+        ],
+        [
+          960.0,
+          376.480108,
+          2.75
+        ],
+        [
+          1000.0,
+          356.480108,
+          2.75
+        ],
+        [
+          1000.0,
+          366.480108,
+          2.75
+        ],
+        [
+          1000.0,
+          376.480108,
+          2.75
+        ],
+        [
+          1002.0,
+          408.480108,
+          2.75
+        ],
+        [
+          1002.0,
+          463.480108,
+          2.75
+        ]
+      ],
+      "matching_side_reference_axes": [],
+      "matching_side": "SIDE_L",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "CROSS_GUIDE_3R",
+      "manufacturing_instances": [
+        "P026-Main"
+      ],
+      "ids": [
+        "M016"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          958.0,
+          408.480108,
+          2.75
+        ],
+        [
+          958.0,
+          463.480108,
+          2.75
+        ],
+        [
+          1002.0,
+          408.480108,
+          2.75
+        ],
+        [
+          1002.0,
+          463.480108,
+          2.75
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          958.0,
+          408.480108,
+          2.75
+        ],
+        [
+          958.0,
+          463.480108,
+          2.75
+        ],
+        [
+          960.0,
+          356.480108,
+          2.75
+        ],
+        [
+          960.0,
+          366.480108,
+          2.75
+        ],
+        [
+          960.0,
+          376.480108,
+          2.75
+        ],
+        [
+          1000.0,
+          356.480108,
+          2.75
+        ],
+        [
+          1000.0,
+          366.480108,
+          2.75
+        ],
+        [
+          1000.0,
+          376.480108,
+          2.75
+        ],
+        [
+          1002.0,
+          408.480108,
+          2.75
+        ],
+        [
+          1002.0,
+          463.480108,
+          2.75
+        ]
+      ],
+      "matching_side_reference_axes": [],
+      "matching_side": "SIDE_R",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "PF_OpenCradleL",
+      "manufacturing_instances": [
+        "P035-Main"
+      ],
+      "ids": [
+        "M026"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          1037.0,
+          192.0,
+          2.5
+        ],
+        [
+          1042.5,
+          320.110165,
+          2.5
+        ],
+        [
+          1055.25062,
+          448.22033,
+          2.5
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          1035.25062,
+          484.72033,
+          16.5
+        ],
+        [
+          1037.0,
+          192.0,
+          2.5
+        ],
+        [
+          1042.5,
+          320.110165,
+          2.5
+        ],
+        [
+          1054.75062,
+          491.0,
+          3.0
+        ],
+        [
+          1055.25062,
+          448.22033,
+          2.5
+        ]
+      ],
+      "matching_side_reference_axes": [
+        [
+          1037.0,
+          192.0,
+          2.5
+        ],
+        [
+          1042.5,
+          320.110165,
+          2.5
+        ],
+        [
+          1055.25062,
+          448.22033,
+          2.5
+        ]
+      ],
+      "matching_side": "SIDE_L",
+      "all_axes_match": true,
+      "face_A": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "PF_OpenCradleR",
+      "manufacturing_instances": [
+        "P036-Main"
+      ],
+      "ids": [
+        "M027"
+      ],
+      "x_axis_bore_centers_yzr_mm": [
+        [
+          1037.0,
+          192.0,
+          2.5
+        ],
+        [
+          1042.5,
+          320.110165,
+          2.5
+        ],
+        [
+          1055.25062,
+          448.22033,
+          2.5
+        ]
+      ],
+      "all_cylindrical_reference_features_yzr_mm": [
+        [
+          1035.25062,
+          484.72033,
+          16.5
+        ],
+        [
+          1037.0,
+          192.0,
+          2.5
+        ],
+        [
+          1042.5,
+          320.110165,
+          2.5
+        ],
+        [
+          1054.75062,
+          491.0,
+          3.0
+        ],
+        [
+          1055.25062,
+          448.22033,
+          2.5
+        ]
+      ],
+      "matching_side_reference_axes": [
+        [
+          1037.0,
+          192.0,
+          2.5
+        ],
+        [
+          1042.5,
+          320.110165,
+          2.5
+        ],
+        [
+          1055.25062,
+          448.22033,
+          2.5
+        ]
+      ],
+      "matching_side": "SIDE_R",
+      "all_axes_match": true,
+      "face_A": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "BB_MonitorRailCleatL0",
+      "manufacturing_instances": [
+        "P051-Main"
+      ],
+      "ids": [
+        "M041"
+      ],
+      "x_axis_bore_centers_yzr_mm": [],
+      "all_cylindrical_reference_features_yzr_mm": [],
+      "matching_side_reference_axes": [],
+      "matching_side": "BB_SideL",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "BB_MonitorRailCleatR0",
+      "manufacturing_instances": [
+        "P052-Main"
+      ],
+      "ids": [
+        "M041"
+      ],
+      "x_axis_bore_centers_yzr_mm": [],
+      "all_cylindrical_reference_features_yzr_mm": [],
+      "matching_side_reference_axes": [],
+      "matching_side": "BB_SideR",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "BB_MonitorRailCleatL1",
+      "manufacturing_instances": [
+        "P054-Main"
+      ],
+      "ids": [
+        "M041"
+      ],
+      "x_axis_bore_centers_yzr_mm": [],
+      "all_cylindrical_reference_features_yzr_mm": [],
+      "matching_side_reference_axes": [],
+      "matching_side": "BB_SideL",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "BB_MonitorRailCleatR1",
+      "manufacturing_instances": [
+        "P055-Main"
+      ],
+      "ids": [
+        "M041"
+      ],
+      "x_axis_bore_centers_yzr_mm": [],
+      "all_cylindrical_reference_features_yzr_mm": [],
+      "matching_side_reference_axes": [],
+      "matching_side": "BB_SideR",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "BB_HingeCleatL",
+      "manufacturing_instances": [
+        "P085-Reduced18"
+      ],
+      "ids": [
+        "M062"
+      ],
+      "x_axis_bore_centers_yzr_mm": [],
+      "all_cylindrical_reference_features_yzr_mm": [],
+      "matching_side_reference_axes": [],
+      "matching_side": "BB_SideL",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    },
+    {
+      "component": "BB_HingeCleatR",
+      "manufacturing_instances": [
+        "P086-Reduced18"
+      ],
+      "ids": [
+        "M062"
+      ],
+      "x_axis_bore_centers_yzr_mm": [],
+      "all_cylindrical_reference_features_yzr_mm": [],
+      "matching_side_reference_axes": [],
+      "matching_side": "BB_SideR",
+      "all_axes_match": false,
+      "face_A": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "local_datums": [
+        "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing"
+      ]
+    }
+  ],
+  "piece_orientation_count": 108,
+  "orientation": [
+    {
+      "instance_id": "P001-Main",
+      "manufacturing_id": "M001",
+      "source": "SIDE_L",
+      "assembly_id": "P001",
+      "face_A": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M001",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P002-Main",
+      "manufacturing_id": "M002",
+      "source": "SIDE_R",
+      "assembly_id": "P002",
+      "face_A": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M002",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P003-Main",
+      "manufacturing_id": "M003",
+      "source": "FRONT",
+      "assembly_id": "P003",
+      "face_A": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M003",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P004-Main",
+      "manufacturing_id": "M004",
+      "source": "REAR",
+      "assembly_id": "P004",
+      "face_A": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M004",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P005-Main",
+      "manufacturing_id": "M005",
+      "source": "FLOOR",
+      "assembly_id": "P005",
+      "face_A": [
+        0,
+        0,
+        -1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M005",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P006-Main",
+      "manufacturing_id": "M006",
+      "source": "FLOOR_CLEAT_18",
+      "assembly_id": "P006",
+      "face_A": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M006",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P007-Main",
+      "manufacturing_id": "M006",
+      "source": "FLOOR_CLEAT_552",
+      "assembly_id": "P007",
+      "face_A": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M006",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P008-Main",
+      "manufacturing_id": "M007",
+      "source": "REAR_DOOR",
+      "assembly_id": "P008",
+      "face_A": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M007",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P009-Main",
+      "manufacturing_id": "M008",
+      "source": "SHELF_1",
+      "assembly_id": "P009",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M008",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P010-Main",
+      "manufacturing_id": "M008",
+      "source": "SHELF_2",
+      "assembly_id": "P010",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M008",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P011-Main",
+      "manufacturing_id": "M009",
+      "source": "SHELF_3",
+      "assembly_id": "P011",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M009",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P012-Main",
+      "manufacturing_id": "M010",
+      "source": "SHELF_SUPPORT_1L",
+      "assembly_id": "P012",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M010",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P013-Main",
+      "manufacturing_id": "M011",
+      "source": "SHELF_SUPPORT_1R",
+      "assembly_id": "P013",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M011",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P014-Main",
+      "manufacturing_id": "M010",
+      "source": "SHELF_SUPPORT_2L",
+      "assembly_id": "P014",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M010",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P015-Main",
+      "manufacturing_id": "M011",
+      "source": "SHELF_SUPPORT_2R",
+      "assembly_id": "P015",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M011",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P016-Main",
+      "manufacturing_id": "M012",
+      "source": "SHELF_SUPPORT_3L",
+      "assembly_id": "P016",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M012",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P017-Main",
+      "manufacturing_id": "M013",
+      "source": "SHELF_SUPPORT_3R",
+      "assembly_id": "P017",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M013",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P018-Main",
+      "manufacturing_id": "M014",
+      "source": "CROSS_1",
+      "assembly_id": "P018",
+      "face_A": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M014",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P019-Main",
+      "manufacturing_id": "M014",
+      "source": "CROSS_2",
+      "assembly_id": "P019",
+      "face_A": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M014",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P020-Main",
+      "manufacturing_id": "M014",
+      "source": "CROSS_3",
+      "assembly_id": "P020",
+      "face_A": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M014",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P021-Main",
+      "manufacturing_id": "M015",
+      "source": "CROSS_GUIDE_1L",
+      "assembly_id": "P021",
+      "face_A": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M015",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P022-Main",
+      "manufacturing_id": "M016",
+      "source": "CROSS_GUIDE_1R",
+      "assembly_id": "P022",
+      "face_A": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M016",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P023-Main",
+      "manufacturing_id": "M015",
+      "source": "CROSS_GUIDE_2L",
+      "assembly_id": "P023",
+      "face_A": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M015",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P024-Main",
+      "manufacturing_id": "M016",
+      "source": "CROSS_GUIDE_2R",
+      "assembly_id": "P024",
+      "face_A": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M016",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P025-Main",
+      "manufacturing_id": "M015",
+      "source": "CROSS_GUIDE_3L",
+      "assembly_id": "P025",
+      "face_A": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M015",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P026-Main",
+      "manufacturing_id": "M016",
+      "source": "CROSS_GUIDE_3R",
+      "assembly_id": "P026",
+      "face_A": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M016",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P027-Main",
+      "manufacturing_id": "M017",
+      "source": "PC_BASE",
+      "assembly_id": "P027",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M017",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P028-Main",
+      "manufacturing_id": "M018",
+      "source": "BACKBOX_BASE",
+      "assembly_id": "P028",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M018",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P033-Main",
+      "manufacturing_id": "M024",
+      "source": "SSF_BST_Carrier",
+      "assembly_id": "P033",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M024",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P034-Main",
+      "manufacturing_id": "M025",
+      "source": "PF_BasePlywood",
+      "assembly_id": "P034",
+      "face_A": [
+        -0.0,
+        0.172043766268355,
+        -0.9850893068591292
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M025",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P035-Main",
+      "manufacturing_id": "M026",
+      "source": "PF_OpenCradleL",
+      "assembly_id": "P035",
+      "face_A": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M026",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P036-Main",
+      "manufacturing_id": "M027",
+      "source": "PF_OpenCradleR",
+      "assembly_id": "P036",
+      "face_A": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M027",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P037-Main",
+      "manufacturing_id": "M028",
+      "source": "RemovableIntakeFilterL",
+      "assembly_id": "P037",
+      "face_A": [
+        0,
+        0,
+        -1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M028",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P038-Main",
+      "manufacturing_id": "M028",
+      "source": "RemovableIntakeFilterR",
+      "assembly_id": "P038",
+      "face_A": [
+        0,
+        0,
+        -1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M028",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P039-Main",
+      "manufacturing_id": "M029",
+      "source": "MX_WoodSeatL",
+      "assembly_id": "P039",
+      "face_A": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M029",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P040-Main",
+      "manufacturing_id": "M029",
+      "source": "MX_WoodSeatR",
+      "assembly_id": "P040",
+      "face_A": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M029",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P041-Main",
+      "manufacturing_id": "M030",
+      "source": "MatrixCarrier",
+      "assembly_id": "P041",
+      "face_A": [
+        0.0,
+        -0.42261826174069905,
+        0.9063077870366502
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M030",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P042-Main",
+      "manufacturing_id": "M031",
+      "source": "BB_SideL",
+      "assembly_id": "P042",
+      "face_A": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M031",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P043-Main",
+      "manufacturing_id": "M032",
+      "source": "BB_SideR",
+      "assembly_id": "P043",
+      "face_A": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M032",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P044-Main",
+      "manufacturing_id": "M033",
+      "source": "BB_Floor",
+      "assembly_id": "P044",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M033",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P045-Main",
+      "manufacturing_id": "M034",
+      "source": "BB_Top",
+      "assembly_id": "P045",
+      "face_A": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M034",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P046-Main",
+      "manufacturing_id": "M035",
+      "source": "BB_RearFrame",
+      "assembly_id": "P046",
+      "face_A": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M035",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P047-Main",
+      "manufacturing_id": "M036",
+      "source": "BB_TopFrontRail",
+      "assembly_id": "P047",
+      "face_A": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M036",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P048-Main",
+      "manufacturing_id": "M037",
+      "source": "BB_GlassLowerRail",
+      "assembly_id": "P048",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M037",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P049-Cap",
+      "manufacturing_id": "M038",
+      "source": "BB_GlassTopRetainer",
+      "assembly_id": "P049",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M038",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P049-Strip",
+      "manufacturing_id": "M039",
+      "source": "BB_GlassTopRetainer",
+      "assembly_id": "P049",
+      "face_A": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M039",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P050-Main",
+      "manufacturing_id": "M040",
+      "source": "BB_MonitorRail0",
+      "assembly_id": "P050",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M040",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P051-Main",
+      "manufacturing_id": "M041",
+      "source": "BB_MonitorRailCleatL0",
+      "assembly_id": "P051",
+      "face_A": [
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M041",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P052-Main",
+      "manufacturing_id": "M041",
+      "source": "BB_MonitorRailCleatR0",
+      "assembly_id": "P052",
+      "face_A": [
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M041",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P053-Main",
+      "manufacturing_id": "M040",
+      "source": "BB_MonitorRail1",
+      "assembly_id": "P053",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M040",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P054-Main",
+      "manufacturing_id": "M041",
+      "source": "BB_MonitorRailCleatL1",
+      "assembly_id": "P054",
+      "face_A": [
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M041",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P055-Main",
+      "manufacturing_id": "M041",
+      "source": "BB_MonitorRailCleatR1",
+      "assembly_id": "P055",
+      "face_A": [
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M041",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P056-Main",
+      "manufacturing_id": "M042",
+      "source": "BB_MonitorCarrier0",
+      "assembly_id": "P056",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M042",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P057-Main",
+      "manufacturing_id": "M043",
+      "source": "BB_MonitorDepthShoe00",
+      "assembly_id": "P057",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M043",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P058-Main",
+      "manufacturing_id": "M043",
+      "source": "BB_MonitorDepthShoe01",
+      "assembly_id": "P058",
+      "face_A": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M043",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P059-Main",
+      "manufacturing_id": "M042",
+      "source": "BB_MonitorCarrier1",
+      "assembly_id": "P059",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M042",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P060-Main",
+      "manufacturing_id": "M043",
+      "source": "BB_MonitorDepthShoe10",
+      "assembly_id": "P060",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M043",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P061-Main",
+      "manufacturing_id": "M043",
+      "source": "BB_MonitorDepthShoe11",
+      "assembly_id": "P061",
+      "face_A": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M043",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P062-Main",
+      "manufacturing_id": "M044",
+      "source": "BB_ReplaceableVESAPlate",
+      "assembly_id": "P062",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M044",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P063-Main",
+      "manufacturing_id": "M045",
+      "source": "BB_DisplayReplaceableBezel",
+      "assembly_id": "P063",
+      "face_A": [
+        0,
+        1,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M045",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P068-Main",
+      "manufacturing_id": "M050",
+      "source": "BB_LowerCassetteFrame",
+      "assembly_id": "P068",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M050",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P069-Main",
+      "manufacturing_id": "M051",
+      "source": "BB_SpeakerBaffleL",
+      "assembly_id": "P069",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M051",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P070-Main",
+      "manufacturing_id": "M051",
+      "source": "BB_SpeakerBaffleR",
+      "assembly_id": "P070",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M051",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P071-Main",
+      "manufacturing_id": "M052",
+      "source": "BB_DMDReplaceableBezel",
+      "assembly_id": "P071",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M052",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P072-Main",
+      "manufacturing_id": "M053",
+      "source": "BB_DMDRearAdapter",
+      "assembly_id": "P072",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M053",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P073-Main",
+      "manufacturing_id": "M054",
+      "source": "BB_DMDDepthTie0",
+      "assembly_id": "P073",
+      "face_A": [
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M054",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P074-Main",
+      "manufacturing_id": "M054",
+      "source": "BB_DMDDepthTie1",
+      "assembly_id": "P074",
+      "face_A": [
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M054",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P075-Ply1",
+      "manufacturing_id": "M055",
+      "source": "BB_CassetteFixedCleatL0",
+      "assembly_id": "P075",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M055",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P075-Ply2",
+      "manufacturing_id": "M055",
+      "source": "BB_CassetteFixedCleatL0",
+      "assembly_id": "P075",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M055",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P076-Ply1",
+      "manufacturing_id": "M055",
+      "source": "BB_CassetteFixedCleatL1",
+      "assembly_id": "P076",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M055",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P076-Ply2",
+      "manufacturing_id": "M055",
+      "source": "BB_CassetteFixedCleatL1",
+      "assembly_id": "P076",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M055",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P077-Ply1",
+      "manufacturing_id": "M055",
+      "source": "BB_CassetteFixedCleatR0",
+      "assembly_id": "P077",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M055",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P077-Ply2",
+      "manufacturing_id": "M055",
+      "source": "BB_CassetteFixedCleatR0",
+      "assembly_id": "P077",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M055",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P078-Ply1",
+      "manufacturing_id": "M055",
+      "source": "BB_CassetteFixedCleatR1",
+      "assembly_id": "P078",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M055",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P078-Ply2",
+      "manufacturing_id": "M055",
+      "source": "BB_CassetteFixedCleatR1",
+      "assembly_id": "P078",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M055",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P079-Main",
+      "manufacturing_id": "M056",
+      "source": "BB_DoorL",
+      "assembly_id": "P079",
+      "face_A": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M056",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P080-Main",
+      "manufacturing_id": "M057",
+      "source": "BB_DoorR",
+      "assembly_id": "P080",
+      "face_A": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M057",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P081-Main",
+      "manufacturing_id": "M058",
+      "source": "BB_IntakeFilterFrameL",
+      "assembly_id": "P081",
+      "face_A": [
+        0,
+        1,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M058",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P082-Main",
+      "manufacturing_id": "M058",
+      "source": "BB_IntakeFilterFrameR",
+      "assembly_id": "P082",
+      "face_A": [
+        0,
+        1,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M058",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P083-Face",
+      "manufacturing_id": "M059",
+      "source": "BB_IntakeDownBaffleL",
+      "assembly_id": "P083",
+      "face_A": [
+        0,
+        -1,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M059",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P083-Top",
+      "manufacturing_id": "M060",
+      "source": "BB_IntakeDownBaffleL",
+      "assembly_id": "P083",
+      "face_A": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M060",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P083-Side1",
+      "manufacturing_id": "M061",
+      "source": "BB_IntakeDownBaffleL",
+      "assembly_id": "P083",
+      "face_A": [
+        -1,
+        0,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M061",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P083-Side2",
+      "manufacturing_id": "M061",
+      "source": "BB_IntakeDownBaffleL",
+      "assembly_id": "P083",
+      "face_A": [
+        1,
+        0,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M061",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P084-Face",
+      "manufacturing_id": "M059",
+      "source": "BB_IntakeDownBaffleR",
+      "assembly_id": "P084",
+      "face_A": [
+        0,
+        -1,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M059",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P084-Top",
+      "manufacturing_id": "M060",
+      "source": "BB_IntakeDownBaffleR",
+      "assembly_id": "P084",
+      "face_A": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M060",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P084-Side1",
+      "manufacturing_id": "M061",
+      "source": "BB_IntakeDownBaffleR",
+      "assembly_id": "P084",
+      "face_A": [
+        -1,
+        0,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M061",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P084-Side2",
+      "manufacturing_id": "M061",
+      "source": "BB_IntakeDownBaffleR",
+      "assembly_id": "P084",
+      "face_A": [
+        1,
+        0,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M061",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P085-Reduced18",
+      "manufacturing_id": "M062",
+      "source": "BB_HingeCleatL",
+      "assembly_id": "P085",
+      "face_A": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M062",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P086-Reduced18",
+      "manufacturing_id": "M062",
+      "source": "BB_HingeCleatR",
+      "assembly_id": "P086",
+      "face_A": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M062",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P087-Main",
+      "manufacturing_id": "M063",
+      "source": "BB_CenterAstragal",
+      "assembly_id": "P087",
+      "face_A": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M063",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P088-Main",
+      "manufacturing_id": "M064",
+      "source": "BB_UprightLockLParkingPad0",
+      "assembly_id": "P088",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M064",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P089-Main",
+      "manufacturing_id": "M065",
+      "source": "BB_UprightLockLParkingPad1",
+      "assembly_id": "P089",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M065",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P090-Main",
+      "manufacturing_id": "M064",
+      "source": "BB_UprightLockRParkingPad0",
+      "assembly_id": "P090",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M064",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P091-Main",
+      "manufacturing_id": "M065",
+      "source": "BB_UprightLockRParkingPad1",
+      "assembly_id": "P091",
+      "face_A": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M065",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P092-Main",
+      "manufacturing_id": "M066",
+      "source": "BB_FanBlankL",
+      "assembly_id": "P092",
+      "face_A": [
+        0,
+        1,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M066",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P093-Main",
+      "manufacturing_id": "M066",
+      "source": "BB_FanBlankR",
+      "assembly_id": "P093",
+      "face_A": [
+        0,
+        1,
+        0
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M066",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P029-Solid",
+      "manufacturing_id": "SW01",
+      "source": "CandidateLegBlockFL",
+      "assembly_id": "P029",
+      "face_A": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "opposite_face": "NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "status": "SHOP_LABEL_NOT_CNC"
+      }
+    },
+    {
+      "instance_id": "P030-Solid",
+      "manufacturing_id": "SW01",
+      "source": "CandidateLegBlockFR",
+      "assembly_id": "P030",
+      "face_A": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "opposite_face": "NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "status": "SHOP_LABEL_NOT_CNC"
+      }
+    },
+    {
+      "instance_id": "P031-Solid",
+      "manufacturing_id": "SW01",
+      "source": "CandidateLegBlockRL",
+      "assembly_id": "P031",
+      "face_A": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "opposite_face": "NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "status": "SHOP_LABEL_NOT_CNC"
+      }
+    },
+    {
+      "instance_id": "P032-Solid",
+      "manufacturing_id": "SW01",
+      "source": "CandidateLegBlockRR",
+      "assembly_id": "P032",
+      "face_A": [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "opposite_face": "NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "status": "SHOP_LABEL_NOT_CNC"
+      }
+    },
+    {
+      "instance_id": "P094-Main",
+      "manufacturing_id": "M067",
+      "source": "BB_MonitorStopRail",
+      "assembly_id": "P094",
+      "face_A": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M067",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    },
+    {
+      "instance_id": "P095-Layer1",
+      "manufacturing_id": "M068",
+      "source": "FrontLandingL_Layer1",
+      "assembly_id": "P095",
+      "face_A": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; manual depths reference this datum",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M068 P095-Layer1",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY"
+      }
+    },
+    {
+      "instance_id": "P095-Layer2",
+      "manufacturing_id": "M069",
+      "source": "FrontLandingL_Layer2",
+      "assembly_id": "P095",
+      "face_A": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; manual depths reference this datum",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M069 P095-Layer2",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY"
+      }
+    },
+    {
+      "instance_id": "P095-Layer3",
+      "manufacturing_id": "M070",
+      "source": "FrontLandingL_Layer3",
+      "assembly_id": "P095",
+      "face_A": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; manual depths reference this datum",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M070 P095-Layer3",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY"
+      }
+    },
+    {
+      "instance_id": "P096-Layer1",
+      "manufacturing_id": "M071",
+      "source": "FrontLandingR_Layer1",
+      "assembly_id": "P096",
+      "face_A": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; manual depths reference this datum",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M071 P096-Layer1",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY"
+      }
+    },
+    {
+      "instance_id": "P096-Layer2",
+      "manufacturing_id": "M072",
+      "source": "FrontLandingR_Layer2",
+      "assembly_id": "P096",
+      "face_A": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; manual depths reference this datum",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M072 P096-Layer2",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY"
+      }
+    },
+    {
+      "instance_id": "P096-Layer3",
+      "manufacturing_id": "M073",
+      "source": "FrontLandingR_Layer3",
+      "assembly_id": "P096",
+      "face_A": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; manual depths reference this datum",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M073 P096-Layer3",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY"
+      }
+    },
+    {
+      "instance_id": "P097-Main",
+      "manufacturing_id": "M074",
+      "source": "Underfront_Plate",
+      "assembly_id": "P097",
+      "face_A": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face": "FACE_B / NO CNC",
+      "local_datum": "XY min bounds; z=0 finished FACE_A; +z into wood; all depths from this face after any facing",
+      "engraving": {
+        "optional": true,
+        "face": "FACE_A",
+        "text": "M074",
+        "depth_mm": null,
+        "status": "HOLD_HIDDEN_FACE_OR_LABEL_ONLY",
+        "note": "No visible-face engraving. Use removable labels unless hidden-face location verified; separate ENGRAVE group."
+      }
+    }
+  ],
+  "positive_datum_groups": [
+    "Main shell4mm side captures: FLOOR/FRONT/REAR/RearBearingShelf before SideR closure",
+    "PF cradles floor-bearing plus matching side locators",
+    "M067 carrier-front capture shoulders; do not alter",
+    "Underfront panel2mm locating recess"
+  ],
+  "remaining_productization_holds": [
+    "Hardware-controlled bores and guide templates require selected hardware/coupon; coordinates in CAD do not by themselves make a released paper template.",
+    "Backbox monitor rail cleat locations: no side-normal locating bore pairs or side capture in current cleat B-reps; qualify a rear/frame/height setup template before kit release.",
+    "Captured shell F06 reinforcement family/quantity remains unresolved; cannot claim all kit fasteners supplied.",
+    "SW01 diagonal jig registration and hardware pitch remain physical holds; no freehand angled drilling.",
+    "Crossmember guide and shelf support axes are checked individually below; absent matching pilots require layout/template qualification rather than silent readiness."
+  ],
+  "manufacturing_release": false
+}

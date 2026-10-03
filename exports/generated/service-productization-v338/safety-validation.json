@@ -1,0 +1,299 @@
+{
+  "version": "V33.8",
+  "study_completed": true,
+  "pass": true,
+  "check_semantics": "PASS means evidence/regression checks passed; it does NOT mean any safety strap candidate passed acceptance.",
+  "checks": [
+    {
+      "id": "source_native_unchanged",
+      "pass": true
+    },
+    {
+      "id": "42_mirrored_cases",
+      "pass": true
+    },
+    {
+      "id": "front_anchor_wrong_sign_detected",
+      "pass": true
+    },
+    {
+      "id": "rear_high_m025_display_collision_detected",
+      "pass": true
+    },
+    {
+      "id": "unknown_rating_not_converted_to_capacity",
+      "pass": true
+    },
+    {
+      "id": "full_single_strap_load_cases",
+      "pass": true
+    },
+    {
+      "id": "no_current_native_or_holes_added",
+      "pass": true
+    },
+    {
+      "id": "3_labelled_native_review_views",
+      "pass": true
+    }
+  ],
+  "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+  "source_sha256": "ee7b3c2a255220c2cd72e4035e8d9c91b03821a82d4b33131048e00747b45cc7",
+  "source_object_count": 502,
+  "primary_service_support_native_names": [],
+  "primary_service_support_status": "HOLD: CURRENT contains no modeled positive 50-degree prop/support and no single-prop proof. Do not infer service support from the rear pivot or closed front landings.",
+  "decision": "NONE",
+  "promoted": false,
+  "studied_strap_count": 2,
+  "promoted_strap_count": 0,
+  "normal_service_load_bearing": false,
+  "secondary_restraint_validated": false,
+  "route_count": 42,
+  "featured_routes": [
+    {
+      "id": "L-M300-F300Z100",
+      "side": "L",
+      "moving_y_mm": 300,
+      "moving_closed": [
+        78.0,
+        302.06452519522026,
+        360.23147321730943
+      ],
+      "moving_service": [
+        78.0,
+        468.9867077753597,
+        966.1749627421725
+      ],
+      "fixed": [
+        32.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 264.2738767209747,
+      "length_50_mm": 883.7033288871095,
+      "length_49_mm": 872.3754729151926,
+      "derivative_at_50_mm_per_radian": 647.1940648410362,
+      "moving_line_hits": [],
+      "fixed_line_hits": [
+        {
+          "part": "SSF_Exciter1L",
+          "centerline_inside_length_mm": 59.11003740217768
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M300-F1100Z550",
+      "side": "L",
+      "moving_y_mm": 300,
+      "moving_closed": [
+        78.0,
+        302.06452519522026,
+        360.23147321730943
+      ],
+      "moving_service": [
+        78.0,
+        468.9867077753597,
+        966.1749627421725
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 821.4798328073562,
+      "length_50_mm": 757.2947739009084,
+      "length_49_mm": 758.8697312727298,
+      "derivative_at_50_mm_per_radian": -90.39401733613506,
+      "moving_line_hits": [
+        {
+          "part": "PLAYFIELD_ENVELOPE",
+          "centerline_inside_length_mm": 392.87055294550885
+        },
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 154.86240157385168
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 49.36546901314534
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 46.81224244516898
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 43.58023357197395
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 36.935274000135166
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": 22.45730653281236
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M1060-F1100Z420",
+      "side": "L",
+      "moving_y_mm": 1060,
+      "moving_closed": [
+        78.0,
+        1062.0645251952203,
+        492.9638675835066
+      ],
+      "moving_service": [
+        78.0,
+        1059.1842042632315,
+        469.2999244743681
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 94.22752369349182,
+      "length_50_mm": 78.81885392978005,
+      "length_49_mm": 78.95000989032685,
+      "derivative_at_50_mm_per_radian": -7.243643455283461,
+      "moving_line_hits": [],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 43.5967553955679
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 27.607792765062747
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 13.30408541848589
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "HOLD_ANCHOR_LOAD_RATING_PRIMARY_SUPPORT"
+    },
+    {
+      "id": "L-M1060-F300Z100",
+      "side": "L",
+      "moving_y_mm": 1060,
+      "moving_closed": [
+        78.0,
+        1062.0645251952203,
+        492.9638675835066
+      ],
+      "moving_service": [
+        78.0,
+        1059.1842042632315,
+        469.2999244743681
+      ],
+      "fixed": [
+        32.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 858.6494871524726,
+      "length_50_mm": 845.4934004589096,
+      "length_49_mm": 845.9074221792906,
+      "derivative_at_50_mm_per_radian": -23.85117045064245,
+      "moving_line_hits": [],
+      "fixed_line_hits": [
+        {
+          "part": "CROSS_3",
+          "centerline_inside_length_mm": 20.04636176938098
+        }
+      ],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 47.56519316750742
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 36.974053928518956
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 19.94297933768611
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    }
+  ],
+  "acceptance_gates": {
+    "normal_primary_support_defined": false,
+    "independent_secondary_restraint_proven": false,
+    "route_and_anchor_clearance_proven": false,
+    "rated_short_commodity_assembly_selected": false,
+    "one_strap_full_load_capacity_qualified": false,
+    "stow_no_snag_proven": false,
+    "dynamic_cable_hazard_precluded": false
+  },
+  "protected_motion": {
+    "current_geometry_changed": false,
+    "added_installed_straps_or_anchors": 0,
+    "service_0_to_50_kinematics": "UNCHANGED; geometric path is not primary support qualification",
+    "lift_out_48_mm": "UNCHANGED; no added tether or anchor",
+    "diagnostic_endpoint_motion_report": "safety-endpoint-motion.json",
+    "stow": "No installed straps or anchors. No internal stow location selected. If a future solution is qualified, remove and externally store both straps before PLAY, lowering, or complete lift-out unless an installed stow path is separately proven."
+  },
+  "rating_screen": {
+    "documented_tool_tether_length_mm": 1930,
+    "largest_direct_route_over_0_50_mm": 883.7033288871095,
+    "selected_hardware": null,
+    "not_a_general_product_nonexistence_claim": true
+  },
+  "independence": "Two straps on the same unqualified plywood and uncaptured open rear cradles are not automatically independent. One-sided arrest can twist/lift the dowel; a complete load path and single-restraint physical test remain necessary.",
+  "scope_limit": "This is a bounded search of simple direct anchor routes, not proof that no alternative safety architecture could work. A new rerouting bracket, overhead anchor or primary-support redesign is outside this isolated study.",
+  "manufacturing_release": false
+}

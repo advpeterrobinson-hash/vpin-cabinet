@@ -1,3 +1,5 @@
+> CURRENT: [V33.8 — 22 vistas CAD reais](../../exports/generated/service-productization-v338/review.html). Physical qualification / full-sheet CNC blocked; primary raised-playfield support unresolved.
+
 # Renderizações
 
 [English](../RENDERS.md) · [Português (Brasil)](RENDERS.md)

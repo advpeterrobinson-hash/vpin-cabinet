@@ -1,0 +1,50 @@
+{
+  "version": "V33.8",
+  "head_before": "cdd21333ca0382cd8e99f9a96872f994136306e5",
+  "current_register": "exports/generated/service-productization-v338/manufacturing-register.json",
+  "current_BOM": "exports/generated/service-productization-v338/manufacturing-bom.csv",
+  "CNC_filter": "manufacturing_class != SHOP_MADE_SOLID_WOOD_PART",
+  "installed_material_map": "config/wood_materials_v338.json",
+  "stock_policy": "config/manufacturing/stock_policy_v338.json",
+  "active_nominal_plywood_stocks_mm": [
+    12,
+    18
+  ],
+  "bezel_exception": "M045 finished6 mm from nominal12 mm, explicit one-face reduction; no6 mm stock purchase",
+  "solid_wood_exclusion": "Four SW01 leg blocks and two SW02 landing blocks are separately sourced solid wood, not plywood stock",
+  "hardware_catalog": "config/hardware_catalog_v338.json",
+  "hardware_interface_review": "config/hardware_catalog_v338.json#v338_authority",
+  "button_positional_authority": "config/button_relief_v3361.json",
+  "button_final_bore_mm": null,
+  "button_final_recess_mm": null,
+  "underfront_module_authority": "config/underfront_user_module_v337.json",
+  "underfront_plate_required_quantity": 1,
+  "underfront_plate_variant_quantity_policy": "Mutually exclusive, not additive; blank mechanical plate needs no electronics",
+  "underfront_device_bores": null,
+  "underfront_hardware_bores": null,
+  "closed_position_support": "PASS",
+  "release": false,
+  "release_holds": [
+    "Actual12 mm and18 mm stock thickness from production lots",
+    "Physical coupon and selected clearance",
+    "Purchased hardware measurements, pilots, stack and engagement",
+    "Qualified manual-finish guides and depth stops",
+    "Remaining physical structural, ergonomic and manufacturing qualification"
+  ],
+  "shop_families": [
+    "SW01",
+    "SW02"
+  ],
+  "primary_raised_playfield_support": "OPERATIONAL_HOLD: definition and physical proof pending; safety straps not substituted",
+  "optional_accessories_in_minimum_BOM": false,
+  "retired_current_manufacturing_ids": [
+    "M068",
+    "M069",
+    "M070",
+    "M071",
+    "M072",
+    "M073"
+  ],
+  "SW02_authority": "config/solid_front_landings_v338.json",
+  "SW02_drilling_status": "PURCHASED_HARDWARE / QUALIFIED_GUIDE / SAME_WOOD_COUPON_HOLD"
+}

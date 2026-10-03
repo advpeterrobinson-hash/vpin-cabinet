@@ -1,0 +1,128 @@
+{
+  "selected_option": "A",
+  "selected_description": "Two existing captive M6x100 tool-operated threaded retainers",
+  "count": 2,
+  "tool_required": true,
+  "positive_retention": "Metal threaded M025 receiver; nominal7mm engagement, reset6\u20138mm after setup; physical anti-loosening/nudge qualification still held",
+  "captivity": "Existing washer/jamnut stop and push-on shank retainer architecture retained; release10.5mm before opening",
+  "A": {
+    "decision": "RETAIN_CURRENT",
+    "new_custom_metal": 0,
+    "access": "Existing110deg coin-door tool corridor passes against SW02; original mechanism and tools are unchanged"
+  },
+  "B": {
+    "decision": "PACKAGING_PASS_NOT_PROMOTED",
+    "envelopes": [
+      {
+        "diameter_mm": 30,
+        "height_mm": 21,
+        "variants": [
+          {
+            "side": "L",
+            "path_hits": [],
+            "knob_sweep_hits": [],
+            "nearest": {
+              "gap_mm": 6.5,
+              "moving": "Release_Palm",
+              "fixed": "SHELF_1_CandidatePayload"
+            },
+            "pass": true
+          },
+          {
+            "side": "R",
+            "path_hits": [],
+            "knob_sweep_hits": [],
+            "nearest": {
+              "gap_mm": 6.5,
+              "moving": "Release_Palm",
+              "fixed": "SHELF_1_CandidatePayload"
+            },
+            "pass": true
+          }
+        ],
+        "commodity_source": "GN7336 / MDA / MCT family examples only; overall envelope not selected SKU",
+        "pass": true
+      },
+      {
+        "diameter_mm": 35,
+        "height_mm": 21,
+        "variants": [
+          {
+            "side": "L",
+            "path_hits": [],
+            "knob_sweep_hits": [],
+            "nearest": {
+              "gap_mm": 6.5,
+              "moving": "Release_Palm",
+              "fixed": "SHELF_1_CandidatePayload"
+            },
+            "pass": true
+          },
+          {
+            "side": "R",
+            "path_hits": [],
+            "knob_sweep_hits": [],
+            "nearest": {
+              "gap_mm": 6.5,
+              "moving": "Release_Palm",
+              "fixed": "SHELF_1_CandidatePayload"
+            },
+            "pass": true
+          }
+        ],
+        "commodity_source": "GN7336 / MDA / MCT family examples only; overall envelope not selected SKU",
+        "pass": true
+      },
+      {
+        "diameter_mm": 40,
+        "height_mm": 21,
+        "variants": [
+          {
+            "side": "L",
+            "path_hits": [],
+            "knob_sweep_hits": [],
+            "nearest": {
+              "gap_mm": 6.5,
+              "moving": "Release_Palm",
+              "fixed": "SHELF_1_CandidatePayload"
+            },
+            "pass": true
+          },
+          {
+            "side": "R",
+            "path_hits": [],
+            "knob_sweep_hits": [],
+            "nearest": {
+              "gap_mm": 6.5,
+              "moving": "Release_Palm",
+              "fixed": "SHELF_1_CandidatePayload"
+            },
+            "pass": true
+          }
+        ],
+        "commodity_source": "GN7336 / MDA / MCT family examples only; overall envelope not selected SKU",
+        "pass": true
+      }
+    ],
+    "operation": "Conservative finger sweep plus70x70x28mm palm via front/coin-door, each left/right independent; full10.5mm downward release included",
+    "reason": "No selected commodity M6x100 hand unit or positively retained long-bolt grip has demonstrated equal captivity/anti-release performance. A press-fit catalogue family or short-stud hand knob is not that proof.",
+    "needed": "Selected long-shank commodity knob/assembly, grip retention, no loose pieces, thread engagement and cyclic/nudge trial"
+  },
+  "C": {
+    "decision": "REJECT_CURRENT_INTERFACE",
+    "reason": "Commercial ball-lock pin needs a compatible locking shoulder/bushing. The current blind threaded receiver has none; a plain pin in an M6 receiver is not positive retention. New bushing/receiver geometry would add complexity and remove protected receiver material.",
+    "viable_candidate": false,
+    "final_sku": null
+  },
+  "normal_sequence": [
+    "Open coin door",
+    "Release both captive retainers with tool",
+    "Remove main playfield glass and matrix as required",
+    "Raise only using a defined and physically qualified primary support procedure; CURRENT primary50deg support remains unresolved"
+  ],
+  "source_sha256": {
+    "landing_study": "a65cf498df99f29df8625fea8d7afafa0d6d4aea2797d7613682e48a968a67ba",
+    "native": "c78a64794d4ac009e12986aa5adc03f936b5bbf95b84d0a4da35e2742f7c4c53"
+  },
+  "manufacturing_release": false
+}

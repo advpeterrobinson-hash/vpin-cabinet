@@ -1,0 +1,747 @@
+{
+  "version": "V33.8",
+  "pass": true,
+  "native_geometry_sha256": "c78a64794d4ac009e12986aa5adc03f936b5bbf95b84d0a4da35e2742f7c4c53",
+  "native_configuration_sha256": "479c9d0fb27bf81839bbb2cca2c551faa675bb8d790701afed23180d17b38949",
+  "geometry_validation_sha256": "ca886817a3e7fb0b6d49db648054e89eb3dade882aa36e1079928f8d62e8488e",
+  "input_sha256": {
+    "exports/generated/service-productization-v338/play.FCStd": "c78a64794d4ac009e12986aa5adc03f936b5bbf95b84d0a4da35e2742f7c4c53",
+    "exports/generated/service-productization-v338/geometry-validation.json": "ca886817a3e7fb0b6d49db648054e89eb3dade882aa36e1079928f8d62e8488e",
+    "config/service_productization_v338.json": "479c9d0fb27bf81839bbb2cca2c551faa675bb8d790701afed23180d17b38949",
+    "config/manufacturing/stock_policy_v338.json": "950db3f79657d49e0213c0a4cc27805b7076a1c2f8859fb2a827d396931f5f32",
+    "config/solid_front_landings_v338.json": "4651b95016929880cb5f79d20bc7ece0e768263c0dfadb7568ed3c7a8775883d",
+    "tools/validate_plywood_stock_v338.py": "4ca00d06524c9dedf0627f9487101de52bdcbd438f91a9778f931ff6293b6fc0",
+    "exports/generated/two-stock-user-module-v337/play.FCStd": "ee7b3c2a255220c2cd72e4035e8d9c91b03821a82d4b33131048e00747b45cc7",
+    "exports/generated/two-stock-user-module-v337/manufacturing-register.json": "1a0d49c8761092e2b40ce613c2c2e6a2add242836433c94f7af312690310ba46"
+  },
+  "changed_audits": [
+    {
+      "instance_id": "P095-Solid",
+      "dimensions_mm": [
+        68.0,
+        70.0,
+        54.0
+      ],
+      "blank_volume_mm3": 257040.0,
+      "finished_volume_mm3": 245252.62800844756,
+      "old_union_volume_mm3": 243577.3737259208,
+      "obsolete_binder_holes_filled_mm3": 1675.2542825267556,
+      "old_functional_wood_removed_mm3": 0.0,
+      "restored_outside_obsolete_binder_corridors_mm3": 0.0,
+      "installed_reconstruction_difference_mm3": 0.0,
+      "reference_drill_paths": [
+        {
+          "interface": "M8 adjuster clearance",
+          "entry_local_uvw_mm": [
+            54,
+            20,
+            54
+          ],
+          "axis_local": [
+            0,
+            0,
+            -1
+          ],
+          "reference_depth_mm": 54,
+          "reference_diameter_mm": 9,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "M8 receiver pilot reference",
+          "entry_local_uvw_mm": [
+            54,
+            20,
+            54
+          ],
+          "axis_local": [
+            0,
+            0,
+            -1
+          ],
+          "reference_depth_mm": 16,
+          "reference_diameter_mm": 12,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "M6 captive retention passage",
+          "entry_local_uvw_mm": [
+            54,
+            50,
+            54
+          ],
+          "axis_local": [
+            0,
+            0,
+            -1
+          ],
+          "reference_depth_mm": 54,
+          "reference_diameter_mm": 7,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "Side attachment clearance/head reference",
+          "entry_local_uvw_mm": [
+            68,
+            9,
+            9
+          ],
+          "axis_local": [
+            -1,
+            0,
+            0
+          ],
+          "reference_depth_mm": 68,
+          "reference_diameter_mm": 5,
+          "reference_head_diameter_mm": 9,
+          "reference_head_depth_mm": 2,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "Side attachment clearance/head reference",
+          "entry_local_uvw_mm": [
+            68,
+            9,
+            45
+          ],
+          "axis_local": [
+            -1,
+            0,
+            0
+          ],
+          "reference_depth_mm": 68,
+          "reference_diameter_mm": 5,
+          "reference_head_diameter_mm": 9,
+          "reference_head_depth_mm": 2,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "Side attachment clearance/head reference",
+          "entry_local_uvw_mm": [
+            68,
+            61,
+            9
+          ],
+          "axis_local": [
+            -1,
+            0,
+            0
+          ],
+          "reference_depth_mm": 68,
+          "reference_diameter_mm": 5,
+          "reference_head_diameter_mm": 9,
+          "reference_head_depth_mm": 2,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "Side attachment clearance/head reference",
+          "entry_local_uvw_mm": [
+            68,
+            61,
+            45
+          ],
+          "axis_local": [
+            -1,
+            0,
+            0
+          ],
+          "reference_depth_mm": 68,
+          "reference_diameter_mm": 5,
+          "reference_head_diameter_mm": 9,
+          "reference_head_depth_mm": 2,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        }
+      ]
+    },
+    {
+      "instance_id": "P096-Solid",
+      "dimensions_mm": [
+        68.0,
+        70.0,
+        54.0
+      ],
+      "blank_volume_mm3": 257040.0,
+      "finished_volume_mm3": 245252.62800844762,
+      "old_union_volume_mm3": 243577.37372592094,
+      "obsolete_binder_holes_filled_mm3": 1675.2542825267542,
+      "old_functional_wood_removed_mm3": 0.0,
+      "restored_outside_obsolete_binder_corridors_mm3": 0.0,
+      "installed_reconstruction_difference_mm3": 0.0,
+      "reference_drill_paths": [
+        {
+          "interface": "M8 adjuster clearance",
+          "entry_local_uvw_mm": [
+            54,
+            20,
+            54
+          ],
+          "axis_local": [
+            0,
+            0,
+            -1
+          ],
+          "reference_depth_mm": 54,
+          "reference_diameter_mm": 9,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "M8 receiver pilot reference",
+          "entry_local_uvw_mm": [
+            54,
+            20,
+            54
+          ],
+          "axis_local": [
+            0,
+            0,
+            -1
+          ],
+          "reference_depth_mm": 16,
+          "reference_diameter_mm": 12,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "M6 captive retention passage",
+          "entry_local_uvw_mm": [
+            54,
+            50,
+            54
+          ],
+          "axis_local": [
+            0,
+            0,
+            -1
+          ],
+          "reference_depth_mm": 54,
+          "reference_diameter_mm": 7,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "Side attachment clearance/head reference",
+          "entry_local_uvw_mm": [
+            68,
+            9,
+            9
+          ],
+          "axis_local": [
+            -1,
+            0,
+            0
+          ],
+          "reference_depth_mm": 68,
+          "reference_diameter_mm": 5,
+          "reference_head_diameter_mm": 9,
+          "reference_head_depth_mm": 2,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "Side attachment clearance/head reference",
+          "entry_local_uvw_mm": [
+            68,
+            9,
+            45
+          ],
+          "axis_local": [
+            -1,
+            0,
+            0
+          ],
+          "reference_depth_mm": 68,
+          "reference_diameter_mm": 5,
+          "reference_head_diameter_mm": 9,
+          "reference_head_depth_mm": 2,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "Side attachment clearance/head reference",
+          "entry_local_uvw_mm": [
+            68,
+            61,
+            9
+          ],
+          "axis_local": [
+            -1,
+            0,
+            0
+          ],
+          "reference_depth_mm": 68,
+          "reference_diameter_mm": 5,
+          "reference_head_diameter_mm": 9,
+          "reference_head_depth_mm": 2,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        },
+        {
+          "interface": "Side attachment clearance/head reference",
+          "entry_local_uvw_mm": [
+            68,
+            61,
+            45
+          ],
+          "axis_local": [
+            -1,
+            0,
+            0
+          ],
+          "reference_depth_mm": 68,
+          "reference_diameter_mm": 5,
+          "reference_head_diameter_mm": 9,
+          "reference_head_depth_mm": 2,
+          "final_diameter_mm": null,
+          "final_depth_mm": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY / QUALIFIED_GUIDE_AND_COUPON_HOLD"
+        }
+      ]
+    }
+  ],
+  "unchanged_piece_rows_retained": 102,
+  "unchanged_wood_geometry": [
+    {
+      "source_component": "SIDE_L",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SIDE_R",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "FRONT",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "REAR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "FLOOR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "FLOOR_CLEAT_18",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "FLOOR_CLEAT_552",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "REAR_DOOR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SHELF_1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SHELF_2",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SHELF_3",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SHELF_SUPPORT_1L",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SHELF_SUPPORT_1R",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SHELF_SUPPORT_2L",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SHELF_SUPPORT_2R",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SHELF_SUPPORT_3L",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SHELF_SUPPORT_3R",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CROSS_1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CROSS_2",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CROSS_3",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CROSS_GUIDE_1L",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CROSS_GUIDE_1R",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CROSS_GUIDE_2L",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CROSS_GUIDE_2R",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CROSS_GUIDE_3L",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CROSS_GUIDE_3R",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "PC_BASE",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BACKBOX_BASE",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "SSF_BST_Carrier",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "PF_BasePlywood",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "PF_OpenCradleL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "PF_OpenCradleR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "RemovableIntakeFilterL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "RemovableIntakeFilterR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "MX_WoodSeatL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "MX_WoodSeatR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "MatrixCarrier",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_SideL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_SideR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_Floor",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_Top",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_RearFrame",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_TopFrontRail",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_GlassLowerRail",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_GlassTopRetainer",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_GlassTopRetainer",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorRail0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorRailCleatL0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorRailCleatR0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorRail1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorRailCleatL1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorRailCleatR1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorCarrier0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorDepthShoe00",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorDepthShoe01",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorCarrier1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorDepthShoe10",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorDepthShoe11",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_ReplaceableVESAPlate",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_DisplayReplaceableBezel",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_LowerCassetteFrame",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_SpeakerBaffleL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_SpeakerBaffleR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_DMDReplaceableBezel",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_DMDRearAdapter",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_DMDDepthTie0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_DMDDepthTie1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_CassetteFixedCleatL0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_CassetteFixedCleatL0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_CassetteFixedCleatL1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_CassetteFixedCleatL1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_CassetteFixedCleatR0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_CassetteFixedCleatR0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_CassetteFixedCleatR1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_CassetteFixedCleatR1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_DoorL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_DoorR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_IntakeFilterFrameL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_IntakeFilterFrameR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_IntakeDownBaffleL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_IntakeDownBaffleL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_IntakeDownBaffleL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_IntakeDownBaffleL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_IntakeDownBaffleR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_IntakeDownBaffleR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_IntakeDownBaffleR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_IntakeDownBaffleR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_HingeCleatL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_HingeCleatR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_CenterAstragal",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_UprightLockLParkingPad0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_UprightLockLParkingPad1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_UprightLockRParkingPad0",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_UprightLockRParkingPad1",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CandidateLegBlockFL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CandidateLegBlockFR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CandidateLegBlockRL",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "CandidateLegBlockRR",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "BB_MonitorStopRail",
+      "difference_mm3": 0
+    },
+    {
+      "source_component": "Underfront_Plate",
+      "difference_mm3": 0
+    }
+  ],
+  "retired_instances": [
+    "P095-Layer1",
+    "P095-Layer2",
+    "P095-Layer3",
+    "P096-Layer1",
+    "P096-Layer2",
+    "P096-Layer3"
+  ],
+  "canonical_families": 61,
+  "counts": {
+    "ONE_SIDE_CNC_PLUS_MANUAL_FINISH": 55,
+    "ONE_SIDE_CNC_READY": 43,
+    "SHOP_MADE_SOLID_WOOD_PART": 6
+  },
+  "stock_mm": [
+    12,
+    18
+  ],
+  "solid_families": [
+    "SW01",
+    "SW02"
+  ],
+  "manufacturing_release": false
+}

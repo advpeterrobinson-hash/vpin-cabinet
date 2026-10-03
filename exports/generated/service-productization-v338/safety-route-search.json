@@ -1,0 +1,2371 @@
+{
+  "scope": "42 mirrored anchor/line cases; not an exhaustive proof of all possible tether architectures",
+  "routes": [
+    {
+      "id": "L-M300-F300Z100",
+      "side": "L",
+      "moving_y_mm": 300,
+      "moving_closed": [
+        78.0,
+        302.06452519522026,
+        360.23147321730943
+      ],
+      "moving_service": [
+        78.0,
+        468.9867077753597,
+        966.1749627421725
+      ],
+      "fixed": [
+        32.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 264.2738767209747,
+      "length_50_mm": 883.7033288871095,
+      "length_49_mm": 872.3754729151926,
+      "derivative_at_50_mm_per_radian": 647.1940648410362,
+      "moving_line_hits": [],
+      "fixed_line_hits": [
+        {
+          "part": "SSF_Exciter1L",
+          "centerline_inside_length_mm": 59.11003740217768
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M300-F1100Z550",
+      "side": "L",
+      "moving_y_mm": 300,
+      "moving_closed": [
+        78.0,
+        302.06452519522026,
+        360.23147321730943
+      ],
+      "moving_service": [
+        78.0,
+        468.9867077753597,
+        966.1749627421725
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 821.4798328073562,
+      "length_50_mm": 757.2947739009084,
+      "length_49_mm": 758.8697312727298,
+      "derivative_at_50_mm_per_radian": -90.39401733613506,
+      "moving_line_hits": [
+        {
+          "part": "PLAYFIELD_ENVELOPE",
+          "centerline_inside_length_mm": 392.87055294550885
+        },
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 154.86240157385168
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 49.36546901314534
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 46.81224244516898
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 43.58023357197395
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 36.935274000135166
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": 22.45730653281236
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M300-F1100Z420",
+      "side": "L",
+      "moving_y_mm": 300,
+      "moving_closed": [
+        78.0,
+        302.06452519522026,
+        360.23147321730943
+      ],
+      "moving_service": [
+        78.0,
+        468.9867077753597,
+        966.1749627421725
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 801.4919205741892,
+      "length_50_mm": 835.8234651471523,
+      "length_49_mm": 835.7034047094221,
+      "derivative_at_50_mm_per_radian": 6.172824596894385,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 29.559574744102516
+        }
+      ],
+      "fixed_line_hits": [
+        {
+          "part": "PF_OpenCradleL",
+          "centerline_inside_length_mm": 39.89792900507177
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M400-F300Z100",
+      "side": "L",
+      "moving_y_mm": 400,
+      "moving_closed": [
+        78.0,
+        402.06452519522026,
+        377.6962619497038
+      ],
+      "moving_service": [
+        78.0,
+        546.6442731027112,
+        900.7966682332508
+      ],
+      "fixed": [
+        32.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 299.41339516488614,
+      "length_50_mm": 839.1809705348662,
+      "length_49_mm": 828.8797763373337,
+      "derivative_at_50_mm_per_radian": 588.6936429185562,
+      "moving_line_hits": [],
+      "fixed_line_hits": [
+        {
+          "part": "CROSS_1",
+          "centerline_inside_length_mm": 34.99614911750438
+        },
+        {
+          "part": "CROSS_BRACKET_1L",
+          "centerline_inside_length_mm": 3.143797934573058
+        },
+        {
+          "part": "SSF_Exciter1L",
+          "centerline_inside_length_mm": 56.47237280648732
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M400-F1100Z550",
+      "side": "L",
+      "moving_y_mm": 400,
+      "moving_closed": [
+        78.0,
+        402.06452519522026,
+        377.6962619497038
+      ],
+      "moving_service": [
+        78.0,
+        546.6442731027112,
+        900.7966682332508
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 720.3599830203495,
+      "length_50_mm": 656.7928615123465,
+      "length_49_mm": 658.3607795125098,
+      "derivative_at_50_mm_per_radian": -90.00314612494243,
+      "moving_line_hits": [
+        {
+          "part": "PLAYFIELD_ENVELOPE",
+          "centerline_inside_length_mm": 335.6477690220453
+        },
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 134.31034172655302
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 49.362650768855644
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 46.79681581941975
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 43.54590834365615
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 36.85149105229722
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": 22.210511318797053
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M400-F1100Z420",
+      "side": "L",
+      "moving_y_mm": 400,
+      "moving_closed": [
+        78.0,
+        402.06452519522026,
+        377.6962619497038
+      ],
+      "moving_service": [
+        78.0,
+        546.6442731027112,
+        900.7966682332508
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 700.7278596174133,
+      "length_50_mm": 734.4957431287273,
+      "length_49_mm": 734.3789491285818,
+      "derivative_at_50_mm_per_radian": 5.9978579949527004,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 29.715307993176907
+        }
+      ],
+      "fixed_line_hits": [
+        {
+          "part": "PF_OpenCradleL",
+          "centerline_inside_length_mm": 31.018149183603896
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M600-F300Z100",
+      "side": "L",
+      "moving_y_mm": 600,
+      "moving_closed": [
+        78.0,
+        602.0645251952203,
+        412.62583941449253
+      ],
+      "moving_service": [
+        78.0,
+        701.9594037574143,
+        770.0400792154076
+      ],
+      "fixed": [
+        32.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 437.1428746428677,
+      "length_50_mm": 782.7139132684467,
+      "length_49_mm": 775.1627135304416,
+      "derivative_at_50_mm_per_radian": 432.09454055212126,
+      "moving_line_hits": [],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_WRONG_CLOSURE_SIGN"
+    },
+    {
+      "id": "L-M600-F1100Z550",
+      "side": "L",
+      "moving_y_mm": 600,
+      "moving_closed": [
+        78.0,
+        602.0645251952203,
+        412.62583941449253
+      ],
+      "moving_service": [
+        78.0,
+        701.9594037574143,
+        770.0400792154076
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 518.5821025311558,
+      "length_50_mm": 457.13231423546944,
+      "length_49_mm": 458.6723481853596,
+      "derivative_at_50_mm_per_radian": -88.4436223562033,
+      "moving_line_hits": [
+        {
+          "part": "PLAYFIELD_ENVELOPE",
+          "centerline_inside_length_mm": 221.70550429233228
+        },
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 93.48091451213435
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 49.351202425328694
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 46.7350126553834
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 43.41037855001855
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 36.52794664289662
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": 21.28137928298515
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M600-F1100Z420",
+      "side": "L",
+      "moving_y_mm": 600,
+      "moving_closed": [
+        78.0,
+        602.0645251952203,
+        412.62583941449253
+      ],
+      "moving_service": [
+        78.0,
+        701.9594037574143,
+        770.0400792154076
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 500.11010319068964,
+      "length_50_mm": 532.0529798002093,
+      "length_49_mm": 531.9464959528952,
+      "derivative_at_50_mm_per_radian": 5.445736500466591,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 30.187651028979587
+        }
+      ],
+      "fixed_line_hits": [
+        {
+          "part": "PF_OpenCradleL",
+          "centerline_inside_length_mm": 13.183470340123222
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M800-F300Z100",
+      "side": "L",
+      "moving_y_mm": 800,
+      "moving_closed": [
+        78.0,
+        802.0645251952203,
+        447.55541687928127
+      ],
+      "moving_service": [
+        78.0,
+        857.2745344121175,
+        639.2834901975643
+      ],
+      "fixed": [
+        32.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 612.3557424092902,
+      "length_50_mm": 776.8510729244755,
+      "length_49_mm": 772.7567094748925,
+      "derivative_at_50_mm_per_radian": 234.7841448363754,
+      "moving_line_hits": [],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_WRONG_CLOSURE_SIGN"
+    },
+    {
+      "id": "L-M800-F1100Z550",
+      "side": "L",
+      "moving_y_mm": 800,
+      "moving_closed": [
+        78.0,
+        802.0645251952203,
+        447.55541687928127
+      ],
+      "moving_service": [
+        78.0,
+        857.2745344121175,
+        639.2834901975643
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 318.3966704567235,
+      "length_50_mm": 262.68458894025906,
+      "length_49_mm": 264.1247446627468,
+      "derivative_at_50_mm_per_radian": -82.78921782362588,
+      "moving_line_hits": [
+        {
+          "part": "PLAYFIELD_ENVELOPE",
+          "centerline_inside_length_mm": 109.13214997159886
+        },
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 53.71747924547471
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 49.30634202306345
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 46.49803413316127
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 42.90272867789146
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 35.359679843015414
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": 18.05117249383447
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M800-F1100Z420",
+      "side": "L",
+      "moving_y_mm": 800,
+      "moving_closed": [
+        78.0,
+        802.0645251952203,
+        447.55541687928127
+      ],
+      "moving_service": [
+        78.0,
+        857.2745344121175,
+        639.2834901975643
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 302.72239452432405,
+      "length_50_mm": 330.32847397413326,
+      "length_49_mm": 330.2451497806809,
+      "derivative_at_50_mm_per_radian": 4.206235799901961,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 31.155316973967324
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M1000-F300Z100",
+      "side": "L",
+      "moving_y_mm": 1000,
+      "moving_closed": [
+        78.0,
+        1002.0645251952203,
+        482.48499434407
+      ],
+      "moving_service": [
+        78.0,
+        1012.5896650668207,
+        508.52690117972105
+      ],
+      "fixed": [
+        32.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 800.8154396838097,
+      "length_50_mm": 822.6750632829156,
+      "length_49_mm": 822.112390365689,
+      "derivative_at_50_mm_per_radian": 32.30707014404019,
+      "moving_line_hits": [],
+      "fixed_line_hits": [
+        {
+          "part": "CROSS_BRACKET_2L",
+          "centerline_inside_length_mm": 6.041279491562817
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M1000-F1100Z550",
+      "side": "L",
+      "moving_y_mm": 1000,
+      "moving_closed": [
+        78.0,
+        1002.0645251952203,
+        482.48499434407
+      ],
+      "moving_service": [
+        78.0,
+        1012.5896650668207,
+        508.52690117972105
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 127.5367916091584,
+      "length_50_mm": 107.12882235368416,
+      "length_49_mm": 107.62708423156323,
+      "derivative_at_50_mm_per_radian": -28.605425389269055,
+      "moving_line_hits": [
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 21.907224609529454
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 47.9887852858936
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 39.73600888636308
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 28.717205510890807
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 1.4184070512875633
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M1000-F1100Z420",
+      "side": "L",
+      "moving_y_mm": 1000,
+      "moving_closed": [
+        78.0,
+        1002.0645251952203,
+        482.48499434407
+      ],
+      "moving_service": [
+        78.0,
+        1012.5896650668207,
+        508.52690117972105
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 124.94691570189356,
+      "length_50_mm": 132.64078892111087,
+      "length_49_mm": 132.65290842835861,
+      "derivative_at_50_mm_per_radian": -0.8937025638115114,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 34.05681928845499
+        },
+        {
+          "part": "PF_CommercialStrap1",
+          "centerline_inside_length_mm": 1.6018508995255445
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M1050-F300Z100",
+      "side": "L",
+      "moving_y_mm": 1050,
+      "moving_closed": [
+        78.0,
+        1052.0645251952203,
+        491.21738871026713
+      ],
+      "moving_service": [
+        78.0,
+        1051.4184477304964,
+        475.8377539252602
+      ],
+      "fixed": [
+        32.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 848.9806212667003,
+      "length_50_mm": 841.4271809641599,
+      "length_49_mm": 841.6822550928597,
+      "derivative_at_50_mm_per_radian": -14.707514501243146,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 12.515209826690294
+        }
+      ],
+      "fixed_line_hits": [
+        {
+          "part": "CROSS_3",
+          "centerline_inside_length_mm": 20.15613178396042
+        }
+      ],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 46.00106757767574
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 26.472355589086035
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M1050-F1100Z550",
+      "side": "L",
+      "moving_y_mm": 1050,
+      "moving_closed": [
+        78.0,
+        1052.0645251952203,
+        491.21738871026713
+      ],
+      "moving_service": [
+        78.0,
+        1051.4184477304964,
+        475.8377539252602
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 88.70854037126018,
+      "length_50_mm": 99.88095896498378,
+      "length_49_mm": 99.60065233862014,
+      "derivative_at_50_mm_per_radian": 16.08195404371004,
+      "moving_line_hits": [
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 20.42507846335763
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M1050-F1100Z420",
+      "side": "L",
+      "moving_y_mm": 1050,
+      "moving_closed": [
+        78.0,
+        1052.0645251952203,
+        491.21738871026713
+      ],
+      "moving_service": [
+        78.0,
+        1051.4184477304964,
+        475.8377539252602
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 97.39469287116702,
+      "length_50_mm": 87.14368585464136,
+      "length_49_mm": 87.24563863910892,
+      "derivative_at_50_mm_per_radian": -5.686431865322227,
+      "moving_line_hits": [],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 41.73936043960059
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 20.561784626454262
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 0.9156987536090797
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "HOLD_ANCHOR_LOAD_RATING_PRIMARY_SUPPORT"
+    },
+    {
+      "id": "L-M1060-F300Z100",
+      "side": "L",
+      "moving_y_mm": 1060,
+      "moving_closed": [
+        78.0,
+        1062.0645251952203,
+        492.9638675835066
+      ],
+      "moving_service": [
+        78.0,
+        1059.1842042632315,
+        469.2999244743681
+      ],
+      "fixed": [
+        32.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 858.6494871524726,
+      "length_50_mm": 845.4934004589096,
+      "length_49_mm": 845.9074221792906,
+      "derivative_at_50_mm_per_radian": -23.85117045064245,
+      "moving_line_hits": [],
+      "fixed_line_hits": [
+        {
+          "part": "CROSS_3",
+          "centerline_inside_length_mm": 20.04636176938098
+        }
+      ],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 47.56519316750742
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 36.974053928518956
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 19.94297933768611
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M1060-F1100Z550",
+      "side": "L",
+      "moving_y_mm": 1060,
+      "moving_closed": [
+        78.0,
+        1062.0645251952203,
+        492.9638675835066
+      ],
+      "moving_service": [
+        78.0,
+        1059.1842042632315,
+        469.2999244743681
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 82.51194246711104,
+      "length_50_mm": 101.46147727816849,
+      "length_49_mm": 101.0244090021062,
+      "derivative_at_50_mm_per_radian": 25.038372866166558,
+      "moving_line_hits": [
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 20.74828531773821
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "L-M1060-F1100Z420",
+      "side": "L",
+      "moving_y_mm": 1060,
+      "moving_closed": [
+        78.0,
+        1062.0645251952203,
+        492.9638675835066
+      ],
+      "moving_service": [
+        78.0,
+        1059.1842042632315,
+        469.2999244743681
+      ],
+      "fixed": [
+        32.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 94.22752369349182,
+      "length_50_mm": 78.81885392978005,
+      "length_49_mm": 78.95000989032685,
+      "derivative_at_50_mm_per_radian": -7.243643455283461,
+      "moving_line_hits": [],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 43.5967553955679
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 27.607792765062747
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 13.30408541848589
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "HOLD_ANCHOR_LOAD_RATING_PRIMARY_SUPPORT"
+    },
+    {
+      "id": "R-M300-F300Z100",
+      "side": "R",
+      "moving_y_mm": 300,
+      "moving_closed": [
+        522.0,
+        302.06452519522026,
+        360.23147321730943
+      ],
+      "moving_service": [
+        522.0,
+        468.9867077753597,
+        966.1749627421725
+      ],
+      "fixed": [
+        568.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 264.2738767209747,
+      "length_50_mm": 883.7033288871095,
+      "length_49_mm": 872.3754729151926,
+      "derivative_at_50_mm_per_radian": 647.1940648410362,
+      "moving_line_hits": [],
+      "fixed_line_hits": [
+        {
+          "part": "SSF_Exciter1R",
+          "centerline_inside_length_mm": 59.11003740217768
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M300-F1100Z550",
+      "side": "R",
+      "moving_y_mm": 300,
+      "moving_closed": [
+        522.0,
+        302.06452519522026,
+        360.23147321730943
+      ],
+      "moving_service": [
+        522.0,
+        468.9867077753597,
+        966.1749627421725
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 821.4798328073562,
+      "length_50_mm": 757.2947739009084,
+      "length_49_mm": 758.8697312727298,
+      "derivative_at_50_mm_per_radian": -90.39401733613506,
+      "moving_line_hits": [
+        {
+          "part": "PLAYFIELD_ENVELOPE",
+          "centerline_inside_length_mm": 392.87055294550885
+        },
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 154.86240157385168
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 49.36546901314534
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 46.81224244516898
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 43.58023357197395
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 36.935274000135166
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": 22.45730653281236
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M300-F1100Z420",
+      "side": "R",
+      "moving_y_mm": 300,
+      "moving_closed": [
+        522.0,
+        302.06452519522026,
+        360.23147321730943
+      ],
+      "moving_service": [
+        522.0,
+        468.9867077753597,
+        966.1749627421725
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 801.4919205741892,
+      "length_50_mm": 835.8234651471523,
+      "length_49_mm": 835.7034047094221,
+      "derivative_at_50_mm_per_radian": 6.172824596894385,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 29.559574744102516
+        }
+      ],
+      "fixed_line_hits": [
+        {
+          "part": "PF_OpenCradleR",
+          "centerline_inside_length_mm": 39.89792900507222
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M400-F300Z100",
+      "side": "R",
+      "moving_y_mm": 400,
+      "moving_closed": [
+        522.0,
+        402.06452519522026,
+        377.6962619497038
+      ],
+      "moving_service": [
+        522.0,
+        546.6442731027112,
+        900.7966682332508
+      ],
+      "fixed": [
+        568.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 299.41339516488614,
+      "length_50_mm": 839.1809705348662,
+      "length_49_mm": 828.8797763373337,
+      "derivative_at_50_mm_per_radian": 588.6936429185562,
+      "moving_line_hits": [],
+      "fixed_line_hits": [
+        {
+          "part": "CROSS_1",
+          "centerline_inside_length_mm": 34.99614911750438
+        },
+        {
+          "part": "CROSS_BRACKET_1R",
+          "centerline_inside_length_mm": 3.143797934573058
+        },
+        {
+          "part": "SSF_Exciter1R",
+          "centerline_inside_length_mm": 56.47237280648732
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M400-F1100Z550",
+      "side": "R",
+      "moving_y_mm": 400,
+      "moving_closed": [
+        522.0,
+        402.06452519522026,
+        377.6962619497038
+      ],
+      "moving_service": [
+        522.0,
+        546.6442731027112,
+        900.7966682332508
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 720.3599830203495,
+      "length_50_mm": 656.7928615123465,
+      "length_49_mm": 658.3607795125098,
+      "derivative_at_50_mm_per_radian": -90.00314612494243,
+      "moving_line_hits": [
+        {
+          "part": "PLAYFIELD_ENVELOPE",
+          "centerline_inside_length_mm": 335.6477690220453
+        },
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 134.31034172655302
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 49.362650768855644
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 46.79681581941975
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 43.54590834365615
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 36.85149105229722
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": 22.210511318797053
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M400-F1100Z420",
+      "side": "R",
+      "moving_y_mm": 400,
+      "moving_closed": [
+        522.0,
+        402.06452519522026,
+        377.6962619497038
+      ],
+      "moving_service": [
+        522.0,
+        546.6442731027112,
+        900.7966682332508
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 700.7278596174133,
+      "length_50_mm": 734.4957431287273,
+      "length_49_mm": 734.3789491285818,
+      "derivative_at_50_mm_per_radian": 5.9978579949527004,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 29.715307993176907
+        }
+      ],
+      "fixed_line_hits": [
+        {
+          "part": "PF_OpenCradleR",
+          "centerline_inside_length_mm": 31.018149183604123
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M600-F300Z100",
+      "side": "R",
+      "moving_y_mm": 600,
+      "moving_closed": [
+        522.0,
+        602.0645251952203,
+        412.62583941449253
+      ],
+      "moving_service": [
+        522.0,
+        701.9594037574143,
+        770.0400792154076
+      ],
+      "fixed": [
+        568.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 437.1428746428677,
+      "length_50_mm": 782.7139132684467,
+      "length_49_mm": 775.1627135304416,
+      "derivative_at_50_mm_per_radian": 432.09454055212126,
+      "moving_line_hits": [],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_WRONG_CLOSURE_SIGN"
+    },
+    {
+      "id": "R-M600-F1100Z550",
+      "side": "R",
+      "moving_y_mm": 600,
+      "moving_closed": [
+        522.0,
+        602.0645251952203,
+        412.62583941449253
+      ],
+      "moving_service": [
+        522.0,
+        701.9594037574143,
+        770.0400792154076
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 518.5821025311558,
+      "length_50_mm": 457.13231423546944,
+      "length_49_mm": 458.6723481853596,
+      "derivative_at_50_mm_per_radian": -88.4436223562033,
+      "moving_line_hits": [
+        {
+          "part": "PLAYFIELD_ENVELOPE",
+          "centerline_inside_length_mm": 221.70550429233228
+        },
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 93.48091451213435
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 49.351202425328694
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 46.7350126553834
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 43.41037855001855
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 36.52794664289662
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": 21.28137928298515
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M600-F1100Z420",
+      "side": "R",
+      "moving_y_mm": 600,
+      "moving_closed": [
+        522.0,
+        602.0645251952203,
+        412.62583941449253
+      ],
+      "moving_service": [
+        522.0,
+        701.9594037574143,
+        770.0400792154076
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 500.11010319068964,
+      "length_50_mm": 532.0529798002093,
+      "length_49_mm": 531.9464959528952,
+      "derivative_at_50_mm_per_radian": 5.445736500466591,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 30.187651028979587
+        }
+      ],
+      "fixed_line_hits": [
+        {
+          "part": "PF_OpenCradleR",
+          "centerline_inside_length_mm": 13.183470340123336
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M800-F300Z100",
+      "side": "R",
+      "moving_y_mm": 800,
+      "moving_closed": [
+        522.0,
+        802.0645251952203,
+        447.55541687928127
+      ],
+      "moving_service": [
+        522.0,
+        857.2745344121175,
+        639.2834901975643
+      ],
+      "fixed": [
+        568.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 612.3557424092902,
+      "length_50_mm": 776.8510729244755,
+      "length_49_mm": 772.7567094748925,
+      "derivative_at_50_mm_per_radian": 234.7841448363754,
+      "moving_line_hits": [],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_WRONG_CLOSURE_SIGN"
+    },
+    {
+      "id": "R-M800-F1100Z550",
+      "side": "R",
+      "moving_y_mm": 800,
+      "moving_closed": [
+        522.0,
+        802.0645251952203,
+        447.55541687928127
+      ],
+      "moving_service": [
+        522.0,
+        857.2745344121175,
+        639.2834901975643
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 318.3966704567235,
+      "length_50_mm": 262.68458894025906,
+      "length_49_mm": 264.1247446627468,
+      "derivative_at_50_mm_per_radian": -82.78921782362588,
+      "moving_line_hits": [
+        {
+          "part": "PLAYFIELD_ENVELOPE",
+          "centerline_inside_length_mm": 109.13214997159886
+        },
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 53.71747924547472
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 49.30634202306345
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 46.49803413316127
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 42.90272867789146
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 35.359679843015414
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": 18.05117249383447
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M800-F1100Z420",
+      "side": "R",
+      "moving_y_mm": 800,
+      "moving_closed": [
+        522.0,
+        802.0645251952203,
+        447.55541687928127
+      ],
+      "moving_service": [
+        522.0,
+        857.2745344121175,
+        639.2834901975643
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 302.72239452432405,
+      "length_50_mm": 330.32847397413326,
+      "length_49_mm": 330.2451497806809,
+      "derivative_at_50_mm_per_radian": 4.206235799901961,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 31.155316973967324
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M1000-F300Z100",
+      "side": "R",
+      "moving_y_mm": 1000,
+      "moving_closed": [
+        522.0,
+        1002.0645251952203,
+        482.48499434407
+      ],
+      "moving_service": [
+        522.0,
+        1012.5896650668207,
+        508.52690117972105
+      ],
+      "fixed": [
+        568.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 800.8154396838097,
+      "length_50_mm": 822.6750632829156,
+      "length_49_mm": 822.112390365689,
+      "derivative_at_50_mm_per_radian": 32.30707014404019,
+      "moving_line_hits": [],
+      "fixed_line_hits": [
+        {
+          "part": "CROSS_BRACKET_2R",
+          "centerline_inside_length_mm": 6.041279491562874
+        }
+      ],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M1000-F1100Z550",
+      "side": "R",
+      "moving_y_mm": 1000,
+      "moving_closed": [
+        522.0,
+        1002.0645251952203,
+        482.48499434407
+      ],
+      "moving_service": [
+        522.0,
+        1012.5896650668207,
+        508.52690117972105
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 127.5367916091584,
+      "length_50_mm": 107.12882235368416,
+      "length_49_mm": 107.62708423156322,
+      "derivative_at_50_mm_per_radian": -28.605425389269055,
+      "moving_line_hits": [
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 21.907224609529475
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 47.9887852858936
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 39.736008886363024
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 28.717205510890807
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": 1.4184070512875633
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M1000-F1100Z420",
+      "side": "R",
+      "moving_y_mm": 1000,
+      "moving_closed": [
+        522.0,
+        1002.0645251952203,
+        482.48499434407
+      ],
+      "moving_service": [
+        522.0,
+        1012.5896650668207,
+        508.52690117972105
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 124.94691570189356,
+      "length_50_mm": 132.64078892111087,
+      "length_49_mm": 132.65290842835861,
+      "derivative_at_50_mm_per_radian": -0.8937025638115114,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 34.05681928845502
+        },
+        {
+          "part": "PF_CommercialStrap4",
+          "centerline_inside_length_mm": 1.6018508995255587
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M1050-F300Z100",
+      "side": "R",
+      "moving_y_mm": 1050,
+      "moving_closed": [
+        522.0,
+        1052.0645251952203,
+        491.21738871026713
+      ],
+      "moving_service": [
+        522.0,
+        1051.4184477304964,
+        475.8377539252602
+      ],
+      "fixed": [
+        568.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 848.9806212667003,
+      "length_50_mm": 841.4271809641599,
+      "length_49_mm": 841.6822550928597,
+      "derivative_at_50_mm_per_radian": -14.707514501243146,
+      "moving_line_hits": [
+        {
+          "part": "PF_WoodDowel",
+          "centerline_inside_length_mm": 12.515209826690297
+        }
+      ],
+      "fixed_line_hits": [
+        {
+          "part": "CROSS_3",
+          "centerline_inside_length_mm": 20.156131783960433
+        }
+      ],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 46.00106757767574
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 26.472355589086035
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M1050-F1100Z550",
+      "side": "R",
+      "moving_y_mm": 1050,
+      "moving_closed": [
+        522.0,
+        1052.0645251952203,
+        491.21738871026713
+      ],
+      "moving_service": [
+        522.0,
+        1051.4184477304964,
+        475.8377539252602
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 88.70854037126018,
+      "length_50_mm": 99.88095896498378,
+      "length_49_mm": 99.60065233862012,
+      "derivative_at_50_mm_per_radian": 16.08195404371004,
+      "moving_line_hits": [
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 20.425078463357654
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M1050-F1100Z420",
+      "side": "R",
+      "moving_y_mm": 1050,
+      "moving_closed": [
+        522.0,
+        1052.0645251952203,
+        491.21738871026713
+      ],
+      "moving_service": [
+        522.0,
+        1051.4184477304964,
+        475.8377539252602
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 97.39469287116702,
+      "length_50_mm": 87.14368585464136,
+      "length_49_mm": 87.2456386391089,
+      "derivative_at_50_mm_per_radian": -5.686431865322227,
+      "moving_line_hits": [],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 41.73936043960053
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 20.561784626454262
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 0.9156987536088762
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "HOLD_ANCHOR_LOAD_RATING_PRIMARY_SUPPORT"
+    },
+    {
+      "id": "R-M1060-F300Z100",
+      "side": "R",
+      "moving_y_mm": 1060,
+      "moving_closed": [
+        522.0,
+        1062.0645251952203,
+        492.9638675835066
+      ],
+      "moving_service": [
+        522.0,
+        1059.1842042632315,
+        469.2999244743681
+      ],
+      "fixed": [
+        568.0,
+        300.0,
+        100.0
+      ],
+      "length_play_mm": 858.6494871524726,
+      "length_50_mm": 845.4934004589096,
+      "length_49_mm": 845.9074221792906,
+      "derivative_at_50_mm_per_radian": -23.85117045064245,
+      "moving_line_hits": [],
+      "fixed_line_hits": [
+        {
+          "part": "CROSS_3",
+          "centerline_inside_length_mm": 20.046361769380965
+        }
+      ],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 47.56519316750742
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 36.974053928518956
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 19.94297933768611
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M1060-F1100Z550",
+      "side": "R",
+      "moving_y_mm": 1060,
+      "moving_closed": [
+        522.0,
+        1062.0645251952203,
+        492.9638675835066
+      ],
+      "moving_service": [
+        522.0,
+        1059.1842042632315,
+        469.2999244743681
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        550.0
+      ],
+      "length_play_mm": 82.51194246711104,
+      "length_50_mm": 101.46147727816849,
+      "length_49_mm": 101.02440900210617,
+      "derivative_at_50_mm_per_radian": 25.038372866166558,
+      "moving_line_hits": [
+        {
+          "part": "PF_BasePlywood",
+          "centerline_inside_length_mm": 20.74828531773811
+        }
+      ],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": false,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "REJECTED_ROUTE_INTERSECTION"
+    },
+    {
+      "id": "R-M1060-F1100Z420",
+      "side": "R",
+      "moving_y_mm": 1060,
+      "moving_closed": [
+        522.0,
+        1062.0645251952203,
+        492.9638675835066
+      ],
+      "moving_service": [
+        522.0,
+        1059.1842042632315,
+        469.2999244743681
+      ],
+      "fixed": [
+        568.0,
+        1100.0,
+        420.0
+      ],
+      "length_play_mm": 94.22752369349182,
+      "length_50_mm": 78.81885392978005,
+      "length_49_mm": 78.95000989032684,
+      "derivative_at_50_mm_per_radian": -7.243643455283461,
+      "moving_line_hits": [],
+      "fixed_line_hits": [],
+      "closure_arrest_sign": true,
+      "slack_take_up": [
+        {
+          "slack_mm": 1,
+          "first_taut_closure_angle_deg": 43.5967553955679
+        },
+        {
+          "slack_mm": 5,
+          "first_taut_closure_angle_deg": 27.607792765062747
+        },
+        {
+          "slack_mm": 10,
+          "first_taut_closure_angle_deg": 13.304085418485787
+        },
+        {
+          "slack_mm": 20,
+          "first_taut_closure_angle_deg": null
+        },
+        {
+          "slack_mm": 40,
+          "first_taut_closure_angle_deg": null
+        }
+      ],
+      "decision": "HOLD_ANCHOR_LOAD_RATING_PRIMARY_SUPPORT"
+    }
+  ]
+}

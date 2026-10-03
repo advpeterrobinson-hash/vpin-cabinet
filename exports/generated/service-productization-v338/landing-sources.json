@@ -1,0 +1,47 @@
+{
+  "license": "Original analysis CERN-OHL-S-2.0; external vendor/catalogue content is referenced, not copied into project CAD. No imported vendor mesh/drawing.",
+  "sources": [
+    {
+      "url": "https://www.elesa-ganter.com/siteassets/PDF/EN/GN%207336.pdf",
+      "authority": "Manufacturer catalogue",
+      "supports": "Nominal hand-knob family reference. M6 diameter34/head21 example; this does not prove100mm stud availability.",
+      "status": "REFERENCE_NOT_PURCHASED"
+    },
+    {
+      "url": "https://www.elesa.com/static/sfogliabili/files/QuickCatalogue_ENG_monza_web.pdf",
+      "authority": "Manufacturer catalogue",
+      "supports": "MDA/MCT fluted grip families accepting pressed hex bolts/nuts. No selected product or captive-grip safety qualification.",
+      "status": "REFERENCE_NOT_PURCHASED"
+    },
+    {
+      "url": "https://www.elesa-ganter.com/en/www/Indexing-elements--Stainless-Steel-Ball-lock-pins--GN1133",
+      "authority": "Manufacturer product page",
+      "supports": "Push-button ball-lock architecture requires suitable mating capture; not compatible by assumption with blind M6 thread.",
+      "status": "REFERENCE_NOT_PURCHASED"
+    },
+    {
+      "url": "https://www.elesa.com/siteassets/PDF/PDF_EN/GN%201140.pdf",
+      "authority": "Manufacturer catalogue",
+      "supports": "Matching holding-bushing concept; not selected or added to CURRENT.",
+      "status": "REFERENCE_NOT_PURCHASED"
+    },
+    {
+      "url": "https://research.fs.usda.gov/fpl/wood-handbook",
+      "authority": "USDA Forest Products Laboratory",
+      "supports": "Wood orthotropy, grain/material dependence and fastener qualification. Orientation rationale is engineering inference, no material capacity inferred.",
+      "status": "GENERAL_MATERIAL_REFERENCE"
+    },
+    {
+      "url": "https://research.fs.usda.gov/download/treesearch/62244.pdf",
+      "authority": "USDA chapter5",
+      "supports": "Mechanical-property/grain variability; no species allowable selected.",
+      "status": "GENERAL_MATERIAL_REFERENCE"
+    },
+    {
+      "url": "https://research.fs.usda.gov/treesearch/62253",
+      "authority": "USDA chapter8",
+      "supports": "Joint grain/moisture/fastening dependence; physical qualification remains held.",
+      "status": "GENERAL_MATERIAL_REFERENCE"
+    }
+  ]
+}

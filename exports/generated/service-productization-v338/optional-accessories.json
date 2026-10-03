@@ -1,0 +1,61 @@
+{
+  "version": "V33.8",
+  "minimum_BOM_includes_these_rows": false,
+  "included_in_minimum_nesting_mass_or_packing": false,
+  "no_new_manufacturing_family": true,
+  "manufacturing_release": false,
+  "rows": [
+    {
+      "id": "ACC01",
+      "description_en": "Optional removable accessory board",
+      "description_pt_BR": "Placa opcional removível para acessórios",
+      "classification": "OPTIONAL_STUDY_NOT_MINIMUM_FLATPACK",
+      "required_quantity": 0,
+      "user_selected_quantity": null,
+      "quantity_formula": "N = builder-selected board count",
+      "study_sample_quantity": 2,
+      "material": "12 mm plywood, MODULAR_SECONDARY",
+      "nominal_dimensions_mm": [
+        100,
+        120,
+        12
+      ],
+      "selected_sku": null,
+      "source": "config/service_modularity_v338.json#optional_board",
+      "status": "OPTIONAL; payload and purchased clamp qualification pending"
+    },
+    {
+      "id": "ACC01-CLAMPS",
+      "description_en": "Commodity removable clamps for each selected accessory board",
+      "description_pt_BR": "Grampos comerciais removíveis para cada placa de acessórios escolhida",
+      "classification": "OPTIONAL_HARDWARE_INTERFACE_NOT_SELECTED",
+      "required_quantity": 0,
+      "user_selected_quantity": null,
+      "quantity_formula": "2 × N selected ACC01 boards",
+      "study_sample_quantity": 4,
+      "material": "Commodity clamp; purchased construction and dimensions pending",
+      "nominal_dimensions_mm": null,
+      "selected_sku": null,
+      "source": "config/service_modularity_v338.json#optional_board",
+      "status": "PURCHASE_BEFORE_ASSEMBLY; no permanent cabinet holes; no load rating assumed"
+    },
+    {
+      "id": "STUDY-SAFETY-STRAPS",
+      "description_en": "Secondary safety straps and anchors, unselected study",
+      "description_pt_BR": "Cintas secundárias e ancoragens, estudo não selecionado",
+      "classification": "REFERENCE_ONLY_NOT_FROZEN",
+      "required_quantity": 0,
+      "user_selected_quantity": 0,
+      "quantity_formula": "0 promoted; no straps or anchors in minimum cabinet",
+      "study_sample_quantity": 2,
+      "material": "Rated webbing and anchors would require future selection",
+      "nominal_dimensions_mm": null,
+      "selected_sku": null,
+      "source": "exports/generated/service-productization-v338/safety-report.md",
+      "status": "NONE PROMOTED; primary raised-playfield support remains OPERATIONAL HOLD"
+    }
+  ],
+  "source_sha256": {
+    "config/service_modularity_v338.json": "f8bd2404637fa995e89149963acd3db0e2f884ab30946a25a56a58b81fb02a86"
+  }
+}

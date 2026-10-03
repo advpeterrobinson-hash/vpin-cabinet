@@ -1,5 +1,16 @@
 # AGENTS.md
 
+## Current V33.8 service/productization authority
+
+- Start with `config/current_v32.json` and `docs/SERVICE_PRODUCTIZATION_V338.md`. Protected V33.7 architecture remains; only six front-landing plywood layers and four obsolete binder screws are replaced by two SW02 solid blocks, 68 × 70 × 54 mm.
+- Plywood stock remains exactly 18 / 12 mm. SW01 and SW02 are explicit shop-made solid wood, never a third sheet family.
+- Front bearing stays X72/X528, Y245. The nominal 9.906669° plane is unchanged. ±3 mm is mechanical travel only; the V33.8 common-height geometric setup window is −1.9 to +0.9 mm with 1 mm modeled margin. Adjust to the accepted plane; no arbitrary angle selection or opposite-side twisting.
+- Original captive M6 ×100 tool-operated uplift retainers remain. Hand knobs/pins are studies, not selected hardware.
+- **Primary support for the raised 50° playfield is not defined/qualified in CURRENT.** Historical prop descriptions below do not establish a current mechanism. Clearance validation does not release unsupported service. No secondary safety strap is promoted and no anchor holes are added.
+- Optional ACC01 boards and cable zones add zero permanent hardpoints. Keep S1/S2/S3 and T1/T2/T3 unchanged; optional boards never enter the minimum BOM. The reference PF loop has sampled geometry evidence; a universal backbox fold harness remains HOLD.
+- SW02 drilling needs purchased hardware, scale-verified templates, a qualified clamped portable perpendicular guide and same-wood coupon. Wood species/grain/splitting and physical load/nudge qualification remain open. No CNC or manufacturing release.
+
+
 ## Purpose
 
 This repository contains the engineering source for a CNC-ready virtual pinball cabinet inspired by Williams WPC proportions. The project is intended to be reproducible, parametric, serviceable, future-proof, apartment-buildable, and safe to manufacture.

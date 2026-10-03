@@ -1,0 +1,15 @@
+{
+  "version": "V33.8",
+  "manufacturing_release": false,
+  "template_status": "REFERENCE_ONLY_NOT_RELEASED_FOR_DRILLING",
+  "source_register_sha256": "27580ec567f1a07a197ebcbf0911b7b8cb8d2d4a9bb8fd0bdb056605ea2467aa",
+  "scale": "SVG physical210\u00d7297 mm; print100%, verify100 mm horizontal and50 mm vertical bars",
+  "templates": [
+    "SW02-L-reference-template.svg",
+    "SW02-R-reference-template.svg"
+  ],
+  "guide": "Clamped commercial perpendicular portable drill guide, qualified on same wood; no precise freehand drilling",
+  "new_printed_jig_required": false,
+  "purchased_hardware_required": true,
+  "no_opposite_face_CNC": true
+}

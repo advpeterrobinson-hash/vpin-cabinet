@@ -1,0 +1,446 @@
+{
+  "pass": true,
+  "source_sha256": "7e7515a72cf1ce2a014672df21a658d640e4e5c62620fdbc37494edaaedb18ef",
+  "hardware_travel_reference_mm": [
+    -3,
+    3
+  ],
+  "physical_collision_threshold_bracket_mm": [
+    -2.8376333713531494,
+    -2.837632656097412
+  ],
+  "upper_glass_collision_threshold_bracket_mm": [
+    1.7811169624328613,
+    1.7811176776885986
+  ],
+  "one_mm_margin_threshold_bracket_mm": [
+    -1.9870755672454834,
+    -1.987074851989746
+  ],
+  "upper_one_mm_margin_threshold_bracket_mm": [
+    0.9691901206970215,
+    0.9691908359527588
+  ],
+  "geometric_common_height_setup_window_mm": [
+    -1.9,
+    0.9
+  ],
+  "nominal_pose_delta_mm": 0,
+  "nominal_play_slope_deg": 9.906669,
+  "user_selectable_slope": false,
+  "independent_L_R_twist_permitted": false,
+  "adjustment_condition": "Both retainers released; rear dowel fully seated. Adjust each support to equal contact with the accepted nominal M025 plane, then reset6-8mm retention engagement and stops. Window is a rigid-body common-height tolerance screen, not permission to change PLAY slope. Differential leveling takes up contact error only; no rigid-base twist.",
+  "physical_obstacles_include": "Actual CURRENT structures, closed main glass, installed matrix, display envelope, side button bodies/wire reserves. Front landings/retention excluded because pads/stops are the adjusted mechanism; rear cradle engagement is preserved by exact pivot rotation.",
+  "excluded_mechanism_names": [
+    "PF_SupportMountScrewL1",
+    "PF_SupportMountScrewR1",
+    "PF_SupportMountScrewL2",
+    "PF_SupportMountScrewR2",
+    "PF_SupportMountScrewL3",
+    "PF_SupportMountScrewR3",
+    "PF_OpenCradleL",
+    "PF_OpenCradleR",
+    "FrontLandingL_SideScrew1",
+    "FrontLandingL_SideScrew2",
+    "FrontLandingL_SideScrew3",
+    "FrontLandingL_SideScrew4",
+    "FrontLandingL_AdjusterInsert",
+    "FrontLandingL_AdjusterWasher",
+    "FrontLandingL_AdjusterLocknut",
+    "FrontLandingL_ContactPad",
+    "FrontLandingL_SwivelDisc",
+    "FrontLandingL_SwivelJoint",
+    "FrontLandingL_AdjusterStem",
+    "FrontLandingL_RetentionBolt",
+    "FrontLandingL_RetentionWasher",
+    "FrontLandingL_RetentionJamnut1",
+    "FrontLandingL_RetentionJamnut2",
+    "FrontLandingL_RetentionPushRing",
+    "FrontLandingR_SideScrew1",
+    "FrontLandingR_SideScrew2",
+    "FrontLandingR_SideScrew3",
+    "FrontLandingR_SideScrew4",
+    "FrontLandingR_AdjusterInsert",
+    "FrontLandingR_AdjusterWasher",
+    "FrontLandingR_AdjusterLocknut",
+    "FrontLandingR_ContactPad",
+    "FrontLandingR_SwivelDisc",
+    "FrontLandingR_SwivelJoint",
+    "FrontLandingR_AdjusterStem",
+    "FrontLandingR_RetentionBolt",
+    "FrontLandingR_RetentionWasher",
+    "FrontLandingR_RetentionJamnut1",
+    "FrontLandingR_RetentionJamnut2",
+    "FrontLandingR_RetentionPushRing",
+    "FrontLandingL_RetentionReceiver",
+    "FrontLandingR_RetentionReceiver",
+    "FrontLandingL_Block",
+    "FrontLandingR_Block"
+  ],
+  "baseline_undeclared_contacts": [],
+  "samples": [
+    {
+      "delta_mm": -3.0,
+      "rotation_from_nominal_deg": -0.21167981514150824,
+      "nearest_mm": 0.0,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "LeafButton_primary_L",
+      "hits": [
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_primary_L",
+          "volume_mm3": 4.288637365135868
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_primary_R",
+          "volume_mm3": 4.288637365135549
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_secondary_L",
+          "volume_mm3": 0.5480113673045414
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "LeafButton_secondary_R",
+          "volume_mm3": 0.5480113673044997
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonBodyServiceReserve_primary_L",
+          "volume_mm3": 4.288637365135868
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonBodyServiceReserve_primary_R",
+          "volume_mm3": 4.288637365135549
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonBodyServiceReserve_secondary_L",
+          "volume_mm3": 0.5480113673045414
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonBodyServiceReserve_secondary_R",
+          "volume_mm3": 0.5480113673044997
+        }
+      ]
+    },
+    {
+      "delta_mm": -2.75,
+      "rotation_from_nominal_deg": -0.19404980839129848,
+      "nearest_mm": 0.10302094747466277,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "LeafButton_primary_L",
+      "hits": []
+    },
+    {
+      "delta_mm": -2.5,
+      "rotation_from_nominal_deg": -0.1764179772272314,
+      "nearest_mm": 0.3969142204319189,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "LeafButton_primary_R",
+      "hits": []
+    },
+    {
+      "delta_mm": -2.25,
+      "rotation_from_nominal_deg": -0.15878432472283066,
+      "nearest_mm": 0.6908410821591073,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "LeafButton_primary_R",
+      "hits": []
+    },
+    {
+      "delta_mm": -2.0,
+      "rotation_from_nominal_deg": -0.14114885395377996,
+      "nearest_mm": 0.9848014545442284,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "LeafButton_primary_L",
+      "hits": []
+    },
+    {
+      "delta_mm": -1.75,
+      "rotation_from_nominal_deg": -0.12351156799769569,
+      "nearest_mm": 1.2787952594237384,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "LeafButton_primary_L",
+      "hits": []
+    },
+    {
+      "delta_mm": -1.5,
+      "rotation_from_nominal_deg": -0.10587246993401322,
+      "nearest_mm": 1.5728224185836501,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "LeafButton_primary_L",
+      "hits": []
+    },
+    {
+      "delta_mm": -1.25,
+      "rotation_from_nominal_deg": -0.08823156284444167,
+      "nearest_mm": 1.8668828537527853,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "LeafButton_primary_L",
+      "hits": []
+    },
+    {
+      "delta_mm": -1.0,
+      "rotation_from_nominal_deg": -0.07058884981239544,
+      "nearest_mm": 1.9999999999999964,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "SIDE_L",
+      "hits": []
+    },
+    {
+      "delta_mm": -0.75,
+      "rotation_from_nominal_deg": -0.052944333923448994,
+      "nearest_mm": 1.9999999999999964,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "SIDE_L",
+      "hits": []
+    },
+    {
+      "delta_mm": -0.5,
+      "rotation_from_nominal_deg": -0.035298018265109476,
+      "nearest_mm": 1.9999999999999964,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "SIDE_L",
+      "hits": []
+    },
+    {
+      "delta_mm": -0.25,
+      "rotation_from_nominal_deg": -0.0176499059268167,
+      "nearest_mm": 1.9999999999999964,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "SIDE_L",
+      "hits": []
+    },
+    {
+      "delta_mm": 0.0,
+      "rotation_from_nominal_deg": -5.684341886080802e-14,
+      "nearest_mm": 1.9999999999999964,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "SIDE_L",
+      "hits": []
+    },
+    {
+      "delta_mm": 0.25,
+      "rotation_from_nominal_deg": 0.017651696421978613,
+      "nearest_mm": 1.8854189135988604,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": []
+    },
+    {
+      "delta_mm": 0.5,
+      "rotation_from_nominal_deg": 0.035305180243710765,
+      "nearest_mm": 1.5776737630827715,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": []
+    },
+    {
+      "delta_mm": 0.75,
+      "rotation_from_nominal_deg": 0.05296044836796909,
+      "nearest_mm": 1.2698881479756026,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": []
+    },
+    {
+      "delta_mm": 1.0,
+      "rotation_from_nominal_deg": 0.07061749769542303,
+      "nearest_mm": 0.9620621487020697,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": []
+    },
+    {
+      "delta_mm": 1.25,
+      "rotation_from_nominal_deg": 0.08827632512480932,
+      "nearest_mm": 0.654195845745072,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": []
+    },
+    {
+      "delta_mm": 1.5,
+      "rotation_from_nominal_deg": 0.10593692755304573,
+      "nearest_mm": 0.3462893196445623,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": []
+    },
+    {
+      "delta_mm": 1.75,
+      "rotation_from_nominal_deg": 0.12359930187488999,
+      "nearest_mm": 0.038342651002537496,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": []
+    },
+    {
+      "delta_mm": 2.0,
+      "rotation_from_nominal_deg": 0.1412634449832808,
+      "nearest_mm": 0.0,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": [
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "CandidateGlass",
+          "volume_mm3": 8257.23051277977
+        }
+      ]
+    },
+    {
+      "delta_mm": 2.25,
+      "rotation_from_nominal_deg": 0.15892935376933792,
+      "nearest_mm": 0.0,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": [
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "CandidateGlass",
+          "volume_mm3": 33685.235789294245
+        }
+      ]
+    },
+    {
+      "delta_mm": 2.5,
+      "rotation_from_nominal_deg": 0.17659702512202102,
+      "nearest_mm": 0.0,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": [
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "CandidateGlass",
+          "volume_mm3": 71270.53193094546
+        }
+      ]
+    },
+    {
+      "delta_mm": 2.75,
+      "rotation_from_nominal_deg": 0.1942664559284708,
+      "nearest_mm": 0.0,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": [
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "CandidateGlass",
+          "volume_mm3": 117701.28846563531
+        }
+      ]
+    },
+    {
+      "delta_mm": 3.0,
+      "rotation_from_nominal_deg": 0.2119376430737816,
+      "nearest_mm": 0.0,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "CandidateGlass",
+      "hits": [
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "CandidateGlass",
+          "volume_mm3": 170769.6193865777
+        }
+      ]
+    }
+  ],
+  "continuous_certificate": {
+    "margin_mm": 1.0,
+    "intervals": [
+      [
+        -1.9,
+        -0.49999999999999994
+      ],
+      [
+        -0.49999999999999994,
+        0.9
+      ]
+    ],
+    "method": "OCC midpoint separation exceeds1mm plus conservative maximum point arc movement per interval;15mm broad search over <0.22deg covers all nearby pairs."
+  },
+  "button_tool_corridor_separate_screen": [
+    {
+      "delta_mm": -3,
+      "rotation_from_nominal_deg": -0.21167981514150824,
+      "nearest_mm": 0.0,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "ButtonToolServiceReserve_primary_L",
+      "hits": [
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonToolServiceReserve_primary_L",
+          "volume_mm3": 681.2278175029426
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonToolServiceReserve_primary_R",
+          "volume_mm3": 681.2278175029427
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonToolServiceReserve_secondary_L",
+          "volume_mm3": 629.3016994123511
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonToolServiceReserve_secondary_R",
+          "volume_mm3": 629.3016994123511
+        }
+      ]
+    },
+    {
+      "delta_mm": -1.9,
+      "rotation_from_nominal_deg": -0.134094157221341,
+      "nearest_mm": 0.0,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "ButtonToolServiceReserve_primary_L",
+      "hits": [
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonToolServiceReserve_primary_L",
+          "volume_mm3": 260.35952865522955
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonToolServiceReserve_primary_R",
+          "volume_mm3": 260.3595286552296
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonToolServiceReserve_secondary_L",
+          "volume_mm3": 235.87796959697135
+        },
+        {
+          "moving": "PLAYFIELD_ENVELOPE",
+          "fixed": "ButtonToolServiceReserve_secondary_R",
+          "volume_mm3": 235.8779695969713
+        }
+      ]
+    },
+    {
+      "delta_mm": 0,
+      "rotation_from_nominal_deg": -5.684341886080802e-14,
+      "nearest_mm": 0.8376814266818946,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "ButtonToolServiceReserve_primary_L",
+      "hits": []
+    },
+    {
+      "delta_mm": 3,
+      "rotation_from_nominal_deg": 0.2119376430737816,
+      "nearest_mm": 4.228235736935507,
+      "moving": "PLAYFIELD_ENVELOPE",
+      "fixed": "ButtonToolServiceReserve_secondary_L",
+      "hits": []
+    }
+  ],
+  "physical_qualification": "PENDING: real component envelopes/stock/deflection/coupon. Tool corridors can require moving/removing playfield and are not physical button bodies.",
+  "manufacturing_release": false
+}

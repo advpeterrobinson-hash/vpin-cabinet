@@ -1,0 +1,265 @@
+{
+  "before_unresolved": 13,
+  "exact_closed": 0,
+  "formula_driven": 6,
+  "included_in_assembly_unconditionally": 0,
+  "truly_tbd": 7,
+  "rows": [
+    {
+      "id": "F06",
+      "classification": "TRULY_TBD",
+      "quantity": null,
+      "formula": null,
+      "evidence": "Permanent shell/floor/cleat reinforcement schedule has no countable attachment geometry. Do not invent dense screws.",
+      "source": [
+        "CURRENT SIDE/FRONT/REAR/FLOOR/FLOOR_CLEAT interfaces"
+      ]
+    },
+    {
+      "id": "G01",
+      "classification": "TRULY_TBD",
+      "quantity": null,
+      "formula": null,
+      "evidence": "New decomposition glue lands are explicit; total cabinet adhesive still needs the complete approved glue-joint schedule and selected adhesive spread rate. Partial formula: sum(approved glue land m²) × vendor g/m² × waste factor / package grams.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F53",
+      "classification": "FORMULA_FROM_SELECTED_HARDWARE",
+      "quantity": null,
+      "formula": "1 * selected_keeper.mounting_hole_count - included_fasteners",
+      "evidence": "One main rear keeper; CURRENT reserve has no fastening holes. Count follows selected keeper, not its bounding box.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "W06",
+      "classification": "FORMULA_FROM_SELECTED_HARDWARE",
+      "quantity": null,
+      "formula": "sum(required_stack_items_for_2_pivots_and_6_floor_bolts) - matching_items_in_purchased_kits",
+      "evidence": "Purchased WPC stack must be itemized; included nuts/washers contribute zero additional purchase quantity. Inclusion is conditional, not assumed.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F16",
+      "classification": "TRULY_TBD",
+      "quantity": null,
+      "formula": null,
+      "evidence": "Backbox shell/frame/rail and cleat attachment schedule is still undefined. Decomposition glue does not define original attachment screw counts.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F18",
+      "classification": "FORMULA_FROM_SELECTED_HARDWARE",
+      "quantity": null,
+      "formula": "2 * (fixed_leaf_holes_used + moving_leaf_holes_used) - included_hinge_screws",
+      "evidence": "Two piano hinges; actual approved used-hole schedule and supplied contents must be known. No assumed hole pitch.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F19",
+      "classification": "TRULY_TBD",
+      "quantity": null,
+      "formula": null,
+      "evidence": "Two passive bolts are counted, but their screws, cam retention and astragal wood fixing schedule are mixed in this row and not completely specified.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F22",
+      "classification": "TRULY_TBD",
+      "quantity": null,
+      "formula": null,
+      "evidence": "Two intake assemblies exist; their serviceable attachment count is not modeled. The historical two-screw comment concerns an upper fan cover, not a complete low-intake fixing schedule.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F28",
+      "classification": "TRULY_TBD",
+      "quantity": null,
+      "formula": null,
+      "evidence": "Stop/cleat decomposition glue seams are defined, but original carrier-to-rail/stop/contact-pad attachment details are not all drilled.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F31",
+      "classification": "TRULY_TBD",
+      "quantity": null,
+      "formula": null,
+      "evidence": "No current insert/baffle attachment holes; four cassette bolts are already a different counted family, not insert fasteners.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F36",
+      "classification": "FORMULA_FROM_SELECTED_HARDWARE",
+      "quantity": null,
+      "formula": "sum(selected_side_channel.mounting_holes_used) + selected_lockdown_receiver.mounting_holes_used - included_fasteners",
+      "evidence": "Selected glass channel/lockdown interface and supplied contents determine count.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F38",
+      "classification": "FORMULA_FROM_SELECTED_HARDWARE",
+      "quantity": null,
+      "formula": "4 * selected_leg_backing.retention_holes_used - included_retention_screws",
+      "evidence": "Four backing interfaces; separate from primary leg bolts. Actual selected backing may have its own supplied set.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F39",
+      "classification": "FORMULA_FROM_SELECTED_HARDWARE",
+      "quantity": null,
+      "formula": "selected_front_door_frame.mounting_holes_used - included_frame_fasteners",
+      "evidence": "One selected front-door frame; no invented historical count.",
+      "source": [
+        "CURRENT V32 B-reps / owner V33 inventory instruction"
+      ]
+    },
+    {
+      "id": "F58",
+      "classification": "FORMULA_FROM_SELECTED_HARDWARE",
+      "formula": "2 * selected_floor_stations_per_side + 2 * selected_shelf_stations_per_side",
+      "reference_only_quantity": 16,
+      "quantity": null
+    },
+    {
+      "id": "F59",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 8,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "F60",
+      "classification": "RETIRED_FROM_CURRENT",
+      "quantity": 0,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC",
+      "reason": "SW02 solid blocks eliminate four binder screws"
+    },
+    {
+      "id": "F61",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 2,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "H27",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 2,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "I15",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 2,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "I16",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 2,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "I17",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 2,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "I18",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 4,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "W11",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 2,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "W12",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 2,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "B17",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 2,
+      "source": "config/front_landings_v3363.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "F62",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 4,
+      "quantity_by_variant": null,
+      "source": "config/underfront_user_module_v337.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "I19",
+      "classification": "EXACT_FROM_DESIGN",
+      "quantity": 4,
+      "quantity_by_variant": null,
+      "source": "config/underfront_user_module_v337.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "E15",
+      "classification": "USER_VARIANT_QUANTITY",
+      "quantity": null,
+      "quantity_by_variant": {
+        "UNDERFRONT_OWNER": 5,
+        "UNDERFRONT_BUTTON_ONLY": 6,
+        "UNDERFRONT_BLANK": 0
+      },
+      "source": "config/underfront_user_module_v337.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "E16",
+      "classification": "USER_VARIANT_QUANTITY",
+      "quantity": null,
+      "quantity_by_variant": {
+        "UNDERFRONT_OWNER": 1,
+        "UNDERFRONT_BUTTON_ONLY": 0,
+        "UNDERFRONT_BLANK": 0
+      },
+      "source": "config/underfront_user_module_v337.json",
+      "hardware_status": "PURCHASE_BEFORE_CNC"
+    }
+  ],
+  "version": "V33.8"
+}

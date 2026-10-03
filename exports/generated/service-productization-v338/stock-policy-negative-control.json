@@ -1,0 +1,70 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "Forbidden4mm plywood is rejected",
+      "injected_nominal_mm": 4,
+      "pass": true
+    },
+    {
+      "name": "Forbidden6mm plywood is rejected",
+      "injected_nominal_mm": 6,
+      "pass": true
+    },
+    {
+      "name": "Forbidden8mm plywood is rejected",
+      "injected_nominal_mm": 8,
+      "pass": true
+    },
+    {
+      "name": "Forbidden9mm plywood is rejected",
+      "injected_nominal_mm": 9,
+      "pass": true
+    },
+    {
+      "name": "Forbidden10mm plywood is rejected",
+      "injected_nominal_mm": 10,
+      "pass": true
+    },
+    {
+      "name": "Forbidden15mm plywood is rejected",
+      "injected_nominal_mm": 15,
+      "pass": true
+    },
+    {
+      "name": "Forbidden24mm plywood is rejected",
+      "injected_nominal_mm": 24,
+      "pass": true
+    },
+    {
+      "name": "Missing12mm active stock is rejected",
+      "pass": true
+    },
+    {
+      "name": "Forbidden plywood cannot hide behind solid-wood classification",
+      "pass": true
+    }
+  ],
+  "positive": {
+    "active_nominal_plywood_stock_mm": [
+      12,
+      18
+    ],
+    "plywood_pieces": 98,
+    "excluded_solid_wood_instances": [
+      "P029-Solid",
+      "P030-Solid",
+      "P031-Solid",
+      "P032-Solid",
+      "P095-Solid",
+      "P096-Solid"
+    ]
+  },
+  "method": "Deep-copy injection only; CURRENT/register rows unchanged",
+  "manufacturing_release": false,
+  "version": "V33.8",
+  "native_sha256": "c78a64794d4ac009e12986aa5adc03f936b5bbf95b84d0a4da35e2742f7c4c53",
+  "register_sha256": "27580ec567f1a07a197ebcbf0911b7b8cb8d2d4a9bb8fd0bdb056605ea2467aa",
+  "validator_sha256": "4ca00d06524c9dedf0627f9487101de52bdcbd438f91a9778f931ff6293b6fc0",
+  "policy_sha256": "950db3f79657d49e0213c0a4cc27805b7076a1c2f8859fb2a827d396931f5f32"
+}

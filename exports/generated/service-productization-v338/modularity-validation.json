@@ -1,0 +1,812 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "optional boards valid one-face12mm solids",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "optional boards clamps payloads clear current occupied geometry",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "optional modules preserve continuous0to50 PF clearance",
+      "pass": true,
+      "detail": {
+        "certified_intervals": 3
+      }
+    },
+    {
+      "name": "PF lift optional modules 0",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "PF lift optional modules 12",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "PF lift optional modules 24",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "PF lift optional modules 36",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "PF lift optional modules 48",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "100mm board lift after clamps removed AccessoryBoardS2Right",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "100mm board lift after clamps removed AccessoryBoardS3Left",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "shelf route no new obstruction SHELF_1",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "shelf route no new obstruction SHELF_2",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "shelf route no new obstruction SHELF_3",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "12 shelf fastener columns clear optional modules",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "low route zone SignalRoute",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "low route zone PowerRoute",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "PF400mm loop63sample states no interference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PF loop reference bend radius35mm",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no new permanent wood or holes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected source unchanged",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "source": "exports/generated/service-productization-v338/play.FCStd",
+  "source_sha256": "c78a64794d4ac009e12986aa5adc03f936b5bbf95b84d0a4da35e2742f7c4c53",
+  "config_sha256": "f8bd2404637fa995e89149963acd3db0e2f884ab30946a25a56a58b81fb02a86",
+  "permanent_holes_added": 0,
+  "minimum_bom_additions": 0,
+  "optional_family": "ACC01",
+  "optional_board_count": 2,
+  "optional_board_volume_mm3": {
+    "AccessoryBoardS2Right": 140852.60177631374,
+    "AccessoryBoardS3Left": 140852.60177631446
+  },
+  "optional_board_mass_650_kg": {
+    "AccessoryBoardS2Right": 0.09155419115460393,
+    "AccessoryBoardS3Left": 0.0915541911546044
+  },
+  "rows": {
+    "optional_installed": {
+      "collisions": [],
+      "nearest_nonbearing": [
+        6.0,
+        "AccessoryBoardS3Left",
+        "SimpleShelfBolt3L1Washer"
+      ]
+    },
+    "route_minimums": {
+      "SignalRoute": [
+        24.677081768799404,
+        "SignalRoute",
+        "FloorFanBoltL1"
+      ],
+      "PowerRoute": [
+        24.677081768799404,
+        "PowerRoute",
+        "FloorFanBoltR3"
+      ]
+    },
+    "playfield_loop": [
+      {
+        "state": "PLAY",
+        "angle_deg": 0,
+        "lift_mm": 0,
+        "length_mm": 399.9999999986626,
+        "minimum_bend_radius_mm": 39.26969864412152,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE50",
+        "angle_deg": 50,
+        "lift_mm": 0,
+        "length_mm": 399.99999999652005,
+        "minimum_bend_radius_mm": 137.4162523314801,
+        "collisions": []
+      },
+      {
+        "state": "LIFT48",
+        "angle_deg": 0,
+        "lift_mm": 48,
+        "length_mm": 400.00000000456237,
+        "minimum_bend_radius_mm": 68.94303385820528,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE1",
+        "angle_deg": 1,
+        "lift_mm": 0,
+        "length_mm": 400.0000000000431,
+        "minimum_bend_radius_mm": 40.291356618632896,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE2",
+        "angle_deg": 2,
+        "lift_mm": 0,
+        "length_mm": 400.00000000034714,
+        "minimum_bend_radius_mm": 41.34021919754328,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE3",
+        "angle_deg": 3,
+        "lift_mm": 0,
+        "length_mm": 399.9999999962853,
+        "minimum_bend_radius_mm": 42.416842529818986,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE4",
+        "angle_deg": 4,
+        "lift_mm": 0,
+        "length_mm": 399.9999999967538,
+        "minimum_bend_radius_mm": 43.52180519582068,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE5",
+        "angle_deg": 5,
+        "lift_mm": 0,
+        "length_mm": 399.99999999524135,
+        "minimum_bend_radius_mm": 44.65570936809008,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE6",
+        "angle_deg": 6,
+        "lift_mm": 0,
+        "length_mm": 400.0000000010912,
+        "minimum_bend_radius_mm": 45.79415127694129,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE7",
+        "angle_deg": 7,
+        "lift_mm": 0,
+        "length_mm": 399.99999999649293,
+        "minimum_bend_radius_mm": 46.95135527238065,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE8",
+        "angle_deg": 8,
+        "lift_mm": 0,
+        "length_mm": 399.9999999971086,
+        "minimum_bend_radius_mm": 48.139004969165015,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE9",
+        "angle_deg": 9,
+        "lift_mm": 0,
+        "length_mm": 399.9999999960504,
+        "minimum_bend_radius_mm": 49.35781162773616,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE10",
+        "angle_deg": 10,
+        "lift_mm": 0,
+        "length_mm": 400.0000000012164,
+        "minimum_bend_radius_mm": 50.60851704196812,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE11",
+        "angle_deg": 11,
+        "lift_mm": 0,
+        "length_mm": 400.00000000208775,
+        "minimum_bend_radius_mm": 51.89189526056026,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE12",
+        "angle_deg": 12,
+        "lift_mm": 0,
+        "length_mm": 399.9999999973365,
+        "minimum_bend_radius_mm": 53.20875441492445,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE13",
+        "angle_deg": 13,
+        "lift_mm": 0,
+        "length_mm": 399.9999999966142,
+        "minimum_bend_radius_mm": 54.55993868255704,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE14",
+        "angle_deg": 14,
+        "lift_mm": 0,
+        "length_mm": 399.99999999816254,
+        "minimum_bend_radius_mm": 55.94633039837579,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE15",
+        "angle_deg": 15,
+        "lift_mm": 0,
+        "length_mm": 399.9999999962954,
+        "minimum_bend_radius_mm": 57.368852311769274,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE16",
+        "angle_deg": 16,
+        "lift_mm": 0,
+        "length_mm": 399.9999999973551,
+        "minimum_bend_radius_mm": 58.828470006593754,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE17",
+        "angle_deg": 17,
+        "lift_mm": 0,
+        "length_mm": 400.0000000031197,
+        "minimum_bend_radius_mm": 60.32619451134393,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE18",
+        "angle_deg": 18,
+        "lift_mm": 0,
+        "length_mm": 400.00000000492287,
+        "minimum_bend_radius_mm": 61.860000626497396,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE19",
+        "angle_deg": 19,
+        "lift_mm": 0,
+        "length_mm": 399.99999999901615,
+        "minimum_bend_radius_mm": 63.39146326205539,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE20",
+        "angle_deg": 20,
+        "lift_mm": 0,
+        "length_mm": 400.00000000277225,
+        "minimum_bend_radius_mm": 64.96390518832264,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE21",
+        "angle_deg": 21,
+        "lift_mm": 0,
+        "length_mm": 400.00000000219853,
+        "minimum_bend_radius_mm": 66.57854858455303,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE22",
+        "angle_deg": 22,
+        "lift_mm": 0,
+        "length_mm": 400.0000000047378,
+        "minimum_bend_radius_mm": 68.23667727791602,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE23",
+        "angle_deg": 23,
+        "lift_mm": 0,
+        "length_mm": 399.9999999951472,
+        "minimum_bend_radius_mm": 69.93964084161226,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE24",
+        "angle_deg": 24,
+        "lift_mm": 0,
+        "length_mm": 399.99999999702936,
+        "minimum_bend_radius_mm": 71.68885898681182,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE25",
+        "angle_deg": 25,
+        "lift_mm": 0,
+        "length_mm": 400.0000000017432,
+        "minimum_bend_radius_mm": 73.48582637410857,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE26",
+        "angle_deg": 26,
+        "lift_mm": 0,
+        "length_mm": 399.9999999955724,
+        "minimum_bend_radius_mm": 75.33211779081977,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE27",
+        "angle_deg": 27,
+        "lift_mm": 0,
+        "length_mm": 400.0000000046421,
+        "minimum_bend_radius_mm": 77.22939376027604,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE28",
+        "angle_deg": 28,
+        "lift_mm": 0,
+        "length_mm": 399.9999999963448,
+        "minimum_bend_radius_mm": 79.14630954562776,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE29",
+        "angle_deg": 29,
+        "lift_mm": 0,
+        "length_mm": 399.99999999629466,
+        "minimum_bend_radius_mm": 81.0963199268906,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE30",
+        "angle_deg": 30,
+        "lift_mm": 0,
+        "length_mm": 399.99999999883363,
+        "minimum_bend_radius_mm": 83.10238389872676,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE31",
+        "angle_deg": 31,
+        "lift_mm": 0,
+        "length_mm": 400.00000000047146,
+        "minimum_bend_radius_mm": 85.16656774600712,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE32",
+        "angle_deg": 32,
+        "lift_mm": 0,
+        "length_mm": 400.0000000044217,
+        "minimum_bend_radius_mm": 87.29105987731108,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE33",
+        "angle_deg": 33,
+        "lift_mm": 0,
+        "length_mm": 400.0000000005409,
+        "minimum_bend_radius_mm": 89.47818029426449,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE34",
+        "angle_deg": 34,
+        "lift_mm": 0,
+        "length_mm": 399.99999999727237,
+        "minimum_bend_radius_mm": 91.73039093899493,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE35",
+        "angle_deg": 35,
+        "lift_mm": 0,
+        "length_mm": 399.9999999983256,
+        "minimum_bend_radius_mm": 94.04098901405051,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE36",
+        "angle_deg": 36,
+        "lift_mm": 0,
+        "length_mm": 400.000000001995,
+        "minimum_bend_radius_mm": 96.36877003024838,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE37",
+        "angle_deg": 37,
+        "lift_mm": 0,
+        "length_mm": 399.9999999994042,
+        "minimum_bend_radius_mm": 98.7694641794862,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE38",
+        "angle_deg": 38,
+        "lift_mm": 0,
+        "length_mm": 400.00000000217796,
+        "minimum_bend_radius_mm": 101.24621877607187,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE39",
+        "angle_deg": 39,
+        "lift_mm": 0,
+        "length_mm": 399.99999999958067,
+        "minimum_bend_radius_mm": 103.80239238201317,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE40",
+        "angle_deg": 40,
+        "lift_mm": 0,
+        "length_mm": 399.9999999998256,
+        "minimum_bend_radius_mm": 106.44157335870153,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE41",
+        "angle_deg": 41,
+        "lift_mm": 0,
+        "length_mm": 399.9999999964351,
+        "minimum_bend_radius_mm": 109.16222202509589,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE42",
+        "angle_deg": 42,
+        "lift_mm": 0,
+        "length_mm": 399.9999999964996,
+        "minimum_bend_radius_mm": 111.90850350884527,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE43",
+        "angle_deg": 43,
+        "lift_mm": 0,
+        "length_mm": 399.9999999993918,
+        "minimum_bend_radius_mm": 114.74955810813314,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE44",
+        "angle_deg": 44,
+        "lift_mm": 0,
+        "length_mm": 400.0000000034165,
+        "minimum_bend_radius_mm": 117.69011052856003,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE45",
+        "angle_deg": 45,
+        "lift_mm": 0,
+        "length_mm": 400.0000000003568,
+        "minimum_bend_radius_mm": 120.73524415203345,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE46",
+        "angle_deg": 46,
+        "lift_mm": 0,
+        "length_mm": 400.00000000186543,
+        "minimum_bend_radius_mm": 123.88843106827767,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE47",
+        "angle_deg": 47,
+        "lift_mm": 0,
+        "length_mm": 399.9999999989129,
+        "minimum_bend_radius_mm": 127.08080586247156,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE48",
+        "angle_deg": 48,
+        "lift_mm": 0,
+        "length_mm": 399.9999999978692,
+        "minimum_bend_radius_mm": 130.39486780576985,
+        "collisions": []
+      },
+      {
+        "state": "SERVICE49",
+        "angle_deg": 49,
+        "lift_mm": 0,
+        "length_mm": 399.9999999993305,
+        "minimum_bend_radius_mm": 133.83751960365626,
+        "collisions": []
+      },
+      {
+        "state": "LIFT4",
+        "angle_deg": 0,
+        "lift_mm": 4,
+        "length_mm": 400.0000000002912,
+        "minimum_bend_radius_mm": 41.20275502578384,
+        "collisions": []
+      },
+      {
+        "state": "LIFT8",
+        "angle_deg": 0,
+        "lift_mm": 8,
+        "length_mm": 400.00000000497414,
+        "minimum_bend_radius_mm": 43.22454416220544,
+        "collisions": []
+      },
+      {
+        "state": "LIFT12",
+        "angle_deg": 0,
+        "lift_mm": 12,
+        "length_mm": 400.00000000489445,
+        "minimum_bend_radius_mm": 45.3301968783129,
+        "collisions": []
+      },
+      {
+        "state": "LIFT16",
+        "angle_deg": 0,
+        "lift_mm": 16,
+        "length_mm": 400.00000000519196,
+        "minimum_bend_radius_mm": 47.47843083766315,
+        "collisions": []
+      },
+      {
+        "state": "LIFT20",
+        "angle_deg": 0,
+        "lift_mm": 20,
+        "length_mm": 399.99999999810893,
+        "minimum_bend_radius_mm": 49.73166346512274,
+        "collisions": []
+      },
+      {
+        "state": "LIFT24",
+        "angle_deg": 0,
+        "lift_mm": 24,
+        "length_mm": 399.99999999787735,
+        "minimum_bend_radius_mm": 52.09700047700912,
+        "collisions": []
+      },
+      {
+        "state": "LIFT28",
+        "angle_deg": 0,
+        "lift_mm": 28,
+        "length_mm": 400.0000000042365,
+        "minimum_bend_radius_mm": 54.582302164958335,
+        "collisions": []
+      },
+      {
+        "state": "LIFT32",
+        "angle_deg": 0,
+        "lift_mm": 32,
+        "length_mm": 399.9999999950573,
+        "minimum_bend_radius_mm": 57.196290758557886,
+        "collisions": []
+      },
+      {
+        "state": "LIFT36",
+        "angle_deg": 0,
+        "lift_mm": 36,
+        "length_mm": 400.0000000026185,
+        "minimum_bend_radius_mm": 59.948677226190775,
+        "collisions": []
+      },
+      {
+        "state": "LIFT40",
+        "angle_deg": 0,
+        "lift_mm": 40,
+        "length_mm": 399.99999999505167,
+        "minimum_bend_radius_mm": 62.81853430145341,
+        "collisions": []
+      },
+      {
+        "state": "LIFT44",
+        "angle_deg": 0,
+        "lift_mm": 44,
+        "length_mm": 399.99999999852963,
+        "minimum_bend_radius_mm": 65.79432949652761,
+        "collisions": []
+      }
+    ],
+    "backbox_loop": [
+      {
+        "angle_deg": 0,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "length_mm": 400.00000000436467,
+        "minimum_bend_radius_mm": 1000000000.0,
+        "collisions": []
+      },
+      {
+        "angle_deg": 0.25,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "length_mm": 399.999999999715,
+        "minimum_bend_radius_mm": 0.16561098237297514,
+        "collisions": []
+      },
+      {
+        "angle_deg": 0.5,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "length_mm": 399.9999999951661,
+        "minimum_bend_radius_mm": 0.05543938297820217,
+        "collisions": []
+      },
+      {
+        "angle_deg": 1,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "length_mm": 400.0000000051258,
+        "minimum_bend_radius_mm": 0.014115453541240879,
+        "collisions": []
+      },
+      {
+        "angle_deg": 2,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "length_mm": 400.00000000341214,
+        "minimum_bend_radius_mm": 0.011923821286884089,
+        "collisions": []
+      },
+      {
+        "angle_deg": 5,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "length_mm": 399.99999999397033,
+        "minimum_bend_radius_mm": 0.15986578912106422,
+        "collisions": []
+      },
+      {
+        "angle_deg": 10,
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "length_mm": 399.999999995855,
+        "minimum_bend_radius_mm": 0.3631179415816331,
+        "collisions": []
+      },
+      {
+        "angle_deg": 15,
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "length_mm": 399.9999999939122,
+        "minimum_bend_radius_mm": 0.9093373748388235,
+        "collisions": []
+      },
+      {
+        "angle_deg": 30,
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "length_mm": 399.99999999825855,
+        "minimum_bend_radius_mm": 4.750074389068636,
+        "collisions": [
+          {
+            "part": "BackboxMovingHarness",
+            "obstacle": "BACKBOX_BASE",
+            "mm3": 1050.5482590863367
+          }
+        ]
+      },
+      {
+        "angle_deg": 45,
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "length_mm": 400.0000000047657,
+        "minimum_bend_radius_mm": 13.209794902829875,
+        "collisions": []
+      },
+      {
+        "angle_deg": 60,
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "length_mm": 399.9999999954939,
+        "minimum_bend_radius_mm": 28.621194949068382,
+        "collisions": []
+      },
+      {
+        "angle_deg": 75,
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "length_mm": 399.9999999996793,
+        "minimum_bend_radius_mm": 53.23976254642149,
+        "collisions": [
+          {
+            "part": "BackboxMovingHarness",
+            "obstacle": "BB_Floor",
+            "mm3": 268.08257310632865
+          }
+        ]
+      },
+      {
+        "angle_deg": 90,
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "length_mm": 400.00000000107144,
+        "minimum_bend_radius_mm": 90.07717317640868,
+        "collisions": []
+      }
+    ],
+    "backbox_route_pass": false,
+    "backbox_route_hold": "No selected cable, continuous fold-loop routing, supported anchors or minimum bend radius demonstrated. Existing passage and carrier slots preserved; no connector/disconnect design."
+  },
+  "backbox_route_status": "HOLD_NO_VALIDATED_FOLD_HARNESS",
+  "manufacturing_release": false,
+  "limits": "C-clamp body and payload are provisional packaging; no purchased-hardware or impact-load rating. PF flexible loop uses63 sampled configurations, not a continuous flexible cable certificate. Backbox route trials do not release any connector or universal cable bend specification."
+}

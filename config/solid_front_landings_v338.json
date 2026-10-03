@@ -1,0 +1,47 @@
+{
+  "version": "V33.8",
+  "family_id": "SW02",
+  "manufacturing_class": "SHOP_MADE_SOLID_WOOD_PART",
+  "quantity": 2,
+  "finished_blank_dimensions_mm": [
+    68,
+    70,
+    54
+  ],
+  "dimension_authority": "Exact CURRENT V33.7 three-layer union extrema; current-landing-metrology.json",
+  "material": "Dry, stable, straight, knot-free structurally suitable solid wood; species, moisture and strength pending qualification",
+  "grain_direction": "Along68 mm inward/cantilever U/X direction; provisional structural orientation",
+  "density_kg_m3": [
+    500,
+    650,
+    850
+  ],
+  "density_status": "Illustrative LOW/NOMINAL/HIGH sensitivity; actual species/density unknown",
+  "shop_work": "Supply two square rectangular blanks; no plywood lamination, adhesive glue-up or binder screws",
+  "builder_work": "Scale-verified paper center templates plus a clamped commercial perpendicular portable drill guide and depth stops; top and inner-side manual drilling, no CNC setup",
+  "guide_status": "PURCHASE_BEFORE_ASSEMBLY / SAME_WOOD_COUPON_QUALIFICATION_REQUIRED",
+  "paper_template_status": "REFERENCE_ONLY_NOT_RELEASED_FOR_DRILLING",
+  "three_dimensional_printed_jig_required": false,
+  "unmeasured_fields": {
+    "selected_species": null,
+    "moisture_content": null,
+    "measured_density_kg_m3": null,
+    "actual_blank_dimensions_mm": null,
+    "selected_portable_guide": null,
+    "guide_clamp_reach": null,
+    "perpendicular_drilling_error_over68mm": null,
+    "selected_adjuster_insert_pilot_mm": null,
+    "selected_retention_clearance_mm": null,
+    "selected_side_screw_clearance_mm": null,
+    "selected_countersink_mm": null,
+    "same_wood_drilling_coupon_pass": null,
+    "splitting_and_load_qualification": null
+  },
+  "manufacturing_release": false,
+  "final_drilling_released": false,
+  "grain_rationale": "Align longitudinal wood direction with the landing cantilever span. Side screws use clearance bores and withdraw into plywood, not into SW02 end grain; no end-grain withdrawal strength is credited.",
+  "material_sources": [
+    "https://research.fs.usda.gov/download/treesearch/62244.pdf",
+    "https://research.fs.usda.gov/treesearch/62253"
+  ]
+}

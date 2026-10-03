@@ -1,0 +1,46 @@
+{
+  "version": "V33.8",
+  "authority": "Owner two-stock plywood requirement; manufacturing preparation only",
+  "allowed_nominal_plywood_stock_mm": [
+    12,
+    18
+  ],
+  "required_exact_active_plywood_stock_set_mm": [
+    12,
+    18
+  ],
+  "excluded_from_plywood_stock_set": [
+    "SW01",
+    "SW02"
+  ],
+  "solid_wood_policy": "SW01 leg blocks and SW02 landing blocks remain separately sourced solid wood, explicitly classified with nominal plywood thickness null; neither creates a plywood stock family.",
+  "measured_thickness_mm_by_nominal_stock": {
+    "12": null,
+    "18": null
+  },
+  "fit_clearance_mm_by_stock": {
+    "12": null,
+    "18": null
+  },
+  "coupon_required_per_actual_stock_and_fit": true,
+  "nominal_is_not_measured": true,
+  "machining": "ONE_FACE_ONLY",
+  "opposite_face_cnc_allowed": false,
+  "supplier_profile": "config/manufacturing/profiles/peter_supplier_v1.json",
+  "supplier_values_modified": false,
+  "premium_first": {
+    "first_attempt": "All compatible plywood pieces in premium stock",
+    "alternative": "Only a reviewed MODULAR_SECONDARY subset may use good secondary plywood if it avoids an otherwise additional premium sheet",
+    "automatic_structural_downgrade_allowed": false,
+    "small_parts": "Place converted 12 mm parts in suitable offcuts and sheet gaps before requesting additional stock; no unqualified holding or nesting claim"
+  },
+  "variant_quantity_policy": "One required installed underfront plate; alternative owner/generic layouts are interchangeable variants, never simultaneous additional required pieces.",
+  "release": false,
+  "remaining_gates": [
+    "actual production-lot thickness for both stocks",
+    "coupon and fit selection",
+    "purchased hardware and manual guide qualification",
+    "supplier CAM and full-sheet approval",
+    "remaining physical structural and ergonomic qualification"
+  ]
+}

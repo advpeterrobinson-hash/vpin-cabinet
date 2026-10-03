@@ -1,0 +1,119 @@
+{
+  "native_files": {
+    "PLAY": "play.FCStd",
+    "PF RELEASED": "released.FCStd",
+    "SERVICE": "service.FCStd",
+    "LIFT-OUT": "lift-out.FCStd",
+    "MATRIX REMOVED": "matrix-removed.FCStd",
+    "DOORS OPEN": "doors-open.FCStd",
+    "UNLOCKED": "locks-parked.FCStd",
+    "FOLD1": "fold-1.FCStd",
+    "FOLD45": "fold-45.FCStd",
+    "BACKBOX FOLD": "backbox-fold.FCStd",
+    "UNDERFRONT MODULE REMOVED": "module-removed.FCStd"
+  },
+  "source_sha256": "c78a64794d4ac009e12986aa5adc03f936b5bbf95b84d0a4da35e2742f7c4c53",
+  "manufacturing_release": false,
+  "state_transform_proofs": [
+    {
+      "state": "PF RELEASED",
+      "block": "FrontLandingL_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "PF RELEASED",
+      "block": "FrontLandingR_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "SERVICE",
+      "block": "FrontLandingL_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "SERVICE",
+      "block": "FrontLandingR_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "LIFT-OUT",
+      "block": "FrontLandingL_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "LIFT-OUT",
+      "block": "FrontLandingR_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "MATRIX REMOVED",
+      "block": "FrontLandingL_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "MATRIX REMOVED",
+      "block": "FrontLandingR_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "DOORS OPEN",
+      "block": "FrontLandingL_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "DOORS OPEN",
+      "block": "FrontLandingR_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "UNLOCKED",
+      "block": "FrontLandingL_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "UNLOCKED",
+      "block": "FrontLandingR_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "FOLD1",
+      "block": "FrontLandingL_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "FOLD1",
+      "block": "FrontLandingR_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "FOLD45",
+      "block": "FrontLandingL_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "FOLD45",
+      "block": "FrontLandingR_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "BACKBOX FOLD",
+      "block": "FrontLandingL_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "BACKBOX FOLD",
+      "block": "FrontLandingR_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "UNDERFRONT MODULE REMOVED",
+      "block": "FrontLandingL_Block",
+      "transform_difference_mm3": 0.0
+    },
+    {
+      "state": "UNDERFRONT MODULE REMOVED",
+      "block": "FrontLandingR_Block",
+      "transform_difference_mm3": 0.0
+    }
+  ]
+}

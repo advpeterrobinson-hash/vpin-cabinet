@@ -1,0 +1,71 @@
+{
+  "version": "V33.8",
+  "head_before": "cdd21333ca0382cd8e99f9a96872f994136306e5",
+  "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+  "output": "exports/generated/service-productization-v338",
+  "manufacturing_release": false,
+  "protected_source": "config/current_v32.json at HEAD BEFORE",
+  "solid_landings": {
+    "id": "SW02",
+    "count": 2,
+    "classification": "SHOP_MADE_SOLID_WOOD_PART",
+    "source_layers": [
+      "FrontLandingL_Layer1",
+      "FrontLandingL_Layer2",
+      "FrontLandingL_Layer3",
+      "FrontLandingR_Layer1",
+      "FrontLandingR_Layer2",
+      "FrontLandingR_Layer3"
+    ],
+    "remove_binder_holes_only": true,
+    "grain_preference_world_axis": "X",
+    "species": null,
+    "actual_density_kg_m3": null,
+    "final_hardware_drilling": null
+  },
+  "retention": {
+    "option_A": "Current captive M6 x100 hex bolt; tool operation",
+    "option_B": "Same captive metal bolt with commodity press-assembled fluted hand grip; hardware-specific captive grip, not loose friction cap",
+    "option_C": "Commercial ball-lock quick pin; current blind threaded receiver has no ball-lock shoulder; study only",
+    "head_diameter_candidates_mm": [
+      30,
+      35,
+      40
+    ],
+    "head_height_reference_mm": 21,
+    "final_sku": null,
+    "physical_grip_retention_qualified": false,
+    "play_nudge_qualification": false,
+    "selected_option": "A",
+    "selected_description": "Two existing captive M6 x100 tool-operated bolts; hand-knob and ball-lock-pin remain studies only",
+    "routine_tool_required": true
+  },
+  "adjustment": {
+    "mechanical_travel_reference_mm": [
+      -3,
+      3
+    ],
+    "play_slope_deg": 9.906669,
+    "permitted_use": "Setup/tolerance correction to accepted nominal pose only; not user angle selection",
+    "requested_clearance_margin_mm": 1,
+    "final_safe_range_mm": [
+      -1.9,
+      0.9
+    ],
+    "installed_differential_twist_allowed": false,
+    "range_authority": "exports/generated/service-productization-v338/adjustment-validation.json",
+    "minimum_modeled_clearance_mm": 1,
+    "safe_range_status": "GEOMETRIC_SETUP_WINDOW_ONLY; NOMINAL_POSE_UNCHANGED; PHYSICAL_QUALIFICATION_HOLD"
+  },
+  "allowed_plywood_stock_mm": [
+    18,
+    12
+  ],
+  "remaining_holds": [
+    "actual wood and plywood lot",
+    "coupon",
+    "purchased hardware dimensions",
+    "structural and ergonomic qualification",
+    "primary raised-playfield support definition and proof"
+  ]
+}

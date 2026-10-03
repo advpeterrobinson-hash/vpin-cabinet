@@ -1,0 +1,34 @@
+[
+  {
+    "image": "viewer-01-current.png",
+    "title": "Current V33.8 and primary service-support hold"
+  },
+  {
+    "image": "viewer-02-sw02.png",
+    "title": "SW02 supports and unchanged tool-operated retention"
+  },
+  {
+    "image": "viewer-03-sw02-assembly.png",
+    "title": "SW02 assembly framework"
+  },
+  {
+    "image": "viewer-04-modularity.png",
+    "title": "Optional boards, removable clamps and low route zones"
+  },
+  {
+    "image": "viewer-05-optional-assembly.png",
+    "title": "Optional schematic assembly, not delivered minimum"
+  },
+  {
+    "image": "viewer-06-service-hold.png",
+    "title": "50° geometric state; primary service-support unresolved"
+  },
+  {
+    "image": "viewer-07-packing.png",
+    "title": "104-piece minimum packing with SW02 shop blanks"
+  },
+  {
+    "image": "viewer-08-tablet.png",
+    "title": "Tablet optional study — PT-BR Accessible"
+  }
+]

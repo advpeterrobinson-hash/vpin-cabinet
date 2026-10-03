@@ -1,0 +1,17 @@
+{
+  "version": "V33.8",
+  "baseline_planning_config": "config/assembly_planning_v333.json",
+  "study_targets_kg": [
+    20,
+    25,
+    30
+  ],
+  "preferred_target_kg": 20,
+  "practical_handling_ceiling_kg": 25,
+  "selection_status": "PRELIMINARY_RECALCULATE_FROM_CURRENT_PIECES",
+  "reason": "Use a20 kg soft target to preserve an allowance below the25 kg practical handling ceiling; compare all20/25/30 kg candidates after SW02 replacement.",
+  "tradeoffs": "The mixed small-part bundle is taller/wider; total footprint and box volume are modestly larger. Physical packing, stack stability, protection and handling remain to qualify.",
+  "hardware_box_separate": true,
+  "glass_and_electronics_excluded": true,
+  "manufacturing_release": false
+}

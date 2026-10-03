@@ -1,3 +1,5 @@
+> CURRENT: [V33.8 — 22 native CAD reviews](../exports/generated/service-productization-v338/review.html). Physical qualification / full-sheet CNC blocked; primary raised-playfield support unresolved.
+
 > Entrega consolidada: [desenhoV32 com SSF Cleveland4.1 + subwoofer](CONSOLIDATED_DRAWING_V32.md). PDF/CAD/STEP eDXF nominal do piso;39 verificações,202 sólidos. Revisão de montagem, sem liberação CNC.
 
 > Etapa atual: [traseira definida funcionalmente](REAR_CLOSURE_STATUS_V32.md), com qualificação de ferragens pendente. Avanço para [chapa inferior e fixação dos filtros](FLOOR_DETAIL_V32.md): estudo separado, preserva todo o conjunto traseiro.

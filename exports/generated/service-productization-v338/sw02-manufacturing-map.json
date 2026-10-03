@@ -1,0 +1,14 @@
+{
+  "FrontLandingL_Block": {
+    "instance_id": "P095-Solid",
+    "assembly_id": "P095",
+    "manufacturing_part_id": "SW02",
+    "group": "PLAYFIELD_LANDINGS"
+  },
+  "FrontLandingR_Block": {
+    "instance_id": "P096-Solid",
+    "assembly_id": "P096",
+    "manufacturing_part_id": "SW02",
+    "group": "PLAYFIELD_LANDINGS"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "pass": true,
+  "scope": "Focused SW02 installed/detailed/delivered packing, optional module/route groups, 36-step clips, explicit primary-support hold, retained motion smoke, EN/PT and emulated touch. Broader unchanged UI inherits V33.7 hash evidence.",
+  "checks": [
+    {
+      "name": "current revision V33.8",
+      "pass": true
+    },
+    {
+      "name": "optional study defaults hidden",
+      "pass": true
+    },
+    {
+      "name": "22 independent visibility groups",
+      "pass": true
+    },
+    {
+      "name": "visible primary-support hold and safe setup screen",
+      "pass": true
+    },
+    {
+      "name": "SW02 canonical metadata / shop-made",
+      "pass": true
+    },
+    {
+      "name": "two solid landing blocks",
+      "pass": true
+    },
+    {
+      "name": "retired layers and binder screws absent",
+      "pass": true
+    },
+    {
+      "name": "real SW02 detailed pieces",
+      "pass": true
+    },
+    {
+      "name": "current nominal plywood 12/18 only",
+      "pass": true
+    },
+    {
+      "name": "retired F60 excluded detailed inventory",
+      "pass": true
+    },
+    {
+      "name": "all 36 manual steps have clips",
+      "pass": true
+    },
+    {
+      "name": "animation IDs unique",
+      "pass": true
+    },
+    {
+      "name": "SW02 preparation uses real finished members",
+      "pass": true
+    },
+    {
+      "name": "SW02 preparation honest schematic",
+      "pass": true
+    },
+    {
+      "name": "optional boards inspection",
+      "pass": true
+    },
+    {
+      "name": "two low route planning zones",
+      "pass": true
+    },
+    {
+      "name": "optional ACC01 metadata",
+      "pass": true
+    },
+    {
+      "name": "optional assembly reveals two study pieces",
+      "pass": true
+    },
+    {
+      "name": "optional assembly notes exclude minimum and preserve holds",
+      "pass": true
+    },
+    {
+      "name": "minimum identification does not include optional boards",
+      "pass": true
+    },
+    {
+      "name": "animated 50-degree pose primary support HOLD",
+      "pass": true
+    },
+    {
+      "name": "SW02 fixed during playfield opening",
+      "pass": true
+    },
+    {
+      "name": "preserved service endpoint service-pf-lift",
+      "pass": true
+    },
+    {
+      "name": "preserved service endpoint service-pf-close",
+      "pass": true
+    },
+    {
+      "name": "preserved service endpoint service-fold",
+      "pass": true
+    },
+    {
+      "name": "preserved service endpoint service-underfront",
+      "pass": true
+    },
+    {
+      "name": "104 minimum packing pieces shown exactly once",
+      "pass": true
+    },
+    {
+      "name": "optional boards absent all packing bundles",
+      "pass": true
+    },
+    {
+      "name": "SW02 delivered blanks use correct package coordinates and 54mm height",
+      "pass": true
+    },
+    {
+      "name": "PT-BR support hold",
+      "pass": true
+    },
+    {
+      "name": "PT-BR optional controls",
+      "pass": true
+    },
+    {
+      "name": "tablet touch controls 44px",
+      "pass": true
+    },
+    {
+      "name": "tablet optional play/pause",
+      "pass": true
+    },
+    {
+      "name": "tablet no overflow",
+      "pass": true
+    },
+    {
+      "name": "tablet playback and hold note do not overlap",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "offline no network",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "inherited broader V33.7 UI evidence",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "tablet_playback": "PASS_EMULATED_TOUCH_PHYSICAL_FPS_NOT_CERTIFIED",
+  "inherited": {
+    "path": "exports/generated/two-stock-user-module-v337/browser-validation.json",
+    "sha256": "9ed0920c0ca4bd814ac96a8e60b3a918e387d151aea67ed49e439b880819f01c"
+  },
+  "viewer_sha256": "5d24f038a49a174f21a51863335b59c57c17cfc1f06979b95aa1836b27fabbda"
+}

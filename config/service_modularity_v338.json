@@ -1,0 +1,189 @@
+{
+  "version": "V33.8",
+  "head_before": "cdd21333ca0382cd8e99f9a96872f994136306e5",
+  "source": "exports/generated/two-stock-user-module-v337/play.FCStd",
+  "output": "exports/generated/service-productization-v338",
+  "scope": "ISOLATED OPTIONAL MODULES AND CABLE PACKAGING; NO CURRENT GEOMETRY MUTATION",
+  "manufacturing_release": false,
+  "permanent_hardpoint_holes_added": 0,
+  "optional_board": {
+    "family": "ACC01",
+    "status": "OPTIONAL_STUDY_NOT_MINIMUM_FLATPACK",
+    "width_mm": 100,
+    "depth_mm": 120,
+    "nominal_stock_mm": 12,
+    "outer_radius_mm": 4,
+    "strain_slots_local_xywh_mm": [
+      [
+        40,
+        88,
+        6,
+        22
+      ],
+      [
+        74,
+        88,
+        6,
+        22
+      ]
+    ],
+    "slot_radius_mm": 3,
+    "samples": [
+      {
+        "name": "AccessoryBoardS2Right",
+        "shelf": "SHELF_2",
+        "origin_xyz_mm": [
+          430,
+          595,
+          192
+        ],
+        "clamp_x_mm": [
+          450,
+          510
+        ],
+        "clamp_edge": "REAR",
+        "clamp_edge_y_mm": 715
+      },
+      {
+        "name": "AccessoryBoardS3Left",
+        "shelf": "SHELF_3",
+        "origin_xyz_mm": [
+          60,
+          865,
+          252
+        ],
+        "clamp_x_mm": [
+          80,
+          140
+        ],
+        "clamp_edge": "FRONT",
+        "clamp_edge_y_mm": 865
+      }
+    ],
+    "clamps_per_board": 2,
+    "clamp_family": "Commodity screw C-clamp; 24 mm nominal jaw stack; envelope PROVISIONAL, exact throat/body/handle and vibration retention require physical selection",
+    "clamp_selected_sku": null,
+    "payload_capacity_kg": null,
+    "impact_toy_qualified": false,
+    "removal_policy": "Disconnect only the optional module if its selected harness needs it; remove clamps/board before independent shelf removal. Main PF 50-degree routine service remains connected."
+  },
+  "cable_grammar": {
+    "CABLE_PASSAGE": "Existing generic backbox passage only; no connector pattern",
+    "STRAIN_RELIEF_PAIR": {
+      "preferred_slot_mm": [
+        6,
+        22
+      ],
+      "radius_mm": 3,
+      "center_pitch_mm": 34,
+      "backbox_existing_exception_mm": [
+        6,
+        16
+      ],
+      "backbox_radius_mm": 3,
+      "underfront_existing_exception_mm": [
+        4,
+        12
+      ],
+      "underfront_radius_mm": 2,
+      "new_permanent_slots": 0
+    },
+    "SERVICE_LOOP_ANCHOR": "Removable mechanical clamp; selected cable cannot load its connector; no adhesive-only structural retention",
+    "POWER_ROUTE": "Right low corridor for ELV power planning. Mains stays in a separate protected enclosure/path; no wire sizing or electrical scheme.",
+    "SIGNAL_ROUTE": "Left low corridor; no routing through a mains compartment",
+    "MOVING_HARNESS_ROUTE": "Existing PF 400 mm loop and proposed generic backbox loop; connector type/count remain user configuration"
+  },
+  "route_zones": {
+    "SignalRoute": {
+      "points_mm": [
+        [
+          90,
+          300,
+          100
+        ],
+        [
+          90,
+          1100,
+          100
+        ]
+      ],
+      "radius_mm": 10
+    },
+    "PowerRoute": {
+      "points_mm": [
+        [
+          510,
+          300,
+          100
+        ],
+        [
+          510,
+          1100,
+          100
+        ]
+      ],
+      "radius_mm": 10
+    }
+  },
+  "playfield_loop": {
+    "length_mm": 400,
+    "radius_mm": 4,
+    "moving_local_xyz_mm": [
+      300,
+      877,
+      -20
+    ],
+    "fixed_xyz_mm": [
+      450,
+      900,
+      258
+    ],
+    "minimum_reference_bend_radius_mm": 35
+  },
+  "backbox_loop": {
+    "length_mm": 400,
+    "radius_mm": 4,
+    "fixed_aperture_xyz_mm": [
+      300,
+      1238,
+      596
+    ],
+    "moving_xyz_mm": [
+      300,
+      1238,
+      630
+    ],
+    "fixed_anchor_xyz_mm": [
+      300,
+      1260,
+      565
+    ],
+    "status": "PACKAGING_SEARCH_NOT_SELECTED_HARNESS"
+  },
+  "sources": [
+    {
+      "type": "OWNER_AUTHORITY",
+      "path": "Current V33.8 request; S/T preserved, optional boards, no mandatory electrical system"
+    },
+    {
+      "type": "CURRENT_GEOMETRY",
+      "path": "config/current_v32.json"
+    },
+    {
+      "type": "EXISTING_SERVICE",
+      "path": "exports/generated/playfield-rest-v3362/cable-study.json"
+    },
+    {
+      "type": "PRINCIPLE_ONLY",
+      "url": "https://www.tukkari.eu/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit",
+      "accessed": "2026-10-03",
+      "notes": "Dry-fit, modular service, documented assembly; no geometry copied."
+    },
+    {
+      "type": "AVAILABILITY_EXAMPLE_NOT_SELECTED",
+      "url": "https://www.vonder.com.br/produto/grampo_sargento_tipo_c_2_vonder/9120",
+      "accessed": "2026-10-03",
+      "documented": "Commodity C-clamp, 50 mm maximum opening. Other envelope dimensions below are provisional, not vendor CAD or released fit."
+    }
+  ]
+}

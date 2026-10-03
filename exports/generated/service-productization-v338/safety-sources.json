@@ -1,0 +1,31 @@
+{
+  "checked_date": "2026-10-03",
+  "sources": [
+    {
+      "id": "SPanset_lashing",
+      "url": "https://www.spanset.com/uploads/default/PIMTree/ins-lashing-id-en-ssid.pdf",
+      "authority": "Manufacturer operating instructions, English page 2",
+      "finding": "Manufacturer prohibits using its lashing equipment for stopping. Cargo-lashing capacity is not evidence for this drop-arrest role.",
+      "license": "Linked reference only; no vendor file/model copied",
+      "status": "REJECTED_FOR_GENERIC_CARGO_STRAP_SUBSTITUTION"
+    },
+    {
+      "id": "Ergodyne_3149",
+      "url": "https://www.ergodyne.com/squids-3149-tool-lanyard-xl-locking-carabiner-swivel-carabiner-80lbs.html",
+      "authority": "Manufacturer product page",
+      "finding": "Structure-attached tool tether, 36 kg maximum working capacity, fixed 1930 mm length, non-shock-absorbing webbing. Legitimate rated-product category; far too long for these direct cabinet routes. No shortening, knots or arbitrary buckle adaptation authorized.",
+      "license": "Linked reference only; no vendor model copied",
+      "status": "NOT_SELECTED"
+    },
+    {
+      "id": "Ergodyne_3149_certificate",
+      "url": "https://www.ergodyne.com/sites/default/files/2025-06/squids-3149-ansi-isea-121-2023-certificate-of-compliance.pdf",
+      "authority": "Manufacturer certificate",
+      "finding": "ANSI/ISEA 121-2023 Tool Lanyard, 80 lb /36.29 kg maximum capacity. Tool-tether compliance does not certify this cabinet or its plywood anchors.",
+      "license": "Linked reference only",
+      "status": "REFERENCE_ONLY"
+    }
+  ],
+  "selected_product": null,
+  "Brazil_supplier_or_stock_confirmed": false
+}

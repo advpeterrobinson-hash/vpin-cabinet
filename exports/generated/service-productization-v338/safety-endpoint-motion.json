@@ -1,0 +1,41 @@
+{
+  "diagnostic_only": true,
+  "sampled_opening_deg": [
+    0,
+    50,
+    1
+  ],
+  "sampled_lift_mm": [
+    0,
+    48,
+    4
+  ],
+  "not_continuous_proof": true,
+  "all_installed_anchor_and_stow_hardware_unselected": true,
+  "candidates": [
+    {
+      "route_id": "L-M300-F300Z100",
+      "sample_count": 64,
+      "hits": [],
+      "pass": true
+    },
+    {
+      "route_id": "L-M300-F1100Z550",
+      "sample_count": 64,
+      "hits": [],
+      "pass": true
+    },
+    {
+      "route_id": "L-M1060-F1100Z420",
+      "sample_count": 64,
+      "hits": [],
+      "pass": true
+    },
+    {
+      "route_id": "L-M1060-F300Z100",
+      "sample_count": 64,
+      "hits": [],
+      "pass": true
+    }
+  ]
+}

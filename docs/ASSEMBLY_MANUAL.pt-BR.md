@@ -1,4 +1,4 @@
-# Manual de montagem — V33.7
+# Manual de montagem — V33.8
 
 **SOMENTE PREPARAÇÃO — CNC BLOQUEADO**
 
@@ -22,11 +22,11 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Leia o perfil do fornecedor e identifique o lote de produção. Não corte chapas completas antes da aprovação da espessura real, folga do cupom e interfaces das ferragens. A compra de compensado CURRENT usa somente chapas nominais 12 mm e18 mm. Meça cada lote real e valide o cupom de encaixe antes da liberação. Trechos acabados podem ser mais finos após bolso/redução documentado pela FACE_A; isso não cria família de compra 6/8 mm. A moldura do backglass mantém deliberadamente alma acabada 6 mm por redução de uma face da chapa 12 mm, preservando a folga vidro/monitor. Blocos de perna SW 01 continuam em madeira maciça separada, não são exceção de chapa.
+Leia o perfil do fornecedor e identifique o lote de produção. Não corte chapas completas antes da aprovação da espessura real, folga do cupom e interfaces das ferragens. A compra de compensado CURRENT usa somente chapas nominais 12 mm e 18 mm. Meça cada lote real e valide o cupom de encaixe antes da liberação. Trechos acabados podem ser mais finos após bolso/redução documentado pela FACE_A; isso não cria família de compra 6/8 mm. A moldura do backglass mantém deliberadamente alma acabada 6 mm por redução de uma face da chapa 12 mm, preservando a folga vidro/monitor. Blocos de perna SW 01 continuam em madeira maciça separada, não são exceção de chapa.
 
 Registre o lote medido, resultado do cupom e ferragens escolhidas; valores não resolvidos permanecem PENDENTES.
 
-VALIDAÇÃO FÍSICA AINDA NECESSÁRIA: reguladores, insertos, retenção, parafusos de montagem, compensado real/massa do monitor, cupom e ensaios de carga/vibração. Geometria de referência não libera dimensões das ferragens compradas nem CNC. Não trabalhe sob o playfield levantado sem apoio.
+PENDÊNCIA OPERACIONAL: não trabalhe sob o playfield elevado até definir apoio primário independente qualificado. Nenhuma cinta de segurança foi promovida. Cintas secundárias nunca substituem o apoio principal nem definem o ângulo de serviço. Ferragens/material/carga/cupom e CNC continuam bloqueados.
 
 Viewer: PLAY · animation assembly-00.1
 
@@ -118,7 +118,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 REFERÊNCIA A DE MARCENARIA: face diagonal. Batente SUPERIOR é referência B. Sem CNC e sem pilha de compensado.
 
-Encomende SW 01 ×4 de madeira maciça seca, reta, estável e sem nós: material quadrado 54×54×126 mm, depois corte longitudinal 45° para a seção triangular aceita. Confira dimensões/esquadro; posicione FL/FR/RL/RR nos referenciais documentados. Antes de instalar FLOOR, PC_BASE ou SHELF_1, encaixe o gabarito na diagonal/topo, prenda, fure somente com parâmetros fisicamente qualificados e teste a chapa e parafusos reais. Mantenha apoio temporário.
+Encomende SW 01 × 4 de madeira maciça seca, reta, estável e sem nós: material quadrado 54× 54× 126 mm, depois corte longitudinal 45° para a seção triangular aceita. Confira dimensões/esquadro; posicione FL/FR/RL/RR nos referenciais documentados. Antes de instalar FLOOR, PC_BASE ou SHELF_1, encaixe o gabarito na diagonal/topo, prenda, fure somente com parâmetros fisicamente qualificados e teste a chapa e parafusos reais. Mantenha apoio temporário.
 
 PENDENTE: passo/diâmetro/profundidade reais, envelope da furadeira/grampos, registro impresso e furo de teste.58 mm versus 57,15 mm continua pendente. Não fure através das prateleiras/piso montados; proteja saída e superfícies vizinhas.
 
@@ -144,7 +144,7 @@ Após qualificar SW 01 no passo 02.0, apoie SideL numa superfície plana. Encaix
 
 VERIFICAÇÃO DO ESQUADRO: compare diagonais e assentamento em uma referência plana. Nenhuma tolerância numérica foi liberada.
 
-CNC BLOQUEADO. Qualificar material real, cupom, gabarito e ferragens selecionadas.
+CNC BLOQUEADO. Qualificar material real, cupom, gabarito e ferragens selecionadas. PENDÊNCIA DE DATUM NO AJUSTE SECO: eixos dos suportes/berços coincidem com referências laterais. Fixações dos guias T não têm pilotos correspondentes na lateral; sarrafos de trilhos/dobradiças do backbox precisam de gabaritos de posição qualificados. Reforço F06 da caixa capturada permanece indefinido. Não exija que o construtor invente essas posições permanentes.
 
 Viewer: EXPLODED OVERVIEW · animation assembly-02.1
 
@@ -270,21 +270,21 @@ VALIDAÇÃO FÍSICA AINDA NECESSÁRIA: reguladores, insertos, retenção, parafu
 
 Viewer: EXPLODED DETAILED · animation assembly-05.1
 
-### 05.2 — Instale os corpos dos apoios e os conjuntos reguladores
+### 05.2 — Revise interfaces e pendências dos apoios frontais
 
 PROVISIONAL_HARDWARE
 
-Parts / Peças: P095-Layer1, P095-Layer2, P095-Layer3, P096-Layer1, P096-Layer2, P096-Layer3
+Parts / Peças: P095-Solid, P096-Solid
 
-Hardware / Ferragens: F59, F60, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
+Hardware / Ferragens: F59, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
 
 X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
 
 Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitador somente para as ferragens/acabamentos listados.
 
-FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
+TOPO A / INTERNA B / FRENTE DE MARCENARIA — SEM CNC. Gabarito do lado correto mais guia portátil qualificada de 90° grampeada e limitador de profundidade.
 
-Identifique peças reais e orientação pelas fichas FACE A. Monte os apoios frontais nas referências CURRENT das laterais, após a zona de botões/serviço. Cole as três lâminas entre si e fixe-as com os dois parafusos de laminação especificados. Monte cada corpo pronto com quatro parafusos positivos na lateral; não cole o corpo na parede nem dependa de atrito. Instale receptores metálicos roscados, reguladores, contraporcas e pontas substituíveis. Os furos cegos dos receptores metálicos em M025 são PURCHASE_BEFORE_CNC / acabamento manual dependente da ferragem, não furos já fornecidos; use uma guia rígida qualificada para o ângulo de 9,906669° em relação à normal da placa e limitador de profundidade. Qualifique furo real, ponta da broca e pele superior intacta em cupom;11,3 mm de referência é limite de ocupação, não instrução de furação. Nunca rosqueie retenção estrutural repetitiva diretamente no compensado. Inclua a espessura da ponta na altura nominal. Preserve substituição e não acrescente calços nem sapatas em T1.
+Prepare os dois corpos maciços SW02 de marcenaria conforme etapa 06.0. Não há laminação, parafuso de união ou colagem à lateral. Preserve os oito parafusos laterais e interfaces M8/M6 qualificadas. Não instale nem fure antes de qualificar ferragens compradas, madeira e guia/cupom.
 
 Verifique apoio integral na lateral, engate de parafusos/receptores, ausência de perfuração externa, acesso a botões/fios/ferramentas e folgas ao plunger, S1, pernas e serviço frontal. Dimensões compradas continuam PENDENTES.
 
@@ -295,6 +295,28 @@ Viewer: PLAYFIELD LANDINGS · animation assembly-05.2
 <a id="stage-06"></a>
 
 ## 06 — Base do playfield, cavilha e abraçadeiras
+
+### 06.0 — Prepare e instale os blocos maciços SW02
+
+WAITING_FOR_PHYSICAL_MEASUREMENT
+
+Parts / Peças: P095-Solid, P096-Solid
+
+Hardware / Ferragens: F59, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
+
+X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
+
+Chave compacta para o parafuso de retenção M6 sextavado (referência 10 mm entre faces); tamanho/acesso finais dependem da ferragem comprada. Chaves do regulador e contraporca também dependem da família M8 selecionada.
+
+DATUM DE MARCENARIA: faces lateral/traseira/superior esquadrejadas no desenho SW02. Sem chapa CNC ou laminação. Use gabarito de centros em papel 1:1 do lado correto apenas com barra de escala conferida e guia 90° qualificada e grampeada.
+
+Encomende dois blocos de madeira maciça seca, estável, reta e sem nós na especificação real 68 × 70 × 54 mm. Confira esquadro e direção das fibras. O corpo de marcenaria reproduz a união externa/de contato aceita; furos antigos de união são preenchidos porque não há laminação. Fure somente após escolher inserto M8, caminho de retenção M6 e parafusos laterais reais. Grampeie guia qualificada e use limitadores; sem furação precisa à mão livre. Preserve oito parafusos laterais, reguladores M8 e retenção M6 cativa originais. Quatro F60 e toda colagem de lâminas são eliminados. Não cole o apoio removível à lateral do gabinete.
+
+Confira gabarito SW02 do lado correto e datum de contato inalterado X72/X528, Y245; verifique contato lateral pleno e furos selecionados antes de instalar. O gabarito não libera furação sem ferragens reais e qualificação do cupom/guia.
+
+PENDÊNCIA OPERACIONAL: não trabalhe sob o playfield elevado até definir apoio primário independente qualificado. Nenhuma cinta de segurança foi promovida. Cintas secundárias nunca substituem o apoio principal nem definem o ângulo de serviço. Ferragens/material/carga/cupom e CNC continuam bloqueados.
+
+Viewer: PLAYFIELD LANDINGS · animation assembly-06.0
 
 ### 06.1 — Prenda a cavilha de madeira
 
@@ -310,11 +332,11 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT com alívio limpo aberto até a borda frontal: laterais retas recuadas e retorno arredondado à largura total, sem ponta, ponte frontal ou gancho. Mantenha a janela traseira V33.6 de 180 × 110 mm R8 e dois rasgos para alívio de tração. Preserve região de carga VESA, cavilha, quatro abraçadeiras e oito coordenadas F02. A folga é derivada das reservas frontais de corpo leaf, terminais, fios e ferramenta. Não mova os botões para acomodar a madeira. Ferragens finais do monitor/botões e qualificação de rigidez permanecem PENDENTES. O alívio V33.6.2 solicitado avança mais 30 mm para dentro em CADA lateral: recuo total 52 mm, largura frontal restante 396 mm, comprimento 87 mm e transiçãoR 8 mantidos. Os botões permanecem emY 89/Y127,65 mm abaixo do topo local. Janela traseira, rasgos de alívio de tração, região VESA, cavilha e abraçadeiras permanecem iguais.
+Prenda a cavilha de madeira Ø 32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT com alívio limpo aberto até a borda frontal: laterais retas recuadas e retorno arredondado à largura total, sem ponta, ponte frontal ou gancho. Mantenha a janela traseira V33.6 de 180 × 110 mm R8 e dois rasgos para alívio de tração. Preserve região de carga VESA, cavilha, quatro abraçadeiras e oito coordenadas F02. A folga é derivada das reservas frontais de corpo leaf, terminais, fios e ferramenta. Não mova os botões para acomodar a madeira. Ferragens finais do monitor/botões e qualificação de rigidez permanecem PENDENTES. O alívio V33.6.2 solicitado avança mais 30 mm para dentro em CADA lateral: recuo total 52 mm, largura frontal restante 396 mm, comprimento 87 mm e transiçãoR 8 mantidos. Os botões permanecem emY 89/Y127,65 mm abaixo do topo local. Janela traseira, rasgos de alívio de tração, região VESA, cavilha e abraçadeiras permanecem iguais.
 
 Confira assentamento das abraçadeiras, engate dos parafusos e ausência de rachaduras após validar as abraçadeiras/material.
 
-VALIDAÇÃO FÍSICA AINDA NECESSÁRIA: reguladores, insertos, retenção, parafusos de montagem, compensado real/massa do monitor, cupom e ensaios de carga/vibração. Geometria de referência não libera dimensões das ferragens compradas nem CNC. Não trabalhe sob o playfield levantado sem apoio.
+PENDÊNCIA OPERACIONAL: não trabalhe sob o playfield elevado até definir apoio primário independente qualificado. Nenhuma cinta de segurança foi promovida. Cintas secundárias nunca substituem o apoio principal nem definem o ângulo de serviço. Ferragens/material/carga/cupom e CNC continuam bloqueados.
 
 Viewer: PLAYFIELD LIFT-OUT · animation assembly-06.1
 
@@ -322,9 +344,9 @@ Viewer: PLAYFIELD LIFT-OUT · animation assembly-06.1
 
 WAITING_FOR_PHYSICAL_MEASUREMENT
 
-Parts / Peças: P034-Main, P095-Layer1, P095-Layer2, P095-Layer3, P096-Layer1, P096-Layer2, P096-Layer3
+Parts / Peças: P034-Main, P095-Solid, P096-Solid
 
-Hardware / Ferragens: F02, H01, B01, F59, F60, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
+Hardware / Ferragens: F02, H01, B01, F59, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
 
 X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
 
@@ -332,11 +354,11 @@ Chave compacta para o parafuso de retenção M6 sextavado (referência 10 mm ent
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Remova o vidro principal e a matriz. Solte as duas retenções cativas da posição fechada até os limites de estacionamento documentados; mantenha os corpos dos apoios frontais instalados. Sustente o módulo ao assentar as duas pontas da cavilha Ø32 nos berços traseiros e depois abaixe a frente sobre os dois contatos resilientes reguláveis. Cavilha/berços definem o eixo de apoio traseiro; os apoios frontais levam a carga às laterais estruturais. T1/T2/T3 são travessas estruturais do gabinete, com folga intencional de aproximadamente 22 mm normal à base; nenhuma é apoio do playfield. Mantenha recuos frontais 52 mm, comprimento 87 mm, transiçõesR 8 e largura frontal 396 mm. Ajuste CURRENT: centros das pontas X72 / X528, Y245 mm; eixos de retenção 30 mm atrás. Cada corpo tem 3 ×18 mm nominais. Curso M8±3 mm de compensação de tolerâncias para reproduzir a posição PLAY inalterada de 9,906669°, incluindo ponta de 3 mm. Retenção recua 10.5 mm após desrosquear. São valores de referência de ocupação, não dimensões de usinagem compradas.
+Remova o vidro principal e a matriz. Com o conjunto sustentado independentemente, solte os dois retentores cativos até a posição liberada. Assente completamente as pontas da cavilha de madeira Ø 32 nos berços traseiros e abaixe nos apoios frontais X72/X528, Y245. Blocos maciços SW02 substituem os antigos corpos laminados sem mover o envelope de contato. T1/T2/T3 continuam intencionalmente livres e não apoiam o playfield. Preserve recuo 52 mm, comprimento 87 mm, transições R8 e largura frontal 396 mm. A liberação mantém curso de referência 10,5 mm após desrosquear; a pilha real comprada continua pendente.
 
 VERIFICAÇÃO DO APOIO TRASEIRO / CONTATO FRONTAL: ambas as pontas da cavilha assentadas; ambos os contatos frontais carregados, sem balanço. Nenhuma carga no vidro, lockdown, botões, eletrônica, cabo ou T1/T2/T3. Sustente externamente até qualificar ferragens/madeira.
 
-VALIDAÇÃO FÍSICA AINDA NECESSÁRIA: reguladores, insertos, retenção, parafusos de montagem, compensado real/massa do monitor, cupom e ensaios de carga/vibração. Geometria de referência não libera dimensões das ferragens compradas nem CNC. Não trabalhe sob o playfield levantado sem apoio.
+PENDÊNCIA OPERACIONAL: não trabalhe sob o playfield elevado até definir apoio primário independente qualificado. Nenhuma cinta de segurança foi promovida. Cintas secundárias nunca substituem o apoio principal nem definem o ângulo de serviço. Ferragens/material/carga/cupom e CNC continuam bloqueados.
 
 Viewer: SUPPORT LOAD PATH · animation assembly-06.2
 
@@ -344,9 +366,9 @@ Viewer: SUPPORT LOAD PATH · animation assembly-06.2
 
 PROVISIONAL_HARDWARE
 
-Parts / Peças: P095-Layer1, P095-Layer2, P095-Layer3, P096-Layer1, P096-Layer2, P096-Layer3
+Parts / Peças: P095-Solid, P096-Solid
 
-Hardware / Ferragens: F59, F60, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
+Hardware / Ferragens: F59, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
 
 X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
 
@@ -354,11 +376,11 @@ Chave compacta para o parafuso de retenção M6 sextavado (referência 10 mm ent
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Mantenha ambas as retenções soltas durante o ajuste. Inicie os reguladores na altura nominal do CAD. Com a cavilha traseira assentada, ajuste esquerda/direita para a mesma altura transversal e mantenha a inclinação longitudinal CURRENT de 9,906669°. O curso±3 mm compensa apenas tolerâncias de ferragens/material; não autoriza nova altura, inclinação ou torção transversal. A posição inteira rebaixada−3 mm colide com os envelopes dos botões e é proibida. Inclua ambas as pontas e reproduza a posição nominal exata. Trave as contraporcas e reajuste cada batente de retenção para engate de referência 7 mm, dentro dos limites 6–8 mm qualificados na ferragem comprada. Abra a porta frontal de moedas na posição de serviço validada de 110°. Alcance as duas cabeças de retenção por essa abertura com a chave compacta; não é necessário remover eletrônica. Use a chave para engatar os dois parafusos sextavados cativos da família M6 nos receptores metálicos sem retirar a base dos apoios. As retenções resistem à elevação/vibração e não substituem o apoio vertical. Confira folgas do vidro/lockdown. Para abrir, remova vidro principal/matriz, sustente o módulo, solte/estacione as duas retenções e gire até 50°. Abertura normal não remove os apoios. Para retirada completa, deixe as retenções soltas e eleve o módulo 48 mm para liberar os berços.
+Reproduza a posição PLAY inalterada de 9,906669° com cavilha traseira totalmente assentada e mesma altura frontal esquerda/direita. O curso mecânico continua ±3 mm, mas o teste geométrico instalado de altura comum valida somente−1,9 a+0,9 mm em torno da referência, com folga exigida 1 mm. É teste de ajuste/tolerância, não seleção de inclinação nem permissão de torção esquerda/direita. −3 mm atinge o envelope dos botões; +3 mm atinge o vidro principal. Após ajuste qualificado, trave as contraporcas e redefina o batente M6 para o engate qualificado; referência 7 mm não é profundidade de inserto selecionado. Abra a porta de moedas e use chave compacta para engatar ambos os parafusos sextavados cativos M6 × 100 originais. Manípulo e pino rápido não foram selecionados. Retentores resistem à elevação/vibração, sem substituir apoio nos contatos. Antes de abrir/remover, forneça apoio primário independente qualificado e solte/estacione os retentores. Trajetos modelados 0–50° e 48 mm são somente folgas geométricas: CURRENT não tem apoio primário definido/comprovado em 50°.
 
-VERIFICAÇÃO DE NÍVEL / RETENÇÃO: nível transversal, inclinação longitudinal correta, contraporcas travadas, retenções engatadas e ausência de balanço. Teste soltura, separação inicial limpa, serviço 50° e retirada 48 mm com manuseio controlado. Não permita queda nem suponha retenção por atrito do pivô.
+VERIFICAÇÃO FECHADA: traseira assentada, dois contatos apoiados, travessas livres e retentores cativos engatados. TESTE DE AJUSTE: limite−1,9/+0,9 mm apenas para reproduzir a posição nominal exigida; tolerâncias compradas e nivelamento diferencial exigem verificação física. APOIO PRIMÁRIO DE SERVIÇO PENDENTE antes de elevar.
 
-VALIDAÇÃO FÍSICA AINDA NECESSÁRIA: reguladores, insertos, retenção, parafusos de montagem, compensado real/massa do monitor, cupom e ensaios de carga/vibração. Geometria de referência não libera dimensões das ferragens compradas nem CNC. Não trabalhe sob o playfield levantado sem apoio.
+PENDÊNCIA OPERACIONAL: não trabalhe sob o playfield elevado até definir apoio primário independente qualificado. Nenhuma cinta de segurança foi promovida. Cintas secundárias nunca substituem o apoio principal nem definem o ângulo de serviço. Ferragens/material/carga/cupom e CNC continuam bloqueados.
 
 Viewer: PLAYFIELD LANDINGS · animation assembly-06.3
 
@@ -428,7 +450,7 @@ Identifique o FLOOR / M005 estrutural existente 18 mm com alojamento inferior lo
 
 VERIFICAÇÃO DE RETENÇÃO / SERVIÇO: as quatro fixações seguram positivamente a placa; não deixe ferragens soltas caírem. Confira acesso inferior da ferramenta, alcance dos controles e folgas à frente, porta de moedas, plunger, pernas, playfield e seus apoios. Sustente a placa na retirada; solte as quatro fixações e siga o trajeto documentado. Flexão/desconexão de cabo depende das ferragens; não é instrução elétrica validada.
 
-HARDWARE_PENDING / COMPRAR ANTES DO CNC: BUTTON_BORE_MM=null; USB_CUTOUT=null. Referências conflitantes do vendedor são evidências de ocupação, não dimensões selecionadas. O antigo esquema 220×55 com funções fixas é somente histórico.
+HARDWARE_PENDING / COMPRAR ANTES DO CNC: BUTTON_BORE_MM=null; USB_CUTOUT=null. Referências conflitantes do vendedor são evidências de ocupação, não dimensões selecionadas. O antigo esquema 220× 55 com funções fixas é somente histórico.
 
 Viewer: UNDERFRONT USER MODULE · animation assembly-07.3
 
@@ -498,7 +520,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Mantenha H11 ×2 em L X130/Y1260 e R X470/Y1260 com receptores metálicos apoiados na prateleira, retenção contra perda, tirantes e alojamentos de estacionamento. Os detalhes exatos dos manípulos/receptores continuam provisórios.
+Mantenha H11 × 2 em L X130/Y1260 e R X470/Y1260 com receptores metálicos apoiados na prateleira, retenção contra perda, tirantes e alojamentos de estacionamento. Os detalhes exatos dos manípulos/receptores continuam provisórios.
 
 VERIFICAÇÃO DAS TRAVAS: o fundo se apoia amplamente na prateleira; os dois apertos independentes engatam e podem ser soltos/guardados pelas portas traseiras abertas com o cassete instalado.
 
@@ -574,7 +596,7 @@ FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; ace
 
 Monte cada defletor com sua face, topo e duas laterais, usando as quatro peças reais. Mantenha aberta a saída inferior e os filtros removíveis. As juntas de cola validadas não podem obstruir a garganta.
 
-Por porta: preserve a entrada de 220×80 mm e saída inferior de 220×36 mm antes dos efeitos da tela. Isso não implica certificação térmica.
+Por porta: preserve a entrada de 220× 80 mm e saída inferior de 220× 36 mm antes dos efeitos da tela. Isso não implica certificação térmica.
 
 Somente roteiro. Libere o estado da etapa e pendências físicas de ferragens/material/cupom e de carga/acabamento aplicáveis antes de executar. PENDÊNCIA de revisão das pilhas V33.7: F21 na estação cega ganha 6 mm; a pilha F22 da moldura/defletor de entrada muda. Meça a montagem das ferragens selecionadas antes de fixar comprimentos; nenhuma quantidade ou medida é adivinhada. A interface F12 do filtro principal é preservada por rebaixos inferiores 4 mm na chapa 12 mm.
 
@@ -798,7 +820,7 @@ A manutenção rara das dobradiças WPC pode exigir remoção do cassete inferio
 
 A inspeção final é um roteiro de verificação, não certificação estrutural nem autorização de fabricação.
 
-VALIDAÇÃO FÍSICA AINDA NECESSÁRIA: reguladores, insertos, retenção, parafusos de montagem, compensado real/massa do monitor, cupom e ensaios de carga/vibração. Geometria de referência não libera dimensões das ferragens compradas nem CNC. Não trabalhe sob o playfield levantado sem apoio.
+PENDÊNCIA OPERACIONAL: não trabalhe sob o playfield elevado até definir apoio primário independente qualificado. Nenhuma cinta de segurança foi promovida. Cintas secundárias nunca substituem o apoio principal nem definem o ângulo de serviço. Ferragens/material/carga/cupom e CNC continuam bloqueados.
 
 Viewer: BACKBOX FOLD 45° · animation assembly-17.2
 
@@ -824,9 +846,31 @@ O módulo do usuário sob a frente é uma placa genérica removível no alojamen
 
 VERIFICAÇÃO DA CONFIGURAÇÃO DO USUÁRIO: não usine a partir de centros esquemáticos; compre e meça os controles reais primeiro. Reserve laço flexível de serviço sem impor conectores. Confira alcance, proteção contra acionamento acidental, espaço traseiro de corpos/porcas e retirada com as peças escolhidas. Compatibilidade da rosca USB com 12 mm não está verificada; eventual bolso traseiro por uma face aguarda medição física e cupom. Preserve a reserva USB traseira planejada de pelo menos 70 mm.
 
-HARDWARE_PENDING / COMPRAR ANTES DO CNC: BUTTON_BORE_MM=null; USB_CUTOUT=null. Referências conflitantes do vendedor são evidências de ocupação, não dimensões selecionadas. O antigo esquema 220×55 com funções fixas é somente histórico.
+HARDWARE_PENDING / COMPRAR ANTES DO CNC: BUTTON_BORE_MM=null; USB_CUTOUT=null. Referências conflitantes do vendedor são evidências de ocupação, não dimensões selecionadas. O antigo esquema 220× 55 com funções fixas é somente histórico.
 
 Viewer: UNDERFRONT USER MODULE · animation assembly-18.1
+
+### 18.2 — Placas opcionais e zonas de cabos
+
+OPTIONAL
+
+Parts / Peças: ACC01-S2, ACC01-S3
+
+Hardware / Ferragens: . Use quantidades do catálogo uma vez por conjunto; fórmula/TBD não são zero.
+
+X esquerda→direita; Y frente→trás; Z para cima. Siga a ficha FACE A e o vetor de orientação instalada de cada peça.
+
+Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitador somente para as ferragens/acabamentos listados.
+
+FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
+
+Preserve arquitetura aberta S1/S2/S3 e T1/T2/T3. ACC01 opcional é uma família 100 × 120 × 12 mm; exemplos ficam à direita de S2 com grampos na borda traseira e à esquerda de S3 com grampos frontais. Use dois grampos de parafuso removíveis fisicamente selecionados por placa, com carga vertical apoiada na prateleira. Sem novos furos permanentes ou grade densa. Brinquedos de impacto exigem validação própria de retenção/carga; este teste prova apenas folgas. Reuse rasgos 6 × 22 R3; preserve exceções compactas 6 × 16 R3 no backbox e 4 × 12 R2 sob a frente. SINAL baixo à esquerda e POTÊNCIA ELV baixa à direita são zonas de planejamento; alimentação de rede protegida permanece separada.
+
+Remova placa/grampos opcionais antes de retirar a prateleira e solte o grampo de cabo em S3. Laço PF400 mm passa 63 estados geométricos sem desconexão rotineira; apoio primário elevado continua PENDENTE. Passagem/rasgos genéricos do backbox são preservados, mas nenhum chicote contínuo de dobra selecionado foi validado. Não corte a janela central VESA pendente.
+
+OPCIONAL; fora da BOM mínima, chapas, massa e embalagem. SKU/corpo/garganta do grampo, capacidade de carga, curvaturas reais e rota apoiada do backbox permanecem PENDENTES. Nenhum conector elétrico é imposto.
+
+Viewer: MODULARITY STUDY · animation assembly-18.2
 
 ## Preparação CNC e manual de todas as peças de compensado
 
@@ -1945,48 +1989,6 @@ FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
 - HARDWARE_DEPENDENT_RETENTION: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 
-### P095-Layer1 / M068
-
-FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
-
-BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
-- HARDWARE_DEPENDENT_LANDING_ASSEMBLY: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
-
-### P095-Layer2 / M069
-
-FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
-
-BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
-- HARDWARE_DEPENDENT_LANDING_ASSEMBLY: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
-
-### P095-Layer3 / M070
-
-FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
-
-BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
-- HARDWARE_DEPENDENT_LANDING_ASSEMBLY: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
-
-### P096-Layer1 / M071
-
-FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
-
-BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
-- HARDWARE_DEPENDENT_LANDING_ASSEMBLY: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
-
-### P096-Layer2 / M072
-
-FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
-
-BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
-- HARDWARE_DEPENDENT_LANDING_ASSEMBLY: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
-
-### P096-Layer3 / M073
-
-FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
-
-BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
-- HARDWARE_DEPENDENT_LANDING_ASSEMBLY: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
-
 ### P097-Main / M074
 
 FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
@@ -1995,6 +1997,28 @@ CNC FACE_A · P097-Main-R1 · CUT · depth / profundidade: 12 mm.
 CNC FACE_A · P097-Main-R2 · CUT · depth / profundidade: 12 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
 - HARDWARE_DEPENDENT_UNDERFRONT_ATTACHMENT: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
+
+### P095-Solid / SW02
+
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. SHOP_MADE_SOLID_WOOD_PART
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- SHOP_CUT_RECTANGULAR_SOLID_WOOD_BLANK: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- QUALIFIED_PORTABLE_DRILL_GUIDE_HOLD: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- CABINET_INTERFACE_HOLD: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
+
+### P096-Solid / SW02
+
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. SHOP_MADE_SOLID_WOOD_PART
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- SHOP_CUT_RECTANGULAR_SOLID_WOOD_BLANK: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- QUALIFIED_PORTABLE_DRILL_GUIDE_HOLD: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- CABINET_INTERFACE_HOLD: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 
 ## Quantidades e pendências das ferragens
 
@@ -2152,7 +2176,6 @@ BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
 | F57 | 2 | PURCHASE_BEFORE_CNC |
 | F58 | 2 * selected_floor_stations_per_side + 2 * selected_shelf_stations_per_side | PURCHASE_BEFORE_CNC |
 | F59 | 8 | PURCHASE_BEFORE_CNC |
-| F60 | 4 | PURCHASE_BEFORE_CNC |
 | F61 | 2 | PURCHASE_BEFORE_CNC |
 | H27 | 2 | PURCHASE_BEFORE_CNC |
 | I15 | 2 | PURCHASE_BEFORE_CNC |
