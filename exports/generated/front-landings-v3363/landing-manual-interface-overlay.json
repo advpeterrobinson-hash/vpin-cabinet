@@ -1,0 +1,79 @@
+{
+  "version": "V33.6.3",
+  "manufacturing_release": false,
+  "source_component": "PF_BasePlywood",
+  "instance_id": "P034-Main",
+  "geometry_changed": false,
+  "operations": [
+    {
+      "operation": "MANUAL_OBLIQUE_BLIND_RECEIVER",
+      "face_datum": "FACE_A",
+      "working_face": "M025 underside; manual operation only. Coordinates and depth reference the existing FACE_A frame.",
+      "quantity": 2,
+      "hardware_family": "M6 metal receiver",
+      "status": "PURCHASE_BEFORE_CNC",
+      "instances": [
+        {
+          "side": "L",
+          "entry_world_xyz_mm": [
+            72.0,
+            275.0,
+            367.68634771652023
+          ],
+          "entry_local_FACE_A_xyz_mm": [
+            22.00000000000002,
+            211.03629862544966,
+            -1.7053025658242404e-13
+          ],
+          "axis_world": [
+            0,
+            0,
+            1
+          ],
+          "axis_local": [
+            0.0,
+            0.17204376626835938,
+            0.9850893068591517
+          ],
+          "stock_path_length_along_axis_mm": 18.272454968972852,
+          "nominal_maximum_bore_depth_mm": 11.3,
+          "final_bore_diameter_mm": null,
+          "final_bore_depth_mm": null,
+          "drill_point_allowance_mm": null
+        },
+        {
+          "side": "R",
+          "entry_world_xyz_mm": [
+            528.0,
+            275.0,
+            367.68634771652023
+          ],
+          "entry_local_FACE_A_xyz_mm": [
+            478.0,
+            211.03629862544966,
+            -1.7053025658242404e-13
+          ],
+          "axis_world": [
+            0,
+            0,
+            1
+          ],
+          "axis_local": [
+            0.0,
+            0.17204376626835938,
+            0.9850893068591517
+          ],
+          "stock_path_length_along_axis_mm": 18.272454968972852,
+          "nominal_maximum_bore_depth_mm": 11.3,
+          "final_bore_diameter_mm": null,
+          "final_bore_depth_mm": null,
+          "drill_point_allowance_mm": null
+        }
+      ],
+      "depth_mm": null,
+      "geometry_changed": false,
+      "tool": "Qualified rigid angle drill guide, drill, depth stop; no accurate freehand drilling claim",
+      "instruction": "Install two blind M6 metal receivers on the vertical retention axes. The axes are oblique to the inclined M025 underside. Qualify a rigid drill guide on production-lot scrap using the purchased receiver. Verify pilot, actual axial engagement, drill-point allowance and intact top skin before drilling. Reference maximum bore depth is a packaging limit, not a drilling instruction. FACE_B receives no CNC; this is explicitly manual builder finish. Physical qualification remains HOLD."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "V33.6.3",
+  "head_before": "349f0375c78f7308e5912d389b606d26d51f4b80",
+  "current_register": "exports/generated/front-landings-v3363/manufacturing-register.json",
+  "current_BOM": "exports/generated/front-landings-v3363/manufacturing-bom.csv",
+  "CNC_filter": "manufacturing_class != SHOP_MADE_SOLID_WOOD_PART",
+  "shop_family": "SW01",
+  "installed_material_map": "config/wood_materials_v3363.json",
+  "release": false,
+  "hardware_catalog": "config/hardware_catalog_v3363.json",
+  "button_positional_authority": "config/button_relief_v3361.json",
+  "button_final_bore_mm": null,
+  "button_final_recess_mm": null,
+  "closed_position_support": "PASS"
+}

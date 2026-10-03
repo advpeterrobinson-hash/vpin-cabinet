@@ -1,0 +1,48 @@
+{
+  "version": "V33.6.3",
+  "baseline": "V33.6.2",
+  "manufacturing_release": false,
+  "counts_before": {
+    "wood": 101,
+    "CNC_plywood": 97,
+    "SW01_shop_solids": 4,
+    "families": 59
+  },
+  "counts_after": {
+    "wood": 107,
+    "CNC_plywood": 103,
+    "SW01_shop_solids": 4,
+    "families": 65
+  },
+  "new_landing_finished_reference_volume_mm3": 487154.7474518416,
+  "new_landing_delivered_blank_volume_mm3": 514080.0,
+  "wood_finished_reference_after_kg": [
+    51.33142862530159,
+    60.707837538992784,
+    70.12098805268398
+  ],
+  "wood_volume_before_mm3": 92909518.38946013,
+  "wood_volume_after_mm3": 93423598.38946013,
+  "wood_volume_change_mm3": 514080.0,
+  "wood_shipping_mass_before_kg": [
+    51.063493514203074,
+    60.39118695314908,
+    69.7556219920951
+  ],
+  "wood_shipping_mass_after_kg": [
+    51.346237514203075,
+    60.725338953149084,
+    70.1411819920951
+  ],
+  "wood_shipping_mass_change_kg": [
+    0.282744000000001,
+    0.3341520000000031,
+    0.3855599999999981
+  ],
+  "scenario_order": [
+    "LOW",
+    "NOMINAL",
+    "HIGH"
+  ],
+  "note": "Actual B-rep volumes for CNC plywood; unchanged SW01 undrilled shipping blanks. Density assumptions are configurable. Unknown hardware remains unknown."
+}

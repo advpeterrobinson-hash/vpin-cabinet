@@ -1,0 +1,239 @@
+{
+  "version": "V33.6.3",
+  "pass": true,
+  "manufacturing_release": false,
+  "source_register": "exports/generated/playfield-rest-v3362/manufacturing-register.json",
+  "source_register_sha256": "d47da37c0cf720ed0ce07b3cf1f927bcd8029d9308dcc55e7315702d403e8a38",
+  "native_geometry_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "geometry_validation_sha256": "8a024fc6fa4cf24da1e7e1de8781b30a007dd840c1ce61ff1b33213d32260d4d",
+  "native_configuration_sha256": "2f134daf85388e2405f87c06701ec78310f0a2896cda7099302aa334f03aa5f7",
+  "changed_audits": [
+    {
+      "instance_id": "P095-Layer1",
+      "manufacturing_part_id": "M068",
+      "source_component": "FrontLandingL_Layer1",
+      "installed_reconstruction_difference_mm3": 0.0,
+      "finished_solids": 1,
+      "shape_valid": true,
+      "face_A_outward_world": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face_CNC": false,
+      "stock_thickness_mm": 18,
+      "measured_reference_thickness_mm": 18.0,
+      "through_cuts": 0,
+      "pockets": 0,
+      "reference_features": 6,
+      "manual_operations": 1,
+      "status": "ONE_SIDE_CNC_PLUS_MANUAL_FINISH",
+      "before_volume_mm3": 0,
+      "after_volume_mm3": 80655.74977110475,
+      "volume_change_mm3": 80655.74977110475,
+      "outer_contour_before_mm2": 0,
+      "outer_contour_after_mm2": 4760.0,
+      "cutters": {
+        "diameter_mm": 4,
+        "natural_internal_radius_mm": 2
+      }
+    },
+    {
+      "instance_id": "P095-Layer2",
+      "manufacturing_part_id": "M069",
+      "source_component": "FrontLandingL_Layer2",
+      "installed_reconstruction_difference_mm3": 0.0,
+      "finished_solids": 1,
+      "shape_valid": true,
+      "face_A_outward_world": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face_CNC": false,
+      "stock_thickness_mm": 18,
+      "measured_reference_thickness_mm": 18.0,
+      "through_cuts": 0,
+      "pockets": 0,
+      "reference_features": 4,
+      "manual_operations": 1,
+      "status": "ONE_SIDE_CNC_PLUS_MANUAL_FINISH",
+      "before_volume_mm3": 0,
+      "after_volume_mm3": 83269.61303653322,
+      "volume_change_mm3": 83269.61303653322,
+      "outer_contour_before_mm2": 0,
+      "outer_contour_after_mm2": 4760.0,
+      "cutters": {
+        "diameter_mm": 4,
+        "natural_internal_radius_mm": 2
+      }
+    },
+    {
+      "instance_id": "P095-Layer3",
+      "manufacturing_part_id": "M070",
+      "source_component": "FrontLandingL_Layer3",
+      "installed_reconstruction_difference_mm3": 0.0,
+      "finished_solids": 1,
+      "shape_valid": true,
+      "face_A_outward_world": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face_CNC": false,
+      "stock_thickness_mm": 18,
+      "measured_reference_thickness_mm": 18.0,
+      "through_cuts": 0,
+      "pockets": 0,
+      "reference_features": 6,
+      "manual_operations": 1,
+      "status": "ONE_SIDE_CNC_PLUS_MANUAL_FINISH",
+      "before_volume_mm3": 0,
+      "after_volume_mm3": 79652.01091828283,
+      "volume_change_mm3": 79652.01091828283,
+      "outer_contour_before_mm2": 0,
+      "outer_contour_after_mm2": 4760.0,
+      "cutters": {
+        "diameter_mm": 4,
+        "natural_internal_radius_mm": 2
+      }
+    },
+    {
+      "instance_id": "P096-Layer1",
+      "manufacturing_part_id": "M071",
+      "source_component": "FrontLandingR_Layer1",
+      "installed_reconstruction_difference_mm3": 0.0,
+      "finished_solids": 1,
+      "shape_valid": true,
+      "face_A_outward_world": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face_CNC": false,
+      "stock_thickness_mm": 18,
+      "measured_reference_thickness_mm": 18.0,
+      "through_cuts": 0,
+      "pockets": 0,
+      "reference_features": 6,
+      "manual_operations": 1,
+      "status": "ONE_SIDE_CNC_PLUS_MANUAL_FINISH",
+      "before_volume_mm3": 0,
+      "after_volume_mm3": 80655.74977110475,
+      "volume_change_mm3": 80655.74977110475,
+      "outer_contour_before_mm2": 0,
+      "outer_contour_after_mm2": 4760.0,
+      "cutters": {
+        "diameter_mm": 4,
+        "natural_internal_radius_mm": 2
+      }
+    },
+    {
+      "instance_id": "P096-Layer2",
+      "manufacturing_part_id": "M072",
+      "source_component": "FrontLandingR_Layer2",
+      "installed_reconstruction_difference_mm3": 0.0,
+      "finished_solids": 1,
+      "shape_valid": true,
+      "face_A_outward_world": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face_CNC": false,
+      "stock_thickness_mm": 18,
+      "measured_reference_thickness_mm": 18.0,
+      "through_cuts": 0,
+      "pockets": 0,
+      "reference_features": 4,
+      "manual_operations": 1,
+      "status": "ONE_SIDE_CNC_PLUS_MANUAL_FINISH",
+      "before_volume_mm3": 0,
+      "after_volume_mm3": 83269.61303653322,
+      "volume_change_mm3": 83269.61303653322,
+      "outer_contour_before_mm2": 0,
+      "outer_contour_after_mm2": 4760.0,
+      "cutters": {
+        "diameter_mm": 4,
+        "natural_internal_radius_mm": 2
+      }
+    },
+    {
+      "instance_id": "P096-Layer3",
+      "manufacturing_part_id": "M073",
+      "source_component": "FrontLandingR_Layer3",
+      "installed_reconstruction_difference_mm3": 0.0,
+      "finished_solids": 1,
+      "shape_valid": true,
+      "face_A_outward_world": [
+        0,
+        0,
+        1
+      ],
+      "opposite_face_CNC": false,
+      "stock_thickness_mm": 18,
+      "measured_reference_thickness_mm": 18.0,
+      "through_cuts": 0,
+      "pockets": 0,
+      "reference_features": 6,
+      "manual_operations": 1,
+      "status": "ONE_SIDE_CNC_PLUS_MANUAL_FINISH",
+      "before_volume_mm3": 0,
+      "after_volume_mm3": 79652.01091828283,
+      "volume_change_mm3": 79652.01091828283,
+      "outer_contour_before_mm2": 0,
+      "outer_contour_after_mm2": 4760.0,
+      "cutters": {
+        "diameter_mm": 4,
+        "natural_internal_radius_mm": 2
+      }
+    }
+  ],
+  "assembly_reconstruction": [
+    {
+      "side": "L",
+      "layers": 3,
+      "nominal_stack_mm": 54,
+      "union_volume_mm3": 243577.3737259208,
+      "layer_overlap_mm3": 0.0,
+      "aggregate_difference_mm3": 0,
+      "aggregate_authority": "union of three authoritative native layers"
+    },
+    {
+      "side": "R",
+      "layers": 3,
+      "nominal_stack_mm": 54,
+      "union_volume_mm3": 243577.37372592094,
+      "layer_overlap_mm3": 0.0,
+      "aggregate_difference_mm3": 0,
+      "aggregate_authority": "union of three authoritative native layers"
+    }
+  ],
+  "new_CNC_contour_families": [
+    {
+      "id": "LANDING-CONTOUR-01",
+      "quantity": 6,
+      "stock_mm": 18,
+      "exact_outer_contour": "exports/generated/front-landings-v3363/brep/P095-Layer1-outline.brep",
+      "size_mm": [
+        68.0,
+        70.0
+      ],
+      "note": "One repeated external CNC contour. Six finished reference members remain distinct because their handed/layer hardware features differ."
+    }
+  ],
+  "unchanged_piece_geometries_retained": 101,
+  "unchanged_piece_rows_retained": 100,
+  "metadata_only_changed_instances": [
+    "P034-Main"
+  ],
+  "canonical_families": 65,
+  "counts": {
+    "ONE_SIDE_CNC_PLUS_MANUAL_FINISH": 58,
+    "ONE_SIDE_CNC_READY": 45,
+    "SHOP_MADE_SOLID_WOOD_PART": 4
+  },
+  "cutting_rule": "FACE_A external contour only; hardware-dependent bores are REFERENCE/manual HOLD. FACE_B has no CNC.",
+  "geometry_rule": "Exact native finished B-reps; each layer reconstructs to its installed shape; six layers form two contiguous bodies.",
+  "structural_rule": "Manufacturing audit does not replace landing load/retention qualification."
+}

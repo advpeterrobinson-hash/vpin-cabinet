@@ -1,0 +1,74 @@
+[
+  {
+    "instance_id": "P095-Layer1",
+    "volume_mm3": 80655.74977110475,
+    "center_of_mass_local_mm": [
+      34.49609427921635,
+      35.08413337116133,
+      9.011042504964621
+    ],
+    "outer_area_mm2": 4760.0,
+    "projected_material_area_mm2": 4657.898238758332,
+    "removed_stock_volume_mm3": 5024.250228895253
+  },
+  {
+    "instance_id": "P095-Layer2",
+    "volume_mm3": 83269.61303653322,
+    "center_of_mass_local_mm": [
+      34.45516897685842,
+      35.081492394215616,
+      8.999999999999943
+    ],
+    "outer_area_mm2": 4760.0,
+    "projected_material_area_mm2": 4626.089613140734,
+    "removed_stock_volume_mm3": 2410.386963466779
+  },
+  {
+    "instance_id": "P095-Layer3",
+    "volume_mm3": 79652.01091828283,
+    "center_of_mass_local_mm": [
+      34.706455460206904,
+      35.23428235078046,
+      9.018857954371583
+    ],
+    "outer_area_mm2": 4760.0,
+    "projected_material_area_mm2": 4626.089613140734,
+    "removed_stock_volume_mm3": 6027.989081717169
+  },
+  {
+    "instance_id": "P096-Layer1",
+    "volume_mm3": 80655.74977110475,
+    "center_of_mass_local_mm": [
+      33.50390572078345,
+      35.08413337116116,
+      9.011042504964792
+    ],
+    "outer_area_mm2": 4760.0,
+    "projected_material_area_mm2": 4657.898238758332,
+    "removed_stock_volume_mm3": 5024.250228895253
+  },
+  {
+    "instance_id": "P096-Layer2",
+    "volume_mm3": 83269.61303653322,
+    "center_of_mass_local_mm": [
+      33.54483102314134,
+      35.081492394215616,
+      9.0
+    ],
+    "outer_area_mm2": 4760.0,
+    "projected_material_area_mm2": 4626.089613140734,
+    "removed_stock_volume_mm3": 2410.386963466779
+  },
+  {
+    "instance_id": "P096-Layer3",
+    "volume_mm3": 79652.01091828283,
+    "center_of_mass_local_mm": [
+      33.29354453979306,
+      35.23428235078046,
+      9.018857954371526
+    ],
+    "outer_area_mm2": 4760.0,
+    "projected_material_area_mm2": 4626.089613140734,
+    "removed_stock_volume_mm3": 6027.989081717169
+  }
+]

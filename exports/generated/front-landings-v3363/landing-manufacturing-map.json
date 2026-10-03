@@ -1,0 +1,38 @@
+{
+  "FrontLandingL_Layer1": {
+    "assembly_id": "P095",
+    "instance_id": "P095-Layer1",
+    "manufacturing_part_id": "M068",
+    "group": "PLAYFIELD_LANDINGS"
+  },
+  "FrontLandingL_Layer2": {
+    "assembly_id": "P095",
+    "instance_id": "P095-Layer2",
+    "manufacturing_part_id": "M069",
+    "group": "PLAYFIELD_LANDINGS"
+  },
+  "FrontLandingL_Layer3": {
+    "assembly_id": "P095",
+    "instance_id": "P095-Layer3",
+    "manufacturing_part_id": "M070",
+    "group": "PLAYFIELD_LANDINGS"
+  },
+  "FrontLandingR_Layer1": {
+    "assembly_id": "P096",
+    "instance_id": "P096-Layer1",
+    "manufacturing_part_id": "M071",
+    "group": "PLAYFIELD_LANDINGS"
+  },
+  "FrontLandingR_Layer2": {
+    "assembly_id": "P096",
+    "instance_id": "P096-Layer2",
+    "manufacturing_part_id": "M072",
+    "group": "PLAYFIELD_LANDINGS"
+  },
+  "FrontLandingR_Layer3": {
+    "assembly_id": "P096",
+    "instance_id": "P096-Layer3",
+    "manufacturing_part_id": "M073",
+    "group": "PLAYFIELD_LANDINGS"
+  }
+}

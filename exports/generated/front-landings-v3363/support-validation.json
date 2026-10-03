@@ -1,0 +1,122 @@
+{
+  "version": "V33.6.3",
+  "architecture_pass": true,
+  "status": "PASS",
+  "closed_position_support_valid": true,
+  "closed_position_support_status": "PASS_NOMINAL_DESIGN_ARCHITECTURE",
+  "source": "exports/generated/front-landings-v3363/play.FCStd",
+  "source_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "native_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "checks": [
+    {
+      "name": "exact native geometry valid",
+      "pass": true
+    },
+    {
+      "name": "all previous wood hardware and datums preserved",
+      "pass": true
+    },
+    {
+      "name": "distinct purchased hardware clears both engaged and released",
+      "pass": true
+    },
+    {
+      "name": "two full intentional front contacts",
+      "pass": true
+    },
+    {
+      "name": "direct full-strength side attachment exists",
+      "pass": true
+    },
+    {
+      "name": "earliest passing simple-body search retains5mm reserve",
+      "pass": true
+    },
+    {
+      "name": "positive threaded closed retention geometry",
+      "pass": true
+    },
+    {
+      "name": "receiver blind skin and release reserve",
+      "pass": true
+    },
+    {
+      "name": "continuous service lift and rear-seating plus fold pass",
+      "pass": true
+    },
+    {
+      "name": "motion tied to exact current native",
+      "pass": true
+    },
+    {
+      "name": "both retention and adjustment physically sized approach envelopes pass",
+      "pass": true
+    },
+    {
+      "name": "access tied to exact current native",
+      "pass": true
+    },
+    {
+      "name": "eight side attachment driver paths clear with module removed",
+      "pass": true
+    },
+    {
+      "name": "nine mass sensitivity cases retain positive front and rear reactions",
+      "pass": true
+    },
+    {
+      "name": "load evidence tied to unchanged original geometry",
+      "pass": true
+    },
+    {
+      "name": "front overhang reduced without relocating accepted geometry",
+      "pass": true
+    },
+    {
+      "name": "normal pose fixed;adjuster travel not arbitrary pitch change",
+      "pass": true
+    },
+    {
+      "name": "no final holes released",
+      "pass": true
+    }
+  ],
+  "authority": "DESIGN_ARCHITECTURE_ONLY_NOT_MANUFACTURING_OR_STRUCTURAL_CERTIFICATION",
+  "load_path": {
+    "rear": "base/straps \u2192 wooden dowel \u2192 existing cradles \u2192 cabinet floor",
+    "front": "base \u2192 two articulated adjustable pads \u2192 laminated side bodies \u2192 eight positive side screws / side bearing \u2192 full cabinet sides \u2192 cabinet/floor/legs"
+  },
+  "intentional_supports": [
+    "rear dowel/cradle pair",
+    "FrontLandingL_ContactPad",
+    "FrontLandingR_ContactPad"
+  ],
+  "crossmembers": "T1/T2/T3 are structural cabinet crossmembers;22mm nominal gap is intentional. They do not carry closed playfield weight.",
+  "retention": "Two captive M6 threaded clamps. Release/retract10.5mm through open front coin door before service/lift; no support-body or electronics removal. Commodity thin jamnut stops are set after leveling to7mm receiver engagement.",
+  "adjustment_rule": "\u00b13mm hardware travel compensates stock/assembly tolerance ONLY to reproduce9.906669deg nominal pose with left/right level and rear dowel fully seated. Lowering the complete pose3mm collides with button envelopes and is forbidden. No opposed-adjuster twist.",
+  "hardware_uncertainty": [
+    "M8 articulated pad has to remain captive and accommodate>=10deg",
+    "M6\u00d7100 fully-threaded bolt +thin jamnuts/washer stack",
+    "thread-compatible push-on captive retainer; no custom groove",
+    "M6 receiver pilot/depth and rigid drill guide for vertical bore in sloped M025",
+    "side screw12mm embedment and layer fastening"
+  ],
+  "physical_qualification_required": true,
+  "manufacturing_release": false,
+  "manufacturing_ready": false,
+  "pending": [
+    "actual production plywood thickness",
+    "actual display and adapters",
+    "physical coupon and selected clearances",
+    "all new purchased hardware and captive-stack dimensions",
+    "rigid receiver drilling guide/depth-stop validation",
+    "side anchorage/receiver pull-out, whole-board stiffness and cyclic load tests"
+  ],
+  "evidence_sha256": {
+    "geometry-validation.json": "8a024fc6fa4cf24da1e7e1de8781b30a007dd840c1ce61ff1b33213d32260d4d",
+    "motion-validation.json": "10cd093e42052c0dec6bbad39a4cbc1365673738200d9b81fd2b6c5dcd6d1314",
+    "tool-access.json": "fd9f462b2807e5c25fd2264ac52c98121c67c611f38bf9b5085a46621dc8501f",
+    "load-screen.json": "d03e6dd24403dff8da0bc6b1c889837d3e4e72f76a41a006afee8c215bbb43f6",
+    "internal-hardware-validation.json": "5f340ca3f0dc393a4d7f48298a6d943cd794e4c1d5127614198210ff25f83614"
+  }
+}

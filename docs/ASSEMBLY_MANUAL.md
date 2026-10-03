@@ -1,4 +1,4 @@
-# Assembly manual — V33.6.2
+# Assembly manual — V33.6.3
 
 **PREPARATION ONLY — CNC RELEASE BLOCKED**
 
@@ -26,7 +26,7 @@ Read the supplier profile and inventory the production lot. Do not cut full shee
 
 Record the measured lot, coupon result and selected hardware; unresolved values stay HOLD.
 
-CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
+PHYSICAL QUALIFICATION STILL REQUIRED: selected adjusters, inserts, retention parts, mounting screws, actual plywood/display mass, coupon and load/rattle tests. Reference hardware geometry does not release purchased-hole dimensions or CNC. Do not work below an unsupported raised playfield.
 
 Viewer: PLAY · animation assembly-00.1
 
@@ -266,9 +266,31 @@ Install the real M026/M027 profiles with the six unchanged F01 coordinates and d
 
 CRADLE ALIGNMENT CHECK: both seats share the accepted axis and both feet bear continuously. Do not shim or relocate the axis without a new review.
 
-CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. CNC RELEASE BLOCKED. Actual material, coupon, jig and selected hardware must be qualified.
+PHYSICAL QUALIFICATION STILL REQUIRED: selected adjusters, inserts, retention parts, mounting screws, actual plywood/display mass, coupon and load/rattle tests. Reference hardware geometry does not release purchased-hole dimensions or CNC. Do not work below an unsupported raised playfield.
 
 Viewer: EXPLODED DETAILED · animation assembly-05.1
+
+### 05.2 — Install the front landing bodies and adjuster stacks
+
+PROVISIONAL_HARDWARE
+
+Parts / Peças: P095-Layer1, P095-Layer2, P095-Layer3, P096-Layer1, P096-Layer2, P096-Layer3
+
+Hardware / Ferragens: F59, F60, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use catalog quantities once per assembly; formula/TBD are not zero.
+
+X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
+
+Clamps, square and measuring tools; selected drive/bit and depth stop for the listed hardware/finish only.
+
+FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
+
+Identify the actual manufacturing members and handed placement from their FACE A cards. Assemble the front landing bodies at the CURRENT side-wall datums after the button/service zone. Glue the three laminations together and secure them with the two specified lamination screws. Mount each finished body with four positive side screws; do not glue the body to the wall or rely on wall friction. Fit metal threaded receivers, adjusters, locknuts and replaceable contact tips. The M025 blind metal-receiver bores are PURCHASE_BEFORE_CNC / hardware-dependent manual finish, not supplied holes; use a qualified rigid angle drill guide matching the9.906669° difference from the board normal and a depth stop. Qualify the actual bore, drill-point allowance and intact top skin on a coupon; the11.3 mm reference depth is a packaging limit, not a drilling instruction. Never thread a repeated structural retainer directly into plywood. Include the contact-pad thickness in the nominal stack. Keep the assembly replaceable and use no added shims or T1 shoes.
+
+Verify full body-to-side bearing, screw/receiver engagement, no exterior breakthrough, retained button/wire/tool access, and clearance to plunger, S1, legs and front service. Exact purchased dimensions remain HOLD.
+
+PHYSICAL QUALIFICATION STILL REQUIRED: selected adjusters, inserts, retention parts, mounting screws, actual plywood/display mass, coupon and load/rattle tests. Reference hardware geometry does not release purchased-hole dimensions or CNC. Do not work below an unsupported raised playfield.
+
+Viewer: PLAYFIELD LANDINGS · animation assembly-05.2
 
 <a id="stage-06"></a>
 
@@ -288,35 +310,57 @@ Clamps, square and measuring tools; selected drive/bit and depth stop for the li
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings. Use CURRENT M025 with the clean relief open to the front edge: narrowed straight sides and rounded return to full width, with no horn, front bridge or hooked projection. Keep the V33.6 rear 180 × 110 mm R8 service window and two strain-relief slots. Preserve the VESA load region, dowel, four straps and eight F02 coordinates. Button clearance is derived from the restored front leaf-body, terminal, wire and tool reserves. Do not move buttons to fit the plywood. Final display/button hardware and stiffness qualification remain HOLD. Owner-requested V33.6.2 relief extends30 mm farther inward on EACH side: total inset52 mm, remaining front width396 mm, retained length87 mm and R8 transition. Buttons stay atY89/Y127, local side top minus65 mm. Rear window, strain slots, VESA region, dowel and straps remain unchanged. This clearance edit does not add front support.
+Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings. Use CURRENT M025 with the clean relief open to the front edge: narrowed straight sides and rounded return to full width, with no horn, front bridge or hooked projection. Keep the V33.6 rear 180 × 110 mm R8 service window and two strain-relief slots. Preserve the VESA load region, dowel, four straps and eight F02 coordinates. Button clearance is derived from the restored front leaf-body, terminal, wire and tool reserves. Do not move buttons to fit the plywood. Final display/button hardware and stiffness qualification remain HOLD. Owner-requested V33.6.2 relief extends30 mm farther inward on EACH side: total inset52 mm, remaining front width396 mm, retained length87 mm and R8 transition. Buttons stay atY89/Y127, local side top minus65 mm. Rear window, strain slots, VESA region, dowel and straps remain unchanged.
 
 Check strap seating, screw engagement and no splitting after purchased strap/material qualification.
 
-CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
+PHYSICAL QUALIFICATION STILL REQUIRED: selected adjusters, inserts, retention parts, mounting screws, actual plywood/display mass, coupon and load/rattle tests. Reference hardware geometry does not release purchased-hole dimensions or CNC. Do not work below an unsupported raised playfield.
 
 Viewer: PLAYFIELD LIFT-OUT · animation assembly-06.1
 
-### 06.2 — Check seating and removal
+### 06.2 — Seat rear dowel and lower onto the front landings
 
 WAITING_FOR_PHYSICAL_MEASUREMENT
 
-Parts / Peças: P034-Main
+Parts / Peças: P034-Main, P095-Layer1, P095-Layer2, P095-Layer3, P096-Layer1, P096-Layer2, P096-Layer3
 
-Hardware / Ferragens: F02, H01, B01. Use catalog quantities once per assembly; formula/TBD are not zero.
+Hardware / Ferragens: F02, H01, B01, F59, F60, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use catalog quantities once per assembly; formula/TBD are not zero.
 
 X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
 
-Clamps, square and measuring tools; selected drive/bit and depth stop for the listed hardware/finish only.
+Compact spanner for the selected M6 hex-head retention bolt (reference10 mm across flats); exact tool size/access follow purchased hardware. Adjustment spanner and locknut tool also depend on the selected M8 family.
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Lower both dowel ends into the open seats. With main glass and matrix removed, demonstrate the accepted 48 mm vertical lift-out. The complete playfield assembly leaves together; fixed cradles remain. The optional cable-loop study uses a flexible 400 mm segment and a removable clamp zone above S3. Route actual cables with qualified bend radius and slack; never treat the rendered curve as a rigid member or selected cable specification. Check PLAY, 50° service and 48 mm lift with the actual harness. Release that clamp before removing S3. No connector family is required.
+Remove the main playfield glass and matrix. Release both captive closed-position retainers to their documented parked limits; keep the front support bodies installed. Support the module while seating both ends of the Ø32 dowel in the rear open cradles, then lower the front onto the two resilient adjuster contacts. Rear dowel/cradles define the rear support axis; the front landings carry the front load into the structural side walls. T1/T2/T3 remain cabinet structural crossmembers, intentionally clear by about22 mm normal to the base; none is a playfield landing. Keep the clean52 mm front inset,87 mm length,R8 transitions and396 mm front width. CURRENT setup: pad centers X72 / X528, Y245 mm; retention axes are30 mm rearward. Each body is3 × nominal18 mm plywood. M8 adjustment is±3 mm of stack/tolerance compensation to reproduce the unchanged9.906669° PLAY pose, including the3 mm contact tip. Retention release travel is10.5 mm after unscrewing. These are reference packaging values, not purchased machining dimensions.
 
-STOP: qualify closed-position rests and retention before an unsupported PLAY or service demonstration. The retained50° service/48 mm lift paths establish geometric clearance only; handling/support/load qualification is separate.
+REAR SEATING / FRONT CONTACT CHECK: both dowel ends fully seated; both front contacts loaded without rocking. No weight on glass, lockdown, buttons, electronics, cable or T1/T2/T3. Keep the module externally supported until the selected hardware/wood is qualified.
 
-CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
+PHYSICAL QUALIFICATION STILL REQUIRED: selected adjusters, inserts, retention parts, mounting screws, actual plywood/display mass, coupon and load/rattle tests. Reference hardware geometry does not release purchased-hole dimensions or CNC. Do not work below an unsupported raised playfield.
 
-Viewer: PLAYFIELD LIFT-OUT · animation assembly-06.2
+Viewer: SUPPORT LOAD PATH · animation assembly-06.2
+
+### 06.3 — Reproduce the approved PLAY pose and engage retention
+
+PROVISIONAL_HARDWARE
+
+Parts / Peças: P095-Layer1, P095-Layer2, P095-Layer3, P096-Layer1, P096-Layer2, P096-Layer3
+
+Hardware / Ferragens: F59, F60, F61, H27, I15, I16, I17, I18, W11, W12, B17. Use catalog quantities once per assembly; formula/TBD are not zero.
+
+X left→right; Y front→rear; Z up. Follow each member’s FACE A card and installed-direction vector.
+
+Compact spanner for the selected M6 hex-head retention bolt (reference10 mm across flats); exact tool size/access follow purchased hardware. Adjustment spanner and locknut tool also depend on the selected M8 family.
+
+FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
+
+Leave both retainers released while adjusting. Start both front adjusters at the nominal CAD height. With the rear dowel fully seated, adjust left and right for equal transverse height while retaining the CURRENT fore/aft slope of9.906669°. The±3 mm travel compensates hardware/material tolerances only; it does not authorize a new playing height, slope or left/right twist. The complete−3 mm lowered pose collides with button envelopes and is forbidden. Include both contact tips and reproduce the exact nominal pose. Lock both adjuster locknuts, then reset each captive bolt stop for7 mm reference engagement, within the qualified6–8 mm purchased-hardware limits. Open the coin door to the validated110° service pose. Reach the two retention heads through that front service aperture with the compact spanner; no electronics removal is required. Use the spanner to engage the two captive M6-family hex bolts into the metal-backed receivers without lifting the base from its pads. Retainers resist uplift/rattle; they do not replace the landing load path. Check glass/lockdown clearance. For opening, remove main glass/matrix, support the module, release and park both retainers, then rotate to50°. Routine opening does not remove landing bodies. For complete removal, retainers stay released and the whole module lifts48 mm clear of the rear cradles.
+
+LEVEL / RETENTION CHECK: left–right level, intended fore/aft slope, both locknuts secured, both retainers positively engaged, no rocking. Then test release, clean early pad separation,50° service and48 mm lift under controlled handling. No uncontrolled drop and no pivot-friction assumption.
+
+PHYSICAL QUALIFICATION STILL REQUIRED: selected adjusters, inserts, retention parts, mounting screws, actual plywood/display mass, coupon and load/rattle tests. Reference hardware geometry does not release purchased-hole dimensions or CNC. Do not work below an unsupported raised playfield.
+
+Viewer: PLAYFIELD LANDINGS · animation assembly-06.3
 
 <a id="stage-07"></a>
 
@@ -710,7 +754,7 @@ Open rear doors; release and park both rear-operated locks; close/latch the rear
 
 BACKBOX FOLD CHECK: geometry supports 0–90° pure rotation around Y1066.8/Z508. Check actual retention, cable slack, surroundings and handling only after physical qualification. Reverse the sequence and positively engage both locks upright.
 
-CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
+PHYSICAL QUALIFICATION STILL REQUIRED: selected adjusters, inserts, retention parts, mounting screws, actual plywood/display mass, coupon and load/rattle tests. Reference hardware geometry does not release purchased-hole dimensions or CNC. Do not work below an unsupported raised playfield.
 
 Viewer: BACKBOX FOLD 45° · animation assembly-17.1
 
@@ -732,7 +776,7 @@ Rare WPC hinge service may require lower-cassette removal and playfield lift-out
 
 Final inspection is a checkpoint framework, not structural certification or manufacturing authorization.
 
-CLOSED_POSITION_SUPPORT_BLOCKED. The rear dowel contacts its two open cradles, but CURRENT contains no front landing/rest or closed-position latch. The base is22 mm above T1, T2 and T3. PLAY is a reference pose and cannot be treated as a self-supporting operating assembly. Do not use unqualified pivot friction or electronics/buttons as a stop. A dedicated rest/support design and load/retention validation are still required; no new rest parts are included in this BOM. Framework only. Clear the stage status, physical hardware/material/coupon and applicable load/finish holds before execution.
+PHYSICAL QUALIFICATION STILL REQUIRED: selected adjusters, inserts, retention parts, mounting screws, actual plywood/display mass, coupon and load/rattle tests. Reference hardware geometry does not release purchased-hole dimensions or CNC. Do not work below an unsupported raised playfield.
 
 Viewer: BACKBOX FOLD 45° · animation assembly-17.2
 
@@ -1275,11 +1319,13 @@ CNC FACE_A · P033-Main-R4 · CUT · depth / profundidade: 12 mm.
 
 ### P034-Main / M025
 
-FACE_A: [-0.0, 0.172043766268355, -0.9850893068591292]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
+FACE_A: [-0.0, 0.172043766268355, -0.9850893068591292]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
 CNC FACE_A · P034-Main-R1 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P034-Main-R2 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P034-Main-R3 · CUT · depth / profundidade: 18 mm.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Install two blind M6 metal receivers on the vertical retention axes. The axes are oblique to the inclined M025 underside. Qualify a rigid drill guide on production-lot scrap using the purchased receiver. Verify pilot, actual axial engagement, drill-point allowance and intact top skin before drilling. Reference maximum bore depth is a packaging limit, not a drilling instruction. FACE_B receives no CNC; this is explicitly manual builder finish. Physical qualification remains HOLD.
 
 ### P035-Main / M026
 
@@ -1811,12 +1857,90 @@ CNC FACE_A · P093-Main-R2 · CUT · depth / profundidade: 6 mm.
 CNC FACE_A · P093-Main-R3 · CUT · depth / profundidade: 6 mm.
 CNC FACE_A · P093-Main-R4 · CUT · depth / profundidade: 6 mm.
 
+### P029-Solid / SW01
+
+FACE_A: [0.7071067811865475, 0.7071067811865475, 0]; FACE_B / NO CNC. SHOP_MADE_SOLID_WOOD_PART
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Shop supplies triangular prism; ordinary builder tools do not make the long rip.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Measure real leg/backing/bolt hardware; qualify print/bushings and hand drill before drilling. Use selected parameters, not reference58mm by default.
+
+### P030-Solid / SW01
+
+FACE_A: [-0.7071067811865475, 0.7071067811865475, 0]; FACE_B / NO CNC. SHOP_MADE_SOLID_WOOD_PART
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Shop supplies triangular prism; ordinary builder tools do not make the long rip.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Measure real leg/backing/bolt hardware; qualify print/bushings and hand drill before drilling. Use selected parameters, not reference58mm by default.
+
+### P031-Solid / SW01
+
+FACE_A: [0.7071067811865475, -0.7071067811865475, 0]; FACE_B / NO CNC. SHOP_MADE_SOLID_WOOD_PART
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Shop supplies triangular prism; ordinary builder tools do not make the long rip.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Measure real leg/backing/bolt hardware; qualify print/bushings and hand drill before drilling. Use selected parameters, not reference58mm by default.
+
+### P032-Solid / SW01
+
+FACE_A: [-0.7071067811865475, -0.7071067811865475, 0]; FACE_B / NO CNC. SHOP_MADE_SOLID_WOOD_PART
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Shop supplies triangular prism; ordinary builder tools do not make the long rip.
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Measure real leg/backing/bolt hardware; qualify print/bushings and hand drill before drilling. Use selected parameters, not reference58mm by default.
+
 ### P094-Main / M067
 
 FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
 - V33.5 reference schedule is packaging only; qualify purchased jig, screws and inserts. Underside shelf pockets are MANUAL work referenced from top FACE_A by measured thickness; no second-face CNC.
+
+### P095-Layer1 / M068
+
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Label layers before laminating. Clamp and glue three 18 mm layers per side; install two positive lamination screws. Side retention has four screws per landing; do not glue a landing to the cabinet side. Qualify all screw lengths, pilot diameters, edge drilling, M8 adjuster receiver and M6 captive-retention corridor on actual stock before drilling. No second-face CNC.
+
+### P095-Layer2 / M069
+
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Label layers before laminating. Clamp and glue three 18 mm layers per side; install two positive lamination screws. Side retention has four screws per landing; do not glue a landing to the cabinet side. Qualify all screw lengths, pilot diameters, edge drilling, M8 adjuster receiver and M6 captive-retention corridor on actual stock before drilling. No second-face CNC.
+
+### P095-Layer3 / M070
+
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Label layers before laminating. Clamp and glue three 18 mm layers per side; install two positive lamination screws. Side retention has four screws per landing; do not glue a landing to the cabinet side. Qualify all screw lengths, pilot diameters, edge drilling, M8 adjuster receiver and M6 captive-retention corridor on actual stock before drilling. No second-face CNC.
+
+### P096-Layer1 / M071
+
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Label layers before laminating. Clamp and glue three 18 mm layers per side; install two positive lamination screws. Side retention has four screws per landing; do not glue a landing to the cabinet side. Qualify all screw lengths, pilot diameters, edge drilling, M8 adjuster receiver and M6 captive-retention corridor on actual stock before drilling. No second-face CNC.
+
+### P096-Layer2 / M072
+
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Label layers before laminating. Clamp and glue three 18 mm layers per side; install two positive lamination screws. Side retention has four screws per landing; do not glue a landing to the cabinet side. Qualify all screw lengths, pilot diameters, edge drilling, M8 adjuster receiver and M6 captive-retention corridor on actual stock before drilling. No second-face CNC.
+
+### P096-Layer3 / M073
+
+FACE_A: [0, 0, 1]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
+
+BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
+- Label layers before laminating. Clamp and glue three 18 mm layers per side; install two positive lamination screws. Side retention has four screws per landing; do not glue a landing to the cabinet side. Qualify all screw lengths, pilot diameters, edge drilling, M8 adjuster receiver and M6 captive-retention corridor on actual stock before drilling. No second-face CNC.
 
 ## Hardware quantities and holds
 
@@ -1973,3 +2097,14 @@ BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · HOLD mm.
 | F56 | 8 | PURCHASE_BEFORE_CNC |
 | F57 | 2 | PURCHASE_BEFORE_CNC |
 | F58 | 2 * selected_floor_stations_per_side + 2 * selected_shelf_stations_per_side | PURCHASE_BEFORE_CNC |
+| F59 | 8 | PURCHASE_BEFORE_CNC |
+| F60 | 4 | PURCHASE_BEFORE_CNC |
+| F61 | 2 | PURCHASE_BEFORE_CNC |
+| H27 | 2 | PURCHASE_BEFORE_CNC |
+| I15 | 2 | PURCHASE_BEFORE_CNC |
+| I16 | 2 | PURCHASE_BEFORE_CNC |
+| I17 | 2 | PURCHASE_BEFORE_CNC |
+| I18 | 4 | PURCHASE_BEFORE_CNC |
+| W11 | 2 | PURCHASE_BEFORE_CNC |
+| W12 | 2 | PURCHASE_BEFORE_CNC |
+| B17 | 2 | PURCHASE_BEFORE_CNC |

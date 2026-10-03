@@ -1,0 +1,65 @@
+{
+  "version": "V33.6.3",
+  "production_authorized": false,
+  "method": "Previous exact unchanged metrics plus freshly audited changed B-reps; established deterministic rectangle packing with actual contour overlays.",
+  "sources": [
+    {
+      "path": "tools/build_front_landings_v3363_metrics.py",
+      "sha256": "55141cc92ba724099dcbe7086e0f4a6d8eabace5c5144802a07fc815a4e37b31"
+    },
+    {
+      "path": "tools/build_solid_leg_metrics_v334.py",
+      "sha256": "283038464d83dc5261e3d899d4a1a1470c93d634cd02056d50196243848ee5ac"
+    },
+    {
+      "path": "exports/generated/front-landings-v3363/manufacturing-audit.json",
+      "sha256": "4b48bc9f3affa0d3789a2511cbb1974de9787edffab383ad4dd060000e331751"
+    },
+    {
+      "path": "exports/generated/front-landings-v3363/geometry-validation.json",
+      "sha256": "8a024fc6fa4cf24da1e7e1de8781b30a007dd840c1ce61ff1b33213d32260d4d"
+    },
+    {
+      "path": "config/front_landings_v3363.json",
+      "sha256": "2f134daf85388e2405f87c06701ec78310f0a2896cda7099302aa334f03aa5f7"
+    },
+    {
+      "path": "exports/generated/playfield-rest-v3362/manufacturing-register.json",
+      "sha256": "d47da37c0cf720ed0ce07b3cf1f927bcd8029d9308dcc55e7315702d403e8a38"
+    },
+    {
+      "path": "exports/generated/playfield-rest-v3362/packing-metrics.json",
+      "sha256": "e7f66dc7a68179f31785d61a0e02e762a143cdeb73248832232000656a27d2dc"
+    },
+    {
+      "path": "exports/generated/front-landings-v3363/manufacturing-register.json",
+      "sha256": "9d3ffcf15b2d9c4ae540aca88413dbe10ef18a530c06fa4b84b10b4330126144"
+    },
+    {
+      "path": "exports/generated/front-landings-v3363/changed-piece-metrics.json",
+      "sha256": "7440cd609d30a9d5162450c4f92b068f240fc500cd919685a08d398712aa6a9c"
+    },
+    {
+      "path": "exports/generated/front-landings-v3363/assembly-manual.json",
+      "sha256": "3350c0471db5b97eb9a7e6376e73e8bdd222441b5a614d861cfaeb02b4eff26c"
+    },
+    {
+      "path": "config/hardware_catalog_v3363.json",
+      "sha256": "020051511e7d672f732615d73c372880a34ccb00b2ff227be313816841b1645d"
+    },
+    {
+      "path": "config/assembly_planning_v333.json",
+      "sha256": "9a8c6347660ecef2aae9913b2051edbcf698e65430888142fe31227af8edb89f"
+    },
+    {
+      "path": "config/solid_leg_blocks_v334.json",
+      "sha256": "a6c4ab3634ab0805c87881e0da769f3e53039b0a259ac8b081ef7f0adf0f0395"
+    },
+    {
+      "path": "config/manufacturing/profiles/peter_supplier_v1.json",
+      "sha256": "5d3cce0adde7e0e791a8b7a389d3aef48b5ae62cda7adfa74c75074f3bea8ba3"
+    }
+  ],
+  "no_geometry_modification_by_accounting": true,
+  "no_G_code": true
+}

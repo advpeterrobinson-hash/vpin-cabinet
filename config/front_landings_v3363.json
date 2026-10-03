@@ -1,0 +1,100 @@
+{
+  "version": "V33.6.3",
+  "source": "exports/generated/playfield-rest-v3362/play.FCStd",
+  "output": "exports/generated/front-landings-v3363",
+  "manufacturing_release": false,
+  "stock_thickness_nominal_mm": 18,
+  "measured_thickness_mm": null,
+  "selected_coupon_clearance_mm": null,
+  "search": {
+    "pad_center_y_range_mm": [
+      150,
+      250
+    ],
+    "increment_mm": 1,
+    "minimum_obstacle_clearance_mm": 5,
+    "minimum_contact_to_base_edge_mm": 8,
+    "body_heights_compared_mm": [
+      36,
+      54
+    ],
+    "include_plunger_reserved": true,
+    "selected_pad_y_mm": 245,
+    "selection_reason": "Earliest 1 mm search position for simple 54 mm body with 5 mm packaging margin behind PLUNGER_RESERVED; no arbitrary Y datum."
+  },
+  "landing": {
+    "left_body_x_mm": 18,
+    "body_projection_mm": 68,
+    "body_depth_mm": 70,
+    "body_height_mm": 54,
+    "body_front_offset_from_pad_mm": -20,
+    "laminations": 3,
+    "pad_left_x_mm": 72,
+    "nominal_base_to_body_top_mm": 22,
+    "pad_radius_mm": 12,
+    "pad_thickness_mm": 3,
+    "pad_type": "Provisional articulated compact foot with replaceable resilient contact; plane follows current base slope. Actual articulation and footprint PURCHASE_BEFORE_CNC.",
+    "adjuster_thread": "M8",
+    "adjuster_insert_outer_diameter_reference_mm": 12,
+    "adjuster_insert_length_reference_mm": 16,
+    "adjuster_stem_length_reference_mm": 40,
+    "adjustment_candidates_mm": [
+      3,
+      5
+    ],
+    "selected_adjustment_plus_minus_mm": 3,
+    "side_screw_nominal_diameter_mm": 4.5,
+    "side_screw_underhead_reference_mm": 80,
+    "side_screw_y_offsets_from_pad_mm": [
+      -11,
+      41
+    ],
+    "side_screw_z_offsets_from_body_bottom_mm": [
+      9,
+      45
+    ],
+    "side_screw_count_per_body": 4,
+    "side_embedment_reference_mm": 12,
+    "exterior_skin_reference_mm": 6,
+    "lamination_screw_count_per_body": 2,
+    "lamination_screw_reference_mm": [
+      4.5,
+      50
+    ],
+    "lamination_screw_left_xy_mm": [
+      [
+        38,
+        260
+      ],
+      [
+        70,
+        260
+      ]
+    ],
+    "fastener_status": "PURCHASE_BEFORE_CNC; provisional packaging envelopes only; exact pilots/head/countersinks and physical load qualification pending."
+  },
+  "retention": {
+    "axis_rearward_of_pad_mm": 30,
+    "thread": "M6",
+    "underhead_reference_mm": 100,
+    "receiver_outer_diameter_reference_mm": 10,
+    "receiver_length_reference_mm": 10,
+    "engagement_target_mm": 7,
+    "engagement_range_mm": [
+      6,
+      8
+    ],
+    "maximum_blind_drill_depth_mm": 11.3,
+    "minimum_nominal_base_skin_mm": 6,
+    "thin_jamnut_count_per_side": 2,
+    "thin_jamnut_thickness_reference_mm": 3.2,
+    "washer_thickness_reference_mm": 1.6,
+    "release_drop_mm": 10.5,
+    "push_on_retaining_ring": true,
+    "operation": "TOOL_OPERATED provisional M6 hex bolt / short socket; purchased variant and operation corridor must pass root access study.",
+    "existing_M025_and_side_shapes_unchanged": true,
+    "reset_jamnut_stop_after_leveling": true,
+    "blind_interfaces": "REFERENCE_ONLY / PURCHASE_BEFORE_CNC / manual depth stop; no machining release and no current hole edits."
+  },
+  "head_before": "349f0375c78f7308e5912d389b606d26d51f4b80"
+}

@@ -1,0 +1,275 @@
+{
+  "source": "exports/generated/playfield-rest-v3362/play.FCStd",
+  "source_sha256": "30c6a13cec662b93d123114fdaf49758e443107632feb9f4a4c7cd841e9f0582",
+  "pass": true,
+  "scope": "Static vertical reactions from actual B-rep centers of volume and explicit mass assumptions. No allowable load, screw capacity, plywood modulus or structural certification is asserted.",
+  "gravity_m_s2": 9.80665,
+  "current_slope_deg": 9.906669253650632,
+  "front_support_y_mm": 245,
+  "rear_support_y_mm": 1035.25061984718,
+  "known_model_items": [
+    {
+      "name": "M025",
+      "mass_kg": 5.627534543718642,
+      "center_xyz_mm": [
+        299.99999999999994,
+        566.0896900824364,
+        427.6607745956856
+      ],
+      "status": "ESTIMATED_FROM_ACTUAL_BREP_VOLUME",
+      "density_kg_m3": 650
+    },
+    {
+      "name": "H01 wood dowel",
+      "mass_kg": 0.31526510597304286,
+      "center_xyz_mm": [
+        300.0,
+        1035.25061984718,
+        484.2203301149065
+      ],
+      "status": "ESTIMATED_EXISTING_H01_MODEL_DENSITY700"
+    },
+    {
+      "name": "F02 eight strap screws",
+      "mass_kg": 0.010882627748482416,
+      "center_xyz_mm": [
+        300,
+        1035.25061984718,
+        484.2203301149065
+      ],
+      "status": "ESTIMATED_EXISTING_F02_NOMINAL_MODELS"
+    }
+  ],
+  "unknown_actual_masses": {
+    "straps": "UNKNOWN",
+    "display_adapter": "UNKNOWN",
+    "new_retention_receivers": "UNKNOWN"
+  },
+  "planning_allowances_LOW_NOMINAL_HIGH": {
+    "four_straps_kg": [
+      0.2,
+      0.4,
+      0.6
+    ],
+    "display_adapter_kg": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "new_receiver_pair_kg": [
+      0.015,
+      0.025,
+      0.05
+    ]
+  },
+  "payload_scenarios": [
+    {
+      "display_payload_kg": 10,
+      "hardware_scenario": "LOW",
+      "moving_mass_kg": 16.41868227744017,
+      "front_pair_vertical_N": 98.93965925183579,
+      "front_each_vertical_N": 49.469829625917896,
+      "rear_line_vertical_N": 62.072611304222846,
+      "rear_each_symmetric_N": 31.036305652111423,
+      "factor2_front_each_N": 98.93965925183579,
+      "factor2_rear_line_N": 124.14522260844569,
+      "inclined_contact_horizontal_pair_N": 17.279602460884,
+      "factor2_body_wall_moment_Nm": 5.342741599599132,
+      "factor2_upper_screw_pullout_demand_each_N": 74.20474443887684,
+      "factor2_four_side_screw_shear_demand_each_N": 24.734914812958948,
+      "T1_front_pair_vertical_N_same_payload": 119.32400318746302
+    },
+    {
+      "display_payload_kg": 10,
+      "hardware_scenario": "NOMINAL",
+      "moving_mass_kg": 16.878682277440166,
+      "front_pair_vertical_N": 100.62819081572653,
+      "front_each_vertical_N": 50.31409540786326,
+      "rear_line_vertical_N": 64.89513874033207,
+      "rear_each_symmetric_N": 32.447569370166036,
+      "factor2_front_each_N": 100.62819081572653,
+      "factor2_rear_line_N": 129.79027748066414,
+      "inclined_contact_horizontal_pair_N": 17.57450093119731,
+      "factor2_body_wall_moment_Nm": 5.433922304049233,
+      "factor2_upper_screw_pullout_demand_each_N": 75.4711431117949,
+      "factor2_four_side_screw_shear_demand_each_N": 25.15704770393163,
+      "T1_front_pair_vertical_N_same_payload": 121.36041959758009
+    },
+    {
+      "display_payload_kg": 10,
+      "hardware_scenario": "HIGH",
+      "moving_mass_kg": 17.603682277440168,
+      "front_pair_vertical_N": 104.05242576187726,
+      "front_each_vertical_N": 52.02621288093863,
+      "rear_line_vertical_N": 68.58072504418135,
+      "rear_each_symmetric_N": 34.290362522090675,
+      "factor2_front_each_N": 104.05242576187726,
+      "factor2_rear_line_N": 137.1614500883627,
+      "inclined_contact_horizontal_pair_N": 18.172536330243354,
+      "factor2_body_wall_moment_Nm": 5.618830991141372,
+      "factor2_upper_screw_pullout_demand_each_N": 78.03931932140794,
+      "factor2_four_side_screw_shear_demand_each_N": 26.013106440469315,
+      "T1_front_pair_vertical_N_same_payload": 125.49014295339943
+    },
+    {
+      "display_payload_kg": 12,
+      "hardware_scenario": "LOW",
+      "moving_mass_kg": 18.418682277440166,
+      "front_pair_vertical_N": 111.82766670658356,
+      "front_each_vertical_N": 55.91383335329178,
+      "rear_line_vertical_N": 68.79790384947503,
+      "rear_each_symmetric_N": 34.39895192473752,
+      "factor2_front_each_N": 111.82766670658356,
+      "factor2_rear_line_N": 137.59580769895007,
+      "inclined_contact_horizontal_pair_N": 19.530465734670933,
+      "factor2_body_wall_moment_Nm": 6.038694002155512,
+      "factor2_upper_screw_pullout_demand_each_N": 83.87075002993767,
+      "factor2_four_side_screw_shear_demand_each_N": 27.95691667664589,
+      "T1_front_pair_vertical_N_same_payload": 134.8673015396032
+    },
+    {
+      "display_payload_kg": 12,
+      "hardware_scenario": "NOMINAL",
+      "moving_mass_kg": 18.878682277440163,
+      "front_pair_vertical_N": 113.51619827047429,
+      "front_each_vertical_N": 56.758099135237146,
+      "rear_line_vertical_N": 71.62043128558426,
+      "rear_each_symmetric_N": 35.81021564279213,
+      "factor2_front_each_N": 113.51619827047429,
+      "factor2_rear_line_N": 143.24086257116852,
+      "inclined_contact_horizontal_pair_N": 19.825364204984243,
+      "factor2_body_wall_moment_Nm": 6.129874706605612,
+      "factor2_upper_screw_pullout_demand_each_N": 85.13714870285573,
+      "factor2_four_side_screw_shear_demand_each_N": 28.379049567618573,
+      "T1_front_pair_vertical_N_same_payload": 136.90371794972026
+    },
+    {
+      "display_payload_kg": 12,
+      "hardware_scenario": "HIGH",
+      "moving_mass_kg": 19.603682277440168,
+      "front_pair_vertical_N": 116.94043321662502,
+      "front_each_vertical_N": 58.47021660831251,
+      "rear_line_vertical_N": 75.3060175894336,
+      "rear_each_symmetric_N": 37.6530087947168,
+      "factor2_front_each_N": 116.94043321662502,
+      "factor2_rear_line_N": 150.6120351788672,
+      "inclined_contact_horizontal_pair_N": 20.423399604030287,
+      "factor2_body_wall_moment_Nm": 6.314783393697751,
+      "factor2_upper_screw_pullout_demand_each_N": 87.70532491246877,
+      "factor2_four_side_screw_shear_demand_each_N": 29.235108304156256,
+      "T1_front_pair_vertical_N_same_payload": 141.03344130553958
+    },
+    {
+      "display_payload_kg": 15,
+      "hardware_scenario": "LOW",
+      "moving_mass_kg": 21.418682277440166,
+      "front_pair_vertical_N": 131.1596778887052,
+      "front_each_vertical_N": 65.5798389443526,
+      "rear_line_vertical_N": 78.88584266735339,
+      "rear_each_symmetric_N": 39.44292133367669,
+      "factor2_front_each_N": 131.1596778887052,
+      "factor2_rear_line_N": 157.77168533470677,
+      "inclined_contact_horizontal_pair_N": 22.906760645351333,
+      "factor2_body_wall_moment_Nm": 7.082622605990081,
+      "factor2_upper_screw_pullout_demand_each_N": 98.3697584165289,
+      "factor2_four_side_screw_shear_demand_each_N": 32.7899194721763,
+      "T1_front_pair_vertical_N_same_payload": 158.18224906781344
+    },
+    {
+      "display_payload_kg": 15,
+      "hardware_scenario": "NOMINAL",
+      "moving_mass_kg": 21.878682277440163,
+      "front_pair_vertical_N": 132.84820945259594,
+      "front_each_vertical_N": 66.42410472629797,
+      "rear_line_vertical_N": 81.70837010346261,
+      "rear_each_symmetric_N": 40.85418505173131,
+      "factor2_front_each_N": 132.84820945259594,
+      "factor2_rear_line_N": 163.41674020692523,
+      "inclined_contact_horizontal_pair_N": 23.201659115664643,
+      "factor2_body_wall_moment_Nm": 7.173803310440181,
+      "factor2_upper_screw_pullout_demand_each_N": 99.63615708944695,
+      "factor2_four_side_screw_shear_demand_each_N": 33.212052363148985,
+      "T1_front_pair_vertical_N_same_payload": 160.2186654779305
+    },
+    {
+      "display_payload_kg": 15,
+      "hardware_scenario": "HIGH",
+      "moving_mass_kg": 22.603682277440168,
+      "front_pair_vertical_N": 136.27244439874667,
+      "front_each_vertical_N": 68.13622219937334,
+      "rear_line_vertical_N": 85.39395640731195,
+      "rear_each_symmetric_N": 42.69697820365597,
+      "factor2_front_each_N": 136.27244439874667,
+      "factor2_rear_line_N": 170.7879128146239,
+      "inclined_contact_horizontal_pair_N": 23.799694514710687,
+      "factor2_body_wall_moment_Nm": 7.35871199753232,
+      "factor2_upper_screw_pullout_demand_each_N": 102.20433329906001,
+      "factor2_four_side_screw_shear_demand_each_N": 34.06811109968667,
+      "T1_front_pair_vertical_N_same_payload": 164.34838883374982
+    }
+  ],
+  "overhang_comparison": {
+    "T1_shoes": {
+      "support_y_mm": 380,
+      "base_front_overhang_mm": 315.98638892789086,
+      "display_front_overhang_mm": 346.5269323399798,
+      "tip_load_moment_per_N_Nmm": 315.98638892789086,
+      "tip_deflection_coefficient_L3_over_3": 10516806.244658528,
+      "uniform_line_load_moment_coefficient_L2_over_2": 49923.698993844155,
+      "uniform_deflection_coefficient_L4_over_8": 1246187860.613978
+    },
+    "front_side_landings": {
+      "support_y_mm": 245,
+      "base_front_overhang_mm": 180.98638892789086,
+      "display_front_overhang_mm": 211.5269323399798,
+      "tip_load_moment_per_N_Nmm": 180.98638892789086,
+      "tip_deflection_coefficient_L3_over_3": 1976134.4545314175,
+      "uniform_line_load_moment_coefficient_L2_over_2": 16378.036488578888,
+      "uniform_deflection_coefficient_L4_over_8": 134120039.61061072
+    }
+  },
+  "relative_front_vs_T1": {
+    "tip_moment": 0.5727664078885136,
+    "tip_deflection_tendency_same_EI": 0.1879025255918443,
+    "uniform_moment": 0.32806135800551117,
+    "uniform_deflection_tendency_same_EI": 0.10762425461642017
+  },
+  "compact_and_wider_contact_comparison": {
+    "12": {
+      "diameter_mm": 24,
+      "actual_contact_area_mm2": 452.3893421169303,
+      "contact_disk_area_mm2": 452.3893421169303,
+      "outer_edge_clearance_mm": 10.000000000000007,
+      "front_relief_transition_clearance_mm": 81.5822070104952,
+      "VESA_reserve_clearance_mm": 193.28563474354786,
+      "nearest_inner_opening_clearance_mm": 536.8966548846475
+    },
+    "14": {
+      "diameter_mm": 28,
+      "actual_contact_area_mm2": 615.7521601035994,
+      "contact_disk_area_mm2": 615.7521601035994,
+      "outer_edge_clearance_mm": 8.000000000000007,
+      "front_relief_transition_clearance_mm": 79.58220701049517,
+      "VESA_reserve_clearance_mm": 191.29441683169458,
+      "nearest_inner_opening_clearance_mm": 534.8966548846474
+    }
+  },
+  "contact_selection": "Two compact24mm articulated pads retain10mm base-edge margin.28mm pads provide more bearing but reduce edge margin to8mm; contact area is already generous for planning reactions, so no wider pad or full-width rail is required.",
+  "transverse_rail": "NOT_NEEDED: same two adjustable contact functions would require a full564mm cross-cabinet member, longer load path and additional obstruction. No rail motion/strength PASS is claimed; compact independent side bodies already meet packaging.",
+  "bending_screen": "Cantilever analogy for front overhang only, same load distribution and EI. Conservative minimum front strip width396mm and18mm nominal depth can be used for both; no actual E or plate stiffness is claimed. VESA load distribution and whole-board/torsional stiffness require physical proof.",
+  "factor2_policy_source": "docs/STRUCTURE_MATERIALS_V13.md#structural-verification-envelope",
+  "factor2_status": "Provisional force multiplier; not a defined acceleration spectrum, impact/drop rating or arbitrary transport qualification.",
+  "side_attachment": "Four screws per body transfer shear plus a tension/compression couple into full18mm side. No wall-friction support credited.36mm screw-row separation,12mm nominal embedment,6mm remaining exterior skin. Calculated demands are not screw capacities.",
+  "retention": "Two positive threaded clamps separate from the landing contact. Captive retraction before opening. Specify receiver pull-out and closed uplift proof using at least the force sensitivity case; actual hardware and drilling guide remain held.",
+  "adjustment": "Two adjusters compensate local stack/assembly tolerance to reproduce the same intended rigid pose. They do not authorize twisting a rigid board against a fixed rear axis; set matching front heights and full rear seating.",
+  "required_physical_qualification": [
+    "actual plywood/adhesive/insert pilot coupon",
+    "side screw shear/pull-out at12mm embedment including cyclic/nudge load",
+    "M025 receiver pull-out and remaining skin",
+    "lamination shear and two binder screws",
+    "whole-base VESA load distribution and deflection",
+    "both closed clamps engaged; bounce/rattle and repeatable release",
+    "front/side angle setup using measured stock; no arbitrary opposite adjuster settings"
+  ],
+  "manufacturing_release": false
+}

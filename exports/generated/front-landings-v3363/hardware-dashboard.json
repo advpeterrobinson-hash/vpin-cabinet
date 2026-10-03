@@ -1,0 +1,499 @@
+{
+  "total_hardware_families": 162,
+  "fastener_families": 60,
+  "required_Fxx_models": 40,
+  "optional_Fxx_models": 6,
+  "user_adapter_Fxx_models": 13,
+  "known_required_Fxx_minimum": 176,
+  "formula_driven_Fxx": [
+    "F53",
+    "F18",
+    "F36",
+    "F38",
+    "F39",
+    "F58"
+  ],
+  "TBD_Fxx": [
+    "F06",
+    "F16",
+    "F19",
+    "F22",
+    "F28",
+    "F31"
+  ],
+  "required_groups": {
+    "washers": {
+      "models": 10,
+      "items": [
+        {
+          "id": "W01",
+          "quantity": 12,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "W02",
+          "quantity": 12,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "W03",
+          "quantity": 4,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "W06",
+          "quantity": null,
+          "unit": "piece",
+          "formula": "sum(required_stack_items_for_2_pivots_and_6_floor_bolts) - matching_items_in_purchased_kits",
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "W07",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "W08",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "W09",
+          "quantity": 16,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "W10",
+          "quantity": 4,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "W11",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "W12",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        }
+      ]
+    },
+    "nuts_inserts": {
+      "models": 17,
+      "items": [
+        {
+          "id": "I01",
+          "quantity": 12,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I14",
+          "quantity": 12,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I02",
+          "quantity": 4,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "I04",
+          "quantity": 8,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I05",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I06",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I07",
+          "quantity": 8,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I08",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I09",
+          "quantity": 8,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "I10",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I11",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I12",
+          "quantity": 4,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I13",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I15",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I16",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I17",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "I18",
+          "quantity": 4,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        }
+      ]
+    },
+    "hinges_locks_dowel_legs": {
+      "models": 19,
+      "items": [
+        {
+          "id": "H01",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H02",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H03",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H04",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H08",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H09",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H10",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H11",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H12",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "H13",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "H14",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H15",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H16",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H18",
+          "quantity": 4,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H19",
+          "quantity": 4,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H20",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H21",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H22",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "H27",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        }
+      ]
+    },
+    "straps_brackets_fittings": {
+      "models": 10,
+      "items": [
+        {
+          "id": "B01",
+          "quantity": 4,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "B02",
+          "quantity": 6,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "B03",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "B05",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "B16",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "B07",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "B08",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "B12",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "B13",
+          "quantity": 4,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "B17",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        }
+      ]
+    },
+    "gaskets_consumables": {
+      "models": 8,
+      "items": [
+        {
+          "id": "G01",
+          "quantity": null,
+          "unit": "ml; coverage unresolved",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "G03",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "G04",
+          "quantity": 2,
+          "unit": "cut set",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "G05",
+          "quantity": 1,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "G07",
+          "quantity": 2,
+          "unit": "piece",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        },
+        {
+          "id": "G08",
+          "quantity": 2,
+          "unit": "cut set",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "G09",
+          "quantity": 2,
+          "unit": "cut set",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_CNC"
+        },
+        {
+          "id": "G12",
+          "quantity": 2,
+          "unit": "cut set",
+          "formula": null,
+          "status": "PURCHASE_BEFORE_ASSEMBLY"
+        }
+      ]
+    }
+  }
+}

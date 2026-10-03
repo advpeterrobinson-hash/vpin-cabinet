@@ -1,0 +1,142 @@
+{
+  "source": "exports/generated/front-landings-v3363/play.FCStd",
+  "source_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "scope": "OCC swept hand/tool envelopes with existing coin door at110 degrees; not a human-factors certification. No electronics removal.",
+  "coin_door_open_deg": 110,
+  "coin_members_opened": [
+    "CoinStudy_DoorLeaf",
+    "CoinStudy_ReturnButton1",
+    "CoinStudy_ReturnButton2",
+    "CoinStudy_LightSwitch1",
+    "CoinStudy_LightSwitch2",
+    "CoinStudy_DoorLock",
+    "CoinStudy_Mechanism1",
+    "CoinStudy_Mechanism2",
+    "CoinStudy_MechanismMount1_1",
+    "CoinStudy_MechanismMount1_2",
+    "CoinStudy_MechanismMount2_1",
+    "CoinStudy_MechanismMount2_2"
+  ],
+  "checks": [],
+  "operations": {
+    "retention_L": {
+      "hand": "60x70x28 palm plus finger bridge",
+      "tool": "24/26dia head x6,92mm handle; limited stroke15deg",
+      "route": "Open coin door110deg; enter centrally above S1 at lowered height; raise only beyond front relief when adjusting; translate laterally behind plunger; operate below playfield.",
+      "ignored_intentional_tool_host": [
+        "FrontLandingL_RetentionBolt",
+        "FrontLandingL_RetentionWasher",
+        "FrontLandingL_RetentionJamnut1",
+        "FrontLandingL_RetentionJamnut2",
+        "FrontLandingL_RetentionPushRing",
+        "FrontLandingL_RetentionReceiver"
+      ],
+      "hits": [],
+      "minimum_clearance_mm": 6.5,
+      "nearest_part": "SHELF_1_CandidatePayload",
+      "pass": true
+    },
+    "retention_R": {
+      "hand": "60x70x28 palm plus finger bridge",
+      "tool": "24/26dia head x6,92mm handle; limited stroke15deg",
+      "route": "Open coin door110deg; enter centrally above S1 at lowered height; raise only beyond front relief when adjusting; translate laterally behind plunger; operate below playfield.",
+      "ignored_intentional_tool_host": [
+        "FrontLandingR_RetentionBolt",
+        "FrontLandingR_RetentionWasher",
+        "FrontLandingR_RetentionJamnut1",
+        "FrontLandingR_RetentionJamnut2",
+        "FrontLandingR_RetentionPushRing",
+        "FrontLandingR_RetentionReceiver"
+      ],
+      "hits": [],
+      "minimum_clearance_mm": 6.5,
+      "nearest_part": "SHELF_1_CandidatePayload",
+      "pass": true
+    },
+    "adjuster_L": {
+      "hand": "60x70x28 palm plus finger bridge",
+      "tool": "24/26dia head x6,92mm handle; limited stroke15deg",
+      "route": "Open coin door110deg; enter centrally above S1 at lowered height; raise only beyond front relief when adjusting; translate laterally behind plunger; operate below playfield.",
+      "ignored_intentional_tool_host": [
+        "FrontLandingL_AdjusterInsert",
+        "FrontLandingL_AdjusterWasher",
+        "FrontLandingL_AdjusterLocknut",
+        "FrontLandingL_ContactPad",
+        "FrontLandingL_AdjusterStem"
+      ],
+      "hits": [],
+      "minimum_clearance_mm": 2.4999999999998863,
+      "nearest_part": "FrontLandingL_Layer3",
+      "pass": true
+    },
+    "adjuster_R": {
+      "hand": "60x70x28 palm plus finger bridge",
+      "tool": "24/26dia head x6,92mm handle; limited stroke15deg",
+      "route": "Open coin door110deg; enter centrally above S1 at lowered height; raise only beyond front relief when adjusting; translate laterally behind plunger; operate below playfield.",
+      "ignored_intentional_tool_host": [
+        "FrontLandingR_AdjusterInsert",
+        "FrontLandingR_AdjusterWasher",
+        "FrontLandingR_AdjusterLocknut",
+        "FrontLandingR_ContactPad",
+        "FrontLandingR_AdjusterStem"
+      ],
+      "hits": [],
+      "minimum_clearance_mm": 2.499999999999943,
+      "nearest_part": "FrontLandingR_SwivelJoint",
+      "pass": true
+    }
+  },
+  "manufacturing_release": false,
+  "side_attachment_access": {
+    "FrontLandingL_SideScrew1": {
+      "pass": true,
+      "hits": [],
+      "driver": "8mm shaft x124mm;44mm grip envelope x80mm",
+      "prerequisites": "PF module/main glass/matrix removed for installation or rare body replacement"
+    },
+    "FrontLandingL_SideScrew2": {
+      "pass": true,
+      "hits": [],
+      "driver": "8mm shaft x124mm;44mm grip envelope x80mm",
+      "prerequisites": "PF module/main glass/matrix removed for installation or rare body replacement"
+    },
+    "FrontLandingL_SideScrew3": {
+      "pass": true,
+      "hits": [],
+      "driver": "8mm shaft x124mm;44mm grip envelope x80mm",
+      "prerequisites": "PF module/main glass/matrix removed for installation or rare body replacement"
+    },
+    "FrontLandingL_SideScrew4": {
+      "pass": true,
+      "hits": [],
+      "driver": "8mm shaft x124mm;44mm grip envelope x80mm",
+      "prerequisites": "PF module/main glass/matrix removed for installation or rare body replacement"
+    },
+    "FrontLandingR_SideScrew1": {
+      "pass": true,
+      "hits": [],
+      "driver": "8mm shaft x124mm;44mm grip envelope x80mm",
+      "prerequisites": "PF module/main glass/matrix removed for installation or rare body replacement"
+    },
+    "FrontLandingR_SideScrew2": {
+      "pass": true,
+      "hits": [],
+      "driver": "8mm shaft x124mm;44mm grip envelope x80mm",
+      "prerequisites": "PF module/main glass/matrix removed for installation or rare body replacement"
+    },
+    "FrontLandingR_SideScrew3": {
+      "pass": true,
+      "hits": [],
+      "driver": "8mm shaft x124mm;44mm grip envelope x80mm",
+      "prerequisites": "PF module/main glass/matrix removed for installation or rare body replacement"
+    },
+    "FrontLandingR_SideScrew4": {
+      "pass": true,
+      "hits": [],
+      "driver": "8mm shaft x124mm;44mm grip envelope x80mm",
+      "prerequisites": "PF module/main glass/matrix removed for installation or rare body replacement"
+    }
+  },
+  "pass": true,
+  "preliminary_without_new_supports": false
+}

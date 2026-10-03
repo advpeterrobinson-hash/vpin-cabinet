@@ -1,0 +1,231 @@
+{
+  "rows": [
+    {
+      "side": "L",
+      "body_nearest": {
+        "button_occupied": {
+          "name": "LeafButton_secondary_L",
+          "distance_mm": 87.30253214148273
+        },
+        "button_service": {
+          "name": "ButtonWireServiceReserve_secondary_L",
+          "distance_mm": 76.0
+        },
+        "shelf1": {
+          "name": "SHELF_1_CandidatePayload",
+          "distance_mm": 54.44691109680201
+        },
+        "SSF": {
+          "name": "SSF_Exciter1L",
+          "distance_mm": 64.80262416803876
+        },
+        "front_joinery": {
+          "name": "FRONT",
+          "distance_mm": 207.0
+        },
+        "front_leg": {
+          "name": "CandidateLegBlockFL",
+          "distance_mm": 186.38654694491893
+        },
+        "plunger_service": {
+          "name": "PLUNGER_RESERVED",
+          "distance_mm": 414.03019213579097
+        }
+      },
+      "pad_to_VESA_mm": 193.28563474354786,
+      "pad_to_documented_opening_edges": {
+        "PF_MainServiceWindow": 536.8966548846475,
+        "PF_StrainSlot1": 685.9303431760965,
+        "PF_StrainSlot2": 696.904028633748
+      },
+      "pad_to_front_relief_edges_mm": 81.5822070104952,
+      "pad_foremost_world_y_mm": 233.17892831769046,
+      "pad_rearmost_world_y_mm": 257.3372029811146,
+      "base_foremost_world_y_mm": 64.01361107210916,
+      "front_overhang_to_pad_center_mm": 180.98638892789086,
+      "front_overhang_to_pad_front_mm": 169.16531724558132,
+      "attachment_axes": [
+        {
+          "index": 1,
+          "side_inside_center_xyz_mm": [
+            18,
+            234.0,
+            295.446911096802
+          ],
+          "actual_side_stock_along_axis_mm": 18.0,
+          "side_outer_boundary_center_distance_mm": 143.3016256497702,
+          "nearest_button_occupied": {
+            "name": "LeafBracket_secondary_L",
+            "distance_mm": 99.21944941163403
+          },
+          "remaining_exterior_skin_mm": 6,
+          "reference_pilot_status": "UNCUT_IN_CURRENT; hardware/depth stop hold"
+        },
+        {
+          "index": 2,
+          "side_inside_center_xyz_mm": [
+            18,
+            234.0,
+            331.446911096802
+          ],
+          "actual_side_stock_along_axis_mm": 18.0,
+          "side_outer_boundary_center_distance_mm": 107.83841060284162,
+          "nearest_button_occupied": {
+            "name": "LeafButton_secondary_L",
+            "distance_mm": 94.00430453918514
+          },
+          "remaining_exterior_skin_mm": 6,
+          "reference_pilot_status": "UNCUT_IN_CURRENT; hardware/depth stop hold"
+        },
+        {
+          "index": 3,
+          "side_inside_center_xyz_mm": [
+            18,
+            286.0,
+            295.446911096802
+          ],
+          "actual_side_stock_along_axis_mm": 18.0,
+          "side_outer_boundary_center_distance_mm": 152.24790149572468,
+          "nearest_button_occupied": {
+            "name": "LeafBracket_secondary_L",
+            "distance_mm": 149.69752108507777
+          },
+          "remaining_exterior_skin_mm": 6,
+          "reference_pilot_status": "UNCUT_IN_CURRENT; hardware/depth stop hold"
+        },
+        {
+          "index": 4,
+          "side_inside_center_xyz_mm": [
+            18,
+            286.0,
+            331.446911096802
+          ],
+          "actual_side_stock_along_axis_mm": 18.0,
+          "side_outer_boundary_center_distance_mm": 116.7846864487961,
+          "nearest_button_occupied": {
+            "name": "LeafButton_secondary_L",
+            "distance_mm": 144.95117794554642
+          },
+          "remaining_exterior_skin_mm": 6,
+          "reference_pilot_status": "UNCUT_IN_CURRENT; hardware/depth stop hold"
+        }
+      ]
+    },
+    {
+      "side": "R",
+      "body_nearest": {
+        "button_occupied": {
+          "name": "LeafButton_secondary_R",
+          "distance_mm": 87.30253214148273
+        },
+        "button_service": {
+          "name": "ButtonWireServiceReserve_secondary_R",
+          "distance_mm": 76.0
+        },
+        "shelf1": {
+          "name": "SHELF_1_CandidatePayload",
+          "distance_mm": 54.44691109680201
+        },
+        "SSF": {
+          "name": "SSF_Exciter1R",
+          "distance_mm": 64.80262416803876
+        },
+        "front_joinery": {
+          "name": "FRONT",
+          "distance_mm": 207.0
+        },
+        "front_leg": {
+          "name": "CandidateLegBlockFR",
+          "distance_mm": 186.38654694491893
+        },
+        "plunger_service": {
+          "name": "PLUNGER_RESERVED",
+          "distance_mm": 5.0
+        }
+      },
+      "pad_to_VESA_mm": 193.28563474354792,
+      "pad_to_documented_opening_edges": {
+        "PF_MainServiceWindow": 536.8966548846475,
+        "PF_StrainSlot1": 696.904028633748,
+        "PF_StrainSlot2": 685.9303431760965
+      },
+      "pad_to_front_relief_edges_mm": 81.5822070104952,
+      "pad_foremost_world_y_mm": 233.17892831769046,
+      "pad_rearmost_world_y_mm": 257.3372029811146,
+      "base_foremost_world_y_mm": 64.01361107210916,
+      "front_overhang_to_pad_center_mm": 180.98638892789086,
+      "front_overhang_to_pad_front_mm": 169.16531724558132,
+      "attachment_axes": [
+        {
+          "index": 1,
+          "side_inside_center_xyz_mm": [
+            582,
+            234.0,
+            295.446911096802
+          ],
+          "actual_side_stock_along_axis_mm": 18.0,
+          "side_outer_boundary_center_distance_mm": 143.3016256497702,
+          "nearest_button_occupied": {
+            "name": "LeafBracket_secondary_R",
+            "distance_mm": 99.21944941163403
+          },
+          "remaining_exterior_skin_mm": 6,
+          "reference_pilot_status": "UNCUT_IN_CURRENT; hardware/depth stop hold"
+        },
+        {
+          "index": 2,
+          "side_inside_center_xyz_mm": [
+            582,
+            234.0,
+            331.446911096802
+          ],
+          "actual_side_stock_along_axis_mm": 18.0,
+          "side_outer_boundary_center_distance_mm": 107.83841060284162,
+          "nearest_button_occupied": {
+            "name": "LeafButton_secondary_R",
+            "distance_mm": 94.00430453918514
+          },
+          "remaining_exterior_skin_mm": 6,
+          "reference_pilot_status": "UNCUT_IN_CURRENT; hardware/depth stop hold"
+        },
+        {
+          "index": 3,
+          "side_inside_center_xyz_mm": [
+            582,
+            286.0,
+            295.446911096802
+          ],
+          "actual_side_stock_along_axis_mm": 18.0,
+          "side_outer_boundary_center_distance_mm": 152.24790149572468,
+          "nearest_button_occupied": {
+            "name": "LeafBracket_secondary_R",
+            "distance_mm": 149.69752108507777
+          },
+          "remaining_exterior_skin_mm": 6,
+          "reference_pilot_status": "UNCUT_IN_CURRENT; hardware/depth stop hold"
+        },
+        {
+          "index": 4,
+          "side_inside_center_xyz_mm": [
+            582,
+            286.0,
+            331.446911096802
+          ],
+          "actual_side_stock_along_axis_mm": 18.0,
+          "side_outer_boundary_center_distance_mm": 116.7846864487961,
+          "nearest_button_occupied": {
+            "name": "LeafButton_secondary_R",
+            "distance_mm": 144.95117794554642
+          },
+          "remaining_exterior_skin_mm": 6,
+          "reference_pilot_status": "UNCUT_IN_CURRENT; hardware/depth stop hold"
+        }
+      ]
+    }
+  ],
+  "source_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "side_hardware_holes_not_released": true,
+  "base_blind_receiver_holes_not_released": true,
+  "intentional_interfaces": "Only new support pads carry front gravity load. Side screws engage12 mm of18 mm nominal structural sides. Embedded receiver envelopes are reference-only and do not modify current wood machining.",
+  "manufacturing_release": false
+}

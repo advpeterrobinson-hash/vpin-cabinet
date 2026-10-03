@@ -1,0 +1,110 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "Previous closed pose \u2014 front support absent",
+    "note": "The previous CAD PLAY placement did not mechanically establish pitch. The rear dowel has seat contact but permits rotation; this view is an audit of the superseded unsupported configuration.",
+    "native_cad": true
+  },
+  {
+    "image": "02-review.png",
+    "title": "Crossmember clearance is intentional after front support",
+    "note": "Actual same-Y vertical gap is22.333 mm at each crossmember. T1/T2/T3 remain cabinet structural crossmembers; they do not carry playfield gravity load in the selected architecture.",
+    "native_cad": true
+  },
+  {
+    "image": "03-review.png",
+    "title": "T1 shoes \u2014 comparison only",
+    "note": "The held shoe pair supports around Y380 and leaves315.986 mm centerline front overhang. It makes the playfield dependent on removable T1. No T1 shoe is promoted; new side contacts are at Y245.",
+    "native_cad": true
+  },
+  {
+    "image": "04-review.png",
+    "title": "Front-side search \u2014 earliest simple body",
+    "note": "202 candidates compare 36 and 54 mm body heights in 1 mm Y increments. The 54 mm body first passes at Y245 with 5 mm obstacle reserve and a complete contact footprint. Buttons and their conservative hand/tool paths are also screened.",
+    "native_cad": true
+  },
+  {
+    "image": "05-review.png",
+    "title": "Selected landing \u2014 three 18 mm layers",
+    "note": "Symmetric body pair; six actual18 mm plywood pieces. All purchased inserts, screws and adjusters remain provisional. No side-wall or M025 machining is frozen.",
+    "native_cad": true
+  },
+  {
+    "image": "06-review.png",
+    "title": "Button and plunger service clearance",
+    "note": "Body-to-secondary wire reserve 76 mm; body-to-occupied button 87.303 mm. The original button hand/tool corridors remain clear. The right plunger reserve, not the buttons, determines the symmetric support location.",
+    "native_cad": true
+  },
+  {
+    "image": "07-review.png",
+    "title": "Positive body-to-side attachment",
+    "note": "Four 4.5\u00d780-class screws per side are a packaging reference. Minimum body screw-center edge distance 9 mm; side-panel outer-boundary distance\u2265107.838 mm. Final pilot, head seat and actual plywood load qualification remain HOLD. No exterior breakthrough is permitted.",
+    "native_cad": true
+  },
+  {
+    "image": "08-review.png",
+    "title": "Adjuster stack \u2014 pad thickness included",
+    "note": "\u00b13 mm is tolerance-compensation travel to reproduce the accepted pose. It is not permission to lower the whole display or twist the board. \u00b15 mm is rejected by the 100 mm retention stack; jamnut stops are reset after leveling.",
+    "native_cad": true
+  },
+  {
+    "image": "09-review.png",
+    "title": "M025 contact footprint \u2014 useful continuous wood",
+    "note": "Contact is behind the front relief, on continuous 18 mm M025. Pad-to-VESA reserve is 193.286 mm. Rear service window and strain slots remain unchanged; actual receiver bore is a separate purchased-hardware hold.",
+    "native_cad": true
+  },
+  {
+    "image": "10-review.png",
+    "title": "Left/right leveling \u2014 preserve current playing slope",
+    "note": "Level means level across X while retaining 9.906669\u00b0 front/rear slope. The rear dowel is a fixed line: opposing adjuster heights are not an authorized rigid-board twist. An actual common \u22123 mm pose collides the display envelope with button hardware; compensate build tolerances to the nominal pose.",
+    "native_cad": true
+  },
+  {
+    "image": "11-review.png",
+    "title": "Front overhang \u2014 245 mm versus 380 mm support",
+    "note": "Using the same base front bound, side landings shorten centerline front overhang by 135 mm. The first pad edge begins 169.165 mm behind the base front bound. Root load report compares bending tendency; contact area alone is not strength certification.",
+    "native_cad": true
+  },
+  {
+    "image": "12-review.png",
+    "title": "Explicit closed load path",
+    "note": "Normal weight is carried by two front pads and the rear dowel line. The side screws are positive load-transfer connections. Glass, lockdown, buttons, electronics, cables and T1/T2/T3 are not gravity supports. Separate M6 retainers resist uplift.",
+    "native_cad": true
+  },
+  {
+    "image": "13-review.png",
+    "title": "Early opening \u2014 pads release cleanly",
+    "note": "Both M6 retainers are backed out and captive/parked. Exact continuous separating-plane proof covers first release; OCC interval bounds cover the remaining 0\u201350\u00b0 motion. The support blocks and M8 adjusters stay installed.",
+    "native_cad": true
+  },
+  {
+    "image": "14-review.png",
+    "title": "50\u00b0 playfield service",
+    "note": "Main playfield glass and matrix are removed. Both front retainers are parked; service support procedure remains mandatory. Native validation includes all new support hardware and the unchanged cabinet systems.",
+    "native_cad": true
+  },
+  {
+    "image": "15-review.png",
+    "title": "48 mm lift-out \u2014 clear vertical extraction",
+    "note": "Continuous differential clearance proves the 48 mm vertical extraction with all new landings fixed. The seated 2\u00b0 /48\u21920 mm lowering sequence is also checked before final 2\u21920\u00b0 closure. Full module removal is preserved.",
+    "native_cad": true
+  },
+  {
+    "image": "16-review.png",
+    "title": "Uplift retention is separate from gravity support",
+    "note": "Two independent M6\u00d7100-class hex bolts with two thin jamnuts each set 6\u20138 mm receiver engagement. A grooveless push-on ring keeps each bolt captive after withdrawal. Root access study checks a compact 10 mm wrench. Glass/lockdown carry no normal playfield weight; no support hardware is removed for routine service.",
+    "native_cad": true
+  },
+  {
+    "image": "17-review.png",
+    "title": "Complete cabinet \u2014 closed supported playfield",
+    "note": "Both support pads touch M025 in the original PLAY pose. Both positive retainers are engaged. Y89/Y127 side buttons, 52 mm side reliefs,396 mm front width, rear window, WPC, shelves and backbox remain unchanged. Manufacturing and physical qualification remain blocked.",
+    "native_cad": true
+  },
+  {
+    "image": "18-review.png",
+    "title": "Landing hardware \u2014 semantic exploded review",
+    "note": "Three real 18 mm layers per side; four side screws and two lamination screws per body. Exploded offsets explain assembly and are not insertion-path validation. Swivel, disc and resilient tip are visualization subparts of one purchased foot assembly, not custom metal or duplicate BOM items.",
+    "native_cad": true
+  }
+]

@@ -1,0 +1,256 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "play distinct purchased hardware does not interpenetrate",
+      "pass": true
+    },
+    {
+      "name": "play hardware/wood only explicit uncut manual interfaces",
+      "pass": true
+    },
+    {
+      "name": "released distinct purchased hardware does not interpenetrate",
+      "pass": true
+    },
+    {
+      "name": "released hardware/wood only explicit uncut manual interfaces",
+      "pass": true
+    }
+  ],
+  "source_sha256": "83cb14bc1a742b4dd5085c659c459de49e59bd69cdeef3da8db96874714353db",
+  "states": [
+    {
+      "state": "play",
+      "hardware_pairs_tested": 703,
+      "unintended_hardware_intersections": [],
+      "intentional_single_foot_envelopes": [
+        {
+          "a": "FrontLandingL_ContactPad",
+          "b": "FrontLandingL_SwivelJoint",
+          "volume_mm3": 0.13570868542314138,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        },
+        {
+          "a": "FrontLandingL_SwivelDisc",
+          "b": "FrontLandingL_SwivelJoint",
+          "volume_mm3": 45.75429200982138,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        },
+        {
+          "a": "FrontLandingL_SwivelJoint",
+          "b": "FrontLandingL_AdjusterStem",
+          "volume_mm3": 134.04128655316444,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        },
+        {
+          "a": "FrontLandingR_ContactPad",
+          "b": "FrontLandingR_SwivelJoint",
+          "volume_mm3": 0.13570868542348624,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        },
+        {
+          "a": "FrontLandingR_SwivelDisc",
+          "b": "FrontLandingR_SwivelJoint",
+          "volume_mm3": 45.7542920098278,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        },
+        {
+          "a": "FrontLandingR_SwivelJoint",
+          "b": "FrontLandingR_AdjusterStem",
+          "volume_mm3": 134.04128655316444,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        }
+      ],
+      "unreleased_original_wood_interfaces": [
+        {
+          "hardware": "FrontLandingL_SideScrew1",
+          "wood": "SIDE_L",
+          "volume_mm3": 190.85175370557982,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingL_SideScrew2",
+          "wood": "SIDE_L",
+          "volume_mm3": 190.85175370557974,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingL_SideScrew3",
+          "wood": "SIDE_L",
+          "volume_mm3": 190.8517537055796,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingL_SideScrew4",
+          "wood": "SIDE_L",
+          "volume_mm3": 190.85175370557954,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingL_RetentionBolt",
+          "wood": "PF_BasePlywood",
+          "volume_mm3": 197.92033690554362,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_SideScrew1",
+          "wood": "SIDE_R",
+          "volume_mm3": 190.85175370557982,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_SideScrew2",
+          "wood": "SIDE_R",
+          "volume_mm3": 190.85175370557974,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_SideScrew3",
+          "wood": "SIDE_R",
+          "volume_mm3": 190.8517537055796,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_SideScrew4",
+          "wood": "SIDE_R",
+          "volume_mm3": 190.85175370557954,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_RetentionBolt",
+          "wood": "PF_BasePlywood",
+          "volume_mm3": 197.92033690576568,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingL_RetentionReceiver",
+          "wood": "PF_BasePlywood",
+          "volume_mm3": 481.9009955374623,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_RetentionReceiver",
+          "wood": "PF_BasePlywood",
+          "volume_mm3": 481.90099553746455,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        }
+      ],
+      "unintended_wood_intersections": []
+    },
+    {
+      "state": "released",
+      "hardware_pairs_tested": 703,
+      "unintended_hardware_intersections": [],
+      "intentional_single_foot_envelopes": [
+        {
+          "a": "FrontLandingL_ContactPad",
+          "b": "FrontLandingL_SwivelJoint",
+          "volume_mm3": 0.13570868542314138,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        },
+        {
+          "a": "FrontLandingL_SwivelDisc",
+          "b": "FrontLandingL_SwivelJoint",
+          "volume_mm3": 45.75429200982138,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        },
+        {
+          "a": "FrontLandingL_SwivelJoint",
+          "b": "FrontLandingL_AdjusterStem",
+          "volume_mm3": 134.04128655316444,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        },
+        {
+          "a": "FrontLandingR_ContactPad",
+          "b": "FrontLandingR_SwivelJoint",
+          "volume_mm3": 0.13570868542348624,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        },
+        {
+          "a": "FrontLandingR_SwivelDisc",
+          "b": "FrontLandingR_SwivelJoint",
+          "volume_mm3": 45.7542920098278,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        },
+        {
+          "a": "FrontLandingR_SwivelJoint",
+          "b": "FrontLandingR_AdjusterStem",
+          "volume_mm3": 134.04128655316444,
+          "reason": "Explicit original envelope subparts of ONE H27 purchased articulated foot; not separate manufactured hardware"
+        }
+      ],
+      "unreleased_original_wood_interfaces": [
+        {
+          "hardware": "FrontLandingL_SideScrew1",
+          "wood": "SIDE_L",
+          "volume_mm3": 190.85175370557982,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingL_SideScrew2",
+          "wood": "SIDE_L",
+          "volume_mm3": 190.85175370557974,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingL_SideScrew3",
+          "wood": "SIDE_L",
+          "volume_mm3": 190.8517537055796,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingL_SideScrew4",
+          "wood": "SIDE_L",
+          "volume_mm3": 190.85175370557954,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_SideScrew1",
+          "wood": "SIDE_R",
+          "volume_mm3": 190.85175370557982,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_SideScrew2",
+          "wood": "SIDE_R",
+          "volume_mm3": 190.85175370557974,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_SideScrew3",
+          "wood": "SIDE_R",
+          "volume_mm3": 190.8517537055796,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_SideScrew4",
+          "wood": "SIDE_R",
+          "volume_mm3": 190.85175370557954,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingL_RetentionReceiver",
+          "wood": "PF_BasePlywood",
+          "volume_mm3": 481.9009955374623,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        },
+        {
+          "hardware": "FrontLandingR_RetentionReceiver",
+          "wood": "PF_BasePlywood",
+          "volume_mm3": 481.90099553746455,
+          "reason": "Explicit hardware-dependent pilot/receiver interface is uncut in protected original B-rep; mandatory guided manual operation, PURCHASE_BEFORE_CNC"
+        }
+      ],
+      "unintended_wood_intersections": []
+    }
+  ],
+  "side_screw_y_mm": [
+    234,
+    286
+  ],
+  "minimum_body_center_edge_mm": 9,
+  "correction": "Initial new-support Y240/Y280 rows intersected the M8 adjuster insert/stem and M6 retention bolts. New-only rows234/286 eliminate those clashes; no original component changed.",
+  "manufacturing_release": false,
+  "purchased_internal_foot_geometry": "UNMEASURED; explicit envelope overlap only within H27; physical articulation and captive construction must be confirmed."
+}

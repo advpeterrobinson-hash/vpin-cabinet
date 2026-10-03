@@ -1,0 +1,158 @@
+{
+  "pass": true,
+  "scope": "Focused new front support visibility, exact native release/service/lift/closing endpoints, manual steps, packing, EN/PT and emulated touch. Unchanged broader UI inherited.",
+  "checks": [
+    {
+      "name": "root complete architecture gate passed",
+      "pass": true
+    },
+    {
+      "name": "combined closing trajectory validated",
+      "pass": true
+    },
+    {
+      "name": "current viewer revision",
+      "pass": true
+    },
+    {
+      "name": "PLAY separates architecture pass from physical/CNC hold",
+      "pass": true
+    },
+    {
+      "name": "dedicated landing visibility group",
+      "pass": true
+    },
+    {
+      "name": "isolate shows only landing assembly",
+      "pass": true
+    },
+    {
+      "name": "landing selection is functional and traceable",
+      "pass": true,
+      "details": "M068 · Front playfield closed support · Front playfield landing L, layer 1Part IDM068English nameFront playfield closed support · Front playfield landing L, layer 1PT-BR nameApoio frontal do playfield fechado · Apoio frontal do playfield esquerdo, camada 1Assembly / stagePlayfield wooden pivot supports · 05Material classSTRUCTURAL_PREMIUMNominal thickness18 mmBOM total quantity1Manufacturing familyM068Instance / assembly IDP095-Layer1Hardware ID—Manufacturing routeONE_SIDE_CNC_PLUS_MANUAL_FINISHFreeze / purchase statusWAITING_FOR_COUPONQuantity authorityEXACT_FROM_DESIGNCAD model authorityCURRENT_V3363 · exports/generated/front-landings-v3363/play.FCStd · FRONT PLAYFIELD CLOSED SUPPORT · ARCHITECTURE_PASS / PHYSICAL QUALIFICATION HOLDBOM item / familyOpen manual stage 05"
+    },
+    {
+      "name": "both explicit load paths",
+      "pass": true
+    },
+    {
+      "name": "six actual18mm landing manufacturing members",
+      "pass": true
+    },
+    {
+      "name": "new hardware has IDs and purchased-dimension holds",
+      "pass": true
+    },
+    {
+      "name": "exact native endpoint service-pf-release",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "exact native endpoint service-pf-service",
+      "pass": true,
+      "details": 0.00006903462006188262
+    },
+    {
+      "name": "exact native endpoint service-pf-lift",
+      "pass": true,
+      "details": 0.000030517578125
+    },
+    {
+      "name": "exact native endpoint service-pf-close",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "front coin door open for retention access",
+      "pass": true
+    },
+    {
+      "name": "front landings stay fixed during opening",
+      "pass": true
+    },
+    {
+      "name": "rear dowel seated before front lowers",
+      "pass": true
+    },
+    {
+      "name": "manual animation honestly schematic assembly-05.2",
+      "pass": true
+    },
+    {
+      "name": "landing parts in manual animation assembly-05.2",
+      "pass": true
+    },
+    {
+      "name": "manual animation honestly schematic assembly-06.2",
+      "pass": true
+    },
+    {
+      "name": "landing parts in manual animation assembly-06.2",
+      "pass": true
+    },
+    {
+      "name": "manual animation honestly schematic assembly-06.3",
+      "pass": true
+    },
+    {
+      "name": "landing parts in manual animation assembly-06.3",
+      "pass": true
+    },
+    {
+      "name": "all manufacturing members packed once",
+      "pass": true
+    },
+    {
+      "name": "button authority unchanged",
+      "pass": true
+    },
+    {
+      "name": "tablet landing isolate",
+      "pass": true
+    },
+    {
+      "name": "Portuguese landing controls",
+      "pass": true
+    },
+    {
+      "name": "tablet44px landing actions",
+      "pass": true
+    },
+    {
+      "name": "tablet closing play/pause",
+      "pass": true
+    },
+    {
+      "name": "Portuguese closing animation",
+      "pass": true
+    },
+    {
+      "name": "tablet no overflow",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "offline no network",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "prior untouched controls passed",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "tablet_playback": "PASS_EMULATED_TOUCH_PHYSICAL_FPS_NOT_CERTIFIED",
+  "inherited": {
+    "path": "exports/generated/playfield-rest-v3362/browser-validation.json",
+    "sha256": "83c702e8af489496f63f43dc295129c5ebc26a3653c347d528db45046f165cb1",
+    "checks": 22
+  },
+  "viewer_sha256": "400aaa1b88305ef80d1309293ddeca03a1f637bee53c352628338559bb6117e2"
+}

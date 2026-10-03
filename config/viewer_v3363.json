@@ -1,0 +1,18 @@
+{
+  "version": "V33.6.3",
+  "authority": "COMPLETE_CLOSED_SUPPORT_ARCHITECTURE_DESIGN_CANDIDATE",
+  "phase": "CLOSED_SUPPORT_ARCHITECTURE_DESIGN_CANDIDATE",
+  "source_head": "349f0375c78f7308e5912d389b606d26d51f4b80",
+  "viewer": "exports/generated/viewer-v32/index.html",
+  "builder": "tools/build_viewer_v3363.py",
+  "validation": "exports/generated/front-landings-v3363/validation.json",
+  "manual_json": "exports/generated/front-landings-v3363/assembly-manual.json",
+  "manufacturing_register": "config/manufacturing/flatpack_v3363.json",
+  "hardware_catalog": "config/hardware_catalog_v3363.json",
+  "geometry_changed": true,
+  "prior_geometry_unchanged": true,
+  "closed_position_support_valid": true,
+  "closed_position_support_status": "ARCHITECTURE_PASS_PHYSICAL_QUALIFICATION_HOLD",
+  "physical_qualification_complete": false,
+  "manufacturing_release": false
+}

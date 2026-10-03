@@ -1,0 +1,1289 @@
+{
+  "version": "V33.6.3",
+  "manufacturing_release": false,
+  "hardware": [
+    {
+      "id": "F59",
+      "description_en": "Landing-to-side wood screw",
+      "description_pt_BR": "Parafuso do apoio para a lateral",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 8,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel / selected finish",
+      "nominal_dimensions": {
+        "nominal_diameter_mm": 4.5,
+        "underhead_reference_mm": 80,
+        "side_engagement_reference_mm": 12
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://www.ciser.com.br/"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized. Four per support; 12 mm nominal side engagement leaves 6 mm nominal skin. Actual plywood, screw/head and pilot must prevent exterior breakthrough.",
+      "instances": [
+        {
+          "object": "FrontLandingL_SideScrew1",
+          "coordinate_xyz_mm": [
+            46.0,
+            234.0,
+            295.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            -1,
+            0,
+            0
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingL_SideScrew2",
+          "coordinate_xyz_mm": [
+            46.0,
+            234.0,
+            331.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            -1,
+            0,
+            0
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingL_SideScrew3",
+          "coordinate_xyz_mm": [
+            46.0,
+            286.0,
+            295.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            -1,
+            0,
+            0
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingL_SideScrew4",
+          "coordinate_xyz_mm": [
+            46.0,
+            286.0,
+            331.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            -1,
+            0,
+            0
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_SideScrew1",
+          "coordinate_xyz_mm": [
+            554.0,
+            234.0,
+            295.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            1,
+            0,
+            0
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        },
+        {
+          "object": "FrontLandingR_SideScrew2",
+          "coordinate_xyz_mm": [
+            554.0,
+            234.0,
+            331.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            1,
+            0,
+            0
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        },
+        {
+          "object": "FrontLandingR_SideScrew3",
+          "coordinate_xyz_mm": [
+            554.0,
+            286.0,
+            295.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            1,
+            0,
+            0
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        },
+        {
+          "object": "FrontLandingR_SideScrew4",
+          "coordinate_xyz_mm": [
+            554.0,
+            286.0,
+            331.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            1,
+            0,
+            0
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "wood screw drive, hardware-dependent",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F60",
+      "description_en": "Landing lamination wood screw",
+      "description_pt_BR": "Parafuso das lâminas do apoio",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 4,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel / selected finish",
+      "nominal_dimensions": {
+        "nominal_diameter_mm": 4.5,
+        "underhead_reference_mm": 50
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://www.ciser.com.br/"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized.",
+      "instances": [
+        {
+          "object": "FrontLandingL_LaminationScrew1",
+          "coordinate_xyz_mm": [
+            38.0,
+            260.0,
+            315.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingL_LaminationScrew2",
+          "coordinate_xyz_mm": [
+            70.0,
+            260.0,
+            315.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_LaminationScrew1",
+          "coordinate_xyz_mm": [
+            562.0,
+            260.0,
+            315.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        },
+        {
+          "object": "FrontLandingR_LaminationScrew2",
+          "coordinate_xyz_mm": [
+            530.0,
+            260.0,
+            315.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "wood screw drive, hardware-dependent",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "F61",
+      "description_en": "Captive closed-playfield retention hex bolt, M6 family",
+      "description_pt_BR": "Parafuso sextavado cativo de retenção do playfield, família M6",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 2,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel / selected finish",
+      "nominal_dimensions": {
+        "thread_family": "M6",
+        "underhead_reference_mm": 100,
+        "nominal_engagement_mm": 7,
+        "release_drop_reference_mm": 10.5
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://www.ciser.com.br/"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized. TOOL OPERATED, not hand-knob operated. Two thin jam nuts plus washer set engagement; captivity is a separate B17 part. No custom metal.",
+      "instances": [
+        {
+          "object": "FrontLandingL_RetentionBolt",
+          "coordinate_xyz_mm": [
+            72.0,
+            275.0,
+            322.68634771652034
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_RetentionBolt",
+          "coordinate_xyz_mm": [
+            528.0,
+            275.0,
+            322.68634771652034
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "compact 10 mm spanner reference; actual head measured",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "H27",
+      "description_en": "M8 articulated landing foot with replaceable contact pad",
+      "description_pt_BR": "Pé articulado M8 do apoio com contato substituível",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 2,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel stem, articulated polymer/metal pad, replaceable resilient contact; actual materials pending",
+      "nominal_dimensions": {
+        "thread_family": "M8",
+        "contact_diameter_reference_mm": 24,
+        "contact_thickness_reference_mm": 3,
+        "minimum_articulation_required_deg": 10,
+        "adjustment_plus_minus_mm": 3,
+        "stem_length_config_reference_mm": 40,
+        "modeled_stem_cylinder_length_mm": 40.0
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://www.essentracomponents.com.br/set-ap/Catalogo_Master_Brasil.pdf",
+        "https://www.elierre.com.br/p-pe-nivelador-m8-247"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized. Stem/joint/disc/pad are visual subparts of TWO purchased foot assemblies, not eight purchased parts. Require captive articulation ≥10° in this inverted support orientation and include contact thickness in stack; purchased foot load rating and inverted suitability unqualified. ±3 mm is installation/stock compensation around the unchanged CURRENT pose, not permission to change the playing angle; whole-pose range extremes are not validated.",
+      "instances": [
+        {
+          "object": "FrontLandingL_AdjusterStem",
+          "coordinate_xyz_mm": [
+            72.0,
+            245.0,
+            335.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingL_SwivelJoint",
+          "coordinate_xyz_mm": [
+            72.00059670996345,
+            245.0,
+            355.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingL_SwivelDisc",
+          "coordinate_xyz_mm": [
+            72.0,
+            245.68817506507344,
+            358.50655386936546
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingL_ContactPad",
+          "coordinate_xyz_mm": [
+            72.0,
+            245.25806564940254,
+            360.9692771365133
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_AdjusterStem",
+          "coordinate_xyz_mm": [
+            528.0,
+            245.0,
+            335.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        },
+        {
+          "object": "FrontLandingR_SwivelJoint",
+          "coordinate_xyz_mm": [
+            527.9994032900365,
+            245.0,
+            355.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        },
+        {
+          "object": "FrontLandingR_SwivelDisc",
+          "coordinate_xyz_mm": [
+            528.0,
+            245.68817506507344,
+            358.50655386936546
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        },
+        {
+          "object": "FrontLandingR_ContactPad",
+          "coordinate_xyz_mm": [
+            528.0,
+            245.25806564940254,
+            360.9692771365133
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "selected foot adjustment tool",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false,
+        "articulation_degrees": null,
+        "captive_inverted_operation_approved": false,
+        "contact_compression_mm": null,
+        "adjustment_engagement_at_both_limits_mm": null
+      }
+    },
+    {
+      "id": "I15",
+      "description_en": "M8 metal landing receiver insert",
+      "description_pt_BR": "Inserto metálico M8 do apoio",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 2,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel / selected finish",
+      "nominal_dimensions": {
+        "thread_family": "M8",
+        "outer_diameter_reference_mm": 12,
+        "length_reference_mm": 16
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://renametalurgica.com.br/produtos/porca-garra"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized.",
+      "instances": [
+        {
+          "object": "FrontLandingL_AdjusterInsert",
+          "coordinate_xyz_mm": [
+            72.0,
+            245.0,
+            332.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_AdjusterInsert",
+          "coordinate_xyz_mm": [
+            528.0,
+            245.0,
+            332.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "purchased insert driver and qualified depth stop",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "I16",
+      "description_en": "M8 adjuster locknut",
+      "description_pt_BR": "Contraporca M8 do regulador",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 2,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel / selected finish",
+      "nominal_dimensions": {
+        "thread_family": "M8",
+        "thickness_reference_mm": 6.5
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://www.ciser.com.br/"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized.",
+      "instances": [
+        {
+          "object": "FrontLandingL_AdjusterLocknut",
+          "coordinate_xyz_mm": [
+            72.0,
+            245.0,
+            345.29691109680203
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_AdjusterLocknut",
+          "coordinate_xyz_mm": [
+            528.0,
+            245.0,
+            345.29691109680203
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "13 mm spanner reference; verify purchased nut",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "I17",
+      "description_en": "Blind-installed M6 metal retention receiver",
+      "description_pt_BR": "Inserto metálico M6 de retenção em furo cego",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 2,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel / selected finish",
+      "nominal_dimensions": {
+        "thread_family": "M6",
+        "outer_diameter_reference_mm": 10,
+        "length_reference_mm": 10,
+        "maximum_reference_blind_bore_depth_mm": 11.3
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://www.bigfer.com.br/bucha-bigfer/",
+        "https://portal.bigfer.com.br/index.php?keyword=M6&route=product%2Fsearch",
+        "https://jomarcakits.com.br/blog/source/Catalogo.pdf"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized. Blind describes the wood bore, not necessarily a closed-end insert. Two vertical-world receivers enter the inclined M025 underside; rigid angled drill guide and depth-stop coupon are mandatory. M025 reference B-rep has no released receiver holes.",
+      "instances": [
+        {
+          "object": "FrontLandingL_RetentionReceiver",
+          "coordinate_xyz_mm": [
+            72.0,
+            275.0,
+            372.68634771652034
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_RetentionReceiver",
+          "coordinate_xyz_mm": [
+            528.0,
+            275.0,
+            372.68634771652034
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "qualified rigid angled drill guide, depth stop, purchased insert driver",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false,
+        "pilot_diameter_mm": null,
+        "blind_axial_depth_mm": null,
+        "drill_point_allowance_mm": null,
+        "remaining_top_skin_mm": null,
+        "pullout_test_approved": false
+      }
+    },
+    {
+      "id": "I18",
+      "description_en": "M6 thin jam nut for retention stop stack",
+      "description_pt_BR": "Contraporca fina M6 para batente de retenção",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 4,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel / selected finish",
+      "nominal_dimensions": {
+        "thread_family": "M6",
+        "thickness_reference_mm": 3.2
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://www.ciser.com.br/"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized.",
+      "instances": [
+        {
+          "object": "FrontLandingL_RetentionJamnut1",
+          "coordinate_xyz_mm": [
+            72.0,
+            275.0,
+            283.246911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingL_RetentionJamnut2",
+          "coordinate_xyz_mm": [
+            72.0,
+            275.0,
+            280.046911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_RetentionJamnut1",
+          "coordinate_xyz_mm": [
+            528.0,
+            275.0,
+            283.246911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        },
+        {
+          "object": "FrontLandingR_RetentionJamnut2",
+          "coordinate_xyz_mm": [
+            528.0,
+            275.0,
+            280.046911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "two compact 10 mm spanners reference",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "W11",
+      "description_en": "M8 landing adjuster washer",
+      "description_pt_BR": "Arruela M8 do regulador do apoio",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 2,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel / selected finish",
+      "nominal_dimensions": {
+        "thread_family": "M8",
+        "outer_diameter_reference_mm": 16,
+        "thickness_reference_mm": 1.6
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://www.ciser.com.br/"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized.",
+      "instances": [
+        {
+          "object": "FrontLandingL_AdjusterWasher",
+          "coordinate_xyz_mm": [
+            72.0,
+            245.0,
+            341.246911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_AdjusterWasher",
+          "coordinate_xyz_mm": [
+            528.0,
+            245.0,
+            341.246911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "none",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "W12",
+      "description_en": "M6 retention bearing washer",
+      "description_pt_BR": "Arruela M6 de apoio da retenção",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 2,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel / selected finish",
+      "nominal_dimensions": {
+        "thread_family": "M6",
+        "outer_diameter_reference_mm": 14,
+        "thickness_reference_mm": 1.6
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://www.ciser.com.br/"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized.",
+      "instances": [
+        {
+          "object": "FrontLandingL_RetentionWasher",
+          "coordinate_xyz_mm": [
+            72.0,
+            275.0,
+            285.646911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_RetentionWasher",
+          "coordinate_xyz_mm": [
+            528.0,
+            275.0,
+            285.646911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "none",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    },
+    {
+      "id": "B17",
+      "description_en": "M6-family captive push-on retaining ring",
+      "description_pt_BR": "Anel de retenção cativo tipo pressão para família M6",
+      "flatpack_classification": "REQUIRED_FLATPACK_HARDWARE",
+      "assembly_stage": "05",
+      "parent_assembly": "playfield_landings",
+      "quantity": 2,
+      "quantity_status": "EXACT_FROM_DESIGN_INTERFACES_HARDWARE_PROVISIONAL",
+      "unit": "piece",
+      "material": "steel / selected finish",
+      "nominal_dimensions": {
+        "shaft_family": "M6",
+        "outer_diameter_reference_mm": 9,
+        "thickness_reference_mm": 1
+      },
+      "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
+      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "design_status": "PROVISIONAL",
+      "measurement_required": true,
+      "controls_permanent_cnc": true,
+      "source": [
+        "config/front_landings_v3363.json",
+        "exports/generated/front-landings-v3363/geometry-validation.json",
+        "https://parts.cat.com/en/catcorp/product/201-5493"
+      ],
+      "source_license": "CERN-OHL-S-2.0 original envelope; external links are citations only, no vendor CAD copied",
+      "supplier": null,
+      "price_BRL": null,
+      "notes": "Exact architectural count; purchased dimensions, material/grade, fit and physical load qualification remain HOLD. No final bores or thread substitution authorized. Primary source is a mechanism example for M5, NOT selected M6 hardware or verified Brazilian stock. Qualify push-on retention on selected fully threaded M6 bolt, drop travel and removal/reuse; do not assume a smooth shaft or custom groove.",
+      "instances": [
+        {
+          "object": "FrontLandingL_RetentionPushRing",
+          "coordinate_xyz_mm": [
+            72.0,
+            275.0,
+            351.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "L"
+        },
+        {
+          "object": "FrontLandingR_RetentionPushRing",
+          "coordinate_xyz_mm": [
+            528.0,
+            275.0,
+            351.446911096802
+          ],
+          "coordinate_meaning": "nominal B-rep envelope center; not a drill-center release",
+          "installation_direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_status": "SCHEMATIC_PACKAGING_DIRECTION_HARDWARE_PENDING",
+          "source": "exports/generated/front-landings-v3363/play.FCStd",
+          "mirrored_pair": true,
+          "logical_assembly_instance": "R"
+        }
+      ],
+      "model": {
+        "strategy": "REFERENCE_ENVELOPE_ONLY",
+        "kind": "original simplified B-rep",
+        "path": "exports/generated/front-landings-v3363/play.FCStd",
+        "detailed_threads": false
+      },
+      "service_removable": true,
+      "normal_assembly_removable": true,
+      "tool_family": "purchased retaining-ring installer; removal method hardware-dependent",
+      "installed_coordinate_status": "REFERENCE_ENVELOPE_CENTER",
+      "measurement_fields": {
+        "actual_dimensions_mm": null,
+        "selected_manufacturer_part": null,
+        "thread_standard_and_pitch": null,
+        "drive_and_size": null,
+        "mount_pattern_and_count": null,
+        "installed_stack_and_engagement_mm": null,
+        "material_grade": null,
+        "physical_fit_approved": false
+      }
+    }
+  ],
+  "existing_catalog_entries_unchanged": 151
+}

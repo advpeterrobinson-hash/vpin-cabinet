@@ -1,0 +1,42 @@
+[
+  {
+    "image": "viewer-01-landings.png",
+    "title": "Front closed supports — actual bodies and reference hardware"
+  },
+  {
+    "image": "viewer-02-selection.png",
+    "title": "Landing IDs, material, hardware hold and native authority"
+  },
+  {
+    "image": "viewer-03-load-path.png",
+    "title": "Rear dowel/cradles and front side landing load paths"
+  },
+  {
+    "image": "viewer-04-exploded.png",
+    "title": "Detailed landing wood and hardware with semantic offsets"
+  },
+  {
+    "image": "viewer-05-early-separation.png",
+    "title": "Early opening — fixed front pads separate after retention release"
+  },
+  {
+    "image": "viewer-06-rear-seating.png",
+    "title": "Rear seating phase at2° before front landing approach"
+  },
+  {
+    "image": "viewer-07-front-contact.png",
+    "title": "Front on pads before positive retention engagement"
+  },
+  {
+    "image": "viewer-08-closed.png",
+    "title": "Closed supported architecture — reference hardware not CNC release"
+  },
+  {
+    "image": "viewer-09-manual-step.png",
+    "title": "Landing, seating, leveling and retention manual sequence"
+  },
+  {
+    "image": "viewer-10-tablet.png",
+    "title": "Tablet landing inspection/closing — PT-BR Accessible"
+  }
+]
