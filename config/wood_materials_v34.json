@@ -1,0 +1,630 @@
+{
+  "version": "V34",
+  "policy": {
+    "strategy": "PREMIUM_FIRST",
+    "first_pass": "Nest all plywood in premium material",
+    "secondary_trigger": {
+      "type": "EXTRA_PREMIUM_SHEET_CAUSED_ONLY_BY_SMALL_MODULAR_SECONDARY_SUBSET",
+      "small_subset_max_parts": null,
+      "requires_owner_or_supplier_review": true
+    },
+    "structural_premium_never_auto_downgrade": true,
+    "secondary_allowed": "good-quality secondary plywood / virola only after thickness, bond, flatness, screw-holding and payload qualification",
+    "do_not_nest_world_aabb": true,
+    "actual_sheet_sizes_mm": null,
+    "kerf_mm": null,
+    "grain_direction": null,
+    "material_release": false
+  },
+  "authority": "config/manufacturing/flatpack_v34.json",
+  "parts": [
+    {
+      "id": "P001-Main",
+      "manufacturing_family": "M001",
+      "object": "SIDE_L",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P002-Main",
+      "manufacturing_family": "M002",
+      "object": "SIDE_R",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P003-Main",
+      "manufacturing_family": "M003",
+      "object": "FRONT",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P004-Main",
+      "manufacturing_family": "M004",
+      "object": "REAR",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P005-Main",
+      "manufacturing_family": "M005",
+      "object": "FLOOR",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P006-Main",
+      "manufacturing_family": "M006",
+      "object": "FLOOR_CLEAT_18",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P007-Main",
+      "manufacturing_family": "M006",
+      "object": "FLOOR_CLEAT_552",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P008-Main",
+      "manufacturing_family": "M007",
+      "object": "REAR_DOOR",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P009-Main",
+      "manufacturing_family": "M008",
+      "object": "SHELF_1",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P010-Main",
+      "manufacturing_family": "M008",
+      "object": "SHELF_2",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P011-Main",
+      "manufacturing_family": "M009",
+      "object": "SHELF_3",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P012-Main",
+      "manufacturing_family": "M010",
+      "object": "SHELF_SUPPORT_1L",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P013-Main",
+      "manufacturing_family": "M011",
+      "object": "SHELF_SUPPORT_1R",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P014-Main",
+      "manufacturing_family": "M010",
+      "object": "SHELF_SUPPORT_2L",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P015-Main",
+      "manufacturing_family": "M011",
+      "object": "SHELF_SUPPORT_2R",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P016-Main",
+      "manufacturing_family": "M012",
+      "object": "SHELF_SUPPORT_3L",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P017-Main",
+      "manufacturing_family": "M013",
+      "object": "SHELF_SUPPORT_3R",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P018-Main",
+      "manufacturing_family": "M014",
+      "object": "CROSS_1",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P019-Main",
+      "manufacturing_family": "M014",
+      "object": "CROSS_2",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P020-Main",
+      "manufacturing_family": "M014",
+      "object": "CROSS_3",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P021-Main",
+      "manufacturing_family": "M015",
+      "object": "CROSS_GUIDE_1L",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P022-Main",
+      "manufacturing_family": "M016",
+      "object": "CROSS_GUIDE_1R",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P023-Main",
+      "manufacturing_family": "M015",
+      "object": "CROSS_GUIDE_2L",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P024-Main",
+      "manufacturing_family": "M016",
+      "object": "CROSS_GUIDE_2R",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P025-Main",
+      "manufacturing_family": "M015",
+      "object": "CROSS_GUIDE_3L",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P026-Main",
+      "manufacturing_family": "M016",
+      "object": "CROSS_GUIDE_3R",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P027-Main",
+      "manufacturing_family": "M017",
+      "object": "PC_BASE",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P028-Main",
+      "manufacturing_family": "M018",
+      "object": "BACKBOX_BASE",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P033-Main",
+      "manufacturing_family": "M024",
+      "object": "SSF_BST_Carrier",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P034-Main",
+      "manufacturing_family": "M025",
+      "object": "PF_BasePlywood",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P035-Main",
+      "manufacturing_family": "M026",
+      "object": "PF_OpenCradleL",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P036-Main",
+      "manufacturing_family": "M027",
+      "object": "PF_OpenCradleR",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P037-Main",
+      "manufacturing_family": "M028",
+      "object": "RemovableIntakeFilterL",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P038-Main",
+      "manufacturing_family": "M028",
+      "object": "RemovableIntakeFilterR",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P039-Main",
+      "manufacturing_family": "M029",
+      "object": "MX_WoodSeatL",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P040-Main",
+      "manufacturing_family": "M029",
+      "object": "MX_WoodSeatR",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P041-Main",
+      "manufacturing_family": "M030",
+      "object": "MatrixCarrier",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P044-Main",
+      "manufacturing_family": "M033",
+      "object": "BB_Floor",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P046-Main",
+      "manufacturing_family": "M035",
+      "object": "BB_RearFrame",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P079-Main",
+      "manufacturing_family": "M056",
+      "object": "BB_DoorL",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P080-Main",
+      "manufacturing_family": "M057",
+      "object": "BB_DoorR",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P081-Main",
+      "manufacturing_family": "M058",
+      "object": "BB_IntakeFilterFrameL",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P082-Main",
+      "manufacturing_family": "M058",
+      "object": "BB_IntakeFilterFrameR",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P083-Face",
+      "manufacturing_family": "M059",
+      "object": "BB_IntakeDownBaffleL",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P083-Top",
+      "manufacturing_family": "M060",
+      "object": "BB_IntakeDownBaffleL",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P083-Side1",
+      "manufacturing_family": "M061",
+      "object": "BB_IntakeDownBaffleL",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P083-Side2",
+      "manufacturing_family": "M061",
+      "object": "BB_IntakeDownBaffleL",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P084-Face",
+      "manufacturing_family": "M059",
+      "object": "BB_IntakeDownBaffleR",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P084-Top",
+      "manufacturing_family": "M060",
+      "object": "BB_IntakeDownBaffleR",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P084-Side1",
+      "manufacturing_family": "M061",
+      "object": "BB_IntakeDownBaffleR",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P084-Side2",
+      "manufacturing_family": "M061",
+      "object": "BB_IntakeDownBaffleR",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P085-Reduced18",
+      "manufacturing_family": "M062",
+      "object": "BB_HingeCleatL",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P086-Reduced18",
+      "manufacturing_family": "M062",
+      "object": "BB_HingeCleatR",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P087-Main",
+      "manufacturing_family": "M063",
+      "object": "BB_CenterAstragal",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P088-Main",
+      "manufacturing_family": "M064",
+      "object": "BB_UprightLockLParkingPad0",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P089-Main",
+      "manufacturing_family": "M065",
+      "object": "BB_UprightLockLParkingPad1",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P090-Main",
+      "manufacturing_family": "M064",
+      "object": "BB_UprightLockRParkingPad0",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P091-Main",
+      "manufacturing_family": "M065",
+      "object": "BB_UprightLockRParkingPad1",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P092-Main",
+      "manufacturing_family": "M066",
+      "object": "BB_FanBlankL",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P093-Main",
+      "manufacturing_family": "M066",
+      "object": "BB_FanBlankR",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P029-Solid",
+      "manufacturing_family": "SW01",
+      "object": "CandidateLegBlockFL",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_mm": null
+    },
+    {
+      "id": "P030-Solid",
+      "manufacturing_family": "SW01",
+      "object": "CandidateLegBlockFR",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_mm": null
+    },
+    {
+      "id": "P031-Solid",
+      "manufacturing_family": "SW01",
+      "object": "CandidateLegBlockRL",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_mm": null
+    },
+    {
+      "id": "P032-Solid",
+      "manufacturing_family": "SW01",
+      "object": "CandidateLegBlockRR",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_mm": null
+    },
+    {
+      "id": "P097-Main",
+      "manufacturing_family": "M074",
+      "object": "Underfront_Plate",
+      "quantity": 1,
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "P095-Solid",
+      "manufacturing_family": "SW02",
+      "object": "FrontLandingL_Block",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_mm": null
+    },
+    {
+      "id": "P096-Solid",
+      "manufacturing_family": "SW02",
+      "object": "FrontLandingR_Block",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_mm": null
+    },
+    {
+      "id": "P042-Main",
+      "manufacturing_family": "M031",
+      "object": "BB_SideL",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P043-Main",
+      "manufacturing_family": "M032",
+      "object": "BB_SideR",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "P045-Main",
+      "manufacturing_family": "M034",
+      "object": "BB_Top",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "V34-BB_MONITOR_PLATE",
+      "manufacturing_family": "M074",
+      "object": "BB_MONITOR_PLATE",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "V34-BB_MONITOR_STOP_L",
+      "manufacturing_family": "M075",
+      "object": "BB_MONITOR_STOP_L",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "V34-BB_MONITOR_STOP_R",
+      "manufacturing_family": "M075",
+      "object": "BB_MONITOR_STOP_R",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "V34-BB_DMD_SPEAKER_PANEL",
+      "manufacturing_family": "M076",
+      "object": "BB_DMD_SPEAKER_PANEL",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    },
+    {
+      "id": "V34-BB_GLASS_TOP_RETAINER",
+      "manufacturing_family": "M077",
+      "object": "BB_GLASS_TOP_RETAINER",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 12
+    },
+    {
+      "id": "V34-BB_GLASS_BOTTOM_SEAT",
+      "manufacturing_family": "M037",
+      "object": "BB_GLASS_BOTTOM_SEAT",
+      "quantity": 1,
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_mm": 18
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> CURRENT V34: [simplified backbox report](../exports/generated/backbox-v34/README.md) · [26 CAD views](../exports/generated/backbox-v34/review.html). Captured plate assembled from TOP; monitor and glass serviced FRONT. **76 wood /70 CNC /6 solid /48 families**. Finished wood61.923kg (+0.679kg); physical qualification and CNC remain BLOCKED.
+
 > CURRENT: [V33.8 — 22 native CAD reviews](../exports/generated/service-productization-v338/review.html). Physical qualification / full-sheet CNC blocked; primary raised-playfield support unresolved.
 
 > Entrega consolidada: [desenhoV32 com SSF Cleveland4.1 + subwoofer](CONSOLIDATED_DRAWING_V32.md). PDF/CAD/STEP eDXF nominal do piso;39 verificações,202 sólidos. Revisão de montagem, sem liberação CNC.

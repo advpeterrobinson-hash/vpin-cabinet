@@ -1,0 +1,680 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "valid one wood solid BB_SideL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid one wood solid BB_SideR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid one wood solid BB_Top",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid one wood solid BB_MONITOR_PLATE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid one wood solid BB_MONITOR_STOP_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid one wood solid BB_MONITOR_STOP_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid one wood solid BB_DMD_SPEAKER_PANEL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid one wood solid BB_GLASS_BOTTOM_SEAT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid one wood solid BB_GLASS_TOP_RETAINER",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all unrelated installed geometry exact",
+      "pass": true,
+      "detail": 428
+    },
+    {
+      "name": "sides retain outer envelope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "18mm selected only after 12mm conservative screen fails",
+      "pass": true,
+      "detail": [
+        {
+          "stock_mm": 12,
+          "equivalent_central_load_N": 263.89490169600003,
+          "plate_self_mass_kg": 2.32048128,
+          "effective_height_mm": 348.8,
+          "E_MPa_provisional": 4000,
+          "I_mm4": 50227.200000000004,
+          "stress_MPa": 5.863490505000001,
+          "deflection_mm": 11.269628750610002,
+          "limit_mm": 4,
+          "pass": false
+        },
+        {
+          "stock_mm": 18,
+          "equivalent_central_load_N": 278.122352544,
+          "plate_self_mass_kg": 3.4807219200000006,
+          "effective_height_mm": 348.8,
+          "E_MPa_provisional": 4000,
+          "I_mm4": 169516.80000000002,
+          "stress_MPa": 2.7464936699999996,
+          "deflection_mm": 3.5191738891599997,
+          "limit_mm": 4,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "DMD panel18 required by12-first fold deflection screen",
+      "pass": true,
+      "detail": [
+        {
+          "stock_mm": 12,
+          "fold_load_kg": 6,
+          "factor": 2,
+          "E_MPa_provisional": 4000,
+          "plate_self_mass_kg": 1.0109935627572348,
+          "deflection_mm": 11.007586052496068,
+          "limit_mm": 4,
+          "pass": false,
+          "method": "variable net-section beam, all payload concentrated at centre is conservative; 1mm integration, speaker apertures/service opening/slots deducted"
+        },
+        {
+          "stock_mm": 18,
+          "fold_load_kg": 6,
+          "factor": 2,
+          "E_MPa_provisional": 4000,
+          "plate_self_mass_kg": 1.5164903441358524,
+          "deflection_mm": 3.4966635601525615,
+          "limit_mm": 4,
+          "pass": true,
+          "method": "variable net-section beam, all payload concentrated at centre is conservative; 1mm integration, speaker apertures/service opening/slots deducted"
+        }
+      ]
+    },
+    {
+      "name": "new wood and payloads clear occupied backbox",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "monitor front insertion and complete adjustment envelope",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "lower populated panel front removal",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "DMD plusminus2mm height clears shell",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "plate lowers from top before top assembly",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "top captures plate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "both stops carry plate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glass front tilt/removal sample path",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "glass upper and lower overlaps exceed top travel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glass retainer driver access from below/front",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "rear VESA socket and top direct-driver corridors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "rear upright lock approach unchanged and clear",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "fold required samples",
+      "pass": true,
+      "detail": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 0.25,
+          "hits": []
+        },
+        {
+          "angle": 0.5,
+          "hits": []
+        },
+        {
+          "angle": 1,
+          "hits": []
+        },
+        {
+          "angle": 2,
+          "hits": []
+        },
+        {
+          "angle": 5,
+          "hits": []
+        },
+        {
+          "angle": 10,
+          "hits": []
+        },
+        {
+          "angle": 15,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 45,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 75,
+          "hits": []
+        },
+        {
+          "angle": 90,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "name": "continuous differential fold 0 to90",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "name": "rear door 0 to100 differential samples",
+      "pass": true,
+      "detail": [
+        {
+          "side": "L",
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "side": "L",
+          "angle": 1,
+          "hits": []
+        },
+        {
+          "side": "L",
+          "angle": 5,
+          "hits": []
+        },
+        {
+          "side": "L",
+          "angle": 15,
+          "hits": []
+        },
+        {
+          "side": "L",
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "side": "L",
+          "angle": 45,
+          "hits": []
+        },
+        {
+          "side": "L",
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "side": "L",
+          "angle": 75,
+          "hits": []
+        },
+        {
+          "side": "L",
+          "angle": 90,
+          "hits": []
+        },
+        {
+          "side": "L",
+          "angle": 100,
+          "hits": []
+        },
+        {
+          "side": "R",
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "side": "R",
+          "angle": 1,
+          "hits": []
+        },
+        {
+          "side": "R",
+          "angle": 5,
+          "hits": []
+        },
+        {
+          "side": "R",
+          "angle": 15,
+          "hits": []
+        },
+        {
+          "side": "R",
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "side": "R",
+          "angle": 45,
+          "hits": []
+        },
+        {
+          "side": "R",
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "side": "R",
+          "angle": 75,
+          "hits": []
+        },
+        {
+          "side": "R",
+          "angle": 90,
+          "hits": []
+        },
+        {
+          "side": "R",
+          "angle": 100,
+          "hits": []
+        }
+      ]
+    }
+  ],
+  "retired": [
+    "BB_GlassLinerL",
+    "BB_GlassLinerR",
+    "BB_TopFrontRail",
+    "BB_GlassLowerRail",
+    "BB_GlassLowerPad",
+    "BB_GlassTopRetainer",
+    "BB_GlassTopPad",
+    "BB_GlassRetainerFastenerReserve0",
+    "BB_GlassRetainerFastenerReserve1",
+    "BB_MonitorRail0",
+    "BB_MonitorRailCleatL0",
+    "BB_MonitorRailCleatR0",
+    "BB_MonitorRail1",
+    "BB_MonitorRailCleatL1",
+    "BB_MonitorRailCleatR1",
+    "BB_MonitorCarrier0",
+    "BB_MonitorDepthShoe00",
+    "BB_MonitorDepthBoltReserve00",
+    "BB_MonitorDepthShoe01",
+    "BB_MonitorDepthBoltReserve01",
+    "BB_MonitorCarrier1",
+    "BB_MonitorDepthShoe10",
+    "BB_MonitorDepthBoltReserve10",
+    "BB_MonitorDepthShoe11",
+    "BB_MonitorDepthBoltReserve11",
+    "BB_MonitorClampReserve160994",
+    "BB_MonitorClampReserve1601134",
+    "BB_MonitorClampReserve440994",
+    "BB_MonitorClampReserve4401134",
+    "BB_ReplaceableVESAPlate",
+    "BB_DisplayReplaceableBezel",
+    "BB_LowerCassetteFrame",
+    "BB_SpeakerBaffleL",
+    "BB_SpeakerBaffleR",
+    "BB_DMDReplaceableBezel",
+    "BB_DMDRearAdapter",
+    "BB_DMDDepthTie0",
+    "BB_DMDDepthTie1",
+    "BB_CassetteFixedCleatL0",
+    "BB_CassetteBoltReserveL0",
+    "BB_CassetteFixedCleatL1",
+    "BB_CassetteBoltReserveL1",
+    "BB_CassetteFixedCleatR0",
+    "BB_CassetteBoltReserveR0",
+    "BB_CassetteFixedCleatR1",
+    "BB_CassetteBoltReserveR1",
+    "BB_MonitorStopRail",
+    "BB_StopAdjuster0",
+    "BB_StopTip0",
+    "BB_StopInsert0",
+    "BB_StopLocknut0",
+    "BB_StopAdjuster1",
+    "BB_StopTip1",
+    "BB_StopInsert1",
+    "BB_StopLocknut1",
+    "BB_StopRailRetention0",
+    "BB_StopRailRetention1"
+  ],
+  "changed": [
+    "BB_SideL",
+    "BB_SideR",
+    "BB_Top",
+    "BB_MONITOR_PLATE",
+    "BB_MONITOR_STOP_L",
+    "BB_MONITOR_STOP_R",
+    "BB_DMD_SPEAKER_PANEL",
+    "BB_GLASS_BOTTOM_SEAT",
+    "BB_GLASS_TOP_RETAINER",
+    "BB_Backglass",
+    "BB_DMDEnvelope",
+    "BB_SpeakerEnvelopeL",
+    "BB_SpeakerEnvelopeR",
+    "BB_ToyZoneUpperL",
+    "BB_ToyZoneUpperR"
+  ],
+  "added_hardware": [
+    "BB_MONITOR_STOP_L_Screw0",
+    "BB_MONITOR_STOP_L_Screw1",
+    "BB_MONITOR_STOP_R_Screw0",
+    "BB_MONITOR_STOP_R_Screw1",
+    "BB_PanelBolt_L0",
+    "BB_PanelCrossDowel_L0",
+    "BB_PanelBolt_L1",
+    "BB_PanelCrossDowel_L1",
+    "BB_PanelBolt_R0",
+    "BB_PanelCrossDowel_R0",
+    "BB_PanelBolt_R1",
+    "BB_PanelCrossDowel_R1",
+    "BB_GlassTopScrew0",
+    "BB_GlassTopScrew1",
+    "BB_TopDirectScrew0",
+    "BB_TopDirectScrew1",
+    "BB_TopDirectScrew2",
+    "BB_TopDirectScrew3",
+    "BB_VESABolt0",
+    "BB_VESASpacer0",
+    "BB_VESAWasher0",
+    "BB_VESABolt1",
+    "BB_VESASpacer1",
+    "BB_VESAWasher1",
+    "BB_VESABolt2",
+    "BB_VESASpacer2",
+    "BB_VESAWasher2",
+    "BB_VESABolt3",
+    "BB_VESASpacer3",
+    "BB_VESAWasher3",
+    "BB_DMDVESABolt0",
+    "BB_DMDVESAWasher0",
+    "BB_DMDVESABolt1",
+    "BB_DMDVESAWasher1",
+    "BB_DMDVESABolt2",
+    "BB_DMDVESAWasher2",
+    "BB_DMDVESABolt3",
+    "BB_DMDVESAWasher3"
+  ],
+  "structural_screen": [
+    {
+      "stock_mm": 12,
+      "equivalent_central_load_N": 263.89490169600003,
+      "plate_self_mass_kg": 2.32048128,
+      "effective_height_mm": 348.8,
+      "E_MPa_provisional": 4000,
+      "I_mm4": 50227.200000000004,
+      "stress_MPa": 5.863490505000001,
+      "deflection_mm": 11.269628750610002,
+      "limit_mm": 4,
+      "pass": false
+    },
+    {
+      "stock_mm": 18,
+      "equivalent_central_load_N": 278.122352544,
+      "plate_self_mass_kg": 3.4807219200000006,
+      "effective_height_mm": 348.8,
+      "E_MPa_provisional": 4000,
+      "I_mm4": 169516.80000000002,
+      "stress_MPa": 2.7464936699999996,
+      "deflection_mm": 3.5191738891599997,
+      "limit_mm": 4,
+      "pass": true
+    }
+  ],
+  "panel_structural_screen": [
+    {
+      "stock_mm": 12,
+      "fold_load_kg": 6,
+      "factor": 2,
+      "E_MPa_provisional": 4000,
+      "plate_self_mass_kg": 1.0109935627572348,
+      "deflection_mm": 11.007586052496068,
+      "limit_mm": 4,
+      "pass": false,
+      "method": "variable net-section beam, all payload concentrated at centre is conservative; 1mm integration, speaker apertures/service opening/slots deducted"
+    },
+    {
+      "stock_mm": 18,
+      "fold_load_kg": 6,
+      "factor": 2,
+      "E_MPa_provisional": 4000,
+      "plate_self_mass_kg": 1.5164903441358524,
+      "deflection_mm": 3.4966635601525615,
+      "limit_mm": 4,
+      "pass": true,
+      "method": "variable net-section beam, all payload concentrated at centre is conservative; 1mm integration, speaker apertures/service opening/slots deducted"
+    }
+  ],
+  "glass_retention": {
+    "top_overlap_mm": 8.200000000000045,
+    "top_gap_mm": 3.7999999999999545,
+    "side_overlap_mm": 4,
+    "bottom_front_lip_mm": 6,
+    "glass_thickness_mm": 4,
+    "slot_width_mm": 8,
+    "liner_each_face_mm": 2,
+    "basis": "bottom U lip + side rear/lateral rebates + upper front strip; rigid-body containment, liner compressed to reference; not impact/glass strength certification"
+  },
+  "fold_certificate": {
+    "range_deg": [
+      0,
+      90
+    ],
+    "intervals": [
+      [
+        0,
+        5.625
+      ],
+      [
+        5.625,
+        11.25
+      ],
+      [
+        11.25,
+        22.5
+      ],
+      [
+        22.5,
+        45.0
+      ],
+      [
+        45.0,
+        56.25
+      ],
+      [
+        56.25,
+        67.5
+      ],
+      [
+        67.5,
+        73.125
+      ],
+      [
+        73.125,
+        78.75
+      ],
+      [
+        78.75,
+        84.375
+      ],
+      [
+        84.375,
+        87.1875
+      ],
+      [
+        87.1875,
+        90
+      ]
+    ],
+    "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+  },
+  "door_samples": [
+    {
+      "side": "L",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "side": "L",
+      "angle": 1,
+      "hits": []
+    },
+    {
+      "side": "L",
+      "angle": 5,
+      "hits": []
+    },
+    {
+      "side": "L",
+      "angle": 15,
+      "hits": []
+    },
+    {
+      "side": "L",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "side": "L",
+      "angle": 45,
+      "hits": []
+    },
+    {
+      "side": "L",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "side": "L",
+      "angle": 75,
+      "hits": []
+    },
+    {
+      "side": "L",
+      "angle": 90,
+      "hits": []
+    },
+    {
+      "side": "L",
+      "angle": 100,
+      "hits": []
+    },
+    {
+      "side": "R",
+      "angle": 0,
+      "hits": []
+    },
+    {
+      "side": "R",
+      "angle": 1,
+      "hits": []
+    },
+    {
+      "side": "R",
+      "angle": 5,
+      "hits": []
+    },
+    {
+      "side": "R",
+      "angle": 15,
+      "hits": []
+    },
+    {
+      "side": "R",
+      "angle": 30,
+      "hits": []
+    },
+    {
+      "side": "R",
+      "angle": 45,
+      "hits": []
+    },
+    {
+      "side": "R",
+      "angle": 60,
+      "hits": []
+    },
+    {
+      "side": "R",
+      "angle": 75,
+      "hits": []
+    },
+    {
+      "side": "R",
+      "angle": 90,
+      "hits": []
+    },
+    {
+      "side": "R",
+      "angle": 100,
+      "hits": []
+    }
+  ],
+  "source_sha256": "c78a64794d4ac009e12986aa5adc03f936b5bbf95b84d0a4da35e2742f7c4c53",
+  "manufacturing_release": false
+}

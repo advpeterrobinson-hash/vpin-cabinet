@@ -1,0 +1,175 @@
+{
+  "version": "V34",
+  "head_before": "0993d9768582290915f7166c53507ffd2aa434b6",
+  "source": "exports/generated/service-productization-v338/play.FCStd",
+  "output": "exports/generated/backbox-v34",
+  "manufacturing_release": false,
+  "allowed_plywood_stock_mm": [
+    12,
+    18
+  ],
+  "monitor": {
+    "thickness_candidates_mm": [
+      12,
+      18
+    ],
+    "selected_thickness_mm": 18,
+    "plate_box_mm": [
+      -76,
+      1240,
+      854,
+      752,
+      18,
+      448.8
+    ],
+    "guide_depth_mm": 4,
+    "guide_width_expression": "measured_plate_thickness_mm + coupon_clearance_mm",
+    "review_guide_clearance_mm": 0.4,
+    "stop_left_box_mm": [
+      -72,
+      1240,
+      824,
+      12,
+      40,
+      30
+    ],
+    "VESA_patterns_mm": [
+      75,
+      100
+    ],
+    "VESA_center_xz_mm": [
+      300,
+      1069
+    ],
+    "vertical_adjustment_mm": 5,
+    "slot_width_reference_mm": 5,
+    "production_slot_width_mm": null,
+    "spacer_studies_mm": [
+      0,
+      3,
+      6,
+      9,
+      12
+    ],
+    "default_spacer_mm": 12,
+    "opening_box_mm": [
+      100,
+      1239,
+      885,
+      400,
+      20,
+      100
+    ],
+    "opening_radius_mm": 8,
+    "mass_sensitivity_kg": [
+      5,
+      8,
+      12
+    ],
+    "E_screen_MPa": 4000,
+    "planning_load_factor": 2,
+    "deflection_screen_limit_mm": 4,
+    "deflection_limit_basis": "4 mm planning limit leaves >=6 mm from minimum10 mm glass clearance; includes self-weight at2g, E=4000 provisional. No physical qualification."
+  },
+  "lower_panel": {
+    "box_mm": [
+      -76,
+      1179,
+      616,
+      752,
+      18,
+      203
+    ],
+    "stock_mm": 18,
+    "speaker_cut_radius_reference_mm": 58,
+    "speaker_final_cut_mm": null,
+    "DMD_box_mm": [
+      100,
+      1134,
+      618,
+      400,
+      45,
+      200
+    ],
+    "DMD_VESA_mm": 75,
+    "DMD_center_xz_mm": [
+      300,
+      718
+    ],
+    "DMD_final_dimensions_mm": null,
+    "attachment_z_mm": [
+      650,
+      802
+    ],
+    "attachment": "4 side-operated machine screws into panel cross-dowels; final dimensions HOLD; front removal",
+    "production_drilling": null,
+    "speaker_max_depth_behind_panel_mm": 60,
+    "speaker_old_reference_depth_mm": 103,
+    "speaker_interface_status": "HARDWARE_DEPENDENT: reference <=60 mm behind-panel driver; old103 mm reserve conflicts with protected intake baffles",
+    "mass_sensitivity_total_kg": 6,
+    "deflection_limit_mm": 4,
+    "vertical_adjustment_mm": 2,
+    "depth_constraint": "actual DMD body + spacer stack <=45 mm total; no promise of extra depth beyond occupied reserve"
+  },
+  "glass": {
+    "box_mm": [
+      -76,
+      1114,
+      840,
+      752,
+      4,
+      459
+    ],
+    "stock_class_mm": [
+      3,
+      4
+    ],
+    "side_rebate_depth_mm": 6,
+    "side_rebate_rear_y_mm": 1120,
+    "liner_reference_mm": 2,
+    "final_cut_size_mm": null,
+    "retainer_box_mm": [
+      -72,
+      1101,
+      1290.8,
+      744,
+      12,
+      12
+    ],
+    "retainer_screw_xy_mm": [
+      [
+        100,
+        1108
+      ],
+      [
+        500,
+        1108
+      ]
+    ],
+    "top_clearance_mm": 3.8,
+    "top_overlap_mm": 8.2,
+    "bottom_front_overlap_mm": 6,
+    "installation": "FRONT: lower edge seated then tilt into side rebates; remove upper strip first",
+    "upper_retainer_screw_count": 2,
+    "removal_sequence_reference": "strip off; lift1 mm, tilt top forward10 degrees, lift6 mm further, withdraw forward",
+    "upper_front_cushion_mm": 1
+  },
+  "top": {
+    "joint": "existing captured side rabbet + glue + direct mechanical fastening",
+    "pocket_screw_candidate_count": 4,
+    "selected": "4 ordinary direct SIDE screws into top edges; no cleats; glue-assisted captured joint",
+    "selected_count": 4,
+    "production_holes": null,
+    "Kreg_model": null,
+    "reason": "Owner jig geometry unknown. Direct top access has no angled-jig dependency; four provisional positions require actual screw/edge/coupon qualification."
+  },
+  "physical_holds": [
+    "actual stock and coupon",
+    "selected monitor/DMD/speakers/glass",
+    "VESA thread and engagement",
+    "side cross-dowels and top screws",
+    "structural load/impact qualification",
+    "backbox actual moving cable harness",
+    "primary raised playfield support unchanged HOLD"
+  ]
+}

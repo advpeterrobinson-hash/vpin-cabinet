@@ -1,0 +1,497 @@
+[
+  {
+    "name": "BB_CassetteFixedCleatL0",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_CassetteFixedCleatL1",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_CassetteFixedCleatR0",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_CassetteFixedCleatR1",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_CenterAstragal",
+    "status": "RETAINED",
+    "purpose": "Door centre overlap and gasket landing",
+    "parent": "BB_DoorL passive leaf",
+    "attachment": "SCREWED",
+    "load": "centre seal, active-leaf lock reaction",
+    "why_needed": "Door centre overlap and gasket landing"
+  },
+  {
+    "name": "BB_DMDDepthTie0",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_DMDDepthTie1",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_DMDRearAdapter",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_DMDReplaceableBezel",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_DMD_SPEAKER_PANEL",
+    "status": "RETAINED",
+    "purpose": "Single front display/speaker mounting surface",
+    "parent": "BB_SideL/R",
+    "attachment": "BOLTED / REMOVABLE",
+    "load": "DMD/speakers; fold retention",
+    "why_needed": "Single front display/speaker mounting surface"
+  },
+  {
+    "name": "BB_DisplayReplaceableBezel",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_DoorL",
+    "status": "RETAINED",
+    "purpose": "Rear service leaf",
+    "parent": "BB_HingeCleatL via continuous hinge",
+    "attachment": "SCREWED",
+    "load": "own weight and optional fan/filter; not structural shear",
+    "why_needed": "Rear service leaf"
+  },
+  {
+    "name": "BB_DoorR",
+    "status": "RETAINED",
+    "purpose": "Rear service leaf",
+    "parent": "BB_HingeCleatR via continuous hinge",
+    "attachment": "SCREWED",
+    "load": "own weight and optional fan/filter; not structural shear",
+    "why_needed": "Rear service leaf"
+  },
+  {
+    "name": "BB_FanBlankL",
+    "status": "RETAINED",
+    "purpose": "Optional unpopulated fan-station closure",
+    "parent": "BB_DoorL",
+    "attachment": "BOLTED / REMOVABLE",
+    "load": "own weight, dust closure; not monitor support",
+    "why_needed": "Optional unpopulated fan-station closure"
+  },
+  {
+    "name": "BB_FanBlankR",
+    "status": "RETAINED",
+    "purpose": "Optional unpopulated fan-station closure",
+    "parent": "BB_DoorR",
+    "attachment": "BOLTED / REMOVABLE",
+    "load": "own weight, dust closure; not monitor support",
+    "why_needed": "Optional unpopulated fan-station closure"
+  },
+  {
+    "name": "BB_Floor",
+    "status": "RETAINED",
+    "purpose": "Backbox lower structural bearing",
+    "parent": "BB_SideL/R and main RearBearingShelf",
+    "attachment": "CAPTURED / SCREWED",
+    "load": "backbox gravity and WPC hinge transfer; broad shelf bearing",
+    "why_needed": "Backbox lower structural bearing"
+  },
+  {
+    "name": "BB_GLASS_BOTTOM_SEAT",
+    "status": "RETAINED",
+    "purpose": "Padded glass seat and6mm front lip",
+    "parent": "BB_SideL/R",
+    "attachment": "SCREWED",
+    "load": "glass gravity/front retention; lower seat fasteners hardware-held",
+    "why_needed": "Padded glass seat and6mm front lip"
+  },
+  {
+    "name": "BB_GLASS_TOP_RETAINER",
+    "status": "RETAINED",
+    "purpose": "Positive front upper glass capture",
+    "parent": "BB_Top",
+    "attachment": "SCREWED / REMOVABLE",
+    "load": "glass retention in all orientations",
+    "why_needed": "Positive front upper glass capture"
+  },
+  {
+    "name": "BB_GlassLowerRail",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_GlassTopRetainer",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_HingeCleatL",
+    "status": "RETAINED",
+    "purpose": "Continuous rear-door hinge backing; preserves accepted hinge axis",
+    "parent": "BB_RearFrame",
+    "attachment": "SCREWED",
+    "load": "door/fan mass; cannot be replaced by monitor plate",
+    "why_needed": "Continuous rear-door hinge backing; preserves accepted hinge axis"
+  },
+  {
+    "name": "BB_HingeCleatR",
+    "status": "RETAINED",
+    "purpose": "Continuous rear-door hinge backing; preserves accepted hinge axis",
+    "parent": "BB_RearFrame",
+    "attachment": "SCREWED",
+    "load": "door/fan mass; cannot be replaced by monitor plate",
+    "why_needed": "Continuous rear-door hinge backing; preserves accepted hinge axis"
+  },
+  {
+    "name": "BB_IntakeDownBaffleL",
+    "status": "RETAINED",
+    "purpose": "Downward dust path and protected intake throat",
+    "parent": "BB_DoorL/R",
+    "attachment": "SCREWED / REMOVABLE",
+    "load": "own weight, not monitor support",
+    "why_needed": "Downward dust path and protected intake throat"
+  },
+  {
+    "name": "BB_IntakeDownBaffleR",
+    "status": "RETAINED",
+    "purpose": "Downward dust path and protected intake throat",
+    "parent": "BB_DoorL/R",
+    "attachment": "SCREWED / REMOVABLE",
+    "load": "own weight, not monitor support",
+    "why_needed": "Downward dust path and protected intake throat"
+  },
+  {
+    "name": "BB_IntakeFilterFrameL",
+    "status": "RETAINED",
+    "purpose": "Serviceable insect/dust media retention",
+    "parent": "BB_DoorL",
+    "attachment": "SCREWED / REMOVABLE",
+    "load": "own weight/filter; preserves protected intake opening",
+    "why_needed": "Serviceable insect/dust media retention"
+  },
+  {
+    "name": "BB_IntakeFilterFrameR",
+    "status": "RETAINED",
+    "purpose": "Serviceable insect/dust media retention",
+    "parent": "BB_DoorR",
+    "attachment": "SCREWED / REMOVABLE",
+    "load": "own weight/filter; preserves protected intake opening",
+    "why_needed": "Serviceable insect/dust media retention"
+  },
+  {
+    "name": "BB_LowerCassetteFrame",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MONITOR_PLATE",
+    "status": "RETAINED",
+    "purpose": "Monitor VESA interface",
+    "parent": "BB_SideL/R + stops + BB_Top",
+    "attachment": "CAPTURED",
+    "load": "monitor gravity/fold/nudge via bolts",
+    "why_needed": "Monitor VESA interface"
+  },
+  {
+    "name": "BB_MONITOR_STOP_L",
+    "status": "RETAINED",
+    "purpose": "Fixed lower plate bearing",
+    "parent": "BB_SideL/R",
+    "attachment": "SCREWED",
+    "load": "monitor/plate vertical reaction; geometric bearing plus screw shear",
+    "why_needed": "Fixed lower plate bearing"
+  },
+  {
+    "name": "BB_MONITOR_STOP_R",
+    "status": "RETAINED",
+    "purpose": "Fixed lower plate bearing",
+    "parent": "BB_SideL/R",
+    "attachment": "SCREWED",
+    "load": "monitor/plate vertical reaction; geometric bearing plus screw shear",
+    "why_needed": "Fixed lower plate bearing"
+  },
+  {
+    "name": "BB_MonitorCarrier0",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorCarrier1",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorDepthShoe00",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorDepthShoe01",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorDepthShoe10",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorDepthShoe11",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorRail0",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorRail1",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorRailCleatL0",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorRailCleatL1",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorRailCleatR0",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorRailCleatR1",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_MonitorStopRail",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_RearFrame",
+    "status": "RETAINED",
+    "purpose": "Rear aperture structural continuity with doors open",
+    "parent": "BB_SideL/R + BB_Top + BB_Floor",
+    "attachment": "SCREWED",
+    "load": "shell racking and rear-door hinge/lock reactions",
+    "why_needed": "Rear aperture structural continuity with doors open"
+  },
+  {
+    "name": "BB_ReplaceableVESAPlate",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_SideL",
+    "status": "RETAINED",
+    "purpose": "Primary backbox side structure",
+    "parent": "BB_Floor + BB_Top + BB_RearFrame",
+    "attachment": "CAPTURED / SCREWED",
+    "load": "monitor guides/stops, shell, WPC floor load path",
+    "why_needed": "Primary backbox side structure"
+  },
+  {
+    "name": "BB_SideR",
+    "status": "RETAINED",
+    "purpose": "Primary backbox side structure",
+    "parent": "BB_Floor + BB_Top + BB_RearFrame",
+    "attachment": "CAPTURED / SCREWED",
+    "load": "monitor guides/stops, shell, WPC floor load path",
+    "why_needed": "Primary backbox side structure"
+  },
+  {
+    "name": "BB_SpeakerBaffleL",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_SpeakerBaffleR",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_Top",
+    "status": "RETAINED",
+    "purpose": "Shell top and plate upper stop",
+    "parent": "BB_SideL/R",
+    "attachment": "GLUED+MECHANICALLY_FASTENED",
+    "load": "shell, captured plate upward reaction",
+    "why_needed": "Shell top and plate upper stop"
+  },
+  {
+    "name": "BB_TopFrontRail",
+    "status": "RETIRED",
+    "purpose": "Superseded monitor/cassette/glass assembly; zero current function",
+    "parent": null,
+    "attachment": "RETIRED",
+    "load": "none",
+    "why_needed": "none; retired"
+  },
+  {
+    "name": "BB_UprightLockLParkingPad0",
+    "status": "RETAINED",
+    "purpose": "Upright-lock captive parking socket, unrelated to monitor",
+    "parent": "BB_Floor",
+    "attachment": "SCREWED",
+    "load": "parked knob only, not upright clamp",
+    "why_needed": "Upright-lock captive parking socket, unrelated to monitor"
+  },
+  {
+    "name": "BB_UprightLockLParkingPad1",
+    "status": "RETAINED",
+    "purpose": "Upright-lock captive parking socket, unrelated to monitor",
+    "parent": "BB_Floor",
+    "attachment": "SCREWED",
+    "load": "parked knob only, not upright clamp",
+    "why_needed": "Upright-lock captive parking socket, unrelated to monitor"
+  },
+  {
+    "name": "BB_UprightLockRParkingPad0",
+    "status": "RETAINED",
+    "purpose": "Upright-lock captive parking socket, unrelated to monitor",
+    "parent": "BB_Floor",
+    "attachment": "SCREWED",
+    "load": "parked knob only, not upright clamp",
+    "why_needed": "Upright-lock captive parking socket, unrelated to monitor"
+  },
+  {
+    "name": "BB_UprightLockRParkingPad1",
+    "status": "RETAINED",
+    "purpose": "Upright-lock captive parking socket, unrelated to monitor",
+    "parent": "BB_Floor",
+    "attachment": "SCREWED",
+    "load": "parked knob only, not upright clamp",
+    "why_needed": "Upright-lock captive parking socket, unrelated to monitor"
+  }
+]

@@ -1,0 +1,6708 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "protected native invariants SIDE_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SIDE_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FRONT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants REAR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FAN_230",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FAN_370",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants REAR_DOOR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FLOOR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FLOOR_CLEAT_18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FLOOR_CLEAT_552",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SHELF_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SHELF_SUPPORT_1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SHELF_SUPPORT_1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SHELF_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SHELF_SUPPORT_2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SHELF_SUPPORT_2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SHELF_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SHELF_SUPPORT_3L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SHELF_SUPPORT_3R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_GUIDE_1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_BRACKET_1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_GUIDE_1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_BRACKET_1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_GUIDE_2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_BRACKET_2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_GUIDE_2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_BRACKET_2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_GUIDE_3L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_BRACKET_3L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_GUIDE_3R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CROSS_BRACKET_3R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PLAYFIELD_ENVELOPE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PC_BASE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PC_ENVELOPE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BACKBOX_BASE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PLUNGER_RESERVED",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_CoinFrame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_DoorLeaf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_ReturnButton1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_ReturnButton2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_LightSwitch1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_LightSwitch2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_DoorLock",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_Mechanism1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_Mechanism2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_MechanismMount1_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_MechanismMount1_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_MechanismMount2_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_MechanismMount2_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_CoinTray",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_TraySupport1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CoinStudy_TraySupport2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFrontButton1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFrontButton2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFrontButton3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFrontButton4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SHELF_1_CandidatePayload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1L1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1L2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1R1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt1R2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2L1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2L2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2R1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt2R2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3L1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3L2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3R1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SimpleShelfBolt3R2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew1L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew1L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew1L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew1L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew1R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew1R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew1R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew1R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew2L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew2L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew2L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew2L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew2R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew2R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew2R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew2R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew3L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew3L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew3L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew3L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew3R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew3R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew3R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFixedSupportScrew3R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateLegBlockFL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateLegPlateFL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateLegBlockFR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateLegPlateFR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateLegBlockRL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateLegPlateRL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateLegBlockRR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateLegPlateRR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateGlass",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateGlassChannelL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateGlassChannelR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFanGuard230Inner",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateFanGuard370Inner",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateHandleBolt1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateHandleBolt1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateHandleBolt2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateHandleBolt2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateRearHandle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateKeyLockBody",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateKeyLockShaft",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateKeyLockCam",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateLockKeeper",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateHingeFixed1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateHingeMoving1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateHingePin1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateHingeFixed2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateHingeMoving2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateHingePin2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants CandidateMainsEnclosure",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SSF_Subwoofer_DCS165_Reference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SSF_BST_Carrier",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SSF_BST1_Reference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SSF_Exciter1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SSF_Exciter1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SSF_Exciter2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SSF_Exciter2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SSF_AmplifierReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SSF_PSUReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants SSF_USBReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafButton_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafButton_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafNut_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafNut_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafBracket_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafBracket_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafContacts_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafContacts_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafButton_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafButton_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafNut_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafNut_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafBracket_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafBracket_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafContacts_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants LeafContacts_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_BasePlywood",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_WoodDowel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_VESAEnvelope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_SupportMountScrewL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_SupportMountScrewR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_SupportMountScrewL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_SupportMountScrewR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_SupportMountScrewL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_SupportMountScrewR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_OpenCradleL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_OpenCradleR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_StrapScrew1_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_StrapScrew1_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_CommercialStrap1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_StrapScrew2_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_StrapScrew2_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_CommercialStrap2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_StrapScrew3_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_StrapScrew3_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_CommercialStrap3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_StrapScrew4_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_StrapScrew4_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PF_CommercialStrap4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanBoltL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanNutL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanBoltL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanNutL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanBoltL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanNutL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanBoltL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanNutL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterInsertL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterScrewL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterInsertL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterScrewL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterInsertL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterScrewL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterInsertL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterScrewL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorIntakeFanL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants RemovableIntakeFilterL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterMediaReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorCommercialGuardReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorUpperGuardReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanConnectorReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanBoltR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanNutR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanBoltR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanNutR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanBoltR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanNutR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanBoltR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanNutR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterInsertR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterScrewR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterInsertR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterScrewR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterInsertR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterScrewR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterInsertR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterScrewR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorIntakeFanR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants RemovableIntakeFilterR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFilterMediaReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorCommercialGuardReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorUpperGuardReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FloorFanConnectorReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonWireServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonToolServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonBodyServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonLeafServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonWireServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonToolServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonBodyServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonLeafServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonWireServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonToolServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonBodyServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonLeafServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonWireServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonToolServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonBodyServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants ButtonLeafServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_WoodSeatL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_WoodSeatR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_InsertL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_FixedScrewL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_FixedScrewL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_InsertR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_FixedScrewR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_FixedScrewR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_RetainerL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_RetainerR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MatrixCarrier",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MatrixPanel1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MatrixPanel2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MatrixPanel3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MatrixPanel4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MatrixPanel5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MatrixPanel6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_FixedConnectorReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_MovingConnectorReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_CableLoopReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants MX_FixedCableReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants UprightLockLShelfThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants UprightLockLShelfBacking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants UprightLockRShelfThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants UprightLockRShelfBacking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_Floor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_RearFrame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_Display32",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_DoorL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_FanL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_FanGuardL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_FanMeshReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_IntakeFilterFrameL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_IntakeMeshReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_IntakeDownBaffleL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_HingeCleatL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_PianoHingeReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_PianoLeafFixedL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_PianoLeafDoorL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_DoorPerimeterGasketL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_FanStrainReliefReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_DoorR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_FanR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_FanGuardR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_FanMeshReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_IntakeFilterFrameR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_IntakeMeshReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_IntakeDownBaffleR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_HingeCleatR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_PianoHingeReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_PianoLeafFixedR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_PianoLeafDoorR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_DoorPerimeterGasketR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_FanStrainReliefReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_CenterAstragal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_CenterGasket",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_CamLockBodyReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_CamLockBarrelReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_CamTongueClosedReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_PassiveBoltBodyReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_PassiveBoltClosedReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_PassiveBoltBodyReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_PassiveBoltClosedReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockLWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockLParkingPad0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockLParkingPad1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockLParkingThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockLParkingScrewReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockLParkingScrewReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockLKnob",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockRWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockRParkingPad0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockRParkingPad1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockRParkingThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockRParkingScrewReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockRParkingScrewReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockRKnob",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockLTether",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_UprightLockRTether",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_FlexCorridorL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_FlexCorridorR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_ToyZoneLowerL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants BB_ToyZoneLowerR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PlungerFrontInterfaceProvisional",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PlungerShaftProvisional",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants PlungerHandleProvisional",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants RearFanWoodScrew230_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants RearFanWoodScrew230_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants RearFanWoodScrew230_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants RearFanWoodScrew230_4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants RearFanWoodScrew370_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants RearFanWoodScrew370_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants RearFanWoodScrew370_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants RearFanWoodScrew370_4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_SideScrew1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_SideScrew2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_SideScrew3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_SideScrew4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_AdjusterInsert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_AdjusterWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_AdjusterLocknut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_ContactPad",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_SwivelDisc",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_SwivelJoint",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_AdjusterStem",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_RetentionBolt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_RetentionWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_RetentionJamnut1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_RetentionJamnut2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_RetentionPushRing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_SideScrew1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_SideScrew2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_SideScrew3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_SideScrew4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_AdjusterInsert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_AdjusterWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_AdjusterLocknut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_ContactPad",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_SwivelDisc",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_SwivelJoint",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_AdjusterStem",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_RetentionBolt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_RetentionWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_RetentionJamnut1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_RetentionJamnut2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_RetentionPushRing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_RetentionReceiver",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_RetentionReceiver",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Plate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Screw1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Insert1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Screw2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Insert2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Screw3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Insert3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Screw4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Insert4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_HarnessLoopReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button1_Body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button1_Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button1_Nut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button1_Switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button1_WireReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button2_Body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button2_Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button2_Nut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button2_Switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button2_WireReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button3_Body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button3_Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button3_Nut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button3_Switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button3_WireReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button4_Body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button4_Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button4_Nut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button4_Switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button4_WireReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button5_Body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button5_Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button5_Nut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button5_Switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_Button5_WireReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_USBBody",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_USBFlange",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_USBNut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_USBCap",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants Underfront_USBCableReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingL_Block",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected native invariants FrontLandingR_Block",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SIDE_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SIDE_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FRONT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid REAR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FAN_230",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FAN_370",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid REAR_DOOR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FLOOR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FLOOR_CLEAT_18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FLOOR_CLEAT_552",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SHELF_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SHELF_SUPPORT_1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SHELF_SUPPORT_1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SHELF_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SHELF_SUPPORT_2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SHELF_SUPPORT_2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SHELF_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SHELF_SUPPORT_3L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SHELF_SUPPORT_3R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_GUIDE_1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_BRACKET_1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_GUIDE_1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_BRACKET_1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_GUIDE_2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_BRACKET_2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_GUIDE_2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_BRACKET_2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_GUIDE_3L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_BRACKET_3L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_GUIDE_3R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CROSS_BRACKET_3R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PLAYFIELD_ENVELOPE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PC_BASE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PC_ENVELOPE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BACKBOX_BASE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PLUNGER_RESERVED",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_CoinFrame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_DoorLeaf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_ReturnButton1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_ReturnButton2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_LightSwitch1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_LightSwitch2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_DoorLock",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_Mechanism1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_Mechanism2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_MechanismMount1_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_MechanismMount1_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_MechanismMount2_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_MechanismMount2_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_CoinTray",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_TraySupport1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CoinStudy_TraySupport2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFrontButton1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFrontButton2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFrontButton3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFrontButton4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SHELF_1_CandidatePayload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1L1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1L2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1R1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt1R2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2L1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2L2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2R1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt2R2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3L1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3L2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3R1Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SimpleShelfBolt3R2Insert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew1L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew1L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew1L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew1L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew1R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew1R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew1R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew1R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew2L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew2L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew2L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew2L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew2R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew2R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew2R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew2R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew3L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew3L1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew3L2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew3L2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew3R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew3R1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew3R2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFixedSupportScrew3R2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateLegBlockFL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateLegPlateFL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateLegBlockFR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateLegPlateFR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateLegBlockRL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateLegPlateRL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateLegBlockRR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateLegPlateRR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateGlass",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateGlassChannelL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateGlassChannelR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFanGuard230Inner",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateFanGuard370Inner",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateHandleBolt1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateHandleBolt1Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateHandleBolt2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateHandleBolt2Washer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateRearHandle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateKeyLockBody",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateKeyLockShaft",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateKeyLockCam",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateLockKeeper",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateHingeFixed1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateHingeMoving1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateHingePin1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateHingeFixed2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateHingeMoving2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateHingePin2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid CandidateMainsEnclosure",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SSF_Subwoofer_DCS165_Reference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SSF_BST_Carrier",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SSF_BST1_Reference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SSF_Exciter1L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SSF_Exciter1R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SSF_Exciter2L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SSF_Exciter2R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SSF_AmplifierReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SSF_PSUReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid SSF_USBReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafButton_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafButton_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafNut_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafNut_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafBracket_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafBracket_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafContacts_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafContacts_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafButton_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafButton_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafNut_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafNut_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafBracket_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafBracket_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafContacts_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid LeafContacts_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_BasePlywood",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_WoodDowel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_VESAEnvelope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_SupportMountScrewL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_SupportMountScrewR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_SupportMountScrewL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_SupportMountScrewR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_SupportMountScrewL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_SupportMountScrewR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_OpenCradleL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_OpenCradleR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_StrapScrew1_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_StrapScrew1_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_CommercialStrap1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_StrapScrew2_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_StrapScrew2_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_CommercialStrap2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_StrapScrew3_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_StrapScrew3_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_CommercialStrap3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_StrapScrew4_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_StrapScrew4_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PF_CommercialStrap4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanBoltL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanNutL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanBoltL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanNutL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanBoltL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanNutL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanBoltL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanNutL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterInsertL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterScrewL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterInsertL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterScrewL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterInsertL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterScrewL3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterInsertL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterScrewL4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorIntakeFanL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid RemovableIntakeFilterL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterMediaReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorCommercialGuardReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorUpperGuardReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanConnectorReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanBoltR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanNutR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanBoltR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanNutR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanBoltR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanNutR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanBoltR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanNutR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterInsertR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterScrewR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterInsertR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterScrewR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterInsertR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterScrewR3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterInsertR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterScrewR4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorIntakeFanR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid RemovableIntakeFilterR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFilterMediaReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorCommercialGuardReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorUpperGuardReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FloorFanConnectorReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonWireServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonToolServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonBodyServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonLeafServiceReserve_primary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonWireServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonToolServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonBodyServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonLeafServiceReserve_primary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonWireServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonToolServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonBodyServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonLeafServiceReserve_secondary_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonWireServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonToolServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonBodyServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid ButtonLeafServiceReserve_secondary_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_WoodSeatL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_WoodSeatR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_InsertL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_FixedScrewL1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_FixedScrewL2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_InsertR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_FixedScrewR1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_FixedScrewR2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_RetainerL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_RetainerR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MatrixCarrier",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MatrixPanel1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MatrixPanel2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MatrixPanel3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MatrixPanel4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MatrixPanel5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MatrixPanel6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_FixedConnectorReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_MovingConnectorReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_CableLoopReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid MX_FixedCableReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid UprightLockLShelfThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid UprightLockLShelfBacking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid UprightLockRShelfThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid UprightLockRShelfBacking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_SideL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_SideR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_Floor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_Top",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_RearFrame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_Backglass",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_Display32",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DMDEnvelope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_SpeakerEnvelopeL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_SpeakerEnvelopeR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DoorL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_FanL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_FanGuardL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_FanMeshReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_IntakeFilterFrameL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_IntakeMeshReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_IntakeDownBaffleL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_HingeCleatL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PianoHingeReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PianoLeafFixedL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PianoLeafDoorL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DoorPerimeterGasketL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_FanStrainReliefReserveL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DoorR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_FanR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_FanGuardR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_FanMeshReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_IntakeFilterFrameR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_IntakeMeshReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_IntakeDownBaffleR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_HingeCleatR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PianoHingeReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PianoLeafFixedR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PianoLeafDoorR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DoorPerimeterGasketR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_FanStrainReliefReserveR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_CenterAstragal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_CenterGasket",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_CamLockBodyReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_CamLockBarrelReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_CamTongueClosedReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PassiveBoltBodyReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PassiveBoltClosedReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PassiveBoltBodyReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PassiveBoltClosedReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockLWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockLParkingPad0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockLParkingPad1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockLParkingThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockLParkingScrewReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockLParkingScrewReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockLKnob",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockRWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockRParkingPad0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockRParkingPad1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockRParkingThread",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockRParkingScrewReserve0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockRParkingScrewReserve1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockRKnob",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockLTether",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_UprightLockRTether",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_FlexCorridorL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_FlexCorridorR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_ToyZoneUpperL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_ToyZoneUpperR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_ToyZoneLowerL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_ToyZoneLowerR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PlungerFrontInterfaceProvisional",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PlungerShaftProvisional",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid PlungerHandleProvisional",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid RearFanWoodScrew230_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid RearFanWoodScrew230_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid RearFanWoodScrew230_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid RearFanWoodScrew230_4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid RearFanWoodScrew370_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid RearFanWoodScrew370_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid RearFanWoodScrew370_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid RearFanWoodScrew370_4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_SideScrew1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_SideScrew2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_SideScrew3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_SideScrew4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_AdjusterInsert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_AdjusterWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_AdjusterLocknut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_ContactPad",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_SwivelDisc",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_SwivelJoint",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_AdjusterStem",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_RetentionBolt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_RetentionWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_RetentionJamnut1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_RetentionJamnut2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_RetentionPushRing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_SideScrew1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_SideScrew2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_SideScrew3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_SideScrew4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_AdjusterInsert",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_AdjusterWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_AdjusterLocknut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_ContactPad",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_SwivelDisc",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_SwivelJoint",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_AdjusterStem",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_RetentionBolt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_RetentionWasher",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_RetentionJamnut1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_RetentionJamnut2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_RetentionPushRing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_RetentionReceiver",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_RetentionReceiver",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Plate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Screw1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Insert1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Screw2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Insert2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Screw3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Insert3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Screw4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Insert4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_HarnessLoopReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button1_Body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button1_Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button1_Nut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button1_Switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button1_WireReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button2_Body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button2_Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button2_Nut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button2_Switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button2_WireReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button3_Body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button3_Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button3_Nut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button3_Switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button3_WireReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button4_Body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button4_Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button4_Nut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button4_Switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button4_WireReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button5_Body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button5_Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button5_Nut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button5_Switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_Button5_WireReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_USBBody",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_USBFlange",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_USBNut",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_USBCap",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid Underfront_USBCableReserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingL_Block",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid FrontLandingR_Block",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DMDVESABolt0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DMDVESABolt1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DMDVESABolt2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DMDVESABolt3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DMDVESAWasher0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DMDVESAWasher1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DMDVESAWasher2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DMDVESAWasher3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_DMD_SPEAKER_PANEL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_GLASS_BOTTOM_SEAT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_GLASS_TOP_RETAINER",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_GlassBackCushionL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_GlassBackCushionR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_GlassBottomCushion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_GlassSideCushionL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_GlassSideCushionR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_GlassTopCushion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_GlassTopScrew0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_GlassTopScrew1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_MONITOR_PLATE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_MONITOR_STOP_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_MONITOR_STOP_L_Screw0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_MONITOR_STOP_L_Screw1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_MONITOR_STOP_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_MONITOR_STOP_R_Screw0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_MONITOR_STOP_R_Screw1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PanelBolt_L0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PanelBolt_L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PanelBolt_R0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PanelBolt_R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PanelCrossDowel_L0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PanelCrossDowel_L1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PanelCrossDowel_R0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_PanelCrossDowel_R1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_TopDirectScrew0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_TopDirectScrew1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_TopDirectScrew2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_TopDirectScrew3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESABolt0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESABolt1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESABolt2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESABolt3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESASpacer0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESASpacer1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESASpacer2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESASpacer3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESAWasher0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESAWasher1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESAWasher2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "valid BB_VESAWasher3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P001-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P001-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P002-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P002-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P003-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P003-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P004-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P004-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P005-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P005-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P006-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P006-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P007-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P007-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P008-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P008-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P009-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P009-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P010-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P010-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P011-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P011-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P012-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P012-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P013-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P013-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P014-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P014-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P015-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P015-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P016-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P016-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P017-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P017-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P018-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P018-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P019-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P019-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P020-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P020-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P021-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P021-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P022-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P022-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P023-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P023-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P024-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P024-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P025-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P025-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P026-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P026-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P027-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P027-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P028-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P028-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P033-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P033-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P034-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P034-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P035-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P035-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P036-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P036-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P037-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P037-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P038-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P038-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P039-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P039-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P040-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P040-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P041-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P041-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P044-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P044-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P046-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P046-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P079-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P079-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P080-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P080-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P081-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P081-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P082-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P082-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P083-Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P083-Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P083-Top",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P083-Top",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P083-Side1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P083-Side1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P083-Side2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P083-Side2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P084-Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P084-Face",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P084-Top",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P084-Top",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P084-Side1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P084-Side1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P084-Side2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P084-Side2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P085-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P085-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P086-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P086-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P087-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P087-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P088-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P088-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P089-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P089-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P090-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P090-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P091-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P091-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P092-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P092-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P093-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P093-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P029-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P029-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P030-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P030-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P031-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P031-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P032-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P032-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P097-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P097-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P095-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P095-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P096-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P096-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P042-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P042-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P043-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P043-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material P045-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face P045-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material V34-BB_MONITOR_PLATE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face V34-BB_MONITOR_PLATE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material V34-BB_MONITOR_STOP_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face V34-BB_MONITOR_STOP_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material V34-BB_MONITOR_STOP_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face V34-BB_MONITOR_STOP_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material V34-BB_DMD_SPEAKER_PANEL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face V34-BB_DMD_SPEAKER_PANEL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material V34-BB_GLASS_TOP_RETAINER",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face V34-BB_GLASS_TOP_RETAINER",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allowed material V34-BB_GLASS_BOTTOM_SEAT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one face V34-BB_GLASS_BOTTOM_SEAT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction SIDE_L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SIDE_R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction FRONT",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction REAR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction FLOOR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction FLOOR_CLEAT_18",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction FLOOR_CLEAT_552",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction REAR_DOOR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SHELF_1",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SHELF_2",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SHELF_3",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SHELF_SUPPORT_1L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SHELF_SUPPORT_1R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SHELF_SUPPORT_2L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SHELF_SUPPORT_2R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SHELF_SUPPORT_3L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SHELF_SUPPORT_3R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CROSS_1",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CROSS_2",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CROSS_3",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CROSS_GUIDE_1L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CROSS_GUIDE_1R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CROSS_GUIDE_2L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CROSS_GUIDE_2R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CROSS_GUIDE_3L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CROSS_GUIDE_3R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction PC_BASE",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BACKBOX_BASE",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction SSF_BST_Carrier",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction PF_BasePlywood",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction PF_OpenCradleL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction PF_OpenCradleR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction RemovableIntakeFilterL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction RemovableIntakeFilterR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction MX_WoodSeatL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction MX_WoodSeatR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction MatrixCarrier",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_Floor",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_RearFrame",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_DoorL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_DoorR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_IntakeFilterFrameL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_IntakeFilterFrameR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_IntakeDownBaffleL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_IntakeDownBaffleR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_HingeCleatL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_HingeCleatR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_CenterAstragal",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_UprightLockLParkingPad0",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_UprightLockLParkingPad1",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_UprightLockRParkingPad0",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_UprightLockRParkingPad1",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CandidateLegBlockFL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CandidateLegBlockFR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CandidateLegBlockRL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction CandidateLegBlockRR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction Underfront_Plate",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction FrontLandingL_Block",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction FrontLandingR_Block",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_SideL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_SideR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_Top",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_MONITOR_PLATE",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_MONITOR_STOP_L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_MONITOR_STOP_R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_DMD_SPEAKER_PANEL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_GLASS_TOP_RETAINER",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "reconstruction BB_GLASS_BOTTOM_SEAT",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "glass translational capture [-4, 0, 0]",
+      "pass": true,
+      "detail": [
+        [
+          "BB_SideL",
+          3672.00000000008
+        ]
+      ]
+    },
+    {
+      "name": "glass translational capture [4, 0, 0]",
+      "pass": true,
+      "detail": [
+        [
+          "BB_SideR",
+          3672.0000000004175
+        ]
+      ]
+    },
+    {
+      "name": "glass translational capture [0, -4, 0]",
+      "pass": true,
+      "detail": [
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          8928.0
+        ],
+        [
+          "BB_GLASS_TOP_RETAINER",
+          18302.4000000001
+        ]
+      ]
+    },
+    {
+      "name": "glass translational capture [0, 4, 0]",
+      "pass": true,
+      "detail": [
+        [
+          "BB_SideL",
+          3672.0000000000214
+        ],
+        [
+          "BB_SideR",
+          3672.0
+        ],
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          8928.0
+        ]
+      ]
+    },
+    {
+      "name": "glass translational capture [0, 0, -4]",
+      "pass": true,
+      "detail": [
+        [
+          "BB_SideL",
+          32.000000000000114
+        ],
+        [
+          "BB_SideR",
+          31.999999999999993
+        ],
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          5952.0
+        ]
+      ]
+    },
+    {
+      "name": "glass translational capture [0, 0, 4]",
+      "pass": true,
+      "detail": [
+        [
+          "BB_Top",
+          601.6000000001368
+        ]
+      ]
+    },
+    {
+      "name": "glass rotational restraint [1.0, 0.0, 0.0]-1",
+      "pass": true,
+      "detail": [
+        [
+          "BB_SideL",
+          0.0016262575187324779
+        ],
+        [
+          "BB_SideR",
+          0.0016262575187332518
+        ],
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          0.3024838984791907
+        ]
+      ]
+    },
+    {
+      "name": "glass rotational restraint [1.0, 0.0, 0.0]1",
+      "pass": true,
+      "detail": [
+        [
+          "BB_SideL",
+          0.0016262575190372892
+        ],
+        [
+          "BB_SideR",
+          0.0016262575190369815
+        ],
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          0.30248389854640984
+        ],
+        [
+          "BB_GLASS_TOP_RETAINER",
+          5883.880779308309
+        ]
+      ]
+    },
+    {
+      "name": "glass rotational restraint [0.0, 1.0, 0.0]-1",
+      "pass": true,
+      "detail": [
+        [
+          "BB_SideL",
+          10.052324618078824
+        ],
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          361.0369523123135
+        ]
+      ]
+    },
+    {
+      "name": "glass rotational restraint [0.0, 1.0, 0.0]1",
+      "pass": true,
+      "detail": [
+        [
+          "BB_SideR",
+          10.0523246180771
+        ],
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          361.03695231200277
+        ]
+      ]
+    },
+    {
+      "name": "glass rotational restraint [0.0, 0.0, 1.0]-1",
+      "pass": true,
+      "detail": [
+        [
+          "BB_SideL",
+          2305.169241657913
+        ],
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          1068.2113642175427
+        ],
+        [
+          "BB_GLASS_TOP_RETAINER",
+          2370.975594578029
+        ]
+      ]
+    },
+    {
+      "name": "glass rotational restraint [0.0, 0.0, 1.0]1",
+      "pass": true,
+      "detail": [
+        [
+          "BB_SideR",
+          2305.169241657763
+        ],
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          1068.21136421775
+        ],
+        [
+          "BB_GLASS_TOP_RETAINER",
+          2370.9755945783213
+        ]
+      ]
+    },
+    {
+      "name": "bottom lip cannot lift free below top",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "top strip overlaps beyond possible top travel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous glass tilt0to10",
+      "pass": true,
+      "detail": 38
+    },
+    {
+      "name": "L continuous door0to100",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "name": "L fan loop 0",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L fan loop 10",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L fan loop 20",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L fan loop 30",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L fan loop 40",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L fan loop 50",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L fan loop 60",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L fan loop 70",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L fan loop 80",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L fan loop 90",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "L fan loop 100",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R continuous door0to100",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "name": "R fan loop 0",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R fan loop 10",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R fan loop 20",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R fan loop 30",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R fan loop 40",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R fan loop 50",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R fan loop 60",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R fan loop 70",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R fan loop 80",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R fan loop 90",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "R fan loop 100",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "WPC reference unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "main stock exactly12/18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative stock control 4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative stock control 6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative stock control 8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative stock control 9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative stock control 10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative stock control 15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative stock control 24",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "negative stock control 30",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "glass_capture": [
+    {
+      "translation_mm": [
+        -4,
+        0,
+        0
+      ],
+      "barriers": [
+        [
+          "BB_SideL",
+          3672.00000000008
+        ]
+      ]
+    },
+    {
+      "translation_mm": [
+        4,
+        0,
+        0
+      ],
+      "barriers": [
+        [
+          "BB_SideR",
+          3672.0000000004175
+        ]
+      ]
+    },
+    {
+      "translation_mm": [
+        0,
+        -4,
+        0
+      ],
+      "barriers": [
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          8928.0
+        ],
+        [
+          "BB_GLASS_TOP_RETAINER",
+          18302.4000000001
+        ]
+      ]
+    },
+    {
+      "translation_mm": [
+        0,
+        4,
+        0
+      ],
+      "barriers": [
+        [
+          "BB_SideL",
+          3672.0000000000214
+        ],
+        [
+          "BB_SideR",
+          3672.0
+        ],
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          8928.0
+        ]
+      ]
+    },
+    {
+      "translation_mm": [
+        0,
+        0,
+        -4
+      ],
+      "barriers": [
+        [
+          "BB_SideL",
+          32.000000000000114
+        ],
+        [
+          "BB_SideR",
+          31.999999999999993
+        ],
+        [
+          "BB_GLASS_BOTTOM_SEAT",
+          5952.0
+        ]
+      ]
+    },
+    {
+      "translation_mm": [
+        0,
+        0,
+        4
+      ],
+      "barriers": [
+        [
+          "BB_Top",
+          601.6000000001368
+        ]
+      ]
+    }
+  ],
+  "glass_continuous_tilt": {
+    "range_deg": [
+      0,
+      10
+    ],
+    "intervals": [
+      [
+        0,
+        0.3125
+      ],
+      [
+        0.3125,
+        0.625
+      ],
+      [
+        0.625,
+        0.9375
+      ],
+      [
+        0.9375,
+        1.25
+      ],
+      [
+        1.25,
+        1.5625
+      ],
+      [
+        1.5625,
+        1.875
+      ],
+      [
+        1.875,
+        2.1875
+      ],
+      [
+        2.1875,
+        2.5
+      ],
+      [
+        2.5,
+        2.8125
+      ],
+      [
+        2.8125,
+        3.125
+      ],
+      [
+        3.125,
+        3.4375
+      ],
+      [
+        3.4375,
+        3.75
+      ],
+      [
+        3.75,
+        4.0625
+      ],
+      [
+        4.0625,
+        4.375
+      ],
+      [
+        4.375,
+        4.6875
+      ],
+      [
+        4.6875,
+        5.0
+      ],
+      [
+        5.0,
+        5.3125
+      ],
+      [
+        5.3125,
+        5.625
+      ],
+      [
+        5.625,
+        5.9375
+      ],
+      [
+        5.9375,
+        6.25
+      ],
+      [
+        6.25,
+        6.5625
+      ],
+      [
+        6.5625,
+        6.875
+      ],
+      [
+        6.875,
+        7.1875
+      ],
+      [
+        7.1875,
+        7.5
+      ],
+      [
+        7.5,
+        7.8125
+      ],
+      [
+        7.8125,
+        8.125
+      ],
+      [
+        8.125,
+        8.28125
+      ],
+      [
+        8.28125,
+        8.4375
+      ],
+      [
+        8.4375,
+        8.59375
+      ],
+      [
+        8.59375,
+        8.75
+      ],
+      [
+        8.75,
+        8.90625
+      ],
+      [
+        8.90625,
+        9.0625
+      ],
+      [
+        9.0625,
+        9.21875
+      ],
+      [
+        9.21875,
+        9.375
+      ],
+      [
+        9.375,
+        9.53125
+      ],
+      [
+        9.53125,
+        9.6875
+      ],
+      [
+        9.6875,
+        9.84375
+      ],
+      [
+        9.84375,
+        10
+      ]
+    ],
+    "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+  },
+  "doors_continuous": {
+    "L": {
+      "range_deg": [
+        0,
+        100
+      ],
+      "intervals": [
+        [
+          0,
+          1.5625
+        ],
+        [
+          1.5625,
+          3.125
+        ],
+        [
+          3.125,
+          6.25
+        ],
+        [
+          6.25,
+          9.375
+        ],
+        [
+          9.375,
+          12.5
+        ],
+        [
+          12.5,
+          18.75
+        ],
+        [
+          18.75,
+          25.0
+        ],
+        [
+          25.0,
+          31.25
+        ],
+        [
+          31.25,
+          37.5
+        ],
+        [
+          37.5,
+          43.75
+        ],
+        [
+          43.75,
+          50.0
+        ],
+        [
+          50.0,
+          56.25
+        ],
+        [
+          56.25,
+          62.5
+        ],
+        [
+          62.5,
+          68.75
+        ],
+        [
+          68.75,
+          75.0
+        ],
+        [
+          75.0,
+          81.25
+        ],
+        [
+          81.25,
+          87.5
+        ],
+        [
+          87.5,
+          93.75
+        ],
+        [
+          93.75,
+          100
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "R": {
+      "range_deg": [
+        0,
+        100
+      ],
+      "intervals": [
+        [
+          0,
+          1.5625
+        ],
+        [
+          1.5625,
+          3.125
+        ],
+        [
+          3.125,
+          6.25
+        ],
+        [
+          6.25,
+          9.375
+        ],
+        [
+          9.375,
+          12.5
+        ],
+        [
+          12.5,
+          18.75
+        ],
+        [
+          18.75,
+          25.0
+        ],
+        [
+          25.0,
+          31.25
+        ],
+        [
+          31.25,
+          37.5
+        ],
+        [
+          37.5,
+          43.75
+        ],
+        [
+          43.75,
+          50.0
+        ],
+        [
+          50.0,
+          56.25
+        ],
+        [
+          56.25,
+          62.5
+        ],
+        [
+          62.5,
+          68.75
+        ],
+        [
+          68.75,
+          75.0
+        ],
+        [
+          75.0,
+          81.25
+        ],
+        [
+          81.25,
+          87.5
+        ],
+        [
+          87.5,
+          93.75
+        ],
+        [
+          93.75,
+          100
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    }
+  },
+  "fan_flex": [
+    {
+      "side": "L",
+      "angle": 0,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000001333856,
+        "minimum_centerline_bend_radius_mm": 19.17777257059565,
+        "bow_mm": 64.46333007188514
+      }
+    },
+    {
+      "side": "L",
+      "angle": 10,
+      "hits": [],
+      "metrics": {
+        "length_mm": 159.99999999543897,
+        "minimum_centerline_bend_radius_mm": 19.49769923818764,
+        "bow_mm": 64.19750015484169
+      }
+    },
+    {
+      "side": "L",
+      "angle": 20,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000001792867,
+        "minimum_centerline_bend_radius_mm": 19.949104546709325,
+        "bow_mm": 63.78148914081976
+      }
+    },
+    {
+      "side": "L",
+      "angle": 30,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000001419988,
+        "minimum_centerline_bend_radius_mm": 20.60221166859048,
+        "bow_mm": 63.21448691887781
+      }
+    },
+    {
+      "side": "L",
+      "angle": 40,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000000254897,
+        "minimum_centerline_bend_radius_mm": 21.452162898696322,
+        "bow_mm": 62.506664206739515
+      }
+    },
+    {
+      "side": "L",
+      "angle": 50,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000000846464,
+        "minimum_centerline_bend_radius_mm": 22.484596055497974,
+        "bow_mm": 61.67949418304488
+      }
+    },
+    {
+      "side": "L",
+      "angle": 60,
+      "hits": [],
+      "metrics": {
+        "length_mm": 159.99999998118665,
+        "minimum_centerline_bend_radius_mm": 23.63843844907381,
+        "bow_mm": 60.764702304732054
+      }
+    },
+    {
+      "side": "L",
+      "angle": 70,
+      "hits": [],
+      "metrics": {
+        "length_mm": 159.99999999143714,
+        "minimum_centerline_bend_radius_mm": 24.873233864638124,
+        "bow_mm": 59.80205637170002
+      }
+    },
+    {
+      "side": "L",
+      "angle": 80,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.000000015662,
+        "minimum_centerline_bend_radius_mm": 26.09243284150704,
+        "bow_mm": 58.83641076507047
+      }
+    },
+    {
+      "side": "L",
+      "angle": 90,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000000424805,
+        "minimum_centerline_bend_radius_mm": 27.223330474577143,
+        "bow_mm": 57.91447783121839
+      }
+    },
+    {
+      "side": "L",
+      "angle": 100,
+      "hits": [],
+      "metrics": {
+        "length_mm": 159.99999998652441,
+        "minimum_centerline_bend_radius_mm": 28.162820533269976,
+        "bow_mm": 57.081716938409954
+      }
+    },
+    {
+      "side": "R",
+      "angle": 0,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.0000000133386,
+        "minimum_centerline_bend_radius_mm": 19.17777257057924,
+        "bow_mm": 64.46333007188514
+      }
+    },
+    {
+      "side": "R",
+      "angle": 10,
+      "hits": [],
+      "metrics": {
+        "length_mm": 159.999999995439,
+        "minimum_centerline_bend_radius_mm": 19.49769923822677,
+        "bow_mm": 64.19750015484169
+      }
+    },
+    {
+      "side": "R",
+      "angle": 20,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000001792858,
+        "minimum_centerline_bend_radius_mm": 19.949104546674846,
+        "bow_mm": 63.78148914081976
+      }
+    },
+    {
+      "side": "R",
+      "angle": 30,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000001419986,
+        "minimum_centerline_bend_radius_mm": 20.602211668553,
+        "bow_mm": 63.21448691887781
+      }
+    },
+    {
+      "side": "R",
+      "angle": 40,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000000254875,
+        "minimum_centerline_bend_radius_mm": 21.45216289871302,
+        "bow_mm": 62.506664206739515
+      }
+    },
+    {
+      "side": "R",
+      "angle": 50,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000000846472,
+        "minimum_centerline_bend_radius_mm": 22.48459605549629,
+        "bow_mm": 61.67949418304488
+      }
+    },
+    {
+      "side": "R",
+      "angle": 60,
+      "hits": [],
+      "metrics": {
+        "length_mm": 159.99999998118656,
+        "minimum_centerline_bend_radius_mm": 23.638438449052355,
+        "bow_mm": 60.764702304732054
+      }
+    },
+    {
+      "side": "R",
+      "angle": 70,
+      "hits": [],
+      "metrics": {
+        "length_mm": 159.99999999143733,
+        "minimum_centerline_bend_radius_mm": 24.873233864655635,
+        "bow_mm": 59.80205637170002
+      }
+    },
+    {
+      "side": "R",
+      "angle": 80,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.0000000156621,
+        "minimum_centerline_bend_radius_mm": 26.09243284151979,
+        "bow_mm": 58.83641076507047
+      }
+    },
+    {
+      "side": "R",
+      "angle": 90,
+      "hits": [],
+      "metrics": {
+        "length_mm": 160.00000000424805,
+        "minimum_centerline_bend_radius_mm": 27.223330474566286,
+        "bow_mm": 57.91447783121839
+      }
+    },
+    {
+      "side": "R",
+      "angle": 100,
+      "hits": [],
+      "metrics": {
+        "length_mm": 159.9999999865245,
+        "minimum_centerline_bend_radius_mm": 28.16282053336572,
+        "bow_mm": 57.081716938409954
+      }
+    }
+  ],
+  "native_sha256": "476fbab9aaf57ec365c2cb091aef95835c15dfcee13e85974b94c5efb3c81492",
+  "source_sha256": "c78a64794d4ac009e12986aa5adc03f936b5bbf95b84d0a4da35e2742f7c4c53",
+  "manufacturing_release": false,
+  "physical_qualification": false
+}

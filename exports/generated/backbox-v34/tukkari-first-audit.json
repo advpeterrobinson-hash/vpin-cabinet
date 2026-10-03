@@ -1,0 +1,42 @@
+[
+  {
+    "subsystem": "MONITOR",
+    "equivalent_found": true,
+    "public_evidence": "https://www.tukkari.eu/advisor/assembly-guide-vpin-cabinet-essential-flat-pack",
+    "equivalent": "Single slotted plate, four commodity corner brackets in public step15/16",
+    "our_conflict": "Owner explicitly requires top-inserted captured plate, no brackets; one-face CNC side guides are possible with14mm remaining side skin",
+    "why_direct_adaptation_fails": "Public bracket scheme conflicts with explicit owner service/capture correction; not falsely attributed to Tukkari",
+    "minimum_deviation": "Independent4mm guides,2 identical stops,top capture; no service rail or bracket",
+    "adopted": "One plate; bolts/spacers adjust monitor; front monitor service"
+  },
+  {
+    "subsystem": "DMD_SPEAKER",
+    "equivalent_found": true,
+    "public_evidence": "https://www.tukkari.eu/advisor/assembly-guide-vpin-cabinet-essential-flat-pack#step14",
+    "equivalent": "One combined metal lower panel with display opening and speaker apertures",
+    "our_conflict": "Owner requires one flat plywood panel. A front visible cutout removes the central wood required at rear VESA75 boss coordinates. Old103mm speaker rear envelope conflicts with protected intake baffles when panel is rearward enough for fold.",
+    "why_direct_adaptation_fails": "Flat plywood cannot duplicate bent-metal rear mounting returns; no hidden rear adapter added",
+    "minimum_deviation": "Direct display on FRONT of structural panel, VESA screws from rear; selected speaker must fit60mm rear reserve.18mm follows12-first deflection screen.",
+    "adopted": "One off-cabinet preassembled lower module,4 direct side fasteners"
+  },
+  {
+    "subsystem": "BACKGLASS",
+    "equivalent_found": true,
+    "public_evidence": "https://www.tukkari.eu/p/widebody-virtual-pinball-cabinet-vpin-essential-flat-pack-kit",
+    "equivalent": "Front glass/channel seating interface documented; exact requested front tilt/top-strip mechanism not established by viewed guide",
+    "our_conflict": "Owner specifies tempered glass and front tilt removal with fixed top, not source acrylic/sliding assumption",
+    "why_direct_adaptation_fails": "Cannot claim unobserved source capture geometry; owner sequence governs independent fit",
+    "minimum_deviation": "Two shallow front rebates,one18mm bottom seat,one12mm upper strip.6mm lower lip exceeds3.8mm top travel.",
+    "adopted": "Simple padded front window with positive edge capture"
+  },
+  {
+    "subsystem": "TOP",
+    "equivalent_found": true,
+    "public_evidence": "https://www.tukkari.eu/advisor/assembly-guide-vpin-cabinet-essential-flat-pack",
+    "equivalent": "Direct top-to-sides; proprietary connector scheme; source says no backbox glue",
+    "our_conflict": "Owner allows glue, simple screws; supplier cannot5-axis edges; Kreg model unconfirmed",
+    "why_direct_adaptation_fails": "Unselected jig cannot release pocket offsets; proprietary connector cuts not used",
+    "minimum_deviation": "Existing shallow capture +glue +4 direct side screws; pocket alternative4 studied but not selected",
+    "adopted": "No corner cleats"
+  }
+]

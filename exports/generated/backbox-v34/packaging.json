@@ -1,0 +1,1217 @@
+{
+  "preferred_target_kg": 25,
+  "status": "V34 PRELIMINARY ONE-PART-PER-LAYER; packaging2kg allowance; no shipping qualification",
+  "candidates": [
+    {
+      "target_kg": 25,
+      "bundles": [
+        {
+          "id": "V34-P1",
+          "wood_mass_kg": 17.19595384656448,
+          "L": 1308.1,
+          "W": 596.9,
+          "layers": [
+            {
+              "t": 18.000000000000007,
+              "z": 10,
+              "order": 1,
+              "pieces": [
+                {
+                  "instance_id": "P005-Main",
+                  "id": "M005",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 7.925301672341779
+                }
+              ]
+            },
+            {
+              "t": 18.00000000000003,
+              "z": 30.000000000000007,
+              "order": 2,
+              "pieces": [
+                {
+                  "instance_id": "P001-Main",
+                  "id": "M001",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 7.712804994724846
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 50.000000000000036,
+              "order": 3,
+              "pieces": [
+                {
+                  "instance_id": "P027-Main",
+                  "id": "M017",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 1.5325751794978528
+                }
+              ]
+            },
+            {
+              "t": 12.000000000000007,
+              "z": 70.00000000000003,
+              "order": 4,
+              "pieces": [
+                {
+                  "instance_id": "P083-Side1",
+                  "id": "M061",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.025272
+                }
+              ]
+            }
+          ],
+          "z": 84.00000000000003,
+          "external_LWH_mm": [
+            1348.1,
+            636.9,
+            94.00000000000003
+          ],
+          "gross_nominal_kg": 19.19595384656448,
+          "gross_high_kg": 24.487016568584316
+        },
+        {
+          "id": "V34-P2",
+          "wood_mass_kg": 17.19942500064464,
+          "L": 1308.1,
+          "W": 596.9,
+          "layers": [
+            {
+              "t": 18.0,
+              "z": 10,
+              "order": 1,
+              "pieces": [
+                {
+                  "instance_id": "P002-Main",
+                  "id": "M002",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 7.712804994724846
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 30.0,
+              "order": 2,
+              "pieces": [
+                {
+                  "instance_id": "P034-Main",
+                  "id": "M025",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 5.627534543718635
+                }
+              ]
+            },
+            {
+              "t": 18,
+              "z": 50.0,
+              "order": 3,
+              "pieces": [
+                {
+                  "instance_id": "V34-BB_MONITOR_PLATE",
+                  "id": "M074",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 3.47484686371864
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 70.0,
+              "order": 4,
+              "pieces": [
+                {
+                  "instance_id": "P036-Main",
+                  "id": "M027",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.3122333150136521
+                }
+              ]
+            },
+            {
+              "t": 17.99999999999997,
+              "z": 90.0,
+              "order": 5,
+              "pieces": [
+                {
+                  "instance_id": "P017-Main",
+                  "id": "M013",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.07200528346886881
+                }
+              ]
+            }
+          ],
+          "z": 109.99999999999997,
+          "external_LWH_mm": [
+            1348.1,
+            636.9,
+            119.99999999999997
+          ],
+          "gross_nominal_kg": 19.19942500064464,
+          "gross_high_kg": 24.49155577007376
+        },
+        {
+          "id": "V34-P3",
+          "wood_mass_kg": 17.1937781679794,
+          "L": 780.0,
+          "W": 723.9,
+          "layers": [
+            {
+              "t": 18,
+              "z": 10,
+              "order": 1,
+              "pieces": [
+                {
+                  "instance_id": "P045-Main",
+                  "id": "M034",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 2.183932298715292
+                }
+              ]
+            },
+            {
+              "t": 17.999999999999545,
+              "z": 30,
+              "order": 2,
+              "pieces": [
+                {
+                  "instance_id": "P004-Main",
+                  "id": "M004",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 2.1772072550336024
+                }
+              ]
+            },
+            {
+              "t": 18,
+              "z": 49.999999999999545,
+              "order": 3,
+              "pieces": [
+                {
+                  "instance_id": "P042-Main",
+                  "id": "M031",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 1.715221014882277
+                }
+              ]
+            },
+            {
+              "t": 18,
+              "z": 69.99999999999955,
+              "order": 4,
+              "pieces": [
+                {
+                  "instance_id": "P043-Main",
+                  "id": "M032",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 1.715221014882274
+                }
+              ]
+            },
+            {
+              "t": 18.000000000000007,
+              "z": 89.99999999999955,
+              "order": 5,
+              "pieces": [
+                {
+                  "instance_id": "P003-Main",
+                  "id": "M003",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 1.687027235106953
+                }
+              ]
+            },
+            {
+              "t": 18,
+              "z": 109.99999999999955,
+              "order": 6,
+              "pieces": [
+                {
+                  "instance_id": "V34-BB_DMD_SPEAKER_PANEL",
+                  "id": "M076",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 1.5164903441358524
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 129.99999999999955,
+              "order": 7,
+              "pieces": [
+                {
+                  "instance_id": "P080-Main",
+                  "id": "M057",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 1.4991293074842917
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 143.99999999999955,
+              "order": 8,
+              "pieces": [
+                {
+                  "instance_id": "P079-Main",
+                  "id": "M056",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 1.4991293074842913
+                }
+              ]
+            },
+            {
+              "t": 18.000000000000227,
+              "z": 157.99999999999955,
+              "order": 9,
+              "pieces": [
+                {
+                  "instance_id": "P046-Main",
+                  "id": "M035",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 1.3494826799999
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 177.99999999999977,
+              "order": 10,
+              "pieces": [
+                {
+                  "instance_id": "P044-Main",
+                  "id": "M033",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 1.1964789690412776
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 197.99999999999977,
+              "order": 11,
+              "pieces": [
+                {
+                  "instance_id": "P009-Main",
+                  "id": "M008",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.6544587412133855
+                }
+              ]
+            }
+          ],
+          "z": 211.99999999999977,
+          "external_LWH_mm": [
+            820.0,
+            763.9,
+            221.99999999999977
+          ],
+          "gross_nominal_kg": 19.1937781679794,
+          "gross_high_kg": 24.484171450434598
+        },
+        {
+          "id": "V34-P4",
+          "wood_mass_kg": 10.333954925329694,
+          "L": 1152.1,
+          "W": 329.0,
+          "layers": [
+            {
+              "t": 12.0,
+              "z": 10,
+              "order": 1,
+              "pieces": [
+                {
+                  "instance_id": "P008-Main",
+                  "id": "M007",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 1.0138447883780437
+                }
+              ]
+            },
+            {
+              "t": 17.999999999999886,
+              "z": 24.0,
+              "order": 2,
+              "pieces": [
+                {
+                  "instance_id": "P028-Main",
+                  "id": "M018",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.9053068725443314
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 43.999999999999886,
+              "order": 3,
+              "pieces": [
+                {
+                  "instance_id": "P010-Main",
+                  "id": "M008",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.6544587412133855
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 57.999999999999886,
+              "order": 4,
+              "pieces": [
+                {
+                  "instance_id": "P011-Main",
+                  "id": "M009",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.6544587412133855
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 71.99999999999989,
+              "order": 5,
+              "pieces": [
+                {
+                  "instance_id": "P018-Main",
+                  "id": "M014",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.5050655999999999
+                }
+              ]
+            },
+            {
+              "t": 18.000000000000114,
+              "z": 91.99999999999989,
+              "order": 6,
+              "pieces": [
+                {
+                  "instance_id": "P020-Main",
+                  "id": "M014",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.5050655999999999
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 112.0,
+              "order": 7,
+              "pieces": [
+                {
+                  "instance_id": "P019-Main",
+                  "id": "M014",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.5050655999999998
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 132.0,
+              "order": 8,
+              "pieces": [
+                {
+                  "instance_id": "P006-Main",
+                  "id": "M006",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.4043871
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 152.0,
+              "order": 9,
+              "pieces": [
+                {
+                  "instance_id": "P007-Main",
+                  "id": "M006",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.4043871
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 172.0,
+              "order": 10,
+              "pieces": [
+                {
+                  "instance_id": "P041-Main",
+                  "id": "M030",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.40041648497506477
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 186.0,
+              "order": 11,
+              "pieces": [
+                {
+                  "instance_id": "P035-Main",
+                  "id": "M026",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.31223331501365204
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 206.0,
+              "order": 12,
+              "pieces": [
+                {
+                  "instance_id": "P033-Main",
+                  "id": "M024",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.25197874121338554
+                }
+              ]
+            },
+            {
+              "t": 12.000000000000012,
+              "z": 220.0,
+              "order": 13,
+              "pieces": [
+                {
+                  "instance_id": "P083-Face",
+                  "id": "M059",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.209352
+                }
+              ]
+            },
+            {
+              "t": 12.000000000000012,
+              "z": 234.0,
+              "order": 14,
+              "pieces": [
+                {
+                  "instance_id": "P084-Face",
+                  "id": "M059",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.209352
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 248.0,
+              "order": 15,
+              "pieces": [
+                {
+                  "instance_id": "P087-Main",
+                  "id": "M063",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.16960319999999998
+                }
+              ]
+            },
+            {
+              "t": 54,
+              "z": 262.0,
+              "order": 16,
+              "pieces": [
+                {
+                  "instance_id": "P096-Solid",
+                  "id": "SW02",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.15941420820549096
+                }
+              ]
+            },
+            {
+              "t": 54,
+              "z": 318.0,
+              "order": 17,
+              "pieces": [
+                {
+                  "instance_id": "P095-Solid",
+                  "id": "SW02",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.1594142082054909
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 374.0,
+              "order": 18,
+              "pieces": [
+                {
+                  "instance_id": "P097-Main",
+                  "id": "M074",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.14383172383554396
+                }
+              ]
+            },
+            {
+              "t": 14.0,
+              "z": 388.0,
+              "order": 19,
+              "pieces": [
+                {
+                  "instance_id": "P085-Reduced18",
+                  "id": "M062",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.1314404
+                }
+              ]
+            },
+            {
+              "t": 14.0,
+              "z": 404.0,
+              "order": 20,
+              "pieces": [
+                {
+                  "instance_id": "P086-Reduced18",
+                  "id": "M062",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.1314404
+                }
+              ]
+            },
+            {
+              "t": 12.000000000000014,
+              "z": 420.0,
+              "order": 21,
+              "pieces": [
+                {
+                  "instance_id": "P092-Main",
+                  "id": "M066",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.1272989854403655
+                }
+              ]
+            },
+            {
+              "t": 12.000000000000014,
+              "z": 434.0,
+              "order": 22,
+              "pieces": [
+                {
+                  "instance_id": "P093-Main",
+                  "id": "M066",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.1272989854403655
+                }
+              ]
+            },
+            {
+              "t": 18,
+              "z": 448.0,
+              "order": 23,
+              "pieces": [
+                {
+                  "instance_id": "V34-BB_GLASS_BOTTOM_SEAT",
+                  "id": "M037",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.125736
+                }
+              ]
+            },
+            {
+              "t": 126,
+              "z": 468.0,
+              "order": 24,
+              "pieces": [
+                {
+                  "instance_id": "P029-Solid",
+                  "id": "SW01",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.11498124129839918
+                }
+              ]
+            },
+            {
+              "t": 126,
+              "z": 596.0,
+              "order": 25,
+              "pieces": [
+                {
+                  "instance_id": "P030-Solid",
+                  "id": "SW01",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.11498124129839268
+                }
+              ]
+            },
+            {
+              "t": 126,
+              "z": 724.0,
+              "order": 26,
+              "pieces": [
+                {
+                  "instance_id": "P031-Solid",
+                  "id": "SW01",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.11498124129760494
+                }
+              ]
+            },
+            {
+              "t": 126,
+              "z": 852.0,
+              "order": 27,
+              "pieces": [
+                {
+                  "instance_id": "P032-Solid",
+                  "id": "SW01",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.1149812412976022
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 980.0,
+              "order": 28,
+              "pieces": [
+                {
+                  "instance_id": "P037-Main",
+                  "id": "M028",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.1059505301374321
+                }
+              ]
+            },
+            {
+              "t": 12.0,
+              "z": 994.0,
+              "order": 29,
+              "pieces": [
+                {
+                  "instance_id": "P038-Main",
+                  "id": "M028",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.10595053013743208
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1008.0,
+              "order": 30,
+              "pieces": [
+                {
+                  "instance_id": "P022-Main",
+                  "id": "M016",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.09004027955019558
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1028.0,
+              "order": 31,
+              "pieces": [
+                {
+                  "instance_id": "P023-Main",
+                  "id": "M015",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.09004027955019558
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1048.0,
+              "order": 32,
+              "pieces": [
+                {
+                  "instance_id": "P024-Main",
+                  "id": "M016",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.09004027955019558
+                }
+              ]
+            },
+            {
+              "t": 18.000000000000004,
+              "z": 1068.0,
+              "order": 33,
+              "pieces": [
+                {
+                  "instance_id": "P025-Main",
+                  "id": "M015",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.09004027955019558
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1088.0,
+              "order": 34,
+              "pieces": [
+                {
+                  "instance_id": "P026-Main",
+                  "id": "M016",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.09004027955019558
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1108.0,
+              "order": 35,
+              "pieces": [
+                {
+                  "instance_id": "P021-Main",
+                  "id": "M015",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.09004027955019557
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1128.0,
+              "order": 36,
+              "pieces": [
+                {
+                  "instance_id": "P013-Main",
+                  "id": "M011",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.07200528346886881
+                }
+              ]
+            },
+            {
+              "t": 18.00000000000003,
+              "z": 1148.0,
+              "order": 37,
+              "pieces": [
+                {
+                  "instance_id": "P014-Main",
+                  "id": "M010",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.07200528346886881
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1168.0,
+              "order": 38,
+              "pieces": [
+                {
+                  "instance_id": "P015-Main",
+                  "id": "M011",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.07200528346886881
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1188.0,
+              "order": 39,
+              "pieces": [
+                {
+                  "instance_id": "P012-Main",
+                  "id": "M010",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.0720052834688688
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1208.0,
+              "order": 40,
+              "pieces": [
+                {
+                  "instance_id": "P016-Main",
+                  "id": "M012",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.0720052834688688
+                }
+              ]
+            },
+            {
+              "t": 12,
+              "z": 1228.0,
+              "order": 41,
+              "pieces": [
+                {
+                  "instance_id": "V34-BB_GLASS_TOP_RETAINER",
+                  "id": "M077",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.0696384
+                }
+              ]
+            },
+            {
+              "t": 12.00000000000003,
+              "z": 1242.0,
+              "order": 42,
+              "pieces": [
+                {
+                  "instance_id": "P083-Top",
+                  "id": "M060",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.0685152
+                }
+              ]
+            },
+            {
+              "t": 12.000000000000114,
+              "z": 1256.0,
+              "order": 43,
+              "pieces": [
+                {
+                  "instance_id": "P084-Top",
+                  "id": "M060",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.0685152
+                }
+              ]
+            },
+            {
+              "t": 12.00000000000001,
+              "z": 1270.0,
+              "order": 44,
+              "pieces": [
+                {
+                  "instance_id": "P081-Main",
+                  "id": "M058",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.049920000000000006
+                }
+              ]
+            },
+            {
+              "t": 12.00000000000001,
+              "z": 1284.0,
+              "order": 45,
+              "pieces": [
+                {
+                  "instance_id": "P082-Main",
+                  "id": "M058",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.049920000000000006
+                }
+              ]
+            },
+            {
+              "t": 17.999999999999986,
+              "z": 1298.0,
+              "order": 46,
+              "pieces": [
+                {
+                  "instance_id": "P039-Main",
+                  "id": "M029",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.04101210770119518
+                }
+              ]
+            },
+            {
+              "t": 17.999999999999886,
+              "z": 1318.0,
+              "order": 47,
+              "pieces": [
+                {
+                  "instance_id": "P040-Main",
+                  "id": "M029",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": true,
+                  "mass_kg": 0.04101210770119511
+                }
+              ]
+            },
+            {
+              "t": 12.00000000000001,
+              "z": 1338.0,
+              "order": 48,
+              "pieces": [
+                {
+                  "instance_id": "P083-Side2",
+                  "id": "M061",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.025272
+                }
+              ]
+            },
+            {
+              "t": 12.000000000000057,
+              "z": 1352.0,
+              "order": 49,
+              "pieces": [
+                {
+                  "instance_id": "P084-Side1",
+                  "id": "M061",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.025272
+                }
+              ]
+            },
+            {
+              "t": 12.00000000000001,
+              "z": 1366.0,
+              "order": 50,
+              "pieces": [
+                {
+                  "instance_id": "P084-Side2",
+                  "id": "M061",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.025272
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1380.0,
+              "order": 51,
+              "pieces": [
+                {
+                  "instance_id": "P088-Main",
+                  "id": "M064",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.0170246002545821
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1400.0,
+              "order": 52,
+              "pieces": [
+                {
+                  "instance_id": "P090-Main",
+                  "id": "M064",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.0170246002545821
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1420.0,
+              "order": 53,
+              "pieces": [
+                {
+                  "instance_id": "P089-Main",
+                  "id": "M065",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.016945896813624982
+                }
+              ]
+            },
+            {
+              "t": 18.0,
+              "z": 1440.0,
+              "order": 54,
+              "pieces": [
+                {
+                  "instance_id": "P091-Main",
+                  "id": "M065",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.016945896813624982
+                }
+              ]
+            },
+            {
+              "t": 12,
+              "z": 1460.0,
+              "order": 55,
+              "pieces": [
+                {
+                  "instance_id": "V34-BB_MONITOR_STOP_L",
+                  "id": "M075",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.00936
+                }
+              ]
+            },
+            {
+              "t": 12,
+              "z": 1474.0,
+              "order": 56,
+              "pieces": [
+                {
+                  "instance_id": "V34-BB_MONITOR_STOP_R",
+                  "id": "M075",
+                  "x": 0,
+                  "y": 0,
+                  "rotated": false,
+                  "mass_kg": 0.00936
+                }
+              ]
+            }
+          ],
+          "z": 1488.0,
+          "external_LWH_mm": [
+            1192.1,
+            369.0,
+            1498.0
+          ],
+          "gross_nominal_kg": 12.333954925329694,
+          "gross_high_kg": 15.513633363892676
+        }
+      ]
+    }
+  ],
+  "hardware_box": "SEPARATE",
+  "glass_electronics_in_wood_bundles": false
+}

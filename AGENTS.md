@@ -1,6 +1,21 @@
 # AGENTS.md
 
-## Current V33.8 service/productization authority
+## Mandatory Tukkari-first architecture rule — owner V34
+
+For every new or revised cabinet subsystem/function, first look for an equivalent publicly documented Tukkari solution. When one exists, its functional architecture is the default basis; independently dimension it for this project’s 18/12 mm plywood, one-face Ø4 CNC, hardware and service constraints. Do not import proprietary CAD, drawings or manufacturing files.
+
+Before adding complexity, record: **TUKKARI EQUIVALENT; PUBLIC EVIDENCE; OUR CONFLICT (measured); WHY DIRECT ADAPTATION FAILS; MINIMUM DEVIATION**. “More modular”, “future-proof” or preference alone is not evidence. If no public equivalent is found, record the search and uncertainty, rather than claiming absence. Explicit owner architecture corrections take precedence; distinguish them from the public source.
+
+V34 owner authority: a single monitor plate enters from the TOP during shell assembly, seats on two side stops, and is captured by side guides plus the permanently fastened top. The monitor itself is serviced from the FRONT after front glass removal. Do not reintroduce a removable rail/carrier, depth shoes or M067. Scope of promotion and current validation are recorded in `config/current_v32.json`; a study does not itself replace CURRENT. Manufacturing remains blocked.
+
+
+## Current V34 backbox authority
+
+- Read `config/current_v32.json`, `config/backbox_simplification_v34.json` and `docs/BACKBOX_SIMPLIFICATION_V34.md`. One18mm captured monitor plate,2 identical12mm stops; one18mm DMD/speaker panel; front glass with one12mm strip. No retired rails/shoes/M067/cassette.
+- 76 wood manufacturing pieces /70 CNC plywood /6 solid blocks /48 families. Monitor/DMD/speaker/glass hardware and physical qualification remain pending. Speaker rear-depth reserve60mm, DMD total occupied depth45mm; these are limits, not universal fit claims.
+- No final CNC release; measured stock/coupon/purchased hardware required. Main-cabinet holds below remain active.
+
+## Protected V33.8 main-cabinet authority (backbox superseded by V34)
 
 - Start with `config/current_v32.json` and `docs/SERVICE_PRODUCTIZATION_V338.md`. Protected V33.7 architecture remains; only six front-landing plywood layers and four obsolete binder screws are replaced by two SW02 solid blocks, 68 × 70 × 54 mm.
 - Plywood stock remains exactly 18 / 12 mm. SW01 and SW02 are explicit shop-made solid wood, never a third sheet family.

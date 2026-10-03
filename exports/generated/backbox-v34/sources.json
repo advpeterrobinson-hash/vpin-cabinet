@@ -1,0 +1,18 @@
+[
+  {
+    "id": "TUKKARI_GUIDE",
+    "url": "https://www.tukkari.eu/advisor/assembly-guide-vpin-cabinet-essential-flat-pack",
+    "accessed": "2026-10-03",
+    "status": "PUBLIC_MANUFACTURER_REFERENCE_VISUALLY_INSPECTED",
+    "license": "Copyright Tukkari; links only, no repository copy",
+    "evidence": "Steps1/5/9/13/14/15/16/19 reviewed. Flat slotted monitor board and four metal brackets; metal combined lower panel; direct top-to-side assembly. Text explicitly says backbox is not glued."
+  },
+  {
+    "id": "TUKKARI_PRODUCT",
+    "url": "https://www.tukkari.eu/p/widebody-virtual-pinball-cabinet-vpin-essential-flat-pack-kit",
+    "accessed": "2026-10-03",
+    "status": "PUBLIC_MANUFACTURER_DESCRIPTION",
+    "license": "Copyright Tukkari; no CAD copied",
+    "evidence": "32-inch VESA75/100 support,15.6-inch combined metal DMD/speaker panel, glass-channel interface; proprietary5-axis/Lamello shell process."
+  }
+]

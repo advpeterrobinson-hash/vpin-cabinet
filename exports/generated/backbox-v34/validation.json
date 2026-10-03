@@ -1,0 +1,759 @@
+{
+  "pass": true,
+  "head_before": "0993d9768582290915f7166c53507ffd2aa434b6",
+  "checks": [
+    {
+      "name": "geometry checks all pass",
+      "pass": true
+    },
+    {
+      "name": "independent checks all pass",
+      "pass": true
+    },
+    {
+      "name": "browser checks all pass",
+      "pass": true
+    },
+    {
+      "name": "native evidence matches",
+      "pass": true
+    },
+    {
+      "name": "browser evidence matches current viewer",
+      "pass": true
+    },
+    {
+      "name": "source native unchanged",
+      "pass": true
+    },
+    {
+      "name": "76 manufacturing pieces",
+      "pass": true
+    },
+    {
+      "name": "48 families",
+      "pass": true
+    },
+    {
+      "name": "46 plywood plus2 solid families",
+      "pass": true
+    },
+    {
+      "name": "exactly12/18 plywood",
+      "pass": true
+    },
+    {
+      "name": "native reconstruction tolerance",
+      "pass": true
+    },
+    {
+      "name": "CNC remains held",
+      "pass": true
+    },
+    {
+      "name": "25 owner backbox steps",
+      "pass": true
+    },
+    {
+      "name": "manual statuses honest",
+      "pass": true
+    },
+    {
+      "name": "retired native names absent viewer",
+      "pass": true
+    },
+    {
+      "name": "retired hardware absent detailed viewer",
+      "pass": true
+    },
+    {
+      "name": "protected file config/manufacturing/profiles/peter_supplier_v1.json",
+      "pass": true
+    },
+    {
+      "name": "protected file config/plywood_conversion_v337.json",
+      "pass": true
+    },
+    {
+      "name": "protected file config/service_productization_v338.json",
+      "pass": true
+    },
+    {
+      "name": "protected file config/solid_front_landings_v338.json",
+      "pass": true
+    },
+    {
+      "name": "protected file config/underfront_user_module_v337.json",
+      "pass": true
+    },
+    {
+      "name": "protected file config/wpc_kinematics_v32.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/01-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/02-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/03-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/04-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/05-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/06-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/07-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/08-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/09-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/10-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/11-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/12-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/13-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/14-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/15-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/16-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/17-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/18-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/19-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/20-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/21-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/22-review.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/README.md",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/SW02-L-reference-template.svg",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/SW02-R-reference-template.svg",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/SW02-load-screen.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/T12-N1.svg",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/T12-SMALL-STOCK.svg",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/T18-N1.svg",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/T18-N2.svg",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/adjustment-validation.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/animations.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/assembly-manual.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/backbox-fold.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/brep/P095-Solid-finished-reference.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/brep/P095-Solid-installed-reference.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/brep/P095-Solid-shop-blank.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/brep/P096-Solid-finished-reference.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/brep/P096-Solid-installed-reference.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/brep/P096-Solid-shop-blank.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/browser-validation.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/changed-piece-metrics.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/current-landing-L-blank.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/current-landing-L-union.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/current-landing-R-blank.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/current-landing-R-union.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/current-landing-metrology.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/doors-open.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/fold-1.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/fold-45.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/geometry-validation.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/hardware-dashboard.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/hardware-lifecycle.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/hardware-quantity-closure.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/hardware-status.md",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/independent-qa.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/landing-brep/FrontLandingL_Block.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/landing-brep/FrontLandingL_OldUnion.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/landing-brep/FrontLandingR_Block.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/landing-brep/FrontLandingR_OldUnion.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/landing-brep/SW02_L_Blank.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/landing-brep/SW02_R_Blank.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/landing-candidate.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/landing-sources.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/landing-study.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/landing-study.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/lift-out.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/locks-parked.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/manufacturing-audit.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/manufacturing-bom.csv",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/manufacturing-bom.md",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/manufacturing-bom.pt-BR.md",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/manufacturing-mesh.json.gz",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/manufacturing-metrics-comparison.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/manufacturing-register.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/mass-budget.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/material-utilization.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/matrix-removed.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/mesh.json.gz",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/metrics-authority.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-brep/AccessoryBoardS2Right.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-brep/AccessoryBoardS3Left.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-brep/BackboxHarness_0.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-brep/BackboxHarness_45.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-brep/BackboxHarness_90.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-brep/MovingPFHarness_LIFT48.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-brep/MovingPFHarness_PLAY.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-brep/MovingPFHarness_SERVICE50.brep",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-dryfit-audit.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-report.md",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-review-scenes.json.gz",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-review-sources.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-study.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/modularity-validation.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/module-removed.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/optional-accessories.csv",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/optional-accessories.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/packaging.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/packing-metrics.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/play.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/plywood-savings.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/project-metrics.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/released.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/retention-decision.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/review-index.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/review-scenes.json.gz",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/review-source-hashes.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/review.html",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/safety-endpoint-motion.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/safety-load-screen.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/safety-report.md",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/safety-review-scenes.json.gz",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/safety-route-search.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/safety-source-hashes.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/safety-sources.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/safety-study.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/safety-validation.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/service.FCStd",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/state-register.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/stock-mass-packing-report.md",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/stock-policy-negative-control.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/sw02-manufacturing-map.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/sw02-template-status.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/validation.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-01-current.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-02-sw02.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-03-sw02-assembly.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-04-modularity.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-05-optional-assembly.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-06-service-hold.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-07-packing.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-08-tablet.png",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-authority.json",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-data.json.gz",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-native.json.gz",
+      "pass": true
+    },
+    {
+      "name": "protected file exports/generated/service-productization-v338/viewer-review-views.json",
+      "pass": true
+    }
+  ],
+  "native_checks": 28,
+  "independent_checks": 1184,
+  "browser_checks": 46,
+  "native_sha256": "476fbab9aaf57ec365c2cb091aef95835c15dfcee13e85974b94c5efb3c81492",
+  "viewer_sha256": "6b2011d281e75e4a538b7a25ead32a2729a7f3140bf98585b60ed734d3ee3952",
+  "evidence_sha256": {
+    "exports/generated/backbox-v34/BB_SideL.brep": "cdb731ce2868b2e63029951499dc11275d53fbbd62e51ec09389889dddfd8941",
+    "exports/generated/backbox-v34/BB_SideR.brep": "b2b73e1a7f6d643efda27354ff6cc86a821ceb0395e206fce068bd451b58ebc2",
+    "exports/generated/backbox-v34/BB_Top.brep": "86501f20ae2aa768dc8d62ae4ccfc4aac0d2d7fce2730ae37dddc71c3f05d891",
+    "exports/generated/backbox-v34/BB_MONITOR_PLATE.brep": "6e327349d9b6f6b1d19c52e1b4878be363ff6a76dad1016a2a92a5a779522642",
+    "exports/generated/backbox-v34/BB_MONITOR_STOP_L.brep": "38b2716c204ffb9f703982891f73872a8f6d53bb05e513a4b4e8726bbd0010cc",
+    "exports/generated/backbox-v34/BB_MONITOR_STOP_R.brep": "a952565019b1f277eaabe5f8a5a263e9a5f01d47e9300ba8bd5fff4bb414efe5",
+    "exports/generated/backbox-v34/BB_DMD_SPEAKER_PANEL.brep": "f151037a698c871ffc4fe8af62c894b97acdea64dc88b669bd68743edf7cfd39",
+    "exports/generated/backbox-v34/BB_GLASS_BOTTOM_SEAT.brep": "eb58dd77173c16a455bae91b4284919e5949869452fb5ed9c4b1a43cb521de9f",
+    "exports/generated/backbox-v34/BB_GLASS_TOP_RETAINER.brep": "74a38fe96601988fcd233d3aecd88030d300b8bf7978f71566d48e023dd15bfd",
+    "exports/generated/backbox-v34/geometry-validation.json": "0a1a0b3f6e7356ce92e5f3efc5ed36ceae107fa6d6a0b239c48740e46b1b679f",
+    "exports/generated/backbox-v34/geometry-inventory.json": "96a45d084319e19c4d65214aed54bc3b95e66e9eedccb212686edb466e71ee6c",
+    "exports/generated/backbox-v34/candidate-mesh.json.gz": "1ddbd3ee8081b39e290969844500f31c0c38e7dff5cab683937f64ba937d1b45",
+    "exports/generated/backbox-v34/review-scenes.json.gz": "9c3bf307027172ed88014ba283a62b32762abe9e8ca170c80a105d7e9543921b",
+    "exports/generated/backbox-v34/P042-Main-finished.brep": "e9826920bab8be1b1db30ece0515f70c89b14bd1fdb21454d9dec5f86d9e0429",
+    "exports/generated/backbox-v34/P043-Main-finished.brep": "469a76d0aa0ae9cfed84f05bee0507750ec3bfa06e04fa3a4e5b314f3ab81304",
+    "exports/generated/backbox-v34/P045-Main-finished.brep": "23801650542dcc28a83350f331c598a4fea3d91b8f2dbc2021a1a000c4260264",
+    "exports/generated/backbox-v34/V34-BB_MONITOR_PLATE-finished.brep": "9d9484c11c12ff5be69711f963b73a121c70bee8cfb5ff653740c1c887de22f1",
+    "exports/generated/backbox-v34/V34-BB_MONITOR_STOP_L-finished.brep": "af065cb38354cf2eacdee1aa92b482b4b74948774bcfb7a7ccb388b5beaa7c0e",
+    "exports/generated/backbox-v34/V34-BB_MONITOR_STOP_R-finished.brep": "8d6afd8ed93e48b6b108172589cc36debc2b26ea08fff45f8afa648ba3ead657",
+    "exports/generated/backbox-v34/V34-BB_DMD_SPEAKER_PANEL-finished.brep": "9072107387ad10a8009062c51faee79a6ce3151f1aaac8d4601354dbc2e3627d",
+    "exports/generated/backbox-v34/V34-BB_GLASS_TOP_RETAINER-finished.brep": "3f0061b60675c8e29c25e4134284e6dfc7e2a952cb82203bd420e14334ea540a",
+    "exports/generated/backbox-v34/V34-BB_GLASS_BOTTOM_SEAT-finished.brep": "1b5e4d5ddb86c40f41936d007440cfdfa153ad0bd8a76bb430faa723b6577dbf",
+    "exports/generated/backbox-v34/manufacturing-register.json": "7f7728fbadc484ea1c886ba70b4d5151658ad06fde992693b90d359a1039cebc",
+    "exports/generated/backbox-v34/manufacturing-bom.csv": "4d77b0889ab09984271e1f5d1698ff6a71abc80e4439879b1ce752012e098651",
+    "exports/generated/backbox-v34/mass-counts.json": "358a5387ea4771f7b4acb7944d173e3f9728346e476e22bda2225390ee108925",
+    "exports/generated/backbox-v34/attachment-audit.json": "15a9afcc05da2270bacfe6af5d9c107f765f77a8af774fe5b9bff97713e7e4fe",
+    "exports/generated/backbox-v34/manufacturing-mesh-delta.json.gz": "7978043948b5389f17666876e688e11d217d6656c50a996f1b6d04299b650fd2",
+    "exports/generated/backbox-v34/manufacturing-delta.json": "30d3297e80b5542d3faad4e16856819c6b3b936236379a7cbf3a545fb5a01154",
+    "exports/generated/backbox-v34/sources.json": "d9dcc1dc85eb5654a9620c827ea789f058043b8fc634f8dd9bc43d45ef2374d5",
+    "exports/generated/backbox-v34/tukkari-first-audit.json": "d20e150c73cd4d0c3fcd6ff8448eeb6838b6a60a44383f5f184430a31b500a40",
+    "exports/generated/backbox-v34/assembly-manual.json": "acb1fa1d7c11936ddc92c73f6c0a82563ca5eec568d5ae94787a4d08210e323a",
+    "exports/generated/backbox-v34/viewer-native.json.gz": "536bba4fa2d6736ced0b3b2b703714c2cf2bc06e002de7c3daf4de3cd28a6640",
+    "exports/generated/backbox-v34/packaging.json": "ee9a94ddd87fcb9533f10a1ac6b86bd9d113bd3ff89543ac11839f1baddf92f7",
+    "exports/generated/backbox-v34/viewer-data.json.gz": "9ee05993e9db80da7275675621fa0013146582b78fcbbb89b47574786136b198",
+    "exports/generated/backbox-v34/animations.json": "22294facdbe2c2c974eb72568ccfe62ceb1ff46286c31e3413e47104c9622594",
+    "exports/generated/backbox-v34/project-metrics.json": "c152c4ece0ca3d14841909ff3837f44505664c68ed71716936d73aa6aebd3377",
+    "exports/generated/backbox-v34/hardware-dashboard.json": "434f269a47bbcd5330f65f804cfa218ce16fd8352e6f2f794cd14490f6868403",
+    "exports/generated/backbox-v34/viewer-authority.json": "6ea7d67bd2efc7fe55c405cbfa7b86b19e0f1607d50bca3b04f2b45f38f2fca7",
+    "exports/generated/backbox-v34/independent-validation.json": "99852e76cd2492b9b27eeeed91197a4b56c4673e59930cd65cbff7a4acd1bb8c",
+    "exports/generated/backbox-v34/01-review.png": "8968be1a1fe5397f87993a14a40b44709254f538309a0273c955eda8020fcb4d",
+    "exports/generated/backbox-v34/02-review.png": "7610aadab29709b6c737c00ea74edb6d46a8ea6284009e5aa944f1094deeba4d",
+    "exports/generated/backbox-v34/03-review.png": "930ccf657323f3b86db72ccf394da7e3512fd0f660d6bfcfa1d0cbb416b66a14",
+    "exports/generated/backbox-v34/04-review.png": "1f4fcc0eba0ffa5775fc7e04ece284f1c5aae9321a8b7ac5f3a2c83c1213bbc3",
+    "exports/generated/backbox-v34/05-review.png": "d5993e7137aec94bea6cabfdaab057862f31324e0ff92e74bd436ff04af4c24e",
+    "exports/generated/backbox-v34/06-review.png": "1cfdb0e62035aea0b4a190386ffad51a94a84781bc7868866f39fb48aab1e797",
+    "exports/generated/backbox-v34/07-review.png": "fa23721e1c45ff717df68bffa92875818ca994e4f6048f485ad912f7b847bb59",
+    "exports/generated/backbox-v34/08-review.png": "3864a2b476cf8401ead43965c9b411d16769a62e1a3330747ffcd1ebe3bc11a1",
+    "exports/generated/backbox-v34/09-review.png": "891151d44978809ee5f55e76dc40bc302d7499e06b9abe73cae193bae0c28eab",
+    "exports/generated/backbox-v34/10-review.png": "a1f5c1938e84c5a1243b0b6d670c6435328a92cf7827c38293e790a3259ee619",
+    "exports/generated/backbox-v34/11-review.png": "9780a9370ba703ba89403efa9712289714796ec7198ace7fe5e363b8b447d106",
+    "exports/generated/backbox-v34/12-review.png": "459f0f92b0b440a89359bef0072f3158549f905410a4a79b1b40a468b57ef590",
+    "exports/generated/backbox-v34/13-review.png": "4dc312f5d638ff70793bb63e7cd872d0a74c024eaa7f14d062df69b822e26756",
+    "exports/generated/backbox-v34/14-review.png": "fa6427cfa39f86cdfbc70faf05d0c1d84aadb066c995908ac47196416e888e8a",
+    "exports/generated/backbox-v34/15-review.png": "9da42558f3c2528271941eb2e60367427f734b3c2355c8d4862aaff9dc723ca2",
+    "exports/generated/backbox-v34/16-review.png": "5214fb173e79a89df677a64c438ffe3cddf0ac0ca0672e6a47776a84a5988bb7",
+    "exports/generated/backbox-v34/17-review.png": "de30200f6c6cd3f16de20ef2817db27ef9b8520cfb203ffa4e395e8069950f69",
+    "exports/generated/backbox-v34/18-review.png": "92f788f91eea46bd555158c283e0e6169f35569b4d4eec303a51968a7bdacd4f",
+    "exports/generated/backbox-v34/19-review.png": "90542994963cd87a8165ca51124a914d35d7e7157e596dc4a304dd124901561a",
+    "exports/generated/backbox-v34/20-review.png": "5fa21e9086c3d792aa338fbb37213e8cb078a0a247ac98bb50fb751b6a274df2",
+    "exports/generated/backbox-v34/21-review.png": "7f3a2d08dd3bb870684e40bc8d15708a6067cc66eab4835e94e42b86163ab80f",
+    "exports/generated/backbox-v34/22-review.png": "8c0fbe3005d0ef170508bc30dd196c13e1bf95e9669547722eaec94d6b6e0068",
+    "exports/generated/backbox-v34/23-review.png": "e77bb3ba4daea13de5079aa05d0051012dde698840ec0a71cfab5bf71a560f24",
+    "exports/generated/backbox-v34/24-review.png": "11c69277bdceb30eb72d64d10da869d4c1113dd7a08331e2a8ed5ac459b2aaa0",
+    "exports/generated/backbox-v34/25-review.png": "3952783192ced02339d89a545cbec04bd29386a14f899e61d5da24dcfab8a774",
+    "exports/generated/backbox-v34/26-review.png": "a7782831d3cc694998f832b2ff06c3eb12ffb8b935b5b992f57668bda6df4fbe",
+    "exports/generated/backbox-v34/review-index.json": "a882c33935d7ac0f86cffe2e76f7788b1660cf0e706db55664ddb125ec4a9b35",
+    "exports/generated/backbox-v34/review.html": "6ffc4a35d68fa128639061a481939d25ddb0709bc1a472a566ec60fe1c30c068",
+    "exports/generated/backbox-v34/viewer-01-exploded.png": "e47aa0f53b49aa12fc231a97e998e301224051e4c76c569bda1dc0a82714d237",
+    "exports/generated/backbox-v34/viewer-service-glass.png": "42447c6d38e4330b24718d4e389f5f09c9d5f4ac25d02ad415f38520c42ad4da",
+    "exports/generated/backbox-v34/viewer-service-display.png": "fce6fbda5dc3dac0d2cf5fd132244f69490acf545c993dcc4abfebb1c40b8b9d",
+    "exports/generated/backbox-v34/viewer-service-cassette.png": "d7ee311484230e1f6046e271212bb6c062f7c7878d8a70adfcd7fe2901641a8f",
+    "exports/generated/backbox-v34/viewer-service-fold.png": "2a0daa036ab3c1e2441db4931d4306d00876099bf1cb0881d723ee5d05dbc29c",
+    "exports/generated/backbox-v34/viewer-02-metadata.png": "3bae8594a032fd3629677f18ec7bd6ee9e5c57b4e3561d9ea430b3b33047ce44",
+    "exports/generated/backbox-v34/viewer-03-tablet.png": "6a77a19ca3e6f35dde26718ca436581835dd93bbec404c00073fb301b8d74982",
+    "exports/generated/backbox-v34/browser-validation.json": "e63ae96232f008125a0b9957f1de3950b315cb5f930e7db06c85fd26dc931941",
+    "exports/generated/backbox-v34/manufacturing-bom.md": "40e7129c214130ef1bb5a18455ade6d2bb0ff930fce6c541294b58852af5837e",
+    "exports/generated/backbox-v34/manufacturing-bom.pt-BR.md": "86d8e600704105b54dc49d2bd0b9b1b43dc519950ce56084d2330e662389f98d",
+    "exports/generated/backbox-v34/README.md": "073eceac20393ed24e0bef8c95fe67a18fac415810abdfe47c6f65e8c68f3cfe",
+    "exports/generated/backbox-v34/candidate.FCStd": "067fe09f1cb505d30cca44123eaaa292b55e97faf285786448f2db07de6fe121",
+    "exports/generated/backbox-v34/study-hardware.FCStd": "02a619b94ffeeceb39842ad1c751816c3a10dfa67ce9757178a1cf1f5a2ad185",
+    "exports/generated/backbox-v34/play.FCStd": "476fbab9aaf57ec365c2cb091aef95835c15dfcee13e85974b94c5efb3c81492",
+    "exports/generated/backbox-v34/service.FCStd": "f99361d97c1240518d329c5b6d86a4fd4623201c53cde45cf42c25fed9997d7c",
+    "exports/generated/backbox-v34/lift-out.FCStd": "0ff48b7c86bc0630c7529ae053a1cabb473681f58e68f2e9e461faf4b520c542",
+    "exports/generated/backbox-v34/matrix-removed.FCStd": "fcd454021530e1e879e0240296fb76c1246c66bb122f606a538f661667e4f8fe",
+    "exports/generated/backbox-v34/backbox-fold.FCStd": "e22b8e0048f13e54c25b775b3a66120ac40ea0c7331b6f561f02b7550f5ea1a1",
+    "exports/generated/backbox-v34/doors-open.FCStd": "62ffff4ec637bb04f43dc932f276a3b2d72e7b89230d5dd8783a216512631f61",
+    "exports/generated/backbox-v34/locks-parked.FCStd": "3b67f04cb0d802b757ee014f68fbf1cf7965281f9f91be4626bc346ad3b2af27",
+    "exports/generated/backbox-v34/released.FCStd": "51224aedeb1035efb96ee153f2e3f9986c5b3b9674ce4832e6a307776cfaaf2c",
+    "exports/generated/backbox-v34/fold-1.FCStd": "b576f849ed319e048cf6853b24a3cd4972db9e4748b788c9067622c958f5b863",
+    "exports/generated/backbox-v34/fold-45.FCStd": "a36093f3d84724ac6f7c3961cbbce7f804b14b1422a347f9016415027bf3d836",
+    "exports/generated/backbox-v34/module-removed.FCStd": "63d5d5de9afaf7b5feb5a82a898e1bacb3b0565bf01062866bcd8556f2e61ba9",
+    "config/backbox_simplification_v34.json": "0f3ad692d56244a19a5fbdbe2f0bfc557451b9b2014c4c648e87886a17da0dc4",
+    "config/hardware_catalog_v34.json": "389748640852ec2e229deccd5a98ec879f30f5005e45058228a62f975511187b",
+    "config/manufacturing/flatpack_v34.json": "8b86627b8169a64d826581f729c5ff84ef007a9d137fcbf85e23fef81e5a8130",
+    "config/wood_materials_v34.json": "d53e6eaa1e75ea97b44b50084b77226fe3bc0e49e96ca15f2766f49d60ece122",
+    "config/viewer_v34.json": "58d9fba7f3be29ea927d98d8c46892b25f45624dc0469a3fe71fd4246ba52ef4",
+    "docs/ASSEMBLY_MANUAL.md": "29e514915638e27c94f610d925061a9a87f97bd6a671caa74e359b7846077b1c",
+    "docs/ASSEMBLY_MANUAL.pt-BR.md": "8305e08b3d36b880116cb9cd436e87d242afc631db9e4409ef088d56e58f67ae",
+    "tools/backbox_simplification_v34.py": "a09054e942933fa6f791ffffae563a1d4a63473f349279b7ec1149550ba82aae",
+    "tools/backbox_v34_reviews.py": "5ac752f7e6dbb57517dffb83a1836a691031b77c8a692fcc9aceec3f3b32d973",
+    "tools/render_backbox_v34.py": "29b867373bbd59ebfd314139ede42a454edb199eb722320390bf8b3bbbf73e67",
+    "tools/backbox_v34_manufacturing.py": "af1c35dd348e664249767e76520ce21f451fd010d9810fe81560644cfd85ad5f",
+    "tools/backbox_v34_documentation.py": "85e30ee7c156d3682a978542b4eba3271291c2d07fc54672e81be05c9a00fa38",
+    "tools/backbox_v34_export.py": "39026b642a091822c2a5498ef1991ddabbffcb29b211d6c1ffba2797a4f006fd",
+    "tools/build_viewer_v34.py": "e0b19f0f4a91673552ee7ad108c65872148323cf7099a3f1a6bcb78f766ccbfc",
+    "tools/check_backbox_v34_native.py": "ffe6e6badcf8e1258a5d17381b5956775e3d1a1f5efa4b522c66fa81ab994d85",
+    "tools/rebuild_backbox_v34.py": "00582977a3aafdd260867977cb2897acc7c8fde59c954ab00febb080cd6d8d76",
+    "tools/check_backbox_v34_viewer.mjs": "8e3c982dd18b8542a7475f61e6bff8f2829e6d2e95aea3355d8a1edf30050e08",
+    "tools/backbox_v34_report.py": "0878c7b37bd62ebd7acd2293baeefde6ae0495a2e7e2cf53152abd62f30db72d",
+    "tools/check_backbox_v34.py": "00f690c6da9173e15d5722229e9444d3a5c5b1c8897ed2233706354fc36fae53",
+    "tools/promote_backbox_v34.py": "92b99a9c3e421d37102bc4993b30e5e8bfb690b7d7e41966716aa4e49386aaff"
+  },
+  "manufacturing_ready": false,
+  "physical_qualification": false,
+  "promotion_scope": "SIMPLIFIED_BACKBOX_DESIGN_CANDIDATE_ONLY"
+}

@@ -1,0 +1,9 @@
+{
+  "version": "V34",
+  "builder": "tools/build_viewer_v34.py",
+  "geometry": "exports/generated/backbox-v34/play.FCStd",
+  "manufacturing_register": "exports/generated/backbox-v34/manufacturing-register.json",
+  "hardware_catalog": "config/hardware_catalog_v34.json",
+  "manual": "exports/generated/backbox-v34/assembly-manual.json",
+  "manufacturing_release": false
+}

@@ -1,0 +1,195 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "V34 revision",
+      "pass": true
+    },
+    {
+      "name": "22 visibility groups",
+      "pass": true
+    },
+    {
+      "name": "all retired installed objects absent",
+      "pass": true
+    },
+    {
+      "name": "captured plate present",
+      "pass": true
+    },
+    {
+      "name": "76 actual manufacturing pieces",
+      "pass": true
+    },
+    {
+      "name": "all manual steps animated",
+      "pass": true
+    },
+    {
+      "name": "unique animation IDs",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.1 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.2 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.3 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.4 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.5 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.6 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.7 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.8 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.9 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.10 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.11 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.12 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.13 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.14 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.15 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.16 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.17 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.18 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.19 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.20 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.21 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.22 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.23 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.24 visible",
+      "pass": true
+    },
+    {
+      "name": "assembly 08.25 visible",
+      "pass": true
+    },
+    {
+      "name": "service-glass visible",
+      "pass": true
+    },
+    {
+      "name": "service-display visible",
+      "pass": true
+    },
+    {
+      "name": "plate remains fixed during monitor service",
+      "pass": true
+    },
+    {
+      "name": "top remains fixed during monitor service",
+      "pass": true
+    },
+    {
+      "name": "service-cassette visible",
+      "pass": true
+    },
+    {
+      "name": "service-fold visible",
+      "pass": true
+    },
+    {
+      "name": "M074 metadata captured and canonical",
+      "pass": true
+    },
+    {
+      "name": "packing current 76 pieces",
+      "pass": true
+    },
+    {
+      "name": "tablet play/pause",
+      "pass": true
+    },
+    {
+      "name": "PT-BR front glass service",
+      "pass": true
+    },
+    {
+      "name": "tablet no overflow",
+      "pass": true
+    },
+    {
+      "name": "44px playback target",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "offline zero network requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "viewer_sha256": "6b2011d281e75e4a538b7a25ead32a2729a7f3140bf98585b60ed734d3ee3952",
+  "tablet": "EMULATED_TOUCH_PASS; physical tablet FPS not certified"
+}

@@ -1,0 +1,3 @@
+
+# Native V34 OCC exchange geometry: preserve bytes, suppress textual whitespace checks.
+exports/generated/backbox-v34/*.brep binary

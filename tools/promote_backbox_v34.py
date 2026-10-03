@@ -1,0 +1,11 @@
+"""Promote only the V34 geometry/service design candidate. CERN-OHL-S-2.0."""
+from pathlib import Path
+import json,hashlib
+R=Path(__file__).resolve().parents[1];P='exports/generated/backbox-v34/'
+v=json.loads((R/P/'validation.json').read_text());assert v['pass'] and not v['manufacturing_ready']
+for p,h in v['evidence_sha256'].items():assert hashlib.sha256((R/p).read_bytes()).hexdigest()==h,p
+assert hashlib.sha256((R/'exports/generated/viewer-v32/index.html').read_bytes()).hexdigest()==v['viewer_sha256']
+f=R/'config/current_v32.json';d=json.loads(f.read_text());d.update(structural_revision='V34',geometry_directory=P.rstrip('/'),geometry_mesh=P+'candidate-mesh.json.gz',geometry_builder='tools/rebuild_backbox_v34.py',geometry_parameters='config/backbox_simplification_v34.json',backbox_parameter_source='config/backbox_simplification_v34.json',backbox_service_policy='config/backbox_simplification_v34.json',backbox_structure_parameter_source='config/backbox_simplification_v34.json',backbox_source_note='V34: top-inserted captured plate; front monitor/glass service; one lower panel. Protected main cabinet and SW01/SW02 unchanged. Speaker rear depth<=60mm; physical qualification and CNC held.',source_head_before_promotion=v['head_before'],report=P+'README.md',structural_promotion_record=P+'validation.json',promotion_record=P+'validation.json',manufacturing_register='config/manufacturing/flatpack_v34.json',hardware_catalog='config/hardware_catalog_v34.json',wood_material_map='config/wood_materials_v34.json',phase='SIMPLIFIED_BACKBOX_DESIGN_CANDIDATE',backbox_service_geometry_status='PROMOTED V34: rear-operated locks; one lower panel and front glass retained for routine fold',hinge_tool_access='RARE SERVICE: main glass/matrix removal and playfield lift-out; lower-panel removal may be needed for WPC floor fasteners',monitor_plate_normal_removal=False,monitor_service_direction='FRONT',backglass_service_direction='FRONT',speaker_rear_depth_limit_mm=60,manufacturing_ready=False,manufacturing_valid=False,physical_qualification_complete=False)
+assert d['allowed_plywood_stock_nominal_mm']==[12,18] and not d['final_hinge_drilling_released'] and not d['raised_playfield_service_released']
+f.write_text(json.dumps(d,indent=2)+'\n')
+print('V34_DESIGN_PROMOTED; PHYSICAL / CNC RELEASE HELD')

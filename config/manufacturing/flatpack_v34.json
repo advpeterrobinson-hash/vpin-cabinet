@@ -1,0 +1,13 @@
+{
+  "version": "V34",
+  "current_register": "exports/generated/backbox-v34/manufacturing-register.json",
+  "current_BOM": "exports/generated/backbox-v34/manufacturing-bom.csv",
+  "active_nominal_plywood_stocks_mm": [
+    12,
+    18
+  ],
+  "release": false,
+  "hardware_catalog": "config/hardware_catalog_v34.json",
+  "fit": "measured stock + coupon; never nominal as measured",
+  "manual_finish": "edge hardware drilling with qualified guide; one-face CNC only"
+}

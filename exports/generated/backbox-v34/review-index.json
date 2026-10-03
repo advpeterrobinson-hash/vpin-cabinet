@@ -1,0 +1,158 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "Previous CURRENT backbox",
+    "note": "Historical V33.8 reference. Monitor rails, shoes, adjustable stop rail and multi-piece lower cassette are audited for retirement.",
+    "native_cad": true
+  },
+  {
+    "image": "02-review.png",
+    "title": "Simplified shell",
+    "note": "780 mm width / 723.9 mm shell height / accepted side depth and WPC interface preserved. One-face inside guides and front rebates only.",
+    "native_cad": true
+  },
+  {
+    "image": "03-review.png",
+    "title": "Two stops on bare side panels",
+    "note": "Two identical 12 x 40 x 30 mm offcuts screwed directly to inside side faces. Stop top Z854; no adjusters.",
+    "native_cad": true
+  },
+  {
+    "image": "04-review.png",
+    "title": "Floor and sides squared",
+    "note": "Dry fit floor capture; square before final fixation. Permanent monitor plate has not yet been inserted.",
+    "native_cad": true
+  },
+  {
+    "image": "05-review.png",
+    "title": "Monitor plate enters from ABOVE",
+    "note": "Assembly-only insertion. 4 mm side captures; guide width = measured plate thickness + coupon clearance. Top absent.",
+    "native_cad": true
+  },
+  {
+    "image": "06-review.png",
+    "title": "Plate seated on both stops",
+    "note": "Plate is one flat 18 mm part. 12 mm was screened first and exceeded the stated planning deflection criterion.",
+    "native_cad": true
+  },
+  {
+    "image": "07-review.png",
+    "title": "Top closes the guide exits",
+    "note": "The top is permanently assembled after seating the plate. No extra plate-retention brackets. Plate is not routinely removed.",
+    "native_cad": true
+  },
+  {
+    "image": "08-review.png",
+    "title": "Top joint: direct mechanical fastening",
+    "note": "Existing shallow captured interface + glue + four direct side screws. Four pocket screws studied as an alternative; exact Kreg geometry unknown, so none is fabricated or assumed.",
+    "native_cad": true
+  },
+  {
+    "image": "09-review.png",
+    "title": "Monitor approaches from FRONT",
+    "note": "Top and plate stay installed. Insert monitor at +5 mm entry height through 744 mm clear throat (740 mm reference width). Rear access installs VESA bolts.",
+    "native_cad": true
+  },
+  {
+    "image": "10-review.png",
+    "title": "Rear VESA tool approach",
+    "note": "R10 x160 mm socket/driver corridors checked with rear doors open. All thread, washer, boss depth and screw engagement data await purchased monitor.",
+    "native_cad": true
+  },
+  {
+    "image": "11-review.png",
+    "title": "Vertical VESA adjustment",
+    "note": "75/100 mm patterns; 5 mm reference slot width +10 mm centre travel =15 mm overall slot. +/-5 mm monitor height. Exact width remains HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "12-review.png",
+    "title": "Hardware-only depth stacks: 0 /3 /6 /9 /12 mm",
+    "note": "No wooden depth shoes. Reference increments only. Screw length = plate + washer + spacer + selected engagement; must not bottom in VESA boss.",
+    "native_cad": true
+  },
+  {
+    "image": "13-review.png",
+    "title": "Monitor installed",
+    "note": "Monitor weight transfers via VESA plate to guides/stops and side shell. Fold normal-load screen is provisional; plywood properties and full load qualification remain required.",
+    "native_cad": true
+  },
+  {
+    "image": "14-review.png",
+    "title": "One DMD / speaker panel",
+    "note": "One 18 mm panel; 12 mm failed the conservative folded-load deflection screen. Central region remains wood to receive rear-access VESA bolts. Display sits in FRONT, not behind a fascia cutout.",
+    "native_cad": true
+  },
+  {
+    "image": "15-review.png",
+    "title": "DMD fitted directly to panel",
+    "note": "VESA75 example, 400 x200 x45 mm body reserve. No rear plywood adapter. Actual monitor and VESA location must be selected before final machining.",
+    "native_cad": true
+  },
+  {
+    "image": "16-review.png",
+    "title": "Speakers fitted to SAME panel",
+    "note": "Direct speaker mounting; reference diameter130 and <=60 mm rear depth. Old103 mm depth conflicts with protected intakes. Hardware-dependent, no universal speaker fit claim.",
+    "native_cad": true
+  },
+  {
+    "image": "17-review.png",
+    "title": "Completed lower panel enters from FRONT",
+    "note": "Four side-operated positive bolts into cross-dowels; no plywood cleat stacks. Side access and actual hardware qualification required.",
+    "native_cad": true
+  },
+  {
+    "image": "18-review.png",
+    "title": "Lower panel fixed",
+    "note": "Side rebates locate front/rear. Four bolts prevent release in fold. Removable panel is independent of captured monitor plate.",
+    "native_cad": true
+  },
+  {
+    "image": "19-review.png",
+    "title": "Front glass rebates and padded lower seat",
+    "note": "Inside FACE_A side cuts leave12 mm outside skin. Bottom seat is one18 mm part with 8 mm top groove;6 mm front capture lip; replaceable cushions prevent hard contact.",
+    "native_cad": true
+  },
+  {
+    "image": "20-review.png",
+    "title": "Glass enters from FRONT",
+    "note": "Lower edge into padded seat, then tilt glass rearward. Top remains fixed. Shown10-degree CAD path; keep upper strip off.",
+    "native_cad": true
+  },
+  {
+    "image": "21-review.png",
+    "title": "Glass seated",
+    "note": "Nominal study glass752 x459 x4 mm; final size from opening, actual liner and fit. Earlier465 mm height is not the final cut authority.",
+    "native_cad": true
+  },
+  {
+    "image": "22-review.png",
+    "title": "One removable upper strip",
+    "note": "12 mm stock strip, two upward screws from front/below. 8.2 mm overlap,3.8 mm top travel. Remove strip without removing shell top.",
+    "native_cad": true
+  },
+  {
+    "image": "23-review.png",
+    "title": "Laid-back glass retention",
+    "note": "Bottom U lip, lateral/back side seats and upper strip provide geometric capture. No gravity-only or friction-only retention. Impact, liner compression and purchased fasteners remain physical holds.",
+    "native_cad": true
+  },
+  {
+    "image": "24-review.png",
+    "title": "Rear service, both doors open100 degrees",
+    "note": "Rear lock approach, VESA access, existing fans/intakes and door architecture preserved. New smaller speaker-depth envelope is explicit.",
+    "native_cad": true
+  },
+  {
+    "image": "25-review.png",
+    "title": "Populated90-degree fold",
+    "note": "Main playfield glass/matrix removed; rear locks parked; doors closed/latched. New geometry has required-angle samples plus continuous differential collision certificate.",
+    "native_cad": true
+  },
+  {
+    "image": "26-review.png",
+    "title": "Complete simplified exploded backbox",
+    "note": "Semantic exploded positions only: sides /2 stops /1 plate /top /monitor; one lower panel /DMD /2 speakers; glass /one strip. No rail, shoe, M067 or cassette frame.",
+    "native_cad": true
+  }
+]

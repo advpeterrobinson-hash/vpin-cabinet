@@ -1,0 +1,25 @@
+{
+  "basis": "actual finished manufacturing B-rep volumes; not bounding boxes",
+  "density_kg_m3": 650,
+  "finished_wood_kg": 61.923111940518176,
+  "previous_finished_wood_kg": 61.24394600107666,
+  "finished_reduction_kg": -0.6791659394415126,
+  "LOW_550_kg": 52.39647933428461,
+  "HIGH_750_kg": 71.44974454675175,
+  "hardware_mass": "UNKNOWN purchased hardware; not zero",
+  "counts": {
+    "manufacturing_pieces": 76,
+    "CNC_plywood_pieces": 70,
+    "shop_solid_wood_parts": 6,
+    "canonical_families": 48,
+    "CNC_families": 46,
+    "installed_components": 70
+  },
+  "stock_area_m2": {
+    "12": 1.1825715973355293,
+    "18": 5.450105746522982
+  },
+  "retired_manufacturing_pieces": 34,
+  "new_manufacturing_pieces": 6,
+  "full_sheet_release": false
+}
