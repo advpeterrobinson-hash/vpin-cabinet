@@ -1,3 +1,5 @@
+> HISTORICAL: Y89/Y127 and the horned M025 contour are superseded by [V33.6](MONITOR_SUPPORT_V336.md). CURRENT uses Y255/Y310, Z270 and the clean base. Historical numbers below are retained for audit; no final button drilling is released.
+
 # V32 — button-edge plywood relief and active floor intakes
 
 Current CAD is `exports/generated/notch-floor-fans-v32/play.FCStd`, with SERVICE, LIFT-OUT and mechanism-only EXPLODED poses beside it. Current STEP is `current-v32.step` in the same directory; the existing offline viewer remains `exports/generated/viewer-v32/index.html`. This stage starts from accepted HEAD `cd416fea61ed031c59af8df93014ae7c9ba200bf`. Its wood-dowel/support source and generated inputs remain unchanged. Rebuild this stage with `bash tools/run_notch_floor_fans_v32.sh`. Python and `config/notch_floor_fans_v32.json` are authoritative. No manufacturing release.

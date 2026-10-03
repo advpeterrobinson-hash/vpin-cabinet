@@ -1,0 +1,35 @@
+{
+  "version": "V33.6",
+  "baseline": "V33.5",
+  "manufacturing_release": false,
+  "unchanged_counts": {
+    "wood": 101,
+    "CNC_plywood": 97,
+    "SW01_shop_solids": 4,
+    "families": 59
+  },
+  "wood_volume_before_mm3": 93369255.33559586,
+  "wood_volume_after_mm3": 93071887.94682787,
+  "wood_volume_change_mm3": -297367.3887679875,
+  "wood_shipping_mass_before_kg": [
+    51.316348834577724,
+    60.69001596813731,
+    70.1004247016969
+  ],
+  "wood_shipping_mass_after_kg": [
+    51.15279677075534,
+    60.496727165438124,
+    69.8773991601209
+  ],
+  "wood_shipping_mass_change_kg": [
+    -0.16355206382238663,
+    -0.19328880269918614,
+    -0.22302554157599275
+  ],
+  "scenario_order": [
+    "LOW",
+    "NOMINAL",
+    "HIGH"
+  ],
+  "note": "Actual B-rep volumes for CNC plywood; unchanged SW01 undrilled shipping blanks. Density assumptions are configurable. Unknown hardware remains unknown."
+}

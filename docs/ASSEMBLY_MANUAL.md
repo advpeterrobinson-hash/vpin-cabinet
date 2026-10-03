@@ -1,4 +1,4 @@
-# Assembly manual — V33.5
+# Assembly manual — V33.6
 
 **PREPARATION ONLY — CNC RELEASE BLOCKED**
 
@@ -276,7 +276,7 @@ Viewer: EXPLODED DETAILED · animation assembly-05.1
 
 ### 06.1 — Capture the wooden dowel
 
-PROVISIONAL_HARDWARE
+WAITING_FOR_PHYSICAL_MEASUREMENT
 
 Parts / Peças: P034-Main
 
@@ -288,7 +288,7 @@ Clamps, square and measuring tools; selected drive/bit and depth stop for the li
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings.
+Attach the Ø32 wooden dowel with four commercial saddle straps B01 and eight F02 screws to the playfield base. Retain the accepted replaceable adapter interface. No metal shaft or bearings. Use CURRENT M025: clean rectangular outer contour with one rear 180 × 110 mm R8 service window and two rounded strain-relief slots. No horn or front side notch remains. Preserve the entire modeled VESA load region and all four straps/eight F02 positions. The rear window admits the illustrative connector envelope; confirm the chosen display port location before machining its replaceable adapter. No new VESA adjustment holes are authorized.
 
 Check strap seating, screw engagement and no splitting after purchased strap/material qualification.
 
@@ -298,7 +298,7 @@ Viewer: PLAYFIELD LIFT-OUT · animation assembly-06.1
 
 ### 06.2 — Check seating and removal
 
-PROVISIONAL_HARDWARE
+WAITING_FOR_PHYSICAL_MEASUREMENT
 
 Parts / Peças: P034-Main
 
@@ -310,7 +310,7 @@ Clamps, square and measuring tools; selected drive/bit and depth stop for the li
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-Lower both dowel ends into the open seats. With main glass and matrix removed, demonstrate the accepted 48 mm vertical lift-out. The complete playfield assembly leaves together; fixed cradles remain.
+Lower both dowel ends into the open seats. With main glass and matrix removed, demonstrate the accepted 48 mm vertical lift-out. The complete playfield assembly leaves together; fixed cradles remain. The optional cable-loop study uses a flexible 400 mm segment and a removable clamp zone above S3. Route actual cables with qualified bend radius and slack; never treat the rendered curve as a rigid member or selected cable specification. Check PLAY, 50° service and 48 mm lift with the actual harness. Release that clamp before removing S3. No connector family is required.
 
 DOWEL LIFT-OUT CHECK: no binding, approximately semicircular support retained. The 50° service pose is a geometric view; do not work beneath an unsupported raised assembly. Support/load qualification remains pending.
 
@@ -554,7 +554,7 @@ Clamps, square and measuring tools; selected drive/bit and depth stop for the li
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-Seat M067 in the two6mm carrier-front captures. Install two rear-operated F57 retention screws after screw/pilot qualification. Fit two I10 captive threads, F27 M6-family adjusters, I11 locknuts and replaceable contact tips. Use required10mm adjustment travel. Retain the four existing F26 monitor clamps for fold and out-of-plane loads. No M049 plywood pads. Front display removal, rear adjustment and existing16mm depth choices remain.
+Seat M067 in the two6mm carrier-front captures. Install two rear-operated F57 retention screws after screw/pilot qualification. Fit two I10 captive threads, F27 M6-family adjusters, I11 locknuts and replaceable contact tips. Use required10mm adjustment travel. Retain the four existing F26 monitor clamps for fold and out-of-plane loads. No M049 plywood pads. Front display removal, rear adjustment and existing16mm depth choices remain. The two vertical carriers now include paired 6 × 16 mm R3 strain-relief slots above the display adapter. Thread replaceable straps through them; keep cable loads off structural fasteners. M067, its 6 mm capture lands, rear tool paths and all four monitor retention bolts remain unchanged.
 
 The mechanical carrier is retained without requiring a monitor purchase. No permanent display-specific hole pattern.
 
@@ -564,7 +564,7 @@ Viewer: BACKBOX INTERIOR · animation assembly-12.1
 
 ### 12.2 — Explain later front installation and rear adjustment
 
-PROVISIONAL_HARDWARE
+WAITING_FOR_PHYSICAL_MEASUREMENT
 
 Parts / Peças: P050-Main, P051-Main, P052-Main, P053-Main, P054-Main, P055-Main, P056-Main, P057-Main, P058-Main, P059-Main, P060-Main, P061-Main, P062-Main, P063-Main
 
@@ -576,7 +576,7 @@ Clamps, square and measuring tools; selected drive/bit and depth stop for the li
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-When selected, install the 31.5/32-inch display from the front, access alignment from the open rear doors and positively clamp every axis. VESA screws are user-adapter hardware and follow the display manufacturer.
+When selected, install the 31.5/32-inch display from the front, access alignment from the open rear doors and positively clamp every axis. VESA screws are user-adapter hardware and follow the display manufacturer. Use the existing side access beside the VESA plate for connector service. The proposed central plate window is NOT PROMOTED: real VESA load points are unselected. Existing adjustment remains ±5 mm vertical, two depth positions 16 mm apart, ±1 mm centering for the maximum display and approximately ±15 mm for smaller displays. No extra adjustment slots.
 
 No gravity-only hook, glass support or cassette support for display mass. Recheck retention through fold before use.
 
@@ -754,7 +754,7 @@ Clamps, square and measuring tools; selected drive/bit and depth stop for the li
 
 FACE A: CNC machining / finished depth datum. FACE B: NO CNC; manual access only where the preparation card explicitly specifies it.
 
-The conventional front-right plunger is a visible provisional interface at X520/Z280. Its bore remains PURCHASE BEFORE CNC. The220×55mm under-front panel is restored as an UNLOCATED schematic: volume, OFF/AUDIO/PINBALL selector, Bluetooth pair and optional USB-C charge. No authoritative final control centers exist; select controls, then validate ergonomics and clearances. Generic cable passage and optional electronics remain builder-configurable.
+The conventional front-right plunger is a visible provisional interface at X520/Z280. Its bore remains PURCHASE BEFORE CNC. The220×55mm under-front panel is restored as an UNLOCATED schematic: volume, OFF/AUDIO/PINBALL selector, Bluetooth pair and optional USB-C charge. No authoritative final control centers exist; select controls, then validate ergonomics and clearances. Generic cable passage and optional electronics remain builder-configurable. SIDE BUTTON POSITIONAL AUTHORITY: Y255 / Y310, Z270 on both sides, from cabinet-front Y0. This supersedes Y89/Y127; it does not select bore/recess diameters. Traditional leaf button body, nut, wire, tool and open-cabinet hand corridors are planning reserves only. Purchase actual buttons before CNC. Service requires main glass/matrix removed and playfield raised. Under-front controls remain a separate UNLOCATED 220 × 55 mm schematic.
 
 Keep electronics separate from the mandatory mechanical kit. Heavy devices need positive retention; power/electrical design is outside this manual framework.
 
@@ -768,10 +768,10 @@ Viewer: INTERIOR INSPECTION · animation assembly-18.1
 
 FACE_A: [1.0, 0.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
-CNC FACE_A · P001-Main-R6 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P001-Main-R8 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P001-Main-R5 · POCKET · depth / profundidade: 3 mm.
-CNC FACE_A · P001-Main-R7 · POCKET · depth / profundidade: 3 mm.
+REFERENCE ONLY / PURCHASE BEFORE CNC — final bore/recess unselected · P001-Main-R6 · CUT · depth / profundidade: 18 mm.
+REFERENCE ONLY / PURCHASE BEFORE CNC — final bore/recess unselected · P001-Main-R8 · CUT · depth / profundidade: 18 mm.
+REFERENCE ONLY / PURCHASE BEFORE CNC — final bore/recess unselected · P001-Main-R5 · POCKET · depth / profundidade: 3 mm.
+REFERENCE ONLY / PURCHASE BEFORE CNC — final bore/recess unselected · P001-Main-R7 · POCKET · depth / profundidade: 3 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 18 mm.
 - Finish only inaccessible R2 reentrant remnants to exact outline, no blanket dogbone. Exact reference and cutter-access contour separate.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 18 mm.
@@ -799,10 +799,10 @@ BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 1 mm.
 
 FACE_A: [-1.0, 0.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
-CNC FACE_A · P002-Main-R3 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P002-Main-R5 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P002-Main-R2 · POCKET · depth / profundidade: 3 mm.
-CNC FACE_A · P002-Main-R4 · POCKET · depth / profundidade: 3 mm.
+REFERENCE ONLY / PURCHASE BEFORE CNC — final bore/recess unselected · P002-Main-R3 · CUT · depth / profundidade: 18 mm.
+REFERENCE ONLY / PURCHASE BEFORE CNC — final bore/recess unselected · P002-Main-R5 · CUT · depth / profundidade: 18 mm.
+REFERENCE ONLY / PURCHASE BEFORE CNC — final bore/recess unselected · P002-Main-R2 · POCKET · depth / profundidade: 3 mm.
+REFERENCE ONLY / PURCHASE BEFORE CNC — final bore/recess unselected · P002-Main-R4 · POCKET · depth / profundidade: 3 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 18 mm.
 - Finish only inaccessible R2 reentrant remnants to exact outline, no blanket dogbone. Exact reference and cutter-access contour separate.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 18 mm.
@@ -1277,6 +1277,9 @@ CNC FACE_A · P033-Main-R4 · CUT · depth / profundidade: 12 mm.
 
 FACE_A: [-0.0, 0.172043766268355, -0.9850893068591292]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
+CNC FACE_A · P034-Main-R1 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P034-Main-R2 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P034-Main-R3 · CUT · depth / profundidade: 18 mm.
 
 ### P035-Main / M026
 
@@ -1489,6 +1492,8 @@ FACE_A: [-0.0, -1.0, -0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
 CNC FACE_A · P056-Main-R2 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P056-Main-R3 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P056-Main-R4 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P056-Main-R5 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P056-Main-R1 · POCKET · depth / profundidade: 6 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 6 mm.
 - Ø4 leaves R2. Keep the exact reference outline; square only required residual corners by hand. Fit-mating captures may instead use coupon-qualified local T-bone in a later regeneration, never blanket relief.
@@ -1521,6 +1526,8 @@ FACE_A: [-0.0, -1.0, -0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
 CNC FACE_A · P059-Main-R2 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P059-Main-R3 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P059-Main-R4 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P059-Main-R5 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P059-Main-R1 · POCKET · depth / profundidade: 6 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 6 mm.
 - Ø4 leaves R2. Keep the exact reference outline; square only required residual corners by hand. Fit-mating captures may instead use coupon-qualified local T-bone in a later regeneration, never blanket relief.

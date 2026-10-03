@@ -1,0 +1,34 @@
+{
+  "version": "V33.6",
+  "head_before": "7b84181f5c48c1a1e4a78f87319eec5512318492",
+  "source": "exports/generated/structural-v335/play.FCStd",
+  "output": "exports/generated/monitor-support-v336",
+  "manufacturing_release": false,
+  "measured_thickness_mm": null,
+  "selected_coupon_clearance_mm": null,
+  "side_buttons": {
+    "candidate_y_mm": [255,310],
+    "candidate_z_mm": 270,
+    "reference_bore_for_visualization_mm": 15.875,
+    "reference_nut_pocket_for_visualization_mm": [25,3],
+    "final_bore_mm": null,
+    "final_recess_mm": null,
+    "status": "POSITION_CANDIDATE_HARDWARE_PURCHASE_BEFORE_CNC",
+    "source": "Owner V33.6 correction; docs/SIDE_PANEL_REVIEW_V32.md; existing traditional leaf packaging reserves reused without claiming selected hardware."
+  },
+  "playfield": {
+    "clean_source": "exports/generated/wood-dowel-pivot-v32/play.FCStd",
+    "clean_source_commit": "cd416fea61ed031c59af8df93014ae7c9ba200bf",
+    "local_frame": "Existing playfield X and slope transform; no display/dowel/strap relocation",
+    "service_window_xywh_mm": [210,730,180,110],
+    "service_window_radius_mm": 8,
+    "strain_slots_xywh_mm": [[280,866,6,22],[314,866,6,22]],
+    "strain_slot_radius_mm": 3,
+    "opening_classification": {"main_window":"SERVICE_WINDOW","strain_slots":"STRAIN_RELIEF_SLOT"},
+    "connector_test_block_mm": [45,30,60],
+    "connector_scope": "Generic planning plug body, not an HDMI/DP/IEC/USB specification or universal monitor port-location claim. Display-specific compatibility remains HOLD.",
+    "adjustment": "No new slots through unselected VESA pattern. Existing replaceable 200 x 250 mm VESA envelope preserved; adapter travel remains display-specific."
+  },
+  "protected": ["SW01","leg-drill-jig","M006","M067","captured-shell","RearBearingShelf","rear-fan-architecture","WPC-axis","matrix","S1","S2","S3","T1","T2","T3","backbox-doors","glass"],
+  "supplier_profile": "config/manufacturing/profiles/peter_supplier_v1.json"
+}

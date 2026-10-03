@@ -1,0 +1,1487 @@
+{
+  "buttons": [
+    {
+      "name": "LeafButton_primary_L",
+      "hits": [],
+      "base_separation_mm": 87.60249239659389
+    },
+    {
+      "name": "LeafButton_primary_R",
+      "hits": [],
+      "base_separation_mm": 87.60249239659392
+    },
+    {
+      "name": "LeafNut_primary_L",
+      "hits": [],
+      "base_separation_mm": 86.8956072708431
+    },
+    {
+      "name": "LeafNut_primary_R",
+      "hits": [],
+      "base_separation_mm": 86.89560727084314
+    },
+    {
+      "name": "LeafBracket_primary_L",
+      "hits": [],
+      "base_separation_mm": 107.1290153413479
+    },
+    {
+      "name": "LeafBracket_primary_R",
+      "hits": [],
+      "base_separation_mm": 107.1290153413479
+    },
+    {
+      "name": "LeafContacts_primary_L",
+      "hits": [],
+      "base_separation_mm": 104.67985847285364
+    },
+    {
+      "name": "LeafContacts_primary_R",
+      "hits": [],
+      "base_separation_mm": 104.67985847285364
+    },
+    {
+      "name": "LeafButton_secondary_L",
+      "hits": [],
+      "base_separation_mm": 96.83909561702131
+    },
+    {
+      "name": "LeafButton_secondary_R",
+      "hits": [],
+      "base_separation_mm": 96.83909561702134
+    },
+    {
+      "name": "LeafNut_secondary_L",
+      "hits": [],
+      "base_separation_mm": 95.75645494948668
+    },
+    {
+      "name": "LeafNut_secondary_R",
+      "hits": [],
+      "base_separation_mm": 95.75645494948672
+    },
+    {
+      "name": "LeafBracket_secondary_L",
+      "hits": [],
+      "base_separation_mm": 116.56714353880712
+    },
+    {
+      "name": "LeafBracket_secondary_R",
+      "hits": [],
+      "base_separation_mm": 116.56714353880713
+    },
+    {
+      "name": "LeafContacts_secondary_L",
+      "hits": [],
+      "base_separation_mm": 114.1101280512553
+    },
+    {
+      "name": "LeafContacts_secondary_R",
+      "hits": [],
+      "base_separation_mm": 114.11012805125532
+    },
+    {
+      "name": "ButtonWireServiceReserve_primary_L",
+      "hits": [],
+      "base_separation_mm": 92.29913148232613
+    },
+    {
+      "name": "ButtonToolServiceReserve_primary_L",
+      "hits": [],
+      "base_separation_mm": 82.78890123629974
+    },
+    {
+      "name": "ButtonBodyServiceReserve_primary_L",
+      "hits": [],
+      "base_separation_mm": 87.60249239659389
+    },
+    {
+      "name": "ButtonLeafServiceReserve_primary_L",
+      "hits": [],
+      "base_separation_mm": 104.08401498638864
+    },
+    {
+      "name": "ButtonWireServiceReserve_primary_R",
+      "hits": [],
+      "base_separation_mm": 92.29913148232613
+    },
+    {
+      "name": "ButtonToolServiceReserve_primary_R",
+      "hits": [],
+      "base_separation_mm": 82.78890123629976
+    },
+    {
+      "name": "ButtonBodyServiceReserve_primary_R",
+      "hits": [],
+      "base_separation_mm": 87.60249239659392
+    },
+    {
+      "name": "ButtonLeafServiceReserve_primary_R",
+      "hits": [],
+      "base_separation_mm": 104.08401498638864
+    },
+    {
+      "name": "ButtonWireServiceReserve_secondary_L",
+      "hits": [],
+      "base_separation_mm": 101.76153862708564
+    },
+    {
+      "name": "ButtonToolServiceReserve_secondary_L",
+      "hits": [],
+      "base_separation_mm": 92.25130838105927
+    },
+    {
+      "name": "ButtonBodyServiceReserve_secondary_L",
+      "hits": [],
+      "base_separation_mm": 96.83909561702131
+    },
+    {
+      "name": "ButtonLeafServiceReserve_secondary_L",
+      "hits": [],
+      "base_separation_mm": 113.52076039511498
+    },
+    {
+      "name": "ButtonWireServiceReserve_secondary_R",
+      "hits": [],
+      "base_separation_mm": 101.76153862708564
+    },
+    {
+      "name": "ButtonToolServiceReserve_secondary_R",
+      "hits": [],
+      "base_separation_mm": 92.25130838105929
+    },
+    {
+      "name": "ButtonBodyServiceReserve_secondary_R",
+      "hits": [],
+      "base_separation_mm": 96.83909561702134
+    },
+    {
+      "name": "ButtonLeafServiceReserve_secondary_R",
+      "hits": [],
+      "base_separation_mm": 113.52076039511499
+    }
+  ],
+  "button_access": [
+    {
+      "name": "ButtonAccess_primary_L_palm",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_primary_L_top_entry",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_primary_L_finger",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_primary_L_driver",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_primary_R_palm",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_primary_R_top_entry",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_primary_R_finger",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_primary_R_driver",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_secondary_L_palm",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_secondary_L_top_entry",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_secondary_L_finger",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_secondary_L_driver",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_secondary_R_palm",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_secondary_R_top_entry",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_secondary_R_finger",
+      "hits": []
+    },
+    {
+      "name": "ButtonAccess_secondary_R_driver",
+      "hits": []
+    }
+  ],
+  "openings": [
+    {
+      "name": "PF_MainServiceWindow",
+      "classification": "SERVICE_WINDOW",
+      "local_xy_bounds_mm": [
+        210.0,
+        730.0,
+        390.0,
+        840.0
+      ],
+      "radius_mm": 8,
+      "nearest_outer_edge_mm": 160.0,
+      "nearest_VESA_mm": 120.00000000000009,
+      "nearest_strap_mm": 174.78402556022215,
+      "nearest_fastener_mm": 180.80536957475076,
+      "nearest_insert": "No selected playfield insert positions; outside entire modeled VESA load reserve",
+      "removed_volume_mm3": 355411.1147369347,
+      "mass_removed_kg_at650": 0.23101722457900756,
+      "nearest_other_opening_mm": 26.0
+    },
+    {
+      "name": "PF_StrainSlot1",
+      "classification": "STRAIN_RELIEF_SLOT",
+      "local_xy_bounds_mm": [
+        280.0,
+        866.0,
+        286.0,
+        888.0
+      ],
+      "radius_mm": 3,
+      "nearest_outer_edge_mm": 152.0,
+      "nearest_VESA_mm": 256.00000000000006,
+      "nearest_strap_mm": 201.08821622033932,
+      "nearest_fastener_mm": 206.27595171454269,
+      "nearest_insert": "No selected playfield insert positions; outside entire modeled VESA load reserve",
+      "removed_volume_mm3": 2236.938009881546,
+      "mass_removed_kg_at650": 0.0014540097064230048,
+      "nearest_other_opening_mm": 26.0
+    },
+    {
+      "name": "PF_StrainSlot2",
+      "classification": "STRAIN_RELIEF_SLOT",
+      "local_xy_bounds_mm": [
+        314.0,
+        866.0,
+        320.0,
+        888.0
+      ],
+      "radius_mm": 3,
+      "nearest_outer_edge_mm": 152.0,
+      "nearest_VESA_mm": 256.00000000000006,
+      "nearest_strap_mm": 202.91260281973987,
+      "nearest_fastener_mm": 208.0849266647067,
+      "nearest_insert": "No selected playfield insert positions; outside entire modeled VESA load reserve",
+      "removed_volume_mm3": 2236.938009881546,
+      "mass_removed_kg_at650": 0.0014540097064230048,
+      "nearest_other_opening_mm": 26.0
+    }
+  ],
+  "playfield_structural_screen": {
+    "minimum_transverse_remaining_width_mm": 320,
+    "window_width_fraction_removed": 0.36,
+    "continuous_side_band_mm": 160,
+    "main_window_to_VESA_local_mm": 120,
+    "main_window_to_rear_dowel_local_mm": 144,
+    "strain_slot_pair_between_slot_web_mm": 28,
+    "added_adjustment_mm": 0,
+    "VESA_load_zone_unchanged": true,
+    "certification": false,
+    "remaining_hold": "Chosen display port location, VESA adapter/fastener pattern and full-load stiffness/strap qualification. Window is not universal port access."
+  },
+  "backbox_study": {
+    "source": "exports/generated/structural-v335/play.FCStd",
+    "legacy_config_depth_offset_mm": 10,
+    "source_sha256": "b64eafb52d232d254c044af959a9fbeed2c5648204e41620be7c636b0ad129f3",
+    "checks": [
+      {
+        "name": "BB_MonitorCarrier0 remains one valid solid",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "BB_MonitorCarrier0 subtraction only",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "BB_MonitorCarrier0 complete through slots",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "BB_MonitorCarrier0 M067 capture exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "BB_MonitorCarrier0 existing slot bands exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "BB_MonitorCarrier0 protected hardware and M067 unaffected",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "BB_MonitorCarrier0 strap threading and rear access clear",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "BB_MonitorCarrier0 rear finger approach clear",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "BB_MonitorCarrier1 remains one valid solid",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "BB_MonitorCarrier1 subtraction only",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "BB_MonitorCarrier1 complete through slots",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "BB_MonitorCarrier1 M067 capture exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "BB_MonitorCarrier1 existing slot bands exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "BB_MonitorCarrier1 protected hardware and M067 unaffected",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "BB_MonitorCarrier1 strap threading and rear access clear",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "BB_MonitorCarrier1 rear finger approach clear",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "adapter window candidate valid single frame",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "adapter window does not cut known peripheral clamps",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "candidate service corridor clear with open rear doors",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "current adapter genuinely obstructs proposed service corridor",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "candidate window clears proposed service corridor",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "existing L connector-sized route clear",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "existing L flexible cable routing reserve clear",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "existing R connector-sized route clear",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "existing R flexible cable routing reserve clear",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "changed carriers clear fixed cabinet at requested fold angles",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "all removed wood confined to permitted new slots",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "M067 current exact preserved",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "name": "flexible route continuous fold screen",
+        "pass": true,
+        "detail": {
+          "range_deg": [
+            0,
+            90
+          ],
+          "intervals": [
+            [
+              0,
+              45.0
+            ],
+            [
+              45.0,
+              90
+            ]
+          ],
+          "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+        }
+      }
+    ],
+    "pass": true,
+    "current_bounds": {
+      "BB_MonitorCarrier0": [
+        135.0,
+        1240.0,
+        870.0,
+        185.0,
+        1258.0,
+        1236.0
+      ],
+      "BB_MonitorDepthShoe00": [
+        135.0,
+        1240.0,
+        858.0,
+        185.0,
+        1290.0,
+        876.0
+      ],
+      "BB_MonitorDepthBoltReserve00": [
+        157.0,
+        1274.0,
+        810.0,
+        163.0,
+        1280.0,
+        882.0
+      ],
+      "BB_MonitorDepthShoe01": [
+        135.0,
+        1240.0,
+        1230.0,
+        185.0,
+        1290.0,
+        1248.0
+      ],
+      "BB_MonitorDepthBoltReserve01": [
+        157.0,
+        1274.0,
+        1224.0,
+        163.0,
+        1280.0,
+        1296.0
+      ],
+      "BB_MonitorCarrier1": [
+        415.0,
+        1240.0,
+        870.0,
+        465.0,
+        1258.0,
+        1236.0
+      ],
+      "BB_MonitorDepthShoe10": [
+        415.0,
+        1240.0,
+        858.0,
+        465.0,
+        1290.0,
+        876.0
+      ],
+      "BB_MonitorDepthBoltReserve10": [
+        437.0,
+        1274.0,
+        810.0,
+        443.0,
+        1280.0,
+        882.0
+      ],
+      "BB_MonitorDepthShoe11": [
+        415.0,
+        1240.0,
+        1230.0,
+        465.0,
+        1290.0,
+        1248.0
+      ],
+      "BB_MonitorDepthBoltReserve11": [
+        437.0,
+        1274.0,
+        1224.0,
+        443.0,
+        1280.0,
+        1296.0
+      ],
+      "BB_ReplaceableVESAPlate": [
+        120.0,
+        1228.0,
+        949.0,
+        480.0,
+        1240.0,
+        1179.0
+      ],
+      "BB_Display32": [
+        -70.0,
+        1128.0,
+        844.0,
+        670.0,
+        1228.0,
+        1294.0
+      ],
+      "BB_DisplayReplaceableBezel": [
+        -70.0,
+        1120.0,
+        842.0,
+        670.0,
+        1126.0,
+        1299.0
+      ],
+      "BB_MonitorStopRail": [
+        135.0,
+        1228.0,
+        917.0,
+        465.0,
+        1246.0,
+        935.0
+      ]
+    },
+    "changed_components": [
+      "BB_MonitorCarrier0",
+      "BB_MonitorCarrier1"
+    ],
+    "unchanged_components": [
+      "BB_ReplaceableVESAPlate",
+      "BB_MonitorStopRail",
+      "BB_MonitorClampReserve160994",
+      "BB_MonitorClampReserve1601134",
+      "BB_MonitorClampReserve440994",
+      "BB_MonitorClampReserve4401134"
+    ],
+    "proposed_current_operations": [
+      {
+        "component": "BB_MonitorCarrier0",
+        "classification": "STRAIN_RELIEF_SLOT",
+        "quantity": 2,
+        "slot_mm": [
+          6,
+          16
+        ],
+        "radius_mm": 3,
+        "bounds_mm": [
+          [
+            145.0,
+            1239.0,
+            1190.0,
+            151.0,
+            1259.0,
+            1206.0
+          ],
+          [
+            169.0,
+            1239.0,
+            1190.0,
+            175.0,
+            1259.0,
+            1206.0
+          ]
+        ],
+        "minimum_outer_edge_mm": 10,
+        "inter_slot_web_mm": 18,
+        "remaining_section_width_mm": 38,
+        "section_width_retained_percent": 76,
+        "nominal_thickness_mm": 18,
+        "minimum_web_area_per_side_mm2": 180,
+        "section_retained_mm2": 684,
+        "section_before_mm2": 900,
+        "nearest_known_fasteners": [
+          {
+            "part": "BB_MonitorDepthBoltReserve01",
+            "distance_mm": 25.62399804758498
+          },
+          {
+            "part": "BB_MonitorClampReserve1601134",
+            "distance_mm": 48.20797289396139
+          },
+          {
+            "part": "BB_MonitorClampReserve160994",
+            "distance_mm": 187.36148073286364
+          },
+          {
+            "part": "BB_StopTip0",
+            "distance_mm": 243.79660093934746
+          },
+          {
+            "part": "BB_StopAdjuster0",
+            "distance_mm": 246.0798194676538
+          },
+          {
+            "part": "BB_StopLocknut0",
+            "distance_mm": 252.6991347033563
+          }
+        ],
+        "nearest_insert": [
+          {
+            "part": "BB_StopInsert0",
+            "distance_mm": 257.71796784082113
+          }
+        ],
+        "nearest_known_retention_load_point": [
+          {
+            "part": "BB_MonitorClampReserve1601134",
+            "distance_mm": 48.20797289396139
+          }
+        ],
+        "display_specific_VESA_load_point_distance_mm": null,
+        "display_specific_VESA_note": "Display-specific bores are in replaceable plate; carrier strap slots leave existing VESA/retention interfaces unchanged.",
+        "gap_above_adapter_mm": 11.0,
+        "gap_below_depth_shoe_mm": 24,
+        "removed_volume_mm3": 3177.876019763062,
+        "mass_saved_kg_at650": 0.0020656194128459903,
+        "normal_face": [
+          0,
+          -1,
+          0
+        ],
+        "one_side": "FACE_A front (-Y), same as existing capture; through cuts. FACE_B no CNC",
+        "manufacturing_release": false,
+        "structural_screen": "Conservative small slots above upper retention row. 76% net width,10 mm outer webs; no certification. No load/retention bore or capture changed."
+      },
+      {
+        "component": "BB_MonitorCarrier1",
+        "classification": "STRAIN_RELIEF_SLOT",
+        "quantity": 2,
+        "slot_mm": [
+          6,
+          16
+        ],
+        "radius_mm": 3,
+        "bounds_mm": [
+          [
+            425.0,
+            1239.0,
+            1190.0,
+            431.0,
+            1259.0,
+            1206.0
+          ],
+          [
+            449.0,
+            1239.0,
+            1190.0,
+            455.0,
+            1259.0,
+            1206.0
+          ]
+        ],
+        "minimum_outer_edge_mm": 10,
+        "inter_slot_web_mm": 18,
+        "remaining_section_width_mm": 38,
+        "section_width_retained_percent": 76,
+        "nominal_thickness_mm": 18,
+        "minimum_web_area_per_side_mm2": 180,
+        "section_retained_mm2": 684,
+        "section_before_mm2": 900,
+        "nearest_known_fasteners": [
+          {
+            "part": "BB_MonitorDepthBoltReserve11",
+            "distance_mm": 25.62399804758499
+          },
+          {
+            "part": "BB_MonitorClampReserve4401134",
+            "distance_mm": 48.20797289396143
+          },
+          {
+            "part": "BB_MonitorClampReserve440994",
+            "distance_mm": 187.3614807328636
+          },
+          {
+            "part": "BB_StopTip1",
+            "distance_mm": 243.7966009393474
+          },
+          {
+            "part": "BB_StopAdjuster1",
+            "distance_mm": 246.0798194676538
+          },
+          {
+            "part": "BB_StopLocknut1",
+            "distance_mm": 252.6991347033563
+          }
+        ],
+        "nearest_insert": [
+          {
+            "part": "BB_StopInsert1",
+            "distance_mm": 257.71796784082113
+          }
+        ],
+        "nearest_known_retention_load_point": [
+          {
+            "part": "BB_MonitorClampReserve4401134",
+            "distance_mm": 48.20797289396143
+          }
+        ],
+        "display_specific_VESA_load_point_distance_mm": null,
+        "display_specific_VESA_note": "Display-specific bores are in replaceable plate; carrier strap slots leave existing VESA/retention interfaces unchanged.",
+        "gap_above_adapter_mm": 11.0,
+        "gap_below_depth_shoe_mm": 24,
+        "removed_volume_mm3": 3177.876019763062,
+        "mass_saved_kg_at650": 0.0020656194128459903,
+        "normal_face": [
+          0,
+          -1,
+          0
+        ],
+        "one_side": "FACE_A front (-Y), same as existing capture; through cuts. FACE_B no CNC",
+        "manufacturing_release": false,
+        "structural_screen": "Conservative small slots above upper retention row. 76% net width,10 mm outer webs; no certification. No load/retention bore or capture changed."
+      }
+    ],
+    "existing_side_connector_routes": [
+      {
+        "side": "L",
+        "classification": "CABLE_PASSAGE",
+        "new_wood_cut": false,
+        "connector_swept_bounds_mm": [
+          60.0,
+          1228.0,
+          1049.0,
+          110.0,
+          1433.0,
+          1079.0
+        ],
+        "generic_connector_mm": [
+          50,
+          30,
+          65
+        ],
+        "cable_radius_reserve_mm": 2.5,
+        "centerline_bend_radius_mm": 20,
+        "minimum_bend_radius_status": "PLANNING_ONLY_ACTUAL_CABLE_REQUIRED",
+        "cable_centerline_mm": [
+          [
+            85.0,
+            1233.0,
+            1064.0
+          ],
+          [
+            85.0,
+            1233.0,
+            1178.0
+          ],
+          [
+            85.09630546655606,
+            1233.0,
+            1179.9603428065911
+          ],
+          [
+            85.38429439193538,
+            1233.0,
+            1181.9018064403226
+          ],
+          [
+            85.86119328535582,
+            1233.0,
+            1183.8056935450893
+          ],
+          [
+            86.52240934977426,
+            1233.0,
+            1185.6536686473019
+          ],
+          [
+            87.3615747130329,
+            1233.0,
+            1187.42793473652
+          ],
+          [
+            88.37060775394909,
+            1233.0,
+            1189.111404660392
+          ],
+          [
+            89.53979093274526,
+            1233.0,
+            1190.687865683273
+          ],
+          [
+            90.85786437626905,
+            1233.0,
+            1192.142135623731
+          ],
+          [
+            92.3121343167271,
+            1233.0,
+            1193.4602090672547
+          ],
+          [
+            93.88859533960796,
+            1233.0,
+            1194.6293922460509
+          ],
+          [
+            95.57206526348004,
+            1233.0,
+            1195.638425286967
+          ],
+          [
+            97.3463313526982,
+            1233.0,
+            1196.4775906502257
+          ],
+          [
+            99.19430645491076,
+            1233.0,
+            1197.1388067146443
+          ],
+          [
+            101.09819355967744,
+            1233.0,
+            1197.6157056080647
+          ],
+          [
+            103.03965719340879,
+            1233.0,
+            1197.903694533444
+          ],
+          [
+            105.0,
+            1233.0,
+            1198.0
+          ],
+          [
+            160.0,
+            1233.0,
+            1198.0
+          ]
+        ],
+        "minimum_separation_mm": 2.5,
+        "actual_connector_locations": "UNSELECTED; no universal reach claim"
+      },
+      {
+        "side": "R",
+        "classification": "CABLE_PASSAGE",
+        "new_wood_cut": false,
+        "connector_swept_bounds_mm": [
+          490.0,
+          1228.0,
+          1049.0,
+          540.0,
+          1433.0,
+          1079.0
+        ],
+        "generic_connector_mm": [
+          50,
+          30,
+          65
+        ],
+        "cable_radius_reserve_mm": 2.5,
+        "centerline_bend_radius_mm": 20,
+        "minimum_bend_radius_status": "PLANNING_ONLY_ACTUAL_CABLE_REQUIRED",
+        "cable_centerline_mm": [
+          [
+            515.0,
+            1233.0,
+            1064.0
+          ],
+          [
+            515.0,
+            1233.0,
+            1178.0
+          ],
+          [
+            514.903694533444,
+            1233.0,
+            1179.9603428065911
+          ],
+          [
+            514.6157056080647,
+            1233.0,
+            1181.9018064403226
+          ],
+          [
+            514.1388067146441,
+            1233.0,
+            1183.8056935450893
+          ],
+          [
+            513.4775906502257,
+            1233.0,
+            1185.6536686473019
+          ],
+          [
+            512.638425286967,
+            1233.0,
+            1187.42793473652
+          ],
+          [
+            511.6293922460509,
+            1233.0,
+            1189.111404660392
+          ],
+          [
+            510.4602090672547,
+            1233.0,
+            1190.687865683273
+          ],
+          [
+            509.14213562373095,
+            1233.0,
+            1192.142135623731
+          ],
+          [
+            507.6878656832729,
+            1233.0,
+            1193.4602090672547
+          ],
+          [
+            506.11140466039205,
+            1233.0,
+            1194.6293922460509
+          ],
+          [
+            504.42793473651994,
+            1233.0,
+            1195.638425286967
+          ],
+          [
+            502.6536686473018,
+            1233.0,
+            1196.4775906502257
+          ],
+          [
+            500.80569354508924,
+            1233.0,
+            1197.1388067146443
+          ],
+          [
+            498.90180644032256,
+            1233.0,
+            1197.6157056080647
+          ],
+          [
+            496.9603428065912,
+            1233.0,
+            1197.903694533444
+          ],
+          [
+            495.0,
+            1233.0,
+            1198.0
+          ],
+          [
+            440.0,
+            1233.0,
+            1198.0
+          ]
+        ],
+        "minimum_separation_mm": 2.5,
+        "actual_connector_locations": "UNSELECTED; no universal reach claim"
+      }
+    ],
+    "held_service_window": {
+      "component": "BB_ReplaceableVESAPlate",
+      "classification": "SERVICE_WINDOW",
+      "bounds_mm": [
+        210.0,
+        1227.0,
+        1029.0,
+        390.0,
+        1241.0,
+        1099.0
+      ],
+      "size_mm": [
+        180,
+        70
+      ],
+      "radius_mm": 12,
+      "status": "HOLD_DISPLAY_SPECIFIC_VESA_LAYOUT",
+      "promote": false,
+      "reason": "No selected display / drilled VESA load points. A 100-mm VESA row centered on this plate would be only15 mm from this opening before bore/washer allowance; different centers may fall inside. Passing existing four clamp reserves does not prove the screen attachment.",
+      "outer_edge_webs_mm": {
+        "left": 90,
+        "right": 90,
+        "lower": 80,
+        "upper": 80
+      },
+      "remaining_width_percent": 50,
+      "vertical_side_section_mm2": 2160,
+      "nearest_known_clamp_reserve": [
+        {
+          "part": "BB_MonitorClampReserve4401134",
+          "distance_mm": 56.80102827083963
+        },
+        {
+          "part": "BB_MonitorClampReserve160994",
+          "distance_mm": 56.801028270839645
+        },
+        {
+          "part": "BB_MonitorClampReserve1601134",
+          "distance_mm": 56.80102827083966
+        },
+        {
+          "part": "BB_MonitorClampReserve440994",
+          "distance_mm": 56.801028270839694
+        }
+      ],
+      "nearest_VESA_load_point_mm": null,
+      "actual_connector_SKU": null,
+      "generic_connector_planning_box_mm": [
+        50,
+        30,
+        65
+      ],
+      "rear_service_sweep_mm": [
+        275.0,
+        1228.0,
+        1049.0,
+        325.0,
+        1433.0,
+        1079.0
+      ],
+      "connector_fit_status": "PLANNING ONLY; display connector positions, pull direction and cable bend radius unselected. Not a universal fit claim.",
+      "removed_volume_mm3": 149716.67210540338,
+      "mass_saved_kg_at650": 0.09731583686851221,
+      "current_adapter_unchanged": true,
+      "minimum_rear_approach_clearance_mm": 90.0,
+      "one_side": "FACE_A rear (+Y), through cut; FACE_B no CNC"
+    },
+    "adjustment": {
+      "existing": {
+        "vertical_mm": [
+          -5,
+          5
+        ],
+        "depth_positions_mm": [
+          0,
+          16
+        ],
+        "lateral_max_display_mm": [
+          -1,
+          1
+        ],
+        "lateral_smaller_display_mm": [
+          -15,
+          15
+        ]
+      },
+      "new_added_travel_mm": 0,
+      "decision": "No additional slotting; existing adjustment addresses alignment and tolerance. Physical hardware and display still required."
+    },
+    "motion": {
+      "cable_route_continuous_certificate": {
+        "range_deg": [
+          0,
+          90
+        ],
+        "intervals": [
+          [
+            0,
+            45.0
+          ],
+          [
+            45.0,
+            90
+          ]
+        ],
+        "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+      },
+      "continuous_proof": "Exact subset of previously certified moving solids at every rigid pose; subtraction cannot create any new collision. Original native motion-validation.json retained as base proof.",
+      "source": "exports/generated/structural-v335/motion-validation.json",
+      "fold_samples": [
+        {
+          "angle_deg": 0,
+          "collisions": []
+        },
+        {
+          "angle_deg": 0.25,
+          "collisions": []
+        },
+        {
+          "angle_deg": 0.5,
+          "collisions": []
+        },
+        {
+          "angle_deg": 1,
+          "collisions": []
+        },
+        {
+          "angle_deg": 2,
+          "collisions": []
+        },
+        {
+          "angle_deg": 5,
+          "collisions": []
+        },
+        {
+          "angle_deg": 10,
+          "collisions": []
+        },
+        {
+          "angle_deg": 15,
+          "collisions": []
+        },
+        {
+          "angle_deg": 30,
+          "collisions": []
+        },
+        {
+          "angle_deg": 45,
+          "collisions": []
+        },
+        {
+          "angle_deg": 60,
+          "collisions": []
+        },
+        {
+          "angle_deg": 75,
+          "collisions": []
+        },
+        {
+          "angle_deg": 90,
+          "collisions": []
+        }
+      ],
+      "fold_prerequisites": [
+        "MAIN PLAYFIELD GLASS REMOVED",
+        "MATRIX REMOVED",
+        "REAR DOORS CLOSED/LATCHED",
+        "LOCKS RELEASED/PARKED"
+      ],
+      "other_services": "Door sweeps/display and glass removal unchanged except removed carrier wood, hence no new geometric interference. Flexible strap is a study route, cable qualification awaits selected display."
+    },
+    "total_volume_removed_proposed_mm3": 6355.752039526124,
+    "total_mass_saved_proposed_kg_at650": 0.004131238825691981,
+    "decision": "PROMOTE STRAIN-RELIEF SLOTS ONLY if overall V33.6 gates pass. Retain adapter until actual display VESA layout validates service window.",
+    "release": false,
+    "promoted_breps": {
+      "BB_MonitorCarrier0": "exports/generated/monitor-support-v336/backbox-study/brep/BB_MonitorCarrier0.brep",
+      "BB_MonitorCarrier1": "exports/generated/monitor-support-v336/backbox-study/brep/BB_MonitorCarrier1.brep"
+    }
+  },
+  "changed": [
+    {
+      "name": "SIDE_L",
+      "before_mm3": 11865853.838038225,
+      "after_mm3": 11865853.838037863,
+      "symmetric_difference_mm3": 17766.442766828455
+    },
+    {
+      "name": "SIDE_R",
+      "before_mm3": 11865853.838038143,
+      "after_mm3": 11865853.838037865,
+      "symmetric_difference_mm3": 17766.442766828455
+    },
+    {
+      "name": "LeafButton_primary_L",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "LeafButton_primary_R",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "LeafNut_primary_L",
+      "before_mm3": 827.024266057512,
+      "after_mm3": 827.0242660575122,
+      "symmetric_difference_mm3": 1654.0485321150243
+    },
+    {
+      "name": "LeafNut_primary_R",
+      "before_mm3": 827.024266057512,
+      "after_mm3": 827.0242660575122,
+      "symmetric_difference_mm3": 1654.0485321150243
+    },
+    {
+      "name": "LeafBracket_primary_L",
+      "before_mm3": 7040.0,
+      "after_mm3": 7039.999999999999,
+      "symmetric_difference_mm3": 14080.0
+    },
+    {
+      "name": "LeafBracket_primary_R",
+      "before_mm3": 7040.0,
+      "after_mm3": 7039.999999999999,
+      "symmetric_difference_mm3": 14080.0
+    },
+    {
+      "name": "LeafContacts_primary_L",
+      "before_mm3": 361.200000000012,
+      "after_mm3": 361.2000000000121,
+      "symmetric_difference_mm3": 722.4000000000241
+    },
+    {
+      "name": "LeafContacts_primary_R",
+      "before_mm3": 361.200000000012,
+      "after_mm3": 361.2000000000121,
+      "symmetric_difference_mm3": 722.4000000000241
+    },
+    {
+      "name": "LeafButton_secondary_L",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "LeafButton_secondary_R",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "LeafNut_secondary_L",
+      "before_mm3": 827.0242660575122,
+      "after_mm3": 827.0242660575126,
+      "symmetric_difference_mm3": 1654.048532115025
+    },
+    {
+      "name": "LeafNut_secondary_R",
+      "before_mm3": 827.0242660575122,
+      "after_mm3": 827.0242660575126,
+      "symmetric_difference_mm3": 1654.048532115025
+    },
+    {
+      "name": "LeafBracket_secondary_L",
+      "before_mm3": 7040.0,
+      "after_mm3": 7039.999999999999,
+      "symmetric_difference_mm3": 14080.0
+    },
+    {
+      "name": "LeafBracket_secondary_R",
+      "before_mm3": 7040.0,
+      "after_mm3": 7039.999999999999,
+      "symmetric_difference_mm3": 14080.0
+    },
+    {
+      "name": "LeafContacts_secondary_L",
+      "before_mm3": 361.20000000001164,
+      "after_mm3": 361.2000000000121,
+      "symmetric_difference_mm3": 722.4000000000237
+    },
+    {
+      "name": "LeafContacts_secondary_R",
+      "before_mm3": 361.20000000001164,
+      "after_mm3": 361.2000000000121,
+      "symmetric_difference_mm3": 722.4000000000237
+    },
+    {
+      "name": "PF_BasePlywood",
+      "before_mm3": 9111126.645971114,
+      "after_mm3": 8820115.009243298,
+      "symmetric_difference_mm3": 428758.3447855847
+    },
+    {
+      "name": "ButtonWireServiceReserve_primary_L",
+      "before_mm3": 11460.000000000015,
+      "after_mm3": 11460.000000000015,
+      "symmetric_difference_mm3": 22920.00000000003
+    },
+    {
+      "name": "ButtonToolServiceReserve_primary_L",
+      "before_mm3": 8482.300164692439,
+      "after_mm3": 8482.30016469244,
+      "symmetric_difference_mm3": 16964.600329384877
+    },
+    {
+      "name": "ButtonBodyServiceReserve_primary_L",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "ButtonLeafServiceReserve_primary_L",
+      "before_mm3": 8404.000000000011,
+      "after_mm3": 8404.00000000001,
+      "symmetric_difference_mm3": 16808.000000000022
+    },
+    {
+      "name": "ButtonWireServiceReserve_primary_R",
+      "before_mm3": 11460.000000000015,
+      "after_mm3": 11460.000000000015,
+      "symmetric_difference_mm3": 22920.00000000003
+    },
+    {
+      "name": "ButtonToolServiceReserve_primary_R",
+      "before_mm3": 8482.300164692439,
+      "after_mm3": 8482.30016469244,
+      "symmetric_difference_mm3": 16964.600329384877
+    },
+    {
+      "name": "ButtonBodyServiceReserve_primary_R",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "ButtonLeafServiceReserve_primary_R",
+      "before_mm3": 8404.000000000011,
+      "after_mm3": 8404.00000000001,
+      "symmetric_difference_mm3": 16808.000000000022
+    },
+    {
+      "name": "ButtonWireServiceReserve_secondary_L",
+      "before_mm3": 11460.000000000015,
+      "after_mm3": 11460.000000000015,
+      "symmetric_difference_mm3": 22920.00000000003
+    },
+    {
+      "name": "ButtonToolServiceReserve_secondary_L",
+      "before_mm3": 8482.300164692439,
+      "after_mm3": 8482.300164692439,
+      "symmetric_difference_mm3": 16964.600329384877
+    },
+    {
+      "name": "ButtonBodyServiceReserve_secondary_L",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "ButtonLeafServiceReserve_secondary_L",
+      "before_mm3": 8404.000000000011,
+      "after_mm3": 8404.00000000001,
+      "symmetric_difference_mm3": 16808.000000000022
+    },
+    {
+      "name": "ButtonWireServiceReserve_secondary_R",
+      "before_mm3": 11460.000000000015,
+      "after_mm3": 11460.000000000015,
+      "symmetric_difference_mm3": 22920.00000000003
+    },
+    {
+      "name": "ButtonToolServiceReserve_secondary_R",
+      "before_mm3": 8482.300164692439,
+      "after_mm3": 8482.300164692439,
+      "symmetric_difference_mm3": 16964.600329384877
+    },
+    {
+      "name": "ButtonBodyServiceReserve_secondary_R",
+      "before_mm3": 8380.198403450777,
+      "after_mm3": 8380.198403450777,
+      "symmetric_difference_mm3": 16760.396806901554
+    },
+    {
+      "name": "ButtonLeafServiceReserve_secondary_R",
+      "before_mm3": 8404.000000000011,
+      "after_mm3": 8404.00000000001,
+      "symmetric_difference_mm3": 16808.000000000022
+    },
+    {
+      "name": "BB_MonitorCarrier0",
+      "before_mm3": 320465.4093934725,
+      "after_mm3": 317287.5333737094,
+      "symmetric_difference_mm3": 3177.876019763088
+    },
+    {
+      "name": "BB_MonitorCarrier1",
+      "before_mm3": 320465.4093934725,
+      "after_mm3": 317287.5333737094,
+      "symmetric_difference_mm3": 3177.876019763088
+    }
+  ],
+  "added": [],
+  "removed": [],
+  "checks": [
+    {
+      "name": "historical clean base is exact rectangular 500 x 1020 x 18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "button center symmetry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "primary axis Y/Z",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "secondary axis Y/Z",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "restored button occupied and existing wire/tool reserves clear installed structures",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "button hand/tool approach with playfield service and glass/matrix removed",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "PLAYFIELD_BASE_HORN_ABSENT rectangular outside contour",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "M025 one valid 18mm stock solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "VESA and all strap/dowel load material preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "generic connector withdrawal corridor through window",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no new positive-volume changed-wood interference",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all protected unrelated shapes exact",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "release": false,
+  "source_sha256": "b64eafb52d232d254c044af959a9fbeed2c5648204e41620be7c636b0ad129f3",
+  "clean_source_sha256": "d387263a238bac367a06f7c321d281f8297629fb2533a3bdf9d377848badbf8a",
+  "pass": true
+}

@@ -1,3 +1,5 @@
+> HISTORICAL: Y89/Y127 and the horned M025 contour are superseded by [V33.6](MONITOR_SUPPORT_V336.md). CURRENT uses Y255/Y310, Z270 and the clean base. Historical numbers below are retained for audit; no final button drilling is released.
+
 > HISTORICAL / SUPERSEDED: final current playfield pivot is documented in [WOOD_DOWEL_PIVOT_V32.md](WOOD_DOWEL_PIVOT_V32.md). The props, pins, bushes and steel axis below are rejected and absent from the current viewer/CAD.
 
 # V32 — owner correction review

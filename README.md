@@ -1,4 +1,4 @@
-> CURRENT V33.5: [structural interfaces and owner review](exports/generated/structural-v335/README.md). 97 CNC plywood pieces + 4 unchanged SW01 shop blocks = 101 pieces / 59 families. Captured shell/shelf joints and one monitor-stop rail; M006 and original cradles retained. CNC remains BLOCKED. [Offline viewer](exports/generated/viewer-v32/index.html). [Preserved SW01 jig](exports/generated/solid-leg-v334/README.md).
+> CURRENT V33.6: [clean playfield contour, restored side-button datums and monitor service](exports/generated/monitor-support-v336/README.md). 97 CNC plywood pieces + 4 unchanged SW01 blocks = 101 pieces / 59 families. Side-button centers Y255/Y310, Z270; hardware bores remain HOLD. CNC remains BLOCKED. [Offline viewer](exports/generated/viewer-v32/index.html).
 
 # Virtual Pinball Cabinet
 

@@ -1,0 +1,11 @@
+{
+  "version": "V33.6",
+  "baseline": "V33.5",
+  "retired_CNC_pieces": 0,
+  "new_CNC_pieces": 0,
+  "net_plywood_volume_change_mm3": -297367.3887679875,
+  "outer_contour_area_change_mm2": 3826.29744604975,
+  "projected_material_area_change_mm2": -16520.410487073474,
+  "preliminary_full_sheet_count_change": 0,
+  "note": "Signed changes: negative means less material than V33.5. No retired leg laminations or monitor stops are counted again. No production nesting."
+}

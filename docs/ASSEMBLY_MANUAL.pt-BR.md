@@ -1,4 +1,4 @@
-# Manual de montagem — V33.5
+# Manual de montagem — V33.6
 
 **SOMENTE PREPARAÇÃO — CNC BLOQUEADO**
 
@@ -276,7 +276,7 @@ Viewer: EXPLODED DETAILED · animation assembly-05.1
 
 ### 06.1 — Prenda a cavilha de madeira
 
-PROVISIONAL_HARDWARE
+WAITING_FOR_PHYSICAL_MEASUREMENT
 
 Parts / Peças: P034-Main
 
@@ -288,7 +288,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos.
+Prenda a cavilha de madeira Ø32 com quatro abraçadeiras comerciais B01 e oito parafusos F02 na base do playfield. Preserve a interface aceita do adaptador substituível. Não use eixo metálico nem rolamentos. Use M025 CURRENT: contorno externo retangular limpo, janela traseira de serviço 180 × 110 mm R8 e dois rasgos arredondados para alívio de tração. Sem ponta ou entalhe lateral frontal. Preserve toda a região de carga VESA modelada e quatro abraçadeiras/oito F02. A janela admite o conector ilustrativo; confirme portas do monitor escolhido antes de usinar o adaptador. Nenhum novo furo de ajuste VESA está autorizado.
 
 Confira assentamento das abraçadeiras, engate dos parafusos e ausência de rachaduras após validar as abraçadeiras/material.
 
@@ -298,7 +298,7 @@ Viewer: PLAYFIELD LIFT-OUT · animation assembly-06.1
 
 ### 06.2 — Confira o assentamento e a retirada
 
-PROVISIONAL_HARDWARE
+WAITING_FOR_PHYSICAL_MEASUREMENT
 
 Parts / Peças: P034-Main
 
@@ -310,7 +310,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Abaixe as duas pontas da cavilha nos assentos abertos. Com vidro principal e matriz removidos, demonstre a retirada vertical aceita de 48 mm. A montagem completa sai junta; os berços fixos permanecem.
+Abaixe as duas pontas da cavilha nos assentos abertos. Com vidro principal e matriz removidos, demonstre a retirada vertical aceita de 48 mm. A montagem completa sai junta; os berços fixos permanecem. O estudo opcional do laço usa trecho flexível de 400 mm e zona de grampo removível acima de S3. Use raio de curvatura e folga qualificados; a curva desenhada não é peça rígida nem especificação de cabo. Verifique PLAY, serviço 50° e elevação 48 mm com os cabos reais. Libere o grampo antes de remover S3. Nenhuma família de conector é obrigatória.
 
 VERIFICAÇÃO DA RETIRADA: sem travamento, com apoio aproximadamente semicircular preservado. A posição de serviço de 50° é uma vista geométrica; não trabalhe sob a montagem levantada sem apoio. A validação de apoio/carga permanece pendente.
 
@@ -554,7 +554,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Assente M067 nas duas capturas frontais de6mm dos suportes. Instale dois F57 pelo lado traseiro após qualificar parafuso/piloto. Instale duas roscas I10, reguladores F27 M6, contraporcas I11 e pontas substituíveis. Exija curso10mm. Preserve quatro F26 para cargas de dobramento e fora do plano. Sem calços M049. Remoção frontal, ajuste traseiro e posições de profundidade16mm continuam.
+Assente M067 nas duas capturas frontais de6mm dos suportes. Instale dois F57 pelo lado traseiro após qualificar parafuso/piloto. Instale duas roscas I10, reguladores F27 M6, contraporcas I11 e pontas substituíveis. Exija curso10mm. Preserve quatro F26 para cargas de dobramento e fora do plano. Sem calços M049. Remoção frontal, ajuste traseiro e posições de profundidade16mm continuam. Os dois suportes verticais agora têm pares de rasgos 6 × 16 mm R3 acima do adaptador. Passe cintas substituíveis neles; não use parafusos estruturais para prender cabos. M067, capturas de 6 mm, acesso traseiro e quatro parafusos de retenção permanecem iguais.
 
 O suporte mecânico fica retido sem exigir a compra de um monitor. Sem padrão permanente de furos específico de tela.
 
@@ -564,7 +564,7 @@ Viewer: BACKBOX INTERIOR · animation assembly-12.1
 
 ### 12.2 — Explique a instalação frontal e ajuste traseiro futuros
 
-PROVISIONAL_HARDWARE
+WAITING_FOR_PHYSICAL_MEASUREMENT
 
 Parts / Peças: P050-Main, P051-Main, P052-Main, P053-Main, P054-Main, P055-Main, P056-Main, P057-Main, P058-Main, P059-Main, P060-Main, P061-Main, P062-Main, P063-Main
 
@@ -576,7 +576,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-Quando selecionado, instale o monitor de 31,5/32 polegadas pela frente, ajuste pelas portas traseiras abertas e aperte positivamente todos os eixos. Os parafusos VESA pertencem ao adaptador do usuário e seguem o fabricante do monitor.
+Quando selecionado, instale o monitor de 31,5/32 polegadas pela frente, ajuste pelas portas traseiras abertas e aperte positivamente todos os eixos. Os parafusos VESA pertencem ao adaptador do usuário e seguem o fabricante do monitor. Use os acessos laterais existentes ao lado da placa VESA para conectores. A janela central proposta NÃO FOI PROMOVIDA: pontos reais de carga VESA ainda não selecionados. Ajustes existentes: vertical ±5 mm, duas profundidades separadas por 16 mm, centralização ±1 mm para monitor máximo e cerca de ±15 mm para menores. Sem rasgos adicionais de ajuste.
 
 Sem gancho retido apenas pela gravidade, nem peso do monitor apoiado no vidro ou cassete. Verifique a retenção durante a dobra antes do uso.
 
@@ -754,7 +754,7 @@ Grampos, esquadro e instrumentos de medição; ponta/broca selecionada e limitad
 
 FACE A: usinagem CNC / referência acabada de profundidade. FACE B: SEM CNC; acesso manual somente quando explicitado na ficha.
 
-O plunger convencional frontal direito aparece provisoriamente em X520/Z280. Furo: COMPRAR ANTES DO CNC. Painel inferior220×55mm restaurado como esquema SEM LOCALIZAÇÃO FINAL: volume, seletor OFF/AUDIO/PINBALL, pareamento Bluetooth e USB-C opcional. Não existem centros finais autorizados; selecione controles e valide ergonomia/folgas depois. Passagem genérica de cabos e eletrônica opcional permanecem configuráveis.
+O plunger convencional frontal direito aparece provisoriamente em X520/Z280. Furo: COMPRAR ANTES DO CNC. Painel inferior220×55mm restaurado como esquema SEM LOCALIZAÇÃO FINAL: volume, seletor OFF/AUDIO/PINBALL, pareamento Bluetooth e USB-C opcional. Não existem centros finais autorizados; selecione controles e valide ergonomia/folgas depois. Passagem genérica de cabos e eletrônica opcional permanecem configuráveis. AUTORIDADE DE POSIÇÃO DOS BOTÕES LATERAIS: Y255 / Y310, Z270 em ambos os lados, a partir de Y0 frontal. Substitui Y89/Y127 sem selecionar diâmetros de furo/rebaixo. Corpo leaf, porca, fiação e acesso de ferramenta/mão são reservas de planejamento. Compre botões reais antes do CNC. Serviço: vidro/matriz removidos e playfield levantado. Controles inferiores continuam esquema separado SEM LOCALIZAÇÃO de 220 × 55 mm.
 
 Mantenha a eletrônica separada do kit mecânico obrigatório. Dispositivos pesados exigem retenção positiva; o projeto de potência/elétrica está fora deste roteiro.
 
@@ -768,10 +768,10 @@ Viewer: INTERIOR INSPECTION · animation assembly-18.1
 
 FACE_A: [1.0, 0.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
-CNC FACE_A · P001-Main-R6 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P001-Main-R8 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P001-Main-R5 · POCKET · depth / profundidade: 3 mm.
-CNC FACE_A · P001-Main-R7 · POCKET · depth / profundidade: 3 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P001-Main-R6 · CUT · depth / profundidade: 18 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P001-Main-R8 · CUT · depth / profundidade: 18 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P001-Main-R5 · POCKET · depth / profundidade: 3 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P001-Main-R7 · POCKET · depth / profundidade: 3 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 18 mm.
 - OUTER_REENTRANT_CORNER_FINISH: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 18 mm.
@@ -799,10 +799,10 @@ BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 1 mm.
 
 FACE_A: [-1.0, 0.0, 0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
-CNC FACE_A · P002-Main-R3 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P002-Main-R5 · CUT · depth / profundidade: 18 mm.
-CNC FACE_A · P002-Main-R2 · POCKET · depth / profundidade: 3 mm.
-CNC FACE_A · P002-Main-R4 · POCKET · depth / profundidade: 3 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P002-Main-R3 · CUT · depth / profundidade: 18 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P002-Main-R5 · CUT · depth / profundidade: 18 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P002-Main-R2 · POCKET · depth / profundidade: 3 mm.
+SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · P002-Main-R4 · POCKET · depth / profundidade: 3 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 18 mm.
 - OUTER_REENTRANT_CORNER_FINISH: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 0 / 18 mm.
@@ -1277,6 +1277,9 @@ CNC FACE_A · P033-Main-R4 · CUT · depth / profundidade: 12 mm.
 
 FACE_A: [-0.0, 0.172043766268355, -0.9850893068591292]; FACE_B / NO CNC. ONE_SIDE_CNC_READY
 
+CNC FACE_A · P034-Main-R1 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P034-Main-R2 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P034-Main-R3 · CUT · depth / profundidade: 18 mm.
 
 ### P035-Main / M026
 
@@ -1489,6 +1492,8 @@ FACE_A: [-0.0, -1.0, -0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
 CNC FACE_A · P056-Main-R2 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P056-Main-R3 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P056-Main-R4 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P056-Main-R5 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P056-Main-R1 · POCKET · depth / profundidade: 6 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 6 mm.
 - SQUARE_CORNER_FINISH_OR_COUPON_RELIEF: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.
@@ -1521,6 +1526,8 @@ FACE_A: [-0.0, -1.0, -0.0]; FACE_B / NO CNC. ONE_SIDE_CNC_PLUS_MANUAL_FINISH
 
 CNC FACE_A · P059-Main-R2 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P059-Main-R3 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P059-Main-R4 · CUT · depth / profundidade: 18 mm.
+CNC FACE_A · P059-Main-R5 · CUT · depth / profundidade: 18 mm.
 CNC FACE_A · P059-Main-R1 · POCKET · depth / profundidade: 6 mm.
 BUILDER FINISH / ACABAMENTO MANUAL · FACE_A datum · 6 mm.
 - SQUARE_CORNER_FINISH_OR_COUPON_RELIEF: acabamento manual referenciado pela FACE_A; consultar desenho exato. Profundidade e ferramenta dependem da ferragem/cupom. Sem CNC na FACE_B.

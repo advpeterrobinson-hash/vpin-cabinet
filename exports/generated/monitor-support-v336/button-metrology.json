@@ -1,0 +1,7201 @@
+{
+  "pass": true,
+  "status": "PROVISIONAL_REFERENCE_PACKAGING_NOT_PURCHASED_HARDWARE",
+  "source": "exports/generated/monitor-support-v336/play.FCStd",
+  "source_sha256": "3502d40839e815b8fe0a0ce1e45dbb33612fe9341a235455533f30c011d822d4",
+  "groups": {
+    "playfield_base": [
+      "PF_BasePlywood"
+    ],
+    "S1_supports": [
+      "SHELF_SUPPORT_1L",
+      "SHELF_SUPPORT_1R"
+    ],
+    "S1_shelf": [
+      "SHELF_1"
+    ],
+    "T1_guides": [
+      "CROSS_GUIDE_1L",
+      "CROSS_GUIDE_1R"
+    ],
+    "T1_crossmember": [
+      "CROSS_1"
+    ],
+    "SSF_front_exciters": [
+      "SSF_Exciter1L",
+      "SSF_Exciter1R"
+    ],
+    "leg_blocks_and_hardware": [
+      "CandidateLegBlockFL",
+      "CandidateLegPlateFL",
+      "CandidateLegBlockFR",
+      "CandidateLegPlateFR",
+      "CandidateLegBlockRL",
+      "CandidateLegPlateRL",
+      "CandidateLegBlockRR",
+      "CandidateLegPlateRR"
+    ],
+    "plunger": [
+      "PLUNGER_RESERVED",
+      "PlungerFrontInterfaceProvisional",
+      "PlungerShaftProvisional",
+      "PlungerHandleProvisional"
+    ],
+    "front_panel": [
+      "FRONT"
+    ],
+    "floor": [
+      "FLOOR"
+    ],
+    "glass_channels": [
+      "CandidateGlassChannelL",
+      "CandidateGlassChannelR"
+    ]
+  },
+  "rows": [
+    {
+      "id": "LeafButton_primary_L",
+      "role": "occupied_button",
+      "side": "L",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 87.60249239659389,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                30.0,
+                253.70967175298733,
+                277.3881698014435
+              ],
+              [
+                49.99999999999999,
+                239.03624796340455,
+                361.40535440308673
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 97.67292357659824,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                255.0,
+                256.0
+              ],
+              [
+                18.0,
+                255.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 86.34813257969161,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                255.0,
+                256.0
+              ],
+              [
+                20.0,
+                255.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 82.97590011563598,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                269.0,
+                270.0
+              ],
+              [
+                18.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 107.14918701433643,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                268.90349110122025,
+                271.6410165137162
+              ],
+              [
+                30.2,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 58.10550209607646,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                264.1690275378429,
+                259.4203528409366
+              ],
+              [
+                18.0,
+                300.3520838475354,
+                217.6706724837558
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 190.7848349366792,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                242.4371004743119,
+                263.82152482343207
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 470.8038338841348,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                30.0,
+                247.5,
+                270.0
+              ],
+              [
+                500.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 223.4390297150433,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                241.0,
+                270.0
+              ],
+              [
+                14.0,
+                18.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 220.44500447957535,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                255.0,
+                256.0
+              ],
+              [
+                14.0,
+                255.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 157.98202475546032,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                252.59138727224303,
+                283.7912502960278
+              ],
+              [
+                0.0,
+                225.41156473061315,
+                439.417653558586
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafNut_primary_L",
+      "role": "occupied_nut",
+      "side": "L",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 86.8956072708431,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                252.93547480477974,
+                281.82107168230954
+              ],
+              [
+                49.99999999999999,
+                239.03624796340455,
+                361.40535440308673
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 98.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                255.0,
+                258.0
+              ],
+              [
+                18.0,
+                255.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 86.02325267042627,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                255.0,
+                258.0
+              ],
+              [
+                20.0,
+                255.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 83.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                267.0,
+                270.0
+              ],
+              [
+                18.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 105.51288575772845,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                266.91727808676023,
+                271.4065855831853
+              ],
+              [
+                30.2,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 57.24716620639603,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                262.8591664610141,
+                260.93173100652217
+              ],
+              [
+                18.0,
+                300.35208384746477,
+                217.67067248369452
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 191.93381279228808,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                244.23180040655308,
+                264.70416413437033
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 482.5484431639999,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                243.0,
+                270.0
+              ],
+              [
+                500.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 225.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                243.0,
+                270.0
+              ],
+              [
+                18.0,
+                18.000000000000004,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 222.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                255.0,
+                258.0
+              ],
+              [
+                18.0,
+                255.0,
+                36.00000000000001
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 159.98202475546032,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                252.93547480477974,
+                281.82107168230954
+              ],
+              [
+                17.999999999999996,
+                225.41156473061315,
+                439.417653558586
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafBracket_primary_L",
+      "role": "occupied_leaf_bracket",
+      "side": "L",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 107.1290153413479,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                245.0,
+                254.0
+              ],
+              [
+                49.99999999999999,
+                226.62058294711892,
+                359.2369847382707
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 78.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                238.0
+              ],
+              [
+                20.0,
+                245.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 66.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                238.0
+              ],
+              [
+                20.0,
+                245.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 85.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                265.0,
+                254.0
+              ],
+              [
+                20.0,
+                350.0,
+                254.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 110.07986996375676,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                265.0,
+                254.0
+              ],
+              [
+                42.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 39.814038702828256,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                265.0,
+                238.0
+              ],
+              [
+                20.0,
+                296.36578501032693,
+                213.47765899192623
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 182.474655774439,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                238.0
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 458.72104813274046,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                245.0,
+                254.0
+              ],
+              [
+                500.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 227.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                254.0
+              ],
+              [
+                20.0,
+                18.0,
+                254.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 202.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                238.0
+              ],
+              [
+                20.0,
+                245.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 186.03376704962696,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                254.0
+              ],
+              [
+                17.999999999999996,
+                212.9958997143275,
+                437.2492838937699
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafContacts_primary_L",
+      "role": "occupied_leaf_contacts",
+      "side": "L",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 104.67985847285364,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                248.0,
+                257.1
+              ],
+              [
+                49.99999999999999,
+                230.05716904541796,
+                359.83717723994545
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 95.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                248.0,
+                255.0
+              ],
+              [
+                41.0,
+                248.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 83.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                248.0,
+                255.0
+              ],
+              [
+                41.0,
+                248.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 88.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                23.0,
+                262.0,
+                255.60000000000002
+              ],
+              [
+                23.0,
+                350.0,
+                255.60000000000002
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 112.19670781246931,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                262.0,
+                257.1
+              ],
+              [
+                41.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 53.45058418010024,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                21.0,
+                262.0,
+                255.0
+              ],
+              [
+                21.0,
+                299.14933709457574,
+                216.56965128147337
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 191.33739833080202,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                21.0,
+                248.0,
+                255.0
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 459.86238158823124,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                248.0,
+                257.1
+              ],
+              [
+                500.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 230.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                23.0,
+                248.0,
+                255.60000000000002
+              ],
+              [
+                23.0,
+                18.0,
+                255.60000000000002
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 219.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                248.0,
+                255.0
+              ],
+              [
+                41.0,
+                248.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 183.50989392726876,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                21.0,
+                248.0,
+                257.1
+              ],
+              [
+                17.999999999999996,
+                216.43248581262654,
+                437.8494763954447
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonBodyServiceReserve_primary_L",
+      "role": "body_service",
+      "side": "L",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 87.60249239659389,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                30.0,
+                253.70967175298733,
+                277.3881698014435
+              ],
+              [
+                49.99999999999999,
+                239.03624796340455,
+                361.40535440308673
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 97.67292357659824,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                255.0,
+                256.0
+              ],
+              [
+                18.0,
+                255.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 86.34813257969161,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                255.0,
+                256.0
+              ],
+              [
+                20.0,
+                255.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 82.97590011563598,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                269.0,
+                270.0
+              ],
+              [
+                18.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 107.14918701433643,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                268.90349110122025,
+                271.6410165137162
+              ],
+              [
+                30.2,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 58.10550209607646,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                264.1690275378429,
+                259.4203528409366
+              ],
+              [
+                18.0,
+                300.3520838475354,
+                217.6706724837558
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 190.7848349366792,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                242.4371004743119,
+                263.82152482343207
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 470.8038338841348,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                30.0,
+                247.5,
+                270.0
+              ],
+              [
+                500.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 223.4390297150433,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                241.0,
+                270.0
+              ],
+              [
+                14.0,
+                18.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 220.44500447957535,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                255.0,
+                256.0
+              ],
+              [
+                14.0,
+                255.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 157.98202475546032,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                252.59138727224303,
+                283.7912502960278
+              ],
+              [
+                0.0,
+                225.41156473061315,
+                439.417653558586
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonLeafServiceReserve_primary_L",
+      "role": "leaf_service",
+      "side": "L",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 104.08401498638864,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                245.0,
+                257.1
+              ],
+              [
+                49.99999999999999,
+                227.1459662179534,
+                359.3287418165572
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 78.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                238.0
+              ],
+              [
+                20.0,
+                245.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 66.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                238.0
+              ],
+              [
+                20.0,
+                245.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 85.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                265.0,
+                257.1
+              ],
+              [
+                20.0,
+                350.0,
+                257.1
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 109.28449681430853,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                265.0,
+                257.1
+              ],
+              [
+                42.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 39.814038702828256,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                265.0,
+                238.0
+              ],
+              [
+                20.0,
+                296.36578501032693,
+                213.47765899192623
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 182.474655774439,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                238.0
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 458.6909744043368,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                245.0,
+                257.1
+              ],
+              [
+                500.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 227.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                257.1
+              ],
+              [
+                20.0,
+                18.0,
+                257.1
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 202.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                238.0
+              ],
+              [
+                20.0,
+                245.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 182.98016962389883,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                245.0,
+                257.1
+              ],
+              [
+                17.999999999999996,
+                213.52128298516195,
+                437.3410409720565
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonWireServiceReserve_primary_L",
+      "role": "wire_service",
+      "side": "L",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 92.29913148232613,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                62.0,
+                247.0,
+                269.1
+              ],
+              [
+                62.0,
+                231.1205097964825,
+                360.0228874556243
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 90.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                247.0,
+                250.0
+              ],
+              [
+                42.0,
+                247.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 78.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                247.0,
+                250.0
+              ],
+              [
+                42.0,
+                247.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 73.24616030891995,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                277.0,
+                269.1
+              ],
+              [
+                36.0,
+                350.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 95.12574959035534,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                277.0,
+                269.1
+              ],
+              [
+                42.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 40.26403870282824,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                277.0,
+                250.0
+              ],
+              [
+                42.0,
+                301.79950589295265,
+                218.279701764828
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 190.0026315607234,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                247.0,
+                250.0
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 438.8314027049568,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                62.0,
+                247.0,
+                269.1
+              ],
+              [
+                500.0,
+                220.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 229.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                247.0,
+                269.1
+              ],
+              [
+                42.0,
+                18.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 214.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                247.0,
+                250.0
+              ],
+              [
+                42.0,
+                247.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 173.16348785322768,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                247.0,
+                269.1
+              ],
+              [
+                17.999999999999996,
+                217.4958265636911,
+                438.03518661112355
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonToolServiceReserve_primary_L",
+      "role": "tool_service",
+      "side": "L",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 82.78890123629974,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                253.27956233731646,
+                279.8508930685913
+              ],
+              [
+                70.0,
+                239.0362479634046,
+                361.40535440308673
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 100.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                43.0,
+                255.0,
+                260.0
+              ],
+              [
+                43.0,
+                255.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 88.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                255.0,
+                260.0
+              ],
+              [
+                70.0,
+                255.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 85.28774824088158,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                43.0,
+                265.0,
+                270.0
+              ],
+              [
+                36.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 106.80519577255446,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                264.93106507230016,
+                271.1721546526544
+              ],
+              [
+                70.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 59.697166206396005,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                43.0,
+                261.5493053841784,
+                262.4431091721018
+              ],
+              [
+                43.0,
+                300.6468025897528,
+                217.3306123964391
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 195.5385479749562,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                43.0,
+                246.02650033879422,
+                265.58680344530865
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 430.7261310856354,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                245.0,
+                270.0
+              ],
+              [
+                500.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 227.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                245.0,
+                270.0
+              ],
+              [
+                70.0,
+                18.000000000000004,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 224.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                255.0,
+                260.0
+              ],
+              [
+                70.0,
+                255.0,
+                36.00000000000001
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 163.89989732723615,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                43.0,
+                253.27956233731646,
+                279.8508930685913
+              ],
+              [
+                17.999999999999996,
+                225.41156473061315,
+                439.417653558586
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafButton_primary_R",
+      "role": "occupied_button",
+      "side": "R",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 87.60249239659392,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                570.0,
+                253.70967175298733,
+                277.3881698014435
+              ],
+              [
+                549.9999999999999,
+                239.03624796340455,
+                361.40535440308673
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 97.67292357659824,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                255.0,
+                256.0
+              ],
+              [
+                582.0,
+                255.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 86.34813257969161,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                255.0,
+                256.0
+              ],
+              [
+                580.0,
+                255.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 82.97590011563598,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                269.0,
+                270.0
+              ],
+              [
+                582.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 107.1491870143364,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                268.90349110122025,
+                271.6410165137162
+              ],
+              [
+                569.8000000000001,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 58.10550209607645,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                264.16902754142444,
+                259.42035284404056
+              ],
+              [
+                582.0,
+                300.3520838398048,
+                217.67067247705592
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 190.7848349366792,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                242.4371004743119,
+                263.82152482343207
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 40.697051490249265,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                570.0,
+                247.5,
+                270.0
+              ],
+              [
+                540.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 223.4390297150433,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                241.0,
+                270.0
+              ],
+              [
+                586.0,
+                18.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 220.44500447957535,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                255.0,
+                256.0
+              ],
+              [
+                586.0,
+                255.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 157.9820247554603,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                252.5913872722429,
+                283.7912502960278
+              ],
+              [
+                600.0,
+                225.41156473061312,
+                439.417653558586
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafNut_primary_R",
+      "role": "occupied_nut",
+      "side": "R",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 86.89560727084314,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                252.93547480477974,
+                281.82107168230954
+              ],
+              [
+                549.9999999999999,
+                239.03624796340455,
+                361.40535440308673
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 98.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                255.0,
+                258.0
+              ],
+              [
+                582.0,
+                255.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 86.02325267042627,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                255.0,
+                258.0
+              ],
+              [
+                580.0,
+                255.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 83.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                267.0,
+                270.0
+              ],
+              [
+                582.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 105.51288575772845,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                266.91727808676023,
+                271.4065855831853
+              ],
+              [
+                569.8000000000001,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 57.24716620639603,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                262.8591664610141,
+                260.93173100652217
+              ],
+              [
+                582.0,
+                300.35208384746477,
+                217.67067248369452
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 191.93381279228808,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                244.23180040655308,
+                264.70416413437033
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 47.885279575251516,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                243.0,
+                270.0
+              ],
+              [
+                540.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 225.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                243.0,
+                270.0
+              ],
+              [
+                582.0,
+                18.000000000000004,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 222.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                255.0,
+                258.0
+              ],
+              [
+                582.0,
+                255.0,
+                36.00000000000001
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 159.9820247554603,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                252.9354748047797,
+                281.82107168230954
+              ],
+              [
+                582.0,
+                225.41156473061318,
+                439.417653558586
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafBracket_primary_R",
+      "role": "occupied_leaf_bracket",
+      "side": "R",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 107.1290153413479,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                245.0,
+                254.0
+              ],
+              [
+                549.9999999999999,
+                226.62058294711892,
+                359.2369847382707
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 78.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                245.0,
+                238.0
+              ],
+              [
+                580.0,
+                245.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 66.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                245.0,
+                238.0
+              ],
+              [
+                580.0,
+                245.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 85.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                265.0,
+                254.0
+              ],
+              [
+                580.0,
+                350.0,
+                254.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 110.07986996375676,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                265.0,
+                254.0
+              ],
+              [
+                558.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 39.814038702828256,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                265.0,
+                238.0
+              ],
+              [
+                580.0,
+                296.36578501032693,
+                213.47765899192623
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 182.474655774439,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                245.0,
+                238.0
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 31.38470965295043,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                245.0,
+                254.0
+              ],
+              [
+                540.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 227.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                245.0,
+                254.0
+              ],
+              [
+                580.0,
+                18.0,
+                254.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 202.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                245.0,
+                238.0
+              ],
+              [
+                580.0,
+                245.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 186.03376704962696,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                245.0,
+                254.0
+              ],
+              [
+                582.0,
+                212.9958997143275,
+                437.2492838937699
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafContacts_primary_R",
+      "role": "occupied_leaf_contacts",
+      "side": "R",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 104.67985847285364,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                248.0,
+                257.1
+              ],
+              [
+                549.9999999999999,
+                230.05716904541796,
+                359.83717723994545
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 95.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                248.0,
+                255.0
+              ],
+              [
+                559.0,
+                248.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 83.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                248.0,
+                255.0
+              ],
+              [
+                559.0,
+                248.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 88.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                577.0,
+                262.0,
+                255.60000000000002
+              ],
+              [
+                577.0,
+                350.0,
+                255.60000000000002
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 112.19670781246931,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                262.0,
+                257.1
+              ],
+              [
+                559.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 53.45058418010024,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                579.0,
+                262.0,
+                255.0
+              ],
+              [
+                579.0,
+                299.14933709457574,
+                216.56965128147337
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 191.33739833080202,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                579.0,
+                248.0,
+                255.0
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 33.96189040674856,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                248.0,
+                257.1
+              ],
+              [
+                540.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 230.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                577.0,
+                248.0,
+                255.60000000000002
+              ],
+              [
+                577.0,
+                18.0,
+                255.60000000000002
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 219.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                248.0,
+                255.0
+              ],
+              [
+                559.0,
+                248.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 183.50989392726876,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                579.0,
+                248.0,
+                257.1
+              ],
+              [
+                582.0,
+                216.43248581262657,
+                437.8494763954447
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonBodyServiceReserve_primary_R",
+      "role": "body_service",
+      "side": "R",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 87.60249239659392,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                570.0,
+                253.70967175298733,
+                277.3881698014435
+              ],
+              [
+                549.9999999999999,
+                239.03624796340455,
+                361.40535440308673
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 97.67292357659824,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                255.0,
+                256.0
+              ],
+              [
+                582.0,
+                255.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 86.34813257969161,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                255.0,
+                256.0
+              ],
+              [
+                580.0,
+                255.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 82.97590011563598,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                269.0,
+                270.0
+              ],
+              [
+                582.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 107.1491870143364,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                268.90349110122025,
+                271.6410165137162
+              ],
+              [
+                569.8000000000001,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 58.10550209607645,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                264.16902754142444,
+                259.42035284404056
+              ],
+              [
+                582.0,
+                300.3520838398048,
+                217.67067247705592
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 190.7848349366792,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                242.4371004743119,
+                263.82152482343207
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 40.697051490249265,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                570.0,
+                247.5,
+                270.0
+              ],
+              [
+                540.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 223.4390297150433,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                241.0,
+                270.0
+              ],
+              [
+                586.0,
+                18.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 220.44500447957535,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                255.0,
+                256.0
+              ],
+              [
+                586.0,
+                255.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 157.9820247554603,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                252.5913872722429,
+                283.7912502960278
+              ],
+              [
+                600.0,
+                225.41156473061312,
+                439.417653558586
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonLeafServiceReserve_primary_R",
+      "role": "leaf_service",
+      "side": "R",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 104.08401498638864,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                245.0,
+                257.1
+              ],
+              [
+                549.9999999999999,
+                227.1459662179534,
+                359.3287418165572
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 78.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                245.0,
+                238.0
+              ],
+              [
+                558.0,
+                245.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 66.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                245.0,
+                238.0
+              ],
+              [
+                580.0,
+                245.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 85.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                265.0,
+                257.1
+              ],
+              [
+                580.0,
+                350.0,
+                257.1
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 109.28449681430853,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                265.0,
+                257.1
+              ],
+              [
+                558.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 39.814038702828256,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                265.0,
+                238.0
+              ],
+              [
+                580.0,
+                296.36578501032693,
+                213.47765899192623
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 182.474655774439,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                245.0,
+                238.0
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 30.942042595795122,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                245.0,
+                257.1
+              ],
+              [
+                540.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 227.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                245.0,
+                257.1
+              ],
+              [
+                558.0,
+                18.0,
+                257.1
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 202.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                245.0,
+                238.0
+              ],
+              [
+                558.0,
+                245.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 182.98016962389883,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                245.0,
+                257.1
+              ],
+              [
+                582.0,
+                213.52128298516197,
+                437.3410409720565
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonWireServiceReserve_primary_R",
+      "role": "wire_service",
+      "side": "R",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 92.29913148232613,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                538.0,
+                247.0,
+                269.1
+              ],
+              [
+                538.0,
+                231.1205097964825,
+                360.0228874556243
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 90.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                247.0,
+                250.0
+              ],
+              [
+                558.0,
+                247.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 78.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                247.0,
+                250.0
+              ],
+              [
+                558.0,
+                247.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 73.24616030891995,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                277.0,
+                269.1
+              ],
+              [
+                564.0,
+                350.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 95.12574959035534,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                277.0,
+                269.1
+              ],
+              [
+                558.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 40.26403870282824,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                277.0,
+                250.0
+              ],
+              [
+                558.0,
+                301.79950589295265,
+                218.279701764828
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 190.0026315607234,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                247.0,
+                250.0
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 27.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                538.0,
+                247.0,
+                269.1
+              ],
+              [
+                538.0,
+                220.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 229.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                247.0,
+                269.1
+              ],
+              [
+                558.0,
+                18.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 214.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                247.0,
+                250.0
+              ],
+              [
+                558.0,
+                247.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 173.16348785322768,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                247.0,
+                269.1
+              ],
+              [
+                582.0,
+                217.4958265636911,
+                438.03518661112355
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonToolServiceReserve_primary_R",
+      "role": "tool_service",
+      "side": "R",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 82.78890123629976,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                253.27956233731646,
+                279.8508930685913
+              ],
+              [
+                530.0,
+                239.0362479634046,
+                361.40535440308673
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 100.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                557.0,
+                255.0,
+                260.0
+              ],
+              [
+                557.0,
+                255.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 88.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                255.0,
+                260.0
+              ],
+              [
+                530.0,
+                255.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 85.28774824088158,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                557.0,
+                265.0,
+                270.0
+              ],
+              [
+                564.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 106.80519577255446,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                264.93106507230016,
+                271.1721546526544
+              ],
+              [
+                530.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 59.697166206396034,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                557.0,
+                261.5493053841784,
+                262.4431091721018
+              ],
+              [
+                557.0,
+                300.6468025897528,
+                217.3306123964391
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 195.5385479749562,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                557.0,
+                246.02650033879422,
+                265.58680344530865
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 25.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                245.0,
+                270.0
+              ],
+              [
+                530.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 227.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                245.0,
+                270.0
+              ],
+              [
+                530.0,
+                18.000000000000004,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 224.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                255.0,
+                260.0
+              ],
+              [
+                530.0,
+                255.0,
+                36.00000000000001
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 163.89989732723615,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                557.0,
+                253.27956233731646,
+                279.8508930685913
+              ],
+              [
+                582.0,
+                225.41156473061315,
+                439.417653558586
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafButton_secondary_L",
+      "role": "occupied_button",
+      "side": "L",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 96.83909561702131,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                30.0,
+                308.70967175298733,
+                277.3881698014435
+              ],
+              [
+                49.99999999999999,
+                292.4082998002555,
+                370.7266704985368
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 104.60728476066332,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                305.2155971167861,
+                256.8428920711619
+              ],
+              [
+                18.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 94.00122035687923,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                304.70944203602744,
+                257.0381329882672
+              ],
+              [
+                20.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 31.622776601683793,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                324.0,
+                270.0
+              ],
+              [
+                18.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 55.01799110851671,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                30.0,
+                317.3179360387979,
+                271.6425017905815
+              ],
+              [
+                30.2,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 36.422407688324455,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                311.8502920812743,
+                256.12280939044314
+              ],
+              [
+                18.0,
+                316.0350883972695,
+                224.73683702047904
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 241.12122294438248,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                296.9050082532614,
+                265.0481123646787
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 477.18576047489097,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                30.0,
+                302.5,
+                270.0
+              ],
+              [
+                500.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 278.3522947633089,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                296.0,
+                270.0
+              ],
+              [
+                14.0,
+                18.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 220.44500447957535,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                310.0,
+                256.0
+              ],
+              [
+                14.0,
+                310.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 167.44443190021988,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                307.591387272243,
+                283.7912502960278
+              ],
+              [
+                0.0,
+                278.78361656746415,
+                448.73896965403605
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafNut_secondary_L",
+      "role": "occupied_nut",
+      "side": "L",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 95.75645494948668,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                307.93547480477974,
+                281.82107168230954
+              ],
+              [
+                49.99999999999999,
+                292.4082998002555,
+                370.7266704985368
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 105.04699910719621,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                305.89908324295953,
+                258.72247891813873
+              ],
+              [
+                18.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 93.87025740083676,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                305.46523603088065,
+                258.88982827565764
+              ],
+              [
+                20.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 28.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                322.0,
+                270.0
+              ],
+              [
+                18.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 51.96990184046974,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                321.7086976620766,
+                272.6280028649304
+              ],
+              [
+                30.2,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 33.66372975210776,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                311.58596464109223,
+                258.10526519180837
+              ],
+              [
+                18.0,
+                316.0350883972695,
+                224.73683702047904
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 242.44842306447882,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                298.77572135993836,
+                265.7555248840103
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 488.27041687982694,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                298.0,
+                270.0
+              ],
+              [
+                500.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 280.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                298.0,
+                270.0
+              ],
+              [
+                18.0,
+                18.000000000000004,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 222.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                310.0,
+                258.0
+              ],
+              [
+                18.0,
+                310.0,
+                36.00000000000001
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 169.44443190021985,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                18.0,
+                307.93547480477974,
+                281.82107168230954
+              ],
+              [
+                17.999999999999996,
+                278.78361656746415,
+                448.73896965403605
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafBracket_secondary_L",
+      "role": "occupied_leaf_bracket",
+      "side": "L",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 116.56714353880712,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                300.0,
+                254.0
+              ],
+              [
+                49.99999999999999,
+                279.9926347839699,
+                368.5583008337207
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 83.57032966310472,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                238.0
+              ],
+              [
+                20.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 72.49827584156743,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                238.0
+              ],
+              [
+                20.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 30.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                320.0,
+                254.0
+              ],
+              [
+                20.0,
+                350.0,
+                254.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 59.01336942793216,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                320.0,
+                254.0
+              ],
+              [
+                42.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 13.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                320.0,
+                238.0
+              ],
+              [
+                20.0,
+                320.0,
+                225.0
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 235.27005759339627,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                238.0
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 464.9731175025068,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                300.0,
+                254.0
+              ],
+              [
+                500.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 282.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                254.0
+              ],
+              [
+                20.0,
+                18.0,
+                254.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 202.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                238.0
+              ],
+              [
+                20.0,
+                300.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 195.49565382143928,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                254.0
+              ],
+              [
+                17.999999999999996,
+                266.3679515511785,
+                446.57059998921994
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafContacts_secondary_L",
+      "role": "occupied_leaf_contacts",
+      "side": "L",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 114.1101280512553,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                303.0,
+                257.1
+              ],
+              [
+                49.99999999999999,
+                283.42922088226896,
+                369.15849333539546
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 100.56838469419701,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                303.0,
+                255.0
+              ],
+              [
+                41.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 89.31965069345043,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                303.0,
+                255.0
+              ],
+              [
+                41.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 33.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                23.0,
+                317.0,
+                255.60000000000002
+              ],
+              [
+                23.0,
+                350.0,
+                255.60000000000002
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 60.19220251790601,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                317.0,
+                257.1
+              ],
+              [
+                41.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 30.074953183502345,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                21.0,
+                317.0,
+                255.0
+              ],
+              [
+                21.0,
+                318.50187149168323,
+                224.96257016633535
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 242.88886347463526,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                21.0,
+                303.0,
+                255.0
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 466.453009423243,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                303.0,
+                257.1
+              ],
+              [
+                500.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 285.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                23.0,
+                303.0,
+                255.60000000000002
+              ],
+              [
+                23.0,
+                18.0,
+                255.60000000000002
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 219.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                41.0,
+                303.0,
+                255.0
+              ],
+              [
+                41.0,
+                303.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 192.97109855826002,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                21.0,
+                303.0,
+                257.1
+              ],
+              [
+                17.999999999999996,
+                269.80453764947754,
+                447.1707924908947
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonBodyServiceReserve_secondary_L",
+      "role": "body_service",
+      "side": "L",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 96.83909561702131,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                30.0,
+                308.70967175298733,
+                277.3881698014435
+              ],
+              [
+                49.99999999999999,
+                292.4082998002555,
+                370.7266704985368
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 104.60728476066332,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                305.2155971167861,
+                256.8428920711619
+              ],
+              [
+                18.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 94.00122035687923,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                304.70944203602744,
+                257.0381329882672
+              ],
+              [
+                20.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 31.622776601683793,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                324.0,
+                270.0
+              ],
+              [
+                18.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 55.01799110851671,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                30.0,
+                317.3179360387979,
+                271.6425017905815
+              ],
+              [
+                30.2,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 36.422407688324455,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                311.8502920812743,
+                256.12280939044314
+              ],
+              [
+                18.0,
+                316.0350883972695,
+                224.73683702047904
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 241.12122294438248,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                296.9050082532614,
+                265.0481123646787
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 477.18576047489097,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                30.0,
+                302.5,
+                270.0
+              ],
+              [
+                500.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 278.3522947633089,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                296.0,
+                270.0
+              ],
+              [
+                14.0,
+                18.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 220.44500447957535,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                310.0,
+                256.0
+              ],
+              [
+                14.0,
+                310.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 167.44443190021988,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                0.0,
+                307.591387272243,
+                283.7912502960278
+              ],
+              [
+                0.0,
+                278.78361656746415,
+                448.73896965403605
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonLeafServiceReserve_secondary_L",
+      "role": "leaf_service",
+      "side": "L",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 113.52076039511498,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                300.0,
+                257.1
+              ],
+              [
+                49.99999999999999,
+                280.5180180548044,
+                368.6500579120073
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 83.57032966310472,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                238.0
+              ],
+              [
+                20.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 72.49827584156743,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                238.0
+              ],
+              [
+                20.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 30.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                320.0,
+                257.1
+              ],
+              [
+                20.0,
+                350.0,
+                257.1
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 57.516095520789754,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                320.0,
+                257.1
+              ],
+              [
+                42.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 13.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                320.0,
+                238.0
+              ],
+              [
+                20.0,
+                320.0,
+                225.0
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 235.27005759339627,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                238.0
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 464.9434481740763,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                300.0,
+                257.1
+              ],
+              [
+                500.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 282.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                257.1
+              ],
+              [
+                20.0,
+                18.0,
+                257.1
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 202.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                238.0
+              ],
+              [
+                20.0,
+                300.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 192.4420393162476,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                20.0,
+                300.0,
+                257.1
+              ],
+              [
+                17.999999999999996,
+                266.8933348220129,
+                446.66235706750655
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonWireServiceReserve_secondary_L",
+      "role": "wire_service",
+      "side": "L",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 101.76153862708564,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                62.0,
+                302.0,
+                269.1
+              ],
+              [
+                62.0,
+                284.4925616333335,
+                369.3442035510743
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 95.51963149007642,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                302.0,
+                250.0
+              ],
+              [
+                42.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 84.30895563343196,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                302.0,
+                250.0
+              ],
+              [
+                42.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 18.973665961010276,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                332.0,
+                269.1
+              ],
+              [
+                36.0,
+                350.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 41.640223764132045,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                332.0,
+                269.1
+              ],
+              [
+                42.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 25.44999999999999,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                53.0,
+                320.0,
+                250.0
+              ],
+              [
+                53.0,
+                320.0,
+                224.55
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 241.6112580158466,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                302.0,
+                250.0
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 445.60969468807565,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                62.0,
+                302.0,
+                269.1
+              ],
+              [
+                500.0,
+                220.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 284.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                302.0,
+                269.1
+              ],
+              [
+                42.0,
+                18.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 214.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                302.0,
+                250.0
+              ],
+              [
+                42.0,
+                302.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 182.53928276527793,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                42.0,
+                302.0,
+                269.1
+              ],
+              [
+                17.999999999999996,
+                270.86787840054205,
+                447.35650270657356
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonToolServiceReserve_secondary_L",
+      "role": "tool_service",
+      "side": "L",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 92.25130838105927,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                308.27956233731646,
+                279.8508930685913
+              ],
+              [
+                70.0,
+                292.4082998002555,
+                370.7266704985368
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1L",
+          "distance_mm": 107.04699910719627,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                60.0,
+                306.58256936913295,
+                260.60206576511564
+              ],
+              [
+                60.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 95.84894897919395,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                306.2210300257339,
+                260.741523563048
+              ],
+              [
+                70.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1L",
+          "distance_mm": 30.805843601498726,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                43.0,
+                320.0,
+                270.0
+              ],
+              [
+                36.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 52.51762758986275,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                319.75724805173047,
+                272.190002387442
+              ],
+              [
+                70.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1L",
+          "distance_mm": 36.11372975210777,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                43.0,
+                311.3216372009102,
+                260.08772099317366
+              ],
+              [
+                43.0,
+                316.0945620713104,
+                224.29078446517184
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFL",
+          "distance_mm": 245.72348593227798,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                43.0,
+                300.6464344666153,
+                266.4629374033419
+              ],
+              [
+                18.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 437.37855457258075,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                300.0,
+                270.0
+              ],
+              [
+                500.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 282.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                300.0,
+                270.0
+              ],
+              [
+                70.0,
+                18.000000000000004,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 224.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                70.0,
+                310.0,
+                260.0
+              ],
+              [
+                70.0,
+                310.0,
+                36.00000000000001
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelL",
+          "distance_mm": 173.2575921268362,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                43.0,
+                308.27956233731646,
+                279.8508930685913
+              ],
+              [
+                17.999999999999996,
+                278.78361656746415,
+                448.73896965403605
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafButton_secondary_R",
+      "role": "occupied_button",
+      "side": "R",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 96.83909561702134,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                570.0,
+                308.70967175298733,
+                277.3881698014435
+              ],
+              [
+                549.9999999999999,
+                292.4082998002555,
+                370.7266704985368
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 104.60728476066332,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                305.2155971167861,
+                256.8428920711619
+              ],
+              [
+                582.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 94.00122035687923,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                304.70944203602744,
+                257.0381329882672
+              ],
+              [
+                580.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 31.622776601683793,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                324.0,
+                270.0
+              ],
+              [
+                582.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 55.01799110851671,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                570.0,
+                317.3179360387979,
+                271.6425017905815
+              ],
+              [
+                569.8000000000001,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 36.422407688324455,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                311.85029208127423,
+                256.12280939044314
+              ],
+              [
+                582.0,
+                316.0350883972694,
+                224.73683702047904
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 241.12122294438248,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                296.9050082532614,
+                265.0481123646787
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 87.78524933039719,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                570.0,
+                302.5,
+                270.0
+              ],
+              [
+                540.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 278.3522947633089,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                296.0,
+                270.0
+              ],
+              [
+                586.0,
+                18.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 220.44500447957535,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                310.0,
+                256.0
+              ],
+              [
+                586.0,
+                310.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 167.44443190021983,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                307.591387272243,
+                283.7912502960278
+              ],
+              [
+                600.0,
+                278.7836165674641,
+                448.738969654036
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafNut_secondary_R",
+      "role": "occupied_nut",
+      "side": "R",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 95.75645494948672,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                307.93547480477974,
+                281.82107168230954
+              ],
+              [
+                549.9999999999999,
+                292.4082998002555,
+                370.7266704985368
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 105.04699910719621,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                305.89908324295953,
+                258.72247891813873
+              ],
+              [
+                582.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 93.87025740083676,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                305.46523603088065,
+                258.88982827565764
+              ],
+              [
+                580.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 28.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                322.0,
+                270.0
+              ],
+              [
+                582.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 51.96990184046972,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                321.7086976620766,
+                272.6280028649304
+              ],
+              [
+                569.8000000000001,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 33.66372975210776,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                311.58596464109223,
+                258.10526519180837
+              ],
+              [
+                582.0,
+                316.0350883972695,
+                224.73683702047904
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 242.44842306447882,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                298.77572135993836,
+                265.7555248840103
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 88.58893836140041,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                298.0,
+                270.0
+              ],
+              [
+                540.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 280.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                298.0,
+                270.0
+              ],
+              [
+                582.0,
+                18.000000000000004,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 222.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                310.0,
+                258.0
+              ],
+              [
+                582.0,
+                310.0,
+                36.00000000000001
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 169.44443190021983,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                582.0,
+                307.93547480477974,
+                281.82107168230954
+              ],
+              [
+                582.0,
+                278.7836165674641,
+                448.738969654036
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafBracket_secondary_R",
+      "role": "occupied_leaf_bracket",
+      "side": "R",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 116.56714353880713,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                300.0,
+                254.0
+              ],
+              [
+                549.9999999999999,
+                279.9926347839699,
+                368.5583008337207
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 83.57032966310472,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                300.0,
+                238.0
+              ],
+              [
+                580.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 72.49827584156743,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                300.0,
+                238.0
+              ],
+              [
+                580.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 30.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                320.0,
+                254.0
+              ],
+              [
+                580.0,
+                350.0,
+                254.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 59.01336942793216,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                320.0,
+                254.0
+              ],
+              [
+                558.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 13.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                320.0,
+                238.0
+              ],
+              [
+                580.0,
+                320.0,
+                225.0
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 235.27005759339627,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                300.0,
+                238.0
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 82.21921916437786,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                300.0,
+                254.0
+              ],
+              [
+                540.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 282.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                300.0,
+                254.0
+              ],
+              [
+                580.0,
+                18.0,
+                254.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 202.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                300.0,
+                238.0
+              ],
+              [
+                580.0,
+                300.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 195.4956538214393,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                300.0,
+                254.0
+              ],
+              [
+                582.0,
+                266.36795155117846,
+                446.57059998921994
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "LeafContacts_secondary_R",
+      "role": "occupied_leaf_contacts",
+      "side": "R",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 114.11012805125532,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                303.0,
+                257.1
+              ],
+              [
+                549.9999999999999,
+                283.42922088226896,
+                369.15849333539546
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 100.56838469419701,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                303.0,
+                255.0
+              ],
+              [
+                559.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 89.31965069345043,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                303.0,
+                255.0
+              ],
+              [
+                559.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 33.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                577.0,
+                317.0,
+                255.60000000000002
+              ],
+              [
+                577.0,
+                350.0,
+                255.60000000000002
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 60.19220251790601,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                317.0,
+                257.1
+              ],
+              [
+                559.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 30.074953183502345,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                579.0,
+                317.0,
+                255.0
+              ],
+              [
+                579.0,
+                318.50187149168323,
+                224.96257016633535
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 242.88886347463526,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                579.0,
+                303.0,
+                255.0
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 85.19630273667984,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                303.0,
+                257.1
+              ],
+              [
+                540.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 285.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                577.0,
+                303.0,
+                255.60000000000002
+              ],
+              [
+                577.0,
+                18.0,
+                255.60000000000002
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 219.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                559.0,
+                303.0,
+                255.0
+              ],
+              [
+                559.0,
+                303.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 192.97109855826002,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                579.0,
+                303.0,
+                257.1
+              ],
+              [
+                582.0,
+                269.80453764947754,
+                447.1707924908947
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonBodyServiceReserve_secondary_R",
+      "role": "body_service",
+      "side": "R",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 96.83909561702134,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                570.0,
+                308.70967175298733,
+                277.3881698014435
+              ],
+              [
+                549.9999999999999,
+                292.4082998002555,
+                370.7266704985368
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 104.60728476066332,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                305.2155971167861,
+                256.8428920711619
+              ],
+              [
+                582.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 94.00122035687923,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                304.70944203602744,
+                257.0381329882672
+              ],
+              [
+                580.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 31.622776601683793,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                324.0,
+                270.0
+              ],
+              [
+                582.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 55.01799110851671,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                570.0,
+                317.3179360387979,
+                271.6425017905815
+              ],
+              [
+                569.8000000000001,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 36.422407688324455,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                311.85029208127423,
+                256.12280939044314
+              ],
+              [
+                582.0,
+                316.0350883972694,
+                224.73683702047904
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 241.12122294438248,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                296.9050082532614,
+                265.0481123646787
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 87.78524933039719,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                570.0,
+                302.5,
+                270.0
+              ],
+              [
+                540.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 278.3522947633089,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                296.0,
+                270.0
+              ],
+              [
+                586.0,
+                18.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 220.44500447957535,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                310.0,
+                256.0
+              ],
+              [
+                586.0,
+                310.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 167.44443190021983,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                600.0,
+                307.591387272243,
+                283.7912502960278
+              ],
+              [
+                600.0,
+                278.7836165674641,
+                448.738969654036
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonLeafServiceReserve_secondary_R",
+      "role": "leaf_service",
+      "side": "R",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 113.52076039511499,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                300.0,
+                257.1
+              ],
+              [
+                549.9999999999999,
+                280.5180180548044,
+                368.6500579120073
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 83.57032966310472,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                300.0,
+                238.0
+              ],
+              [
+                558.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 72.49827584156743,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                300.0,
+                238.0
+              ],
+              [
+                580.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 30.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                320.0,
+                257.1
+              ],
+              [
+                580.0,
+                350.0,
+                257.1
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 57.516095520789754,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                320.0,
+                257.1
+              ],
+              [
+                558.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 13.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                320.0,
+                238.0
+              ],
+              [
+                580.0,
+                320.0,
+                225.0
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 235.27005759339627,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                300.0,
+                238.0
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 82.05126446313913,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                300.0,
+                257.1
+              ],
+              [
+                540.0,
+                220.0,
+                260.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 282.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                300.0,
+                257.1
+              ],
+              [
+                558.0,
+                18.0,
+                257.1
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 202.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                300.0,
+                238.0
+              ],
+              [
+                558.0,
+                300.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 192.44203931624753,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                580.0,
+                300.0,
+                257.1
+              ],
+              [
+                582.0,
+                266.8933348220129,
+                446.6623570675065
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonWireServiceReserve_secondary_R",
+      "role": "wire_service",
+      "side": "R",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 101.76153862708564,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                538.0,
+                302.0,
+                269.1
+              ],
+              [
+                538.0,
+                284.4925616333335,
+                369.3442035510743
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 95.51963149007642,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                302.0,
+                250.0
+              ],
+              [
+                558.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 84.30895563343196,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                302.0,
+                250.0
+              ],
+              [
+                558.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 18.973665961010276,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                332.0,
+                269.1
+              ],
+              [
+                564.0,
+                350.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 41.640223764132045,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                332.0,
+                269.1
+              ],
+              [
+                558.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 25.44999999999999,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                320.0,
+                250.0
+              ],
+              [
+                558.0,
+                320.0,
+                224.55
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 241.6112580158466,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                302.0,
+                250.0
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 82.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                538.0,
+                302.0,
+                269.1
+              ],
+              [
+                538.0,
+                220.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 284.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                302.0,
+                269.1
+              ],
+              [
+                558.0,
+                18.0,
+                269.1
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 214.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                302.0,
+                250.0
+              ],
+              [
+                558.0,
+                302.0,
+                36.0
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 182.53928276527793,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                558.0,
+                302.0,
+                269.1
+              ],
+              [
+                582.0,
+                270.86787840054205,
+                447.35650270657356
+              ]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ButtonToolServiceReserve_secondary_R",
+      "role": "tool_service",
+      "side": "R",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "nearest": {
+        "playfield_base": {
+          "part": "PF_BasePlywood",
+          "distance_mm": 92.25130838105929,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                308.27956233731646,
+                279.8508930685913
+              ],
+              [
+                530.0,
+                292.4082998002555,
+                370.7266704985368
+              ]
+            ]
+          ]
+        },
+        "S1_supports": {
+          "part": "SHELF_SUPPORT_1R",
+          "distance_mm": 107.04699910719627,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                540.0,
+                306.58256936913295,
+                260.60206576511564
+              ],
+              [
+                540.0,
+                270.0,
+                160.0
+              ]
+            ]
+          ]
+        },
+        "S1_shelf": {
+          "part": "SHELF_1",
+          "distance_mm": 95.84894897919395,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                306.2210300257339,
+                260.741523563048
+              ],
+              [
+                530.0,
+                270.0,
+                172.0
+              ]
+            ]
+          ]
+        },
+        "T1_guides": {
+          "part": "CROSS_GUIDE_1R",
+          "distance_mm": 30.805843601498726,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                557.0,
+                320.0,
+                270.0
+              ],
+              [
+                564.0,
+                350.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "T1_crossmember": {
+          "part": "CROSS_1",
+          "distance_mm": 52.51762758986275,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                319.75724805173047,
+                272.190002387442
+              ],
+              [
+                530.0,
+                371.0,
+                283.691375367901
+              ]
+            ]
+          ]
+        },
+        "SSF_front_exciters": {
+          "part": "SSF_Exciter1R",
+          "distance_mm": 36.11372975210776,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                557.0,
+                311.3216372009102,
+                260.08772099317366
+              ],
+              [
+                557.0,
+                316.0945620713104,
+                224.29078446517184
+              ]
+            ]
+          ]
+        },
+        "leg_blocks_and_hardware": {
+          "part": "CandidateLegBlockFR",
+          "distance_mm": 245.72348593227798,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                557.0,
+                300.6464344666153,
+                266.4629374033419
+              ],
+              [
+                582.0,
+                72.0,
+                180.0
+              ]
+            ]
+          ]
+        },
+        "plunger": {
+          "part": "PLUNGER_RESERVED",
+          "distance_mm": 80.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                300.0,
+                270.0
+              ],
+              [
+                530.0,
+                220.0,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "front_panel": {
+          "part": "FRONT",
+          "distance_mm": 282.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                300.0,
+                270.0
+              ],
+              [
+                530.0,
+                18.000000000000004,
+                270.0
+              ]
+            ]
+          ]
+        },
+        "floor": {
+          "part": "FLOOR",
+          "distance_mm": 224.0,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                530.0,
+                310.0,
+                260.0
+              ],
+              [
+                530.0,
+                310.0,
+                36.00000000000001
+              ]
+            ]
+          ]
+        },
+        "glass_channels": {
+          "part": "CandidateGlassChannelR",
+          "distance_mm": 173.25759212683613,
+          "penetration_mm3": 0,
+          "witness_xyz_mm": [
+            [
+              [
+                557.0,
+                308.27956233731646,
+                279.8508930685913
+              ],
+              [
+                582.0,
+                278.78361656746404,
+                448.738969654036
+              ]
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "wood": [
+    {
+      "side": "L",
+      "button": "primary",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "reference_bore_diameter_mm": 15.875,
+      "reference_pocket_diameter_mm": 25.0,
+      "nominal_stock_mm": 18,
+      "reference_nut_recess_depth_mm": 3,
+      "measured_nominal_annulus_residual_mm": 15.0,
+      "side_outer_boundary_minimum_gap_from_reference_pocket_mm": 159.48202475546026,
+      "actual_side_top_z_at_center_y_mm": 444.58521126760564,
+      "center_below_local_top_vertical_mm": 174.58521126760564,
+      "reference_pocket_top_vertical_web_mm": 162.08521126760564,
+      "longitudinal_center_pitch_mm": 55,
+      "reference_pocket_to_pocket_web_mm": 30.0,
+      "geometry_status": "Nominal candidate packaging. New holes/recesses remain PURCHASE_BEFORE_CNC; actual lot stock and selected button stack unknown."
+    },
+    {
+      "side": "R",
+      "button": "primary",
+      "center_yz_mm": [
+        255,
+        270
+      ],
+      "reference_bore_diameter_mm": 15.875,
+      "reference_pocket_diameter_mm": 25.0,
+      "nominal_stock_mm": 18,
+      "reference_nut_recess_depth_mm": 3,
+      "measured_nominal_annulus_residual_mm": 15.0,
+      "side_outer_boundary_minimum_gap_from_reference_pocket_mm": 159.48202475546026,
+      "actual_side_top_z_at_center_y_mm": 444.58521126760564,
+      "center_below_local_top_vertical_mm": 174.58521126760564,
+      "reference_pocket_top_vertical_web_mm": 162.08521126760564,
+      "longitudinal_center_pitch_mm": 55,
+      "reference_pocket_to_pocket_web_mm": 30.0,
+      "geometry_status": "Nominal candidate packaging. New holes/recesses remain PURCHASE_BEFORE_CNC; actual lot stock and selected button stack unknown."
+    },
+    {
+      "side": "L",
+      "button": "secondary",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "reference_bore_diameter_mm": 15.875,
+      "reference_pocket_diameter_mm": 25.0,
+      "nominal_stock_mm": 18,
+      "reference_nut_recess_depth_mm": 3,
+      "measured_nominal_annulus_residual_mm": 15.0,
+      "side_outer_boundary_minimum_gap_from_reference_pocket_mm": 168.94443190021977,
+      "actual_side_top_z_at_center_y_mm": 454.19084507042254,
+      "center_below_local_top_vertical_mm": 184.19084507042254,
+      "reference_pocket_top_vertical_web_mm": 171.69084507042254,
+      "longitudinal_center_pitch_mm": 55,
+      "reference_pocket_to_pocket_web_mm": 30.0,
+      "geometry_status": "Nominal candidate packaging. New holes/recesses remain PURCHASE_BEFORE_CNC; actual lot stock and selected button stack unknown."
+    },
+    {
+      "side": "R",
+      "button": "secondary",
+      "center_yz_mm": [
+        310,
+        270
+      ],
+      "reference_bore_diameter_mm": 15.875,
+      "reference_pocket_diameter_mm": 25.0,
+      "nominal_stock_mm": 18,
+      "reference_nut_recess_depth_mm": 3,
+      "measured_nominal_annulus_residual_mm": 15.0,
+      "side_outer_boundary_minimum_gap_from_reference_pocket_mm": 168.94443190021977,
+      "actual_side_top_z_at_center_y_mm": 454.19084507042254,
+      "center_below_local_top_vertical_mm": 184.19084507042254,
+      "reference_pocket_top_vertical_web_mm": 171.69084507042254,
+      "longitudinal_center_pitch_mm": 55,
+      "reference_pocket_to_pocket_web_mm": 30.0,
+      "geometry_status": "Nominal candidate packaging. New holes/recesses remain PURCHASE_BEFORE_CNC; actual lot stock and selected button stack unknown."
+    }
+  ],
+  "checks": [
+    {
+      "name": "all named obstacle groups populated",
+      "pass": true
+    },
+    {
+      "name": "all button service and occupied references clear named structures",
+      "pass": true
+    },
+    {
+      "name": "both nominal reference annuli retain15mm wood",
+      "pass": true
+    },
+    {
+      "name": "native input unchanged",
+      "pass": true
+    }
+  ],
+  "manufacturing_release": false,
+  "final_bore_mm": null,
+  "final_recess_mm": null,
+  "human_access_source": "geometry-validation.json#button_access; top entry after main glass+matrix removal and playfield service50deg. Not a universal ergonomic qualification."
+}

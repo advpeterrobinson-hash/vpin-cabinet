@@ -1,0 +1,12 @@
+{
+  "version": "V33.6",
+  "authority": "CURRENT_VALIDATED_POSITIONAL_AND_MONITOR_SERVICE_OVERLAY",
+  "source_head": "7b84181f5c48c1a1e4a78f87319eec5512318492",
+  "viewer": "exports/generated/viewer-v32/index.html",
+  "builder": "tools/build_viewer_v336.py",
+  "validation": "exports/generated/monitor-support-v336/validation.json",
+  "manual_json": "exports/generated/monitor-support-v336/assembly-manual.json",
+  "manufacturing_register": "config/manufacturing/flatpack_v336.json",
+  "geometry_changed": true,
+  "manufacturing_release": false
+}

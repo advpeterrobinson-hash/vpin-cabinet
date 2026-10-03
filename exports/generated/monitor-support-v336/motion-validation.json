@@ -1,0 +1,2501 @@
+{
+  "checks": [
+    {
+      "name": "validated axes and retained core parts unchanged",
+      "pass": true,
+      "detail": {
+        "WPC": [
+          300.0,
+          1066.8,
+          508.0
+        ],
+        "PF": [
+          300.0,
+          1035.25061984718,
+          484.2203301149065
+        ],
+        "protected": [
+          "PF_WoodDowel",
+          "PF_OpenCradleL",
+          "PF_OpenCradleR",
+          "PF_VESAEnvelope",
+          "PLAYFIELD_ENVELOPE",
+          "BB_MonitorStopRail",
+          "BACKBOX_BASE",
+          "CandidateGlass",
+          "CandidateGlassChannelL",
+          "CandidateGlassChannelR"
+        ]
+      }
+    },
+    {
+      "name": "PF_restored_material_vs_current_fixed",
+      "pass": true,
+      "detail": {
+        "intervals": 5,
+        "moving_ids": [
+          "PF_BasePlywood"
+        ],
+        "obstacle_ids": [
+          "SIDE_L",
+          "SIDE_R",
+          "FRONT",
+          "REAR",
+          "FAN_230",
+          "FAN_370",
+          "REAR_DOOR",
+          "FLOOR",
+          "FLOOR_CLEAT_18",
+          "FLOOR_CLEAT_552",
+          "SHELF_1",
+          "SHELF_SUPPORT_1L",
+          "SHELF_SUPPORT_1R",
+          "SHELF_2",
+          "SHELF_SUPPORT_2L",
+          "SHELF_SUPPORT_2R",
+          "SHELF_3",
+          "SHELF_SUPPORT_3L",
+          "SHELF_SUPPORT_3R",
+          "CROSS_1",
+          "CROSS_GUIDE_1L",
+          "CROSS_BRACKET_1L",
+          "CROSS_GUIDE_1R",
+          "CROSS_BRACKET_1R",
+          "CROSS_2",
+          "CROSS_GUIDE_2L",
+          "CROSS_BRACKET_2L",
+          "CROSS_GUIDE_2R",
+          "CROSS_BRACKET_2R",
+          "CROSS_3",
+          "CROSS_GUIDE_3L",
+          "CROSS_BRACKET_3L",
+          "CROSS_GUIDE_3R",
+          "CROSS_BRACKET_3R",
+          "PC_BASE",
+          "BACKBOX_BASE",
+          "CoinStudy_CoinFrame",
+          "CoinStudy_DoorLeaf",
+          "CoinStudy_ReturnButton1",
+          "CoinStudy_ReturnButton2",
+          "CoinStudy_LightSwitch1",
+          "CoinStudy_LightSwitch2",
+          "CoinStudy_DoorLock",
+          "CoinStudy_Mechanism1",
+          "CoinStudy_Mechanism2",
+          "CoinStudy_MechanismMount1_1",
+          "CoinStudy_MechanismMount1_2",
+          "CoinStudy_MechanismMount2_1",
+          "CoinStudy_MechanismMount2_2",
+          "CoinStudy_CoinTray",
+          "CoinStudy_TraySupport1",
+          "CoinStudy_TraySupport2",
+          "CandidateFrontButton1",
+          "CandidateFrontButton2",
+          "CandidateFrontButton3",
+          "CandidateFrontButton4",
+          "SimpleShelfBolt1L1",
+          "SimpleShelfBolt1L1Washer",
+          "SimpleShelfBolt1L1Insert",
+          "SimpleShelfBolt1L2",
+          "SimpleShelfBolt1L2Washer",
+          "SimpleShelfBolt1L2Insert",
+          "SimpleShelfBolt1R1",
+          "SimpleShelfBolt1R1Washer",
+          "SimpleShelfBolt1R1Insert",
+          "SimpleShelfBolt1R2",
+          "SimpleShelfBolt1R2Washer",
+          "SimpleShelfBolt1R2Insert",
+          "SimpleShelfBolt2L1",
+          "SimpleShelfBolt2L1Washer",
+          "SimpleShelfBolt2L1Insert",
+          "SimpleShelfBolt2L2",
+          "SimpleShelfBolt2L2Washer",
+          "SimpleShelfBolt2L2Insert",
+          "SimpleShelfBolt2R1",
+          "SimpleShelfBolt2R1Washer",
+          "SimpleShelfBolt2R1Insert",
+          "SimpleShelfBolt2R2",
+          "SimpleShelfBolt2R2Washer",
+          "SimpleShelfBolt2R2Insert",
+          "SimpleShelfBolt3L1",
+          "SimpleShelfBolt3L1Washer",
+          "SimpleShelfBolt3L1Insert",
+          "SimpleShelfBolt3L2",
+          "SimpleShelfBolt3L2Washer",
+          "SimpleShelfBolt3L2Insert",
+          "SimpleShelfBolt3R1",
+          "SimpleShelfBolt3R1Washer",
+          "SimpleShelfBolt3R1Insert",
+          "SimpleShelfBolt3R2",
+          "SimpleShelfBolt3R2Washer",
+          "SimpleShelfBolt3R2Insert",
+          "CandidateFixedSupportScrew1L1",
+          "CandidateFixedSupportScrew1L1Washer",
+          "CandidateFixedSupportScrew1L2",
+          "CandidateFixedSupportScrew1L2Washer",
+          "CandidateFixedSupportScrew1R1",
+          "CandidateFixedSupportScrew1R1Washer",
+          "CandidateFixedSupportScrew1R2",
+          "CandidateFixedSupportScrew1R2Washer",
+          "CandidateFixedSupportScrew2L1",
+          "CandidateFixedSupportScrew2L1Washer",
+          "CandidateFixedSupportScrew2L2",
+          "CandidateFixedSupportScrew2L2Washer",
+          "CandidateFixedSupportScrew2R1",
+          "CandidateFixedSupportScrew2R1Washer",
+          "CandidateFixedSupportScrew2R2",
+          "CandidateFixedSupportScrew2R2Washer",
+          "CandidateFixedSupportScrew3L1",
+          "CandidateFixedSupportScrew3L1Washer",
+          "CandidateFixedSupportScrew3L2",
+          "CandidateFixedSupportScrew3L2Washer",
+          "CandidateFixedSupportScrew3R1",
+          "CandidateFixedSupportScrew3R1Washer",
+          "CandidateFixedSupportScrew3R2",
+          "CandidateFixedSupportScrew3R2Washer",
+          "CandidateLegBlockFL",
+          "CandidateLegPlateFL",
+          "CandidateLegBlockFR",
+          "CandidateLegPlateFR",
+          "CandidateLegBlockRL",
+          "CandidateLegPlateRL",
+          "CandidateLegBlockRR",
+          "CandidateLegPlateRR",
+          "CandidateGlassChannelL",
+          "CandidateGlassChannelR",
+          "CandidateFanGuard230Inner",
+          "CandidateFanGuard370Inner",
+          "CandidateHandleBolt1",
+          "CandidateHandleBolt1Washer",
+          "CandidateHandleBolt2",
+          "CandidateHandleBolt2Washer",
+          "CandidateRearHandle",
+          "CandidateKeyLockBody",
+          "CandidateKeyLockShaft",
+          "CandidateKeyLockCam",
+          "CandidateLockKeeper",
+          "CandidateHingeFixed1",
+          "CandidateHingeMoving1",
+          "CandidateHingePin1",
+          "CandidateHingeFixed2",
+          "CandidateHingeMoving2",
+          "CandidateHingePin2",
+          "CandidateMainsEnclosure",
+          "SSF_Subwoofer_DCS165_Reference",
+          "SSF_BST_Carrier",
+          "SSF_BST1_Reference",
+          "SSF_Exciter1L",
+          "SSF_Exciter1R",
+          "SSF_Exciter2L",
+          "SSF_Exciter2R",
+          "LeafButton_primary_L",
+          "LeafButton_primary_R",
+          "LeafNut_primary_L",
+          "LeafNut_primary_R",
+          "LeafBracket_primary_L",
+          "LeafBracket_primary_R",
+          "LeafContacts_primary_L",
+          "LeafContacts_primary_R",
+          "LeafButton_secondary_L",
+          "LeafButton_secondary_R",
+          "LeafNut_secondary_L",
+          "LeafNut_secondary_R",
+          "LeafBracket_secondary_L",
+          "LeafBracket_secondary_R",
+          "LeafContacts_secondary_L",
+          "LeafContacts_secondary_R",
+          "PF_SupportMountScrewL1",
+          "PF_SupportMountScrewR1",
+          "PF_SupportMountScrewL2",
+          "PF_SupportMountScrewR2",
+          "PF_SupportMountScrewL3",
+          "PF_SupportMountScrewR3",
+          "PF_OpenCradleL",
+          "PF_OpenCradleR",
+          "FloorFanBoltL1",
+          "FloorFanNutL1",
+          "FloorFanBoltL2",
+          "FloorFanNutL2",
+          "FloorFanBoltL3",
+          "FloorFanNutL3",
+          "FloorFanBoltL4",
+          "FloorFanNutL4",
+          "FloorFilterInsertL1",
+          "FloorFilterScrewL1",
+          "FloorFilterInsertL2",
+          "FloorFilterScrewL2",
+          "FloorFilterInsertL3",
+          "FloorFilterScrewL3",
+          "FloorFilterInsertL4",
+          "FloorFilterScrewL4",
+          "FloorIntakeFanL",
+          "RemovableIntakeFilterL",
+          "FloorFanBoltR1",
+          "FloorFanNutR1",
+          "FloorFanBoltR2",
+          "FloorFanNutR2",
+          "FloorFanBoltR3",
+          "FloorFanNutR3",
+          "FloorFanBoltR4",
+          "FloorFanNutR4",
+          "FloorFilterInsertR1",
+          "FloorFilterScrewR1",
+          "FloorFilterInsertR2",
+          "FloorFilterScrewR2",
+          "FloorFilterInsertR3",
+          "FloorFilterScrewR3",
+          "FloorFilterInsertR4",
+          "FloorFilterScrewR4",
+          "FloorIntakeFanR",
+          "RemovableIntakeFilterR",
+          "MX_WoodSeatL",
+          "MX_WoodSeatR",
+          "MX_InsertL",
+          "MX_FixedScrewL1",
+          "MX_FixedScrewL2",
+          "MX_InsertR",
+          "MX_FixedScrewR1",
+          "MX_FixedScrewR2",
+          "UprightLockLShelfThread",
+          "UprightLockLShelfBacking",
+          "UprightLockRShelfThread",
+          "UprightLockRShelfBacking",
+          "BB_SideL",
+          "BB_SideR",
+          "BB_Floor",
+          "BB_Top",
+          "BB_RearFrame",
+          "BB_GlassLinerL",
+          "BB_GlassLinerR",
+          "BB_TopFrontRail",
+          "BB_Backglass",
+          "BB_GlassLowerRail",
+          "BB_GlassLowerPad",
+          "BB_GlassTopRetainer",
+          "BB_GlassTopPad",
+          "BB_MonitorRail0",
+          "BB_MonitorRailCleatL0",
+          "BB_MonitorRailCleatR0",
+          "BB_MonitorRail1",
+          "BB_MonitorRailCleatL1",
+          "BB_MonitorRailCleatR1",
+          "BB_MonitorCarrier0",
+          "BB_MonitorDepthShoe00",
+          "BB_MonitorDepthShoe01",
+          "BB_MonitorCarrier1",
+          "BB_MonitorDepthShoe10",
+          "BB_MonitorDepthShoe11",
+          "BB_ReplaceableVESAPlate",
+          "BB_Display32",
+          "BB_DisplayReplaceableBezel",
+          "BB_LowerCassetteFrame",
+          "BB_SpeakerBaffleL",
+          "BB_SpeakerBaffleR",
+          "BB_DMDReplaceableBezel",
+          "BB_DMDRearAdapter",
+          "BB_DMDDepthTie0",
+          "BB_DMDDepthTie1",
+          "BB_CassetteFixedCleatL0",
+          "BB_CassetteFixedCleatL1",
+          "BB_CassetteFixedCleatR0",
+          "BB_CassetteFixedCleatR1",
+          "BB_DoorL",
+          "BB_FanL",
+          "BB_FanGuardL",
+          "BB_IntakeFilterFrameL",
+          "BB_IntakeDownBaffleL",
+          "BB_HingeCleatL",
+          "BB_PianoLeafFixedL",
+          "BB_PianoLeafDoorL",
+          "BB_DoorPerimeterGasketL",
+          "BB_DoorR",
+          "BB_FanR",
+          "BB_FanGuardR",
+          "BB_IntakeFilterFrameR",
+          "BB_IntakeDownBaffleR",
+          "BB_HingeCleatR",
+          "BB_PianoLeafFixedR",
+          "BB_PianoLeafDoorR",
+          "BB_DoorPerimeterGasketR",
+          "BB_CenterAstragal",
+          "BB_CenterGasket",
+          "BB_UprightLockLWasher",
+          "BB_UprightLockLParkingPad0",
+          "BB_UprightLockLParkingPad1",
+          "BB_UprightLockLParkingThread",
+          "BB_UprightLockLKnob",
+          "BB_UprightLockRWasher",
+          "BB_UprightLockRParkingPad0",
+          "BB_UprightLockRParkingPad1",
+          "BB_UprightLockRParkingThread",
+          "BB_UprightLockRKnob",
+          "BB_UprightLockLTether",
+          "BB_UprightLockRTether",
+          "BB_FlexCorridorL",
+          "BB_FlexCorridorR",
+          "BB_ToyZoneUpperL",
+          "BB_ToyZoneUpperR",
+          "BB_ToyZoneLowerL",
+          "BB_ToyZoneLowerR",
+          "BB_MonitorStopRail",
+          "BB_StopAdjuster0",
+          "BB_StopTip0",
+          "BB_StopInsert0",
+          "BB_StopLocknut0",
+          "BB_StopAdjuster1",
+          "BB_StopTip1",
+          "BB_StopInsert1",
+          "BB_StopLocknut1",
+          "BB_StopRailRetention0",
+          "BB_StopRailRetention1",
+          "PlungerFrontInterfaceProvisional",
+          "PlungerShaftProvisional",
+          "PlungerHandleProvisional",
+          "RearFanWoodScrew230_1",
+          "RearFanWoodScrew230_2",
+          "RearFanWoodScrew230_3",
+          "RearFanWoodScrew230_4",
+          "RearFanWoodScrew370_1",
+          "RearFanWoodScrew370_2",
+          "RearFanWoodScrew370_3",
+          "RearFanWoodScrew370_4"
+        ]
+      }
+    },
+    {
+      "name": "PF_complete_vs_new_fixed_material",
+      "pass": true,
+      "detail": {
+        "intervals": 9,
+        "moving_ids": [
+          "PLAYFIELD_ENVELOPE",
+          "PF_BasePlywood",
+          "PF_WoodDowel",
+          "PF_VESAEnvelope",
+          "PF_StrapScrew1_1",
+          "PF_StrapScrew1_3",
+          "PF_CommercialStrap1",
+          "PF_StrapScrew2_1",
+          "PF_StrapScrew2_3",
+          "PF_CommercialStrap2",
+          "PF_StrapScrew3_1",
+          "PF_StrapScrew3_3",
+          "PF_CommercialStrap3",
+          "PF_StrapScrew4_1",
+          "PF_StrapScrew4_3",
+          "PF_CommercialStrap4"
+        ],
+        "obstacle_ids": [
+          "SIDE_L",
+          "SIDE_R",
+          "LeafButton_primary_L",
+          "LeafButton_primary_R",
+          "LeafNut_primary_L",
+          "LeafNut_primary_R",
+          "LeafBracket_primary_L",
+          "LeafBracket_primary_R",
+          "LeafContacts_primary_L",
+          "LeafContacts_primary_R",
+          "LeafButton_secondary_L",
+          "LeafButton_secondary_R",
+          "LeafNut_secondary_L",
+          "LeafNut_secondary_R",
+          "LeafBracket_secondary_L",
+          "LeafBracket_secondary_R",
+          "LeafContacts_secondary_L",
+          "LeafContacts_secondary_R"
+        ]
+      }
+    },
+    {
+      "name": "PF_restored_material_lift",
+      "pass": true,
+      "detail": {
+        "intervals": 1
+      }
+    },
+    {
+      "name": "PF_complete_vs_new_fixed_lift",
+      "pass": true,
+      "detail": {
+        "intervals": 5
+      }
+    },
+    {
+      "name": "PF_complete_vs_button_service_reserves",
+      "pass": true,
+      "detail": {
+        "intervals": 2,
+        "moving_ids": [
+          "PLAYFIELD_ENVELOPE",
+          "PF_BasePlywood",
+          "PF_WoodDowel",
+          "PF_VESAEnvelope",
+          "PF_StrapScrew1_1",
+          "PF_StrapScrew1_3",
+          "PF_CommercialStrap1",
+          "PF_StrapScrew2_1",
+          "PF_StrapScrew2_3",
+          "PF_CommercialStrap2",
+          "PF_StrapScrew3_1",
+          "PF_StrapScrew3_3",
+          "PF_CommercialStrap3",
+          "PF_StrapScrew4_1",
+          "PF_StrapScrew4_3",
+          "PF_CommercialStrap4"
+        ],
+        "obstacle_ids": [
+          "ButtonWireServiceReserve_primary_L",
+          "ButtonToolServiceReserve_primary_L",
+          "ButtonBodyServiceReserve_primary_L",
+          "ButtonLeafServiceReserve_primary_L",
+          "ButtonWireServiceReserve_primary_R",
+          "ButtonToolServiceReserve_primary_R",
+          "ButtonBodyServiceReserve_primary_R",
+          "ButtonLeafServiceReserve_primary_R",
+          "ButtonWireServiceReserve_secondary_L",
+          "ButtonToolServiceReserve_secondary_L",
+          "ButtonBodyServiceReserve_secondary_L",
+          "ButtonLeafServiceReserve_secondary_L",
+          "ButtonWireServiceReserve_secondary_R",
+          "ButtonToolServiceReserve_secondary_R",
+          "ButtonBodyServiceReserve_secondary_R",
+          "ButtonLeafServiceReserve_secondary_R"
+        ]
+      }
+    },
+    {
+      "name": "PF lift vs button service reserves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "playfield_service no added penetration",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "playfield_service no inherited unintended penetration after prerequisites",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "playfield_lift no added penetration",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "playfield_lift no inherited unintended penetration after prerequisites",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "populated_fold_vs_new_fixed_material",
+      "pass": true,
+      "detail": {
+        "intervals": 1,
+        "moving_ids": [
+          "BB_SideL",
+          "BB_SideR",
+          "BB_Floor",
+          "BB_Top",
+          "BB_RearFrame",
+          "BB_GlassLinerL",
+          "BB_GlassLinerR",
+          "BB_TopFrontRail",
+          "BB_Backglass",
+          "BB_GlassLowerRail",
+          "BB_GlassLowerPad",
+          "BB_GlassTopRetainer",
+          "BB_GlassTopPad",
+          "BB_GlassRetainerFastenerReserve0",
+          "BB_GlassRetainerFastenerReserve1",
+          "BB_MonitorRail0",
+          "BB_MonitorRailCleatL0",
+          "BB_MonitorRailCleatR0",
+          "BB_MonitorRail1",
+          "BB_MonitorRailCleatL1",
+          "BB_MonitorRailCleatR1",
+          "BB_MonitorCarrier0",
+          "BB_MonitorDepthShoe00",
+          "BB_MonitorDepthBoltReserve00",
+          "BB_MonitorDepthShoe01",
+          "BB_MonitorDepthBoltReserve01",
+          "BB_MonitorCarrier1",
+          "BB_MonitorDepthShoe10",
+          "BB_MonitorDepthBoltReserve10",
+          "BB_MonitorDepthShoe11",
+          "BB_MonitorDepthBoltReserve11",
+          "BB_MonitorClampReserve160994",
+          "BB_MonitorClampReserve1601134",
+          "BB_MonitorClampReserve440994",
+          "BB_MonitorClampReserve4401134",
+          "BB_ReplaceableVESAPlate",
+          "BB_Display32",
+          "BB_DisplayReplaceableBezel",
+          "BB_LowerCassetteFrame",
+          "BB_SpeakerBaffleL",
+          "BB_SpeakerBaffleR",
+          "BB_DMDReplaceableBezel",
+          "BB_DMDEnvelope",
+          "BB_SpeakerEnvelopeL",
+          "BB_SpeakerEnvelopeR",
+          "BB_DMDRearAdapter",
+          "BB_DMDDepthTie0",
+          "BB_DMDDepthTie1",
+          "BB_CassetteFixedCleatL0",
+          "BB_CassetteBoltReserveL0",
+          "BB_CassetteFixedCleatL1",
+          "BB_CassetteBoltReserveL1",
+          "BB_CassetteFixedCleatR0",
+          "BB_CassetteBoltReserveR0",
+          "BB_CassetteFixedCleatR1",
+          "BB_CassetteBoltReserveR1",
+          "BB_DoorL",
+          "BB_FanL",
+          "BB_FanGuardL",
+          "BB_FanMeshReserveL",
+          "BB_IntakeFilterFrameL",
+          "BB_IntakeMeshReserveL",
+          "BB_IntakeDownBaffleL",
+          "BB_HingeCleatL",
+          "BB_PianoHingeReserveL",
+          "BB_PianoLeafFixedL",
+          "BB_PianoLeafDoorL",
+          "BB_DoorPerimeterGasketL",
+          "BB_FanStrainReliefReserveL",
+          "BB_DoorR",
+          "BB_FanR",
+          "BB_FanGuardR",
+          "BB_FanMeshReserveR",
+          "BB_IntakeFilterFrameR",
+          "BB_IntakeMeshReserveR",
+          "BB_IntakeDownBaffleR",
+          "BB_HingeCleatR",
+          "BB_PianoHingeReserveR",
+          "BB_PianoLeafFixedR",
+          "BB_PianoLeafDoorR",
+          "BB_DoorPerimeterGasketR",
+          "BB_FanStrainReliefReserveR",
+          "BB_CenterAstragal",
+          "BB_CenterGasket",
+          "BB_CamLockBodyReserve",
+          "BB_CamLockBarrelReserve",
+          "BB_CamTongueClosedReserve",
+          "BB_PassiveBoltBodyReserve0",
+          "BB_PassiveBoltClosedReserve0",
+          "BB_PassiveBoltBodyReserve1",
+          "BB_PassiveBoltClosedReserve1",
+          "BB_UprightLockLWasher",
+          "BB_UprightLockLParkingPad0",
+          "BB_UprightLockLParkingPad1",
+          "BB_UprightLockLParkingThread",
+          "BB_UprightLockLParkingScrewReserve0",
+          "BB_UprightLockLParkingScrewReserve1",
+          "BB_UprightLockLKnob",
+          "BB_UprightLockRWasher",
+          "BB_UprightLockRParkingPad0",
+          "BB_UprightLockRParkingPad1",
+          "BB_UprightLockRParkingThread",
+          "BB_UprightLockRParkingScrewReserve0",
+          "BB_UprightLockRParkingScrewReserve1",
+          "BB_UprightLockRKnob",
+          "BB_UprightLockLTether",
+          "BB_UprightLockRTether",
+          "BB_FlexCorridorL",
+          "BB_FlexCorridorR",
+          "BB_MonitorStopRail",
+          "BB_StopAdjuster0",
+          "BB_StopTip0",
+          "BB_StopInsert0",
+          "BB_StopLocknut0",
+          "BB_StopAdjuster1",
+          "BB_StopTip1",
+          "BB_StopInsert1",
+          "BB_StopLocknut1",
+          "BB_StopRailRetention0",
+          "BB_StopRailRetention1"
+        ],
+        "obstacle_ids": [
+          "SIDE_L",
+          "SIDE_R",
+          "LeafButton_primary_L",
+          "LeafButton_primary_R",
+          "LeafNut_primary_L",
+          "LeafNut_primary_R",
+          "LeafBracket_primary_L",
+          "LeafBracket_primary_R",
+          "LeafContacts_primary_L",
+          "LeafContacts_primary_R",
+          "LeafButton_secondary_L",
+          "LeafButton_secondary_R",
+          "LeafNut_secondary_L",
+          "LeafNut_secondary_R",
+          "LeafBracket_secondary_L",
+          "LeafBracket_secondary_R",
+          "LeafContacts_secondary_L",
+          "LeafContacts_secondary_R",
+          "PF_BasePlywood"
+        ]
+      }
+    },
+    {
+      "name": "new_backbox_material_vs_current_fixed",
+      "pass": true,
+      "detail": {
+        "intervals": 1,
+        "moving_ids": [],
+        "obstacle_ids": [
+          "SIDE_L",
+          "SIDE_R",
+          "FRONT",
+          "REAR",
+          "FAN_230",
+          "FAN_370",
+          "REAR_DOOR",
+          "FLOOR",
+          "FLOOR_CLEAT_18",
+          "FLOOR_CLEAT_552",
+          "SHELF_1",
+          "SHELF_SUPPORT_1L",
+          "SHELF_SUPPORT_1R",
+          "SHELF_2",
+          "SHELF_SUPPORT_2L",
+          "SHELF_SUPPORT_2R",
+          "SHELF_3",
+          "SHELF_SUPPORT_3L",
+          "SHELF_SUPPORT_3R",
+          "CROSS_1",
+          "CROSS_GUIDE_1L",
+          "CROSS_BRACKET_1L",
+          "CROSS_GUIDE_1R",
+          "CROSS_BRACKET_1R",
+          "CROSS_2",
+          "CROSS_GUIDE_2L",
+          "CROSS_BRACKET_2L",
+          "CROSS_GUIDE_2R",
+          "CROSS_BRACKET_2R",
+          "CROSS_3",
+          "CROSS_GUIDE_3L",
+          "CROSS_BRACKET_3L",
+          "CROSS_GUIDE_3R",
+          "CROSS_BRACKET_3R",
+          "PLAYFIELD_ENVELOPE",
+          "PC_BASE",
+          "BACKBOX_BASE",
+          "CoinStudy_CoinFrame",
+          "CoinStudy_DoorLeaf",
+          "CoinStudy_ReturnButton1",
+          "CoinStudy_ReturnButton2",
+          "CoinStudy_LightSwitch1",
+          "CoinStudy_LightSwitch2",
+          "CoinStudy_DoorLock",
+          "CoinStudy_Mechanism1",
+          "CoinStudy_Mechanism2",
+          "CoinStudy_MechanismMount1_1",
+          "CoinStudy_MechanismMount1_2",
+          "CoinStudy_MechanismMount2_1",
+          "CoinStudy_MechanismMount2_2",
+          "CoinStudy_CoinTray",
+          "CoinStudy_TraySupport1",
+          "CoinStudy_TraySupport2",
+          "CandidateFrontButton1",
+          "CandidateFrontButton2",
+          "CandidateFrontButton3",
+          "CandidateFrontButton4",
+          "SimpleShelfBolt1L1",
+          "SimpleShelfBolt1L1Washer",
+          "SimpleShelfBolt1L1Insert",
+          "SimpleShelfBolt1L2",
+          "SimpleShelfBolt1L2Washer",
+          "SimpleShelfBolt1L2Insert",
+          "SimpleShelfBolt1R1",
+          "SimpleShelfBolt1R1Washer",
+          "SimpleShelfBolt1R1Insert",
+          "SimpleShelfBolt1R2",
+          "SimpleShelfBolt1R2Washer",
+          "SimpleShelfBolt1R2Insert",
+          "SimpleShelfBolt2L1",
+          "SimpleShelfBolt2L1Washer",
+          "SimpleShelfBolt2L1Insert",
+          "SimpleShelfBolt2L2",
+          "SimpleShelfBolt2L2Washer",
+          "SimpleShelfBolt2L2Insert",
+          "SimpleShelfBolt2R1",
+          "SimpleShelfBolt2R1Washer",
+          "SimpleShelfBolt2R1Insert",
+          "SimpleShelfBolt2R2",
+          "SimpleShelfBolt2R2Washer",
+          "SimpleShelfBolt2R2Insert",
+          "SimpleShelfBolt3L1",
+          "SimpleShelfBolt3L1Washer",
+          "SimpleShelfBolt3L1Insert",
+          "SimpleShelfBolt3L2",
+          "SimpleShelfBolt3L2Washer",
+          "SimpleShelfBolt3L2Insert",
+          "SimpleShelfBolt3R1",
+          "SimpleShelfBolt3R1Washer",
+          "SimpleShelfBolt3R1Insert",
+          "SimpleShelfBolt3R2",
+          "SimpleShelfBolt3R2Washer",
+          "SimpleShelfBolt3R2Insert",
+          "CandidateFixedSupportScrew1L1",
+          "CandidateFixedSupportScrew1L1Washer",
+          "CandidateFixedSupportScrew1L2",
+          "CandidateFixedSupportScrew1L2Washer",
+          "CandidateFixedSupportScrew1R1",
+          "CandidateFixedSupportScrew1R1Washer",
+          "CandidateFixedSupportScrew1R2",
+          "CandidateFixedSupportScrew1R2Washer",
+          "CandidateFixedSupportScrew2L1",
+          "CandidateFixedSupportScrew2L1Washer",
+          "CandidateFixedSupportScrew2L2",
+          "CandidateFixedSupportScrew2L2Washer",
+          "CandidateFixedSupportScrew2R1",
+          "CandidateFixedSupportScrew2R1Washer",
+          "CandidateFixedSupportScrew2R2",
+          "CandidateFixedSupportScrew2R2Washer",
+          "CandidateFixedSupportScrew3L1",
+          "CandidateFixedSupportScrew3L1Washer",
+          "CandidateFixedSupportScrew3L2",
+          "CandidateFixedSupportScrew3L2Washer",
+          "CandidateFixedSupportScrew3R1",
+          "CandidateFixedSupportScrew3R1Washer",
+          "CandidateFixedSupportScrew3R2",
+          "CandidateFixedSupportScrew3R2Washer",
+          "CandidateLegBlockFL",
+          "CandidateLegPlateFL",
+          "CandidateLegBlockFR",
+          "CandidateLegPlateFR",
+          "CandidateLegBlockRL",
+          "CandidateLegPlateRL",
+          "CandidateLegBlockRR",
+          "CandidateLegPlateRR",
+          "CandidateGlassChannelL",
+          "CandidateGlassChannelR",
+          "CandidateFanGuard230Inner",
+          "CandidateFanGuard370Inner",
+          "CandidateHandleBolt1",
+          "CandidateHandleBolt1Washer",
+          "CandidateHandleBolt2",
+          "CandidateHandleBolt2Washer",
+          "CandidateRearHandle",
+          "CandidateKeyLockBody",
+          "CandidateKeyLockShaft",
+          "CandidateKeyLockCam",
+          "CandidateLockKeeper",
+          "CandidateHingeFixed1",
+          "CandidateHingeMoving1",
+          "CandidateHingePin1",
+          "CandidateHingeFixed2",
+          "CandidateHingeMoving2",
+          "CandidateHingePin2",
+          "CandidateMainsEnclosure",
+          "SSF_Subwoofer_DCS165_Reference",
+          "SSF_BST_Carrier",
+          "SSF_BST1_Reference",
+          "SSF_Exciter1L",
+          "SSF_Exciter1R",
+          "SSF_Exciter2L",
+          "SSF_Exciter2R",
+          "LeafButton_primary_L",
+          "LeafButton_primary_R",
+          "LeafNut_primary_L",
+          "LeafNut_primary_R",
+          "LeafBracket_primary_L",
+          "LeafBracket_primary_R",
+          "LeafContacts_primary_L",
+          "LeafContacts_primary_R",
+          "LeafButton_secondary_L",
+          "LeafButton_secondary_R",
+          "LeafNut_secondary_L",
+          "LeafNut_secondary_R",
+          "LeafBracket_secondary_L",
+          "LeafBracket_secondary_R",
+          "LeafContacts_secondary_L",
+          "LeafContacts_secondary_R",
+          "PF_BasePlywood",
+          "PF_WoodDowel",
+          "PF_VESAEnvelope",
+          "PF_SupportMountScrewL1",
+          "PF_SupportMountScrewR1",
+          "PF_SupportMountScrewL2",
+          "PF_SupportMountScrewR2",
+          "PF_SupportMountScrewL3",
+          "PF_SupportMountScrewR3",
+          "PF_OpenCradleL",
+          "PF_OpenCradleR",
+          "PF_StrapScrew1_1",
+          "PF_StrapScrew1_3",
+          "PF_CommercialStrap1",
+          "PF_StrapScrew2_1",
+          "PF_StrapScrew2_3",
+          "PF_CommercialStrap2",
+          "PF_StrapScrew3_1",
+          "PF_StrapScrew3_3",
+          "PF_CommercialStrap3",
+          "PF_StrapScrew4_1",
+          "PF_StrapScrew4_3",
+          "PF_CommercialStrap4",
+          "FloorFanBoltL1",
+          "FloorFanNutL1",
+          "FloorFanBoltL2",
+          "FloorFanNutL2",
+          "FloorFanBoltL3",
+          "FloorFanNutL3",
+          "FloorFanBoltL4",
+          "FloorFanNutL4",
+          "FloorFilterInsertL1",
+          "FloorFilterScrewL1",
+          "FloorFilterInsertL2",
+          "FloorFilterScrewL2",
+          "FloorFilterInsertL3",
+          "FloorFilterScrewL3",
+          "FloorFilterInsertL4",
+          "FloorFilterScrewL4",
+          "FloorIntakeFanL",
+          "RemovableIntakeFilterL",
+          "FloorFanBoltR1",
+          "FloorFanNutR1",
+          "FloorFanBoltR2",
+          "FloorFanNutR2",
+          "FloorFanBoltR3",
+          "FloorFanNutR3",
+          "FloorFanBoltR4",
+          "FloorFanNutR4",
+          "FloorFilterInsertR1",
+          "FloorFilterScrewR1",
+          "FloorFilterInsertR2",
+          "FloorFilterScrewR2",
+          "FloorFilterInsertR3",
+          "FloorFilterScrewR3",
+          "FloorFilterInsertR4",
+          "FloorFilterScrewR4",
+          "FloorIntakeFanR",
+          "RemovableIntakeFilterR",
+          "MX_WoodSeatL",
+          "MX_WoodSeatR",
+          "MX_InsertL",
+          "MX_FixedScrewL1",
+          "MX_FixedScrewL2",
+          "MX_InsertR",
+          "MX_FixedScrewR1",
+          "MX_FixedScrewR2",
+          "UprightLockLShelfThread",
+          "UprightLockLShelfBacking",
+          "UprightLockRShelfThread",
+          "UprightLockRShelfBacking",
+          "PlungerFrontInterfaceProvisional",
+          "PlungerShaftProvisional",
+          "PlungerHandleProvisional",
+          "RearFanWoodScrew230_1",
+          "RearFanWoodScrew230_2",
+          "RearFanWoodScrew230_3",
+          "RearFanWoodScrew230_4",
+          "RearFanWoodScrew370_1",
+          "RearFanWoodScrew370_2",
+          "RearFanWoodScrew370_3",
+          "RearFanWoodScrew370_4"
+        ]
+      }
+    },
+    {
+      "name": "backbox_fold no added penetration",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "backbox_fold no inherited unintended penetration after prerequisites",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "changed backbox wood is subtractive only; accepted service paths preserved",
+      "pass": true,
+      "detail": [
+        "BB_MonitorCarrier0",
+        "BB_MonitorCarrier1"
+      ]
+    },
+    {
+      "name": "native input bytes unchanged during motion validation",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "certificates": {
+    "PF_restored_material_vs_current_fixed": {
+      "range_deg": [
+        0,
+        50
+      ],
+      "intervals": [
+        [
+          0,
+          3.125
+        ],
+        [
+          3.125,
+          6.25
+        ],
+        [
+          6.25,
+          12.5
+        ],
+        [
+          12.5,
+          25.0
+        ],
+        [
+          25.0,
+          50
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "PF_complete_vs_new_fixed_material": {
+      "range_deg": [
+        0,
+        50
+      ],
+      "intervals": [
+        [
+          0,
+          0.1953125
+        ],
+        [
+          0.1953125,
+          0.390625
+        ],
+        [
+          0.390625,
+          0.78125
+        ],
+        [
+          0.78125,
+          1.5625
+        ],
+        [
+          1.5625,
+          3.125
+        ],
+        [
+          3.125,
+          6.25
+        ],
+        [
+          6.25,
+          12.5
+        ],
+        [
+          12.5,
+          25.0
+        ],
+        [
+          25.0,
+          50
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "PF_restored_material_lift": {
+      "range_mm": [
+        0,
+        48
+      ],
+      "intervals": [
+        [
+          0,
+          48
+        ]
+      ],
+      "distance_calls": 0,
+      "method": "OCC midpoint separation > translation half interval, all non-AABB-separated pairs"
+    },
+    "PF_complete_vs_new_fixed_lift": {
+      "range_mm": [
+        0,
+        48
+      ],
+      "intervals": [
+        [
+          0,
+          3.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          6.0,
+          12.0
+        ],
+        [
+          12.0,
+          24.0
+        ],
+        [
+          24.0,
+          48
+        ]
+      ],
+      "distance_calls": 8,
+      "method": "OCC midpoint separation > translation half interval, all non-AABB-separated pairs"
+    },
+    "PF_complete_vs_button_service_reserves": {
+      "range_deg": [
+        0,
+        50
+      ],
+      "intervals": [
+        [
+          0,
+          25.0
+        ],
+        [
+          25.0,
+          50
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "PF_lift_vs_button_service_reserves": {
+      "range_mm": [
+        0,
+        48
+      ],
+      "intervals": [
+        [
+          0,
+          48
+        ]
+      ],
+      "distance_calls": 0,
+      "method": "OCC midpoint separation > translation half interval, all non-AABB-separated pairs"
+    },
+    "populated_fold_vs_new_fixed_material": {
+      "range_deg": [
+        0,
+        90
+      ],
+      "intervals": [
+        [
+          0,
+          90
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "new_backbox_material_vs_current_fixed": {
+      "range_deg": [
+        0,
+        90
+      ],
+      "intervals": [
+        [
+          0,
+          90
+        ]
+      ],
+      "proof": "no newly occupied volume"
+    }
+  },
+  "samples": {
+    "playfield_service": {
+      "rows": [
+        {
+          "value": 0.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.01,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.05,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.1,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.25,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 1.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 1.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 2.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 2.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 3.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 3.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 4.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 4.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 5.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 5.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 6.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 6.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 7.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 7.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 8.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 8.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 9.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 9.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 10.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 10.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 11.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 11.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 12.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 12.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 13.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 13.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 14.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 14.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 15.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 15.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 16.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 16.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 17.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 17.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 18.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 18.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 19.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 19.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 20.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 20.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 21.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 21.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 22.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 22.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 23.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 23.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 24.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 24.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 25.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 25.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 26.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 26.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 27.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 27.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 28.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 28.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 29.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 29.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 30.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 30.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 31.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 31.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 32.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 32.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 33.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 33.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 34.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 34.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 35.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 35.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 36.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 36.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 37.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 37.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 38.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 38.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 39.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 39.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 40.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 40.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 41.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 41.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 42.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 42.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 43.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 43.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 44.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 44.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 45.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 45.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 46.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 46.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 47.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 47.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 48.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 48.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 49.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 49.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 50.0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        }
+      ],
+      "inherited_contacts": []
+    },
+    "playfield_lift": {
+      "rows": [
+        {
+          "value": 0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.01,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.05,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.1,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.25,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 1,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 2,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 3,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 4,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 6,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 7,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 8,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 9,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 10,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 11,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 12,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 13,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 14,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 15,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 16,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 17,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 18,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 19,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 20,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 21,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 22,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 23,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 24,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 25,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 26,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 27,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 28,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 29,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 30,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 31,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 32,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 33,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 34,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 35,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 36,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 37,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 38,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 39,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 40,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 41,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 42,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 43,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 44,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 45,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 46,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 47,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 48,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        }
+      ],
+      "inherited_contacts": []
+    },
+    "backbox_fold": {
+      "rows": [
+        {
+          "value": 0,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.001,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.01,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.05,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.1,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.25,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 0.5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 1,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 2,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 3,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 4,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 5,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 6,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 7,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 8,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 9,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 10,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 11,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 12,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 13,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 14,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 15,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 16,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 17,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 18,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 19,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 20,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 21,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 22,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 23,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 24,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 25,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 26,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 27,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 28,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 29,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 30,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 31,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 32,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 33,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 34,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 35,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 36,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 37,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 38,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 39,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 40,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 41,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 42,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 43,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 44,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 45,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 46,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 47,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 48,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 49,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 50,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 51,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 52,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 53,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 54,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 55,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 56,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 57,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 58,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 59,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 60,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 61,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 62,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 63,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 64,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 65,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 66,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 67,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 68,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 69,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 70,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 71,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 72,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 73,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 74,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 75,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 76,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 77,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 78,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 79,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 80,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 81,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 82,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 83,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 84,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 85,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 86,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 87,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 88,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 89,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        },
+        {
+          "value": 90,
+          "new_collisions": [],
+          "inherited_positive_volume_pairs": 0
+        }
+      ],
+      "inherited_contacts": []
+    }
+  },
+  "pass": true,
+  "manufacturing_release": false,
+  "source_before": "exports/generated/structural-v335/play.FCStd",
+  "source_after": "exports/generated/monitor-support-v336/play.FCStd",
+  "prerequisites": {
+    "playfield": "MAIN PLAYFIELD GLASS + MATRIX REMOVED; fixed matrix supports retained; accepted 50-degree manually supported service and 48mm lift-out",
+    "backbox": "MAIN PLAYFIELD GLASS + MATRIX REMOVED; rear doors closed/latched; upright locks released and parked; backbox glass/cassette retained"
+  },
+  "scope": "Continuous differential certificate for every newly occupied volume plus explicit whole-assembly samples; unchanged interfaces inherit the cited previous certificates.",
+  "source_sha256": {
+    "exports/generated/structural-v335/play.FCStd": "b64eafb52d232d254c044af959a9fbeed2c5648204e41620be7c636b0ad129f3",
+    "exports/generated/monitor-support-v336/play.FCStd": "3502d40839e815b8fe0a0ce1e45dbb33612fe9341a235455533f30c011d822d4"
+  },
+  "inherited_certificates": {
+    "exports/generated/structural-v335/motion-validation.json": "e2e6da37cda8e5f6aa5ffe4fbcfad8e69ddb37bdf358bb110c00b71ca926440f",
+    "exports/generated/structural-v335/geometry-validation.json": "b35a78766d87bc876311e2a848a6769ee8091ed2fb2257e7e299038a8ba267d2",
+    "exports/generated/pivot-cradle-integration-v32/validation.json": "a4ab28e744a3015599b54c3c229015a5b904cecb88dbdfffa5179d565569ac4e",
+    "exports/generated/backbox-lock-integration-v32/validation.json": "3fdc714c5e5c69d3fa499399f960154a562abf5c053c74597d9f367955792a62",
+    "exports/generated/backbox-service-v32/motion-validation.json": "d4b8d279000a7a4fb8e60d9b48ee475b8de5249bbe48afdc8783a1a532104859"
+  },
+  "removed_for_service": [
+    "CandidateGlass",
+    "MX_CableLoopReserve",
+    "MX_MovingConnectorReserve",
+    "MX_RetainerL",
+    "MX_RetainerR",
+    "MatrixCarrier",
+    "MatrixPanel1",
+    "MatrixPanel2",
+    "MatrixPanel3",
+    "MatrixPanel4",
+    "MatrixPanel5",
+    "MatrixPanel6"
+  ],
+  "retained_matrix_fixed_parts": [
+    "MX_WoodSeatL",
+    "MX_WoodSeatR",
+    "MX_InsertL",
+    "MX_FixedScrewL1",
+    "MX_FixedScrewL2",
+    "MX_InsertR",
+    "MX_FixedScrewR1",
+    "MX_FixedScrewR2",
+    "MX_FixedConnectorReserve",
+    "MX_FixedCableReserve"
+  ],
+  "added_volume_mm3": {
+    "playfield": {
+      "PF_BasePlywood": 68873.3540288868
+    },
+    "fixed_for_playfield": {
+      "SIDE_L": 8883.221383414231,
+      "SIDE_R": 8883.221383414231,
+      "LeafButton_primary_L": 8380.198403450777,
+      "LeafButton_primary_R": 8380.198403450777,
+      "LeafNut_primary_L": 827.0242660575122,
+      "LeafNut_primary_R": 827.0242660575122,
+      "LeafBracket_primary_L": 7039.999999999999,
+      "LeafBracket_primary_R": 7039.999999999999,
+      "LeafContacts_primary_L": 361.2000000000121,
+      "LeafContacts_primary_R": 361.2000000000121,
+      "LeafButton_secondary_L": 8380.198403450777,
+      "LeafButton_secondary_R": 8380.198403450777,
+      "LeafNut_secondary_L": 827.0242660575126,
+      "LeafNut_secondary_R": 827.0242660575126,
+      "LeafBracket_secondary_L": 7039.999999999999,
+      "LeafBracket_secondary_R": 7039.999999999999,
+      "LeafContacts_secondary_L": 361.2000000000121,
+      "LeafContacts_secondary_R": 361.2000000000121
+    },
+    "backbox": {},
+    "fold_fixed": {
+      "SIDE_L": 8883.221383414231,
+      "SIDE_R": 8883.221383414231,
+      "LeafButton_primary_L": 8380.198403450777,
+      "LeafButton_primary_R": 8380.198403450777,
+      "LeafNut_primary_L": 827.0242660575122,
+      "LeafNut_primary_R": 827.0242660575122,
+      "LeafBracket_primary_L": 7039.999999999999,
+      "LeafBracket_primary_R": 7039.999999999999,
+      "LeafContacts_primary_L": 361.2000000000121,
+      "LeafContacts_primary_R": 361.2000000000121,
+      "LeafButton_secondary_L": 8380.198403450777,
+      "LeafButton_secondary_R": 8380.198403450777,
+      "LeafNut_secondary_L": 827.0242660575126,
+      "LeafNut_secondary_R": 827.0242660575126,
+      "LeafBracket_secondary_L": 7039.999999999999,
+      "LeafBracket_secondary_R": 7039.999999999999,
+      "LeafContacts_secondary_L": 361.2000000000121,
+      "LeafContacts_secondary_R": 361.2000000000121,
+      "PF_BasePlywood": 68873.3540288868
+    }
+  },
+  "service_inheritance": {
+    "backbox_changed_parts": [
+      "BB_MonitorCarrier0",
+      "BB_MonitorCarrier1"
+    ],
+    "proof": "New BB shapes subset old shapes; M067 and all positive retention/hinge/door/glass/cassette mechanisms unchanged. Original exact swept service certificates remain valid for removed material.",
+    "flexible_wiring": "Independent parametric corridor study, not certified by this rigid-motion script."
+  }
+}

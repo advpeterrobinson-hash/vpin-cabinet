@@ -1,0 +1,33 @@
+"""V33.6 bilingual manual and manufacturing metadata; no hardware quantity guesses.
+CERN-OHL-S-2.0.
+"""
+from pathlib import Path
+import json,copy,csv
+R=Path(__file__).resolve().parents[1];O=R/'exports/generated/monitor-support-v336'
+def read(p):return json.loads((R/p).read_text())
+def dump(p,v):(R/p).write_text(json.dumps(v,indent=2,ensure_ascii=False)+'\n')
+def bi(en,pt):return {'en':en,'pt-BR':pt}
+def fmt(x):
+ if x is None:return 'HOLD'
+ if isinstance(x,(int,float)):return f'{x:.3f}'.rstrip('0').rstrip('.') or '0'
+ if isinstance(x,list):return ' / '.join(fmt(v) for v in x)
+ return str(x)
+reg=read('exports/generated/monitor-support-v336/manufacturing-register.json');parts=reg['parts'];by={p['instance_id']:p for p in parts};manual=read('exports/generated/structural-v335/assembly-manual.json');cat=read('config/hardware_catalog_v335.json');manual['version']='V33.6';steps={t['id']:t for s in manual['stages'] for t in s['steps']}
+notes={
+ '06.1':bi('Use CURRENT M025: clean rectangular outer contour with one rear 180 × 110 mm R8 service window and two rounded strain-relief slots. No horn or front side notch remains. Preserve the entire modeled VESA load region and all four straps/eight F02 positions. The rear window admits the illustrative connector envelope; confirm the chosen display port location before machining its replaceable adapter. No new VESA adjustment holes are authorized.', 'Use M025 CURRENT: contorno externo retangular limpo, janela traseira de serviço 180 × 110 mm R8 e dois rasgos arredondados para alívio de tração. Sem ponta ou entalhe lateral frontal. Preserve toda a região de carga VESA modelada e quatro abraçadeiras/oito F02. A janela admite o conector ilustrativo; confirme portas do monitor escolhido antes de usinar o adaptador. Nenhum novo furo de ajuste VESA está autorizado.'),
+ '06.2':bi('The optional cable-loop study uses a flexible 400 mm segment and a removable clamp zone above S3. Route actual cables with qualified bend radius and slack; never treat the rendered curve as a rigid member or selected cable specification. Check PLAY, 50° service and 48 mm lift with the actual harness. Release that clamp before removing S3. No connector family is required.', 'O estudo opcional do laço usa trecho flexível de 400 mm e zona de grampo removível acima de S3. Use raio de curvatura e folga qualificados; a curva desenhada não é peça rígida nem especificação de cabo. Verifique PLAY, serviço 50° e elevação 48 mm com os cabos reais. Libere o grampo antes de remover S3. Nenhuma família de conector é obrigatória.'),
+ '12.1':bi('The two vertical carriers now include paired 6 × 16 mm R3 strain-relief slots above the display adapter. Thread replaceable straps through them; keep cable loads off structural fasteners. M067, its 6 mm capture lands, rear tool paths and all four monitor retention bolts remain unchanged.', 'Os dois suportes verticais agora têm pares de rasgos 6 × 16 mm R3 acima do adaptador. Passe cintas substituíveis neles; não use parafusos estruturais para prender cabos. M067, capturas de 6 mm, acesso traseiro e quatro parafusos de retenção permanecem iguais.'),
+ '12.2':bi('Use the existing side access beside the VESA plate for connector service. The proposed central plate window is NOT PROMOTED: real VESA load points are unselected. Existing adjustment remains ±5 mm vertical, two depth positions 16 mm apart, ±1 mm centering for the maximum display and approximately ±15 mm for smaller displays. No extra adjustment slots.', 'Use os acessos laterais existentes ao lado da placa VESA para conectores. A janela central proposta NÃO FOI PROMOVIDA: pontos reais de carga VESA ainda não selecionados. Ajustes existentes: vertical ±5 mm, duas profundidades separadas por 16 mm, centralização ±1 mm para monitor máximo e cerca de ±15 mm para menores. Sem rasgos adicionais de ajuste.'),
+ '18.1':bi('SIDE BUTTON POSITIONAL AUTHORITY: Y255 / Y310, Z270 on both sides, from cabinet-front Y0. This supersedes Y89/Y127; it does not select bore/recess diameters. Traditional leaf button body, nut, wire, tool and open-cabinet hand corridors are planning reserves only. Purchase actual buttons before CNC. Service requires main glass/matrix removed and playfield raised. Under-front controls remain a separate UNLOCATED 220 × 55 mm schematic.', 'AUTORIDADE DE POSIÇÃO DOS BOTÕES LATERAIS: Y255 / Y310, Z270 em ambos os lados, a partir de Y0 frontal. Substitui Y89/Y127 sem selecionar diâmetros de furo/rebaixo. Corpo leaf, porca, fiação e acesso de ferramenta/mão são reservas de planejamento. Compre botões reais antes do CNC. Serviço: vidro/matriz removidos e playfield levantado. Controles inferiores continuam esquema separado SEM LOCALIZAÇÃO de 220 × 55 mm.')}
+for id,note in notes.items():
+ for lang,txt in note.items():steps[id]['action'][lang]+=' '+txt
+ steps[id]['status']='WAITING_FOR_PHYSICAL_MEASUREMENT'
+manual['current_manufacturing_register']='exports/generated/monitor-support-v336/manufacturing-register.json';prepkeys=list(manual['part_preparation'][0]);manual['part_preparation']=[{k:by[p['instance_id']].get(k) for k in prepkeys} if by[p['instance_id']].get('version')=='V33.6' else p for p in manual['part_preparation']];manual['geometry_authority']='config/monitor_support_v336.json'
+dump('exports/generated/monitor-support-v336/assembly-manual.json',manual)
+# Reuse only the presentation section of the prior writer, never its geometry or catalog edits.
+source=(R/'tools/build_structural_v335_metadata.py').read_text();source=source[source.index("fields=['instance_id'"):source.index("manifest={'version'")];source=source.replace('V33.5','V33.6')
+source=source.replace("'CNC FACE_A · '+op.get('id','')", "(('REFERENCE ONLY / PURCHASE BEFORE CNC — final bore/recess unselected · ' if lang=='en' else 'SOMENTE REFERÊNCIA / COMPRAR ANTES DO CNC — furo/rebaixo finais indefinidos · ') if op.get('production_export_policy') or op.get('hardware_interface_status')=='PURCHASE_BEFORE_CNC' else 'CNC FACE_A · ')+op.get('id','')")
+exec(compile(source,'V336 manual/BOM presentation','exec'),globals())
+manifest={'version':'V33.6','head_before':'7b84181f5c48c1a1e4a78f87319eec5512318492','current_register':'exports/generated/monitor-support-v336/manufacturing-register.json','current_BOM':'exports/generated/monitor-support-v336/manufacturing-bom.csv','CNC_filter':'manufacturing_class != SHOP_MADE_SOLID_WOOD_PART','shop_family':'SW01','installed_material_map':'config/wood_materials_v335.json','release':False,'hardware_catalog':'config/hardware_catalog_v335.json','button_final_bore_mm':None,'button_final_recess_mm':None}
+dump('config/manufacturing/flatpack_v336.json',manifest)
+print('V336_METADATA_PASS',len(parts))

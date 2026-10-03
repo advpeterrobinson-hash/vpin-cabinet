@@ -1,0 +1,128 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "V33.5 horn / finger \u2014 confirmed baseline",
+    "note": "Actual old outer contour. The rounded notch leaves a thin local lip at the front edge; V33.5 protected and inherited it. Local playfield coordinates shown.",
+    "native_cad": true
+  },
+  {
+    "image": "02-review.png",
+    "title": "M025 \u2014 recovered clean outer contour",
+    "note": "500 \u00d7 1020 mm clean exterior recovered from the wooden-dowel study. Functional rear window and two strain slots are the only new openings; no horn, finger or button notch remains.",
+    "native_cad": true
+  },
+  {
+    "image": "03-review.png",
+    "title": "M025 contour overlay \u2014 before / after",
+    "note": "The restored lower buttons remove the old notch requirement. Dashed orange is the exact V33.5 contour; solid dark is CURRENT V33.6. Internal service openings lie farther rearward.",
+    "native_cad": true
+  },
+  {
+    "image": "04-review.png",
+    "title": "Side-button positional authority \u2014 Superseded Y89 / Y127",
+    "note": "Button bodies are dark for legibility. Bore and recess geometry are reference placeholders, not purchased-hardware authority. The two position systems are not equivalent.",
+    "native_cad": true
+  },
+  {
+    "image": "05-review.png",
+    "title": "Side-button positional authority \u2014 Restored Y255 / Y310, Z270",
+    "note": "Button bodies are dark for legibility. Bore and recess geometry are reference placeholders, not purchased-hardware authority. The two position systems are not equivalent.",
+    "native_cad": true
+  },
+  {
+    "image": "06-review.png",
+    "title": "Exterior comparison \u2014 owner restoration",
+    "note": "Same player-eye view. Only side-button positional authority and accepted support machining change. New positions are measured from cabinet front Y0, with 55 mm pitch and common Z270.",
+    "native_cad": true
+  },
+  {
+    "image": "07-review.png",
+    "title": "Interior comparison \u2014 leaf button service",
+    "note": "True side/base sections for inspection only. Blue solids are traditional leaf-button body, wire and tool planning reserves. These move with the restored center datum; physical button selection remains HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "08-review.png",
+    "title": "Restored buttons + clean playfield base",
+    "note": "Side panel omitted to expose the relationship. Lower button hardware clears the unnotched base. Dowel, straps, TV, VESA and both cradles retain their accepted positions.",
+    "native_cad": true
+  },
+  {
+    "image": "09-review.png",
+    "title": "Playfield connector access + strain relief",
+    "note": "One connector-sized service window, two strap slots. Existing base edge bands remain continuous. Actual display port positions and selected cable bending requirements must be checked before adapter manufacture.",
+    "native_cad": true
+  },
+  {
+    "image": "10-review.png",
+    "title": "Playfield VESA load region preserved",
+    "note": "Main window stays 120 mm from the modeled VESA region; minimum transverse wood width is 320 mm. No extra VESA slots are inferred from an unselected display. Load/stiffness qualification remains open.",
+    "native_cad": true
+  },
+  {
+    "image": "11-review.png",
+    "title": "Playfield service 50\u00b0",
+    "note": "Native playfield transform around the unchanged wooden-dowel axis. Cable is a flexible constant-length planning tube, not a rigid linkage or selected harness; see sampled cable study for limits.",
+    "native_cad": true
+  },
+  {
+    "image": "12-review.png",
+    "title": "48 mm lift-out \u2014 cable allowance",
+    "note": "Complete playfield moves vertically 48 mm; display hidden only for inspection. Flexible loop: 63 sampled service/lift poses, not continuous certification. Cable/clamp hardware stays HOLD; release the S3 clamp before shelf removal.",
+    "native_cad": true
+  },
+  {
+    "image": "13-review.png",
+    "title": "V33.5 backbox carrier \u2014 exact baseline",
+    "note": "Actual carrier Y1240\u20131258 and VESA plate Y1228\u20131240. Legacy service config is 10 mm forward of these accepted B-reps; no existing part is relocated by this task.",
+    "native_cad": true
+  },
+  {
+    "image": "14-review.png",
+    "title": "Backbox proposal \u2014 selected slots / held window",
+    "note": "Only carrier slots join CURRENT geometry. Central 180 \u00d7 70 R12 window improves access but actual VESA load points are unknown; the uncut replaceable VESA plate remains current.",
+    "native_cad": true
+  },
+  {
+    "image": "15-review.png",
+    "title": "Backbox cable routing \u2014 existing side passages",
+    "note": "50 \u00d7 30 mm generic connector cross-section with rear withdrawal; not a particular SKU. Illustrated flexible 5 mm routes use R20 bends and retain 2.5 mm modeled clearance. No new central window is required for these side routes.",
+    "native_cad": true
+  },
+  {
+    "image": "16-review.png",
+    "title": "Adjustment \u2014 existing range retained",
+    "note": "Vertical \u00b15 mm; two depth positions 0 / 16 mm; max-width display centering \u00b11 mm, smaller display \u00b115 mm. Added travel: 0 mm. Four positive clamps and M067 lower adjusters remain unchanged. No duplicated slotting.",
+    "native_cad": true
+  },
+  {
+    "image": "17-review.png",
+    "title": "M067 and capture lands \u2014 protected",
+    "note": "330 \u00d7 18 \u00d7 18 mm M067, both 6 mm captures and two M6-family adjuster/insert zones remain exact. New strain slots are at Z1190\u20131206, far above this assembly. No final hardware bore is released.",
+    "native_cad": true
+  },
+  {
+    "image": "18-review.png",
+    "title": "Complete backbox \u2014 front",
+    "note": "Front display service, retained backbox glass and independent DMD/speaker cassette remain unchanged. M067 and four positive display clamps retain the screen through fold.",
+    "native_cad": true
+  },
+  {
+    "image": "19-review.png",
+    "title": "Rear service \u2014 both doors open",
+    "note": "Rear hand access to carrier ties, adjustment and two upright locks remains available. Fans, hinges, doors, cassette and hardware service architecture are unchanged.",
+    "native_cad": true
+  },
+  {
+    "image": "20-review.png",
+    "title": "CURRENT V33.6 \u2014 complete cabinet",
+    "note": "Restored side-button positions, clean M025 and support access updates. SW01, captured shell, M006, shelf, M067, WPC axis, matrix and glass systems remain protected. CNC release remains blocked.",
+    "native_cad": true
+  },
+  {
+    "image": "21-review.png",
+    "title": "Geometry authority \u2014 regression source and correction",
+    "note": "Source-flow diagram, not CAD geometry. V33.6 corrects the canonical B-reps, then regenerates manufacturing pieces, native states, viewer meshes and animation geometry. Reference bores remain hardware-dependent.",
+    "native_cad": false
+  }
+]

@@ -1,0 +1,103 @@
+# V33.6 — clean playfield contour, restored button datums and monitor service
+
+HEAD BEFORE: `7b84181f5c48c1a1e4a78f87319eec5512318492`
+HEAD AFTER: commit containing this report (`git log -1 --format=%H -- exports/generated/monitor-support-v336/README.md`).
+
+[Offline viewer](../viewer-v32/index.html) · [21 review views](review.html) · [Authority/history audit](../../../studies/monitor-support-v336/history-audit.md) · [Manufacturing BOM](manufacturing-bom.md) · [PT-BR BOM](manufacturing-bom.pt-BR.md) · [English manual](../../../docs/ASSEMBLY_MANUAL.md) · [Manual PT-BR](../../../docs/ASSEMBLY_MANUAL.pt-BR.md)
+
+**CURRENT design geometry; CNC full-sheet release remains BLOCKED. All real hardware, material and coupon gates remain.**
+
+## Decisions
+
+| Item | Decision | Limit |
+|---|---|---|
+| M025 / P034-Main / PF_BasePlywood | Restore clean historical rectangular outside contour; add one rear service window and two strain slots | One 18 mm part; VESA/strap/dowel zones unmoved; stiffness/load qualification still pending |
+| Side buttons | PROMOTE Y255 / Y310, Z270, mirrored on both sides | Positional authority only. Final bore/recess null; traditional leaf hardware PURCHASE_BEFORE_CNC |
+| Y89 / Y127 | SUPERSEDED for CURRENT | Retained in historical sources as a previous deliberate decision, never an equivalent coordinate system |
+| Backbox carriers | Four total 6 × 16 mm R3 strain-relief slots | Existing capture, M067, depth and retention features preserved |
+| Backbox central adapter window | NOT PROMOTED / HOLD | A 180 × 70 mm R12 candidate is shown only for review; actual VESA load points unknown |
+| Backbox adjustment | No new slots | Existing ±5 mm vertical; two depth positions 16 mm apart; ±1 mm at maximum width / about ±15 mm for smaller screens |
+
+## Horn and authority reconciliation
+
+The horn is confirmed in the native M025 B-rep, not just the viewer. Commit `80748804` introduced the rounded notch with short end bridges; it persisted through backbox-lock integration and V33.1 manufacturing. V33.5 explicitly protected the inherited playfield shape. Exact history metrology found 0 mm³ difference among those horned versions. This was an inherited rejected contour, not random mesh corruption.
+
+The pre-notch source at `cd416fea61ed031c59af8df93014ae7c9ba200bf` supplies a clean 500 × 1020 × 18 mm rectangle in the existing playfield frame. No later clean promoted version was found. Its former wire-access problem belonged to the Y89/Y127 layout. The restored lower buttons clear that clean rectangle, so no side relief, horn, finger or new dogbone is required. The historical 68,873.354 mm³ notch removal is restored before the functional rear openings are cut.
+
+The conflicting button evidence is explicit: side-panel documentation used Y255/Y310, Z270 from cabinet-front Y0; service-correction commit `87d63825` later used Y89/Y127 and local top minus 65 mm. The notch report’s `buttons_moved=false` meant unchanged from its immediate predecessor, not unchanged from the original side-panel authority. The owner’s V33.6 instruction resolves CURRENT priority in favor of the restored candidate after validation.
+
+Three presentation reuse paths were audited and rebuilt: installed meshes and named poses, real manufacturing/detail meshes, and packing representations. Every viewer object now carries a geometry-authority record shown in selection metadata. Current M025 animation, exploded and packing geometry derive from its current B-rep. Regression rejects the old horned mesh as a negative control. There is one inherited contour authority chain and three cache paths; these are not three independently corrupted CAD sources.
+
+## Side-button service and machining status
+
+Both reference leaf stacks, their body/nut/bracket/contacts, wire reserves and tool cylinders move together. The installed structures, S1/supports, T1 guides, SSF, front/leg/plunger zones and clean playfield are screened. A conservative palm, bent-finger reach, top-entry corridor and R10 driver are screened with MAIN PLAYFIELD GLASS and MATRIX removed and playfield at 50°. The continuous playfield rotation/lift checks also screen the button envelopes. These are geometric planning reserves, not ergonomic certification or purchased-hardware proof.
+
+Minimum measured separations across the 32 occupied/service reference rows: playfield base 82.789 mm; S1 supports 78 mm; T1 guides 18.974 mm; front SSF exciters 13 mm; plunger 25 mm; leg blocks/hardware 182.475 mm. No penetration in these groups. See [button metrology](button-metrology.json) for per-part witnesses.
+
+The new CAD shows **reference-only Ø15.875 bore / Ø25 × 3 mm inner recess** to make the reused leaf packaging visible. Neither is chosen manufacturing hardware. All corresponding manufacturing operations are explicitly PURCHASE_BEFORE_CNC; final bore and recess parameters remain null. Old Y89/Y127 bores/recesses are filled in the new design B-rep. No existing dimension is silently promoted to drilling authority. Nominal residual stock at the reference recess is 15 mm; centers have 55 mm pitch and the two Ø25 reference pockets leave 30 mm between them. Actual wood and hardware dimensions require revalidation.
+
+## Playfield support openings
+
+All new openings are one-face through cuts with simple rounded profiles. Classification is exact: the main opening is SERVICE_WINDOW; paired slots are STRAIN_RELIEF_SLOT. The service window also provides the principal connector-sized cable route; no separate tiny cable holes or structural-fastener cable attachments are introduced.
+
+| Opening | Local bounds X/Y mm | Corner radius | Outer edge mm | Nearest VESA mm | Nearest strap mm | Nearest screw mm | Removed cm³ |
+|---|---|---:|---:|---:|---:|---:|---:|
+| PF_MainServiceWindow / SERVICE_WINDOW | [210.0, 730.0, 390.0, 840.0] | 8 | 160.000 | 120.000 | 174.784 | 180.805 | 355.411 |
+| PF_StrainSlot1 / STRAIN_RELIEF_SLOT | [280.0, 866.0, 286.0, 888.0] | 3 | 152.000 | 256.000 | 201.088 | 206.276 | 2.237 |
+| PF_StrainSlot2 / STRAIN_RELIEF_SLOT | [314.0, 866.0, 320.0, 888.0] | 3 | 152.000 | 256.000 | 202.913 | 208.085 | 2.237 |
+
+The 180 mm service-window width leaves two continuous 160 mm side bands, 320 mm total section width (64% of the original transverse width). Its front edge is 120 mm behind the modeled VESA reserve; its rear edge remains clear of the dowel/strap region. The paired 6 mm strain slots leave 28 mm between them and 26 mm between the main window and slots. No selected playfield inserts exist outside the protected VESA envelope; actual adapter bolts remain user/display-dependent. Maintaining one solid alone is not a strength proof: full display load, dynamic handling and plywood quality still require qualification.
+
+An illustrative 45 × 30 mm connector cross-section with a withdrawal corridor passes through the service window. It is a generic packaging block, not an HDMI/DisplayPort/IEC/USB specification. Actual display port position, plug housing, right-angle options and bend radius must be checked after selection; the window exposes a useful rear region but cannot guarantee every future TV connector location. No additional playfield VESA slots are cut through an unknown load pattern. Fine centering/depth adjustment remains on the replaceable, display-specific adapter.
+
+The optional playfield cable-loop study uses a constant 400 mm flexible segment, an R4 packaging tube and variable lateral bow. The moving end follows the base; the proposed fixed clamp zone is above S3 at X450/Y900/Z258. No clamp bore or connector is specified. The route is sampled at 1° through service and 4 mm through lift-out, with 63 poses including PLAY, 50° and 48 mm. Minimum modeled bend radius: 39.270 mm; all sampled intersections are zero. This is a sampled routing screen, not a continuous cable-motion certificate. Actual cable stiffness, bend limits and strain-relief hardware remain HOLD. Release the removable clamp before S3 removal. Normal backbox folding introduces no electrical disconnection.
+
+## Backbox service and adjustment
+
+Four 6 × 16 mm R3 slots remove 6,355.752 mm³ / 0.004131 kg at 650 kg/m³ from the two carriers. Each 50 mm carrier retains 10 mm outer webs, an 18 mm central web and 76% net width through the slot band. Nearest hardware reserve is 25.624 mm; nearest monitor clamp reserve is 48.208 mm. Existing M067 end captures, bearing lands, rear driver corridors and four positive retention bolts are exact. CNC uses the same existing FACE_A, front −Y.
+
+The exact current carrier bounds are Y1240–1258; the VESA plate is Y1228–1240 and the display rear is Y1228. The legacy service configuration was 10 mm forward and is documented as historical evidence, not reused as current geometry. All new datums come from the current B-reps.
+
+Two existing side routes admit illustrative 50 × 30 mm connector corridors over 205 mm of rear approach. This improves the documented service route without cutting the unknown VESA attachment region. The planned backbox cable routes use a 5 mm tube with R20 bends, retain 2.5 mm modeled clearance and pass the continuous WPC fold screen. Purchased cable/connector and bend limits remain unselected. The central 180 × 70 mm R12 plate window stays isolated: a continuous frame does not establish safety against unknown VESA screw positions or loads. No extra adjustment slots are justified; M067 and existing adjustments already serve alignment.
+
+## Manufacturing, mass and packaging
+
+| Measure | V33.5 | V33.6 |
+|---|---:|---:|
+| Permanent wood pieces |101|101|
+| CNC plywood |97|97|
+| SW01 shop blocks |4|4|
+| Canonical families |59|59|
+| 4 mm plywood |0|0|
+
+Five changed manufacturing members reconstruct into installed geometry with **0 mm³ difference**. Counts remain 46 ONE_SIDE_CNC_READY, 51 ONE_SIDE_CNC_PLUS_MANUAL_FINISH and 4 SHOP_MADE_SOLID_WOOD_PART. These are operation-plan statuses, not CNC release. Unchanged pieces retain their exact V33.5 manufacturing records.
+
+| Stock mm | Outer contour m² | Net projected material m² | Preliminary full sheets |
+|---:|---:|---:|---:|
+| 18 | 5.242773 | 4.394014 | 2 |
+| 12 | 1.227030 | 1.111448 | 1 |
+| 8 | 0.057800 | 0.035631 | 1 |
+| 6 | 0.498020 | 0.185493 | 1 |
+
+Stock families remain 18/12/8/6 mm. Five full sheets are an assumption, not a purchase recommendation for tiny stock groups: use qualified offcuts/smaller stock for 6/8 mm where the supplier permits. Preliminary layouts retain 2500 × 1600 sheet / 20 mm border / 15 mm spacing. They are not production nesting and no G-code or full-sheet production DXF is generated.
+
+Wood shipping mass LOW / NOMINAL / HIGH: **51.153 kg / 60.497 kg / 69.877 kg**. Nominal change is −0.193289 kg. Accounting uses actual B-rep volumes and the existing SW01 blank allowance, with the unchanged density assumptions. Hardware quantities remain unchanged: 151 models, 37 required Fxx families, numeric minimum 162 plus six formula-driven and six genuinely unresolved families.
+
+| Bundle | External L × W × H mm | Nominal gross kg | High-density gross kg |
+|---|---|---:|---:|
+| P25-01 | 1353.1 × 641.9 × 98 | 21.958 | 24.985 |
+| P25-02 | 1317.1 × 617 × 88 | 21.937 | 25.000 |
+| P25-03 | 825 × 768.9 × 197.8 | 21.996 | 25.000 |
+| P25-04 | 1197.1 × 240 × 182 | 2.493 | 2.781 |
+
+All four preferred bundles remain ≤25 kg at high-density planning. Glass, hardware and electronics remain separate; actual material density and transit protection require confirmation.
+
+## Validation and release
+
+Geometry gates: 12; isolated backbox gates: 29; motion gates: 17; cable sampled poses: 63; regression checks: 1833; browser checks: 148. See [validation](validation.json), [continuous/differential motion](motion-validation.json), [manufacturing audit](manufacturing-audit.json), [cable routing](cable-study.json) and [browser evidence](browser-validation.json).
+
+The continuous certificates cover changed interfaces against complete current obstacles; full assembly samples distinguish unchanged intentional interfaces from new penetration. Required MAIN GLASS/MATRIX removal is explicit. Exact changes are limited to SIDE_L/R reference button interfaces, M025 and the two carrier strain-slot regions, plus the moved reference leaf/service volumes. Exterior cabinet dimensions and all unrelated functional geometry remain unchanged. SW01/jig, captured shell, M006, rear bearing shelf, rear fans, M067, WPC axis, matrix, S1/S2/S3, T1/T2/T3, doors and glass are protected.
+
+**Remaining gates:** actual plywood lot/thickness; calibration coupon and fit clearance; traditional leaf button hardware/bore/recess; display-specific VESA/connector hardware; cable/clamp selection; purchased WPC/rail/fasteners; remaining structural/ergonomic qualification. Under-front controls remain unlocated. The held adapter-window proposal is not silently machined. **CNC FULL-SHEET RELEASE: BLOCKED.**
+
+CERN-OHL-S-2.0 · Source Location: https://github.com/advpeterrobinson-hash/vpin-cabinet
