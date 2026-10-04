@@ -1,0 +1,13 @@
+{
+  "version": "V34.2",
+  "current_register": "exports/generated/backbox-v342/manufacturing-register.json",
+  "current_BOM": "exports/generated/backbox-v342/manufacturing-bom.csv",
+  "active_nominal_plywood_stocks_mm": [
+    12,
+    18
+  ],
+  "release": false,
+  "hardware_catalog": "config/hardware_catalog_v342.json",
+  "actual_thickness_mm": null,
+  "coupon_clearance_mm": null
+}

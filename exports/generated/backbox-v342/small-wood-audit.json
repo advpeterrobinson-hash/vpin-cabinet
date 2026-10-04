@@ -1,0 +1,222 @@
+[
+  {
+    "name": "BB_Floor",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Backbox lower structural bearing",
+    "parent": "BB_SideL/R and main RearBearingShelf",
+    "attachment": "CAPTURED / SCREWED",
+    "load": "backbox gravity and WPC hinge transfer; broad shelf bearing",
+    "why_needed": "Backbox lower structural bearing",
+    "ID": "M033"
+  },
+  {
+    "name": "BB_RearFrame",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Rear aperture structural continuity with doors open",
+    "parent": "BB_SideL/R + BB_Top + BB_Floor",
+    "attachment": "SCREWED",
+    "load": "shell racking and rear-door hinge/lock reactions",
+    "why_needed": "Rear aperture structural continuity with doors open",
+    "ID": "M035"
+  },
+  {
+    "name": "BB_DoorL",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Rear service leaf",
+    "parent": "BB_HingeCleatL via continuous hinge",
+    "attachment": "SCREWED",
+    "load": "own weight and optional fan/filter; not structural shear",
+    "why_needed": "Rear service leaf",
+    "ID": "M056"
+  },
+  {
+    "name": "BB_DoorR",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Rear service leaf",
+    "parent": "BB_HingeCleatR via continuous hinge",
+    "attachment": "SCREWED",
+    "load": "own weight and optional fan/filter; not structural shear",
+    "why_needed": "Rear service leaf",
+    "ID": "M057"
+  },
+  {
+    "name": "BB_HingeCleatL",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Continuous rear-door hinge backing; preserves accepted hinge axis",
+    "parent": "BB_RearFrame",
+    "attachment": "SCREWED",
+    "load": "door/fan mass; cannot be replaced by monitor plate",
+    "why_needed": "Continuous rear-door hinge backing; preserves accepted hinge axis",
+    "ID": "M062"
+  },
+  {
+    "name": "BB_HingeCleatR",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Continuous rear-door hinge backing; preserves accepted hinge axis",
+    "parent": "BB_RearFrame",
+    "attachment": "SCREWED",
+    "load": "door/fan mass; cannot be replaced by monitor plate",
+    "why_needed": "Continuous rear-door hinge backing; preserves accepted hinge axis",
+    "ID": "M062"
+  },
+  {
+    "name": "BB_CenterAstragal",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Door centre overlap and gasket landing",
+    "parent": "BB_DoorL passive leaf",
+    "attachment": "SCREWED",
+    "load": "centre seal, active-leaf lock reaction",
+    "why_needed": "Door centre overlap and gasket landing",
+    "ID": "M063"
+  },
+  {
+    "name": "BB_UprightLockLParkingPad0",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Upright-lock captive parking socket, unrelated to monitor",
+    "parent": "BB_Floor",
+    "attachment": "SCREWED",
+    "load": "parked knob only, not upright clamp",
+    "why_needed": "Upright-lock captive parking socket, unrelated to monitor",
+    "ID": "M064"
+  },
+  {
+    "name": "BB_UprightLockLParkingPad1",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Upright-lock captive parking socket, unrelated to monitor",
+    "parent": "BB_Floor",
+    "attachment": "SCREWED",
+    "load": "parked knob only, not upright clamp",
+    "why_needed": "Upright-lock captive parking socket, unrelated to monitor",
+    "ID": "M065"
+  },
+  {
+    "name": "BB_UprightLockRParkingPad0",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Upright-lock captive parking socket, unrelated to monitor",
+    "parent": "BB_Floor",
+    "attachment": "SCREWED",
+    "load": "parked knob only, not upright clamp",
+    "why_needed": "Upright-lock captive parking socket, unrelated to monitor",
+    "ID": "M064"
+  },
+  {
+    "name": "BB_UprightLockRParkingPad1",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Upright-lock captive parking socket, unrelated to monitor",
+    "parent": "BB_Floor",
+    "attachment": "SCREWED",
+    "load": "parked knob only, not upright clamp",
+    "why_needed": "Upright-lock captive parking socket, unrelated to monitor",
+    "ID": "M065"
+  },
+  {
+    "name": "BB_FanBlankL",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Optional unpopulated fan-station closure",
+    "parent": "BB_DoorL",
+    "attachment": "BOLTED / REMOVABLE",
+    "load": "own weight, dust closure; not monitor support",
+    "why_needed": "Optional unpopulated fan-station closure",
+    "ID": "M066"
+  },
+  {
+    "name": "BB_FanBlankR",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Optional unpopulated fan-station closure",
+    "parent": "BB_DoorR",
+    "attachment": "BOLTED / REMOVABLE",
+    "load": "own weight, dust closure; not monitor support",
+    "why_needed": "Optional unpopulated fan-station closure",
+    "ID": "M066"
+  },
+  {
+    "name": "BB_SideL",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Primary backbox side structure",
+    "parent": "BB_Floor + BB_Top + BB_RearFrame",
+    "attachment": "CAPTURED / SCREWED",
+    "load": "monitor guides/stops, shell, WPC floor load path",
+    "why_needed": "Primary backbox side structure",
+    "ID": "M031"
+  },
+  {
+    "name": "BB_SideR",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Primary backbox side structure",
+    "parent": "BB_Floor + BB_Top + BB_RearFrame",
+    "attachment": "CAPTURED / SCREWED",
+    "load": "monitor guides/stops, shell, WPC floor load path",
+    "why_needed": "Primary backbox side structure",
+    "ID": "M032"
+  },
+  {
+    "name": "BB_Top",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Shell top and plate upper stop",
+    "parent": "BB_SideL/R",
+    "attachment": "GLUED+MECHANICALLY_FASTENED",
+    "load": "shell, captured plate upward reaction",
+    "why_needed": "Shell top and plate upper stop",
+    "ID": "M034"
+  },
+  {
+    "name": "BB_MONITOR_PLATE",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Monitor VESA interface",
+    "parent": "BB_SideL/R + stops + BB_Top",
+    "attachment": "CAPTURED",
+    "load": "monitor gravity/fold/nudge via bolts",
+    "why_needed": "Monitor VESA interface",
+    "ID": "M078"
+  },
+  {
+    "name": "BB_MONITOR_STOP_L",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Fixed lower plate bearing",
+    "parent": "BB_SideL/R",
+    "attachment": "SCREWED",
+    "load": "monitor/plate vertical reaction; geometric bearing plus screw shear",
+    "why_needed": "Fixed lower plate bearing",
+    "ID": "M075"
+  },
+  {
+    "name": "BB_MONITOR_STOP_R",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Fixed lower plate bearing",
+    "parent": "BB_SideL/R",
+    "attachment": "SCREWED",
+    "load": "monitor/plate vertical reaction; geometric bearing plus screw shear",
+    "why_needed": "Fixed lower plate bearing",
+    "ID": "M075"
+  },
+  {
+    "name": "BB_DMD_SPEAKER_PANEL",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Single front display/speaker mounting surface",
+    "parent": "BB_SideL/R",
+    "attachment": "BOLTED / REMOVABLE",
+    "load": "DMD/speakers; fold retention",
+    "why_needed": "Single front display/speaker mounting surface",
+    "ID": "M076"
+  },
+  {
+    "name": "BB_GLASS_TOP_RETAINER",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Positive front upper acrylic capture",
+    "parent": "BB_Top",
+    "attachment": "SCREWED / REMOVABLE",
+    "load": "acrylic retention in all orientations",
+    "why_needed": "Positive front upper acrylic capture",
+    "ID": "M077"
+  },
+  {
+    "name": "BB_GLASS_BOTTOM_SEAT",
+    "status": "RETAINED_CURRENT_V342",
+    "purpose": "Padded acrylic seat and6mm front lip",
+    "parent": "BB_SideL/R",
+    "attachment": "SCREWED",
+    "load": "acrylic gravity/front retention; lower seat fasteners hardware-held",
+    "why_needed": "Padded acrylic seat and6mm front lip",
+    "ID": "M037"
+  }
+]

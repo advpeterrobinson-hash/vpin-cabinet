@@ -1,0 +1,4406 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "reconstruction P001-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P001-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P001-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P002-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P002-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P002-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P003-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P003-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P003-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P004-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P004-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P004-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P005-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P005-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P005-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P006-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P006-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P006-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P007-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P007-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P007-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P008-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P008-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P008-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P009-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P009-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P009-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P010-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P010-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P010-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P011-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P011-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P011-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P012-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P012-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P012-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P013-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P013-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P013-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P014-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P014-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P014-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P015-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P015-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P015-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P016-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P016-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P016-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P017-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P017-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P017-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P018-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P018-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P018-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P019-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P019-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P019-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P020-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P020-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P020-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P021-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P021-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P021-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P022-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P022-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P022-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P023-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P023-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P023-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P024-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P024-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P024-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P025-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P025-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P025-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P026-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P026-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P026-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P027-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P027-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P027-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P028-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P028-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P028-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P033-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P033-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P033-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P034-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P034-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P034-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P035-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P035-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P035-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P036-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P036-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P036-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P037-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P037-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P037-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P038-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P038-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P038-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P039-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P039-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P039-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P040-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P040-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P040-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P041-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P041-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P041-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P044-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P044-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P044-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P046-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P046-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P046-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P079-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P079-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P079-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P080-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P080-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P080-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P085-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P085-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P085-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P086-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P086-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P086-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P087-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P087-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P087-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P088-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P088-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P088-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P089-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P089-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P089-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P090-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P090-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P090-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P091-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P091-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P091-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P092-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P092-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P093-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P093-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P029-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P029-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P029-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P030-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P030-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P030-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P031-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P031-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P031-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P032-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P032-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P032-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P097-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P097-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P097-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P095-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P095-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P095-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P096-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P096-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P096-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P042-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P042-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P042-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P043-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P043-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P043-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction P045-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock P045-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face P045-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction V34-BB_MONITOR_PLATE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock V34-BB_MONITOR_PLATE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face V34-BB_MONITOR_PLATE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction V34-BB_MONITOR_STOP_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock V34-BB_MONITOR_STOP_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face V34-BB_MONITOR_STOP_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction V34-BB_MONITOR_STOP_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock V34-BB_MONITOR_STOP_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face V34-BB_MONITOR_STOP_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction V34-BB_DMD_SPEAKER_PANEL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock V34-BB_DMD_SPEAKER_PANEL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face V34-BB_DMD_SPEAKER_PANEL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction V34-BB_GLASS_TOP_RETAINER",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock V34-BB_GLASS_TOP_RETAINER",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face V34-BB_GLASS_TOP_RETAINER",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reconstruction V34-BB_GLASS_BOTTOM_SEAT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "stock V34-BB_GLASS_BOTTOM_SEAT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one CNC face V34-BB_GLASS_BOTTOM_SEAT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "protected SIDE_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SIDE_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FRONT",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected REAR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FAN_230",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FAN_370",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected REAR_DOOR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FLOOR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FLOOR_CLEAT_18",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FLOOR_CLEAT_552",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SHELF_1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SHELF_SUPPORT_1L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SHELF_SUPPORT_1R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SHELF_2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SHELF_SUPPORT_2L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SHELF_SUPPORT_2R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SHELF_3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SHELF_SUPPORT_3L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SHELF_SUPPORT_3R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_GUIDE_1L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_BRACKET_1L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_GUIDE_1R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_BRACKET_1R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_GUIDE_2L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_BRACKET_2L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_GUIDE_2R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_BRACKET_2R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_GUIDE_3L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_BRACKET_3L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_GUIDE_3R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CROSS_BRACKET_3R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PLAYFIELD_ENVELOPE",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PC_BASE",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PC_ENVELOPE",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BACKBOX_BASE",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PLUNGER_RESERVED",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_CoinFrame",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_DoorLeaf",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_ReturnButton1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_ReturnButton2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_LightSwitch1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_LightSwitch2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_DoorLock",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_Mechanism1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_Mechanism2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_MechanismMount1_1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_MechanismMount1_2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_MechanismMount2_1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_MechanismMount2_2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_CoinTray",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_TraySupport1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CoinStudy_TraySupport2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFrontButton1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFrontButton2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFrontButton3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFrontButton4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SHELF_1_CandidatePayload",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1L1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1L1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1L1Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1L2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1L2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1L2Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1R1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1R1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1R1Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1R2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1R2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt1R2Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2L1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2L1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2L1Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2L2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2L2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2L2Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2R1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2R1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2R1Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2R2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2R2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt2R2Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3L1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3L1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3L1Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3L2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3L2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3L2Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3R1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3R1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3R1Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3R2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3R2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SimpleShelfBolt3R2Insert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew1L1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew1L1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew1L2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew1L2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew1R1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew1R1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew1R2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew1R2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew2L1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew2L1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew2L2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew2L2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew2R1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew2R1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew2R2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew2R2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew3L1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew3L1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew3L2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew3L2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew3R1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew3R1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew3R2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFixedSupportScrew3R2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateLegBlockFL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateLegPlateFL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateLegBlockFR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateLegPlateFR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateLegBlockRL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateLegPlateRL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateLegBlockRR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateLegPlateRR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFanGuard230Inner",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateFanGuard370Inner",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateHandleBolt1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateHandleBolt1Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateHandleBolt2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateHandleBolt2Washer",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateRearHandle",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateKeyLockBody",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateKeyLockShaft",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateKeyLockCam",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateLockKeeper",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateHingeFixed1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateHingeMoving1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateHingePin1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateHingeFixed2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateHingeMoving2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateHingePin2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected CandidateMainsEnclosure",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SSF_Subwoofer_DCS165_Reference",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SSF_BST_Carrier",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SSF_BST1_Reference",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SSF_Exciter1L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SSF_Exciter1R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SSF_Exciter2L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SSF_Exciter2R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SSF_AmplifierReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SSF_PSUReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected SSF_USBReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafButton_primary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafButton_primary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafNut_primary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafNut_primary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafBracket_primary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafBracket_primary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafContacts_primary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafContacts_primary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafButton_secondary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafButton_secondary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafNut_secondary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafNut_secondary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafBracket_secondary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafBracket_secondary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafContacts_secondary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected LeafContacts_secondary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_BasePlywood",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_WoodDowel",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_VESAEnvelope",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_SupportMountScrewL1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_SupportMountScrewR1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_SupportMountScrewL2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_SupportMountScrewR2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_SupportMountScrewL3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_SupportMountScrewR3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_OpenCradleL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_OpenCradleR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_StrapScrew1_1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_StrapScrew1_3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_CommercialStrap1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_StrapScrew2_1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_StrapScrew2_3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_CommercialStrap2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_StrapScrew3_1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_StrapScrew3_3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_CommercialStrap3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_StrapScrew4_1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_StrapScrew4_3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PF_CommercialStrap4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanBoltL1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanNutL1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanBoltL2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanNutL2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanBoltL3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanNutL3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanBoltL4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanNutL4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterInsertL1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterScrewL1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterInsertL2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterScrewL2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterInsertL3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterScrewL3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterInsertL4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterScrewL4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorIntakeFanL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected RemovableIntakeFilterL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterMediaReserveL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorCommercialGuardReserveL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorUpperGuardReserveL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanConnectorReserveL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanBoltR1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanNutR1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanBoltR2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanNutR2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanBoltR3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanNutR3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanBoltR4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanNutR4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterInsertR1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterScrewR1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterInsertR2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterScrewR2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterInsertR3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterScrewR3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterInsertR4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterScrewR4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorIntakeFanR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected RemovableIntakeFilterR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFilterMediaReserveR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorCommercialGuardReserveR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorUpperGuardReserveR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FloorFanConnectorReserveR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonWireServiceReserve_primary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonToolServiceReserve_primary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonBodyServiceReserve_primary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonLeafServiceReserve_primary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonWireServiceReserve_primary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonToolServiceReserve_primary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonBodyServiceReserve_primary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonLeafServiceReserve_primary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonWireServiceReserve_secondary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonToolServiceReserve_secondary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonBodyServiceReserve_secondary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonLeafServiceReserve_secondary_L",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonWireServiceReserve_secondary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonToolServiceReserve_secondary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonBodyServiceReserve_secondary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected ButtonLeafServiceReserve_secondary_R",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_WoodSeatL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_WoodSeatR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_InsertL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_FixedScrewL1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_FixedScrewL2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_InsertR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_FixedScrewR1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_FixedScrewR2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_RetainerL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_RetainerR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MatrixCarrier",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MatrixPanel1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MatrixPanel2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MatrixPanel3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MatrixPanel4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MatrixPanel5",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MatrixPanel6",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_FixedConnectorReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_MovingConnectorReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_CableLoopReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected MX_FixedCableReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected UprightLockLShelfThread",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected UprightLockLShelfBacking",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected UprightLockRShelfThread",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected UprightLockRShelfBacking",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_Top",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_RearFrame",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DMDEnvelope",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_FanL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_FanGuardL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_FanMeshReserveL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_HingeCleatL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PianoHingeReserveL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PianoLeafFixedL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PianoLeafDoorL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DoorPerimeterGasketL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_FanR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_FanGuardR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_FanMeshReserveR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_HingeCleatR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PianoHingeReserveR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PianoLeafFixedR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PianoLeafDoorR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DoorPerimeterGasketR",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_CenterAstragal",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_CenterGasket",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_CamLockBodyReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_CamLockBarrelReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_CamTongueClosedReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PassiveBoltBodyReserve0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PassiveBoltClosedReserve0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PassiveBoltBodyReserve1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PassiveBoltClosedReserve1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockLWasher",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockLParkingPad0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockLParkingPad1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockLParkingThread",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockLParkingScrewReserve0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockLParkingScrewReserve1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockLKnob",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockRWasher",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockRParkingPad0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockRParkingPad1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockRParkingThread",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockRParkingScrewReserve0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockRParkingScrewReserve1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockRKnob",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_UprightLockLTether",
+      "pass": true,
+      "detail": {
+        "byte_identical": false
+      }
+    },
+    {
+      "name": "protected BB_UprightLockRTether",
+      "pass": true,
+      "detail": {
+        "byte_identical": false
+      }
+    },
+    {
+      "name": "protected PlungerFrontInterfaceProvisional",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PlungerShaftProvisional",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected PlungerHandleProvisional",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected RearFanWoodScrew230_1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected RearFanWoodScrew230_2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected RearFanWoodScrew230_3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected RearFanWoodScrew230_4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected RearFanWoodScrew370_1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected RearFanWoodScrew370_2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected RearFanWoodScrew370_3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected RearFanWoodScrew370_4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_SideScrew1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_SideScrew2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_SideScrew3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_SideScrew4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_AdjusterInsert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_AdjusterWasher",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_AdjusterLocknut",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_ContactPad",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_SwivelDisc",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_SwivelJoint",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_AdjusterStem",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_RetentionBolt",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_RetentionWasher",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_RetentionJamnut1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_RetentionJamnut2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_RetentionPushRing",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_SideScrew1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_SideScrew2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_SideScrew3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_SideScrew4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_AdjusterInsert",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_AdjusterWasher",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_AdjusterLocknut",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_ContactPad",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_SwivelDisc",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_SwivelJoint",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_AdjusterStem",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_RetentionBolt",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_RetentionWasher",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_RetentionJamnut1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_RetentionJamnut2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_RetentionPushRing",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_RetentionReceiver",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_RetentionReceiver",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Plate",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Screw1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Insert1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Screw2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Insert2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Screw3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Insert3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Screw4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Insert4",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_HarnessLoopReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button1_Body",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button1_Face",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button1_Nut",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button1_Switch",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button1_WireReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button2_Body",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button2_Face",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button2_Nut",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button2_Switch",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button2_WireReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button3_Body",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button3_Face",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button3_Nut",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button3_Switch",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button3_WireReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button4_Body",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button4_Face",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button4_Nut",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button4_Switch",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button4_WireReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button5_Body",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button5_Face",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button5_Nut",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button5_Switch",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_Button5_WireReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_USBBody",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_USBFlange",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_USBNut",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_USBCap",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected Underfront_USBCableReserve",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingL_Block",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected FrontLandingR_Block",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DMDVESABolt0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DMDVESABolt1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DMDVESABolt2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DMDVESABolt3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DMDVESAWasher0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DMDVESAWasher1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DMDVESAWasher2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DMDVESAWasher3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_DMD_SPEAKER_PANEL",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_GLASS_BOTTOM_SEAT",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_GLASS_TOP_RETAINER",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PanelBolt_L0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PanelBolt_L1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PanelBolt_R0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PanelBolt_R1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PanelCrossDowel_L0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PanelCrossDowel_L1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PanelCrossDowel_R0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_PanelCrossDowel_R1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_TopDirectScrew0",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_TopDirectScrew1",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_TopDirectScrew2",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "protected BB_TopDirectScrew3",
+      "pass": true,
+      "detail": {
+        "byte_identical": true
+      }
+    },
+    {
+      "name": "no backbox accessory shelf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no backbox baffle/frame/routing-anchor geometry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "S1 S2 S3 retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear shelf bearing footprint unchanged",
+      "pass": true,
+      "detail": {
+        "before_layer_mm3": 10228.436549755274,
+        "after_layer_mm3": 10228.436549755274
+      }
+    },
+    {
+      "name": "top still captures plate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "plate seats on stop L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "plate seats on stop R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "monitor reference does not intersect plate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "plate top insertion before top fitted",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear VESA tool (250, 1004)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear VESA tool (250, 1034)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear VESA tool (250, 1104)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear VESA tool (250, 1134)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear VESA tool (350, 1004)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear VESA tool (350, 1034)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear VESA tool (350, 1104)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear VESA tool (350, 1134)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "four VESA100 slots",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "washer vs cable-opening ligament>=13mm",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mask within assumed active area -15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mask within assumed active area 0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mask within assumed active area 15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "3mm acrylic <=2mm gravity bow screening",
+      "pass": true,
+      "detail": [
+        {
+          "stock_mm": 3.0,
+          "E_Pa_provisional": 3000000000.0,
+          "density": 1180,
+          "selfweight_horizontal_deflection_mm": 1.7068052842215113,
+          "reference_mass_kg": 1.22189472,
+          "physical_flatness_HOLD": true
+        },
+        {
+          "stock_mm": 4.0,
+          "E_Pa_provisional": 3000000000.0,
+          "density": 1180,
+          "selfweight_horizontal_deflection_mm": 0.9600779723745992,
+          "reference_mass_kg": 1.6291929600000001,
+          "physical_flatness_HOLD": true
+        }
+      ]
+    },
+    {
+      "name": "40K acrylic expansion below geometric lateral clearance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "acrylic rotation capture [1.0, 0.0, 0.0]-1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "acrylic rotation capture [1.0, 0.0, 0.0]1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "acrylic rotation capture [0.0, 1.0, 0.0]-1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "acrylic rotation capture [0.0, 1.0, 0.0]1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "acrylic rotation capture [0.0, 0.0, 1.0]-1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "acrylic rotation capture [0.0, 0.0, 1.0]1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "speaker rear reserve>=3mm",
+      "pass": true,
+      "detail": 3.099999999999909
+    },
+    {
+      "name": "door continuous L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "door continuous R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local front bevel residual skin>5mm",
+      "pass": true,
+      "detail": 5.326751647567903
+    },
+    {
+      "name": "no protected bottom bearing removed",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "space": {
+    "domain_mm": [
+      -72,
+      1126,
+      615,
+      744,
+      164.1,
+      687.8
+    ],
+    "before_free_litre": 36.74432902090815,
+    "after_passive_free_litre": 49.550897566529095,
+    "after_active_free_litre": 49.406897566529075,
+    "definition": "fixed conservative interior domain minus actual modeled occupied solids; not cable/hand qualified volume",
+    "speaker_to_frame_mm": 3.099999999999909,
+    "speaker_limit_by_frame_mm": 93.1,
+    "plate_rear_to_upper_fan_front_mm": 58.09999999999991,
+    "plate_rear_to_door_inside_mm": 83.09999999999991
+  },
+  "acrylic_screen": [
+    {
+      "stock_mm": 3.0,
+      "E_Pa_provisional": 3000000000.0,
+      "density": 1180,
+      "selfweight_horizontal_deflection_mm": 1.7068052842215113,
+      "reference_mass_kg": 1.22189472,
+      "physical_flatness_HOLD": true
+    },
+    {
+      "stock_mm": 4.0,
+      "E_Pa_provisional": 3000000000.0,
+      "density": 1180,
+      "selfweight_horizontal_deflection_mm": 0.9600779723745992,
+      "reference_mass_kg": 1.6291929600000001,
+      "physical_flatness_HOLD": true
+    }
+  ],
+  "local_bevel_min_skin_mm": 5.326751647567903,
+  "doors_continuous": {
+    "L": {
+      "range_deg": [
+        0,
+        100
+      ],
+      "intervals": [
+        [
+          0,
+          6.25
+        ],
+        [
+          6.25,
+          12.5
+        ],
+        [
+          12.5,
+          18.75
+        ],
+        [
+          18.75,
+          25.0
+        ],
+        [
+          25.0,
+          31.25
+        ],
+        [
+          31.25,
+          37.5
+        ],
+        [
+          37.5,
+          43.75
+        ],
+        [
+          43.75,
+          50.0
+        ],
+        [
+          50.0,
+          56.25
+        ],
+        [
+          56.25,
+          62.5
+        ],
+        [
+          62.5,
+          68.75
+        ],
+        [
+          68.75,
+          75.0
+        ],
+        [
+          75.0,
+          81.25
+        ],
+        [
+          81.25,
+          87.5
+        ],
+        [
+          87.5,
+          93.75
+        ],
+        [
+          93.75,
+          100
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    },
+    "R": {
+      "range_deg": [
+        0,
+        100
+      ],
+      "intervals": [
+        [
+          0,
+          6.25
+        ],
+        [
+          6.25,
+          12.5
+        ],
+        [
+          12.5,
+          18.75
+        ],
+        [
+          18.75,
+          25.0
+        ],
+        [
+          25.0,
+          31.25
+        ],
+        [
+          31.25,
+          37.5
+        ],
+        [
+          37.5,
+          43.75
+        ],
+        [
+          43.75,
+          50.0
+        ],
+        [
+          50.0,
+          56.25
+        ],
+        [
+          56.25,
+          62.5
+        ],
+        [
+          62.5,
+          68.75
+        ],
+        [
+          68.75,
+          75.0
+        ],
+        [
+          75.0,
+          81.25
+        ],
+        [
+          81.25,
+          87.5
+        ],
+        [
+          87.5,
+          93.75
+        ],
+        [
+          93.75,
+          100
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    }
+  },
+  "native_sha256": "40e3abbe07e4b6fef4288f31093042a52410c2859796eb21e1e93e5df9f8db60",
+  "manufacturing_release": false,
+  "physical_qualification": false
+}

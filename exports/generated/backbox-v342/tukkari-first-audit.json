@@ -1,0 +1,62 @@
+[
+  {
+    "subsystem": "MONITOR",
+    "equivalent_found": true,
+    "public_sources": [
+      "https://www.tukkari.com/advisor/assembly-guide-widebody-vpin-cabinet-premium-flat-pack",
+      "https://www.tukkari.com/p/ultra-widebody-virtual-pinball-cabinet-vpin-premium-flat-pack-kit"
+    ],
+    "functional_architecture_adopted": "One fixed monitor plate;front monitor service;spacer depth adjustment.",
+    "our_measured_or_owner_conflict": "Owner mandates captured top-inserted plate, supplier one-face CNC; public bracket construction differs.",
+    "minimum_deviation": "Existing4mm guides,2 stops and top capture retained. Fixed planeY1209 and4VESA100 slots independently dimensioned.",
+    "source_CAD_imported": false
+  },
+  {
+    "subsystem": "ACRYLIC",
+    "equivalent_found": true,
+    "public_sources": [
+      "https://www.tukkari.com/advisor/assembly-guide-widebody-vpin-cabinet-premium-flat-pack",
+      "https://www.tukkari.com/p/ultra-widebody-virtual-pinball-cabinet-vpin-premium-flat-pack-kit"
+    ],
+    "functional_architecture_adopted": "3mm acrylic and simple front channels; no wooden bezel.",
+    "our_measured_or_owner_conflict": "Actual TCL image and acrylic stock/liner unknown; owner requires front removal without top disassembly.",
+    "minimum_deviation": "Existing front tilt seat +one removable strip retained. Rear mask687x356 is provisional and crops assumed image to cover30mm travel.",
+    "source_CAD_imported": false
+  },
+  {
+    "subsystem": "VENTILATION",
+    "equivalent_found": true,
+    "public_sources": [
+      "https://www.tukkari.com/advisor/assembly-guide-widebody-vpin-cabinet-premium-flat-pack",
+      "https://www.tukkari.com/p/ultra-widebody-virtual-pinball-cabinet-vpin-premium-flat-pack-kit"
+    ],
+    "functional_architecture_adopted": "Ordinary120mm fan-size openings.",
+    "our_measured_or_owner_conflict": "Our twin doors, locks and90mm speaker depth constrain location.",
+    "minimum_deviation": "TwoØ116 lower openings in existing doors atX155/445 Z738; no added panel or duct. Grille-only default; optional fans.",
+    "source_CAD_imported": false
+  },
+  {
+    "subsystem": "DMD_SPEAKERS",
+    "equivalent_found": true,
+    "public_sources": [
+      "https://www.tukkari.com/advisor/assembly-guide-widebody-vpin-cabinet-premium-flat-pack",
+      "https://www.tukkari.com/p/ultra-widebody-virtual-pinball-cabinet-vpin-premium-flat-pack-kit"
+    ],
+    "functional_architecture_adopted": "One combined front panel.",
+    "our_measured_or_owner_conflict": "Public bent metal does not translate directly to one-face plywood; owner already accepts V34 direct-front arrangement.",
+    "minimum_deviation": "Existing18mm one-panel architecture retained.90mm rear speaker reserve replaces60mm after baffle deletion.",
+    "source_CAD_imported": false
+  },
+  {
+    "subsystem": "PLAYFIELD_GLASS",
+    "equivalent_found": true,
+    "public_sources": [
+      "https://www.tukkari.com/advisor/assembly-guide-widebody-vpin-cabinet-premium-flat-pack",
+      "https://www.tukkari.com/p/ultra-widebody-virtual-pinball-cabinet-vpin-premium-flat-pack-kit"
+    ],
+    "functional_architecture_adopted": "Continuous side plastic channels, rear plastic channel, front lockdown retention.",
+    "our_measured_or_owner_conflict": "Extending fixed side channels to the folding rear stop creates sweep interference. Existing WPC fold/main cabinet protected.",
+    "minimum_deviation": "Retain1100mm side profiles; rear U at1142mm local glass length.32mm side-edge transition to rear support. Local top-face floor bevel follows derived9.906669deg. Physical edge support/channel/lockdown qualification HOLD.",
+    "source_CAD_imported": false
+  }
+]

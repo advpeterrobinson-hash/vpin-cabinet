@@ -1,0 +1,137 @@
+{
+  "version": "V34.2",
+  "pass": true,
+  "head_before": "8d951bc37a38d5e3820cbde93700f1161ff32fb1",
+  "checks": [
+    {
+      "name": "native",
+      "pass": true
+    },
+    {
+      "name": "independent",
+      "pass": true
+    },
+    {
+      "name": "browser",
+      "pass": true
+    },
+    {
+      "name": "native independent evidence bound",
+      "pass": true
+    },
+    {
+      "name": "viewer bound",
+      "pass": true
+    },
+    {
+      "name": "source baseline bound",
+      "pass": true
+    },
+    {
+      "name": "hardware IDs unique",
+      "pass": true
+    },
+    {
+      "name": "stocks exactly12/18",
+      "pass": true
+    },
+    {
+      "name": "66wood60CNC45families",
+      "pass": true
+    },
+    {
+      "name": "canonical family has one stock",
+      "pass": true
+    },
+    {
+      "name": "no baffles shelves in CURRENT wood",
+      "pass": true
+    },
+    {
+      "name": "zero changed reconstruction",
+      "pass": true
+    },
+    {
+      "name": "exact monitor unknowns held",
+      "pass": true
+    },
+    {
+      "name": "reference geometry not hardware release",
+      "pass": true
+    },
+    {
+      "name": "thin boss negative control fails",
+      "pass": true
+    },
+    {
+      "name": "four VESA slots30travel",
+      "pass": true
+    },
+    {
+      "name": "acrylic final fit held",
+      "pass": true
+    },
+    {
+      "name": "glass final cut held",
+      "pass": true
+    },
+    {
+      "name": "30 rendered native CAD views",
+      "pass": true
+    },
+    {
+      "name": "59 manual steps",
+      "pass": true
+    },
+    {
+      "name": "historical/protected source config/backbox_simplification_v34.json",
+      "pass": true
+    },
+    {
+      "name": "historical/protected source config/service_productization_v338.json",
+      "pass": true
+    },
+    {
+      "name": "historical/protected source exports/generated/backbox-v34",
+      "pass": true
+    },
+    {
+      "name": "historical/protected source exports/generated/service-productization-v338",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "native": 521,
+    "independent": 665,
+    "browser": 58,
+    "regression": 24
+  },
+  "manufacturing_ready": false,
+  "actual_hardware_qualification": false,
+  "viewer_sha256": "b82316b0174ca214948c1b32bb7e778ab02a677f3e46d2782a2a430d18ba5752",
+  "evidence_sha256": {
+    "exports/generated/backbox-v342/candidate.FCStd": "40e3abbe07e4b6fef4288f31093042a52410c2859796eb21e1e93e5df9f8db60",
+    "exports/generated/backbox-v342/play.FCStd": "7d36001cdb1b7a1f1c133705452ff07a5a2939ed75b60a3c7eff3ef9dfc68b89",
+    "exports/generated/backbox-v342/geometry-validation.json": "b11d30e06f7278fc4577a6b2313f5b29cf961da1495b5fe2704aa36364409c8f",
+    "exports/generated/backbox-v342/independent-validation.json": "4c597521efaf34f011e31eb74e5fe46a9b96934022e1c8729370f04df218a2dc",
+    "exports/generated/backbox-v342/browser-validation.json": "fa4351bf2fe98f251893ce2e18493526464fe2cdbb1b2b616a3f8dc31aaf4aa5",
+    "exports/generated/backbox-v342/manufacturing-register.json": "a25557b8cf6783ad91d4063fd8270a8faa639e18b1ded562a6e734c160da62ce",
+    "exports/generated/backbox-v342/mass-counts.json": "419d14705f722a91f23041c1876279ea973dc740451bd0c5dffb929fc427603d",
+    "exports/generated/backbox-v342/viewer-authority.json": "16a68db3a78a2a649aeb91fbd858efda53c576c723f84ce8ea136f6932addd8c",
+    "exports/generated/backbox-v342/sources.json": "d9c6a256b6b533e4496823d0051a486b097ddd7e81257647eea21a5504036abf",
+    "exports/generated/backbox-v342/tukkari-first-audit.json": "edc390e91d61aa837db56c227aae0ca878f19683fe7e28d595c2796410bb2fa8",
+    "exports/generated/backbox-v342/assembly-manual.json": "60d1ab27a8b81b83bde7a45512e1a909f6cadebeaad7c84755f5b6f247f68c25",
+    "exports/generated/backbox-v342/review-index.json": "328ed5c26898b46b203a62dc330a30ebfe6febdb1ea5dce5723e2864e12c54e2",
+    "config/backbox_hardening_v342.json": "57f15a63bef0856165b0b97d0f00a33e4e90997009f13f7ab160aa66af67e069",
+    "config/hardware_catalog_v342.json": "464dc31e5be866a8bd02e4e1df54c38ed0d71269c234ed4beede9121f0cfc008",
+    "config/manufacturing/flatpack_v342.json": "6566d24c91091f5c5e5aae88d1c2012f1296c11fe3ce112dfbb9fc9b67be2260",
+    "tools/backbox_hardening_v342.py": "df328a7ea4a3498ab3e8f0f320183def3a5674068ef6c4519bed663c37651bed",
+    "tools/backbox_v342_common.py": "5dcbc2ab16025cfb006b1709d0c7a7d4a15eef43dfc485ec3ecaa31cb92de1e3",
+    "tools/check_backbox_v342_native.py": "e8c7a534edec8aede9a559bbcf43df87bc5a6905e99c67ca1ea62f601bfe4c9d",
+    "tools/backbox_v342_manufacturing.py": "47bdc048d2f352bbad6586e89ecafe1baaa3af15e4c66adffe28f128215b9f08",
+    "tools/backbox_v342_export.py": "10d8ac6f67e1ea05c1de8492aa01dbe7a6cb252406be9b90ce258aab5fa635f9",
+    "tools/build_viewer_v342.py": "1755560f89b1c31ef34035e5b1da4183bf764c04f610f5b6a0da424b16f69dc3",
+    "tools/viewer_v342_study.html": "56d61c0a83a07e6e0504351d99caf5b11494cc08c3664c3e3ecf8293b6724c3f"
+  },
+  "promotion_scope": "REFERENCE_GEOMETRY_DESIGN_CANDIDATE_ONLY; actual TV bosses, mask, channels/lockdown, material/coupon and structural qualification HOLD"
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "CURRENT V34 front \u2014 historical",
+    "note": "Before:4mm glass, +/-5mm monitor slots and lower intake filter/baffle assemblies.",
+    "native_cad": true
+  },
+  {
+    "image": "02-review.png",
+    "title": "V34.2 front \u2014 acrylic and rear black mask",
+    "note": "One captured plate; one DMD/speaker panel.3mm acrylic reference, rear painted mask. Final screen/boss/mask dimensions HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "03-review.png",
+    "title": "TCL-like NOMINAL",
+    "note": "Published715x422x75mm,3.15kg,VESA100. Boss65mm and active697x392mm are sensitivity assumptions, not manufacturer drawings. Fixed687x356 mask crops image to cover full30mm adjustment.",
+    "native_cad": true
+  },
+  {
+    "image": "04-review.png",
+    "title": "TCL-like LOW -15mm",
+    "note": "Published715x422x75mm,3.15kg,VESA100. Boss65mm and active697x392mm are sensitivity assumptions, not manufacturer drawings. Fixed687x356 mask crops image to cover full30mm adjustment.",
+    "native_cad": true
+  },
+  {
+    "image": "05-review.png",
+    "title": "TCL-like HIGH +15mm",
+    "note": "Published715x422x75mm,3.15kg,VESA100. Boss65mm and active697x392mm are sensitivity assumptions, not manufacturer drawings. Fixed687x356 mask crops image to cover full30mm adjustment.",
+    "native_cad": true
+  },
+  {
+    "image": "06-review.png",
+    "title": "Four primary VESA100 long slots",
+    "note": "Slot length = reference5mm bolt clearance +30mm travel =35mm. Final width HOLD. VESA75 retired from minimum plate.",
+    "native_cad": true
+  },
+  {
+    "image": "07-review.png",
+    "title": "Depth section 75mm body / 65mm boss",
+    "note": "Fixed plate FRONT Y1209;12mm spacers.75/65 and80/70 pass;80/55 fails because lower body intersects plate. Actual TV boss offsets, connectors and engaged screw length remain HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "08-review.png",
+    "title": "Depth section 80mm body / 70mm boss",
+    "note": "Fixed plate FRONT Y1209;12mm spacers.75/65 and80/70 pass;80/55 fails because lower body intersects plate. Actual TV boss offsets, connectors and engaged screw length remain HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "09-review.png",
+    "title": "Acrylic purchased sheet",
+    "note": "752x459x3mm planning sheet. Compare4mm in report. Actual thickness/flatness, thermal clearance and final cut pending.",
+    "native_cad": true
+  },
+  {
+    "image": "10-review.png",
+    "title": "Rear-face black mask",
+    "note": "Clear687x356mm reference aperture. Mask on rear; no wooden bezel. Full +/-15mm needs image cropping; alternative final mask after actual alignment remains builder choice.",
+    "native_cad": true
+  },
+  {
+    "image": "11-review.png",
+    "title": "Acrylic in padded channel seats",
+    "note": "Reuse simple front rebates / lower U / one upper strip.3mm sheet supported in8mm reference lower seat by selected commodity liner; no gravity-only retention.",
+    "native_cad": true
+  },
+  {
+    "image": "12-review.png",
+    "title": "Front acrylic service",
+    "note": "Strip off; lift1mm, tilt10deg, lift6mm, withdraw FRONT. Shell top and captured plate remain. Actual flexible sheet handling/flatness qualification pending.",
+    "native_cad": true
+  },
+  {
+    "image": "13-review.png",
+    "title": "Retired lower intake complexity",
+    "note": "Historical only:2 filter frames +8 baffle manufacturing pieces retired.",
+    "native_cad": true
+  },
+  {
+    "image": "14-review.png",
+    "title": "Two lower passive stations",
+    "note": "Two\u00d8116 openings,105mm mounting pitch, ordinary commodity120mm grilles. Exact purchased finger-safe grille and fixing profile HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "15-review.png",
+    "title": "Optional 2 intake +2 exhaust",
+    "note": "No recutting for active mode. Fan bodies120x120x25mm; F67 replaces shorter F66 passive screws. Thermal qualification PENDING.",
+    "native_cad": true
+  },
+  {
+    "image": "16-review.png",
+    "title": "Rear doors100deg / fan packaging",
+    "note": "Passive/active door sweeps tested. No universal service-loop anchors; builder routes selected flexible fan lead through open volume.",
+    "native_cad": true
+  },
+  {
+    "image": "17-review.png",
+    "title": "One lower panel, baffles removed",
+    "note": "Direct DMD and two speakers. No cassette, separate baffles or electronics shelves.",
+    "native_cad": true
+  },
+  {
+    "image": "18-review.png",
+    "title": "Speaker depth90mm reference",
+    "note": "Prior60mm grows to90mm. Rear-frame contact at93.1mm limits reference;3.1mm nominal residual. Actual speaker magnet/body and screws HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "19-review.png",
+    "title": "Open backbox utility space \u2014 no shelves",
+    "note": "No current backbox universal accessory shelves or shelf supports existed;0 retained/added. S1/S2/S3 main cabinet untouched.",
+    "native_cad": true
+  },
+  {
+    "image": "20-review.png",
+    "title": "Only essential cable passages",
+    "note": "One monitor hand/connector opening, one covered DMD cable opening, one common main/backbox passage. Projected fan anchor/loop features retired.",
+    "native_cad": true
+  },
+  {
+    "image": "21-review.png",
+    "title": "Main cabinet to backbox passage",
+    "note": "Common generic cable passage preserved. No connector count, disconnect method or universal cable-management feature.",
+    "native_cad": true
+  },
+  {
+    "image": "22-review.png",
+    "title": "Side plastic U-channel section",
+    "note": "5mm nominal tempered glass,0.5mm side clearance; plastic channel separates wood/glass. Actual commodity profile and mounting/thermal fit HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "23-review.png",
+    "title": "Front lockdown interface",
+    "note": "Only lockdown retains front. Shown containment envelope is not a selected bar/latch. Release bar and slide toward PLAYER; no extra front clamps.",
+    "native_cad": true
+  },
+  {
+    "image": "24-review.png",
+    "title": "Local angled rear glass seat \u2014 X40 section",
+    "note": "Measured channel/glass plane9.90666925365deg. Local top rebate only; no BB_Floor tilt. Floor skin/bearing and one-face variable-depth cutter finish remain coupon-qualified.",
+    "native_cad": true
+  },
+  {
+    "image": "25-review.png",
+    "title": "Complete glass support / containment",
+    "note": "Unchanged continuous1100mm side profiles;42mm rear transition to new rear U avoids moving backbox/fixed-rail interference. Reference glass575x1142x5; final cut HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "26-review.png",
+    "title": "Glass removal toward player",
+    "note": "Lockdown released. Exact forward translation sweep tested; rear U and side channels stay installed. No backbox disassembly.",
+    "native_cad": true
+  },
+  {
+    "image": "27-review.png",
+    "title": "Backbox fold \u2014 main glass removed",
+    "note": "Main tempered glass and matrix removed; rear doors closed/latched; upright locks released/parked. Acrylic and lower panel remain installed.",
+    "native_cad": true
+  },
+  {
+    "image": "28-review.png",
+    "title": "Simplified exploded backbox",
+    "note": "One plate,2 stops,one lower panel,one acrylic sheet/upper strip. Lower fans mount straight to doors. No accessory shelves, duct panels or cable rack.",
+    "native_cad": true
+  },
+  {
+    "image": "29-review.png",
+    "title": "Complete populated backbox",
+    "note": "TCL-like depth case and selected nominal positions. Purchased boss location/connector access, grills, speakers and physical retention are HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "30-review.png",
+    "title": "76 to66 wood pieces;45 unique families",
+    "note": "10 CNC pieces removed:2 filter frames +8 baffle members. Duplicate M074 corrected: monitor plate is M078; underfront remains M074. No piece added. Nominal wood61.182kg versus61.923kg; acrylic/electronics separate.",
+    "native_cad": true
+  }
+]

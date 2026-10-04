@@ -6,16 +6,20 @@ For every new or revised cabinet subsystem/function, first look for an equivalen
 
 Before adding complexity, record: **TUKKARI EQUIVALENT; PUBLIC EVIDENCE; OUR CONFLICT (measured); WHY DIRECT ADAPTATION FAILS; MINIMUM DEVIATION**. “More modular”, “future-proof” or preference alone is not evidence. If no public equivalent is found, record the search and uncertainty, rather than claiming absence. Explicit owner architecture corrections take precedence; distinguish them from the public source.
 
-V34 owner authority: a single monitor plate enters from the TOP during shell assembly, seats on two side stops, and is captured by side guides plus the permanently fastened top. The monitor itself is serviced from the FRONT after front glass removal. Do not reintroduce a removable rail/carrier, depth shoes or M067. Scope of promotion and current validation are recorded in `config/current_v32.json`; a study does not itself replace CURRENT. Manufacturing remains blocked.
+V34 owner authority: a single monitor plate enters from the TOP during shell assembly, seats on two side stops, and is captured by side guides plus the permanently fastened top. The monitor itself is serviced from the FRONT after front acrylic removal. Do not reintroduce a removable rail/carrier, depth shoes or M067. Scope of promotion and current validation are recorded in `config/current_v32.json`; a study does not itself replace CURRENT. Manufacturing remains blocked.
 
 
-## Current V34 backbox authority
+## Current V34.2 backbox authority
 
-- Read `config/current_v32.json`, `config/backbox_simplification_v34.json` and `docs/BACKBOX_SIMPLIFICATION_V34.md`. One18mm captured monitor plate,2 identical12mm stops; one18mm DMD/speaker panel; front glass with one12mm strip. No retired rails/shoes/M067/cassette.
-- 76 wood manufacturing pieces /70 CNC plywood /6 solid blocks /48 families. Monitor/DMD/speaker/glass hardware and physical qualification remain pending. Speaker rear-depth reserve60mm, DMD total occupied depth45mm; these are limits, not universal fit claims.
-- No final CNC release; measured stock/coupon/purchased hardware required. Main-cabinet holds below remain active.
+- Read `config/current_v32.json`, `config/backbox_hardening_v342.json` and `docs/BACKBOX_HARDENING_V342.md`. One18mm captured monitor plate atY1209, primaryVESA100 slots with±15mm reference travel;2 fixed12mm stops. No rails/shoes/M067/cassette.
+- TCL32S5K published715×422×75mm,3.15kg,VESA100/M4 is the primary reference. Actual boss plane/offset, connectors and active image are unmeasured.75/65 and80/70 body/boss sensitivity cases pass with12mm spacers;80/55 fails. Do not call the purchased TV fit frozen.
+- Backbox front is purchased3mm acrylic reference with REAR painted mask, padded seats and one removable strip; normal monitor/acrylic service is FRONT, never shell-top/plate removal. Final mask must resolve the disclosed image-cropping tradeoff.
+- Two lower120mm stations directly in existing doors: passive grille or optional intake;2 upper exhausts retained. No backbox universal shelves, intake baffles/filter frames or cable-management anchors. Essential passages only. User qualifies fan wiring.
+- One18mm DMD/speaker panel;90mm rear speaker reference depth,3.1mm to frame. Final purchased speaker/DMD dimensions held.
+- Main glass:5mm tempered reference, lined side channels, front lockdown and angled rear U on a local top-face BB_Floor rebate. Whole floor stays horizontal.9.906669° derived from actual channel plane;32mm side-edge transition and5.327mm minimum front skin need physical/coupon qualification. Final channels, glass cut and lockdown hardware NULL/HOLD.
+-66 wood manufacturing pieces /60 CNC plywood /6 solid /45 families. Only12/18mm plywood. No CNC release; measured stock/coupon/purchased hardware and physical qualification required. Main-cabinet and raised-service-support holds below remain active.
 
-## Protected V33.8 main-cabinet authority (backbox superseded by V34)
+## Protected V33.8 main-cabinet authority (backbox superseded by V34.2)
 
 - Start with `config/current_v32.json` and `docs/SERVICE_PRODUCTIZATION_V338.md`. Protected V33.7 architecture remains; only six front-landing plywood layers and four obsolete binder screws are replaced by two SW02 solid blocks, 68 × 70 × 54 mm.
 - Plywood stock remains exactly 18 / 12 mm. SW01 and SW02 are explicit shop-made solid wood, never a third sheet family.

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "TCL",
+    "url": "https://tclelectronics.co.nz/downloads/brochures/32S5K_Product_Specification_NZ.pdf",
+    "publisher": "TCL",
+    "evidence": "Official indexed manufacturer specification:715x422x75mm without stand;3.15kg;VESA100x100;M4x10 reference. Assembled screw length is NOT released from this value.",
+    "status": "DOCUMENTED; actual bosses, VESA offset, connectors and active image not established",
+    "access": "Official indexed PDF extract inspected; direct PDF request timed out. No proprietary document copied."
+  },
+  {
+    "id": "TUKKARI_GUIDE",
+    "url": "https://www.tukkari.com/advisor/assembly-guide-widebody-vpin-cabinet-premium-flat-pack",
+    "evidence": "One monitor plate; combined lower panel; ordinary side and rear plastic playfield-glass channels. Public assembly architecture only."
+  },
+  {
+    "id": "TUKKARI_PRODUCT",
+    "url": "https://www.tukkari.com/p/ultra-widebody-virtual-pinball-cabinet-vpin-premium-flat-pack-kit",
+    "evidence": "3mm clear acrylic, routed channels,120mm fan interfaces and combined DMD/speaker panel. Functional adaptation; no source CAD copied."
+  }
+]

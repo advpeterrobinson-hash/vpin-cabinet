@@ -1,0 +1,24 @@
+{
+  "basis": "actual finished B-rep volume",
+  "density_kg_m3": 650,
+  "wood_kg": 61.18212026879438,
+  "previous_wood_kg": 61.923111940518176,
+  "delta_kg": -0.7409916717237977,
+  "LOW550_kg": 51.76948638128755,
+  "HIGH750_kg": 70.5947541563012,
+  "acrylic3mm_kg": 1.22189472,
+  "playfield_glass5mm_kg": 8.208124999999988,
+  "hardware_mass": "UNKNOWN_NOT_ZERO",
+  "removed_backbox_wood_volume_litre": 1.164096,
+  "plywood_stocks": [
+    12,
+    18
+  ],
+  "counts": {
+    "manufacturing_pieces": 66,
+    "CNC_plywood_pieces": 60,
+    "canonical_families": 45,
+    "installed_components": 66
+  },
+  "reconstruction_max_mm3": 0.0
+}

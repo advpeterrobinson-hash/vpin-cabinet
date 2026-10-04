@@ -1,0 +1,37 @@
+{
+  "retired_instances": [
+    "P081-Main",
+    "P082-Main",
+    "P083-Face",
+    "P083-Top",
+    "P083-Side1",
+    "P083-Side2",
+    "P084-Face",
+    "P084-Top",
+    "P084-Side1",
+    "P084-Side2"
+  ],
+  "changed_rows": [
+    "P044-Main",
+    "P079-Main",
+    "P080-Main",
+    "P042-Main",
+    "P043-Main",
+    "V34-BB_MONITOR_PLATE",
+    "V34-BB_MONITOR_STOP_L",
+    "V34-BB_MONITOR_STOP_R"
+  ],
+  "retired_hardware_ids": [
+    "F22",
+    "F23",
+    "B10",
+    "G07"
+  ],
+  "reconstruction_max_mm3": 0.0,
+  "counts": {
+    "manufacturing_pieces": 66,
+    "CNC_plywood_pieces": 60,
+    "canonical_families": 45,
+    "installed_components": 66
+  }
+}

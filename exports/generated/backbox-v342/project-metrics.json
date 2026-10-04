@@ -1,0 +1,15 @@
+{
+  "manufacturing_pieces": 66,
+  "CNC_pieces": 60,
+  "shop_solid_pieces": 6,
+  "canonical_families": 45,
+  "wood_mass_kg": 61.18212026879438,
+  "preliminary_sheets": "V34 HOLD",
+  "known_fastener_minimum": 180,
+  "hardware_models": 160,
+  "manufacturing_status": "BLOCKED",
+  "coupon_status": "NOT_CUT_OR_VALIDATED",
+  "wood_finished_reference_mass_kg": 61.18212026879438,
+  "wood_shipping_mass_kg": null,
+  "wood_mass_basis": "ACTUAL_FINISHED_BREPS; shipping allowance not a measured wood mass"
+}

@@ -1,0 +1,126 @@
+{
+  "version": "V34.2",
+  "head_before": "8d951bc37a38d5e3820cbde93700f1161ff32fb1",
+  "source": "exports/generated/backbox-v34/play.FCStd",
+  "manufacturing_release": false,
+  "allowed_plywood_stock_mm": [
+    12,
+    18
+  ],
+  "monitor": {
+    "reference": "TCL 32S5K",
+    "published_no_stand_mm": [
+      715,
+      422,
+      75
+    ],
+    "published_mass_kg": 3.15,
+    "primary_VESA_mm": 100,
+    "thread_reference": "M4",
+    "production_screw_length_mm": null,
+    "vertical_travel_mm": 15,
+    "slot_reference_width_mm": 5,
+    "production_slot_width_mm": null,
+    "plate_front_y_mm": 1209,
+    "plate_stock_mm": 18,
+    "VESA_center_xz_mm": [
+      300,
+      1069
+    ],
+    "body_bottom_z_mm": 858,
+    "VESA_location_on_actual_TV": null,
+    "spacers_mm": [
+      0,
+      3,
+      6,
+      9,
+      12
+    ],
+    "selected_planning_spacer_mm": 12,
+    "TCL_like_boss_depth_assumption_mm": 65,
+    "generic_boss_depth_assumption_mm": 70,
+    "generic_body_depth_mm": 80,
+    "lower_thick_zone_height_assumption_mm": 125,
+    "connector_reserve_xyz_mm": [
+      100,
+      80,
+      60
+    ],
+    "boss_and_connector_geometry_status": "PROVISIONAL_SENSITIVITY_NOT_TCL_DRAWING"
+  },
+  "acrylic": {
+    "thickness_candidates_mm": [
+      3,
+      4
+    ],
+    "selected_reference_mm": 3,
+    "final_thickness_mm": null,
+    "size_reference_mm": [
+      752,
+      459
+    ],
+    "front_y_mm": 1114,
+    "mask_face": "REAR",
+    "clear_window_reference_mm": [
+      687,
+      356
+    ],
+    "clear_center_xz_mm": [
+      300,
+      1069
+    ],
+    "actual_active_image_mm": null,
+    "mask_final_size_mm": null,
+    "thermal_fit_hold": true
+  },
+  "lower_fans": {
+    "centers_xz_mm": [
+      [
+        155,
+        738
+      ],
+      [
+        445,
+        738
+      ]
+    ],
+    "body_mm": [
+      120,
+      120,
+      25
+    ],
+    "pitch_mm": 105,
+    "air_opening_mm": 116,
+    "final_mount_bore_mm": null,
+    "default": "PASSIVE_GRILL",
+    "optional": "120mm_INTAKE_FAN",
+    "exhaust_count": 2
+  },
+  "speaker": {
+    "selected_reference_depth_mm": 90,
+    "final_speaker_dimensions_mm": null
+  },
+  "playfield_glass": {
+    "stock_mm": 5,
+    "final_cut_mm": null,
+    "rear_local_length_mm": 1142,
+    "channel_wall_reference_mm": 2,
+    "channel_fit_reference_mm": 0.5,
+    "rear_mount_local_start_mm": 1127,
+    "rear_mount_local_end_mm": 1152,
+    "final_channel_profile": null,
+    "lockdown_hardware": null,
+    "whole_floor_tilted": false,
+    "machining": "ONE_FACE_VARIABLE_DEPTH_RECESS; supplier surface-finish qualification HOLD"
+  },
+  "holds": [
+    "actual TV VESA boss plane and offset",
+    "monitor thread engagement",
+    "acrylic flatness and thermal fit",
+    "actual channels/liners and lockdown retention",
+    "fan/grill hardware",
+    "speakers/DMD",
+    "plywood/coupon/CNC",
+    "physical structural qualification"
+  ]
+}
