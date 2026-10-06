@@ -1,3 +1,5 @@
+> CURRENT V35.1 — [32 CAD review views](../../exports/generated/widebody-v351/index.html) · standard widebody628.65mm / referência widebody628,65mm. CNC BLOCKED / BLOQUEADO. Earlier galleries below are historical.
+
 > CURRENT V34: [simplified backbox report](../../exports/generated/backbox-v34/README.md) · [26 CAD views](../../exports/generated/backbox-v34/review.html). Captured plate assembled from TOP; monitor and glass serviced FRONT. **76 wood /70 CNC /6 solid /48 families**. Finished wood61.923kg (+0.679kg); physical qualification and CNC remain BLOCKED.
 
 > CURRENT: [V33.8 — 22 vistas CAD reais](../../exports/generated/service-productization-v338/review.html). Physical qualification / full-sheet CNC blocked; primary raised-playfield support unresolved.

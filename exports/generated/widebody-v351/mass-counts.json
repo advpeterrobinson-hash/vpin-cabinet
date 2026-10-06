@@ -1,0 +1,19 @@
+{
+  "basis": "actual finished B-rep volumes; no bounding-box mass",
+  "density_LOW_NOMINAL_HIGH": [
+    550,
+    650,
+    750
+  ],
+  "wood_LOW_kg": 52.7667964621782,
+  "wood_NOMINAL_kg": 62.36075945530151,
+  "wood_HIGH_kg": 71.95472244842482,
+  "delta_nominal_kg": 1.1786391865071304,
+  "wood_pieces": 66,
+  "CNC_pieces": 60,
+  "solid_blocks": 6,
+  "families": 45,
+  "reconstruction_max_mm3": 0.0,
+  "hardware_mass": "UNKNOWN_NOT_ZERO",
+  "glass_reference_mass_kg": 8.235870624999984
+}

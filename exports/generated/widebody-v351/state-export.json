@@ -1,0 +1,16 @@
+{
+  "states": [
+    "PLAY",
+    "SERVICE",
+    "LIFT-OUT",
+    "MATRIX REMOVED",
+    "BACKBOX FOLD",
+    "DOORS OPEN",
+    "UNLOCKED",
+    "PF RELEASED",
+    "FOLD1",
+    "FOLD45",
+    "UNDERFRONT MODULE REMOVED"
+  ],
+  "source_pose_fallbacks": []
+}

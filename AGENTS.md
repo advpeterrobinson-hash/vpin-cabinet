@@ -1,5 +1,26 @@
 # AGENTS.md
 
+## Mandatory conservative refinement — owner V35.1
+
+Priority: structural robustness, clear load paths, reliable assembly, service, standard commercial compatibility, simple manufacturing, then material/part-count optimization. There is NO target part count. Retain useful bearing/support/repair/alignment pieces. Tukkari-first means inspect established functional architecture, not match its piece count.
+
+Protect CROSS_1/2/3, SHELF_1/2/3, M006, SW01×4, SW02×2, open cradles/Ø32 dowel/four straps and PC_BASE (no drawer). Audit guides/supports with a KEEP bias. No custom lockdown/receiver: A-17996/A-16055 and A-16773-1 (A-9174-4 alternative). Siderails OPTIONAL, never a structural dependency. Primary main glass is local5mm tempered after purchased-channel measurements; final cut/holes NULL. Rear03-8091-2 class uses ordinary screws on the existing angled support, no unnecessary auxiliary rail. Exact purchased receiver trajectory/holes remain HOLD.
+
+V35.1 candidate uses628.65mm body,1308.10mm length and rigidly recentered unchanged780mm backbox. Read `config/current_v32.json` for promotion status; unpromoted geometry is only evidence. Later owner policy here supersedes historical600mm/custom-lockdown statements below. No raised-service-prop design or CNC release in this refinement.
+
+## V35.1 current coordinate authority
+
+On promotion, `config/current_v32.json` and `config/widebody_v351.json` override historical main-body dimensions and global X coordinates. Body628.65mm; center314.325; SW02X72/556.65,Y245; M025528.65mm with424.65mm front width and52mm inset; dowel588.65mm. Backbox rigidX+14.325; local monitor/door/lock geometry unchanged. Fixed commercial rear glass channel is on RearBearingShelf, no longer the moving backbox floor.66wood/60plywood/6solid/45families,2×18+1×12 PRELIMINARY. Refer to `docs/STANDARD_WIDEBODY_V351.md`. Main glass5mm; final cut/slot/hardware machining remains NULL. Historical coordinates below are source-local references, not active assembly drilling.
+
+## Mandatory STANDARD-PARTS-FIRST — owner V35
+
+For physical interfaces use this priority: (1) commercial standard pinball part; (2) Tukkari-style established functional architecture; (3) conventional woodworking; (4) commodity hardware; (5) simple CNC custom part; (6) custom mechanism only as a last resort. This rule takes precedence over Tukkari-first when a commercial interface exists. Tukkari-first otherwise remains mandatory. Independently dimension geometry; never import proprietary/non-licensed manufacturing files.
+
+Before a custom substitute record: **STANDARD COMMERCIAL PART EXISTS; PART/FAMILY; PUBLIC SOURCE; STANDARD INTERFACE; OUR GEOMETRIC CONFLICT; WHY STANDARD PART CANNOT BE USED (measured evidence); MINIMUM CUSTOM DEVIATION**. Modularity, universality, future-proofing, adjustability or cleaner CAD do not justify complexity.
+
+V35 owner target is exactly628.65mm outside / nominal592.65mm inside, not630mm or25in. Preserve1308.10mm length unless a documented hard commercial incompatibility requires owner review. Backbox780×723.9mm and local internal geometry stay fixed; use a centerline assembly placement. High display parallel to glass is mandatory; no deliberately sunken screen. Historical V35 studied3/16in glass; V35.1 supersedes this with local5mm tempered and purchased-profile fit qualification. Final hardware/drilling, actual stock/coupon and CNC release remain held. V35 is not CURRENT until all promotion gates pass; read config/current_v32.json for active authority. Raised service prop is outside V35 scope.
+
+
 ## Mandatory Tukkari-first architecture rule — owner V34
 
 For every new or revised cabinet subsystem/function, first look for an equivalent publicly documented Tukkari solution. When one exists, its functional architecture is the default basis; independently dimension it for this project’s 18/12 mm plywood, one-face Ø4 CNC, hardware and service constraints. Do not import proprietary CAD, drawings or manufacturing files.
@@ -9,7 +30,7 @@ Before adding complexity, record: **TUKKARI EQUIVALENT; PUBLIC EVIDENCE; OUR CON
 V34 owner authority: a single monitor plate enters from the TOP during shell assembly, seats on two side stops, and is captured by side guides plus the permanently fastened top. The monitor itself is serviced from the FRONT after front acrylic removal. Do not reintroduce a removable rail/carrier, depth shoes or M067. Scope of promotion and current validation are recorded in `config/current_v32.json`; a study does not itself replace CURRENT. Manufacturing remains blocked.
 
 
-## Current V34.2 backbox authority
+## Protected V34.2 backbox local authority (main-body glass interface superseded by V35.1)
 
 - Read `config/current_v32.json`, `config/backbox_hardening_v342.json` and `docs/BACKBOX_HARDENING_V342.md`. One18mm captured monitor plate atY1209, primaryVESA100 slots with±15mm reference travel;2 fixed12mm stops. No rails/shoes/M067/cassette.
 - TCL32S5K published715×422×75mm,3.15kg,VESA100/M4 is the primary reference. Actual boss plane/offset, connectors and active image are unmeasured.75/65 and80/70 body/boss sensitivity cases pass with12mm spacers;80/55 fails. Do not call the purchased TV fit frozen.

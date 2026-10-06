@@ -209,3 +209,13 @@ Owner explicitly approved and requested freezing on 2026-09-29: “Aprovado. Con
 ## DEC-OWNER-V32-SHELF-HEIGHTS — explicit functional height freeze
 
 Owner requested defining/freezing heights while retaining approved shelf positions. Keep the already tested undersideZ160/180/240 and topZ172/192/252, relative to cabinet bottomZ0 (nominal floor topZ36). Preserve all frozen Y positions and service directions. `config/shelf_layout_freeze_v32.json` records this explicit height decision. The separate support/leg planning model does not approve pilot diameters, corner-leg datums, hardware or manufacturing. See SUPPORT_LEG_CNC_V32.
+
+## DEC-V35 — Standard commercial widebody interfaces
+
+Owner-directed study from11822cb2dc9c7c7b511348df860cb76196d641be targets exactly628.65mm main body, nominal592.65mm inner, preserved1308.10mm length and unchanged780mm backbox. STANDARD-PARTS-FIRST has priority over Tukkari-first: commercial pinball part, established Tukkari adaptation, conventional woodworking, commodity hardware, simple CNC, then custom mechanism only with measured incompatibility. See AGENTS.md/GOVERNANCE.md for mandatory evidence fields. Supersedes600mm/custom-lockdown as the V35 study target; CURRENT changes only after validation. No globally scaled geometry, no deeply recessed display, no mandatory LED system, no raised-prop design or CNC release.
+
+## DEC-V35.1 — Standard widebody, structure-first refinement
+
+Owner locks commercial A-17996/A-16055 lockdown and A-16773-1 receiver architecture; no custom substitute.628.65mm body,1308.10mm length, rigidly recentered unchanged780mm backbox. Primary5mm local tempered glass, final cutNULL. Optional slim siderails are not minimum BOM or structural glass support. Rear03-8091-2 class channel uses ordinary screw fixing on existing angled shelf support with two local R2 screwlands, no new rail. An unnecessary forward fixing-flange reserve was rejected because it blocked matrix rocking; the simple channel bottom/flush-head screen passes. Actual profile/head/holes remain purchase holds.
+
+No count target: all66wood members retained,33small members justified. Separate monitor stops provide216mm² bearing each versus72mm² blind-guide alternative; parking pads preserve36mm shaft/insert depth. Shelves, crossmembers, their supports/guides, M006,SW01,SW02,cradles andPC_BASE remain. Long-span stress/deflection sensitivity is disclosed; no physical safety-factor certification is claimed. Two18mm sheets recovered through preliminary packing, not weaker parts. See report and sealed native/browser/negative-regression evidence. CURRENT promotion is reference design only; physical/coupon/purchased-part and raised-service-support gates remain.

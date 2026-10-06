@@ -1,4 +1,4 @@
-> CURRENT V34.2: [backbox / glazing report](exports/generated/backbox-v342/README.md) · [30 CAD views](exports/generated/backbox-v342/index.html) · [offline viewer](exports/generated/viewer-v32/index.html). Captured plate, VESA100 ±15mm, acrylic front, simple lower fan stations, 5mm main glass interface. **66 wood /60 CNC /6 solid /45 families**; finished wood61.182kg (−0.741kg). Actual TV bosses/channels/lockdown, physical qualification and CNC remain **BLOCKED**.
+> CURRENT V35.1: [standard-widebody report](docs/STANDARD_WIDEBODY_V351.md) · [32 CAD views](exports/generated/widebody-v351/index.html) · [offline viewer](exports/generated/viewer-v32/index.html). **628.65mm body**, commercial lockdown/receiver, optional siderails; unchanged780mm backbox. **66 wood /60 CNC /6 solid /45 families**; wood62.361kg nominal; preliminary2×18mm +1×12mm. Purchased hardware, physical qualification and CNC remain **BLOCKED**.
 
 > Historical V33.8: [solid front landings, service and modularity](docs/SERVICE_PRODUCTIZATION_V338.md). SW02 replaces six landing laminations; all other geometry remains protected. **104 wood pieces / 98 CNC plywood / 6 solid blocks / 61 families**. Captive M6 tool retention remains. Plywood: **18 / 12 mm only**. Primary raised-playfield support, physical qualification and CNC remain **BLOCKED**. [Offline viewer](exports/generated/viewer-v32/index.html).
 
@@ -6,7 +6,7 @@
 
 # Virtual Pinball Cabinet
 
-> CURRENT V32 supersedes historical mechanism/PC/mobility descriptions below: 600 mm cabinet; Ø32 wooden dowel with open plywood cradles, no gas struts or steel props; low fixed PCBase, no drawer; external removable skating devices only, no integrated/retractable wheels. Accepted notch/fan stage: HEAD 8074880. Hinge/matrix positioning study: [accepted reference](docs/MATRIX_HINGE_STUDY_V32.md).
+> Historical V32 mechanism reference (width superseded by CURRENT V35.1): 600 mm source cabinet; Ø32 wooden dowel with open plywood cradles, no gas struts or steel props; low fixed PCBase, no drawer; external removable skating devices only, no integrated/retractable wheels. Accepted notch/fan stage: HEAD 8074880. Hinge/matrix positioning study: [accepted reference](docs/MATRIX_HINGE_STUDY_V32.md).
 
 > Current matrix follow-on: [removable cassette and explicit service sequence](docs/MATRIX_CASSETTE_V32.md). Fold verification remains BLOCKED; no accepted cabinet or hinge redesign.
 

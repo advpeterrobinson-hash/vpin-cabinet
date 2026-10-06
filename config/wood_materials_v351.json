@@ -1,0 +1,470 @@
+{
+  "version": "V35.1",
+  "parts": [
+    {
+      "manufacturing_part_id": "M001",
+      "instance_id": "P001-Main",
+      "source_component": "SIDE_L",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M002",
+      "instance_id": "P002-Main",
+      "source_component": "SIDE_R",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M003",
+      "instance_id": "P003-Main",
+      "source_component": "FRONT",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M004",
+      "instance_id": "P004-Main",
+      "source_component": "REAR",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M005",
+      "instance_id": "P005-Main",
+      "source_component": "FLOOR",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M006",
+      "instance_id": "P006-Main",
+      "source_component": "FLOOR_CLEAT_18",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M006",
+      "instance_id": "P007-Main",
+      "source_component": "FLOOR_CLEAT_552",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M007",
+      "instance_id": "P008-Main",
+      "source_component": "REAR_DOOR",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M008",
+      "instance_id": "P009-Main",
+      "source_component": "SHELF_1",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M008",
+      "instance_id": "P010-Main",
+      "source_component": "SHELF_2",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M009",
+      "instance_id": "P011-Main",
+      "source_component": "SHELF_3",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M010",
+      "instance_id": "P012-Main",
+      "source_component": "SHELF_SUPPORT_1L",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M011",
+      "instance_id": "P013-Main",
+      "source_component": "SHELF_SUPPORT_1R",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M010",
+      "instance_id": "P014-Main",
+      "source_component": "SHELF_SUPPORT_2L",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M011",
+      "instance_id": "P015-Main",
+      "source_component": "SHELF_SUPPORT_2R",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M012",
+      "instance_id": "P016-Main",
+      "source_component": "SHELF_SUPPORT_3L",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M013",
+      "instance_id": "P017-Main",
+      "source_component": "SHELF_SUPPORT_3R",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M014",
+      "instance_id": "P018-Main",
+      "source_component": "CROSS_1",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M014",
+      "instance_id": "P019-Main",
+      "source_component": "CROSS_2",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M014",
+      "instance_id": "P020-Main",
+      "source_component": "CROSS_3",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M015",
+      "instance_id": "P021-Main",
+      "source_component": "CROSS_GUIDE_1L",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M016",
+      "instance_id": "P022-Main",
+      "source_component": "CROSS_GUIDE_1R",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M015",
+      "instance_id": "P023-Main",
+      "source_component": "CROSS_GUIDE_2L",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M016",
+      "instance_id": "P024-Main",
+      "source_component": "CROSS_GUIDE_2R",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M015",
+      "instance_id": "P025-Main",
+      "source_component": "CROSS_GUIDE_3L",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M016",
+      "instance_id": "P026-Main",
+      "source_component": "CROSS_GUIDE_3R",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M017",
+      "instance_id": "P027-Main",
+      "source_component": "PC_BASE",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M018",
+      "instance_id": "P028-Main",
+      "source_component": "BACKBOX_BASE",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M024",
+      "instance_id": "P033-Main",
+      "source_component": "SSF_BST_Carrier",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M025",
+      "instance_id": "P034-Main",
+      "source_component": "PF_BasePlywood",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M026",
+      "instance_id": "P035-Main",
+      "source_component": "PF_OpenCradleL",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M027",
+      "instance_id": "P036-Main",
+      "source_component": "PF_OpenCradleR",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M028",
+      "instance_id": "P037-Main",
+      "source_component": "RemovableIntakeFilterL",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M028",
+      "instance_id": "P038-Main",
+      "source_component": "RemovableIntakeFilterR",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M029",
+      "instance_id": "P039-Main",
+      "source_component": "MX_WoodSeatL",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M029",
+      "instance_id": "P040-Main",
+      "source_component": "MX_WoodSeatR",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M030",
+      "instance_id": "P041-Main",
+      "source_component": "MatrixCarrier",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M033",
+      "instance_id": "P044-Main",
+      "source_component": "BB_Floor",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M035",
+      "instance_id": "P046-Main",
+      "source_component": "BB_RearFrame",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M056",
+      "instance_id": "P079-Main",
+      "source_component": "BB_DoorL",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M057",
+      "instance_id": "P080-Main",
+      "source_component": "BB_DoorR",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M062",
+      "instance_id": "P085-Reduced18",
+      "source_component": "BB_HingeCleatL",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M062",
+      "instance_id": "P086-Reduced18",
+      "source_component": "BB_HingeCleatR",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M063",
+      "instance_id": "P087-Main",
+      "source_component": "BB_CenterAstragal",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M064",
+      "instance_id": "P088-Main",
+      "source_component": "BB_UprightLockLParkingPad0",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M065",
+      "instance_id": "P089-Main",
+      "source_component": "BB_UprightLockLParkingPad1",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M064",
+      "instance_id": "P090-Main",
+      "source_component": "BB_UprightLockRParkingPad0",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M065",
+      "instance_id": "P091-Main",
+      "source_component": "BB_UprightLockRParkingPad1",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M066",
+      "instance_id": "P092-Main",
+      "source_component": "BB_FanBlankL",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M066",
+      "instance_id": "P093-Main",
+      "source_component": "BB_FanBlankR",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "SW01",
+      "instance_id": "P029-Solid",
+      "source_component": "CandidateLegBlockFL",
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_thickness_mm": null
+    },
+    {
+      "manufacturing_part_id": "SW01",
+      "instance_id": "P030-Solid",
+      "source_component": "CandidateLegBlockFR",
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_thickness_mm": null
+    },
+    {
+      "manufacturing_part_id": "SW01",
+      "instance_id": "P031-Solid",
+      "source_component": "CandidateLegBlockRL",
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_thickness_mm": null
+    },
+    {
+      "manufacturing_part_id": "SW01",
+      "instance_id": "P032-Solid",
+      "source_component": "CandidateLegBlockRR",
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_thickness_mm": null
+    },
+    {
+      "manufacturing_part_id": "M074",
+      "instance_id": "P097-Main",
+      "source_component": "Underfront_Plate",
+      "material_class": "MODULAR_SECONDARY",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "SW02",
+      "instance_id": "P095-Solid",
+      "source_component": "FrontLandingL_Block",
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_thickness_mm": null
+    },
+    {
+      "manufacturing_part_id": "SW02",
+      "instance_id": "P096-Solid",
+      "source_component": "FrontLandingR_Block",
+      "material_class": "STRUCTURAL_SOLID_WOOD",
+      "nominal_stock_thickness_mm": null
+    },
+    {
+      "manufacturing_part_id": "M031",
+      "instance_id": "P042-Main",
+      "source_component": "BB_SideL",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M032",
+      "instance_id": "P043-Main",
+      "source_component": "BB_SideR",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M034",
+      "instance_id": "P045-Main",
+      "source_component": "BB_Top",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M078",
+      "instance_id": "V34-BB_MONITOR_PLATE",
+      "source_component": "BB_MONITOR_PLATE",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M075",
+      "instance_id": "V34-BB_MONITOR_STOP_L",
+      "source_component": "BB_MONITOR_STOP_L",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M075",
+      "instance_id": "V34-BB_MONITOR_STOP_R",
+      "source_component": "BB_MONITOR_STOP_R",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M076",
+      "instance_id": "V34-BB_DMD_SPEAKER_PANEL",
+      "source_component": "BB_DMD_SPEAKER_PANEL",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    },
+    {
+      "manufacturing_part_id": "M077",
+      "instance_id": "V34-BB_GLASS_TOP_RETAINER",
+      "source_component": "BB_GLASS_TOP_RETAINER",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 12
+    },
+    {
+      "manufacturing_part_id": "M037",
+      "instance_id": "V34-BB_GLASS_BOTTOM_SEAT",
+      "source_component": "BB_GLASS_BOTTOM_SEAT",
+      "material_class": "STRUCTURAL_PREMIUM",
+      "nominal_stock_thickness_mm": 18
+    }
+  ],
+  "premium_first": true,
+  "secondary_substitution_requires_review": true,
+  "structural_premium_never_automatically_downgraded": true
+}

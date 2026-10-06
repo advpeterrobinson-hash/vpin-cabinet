@@ -1,0 +1,167 @@
+{
+  "version": "V35",
+  "status": "REFERENCE_NOT_PURCHASED",
+  "interfaces": [
+    {
+      "item": "TUKKARI",
+      "public_source": "https://tukkaricz.s2.cdn-upgates.com/6/669767d6279c87-cabinet-parts-usa-ver-01-2026.pdf",
+      "evidence": "Official2026 sourcing guide links commercial widebody glass, Williams rails, plastic channels, leg brackets, coin door and shooter. Functional architecture only; no third-party CAD copied.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": false,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "LOCKDOWN",
+      "public_source": "https://www.pinballlife.com/williamsbally-widebody-lockdown-bar-raw.html",
+      "evidence": "A-17996 family,25in inside nominal; supplier lists A-16773-1 compatibility.635mm inside minus628.65mm cabinet leaves6.35mm total before finish/rails. Cross-section, tabs, coating and fit unmeasured.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "RECEIVER",
+      "public_source": "https://www.pinballlife.com/williamsbally-lockdown-bar-lever-guide-receiver-assembly-wpcwpc-95.html",
+      "evidence": "A-16773-1 compatible with A-17996. CAD520\u00d742\u00d725 reserve is PROVISIONAL, not published dimensions; actual lever travel/tab geometry and hole pattern held.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "SIDERAIL",
+      "public_source": "https://www.pinballlife.com/47-316-williamsbally-wpc-stainless-steel-side-rails-set-of-2.html",
+      "evidence": "A-12359-3 /01-8993-2;47-3/16in overall reference. Full constant-section envelope collides with protected backbox. Candidate studies rear trimming82.2375mm; actual flange termination must be measured before any cut. Not a custom fabricated rail.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "GLASS",
+      "public_source": "https://www.pinballlife.com/widebody-tempered-playfield-glass-shippable-2-pack.html",
+      "evidence": "08-7028-1 family; commercial603.25\u00d71092.20\u00d74.7625mm tempered. Local5mm is0.2375mm thicker; profile fit cannot be inferred.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "GLASS CHANNEL",
+      "public_source": "https://www.pinballlife.com/playfield-glass-side-rail-plastic-channel.html",
+      "evidence": "03-7135-1;42-3/8in=1076.325mm. Vendor gives length and compatible families, not a machining cross-section. Reference U is an original fit envelope, no custom extrusion or final groove release.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "REAR CHANNEL",
+      "public_source": "https://www.pinballlife.com/widebody-playfield-glass-rear-plastic-channel.html",
+      "evidence": "03-8091-2;22-15/16in=582.6125mm. Supported rear edge on existing shelf reference rebate. Mounting method and profile are purchase-dependent.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "LEG BRACKETS",
+      "public_source": "https://www.pinballlife.com/williamsbally-leg-bracket.html",
+      "evidence": "01-11400-1 fits cabinet inside corner. Existing SW01 retained because body/block corner stack has not been measured against this bracket. Commercial bracket is preferred to fabricated plate; replacement not proven.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "LEGS",
+      "public_source": "https://www.pinballlife.com/sternsega-black-legs-set-of-4.html",
+      "evidence": "Commercial pinball legs per Tukkari source; exact leg length/bolts/bracket geometry remain purchase-dependent. No fabricated leg system.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "SHOOTER",
+      "public_source": "https://www.pinballlife.com/stern-ball-shooter-assembly-2021-present.html",
+      "evidence": "500-2604-XX ordinary shooter includes rod/springs/housing; mounting plate535-5027-00 and3 mounting screws separate. Existing location is a reserve; selected pitch/body fit remains HOLD.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "COIN DOOR",
+      "public_source": "https://www.pinballlife.com/stern-coin-door-without-wiring-harness.html",
+      "evidence": "Commercial coin door reference linked by Tukkari. Opening recenters; existing reserve is not purchased-door proof.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "BACKBOX HINGE",
+      "public_source": "config/wpc_kinematics_v32.json",
+      "evidence": "Validated transverse Y1066.8/Z508 kinematics;01-9011-L/R,02-4352,4322-01139-12B. X pivot placement follows wider sides; unchanged local backbox floor attachment requires physical arm/bushing stack measurement.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "42-INCH",
+      "public_source": "https://www.lg.com/content/dam/channel/wcms/jp/catalog/pdf/2025_tv_dimension.pdf",
+      "evidence": "LG OLED42C5 reference932\u00d7540\u00d741.1mm without stand; portrait transverse width540. Reference only; actual boss/ports still held.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "43-INCH",
+      "public_source": "https://www.samsung.com/ie/tvs/qled-tv/qn93d-43-inch-neo-qled-4k-tizen-os-smart-tv-qe43qn93datxxu/",
+      "evidence": "Samsung43QN93D manufacturer960.8\u00d7558.9\u00d726.9mm without stand. Thin43-inch case, not all43-inch TVs.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "NARROW TV",
+      "public_source": "https://static-obg.tcl.com/content/dam/brandsite/region/nz/product/tvs/s-series/s5k/40S5K_Product_Specification_NZ.pdf",
+      "evidence": "TCL40S5K892\u00d7507\u00d777mm without stand. Width passes; thick body is a negative depth case for this high-plane/base configuration.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": true,
+      "source_geometry_imported": false
+    },
+    {
+      "item": "LENGTH",
+      "public_source": "https://www.tukkari.com/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit",
+      "evidence": "Public51.6in overall length is rounded reference, not reason to change1308.10mm. No hard overall cabinet-length mismatch established; rail rear termination is a separate local conflict.",
+      "purchased": false,
+      "final_drilling_released": false,
+      "fit": "REFERENCE_SCREEN_ONLY_PURCHASE_BEFORE_CNC",
+      "standard_commercial_exists": false,
+      "source_geometry_imported": false
+    }
+  ],
+  "release": false
+}

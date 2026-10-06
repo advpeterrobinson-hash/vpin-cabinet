@@ -1,0 +1,10208 @@
+{
+  "SIDE_L": {
+    "classification": "REPOSITIONED + REFERENCE ROUTING",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -3.88908730122752,
+      -3.88908730122752,
+      0.0,
+      25.939277162768004,
+      1311.9890873012264,
+      596.9
+    ],
+    "new_bounds": [
+      -3.88908730122752,
+      -3.88908730122752,
+      0.0,
+      25.939277162768004,
+      1311.9890873012264,
+      596.9
+    ]
+  },
+  "SIDE_R": {
+    "classification": "REPOSITIONED + REFERENCE ROUTING",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      574.0607228372319,
+      -3.88908730122752,
+      0.0,
+      603.8890873012274,
+      1311.9890873012264,
+      596.9
+    ],
+    "new_bounds": [
+      602.7107228372319,
+      -3.88908730122752,
+      0.0,
+      632.5390873012274,
+      1311.9890873012264,
+      596.9
+    ]
+  },
+  "FRONT": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(120, 480); no scaling",
+    "source_bounds": [
+      8.110885442505117,
+      0.0,
+      0.0,
+      591.8891145574938,
+      23.90232731828657,
+      400.05
+    ],
+    "new_bounds": [
+      8.110885442505117,
+      0.0,
+      0.0,
+      620.5391145574938,
+      23.90232731828657,
+      400.05
+    ]
+  },
+  "REAR": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(160, 440); no scaling",
+    "source_bounds": [
+      8.086968776603719,
+      1284.1976726817122,
+      0.0,
+      591.9130312233962,
+      1308.1,
+      596.9
+    ],
+    "new_bounds": [
+      8.086968776603719,
+      1284.1976726817122,
+      0.0,
+      620.5630312233961,
+      1308.1,
+      596.9
+    ]
+  },
+  "FAN_230": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      170.0,
+      1265.1,
+      440.0,
+      290.0,
+      1290.1,
+      560.0
+    ],
+    "new_bounds": [
+      184.325,
+      1265.1,
+      440.0,
+      304.325,
+      1290.1,
+      560.0
+    ]
+  },
+  "FAN_370": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      310.0,
+      1265.1,
+      440.0,
+      430.0,
+      1290.1,
+      560.0
+    ],
+    "new_bounds": [
+      324.325,
+      1265.1,
+      440.0,
+      444.325,
+      1290.1,
+      560.0
+    ]
+  },
+  "REAR_DOOR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      102.0,
+      1296.1,
+      54.0,
+      498.0,
+      1308.1,
+      383.0
+    ],
+    "new_bounds": [
+      116.32499999999999,
+      1296.1,
+      54.0,
+      512.325,
+      1308.1,
+      383.0
+    ]
+  },
+  "FLOOR": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(60, 540); no scaling",
+    "source_bounds": [
+      14.0,
+      18.0,
+      18.0,
+      586.0,
+      1290.1,
+      36.00000000000001
+    ],
+    "new_bounds": [
+      14.0,
+      18.0,
+      18.0,
+      614.6500000000001,
+      1290.1,
+      36.00000000000001
+    ]
+  },
+  "FLOOR_CLEAT_18": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      18.0,
+      120.0,
+      0.0,
+      48.0,
+      1272.1,
+      18.0
+    ],
+    "new_bounds": [
+      18.0,
+      120.0,
+      0.0,
+      48.0,
+      1272.1,
+      18.0
+    ]
+  },
+  "FLOOR_CLEAT_552": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      552.0,
+      120.0,
+      0.0,
+      582.0,
+      1272.1,
+      18.0
+    ],
+    "new_bounds": [
+      580.65,
+      120.0,
+      0.0,
+      610.65,
+      1272.1,
+      18.0
+    ]
+  },
+  "SHELF_1": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(100, 500); no scaling",
+    "source_bounds": [
+      20.0,
+      120.0,
+      160.0,
+      580.0,
+      270.0,
+      172.0
+    ],
+    "new_bounds": [
+      20.0,
+      120.0,
+      160.0,
+      608.6500000000001,
+      270.0,
+      172.0
+    ]
+  },
+  "SHELF_SUPPORT_1L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      18.0,
+      120.0,
+      142.0,
+      60.0,
+      270.0,
+      160.0
+    ],
+    "new_bounds": [
+      18.0,
+      120.0,
+      142.0,
+      60.0,
+      270.0,
+      160.0
+    ]
+  },
+  "SHELF_SUPPORT_1R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      540.0,
+      120.0,
+      142.0,
+      582.0,
+      270.0,
+      160.0
+    ],
+    "new_bounds": [
+      568.65,
+      120.0,
+      142.0,
+      610.65,
+      270.0,
+      160.0
+    ]
+  },
+  "SHELF_2": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(100, 500); no scaling",
+    "source_bounds": [
+      20.0,
+      565.0,
+      180.0,
+      580.0,
+      715.0,
+      192.0
+    ],
+    "new_bounds": [
+      20.0,
+      565.0,
+      180.0,
+      608.6500000000001,
+      715.0,
+      192.0
+    ]
+  },
+  "SHELF_SUPPORT_2L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      18.0,
+      565.0,
+      162.0,
+      60.0,
+      715.0,
+      180.0
+    ],
+    "new_bounds": [
+      18.0,
+      565.0,
+      162.0,
+      60.0,
+      715.0,
+      180.0
+    ]
+  },
+  "SHELF_SUPPORT_2R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      540.0,
+      565.0,
+      162.0,
+      582.0,
+      715.0,
+      180.0
+    ],
+    "new_bounds": [
+      568.65,
+      565.0,
+      162.0,
+      610.65,
+      715.0,
+      180.0
+    ]
+  },
+  "SHELF_3": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(100, 500); no scaling",
+    "source_bounds": [
+      20.0,
+      865.0,
+      240.0,
+      580.0,
+      1015.0,
+      252.0
+    ],
+    "new_bounds": [
+      20.0,
+      865.0,
+      240.0,
+      608.6500000000001,
+      1015.0,
+      252.0
+    ]
+  },
+  "SHELF_SUPPORT_3L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      18.0,
+      865.0,
+      222.0,
+      60.0,
+      1015.0,
+      240.0
+    ],
+    "new_bounds": [
+      18.0,
+      865.0,
+      222.0,
+      60.0,
+      1015.0,
+      240.0
+    ]
+  },
+  "SHELF_SUPPORT_3R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      540.0,
+      865.0,
+      222.0,
+      582.0,
+      1015.0,
+      240.0
+    ],
+    "new_bounds": [
+      568.65,
+      865.0,
+      222.0,
+      610.65,
+      1015.0,
+      240.0
+    ]
+  },
+  "CROSS_1": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(100, 500); no scaling",
+    "source_bounds": [
+      30.2,
+      371.0,
+      283.691375367901,
+      569.8000000000001,
+      389.0,
+      365.2632063538165
+    ],
+    "new_bounds": [
+      30.2,
+      371.0,
+      283.691375367901,
+      598.45,
+      389.0,
+      365.2632063538165
+    ]
+  },
+  "CROSS_GUIDE_1L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      18.0,
+      350.0,
+      238.691375367901,
+      36.0,
+      410.0,
+      383.691375367901
+    ],
+    "new_bounds": [
+      18.0,
+      350.0,
+      238.691375367901,
+      36.0,
+      410.0,
+      383.691375367901
+    ]
+  },
+  "CROSS_BRACKET_1L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      36.0,
+      355.0,
+      243.691375367901,
+      76.0,
+      405.0,
+      283.691375367901
+    ],
+    "new_bounds": [
+      36.0,
+      355.0,
+      243.691375367901,
+      76.0,
+      405.0,
+      283.691375367901
+    ]
+  },
+  "CROSS_GUIDE_1R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      564.0,
+      350.0,
+      238.691375367901,
+      582.0,
+      410.0,
+      383.691375367901
+    ],
+    "new_bounds": [
+      592.65,
+      350.0,
+      238.691375367901,
+      610.65,
+      410.0,
+      383.691375367901
+    ]
+  },
+  "CROSS_BRACKET_1R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      524.0,
+      355.0,
+      243.691375367901,
+      564.0,
+      405.0,
+      283.691375367901
+    ],
+    "new_bounds": [
+      552.65,
+      355.0,
+      243.691375367901,
+      592.65,
+      405.0,
+      283.691375367901
+    ]
+  },
+  "CROSS_2": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(100, 500); no scaling",
+    "source_bounds": [
+      30.2,
+      691.0,
+      339.578699311563,
+      569.8000000000001,
+      709.0,
+      421.1505302974785
+    ],
+    "new_bounds": [
+      30.2,
+      691.0,
+      339.578699311563,
+      598.45,
+      709.0,
+      421.1505302974785
+    ]
+  },
+  "CROSS_GUIDE_2L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      18.0,
+      670.0,
+      294.578699311563,
+      36.0,
+      730.0,
+      439.578699311563
+    ],
+    "new_bounds": [
+      18.0,
+      670.0,
+      294.578699311563,
+      36.0,
+      730.0,
+      439.578699311563
+    ]
+  },
+  "CROSS_BRACKET_2L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      36.0,
+      675.0,
+      299.578699311563,
+      76.0,
+      725.0,
+      339.578699311563
+    ],
+    "new_bounds": [
+      36.0,
+      675.0,
+      299.578699311563,
+      76.0,
+      725.0,
+      339.578699311563
+    ]
+  },
+  "CROSS_GUIDE_2R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      564.0,
+      670.0,
+      294.578699311563,
+      582.0,
+      730.0,
+      439.578699311563
+    ],
+    "new_bounds": [
+      592.65,
+      670.0,
+      294.578699311563,
+      610.65,
+      730.0,
+      439.578699311563
+    ]
+  },
+  "CROSS_BRACKET_2R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      524.0,
+      675.0,
+      299.578699311563,
+      564.0,
+      725.0,
+      339.578699311563
+    ],
+    "new_bounds": [
+      552.65,
+      675.0,
+      299.578699311563,
+      592.65,
+      725.0,
+      339.578699311563
+    ]
+  },
+  "CROSS_3": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(100, 500); no scaling",
+    "source_bounds": [
+      30.2,
+      971.0,
+      388.4801077622672,
+      569.8000000000001,
+      989.0,
+      470.0519387481827
+    ],
+    "new_bounds": [
+      30.2,
+      971.0,
+      388.4801077622672,
+      598.45,
+      989.0,
+      470.0519387481827
+    ]
+  },
+  "CROSS_GUIDE_3L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      18.0,
+      950.0,
+      343.4801077622672,
+      36.0,
+      1010.0,
+      488.4801077622672
+    ],
+    "new_bounds": [
+      18.0,
+      950.0,
+      343.4801077622672,
+      36.0,
+      1010.0,
+      488.4801077622672
+    ]
+  },
+  "CROSS_BRACKET_3L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      36.0,
+      955.0,
+      348.4801077622672,
+      76.0,
+      1005.0,
+      388.4801077622672
+    ],
+    "new_bounds": [
+      36.0,
+      955.0,
+      348.4801077622672,
+      76.0,
+      1005.0,
+      388.4801077622672
+    ]
+  },
+  "CROSS_GUIDE_3R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      564.0,
+      950.0,
+      343.4801077622672,
+      582.0,
+      1010.0,
+      488.4801077622672
+    ],
+    "new_bounds": [
+      592.65,
+      950.0,
+      343.4801077622672,
+      610.65,
+      1010.0,
+      488.4801077622672
+    ]
+  },
+  "CROSS_BRACKET_3R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      524.0,
+      955.0,
+      348.4801077622672,
+      564.0,
+      1005.0,
+      388.4801077622672
+    ],
+    "new_bounds": [
+      552.65,
+      955.0,
+      348.4801077622672,
+      592.65,
+      1005.0,
+      388.4801077622672
+    ]
+  },
+  "PLAYFIELD_ENVELOPE": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      19.999999999999996,
+      33.47306766002021,
+      353.5503147346349,
+      580.0,
+      998.472102458135,
+      574.6126798921914
+    ],
+    "new_bounds": [
+      34.32499999999999,
+      59.20894576002724,
+      362.2900238720159,
+      594.325,
+      1012.9507684452799,
+      568.1112537678154
+    ]
+  },
+  "PC_BASE": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      157.5,
+      830.0,
+      36.0,
+      442.5,
+      1290.0,
+      54.0
+    ],
+    "new_bounds": [
+      171.825,
+      830.0,
+      36.0,
+      456.825,
+      1290.0,
+      54.0
+    ]
+  },
+  "PC_ENVELOPE": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      167.5,
+      840.0,
+      54.0,
+      432.5,
+      1280.0,
+      182.0
+    ],
+    "new_bounds": [
+      181.825,
+      840.0,
+      54.0,
+      446.825,
+      1280.0,
+      182.0
+    ]
+  },
+  "BACKBOX_BASE": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(60, 540); no scaling; local one-face TOP angled rear-channel seat",
+    "source_bounds": [
+      14.0,
+      1127.125,
+      578.9,
+      586.0,
+      1290.1,
+      596.9
+    ],
+    "new_bounds": [
+      14.0,
+      1115.125,
+      578.9,
+      614.6500000000001,
+      1290.1,
+      596.9
+    ]
+  },
+  "PLUNGER_RESERVED": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      500.0,
+      18.0,
+      260.0,
+      540.0,
+      220.0,
+      300.0
+    ],
+    "new_bounds": [
+      528.65,
+      18.0,
+      260.0,
+      568.65,
+      220.0,
+      300.0
+    ]
+  },
+  "CoinStudy_CoinFrame": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      124.42500000000001,
+      -3.0,
+      72.840625,
+      475.575,
+      0.0,
+      377.159375
+    ],
+    "new_bounds": [
+      138.75,
+      -3.0,
+      72.840625,
+      489.9,
+      0.0,
+      377.159375
+    ]
+  },
+  "CoinStudy_DoorLeaf": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      146.0,
+      -4.0,
+      94.0,
+      454.0,
+      -1.0,
+      355.0
+    ],
+    "new_bounds": [
+      160.325,
+      -4.0,
+      94.0,
+      468.325,
+      -1.0,
+      355.0
+    ]
+  },
+  "CoinStudy_ReturnButton1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      315.0,
+      -14.0,
+      310.0,
+      345.0,
+      -4.0,
+      332.0
+    ],
+    "new_bounds": [
+      329.325,
+      -14.0,
+      310.0,
+      359.325,
+      -4.0,
+      332.0
+    ]
+  },
+  "CoinStudy_ReturnButton2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      375.0,
+      -14.0,
+      310.0,
+      405.0,
+      -4.0,
+      332.0
+    ],
+    "new_bounds": [
+      389.325,
+      -14.0,
+      310.0,
+      419.325,
+      -4.0,
+      332.0
+    ]
+  },
+  "CoinStudy_LightSwitch1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      315.0,
+      -1.0,
+      310.0,
+      345.0,
+      28.0,
+      332.0
+    ],
+    "new_bounds": [
+      329.325,
+      -1.0,
+      310.0,
+      359.325,
+      28.0,
+      332.0
+    ]
+  },
+  "CoinStudy_LightSwitch2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      375.0,
+      -1.0,
+      310.0,
+      405.0,
+      28.0,
+      332.0
+    ],
+    "new_bounds": [
+      389.325,
+      -1.0,
+      310.0,
+      419.325,
+      28.0,
+      332.0
+    ]
+  },
+  "CoinStudy_DoorLock": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      424.0,
+      -1.0,
+      185.0,
+      442.0,
+      35.0,
+      207.0
+    ],
+    "new_bounds": [
+      438.325,
+      -1.0,
+      185.0,
+      456.325,
+      35.0,
+      207.0
+    ]
+  },
+  "CoinStudy_Mechanism1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      310.0,
+      8.0,
+      170.0,
+      355.0,
+      103.0,
+      305.0
+    ],
+    "new_bounds": [
+      324.325,
+      8.0,
+      170.0,
+      369.325,
+      103.0,
+      305.0
+    ]
+  },
+  "CoinStudy_Mechanism2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      370.0,
+      8.0,
+      170.0,
+      415.0,
+      103.0,
+      305.0
+    ],
+    "new_bounds": [
+      384.325,
+      8.0,
+      170.0,
+      429.325,
+      103.0,
+      305.0
+    ]
+  },
+  "CoinStudy_MechanismMount1_1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      310.0,
+      -1.0,
+      185.0,
+      320.0,
+      8.0,
+      205.0
+    ],
+    "new_bounds": [
+      324.325,
+      -1.0,
+      185.0,
+      334.325,
+      8.0,
+      205.0
+    ]
+  },
+  "CoinStudy_MechanismMount1_2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      310.0,
+      -1.0,
+      275.0,
+      320.0,
+      8.0,
+      295.0
+    ],
+    "new_bounds": [
+      324.325,
+      -1.0,
+      275.0,
+      334.325,
+      8.0,
+      295.0
+    ]
+  },
+  "CoinStudy_MechanismMount2_1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      370.0,
+      -1.0,
+      185.0,
+      380.0,
+      8.0,
+      205.0
+    ],
+    "new_bounds": [
+      384.325,
+      -1.0,
+      185.0,
+      394.325,
+      8.0,
+      205.0
+    ]
+  },
+  "CoinStudy_MechanismMount2_2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      370.0,
+      -1.0,
+      275.0,
+      380.0,
+      8.0,
+      295.0
+    ],
+    "new_bounds": [
+      384.325,
+      -1.0,
+      275.0,
+      394.325,
+      8.0,
+      295.0
+    ]
+  },
+  "CoinStudy_CoinTray": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      305.0,
+      25.0,
+      115.0,
+      420.0,
+      105.0,
+      140.0
+    ],
+    "new_bounds": [
+      319.325,
+      25.0,
+      115.0,
+      434.325,
+      105.0,
+      140.0
+    ]
+  },
+  "CoinStudy_TraySupport1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      305.0,
+      18.0,
+      70.0,
+      315.0,
+      105.0,
+      115.0
+    ],
+    "new_bounds": [
+      319.325,
+      18.0,
+      70.0,
+      329.325,
+      105.0,
+      115.0
+    ]
+  },
+  "CoinStudy_TraySupport2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      410.0,
+      18.0,
+      70.0,
+      420.0,
+      105.0,
+      115.0
+    ],
+    "new_bounds": [
+      424.325,
+      18.0,
+      70.0,
+      434.325,
+      105.0,
+      115.0
+    ]
+  },
+  "CandidateFrontButton1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      72.0,
+      18.0,
+      292.0,
+      108.0,
+      83.0,
+      328.0
+    ],
+    "new_bounds": [
+      72.0,
+      18.0,
+      292.0,
+      108.0,
+      83.0,
+      328.0
+    ]
+  },
+  "CandidateFrontButton2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      72.0,
+      18.0,
+      242.0,
+      108.0,
+      83.0,
+      278.0
+    ],
+    "new_bounds": [
+      72.0,
+      18.0,
+      242.0,
+      108.0,
+      83.0,
+      278.0
+    ]
+  },
+  "CandidateFrontButton3": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      72.0,
+      18.0,
+      192.0,
+      108.0,
+      83.0,
+      228.0
+    ],
+    "new_bounds": [
+      72.0,
+      18.0,
+      192.0,
+      108.0,
+      83.0,
+      228.0
+    ]
+  },
+  "CandidateFrontButton4": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      502.0,
+      18.0,
+      192.0,
+      538.0,
+      83.0,
+      228.0
+    ],
+    "new_bounds": [
+      530.65,
+      18.0,
+      192.0,
+      566.65,
+      83.0,
+      228.0
+    ]
+  },
+  "SHELF_1_CandidatePayload": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      20.0,
+      120.0,
+      172.0,
+      580.0,
+      270.0,
+      232.0
+    ],
+    "new_bounds": [
+      34.32499999999999,
+      120.0,
+      172.0,
+      594.325,
+      270.0,
+      232.0
+    ]
+  },
+  "SimpleShelfBolt1L1": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      43.5,
+      140.5,
+      148.0,
+      52.5,
+      149.5,
+      177.0
+    ],
+    "new_bounds": [
+      43.5,
+      140.5,
+      148.0,
+      52.5,
+      149.5,
+      177.0
+    ]
+  },
+  "SimpleShelfBolt1L1Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      42.0,
+      139.0,
+      172.0,
+      54.0,
+      151.0,
+      173.0
+    ],
+    "new_bounds": [
+      42.0,
+      139.0,
+      172.0,
+      54.0,
+      151.0,
+      173.0
+    ]
+  },
+  "SimpleShelfBolt1L1Insert": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      44.0,
+      141.0,
+      150.0,
+      52.0,
+      149.0,
+      160.0
+    ],
+    "new_bounds": [
+      44.0,
+      141.0,
+      150.0,
+      52.0,
+      149.0,
+      160.0
+    ]
+  },
+  "SimpleShelfBolt1L2": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      43.5,
+      215.5,
+      148.0,
+      52.5,
+      224.5,
+      177.0
+    ],
+    "new_bounds": [
+      43.5,
+      215.5,
+      148.0,
+      52.5,
+      224.5,
+      177.0
+    ]
+  },
+  "SimpleShelfBolt1L2Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      42.0,
+      214.0,
+      172.0,
+      54.0,
+      226.0,
+      173.0
+    ],
+    "new_bounds": [
+      42.0,
+      214.0,
+      172.0,
+      54.0,
+      226.0,
+      173.0
+    ]
+  },
+  "SimpleShelfBolt1L2Insert": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      44.0,
+      216.0,
+      150.0,
+      52.0,
+      224.0,
+      160.0
+    ],
+    "new_bounds": [
+      44.0,
+      216.0,
+      150.0,
+      52.0,
+      224.0,
+      160.0
+    ]
+  },
+  "SimpleShelfBolt1R1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      547.5,
+      140.5,
+      148.0,
+      556.5,
+      149.5,
+      177.0
+    ],
+    "new_bounds": [
+      576.15,
+      140.5,
+      148.0,
+      585.15,
+      149.5,
+      177.0
+    ]
+  },
+  "SimpleShelfBolt1R1Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      546.0,
+      139.0,
+      172.0,
+      558.0,
+      151.0,
+      173.0
+    ],
+    "new_bounds": [
+      574.65,
+      139.0,
+      172.0,
+      586.65,
+      151.0,
+      173.0
+    ]
+  },
+  "SimpleShelfBolt1R1Insert": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      548.0,
+      141.0,
+      150.0,
+      556.0,
+      149.0,
+      160.0
+    ],
+    "new_bounds": [
+      576.65,
+      141.0,
+      150.0,
+      584.65,
+      149.0,
+      160.0
+    ]
+  },
+  "SimpleShelfBolt1R2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      547.5,
+      215.5,
+      148.0,
+      556.5,
+      224.5,
+      177.0
+    ],
+    "new_bounds": [
+      576.15,
+      215.5,
+      148.0,
+      585.15,
+      224.5,
+      177.0
+    ]
+  },
+  "SimpleShelfBolt1R2Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      546.0,
+      214.0,
+      172.0,
+      558.0,
+      226.0,
+      173.0
+    ],
+    "new_bounds": [
+      574.65,
+      214.0,
+      172.0,
+      586.65,
+      226.0,
+      173.0
+    ]
+  },
+  "SimpleShelfBolt1R2Insert": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      548.0,
+      216.0,
+      150.0,
+      556.0,
+      224.0,
+      160.0
+    ],
+    "new_bounds": [
+      576.65,
+      216.0,
+      150.0,
+      584.65,
+      224.0,
+      160.0
+    ]
+  },
+  "SimpleShelfBolt2L1": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      43.5,
+      585.5,
+      168.0,
+      52.5,
+      594.5,
+      197.0
+    ],
+    "new_bounds": [
+      43.5,
+      585.5,
+      168.0,
+      52.5,
+      594.5,
+      197.0
+    ]
+  },
+  "SimpleShelfBolt2L1Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      42.0,
+      584.0,
+      192.0,
+      54.0,
+      596.0,
+      193.0
+    ],
+    "new_bounds": [
+      42.0,
+      584.0,
+      192.0,
+      54.0,
+      596.0,
+      193.0
+    ]
+  },
+  "SimpleShelfBolt2L1Insert": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      44.0,
+      586.0,
+      170.0,
+      52.0,
+      594.0,
+      180.0
+    ],
+    "new_bounds": [
+      44.0,
+      586.0,
+      170.0,
+      52.0,
+      594.0,
+      180.0
+    ]
+  },
+  "SimpleShelfBolt2L2": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      43.5,
+      660.5,
+      168.0,
+      52.5,
+      669.5,
+      197.0
+    ],
+    "new_bounds": [
+      43.5,
+      660.5,
+      168.0,
+      52.5,
+      669.5,
+      197.0
+    ]
+  },
+  "SimpleShelfBolt2L2Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      42.0,
+      659.0,
+      192.0,
+      54.0,
+      671.0,
+      193.0
+    ],
+    "new_bounds": [
+      42.0,
+      659.0,
+      192.0,
+      54.0,
+      671.0,
+      193.0
+    ]
+  },
+  "SimpleShelfBolt2L2Insert": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      44.0,
+      661.0,
+      170.0,
+      52.0,
+      669.0,
+      180.0
+    ],
+    "new_bounds": [
+      44.0,
+      661.0,
+      170.0,
+      52.0,
+      669.0,
+      180.0
+    ]
+  },
+  "SimpleShelfBolt2R1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      547.5,
+      585.5,
+      168.0,
+      556.5,
+      594.5,
+      197.0
+    ],
+    "new_bounds": [
+      576.15,
+      585.5,
+      168.0,
+      585.15,
+      594.5,
+      197.0
+    ]
+  },
+  "SimpleShelfBolt2R1Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      546.0,
+      584.0,
+      192.0,
+      558.0,
+      596.0,
+      193.0
+    ],
+    "new_bounds": [
+      574.65,
+      584.0,
+      192.0,
+      586.65,
+      596.0,
+      193.0
+    ]
+  },
+  "SimpleShelfBolt2R1Insert": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      548.0,
+      586.0,
+      170.0,
+      556.0,
+      594.0,
+      180.0
+    ],
+    "new_bounds": [
+      576.65,
+      586.0,
+      170.0,
+      584.65,
+      594.0,
+      180.0
+    ]
+  },
+  "SimpleShelfBolt2R2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      547.5,
+      660.5,
+      168.0,
+      556.5,
+      669.5,
+      197.0
+    ],
+    "new_bounds": [
+      576.15,
+      660.5,
+      168.0,
+      585.15,
+      669.5,
+      197.0
+    ]
+  },
+  "SimpleShelfBolt2R2Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      546.0,
+      659.0,
+      192.0,
+      558.0,
+      671.0,
+      193.0
+    ],
+    "new_bounds": [
+      574.65,
+      659.0,
+      192.0,
+      586.65,
+      671.0,
+      193.0
+    ]
+  },
+  "SimpleShelfBolt2R2Insert": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      548.0,
+      661.0,
+      170.0,
+      556.0,
+      669.0,
+      180.0
+    ],
+    "new_bounds": [
+      576.65,
+      661.0,
+      170.0,
+      584.65,
+      669.0,
+      180.0
+    ]
+  },
+  "SimpleShelfBolt3L1": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      43.5,
+      875.5,
+      228.0,
+      52.5,
+      884.5,
+      257.0
+    ],
+    "new_bounds": [
+      43.5,
+      875.5,
+      228.0,
+      52.5,
+      884.5,
+      257.0
+    ]
+  },
+  "SimpleShelfBolt3L1Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      42.0,
+      874.0,
+      252.0,
+      54.0,
+      886.0,
+      253.0
+    ],
+    "new_bounds": [
+      42.0,
+      874.0,
+      252.0,
+      54.0,
+      886.0,
+      253.0
+    ]
+  },
+  "SimpleShelfBolt3L1Insert": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      44.0,
+      876.0,
+      230.0,
+      52.0,
+      884.0,
+      240.0
+    ],
+    "new_bounds": [
+      44.0,
+      876.0,
+      230.0,
+      52.0,
+      884.0,
+      240.0
+    ]
+  },
+  "SimpleShelfBolt3L2": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      43.5,
+      935.5,
+      228.0,
+      52.5,
+      944.5,
+      257.0
+    ],
+    "new_bounds": [
+      43.5,
+      935.5,
+      228.0,
+      52.5,
+      944.5,
+      257.0
+    ]
+  },
+  "SimpleShelfBolt3L2Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      42.0,
+      934.0,
+      252.0,
+      54.0,
+      946.0,
+      253.0
+    ],
+    "new_bounds": [
+      42.0,
+      934.0,
+      252.0,
+      54.0,
+      946.0,
+      253.0
+    ]
+  },
+  "SimpleShelfBolt3L2Insert": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      44.0,
+      936.0,
+      230.0,
+      52.0,
+      944.0,
+      240.0
+    ],
+    "new_bounds": [
+      44.0,
+      936.0,
+      230.0,
+      52.0,
+      944.0,
+      240.0
+    ]
+  },
+  "SimpleShelfBolt3R1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      547.5,
+      875.5,
+      228.0,
+      556.5,
+      884.5,
+      257.0
+    ],
+    "new_bounds": [
+      576.15,
+      875.5,
+      228.0,
+      585.15,
+      884.5,
+      257.0
+    ]
+  },
+  "SimpleShelfBolt3R1Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      546.0,
+      874.0,
+      252.0,
+      558.0,
+      886.0,
+      253.0
+    ],
+    "new_bounds": [
+      574.65,
+      874.0,
+      252.0,
+      586.65,
+      886.0,
+      253.0
+    ]
+  },
+  "SimpleShelfBolt3R1Insert": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      548.0,
+      876.0,
+      230.0,
+      556.0,
+      884.0,
+      240.0
+    ],
+    "new_bounds": [
+      576.65,
+      876.0,
+      230.0,
+      584.65,
+      884.0,
+      240.0
+    ]
+  },
+  "SimpleShelfBolt3R2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      547.5,
+      935.5,
+      228.0,
+      556.5,
+      944.5,
+      257.0
+    ],
+    "new_bounds": [
+      576.15,
+      935.5,
+      228.0,
+      585.15,
+      944.5,
+      257.0
+    ]
+  },
+  "SimpleShelfBolt3R2Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      546.0,
+      934.0,
+      252.0,
+      558.0,
+      946.0,
+      253.0
+    ],
+    "new_bounds": [
+      574.65,
+      934.0,
+      252.0,
+      586.65,
+      946.0,
+      253.0
+    ]
+  },
+  "SimpleShelfBolt3R2Insert": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      548.0,
+      936.0,
+      230.0,
+      556.0,
+      944.0,
+      240.0
+    ],
+    "new_bounds": [
+      576.65,
+      936.0,
+      230.0,
+      584.65,
+      944.0,
+      240.0
+    ]
+  },
+  "CandidateFixedSupportScrew1L1": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      171.0,
+      147.0,
+      64.0,
+      179.0,
+      155.0
+    ],
+    "new_bounds": [
+      6.0,
+      171.0,
+      147.0,
+      64.0,
+      179.0,
+      155.0
+    ]
+  },
+  "CandidateFixedSupportScrew1L1Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      60.0,
+      170.5,
+      146.5,
+      61.0,
+      179.5,
+      155.5
+    ],
+    "new_bounds": [
+      60.0,
+      170.5,
+      146.5,
+      61.0,
+      179.5,
+      155.5
+    ]
+  },
+  "CandidateFixedSupportScrew1L2": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      241.0,
+      147.0,
+      64.0,
+      249.0,
+      155.0
+    ],
+    "new_bounds": [
+      6.0,
+      241.0,
+      147.0,
+      64.0,
+      249.0,
+      155.0
+    ]
+  },
+  "CandidateFixedSupportScrew1L2Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      60.0,
+      240.5,
+      146.5,
+      61.0,
+      249.5,
+      155.5
+    ],
+    "new_bounds": [
+      60.0,
+      240.5,
+      146.5,
+      61.0,
+      249.5,
+      155.5
+    ]
+  },
+  "CandidateFixedSupportScrew1R1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      536.0,
+      171.0,
+      147.0,
+      594.0,
+      179.0,
+      155.0
+    ],
+    "new_bounds": [
+      564.65,
+      171.0,
+      147.0,
+      622.65,
+      179.0,
+      155.0
+    ]
+  },
+  "CandidateFixedSupportScrew1R1Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      539.0,
+      170.5,
+      146.5,
+      540.0,
+      179.5,
+      155.5
+    ],
+    "new_bounds": [
+      567.65,
+      170.5,
+      146.5,
+      568.65,
+      179.5,
+      155.5
+    ]
+  },
+  "CandidateFixedSupportScrew1R2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      536.0,
+      241.0,
+      147.0,
+      594.0,
+      249.0,
+      155.0
+    ],
+    "new_bounds": [
+      564.65,
+      241.0,
+      147.0,
+      622.65,
+      249.0,
+      155.0
+    ]
+  },
+  "CandidateFixedSupportScrew1R2Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      539.0,
+      240.5,
+      146.5,
+      540.0,
+      249.5,
+      155.5
+    ],
+    "new_bounds": [
+      567.65,
+      240.5,
+      146.5,
+      568.65,
+      249.5,
+      155.5
+    ]
+  },
+  "CandidateFixedSupportScrew2L1": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      616.0,
+      167.0,
+      64.0,
+      624.0,
+      175.0
+    ],
+    "new_bounds": [
+      6.0,
+      616.0,
+      167.0,
+      64.0,
+      624.0,
+      175.0
+    ]
+  },
+  "CandidateFixedSupportScrew2L1Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      60.0,
+      615.5,
+      166.5,
+      61.0,
+      624.5,
+      175.5
+    ],
+    "new_bounds": [
+      60.0,
+      615.5,
+      166.5,
+      61.0,
+      624.5,
+      175.5
+    ]
+  },
+  "CandidateFixedSupportScrew2L2": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      686.0,
+      167.0,
+      64.0,
+      694.0,
+      175.0
+    ],
+    "new_bounds": [
+      6.0,
+      686.0,
+      167.0,
+      64.0,
+      694.0,
+      175.0
+    ]
+  },
+  "CandidateFixedSupportScrew2L2Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      60.0,
+      685.5,
+      166.5,
+      61.0,
+      694.5,
+      175.5
+    ],
+    "new_bounds": [
+      60.0,
+      685.5,
+      166.5,
+      61.0,
+      694.5,
+      175.5
+    ]
+  },
+  "CandidateFixedSupportScrew2R1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      536.0,
+      616.0,
+      167.0,
+      594.0,
+      624.0,
+      175.0
+    ],
+    "new_bounds": [
+      564.65,
+      616.0,
+      167.0,
+      622.65,
+      624.0,
+      175.0
+    ]
+  },
+  "CandidateFixedSupportScrew2R1Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      539.0,
+      615.5,
+      166.5,
+      540.0,
+      624.5,
+      175.5
+    ],
+    "new_bounds": [
+      567.65,
+      615.5,
+      166.5,
+      568.65,
+      624.5,
+      175.5
+    ]
+  },
+  "CandidateFixedSupportScrew2R2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      536.0,
+      686.0,
+      167.0,
+      594.0,
+      694.0,
+      175.0
+    ],
+    "new_bounds": [
+      564.65,
+      686.0,
+      167.0,
+      622.65,
+      694.0,
+      175.0
+    ]
+  },
+  "CandidateFixedSupportScrew2R2Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      539.0,
+      685.5,
+      166.5,
+      540.0,
+      694.5,
+      175.5
+    ],
+    "new_bounds": [
+      567.65,
+      685.5,
+      166.5,
+      568.65,
+      694.5,
+      175.5
+    ]
+  },
+  "CandidateFixedSupportScrew3L1": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      916.0,
+      227.0,
+      64.0,
+      924.0,
+      235.0
+    ],
+    "new_bounds": [
+      6.0,
+      916.0,
+      227.0,
+      64.0,
+      924.0,
+      235.0
+    ]
+  },
+  "CandidateFixedSupportScrew3L1Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      60.0,
+      915.5,
+      226.5,
+      61.0,
+      924.5,
+      235.5
+    ],
+    "new_bounds": [
+      60.0,
+      915.5,
+      226.5,
+      61.0,
+      924.5,
+      235.5
+    ]
+  },
+  "CandidateFixedSupportScrew3L2": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      986.0,
+      227.0,
+      64.0,
+      994.0,
+      235.0
+    ],
+    "new_bounds": [
+      6.0,
+      986.0,
+      227.0,
+      64.0,
+      994.0,
+      235.0
+    ]
+  },
+  "CandidateFixedSupportScrew3L2Washer": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      60.0,
+      985.5,
+      226.5,
+      61.0,
+      994.5,
+      235.5
+    ],
+    "new_bounds": [
+      60.0,
+      985.5,
+      226.5,
+      61.0,
+      994.5,
+      235.5
+    ]
+  },
+  "CandidateFixedSupportScrew3R1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      536.0,
+      916.0,
+      227.0,
+      594.0,
+      924.0,
+      235.0
+    ],
+    "new_bounds": [
+      564.65,
+      916.0,
+      227.0,
+      622.65,
+      924.0,
+      235.0
+    ]
+  },
+  "CandidateFixedSupportScrew3R1Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      539.0,
+      915.5,
+      226.5,
+      540.0,
+      924.5,
+      235.5
+    ],
+    "new_bounds": [
+      567.65,
+      915.5,
+      226.5,
+      568.65,
+      924.5,
+      235.5
+    ]
+  },
+  "CandidateFixedSupportScrew3R2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      536.0,
+      986.0,
+      227.0,
+      594.0,
+      994.0,
+      235.0
+    ],
+    "new_bounds": [
+      564.65,
+      986.0,
+      227.0,
+      622.65,
+      994.0,
+      235.0
+    ]
+  },
+  "CandidateFixedSupportScrew3R2Washer": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      539.0,
+      985.5,
+      226.5,
+      540.0,
+      994.5,
+      235.5
+    ],
+    "new_bounds": [
+      567.65,
+      985.5,
+      226.5,
+      568.65,
+      994.5,
+      235.5
+    ]
+  },
+  "CandidateLegBlockFL": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      14.110912699983817,
+      14.110912699983817,
+      54.0,
+      72.0,
+      72.0,
+      180.0
+    ],
+    "new_bounds": [
+      14.110912699983817,
+      14.110912699983817,
+      54.0,
+      72.0,
+      72.0,
+      180.0
+    ]
+  },
+  "CandidateLegPlateFL": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      23.786796564403566,
+      23.786796564403566,
+      54.0,
+      68.33452377915609,
+      68.33452377915609,
+      180.0
+    ],
+    "new_bounds": [
+      23.786796564403566,
+      23.786796564403566,
+      54.0,
+      68.33452377915609,
+      68.33452377915609,
+      180.0
+    ]
+  },
+  "CandidateLegBlockFR": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      528.0,
+      14.11091269998229,
+      54.0,
+      585.8890873000176,
+      72.0,
+      180.0
+    ],
+    "new_bounds": [
+      556.65,
+      14.11091269998229,
+      54.0,
+      614.5390873000176,
+      72.0,
+      180.0
+    ]
+  },
+  "CandidateLegPlateFR": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      531.665476220844,
+      23.786796564403573,
+      54.0,
+      576.2132034355964,
+      68.33452377915607,
+      180.0
+    ],
+    "new_bounds": [
+      560.315476220844,
+      23.786796564403573,
+      54.0,
+      604.8632034355963,
+      68.33452377915607,
+      180.0
+    ]
+  },
+  "CandidateLegBlockRL": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      14.110912699982261,
+      1236.1,
+      36.0,
+      72.0,
+      1293.9890873000177,
+      162.0
+    ],
+    "new_bounds": [
+      14.110912699982261,
+      1236.1,
+      36.0,
+      72.0,
+      1293.9890873000177,
+      162.0
+    ]
+  },
+  "CandidateLegPlateRL": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      23.786796564403573,
+      1239.765476220844,
+      36.0,
+      68.33452377915607,
+      1284.3132034355963,
+      162.0
+    ],
+    "new_bounds": [
+      23.786796564403573,
+      1239.765476220844,
+      36.0,
+      68.33452377915607,
+      1284.3132034355963,
+      162.0
+    ]
+  },
+  "CandidateLegBlockRR": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      528.0,
+      1236.1,
+      36.0,
+      585.8890873000154,
+      1293.9890873000154,
+      162.0
+    ],
+    "new_bounds": [
+      556.65,
+      1236.1,
+      36.0,
+      614.5390873000154,
+      1293.9890873000154,
+      162.0
+    ]
+  },
+  "CandidateLegPlateRR": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      531.665476220844,
+      1239.765476220844,
+      36.0,
+      576.2132034355964,
+      1284.3132034355963,
+      162.0
+    ],
+    "new_bounds": [
+      560.315476220844,
+      1239.765476220844,
+      36.0,
+      604.8632034355963,
+      1284.3132034355963,
+      162.0
+    ]
+  },
+  "CandidateGlass": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      12.499999999999998,
+      33.45160610358467,
+      410.1030332837726,
+      587.5,
+      1159.283813368052,
+      611.5024608965298
+    ],
+    "new_bounds": [
+      12.699999999999989,
+      53.84156730584068,
+      409.60355138170314,
+      615.95,
+      1130.6163270887234,
+      602.4351994342962
+    ]
+  },
+  "CandidateGlassChannelL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      0.0,
+      33.10751857104797,
+      406.1626760563361,
+      18.0,
+      1118.598237545042,
+      606.2468013269771
+    ],
+    "new_bounds": [
+      11.2,
+      53.583501656438145,
+      404.6781048474075,
+      20.0,
+      1115.8382531736765,
+      601.1816386050747
+    ]
+  },
+  "CandidateGlassChannelR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      582.0,
+      33.10751857104797,
+      406.1626760563361,
+      600.0,
+      1118.598237545042,
+      606.246801326977
+    ],
+    "new_bounds": [
+      608.65,
+      53.583501656438145,
+      404.6781048474075,
+      617.4499999999999,
+      1115.8382531736768,
+      601.1816386050748
+    ]
+  },
+  "CandidateFanGuard230Inner": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      170.0,
+      1263.6,
+      440.0,
+      290.0,
+      1265.1,
+      560.0
+    ],
+    "new_bounds": [
+      184.325,
+      1263.6,
+      440.0,
+      304.325,
+      1265.1,
+      560.0
+    ]
+  },
+  "CandidateFanGuard370Inner": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      310.0,
+      1263.6,
+      440.0,
+      430.0,
+      1265.1,
+      560.0
+    ],
+    "new_bounds": [
+      324.325,
+      1263.6,
+      440.0,
+      444.325,
+      1265.1,
+      560.0
+    ]
+  },
+  "CandidateHandleBolt1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      264.0,
+      1292.1,
+      186.0,
+      272.0,
+      1315.1,
+      194.0
+    ],
+    "new_bounds": [
+      278.325,
+      1292.1,
+      186.0,
+      286.325,
+      1315.1,
+      194.0
+    ]
+  },
+  "CandidateHandleBolt1Washer": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      263.5,
+      1295.1,
+      185.5,
+      272.5,
+      1296.1,
+      194.5
+    ],
+    "new_bounds": [
+      277.825,
+      1295.1,
+      185.5,
+      286.825,
+      1296.1,
+      194.5
+    ]
+  },
+  "CandidateHandleBolt2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      328.0,
+      1292.1,
+      186.0,
+      336.0,
+      1315.1,
+      194.0
+    ],
+    "new_bounds": [
+      342.325,
+      1292.1,
+      186.0,
+      350.325,
+      1315.1,
+      194.0
+    ]
+  },
+  "CandidateHandleBolt2Washer": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      327.5,
+      1295.1,
+      185.5,
+      336.5,
+      1296.1,
+      194.5
+    ],
+    "new_bounds": [
+      341.825,
+      1295.1,
+      185.5,
+      350.825,
+      1296.1,
+      194.5
+    ]
+  },
+  "CandidateRearHandle": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      262.0,
+      1308.1,
+      184.0,
+      338.0,
+      1350.1,
+      196.0
+    ],
+    "new_bounds": [
+      276.325,
+      1308.1,
+      184.0,
+      352.325,
+      1350.1,
+      196.0
+    ]
+  },
+  "CandidateKeyLockBody": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      438.5,
+      1276.1,
+      338.5,
+      461.5,
+      1310.1,
+      361.5
+    ],
+    "new_bounds": [
+      452.825,
+      1276.1,
+      338.5,
+      475.825,
+      1310.1,
+      361.5
+    ]
+  },
+  "CandidateKeyLockShaft": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      447.0,
+      1273.1,
+      347.0,
+      453.0,
+      1276.1,
+      353.0
+    ],
+    "new_bounds": [
+      461.325,
+      1273.1,
+      347.0,
+      467.325,
+      1276.1,
+      353.0
+    ]
+  },
+  "CandidateKeyLockCam": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      444.0,
+      1273.1,
+      350.0,
+      456.0,
+      1276.1,
+      385.0
+    ],
+    "new_bounds": [
+      458.325,
+      1273.1,
+      350.0,
+      470.325,
+      1276.1,
+      385.0
+    ]
+  },
+  "CandidateLockKeeper": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      440.0,
+      1274.1,
+      385.0,
+      460.0,
+      1298.1,
+      387.0
+    ],
+    "new_bounds": [
+      454.325,
+      1274.1,
+      385.0,
+      474.325,
+      1298.1,
+      387.0
+    ]
+  },
+  "CandidateHingeFixed1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      180.0,
+      1296.1,
+      24.0,
+      228.0,
+      1316.1,
+      58.0
+    ],
+    "new_bounds": [
+      194.325,
+      1296.1,
+      24.0,
+      242.325,
+      1316.1,
+      58.0
+    ]
+  },
+  "CandidateHingeMoving1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      180.0,
+      1308.1,
+      50.0,
+      228.0,
+      1316.1,
+      84.0
+    ],
+    "new_bounds": [
+      194.325,
+      1308.1,
+      50.0,
+      242.325,
+      1316.1,
+      84.0
+    ]
+  },
+  "CandidateHingePin1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      180.0,
+      1310.1,
+      52.0,
+      228.0,
+      1314.1,
+      56.0
+    ],
+    "new_bounds": [
+      194.325,
+      1310.1,
+      52.0,
+      242.325,
+      1314.1,
+      56.0
+    ]
+  },
+  "CandidateHingeFixed2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      372.0,
+      1296.1,
+      24.0,
+      420.0,
+      1316.1,
+      58.0
+    ],
+    "new_bounds": [
+      386.325,
+      1296.1,
+      24.0,
+      434.325,
+      1316.1,
+      58.0
+    ]
+  },
+  "CandidateHingeMoving2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      372.0,
+      1308.1,
+      50.0,
+      420.0,
+      1316.1,
+      84.0
+    ],
+    "new_bounds": [
+      386.325,
+      1308.1,
+      50.0,
+      434.325,
+      1316.1,
+      84.0
+    ]
+  },
+  "CandidateHingePin2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      372.0,
+      1310.1,
+      52.0,
+      420.0,
+      1314.1,
+      56.0
+    ],
+    "new_bounds": [
+      386.325,
+      1310.1,
+      52.0,
+      434.325,
+      1314.1,
+      56.0
+    ]
+  },
+  "CandidateMainsEnclosure": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      45.0,
+      1190.1,
+      385.0,
+      145.0,
+      1290.1,
+      485.0
+    ],
+    "new_bounds": [
+      45.0,
+      1190.1,
+      385.0,
+      145.0,
+      1290.1,
+      485.0
+    ]
+  },
+  "SSF_Subwoofer_DCS165_Reference": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      216.5,
+      356.5,
+      36.0,
+      383.5,
+      523.5,
+      126.0
+    ],
+    "new_bounds": [
+      230.825,
+      356.5,
+      36.0,
+      397.825,
+      523.5,
+      126.0
+    ]
+  },
+  "SSF_BST_Carrier": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      210.0,
+      170.0,
+      36.0,
+      390.0,
+      350.0,
+      48.0
+    ],
+    "new_bounds": [
+      224.325,
+      170.0,
+      36.0,
+      404.325,
+      350.0,
+      48.0
+    ]
+  },
+  "SSF_BST1_Reference": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      219.5,
+      179.5,
+      48.0,
+      380.5,
+      340.5,
+      110.0
+    ],
+    "new_bounds": [
+      233.825,
+      179.5,
+      48.0,
+      394.825,
+      340.5,
+      110.0
+    ]
+  },
+  "SSF_Exciter1L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      18.0,
+      290.0,
+      165.0,
+      53.0,
+      350.0,
+      225.0
+    ],
+    "new_bounds": [
+      18.0,
+      290.0,
+      165.0,
+      53.0,
+      350.0,
+      225.0
+    ]
+  },
+  "SSF_Exciter1R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      547.0,
+      290.0,
+      165.0,
+      582.0,
+      350.0,
+      225.0
+    ],
+    "new_bounds": [
+      575.65,
+      290.0,
+      165.0,
+      610.65,
+      350.0,
+      225.0
+    ]
+  },
+  "SSF_Exciter2L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      18.0,
+      1077.25061984718,
+      270.0,
+      53.0,
+      1137.25061984718,
+      330.0
+    ],
+    "new_bounds": [
+      18.0,
+      1077.25061984718,
+      270.0,
+      53.0,
+      1137.25061984718,
+      330.0
+    ]
+  },
+  "SSF_Exciter2R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      547.0,
+      1077.25061984718,
+      270.0,
+      582.0,
+      1137.25061984718,
+      330.0
+    ],
+    "new_bounds": [
+      575.65,
+      1077.25061984718,
+      270.0,
+      610.65,
+      1137.25061984718,
+      330.0
+    ]
+  },
+  "SSF_AmplifierReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      180.0,
+      580.0,
+      202.0,
+      420.0,
+      700.0,
+      262.0
+    ],
+    "new_bounds": [
+      194.325,
+      580.0,
+      202.0,
+      434.325,
+      700.0,
+      262.0
+    ]
+  },
+  "SSF_PSUReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      190.0,
+      885.0,
+      262.0,
+      410.0,
+      995.0,
+      312.0
+    ],
+    "new_bounds": [
+      204.325,
+      885.0,
+      262.0,
+      424.325,
+      995.0,
+      312.0
+    ]
+  },
+  "SSF_USBReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      80.0,
+      600.0,
+      202.0,
+      160.0,
+      660.0,
+      227.0
+    ],
+    "new_bounds": [
+      94.32499999999999,
+      600.0,
+      202.0,
+      174.325,
+      660.0,
+      227.0
+    ]
+  },
+  "LeafButton_primary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -5.0,
+      75.0,
+      336.593661971831,
+      30.0,
+      103.0,
+      364.593661971831
+    ],
+    "new_bounds": [
+      -5.0,
+      75.0,
+      336.593661971831,
+      30.0,
+      103.0,
+      364.593661971831
+    ]
+  },
+  "LeafButton_primary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      570.0,
+      75.0,
+      336.593661971831,
+      605.0,
+      103.0,
+      364.593661971831
+    ],
+    "new_bounds": [
+      598.65,
+      75.0,
+      336.593661971831,
+      633.65,
+      103.0,
+      364.593661971831
+    ]
+  },
+  "LeafNut_primary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      15.0,
+      77.0,
+      338.593661971831,
+      18.0,
+      101.0,
+      362.593661971831
+    ],
+    "new_bounds": [
+      15.0,
+      77.0,
+      338.593661971831,
+      18.0,
+      101.0,
+      362.593661971831
+    ]
+  },
+  "LeafNut_primary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      582.0,
+      77.0,
+      338.593661971831,
+      585.0,
+      101.0,
+      362.593661971831
+    ],
+    "new_bounds": [
+      610.65,
+      77.0,
+      338.593661971831,
+      613.65,
+      101.0,
+      362.593661971831
+    ]
+  },
+  "LeafBracket_primary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      20.0,
+      79.0,
+      318.593661971831,
+      42.0,
+      99.0,
+      334.593661971831
+    ],
+    "new_bounds": [
+      20.0,
+      79.0,
+      318.593661971831,
+      42.0,
+      99.0,
+      334.593661971831
+    ]
+  },
+  "LeafBracket_primary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      558.0,
+      79.0,
+      318.593661971831,
+      580.0,
+      99.0,
+      334.593661971831
+    ],
+    "new_bounds": [
+      586.65,
+      79.0,
+      318.593661971831,
+      608.65,
+      99.0,
+      334.593661971831
+    ]
+  },
+  "LeafContacts_primary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      21.0,
+      82.0,
+      335.593661971831,
+      41.0,
+      96.0,
+      337.69366197183103
+    ],
+    "new_bounds": [
+      21.0,
+      82.0,
+      335.593661971831,
+      41.0,
+      96.0,
+      337.69366197183103
+    ]
+  },
+  "LeafContacts_primary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      559.0,
+      82.0,
+      335.593661971831,
+      579.0,
+      96.0,
+      337.69366197183103
+    ],
+    "new_bounds": [
+      587.65,
+      82.0,
+      335.593661971831,
+      607.65,
+      96.0,
+      337.69366197183103
+    ]
+  },
+  "LeafButton_secondary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -5.0,
+      113.0,
+      343.2302816901408,
+      30.0,
+      141.0,
+      371.2302816901408
+    ],
+    "new_bounds": [
+      -5.0,
+      113.0,
+      343.2302816901408,
+      30.0,
+      141.0,
+      371.2302816901408
+    ]
+  },
+  "LeafButton_secondary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      570.0,
+      113.0,
+      343.2302816901408,
+      605.0,
+      141.0,
+      371.2302816901408
+    ],
+    "new_bounds": [
+      598.65,
+      113.0,
+      343.2302816901408,
+      633.65,
+      141.0,
+      371.2302816901408
+    ]
+  },
+  "LeafNut_secondary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      15.0,
+      115.0,
+      345.2302816901408,
+      18.0,
+      139.0,
+      369.2302816901408
+    ],
+    "new_bounds": [
+      15.0,
+      115.0,
+      345.2302816901408,
+      18.0,
+      139.0,
+      369.2302816901408
+    ]
+  },
+  "LeafNut_secondary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      582.0,
+      115.0,
+      345.2302816901408,
+      585.0,
+      139.0,
+      369.2302816901408
+    ],
+    "new_bounds": [
+      610.65,
+      115.0,
+      345.2302816901408,
+      613.65,
+      139.0,
+      369.2302816901408
+    ]
+  },
+  "LeafBracket_secondary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      20.0,
+      117.0,
+      325.2302816901408,
+      42.0,
+      137.0,
+      341.2302816901408
+    ],
+    "new_bounds": [
+      20.0,
+      117.0,
+      325.2302816901408,
+      42.0,
+      137.0,
+      341.2302816901408
+    ]
+  },
+  "LeafBracket_secondary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      558.0,
+      117.0,
+      325.2302816901408,
+      580.0,
+      137.0,
+      341.2302816901408
+    ],
+    "new_bounds": [
+      586.65,
+      117.0,
+      325.2302816901408,
+      608.65,
+      137.0,
+      341.2302816901408
+    ]
+  },
+  "LeafContacts_secondary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      21.0,
+      120.0,
+      342.2302816901408,
+      41.0,
+      134.0,
+      344.33028169014085
+    ],
+    "new_bounds": [
+      21.0,
+      120.0,
+      342.2302816901408,
+      41.0,
+      134.0,
+      344.33028169014085
+    ]
+  },
+  "LeafContacts_secondary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      559.0,
+      120.0,
+      342.2302816901408,
+      579.0,
+      134.0,
+      344.33028169014085
+    ],
+    "new_bounds": [
+      587.65,
+      120.0,
+      342.2302816901408,
+      607.65,
+      134.0,
+      344.33028169014085
+    ]
+  },
+  "PF_BasePlywood": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(120, 480); no scaling",
+    "source_bounds": [
+      49.99999999999999,
+      64.01361107210916,
+      331.3788680816646,
+      550.0,
+      1071.9014918612513,
+      524.5951171988511
+    ],
+    "new_bounds": [
+      49.99999999999999,
+      64.01361107210916,
+      331.3788680816646,
+      578.65,
+      1071.9014918612513,
+      524.5951171988511
+    ]
+  },
+  "PF_WoodDowel": {
+    "classification": "WIDENED",
+    "translation_x_mm": null,
+    "method": "constant-section insertion at X(100, 500); no scaling",
+    "source_bounds": [
+      20.0,
+      1019.2506198471799,
+      468.2203301149065,
+      580.0,
+      1051.25061984718,
+      500.2203301149065
+    ],
+    "new_bounds": [
+      20.0,
+      1019.2506198471799,
+      468.2203301149065,
+      608.6500000000001,
+      1051.25061984718,
+      500.2203301149065
+    ]
+  },
+  "PF_VESAEnvelope": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      199.99999999999997,
+      397.5676252740662,
+      407.60535613636966,
+      400.0,
+      645.2163021189954,
+      458.49701215833153
+    ],
+    "new_bounds": [
+      214.325,
+      396.77740700489437,
+      407.6053561363697,
+      414.325,
+      645.2163021189954,
+      463.0216490221378
+    ]
+  },
+  "PF_SupportMountScrewL1": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      1032.5,
+      187.5,
+      36.0,
+      1041.5,
+      196.5
+    ],
+    "new_bounds": [
+      6.0,
+      1032.5,
+      187.5,
+      36.0,
+      1041.5,
+      196.5
+    ]
+  },
+  "PF_SupportMountScrewR1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      564.0,
+      1032.5,
+      187.5,
+      594.0,
+      1041.5,
+      196.5
+    ],
+    "new_bounds": [
+      592.65,
+      1032.5,
+      187.5,
+      622.65,
+      1041.5,
+      196.5
+    ]
+  },
+  "PF_SupportMountScrewL2": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      1038.0,
+      315.6101650574533,
+      36.0,
+      1047.0,
+      324.6101650574533
+    ],
+    "new_bounds": [
+      6.0,
+      1038.0,
+      315.6101650574533,
+      36.0,
+      1047.0,
+      324.6101650574533
+    ]
+  },
+  "PF_SupportMountScrewR2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      564.0,
+      1038.0,
+      315.6101650574533,
+      594.0,
+      1047.0,
+      324.6101650574533
+    ],
+    "new_bounds": [
+      592.65,
+      1038.0,
+      315.6101650574533,
+      622.65,
+      1047.0,
+      324.6101650574533
+    ]
+  },
+  "PF_SupportMountScrewL3": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      1050.75061984718,
+      443.7203301149065,
+      36.0,
+      1059.75061984718,
+      452.7203301149065
+    ],
+    "new_bounds": [
+      6.0,
+      1050.75061984718,
+      443.7203301149065,
+      36.0,
+      1059.75061984718,
+      452.7203301149065
+    ]
+  },
+  "PF_SupportMountScrewR3": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      564.0,
+      1050.75061984718,
+      443.7203301149065,
+      594.0,
+      1059.75061984718,
+      452.7203301149065
+    ],
+    "new_bounds": [
+      592.65,
+      1050.75061984718,
+      443.7203301149065,
+      622.65,
+      1059.75061984718,
+      452.7203301149065
+    ]
+  },
+  "PF_OpenCradleL": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      17.999999999999993,
+      995.2506198471799,
+      36.0,
+      36.0,
+      1075.25061984718,
+      514.2203301149066
+    ],
+    "new_bounds": [
+      17.999999999999993,
+      995.2506198471799,
+      36.0,
+      36.0,
+      1075.25061984718,
+      514.2203301149066
+    ]
+  },
+  "PF_OpenCradleR": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      564.0,
+      995.2506198471799,
+      36.0,
+      582.0,
+      1075.25061984718,
+      514.2203301149066
+    ],
+    "new_bounds": [
+      592.65,
+      995.2506198471799,
+      36.0,
+      610.65,
+      1075.25061984718,
+      514.2203301149066
+    ]
+  },
+  "PF_StrapScrew1_1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      57.79999999999999,
+      1005.4606867379229,
+      491.3618113547168,
+      64.19999999999999,
+      1012.6962370692896,
+      505.9960761054595
+    ],
+    "new_bounds": [
+      57.79999999999999,
+      1005.4606867379229,
+      491.3618113547168,
+      64.19999999999999,
+      1012.6962370692896,
+      505.9960761054595
+    ]
+  },
+  "PF_StrapScrew1_3": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      57.79999999999999,
+      1052.7449734671611,
+      499.6199121355978,
+      64.19999999999999,
+      1059.9805237985277,
+      514.2541768863407
+    ],
+    "new_bounds": [
+      57.79999999999999,
+      1052.7449734671611,
+      499.6199121355978,
+      64.19999999999999,
+      1059.9805237985277,
+      514.2541768863407
+    ]
+  },
+  "PF_CommercialStrap1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      54.99999999999999,
+      1001.960151074253,
+      466.7203301149065,
+      67.0,
+      1065.7883883598129,
+      505.31511577897163
+    ],
+    "new_bounds": [
+      54.99999999999999,
+      1001.960151074253,
+      466.7203301149065,
+      67.0,
+      1065.7883883598129,
+      505.31511577897163
+    ]
+  },
+  "PF_StrapScrew2_1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      87.79999999999998,
+      1005.4606867379229,
+      491.3618113547168,
+      94.19999999999999,
+      1012.6962370692896,
+      505.9960761054595
+    ],
+    "new_bounds": [
+      87.79999999999998,
+      1005.4606867379229,
+      491.3618113547168,
+      94.19999999999999,
+      1012.6962370692896,
+      505.9960761054595
+    ]
+  },
+  "PF_StrapScrew2_3": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      87.79999999999998,
+      1052.7449734671611,
+      499.6199121355978,
+      94.19999999999999,
+      1059.9805237985277,
+      514.2541768863407
+    ],
+    "new_bounds": [
+      87.79999999999998,
+      1052.7449734671611,
+      499.6199121355978,
+      94.19999999999999,
+      1059.9805237985277,
+      514.2541768863407
+    ]
+  },
+  "PF_CommercialStrap2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      84.99999999999999,
+      1001.960151074253,
+      466.7203301149065,
+      96.99999999999999,
+      1065.7883883598129,
+      505.31511577897163
+    ],
+    "new_bounds": [
+      84.99999999999999,
+      1001.960151074253,
+      466.7203301149065,
+      96.99999999999999,
+      1065.7883883598129,
+      505.31511577897163
+    ]
+  },
+  "PF_StrapScrew3_1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      507.79999999999995,
+      1005.4606867379229,
+      491.3618113547168,
+      514.1999999999999,
+      1012.6962370692896,
+      505.9960761054595
+    ],
+    "new_bounds": [
+      536.4499999999998,
+      1005.4606867379229,
+      491.3618113547168,
+      542.8499999999999,
+      1012.6962370692896,
+      505.9960761054595
+    ]
+  },
+  "PF_StrapScrew3_3": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      507.79999999999995,
+      1052.7449734671611,
+      499.6199121355978,
+      514.1999999999999,
+      1059.9805237985277,
+      514.2541768863407
+    ],
+    "new_bounds": [
+      536.4499999999998,
+      1052.7449734671611,
+      499.6199121355978,
+      542.8499999999999,
+      1059.9805237985277,
+      514.2541768863407
+    ]
+  },
+  "PF_CommercialStrap3": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      504.99999999999994,
+      1001.960151074253,
+      466.7203301149065,
+      517.0,
+      1065.7883883598129,
+      505.31511577897163
+    ],
+    "new_bounds": [
+      533.6499999999999,
+      1001.960151074253,
+      466.7203301149065,
+      545.6499999999999,
+      1065.7883883598129,
+      505.31511577897163
+    ]
+  },
+  "PF_StrapScrew4_1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      537.7999999999998,
+      1005.4606867379229,
+      491.3618113547168,
+      544.1999999999999,
+      1012.6962370692896,
+      505.9960761054595
+    ],
+    "new_bounds": [
+      566.4499999999998,
+      1005.4606867379229,
+      491.3618113547168,
+      572.8499999999999,
+      1012.6962370692896,
+      505.9960761054595
+    ]
+  },
+  "PF_StrapScrew4_3": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      537.7999999999998,
+      1052.7449734671611,
+      499.6199121355978,
+      544.1999999999999,
+      1059.9805237985277,
+      514.2541768863407
+    ],
+    "new_bounds": [
+      566.4499999999998,
+      1052.7449734671611,
+      499.6199121355978,
+      572.8499999999999,
+      1059.9805237985277,
+      514.2541768863407
+    ]
+  },
+  "PF_CommercialStrap4": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      534.9999999999999,
+      1001.960151074253,
+      466.7203301149065,
+      546.9999999999999,
+      1065.7883883598129,
+      505.31511577897163
+    ],
+    "new_bounds": [
+      563.6499999999999,
+      1001.960151074253,
+      466.7203301149065,
+      575.6499999999999,
+      1065.7883883598129,
+      505.31511577897163
+    ]
+  },
+  "FloorFanBoltL1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      93.5,
+      653.5,
+      12.5,
+      101.5,
+      661.5,
+      65.5
+    ],
+    "new_bounds": [
+      107.82499999999999,
+      653.5,
+      12.5,
+      115.82499999999999,
+      661.5,
+      65.5
+    ]
+  },
+  "FloorFanNutL1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      93.5,
+      653.5,
+      14.8,
+      101.5,
+      661.5,
+      18.0
+    ],
+    "new_bounds": [
+      107.82499999999999,
+      653.5,
+      14.8,
+      115.82499999999999,
+      661.5,
+      18.0
+    ]
+  },
+  "FloorFanBoltL2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      93.5,
+      758.5,
+      12.5,
+      101.5,
+      766.5,
+      65.5
+    ],
+    "new_bounds": [
+      107.82499999999999,
+      758.5,
+      12.5,
+      115.82499999999999,
+      766.5,
+      65.5
+    ]
+  },
+  "FloorFanNutL2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      93.5,
+      758.5,
+      14.8,
+      101.5,
+      766.5,
+      18.0
+    ],
+    "new_bounds": [
+      107.82499999999999,
+      758.5,
+      14.8,
+      115.82499999999999,
+      766.5,
+      18.0
+    ]
+  },
+  "FloorFanBoltL3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      198.5,
+      653.5,
+      12.5,
+      206.5,
+      661.5,
+      65.5
+    ],
+    "new_bounds": [
+      212.825,
+      653.5,
+      12.5,
+      220.825,
+      661.5,
+      65.5
+    ]
+  },
+  "FloorFanNutL3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      198.5,
+      653.5,
+      14.8,
+      206.5,
+      661.5,
+      18.0
+    ],
+    "new_bounds": [
+      212.825,
+      653.5,
+      14.8,
+      220.825,
+      661.5,
+      18.0
+    ]
+  },
+  "FloorFanBoltL4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      198.5,
+      758.5,
+      12.5,
+      206.5,
+      766.5,
+      65.5
+    ],
+    "new_bounds": [
+      212.825,
+      758.5,
+      12.5,
+      220.825,
+      766.5,
+      65.5
+    ]
+  },
+  "FloorFanNutL4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      198.5,
+      758.5,
+      14.8,
+      206.5,
+      766.5,
+      18.0
+    ],
+    "new_bounds": [
+      212.825,
+      758.5,
+      14.8,
+      220.825,
+      766.5,
+      18.0
+    ]
+  },
+  "FloorFilterInsertL1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      77.0,
+      637.0,
+      18.0,
+      83.0,
+      643.0,
+      26.0
+    ],
+    "new_bounds": [
+      91.32499999999999,
+      637.0,
+      18.0,
+      97.32499999999999,
+      643.0,
+      26.0
+    ]
+  },
+  "FloorFilterScrewL1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      76.0,
+      636.0,
+      7.0,
+      84.0,
+      644.0,
+      26.0
+    ],
+    "new_bounds": [
+      90.32499999999999,
+      636.0,
+      7.0,
+      98.32499999999999,
+      644.0,
+      26.0
+    ]
+  },
+  "FloorFilterInsertL2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      77.0,
+      777.0,
+      18.0,
+      83.0,
+      783.0,
+      26.0
+    ],
+    "new_bounds": [
+      91.32499999999999,
+      777.0,
+      18.0,
+      97.32499999999999,
+      783.0,
+      26.0
+    ]
+  },
+  "FloorFilterScrewL2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      76.0,
+      776.0,
+      7.0,
+      84.0,
+      784.0,
+      26.0
+    ],
+    "new_bounds": [
+      90.32499999999999,
+      776.0,
+      7.0,
+      98.32499999999999,
+      784.0,
+      26.0
+    ]
+  },
+  "FloorFilterInsertL3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      217.0,
+      637.0,
+      18.0,
+      223.0,
+      643.0,
+      26.0
+    ],
+    "new_bounds": [
+      231.325,
+      637.0,
+      18.0,
+      237.325,
+      643.0,
+      26.0
+    ]
+  },
+  "FloorFilterScrewL3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      216.0,
+      636.0,
+      7.0,
+      224.0,
+      644.0,
+      26.0
+    ],
+    "new_bounds": [
+      230.325,
+      636.0,
+      7.0,
+      238.325,
+      644.0,
+      26.0
+    ]
+  },
+  "FloorFilterInsertL4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      217.0,
+      777.0,
+      18.0,
+      223.0,
+      783.0,
+      26.0
+    ],
+    "new_bounds": [
+      231.325,
+      777.0,
+      18.0,
+      237.325,
+      783.0,
+      26.0
+    ]
+  },
+  "FloorFilterScrewL4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      216.0,
+      776.0,
+      7.0,
+      224.0,
+      784.0,
+      26.0
+    ],
+    "new_bounds": [
+      230.325,
+      776.0,
+      7.0,
+      238.325,
+      784.0,
+      26.0
+    ]
+  },
+  "FloorIntakeFanL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      90.0,
+      650.0,
+      36.0,
+      210.0,
+      770.0,
+      61.0
+    ],
+    "new_bounds": [
+      104.32499999999999,
+      650.0,
+      36.0,
+      224.325,
+      770.0,
+      61.0
+    ]
+  },
+  "RemovableIntakeFilterL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      64.99999999999945,
+      624.9999999999994,
+      6.0,
+      235.0,
+      795.0000000000005,
+      18.0
+    ],
+    "new_bounds": [
+      79.32499999999943,
+      624.9999999999994,
+      6.0,
+      249.325,
+      795.0000000000005,
+      18.0
+    ]
+  },
+  "FloorFilterMediaReserveL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      90.0,
+      650.0,
+      8.0,
+      210.0,
+      770.0,
+      10.0
+    ],
+    "new_bounds": [
+      104.32499999999999,
+      650.0,
+      8.0,
+      224.325,
+      770.0,
+      10.0
+    ]
+  },
+  "FloorCommercialGuardReserveL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      65.14718625761384,
+      625.147186257614,
+      6.5,
+      234.8528137423853,
+      794.8528137423855,
+      8.0
+    ],
+    "new_bounds": [
+      79.47218625761388,
+      625.147186257614,
+      6.5,
+      249.17781374238535,
+      794.8528137423855,
+      8.0
+    ]
+  },
+  "FloorUpperGuardReserveL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      90.0,
+      650.0,
+      61.0,
+      210.0,
+      770.0,
+      62.5
+    ],
+    "new_bounds": [
+      104.32499999999999,
+      650.0,
+      61.0,
+      224.325,
+      770.0,
+      62.5
+    ]
+  },
+  "FloorFanConnectorReserveL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      135.0,
+      770.0,
+      40.0,
+      165.0,
+      790.0,
+      55.0
+    ],
+    "new_bounds": [
+      149.325,
+      770.0,
+      40.0,
+      179.325,
+      790.0,
+      55.0
+    ]
+  },
+  "FloorFanBoltR1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      393.5,
+      653.5,
+      12.5,
+      401.5,
+      661.5,
+      65.5
+    ],
+    "new_bounds": [
+      407.825,
+      653.5,
+      12.5,
+      415.825,
+      661.5,
+      65.5
+    ]
+  },
+  "FloorFanNutR1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      393.5,
+      653.5,
+      14.8,
+      401.5,
+      661.5,
+      18.0
+    ],
+    "new_bounds": [
+      407.825,
+      653.5,
+      14.8,
+      415.825,
+      661.5,
+      18.0
+    ]
+  },
+  "FloorFanBoltR2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      393.5,
+      758.5,
+      12.5,
+      401.5,
+      766.5,
+      65.5
+    ],
+    "new_bounds": [
+      407.825,
+      758.5,
+      12.5,
+      415.825,
+      766.5,
+      65.5
+    ]
+  },
+  "FloorFanNutR2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      393.5,
+      758.5,
+      14.8,
+      401.5,
+      766.5,
+      18.0
+    ],
+    "new_bounds": [
+      407.825,
+      758.5,
+      14.8,
+      415.825,
+      766.5,
+      18.0
+    ]
+  },
+  "FloorFanBoltR3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      498.5,
+      653.5,
+      12.5,
+      506.5,
+      661.5,
+      65.5
+    ],
+    "new_bounds": [
+      512.825,
+      653.5,
+      12.5,
+      520.825,
+      661.5,
+      65.5
+    ]
+  },
+  "FloorFanNutR3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      498.5,
+      653.5,
+      14.8,
+      506.5,
+      661.5,
+      18.0
+    ],
+    "new_bounds": [
+      512.825,
+      653.5,
+      14.8,
+      520.825,
+      661.5,
+      18.0
+    ]
+  },
+  "FloorFanBoltR4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      498.5,
+      758.5,
+      12.5,
+      506.5,
+      766.5,
+      65.5
+    ],
+    "new_bounds": [
+      512.825,
+      758.5,
+      12.5,
+      520.825,
+      766.5,
+      65.5
+    ]
+  },
+  "FloorFanNutR4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      498.5,
+      758.5,
+      14.8,
+      506.5,
+      766.5,
+      18.0
+    ],
+    "new_bounds": [
+      512.825,
+      758.5,
+      14.8,
+      520.825,
+      766.5,
+      18.0
+    ]
+  },
+  "FloorFilterInsertR1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      377.0,
+      637.0,
+      18.0,
+      383.0,
+      643.0,
+      26.0
+    ],
+    "new_bounds": [
+      391.325,
+      637.0,
+      18.0,
+      397.325,
+      643.0,
+      26.0
+    ]
+  },
+  "FloorFilterScrewR1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      376.0,
+      636.0,
+      7.0,
+      384.0,
+      644.0,
+      26.0
+    ],
+    "new_bounds": [
+      390.325,
+      636.0,
+      7.0,
+      398.325,
+      644.0,
+      26.0
+    ]
+  },
+  "FloorFilterInsertR2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      377.0,
+      777.0,
+      18.0,
+      383.0,
+      783.0,
+      26.0
+    ],
+    "new_bounds": [
+      391.325,
+      777.0,
+      18.0,
+      397.325,
+      783.0,
+      26.0
+    ]
+  },
+  "FloorFilterScrewR2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      376.0,
+      776.0,
+      7.0,
+      384.0,
+      784.0,
+      26.0
+    ],
+    "new_bounds": [
+      390.325,
+      776.0,
+      7.0,
+      398.325,
+      784.0,
+      26.0
+    ]
+  },
+  "FloorFilterInsertR3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      517.0,
+      637.0,
+      18.0,
+      523.0,
+      643.0,
+      26.0
+    ],
+    "new_bounds": [
+      531.325,
+      637.0,
+      18.0,
+      537.325,
+      643.0,
+      26.0
+    ]
+  },
+  "FloorFilterScrewR3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      516.0,
+      636.0,
+      7.0,
+      524.0,
+      644.0,
+      26.0
+    ],
+    "new_bounds": [
+      530.325,
+      636.0,
+      7.0,
+      538.325,
+      644.0,
+      26.0
+    ]
+  },
+  "FloorFilterInsertR4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      517.0,
+      777.0,
+      18.0,
+      523.0,
+      783.0,
+      26.0
+    ],
+    "new_bounds": [
+      531.325,
+      777.0,
+      18.0,
+      537.325,
+      783.0,
+      26.0
+    ]
+  },
+  "FloorFilterScrewR4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      516.0,
+      776.0,
+      7.0,
+      524.0,
+      784.0,
+      26.0
+    ],
+    "new_bounds": [
+      530.325,
+      776.0,
+      7.0,
+      538.325,
+      784.0,
+      26.0
+    ]
+  },
+  "FloorIntakeFanR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      390.0,
+      650.0,
+      36.0,
+      510.0,
+      770.0,
+      61.0
+    ],
+    "new_bounds": [
+      404.325,
+      650.0,
+      36.0,
+      524.325,
+      770.0,
+      61.0
+    ]
+  },
+  "RemovableIntakeFilterR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      364.99999999999943,
+      624.9999999999994,
+      6.0,
+      535.0,
+      795.0000000000005,
+      18.0
+    ],
+    "new_bounds": [
+      379.3249999999995,
+      624.9999999999994,
+      6.0,
+      549.325,
+      795.0000000000005,
+      18.0
+    ]
+  },
+  "FloorFilterMediaReserveR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      390.0,
+      650.0,
+      8.0,
+      510.0,
+      770.0,
+      10.0
+    ],
+    "new_bounds": [
+      404.325,
+      650.0,
+      8.0,
+      524.325,
+      770.0,
+      10.0
+    ]
+  },
+  "FloorCommercialGuardReserveR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      365.14718625761355,
+      625.1471862576141,
+      6.5,
+      534.852813742385,
+      794.8528137423855,
+      8.0
+    ],
+    "new_bounds": [
+      379.4721862576136,
+      625.1471862576141,
+      6.5,
+      549.1778137423851,
+      794.8528137423855,
+      8.0
+    ]
+  },
+  "FloorUpperGuardReserveR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      390.0,
+      650.0,
+      61.0,
+      510.0,
+      770.0,
+      62.5
+    ],
+    "new_bounds": [
+      404.325,
+      650.0,
+      61.0,
+      524.325,
+      770.0,
+      62.5
+    ]
+  },
+  "FloorFanConnectorReserveR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      435.0,
+      770.0,
+      40.0,
+      465.0,
+      790.0,
+      55.0
+    ],
+    "new_bounds": [
+      449.325,
+      770.0,
+      40.0,
+      479.325,
+      790.0,
+      55.0
+    ]
+  },
+  "ButtonWireServiceReserve_primary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      42.0,
+      81.0,
+      330.593661971831,
+      62.0,
+      111.0,
+      349.69366197183103
+    ],
+    "new_bounds": [
+      42.0,
+      81.0,
+      330.593661971831,
+      62.0,
+      111.0,
+      349.69366197183103
+    ]
+  },
+  "ButtonToolServiceReserve_primary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      43.0,
+      79.0,
+      340.593661971831,
+      70.0,
+      99.0,
+      360.593661971831
+    ],
+    "new_bounds": [
+      43.0,
+      79.0,
+      340.593661971831,
+      70.0,
+      99.0,
+      360.593661971831
+    ]
+  },
+  "ButtonBodyServiceReserve_primary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -5.0,
+      75.0,
+      336.593661971831,
+      30.0,
+      103.0,
+      364.593661971831
+    ],
+    "new_bounds": [
+      -5.0,
+      75.0,
+      336.593661971831,
+      30.0,
+      103.0,
+      364.593661971831
+    ]
+  },
+  "ButtonLeafServiceReserve_primary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      20.0,
+      79.0,
+      318.593661971831,
+      42.0,
+      99.0,
+      337.69366197183103
+    ],
+    "new_bounds": [
+      20.0,
+      79.0,
+      318.593661971831,
+      42.0,
+      99.0,
+      337.69366197183103
+    ]
+  },
+  "ButtonWireServiceReserve_primary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      538.0,
+      81.0,
+      330.593661971831,
+      558.0,
+      111.0,
+      349.69366197183103
+    ],
+    "new_bounds": [
+      566.65,
+      81.0,
+      330.593661971831,
+      586.65,
+      111.0,
+      349.69366197183103
+    ]
+  },
+  "ButtonToolServiceReserve_primary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      530.0,
+      79.0,
+      340.593661971831,
+      557.0,
+      99.0,
+      360.593661971831
+    ],
+    "new_bounds": [
+      558.65,
+      79.0,
+      340.593661971831,
+      585.65,
+      99.0,
+      360.593661971831
+    ]
+  },
+  "ButtonBodyServiceReserve_primary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      570.0,
+      75.0,
+      336.593661971831,
+      605.0,
+      103.0,
+      364.593661971831
+    ],
+    "new_bounds": [
+      598.65,
+      75.0,
+      336.593661971831,
+      633.65,
+      103.0,
+      364.593661971831
+    ]
+  },
+  "ButtonLeafServiceReserve_primary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      558.0,
+      79.0,
+      318.593661971831,
+      580.0,
+      99.0,
+      337.69366197183103
+    ],
+    "new_bounds": [
+      586.65,
+      79.0,
+      318.593661971831,
+      608.65,
+      99.0,
+      337.69366197183103
+    ]
+  },
+  "ButtonWireServiceReserve_secondary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      42.0,
+      119.0,
+      337.2302816901408,
+      62.0,
+      149.0,
+      356.33028169014085
+    ],
+    "new_bounds": [
+      42.0,
+      119.0,
+      337.2302816901408,
+      62.0,
+      149.0,
+      356.33028169014085
+    ]
+  },
+  "ButtonToolServiceReserve_secondary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      43.0,
+      117.0,
+      347.2302816901408,
+      70.0,
+      137.0,
+      367.2302816901408
+    ],
+    "new_bounds": [
+      43.0,
+      117.0,
+      347.2302816901408,
+      70.0,
+      137.0,
+      367.2302816901408
+    ]
+  },
+  "ButtonBodyServiceReserve_secondary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -5.0,
+      113.0,
+      343.2302816901408,
+      30.0,
+      141.0,
+      371.2302816901408
+    ],
+    "new_bounds": [
+      -5.0,
+      113.0,
+      343.2302816901408,
+      30.0,
+      141.0,
+      371.2302816901408
+    ]
+  },
+  "ButtonLeafServiceReserve_secondary_L": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      20.0,
+      117.0,
+      325.2302816901408,
+      42.0,
+      137.0,
+      344.33028169014085
+    ],
+    "new_bounds": [
+      20.0,
+      117.0,
+      325.2302816901408,
+      42.0,
+      137.0,
+      344.33028169014085
+    ]
+  },
+  "ButtonWireServiceReserve_secondary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      538.0,
+      119.0,
+      337.2302816901408,
+      558.0,
+      149.0,
+      356.33028169014085
+    ],
+    "new_bounds": [
+      566.65,
+      119.0,
+      337.2302816901408,
+      586.65,
+      149.0,
+      356.33028169014085
+    ]
+  },
+  "ButtonToolServiceReserve_secondary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      530.0,
+      117.0,
+      347.2302816901408,
+      557.0,
+      137.0,
+      367.2302816901408
+    ],
+    "new_bounds": [
+      558.65,
+      117.0,
+      347.2302816901408,
+      585.65,
+      137.0,
+      367.2302816901408
+    ]
+  },
+  "ButtonBodyServiceReserve_secondary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      570.0,
+      113.0,
+      343.2302816901408,
+      605.0,
+      141.0,
+      371.2302816901408
+    ],
+    "new_bounds": [
+      598.65,
+      113.0,
+      343.2302816901408,
+      633.65,
+      141.0,
+      371.2302816901408
+    ]
+  },
+  "ButtonLeafServiceReserve_secondary_R": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      558.0,
+      117.0,
+      325.2302816901408,
+      580.0,
+      137.0,
+      344.33028169014085
+    ],
+    "new_bounds": [
+      586.65,
+      117.0,
+      325.2302816901408,
+      608.65,
+      137.0,
+      344.33028169014085
+    ]
+  },
+  "MX_WoodSeatL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      35.99999999999999,
+      1075.0,
+      540.0,
+      54.00000000000001,
+      1190.0,
+      578.9
+    ],
+    "new_bounds": [
+      50.32499999999998,
+      1075.0,
+      540.0,
+      68.32499999999999,
+      1190.0,
+      578.9
+    ]
+  },
+  "MX_WoodSeatR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      545.9999999999999,
+      1075.0,
+      540.0,
+      564.0000000000001,
+      1190.0,
+      578.9
+    ],
+    "new_bounds": [
+      560.3249999999998,
+      1075.0,
+      540.0,
+      578.3250000000002,
+      1190.0,
+      578.9
+    ]
+  },
+  "MX_InsertL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      42.0,
+      1085.8138997372853,
+      550.1773769028324,
+      48.0,
+      1094.6326925534308,
+      559.9635487695698
+    ],
+    "new_bounds": [
+      56.32499999999999,
+      1085.8138997372853,
+      550.1773769028324,
+      62.32499999999999,
+      1094.6326925534308,
+      559.9635487695698
+    ]
+  },
+  "MX_FixedScrewL1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      41.0,
+      1136.0,
+      540.0,
+      49.0,
+      1144.0,
+      590.0
+    ],
+    "new_bounds": [
+      55.32499999999999,
+      1136.0,
+      540.0,
+      63.32499999999999,
+      1144.0,
+      590.0
+    ]
+  },
+  "MX_FixedScrewL2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      41.0,
+      1176.0,
+      540.0,
+      49.0,
+      1184.0,
+      590.0
+    ],
+    "new_bounds": [
+      55.32499999999999,
+      1176.0,
+      540.0,
+      63.32499999999999,
+      1184.0,
+      590.0
+    ]
+  },
+  "MX_InsertR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      552.0,
+      1085.8138997372853,
+      550.1773769028324,
+      558.0,
+      1094.6326925534308,
+      559.9635487695698
+    ],
+    "new_bounds": [
+      566.325,
+      1085.8138997372853,
+      550.1773769028324,
+      572.325,
+      1094.6326925534308,
+      559.9635487695698
+    ]
+  },
+  "MX_FixedScrewR1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      551.0,
+      1136.0,
+      540.0,
+      559.0,
+      1144.0,
+      590.0
+    ],
+    "new_bounds": [
+      565.325,
+      1136.0,
+      540.0,
+      573.325,
+      1144.0,
+      590.0
+    ]
+  },
+  "MX_FixedScrewR2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      551.0,
+      1176.0,
+      540.0,
+      559.0,
+      1184.0,
+      590.0
+    ],
+    "new_bounds": [
+      565.325,
+      1176.0,
+      540.0,
+      573.325,
+      1184.0,
+      590.0
+    ]
+  },
+  "MX_RetainerL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      39.0,
+      1076.3330841883242,
+      550.5999951645731,
+      51.0,
+      1093.7263847663942,
+      575.7323281473782
+    ],
+    "new_bounds": [
+      53.32499999999999,
+      1076.3330841883242,
+      550.5999951645731,
+      65.32499999999999,
+      1093.7263847663942,
+      575.7323281473782
+    ]
+  },
+  "MX_RetainerR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      549.0,
+      1076.3330841883242,
+      550.5999951645731,
+      561.0,
+      1093.7263847663942,
+      575.7323281473782
+    ],
+    "new_bounds": [
+      563.325,
+      1076.3330841883242,
+      550.5999951645731,
+      575.325,
+      1093.7263847663942,
+      575.7323281473782
+    ]
+  },
+  "MatrixCarrier": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      29.999999999999996,
+      1033.6144756704912,
+      535.4516895886093,
+      570.0,
+      1125.125,
+      586.6345997465683
+    ],
+    "new_bounds": [
+      44.32499999999999,
+      1033.6144756704912,
+      535.4516895886093,
+      584.325,
+      1125.125,
+      586.6345997465683
+    ]
+  },
+  "MatrixPanel1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      61.87499999999999,
+      1037.4839918728587,
+      549.7083291269746,
+      141.25,
+      1112.8031185628186,
+      590.5041159489358
+    ],
+    "new_bounds": [
+      76.19999999999999,
+      1037.4839918728587,
+      549.7083291269746,
+      155.575,
+      1112.8031185628186,
+      590.5041159489358
+    ]
+  },
+  "MatrixPanel2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      141.24999999999997,
+      1037.4839918728587,
+      549.7083291269746,
+      220.62499999999997,
+      1112.8031185628186,
+      590.5041159489358
+    ],
+    "new_bounds": [
+      155.57499999999996,
+      1037.4839918728587,
+      549.7083291269746,
+      234.94999999999996,
+      1112.8031185628186,
+      590.5041159489358
+    ]
+  },
+  "MatrixPanel3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      220.62499999999997,
+      1037.4839918728587,
+      549.7083291269746,
+      300.0,
+      1112.8031185628186,
+      590.5041159489358
+    ],
+    "new_bounds": [
+      234.94999999999996,
+      1037.4839918728587,
+      549.7083291269746,
+      314.32499999999993,
+      1112.8031185628186,
+      590.5041159489358
+    ]
+  },
+  "MatrixPanel4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      299.99999999999994,
+      1037.4839918728587,
+      549.7083291269746,
+      379.37499999999994,
+      1112.8031185628186,
+      590.5041159489358
+    ],
+    "new_bounds": [
+      314.32499999999993,
+      1037.4839918728587,
+      549.7083291269746,
+      393.69999999999993,
+      1112.8031185628186,
+      590.5041159489358
+    ]
+  },
+  "MatrixPanel5": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      379.37499999999994,
+      1037.4839918728587,
+      549.7083291269746,
+      458.74999999999994,
+      1112.8031185628186,
+      590.5041159489358
+    ],
+    "new_bounds": [
+      393.69999999999993,
+      1037.4839918728587,
+      549.7083291269746,
+      473.07499999999993,
+      1112.8031185628186,
+      590.5041159489358
+    ]
+  },
+  "MatrixPanel6": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      458.74999999999994,
+      1037.4839918728587,
+      549.7083291269746,
+      538.125,
+      1112.8031185628186,
+      590.5041159489358
+    ],
+    "new_bounds": [
+      473.07499999999993,
+      1037.4839918728587,
+      549.7083291269746,
+      552.4499999999999,
+      1112.8031185628186,
+      590.5041159489358
+    ]
+  },
+  "MX_FixedConnectorReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      61.0,
+      1110.0,
+      530.0,
+      79.0,
+      1120.0,
+      542.0
+    ],
+    "new_bounds": [
+      75.32499999999999,
+      1110.0,
+      530.0,
+      93.32499999999999,
+      1120.0,
+      542.0
+    ]
+  },
+  "MX_MovingConnectorReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      61.0,
+      1100.0,
+      530.0,
+      79.0,
+      1110.0,
+      542.0
+    ],
+    "new_bounds": [
+      75.32499999999999,
+      1100.0,
+      530.0,
+      93.32499999999999,
+      1110.0,
+      542.0
+    ]
+  },
+  "MX_CableLoopReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      80.0,
+      1096.5993325950294,
+      546.0,
+      173.4006674049707,
+      1133.4006674049706,
+      550.0
+    ],
+    "new_bounds": [
+      94.32499999999999,
+      1096.5993325950294,
+      546.0,
+      187.7256674049707,
+      1133.4006674049706,
+      550.0
+    ]
+  },
+  "MX_FixedCableReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      68.0,
+      1115.0,
+      532.0,
+      72.0,
+      1180.0,
+      536.0
+    ],
+    "new_bounds": [
+      82.32499999999999,
+      1115.0,
+      532.0,
+      86.32499999999999,
+      1180.0,
+      536.0
+    ]
+  },
+  "UprightLockLShelfThread": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      124.0,
+      1254.0,
+      578.9,
+      136.0,
+      1266.0,
+      590.9
+    ],
+    "new_bounds": [
+      138.325,
+      1254.0,
+      578.9,
+      150.325,
+      1266.0,
+      590.9
+    ]
+  },
+  "UprightLockLShelfBacking": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      114.0,
+      1244.0,
+      575.9,
+      146.0,
+      1276.0,
+      578.9
+    ],
+    "new_bounds": [
+      128.325,
+      1244.0,
+      575.9,
+      160.325,
+      1276.0,
+      578.9
+    ]
+  },
+  "UprightLockRShelfThread": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      464.0,
+      1254.0,
+      578.9,
+      476.0,
+      1266.0,
+      590.9
+    ],
+    "new_bounds": [
+      478.325,
+      1254.0,
+      578.9,
+      490.325,
+      1266.0,
+      590.9
+    ]
+  },
+  "UprightLockRShelfBacking": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      454.0,
+      1244.0,
+      575.9,
+      486.0,
+      1276.0,
+      578.9
+    ],
+    "new_bounds": [
+      468.325,
+      1244.0,
+      575.9,
+      500.325,
+      1276.0,
+      578.9
+    ]
+  },
+  "BB_SideL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -90.0,
+      1054.0999999999997,
+      596.9,
+      -71.99999999999991,
+      1302.1,
+      1320.8
+    ],
+    "new_bounds": [
+      -75.67500000000001,
+      1054.0999999999997,
+      596.9,
+      -57.674999999999926,
+      1302.1,
+      1320.8
+    ]
+  },
+  "BB_SideR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      671.9999999999999,
+      1054.0999999999997,
+      596.9,
+      690.0,
+      1302.1,
+      1320.8
+    ],
+    "new_bounds": [
+      686.3249999999999,
+      1054.0999999999997,
+      596.9,
+      704.325,
+      1302.1,
+      1320.8
+    ]
+  },
+  "BB_Floor": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -78.0,
+      1145.9999999999998,
+      596.9,
+      678.0,
+      1302.1,
+      614.9
+    ],
+    "new_bounds": [
+      -63.67500000000001,
+      1145.9999999999998,
+      596.9,
+      692.325,
+      1302.1,
+      614.9
+    ]
+  },
+  "BB_Top": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -78.0,
+      1055.1940737670948,
+      1302.8,
+      678.0,
+      1302.1,
+      1320.8
+    ],
+    "new_bounds": [
+      -63.67500000000001,
+      1055.1940737670948,
+      1302.8,
+      692.325,
+      1302.1,
+      1320.8
+    ]
+  },
+  "BB_RearFrame": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -90.0,
+      1290.1,
+      596.9,
+      690.0,
+      1308.1,
+      1320.8
+    ],
+    "new_bounds": [
+      -75.67500000000001,
+      1290.1,
+      596.9,
+      704.325,
+      1308.1,
+      1320.8
+    ]
+  },
+  "BB_Display32": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -57.5,
+      1132.0,
+      858.0,
+      657.5,
+      1207.0,
+      1280.0
+    ],
+    "new_bounds": [
+      -43.17500000000001,
+      1132.0,
+      858.0,
+      671.825,
+      1207.0,
+      1280.0
+    ]
+  },
+  "BB_DMDEnvelope": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      100.0,
+      1134.0,
+      618.0,
+      500.0,
+      1179.0,
+      818.0
+    ],
+    "new_bounds": [
+      114.32499999999999,
+      1134.0,
+      618.0,
+      514.325,
+      1179.0,
+      818.0
+    ]
+  },
+  "BB_SpeakerEnvelopeL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -52.0,
+      1197.0,
+      657.0,
+      78.0,
+      1287.0,
+      787.0
+    ],
+    "new_bounds": [
+      -37.67500000000001,
+      1197.0,
+      657.0,
+      92.32499999999999,
+      1287.0,
+      787.0
+    ]
+  },
+  "BB_SpeakerEnvelopeR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      522.0,
+      1197.0,
+      657.0,
+      652.0,
+      1287.0,
+      787.0
+    ],
+    "new_bounds": [
+      536.325,
+      1197.0,
+      657.0,
+      666.325,
+      1287.0,
+      787.0
+    ]
+  },
+  "BB_DoorL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -52.0,
+      1310.1,
+      644.0,
+      299.0,
+      1322.1,
+      1272.0
+    ],
+    "new_bounds": [
+      -37.67500000000001,
+      1310.1,
+      644.0,
+      313.325,
+      1322.1,
+      1272.0
+    ]
+  },
+  "BB_FanL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      95.0,
+      1285.1,
+      1100.0,
+      215.0,
+      1310.1,
+      1220.0
+    ],
+    "new_bounds": [
+      109.32499999999999,
+      1285.1,
+      1100.0,
+      229.325,
+      1310.1,
+      1220.0
+    ]
+  },
+  "BB_FanGuardL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      91.0,
+      1322.1,
+      1096.0,
+      219.0,
+      1325.1,
+      1224.0
+    ],
+    "new_bounds": [
+      105.32499999999999,
+      1322.1,
+      1096.0,
+      233.325,
+      1325.1,
+      1224.0
+    ]
+  },
+  "BB_FanMeshReserveL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      98.0,
+      1324.1,
+      1103.0,
+      212.0,
+      1325.1,
+      1217.0
+    ],
+    "new_bounds": [
+      112.32499999999999,
+      1324.1,
+      1103.0,
+      226.325,
+      1325.1,
+      1217.0
+    ]
+  },
+  "BB_HingeCleatL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -78.0,
+      1308.1,
+      644.0,
+      -55.0,
+      1322.1,
+      1272.0
+    ],
+    "new_bounds": [
+      -63.67500000000001,
+      1308.1,
+      644.0,
+      -40.67500000000001,
+      1322.1,
+      1272.0
+    ]
+  },
+  "BB_PianoHingeReserveL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -57.5,
+      1321.6,
+      644.0,
+      -52.5,
+      1326.6,
+      1272.0
+    ],
+    "new_bounds": [
+      -43.17500000000001,
+      1321.6,
+      644.0,
+      -38.17500000000001,
+      1326.6,
+      1272.0
+    ]
+  },
+  "BB_PianoLeafFixedL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -78.0,
+      1322.1,
+      644.0,
+      -55.0,
+      1323.6,
+      1272.0
+    ],
+    "new_bounds": [
+      -63.67500000000001,
+      1322.1,
+      644.0,
+      -40.67500000000001,
+      1323.6,
+      1272.0
+    ]
+  },
+  "BB_PianoLeafDoorL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -52.0,
+      1322.1,
+      644.0,
+      -32.0,
+      1323.6,
+      1272.0
+    ],
+    "new_bounds": [
+      -37.67500000000001,
+      1322.1,
+      644.0,
+      -17.67500000000001,
+      1323.6,
+      1272.0
+    ]
+  },
+  "BB_DoorPerimeterGasketL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -50.0,
+      1308.1,
+      646.0,
+      300.0,
+      1310.1,
+      1270.0
+    ],
+    "new_bounds": [
+      -35.67500000000001,
+      1308.1,
+      646.0,
+      314.325,
+      1310.1,
+      1270.0
+    ]
+  },
+  "BB_DoorR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      301.0,
+      1310.1,
+      644.0,
+      652.0,
+      1322.1,
+      1272.0
+    ],
+    "new_bounds": [
+      315.325,
+      1310.1,
+      644.0,
+      666.325,
+      1322.1,
+      1272.0
+    ]
+  },
+  "BB_FanR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      385.0,
+      1285.1,
+      1100.0,
+      505.0,
+      1310.1,
+      1220.0
+    ],
+    "new_bounds": [
+      399.325,
+      1285.1,
+      1100.0,
+      519.325,
+      1310.1,
+      1220.0
+    ]
+  },
+  "BB_FanGuardR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      381.0,
+      1322.1,
+      1096.0,
+      509.0,
+      1325.1,
+      1224.0
+    ],
+    "new_bounds": [
+      395.325,
+      1322.1,
+      1096.0,
+      523.325,
+      1325.1,
+      1224.0
+    ]
+  },
+  "BB_FanMeshReserveR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      388.0,
+      1324.1,
+      1103.0,
+      502.0,
+      1325.1,
+      1217.0
+    ],
+    "new_bounds": [
+      402.325,
+      1324.1,
+      1103.0,
+      516.325,
+      1325.1,
+      1217.0
+    ]
+  },
+  "BB_HingeCleatR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      655.0,
+      1308.1,
+      644.0,
+      678.0,
+      1322.1,
+      1272.0
+    ],
+    "new_bounds": [
+      669.325,
+      1308.1,
+      644.0,
+      692.325,
+      1322.1,
+      1272.0
+    ]
+  },
+  "BB_PianoHingeReserveR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      652.5,
+      1321.6,
+      644.0,
+      657.5,
+      1326.6,
+      1272.0
+    ],
+    "new_bounds": [
+      666.825,
+      1321.6,
+      644.0,
+      671.825,
+      1326.6,
+      1272.0
+    ]
+  },
+  "BB_PianoLeafFixedR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      655.0,
+      1322.1,
+      644.0,
+      678.0,
+      1323.6,
+      1272.0
+    ],
+    "new_bounds": [
+      669.325,
+      1322.1,
+      644.0,
+      692.325,
+      1323.6,
+      1272.0
+    ]
+  },
+  "BB_PianoLeafDoorR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      632.0,
+      1322.1,
+      644.0,
+      652.0,
+      1323.6,
+      1272.0
+    ],
+    "new_bounds": [
+      646.325,
+      1322.1,
+      644.0,
+      666.325,
+      1323.6,
+      1272.0
+    ]
+  },
+  "BB_DoorPerimeterGasketR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      300.0,
+      1308.1,
+      646.0,
+      650.0,
+      1310.1,
+      1270.0
+    ],
+    "new_bounds": [
+      314.325,
+      1308.1,
+      646.0,
+      664.325,
+      1310.1,
+      1270.0
+    ]
+  },
+  "BB_CenterAstragal": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      282.0,
+      1296.1,
+      656.0,
+      318.0,
+      1308.1,
+      1260.0
+    ],
+    "new_bounds": [
+      296.325,
+      1296.1,
+      656.0,
+      332.325,
+      1308.1,
+      1260.0
+    ]
+  },
+  "BB_CenterGasket": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      282.0,
+      1308.1,
+      654.0,
+      318.0,
+      1310.1,
+      1262.0
+    ],
+    "new_bounds": [
+      296.325,
+      1308.1,
+      654.0,
+      332.325,
+      1310.1,
+      1262.0
+    ]
+  },
+  "BB_CamLockBodyReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      329.0,
+      1284.1,
+      946.0,
+      351.0,
+      1310.1,
+      974.0
+    ],
+    "new_bounds": [
+      343.325,
+      1284.1,
+      946.0,
+      365.325,
+      1310.1,
+      974.0
+    ]
+  },
+  "BB_CamLockBarrelReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      332.0,
+      1310.1,
+      952.0,
+      348.0,
+      1325.1,
+      968.0
+    ],
+    "new_bounds": [
+      346.325,
+      1310.1,
+      952.0,
+      362.325,
+      1325.1,
+      968.0
+    ]
+  },
+  "BB_CamTongueClosedReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      286.0,
+      1290.1,
+      957.0,
+      340.0,
+      1294.1,
+      963.0
+    ],
+    "new_bounds": [
+      300.325,
+      1290.1,
+      957.0,
+      354.325,
+      1294.1,
+      963.0
+    ]
+  },
+  "BB_PassiveBoltBodyReserve0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      246.0,
+      1288.1,
+      656.0,
+      276.0,
+      1310.1,
+      716.0
+    ],
+    "new_bounds": [
+      260.325,
+      1288.1,
+      656.0,
+      290.325,
+      1310.1,
+      716.0
+    ]
+  },
+  "BB_PassiveBoltClosedReserve0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      258.0,
+      1296.1,
+      642.0,
+      264.0,
+      1302.1,
+      682.0
+    ],
+    "new_bounds": [
+      272.325,
+      1296.1,
+      642.0,
+      278.325,
+      1302.1,
+      682.0
+    ]
+  },
+  "BB_PassiveBoltBodyReserve1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      246.0,
+      1288.1,
+      1198.0,
+      276.0,
+      1310.1,
+      1258.0
+    ],
+    "new_bounds": [
+      260.325,
+      1288.1,
+      1198.0,
+      290.325,
+      1310.1,
+      1258.0
+    ]
+  },
+  "BB_PassiveBoltClosedReserve1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      258.0,
+      1296.1,
+      1234.0,
+      264.0,
+      1302.1,
+      1274.0
+    ],
+    "new_bounds": [
+      272.325,
+      1296.1,
+      1234.0,
+      278.325,
+      1302.1,
+      1274.0
+    ]
+  },
+  "BB_UprightLockLWasher": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      114.0,
+      1244.0,
+      614.9,
+      146.0,
+      1276.0,
+      617.9
+    ],
+    "new_bounds": [
+      128.325,
+      1244.0,
+      614.9,
+      160.325,
+      1276.0,
+      617.9
+    ]
+  },
+  "BB_UprightLockLParkingPad0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      160.0,
+      1252.0,
+      614.9,
+      210.0,
+      1284.0,
+      632.9
+    ],
+    "new_bounds": [
+      174.325,
+      1252.0,
+      614.9,
+      224.325,
+      1284.0,
+      632.9
+    ]
+  },
+  "BB_UprightLockLParkingPad1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      160.0,
+      1252.0,
+      632.9,
+      210.0,
+      1284.0,
+      650.9
+    ],
+    "new_bounds": [
+      174.325,
+      1252.0,
+      632.9,
+      224.325,
+      1284.0,
+      650.9
+    ]
+  },
+  "BB_UprightLockLParkingThread": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      179.0,
+      1262.0,
+      638.9,
+      191.0,
+      1274.0,
+      650.9
+    ],
+    "new_bounds": [
+      193.325,
+      1262.0,
+      638.9,
+      205.325,
+      1274.0,
+      650.9
+    ]
+  },
+  "BB_UprightLockLParkingScrewReserve0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      163.5,
+      1263.5,
+      602.9,
+      172.5,
+      1272.5,
+      650.9
+    ],
+    "new_bounds": [
+      177.825,
+      1263.5,
+      602.9,
+      186.825,
+      1272.5,
+      650.9
+    ]
+  },
+  "BB_UprightLockLParkingScrewReserve1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      197.5,
+      1263.5,
+      602.9,
+      206.5,
+      1272.5,
+      650.9
+    ],
+    "new_bounds": [
+      211.825,
+      1263.5,
+      602.9,
+      220.825,
+      1272.5,
+      650.9
+    ]
+  },
+  "BB_UprightLockLKnob": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      110.0,
+      1240.0,
+      577.9,
+      150.0,
+      1280.0,
+      643.9
+    ],
+    "new_bounds": [
+      124.32499999999999,
+      1240.0,
+      577.9,
+      164.325,
+      1280.0,
+      643.9
+    ]
+  },
+  "BB_UprightLockRWasher": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      454.0,
+      1244.0,
+      614.9,
+      486.0,
+      1276.0,
+      617.9
+    ],
+    "new_bounds": [
+      468.325,
+      1244.0,
+      614.9,
+      500.325,
+      1276.0,
+      617.9
+    ]
+  },
+  "BB_UprightLockRParkingPad0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      390.0,
+      1252.0,
+      614.9,
+      440.0,
+      1284.0,
+      632.9
+    ],
+    "new_bounds": [
+      404.325,
+      1252.0,
+      614.9,
+      454.325,
+      1284.0,
+      632.9
+    ]
+  },
+  "BB_UprightLockRParkingPad1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      390.0,
+      1252.0,
+      632.9,
+      440.0,
+      1284.0,
+      650.9
+    ],
+    "new_bounds": [
+      404.325,
+      1252.0,
+      632.9,
+      454.325,
+      1284.0,
+      650.9
+    ]
+  },
+  "BB_UprightLockRParkingThread": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      409.0,
+      1262.0,
+      638.9,
+      421.0,
+      1274.0,
+      650.9
+    ],
+    "new_bounds": [
+      423.325,
+      1262.0,
+      638.9,
+      435.325,
+      1274.0,
+      650.9
+    ]
+  },
+  "BB_UprightLockRParkingScrewReserve0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      393.5,
+      1263.5,
+      602.9,
+      402.5,
+      1272.5,
+      650.9
+    ],
+    "new_bounds": [
+      407.825,
+      1263.5,
+      602.9,
+      416.825,
+      1272.5,
+      650.9
+    ]
+  },
+  "BB_UprightLockRParkingScrewReserve1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      427.5,
+      1263.5,
+      602.9,
+      436.5,
+      1272.5,
+      650.9
+    ],
+    "new_bounds": [
+      441.825,
+      1263.5,
+      602.9,
+      450.825,
+      1272.5,
+      650.9
+    ]
+  },
+  "BB_UprightLockRKnob": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      450.0,
+      1240.0,
+      577.9,
+      490.0,
+      1280.0,
+      643.9
+    ],
+    "new_bounds": [
+      464.325,
+      1240.0,
+      577.9,
+      504.325,
+      1280.0,
+      643.9
+    ]
+  },
+  "BB_UprightLockLTether": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      102.94019499269015,
+      1232.94019499269,
+      627.9,
+      186.5,
+      1287.05980500731,
+      643.4
+    ],
+    "new_bounds": [
+      117.26519499269014,
+      1232.94019499269,
+      627.9,
+      200.825,
+      1287.05980500731,
+      643.4
+    ]
+  },
+  "BB_UprightLockRTether": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      413.5,
+      1232.94019499269,
+      627.9,
+      497.0598050073099,
+      1287.05980500731,
+      643.4
+    ],
+    "new_bounds": [
+      427.825,
+      1232.94019499269,
+      627.9,
+      511.38480500730986,
+      1287.05980500731,
+      643.4
+    ]
+  },
+  "PlungerFrontInterfaceProvisional": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      490.0,
+      -3.0,
+      250.0,
+      550.0,
+      0.0,
+      310.0
+    ],
+    "new_bounds": [
+      518.65,
+      -3.0,
+      250.0,
+      578.65,
+      0.0,
+      310.0
+    ]
+  },
+  "PlungerShaftProvisional": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      516.0,
+      -58.0,
+      276.0,
+      524.0,
+      -3.0,
+      284.0
+    ],
+    "new_bounds": [
+      544.65,
+      -58.0,
+      276.0,
+      552.65,
+      -3.0,
+      284.0
+    ]
+  },
+  "PlungerHandleProvisional": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      508.0,
+      -70.0,
+      268.0,
+      532.0,
+      -58.0,
+      292.0
+    ],
+    "new_bounds": [
+      536.65,
+      -70.0,
+      268.0,
+      560.65,
+      -58.0,
+      292.0
+    ]
+  },
+  "RearFanWoodScrew230_1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      173.5,
+      1260.6,
+      443.5,
+      181.5,
+      1302.1,
+      451.5
+    ],
+    "new_bounds": [
+      187.825,
+      1260.6,
+      443.5,
+      195.825,
+      1302.1,
+      451.5
+    ]
+  },
+  "RearFanWoodScrew230_2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      173.5,
+      1260.6,
+      548.5,
+      181.5,
+      1302.1,
+      556.5
+    ],
+    "new_bounds": [
+      187.825,
+      1260.6,
+      548.5,
+      195.825,
+      1302.1,
+      556.5
+    ]
+  },
+  "RearFanWoodScrew230_3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      278.5,
+      1260.6,
+      443.5,
+      286.5,
+      1302.1,
+      451.5
+    ],
+    "new_bounds": [
+      292.825,
+      1260.6,
+      443.5,
+      300.825,
+      1302.1,
+      451.5
+    ]
+  },
+  "RearFanWoodScrew230_4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      278.5,
+      1260.6,
+      548.5,
+      286.5,
+      1302.1,
+      556.5
+    ],
+    "new_bounds": [
+      292.825,
+      1260.6,
+      548.5,
+      300.825,
+      1302.1,
+      556.5
+    ]
+  },
+  "RearFanWoodScrew370_1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      313.5,
+      1260.6,
+      443.5,
+      321.5,
+      1302.1,
+      451.5
+    ],
+    "new_bounds": [
+      327.825,
+      1260.6,
+      443.5,
+      335.825,
+      1302.1,
+      451.5
+    ]
+  },
+  "RearFanWoodScrew370_2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      313.5,
+      1260.6,
+      548.5,
+      321.5,
+      1302.1,
+      556.5
+    ],
+    "new_bounds": [
+      327.825,
+      1260.6,
+      548.5,
+      335.825,
+      1302.1,
+      556.5
+    ]
+  },
+  "RearFanWoodScrew370_3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      418.5,
+      1260.6,
+      443.5,
+      426.5,
+      1302.1,
+      451.5
+    ],
+    "new_bounds": [
+      432.825,
+      1260.6,
+      443.5,
+      440.825,
+      1302.1,
+      451.5
+    ]
+  },
+  "RearFanWoodScrew370_4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      418.5,
+      1260.6,
+      548.5,
+      426.5,
+      1302.1,
+      556.5
+    ],
+    "new_bounds": [
+      432.825,
+      1260.6,
+      548.5,
+      440.825,
+      1302.1,
+      556.5
+    ]
+  },
+  "FrontLandingL_SideScrew1": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      229.5,
+      290.946911096802,
+      86.0,
+      238.5,
+      299.946911096802
+    ],
+    "new_bounds": [
+      6.0,
+      229.5,
+      290.946911096802,
+      86.0,
+      238.5,
+      299.946911096802
+    ]
+  },
+  "FrontLandingL_SideScrew2": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      229.5,
+      326.946911096802,
+      86.0,
+      238.5,
+      335.946911096802
+    ],
+    "new_bounds": [
+      6.0,
+      229.5,
+      326.946911096802,
+      86.0,
+      238.5,
+      335.946911096802
+    ]
+  },
+  "FrontLandingL_SideScrew3": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      281.5,
+      290.946911096802,
+      86.0,
+      290.5,
+      299.946911096802
+    ],
+    "new_bounds": [
+      6.0,
+      281.5,
+      290.946911096802,
+      86.0,
+      290.5,
+      299.946911096802
+    ]
+  },
+  "FrontLandingL_SideScrew4": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      6.0,
+      281.5,
+      326.946911096802,
+      86.0,
+      290.5,
+      335.946911096802
+    ],
+    "new_bounds": [
+      6.0,
+      281.5,
+      326.946911096802,
+      86.0,
+      290.5,
+      335.946911096802
+    ]
+  },
+  "FrontLandingL_AdjusterInsert": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      66.0,
+      239.0,
+      324.446911096802,
+      78.0,
+      251.0,
+      340.446911096802
+    ],
+    "new_bounds": [
+      66.0,
+      239.0,
+      324.446911096802,
+      78.0,
+      251.0,
+      340.446911096802
+    ]
+  },
+  "FrontLandingL_AdjusterWasher": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      64.0,
+      237.0,
+      340.446911096802,
+      80.0,
+      253.0,
+      342.04691109680203
+    ],
+    "new_bounds": [
+      64.0,
+      237.0,
+      340.446911096802,
+      80.0,
+      253.0,
+      342.04691109680203
+    ]
+  },
+  "FrontLandingL_AdjusterLocknut": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      64.49444650053486,
+      238.5,
+      342.04691109680203,
+      79.50555349946514,
+      251.5,
+      348.54691109680203
+    ],
+    "new_bounds": [
+      64.49444650053486,
+      238.5,
+      342.04691109680203,
+      79.50555349946514,
+      251.5,
+      348.54691109680203
+    ]
+  },
+  "FrontLandingL_ContactPad": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      60.0,
+      233.17892831769046,
+      357.42711798100436,
+      84.0,
+      257.3372029811146,
+      364.51143629202227
+    ],
+    "new_bounds": [
+      60.0,
+      233.17892831769046,
+      357.42711798100436,
+      84.0,
+      257.3372029811146,
+      364.51143629202227
+    ]
+  },
+  "FrontLandingL_SwivelDisc": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      61.0,
+      234.68014892335464,
+      355.62898313355447,
+      83.0,
+      256.6962012067922,
+      361.3841246051765
+    ],
+    "new_bounds": [
+      61.0,
+      234.68014892335464,
+      355.62898313355447,
+      83.0,
+      256.6962012067922,
+      361.3841246051765
+    ]
+  },
+  "FrontLandingL_SwivelJoint": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      68.0,
+      241.0,
+      351.446911096802,
+      76.0,
+      249.0,
+      359.446911096802
+    ],
+    "new_bounds": [
+      68.0,
+      241.0,
+      351.446911096802,
+      76.0,
+      249.0,
+      359.446911096802
+    ]
+  },
+  "FrontLandingL_AdjusterStem": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      68.0,
+      241.0,
+      315.446911096802,
+      76.0,
+      249.0,
+      355.446911096802
+    ],
+    "new_bounds": [
+      68.0,
+      241.0,
+      315.446911096802,
+      76.0,
+      249.0,
+      355.446911096802
+    ]
+  },
+  "FrontLandingL_RetentionBolt": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      66.22649730810375,
+      270.0,
+      270.68634771652034,
+      77.77350269189625,
+      280.0,
+      374.68634771652034
+    ],
+    "new_bounds": [
+      66.22649730810375,
+      270.0,
+      270.68634771652034,
+      77.77350269189625,
+      280.0,
+      374.68634771652034
+    ]
+  },
+  "FrontLandingL_RetentionWasher": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      65.0,
+      268.0,
+      284.846911096802,
+      79.0,
+      282.0,
+      286.446911096802
+    ],
+    "new_bounds": [
+      65.0,
+      268.0,
+      284.846911096802,
+      79.0,
+      282.0,
+      286.446911096802
+    ]
+  },
+  "FrontLandingL_RetentionJamnut1": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      66.22649730810375,
+      270.0,
+      281.646911096802,
+      77.77350269189625,
+      280.0,
+      284.846911096802
+    ],
+    "new_bounds": [
+      66.22649730810375,
+      270.0,
+      281.646911096802,
+      77.77350269189625,
+      280.0,
+      284.846911096802
+    ]
+  },
+  "FrontLandingL_RetentionJamnut2": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      66.22649730810375,
+      270.0,
+      278.446911096802,
+      77.77350269189625,
+      280.0,
+      281.646911096802
+    ],
+    "new_bounds": [
+      66.22649730810375,
+      270.0,
+      278.446911096802,
+      77.77350269189625,
+      280.0,
+      281.646911096802
+    ]
+  },
+  "FrontLandingL_RetentionPushRing": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      67.5,
+      270.5,
+      350.946911096802,
+      76.5,
+      279.5,
+      351.946911096802
+    ],
+    "new_bounds": [
+      67.5,
+      270.5,
+      350.946911096802,
+      76.5,
+      279.5,
+      351.946911096802
+    ]
+  },
+  "FrontLandingR_SideScrew1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      514.0,
+      229.5,
+      290.946911096802,
+      594.0,
+      238.5,
+      299.946911096802
+    ],
+    "new_bounds": [
+      542.65,
+      229.5,
+      290.946911096802,
+      622.65,
+      238.5,
+      299.946911096802
+    ]
+  },
+  "FrontLandingR_SideScrew2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      514.0,
+      229.5,
+      326.946911096802,
+      594.0,
+      238.5,
+      335.946911096802
+    ],
+    "new_bounds": [
+      542.65,
+      229.5,
+      326.946911096802,
+      622.65,
+      238.5,
+      335.946911096802
+    ]
+  },
+  "FrontLandingR_SideScrew3": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      514.0,
+      281.5,
+      290.946911096802,
+      594.0,
+      290.5,
+      299.946911096802
+    ],
+    "new_bounds": [
+      542.65,
+      281.5,
+      290.946911096802,
+      622.65,
+      290.5,
+      299.946911096802
+    ]
+  },
+  "FrontLandingR_SideScrew4": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      514.0,
+      281.5,
+      326.946911096802,
+      594.0,
+      290.5,
+      335.946911096802
+    ],
+    "new_bounds": [
+      542.65,
+      281.5,
+      326.946911096802,
+      622.65,
+      290.5,
+      335.946911096802
+    ]
+  },
+  "FrontLandingR_AdjusterInsert": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      522.0,
+      239.0,
+      324.446911096802,
+      534.0,
+      251.0,
+      340.446911096802
+    ],
+    "new_bounds": [
+      550.65,
+      239.0,
+      324.446911096802,
+      562.65,
+      251.0,
+      340.446911096802
+    ]
+  },
+  "FrontLandingR_AdjusterWasher": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      520.0,
+      237.0,
+      340.446911096802,
+      536.0,
+      253.0,
+      342.04691109680203
+    ],
+    "new_bounds": [
+      548.65,
+      237.0,
+      340.446911096802,
+      564.65,
+      253.0,
+      342.04691109680203
+    ]
+  },
+  "FrontLandingR_AdjusterLocknut": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      520.4944465005349,
+      238.5,
+      342.04691109680203,
+      535.5055534994651,
+      251.5,
+      348.54691109680203
+    ],
+    "new_bounds": [
+      549.1444465005349,
+      238.5,
+      342.04691109680203,
+      564.1555534994651,
+      251.5,
+      348.54691109680203
+    ]
+  },
+  "FrontLandingR_ContactPad": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      516.0,
+      233.17892831769046,
+      357.42711798100436,
+      540.0,
+      257.3372029811146,
+      364.51143629202227
+    ],
+    "new_bounds": [
+      544.65,
+      233.17892831769046,
+      357.42711798100436,
+      568.65,
+      257.3372029811146,
+      364.51143629202227
+    ]
+  },
+  "FrontLandingR_SwivelDisc": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      517.0,
+      234.68014892335464,
+      355.62898313355447,
+      539.0,
+      256.6962012067922,
+      361.3841246051765
+    ],
+    "new_bounds": [
+      545.65,
+      234.68014892335464,
+      355.62898313355447,
+      567.65,
+      256.6962012067922,
+      361.3841246051765
+    ]
+  },
+  "FrontLandingR_SwivelJoint": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      524.0,
+      241.0,
+      351.446911096802,
+      532.0,
+      249.0,
+      359.446911096802
+    ],
+    "new_bounds": [
+      552.65,
+      241.0,
+      351.446911096802,
+      560.65,
+      249.0,
+      359.446911096802
+    ]
+  },
+  "FrontLandingR_AdjusterStem": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      524.0,
+      241.0,
+      315.446911096802,
+      532.0,
+      249.0,
+      355.446911096802
+    ],
+    "new_bounds": [
+      552.65,
+      241.0,
+      315.446911096802,
+      560.65,
+      249.0,
+      355.446911096802
+    ]
+  },
+  "FrontLandingR_RetentionBolt": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      522.2264973081037,
+      270.0,
+      270.68634771652034,
+      533.7735026918963,
+      280.0,
+      374.68634771652034
+    ],
+    "new_bounds": [
+      550.8764973081037,
+      270.0,
+      270.68634771652034,
+      562.4235026918963,
+      280.0,
+      374.68634771652034
+    ]
+  },
+  "FrontLandingR_RetentionWasher": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      521.0,
+      268.0,
+      284.846911096802,
+      535.0,
+      282.0,
+      286.446911096802
+    ],
+    "new_bounds": [
+      549.65,
+      268.0,
+      284.846911096802,
+      563.65,
+      282.0,
+      286.446911096802
+    ]
+  },
+  "FrontLandingR_RetentionJamnut1": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      522.2264973081037,
+      270.0,
+      281.646911096802,
+      533.7735026918963,
+      280.0,
+      284.846911096802
+    ],
+    "new_bounds": [
+      550.8764973081037,
+      270.0,
+      281.646911096802,
+      562.4235026918963,
+      280.0,
+      284.846911096802
+    ]
+  },
+  "FrontLandingR_RetentionJamnut2": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      522.2264973081037,
+      270.0,
+      278.446911096802,
+      533.7735026918963,
+      280.0,
+      281.646911096802
+    ],
+    "new_bounds": [
+      550.8764973081037,
+      270.0,
+      278.446911096802,
+      562.4235026918963,
+      280.0,
+      281.646911096802
+    ]
+  },
+  "FrontLandingR_RetentionPushRing": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      523.5,
+      270.5,
+      350.946911096802,
+      532.5,
+      279.5,
+      351.946911096802
+    ],
+    "new_bounds": [
+      552.15,
+      270.5,
+      350.946911096802,
+      561.15,
+      279.5,
+      351.946911096802
+    ]
+  },
+  "FrontLandingL_RetentionReceiver": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      67.0,
+      270.0,
+      367.68634771652034,
+      77.0,
+      280.0,
+      377.68634771652034
+    ],
+    "new_bounds": [
+      67.0,
+      270.0,
+      367.68634771652034,
+      77.0,
+      280.0,
+      377.68634771652034
+    ]
+  },
+  "FrontLandingR_RetentionReceiver": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      523.0,
+      270.0,
+      367.68634771652034,
+      533.0,
+      280.0,
+      377.68634771652034
+    ],
+    "new_bounds": [
+      551.65,
+      270.0,
+      367.68634771652034,
+      561.65,
+      280.0,
+      377.68634771652034
+    ]
+  },
+  "Underfront_Plate": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      220.0,
+      52.0,
+      8.0,
+      380.0,
+      168.0,
+      20.0
+    ],
+    "new_bounds": [
+      234.325,
+      52.0,
+      8.0,
+      394.325,
+      168.0,
+      20.0
+    ]
+  },
+  "Underfront_Screw1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      226.0,
+      58.0,
+      5.0,
+      234.0,
+      66.0,
+      28.0
+    ],
+    "new_bounds": [
+      240.325,
+      58.0,
+      5.0,
+      248.325,
+      66.0,
+      28.0
+    ]
+  },
+  "Underfront_Insert1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      226.0,
+      58.0,
+      20.0,
+      234.0,
+      66.0,
+      30.0
+    ],
+    "new_bounds": [
+      240.325,
+      58.0,
+      20.0,
+      248.325,
+      66.0,
+      30.0
+    ]
+  },
+  "Underfront_Screw2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      366.0,
+      58.0,
+      5.0,
+      374.0,
+      66.0,
+      28.0
+    ],
+    "new_bounds": [
+      380.325,
+      58.0,
+      5.0,
+      388.325,
+      66.0,
+      28.0
+    ]
+  },
+  "Underfront_Insert2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      366.0,
+      58.0,
+      20.0,
+      374.0,
+      66.0,
+      30.0
+    ],
+    "new_bounds": [
+      380.325,
+      58.0,
+      20.0,
+      388.325,
+      66.0,
+      30.0
+    ]
+  },
+  "Underfront_Screw3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      226.0,
+      154.0,
+      5.0,
+      234.0,
+      162.0,
+      28.0
+    ],
+    "new_bounds": [
+      240.325,
+      154.0,
+      5.0,
+      248.325,
+      162.0,
+      28.0
+    ]
+  },
+  "Underfront_Insert3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      226.0,
+      154.0,
+      20.0,
+      234.0,
+      162.0,
+      30.0
+    ],
+    "new_bounds": [
+      240.325,
+      154.0,
+      20.0,
+      248.325,
+      162.0,
+      30.0
+    ]
+  },
+  "Underfront_Screw4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      366.0,
+      154.0,
+      5.0,
+      374.0,
+      162.0,
+      28.0
+    ],
+    "new_bounds": [
+      380.325,
+      154.0,
+      5.0,
+      388.325,
+      162.0,
+      28.0
+    ]
+  },
+  "Underfront_Insert4": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      366.0,
+      154.0,
+      20.0,
+      374.0,
+      162.0,
+      30.0
+    ],
+    "new_bounds": [
+      380.325,
+      154.0,
+      20.0,
+      388.325,
+      162.0,
+      30.0
+    ]
+  },
+  "Underfront_HarnessLoopReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      270.0,
+      110.0,
+      80.0,
+      330.0,
+      154.0,
+      140.0
+    ],
+    "new_bounds": [
+      284.325,
+      110.0,
+      80.0,
+      344.325,
+      154.0,
+      140.0
+    ]
+  },
+  "Underfront_Button1_Body": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      243.0,
+      74.0,
+      8.0,
+      273.0,
+      104.0,
+      53.0
+    ],
+    "new_bounds": [
+      257.325,
+      74.0,
+      8.0,
+      287.325,
+      104.0,
+      53.0
+    ]
+  },
+  "Underfront_Button1_Face": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      240.5,
+      71.5,
+      0.0,
+      275.5,
+      106.5,
+      8.0
+    ],
+    "new_bounds": [
+      254.825,
+      71.5,
+      0.0,
+      289.825,
+      106.5,
+      8.0
+    ]
+  },
+  "Underfront_Button1_Nut": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      239.0,
+      70.0,
+      20.0,
+      277.0,
+      108.0,
+      30.0
+    ],
+    "new_bounds": [
+      253.325,
+      70.0,
+      20.0,
+      291.325,
+      108.0,
+      30.0
+    ]
+  },
+  "Underfront_Button1_Switch": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      240.0,
+      78.0,
+      53.0,
+      276.0,
+      100.0,
+      70.0
+    ],
+    "new_bounds": [
+      254.325,
+      78.0,
+      53.0,
+      290.325,
+      100.0,
+      70.0
+    ]
+  },
+  "Underfront_Button1_WireReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      238.0,
+      69.0,
+      70.0,
+      278.0,
+      109.0,
+      93.0
+    ],
+    "new_bounds": [
+      252.325,
+      69.0,
+      70.0,
+      292.325,
+      109.0,
+      93.0
+    ]
+  },
+  "Underfront_Button2_Body": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      285.0,
+      74.0,
+      8.0,
+      315.0,
+      104.0,
+      53.0
+    ],
+    "new_bounds": [
+      299.325,
+      74.0,
+      8.0,
+      329.325,
+      104.0,
+      53.0
+    ]
+  },
+  "Underfront_Button2_Face": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      282.5,
+      71.5,
+      0.0,
+      317.5,
+      106.5,
+      8.0
+    ],
+    "new_bounds": [
+      296.825,
+      71.5,
+      0.0,
+      331.825,
+      106.5,
+      8.0
+    ]
+  },
+  "Underfront_Button2_Nut": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      281.0,
+      70.0,
+      20.0,
+      319.0,
+      108.0,
+      30.0
+    ],
+    "new_bounds": [
+      295.325,
+      70.0,
+      20.0,
+      333.325,
+      108.0,
+      30.0
+    ]
+  },
+  "Underfront_Button2_Switch": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      282.0,
+      78.0,
+      53.0,
+      318.0,
+      100.0,
+      70.0
+    ],
+    "new_bounds": [
+      296.325,
+      78.0,
+      53.0,
+      332.325,
+      100.0,
+      70.0
+    ]
+  },
+  "Underfront_Button2_WireReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      280.0,
+      69.0,
+      70.0,
+      320.0,
+      109.0,
+      93.0
+    ],
+    "new_bounds": [
+      294.325,
+      69.0,
+      70.0,
+      334.325,
+      109.0,
+      93.0
+    ]
+  },
+  "Underfront_Button3_Body": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      327.0,
+      74.0,
+      8.0,
+      357.0,
+      104.0,
+      53.0
+    ],
+    "new_bounds": [
+      341.325,
+      74.0,
+      8.0,
+      371.325,
+      104.0,
+      53.0
+    ]
+  },
+  "Underfront_Button3_Face": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      324.5,
+      71.5,
+      0.0,
+      359.5,
+      106.5,
+      8.0
+    ],
+    "new_bounds": [
+      338.825,
+      71.5,
+      0.0,
+      373.825,
+      106.5,
+      8.0
+    ]
+  },
+  "Underfront_Button3_Nut": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      323.0,
+      70.0,
+      20.0,
+      361.0,
+      108.0,
+      30.0
+    ],
+    "new_bounds": [
+      337.325,
+      70.0,
+      20.0,
+      375.325,
+      108.0,
+      30.0
+    ]
+  },
+  "Underfront_Button3_Switch": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      324.0,
+      78.0,
+      53.0,
+      360.0,
+      100.0,
+      70.0
+    ],
+    "new_bounds": [
+      338.325,
+      78.0,
+      53.0,
+      374.325,
+      100.0,
+      70.0
+    ]
+  },
+  "Underfront_Button3_WireReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      322.0,
+      69.0,
+      70.0,
+      362.0,
+      109.0,
+      93.0
+    ],
+    "new_bounds": [
+      336.325,
+      69.0,
+      70.0,
+      376.325,
+      109.0,
+      93.0
+    ]
+  },
+  "Underfront_Button4_Body": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      243.0,
+      116.0,
+      8.0,
+      273.0,
+      146.0,
+      53.0
+    ],
+    "new_bounds": [
+      257.325,
+      116.0,
+      8.0,
+      287.325,
+      146.0,
+      53.0
+    ]
+  },
+  "Underfront_Button4_Face": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      240.5,
+      113.5,
+      0.0,
+      275.5,
+      148.5,
+      8.0
+    ],
+    "new_bounds": [
+      254.825,
+      113.5,
+      0.0,
+      289.825,
+      148.5,
+      8.0
+    ]
+  },
+  "Underfront_Button4_Nut": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      239.0,
+      112.0,
+      20.0,
+      277.0,
+      150.0,
+      30.0
+    ],
+    "new_bounds": [
+      253.325,
+      112.0,
+      20.0,
+      291.325,
+      150.0,
+      30.0
+    ]
+  },
+  "Underfront_Button4_Switch": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      240.0,
+      120.0,
+      53.0,
+      276.0,
+      142.0,
+      70.0
+    ],
+    "new_bounds": [
+      254.325,
+      120.0,
+      53.0,
+      290.325,
+      142.0,
+      70.0
+    ]
+  },
+  "Underfront_Button4_WireReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      238.0,
+      111.0,
+      70.0,
+      278.0,
+      151.0,
+      93.0
+    ],
+    "new_bounds": [
+      252.325,
+      111.0,
+      70.0,
+      292.325,
+      151.0,
+      93.0
+    ]
+  },
+  "Underfront_Button5_Body": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      285.0,
+      116.0,
+      8.0,
+      315.0,
+      146.0,
+      53.0
+    ],
+    "new_bounds": [
+      299.325,
+      116.0,
+      8.0,
+      329.325,
+      146.0,
+      53.0
+    ]
+  },
+  "Underfront_Button5_Face": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      282.5,
+      113.5,
+      0.0,
+      317.5,
+      148.5,
+      8.0
+    ],
+    "new_bounds": [
+      296.825,
+      113.5,
+      0.0,
+      331.825,
+      148.5,
+      8.0
+    ]
+  },
+  "Underfront_Button5_Nut": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      281.0,
+      112.0,
+      20.0,
+      319.0,
+      150.0,
+      30.0
+    ],
+    "new_bounds": [
+      295.325,
+      112.0,
+      20.0,
+      333.325,
+      150.0,
+      30.0
+    ]
+  },
+  "Underfront_Button5_Switch": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      282.0,
+      120.0,
+      53.0,
+      318.0,
+      142.0,
+      70.0
+    ],
+    "new_bounds": [
+      296.325,
+      120.0,
+      53.0,
+      332.325,
+      142.0,
+      70.0
+    ]
+  },
+  "Underfront_Button5_WireReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      280.0,
+      111.0,
+      70.0,
+      320.0,
+      151.0,
+      93.0
+    ],
+    "new_bounds": [
+      294.325,
+      111.0,
+      70.0,
+      334.325,
+      151.0,
+      93.0
+    ]
+  },
+  "Underfront_USBBody": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      328.75,
+      117.75,
+      8.0,
+      355.25,
+      144.25,
+      54.8
+    ],
+    "new_bounds": [
+      343.075,
+      117.75,
+      8.0,
+      369.575,
+      144.25,
+      54.8
+    ]
+  },
+  "Underfront_USBFlange": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      325.5,
+      114.5,
+      4.0,
+      358.5,
+      147.5,
+      8.0
+    ],
+    "new_bounds": [
+      339.825,
+      114.5,
+      4.0,
+      372.825,
+      147.5,
+      8.0
+    ]
+  },
+  "Underfront_USBNut": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      325.5,
+      114.5,
+      20.0,
+      358.5,
+      147.5,
+      28.2
+    ],
+    "new_bounds": [
+      339.825,
+      114.5,
+      20.0,
+      372.825,
+      147.5,
+      28.2
+    ]
+  },
+  "Underfront_USBCap": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      325.0,
+      114.0,
+      2.0,
+      359.0,
+      148.0,
+      4.0
+    ],
+    "new_bounds": [
+      339.325,
+      114.0,
+      2.0,
+      373.325,
+      148.0,
+      4.0
+    ]
+  },
+  "Underfront_USBCableReserve": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      321.0,
+      110.0,
+      54.8,
+      363.0,
+      152.0,
+      78.0
+    ],
+    "new_bounds": [
+      335.325,
+      110.0,
+      54.8,
+      377.325,
+      152.0,
+      78.0
+    ]
+  },
+  "FrontLandingL_Block": {
+    "classification": "UNCHANGED",
+    "translation_x_mm": 0,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      18.0,
+      225.0,
+      286.446911096802,
+      86.0,
+      295.0,
+      340.446911096802
+    ],
+    "new_bounds": [
+      18.0,
+      225.0,
+      286.446911096802,
+      86.0,
+      295.0,
+      340.446911096802
+    ]
+  },
+  "FrontLandingR_Block": {
+    "classification": "REPOSITIONED",
+    "translation_x_mm": 28.649999999999977,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      514.0,
+      225.0,
+      286.446911096802,
+      582.0,
+      295.0,
+      340.446911096802
+    ],
+    "new_bounds": [
+      542.65,
+      225.0,
+      286.446911096802,
+      610.65,
+      295.0,
+      340.446911096802
+    ]
+  },
+  "BB_DMDVESABolt0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      258.5,
+      1174.0,
+      676.5,
+      266.5,
+      1202.0,
+      684.5
+    ],
+    "new_bounds": [
+      272.825,
+      1174.0,
+      676.5,
+      280.825,
+      1202.0,
+      684.5
+    ]
+  },
+  "BB_DMDVESABolt1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      258.5,
+      1174.0,
+      751.5,
+      266.5,
+      1202.0,
+      759.5
+    ],
+    "new_bounds": [
+      272.825,
+      1174.0,
+      751.5,
+      280.825,
+      1202.0,
+      759.5
+    ]
+  },
+  "BB_DMDVESABolt2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      333.5,
+      1174.0,
+      676.5,
+      341.5,
+      1202.0,
+      684.5
+    ],
+    "new_bounds": [
+      347.825,
+      1174.0,
+      676.5,
+      355.825,
+      1202.0,
+      684.5
+    ]
+  },
+  "BB_DMDVESABolt3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      333.5,
+      1174.0,
+      751.5,
+      341.5,
+      1202.0,
+      759.5
+    ],
+    "new_bounds": [
+      347.825,
+      1174.0,
+      751.5,
+      355.825,
+      1202.0,
+      759.5
+    ]
+  },
+  "BB_DMDVESAWasher0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      256.5,
+      1197.0,
+      674.5,
+      268.5,
+      1199.0,
+      686.5
+    ],
+    "new_bounds": [
+      270.825,
+      1197.0,
+      674.5,
+      282.825,
+      1199.0,
+      686.5
+    ]
+  },
+  "BB_DMDVESAWasher1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      256.5,
+      1197.0,
+      749.5,
+      268.5,
+      1199.0,
+      761.5
+    ],
+    "new_bounds": [
+      270.825,
+      1197.0,
+      749.5,
+      282.825,
+      1199.0,
+      761.5
+    ]
+  },
+  "BB_DMDVESAWasher2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      331.5,
+      1197.0,
+      674.5,
+      343.5,
+      1199.0,
+      686.5
+    ],
+    "new_bounds": [
+      345.825,
+      1197.0,
+      674.5,
+      357.825,
+      1199.0,
+      686.5
+    ]
+  },
+  "BB_DMDVESAWasher3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      331.5,
+      1197.0,
+      749.5,
+      343.5,
+      1199.0,
+      761.5
+    ],
+    "new_bounds": [
+      345.825,
+      1197.0,
+      749.5,
+      357.825,
+      1199.0,
+      761.5
+    ]
+  },
+  "BB_DMD_SPEAKER_PANEL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -76.0,
+      1179.0,
+      616.0,
+      676.0,
+      1197.0,
+      819.0
+    ],
+    "new_bounds": [
+      -61.67500000000001,
+      1179.0,
+      616.0,
+      690.325,
+      1197.0,
+      819.0
+    ]
+  },
+  "BB_GLASS_BOTTOM_SEAT": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -72.0,
+      1108.0,
+      828.0,
+      672.0,
+      1126.0,
+      846.0
+    ],
+    "new_bounds": [
+      -57.67500000000001,
+      1108.0,
+      828.0,
+      686.325,
+      1126.0,
+      846.0
+    ]
+  },
+  "BB_GLASS_TOP_RETAINER": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -72.0,
+      1101.0,
+      1290.8,
+      672.0,
+      1113.0,
+      1302.8
+    ],
+    "new_bounds": [
+      -57.67500000000001,
+      1101.0,
+      1290.8,
+      686.325,
+      1113.0,
+      1302.8
+    ]
+  },
+  "BB_MONITOR_PLATE": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -76.0,
+      1209.0,
+      854.0,
+      676.0,
+      1227.0,
+      1302.8
+    ],
+    "new_bounds": [
+      -61.67500000000001,
+      1209.0,
+      854.0,
+      690.325,
+      1227.0,
+      1302.8
+    ]
+  },
+  "BB_MONITOR_STOP_L": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -72.0,
+      1209.0,
+      824.0,
+      -60.0,
+      1249.0,
+      854.0
+    ],
+    "new_bounds": [
+      -57.67500000000001,
+      1209.0,
+      824.0,
+      -45.67500000000001,
+      1249.0,
+      854.0
+    ]
+  },
+  "BB_MONITOR_STOP_L_Screw0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -84.0,
+      1215.0,
+      837.0,
+      -60.0,
+      1219.0,
+      841.0
+    ],
+    "new_bounds": [
+      -69.67500000000001,
+      1215.0,
+      837.0,
+      -45.67500000000001,
+      1219.0,
+      841.0
+    ]
+  },
+  "BB_MONITOR_STOP_L_Screw1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -84.0,
+      1239.0,
+      837.0,
+      -60.0,
+      1243.0,
+      841.0
+    ],
+    "new_bounds": [
+      -69.67500000000001,
+      1239.0,
+      837.0,
+      -45.67500000000001,
+      1243.0,
+      841.0
+    ]
+  },
+  "BB_MONITOR_STOP_R": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      660.0,
+      1209.0,
+      824.0,
+      672.0,
+      1249.0,
+      854.0
+    ],
+    "new_bounds": [
+      674.325,
+      1209.0,
+      824.0,
+      686.325,
+      1249.0,
+      854.0
+    ]
+  },
+  "BB_MONITOR_STOP_R_Screw0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      660.0,
+      1215.0,
+      837.0,
+      684.0,
+      1219.0,
+      841.0
+    ],
+    "new_bounds": [
+      674.325,
+      1215.0,
+      837.0,
+      698.325,
+      1219.0,
+      841.0
+    ]
+  },
+  "BB_MONITOR_STOP_R_Screw1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      660.0,
+      1239.0,
+      837.0,
+      684.0,
+      1243.0,
+      841.0
+    ],
+    "new_bounds": [
+      674.325,
+      1239.0,
+      837.0,
+      698.325,
+      1243.0,
+      841.0
+    ]
+  },
+  "BB_PanelBolt_L0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -90.0,
+      1186.0,
+      648.0,
+      -54.0,
+      1190.0,
+      652.0
+    ],
+    "new_bounds": [
+      -75.67500000000001,
+      1186.0,
+      648.0,
+      -39.67500000000001,
+      1190.0,
+      652.0
+    ]
+  },
+  "BB_PanelBolt_L1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -90.0,
+      1186.0,
+      800.0,
+      -54.0,
+      1190.0,
+      804.0
+    ],
+    "new_bounds": [
+      -75.67500000000001,
+      1186.0,
+      800.0,
+      -39.67500000000001,
+      1190.0,
+      804.0
+    ]
+  },
+  "BB_PanelBolt_R0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      654.0,
+      1186.0,
+      648.0,
+      690.0,
+      1190.0,
+      652.0
+    ],
+    "new_bounds": [
+      668.325,
+      1186.0,
+      648.0,
+      704.325,
+      1190.0,
+      652.0
+    ]
+  },
+  "BB_PanelBolt_R1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      654.0,
+      1186.0,
+      800.0,
+      690.0,
+      1190.0,
+      804.0
+    ],
+    "new_bounds": [
+      668.325,
+      1186.0,
+      800.0,
+      704.325,
+      1190.0,
+      804.0
+    ]
+  },
+  "BB_PanelCrossDowel_L0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -61.0,
+      1179.0,
+      647.0,
+      -55.0,
+      1197.0,
+      653.0
+    ],
+    "new_bounds": [
+      -46.67500000000001,
+      1179.0,
+      647.0,
+      -40.67500000000001,
+      1197.0,
+      653.0
+    ]
+  },
+  "BB_PanelCrossDowel_L1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -61.0,
+      1179.0,
+      799.0,
+      -55.0,
+      1197.0,
+      805.0
+    ],
+    "new_bounds": [
+      -46.67500000000001,
+      1179.0,
+      799.0,
+      -40.67500000000001,
+      1197.0,
+      805.0
+    ]
+  },
+  "BB_PanelCrossDowel_R0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      655.0,
+      1179.0,
+      647.0,
+      661.0,
+      1197.0,
+      653.0
+    ],
+    "new_bounds": [
+      669.325,
+      1179.0,
+      647.0,
+      675.325,
+      1197.0,
+      653.0
+    ]
+  },
+  "BB_PanelCrossDowel_R1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      655.0,
+      1179.0,
+      799.0,
+      661.0,
+      1197.0,
+      805.0
+    ],
+    "new_bounds": [
+      669.325,
+      1179.0,
+      799.0,
+      675.325,
+      1197.0,
+      805.0
+    ]
+  },
+  "BB_TopDirectScrew0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -90.0,
+      1177.75,
+      1309.55,
+      -50.0,
+      1182.25,
+      1314.05
+    ],
+    "new_bounds": [
+      -75.67500000000001,
+      1177.75,
+      1309.55,
+      -35.67500000000001,
+      1182.25,
+      1314.05
+    ]
+  },
+  "BB_TopDirectScrew1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -90.0,
+      1267.75,
+      1309.55,
+      -50.0,
+      1272.25,
+      1314.05
+    ],
+    "new_bounds": [
+      -75.67500000000001,
+      1267.75,
+      1309.55,
+      -35.67500000000001,
+      1272.25,
+      1314.05
+    ]
+  },
+  "BB_TopDirectScrew2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      650.0,
+      1177.75,
+      1309.55,
+      690.0,
+      1182.25,
+      1314.05
+    ],
+    "new_bounds": [
+      664.325,
+      1177.75,
+      1309.55,
+      704.325,
+      1182.25,
+      1314.05
+    ]
+  },
+  "BB_TopDirectScrew3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      650.0,
+      1267.75,
+      1309.55,
+      690.0,
+      1272.25,
+      1314.05
+    ],
+    "new_bounds": [
+      664.325,
+      1267.75,
+      1309.55,
+      704.325,
+      1272.25,
+      1314.05
+    ]
+  },
+  "BB_VESABolt0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      246.0,
+      1192.0,
+      1015.0,
+      254.0,
+      1232.0,
+      1023.0
+    ],
+    "new_bounds": [
+      260.325,
+      1192.0,
+      1015.0,
+      268.325,
+      1232.0,
+      1023.0
+    ]
+  },
+  "BB_VESABolt1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      246.0,
+      1192.0,
+      1115.0,
+      254.0,
+      1232.0,
+      1123.0
+    ],
+    "new_bounds": [
+      260.325,
+      1192.0,
+      1115.0,
+      268.325,
+      1232.0,
+      1123.0
+    ]
+  },
+  "BB_VESABolt2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      346.0,
+      1192.0,
+      1015.0,
+      354.0,
+      1232.0,
+      1023.0
+    ],
+    "new_bounds": [
+      360.325,
+      1192.0,
+      1015.0,
+      368.325,
+      1232.0,
+      1023.0
+    ]
+  },
+  "BB_VESABolt3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      346.0,
+      1192.0,
+      1115.0,
+      354.0,
+      1232.0,
+      1123.0
+    ],
+    "new_bounds": [
+      360.325,
+      1192.0,
+      1115.0,
+      368.325,
+      1232.0,
+      1123.0
+    ]
+  },
+  "BB_VESASpacer0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      245.0,
+      1197.0,
+      1014.0,
+      255.0,
+      1209.0,
+      1024.0
+    ],
+    "new_bounds": [
+      259.325,
+      1197.0,
+      1014.0,
+      269.325,
+      1209.0,
+      1024.0
+    ]
+  },
+  "BB_VESASpacer1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      245.0,
+      1197.0,
+      1114.0,
+      255.0,
+      1209.0,
+      1124.0
+    ],
+    "new_bounds": [
+      259.325,
+      1197.0,
+      1114.0,
+      269.325,
+      1209.0,
+      1124.0
+    ]
+  },
+  "BB_VESASpacer2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      345.0,
+      1197.0,
+      1014.0,
+      355.0,
+      1209.0,
+      1024.0
+    ],
+    "new_bounds": [
+      359.325,
+      1197.0,
+      1014.0,
+      369.325,
+      1209.0,
+      1024.0
+    ]
+  },
+  "BB_VESASpacer3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      345.0,
+      1197.0,
+      1114.0,
+      355.0,
+      1209.0,
+      1124.0
+    ],
+    "new_bounds": [
+      359.325,
+      1197.0,
+      1114.0,
+      369.325,
+      1209.0,
+      1124.0
+    ]
+  },
+  "BB_VESAWasher0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      244.0,
+      1227.0,
+      1013.0,
+      256.0,
+      1229.0,
+      1025.0
+    ],
+    "new_bounds": [
+      258.325,
+      1227.0,
+      1013.0,
+      270.325,
+      1229.0,
+      1025.0
+    ]
+  },
+  "BB_VESAWasher1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      244.0,
+      1227.0,
+      1113.0,
+      256.0,
+      1229.0,
+      1125.0
+    ],
+    "new_bounds": [
+      258.325,
+      1227.0,
+      1113.0,
+      270.325,
+      1229.0,
+      1125.0
+    ]
+  },
+  "BB_VESAWasher2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      344.0,
+      1227.0,
+      1013.0,
+      356.0,
+      1229.0,
+      1025.0
+    ],
+    "new_bounds": [
+      358.325,
+      1227.0,
+      1013.0,
+      370.325,
+      1229.0,
+      1025.0
+    ]
+  },
+  "BB_VESAWasher3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      344.0,
+      1227.0,
+      1113.0,
+      356.0,
+      1229.0,
+      1125.0
+    ],
+    "new_bounds": [
+      358.325,
+      1227.0,
+      1113.0,
+      370.325,
+      1229.0,
+      1125.0
+    ]
+  },
+  "BB_AcrylicBackLinerL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -76.0,
+      1117.05,
+      840.0,
+      -72.0,
+      1120.0,
+      1299.0
+    ],
+    "new_bounds": [
+      -61.67500000000001,
+      1117.05,
+      840.0,
+      -57.67500000000001,
+      1120.0,
+      1299.0
+    ]
+  },
+  "BB_AcrylicBackLinerR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      672.0,
+      1117.05,
+      840.0,
+      676.0,
+      1120.0,
+      1299.0
+    ],
+    "new_bounds": [
+      686.325,
+      1117.05,
+      840.0,
+      690.325,
+      1120.0,
+      1299.0
+    ]
+  },
+  "BB_AcrylicBottomLiner": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -72.0,
+      1112.0,
+      838.0,
+      672.0,
+      1120.0,
+      840.0
+    ],
+    "new_bounds": [
+      -57.67500000000001,
+      1112.0,
+      838.0,
+      686.325,
+      1120.0,
+      840.0
+    ]
+  },
+  "BB_AcrylicFront": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -76.0,
+      1114.0,
+      840.0,
+      676.0,
+      1117.0,
+      1299.0
+    ],
+    "new_bounds": [
+      -61.67500000000001,
+      1114.0,
+      840.0,
+      690.325,
+      1117.0,
+      1299.0
+    ]
+  },
+  "BB_AcrylicMask": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -76.0,
+      1117.0,
+      840.0,
+      676.0,
+      1117.05,
+      1299.0
+    ],
+    "new_bounds": [
+      -61.67500000000001,
+      1117.0,
+      840.0,
+      690.325,
+      1117.05,
+      1299.0
+    ]
+  },
+  "BB_AcrylicRetainerScrew0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      98.0,
+      1106.0,
+      1290.8,
+      102.0,
+      1110.0,
+      1316.8
+    ],
+    "new_bounds": [
+      112.32499999999999,
+      1106.0,
+      1290.8,
+      116.32499999999999,
+      1110.0,
+      1316.8
+    ]
+  },
+  "BB_AcrylicRetainerScrew1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      498.0,
+      1106.0,
+      1290.8,
+      502.0,
+      1110.0,
+      1316.8
+    ],
+    "new_bounds": [
+      512.325,
+      1106.0,
+      1290.8,
+      516.325,
+      1110.0,
+      1316.8
+    ]
+  },
+  "BB_AcrylicSideLinerL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -78.0,
+      1112.0,
+      840.0,
+      -76.0,
+      1120.0,
+      1299.0
+    ],
+    "new_bounds": [
+      -63.67500000000001,
+      1112.0,
+      840.0,
+      -61.67500000000001,
+      1120.0,
+      1299.0
+    ]
+  },
+  "BB_AcrylicSideLinerR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      676.0,
+      1112.0,
+      840.0,
+      678.0,
+      1120.0,
+      1299.0
+    ],
+    "new_bounds": [
+      690.325,
+      1112.0,
+      840.0,
+      692.325,
+      1120.0,
+      1299.0
+    ]
+  },
+  "BB_AcrylicTopLiner": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      -72.0,
+      1113.0,
+      1290.8,
+      672.0,
+      1114.0,
+      1299.0
+    ],
+    "new_bounds": [
+      -57.67500000000001,
+      1113.0,
+      1290.8,
+      686.325,
+      1114.0,
+      1299.0
+    ]
+  },
+  "BB_LowerGrillL": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      95.0,
+      1322.1,
+      678.0,
+      215.0,
+      1324.1,
+      798.0
+    ],
+    "new_bounds": [
+      109.32499999999999,
+      1322.1,
+      678.0,
+      229.325,
+      1324.1,
+      798.0
+    ]
+  },
+  "BB_LowerGrillR": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      385.0,
+      1322.1,
+      678.0,
+      505.0,
+      1324.1,
+      798.0
+    ],
+    "new_bounds": [
+      399.325,
+      1322.1,
+      678.0,
+      519.325,
+      1324.1,
+      798.0
+    ]
+  },
+  "BB_LowerGrillScrewL0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      100.5,
+      1306.0,
+      683.5,
+      104.5,
+      1326.0,
+      687.5
+    ],
+    "new_bounds": [
+      114.82499999999999,
+      1306.0,
+      683.5,
+      118.82499999999999,
+      1326.0,
+      687.5
+    ]
+  },
+  "BB_LowerGrillScrewL1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      100.5,
+      1306.0,
+      788.5,
+      104.5,
+      1326.0,
+      792.5
+    ],
+    "new_bounds": [
+      114.82499999999999,
+      1306.0,
+      788.5,
+      118.82499999999999,
+      1326.0,
+      792.5
+    ]
+  },
+  "BB_LowerGrillScrewL2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      205.5,
+      1306.0,
+      683.5,
+      209.5,
+      1326.0,
+      687.5
+    ],
+    "new_bounds": [
+      219.825,
+      1306.0,
+      683.5,
+      223.825,
+      1326.0,
+      687.5
+    ]
+  },
+  "BB_LowerGrillScrewL3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      205.5,
+      1306.0,
+      788.5,
+      209.5,
+      1326.0,
+      792.5
+    ],
+    "new_bounds": [
+      219.825,
+      1306.0,
+      788.5,
+      223.825,
+      1326.0,
+      792.5
+    ]
+  },
+  "BB_LowerGrillScrewR0": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      390.5,
+      1306.0,
+      683.5,
+      394.5,
+      1326.0,
+      687.5
+    ],
+    "new_bounds": [
+      404.825,
+      1306.0,
+      683.5,
+      408.825,
+      1326.0,
+      687.5
+    ]
+  },
+  "BB_LowerGrillScrewR1": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      390.5,
+      1306.0,
+      788.5,
+      394.5,
+      1326.0,
+      792.5
+    ],
+    "new_bounds": [
+      404.825,
+      1306.0,
+      788.5,
+      408.825,
+      1326.0,
+      792.5
+    ]
+  },
+  "BB_LowerGrillScrewR2": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      495.5,
+      1306.0,
+      683.5,
+      499.5,
+      1326.0,
+      687.5
+    ],
+    "new_bounds": [
+      509.825,
+      1306.0,
+      683.5,
+      513.825,
+      1326.0,
+      687.5
+    ]
+  },
+  "BB_LowerGrillScrewR3": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      495.5,
+      1306.0,
+      788.5,
+      499.5,
+      1326.0,
+      792.5
+    ],
+    "new_bounds": [
+      509.825,
+      1306.0,
+      788.5,
+      513.825,
+      1326.0,
+      792.5
+    ]
+  },
+  "BB_PFRearChannel": {
+    "classification": "REPLACED BY COMMERCIAL INTERFACE",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      19.999999999999996,
+      1148.228613935582,
+      602.8863980858322,
+      580.0,
+      1163.568258128025,
+      614.1608145753214
+    ],
+    "new_bounds": [
+      34.32499999999999,
+      1148.228613935582,
+      602.8863980858322,
+      594.325,
+      1163.568258128025,
+      614.1608145753214
+    ]
+  },
+  "PF_LockdownGlassRetainer": {
+    "classification": "RECENTERED",
+    "translation_x_mm": 14.324999999999989,
+    "method": "rigid parent placement",
+    "source_bounds": [
+      0.0,
+      15.031823515046934,
+      404.05097757036486,
+      600.0,
+      45.10063401962587,
+      421.03336224072507
+    ],
+    "new_bounds": [
+      -3.175,
+      -0.8544758702164904,
+      406.544224731528,
+      631.825,
+      67.37475195246597,
+      419.8928785643332
+    ]
+  }
+}

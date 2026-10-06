@@ -1,0 +1,261 @@
+{
+  "version": "V35.1",
+  "pass": true,
+  "manufacturing_release": false,
+  "checks": [
+    {
+      "name": "candidate contract",
+      "pass": true
+    },
+    {
+      "name": "reject deletion CROSS_1",
+      "pass": true
+    },
+    {
+      "name": "reject deletion CROSS_2",
+      "pass": true
+    },
+    {
+      "name": "reject deletion CROSS_3",
+      "pass": true
+    },
+    {
+      "name": "reject deletion CandidateLegBlockFL",
+      "pass": true
+    },
+    {
+      "name": "reject deletion CandidateLegBlockFR",
+      "pass": true
+    },
+    {
+      "name": "reject deletion CandidateLegBlockRL",
+      "pass": true
+    },
+    {
+      "name": "reject deletion CandidateLegBlockRR",
+      "pass": true
+    },
+    {
+      "name": "reject deletion FLOOR_CLEAT_18",
+      "pass": true
+    },
+    {
+      "name": "reject deletion FLOOR_CLEAT_552",
+      "pass": true
+    },
+    {
+      "name": "reject deletion FrontLandingL_Block",
+      "pass": true
+    },
+    {
+      "name": "reject deletion FrontLandingR_Block",
+      "pass": true
+    },
+    {
+      "name": "reject deletion PC_BASE",
+      "pass": true
+    },
+    {
+      "name": "reject deletion PF_OpenCradleL",
+      "pass": true
+    },
+    {
+      "name": "reject deletion PF_OpenCradleR",
+      "pass": true
+    },
+    {
+      "name": "reject deletion SHELF_1",
+      "pass": true
+    },
+    {
+      "name": "reject deletion SHELF_2",
+      "pass": true
+    },
+    {
+      "name": "reject deletion SHELF_3",
+      "pass": true
+    },
+    {
+      "name": "reject body.outside_width_mm=600",
+      "pass": true
+    },
+    {
+      "name": "reject body.outside_width_mm=630",
+      "pass": true
+    },
+    {
+      "name": "reject body.outside_width_mm=635",
+      "pass": true
+    },
+    {
+      "name": "reject backbox.width_mm=808.65",
+      "pass": true
+    },
+    {
+      "name": "reject commercial.custom_lockdown=True",
+      "pass": true
+    },
+    {
+      "name": "reject commercial.siderail_optional=False",
+      "pass": true
+    },
+    {
+      "name": "reject playfield.selected_planning_gap_mm=50",
+      "pass": true
+    },
+    {
+      "name": "reject playfield.angle_difference_deg=1",
+      "pass": true
+    },
+    {
+      "name": "reject third plywood stock",
+      "pass": true
+    },
+    {
+      "name": "evidence geometry",
+      "pass": true
+    },
+    {
+      "name": "evidence validation",
+      "pass": true
+    },
+    {
+      "name": "evidence continuous-motion",
+      "pass": true
+    },
+    {
+      "name": "evidence conservative-validation",
+      "pass": true
+    },
+    {
+      "name": "evidence browser-validation",
+      "pass": true
+    },
+    {
+      "name": "browser evidence matches viewer",
+      "pass": true
+    },
+    {
+      "name": "zero reconstruction",
+      "pass": true
+    },
+    {
+      "name": "32 review images",
+      "pass": true
+    },
+    {
+      "name": "all bundles <=25 HIGH",
+      "pass": true
+    },
+    {
+      "name": "nesting 18",
+      "pass": true
+    },
+    {
+      "name": "nesting 12",
+      "pass": true
+    }
+  ],
+  "hashes": {
+    "exports/generated/backbox-v342/play.FCStd": "7d36001cdb1b7a1f1c133705452ff07a5a2939ed75b60a3c7eff3ef9dfc68b89",
+    "config/widebody_v351.json": "e8766ec63c092baee7373ce37de4c125aab3290cf2238df11aa01acb44278d4c",
+    "config/standard_interfaces_v351.json": "1d62008e1675f2b77c19e6ce49e846fab19744535f3f1e90b856133209c64798",
+    "config/hardware_catalog_v351.json": "96eee7a91550cc938fd1a2c49bbd1fcee0db7895a5f17325fc95b688e474dc71",
+    "tools/build_viewer_v351.py": "3b1baf357e3c6081fe5b6c52546bd8718c8eb25223018f30b9ef5ea85e2dbc9c",
+    "tools/check_widebody_v351.py": "68a1da8d40323cae6e1b0f09e0004f7bcae8b617271f844ba5dbd4988a4b3f03",
+    "tools/check_widebody_v351_release.py": "2b8b8091923cf4e00c241bf6ecf779888d54223df9f7d594738c2ab147dc3da4",
+    "tools/check_widebody_v351_viewer.mjs": "de3e053a7e31f3622ab8fcc3fd4bf368ce26065a940cad6399082b17d316c2ad",
+    "tools/promote_widebody_v351.py": "7180452114bb41cf9e687a98ece629138a7e1cc0367bb4c9c97aeb9ac905223e",
+    "tools/rebuild_widebody_v351.py": "0c2269dd7fececbf069cecacf12f2e62cd56b2c85b7ab3a1b96b31553216707c",
+    "tools/render_widebody_v351.py": "afe66001ae9867df9db9b32770af84b2660cc42e7c4b6a5b5688dffcbcfcf9f0",
+    "tools/widebody_v351.py": "9954f234ca3634d217c1e03020140162c6f59a59a58b8b8ed63d66b07cd2bb82",
+    "tools/widebody_v351_audit.py": "abf1f9f4d2a84f121bd61de97695a4ab7e4d5669b1b90e20442f731790c143d7",
+    "tools/widebody_v351_common.py": "a83d8bdcc2b92d2d074fbd6348f22cde053c459b0a96d1e6c6dda4c265a7732a",
+    "tools/widebody_v351_documentation.py": "16c58f0dad0eea232b63b48ef9f99c740ba5a3ecdaf101aeeec72560b3996da2",
+    "tools/widebody_v351_export.py": "81919d9feec73ca8b94227ae8ecec6a018649151c66a589f581040e931da8d12",
+    "tools/widebody_v351_manufacturing.py": "93b567e47e3b4e4a0878e7efe7a87b350f9011ef8191b9ccf6274a7b1c869395",
+    "tools/widebody_v351_motion.py": "1e5ddfc51845dfa914151269b73f5e726b29cfa6fdaed043064dc99127d7ff29",
+    "tools/widebody_v351_nesting.py": "2df52f48261414f55eaa363630cde878ae7e24123c0bcc42c1c32d9b97763892",
+    "tools/widebody_v351_pack.py": "8659460817eddf4ee3097292d795463482d89e5ae17e0069f7bc9da373086367",
+    "tools/widebody_v351_report.py": "7beaf84f8efe8a539b9da7b53af31c087e404eda90ef838dca750c6927063752",
+    "tools/widebody_v351_reviews.py": "5a1ec22f6b90217dc3272be64d0209747b6b16592ba70f17d402c8b31adb1f4c",
+    "exports/generated/widebody-v351/candidate.FCStd": "e25f54a5ddf547264cc0300bf603459470b22a5a71ea93294a678e81c411d2c0",
+    "exports/generated/widebody-v351/play.FCStd": "e613fd6f483e8962ed2735f7de5912deb2d01d69da8e711e2c5de0f7404d72ae",
+    "exports/generated/widebody-v351/manufacturing-register.json": "7cb8eba67530b69d8dcb79718a9582b9a79dfaf944b5cbc683da8847074f7c28",
+    "exports/generated/widebody-v351/viewer.html": "810cc81a2f2895bd5864a9d1fa79e47f19493329648a3307a8f9dab014f9e13c",
+    "exports/generated/widebody-v351/geometry.json": "1ef5eba7ebee18d92f23b77b5830dd241b1903a5b929d2104fbea0384f0a8f58",
+    "exports/generated/widebody-v351/validation.json": "46e10e391cbd99ef0f2bcce3e418512e30372b7ed7feeea0571728657f457812",
+    "exports/generated/widebody-v351/continuous-motion.json": "56f52ad74e3b884f6456cd784c7212d64586d54d321a9d93bf5070cd549541f5",
+    "exports/generated/widebody-v351/conservative-validation.json": "d1150a6aabf580242642156f7182c41569fa20a3b511f602d9c2d3551c0d152e",
+    "exports/generated/widebody-v351/browser-validation.json": "8170932a1c9775959459ece82296636e08e58889852eb7c0e05236cd85e6e11c",
+    "exports/generated/widebody-v351/nesting.json": "54dd19411b328d08a9953291b0c1a7e966aeb2b5b2ad763d3e6ea73ecd068314",
+    "exports/generated/widebody-v351/mass-counts.json": "d8af6ab98fd892c53d1a94650375819067409b50632c3f9fee7cdcc3d41f92f7",
+    "exports/generated/widebody-v351/assembly-manual.json": "c285532e644ceebf85e1749675f53e7f755f8c86e034359f06f8749a57d8be28",
+    "exports/generated/widebody-v351/P001-Main.brep": "e6348a26a89eed1c23848518c76452f90d34de56826fb2a2389fe5637d3342f2",
+    "exports/generated/widebody-v351/P002-Main.brep": "c0087bd82570177376fd930cc1ab1c174c1f0b1c05ac8974fb51bcee04e5badb",
+    "exports/generated/widebody-v351/P003-Main.brep": "d0b486c4690d585a7bed1ffa05256a30aa15cd9e36b8f90387279afa1d18051f",
+    "exports/generated/widebody-v351/P004-Main.brep": "33d4a6b8a942c46df0de79cdfd74cf3b992601514b66434b2aa71bede4fcc490",
+    "exports/generated/widebody-v351/P005-Main.brep": "b5236fed6877941ffa64bb2acc8782e1196cc06a94cf6664404e2d7b23ea34b2",
+    "exports/generated/widebody-v351/P006-Main.brep": "4406b083e565cbb9354ba4f8287c5f5c025700f81f40ee5a612e85e656ec3422",
+    "exports/generated/widebody-v351/P007-Main.brep": "07756753ffa23a217f36a9b40bb6ea13e036720234e85eae658994f30d642d84",
+    "exports/generated/widebody-v351/P008-Main.brep": "5d5f8bea540b181b1a7333e45cce2e62e5476df39f8eb9869e94c75694dd5e92",
+    "exports/generated/widebody-v351/P009-Main.brep": "1d1c132c71a8fd8461dfbda7e33374a1deaced7ed034ce67833725324fb91654",
+    "exports/generated/widebody-v351/P010-Main.brep": "6547842480e24267612ba7176d059172abc39c6e1d1b3bedd47da2e08ddcd1ba",
+    "exports/generated/widebody-v351/P011-Main.brep": "fe4317fd41c8ac2c3ed78706275fa1dfe329244721bfd0b23ede0a5f867a3e4f",
+    "exports/generated/widebody-v351/P012-Main.brep": "8e06e3f65ab73e0645d827866e74bc9f1e577af2f6a401faa64ba04df41f5ce2",
+    "exports/generated/widebody-v351/P013-Main.brep": "708969b3f1c148ba858f9bbc6f1d1e2c4c65a4f055783ccbcaaa8053f6a4bd5f",
+    "exports/generated/widebody-v351/P014-Main.brep": "37653ed16010d9f0ec36a9565a21e4e0ed2e52fd7481d78846460942a854e9da",
+    "exports/generated/widebody-v351/P015-Main.brep": "708969b3f1c148ba858f9bbc6f1d1e2c4c65a4f055783ccbcaaa8053f6a4bd5f",
+    "exports/generated/widebody-v351/P016-Main.brep": "719ba7aad83551a1c797c2a7b1d1c1f0c37ff360ad05d47968e2233f97b487c8",
+    "exports/generated/widebody-v351/P017-Main.brep": "959f427378d1f6a4b292dab5deb64fde78a5540189920d1cec0113d3a2a7cb3e",
+    "exports/generated/widebody-v351/P018-Main.brep": "a1581dac2e41e86e28e56945cd5399957859d27881cba2ee6ce29f2a6b9a7228",
+    "exports/generated/widebody-v351/P019-Main.brep": "1185bacfffa1ef8444a9a6c6005b83db361632dfdff4aa7fde1839a33a48a99f",
+    "exports/generated/widebody-v351/P020-Main.brep": "f8d659e15b10745a261dd76ff7aa2a7267413d8f56ad36d7a91a03441e7489cb",
+    "exports/generated/widebody-v351/P021-Main.brep": "6a3d772118a8c3513ae9622f3ff92fcf72bbf71b4fdd5a1797a38d4ced7dcd4f",
+    "exports/generated/widebody-v351/P022-Main.brep": "db6e02d01a07c021c76c746e0e3c6a0bec430a59bc1d1be23fcd7f7531c294e5",
+    "exports/generated/widebody-v351/P023-Main.brep": "a9a082274482eba1ed651b475e111ab4e1d19c0cdf4f71ac6eba9160917c533b",
+    "exports/generated/widebody-v351/P024-Main.brep": "0d191077e821c9681c2fac803a7b7fd4cbd8fe713a1a1b8e27e4d7f2f843b113",
+    "exports/generated/widebody-v351/P025-Main.brep": "3bfb03b88915111df638a094498b18cc79a5d421445e149b8120c5fe9447dc56",
+    "exports/generated/widebody-v351/P026-Main.brep": "db61f5426a27bd2a701bb44a2cec96ae8aa1495ab1ef19b36b5d2d4ed14ca375",
+    "exports/generated/widebody-v351/P027-Main.brep": "5bdcdb48d7f46c9509a62c21ef5c51e0d5155cde7a5319439c602881ee60505d",
+    "exports/generated/widebody-v351/P028-Main.brep": "45435fbf4db6d9f869d23761797aaee83305f7ad166d3e09bda41b8442801c1c",
+    "exports/generated/widebody-v351/P029-Solid.brep": "bbcc108b9865de7a9dbb64cb72f28f3e8d217d93c3a982b36e02b0f7968892c0",
+    "exports/generated/widebody-v351/P030-Solid.brep": "b3ee8f8f32763d43f4cbf5ca9fd92d79df0f83c927f5c068cfcd1e2029f90edc",
+    "exports/generated/widebody-v351/P031-Solid.brep": "405d9bc9f7cd31dfa16572fcaa9b7c08e24034fb7fa05ba43aa96ba5053f8368",
+    "exports/generated/widebody-v351/P032-Solid.brep": "d4ef7dcce9d00f72f48e986ffc322a3cc5b9a122c8348dacac9294a4a4acf904",
+    "exports/generated/widebody-v351/P033-Main.brep": "833ab99ab546788ef63b72899ed7b764bb226a43bff4ae6876d77e814d50c185",
+    "exports/generated/widebody-v351/P034-Main.brep": "8d4da09d96d1ceddada6d851e24b02e86e800daa3ae91eb257ff73559d2c09d5",
+    "exports/generated/widebody-v351/P035-Main.brep": "d4451d2d28371456864ea4d24b123c04f512c630af3125bccedc21deec6d862c",
+    "exports/generated/widebody-v351/P036-Main.brep": "e68285d4b18eb3476b87b2a128fb657e1fd96d84b3ceec8194a0a3a4868c0f0d",
+    "exports/generated/widebody-v351/P037-Main.brep": "d0852bd1e20595d1f682ec80706e4eb22fa77ade8b925a1e3af94be3dfa61b7c",
+    "exports/generated/widebody-v351/P038-Main.brep": "89e8b0484bc434601fde27bfcaf6649497822ffe2600b4abeca3d8de19c21afc",
+    "exports/generated/widebody-v351/P039-Main.brep": "6c6cc47c1b6e78a6083b0ad26e50086988724ffe8d91cf043662c2f8d64f19ec",
+    "exports/generated/widebody-v351/P040-Main.brep": "6984298582e458a31cea19a8f4471e8303e9f71f53a392358f8402fb244f42fc",
+    "exports/generated/widebody-v351/P041-Main.brep": "082d28474e12837e299a40a1d3f232cb1747c2e8dec02f819490991cd2e95cd6",
+    "exports/generated/widebody-v351/P042-Main.brep": "3a4618fe06390a19a41df32fbe2a6adac911150720190c6c7885ab995c8c6803",
+    "exports/generated/widebody-v351/P043-Main.brep": "bb24840267cf29ea8978a847555044c8b8a2b543b51e2933588dae8bbf15d038",
+    "exports/generated/widebody-v351/P044-Main.brep": "9d4f582cbe71e24e7636d0d88553074296a24a3660441d776840fa5acd252636",
+    "exports/generated/widebody-v351/P045-Main.brep": "3b5e9ee39811b1997b37dbfb11d8b4920147e05f62ed136be3450069047eb4fe",
+    "exports/generated/widebody-v351/P046-Main.brep": "2a6d012c3c58f7f2b0d33880736f12eccac1f4d906e0017ebe4daa99d8148f6a",
+    "exports/generated/widebody-v351/P079-Main.brep": "25f7a24fc94f17baab2b3bf62ecae975f98f2ad4a9b85e0b65185224562f64f3",
+    "exports/generated/widebody-v351/P080-Main.brep": "a508c1e6704d0076331f75a73e6de1c739d08c919fd330e654d8cc0e941fffdb",
+    "exports/generated/widebody-v351/P085-Reduced18.brep": "f45e7ffbefc3bb39d518d87015858304b504d7b9a0ac7ecf4240d3d3e46c3ae5",
+    "exports/generated/widebody-v351/P086-Reduced18.brep": "12db193ffd52571ab37f7f0f7b0ccb68c3b5b6e1f33f374bd7b4406ff18507aa",
+    "exports/generated/widebody-v351/P087-Main.brep": "d3bea4b291df1a64b7f5cc40070800c785ae5b718e5890b028ed80174aacafaf",
+    "exports/generated/widebody-v351/P088-Main.brep": "bf47d2555b4cf2eeaa877454b598dc4749d3ab72cc2c6da698c9fa37353f35c7",
+    "exports/generated/widebody-v351/P089-Main.brep": "5cebb7ba77c221b674cfa9a60a4185a95f39cb5027a96ebc33f84a6ef19e8668",
+    "exports/generated/widebody-v351/P090-Main.brep": "bf47d2555b4cf2eeaa877454b598dc4749d3ab72cc2c6da698c9fa37353f35c7",
+    "exports/generated/widebody-v351/P091-Main.brep": "5cebb7ba77c221b674cfa9a60a4185a95f39cb5027a96ebc33f84a6ef19e8668",
+    "exports/generated/widebody-v351/P092-Main.brep": "21bf434811fdecb7d918d3b5516a6c7be58b01a59f948b38b2e948480f6429fc",
+    "exports/generated/widebody-v351/P093-Main.brep": "188f409d40b816d7c937c058ec6330deb2f90353a04082b5e7176c8c499afe0f",
+    "exports/generated/widebody-v351/P095-Solid.brep": "83a351add6c4d8cb98316e4b1e116c98e23028ccff3d366f63c4144e8bed99db",
+    "exports/generated/widebody-v351/P096-Solid.brep": "bdf3c810098e1d6c27897c745c650e016a0ca862cdd87518c72efd64e14cbe6c",
+    "exports/generated/widebody-v351/P097-Main.brep": "f6935851441cdfc60cdda6c79d160267f103c80d53d0cebe32f23da0e75870ae",
+    "exports/generated/widebody-v351/V34-BB_DMD_SPEAKER_PANEL.brep": "89fa28a0ffb62b249194bf1028f198b9b5132717fd127faa6805ac7e8d06dbb1",
+    "exports/generated/widebody-v351/V34-BB_GLASS_BOTTOM_SEAT.brep": "d7227b5c70d8ca56dea9a5388f81cebb61deef27b605d56eeb7b91bd99a93a15",
+    "exports/generated/widebody-v351/V34-BB_GLASS_TOP_RETAINER.brep": "59f4e4661c53b4c849d2bd38f97472428c2e3fe289d25a30faa6d3f7fd856873",
+    "exports/generated/widebody-v351/V34-BB_MONITOR_PLATE.brep": "0be91372c62f5813b07cde33fdf8c6a8c8e40876918c7589b1774dfd69ae1941",
+    "exports/generated/widebody-v351/V34-BB_MONITOR_STOP_L.brep": "8e7810f0bf10253dacca31e246026e3460ed3e04def291e93230fd1c0835e55f",
+    "exports/generated/widebody-v351/V34-BB_MONITOR_STOP_R.brep": "92e2b46ec32826355d8c7dad276e51e8a6f8dfc6780c3d24060a76d2b3ef5267"
+  }
+}

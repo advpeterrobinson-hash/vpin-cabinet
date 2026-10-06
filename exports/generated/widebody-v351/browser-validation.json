@@ -1,0 +1,112 @@
+{
+  "viewer_sha256": "810cc81a2f2895bd5864a9d1fa79e47f19493329648a3307a8f9dab014f9e13c",
+  "pass": true,
+  "checks": [
+    {
+      "name": "V35.1 revision",
+      "pass": true
+    },
+    {
+      "name": "66 flat pieces",
+      "pass": true
+    },
+    {
+      "name": "visible PLAY",
+      "pass": true
+    },
+    {
+      "name": "visible SERVICE",
+      "pass": true
+    },
+    {
+      "name": "visible LIFT-OUT",
+      "pass": true
+    },
+    {
+      "name": "visible BACKBOX FOLD",
+      "pass": true
+    },
+    {
+      "name": "visible EXPLODED DETAILED",
+      "pass": true
+    },
+    {
+      "name": "optional rail on",
+      "pass": true
+    },
+    {
+      "name": "no siderail functional state",
+      "pass": true
+    },
+    {
+      "name": "optional LED envelopes",
+      "pass": true
+    },
+    {
+      "name": "black gap",
+      "pass": true
+    },
+    {
+      "name": "V35.1 revision",
+      "pass": true
+    },
+    {
+      "name": "66 flat pieces",
+      "pass": true
+    },
+    {
+      "name": "visible PLAY",
+      "pass": true
+    },
+    {
+      "name": "visible SERVICE",
+      "pass": true
+    },
+    {
+      "name": "visible LIFT-OUT",
+      "pass": true
+    },
+    {
+      "name": "visible BACKBOX FOLD",
+      "pass": true
+    },
+    {
+      "name": "visible EXPLODED DETAILED",
+      "pass": true
+    },
+    {
+      "name": "optional rail on",
+      "pass": true
+    },
+    {
+      "name": "no siderail functional state",
+      "pass": true
+    },
+    {
+      "name": "optional LED envelopes",
+      "pass": true
+    },
+    {
+      "name": "black gap",
+      "pass": true
+    },
+    {
+      "name": "tablet no overflow",
+      "pass": true
+    },
+    {
+      "name": "touch target44",
+      "pass": true
+    },
+    {
+      "name": "zero JavaScript errors",
+      "pass": true
+    },
+    {
+      "name": "offline zero network",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "network": []
+}

@@ -1,0 +1,658 @@
+{
+  "18": {
+    "pieces": 43,
+    "sheets": [
+      {
+        "parts": [
+          {
+            "instance": "P001-Main",
+            "x": 20,
+            "y": 20,
+            "w": 1315.878174602454,
+            "h": 596.9,
+            "rotated": true
+          },
+          {
+            "instance": "P002-Main",
+            "x": 20,
+            "y": 631.9,
+            "w": 1315.878174602454,
+            "h": 596.9,
+            "rotated": true
+          },
+          {
+            "instance": "P034-Main",
+            "x": 1350.878174602454,
+            "y": 20,
+            "w": 1020.0,
+            "h": 528.65,
+            "rotated": true
+          },
+          {
+            "instance": "P043-Main",
+            "x": 20,
+            "y": 1243.8,
+            "w": 723.9,
+            "h": 248.00000000000017,
+            "rotated": false
+          },
+          {
+            "instance": "P027-Main",
+            "x": 758.9,
+            "y": 1243.8,
+            "w": 460.0,
+            "h": 285.0,
+            "rotated": true
+          },
+          {
+            "instance": "P018-Main",
+            "x": 1233.9,
+            "y": 1243.8,
+            "w": 568.2500000000001,
+            "h": 81.57183098591548,
+            "rotated": false
+          },
+          {
+            "instance": "P019-Main",
+            "x": 1817.15,
+            "y": 563.65,
+            "w": 568.25,
+            "h": 81.57183098591548,
+            "rotated": false
+          },
+          {
+            "instance": "P020-Main",
+            "x": 1817.15,
+            "y": 660.2218309859154,
+            "w": 568.25,
+            "h": 81.57183098591548,
+            "rotated": false
+          },
+          {
+            "instance": "P035-Main",
+            "x": 1233.9,
+            "y": 1340.3718309859155,
+            "w": 478.2203301149066,
+            "h": 80.0,
+            "rotated": false
+          },
+          {
+            "instance": "P036-Main",
+            "x": 1233.9,
+            "y": 1435.3718309859155,
+            "w": 478.2203301149066,
+            "h": 80.0,
+            "rotated": false
+          },
+          {
+            "instance": "P006-Main",
+            "x": 20,
+            "y": 1543.8,
+            "w": 1152.1,
+            "h": 30.0,
+            "rotated": true
+          },
+          {
+            "instance": "P007-Main",
+            "x": 1187.1,
+            "y": 1543.8,
+            "w": 1152.1,
+            "h": 30.0,
+            "rotated": true
+          },
+          {
+            "instance": "P022-Main",
+            "x": 1727.1203301149067,
+            "y": 1340.3718309859155,
+            "w": 145.00000000000003,
+            "h": 60.0,
+            "rotated": false
+          },
+          {
+            "instance": "P021-Main",
+            "x": 1727.1203301149067,
+            "y": 1415.3718309859155,
+            "w": 145.0,
+            "h": 60.0,
+            "rotated": false
+          },
+          {
+            "instance": "P088-Main",
+            "x": 1727.1203301149067,
+            "y": 1490.3718309859155,
+            "w": 50.0,
+            "h": 32.0,
+            "rotated": false
+          },
+          {
+            "instance": "P089-Main",
+            "x": 1792.1203301149067,
+            "y": 1490.3718309859155,
+            "w": 50.0,
+            "h": 32.0,
+            "rotated": false
+          },
+          {
+            "instance": "P090-Main",
+            "x": 1857.1203301149067,
+            "y": 1490.3718309859155,
+            "w": 50.0,
+            "h": 32.0,
+            "rotated": false
+          }
+        ],
+        "largest_free_reference_rectangles_mm": [
+          [
+            1330.878174602454,
+            736.7936619718309,
+            1144.121825397546,
+            487.00633802816907
+          ],
+          [
+            1902.1203301149067,
+            736.7936619718309,
+            572.8796698850933,
+            787.006338028169
+          ],
+          [
+            1867.1203301149067,
+            736.7936619718309,
+            607.8796698850933,
+            733.5781690140846
+          ],
+          [
+            1797.15,
+            736.7936619718309,
+            677.8499999999998,
+            583.5781690140846
+          ],
+          [
+            1330.878174602454,
+            543.65,
+            466.2718253975461,
+            680.15
+          ]
+        ]
+      },
+      {
+        "parts": [
+          {
+            "instance": "P005-Main",
+            "x": 20,
+            "y": 20,
+            "w": 1272.1,
+            "h": 600.6500000000001,
+            "rotated": true
+          },
+          {
+            "instance": "P046-Main",
+            "x": 20,
+            "y": 635.6500000000001,
+            "w": 780.0,
+            "h": 723.9000000000001,
+            "rotated": false
+          },
+          {
+            "instance": "P004-Main",
+            "x": 815.0,
+            "y": 635.6500000000001,
+            "w": 612.4760624467924,
+            "h": 596.9,
+            "rotated": false
+          },
+          {
+            "instance": "V34-BB_MONITOR_PLATE",
+            "x": 1307.1,
+            "y": 20,
+            "w": 752.0,
+            "h": 448.79999999999995,
+            "rotated": false
+          },
+          {
+            "instance": "P003-Main",
+            "x": 1442.4760624467924,
+            "y": 483.79999999999995,
+            "w": 612.4282291149887,
+            "h": 400.05,
+            "rotated": false
+          },
+          {
+            "instance": "P045-Main",
+            "x": 815.0,
+            "y": 1247.5500000000002,
+            "w": 756.0,
+            "h": 246.90592623290513,
+            "rotated": false
+          },
+          {
+            "instance": "P042-Main",
+            "x": 1442.4760624467924,
+            "y": 898.8499999999999,
+            "w": 723.9000000000001,
+            "h": 248.00000000000017,
+            "rotated": false
+          },
+          {
+            "instance": "V34-BB_DMD_SPEAKER_PANEL",
+            "x": 20,
+            "y": 1374.5500000000002,
+            "w": 752.0,
+            "h": 203.0,
+            "rotated": false
+          },
+          {
+            "instance": "P044-Main",
+            "x": 1586.0,
+            "y": 1161.8500000000001,
+            "w": 756.0,
+            "h": 156.1000000000002,
+            "rotated": false
+          },
+          {
+            "instance": "P028-Main",
+            "x": 1586.0,
+            "y": 1332.9500000000003,
+            "w": 600.6500000000001,
+            "h": 174.9749999999999,
+            "rotated": false
+          },
+          {
+            "instance": "P085-Reduced18",
+            "x": 787.0,
+            "y": 1522.9250000000002,
+            "w": 628.0000000000001,
+            "h": 23.0,
+            "rotated": true
+          },
+          {
+            "instance": "P086-Reduced18",
+            "x": 1430.0,
+            "y": 1522.9250000000002,
+            "w": 628.0000000000001,
+            "h": 23.0,
+            "rotated": true
+          },
+          {
+            "instance": "V34-BB_GLASS_BOTTOM_SEAT",
+            "x": 787.0,
+            "y": 1560.9250000000002,
+            "w": 744.0,
+            "h": 18.0,
+            "rotated": false
+          },
+          {
+            "instance": "P023-Main",
+            "x": 2201.65,
+            "y": 1332.9500000000003,
+            "w": 145.0,
+            "h": 60.0,
+            "rotated": false
+          },
+          {
+            "instance": "P024-Main",
+            "x": 2201.65,
+            "y": 1407.9500000000003,
+            "w": 145.0,
+            "h": 60.0,
+            "rotated": false
+          },
+          {
+            "instance": "P025-Main",
+            "x": 2201.65,
+            "y": 1482.9500000000003,
+            "w": 145.0,
+            "h": 60.0,
+            "rotated": false
+          },
+          {
+            "instance": "P026-Main",
+            "x": 2181.3760624467923,
+            "y": 20,
+            "w": 145.0,
+            "h": 60.0,
+            "rotated": false
+          },
+          {
+            "instance": "P012-Main",
+            "x": 2181.3760624467923,
+            "y": 95.0,
+            "w": 150.0,
+            "h": 42.0,
+            "rotated": true
+          },
+          {
+            "instance": "P013-Main",
+            "x": 2181.3760624467923,
+            "y": 152.0,
+            "w": 150.0,
+            "h": 42.0,
+            "rotated": true
+          },
+          {
+            "instance": "P014-Main",
+            "x": 2181.3760624467923,
+            "y": 209.0,
+            "w": 150.0,
+            "h": 42.0,
+            "rotated": true
+          },
+          {
+            "instance": "P015-Main",
+            "x": 2181.3760624467923,
+            "y": 266.0,
+            "w": 150.0,
+            "h": 42.0,
+            "rotated": true
+          },
+          {
+            "instance": "P016-Main",
+            "x": 2181.3760624467923,
+            "y": 323.0,
+            "w": 150.0,
+            "h": 42.0,
+            "rotated": true
+          },
+          {
+            "instance": "P017-Main",
+            "x": 2181.3760624467923,
+            "y": 380.0,
+            "w": 150.0,
+            "h": 42.0,
+            "rotated": true
+          },
+          {
+            "instance": "P039-Main",
+            "x": 2361.65,
+            "y": 20,
+            "w": 115.0,
+            "h": 38.899999999999984,
+            "rotated": true
+          },
+          {
+            "instance": "P040-Main",
+            "x": 2361.65,
+            "y": 73.89999999999998,
+            "w": 115.0,
+            "h": 38.899999999999984,
+            "rotated": true
+          },
+          {
+            "instance": "P091-Main",
+            "x": 2073.0,
+            "y": 1522.9250000000002,
+            "w": 50.0,
+            "h": 32.0,
+            "rotated": false
+          }
+        ],
+        "largest_free_reference_rectangles_mm": [
+          [
+            2161.3760624467923,
+            417.0,
+            313.6239375532075,
+            724.8500000000001
+          ],
+          [
+            2341.65,
+            107.79999999999997,
+            133.3499999999999,
+            1467.1999999999998
+          ],
+          [
+            2054.1,
+            417.0,
+            420.9000000000001,
+            461.8499999999999
+          ],
+          [
+            2049.904291561781,
+            463.79999999999995,
+            425.09570843821894,
+            415.04999999999995
+          ],
+          [
+            2337.0,
+            107.79999999999997,
+            138.0,
+            1205.15
+          ]
+        ]
+      }
+    ],
+    "sheet_count": 2,
+    "outer_contour_area_m2": 5.555999996883178,
+    "sheet_area_m2": 8,
+    "usable_area_m2": 7.6752,
+    "utilization_outer_percent": 69.44999996103972,
+    "grain": "Long part axis aligned to2500mm sheet axis; supplier face-grain confirmation required. No production authorization.",
+    "method": "MaxRects best-short-side; four deterministic sorting trials; long part axis aligned to sheet long grain; no arbitrary structural90deg change",
+    "release": false,
+    "trials": [
+      {
+        "order": "area",
+        "sheets": 2
+      },
+      {
+        "order": "length",
+        "sheets": 2
+      },
+      {
+        "order": "width",
+        "sheets": 3
+      },
+      {
+        "order": "perimeter",
+        "sheets": 2
+      }
+    ],
+    "unused_full_sheet_outer_m2": 2.4440000031168223,
+    "checks": 504,
+    "pass": true
+  },
+  "12": {
+    "pieces": 17,
+    "sheets": [
+      {
+        "parts": [
+          {
+            "instance": "P079-Main",
+            "x": 20,
+            "y": 20,
+            "w": 628.0000000000001,
+            "h": 351.0,
+            "rotated": true
+          },
+          {
+            "instance": "P080-Main",
+            "x": 20,
+            "y": 386.0,
+            "w": 628.0000000000001,
+            "h": 351.0,
+            "rotated": true
+          },
+          {
+            "instance": "P008-Main",
+            "x": 20,
+            "y": 752.0,
+            "w": 396.0,
+            "h": 329.0,
+            "rotated": false
+          },
+          {
+            "instance": "P009-Main",
+            "x": 20,
+            "y": 1096.0,
+            "w": 588.6500000000001,
+            "h": 150.0,
+            "rotated": false
+          },
+          {
+            "instance": "P010-Main",
+            "x": 20,
+            "y": 1261.0,
+            "w": 588.6500000000001,
+            "h": 150.0,
+            "rotated": false
+          },
+          {
+            "instance": "P011-Main",
+            "x": 20,
+            "y": 1426.0,
+            "w": 588.6500000000001,
+            "h": 150.0,
+            "rotated": false
+          },
+          {
+            "instance": "P041-Main",
+            "x": 431.0,
+            "y": 752.0,
+            "w": 540.0,
+            "h": 95.37500000000011,
+            "rotated": false
+          },
+          {
+            "instance": "P033-Main",
+            "x": 431.0,
+            "y": 862.3750000000001,
+            "w": 180.0,
+            "h": 180.0,
+            "rotated": false
+          },
+          {
+            "instance": "P037-Main",
+            "x": 623.6500000000001,
+            "y": 1057.375,
+            "w": 170.00000000000105,
+            "h": 170.00000000000057,
+            "rotated": true
+          },
+          {
+            "instance": "P038-Main",
+            "x": 626.0,
+            "y": 862.3750000000001,
+            "w": 170.00000000000105,
+            "h": 170.00000000000054,
+            "rotated": true
+          },
+          {
+            "instance": "P087-Main",
+            "x": 623.6500000000001,
+            "y": 1242.3750000000005,
+            "w": 604.0000000000001,
+            "h": 36.0,
+            "rotated": true
+          },
+          {
+            "instance": "P097-Main",
+            "x": 808.6500000000011,
+            "y": 1047.3750000000007,
+            "w": 160.0,
+            "h": 116.0,
+            "rotated": false
+          },
+          {
+            "instance": "P092-Main",
+            "x": 811.000000000001,
+            "y": 862.3750000000001,
+            "w": 128.0,
+            "h": 128.0,
+            "rotated": false
+          },
+          {
+            "instance": "P093-Main",
+            "x": 954.000000000001,
+            "y": 862.3750000000001,
+            "w": 128.0,
+            "h": 128.0,
+            "rotated": false
+          },
+          {
+            "instance": "V34-BB_GLASS_TOP_RETAINER",
+            "x": 811.000000000001,
+            "y": 1005.3750000000001,
+            "w": 744.0,
+            "h": 12.0,
+            "rotated": false
+          },
+          {
+            "instance": "V34-BB_MONITOR_STOP_L",
+            "x": 808.6500000000011,
+            "y": 1178.3750000000007,
+            "w": 40.0,
+            "h": 30.0,
+            "rotated": false
+          },
+          {
+            "instance": "V34-BB_MONITOR_STOP_R",
+            "x": 863.6500000000011,
+            "y": 1178.3750000000007,
+            "w": 40.0,
+            "h": 30.0,
+            "rotated": false
+          }
+        ],
+        "largest_free_reference_rectangles_mm": [
+          [
+            1550.000000000001,
+            0,
+            924.9999999999991,
+            1575
+          ],
+          [
+            1077.000000000001,
+            0,
+            1397.999999999999,
+            985.3750000000001
+          ],
+          [
+            643.0000000000001,
+            0,
+            1832.0,
+            732.0
+          ],
+          [
+            966.0,
+            0,
+            1509.0,
+            842.3750000000001
+          ],
+          [
+            1222.65,
+            1012.3750000000001,
+            1252.35,
+            562.6249999999999
+          ]
+        ]
+      }
+    ],
+    "sheet_count": 1,
+    "outer_contour_area_m2": 1.0621040973355294,
+    "sheet_area_m2": 4,
+    "usable_area_m2": 3.8376,
+    "utilization_outer_percent": 26.552602433388234,
+    "grain": "Long part axis aligned to2500mm sheet axis; supplier face-grain confirmation required. No production authorization.",
+    "method": "MaxRects best-short-side; four deterministic sorting trials; long part axis aligned to sheet long grain; no arbitrary structural90deg change",
+    "release": false,
+    "trials": [
+      {
+        "order": "area",
+        "sheets": 1
+      },
+      {
+        "order": "length",
+        "sheets": 1
+      },
+      {
+        "order": "width",
+        "sheets": 1
+      },
+      {
+        "order": "perimeter",
+        "sheets": 1
+      }
+    ],
+    "unused_full_sheet_outer_m2": 2.9378959026644704,
+    "checks": 153,
+    "pass": true
+  }
+}

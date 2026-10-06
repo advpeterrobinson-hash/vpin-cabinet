@@ -4,3 +4,6 @@ exports/generated/backbox-v34/*.brep binary
 
 # V34.2 native OCC geometry, preserve exact bytes.
 exports/generated/backbox-v342/*.brep binary
+
+# V35.1 native OCC geometry: preserve exact bytes.
+exports/generated/widebody-v351/*.brep binary

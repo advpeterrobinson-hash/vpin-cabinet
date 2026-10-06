@@ -1,0 +1,78 @@
+"""Offline orthographic rendering of V35 WIDEBODY STUDY native CAD triangles. CERN-OHL-S-2.0."""
+from pathlib import Path
+import json,gzip,textwrap,html,sys
+import numpy as np
+import matplotlib;matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.colors import to_rgb
+R=Path(__file__).resolve().parents[1];O=R/'exports/generated/widebody-v35';scenes=json.loads(gzip.decompress((O/'review-scenes.json.gz').read_bytes()));gallery=[]
+# Optional IDs render only those images while retaining the complete gallery.
+only={v.zfill(2) for v in sys.argv[1:]};assert not only or only<={s['id'] for s in scenes}
+rendered=0
+def draw(ax,p):
+ normal=np.array(p['view'],float);normal/=np.linalg.norm(normal);up=np.array([0,0,1.])
+ if abs(normal@up)>.99:up=np.array([0,1.,0])
+ right=np.cross(up,normal);right/=np.linalg.norm(right);up=np.cross(normal,right);rot=np.array([right,up,normal]).T
+ polys=[];colors=[];depths=[];allpoints=[]
+ for m in p['meshes']:
+  if not m['vertices'] or not m['faces']:continue
+  pts=np.array(m['vertices'])@rot;f=np.array(m['faces']);poly=pts[f];allpoints.extend(pts[:,:2]);color=np.array(to_rgb(m['color']))
+  norms=np.cross(poly[:,1]-poly[:,0],poly[:,2]-poly[:,0]);ln=np.linalg.norm(norms,axis=1);shade=.65+.33*np.abs(norms[:,2]/np.maximum(ln,1e-10))
+  polys.extend(poly[:,:,:2]);depths.extend(poly[:,:,2].mean(axis=1));colors.extend(np.column_stack((np.clip(color[None,:]*shade[:,None],0,1),np.full(len(poly),m.get('alpha',1)))))
+ points=np.array(allpoints);lo=points.min(axis=0);hi=points.max(axis=0);pad=max(hi-lo)*.075
+ if p.get('limits'):
+  x0,x1,y0,y1=p['limits']
+ else:x0,x1,y0,y1=lo[0]-pad,hi[0]+pad,lo[1]-pad,hi[1]+pad
+ ax.set_xlim(x0,x1);ax.set_ylim(y0,y1)
+ # Per-pixel depth buffer: triangle-centroid painters fail for a large display
+ # behind small carriers. These are the same native CAD triangles, unchanged.
+ aspect=(x1-x0)/(y1-y0);height=1000;width=max(100,min(1800,round(height*aspect)))
+ rgb=np.ones((height,width,3))*np.array(to_rgb('#f4f6f7'));zbuf=np.full((height,width),-np.inf)
+ triangles=[]
+ for m in p['meshes']:
+  if not m['vertices'] or not m['faces']:continue
+  pts=np.array(m['vertices'])@rot;f=np.array(m['faces']);poly=pts[f];color=np.array(to_rgb(m['color']))
+  norms=np.cross(poly[:,1]-poly[:,0],poly[:,2]-poly[:,0]);ln=np.linalg.norm(norms,axis=1);shade=.65+.33*np.abs(norms[:,2]/np.maximum(ln,1e-10))
+  for j,q in enumerate(poly):triangles.append((q,np.clip(color*shade[j],0,1),m.get('alpha',1)))
+ opaque=[t for t in triangles if t[2]>=.999];transparent=sorted([t for t in triangles if t[2]<.999],key=lambda t:t[0][:,2].mean())
+ for q,color,alpha in opaque+transparent:
+  xx=(q[:,0]-x0)/(x1-x0)*width;yy=(q[:,1]-y0)/(y1-y0)*height
+  lx=max(0,int(np.floor(xx.min())));hx=min(width-1,int(np.ceil(xx.max())))
+  ly=max(0,int(np.floor(yy.min())));hy=min(height-1,int(np.ceil(yy.max())))
+  if lx>hx or ly>hy:continue
+  den=(yy[1]-yy[2])*(xx[0]-xx[2])+(xx[2]-xx[1])*(yy[0]-yy[2])
+  if abs(den)<1e-9:continue
+  X,Y=np.meshgrid(np.arange(lx,hx+1)+.5,np.arange(ly,hy+1)+.5)
+  b0=((yy[1]-yy[2])*(X-xx[2])+(xx[2]-xx[1])*(Y-yy[2]))/den
+  b1=((yy[2]-yy[0])*(X-xx[2])+(xx[0]-xx[2])*(Y-yy[2]))/den;b2=1-b0-b1
+  zz=b0*q[0,2]+b1*q[1,2]+b2*q[2,2];z=zbuf[ly:hy+1,lx:hx+1]
+  mask=(b0>=-1e-8)&(b1>=-1e-8)&(b2>=-1e-8)&(zz>z+1e-7)
+  if not mask.any():continue
+  tile=rgb[ly:hy+1,lx:hx+1]
+  tile[mask]=tile[mask]*(1-alpha)+color*alpha
+  if alpha>=.999:z[mask]=zz[mask]
+ ax.imshow(rgb,extent=(x0,x1,y0,y1),origin='lower',interpolation='bilinear')
+ for e in p.get('edges',[]):
+  for line in e['lines']:
+   pp=np.array(line)@rot;ax.plot(pp[:,0],pp[:,1],color=e['color'],lw=e.get('width',1),linestyle=e.get('style','-'),zorder=5)
+ for point in p.get('points',[]):
+  xy=np.array(point['xyz'])@rot;ax.scatter(xy[0],xy[1],s=point.get('size',5),c=point['color'],marker=point.get('marker','.'),zorder=7)
+ for ann in p.get('annotations',[]):
+  xy=np.array(ann['point'])@rot;ax.annotate(ann['text'],xy[:2],xytext=ann.get('offset',[20,20]),textcoords='offset points',fontsize=10,color='#173948',bbox={'boxstyle':'round,pad=.35','fc':'#ffffff','ec':'#778b93','alpha':.92},arrowprops={'arrowstyle':'-','color':'#355964'},zorder=8)
+ ax.set_aspect('equal');ax.axis('off')
+for s in scenes:
+ if only and s['id'] not in only:
+  gallery.append({'image':s['id']+'-review.png','title':s['title'],'note':s['note'],'native_cad':not s.get('diagram',False)});continue
+ rendered+=1
+ fig=plt.figure(figsize=(15,10),facecolor='#f4f6f7');fig.text(.035,.953,'V35 WIDEBODY STUDY / '+s['id']+'  ·  NATIVE CAD / ENGINEERING OVERLAY',fontsize=11,color='#55717b');fig.text(.035,.910,s['title'],fontsize=20,color='#223d49')
+ n=len(s['panels']);cols=min(n,2);rows=int(np.ceil(n/cols));gap=.035;width=(.93-gap*(cols-1))/cols;height=(.64-.05*(rows-1))/rows
+ for i,p in enumerate(s['panels']):
+  col=i%cols;row=i//cols;ax=fig.add_axes([.035+col*(width+gap),.20+(.64-height)-row*(height+.05),width,height]);draw(ax,p);ax.set_title(p['label'],fontsize=12,color='#294450',pad=12)
+ if s.get('legend'):fig.text(.035,.157,'   |   '.join(s['legend']),fontsize=10,color='#365865')
+ fig.text(.035,.105,'\n'.join(textwrap.wrap(s['note'],145)),fontsize=11,color='#314c58',linespacing=1.4)
+ fig.text(.035,.025,'REFERENCE CANDIDATE / NOT FOR MANUFACTURING / NOT FOR CNC · dimensions in mm',fontsize=10,color='#884d35')
+ file=s['id']+'-review.png';fig.savefig(O/file,dpi=145);plt.close(fig);gallery.append({'image':file,'title':s['title'],'note':s['note'],'native_cad':not s.get('diagram',False)})
+(O/'review-index.json').write_text(json.dumps(gallery,indent=2)+'\n')
+h='<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>V35 WIDEBODY STUDY CAD review</title><style>body{font:16px system-ui;margin:24px;background:#edf1f3;color:#253d48}article{background:white;padding:18px;margin:24px 0;max-width:1450px}img{width:100%;height:auto}p{max-width:1100px;line-height:1.6}</style><h1>V35 WIDEBODY STUDY — Native CAD review</h1><p>48 native CAD reference views. Commercial profile fit and promotion remain under review. CURRENT unchanged. Full-sheet release remains blocked. <a href="README.md">Report</a></p>'
+for g in gallery:h+=f'<article><h2>{html.escape(g["title"])}</h2><img loading="lazy" src="{g["image"]}" alt="{html.escape(g["title"])}"><p>{html.escape(g["note"])}</p></article>'
+(O/'review.html').write_text(h+'</html>');(O/'index.html').write_text(h+'</html>');print('V35_REVIEW_RENDER_PASS',len(gallery),'rendered',rendered)

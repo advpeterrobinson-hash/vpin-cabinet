@@ -1,0 +1,89 @@
+{
+  "version": "V35.1",
+  "owner_hardware_class_locked": true,
+  "custom_lockdown": false,
+  "minimum_siderail_quantity": 0,
+  "final_drilling": null,
+  "manufacturing_release": false,
+  "sources": [
+    "https://www.tukkari.com/advisor/assembly-guide-widebody-vpin-cabinet-premium-flat-pack",
+    "https://www.pinballlife.com/williamsbally-lockdown-bar-lever-guide-receiver-assembly-wpcwpc-95.html",
+    "https://www.pinballspareparts.com.au/a-16055.html",
+    "https://www.pinballlife.com/widebody-playfield-glass-rear-plastic-channel.html"
+  ],
+  "items": [
+    {
+      "id": "H20",
+      "family": "Commercial widebody lockdown A-17996 / A-16055",
+      "purchased": false,
+      "final_drilling": null,
+      "gate": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "H21",
+      "family": "Commercial receiver A-16773-1; A-9174-4 alternative",
+      "purchased": false,
+      "final_drilling": null,
+      "gate": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "B21",
+      "family": "Commercial rear glass channel03-8091-2 class, screw mounted",
+      "purchased": false,
+      "final_drilling": null,
+      "gate": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "B12",
+      "family": "Commercial polymer side channel for actual5mm tempered glass",
+      "purchased": false,
+      "final_drilling": null,
+      "gate": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "G11",
+      "family": "User-supplied playfield glass",
+      "purchased": false,
+      "final_drilling": null,
+      "gate": "PURCHASE_BEFORE_CNC"
+    },
+    {
+      "id": "B22",
+      "family": "Slim commercial WPC/widebody siderail",
+      "optional": true,
+      "purchased": false,
+      "modification": "PURCHASED-PART MODIFICATION / VERIFY SKU; not a cabinet redesign"
+    }
+  ],
+  "rear_channel": {
+    "attachment": "SCREWED",
+    "exact_screw_count": null,
+    "exact_centers": null,
+    "exact_pilot_mm": null,
+    "support": "same18mm rear bearing shelf, local angled lands; horizontal floor retained"
+  },
+  "receiver": {
+    "reference_body_mm": [
+      520,
+      42,
+      40
+    ],
+    "operating_free_space_mm": [
+      388.65,
+      42,
+      15
+    ],
+    "hand_tool_approach_mm": [
+      90,
+      42,
+      85
+    ],
+    "actual_latch_motion": null,
+    "status": "CONSERVATIVE_AVAILABLE_SPACE_SCREEN_NOT_A_MEASURED_RECEIVER"
+  },
+  "glass": {
+    "nominal_mm": 5,
+    "final_cut_mm": null,
+    "side_profile_sku": null
+  }
+}

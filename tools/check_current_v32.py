@@ -5,6 +5,14 @@ from wpc_reference_v32 import reference_axis
 import runpy,sys
 _current_root=Path(__file__).resolve().parents[1]
 _current_manifest=json.loads((_current_root/'config/current_v32.json').read_text())
+if _current_manifest.get('structural_revision')=='V35.1':
+ assert reference_axis()[1:]==[1066.8,508]
+ assert _current_manifest['body_outside_width_mm']==628.65 and _current_manifest['backbox_width_mm']==780
+ assert not any(_current_manifest[k] for k in ['manufacturing_ready','manufacturing_valid','physical_qualification_complete','raised_playfield_service_released','custom_lockdown','side_rail_required'])
+ runpy.run_path(str(_current_root/'tools/check_widebody_v351_release.py'),run_name='__main__')
+ assert (_current_root/'exports/generated/viewer-v32/index.html').read_bytes()==(_current_root/'exports/generated/widebody-v351/viewer.html').read_bytes()
+ print('CURRENT_V351_REFERENCE_DESIGN_PASS; CNC / PHYSICAL QUALIFICATION HOLD')
+ sys.exit(0)
 if _current_manifest.get('structural_revision')=='V34.2':
  assert reference_axis()==[300,1066.8,508]
  assert not _current_manifest['manufacturing_ready'] and not _current_manifest['final_hinge_drilling_released'] and not _current_manifest['raised_playfield_service_released']

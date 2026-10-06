@@ -1,0 +1,194 @@
+[
+  {
+    "image": "01-review.png",
+    "title": "CURRENT V34.2 \u2014 reference before promotion",
+    "note": "600mm body; source11822cb. This view preserves source architecture. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "02-review.png",
+    "title": "Previous V35 \u2014 study only",
+    "note": "628.65mm candidate; integral rail and receiver/rear fixing unresolved. Not CURRENT. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "03-review.png",
+    "title": "Standard widebody front system",
+    "note": "628.65mm; commercial A-17996/A-16055 +A-16773-1 class.5mm locally cut tempered reference. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "04-review.png",
+    "title": "Purchased lockdown architecture",
+    "note": "No custom bar. Family selected; underside engagement/holes remain PURCHASE_BEFORE_CNC. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "05-review.png",
+    "title": "Receiver body, operation and hand/tool reserves",
+    "note": "520x42x40 body reserve; separate free space below and left hand approach. No precise latch trajectory invented. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "06-review.png",
+    "title": "Glass / lockdown / receiver front section",
+    "note": "Glass retained by purchased bar; receiver transfers latch reaction to front. Final profiles held. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "07-review.png",
+    "title": "Fully functional cabinet WITHOUT siderails",
+    "note": "Polymer channels carry glass; no rail in minimum BOM. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "08-review.png",
+    "title": "Optional purchased siderail envelope",
+    "note": "Optional reference stops before backbox. PURCHASED-PART MODIFICATION / VERIFY SKU if trimming is needed. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "09-review.png",
+    "title": "Commercial rear channel \u2014 ordinary screws",
+    "note": "Angled support follows measured glass plane; horizontal shelf/floor retained. No auxiliary wooden rail. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "10-review.png",
+    "title": "Rear-channel screw land and flush-head reserve",
+    "note": "Two local integral R2 lands: test10mm edge margins /12mm embedment. Exact screw quantity and centers HOLD. Heads must stay below glass. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "11-review.png",
+    "title": "Protected three crossmembers",
+    "note": "No deletion, merge or section reduction. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "12-review.png",
+    "title": "Crossmember attachment and bearing",
+    "note": "Guides locate and distribute reactions; supports remain discrete repairable parts. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "13-review.png",
+    "title": "Protected three shelves",
+    "note": "All three remain removable equipment supports. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "14-review.png",
+    "title": "Separate shelf supports retained",
+    "note": "42x150mm backing avoids deeper side-panel routing. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "15-review.png",
+    "title": "Shelf gravity path",
+    "note": "Equipment \u2192 shelf \u2192 side supports \u2192 side structure. Not replaced by shallow tabs. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "16-review.png",
+    "title": "M006 continuous floor supports",
+    "note": "Protected ledges, unchanged sections and load path. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "17-review.png",
+    "title": "SW01 leg load path",
+    "note": "Four solid blocks retained; no thin plywood substitute. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "18-review.png",
+    "title": "SW02 closed playfield load path",
+    "note": "Two solid blocks + rear dowel support the playfield; T1/T2/T3 do not carry its closed gravity load. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "19-review.png",
+    "title": "Upright-lock parking pads retained",
+    "note": "Four pad laminations provide36mm local parking depth; independent locks unchanged. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "20-review.png",
+    "title": "Direct-floor parking \u2014 NOT selected",
+    "note": "Reference28mm parking depth in18mm floor protrudes into the bearing shelf. Keep36mm pads; final shaft/insert measured later. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "21-review.png",
+    "title": "Two replaceable monitor stops",
+    "note": "Measured bearing216mm\u00b2 per stop. Separate screw-fixed offcut protects side and is replaceable. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "22-review.png",
+    "title": "Blind-guide stop alternative \u2014 rejected",
+    "note": "Only72mm\u00b2 projected bearing with4mm capture; one third of retained stop. No piece-count-driven integration. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "23-review.png",
+    "title": "Fan blanks \u2014 optional sealing function",
+    "note": "Retain optional12mm blank to seal an unused upper station; grille-only mode does not require it. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "24-review.png",
+    "title": "Acrylic seats and removable strip retained",
+    "note": "Continuous padded lower support and one positive top strip; front service remains simple. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "25-review.png",
+    "title": "Hinge cleats retained",
+    "note": "Retain bearing/alignment and screw engagement; do not attach hinge to a poor edge. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "26-review.png",
+    "title": "All33 small wood members",
+    "note": "Actual manufacturing members. Small means outer area<20000mm\u00b2 OR maximum dimension<150mm; no automatic deletion. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "27-review.png",
+    "title": "KEEP map \u2014 no target part count",
+    "note": "33/33 small members KEEP. Separate supports and replaceable locators have structural/service value; no unjustified deletion. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "28-review.png",
+    "title": "Refined exploded wood architecture",
+    "note": "66 pieces retained. One local rear-shelf machining refinement; no additional rail or mechanism. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "29-review.png",
+    "title": "Assembly complexity \u201459 steps retained",
+    "note": "Same retained support sequence and dry-fit datums. Existing glass-interface step updated, no new mechanism. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "30-review.png",
+    "title": "18mm preliminary nesting",
+    "note": "MaxRects deterministic search, long-axis grain alignment;20mm border /15mm spacing. NOT FOR CNC. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "31-review.png",
+    "title": "12mm preliminary nesting",
+    "note": "MaxRects deterministic search, long-axis grain alignment;20mm border /15mm spacing. NOT FOR CNC. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  },
+  {
+    "image": "32-review.png",
+    "title": "Complete V35.1 standard-widebody candidate",
+    "note": "No mandatory siderail; high parallel playfield; simplified backbox unchanged locally. Purchased fit and CNC remain held. REFERENCE DESIGN STUDY \u2014 purchased hardware/physical qualification/CNC HOLD.",
+    "native_cad": true
+  }
+]

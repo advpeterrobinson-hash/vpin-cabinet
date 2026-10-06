@@ -1,14 +1,15 @@
 {
-  "version": "V33.7",
-  "authority": "TWO_STOCK_GENERIC_USER_MODULE_DESIGN_CANDIDATE",
-  "source_head": "c02f9b878f370441b2bc3e637a3030f681fe140a",
+  "version": "V35.1",
+  "authority": "STANDARD_WIDEBODY_REFERENCE_DESIGN_CANDIDATE",
+  "source_head": "11822cb2dc9c7c7b511348df860cb76196d641be",
   "viewer": "exports/generated/viewer-v32/index.html",
-  "builder": "tools/build_viewer_v337.py",
-  "validation": "exports/generated/two-stock-user-module-v337/validation.json",
-  "manual_json": "exports/generated/two-stock-user-module-v337/assembly-manual.json",
-  "manufacturing_register": "config/manufacturing/flatpack_v337.json",
-  "hardware_catalog": "config/hardware_catalog_v337.json",
+  "builder": "tools/build_viewer_v351.py",
+  "validation": "exports/generated/widebody-v351/promotion-validation.json",
+  "manual_json": "exports/generated/widebody-v351/assembly-manual.json",
+  "manufacturing_register": "config/manufacturing/flatpack_v351.json",
+  "hardware_catalog": "config/hardware_catalog_v351.json",
   "unrelated_geometry_unchanged": true,
   "physical_qualification_complete": false,
-  "manufacturing_release": false
+  "manufacturing_release": false,
+  "width_migration": true
 }

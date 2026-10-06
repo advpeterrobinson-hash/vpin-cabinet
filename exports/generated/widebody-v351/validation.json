@@ -1,0 +1,687 @@
+{
+  "checks": [
+    {
+      "name": "manufacturing valid P001-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P002-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P003-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P004-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P005-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P006-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P007-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P008-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P009-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P010-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P011-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P012-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P013-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P014-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P015-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P016-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P017-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P018-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P019-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P020-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P021-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P022-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P023-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P024-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P025-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P026-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P027-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P028-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P033-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P034-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P035-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P036-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P037-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P038-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P039-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P040-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P041-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P044-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P046-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P079-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P080-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P085-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P086-Reduced18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P087-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P088-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P089-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P090-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P091-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P092-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P093-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P029-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P030-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P031-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P032-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P097-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P095-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P096-Solid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P042-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P043-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid P045-Main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid V34-BB_MONITOR_PLATE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid V34-BB_MONITOR_STOP_L",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid V34-BB_MONITOR_STOP_R",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid V34-BB_DMD_SPEAKER_PANEL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid V34-BB_GLASS_TOP_RETAINER",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manufacturing valid V34-BB_GLASS_BOTTOM_SEAT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "exact stock families",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all backbox local topology vertices preserved",
+      "pass": true,
+      "detail": {
+        "max_vertex_error_mm": 1.1368683772161603e-13,
+        "components": 114
+      }
+    },
+    {
+      "name": "outside side plane L",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "outside side plane R",
+      "pass": true,
+      "detail": 628.65
+    },
+    {
+      "name": "negative width controls",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no retired mechanisms",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no new wood penetration",
+      "pass": true,
+      "detail": {
+        "new": [],
+        "inherited": []
+      }
+    },
+    {
+      "name": "glass forward insertion removal",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "glass six direction containment reference",
+      "pass": true,
+      "detail": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WPC required sample angles",
+      "pass": true,
+      "detail": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 0.25,
+          "hits": []
+        },
+        {
+          "angle": 0.5,
+          "hits": []
+        },
+        {
+          "angle": 1,
+          "hits": []
+        },
+        {
+          "angle": 2,
+          "hits": []
+        },
+        {
+          "angle": 5,
+          "hits": []
+        },
+        {
+          "angle": 10,
+          "hits": []
+        },
+        {
+          "angle": 15,
+          "hits": []
+        },
+        {
+          "angle": 30,
+          "hits": []
+        },
+        {
+          "angle": 45,
+          "hits": []
+        },
+        {
+          "angle": 60,
+          "hits": []
+        },
+        {
+          "angle": 75,
+          "hits": []
+        },
+        {
+          "angle": 90,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "name": "continuous fold vs new commercial stack",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PF 0 to50 samples",
+      "pass": true,
+      "detail": [
+        {
+          "angle": 0,
+          "hits": []
+        },
+        {
+          "angle": 0.25,
+          "hits": []
+        },
+        {
+          "angle": 0.5,
+          "hits": []
+        },
+        {
+          "angle": 1,
+          "hits": []
+        },
+        {
+          "angle": 2,
+          "hits": []
+        },
+        {
+          "angle": 5,
+          "hits": []
+        },
+        {
+          "angle": 10,
+          "hits": []
+        },
+        {
+          "angle": 15,
+          "hits": []
+        },
+        {
+          "angle": 25,
+          "hits": []
+        },
+        {
+          "angle": 35,
+          "hits": []
+        },
+        {
+          "angle": 45,
+          "hits": []
+        },
+        {
+          "angle": 50,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "name": "PF48mm lift samples",
+      "pass": true,
+      "detail": [
+        {
+          "lift": 0,
+          "hits": []
+        },
+        {
+          "lift": 0.25,
+          "hits": []
+        },
+        {
+          "lift": 0.5,
+          "hits": []
+        },
+        {
+          "lift": 1,
+          "hits": []
+        },
+        {
+          "lift": 2,
+          "hits": []
+        },
+        {
+          "lift": 5,
+          "hits": []
+        },
+        {
+          "lift": 10,
+          "hits": []
+        },
+        {
+          "lift": 20,
+          "hits": []
+        },
+        {
+          "lift": 30,
+          "hits": []
+        },
+        {
+          "lift": 40,
+          "hits": []
+        },
+        {
+          "lift": 48,
+          "hits": []
+        }
+      ]
+    },
+    {
+      "name": "rear door L main-body clearance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "rear door R main-body clearance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no production release",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "details": {
+    "fold_continuous": {
+      "range_deg": [
+        0,
+        90
+      ],
+      "intervals": [
+        [
+          0,
+          2.8125
+        ],
+        [
+          2.8125,
+          4.21875
+        ],
+        [
+          4.21875,
+          5.625
+        ],
+        [
+          5.625,
+          6.328125
+        ],
+        [
+          6.328125,
+          7.03125
+        ],
+        [
+          7.03125,
+          7.734375
+        ],
+        [
+          7.734375,
+          8.4375
+        ],
+        [
+          8.4375,
+          9.84375
+        ],
+        [
+          9.84375,
+          11.25
+        ],
+        [
+          11.25,
+          14.0625
+        ],
+        [
+          14.0625,
+          16.875
+        ],
+        [
+          16.875,
+          22.5
+        ],
+        [
+          22.5,
+          28.125
+        ],
+        [
+          28.125,
+          33.75
+        ],
+        [
+          33.75,
+          39.375
+        ],
+        [
+          39.375,
+          45.0
+        ],
+        [
+          45.0,
+          50.625
+        ],
+        [
+          50.625,
+          56.25
+        ],
+        [
+          56.25,
+          61.875
+        ],
+        [
+          61.875,
+          67.5
+        ],
+        [
+          67.5,
+          73.125
+        ],
+        [
+          73.125,
+          78.75
+        ],
+        [
+          78.75,
+          84.375
+        ],
+        [
+          84.375,
+          87.1875
+        ],
+        [
+          87.1875,
+          90
+        ]
+      ],
+      "method": "all pairs: OCC midpoint separation exceeds each moving part arc displacement bound; AABB only rejects distant pairs"
+    }
+  },
+  "pass": true,
+  "manufacturing_release": false
+}

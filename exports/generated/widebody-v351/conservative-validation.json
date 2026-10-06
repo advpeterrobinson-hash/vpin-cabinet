@@ -1,0 +1,265 @@
+{
+  "checks": [
+    {
+      "name": "protected exact FLOOR_CLEAT_18",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact FLOOR_CLEAT_552",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact SHELF_SUPPORT_1L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact SHELF_SUPPORT_1R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact SHELF_SUPPORT_2L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact SHELF_SUPPORT_2R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact SHELF_SUPPORT_3L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact SHELF_SUPPORT_3R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact CROSS_GUIDE_1L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact CROSS_GUIDE_1R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact CROSS_GUIDE_2L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact CROSS_GUIDE_2R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact CROSS_GUIDE_3L",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact CROSS_GUIDE_3R",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact PC_BASE",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact CandidateLegBlockFL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact CandidateLegBlockFR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact CandidateLegBlockRL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact CandidateLegBlockRR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact PF_OpenCradleL",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact PF_OpenCradleR",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact FrontLandingL_Block",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "protected exact FrontLandingR_Block",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "required structural presence CROSS_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required structural presence CROSS_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required structural presence CROSS_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required structural presence SHELF_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required structural presence SHELF_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required structural presence SHELF_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required structural presence FLOOR_CLEAT_18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required structural presence FLOOR_CLEAT_552",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "monitor stop bearing BB_MONITOR_STOP_L",
+      "pass": true,
+      "detail": {
+        "current_mm2": 216.0,
+        "blind_guide_alternative_mm2": 72,
+        "decision": "KEEP: three times projected bearing; no cut into side"
+      }
+    },
+    {
+      "name": "monitor stop bearing BB_MONITOR_STOP_R",
+      "pass": true,
+      "detail": {
+        "current_mm2": 216.0,
+        "blind_guide_alternative_mm2": 72,
+        "decision": "KEEP: three times projected bearing; no cut into side"
+      }
+    },
+    {
+      "name": "rear channel ordinary screw lands",
+      "pass": true,
+      "detail": [
+        {
+          "reference_x_mm": 33,
+          "reference_y_mm": 1125.125,
+          "face_z_mm": 595.0279996446025,
+          "front_edge_mm": 10,
+          "side_edge_mm": 10,
+          "vertical_remaining_stock_mm": 16.127999644602482,
+          "pilot_embedment_reference_mm": 12,
+          "pilot_missing_wood_mm3": 0.0,
+          "glass_intersection_mm3": 0.0,
+          "status": "PACKAGING TEST POINT ONLY; count/diameter/centers NULL for production"
+        },
+        {
+          "reference_x_mm": 595.65,
+          "reference_y_mm": 1125.125,
+          "face_z_mm": 595.0279996446025,
+          "front_edge_mm": 10,
+          "side_edge_mm": 10,
+          "vertical_remaining_stock_mm": 16.127999644602482,
+          "pilot_embedment_reference_mm": 12,
+          "pilot_missing_wood_mm3": 0.0,
+          "glass_intersection_mm3": 0.0,
+          "status": "PACKAGING TEST POINT ONLY; count/diameter/centers NULL for production"
+        }
+      ]
+    },
+    {
+      "name": "receiver body and operating reserve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "commercial architecture not custom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "siderail optional regression",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "5mm primary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rear fixing tool access folded90",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "pass": true,
+  "no_part_count_target": true,
+  "no_reduced_load_path": true,
+  "integrated": [],
+  "retired": [],
+  "added": [],
+  "rear_land": [
+    {
+      "reference_x_mm": 33,
+      "reference_y_mm": 1125.125,
+      "face_z_mm": 595.0279996446025,
+      "front_edge_mm": 10,
+      "side_edge_mm": 10,
+      "vertical_remaining_stock_mm": 16.127999644602482,
+      "pilot_embedment_reference_mm": 12,
+      "pilot_missing_wood_mm3": 0.0,
+      "glass_intersection_mm3": 0.0,
+      "status": "PACKAGING TEST POINT ONLY; count/diameter/centers NULL for production"
+    },
+    {
+      "reference_x_mm": 595.65,
+      "reference_y_mm": 1125.125,
+      "face_z_mm": 595.0279996446025,
+      "front_edge_mm": 10,
+      "side_edge_mm": 10,
+      "vertical_remaining_stock_mm": 16.127999644602482,
+      "pilot_embedment_reference_mm": 12,
+      "pilot_missing_wood_mm3": 0.0,
+      "glass_intersection_mm3": 0.0,
+      "status": "PACKAGING TEST POINT ONLY; count/diameter/centers NULL for production"
+    }
+  ],
+  "receiver_note": "Body520x42x40; additional388.65x42x15 free volume;90x42x85 hand/tool approach. Actual latch trajectory NULL, not a certification of the purchased receiver."
+}

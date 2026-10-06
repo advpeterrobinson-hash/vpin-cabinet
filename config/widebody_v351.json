@@ -1,0 +1,78 @@
+{
+  "version": "V35.1",
+  "status": "VALIDATED_REFERENCE_DESIGN_NOT_MANUFACTURING_RELEASE",
+  "head_before": "11822cb2dc9c7c7b511348df860cb76196d641be",
+  "source": "exports/generated/backbox-v342/play.FCStd",
+  "body": {
+    "outside_width_mm": 628.65,
+    "nominal_side_mm": 18,
+    "inside_width_formula": "outside_width_mm - 2 * measured_side_thickness_mm",
+    "length_mm": 1308.1,
+    "front_height_mm": 400.05,
+    "rear_height_mm": 596.9
+  },
+  "backbox": {
+    "width_mm": 780,
+    "height_mm": 723.9,
+    "placement": "translate X by body_center - source_center",
+    "source_center_mm": 300,
+    "local_geometry": "PRESERVE",
+    "WPC_yz_mm": [
+      1066.8,
+      508
+    ]
+  },
+  "glass": {
+    "commercial_reference_mm": [
+      603.25,
+      1092.2,
+      5
+    ],
+    "local_alternative_mm": 5,
+    "purchased": false,
+    "final_cut_mm": null,
+    "channel_family": "03-7135-1",
+    "rear_channel_family": "03-8091-2",
+    "slot_width_mm": null,
+    "slot_depth_mm": null,
+    "reference_bottom_normal_mm": 0,
+    "profile_status": "ORIGINAL_PACKAGING_ENVELOPE_NOT_PURCHASED_PROFILE",
+    "front_local_offset_mm": 20,
+    "primary": "LOCALLY_CUT_5MM_TEMPERED_AFTER_CHANNEL_MEASUREMENTS"
+  },
+  "playfield": {
+    "gap_trials_mm": [
+      5,
+      7.5,
+      10
+    ],
+    "selected_planning_gap_mm": 7.5,
+    "maximum_planning_gap_mm": 10,
+    "angle_difference_deg": 0,
+    "base_width_policy": "528.65mm: retain22mm landing-center edge distance; original500mm would leave7.675mm against12mm pad radius",
+    "raised_service_support": "OUT_OF_SCOPE_HOLD"
+  },
+  "commercial": {
+    "lockdown": "A-17996",
+    "receiver": "A-16773-1 primary / A-9174-4 compatible alternative",
+    "siderail": "A-12359-3 / 01-8993-2",
+    "siderail_length_mm": 1198.5625,
+    "final_holes": null,
+    "purchased": false,
+    "siderail_reference_trimmed_length_mm": 1116.325,
+    "siderail_tail_trim_study_mm": 82.2375,
+    "siderail_optional": true,
+    "custom_lockdown": false
+  },
+  "plywood_mm": [
+    12,
+    18
+  ],
+  "manufacturing_release": false,
+  "production_nesting": false,
+  "LED_mandatory": false,
+  "standard_parts_evidence": {
+    "Tukkari_components": "https://tukkaricz.s2.cdn-upgates.com/6/669767d6279c87-cabinet-parts-usa-ver-01-2026.pdf",
+    "note": "Jan2026 official sourcing guide explicitly lists Williams siderails, widebody commercial glass,03-7135-1 channels and standard leg brackets; functional principle only."
+  }
+}

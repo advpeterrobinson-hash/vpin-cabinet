@@ -1,0 +1,9 @@
+{
+  "clear_span_ratio": 1.0507978723404254,
+  "same_total_central_load_stress_ratio": 1.0507978723404254,
+  "same_total_central_load_deflection_ratio": 1.1602659685647385,
+  "same_load_per_length_stress_ratio": 1.104176168515165,
+  "same_load_per_length_deflection_ratio": 1.21920501111683,
+  "section_or_support_removal": false,
+  "scope": "Conservative planning of width-spanning panels/crossmembers; exact panel support differs. No claim of unchanged numerical safety factor. Actual wood modulus/strength and load test HOLD."
+}

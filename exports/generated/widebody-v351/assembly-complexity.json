@@ -1,0 +1,38 @@
+{
+  "steps_before": 59,
+  "steps_after": 59,
+  "manual_alignment_steps_before": [
+    "00.2",
+    "02.0",
+    "02.1",
+    "02.2",
+    "06.0",
+    "08.5",
+    "08.7",
+    "08.14",
+    "08.15",
+    "08.27",
+    "09.1"
+  ],
+  "manual_alignment_steps_after": [
+    "00.2",
+    "02.0",
+    "02.1",
+    "02.2",
+    "06.0",
+    "08.5",
+    "08.7",
+    "08.14",
+    "08.15",
+    "08.27",
+    "09.1"
+  ],
+  "count_definition": "Explicit manual action steps containing alignment/measurement work; not an invented count of hand operations",
+  "hardware_change_count": "UNRESOLVED physical workflow; hardware families listed per step; no time claim",
+  "dry_fit": "SAME",
+  "labor": "SAME",
+  "piece_count_target": null,
+  "retired": [],
+  "integrated": [],
+  "added": []
+}
