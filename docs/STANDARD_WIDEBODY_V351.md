@@ -7,12 +7,19 @@ Reference architecture passes the recorded geometric gates. This is not purchase
 ## Dimensional and commercial decision
 
 - Body **628.65 mm**, nominal inside **592.65 mm**. Length **1308.10 mm** retained; no hard commercial length conflict established. Backbox **780 × 723.9 mm**, depth and local internal shapes unchanged; assembly translation X+14.325 mm. Side overhang **75.675 mm**. WPC Y1066.8/Z508 unchanged.
-- Commercial lockdown **A-17996 / A-16055**; receiver **A-16773-1**, compatible historical alternative **A-9174-4**. No custom lockdown/receiver. Catalogue width/class establishes an architectural candidate, never hole authority.
+- Commercial lockdown **A-17996 / A-16055** remains the reference class, but the lockdown bar itself is **DRY FIT after CNC**: preserve its envelope and do not use purchased-bar holes as CNC authority. Receiver **A-16773-1**, compatible historical alternative **A-9174-4**, remains a separate unresolved interface until its installation strategy is closed. No custom lockdown/receiver.
 - Available receiver body reserve **520 × 42 × 40 mm**, additional operating space **388.65 × 42 × 15 mm**, hand/tool approach **90 × 42 × 85 mm** clear modeled occupied objects. These are independently modeled available volumes, NOT measured vendor geometry or a guessed latch trajectory. Actual receiver withdrawal, tab engagement and latch travel must be measured before CNC.
 - Siderails are OPTIONAL, zero in minimum BOM. Original slim envelope stops before backbox; a purchased long SKU may require verified trimming (82.2375 mm in the reference study). Glass works without rail. No integral-rail architecture.
 - Primary glass is locally cut **5 mm tempered**; reference603.25 ×1092.20 mm, final cutNULL. Actual side-channel profile must accept5mm;3/16in compatibility is not assumed. Side slot reference7.05mm deep leaves10.95mm outer skin; production slot width/depthNULL.
-- Rear **03-8091-2 class** channel uses ordinary screws on existing horizontal RearBearingShelf with local angled support. Two integral R2 lands added to the existing member; no separate wood rail. Reference screw screen:10mm front/side margins,16.128mm local stock,12mm pilot embedment, zero pilot-outside-wood/head-glass interference. Count, centers, head and pilot are NULL/HOLD. Tool access passes before backbox assembly or folded90° with glass/matrix removed.
+- Rear **03-8091-2 class** channel uses ordinary screws on the existing horizontal RearBearingShelf with local angled support. The channel is **DRY FIT after CNC**: preserve the envelope and bearing surface, then locate its screws from the real part during assembly. Two integral R2 lands remain in the existing member; no separate wood rail and no channel-specific CNC pilot pattern is required.
 - Rear support angle **9.90666925365°** derived from glass faces; whole backbox floor remains horizontal. Display parallel to glass:0° difference, **7.5 /7.5 /7.5 mm** front/center/rear planning gap. M025528.65mm retains22mm landing edge distance; dowel588.65mm; SW02X72/556.65,Y245.
+
+### Playfield display target
+
+- Owner-selected purchase target: **Samsung QN43QN90FAGXZD (QN90F 43-inch)**.
+- Samsung official chassis reference: **960.8 × 558.9 × 26.9 mm**, **9.4 kg**, **VESA 200 × 200 mm**, 120 Hz panel with PC input up to **4K/165 Hz**.
+- Status: **purchase target selected; V35.1 CAD/kinematic validation still pending**. Do not claim the QN90F as validated until the existing PLAY / 0–50° / 48 mm lift-out and interference checks are rerun against this exact envelope.
+- The cabinet remains a replaceable 42/43-inch-class architecture rather than a TV-specific shell.
 
 ## Retained structure and small-part audit
 
@@ -106,7 +113,7 @@ Manual **59→59 steps**; explicit alignment/measurement action steps **11→11*
 
 Commercial compatibility IMPROVED; plywood projection2×18+1×12; overall qualitative cost direction NEUTRAL/uncertain without quotations (avoids bespoke lockdown fabrication). No invented price.
 
-Normal fold: remove main glass and matrix, release/park rear locks, close/latch doors, fold. Backbox acrylic and front DMD/speaker panel remain installed; no routine disconnection. Raised playfield support remains outside scope/HOLD. 42C5 and43QN93D thin reference envelopes pass;77mm-deep40S5K is an explicit failed sensitivity case, not a compatible TV.
+Normal fold: remove main glass and matrix, release/park rear locks, close/latch doors, fold. Backbox acrylic and front DMD/speaker panel remain installed; no routine disconnection. Raised playfield support remains outside scope/HOLD. Historical 42C5 and 43QN93D thin reference envelopes pass; the owner-selected QN90F 43-inch is the new purchase target but still requires an exact-envelope rerun before it is called validated. The 77 mm-deep 40S5K remains an explicit failed sensitivity case.
 
 ## Validation
 
@@ -122,4 +129,4 @@ Manufacturing reconstruction maximum difference **0.0 mm³**.32 native-CAD revie
 
 ## Remaining release gates
 
-Purchase and measure matched lockdown/receiver (body, underside tabs, latch travel, mounting, withdrawal/tool access); side/rear channels and5mm glass fit; optional rail if selected; actual plywood lot and coupon; fit regeneration; VESA/display, buttons/USB, leg/WPC/shooter, DMD/speakers, landing hardware; inherited placement/manual-operation holds; physical load/nudge/glass-edge/thermal qualification; primary raised-playfield support. **CNC FULL-SHEET RELEASE BLOCKED.**
+Actual blockers are now narrower. **Lockdown-bar purchase and rear-channel screw locations are not full-sheet CNC gates** because both are dry-fit interfaces with protected envelopes. Remaining gates include: receiver strategy/fit if it controls permanent machining; measured **03-7135-1-class side-channel profile** and side-slot coupon; actual plywood lot and tolerance coupon; CNC-provider/tooling parameters and fit regeneration; exact QN90F envelope rerun; any permanent button/USB, leg/WPC/shooter, DMD/speaker or landing interfaces that still control CNC; inherited T-guide/hinge-cleat/F06 placement holds; physical load/nudge/glass-edge/thermal qualification; and the primary raised-playfield service support. Final 5 mm glass size is cut/tempered after cabinet/channel dry fit and is not itself a pre-CNC purchase gate. **CNC FULL-SHEET RELEASE REMAINS BLOCKED.**
