@@ -17,7 +17,9 @@
       "family": "Commercial widebody lockdown A-17996 / A-16055",
       "purchased": false,
       "final_drilling": null,
-      "gate": "PURCHASE_BEFORE_CNC"
+      "gate": "DRY_FIT_AFTER_CNC",
+      "controls_permanent_cnc": false,
+      "note": "Protect commercial lockdown envelope; do not use the purchased bar as CNC hole authority."
     },
     {
       "id": "H21",
@@ -31,21 +33,26 @@
       "family": "Commercial rear glass channel03-8091-2 class, screw mounted",
       "purchased": false,
       "final_drilling": null,
-      "gate": "PURCHASE_BEFORE_CNC"
+      "gate": "DRY_FIT_AFTER_CNC",
+      "controls_permanent_cnc": false,
+      "note": "Protect rear-channel envelope on RearBearingShelf; locate ordinary screws during dry fit."
     },
     {
       "id": "B12",
-      "family": "Commercial polymer side channel for actual5mm tempered glass",
+      "family": "Commercial polymer side channel, 03-7135-1 class, for actual 5 mm tempered glass",
       "purchased": false,
       "final_drilling": null,
-      "gate": "PURCHASE_BEFORE_CNC"
+      "gate": "MEASURE_PROFILE_AND_COUPON_BEFORE_SIDE_SLOT_CNC",
+      "controls_permanent_cnc": true
     },
     {
       "id": "G11",
       "family": "User-supplied playfield glass",
       "purchased": false,
       "final_drilling": null,
-      "gate": "PURCHASE_BEFORE_CNC"
+      "gate": "CUT_AND_TEMPER_AFTER_CABINET_DRY_FIT",
+      "controls_permanent_cnc": false,
+      "note": "Nominal 5 mm architecture retained; final cut size follows assembled cabinet/channel dry fit."
     },
     {
       "id": "B22",
@@ -56,11 +63,12 @@
     }
   ],
   "rear_channel": {
-    "attachment": "SCREWED",
+    "attachment": "SCREWED_DRY_FIT",
     "exact_screw_count": null,
     "exact_centers": null,
     "exact_pilot_mm": null,
-    "support": "same18mm rear bearing shelf, local angled lands; horizontal floor retained"
+    "support": "same18mm rear bearing shelf, local angled lands; horizontal floor retained",
+    "cnc_hole_authority": false
   },
   "receiver": {
     "reference_body_mm": [
@@ -84,6 +92,8 @@
   "glass": {
     "nominal_mm": 5,
     "final_cut_mm": null,
-    "side_profile_sku": null
+    "side_profile_sku": null,
+    "side_profile_family": "03-7135-1",
+    "final_cut_timing": "AFTER_CABINET_AND_CHANNEL_DRY_FIT"
   }
 }
