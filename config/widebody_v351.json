@@ -38,7 +38,10 @@
     "reference_bottom_normal_mm": 0,
     "profile_status": "ORIGINAL_PACKAGING_ENVELOPE_NOT_PURCHASED_PROFILE",
     "front_local_offset_mm": 20,
-    "primary": "LOCALLY_CUT_5MM_TEMPERED_AFTER_CHANNEL_MEASUREMENTS"
+    "primary": "LOCALLY_CUT_5MM_TEMPERED_AFTER_CHANNEL_MEASUREMENTS",
+    "rear_channel_installation": "DRY_FIT_AFTER_CNC_ENVELOPE_PROTECTED",
+    "rear_channel_controls_permanent_cnc": false,
+    "final_glass_timing": "CUT_AND_TEMPER_AFTER_CABINET_AND_CHANNEL_DRY_FIT"
   },
   "playfield": {
     "gap_trials_mm": [
@@ -50,7 +53,25 @@
     "maximum_planning_gap_mm": 10,
     "angle_difference_deg": 0,
     "base_width_policy": "528.65mm: retain22mm landing-center edge distance; original500mm would leave7.675mm against12mm pad radius",
-    "raised_service_support": "OUT_OF_SCOPE_HOLD"
+    "raised_service_support": "OUT_OF_SCOPE_HOLD",
+    "primary_display_candidate": {
+      "model": "Samsung QN43QN90FAGXZD",
+      "panel_class": "43-inch Neo QLED Mini LED",
+      "chassis_mm": [
+        960.8,
+        558.9,
+        26.9
+      ],
+      "mass_kg": 9.4,
+      "vesa_mm": [
+        200,
+        200
+      ],
+      "panel_refresh_hz": 120,
+      "max_pc_refresh_hz": 165,
+      "status": "OWNER_SELECTED_PURCHASE_TARGET_CAD_VALIDATION_PENDING",
+      "dimensional_source": "Samsung Brasil official product specification"
+    }
   },
   "commercial": {
     "lockdown": "A-17996",
@@ -62,7 +83,9 @@
     "siderail_reference_trimmed_length_mm": 1116.325,
     "siderail_tail_trim_study_mm": 82.2375,
     "siderail_optional": true,
-    "custom_lockdown": false
+    "custom_lockdown": false,
+    "lockdown_installation": "DRY_FIT_AFTER_CNC_ENVELOPE_PROTECTED",
+    "lockdown_controls_permanent_cnc": false
   },
   "plywood_mm": [
     12,
