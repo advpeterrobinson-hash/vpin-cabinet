@@ -1,14 +1,14 @@
 # CNC tolerance coupon — V35.1
 
-Status: **required physical qualification; not a manufacturing release**.
+Status: **shop-day physical qualification; not a design blocker and not a manufacturing release by itself**.
 
-V35.1 uses the supplier profile already recorded in `config/manufacturing/profiles/peter_supplier_v1.json`: one-face machining, controlled-depth pockets, Ø4 mm cutter with natural R2, 20 mm perimeter hold-down and 15 mm minimum finished-part spacing. Generic CNC capability is therefore no longer an open design question.
+V35.1 freezes the material architecture at **nominal 18 mm and nominal 12 mm**. The exact measured thickness is deliberately late-bound on the day of machining. V35.1 uses the supplier profile already recorded in `config/manufacturing/profiles/peter_supplier_v1.json`: one-face machining, controlled-depth pockets, Ø4 mm cutter with natural R2, 20 mm perimeter hold-down and 15 mm minimum finished-part spacing. Generic CNC capability is therefore no longer an open design question.
 
 The remaining release evidence is physical: the actual 18 mm and 12 mm plywood lots, the selected fit clearance, and the real 03-7135-1-class side-glass channel.
 
 ## Two stock coupons
 
-Generate and cut one coupon from the actual **18 mm production lot** and one from the actual **12 mm production lot**, on the same machine, cutter and CAM setup that will cut the cabinet.
+Measure every production sheet first. Generate and cut one coupon for each nominal thickness batch actually being used — **18 mm** and **12 mm** — on the same machine, cutter and CAM setup that will cut the cabinet. If sheets within one nominal class vary enough that one physical clearance is not acceptable at both extremes, split them into thickness batches and regenerate only the fit-dependent features for each batch.
 
 Each coupon tests total slot clearances:
 
