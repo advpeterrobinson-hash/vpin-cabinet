@@ -1698,9 +1698,9 @@
             {
               "object": "CandidateHandleBolt1Washer",
               "coordinate_xyz_mm": [
-                268.0,
+                268,
                 1295.6,
-                190.0
+                190
               ],
               "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
               "installation_direction": null,
@@ -1711,9 +1711,9 @@
             {
               "object": "CandidateHandleBolt2Washer",
               "coordinate_xyz_mm": [
-                332.0,
+                332,
                 1295.6,
-                190.0
+                190
               ],
               "coordinate_meaning": "CURRENT B-rep bounding-box center, not a drilling datum",
               "installation_direction": null,
@@ -2009,17 +2009,17 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT SIDE/FRONT/REAR/FLOOR/FLOOR_CLEAT interfaces"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Captured joinery exists; permanent mechanical reinforcement schedule is not specified. Quantity and family HOLD; not replaced by guessed dense screws.",
+      "notes": "Captured shell joinery and current CNC geometry contain no F06-specific pockets/pilots. Mechanical reinforcement remains required, but the final pocket-screw/jig family is selected and qualified before assembly, not before full-sheet CNC. Use the existing dry-fit sequence; do not use screws to pull a bad fit into place.",
       "instances": [],
       "model": {
         "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
@@ -2041,7 +2041,8 @@
         "installed_stack_and_engagement_mm": null,
         "material_grade": null,
         "physical_fit_approved": false
-      }
+      },
+      "selection_gate": "BEFORE_ASSEMBLY_AFTER_DRY_FIT_QUALIFICATION"
     },
     {
       "id": "G01",
@@ -11616,7 +11617,7 @@
         "minimum_articulation_required_deg": 10,
         "adjustment_plus_minus_mm": 3,
         "stem_length_config_reference_mm": 40,
-        "modeled_stem_cylinder_length_mm": 40.0
+        "modeled_stem_cylinder_length_mm": 40
       },
       "dimensional_authority": "PROVISIONAL_PACKAGING_REFERENCE_NOT_PURCHASED",
       "freeze_status": "PURCHASE_BEFORE_CNC",
@@ -13044,7 +13045,7 @@
         "status": "SELLER_REFERENCE_NOT_VERIFIED / PURCHASE_BEFORE_CNC / PHYSICAL_MEASUREMENT_REQUIRED",
         "seller_reference_origin": "Owner-supplied description; conflicting seller-image dimensions, no authoritative physical sample",
         "seller_cutout_reference_mm": [
-          26.0,
+          26,
           27.7,
           28.3
         ],
@@ -14149,6 +14150,44 @@
     }
   ],
   "assembly_stages": {
+    "10": {
+      "assembly": "display_glass_interfaces",
+      "en": "Display carrier and glass retention",
+      "pt": "Suporte de monitor e retenção do vidro",
+      "depends_on": [
+        "06"
+      ]
+    },
+    "11": {
+      "assembly": "lower_cassette",
+      "en": "DMD/speaker cassette",
+      "pt": "Cassete DMD/alto-falantes",
+      "depends_on": [
+        "06",
+        "07"
+      ]
+    },
+    "12": {
+      "assembly": "matrix_front_interfaces",
+      "en": "Matrix and front interfaces",
+      "pt": "Matriz e interfaces frontais",
+      "depends_on": [
+        "01",
+        "03"
+      ]
+    },
+    "13": {
+      "assembly": "future_electronics",
+      "en": "Later electronics and adapters",
+      "pt": "Eletrônica e adaptadores futuros",
+      "depends_on": [
+        "02",
+        "03",
+        "10",
+        "11",
+        "12"
+      ]
+    },
     "01": {
       "assembly": "cabinet_shell",
       "en": "Cabinet shell and legs",
@@ -14219,44 +14258,6 @@
       "pt": "Tampas, filtros e ventoinhas opcionais",
       "depends_on": [
         "08"
-      ]
-    },
-    "10": {
-      "assembly": "display_glass_interfaces",
-      "en": "Display carrier and glass retention",
-      "pt": "Suporte de monitor e retenção do vidro",
-      "depends_on": [
-        "06"
-      ]
-    },
-    "11": {
-      "assembly": "lower_cassette",
-      "en": "DMD/speaker cassette",
-      "pt": "Cassete DMD/alto-falantes",
-      "depends_on": [
-        "06",
-        "07"
-      ]
-    },
-    "12": {
-      "assembly": "matrix_front_interfaces",
-      "en": "Matrix and front interfaces",
-      "pt": "Matriz e interfaces frontais",
-      "depends_on": [
-        "01",
-        "03"
-      ]
-    },
-    "13": {
-      "assembly": "future_electronics",
-      "en": "Later electronics and adapters",
-      "pt": "Eletrônica e adaptadores futuros",
-      "depends_on": [
-        "02",
-        "03",
-        "10",
-        "11",
-        "12"
       ]
     }
   },
