@@ -1,6 +1,6 @@
 {
   "id": "F06",
-  "model_status": "UNRESOLVED_MARKER_NOT_HARDWARE_SHAPE",
+  "model_status": "UNRESOLVED_ASSEMBLY_HARDWARE_NOT_CNC_GEOMETRY",
   "coordinate_origin": "representative model bounding-box center; installed coordinates separately cataloged",
   "parameters": {},
   "manufacturing_ready": false,
@@ -9,5 +9,9 @@
     "CURRENT SIDE/FRONT/REAR/FLOOR/FLOOR_CLEAT interfaces"
   ],
   "license": "CERN-OHL-S-2.0",
-  "measured": false
+  "measured": false,
+  "controls_permanent_cnc": false,
+  "selection_gate": "PURCHASE_AND_QUALIFY_BEFORE_ASSEMBLY",
+  "installation_strategy": "MANUAL_POCKET_RETENTION_WITH_QUALIFIED_COMMERCIAL_JIG_AFTER_SHELL_DRY_FIT; NO CURRENT CNC POCKET/PILOT",
+  "note": "V33.5 reference geometry screened pocket axes, but no Kreg/commercial jig dimensions are authoritative. F06 remains required mechanical reinforcement; hardware selection is decoupled from full-sheet CNC."
 }
