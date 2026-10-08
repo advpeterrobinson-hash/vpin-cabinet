@@ -27,12 +27,19 @@ Status date: 2026-10-07. This audit narrows manufacturing gates to decisions tha
 | LED matrix | Continue as a removable cartridge concept. Keep LED-specific geometry out of permanent cabinet wood where practical. |
 | DMD/speakers and controls | Prefer replaceable panels/adapters. Any feature that truly cuts permanent wood must be frozen before its relevant CNC part is released. |
 
-## RED — real CNC gates
+## SHOP-DAY — late-bound manufacturing gates
+
+These do **not** block design completion. They are intentionally resolved at the CNC shop from the actual material/hardware being cut.
+
+| Gate | Shop-day rule |
+|---|---|
+| 18 mm / 12 mm plywood thickness | Nominal classes are frozen at 18 mm and 12 mm. Measure every production sheet, record the range, cut the V35.1 coupon on the same machine/cutter/CAM, then regenerate only fit-dependent geometry from measured thickness + selected physical clearance. If one nominal class has too much spread for one acceptable clearance, split it into thickness batches and regenerate per batch. |
+| Side glass channel | Measure the real 03-7135-1-class profile and validate its slot on the 18 mm coupon with a real 5 mm glass sample. Production slot width/depth remain NULL until this shop-day test passes. |
+
+## RED — real unresolved engineering gates
 
 | Gate | Why it blocks |
 |---|---|
-| Side glass channel | Measure the real 03-7135-1-class profile and validate 5 mm glass fit. Slot width/depth remain NULL until a coupon proves retention without channel deformation. |
-| Actual plywood lots | Measure the real 18 mm and 12 mm production stock. Run the fit/tolerance coupon on the same machine/cutter/CAM before regenerating thickness-dependent joints. The supplier profile is already known; the missing data are the physical lots and coupon result. |
 | Primary raised-playfield service support | Must be independently engineered/qualified if it changes permanent wood/hardware interfaces; current raised-service support remains HOLD. |
 
 ## Release rule
