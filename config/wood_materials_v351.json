@@ -466,5 +466,16 @@
   ],
   "premium_first": true,
   "secondary_substitution_requires_review": true,
-  "structural_premium_never_automatically_downgraded": true
+  "structural_premium_never_automatically_downgraded": true,
+  "stock_policy": {
+    "nominal_classes_mm": [
+      18,
+      12
+    ],
+    "design_rule": "All design/BOM/material identities remain nominal 18 mm or 12 mm. Do not create ad-hoc nominal thickness variants.",
+    "production_rule": "Actual measured sheet thickness is a late-bound manufacturing parameter entered on shop day before generating fit-dependent CNC geometry.",
+    "measurement_rule": "Measure every production sheet in multiple locations and record min/max. If sheets within one nominal class differ enough that a single coupon-selected clearance does not fit both extremes acceptably, split that class into thickness batches and regenerate fit-dependent geometry per batch.",
+    "fit_rule": "For a shared batch, receiving slot/groove widths are derived from the measured mating-stock thickness plus the physically selected coupon clearance. Do not assume nominal 18.00 or 12.00 mm for fit-critical geometry.",
+    "failure_prevention": "No full-sheet fit-dependent cut before coupon validation on the same stock batch, machine, cutter and CAM compensation."
+  }
 }
