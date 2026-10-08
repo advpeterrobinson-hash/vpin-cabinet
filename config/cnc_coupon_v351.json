@@ -1,0 +1,65 @@
+{
+  "version": "V35.1",
+  "status": "QUALIFICATION_TOOL_NOT_MANUFACTURING_RELEASE",
+  "units": "mm",
+  "tooling": {
+    "cutter_diameter_mm": 4,
+    "natural_internal_radius_mm": 2,
+    "authority": "config/manufacturing/profiles/peter_supplier_v1.json"
+  },
+  "coupon": {
+    "width_mm": 300,
+    "height_mm": 210,
+    "corner_radius_mm": 6,
+    "stock_classes_mm": [
+      18,
+      12
+    ],
+    "required_same_machine_cutter_cam": true
+  },
+  "fit": {
+    "clearance_trials_mm": [
+      -0.2,
+      -0.1,
+      0,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "clearance_definition": "TOTAL slot width minus measured stock thickness",
+    "pocket_depth_trials_mm": [
+      4,
+      6
+    ]
+  },
+  "metrology": {
+    "through_hole_diameters_mm": [
+      4,
+      5,
+      6,
+      8,
+      9,
+      12
+    ]
+  },
+  "side_channel": {
+    "family": "03-7135-1",
+    "only_on_stock_class_mm": 18,
+    "actual_tongue_width_mm": null,
+    "actual_tongue_depth_mm": null,
+    "slot_width_clearance_trials_mm": [
+      0,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "slot_depth_clearance_trials_mm": [
+      0,
+      0.5,
+      1
+    ],
+    "rule": "Measure the real profile first. Do not generate channel slots from catalog guesses. Reject any slot narrower than the confirmed cutter.",
+    "physical_test": "After cutting, insert the real channel and a real 5 mm glass sample. Select the shallowest/least-wide slot that retains the profile without visibly compressing the glass channel."
+  },
+  "release_rule": "Both 18 mm and 12 mm production lots must be measured and coupon-qualified before full-sheet release. Side-channel slot must additionally pass with the real 03-7135-1-class profile and 5 mm glass sample."
+}
