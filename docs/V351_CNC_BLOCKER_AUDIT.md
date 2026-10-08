@@ -11,6 +11,7 @@ Status date: 2026-10-07. This audit narrows manufacturing gates to decisions tha
 | Main glass material | 5 mm tempered architecture retained. Final glass size is cut and tempered only after cabinet/channel dry fit. |
 | Siderails | Optional; zero in minimum BOM. |
 | Playfield display purchase target | Samsung QN43QN90FAGXZD selected by owner. Selection does not by itself change the permanent shell. Exact-envelope CAD rerun remains YELLOW. |
+| CNC supplier/machine capability | Supplier profile already records 2000×3000 table, 2500×1600 stock, one-face machining, controlled-depth pockets, Ø4 cutter/R2 natural radius, 20 mm perimeter hold-down, 15 mm part spacing and accepted vector formats. No further generic machine-spec request is a CNC gate. |
 
 ## YELLOW — decision/validation required, but do not invent CNC geometry
 
@@ -31,8 +32,7 @@ Status date: 2026-10-07. This audit narrows manufacturing gates to decisions tha
 | Gate | Why it blocks |
 |---|---|
 | Side glass channel | Measure the real 03-7135-1-class profile and validate 5 mm glass fit. Slot width/depth remain NULL until a coupon proves retention without channel deformation. |
-| Actual plywood lot | Measure real 12/18 mm stock and run the tolerance/joint coupon before regenerating captured joints. |
-| CNC provider/tooling | Confirm cutter diameter/radius, achievable slot/pocket tolerance, dogbone policy, sheet working area, hold-down and CAM allowances. |
+| Actual plywood lots | Measure the real 18 mm and 12 mm production stock. Run the fit/tolerance coupon on the same machine/cutter/CAM before regenerating thickness-dependent joints. The supplier profile is already known; the missing data are the physical lots and coupon result. |
 | Primary raised-playfield service support | Must be independently engineered/qualified if it changes permanent wood/hardware interfaces; current raised-service support remains HOLD. |
 
 ## Release rule
