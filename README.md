@@ -1,16 +1,44 @@
 # Virtual Pinball Cabinet
 
-## [OPEN THE CURRENT GALLERY →](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/docs/RENDERS.md)
+## [OPEN THE CURRENT GALLERY →](docs/RENDERS.md)
 
-**[ABRIR A GALERIA EM PORTUGUÊS →](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/docs/pt-BR/RENDERS.md)** · [Português (Brasil)](README.pt-BR.md)
+**[ABRIR A GALERIA EM PORTUGUÊS →](docs/pt-BR/RENDERS.md)** · [Português (Brasil)](README.pt-BR.md)
 
-Follow the current cabinet directly through the gallery. **V32 is the current visual/architectural review; CNC/manufacturing remains BLOCKED and physical sessions are paused.**
+**V35.1 is the current engineering / architectural review. CNC and manufacturing remain BLOCKED.** V32 is historical; passing CAD checks do not certify physical strength, purchased hardware fit or manufacturing readiness.
 
-[![Current V32 interior: S1/S2/S3 and low PCBase](https://raw.githubusercontent.com/advpeterrobinson-hash/vpin-cabinet/refs/heads/feat/cabinet-review-v32/exports/generated/cabinet-v32/01-interior.png)](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/docs/RENDERS.md)
+Parametric virtual pinball cabinet inspired by Williams WPC proportions, developed toward a reproducible flat-pack product with replaceable electronics.
 
-[Interior](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/01-interior.png) · [Crossmembers](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/02-travessas.png) · [Plan](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/03-planta.png) · [Rear](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/04-traseira.png) · [Guide detail](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/05-encaixe.png) · [Front](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/06-frente.png)
+## Current architecture — V35.1
 
-Parametric virtual pinball cabinet inspired by Williams WPC proportions, designed toward a reproducible CNC flat-pack product with replaceable electronics.
+The engineering review is maintained on `feat/v351-cncaudit-qn90f`. Read the [V35.1 technical report](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/aa3043cd172ed2bf0f05e0ef5ddcf1cbe9b53656/docs/STANDARD_WIDEBODY_V351.md) and [technical package](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/aa3043cd172ed2bf0f05e0ef5ddcf1cbe9b53656/exports/generated/widebody-v351/README.md). These links pin the reviewed evidence; they do not merge its CAD into `main`.
+
+- Standard widebody: **628.65 mm** external body, **592.65 mm** nominal interior; **1308.10 mm** body length; **780 mm** backbox width.
+- **66 wood components: 60 CNC plywood pieces and six solid blocks; 45 families.** Nominal plywood stock is **18 / 12 mm only**; actual lot measurement remains required.
+- S1/S2/S3 removable shelves, T1/T2/T3 crossmembers and replaceable guides; low fixed PCBase, **no PC drawer**.
+- Retained wooden-dowel/open-cradle playfield architecture. **Primary raised-playfield service support remains unresolved / HOLD**; no service-safety approval is implied.
+- Commercial lockdown/receiver reference interfaces; siderails optional. Receiver fit/strategy remains unresolved where it controls permanent machining.
+- Local **5 mm tempered playfield glass**, final size after cabinet/channel dry fit; actual side-channel profile and slot coupon still required.
+- Real pinball legs; external removable mobility devices, no integrated wheels. Modular electronics and protected grounded mains distribution.
+
+### Selected television — validation pending
+
+**Samsung QN43QN90FAGXZD (QN90F 43-inch)** is the owner-selected purchase target. Selection does not establish compatibility: exact-envelope **PLAY / 0–50° service / 48 mm lift-out and interference checks must be rerun** before the QN90F is described as validated. The permanent cabinet remains intended for replaceable 42/43-inch-class displays.
+
+## Review evidence and release gates
+
+The report records 32 native-CAD review views and passing checks of the modeled reference state. Those results do not certify the selected QN90F, purchased hardware, material strength or human service safety. Preliminary nesting is a study, not production CAM.
+
+**No CNC files are approved for manufacturing. Full-sheet release remains BLOCKED.** Open gates include receiver strategy/fit if machining-dependent; measured side channels and slot coupon; actual plywood lot and tolerance coupon; CNC-provider/tooling parameters and fit regeneration; remaining geometry-controlling hardware/control interfaces and attachment methods; exact QN90F rerun; primary raised-playfield support; and physical load/nudge/glass-edge/thermal qualification.
+
+The lockdown bar and rear glass-channel screw locations are dry-fit interfaces with protected envelopes, not full-sheet CNC gates themselves. F06 reinforcement remains required and is qualified after shell dry fit. See the report for the precise gate boundaries.
+
+## Documentation and history
+
+- [Documentation index](docs/README.md) and [English gallery](docs/RENDERS.md).
+- [Historical V32 gallery](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/docs/RENDERS.md) and [V32 technical package](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/README.md): 600 mm architecture, preserved as engineering history.
+- [Contradictions and documentary resolutions](docs/PUBLIC_DOCUMENTATION_AUDIT.md).
+
+Older width, gas-strut, sliding-PC and prop studies are historical context, not current V35.1 requirements. Scripts and revision-specific parameters remain engineering authority; no legacy build command on `main` certifies V35.1. Permanent structure should outlive replaceable electronics; adapters and carriers preserve serviceability.
 
 ## Open-source hardware
 
@@ -31,46 +59,6 @@ The licence is intentionally **commercial-friendly but strongly reciprocal**: se
 The official upstream project link is part of the project Notice and should remain with redistributed designs/products:
 
 **https://github.com/advpeterrobinson-hash/vpin-cabinet**
-
-## Current architecture
-
-The current review is maintained on [`feat/cabinet-review-v32`](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/README.md). [Open its technical package](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/exports/generated/cabinet-v32/README.md) for CAD, STEP, dimensions and unresolved gates. Older material on this branch remains engineering history; it must not override V32.
-
-- 600 mm cabinet; nominal 18 mm plywood, ultimately sized from measured stock.
-- Model-agnostic 42/43-inch playfield envelope: 560 × 970 × 55 mm, maximum 12 kg.
-- S1/S2/S3 removable shelves, T1/T2/T3 crossmembers and replaceable guides.
-- Low open PC case on PCBase; no PC drawer in V32.
-- Two rear reference 120 mm exhaust fans.
-- Real pinball legs and external removable PinSkates-style mobility; no integrated wheels.
-- **Manual playfield lift with two captive prop rods and positive pins/keepers; no gas struts.** Both props must be engaged during raised service, and each must independently pass full-load retention proof. Final pivot/prop geometry and service sweeps remain to be engineered and validated for V32.
-- Modular DOF/SSF and lighting; single grounded mains input with touch-safe internal distribution.
-
-## Longevity philosophy
-
-The wooden cabinet and structural metalwork should outlive several generations of televisions, PC hardware, control boards, amplifiers, and power supplies. Permanent structure is therefore designed around service envelopes and modular interfaces rather than the exact dimensions of the first electronics installed.
-
-Current examples:
-
-- backbox target widened to 780 mm to provide a 740 x 450 x 100 mm replaceable display envelope;
-- exact backglass model affects only the removable carrier/bezel, not the permanent shell;
-- main cabinet width is 600 mm with 564 mm nominal clear interior;
-- PC and electronics mounting use replaceable adapters/panels.
-
-See `docs/FUTURE_PROOFING.md`.
-
-## Review and validation
-
-V32 has 45 valid solids and no detected positive-volume intersections above 0.01 mm³ in its packaging review. These results do **not** certify strength, movement, hardware fit or manufacturing readiness.
-
-The documented scripts and parameters remain the source of truth. On the V32 branch, `make review-v32` regenerates CAD and the gallery, checks saved solids and bilingual metadata, and rejects unexpected geometry changes against committed evidence.
-
-The older Make/build v25–v27 pipeline remains **PRE-V32**, with live dependencies retained until a validated replacement exists. It is not evidence that V32 is ready for manufacture. [Current local audit](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/docs/V32_LOCAL_AUDIT.md).
-
-## Status
-
-Engineering / parametric-CAD development.
-
-No CNC files are approved for manufacturing yet. CNC production remains blocked on final hardware geometry, material measurement, provider/tooling consultation, physical tolerance coupon, and final design validation.
 
 
 ## Contributing
