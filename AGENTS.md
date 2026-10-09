@@ -1,5 +1,12 @@
 # AGENTS.md
 
+## Current review precedence — V35.1
+
+Current engineering review: `feat/v351-cncaudit-qn90f`, evidence `aa3043cd172ed2bf0f05e0ef5ddcf1cbe9b53656`; see [README](README.md) and [documentation audit](docs/PUBLIC_DOCUMENTATION_AUDIT.md). V35.1 uses 628.65 mm body / 592.65 mm nominal interior, 780 mm backbox, 18/12 mm plywood and six solid blocks; fixed low PCBase without drawer; commercial lockdown/receiver references, optional siderails and external removable mobility. Samsung QN43QN90FAGXZD is selected for purchase but exact-envelope service/interference validation remains pending. Primary raised-playfield support remains HOLD; do not prescribe earlier gas struts or captive props as the current accepted mechanism.
+
+The architecture-specific 580 mm / C5 / gas-strut / drawer / wheel / custom-lockdown instructions below describe the historical baseline and must not override V35.1. General safety, licensing, source-of-truth, parametric and validation rules remain applicable. No full-sheet CNC release is approved; preserve all measured-interface, material/tooling, physical qualification and owner manufacturing approval gates.
+
+
 ## Purpose
 
 This repository contains the engineering source for a CNC-ready virtual pinball cabinet inspired by Williams WPC proportions. The project is intended to be reproducible, parametric, serviceable, future-proof, apartment-buildable, and safe to manufacture.
@@ -13,7 +20,7 @@ The primary product is not merely one cabinet. The primary product is a **replic
 - External reference models under `reference/` are read-only references and must not be edited or copied wholesale into production geometry.
 - All production dimensions must be traceable to either a documented hardware specification, a measured part, or an explicit design decision.
 
-## Non-negotiable design constraints
+## Historical baseline design constraints (architecture-specific items superseded)
 
 - Williams WPC geometry is the visual/proportional baseline, **not an absolute dimensional constraint**. The owner explicitly approves roughly 10–50 mm dimensional deviations where they materially improve serviceability, structural margin, replacement-part availability, future electronics compatibility, or CNC/assembly simplicity.
 - Permanent cabinetry must be designed around service/replacement envelopes, not just the exact dimensions of the first-generation electronics.
@@ -117,7 +124,7 @@ Later stages must add hinge sweep, gas-strut, drawer-travel, backbox, toy, speak
 - Do not modify or delete reference models.
 - Do not merge manufacturing-ready claims without validation evidence.
 
-## Current validated / selected baseline
+## Historical validated / selected baseline (superseded)
 
 - Williams WPC reference outer cabinet width: 558.80 mm.
 - Selected engineering main-body width: 580.00 mm, pending master CAD migration and final manufacturing validation.
