@@ -516,7 +516,7 @@
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "",
+      "notes": "Owner decision 2026-10-12: S1/S2/S3 use no hand knobs. Shelf release is tool-operated; knob/thumb-screw substitutions are not part of the baseline.",
       "instances": [
         {
           "object": "SimpleShelfBolt1L1",
@@ -742,7 +742,7 @@
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "",
+      "notes": "Owner decision 2026-10-12: S1/S2/S3 use no hand knobs. Shelf release is tool-operated; knob/thumb-screw substitutions are not part of the baseline.",
       "instances": [
         {
           "object": "SimpleShelfBolt1L1Washer",
@@ -918,7 +918,7 @@
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Bore Ø8.5 is an existing design candidate, not a generic M5-insert standard.",
+      "notes": "Bore Ø8.5 is an existing design candidate, not a generic M5-insert standard. Owner decision 2026-10-12: S1/S2/S3 use no hand knobs. Shelf release is tool-operated; knob/thumb-screw substitutions are not part of the baseline.",
       "instances": [
         {
           "object": "SimpleShelfBolt1L1Insert",
