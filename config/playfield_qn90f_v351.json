@@ -1,0 +1,48 @@
+{
+  "version": "V35.1",
+  "model": "Samsung QN43QN90FAGXZD",
+  "role": "PRIMARY_PLAYFIELD_DISPLAY_REFERENCE",
+  "source_dimensions_mm": {
+    "long": 960.8,
+    "cross": 558.9,
+    "depth": 26.9
+  },
+  "mass_kg": 9.4,
+  "vesa_mm": [
+    200,
+    200
+  ],
+  "cabinet_validated_service_envelope_mm": {
+    "long": 970,
+    "cross": 560,
+    "depth": 55,
+    "max_mass_kg": 12
+  },
+  "envelope_margins_mm": {
+    "long_total": 9.2,
+    "cross_total": 1.1,
+    "cross_each_side_if_centered": 0.55,
+    "depth": 28.1
+  },
+  "mass_margin_kg": 2.6,
+  "vesa_adapter_envelope_mm": [
+    200,
+    250
+  ],
+  "checks": {
+    "dimensions_inside_generic_envelope": true,
+    "mass_inside_generic_limit": true,
+    "vesa_inside_replaceable_adapter_envelope": true,
+    "existing_generic_envelope_continuous_motion_authority": "exports/generated/widebody-v351/continuous-motion.json",
+    "playfield_envelope_rotation_0_to_50_pass": true,
+    "playfield_envelope_lift_0_to_48_pass": true
+  },
+  "validation_method": "DOMINANCE_OF_ALREADY_VALIDATED_GENERIC_PLAYFIELD_ENVELOPE",
+  "status": "MECHANICAL_ENVELOPE_VALIDATED",
+  "limitations": [
+    "TV connector plug bodies, cable bend radii and exact rear-port locations are not represented by the bare chassis dimensions.",
+    "Final VESA adapter hole placement remains a replaceable-interface operation, not permanent cabinet geometry.",
+    "Physical fit and thermal qualification remain required before final manufacturing release."
+  ],
+  "glass_gap_nominal_mm": 10
+}
