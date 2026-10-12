@@ -1,0 +1,41 @@
+{
+  "version": "V35.1",
+  "status": "POSITIONING_RESOLVED_NO_NEW_FULL_SHEET_CNC",
+  "policy_order": [
+    "existing self-locating CNC geometry",
+    "CAD-derived jig/template",
+    "dry-fit clamp/mark/drill",
+    "permanent CNC pilot only after hardware freeze"
+  ],
+  "assemblies": [
+    {
+      "id": "T1_T2_T3_GUIDES",
+      "parts": [
+        "M015",
+        "M016"
+      ],
+      "quantity": 6,
+      "positional_authority": "installed transforms in exports/generated/widebody-v351/play.FCStd",
+      "positioning_method": "CAD_DERIVED_1_TO_1_JIG",
+      "new_side_panel_cnc_required": false,
+      "final_hardware": [
+        "F05",
+        "F52",
+        "I14"
+      ],
+      "hardware_dependency": "pilot/clearance/thread details only; not guide position"
+    },
+    {
+      "id": "BACKBOX_HINGE_CLEATS",
+      "parts": [
+        "M062"
+      ],
+      "quantity": 2,
+      "positional_authority": "installed transforms in exports/generated/widebody-v351/play.FCStd",
+      "positioning_method": "CAD_DERIVED_1_TO_1_TEMPLATE_REFERENCED_TO_FINISHED_DATUMS",
+      "new_side_panel_cnc_required": false,
+      "final_hardware": "PURCHASE_DEPENDENT",
+      "validation": "dry-fit fold clearance before drilling"
+    }
+  ]
+}
