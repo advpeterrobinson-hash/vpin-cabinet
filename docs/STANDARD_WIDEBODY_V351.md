@@ -12,7 +12,7 @@ Reference architecture passes the recorded geometric gates. This is not purchase
 - Siderails are OPTIONAL, zero in minimum BOM. Original slim envelope stops before backbox; a purchased long SKU may require verified trimming (82.2375 mm in the reference study). Glass works without rail. No integral-rail architecture.
 - Primary glass is locally cut **5 mm tempered**; reference603.25 ×1092.20 mm, final cutNULL. Actual side-channel profile must accept5mm;3/16in compatibility is not assumed. Side slot reference7.05mm deep leaves10.95mm outer skin; production slot width/depthNULL.
 - Rear **03-8091-2 class** channel uses ordinary screws on the existing horizontal RearBearingShelf with local angled support. The channel is **DRY FIT after CNC**: preserve the envelope and bearing surface, then locate its screws from the real part during assembly. Two integral R2 lands remain in the existing member; no separate wood rail and no channel-specific CNC pilot pattern is required.
-- Rear support angle **9.90666925365°** derived from glass faces; whole backbox floor remains horizontal. Display parallel to glass:0° difference, **7.5 /7.5 /7.5 mm** front/center/rear planning gap. M025528.65mm retains22mm landing edge distance; dowel588.65mm; SW02X72/556.65,Y245.
+- Rear support angle **9.90666925365°** derived from glass faces; whole backbox floor remains horizontal. Display parallel to glass:0° difference, **10 /10 /10 mm** front/center/rear nominal planning gap. M025528.65mm retains22mm landing edge distance; dowel588.65mm; SW02X72/556.65,Y245.
 
 ### Playfield display target
 
