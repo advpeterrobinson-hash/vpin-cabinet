@@ -2896,17 +2896,17 @@
         "head_height_mm": 3
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "OPTIONAL_AFTER_CNC",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/fixed_rear_services_v32.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": " Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted. V33.5 removed superseded rear-fan through-bolt stack or old monitor stops; unrelated instances preserved.",
+      "notes": " Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted. V33.5 removed superseded rear-fan through-bolt stack or old monitor stops; unrelated instances preserved. Optional population does not block the minimum mechanical flatpack; use existing fan/blank station or replaceable interface.",
       "instances": [],
       "model": {
         "strategy": "CURRENT_BREP_ENVELOPE",
@@ -3539,17 +3539,17 @@
         "pitch_mm": 105
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "OPTIONAL_AFTER_CNC",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "4 optional fans. Passive floor filtration remains possible; thermal qualification is separate. Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted.",
+      "notes": "4 optional fans. Passive floor filtration remains possible; thermal qualification is separate. Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted. Optional population does not block the minimum mechanical flatpack; use existing fan/blank station or replaceable interface.",
       "instances": [
         {
           "object": "FAN_230",
@@ -5631,17 +5631,17 @@
         "pitch_mm": 105
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "OPTIONAL_AFTER_CNC",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Fan state replaces blank; no manufacturer/connector required. Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted.",
+      "notes": "Fan state replaces blank; no manufacturer/connector required. Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted. Optional population does not block the minimum mechanical flatpack; use existing fan/blank station or replaceable interface.",
       "instances": [
         {
           "object": "BB_FanL",
@@ -5892,17 +5892,17 @@
         "head": "pan"
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "OPTIONAL_AFTER_CNC",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "12 mm door +25 mm fan +accessories; do not copy main55 mm bolt automatically. Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted.",
+      "notes": "12 mm door +25 mm fan +accessories; do not copy main55 mm bolt automatically. Selected component must qualify the existing station/channel before CNC; optional classification does not waive the hold if fitted. Optional population does not block the minimum mechanical flatpack; use existing fan/blank station or replaceable interface.",
       "instances": [],
       "model": {
         "strategy": "ORIGINAL_PARAMETRIC",
@@ -6049,10 +6049,10 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -6097,10 +6097,10 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -6145,10 +6145,10 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -6299,10 +6299,10 @@
         "head": "unselected"
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -6651,10 +6651,10 @@
         "head": "unselected"
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -6707,10 +6707,10 @@
         "head": "unselected"
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -6871,10 +6871,10 @@
         "head": "unselected"
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -6925,10 +6925,10 @@
         "thread": "M6"
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -6977,7 +6977,7 @@
         "thread": "M6"
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
       "controls_permanent_cnc": false,
@@ -7027,10 +7027,10 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -7426,10 +7426,10 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -7934,17 +7934,17 @@
         "final_cut_mm": null
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "ORDER_AFTER_DRY_FIT",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/panel_closure_v32.json#glass_study"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Local nominal5mm tempered; order size after purchased channel/lockdown and coupon. Not assumed compatible with3/16 channel.",
+      "notes": "Local nominal5mm tempered; order size after purchased channel/lockdown and coupon. Not assumed compatible with3/16 channel. Reconciled with V35.1 interface policy: this item is not full-sheet CNC authority.",
       "instances": [
         {
           "object": "CandidateGlass",
@@ -8037,17 +8037,17 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Permanent holes depend on channel and actual receiver; count unresolved.",
+      "notes": "Permanent holes depend on channel and actual receiver; count unresolved. Generic lockdown/rear-channel fixing holes are dry-fit/manual. The side-channel slot is governed separately by B12 and the coupon.",
       "instances": [],
       "model": {
         "strategy": "UNRESOLVED_MARKER_NOT_FIT_GEOMETRY",
@@ -8360,17 +8360,17 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "OWNER_V351_AND_PUBLIC_FAMILY_REFERENCE",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "DRY_FIT_AFTER_CNC",
       "design_status": "COMMERCIAL_ARCHITECTURE_SELECTED_EXACT_PART_HOLD",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/standard_interfaces_v351.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Commercial family only; final cut/holes/pockets/mounting pattern and actual fit NULL until purchased. No custom metal substitute.",
+      "notes": "Commercial family only; final cut/holes/pockets/mounting pattern and actual fit NULL until purchased. No custom metal substitute. Reconciled with V35.1 interface policy: this item is not full-sheet CNC authority.",
       "instances": [],
       "model": {
         "strategy": "ORIGINAL_REFERENCE_RESERVE_NOT_VENDOR_CAD",
@@ -9996,10 +9996,10 @@
       "material": "insulating/protective enclosure",
       "nominal_dimensions": {},
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "PURCHASE_BEFORE_ELECTRONICS_INSTALL",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -10054,10 +10054,10 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "PURCHASE_BEFORE_ELECTRONICS_INSTALL",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -10101,10 +10101,10 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "PURCHASE_BEFORE_ELECTRONICS_INSTALL",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -10195,10 +10195,10 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "PURCHASE_BEFORE_ELECTRONICS_INSTALL",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -10430,10 +10430,10 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "PURCHASE_BEFORE_ELECTRONICS_INSTALL",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -10477,10 +10477,10 @@
       "material": "adapter interface; exact construction TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "PURCHASE_BEFORE_ELECTRONICS_INSTALL",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -11208,10 +11208,10 @@
         "length_mm": null
       },
       "dimensional_authority": "UNSPECIFIED",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "RETIRED_OR_NOT_IN_BASELINE",
       "design_status": "RETIRED",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "CURRENT V32 B-reps / owner V33 inventory instruction"
       ],
@@ -13660,17 +13660,17 @@
         "final_dimensions": null
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "OPTIONAL_AFTER_CNC",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/backbox_hardening_v342.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Purchased hardware/profile before final cuts. F67 replaces F66 in active mode; do not add both fastener stacks. Protective-grille finger safety and actual fan hardware require physical verification.",
+      "notes": "Purchased hardware/profile before final cuts. F67 replaces F66 in active mode; do not add both fastener stacks. Protective-grille finger safety and actual fan hardware require physical verification. Optional population does not block the minimum mechanical flatpack; use existing fan/blank station or replaceable interface.",
       "instances": [
         {
           "object": "BB_LowerGrillScrewL0",
@@ -13804,17 +13804,17 @@
         "final_dimensions": null
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "OPTIONAL_AFTER_CNC",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/backbox_hardening_v342.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Purchased hardware/profile before final cuts. F67 replaces F66 in active mode; do not add both fastener stacks. Protective-grille finger safety and actual fan hardware require physical verification.",
+      "notes": "Purchased hardware/profile before final cuts. F67 replaces F66 in active mode; do not add both fastener stacks. Protective-grille finger safety and actual fan hardware require physical verification. Optional population does not block the minimum mechanical flatpack; use existing fan/blank station or replaceable interface.",
       "instances": [],
       "model": {
         "strategy": "ORIGINAL_REFERENCE_ENVELOPE",
@@ -13851,17 +13851,17 @@
         "final_dimensions": null
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "OPTIONAL_AFTER_CNC",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/backbox_hardening_v342.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Purchased hardware/profile before final cuts. F67 replaces F66 in active mode; do not add both fastener stacks. Protective-grille finger safety and actual fan hardware require physical verification.",
+      "notes": "Purchased hardware/profile before final cuts. F67 replaces F66 in active mode; do not add both fastener stacks. Protective-grille finger safety and actual fan hardware require physical verification. Optional population does not block the minimum mechanical flatpack; use existing fan/blank station or replaceable interface.",
       "instances": [
         {
           "object": "BB_LowerIntakeFanL",
@@ -13995,17 +13995,17 @@
         "final_dimensions": null
       },
       "dimensional_authority": "OWNER_V351_AND_PUBLIC_FAMILY_REFERENCE",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "DRY_FIT_AFTER_CNC",
       "design_status": "COMMERCIAL_ARCHITECTURE_SELECTED_EXACT_PART_HOLD",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/standard_interfaces_v351.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Commercial family only; final cut/holes/pockets/mounting pattern and actual fit NULL until purchased. No custom metal substitute.",
+      "notes": "Commercial family only; final cut/holes/pockets/mounting pattern and actual fit NULL until purchased. No custom metal substitute. Reconciled with V35.1 interface policy: this item is not full-sheet CNC authority.",
       "instances": [
         {
           "object": "BB_PFRearChannel",
@@ -14056,17 +14056,17 @@
         "length_mm": null
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "DRY_FIT_AFTER_CNC",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/backbox_hardening_v342.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Ordinary screwed commercial rear channel. Reference lands screen12mm embedment and10mm edge distance; exact count/pilot/centers/head form and engagement held. No unsupported thread into thin skin.",
+      "notes": "Ordinary screwed commercial rear channel. Reference lands screen12mm embedment and10mm edge distance; exact count/pilot/centers/head form and engagement held. No unsupported thread into thin skin. Reconciled with V35.1 interface policy: this item is not full-sheet CNC authority.",
       "instances": [],
       "model": {
         "strategy": "UNRESOLVED_NO_FIT_MODEL",
@@ -14103,17 +14103,17 @@
         "final_dimensions": null
       },
       "dimensional_authority": "OWNER_V351_AND_PUBLIC_FAMILY_REFERENCE",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "OPTIONAL_AFTER_CNC",
       "design_status": "COMMERCIAL_ARCHITECTURE_SELECTED_EXACT_PART_HOLD",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/standard_interfaces_v351.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Not in minimum BOM. Reference ends before backbox. Purchased-part trimming/finish VERIFY SKU; no structural dependency.",
+      "notes": "Not in minimum BOM. Reference ends before backbox. Purchased-part trimming/finish VERIFY SKU; no structural dependency. Reconciled with V35.1 interface policy: this item is not full-sheet CNC authority.",
       "instances": [
         {
           "object": "BB_PFRearChannel",
