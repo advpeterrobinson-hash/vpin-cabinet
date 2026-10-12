@@ -1,6 +1,6 @@
 # V35.1 — Removable LED Matrix Cartridge
 
-Status: **functional architecture accepted; detailed geometry pending selected LED hardware**.
+Status: **functional architecture accepted; Cleveland Software Design 6-panel kit selected as the hardware target. Final acrylic/end-cap geometry remains pending physical measurement of the actual panel assembly.**
 
 ## Owner-selected architecture
 
@@ -55,13 +55,32 @@ Each printed end cap should ultimately provide:
 
 Preferred printable material: **PETG or ASA**. PLA is not the baseline because the module contains heat-producing electronics and may remain installed for long periods.
 
+## Selected LED hardware
+
+Target kit: **Cleveland Software Design — Addressable LED Plug and Play Kit**.
+
+For V35.1 use the **6-panel matrix configuration**:
+
+- 6 × addressable matrix panels;
+- each panel is published as **3.125 in square** (79.375 mm nominal);
+- 256 LEDs per panel, yielding **1536 matrix LEDs**;
+- 2 side strips with **144 LEDs each** (288 total);
+- controller: S2 Wemos-based 10-output ALED controller;
+- supplied 5 V / 15 A power supply;
+- right strip on output 1, left strip on output 2, matrix panels on outputs 3–8.
+
+A 16 × 16 LED grid per panel is implied by 256 LEDs/panel; this must still be confirmed against the physical panel before releasing the index plate.
+
+The vendor also describes the complete 6-panel matrix as approximately **18.5 in** long (~469.9 mm). Six nominal 3.125 in panels arithmetically total 18.75 in (476.25 mm). This discrepancy is small and does not threaten the current 540 mm carrier envelope, but **we will not guess which value controls manufacturing**. Measure one real panel and the assembled six-panel width before finalizing acrylics/end caps.
+
 ## Still intentionally NULL
 
-Until the actual LED hardware is selected:
+Until the physical kit is measured:
 
-- LED pitch;
-- LED count;
-- LED package dimensions;
+- actual assembled six-panel width;
+- actual PCB thickness and spacer stack;
+- connector projection and wire-exit envelope;
+- exact LED package diameter/height;
 - index-hole diameter/shape;
 - acrylic thicknesses;
 - diffuser-to-LED spacing;
@@ -71,7 +90,7 @@ Until the actual LED hardware is selected:
 
 ## Validation sequence
 
-1. Select and measure the real LED matrix hardware.
+1. Measure one Cleveland panel, the complete six-panel assembly, connector projections and supplied spacer stack.
 2. Prototype the optical stack on a short section.
 3. Select diffuser gap by hotspot/brightness test.
 4. Model both printed end caps.
