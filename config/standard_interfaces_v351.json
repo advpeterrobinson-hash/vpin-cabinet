@@ -26,7 +26,9 @@
       "family": "Commercial receiver A-16773-1; A-9174-4 alternative",
       "purchased": false,
       "final_drilling": null,
-      "gate": "PURCHASE_BEFORE_CNC"
+      "gate": "DRY_FIT_AFTER_CNC",
+      "controls_permanent_cnc": false,
+      "note": "No H21-specific pocket/pilot exists in the current flatpack. Preserve receiver operating envelope; align the purchased receiver to the real lockdown bar during dry fit, clamp, mark and drill manually. Receiver hardware is not CNC hole authority."
     },
     {
       "id": "B21",
@@ -87,7 +89,10 @@
       85
     ],
     "actual_latch_motion": null,
-    "status": "CONSERVATIVE_AVAILABLE_SPACE_SCREEN_NOT_A_MEASURED_RECEIVER"
+    "status": "CONSERVATIVE_AVAILABLE_SPACE_SCREEN_NOT_A_MEASURED_RECEIVER",
+    "attachment_policy": "DRY_FIT_MANUAL_ALIGNMENT_WITH_REAL_LOCKDOWN_BAR",
+    "cnc_hole_authority": false,
+    "release_note": "Current permanent wood contains no receiver-specific machining; receiver purchase remains an assembly/fit prerequisite only."
   },
   "glass": {
     "nominal_mm": 5,
