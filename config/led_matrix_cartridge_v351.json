@@ -56,9 +56,12 @@
     "diffuser_air_gap_rule": "Set by optical prototype; do not place diffuser directly against LEDs by default.",
     "thermal_expansion_clearance_mm": null,
     "thermal_expansion_rule": "End-cap channels must retain layers without hard-clamping acrylic across full width.",
-    "led_pitch_mm": null,
-    "led_count": null,
-    "led_matrix_size_mm": null,
+    "led_pitch_mm": 4.9609375,
+    "led_count": 1536,
+    "led_matrix_size_mm": {
+      "width": "PHYSICAL_MEASUREMENT_REQUIRED; expected approx 469.9–476.25 mm for 6 panels",
+      "height_mm": 79.375
+    },
     "permanent_cabinet_led_specific_holes": false,
     "cabinet_interface_rule": "Permanent wood should see only the cartridge mounting interface, not LED-specific hole geometry.",
     "printable_material": [
@@ -67,15 +70,71 @@
     ],
     "pla_baseline": false,
     "service_access": "FRONT/REMOVABLE_AS_ONE_UNIT",
-    "future_replacement": "Change acrylic index layer/end caps/LED carrier without recutting cabinet wood where practical."
+    "future_replacement": "Change acrylic index layer/end caps/LED carrier without recutting cabinet wood where practical.",
+    "per_panel_grid": [
+      16,
+      16
+    ],
+    "panel_count": 6
   },
   "pending_validation": [
-    "Select real LED matrix/strip/module and measure LED package, pitch, PCB/strip thickness, connector and wire exit.",
+    "Measure one real ALED panel and the complete six-panel assembled width/connector protrusions before freezing acrylic and end-cap dimensions.",
     "Prototype diffuser spacing for hotspot suppression versus brightness.",
     "Check 4-screw end-cap mounting pattern against current backbox/matrix keepouts and folded-service path.",
     "Check connector clearance and service loop with matrix removal.",
     "Decide whether M030 is retired, reused as a backing datum, or replaced by the cartridge after CAD comparison.",
     "Validate acrylic edge clearances and retention during backbox fold."
   ],
-  "manufacturing_release": false
+  "manufacturing_release": false,
+  "selected_led_hardware": {
+    "vendor": "Cleveland Software Design",
+    "product": "Addressable LED Plug and Play Kit",
+    "product_url": "https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit",
+    "status": "OWNER_SELECTED_HARDWARE_TARGET",
+    "controller": "S2 Wemos chip / 10-output addressable LED board",
+    "power_supply": "5 V 15 A included",
+    "side_strips": {
+      "quantity": 2,
+      "leds_each": 144,
+      "total_leds": 288,
+      "outputs": {
+        "right": 1,
+        "left": 2
+      }
+    },
+    "matrix": {
+      "selected_panel_count": 6,
+      "panel_nominal_size_in": 3.125,
+      "panel_nominal_size_mm": 79.375,
+      "leds_per_panel": 256,
+      "inferred_grid_per_panel": [
+        16,
+        16
+      ],
+      "total_leds": 1536,
+      "controller_outputs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "vendor_published_assembled_length_approx_in": 18.5,
+      "vendor_published_assembled_length_approx_mm": 469.9,
+      "arithmetic_six_panel_nominal_width_mm": 476.25,
+      "physical_measurement_required": true,
+      "measurement_note": "Vendor states each panel is 3.125 in square and describes the 6-panel kit as approximately 18.5 in long. Do not resolve the ~6.35 mm discrepancy by assumption; measure the six-panel assembly before releasing acrylic/end-cap geometry."
+    },
+    "included": [
+      "ALED panels",
+      "2 light strips",
+      "male ALED wires",
+      "female ALED wires",
+      "ALED extension wires",
+      "5 V 15 A PSU + power cord",
+      "screws/spacers",
+      "USB-C to USB-A cable"
+    ]
+  }
 }
