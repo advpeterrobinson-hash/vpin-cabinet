@@ -506,17 +506,17 @@
         "head": "pan"
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/simple_shelves_v32.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Owner decision 2026-10-12: S1/S2/S3 use no hand knobs. Shelf release is tool-operated; knob/thumb-screw substitutions are not part of the baseline.",
+      "notes": "Owner decision 2026-10-12: S1/S2/S3 use no hand knobs. Shelf release is tool-operated; knob/thumb-screw substitutions are not part of the baseline. Shelf-specific final bore/pilot is treated as post-CNC assembly drilling from the existing shelf/support geometry; do not hold full sheets for the purchased M5 screw/insert.",
       "instances": [
         {
           "object": "SimpleShelfBolt1L1",
@@ -908,17 +908,17 @@
         "length_mm": 10
       },
       "dimensional_authority": "PROVISIONAL_CURRENT_DESIGN",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
       "design_status": "PROVISIONAL",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/simple_shelves_v32.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Bore Ø8.5 is an existing design candidate, not a generic M5-insert standard. Owner decision 2026-10-12: S1/S2/S3 use no hand knobs. Shelf release is tool-operated; knob/thumb-screw substitutions are not part of the baseline.",
+      "notes": "Bore Ø8.5 is an existing design candidate, not a generic M5-insert standard. Owner decision 2026-10-12: S1/S2/S3 use no hand knobs. Shelf release is tool-operated; knob/thumb-screw substitutions are not part of the baseline. Shelf-specific final bore/pilot is treated as post-CNC assembly drilling from the existing shelf/support geometry; do not hold full sheets for the purchased M5 screw/insert.",
       "instances": [
         {
           "object": "SimpleShelfBolt1L1Insert",
@@ -8408,17 +8408,17 @@
       "material": "steel; finish/grade TBD",
       "nominal_dimensions": {},
       "dimensional_authority": "OWNER_V351_AND_PUBLIC_FAMILY_REFERENCE",
-      "freeze_status": "PURCHASE_BEFORE_CNC",
-      "design_status": "COMMERCIAL_ARCHITECTURE_SELECTED_EXACT_PART_HOLD",
+      "freeze_status": "PURCHASE_BEFORE_ASSEMBLY",
+      "design_status": "COMMERCIAL_ARCHITECTURE_SELECTED_DRY_FIT",
       "measurement_required": true,
-      "controls_permanent_cnc": true,
+      "controls_permanent_cnc": false,
       "source": [
         "config/standard_interfaces_v351.json"
       ],
       "source_license": "CERN-OHL-S-2.0 original geometry; external links are citations only",
       "supplier": null,
       "price_BRL": null,
-      "notes": "Commercial family only; final cut/holes/pockets/mounting pattern and actual fit NULL until purchased. No custom metal substitute.",
+      "notes": "Commercial family only; final cut/holes/pockets/mounting pattern and actual fit NULL until purchased. No custom metal substitute. Current flatpack has no H21-specific feature. Align/mark/drill after CNC with the real bar and receiver.",
       "instances": [],
       "model": {
         "strategy": "ORIGINAL_REFERENCE_RESERVE_NOT_VENDOR_CAD",
