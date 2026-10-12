@@ -4,6 +4,8 @@ Status date: 2026-10-07. This audit narrows manufacturing gates to decisions tha
 
 ## GREEN — no longer full-sheet CNC blockers
 
+| Playfield-to-glass gap | **10 mm nominal**, display parallel to glass. This is an owner-selected conservative target rather than an industry standard. Future intentional reduction may be made by broad shims/plates at support interfaces; stacked washers are not the primary leveling method. |
+
 | Interface | Decision |
 |---|---|
 | Lockdown bar | A-17996 / A-16055 class. Protect envelope. Dry fit after CNC; purchased-bar holes are not CNC authority. |
