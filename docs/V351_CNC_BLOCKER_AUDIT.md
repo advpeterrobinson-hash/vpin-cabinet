@@ -1,6 +1,6 @@
 # V35.1 — CNC blocker audit
 
-Status date: 2026-10-07. This audit narrows manufacturing gates to decisions that can change permanent CNC geometry. It does not release full-sheet manufacturing.
+Status date: 2026-10-12. This audit narrows manufacturing gates to decisions that can change permanent CNC geometry. It does not release full-sheet manufacturing.
 
 ## GREEN — no longer full-sheet CNC blockers
 
@@ -14,19 +14,23 @@ Status date: 2026-10-07. This audit narrows manufacturing gates to decisions tha
 | Siderails | Optional; zero in minimum BOM. |
 | Playfield display | Samsung QN43QN90FAGXZD is the primary reference and is mechanically validated by containment inside the already validated 560 × 970 × 55 mm / 12 kg playfield envelope. Connector/cable and physical thermal qualification remain separate. |
 | CNC supplier/machine capability | Supplier profile already records 2000×3000 table, 2500×1600 stock, one-face machining, controlled-depth pockets, Ø4 cutter/R2 natural radius, 20 mm perimeter hold-down, 15 mm part spacing and accepted vector formats. No further generic machine-spec request is a CNC gate. |
+| Lockdown receiver | A-16773-1 / A-9174-4 moved to **dry-fit/manual alignment** with the real lockdown bar. Current flatpack contains no H21-specific pocket/pilot; receiver is not CNC hole authority. |
+| S1/S2/S3 retention | **No hand knobs.** Tool-operated M5/captive-thread architecture retained. Final screw/insert bore may be drilled at assembly after hardware selection; it no longer holds full sheets. |
+| T1/T2/T3 guide positioning | Positioning solved by **CAD-derived 1:1 jig/template** using installed transforms. No new side-panel CNC pilot is required. Final F05/F52/I14 dimensions remain purchase-dependent assembly details. |
+| Backbox hinge-cleat positioning | M062 is already CNC-ready; placement solved by a **CAD-derived 1:1 template** referenced to finished datums. No new permanent pilot pattern required. |
+| DMD/speakers/controls | Electronics-specific openings stay on replaceable panels/adapters. They do not control permanent cabinet wood. |
 
 ## YELLOW — decision/validation required, but do not invent CNC geometry
 
 | Interface | Remaining work |
 |---|---|
-| Lockdown receiver | A-16773-1 / A-9174-4 remains separate from the dry-fit bar. Decide whether its final attachment is dry-fit/manual or controls permanent machining. |
-| Shelf retention S1/S2/S3 | Owner-locked: **no hand knobs**. Tool-operated removable shelves remain the baseline. Exact purchased M5 screw/insert family still requires hardware qualification, but knob selection is closed. |
 | F06 shell reinforcement | Mechanical reinforcement remains required, but CURRENT full-sheet CNC contains no F06 pocket/pilot geometry. Select and qualify the commercial pocket-hole jig/screw family before assembly after dry fit; do not keep F06 as a full-sheet CNC gate. |
-| T1/T2/T3 guide attachment | M015/M016 guide geometry is already defined; current HOLD is F05/F52/I14 hardware and repeatable placement, not guide shape. Preferred path: CAD-derived positioning/drill jig or released pilot pattern, without redesigning the structural side. |
-| Backbox hinge cleats | M062 left/right cleats are already CNC-ready. Remaining issue is a qualified placement/template method; treat as assembly-positioning work unless a permanent side-panel pilot pattern is deliberately promoted. |
 | DOF solenoids | Install on T1/T2/T3. Do not add model-specific permanent holes until the solenoid/adapter interface is selected. |
 | LED matrix | Functional architecture accepted: 3 acrylic layers + 2 printed end caps + 4 cabinet fasteners + one detachable connector. Detailed geometry remains pending selected LED hardware and optical prototype; current M030 is preserved until promotion. |
-| DMD/speakers and controls | Prefer replaceable panels/adapters. Any feature that truly cuts permanent wood must be frozen before its relevant CNC part is released. |
+
+## EXTERNAL ONLY — remaining non-CAD dependencies
+
+Everything still outside GREEN now depends on at least one of: **purchased physical hardware, shop-day measurement/coupon, or owner/external physical validation**. There is no remaining documentation-only or placement-only blocker.
 
 ## SHOP-DAY — late-bound manufacturing gates
 
