@@ -49,7 +49,7 @@
       7.5,
       10
     ],
-    "selected_planning_gap_mm": 7.5,
+    "selected_planning_gap_mm": 10,
     "maximum_planning_gap_mm": 10,
     "angle_difference_deg": 0,
     "base_width_policy": "528.65mm: retain22mm landing-center edge distance; original500mm would leave7.675mm against12mm pad radius",
@@ -71,6 +71,11 @@
       "max_pc_refresh_hz": 165,
       "status": "OWNER_SELECTED_PURCHASE_TARGET_CAD_VALIDATION_PENDING",
       "dimensional_source": "Samsung Brasil official product specification"
+    },
+    "gap_decision": {
+      "target_mm": 10,
+      "rationale": "Owner-selected conservative nominal glass-to-playfield gap after community feedback showed no definitive standard. Future reduction may be achieved by adding controlled shim material at the playfield support interfaces without changing permanent cabinet geometry.",
+      "adjustment_policy": "Do not use stacked washers as the primary leveling system. Preserve threaded/articulated front adjusters for fine leveling; use broad controlled shims/plates only if intentionally raising the whole playfield later."
     }
   },
   "commercial": {
