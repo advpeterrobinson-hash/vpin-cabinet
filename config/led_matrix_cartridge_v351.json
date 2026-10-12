@@ -1,0 +1,81 @@
+{
+  "version": "V35.1",
+  "subsystem": "REMOVABLE_LED_MATRIX_CARTRIDGE",
+  "status": "FUNCTIONAL_ARCHITECTURE_ACCEPTED_GEOMETRY_PENDING",
+  "current_legacy_carrier": {
+    "manufacturing_part_id": "M030",
+    "instance_id": "P041-Main",
+    "nominal_stock_mm": 12,
+    "current_envelope_mm": [
+      540,
+      95.375
+    ],
+    "disposition": "PRESERVE_UNTIL_CARTRIDGE_GEOMETRY_PASSES; do not silently delete M030"
+  },
+  "owner_architecture": {
+    "layers": [
+      {
+        "id": "A1",
+        "role": "rear acrylic backing/protection",
+        "material": "acrylic",
+        "thickness_mm": null
+      },
+      {
+        "id": "A2",
+        "role": "opaque LED index/centering plate",
+        "material": "black/opaque acrylic preferred",
+        "thickness_mm": null,
+        "led_hole_pattern": "PARAMETRIC_FROM_SELECTED_LED_MATRIX"
+      },
+      {
+        "id": "A3",
+        "role": "front optical diffuser",
+        "material": "diffuser acrylic",
+        "thickness_mm": null
+      }
+    ],
+    "end_caps": [
+      {
+        "id": "EC-L",
+        "role": "left 3D-printed side carrier/end cap"
+      },
+      {
+        "id": "EC-R",
+        "role": "right 3D-printed side carrier/end cap"
+      }
+    ],
+    "cabinet_fasteners_total": 4,
+    "fasteners_per_end_cap": 2,
+    "service_rule": "Remove four cabinet fasteners, disconnect one service connector, withdraw complete cartridge, then slide/remove end caps to separate the three acrylic layers.",
+    "loose_hardware_target": "NONE during routine cartridge disassembly where practical",
+    "electrical_connection_target": "ONE keyed detachable connector with service loop and strain relief"
+  },
+  "design_requirements": {
+    "three_independent_layer_channels": true,
+    "diffuser_air_gap_mm": null,
+    "diffuser_air_gap_rule": "Set by optical prototype; do not place diffuser directly against LEDs by default.",
+    "thermal_expansion_clearance_mm": null,
+    "thermal_expansion_rule": "End-cap channels must retain layers without hard-clamping acrylic across full width.",
+    "led_pitch_mm": null,
+    "led_count": null,
+    "led_matrix_size_mm": null,
+    "permanent_cabinet_led_specific_holes": false,
+    "cabinet_interface_rule": "Permanent wood should see only the cartridge mounting interface, not LED-specific hole geometry.",
+    "printable_material": [
+      "PETG",
+      "ASA"
+    ],
+    "pla_baseline": false,
+    "service_access": "FRONT/REMOVABLE_AS_ONE_UNIT",
+    "future_replacement": "Change acrylic index layer/end caps/LED carrier without recutting cabinet wood where practical."
+  },
+  "pending_validation": [
+    "Select real LED matrix/strip/module and measure LED package, pitch, PCB/strip thickness, connector and wire exit.",
+    "Prototype diffuser spacing for hotspot suppression versus brightness.",
+    "Check 4-screw end-cap mounting pattern against current backbox/matrix keepouts and folded-service path.",
+    "Check connector clearance and service loop with matrix removal.",
+    "Decide whether M030 is retired, reused as a backing datum, or replaced by the cartridge after CAD comparison.",
+    "Validate acrylic edge clearances and retention during backbox fold."
+  ],
+  "manufacturing_release": false
+}
