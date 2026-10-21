@@ -29,9 +29,9 @@ The configuration records a **10 mm nominal glass-to-playfield gap**, matching t
 
 ## Review evidence and release gates
 
-The report records 32 native-CAD review views and passing checks of the modeled reference state. Those results do not certify the selected QN90F, purchased hardware, material strength or human service safety. Preliminary nesting is a study, not production CAM.
+The report records 32 native-CAD review views and passing checks of the modeled reference state. The latest QN90F configuration records bare-chassis envelope and modeled service-motion checks as passed. Those checks do not certify connector/cable fit, physical fit, thermal behavior, purchased hardware, material strength or human service safety. Preliminary nesting is a study, not production CAM.
 
-**No CNC files are approved for manufacturing. Full-sheet release remains BLOCKED.** Open gates include receiver strategy/fit if machining-dependent; measured side channels and slot coupon; actual plywood lot and tolerance coupon; CNC-provider/tooling parameters and fit regeneration; remaining geometry-controlling hardware/control interfaces and attachment methods; exact QN90F rerun; primary raised-playfield support; and physical load/nudge/glass-edge/thermal qualification.
+**No CNC files are approved for manufacturing. Full-sheet release remains BLOCKED.** Open gates include receiver strategy/fit if machining-dependent; measured side channels and slot coupon; actual plywood lot and tolerance coupon; CNC-provider/tooling parameters and fit regeneration; remaining geometry-controlling hardware/control interfaces and attachment methods; reconciliation of the QN90F and 10 mm gap evidence across the report/package; primary raised-playfield support; and physical load/nudge/glass-edge/thermal qualification.
 
 The lockdown bar and rear glass-channel screw locations are dry-fit interfaces with protected envelopes, not full-sheet CNC gates themselves. F06 reinforcement remains required and is qualified after shell dry fit. See the report for the precise gate boundaries.
 
