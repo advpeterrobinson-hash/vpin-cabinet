@@ -10,7 +10,7 @@ Audit performed before editing the public entry points. Main baseline: `2eed36e4
 | Engineering-branch docs/RENDERS.md and docs/pt-BR/RENDERS.md | V35.1, V34, V33.8 and V32 all called current | Provide bilingual main gallery pages with a single current V35.1 entry and explicitly historical V32 links |
 | main AGENTS.md | 580 mm, LG C5, mandatory gas struts, PC drawer and play-isolated wheels | Add explicit current-review precedence; preserve old baseline instructions as historical evidence |
 | main docs/FUTURE_PROOFING.md, docs/requirements.md, docs/DESIGN_DECISIONS.md and docs/CNC_FLATPACK_PHILOSOPHY.md | Older width studies, gas struts and drawer references read as active requirements | Mark superseded architecture context; general safety/flat-pack principles remain applicable |
-| V35.1 report: passing motion checks vs QN90F purchase selection | Modeled reference checks could be mistaken for exact QN90F validation | Preserve exact-envelope PLAY / 0–50° / 48 mm lift-out rerun requirement; purchase selection is not validation |
+| V35.1 QN90F record | Older report language says checks are pending; latest config marks modeled bare-chassis envelope and service-motion checks passed | Public overview follows the latest config while disclosing the report/package mismatch; physical connector/cable fit and thermal qualification remain open |
 
 ## Scope and precedence
 
@@ -20,7 +20,7 @@ No geometry, parameters, BOM, CAD, generated views or manufacturing files are ch
 
 ## Gates preserved
 
-Exact Samsung QN43QN90FAGXZD envelope and service-motion/interference validation; primary raised-playfield support; receiver strategy/fit where it controls machining; measured side-channel profile and slot coupon; plywood lot/tolerance coupon; provider/tooling and fit regeneration; remaining permanent hardware/control interfaces and attachment methods; physical load, nudge, glass-edge and thermal qualification. Full-sheet CNC release remains **BLOCKED**.
+Reconcile the QN90F configuration with the older report text and generated package; physical connector/cable fit and thermal qualification; primary raised-playfield support; receiver strategy/fit where it controls machining; measured side-channel profile and slot coupon; plywood lot/tolerance coupon; provider/tooling and fit regeneration; remaining permanent hardware/control interfaces and attachment methods; physical load, nudge, glass-edge and thermal qualification. Full-sheet CNC release remains **BLOCKED**.
 
 Lockdown-bar and rear-channel screw locations are dry-fit interfaces with protected envelopes, not full-sheet CNC gates in themselves. F06 reinforcement is required but its jig/screw qualification follows shell dry fit; final 5 mm glass cutting follows cabinet/channel dry fit. Do not broaden these into unnecessary pre-CNC purchasing gates.
 
@@ -33,8 +33,11 @@ A source mismatch remains in the same engineering snapshot: docs/STANDARD_WIDEBO
 
 ### Tukkari source mentions
 
-The feat/v351-cncaudit-qn90f tree contains Tukkari references in exports/generated/backbox-v34/tukkari-first-audit.json, exports/generated/backbox-v342/tukkari-first-audit.json, and exports/generated/widebody-v351/tukkari-comparison.json. The records link the public assembly guide and product page, compare functional interfaces and explicitly record that source CAD was not imported. They are project comparison/audit records, not a copied Tukkari CAD source.
+The feat/v351-cncaudit-qn90f tree contains Tukkari references in [backbox-v34/tukkari-first-audit.json](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/e6fe42152565a167e9d4e4d0ad4eb080f09c1c28/exports/generated/backbox-v34/tukkari-first-audit.json), [backbox-v342/tukkari-first-audit.json](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/e6fe42152565a167e9d4e4d0ad4eb080f09c1c28/exports/generated/backbox-v342/tukkari-first-audit.json), and [widebody-v351/tukkari-comparison.json](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/e6fe42152565a167e9d4e4d0ad4eb080f09c1c28/exports/generated/widebody-v351/tukkari-comparison.json). The records link the public assembly guide and product page, compare functional interfaces and explicitly record that source CAD was not imported. They are project comparison/audit records, not a copied Tukkari CAD source.
 
 ### CAD-agent source
 
 The upstream [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) was reviewed at README/license level. See the [English assessment](CAD_AGENT_TOOLING_REVIEW.md) and [Portuguese assessment](CAD_AGENT_TOOLING_REVIEW.pt-BR.md). It is a candidate for an isolated pilot only; no installation or adoption is proposed by this documentation update.
+
+
+The follow-up supersedes the initial gate wording above: current config marks the modeled QN90F envelope and service-motion checks passed. The unresolved item is consistency between the config, report and generated package; physical fit and thermal qualification remain open.
