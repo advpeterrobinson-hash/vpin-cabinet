@@ -1,6 +1,6 @@
 # Public documentation audit — V35.1
 
-Audit performed before editing the public entry points. Main baseline: `2eed36e4ff6e0871edc4d7d845288c5a629fd8b9`. Engineering evidence: [`aa3043cd172ed2bf0f05e0ef5ddcf1cbe9b53656`](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/aa3043cd172ed2bf0f05e0ef5ddcf1cbe9b53656/docs/STANDARD_WIDEBODY_V351.md) on `feat/v351-cncaudit-qn90f`.
+Audit performed before editing the public entry points. Main baseline: `2eed36e4ff6e0871edc4d7d845288c5a629fd8b9`. Engineering evidence: [`e6fe42152565a167e9d4e4d0ad4eb080f09c1c28`](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/e6fe42152565a167e9d4e4d0ad4eb080f09c1c28/docs/STANDARD_WIDEBODY_V351.md) on `feat/v351-cncaudit-qn90f`.
 
 | Location before correction | Contradiction | Documentary resolution |
 |---|---|---|
@@ -23,3 +23,18 @@ No geometry, parameters, BOM, CAD, generated views or manufacturing files are ch
 Exact Samsung QN43QN90FAGXZD envelope and service-motion/interference validation; primary raised-playfield support; receiver strategy/fit where it controls machining; measured side-channel profile and slot coupon; plywood lot/tolerance coupon; provider/tooling and fit regeneration; remaining permanent hardware/control interfaces and attachment methods; physical load, nudge, glass-edge and thermal qualification. Full-sheet CNC release remains **BLOCKED**.
 
 Lockdown-bar and rear-channel screw locations are dry-fit interfaces with protected envelopes, not full-sheet CNC gates in themselves. F06 reinforcement is required but its jig/screw qualification follows shell dry fit; final 5 mm glass cutting follows cabinet/channel dry fit. Do not broaden these into unnecessary pre-CNC purchasing gates.
+
+
+## Follow-up audit — 2026-10-21
+
+The public links now pin the latest available engineering branch head checked for this update: e6fe42152565a167e9d4e4d0ad4eb080f09c1c28. The added docs/V351_REMAINING_EXTERNAL_GATES.md and config/playfield_qn90f_v351.json record the QN90F bare-chassis envelope checks and 10 mm nominal glass gap as closed/selected. Physical connector and cable clearance, fit and thermal qualification remain outside those CAD checks.
+
+A source mismatch remains in the same engineering snapshot: docs/STANDARD_WIDEBODY_V351.md still describes the QN90F modeled checks as pending, while exports/generated/widebody-v351/README.md still states a 7.5 mm planning gap. The configuration records 10 mm. Public copy now discloses this conflict and does not present the generated package as proof that the 10 mm update is in the CAD snapshot. Reconcile the report and regenerate the package/views before treating those artifacts as one consistent release. CNC/full-sheet manufacturing remains BLOCKED.
+
+### Tukkari source mentions
+
+The feat/v351-cncaudit-qn90f tree contains Tukkari references in exports/generated/backbox-v34/tukkari-first-audit.json, exports/generated/backbox-v342/tukkari-first-audit.json, and exports/generated/widebody-v351/tukkari-comparison.json. The records link the public assembly guide and product page, compare functional interfaces and explicitly record that source CAD was not imported. They are project comparison/audit records, not a copied Tukkari CAD source.
+
+### CAD-agent source
+
+The upstream [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) was reviewed at README/license level. See the [English assessment](CAD_AGENT_TOOLING_REVIEW.md) and [Portuguese assessment](CAD_AGENT_TOOLING_REVIEW.pt-BR.md). It is a candidate for an isolated pilot only; no installation or adoption is proposed by this documentation update.
