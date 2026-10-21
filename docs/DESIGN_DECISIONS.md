@@ -1,3 +1,5 @@
+> **Historical architecture context — superseded by the [current V35.1 review](../README.md).** Earlier widths, display selections, gas-strut/prop and PC-drawer references below are retained for traceability, not current requirements. General safety, serviceability and flat-pack principles remain applicable. CNC/manufacturing remains BLOCKED. See the [documentation audit](PUBLIC_DOCUMENTATION_AUDIT.md).
+
 # Design Decisions
 
 This log records decisions that materially constrain the cabinet design. New decisions should be appended rather than silently rewriting history.
