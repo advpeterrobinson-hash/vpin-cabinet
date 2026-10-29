@@ -73,6 +73,10 @@ Engineering / parametric-CAD development.
 No CNC files are approved for manufacturing yet. CNC production remains blocked on final hardware geometry, material measurement, provider/tooling consultation, physical tolerance coupon, and final design validation.
 
 
+## External virtual-pinball software references
+
+- [Visual Pinball Infinite](research/software/visual-pinball-infinite.md) — independent Rust-based VPX-compatible engine and integrated library/cabinet software; **research only**, currently Windows 10/11, with Linux compatibility and cabinet integration unverified.
+
 ## Contributing
 
 Contributions are welcome from builders, CNC operators, mechanical designers, electricians, software developers, testers, and documentation writers.
