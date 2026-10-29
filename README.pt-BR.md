@@ -33,6 +33,10 @@ V32 tem 45 sólidos válidos e nenhuma interseção detectada acima de 0,01 mm³
 
 Scripts e parâmetros documentados são a fonte de verdade. No branch V32, `make review-v32` regenera CAD e galeria, verifica sólidos salvos/metadados bilíngues e rejeita alterações geométricas inesperadas contra a evidência versionada. O pipeline v25–v27 permanece **PRE-V32**, preservado por suas dependências vivas. Veja a [auditoria local](https://github.com/advpeterrobinson-hash/vpin-cabinet/blob/feat/cabinet-review-v32/docs/pt-BR/V32_LOCAL_AUDIT.md).
 
+## Referências externas de software para virtual pinball
+
+- [Visual Pinball Infinite](research/software/visual-pinball-infinite.pt-BR.md) — motor compatível com VPX em Rust e gerenciador integrado de biblioteca/gabinete; **somente pesquisa**, atualmente para Windows 10/11, com Linux e integração ao gabinete ainda não verificados.
+
 ## Licença e participação
 
 Material original sob **CERN-OHL-S-2.0**, com uso comercial permitido e obrigações recíprocas de disponibilização do fonte aplicável conforme [LICENSE](LICENSE). Preserve [NOTICE.md](NOTICE.md) e o Source Location oficial: https://github.com/advpeterrobinson-hash/vpin-cabinet.
